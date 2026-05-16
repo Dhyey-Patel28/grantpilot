@@ -1,0 +1,650 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361808",
+  "fetched_at": "2026-05-16T14:09:13.996Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVkeUZTQU1aV1Z6Sjdsbm43NGRLYWxMaS9tSHhhM2NDL3Nwb1pkMHlkeVk9Ig.g3B3fUksHEeEezbO6Lwicw5AVZidGNeI0e9knVN5H5s",
+    "data": {
+      "id": 361808,
+      "revision": 4,
+      "opportunityNumber": "DOL-OESE-33831",
+      "opportunityTitle": "Innovative Approaches to Literacy 84.215G",
+      "owningAgencyCode": "DOL-OESE",
+      "listed": "L",
+      "publisherUid": "108543823001346149044023871953952539321",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361808,
+        "version": 5,
+        "agencyCode": "DOL-OESE",
+        "agencyName": "Office of Elementary and Secondary Education",
+        "agencyPhone": "202-693-2606",
+        "agencyAddressDesc": "Simon.Earle@ed.gov",
+        "agencyDetails": {
+          "code": "OESE",
+          "seed": "DOL-OESE",
+          "agencyName": "Office of Elementary and Secondary Education",
+          "agencyCode": "DOL-OESE",
+          "topAgencyCode": "DOL"
+        },
+        "topAgencyDetails": {
+          "code": "DOL",
+          "seed": "DOL",
+          "agencyName": "Department of Labor",
+          "agencyCode": "DOL",
+          "topAgencyCode": "DOL"
+        },
+        "agencyContactPhone": "202-693-2606",
+        "agencyContactName": "Office of Elementary and Secondary Education",
+        "agencyContactDesc": "Simon Earle, PhD\nSimon.Earle@ed.gov",
+        "agencyContactEmail": "Simon.Earle@ed.gov",
+        "agencyContactEmailDesc": "Simon.Earle@ed.gov",
+        "synopsisDesc": "The Employment and Training Administration at the U.S. Department of Labor (Labor), is soliciting applications in support of the administration of the Innovative Approaches to Literacy program on behalf of the U.S. Department of Education (ED).  The Innovative Approaches to Literacy (IAL) program supports high-quality programs designed to develop and improve literacy skills for children and students from birth through 12th grade in high-need local educational agencies (LEAs) and schools. IAL promotes innovative literacy programs that support the development of literacy skills in low-income communities, including programs that (1) develop and enhance effective school library programs, which may include providing professional development for school librarians, books, and up-to-date materials to high-need schools; (2) provide early literacy services, including pediatric literacy programs through which, during well-child visits, medical providers trained in research-based methods of early language and literacy promotion provide developmentally appropriate books and recommendations to parents to encourage them to read aloud to their children starting in infancy; and (3) provide high-quality books on a regular basis to children and adolescents from low-income communities to increase reading motivation, performance, and frequency.  By expanding access to high‐quality books, strengthening school library programs, and promoting early language and literacy development in low‐income communities, the IAL program directly advances the goal of increasing reading proficiency. These strategies build strong foundational skills from birth through adolescence, ensuring that children and students—particularly those in high‐need LEAs—receive the targeted supports necessary to improve their reading motivation, performance, and long‐term literacy outcomes.",
+        "responseDate": "Jun 09, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59:59 pm Eastern Time.",
+        "fundingDescLinkUrl": "https://www.ed.gov/grants-and-programs/grants-birth-grade-12/well-rounded-education-grants/innovative-approaches-literacy",
+        "fundingDescLinkDesc": "https://www.ed.gov/grants-and-programs/grants-birth-grade-12/well-rounded-education-grants/innovative-approaches-literacy",
+        "postingDate": "Apr 08, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 09, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "25",
+        "estimatedFunding": "16800000",
+        "estimatedFundingFormatted": "16,800,000",
+        "awardCeiling": "0",
+        "awardCeilingFormatted": "0",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "To be considered for an award under this competition, an applicant must be one or more of the following: (a) An LEA in which 20 percent or more of the students served by the LEA are from families with an income below the poverty line (as defined in section 8101(41) of the Elementary and Secondary Education Act, as amended (ESEA)). (b) A consortium of such LEAs described in paragraph (1) above. (c) The Bureau of Indian Education. (d) An eligible national nonprofit organization that serves children and students within the attendance boundaries of one or more eligible LEAs.Note: Under the definition of &quot;poverty line&quot; in section 8101(41) of the ESEA, the determination of the percentage of students served by an LEA from families with an income below the poverty line is based on the U.S. Census Bureau's Small Area Income and Poverty Estimates (SAIPE) data. An entity that meets the definition of an LEA in section 8101(30) of the ESEA and that serves multiple LEAs, such as a county office of education, an education service agency, or regional service education agency, must provide the most recent SAIPE data for each of the individual LEAs it serves. To determine whether the entity meets the poverty threshold, ED will derive the entity's poverty rate by aggregating the number of students from families below the poverty line (as provided in SAIPE data) in each of the LEAs the entity serves and 4 dividing it by the total number of students (as provided in SAIPE data) in all of the LEAs the entity serves. An LEA for which SAIPE data are not available, such as a non-geographic charter school, must provide a determination by the SEA that 20 percent or more of the students aged 5-17 in the LEA are from families with incomes below the poverty line based on the same State[1]derived poverty data the State educational agency used to determine the LEA's allocation under part A of title I of the ESEA.Note: If you are a nonprofit organization, under 34 CFR 75.51, you may demonstrate your nonprofit status by providing (1) proof that the Internal Revenue Service currently recognizes the applicant as an organization to which contributions are tax deductible under section 501(c)(3) of the Internal Revenue Code; 2) a statement from a State taxing body or the State attorney general certifying that the organization is a nonprofit organization operating within the State and that no part of its net earnings may lawfully benefit any private shareholder or individual; or (3)a certified copy of the applicant's certificate of incorporation or similar document if it clearly establishes the nonprofit status of the applicant.",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 06, 2026 04:56:47 PM EDT",
+        "modComments": "Updates made to eligible applicants and additional information for eligibility.",
+        "createdDate": "Apr 08, 2026 08:06:14 AM EDT",
+        "lastUpdatedDate": "May 06, 2026 04:56:47 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ELT",
+            "description": "Employment, Labor and Training"
+          }
+        ],
+        "responseDateStr": "2026-06-09-00-00-00",
+        "postingDateStr": "2026-04-08-00-00-00",
+        "archiveDateStr": "2026-07-09-00-00-00",
+        "createTimeStampStr": "2026-05-06-16-56-47"
+      },
+      "agencyDetails": {
+        "code": "OESE",
+        "seed": "DOL-OESE",
+        "agencyName": "Office of Elementary and Secondary Education",
+        "agencyCode": "DOL-OESE",
+        "topAgencyCode": "DOL"
+      },
+      "topAgencyDetails": {
+        "code": "DOL",
+        "seed": "DOL",
+        "agencyName": "Department of Labor",
+        "agencyCode": "DOL",
+        "topAgencyCode": "DOL"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79384,
+          "opportunityId": 361808,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 481836,
+          "createdDate": "Apr 24, 2026 09:45:07 AM EDT",
+          "lastUpdatedDate": "Apr 24, 2026 09:45:08 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351459,
+              "opportunityId": 361808,
+              "mimeType": "application/pdf",
+              "fileName": "Final 84.215G IAL FY2026 Application Notice and Instructions 2026_0422 (1).pdf",
+              "fileDescription": "Final 84.215G IAL FY2026 Application Notice and Instructions 2026_0422 (1).pdf",
+              "fileLobSize": 500292,
+              "createdDate": "Apr 24, 2026 09:45:08 AM EDT",
+              "synopsisAttFolderId": 79384
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432590,
+          "opportunityId": 361808,
+          "cfdaNumber": "84.215",
+          "programTitle": "Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service Community Schools; and Congressionally Directed Spending for Elementary and Secondary Education Community Projects"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361808,
+            "revision": 0
+          },
+          "opportunityId": 361808,
+          "revision": 0,
+          "opportunityNumber": "DOL-OESE-33831",
+          "opportunityTitle": "Innovative Approaches to Literacy 84.215G",
+          "owningAgencyCode": "DOL-OESE",
+          "publisherUid": "108543823001346149044023871953952539321",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361808,
+              "revision": 0
+            },
+            "opportunityId": 361808,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOL-OESE",
+            "agencyAddressDesc": "Simon.Earle@ed.gov",
+            "agencyDetails": {
+              "code": "OESE",
+              "seed": "DOL-OESE",
+              "agencyName": "Office of Elementary and Secondary Education",
+              "agencyCode": "DOL-OESE",
+              "topAgencyCode": "DOL"
+            },
+            "agencyContactPhone": "202-693-2606",
+            "agencyContactName": "Office of Elementary and Secondary Education",
+            "agencyContactDesc": "Simon Earle, PhD\nSimon.Earle@ed.gov",
+            "agencyContactEmail": "Simon.Earle@ed.gov",
+            "agencyContactEmailDesc": "Simon.Earle@ed.gov",
+            "synopsisDesc": "The Employment and Training Administration at the U.S. Department of Labor (Labor), is soliciting applications in support of the administration of the Innovative Approaches to Literacy program on behalf of the U.S. Department of Education (ED).  The Innovative Approaches to Literacy (IAL) program supports high-quality programs designed to develop and improve literacy skills for children and students from birth through 12th grade in high-need local educational agencies (LEAs) and schools. IAL promotes innovative literacy programs that support the development of literacy skills in low-income communities, including programs that (1) develop and enhance effective school library programs, which may include providing professional development for school librarians, books, and up-to-date materials to high-need schools; (2) provide early literacy services, including pediatric literacy programs through which, during well-child visits, medical providers trained in research-based methods of early language and literacy promotion provide developmentally appropriate books and recommendations to parents to encourage them to read aloud to their children starting in infancy; and (3) provide high-quality books on a regular basis to children and adolescents from low-income communities to increase reading motivation, performance, and frequency.  By expanding access to high‐quality books, strengthening school library programs, and promoting early language and literacy development in low‐income communities, the IAL program directly advances the goal of increasing reading proficiency. These strategies build strong foundational skills from birth through adolescence, ensuring that children and students—particularly those in high‐need LEAs—receive the targeted supports necessary to improve their reading motivation, performance, and long‐term literacy outcomes.",
+            "responseDate": "Jun 09, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59:59 pm Eastern Time.",
+            "fundingDescLinkUrl": "https://www.ed.gov/grants-and-programs/grants-birth-grade-12/well-rounded-education-grants/innovative-approaches-literacy",
+            "fundingDescLinkDesc": "https://www.ed.gov/grants-and-programs/grants-birth-grade-12/well-rounded-education-grants/innovative-approaches-literacy",
+            "postingDate": "Apr 08, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 09, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "16800000",
+            "estimatedFundingFormatted": "16,800,000",
+            "awardCeiling": "750000",
+            "awardCeilingFormatted": "750,000",
+            "awardFloor": "375000",
+            "awardFloorFormatted": "375,000",
+            "createTimeStamp": "Apr 08, 2026 08:32:13 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 09, 2026 04:44:02 PM EDT",
+            "createdDate": "Apr 08, 2026 08:06:14 AM EDT",
+            "lastUpdatedDate": "Apr 08, 2026 08:06:14 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              }
+            ],
+            "responseDateStr": "2026-06-09-00-00-00",
+            "postingDateStr": "2026-04-08-00-00-00",
+            "archiveDateStr": "2026-07-09-00-00-00",
+            "createTimeStampStr": "2026-04-08-08-32-13"
+          },
+          "cfdas": [
+            {
+              "id": 432590,
+              "opportunityId": 361808,
+              "revision": 3,
+              "cfdaNumber": "84.215",
+              "programTitle": "Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service Community Schools; and Congressionally Directed Spending for Elementary and Secondary Education Community Projects"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361808,
+            "revision": 1
+          },
+          "opportunityId": 361808,
+          "revision": 1,
+          "opportunityNumber": "DOL-OESE-33831",
+          "opportunityTitle": "Innovative Approaches to Literacy 84.215G",
+          "owningAgencyCode": "DOL-OESE",
+          "publisherUid": "108543823001346149044023871953952539321",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361808,
+              "revision": 1
+            },
+            "opportunityId": 361808,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "DOL-OESE",
+            "agencyAddressDesc": "Simon.Earle@ed.gov",
+            "agencyDetails": {
+              "code": "OESE",
+              "seed": "DOL-OESE",
+              "agencyName": "Office of Elementary and Secondary Education",
+              "agencyCode": "DOL-OESE",
+              "topAgencyCode": "DOL"
+            },
+            "agencyContactPhone": "202-693-2606",
+            "agencyContactName": "Office of Elementary and Secondary Education",
+            "agencyContactDesc": "Simon Earle, PhD\nSimon.Earle@ed.gov",
+            "agencyContactEmail": "Simon.Earle@ed.gov",
+            "agencyContactEmailDesc": "Simon.Earle@ed.gov",
+            "synopsisDesc": "The Employment and Training Administration at the U.S. Department of Labor (Labor), is soliciting applications in support of the administration of the Innovative Approaches to Literacy program on behalf of the U.S. Department of Education (ED).  The Innovative Approaches to Literacy (IAL) program supports high-quality programs designed to develop and improve literacy skills for children and students from birth through 12th grade in high-need local educational agencies (LEAs) and schools. IAL promotes innovative literacy programs that support the development of literacy skills in low-income communities, including programs that (1) develop and enhance effective school library programs, which may include providing professional development for school librarians, books, and up-to-date materials to high-need schools; (2) provide early literacy services, including pediatric literacy programs through which, during well-child visits, medical providers trained in research-based methods of early language and literacy promotion provide developmentally appropriate books and recommendations to parents to encourage them to read aloud to their children starting in infancy; and (3) provide high-quality books on a regular basis to children and adolescents from low-income communities to increase reading motivation, performance, and frequency.  By expanding access to high‐quality books, strengthening school library programs, and promoting early language and literacy development in low‐income communities, the IAL program directly advances the goal of increasing reading proficiency. These strategies build strong foundational skills from birth through adolescence, ensuring that children and students—particularly those in high‐need LEAs—receive the targeted supports necessary to improve their reading motivation, performance, and long‐term literacy outcomes.",
+            "responseDate": "Jun 09, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59:59 pm Eastern Time.",
+            "fundingDescLinkUrl": "https://www.ed.gov/grants-and-programs/grants-birth-grade-12/well-rounded-education-grants/innovative-approaches-literacy",
+            "fundingDescLinkDesc": "https://www.ed.gov/grants-and-programs/grants-birth-grade-12/well-rounded-education-grants/innovative-approaches-literacy",
+            "postingDate": "Apr 08, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 09, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "16800000",
+            "estimatedFundingFormatted": "16,800,000",
+            "awardCeiling": "750000",
+            "awardCeilingFormatted": "750,000",
+            "awardFloor": "375000",
+            "awardFloorFormatted": "375,000",
+            "createTimeStamp": "Apr 09, 2026 04:44:46 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "The latest version of the NIA has been uploaded to the related documents tab and added as an instruction file.",
+            "actionType": "U",
+            "actionDate": "Apr 14, 2026 08:32:30 AM EDT",
+            "createdDate": "Apr 08, 2026 08:06:14 AM EDT",
+            "lastUpdatedDate": "Apr 09, 2026 04:44:02 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              }
+            ],
+            "responseDateStr": "2026-06-09-00-00-00",
+            "postingDateStr": "2026-04-08-00-00-00",
+            "archiveDateStr": "2026-07-09-00-00-00",
+            "createTimeStampStr": "2026-04-09-16-44-46"
+          },
+          "cfdas": [
+            {
+              "id": 432590,
+              "opportunityId": 361808,
+              "revision": 3,
+              "cfdaNumber": "84.215",
+              "programTitle": "Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service Community Schools; and Congressionally Directed Spending for Elementary and Secondary Education Community Projects"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361808,
+            "revision": 2
+          },
+          "opportunityId": 361808,
+          "revision": 2,
+          "opportunityNumber": "DOL-OESE-33831",
+          "opportunityTitle": "Innovative Approaches to Literacy 84.215G",
+          "owningAgencyCode": "DOL-OESE",
+          "publisherUid": "108543823001346149044023871953952539321",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361808,
+              "revision": 2
+            },
+            "opportunityId": 361808,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "DOL-OESE",
+            "agencyAddressDesc": "Simon.Earle@ed.gov",
+            "agencyDetails": {
+              "code": "OESE",
+              "seed": "DOL-OESE",
+              "agencyName": "Office of Elementary and Secondary Education",
+              "agencyCode": "DOL-OESE",
+              "topAgencyCode": "DOL"
+            },
+            "agencyContactPhone": "202-693-2606",
+            "agencyContactName": "Office of Elementary and Secondary Education",
+            "agencyContactDesc": "Simon Earle, PhD\nSimon.Earle@ed.gov",
+            "agencyContactEmail": "Simon.Earle@ed.gov",
+            "agencyContactEmailDesc": "Simon.Earle@ed.gov",
+            "synopsisDesc": "The Employment and Training Administration at the U.S. Department of Labor (Labor), is soliciting applications in support of the administration of the Innovative Approaches to Literacy program on behalf of the U.S. Department of Education (ED).  The Innovative Approaches to Literacy (IAL) program supports high-quality programs designed to develop and improve literacy skills for children and students from birth through 12th grade in high-need local educational agencies (LEAs) and schools. IAL promotes innovative literacy programs that support the development of literacy skills in low-income communities, including programs that (1) develop and enhance effective school library programs, which may include providing professional development for school librarians, books, and up-to-date materials to high-need schools; (2) provide early literacy services, including pediatric literacy programs through which, during well-child visits, medical providers trained in research-based methods of early language and literacy promotion provide developmentally appropriate books and recommendations to parents to encourage them to read aloud to their children starting in infancy; and (3) provide high-quality books on a regular basis to children and adolescents from low-income communities to increase reading motivation, performance, and frequency.  By expanding access to high‐quality books, strengthening school library programs, and promoting early language and literacy development in low‐income communities, the IAL program directly advances the goal of increasing reading proficiency. These strategies build strong foundational skills from birth through adolescence, ensuring that children and students—particularly those in high‐need LEAs—receive the targeted supports necessary to improve their reading motivation, performance, and long‐term literacy outcomes.",
+            "responseDate": "Jun 09, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59:59 pm Eastern Time.",
+            "fundingDescLinkUrl": "https://www.ed.gov/grants-and-programs/grants-birth-grade-12/well-rounded-education-grants/innovative-approaches-literacy",
+            "fundingDescLinkDesc": "https://www.ed.gov/grants-and-programs/grants-birth-grade-12/well-rounded-education-grants/innovative-approaches-literacy",
+            "postingDate": "Apr 08, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 09, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "16800000",
+            "estimatedFundingFormatted": "16,800,000",
+            "awardCeiling": "0",
+            "awardCeilingFormatted": "0",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "createTimeStamp": "Apr 24, 2026 09:45:08 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "Updates made to the award ceiling and award floor.",
+            "actionType": "U",
+            "actionDate": "Apr 24, 2026 09:45:26 AM EDT",
+            "createdDate": "Apr 08, 2026 08:06:14 AM EDT",
+            "lastUpdatedDate": "Apr 14, 2026 08:32:30 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              }
+            ],
+            "responseDateStr": "2026-06-09-00-00-00",
+            "postingDateStr": "2026-04-08-00-00-00",
+            "archiveDateStr": "2026-07-09-00-00-00",
+            "createTimeStampStr": "2026-04-24-09-45-08"
+          },
+          "cfdas": [
+            {
+              "id": 432590,
+              "opportunityId": 361808,
+              "revision": 3,
+              "cfdaNumber": "84.215",
+              "programTitle": "Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service Community Schools; and Congressionally Directed Spending for Elementary and Secondary Education Community Projects"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "awardCeiling",
+            "awardFloor",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361808,
+            "revision": 3
+          },
+          "opportunityId": 361808,
+          "revision": 3,
+          "opportunityNumber": "DOL-OESE-33831",
+          "opportunityTitle": "Innovative Approaches to Literacy 84.215G",
+          "owningAgencyCode": "DOL-OESE",
+          "publisherUid": "108543823001346149044023871953952539321",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361808,
+              "revision": 3
+            },
+            "opportunityId": 361808,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "DOL-OESE",
+            "agencyAddressDesc": "Simon.Earle@ed.gov",
+            "agencyDetails": {
+              "code": "OESE",
+              "seed": "DOL-OESE",
+              "agencyName": "Office of Elementary and Secondary Education",
+              "agencyCode": "DOL-OESE",
+              "topAgencyCode": "DOL"
+            },
+            "agencyContactPhone": "202-693-2606",
+            "agencyContactName": "Office of Elementary and Secondary Education",
+            "agencyContactDesc": "Simon Earle, PhD\nSimon.Earle@ed.gov",
+            "agencyContactEmail": "Simon.Earle@ed.gov",
+            "agencyContactEmailDesc": "Simon.Earle@ed.gov",
+            "synopsisDesc": "The Employment and Training Administration at the U.S. Department of Labor (Labor), is soliciting applications in support of the administration of the Innovative Approaches to Literacy program on behalf of the U.S. Department of Education (ED).  The Innovative Approaches to Literacy (IAL) program supports high-quality programs designed to develop and improve literacy skills for children and students from birth through 12th grade in high-need local educational agencies (LEAs) and schools. IAL promotes innovative literacy programs that support the development of literacy skills in low-income communities, including programs that (1) develop and enhance effective school library programs, which may include providing professional development for school librarians, books, and up-to-date materials to high-need schools; (2) provide early literacy services, including pediatric literacy programs through which, during well-child visits, medical providers trained in research-based methods of early language and literacy promotion provide developmentally appropriate books and recommendations to parents to encourage them to read aloud to their children starting in infancy; and (3) provide high-quality books on a regular basis to children and adolescents from low-income communities to increase reading motivation, performance, and frequency.  By expanding access to high‐quality books, strengthening school library programs, and promoting early language and literacy development in low‐income communities, the IAL program directly advances the goal of increasing reading proficiency. These strategies build strong foundational skills from birth through adolescence, ensuring that children and students—particularly those in high‐need LEAs—receive the targeted supports necessary to improve their reading motivation, performance, and long‐term literacy outcomes.",
+            "responseDate": "Jun 09, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59:59 pm Eastern Time.",
+            "fundingDescLinkUrl": "https://www.ed.gov/grants-and-programs/grants-birth-grade-12/well-rounded-education-grants/innovative-approaches-literacy",
+            "fundingDescLinkDesc": "https://www.ed.gov/grants-and-programs/grants-birth-grade-12/well-rounded-education-grants/innovative-approaches-literacy",
+            "postingDate": "Apr 08, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 09, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "16800000",
+            "estimatedFundingFormatted": "16,800,000",
+            "awardCeiling": "0",
+            "awardCeilingFormatted": "0",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "createTimeStamp": "Apr 24, 2026 09:45:26 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "Clarification of CPP 1 in the Program Description on 4.22.26",
+            "actionType": "U",
+            "actionDate": "May 06, 2026 04:56:47 PM EDT",
+            "createdDate": "Apr 08, 2026 08:06:14 AM EDT",
+            "lastUpdatedDate": "Apr 24, 2026 09:45:26 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              }
+            ],
+            "responseDateStr": "2026-06-09-00-00-00",
+            "postingDateStr": "2026-04-08-00-00-00",
+            "archiveDateStr": "2026-07-09-00-00-00",
+            "createTimeStampStr": "2026-04-24-09-45-26"
+          },
+          "cfdas": [
+            {
+              "id": 432590,
+              "opportunityId": 361808,
+              "revision": 3,
+              "cfdaNumber": "84.215",
+              "programTitle": "Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service Community Schools; and Congressionally Directed Spending for Elementary and Secondary Education Community Projects"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292370,
+          "topportunityId": 361808,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "DOL-OESE-33831",
+          "opportunityTitle": "Innovative Approaches to Literacy 84.215G",
+          "cfdaNumber": "84.215",
+          "openingDate": "2026-04-09",
+          "closingDate": "2026-06-09",
+          "owningAgencyCode": "DOL-OESE",
+          "agencyDetails": {
+            "code": "OESE",
+            "seed": "DOL-OESE",
+            "agencyName": "Office of Elementary and Secondary Education",
+            "agencyCode": "DOL-OESE",
+            "topAgencyCode": "DOL"
+          },
+          "topAgencyDetails": {
+            "code": "DOL",
+            "seed": "DOL",
+            "agencyName": "Department of Labor",
+            "agencyCode": "DOL",
+            "topAgencyCode": "DOL"
+          },
+          "programTitle": "Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service Community Schools; and Congressionally Directed Spending for Elementary and Secondary Education Community Projects",
+          "contactInfo": "Simon Earle, PhD",
+          "gracePeriod": 0,
+          "competitionId": "DOL-OESE-33831",
+          "competitionTitle": "Innovative Approaches to Literacy 84.215G",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 100,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 24, 2026 09:44:39 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292370",
+          "openingDateStr": "2026-04-09-00-00-00",
+          "closingDateStr": "2026-06-09-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 09, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 11:59:59 pm Eastern Time.",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "applicantEligibilityDesc",
+        "createTimeStamp",
+        "applicantTypes"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 4,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

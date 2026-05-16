@@ -1,0 +1,361 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "356538",
+  "fetched_at": "2026-05-16T14:07:24.283Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InRKalZkaHlQeXJkSDl2YmtwNG9sTnI5b2REbUF0K1hwQjJjOUYxc0xnYjQ9Ig.c4vEV8QYIc1SReuVhZ1t_CwM5cHX0jk7AKCkU_z-QII",
+    "data": {
+      "id": 356538,
+      "revision": 2,
+      "opportunityNumber": "PD-24-7790",
+      "opportunityTitle": "Atmosphere Cluster",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 356538,
+        "version": 3,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "<div>\n\nThe Atmosphere Cluster (AC)in the Division of Atmospheric and Geospace Sciences (AGS)supportsfundamental studies of atmospheric processes from the Earth&rsquo;s surface to thestratosphere, and from timescales of nanoseconds to millennia.&#8239;Core areas of research include the chemical, physical, and dynamical processes in the atmosphere thatimpactclouds, weather, climate, air quality, and the water cycle.Research methods include modeling, collecting observations, conducting experiments in the laboratory and field, and advancing analytical measurement techniques.\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\nGeneral research topics that are supported by the AC include, andare not limited to:\n\n</div>\n<div>\n<ul>\n<li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{\" data-aria-posinset=\"1\" data-aria-level=\"1\">\n\nChemical processes and mechanisms that explain how atmospheric gases and aerosols form, react,transformand interact with the surrounding environment.\n\n</li>\n</ul>\n</div>\n<div>\n<ul>\n<li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{\" data-aria-posinset=\"2\" data-aria-level=\"1\">\n\nProcessesand dynamics that governclimateand hydroclimate,includingtheir mean state, variability, response to external forcingandtheir role inthe establishment ofaglobal energy and water balance; coupled atmosphere-ocean interactions, land-atmosphere interactions and interactionsamongclouds, atmosphericcirculationand climate.\n\n</li>\n</ul>\n</div>\n<div>\n<ul>\n<li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{\" data-aria-posinset=\"3\" data-aria-level=\"1\">\n\nObservational and modeling studies of past climate and its drivers and studies that developand synthesizepaleoclimate proxies and records.\n\n</li>\n</ul>\n</div>\n<div>\n<ul>\n<li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{\" data-aria-posinset=\"4\" data-aria-level=\"1\">\n\nPhysics and dynamics of atmospheric motions on all scales,from the planetary to the microscale, including the general circulation of the troposphere and stratosphere, planetary waves, synoptic and mesoscale systems, convection, gravity waves,turbulenceand planetary boundary layer dynamics.\n\n</li>\n</ul>\n</div>\n<div>\n<ul>\n<li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{\" data-aria-posinset=\"5\" data-aria-level=\"1\">\n\nPhysical meteorology including aerosol, cloud, and precipitation physics and atmospheric electricity.\n\n</li>\n</ul>\n</div>\n<div>\n<ul>\n<li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{\" data-aria-posinset=\"6\" data-aria-level=\"1\">\n\nSynoptic and mesoscale meteorology includingthe processes,predictabilityand future changes insevere and hazardous weather.\n\n</li>\n</ul>\n</div>\n<div>\n\n\n\n</div>\n<div>\n\nProposals to theACare welcome at any time. However, the following solicitation in support of specific atmospheric science and community efforts has a target date or deadline. Please refer tothe solicitation documents for further details:\n\n</div>\n<div>\n<ul>\n<li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{\" data-aria-posinset=\"2\" data-aria-level=\"1\">\n\nThe<a href=\"https://new.nsf.gov/funding/opportunities/facility-instrumentation-request-process-firp\" rel=\"noreferrer noopener\" target=\"_blank\">Facility and Instrumentation Request Process (FIRP)</a>solicitation describes therequirements for the submission of proposals that will make use of AGS-supported facilities and instrumentation managed by the Facilities for Atmospheric Reseach and Education (FARE) program.\n\n</li>\n</ul>\n</div>\n<div>\n\n\n\n\nAGS encouragesand inspiresscientific leadersbyinvesting inthe atmospheric and geospace sciences, enhancing educational opportunities and experiencesand supporting faculty and researchersat all career stages.The Division expects that proposers will integrate education,outreachand dissemination activities into their research plans in compliance with NSF Broader ImpactsMerit Reviewcriteria.&#8239;&#8239;\n\n\n&#8239;\n\n</div>\n<div>\n\nAGS invites proposals that include plans for workforce development, educational and outreach activities, open science initiatives,and efforts to broaden participation and encourage diverse talent in the atmosphere andgeospacesciences. Furthermore, AGS encourages proposals from all institutions, including Minority Serving Institutions, Emerging ResearchInstitutionsand institutions inEstablished Programto Stimulate Competitive Research(EPSCoR)jurisdictions.\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\nThe Proposal &amp; Award Policies &amp; Procedures Guide (<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" rel=\"noreferrer noopener\" target=\"_blank\">PAPPG</a>)providesthe instructions forsubmittingproposals toAGS.Additionally, Chapter II.F of the PAPPG defines &ldquo;Other Types of Proposals,&rdquo; including community-building proposals such as Conference, Travel or Planning Proposals and special categories of proposals, such as Rapid Response Research (RAPID) and EArly-concept Grants for Exploratory Research&#8239;(EAGER).Proposals that are not compliant with the&#8239;PAPPG will be returned without review.\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\nThe following sections highlight specific NSF-, GEO-or AGS-wide solicitations that may be relevant to the AGS Community. Please be aware that solicitations arefrequentlyupdated, so make sure that you are looking at the most recent version.\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\nCareer Development\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\n<a href=\"https://new.nsf.gov/funding/opportunities/atmospheric-geospace-sciences-postdoctoral\" rel=\"noreferrer noopener\" target=\"_blank\">AGS Postdoctoral Research Fellowship (AGS-PRF)</a>: The AGS-PRF program supports researchers (also known as Fellows) for up to 24 months at the institution of their choice. The program is intended to recognize beginning investigators of significant potential and provide them with research experience that will broaden perspectives,facilitateinterdisciplinaryinteractionsandestablishthem in leadership positions within theAGScommunity.\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\n<a href=\"https://new.nsf.gov/funding/opportunities/faculty-early-career-development-program-career\" rel=\"noreferrer noopener\" target=\"_blank\">Faculty Early Career Development&#8239;Program(CAREER)</a>:The CAREER program supportsearly career (assistant professor-level) faculty who have the potential to serve as academic role models in research and education and to lead advances for their department or organization. Awards are 5 years long and must integrate research and education.\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\n<a href=\"https://new.nsf.gov/funding/opportunities/mid-career-advancement-mca\" rel=\"noreferrer noopener\" target=\"_blank\">Mid-Career Advancement (MCA)</a>:The MCA program providesopportunities for scientists and engineers at the associate professor rank (or equivalent) to substantively enhance and advance their research program through synergistic partnerships.\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\nCapacity Development\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\n<a href=\"https://new.nsf.gov/funding/opportunities/empowering-broader-academic-capacity-education\" rel=\"noreferrer noopener\" target=\"_blank\">EMpowering BRoader Academic Capacity and Education (EMBRACE)</a>:The EMBRACE program supportsresearch and educational efforts at \"non-R1\" institutions, including non-R1 minority serving institutions (MSIs), two-year colleges (2YCs), primarily undergraduate institutions (PUIs), and emerging research(ERIs)and master's level institutions.\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\n<a href=\"https://new.nsf.gov/funding/opportunities/historically-black-colleges-universities-0\" rel=\"noreferrer noopener\" target=\"_blank\">Historically Black Colleges and Universities - Excellence in Research (HBCU - EiR)</a>:The HBCU-EiR&ndash; program supports research at public and private historically Black colleges and universities to strengthen researchcapacityand promote engagement with NSF.\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\n<a href=\"https://new.nsf.gov/funding/opportunities/facilitating-research-primarily-undergraduate\" rel=\"noreferrer noopener\" target=\"_blank\">Facilitating Research at Primarily Undergraduate Institutions (RUI and ROA)</a>: RUIawardssupport PUI faculty in research that engages them in their professional field(s), buildscapacityfor research at their home institution, and supportsthe integration of research and undergraduate education. ROAawards similarly support PUI faculty research, but these awards typically allow faculty to work as visiting scientists at research-intensive organizations where they collaborate with other NSF-supported investigators.\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\nInstrumentation and Facilities\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\n<a href=\"https://new.nsf.gov/funding/opportunities/major-research-instrumentation-program-mri\" rel=\"noreferrer noopener\" target=\"_blank\">Major Research Instrumentation</a>:The MRI program supports requests for up to $4 million from NSF for the development or acquisition of multi-user research instruments that are critical to the advancement of science and engineering.\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\n<a href=\"https://new.nsf.gov/funding/opportunities/mid-scale-research-infrastructure-1-mid-scale-ri-1\" rel=\"noreferrer noopener\" target=\"_blank\">Mid-scale Research Infrastructure-1</a>:The MSRI-1 program supports the design and implementation of research infrastructure &mdash; including equipment, cyberinfrastructure, large-scaledatasetsand personnel &mdash; whose total project costs exceed the NSF Major Research Instrumentation programlimitbut are under $20 million.\n\n</div>\n<div>\n\n\n\n</div>\n<div>\n\n<a href=\"https://new.nsf.gov/funding/opportunities/mid-scale-research-infrastructure-2-mid-scale-ri-2\" rel=\"noreferrer noopener\" target=\"_blank\">Mid-scale Research Infrastructure-2</a>:The MSRI-2 program supports the implementation of research infrastructure &mdash; including equipment, cyberinfrastructure, large-scaledatasetsand personnel &mdash; whose total project costs fall between $20 million and $100 million.\n\n</div>\n<div>\n\n&#8239;&#8239;\n\n</div>",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506308",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-24-7790",
+        "postingDate": "Sep 26, 2024 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Sep 23, 2025 11:00:08 PM EDT",
+        "modComments": ".",
+        "createdDate": "Sep 26, 2024 01:00:08 AM EDT",
+        "lastUpdatedDate": "Sep 23, 2025 11:00:08 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2024-09-26-00-00-00",
+        "createTimeStampStr": "2025-09-23-23-00-08"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 423896,
+          "opportunityId": 356538,
+          "cfdaNumber": "47.050",
+          "programTitle": "Geosciences"
+        },
+        {
+          "id": 423899,
+          "opportunityId": 356538
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 356538,
+            "revision": 0
+          },
+          "opportunityId": 356538,
+          "revision": 0,
+          "opportunityNumber": "PD-24-7790",
+          "opportunityTitle": "Atmosphere Cluster",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 356538,
+              "revision": 0
+            },
+            "opportunityId": 356538,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "<div class=\"OutlineElement Ltr SCXW256313327 BCX8\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\">T</span><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW256313327 BCX8\">he Atmosphere Cluster (AC) </span><span class=\"NormalTextRun SCXW256313327 BCX8\">in the Division of Atmospheric and Geospace Sciences (AGS)</span><span class=\"NormalTextRun SCXW256313327 BCX8\"> supports</span></span><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW256313327 BCX8\"> fundamental studies of atmospheric processes from the Earth&rsquo;s surface to the </span><span class=\"NormalTextRun SCXW256313327 BCX8\">s</span><span class=\"NormalTextRun SCXW256313327 BCX8\">tratosphere, and from timescales of nanoseconds to millennia.&#8239;Core areas of research include the chemical, physical, and dynamical processes in the atmosphere that </span><span class=\"NormalTextRun SCXW256313327 BCX8\">impact</span><span class=\"NormalTextRun SCXW256313327 BCX8\"> clouds, weather, climate, air quality</span><span class=\"NormalTextRun SCXW256313327 BCX8\">, and the water cycle.</span><span class=\"NormalTextRun SCXW256313327 BCX8\"> Resea</span><span class=\"NormalTextRun SCXW256313327 BCX8\">r</span><span class=\"NormalTextRun SCXW256313327 BCX8\">ch methods include modeling, collecting observations, conducting experiments in the laboratory and field, and advancing analytical measurement techniques.</span></span><span class=\"EOP SCXW256313327 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW256313327 BCX8\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"EOP SCXW256313327 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW256313327 BCX8\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW256313327 BCX8\">General r</span><span class=\"NormalTextRun SCXW256313327 BCX8\">esearch topics that are supported by the AC include</span><span class=\"NormalTextRun SCXW256313327 BCX8\">, and</span><span class=\"NormalTextRun SCXW256313327 BCX8\"> are not limited to:</span></span><span class=\"EOP SCXW256313327 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"></span>\n\n</div>\n<div class=\"ListContainerWrapper SCXW256313327 BCX8\">\n<ul class=\"BulletListStyle1 SCXW256313327 BCX8\">\n<li class=\"OutlineElement Ltr SCXW256313327 BCX8\" data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&#61623;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"1\" data-aria-level=\"1\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">C</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">hemical processes and mechanisms that explain how atmospheric gases and aerosols form, react, </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">transform</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\"> and interact with the surrounding environment.</span></span><span class=\"EOP SCXW256313327 BCX8\" data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"></span>\n\n</li>\n</ul>\n</div>\n<div class=\"ListContainerWrapper SCXW256313327 BCX8\">\n<ul class=\"BulletListStyle1 SCXW256313327 BCX8\">\n<li class=\"OutlineElement Ltr SCXW256313327 BCX8\" data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&#61623;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"2\" data-aria-level=\"1\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">P</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">rocesses </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">and dynamics that govern</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\"> climate</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\"> and hydroclimate</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">,</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">including</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\"> their mean state</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">, variability, response to external forcing</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\"> and </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">their role in </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">the establishment of </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">a </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">global energy and water balance</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">; coupled atmosphere-ocean interactions, land-atmosphere interactions and interactions </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">among</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\"> clouds, atmospheric </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">circulation</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\"> and climate.</span></span><span class=\"EOP SCXW256313327 BCX8\" data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"></span>\n\n</li>\n</ul>\n</div>\n<div class=\"ListContainerWrapper SCXW256313327 BCX8\">\n<ul class=\"BulletListStyle1 SCXW256313327 BCX8\">\n<li class=\"OutlineElement Ltr SCXW256313327 BCX8\" data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&#61623;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"3\" data-aria-level=\"1\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">O</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">bservational and modeling studies of past climate and its drivers and studies that develop </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">and synthesize</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\"> paleoclimate proxies and records.</span></span><span class=\"EOP SCXW256313327 BCX8\" data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"></span>\n\n</li>\n</ul>\n</div>\n<div class=\"ListContainerWrapper SCXW256313327 BCX8\">\n<ul class=\"BulletListStyle1 SCXW256313327 BCX8\">\n<li class=\"OutlineElement Ltr SCXW256313327 BCX8\" data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&#61623;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"4\" data-aria-level=\"1\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">Physics and dynamics of atmospheric motions on all scales</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">,</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\"> from the planetary to the microscale, including the general circulation of the troposphere and stratosphere, planetary waves, synoptic and mesoscale systems, convection, gravity waves, </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">turbulence</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\"> and planetary boundary layer dynamics.</span></span><span class=\"EOP SCXW256313327 BCX8\" data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"></span>\n\n</li>\n</ul>\n</div>\n<div class=\"ListContainerWrapper SCXW256313327 BCX8\">\n<ul class=\"BulletListStyle1 SCXW256313327 BCX8\">\n<li class=\"OutlineElement Ltr SCXW256313327 BCX8\" data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&#61623;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"5\" data-aria-level=\"1\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\">Physical meteorology including aerosol, cloud, and precipitation physics and atmospheric electricity.</span><span class=\"EOP SCXW256313327 BCX8\" data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"></span>\n\n</li>\n</ul>\n</div>\n<div class=\"ListContainerWrapper SCXW256313327 BCX8\">\n<ul class=\"BulletListStyle1 SCXW256313327 BCX8\">\n<li class=\"OutlineElement Ltr SCXW256313327 BCX8\" data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&#61623;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"6\" data-aria-level=\"1\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">Synoptic and m</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">esoscale meteorology including </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">the processes, </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">predictability</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\"> and future changes in </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">severe and hazardous weather.</span></span><span class=\"EOP SCXW256313327 BCX8\" data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"></span>\n\n</li>\n</ul>\n</div>\n<div class=\"OutlineElement Ltr SCXW256313327 BCX8\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"EOP SCXW256313327 BCX8\" data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW256313327 BCX8\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW256313327 BCX8\">Proposals to the </span><span class=\"NormalTextRun SCXW256313327 BCX8\">AC </span><span class=\"NormalTextRun SCXW256313327 BCX8\">are welcome at any time. However, the following solicitations in support of specific atmospheric science and community efforts have target dates or deadlines</span><span class=\"NormalTextRun SCXW256313327 BCX8\">. They also may have</span><span class=\"NormalTextRun SCXW256313327 BCX8\"> PI</span><span class=\"NormalTextRun SCXW256313327 BCX8\"> and/or </span><span class=\"NormalTextRun SCXW256313327 BCX8\">Institution restrictions</span><span class=\"NormalTextRun SCXW256313327 BCX8\">. Please refer to</span><span class=\"NormalTextRun SCXW256313327 BCX8\"> the solicitation documents for further details</span><span class=\"NormalTextRun SCXW256313327 BCX8\">:</span></span><span class=\"EOP SCXW256313327 BCX8\" data-ccp-props=\"{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW256313327 BCX8\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"EOP SCXW256313327 BCX8\" data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"></span>\n\n</div>\n<div class=\"ListContainerWrapper SCXW256313327 BCX8\">\n<ul class=\"BulletListStyle1 SCXW256313327 BCX8\">\n<li class=\"OutlineElement Ltr SCXW256313327 BCX8\" data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&#61623;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"1\" data-aria-level=\"1\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">The </span><a class=\"Hyperlink SCXW256313327 BCX8\" href=\"https://new.nsf.gov/funding/opportunities/paleo-perspectives-present-projected-climate\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-charstyle=\"Hyperlink\">Paleo Perspectives on Present and Projected Climate (P4CLIMATE)</span></span></a><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">solicitation supports </span></span><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">observational and modeling studies to provide paleo perspectives addressing the two research themes: 1) Past Regional and Seasonal Climate; and 2) Past Climate Forcing, Sensitivity, and </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">Feedbacks</span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">.</span></span><span class=\"EOP SCXW256313327 BCX8\" data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}\"></span>\n\n</li>\n</ul>\n</div>\n<div class=\"ListContainerWrapper SCXW256313327 BCX8\">\n<ul class=\"BulletListStyle1 SCXW256313327 BCX8\">\n<li class=\"OutlineElement Ltr SCXW256313327 BCX8\" data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{&quot;335552541&quot;:1,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&#61623;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}\" data-aria-posinset=\"2\" data-aria-level=\"1\">\n<p class=\"Paragraph SCXW256313327 BCX8\"><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">The </span><a class=\"Hyperlink SCXW256313327 BCX8\" href=\"https://new.nsf.gov/funding/opportunities/facility-instrumentation-request-process-firp\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-charstyle=\"Hyperlink\">Facility and Instrumentation Request Process (FIRP)</span></span></a><span class=\"TextRun SCXW256313327 BCX8\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">solicitation describes the </span><span class=\"NormalTextRun SCXW256313327 BCX8\" data-ccp-parastyle=\"Normal (Web)\">requirements for the",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506308",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-24-7790",
+            "postingDate": "Sep 26, 2024 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Sep 26, 2024 01:00:08 AM EDT",
+            "actionType": "U",
+            "actionDate": "Sep 27, 2024 01:00:15 AM EDT",
+            "createdDate": "Sep 26, 2024 01:00:08 AM EDT",
+            "lastUpdatedDate": "Sep 26, 2024 01:00:08 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2024-09-26-00-00-00",
+            "createTimeStampStr": "2024-09-26-01-00-08"
+          },
+          "cfdas": [
+            {
+              "id": 423896,
+              "opportunityId": 356538,
+              "revision": 1,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 423899,
+              "opportunityId": 356538,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 356538,
+            "revision": 1
+          },
+          "opportunityId": 356538,
+          "revision": 1,
+          "opportunityNumber": "PD-24-7790",
+          "opportunityTitle": "Atmosphere Cluster",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 356538,
+              "revision": 1
+            },
+            "opportunityId": 356538,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "<div>\n  \nThe Atmosphere Cluster (AC) in the Division of Atmospheric and Geospace Sciences (AGS) supports fundamental studies of atmospheric processes from the Earth&rsquo;s surface to the stratosphere, and from timescales of nanoseconds to millennia.&#8239;Core areas of research include the chemical, physical, and dynamical processes in the atmosphere that impact clouds, weather, climate, air quality, and the water cycle. Research methods include modeling, collecting observations, conducting experiments in the laboratory and field, and advancing analytical measurement techniques. \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \nGeneral research topics that are supported by the AC include, and are not limited to: \n\n</div>\n<div>\n  <ul>\n    <li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{\" data-aria-posinset=\"1\" data-aria-level=\"1\">\n      \nChemical processes and mechanisms that explain how atmospheric gases and aerosols form, react, transform and interact with the surrounding environment. \n\n    </li>\n  </ul>\n</div>\n<div>\n  <ul>\n    <li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{\" data-aria-posinset=\"2\" data-aria-level=\"1\">\n      \nProcesses and dynamics that govern climate and hydroclimate, including their mean state, variability, response to external forcing and their role in the establishment of a global energy and water balance; coupled atmosphere-ocean interactions, land-atmosphere interactions and interactions among clouds, atmospheric circulation and climate. \n\n    </li>\n  </ul>\n</div>\n<div>\n  <ul>\n    <li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{\" data-aria-posinset=\"3\" data-aria-level=\"1\">\n      \nObservational and modeling studies of past climate and its drivers and studies that develop and synthesize paleoclimate proxies and records. \n\n    </li>\n  </ul>\n</div>\n<div>\n  <ul>\n    <li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{\" data-aria-posinset=\"4\" data-aria-level=\"1\">\n      \nPhysics and dynamics of atmospheric motions on all scales, from the planetary to the microscale, including the general circulation of the troposphere and stratosphere, planetary waves, synoptic and mesoscale systems, convection, gravity waves, turbulence and planetary boundary layer dynamics. \n\n    </li>\n  </ul>\n</div>\n<div>\n  <ul>\n    <li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{\" data-aria-posinset=\"5\" data-aria-level=\"1\">\n      \nPhysical meteorology including aerosol, cloud, and precipitation physics and atmospheric electricity. \n\n    </li>\n  </ul>\n</div>\n<div>\n  <ul>\n    <li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"8\" data-list-defn-props=\"{\" data-aria-posinset=\"6\" data-aria-level=\"1\">\n      \nSynoptic and mesoscale meteorology including the processes, predictability and future changes in severe and hazardous weather. \n\n    </li>\n  </ul>\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \nProposals to the AC are welcome at any time. However, the following solicitations in support of specific atmospheric science and community efforts have target dates or deadlines. They also may have PI and/or Institution restrictions. Please refer to the solicitation documents for further details: \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  <ul>\n    <li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{\" data-aria-posinset=\"1\" data-aria-level=\"1\">\n      \nThe <a href=\"https://new.nsf.gov/funding/opportunities/paleo-perspectives-present-projected-climate\" rel=\"noreferrer noopener\" target=\"_blank\" data-mce-href=\"https://new.nsf.gov/funding/opportunities/paleo-perspectives-present-projected-climate\">Paleo Perspectives on Present and Projected Climate (P4CLIMATE)</a> solicitation supports observational and modeling studies to provide paleo perspectives addressing the two research themes: 1) Past Regional and Seasonal Climate; and 2) Past Climate Forcing, Sensitivity, and Feedbacks. \n\n    </li>\n  </ul>\n</div>\n<div>\n  <ul>\n    <li data-leveltext=\"&#61623;\" data-font=\"Symbol\" data-listid=\"1\" data-list-defn-props=\"{\" data-aria-posinset=\"2\" data-aria-level=\"1\">\n      \nThe <a href=\"https://new.nsf.gov/funding/opportunities/facility-instrumentation-request-process-firp\" rel=\"noreferrer noopener\" target=\"_blank\" data-mce-href=\"https://new.nsf.gov/funding/opportunities/facility-instrumentation-request-process-firp\">Facility and Instrumentation Request Process (FIRP)</a> solicitation describes the requirements for the submission of proposals that will make use of AGS-supported facilities and instrumentation managed by the Facilities for Atmospheric Reseach and Education (FARE) program. \n\n    </li>\n  </ul>\n</div>\n<div>\n  \nAGS encourages and inspires scientific leaders by investing in the atmospheric and geospace sciences, enhancing educational opportunities and experiences and supporting faculty and researchers at all career stages. The Division expects that proposers will integrate education, outreach and dissemination activities into their research plans in compliance with NSF Broader Impacts Merit Review criteria.&#8239;&#8239;&#8239; \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \nAGS invites proposals that include plans for workforce development, educational and outreach activities, open science initiatives, and efforts to broaden participation and encourage diverse talent in the atmosphere and geospace sciences. Furthermore, AGS encourages proposals from all institutions, including Minority Serving Institutions, Emerging Research Institutions and institutions in Established Program to Stimulate Competitive Research (EPSCoR) jurisdictions. \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \nThe Proposal &amp; Award Policies &amp; Procedures Guide (<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" rel=\"noreferrer noopener\" target=\"_blank\" data-mce-href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\">PAPPG</a>) provides the instructions for submitting proposals to AGS. Additionally, Chapter II.F of the PAPPG defines &ldquo;Other Types of Proposals,&rdquo; including community-building proposals such as Conference, Travel or Planning Proposals and special categories of proposals, such as Rapid Response Research (RAPID) and EArly-concept Grants for Exploratory Research&#8239;(EAGER). Proposals that are not compliant with the&#8239;PAPPG will be returned without review. \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \nThe following sections highlight specific NSF-, GEO- or AGS-wide solicitations that may be relevant to the AGS Community. Please be aware that solicitations are frequently updated, so make sure that you are looking at the most recent version.   \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \nCareer Development \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \n<a href=\"https://new.nsf.gov/funding/opportunities/atmospheric-geospace-sciences-postdoctoral\" rel=\"noreferrer noopener\" target=\"_blank\" data-mce-href=\"https://new.nsf.gov/funding/opportunities/atmospheric-geospace-sciences-postdoctoral\">AGS Postdoctoral Research Fellowship (AGS-PRF)</a>:  The AGS-PRF program supports researchers (also known as Fellows) for up to 24 months at the institution of their choice. The program is intended to recognize beginning investigators of significant potential and provide them with research experience that will broaden perspectives, facilitate interdisciplinary interactions and establish them in leadership positions within the AGS community. \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \n<a href=\"https://new.nsf.gov/funding/opportunities/faculty-early-career-development-program-career\" rel=\"noreferrer noopener\" target=\"_blank\" data-mce-href=\"https://new.nsf.gov/funding/opportunities/faculty-early-career-development-program-career\">Faculty Early Career Development&#8239;Program (CAREER)</a>:  The CAREER program supports early career (assistant professor-level) faculty who have the potential to serve as academic role models in research and education and to lead advances for their department or organization. Awards are 5 years long and must integrate research and education. \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \n<a href=\"https://new.nsf.gov/funding/opportunities/mid-career-advancement-mca\" rel=\"noreferrer noopener\" target=\"_blank\" data-mce-href=\"https://new.nsf.gov/funding/opportunities/mid-career-advancement-mca\">Mid-Career Advancement (MCA)</a>:  The MCA program provides opportunities for scientists and engineers at the associate professor rank (or equivalent) to substantively enhance and advance their research program through synergistic partnerships. \n\n</div>\n<div>\n  \n  \n\n</div>\n<div>\n  \nCapacity Development \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \n<a href=\"https://new.nsf.gov/funding/opportunities/empowering-broader-academic-capacity-education\" rel=\"noreferrer noopener\" target=\"_blank\" data-mce-href=\"https://new.nsf.gov/funding/opportunities/empowering-broader-academic-capacity-education\">EMpowering BRoader Academic Capacity and Education (EMBRACE)</a>:  The EMBRACE program supports research and educational efforts at \"non-R1\" institutions, including non-R1 minority serving institutions (MSIs), two-year colleges (2YCs), primarily undergraduate institutions (PUIs), and emerging research (ERIs) and master's level institutions. \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \n<a href=\"https://new.nsf.gov/funding/opportunities/historically-black-colleges-universities-0\" rel=\"noreferrer noopener\" target=\"_blank\" data-mce-href=\"https://new.nsf.gov/funding/opportunities/historically-black-colleges-universities-0\">Historically Black Colleges and Universities - Excellence in Research (HBCU - EiR)</a>:  The HBCU-EiR  program supports research at public and private historically Black colleges and universities to strengthen research capacity and promote engagement with NSF. \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \n<a href=\"https://new.nsf.gov/funding/opportunities/facilitating-research-primarily-undergraduate\" rel=\"noreferrer noopener\" target=\"_blank\" data-mce-href=\"https://new.nsf.gov/funding/opportunities/facilitating-research-primarily-undergraduate\">Facilitating Research at Primarily Undergraduate Institutions (RUI and ROA)</a>:  RUI awards support PUI faculty in research that engages them in their professional field(s), builds capacity for research at their home institution, and supports the integration of research and undergraduate education. ROA awards similarly support PUI faculty research, but these awards typically allow faculty to work as visiting scientists at research-intensive organizations where they collaborate with other NSF-supported investigators. \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \nInstrumentation and Facilities \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \n<a href=\"https://new.nsf.gov/funding/opportunities/major-research-instrumentation-program-mri\" rel=\"noreferrer noopener\" target=\"_blank\" data-mce-href=\"https://new.nsf.gov/funding/opportunities/major-research-instrumentation-program-mri\">Major Research Instrumentation</a>:  The MRI program supports requests for up to $4 million from NSF for the development or acquisition of multi-user research instruments that are critical to the advancement of science and engineering. \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \n<a href=\"https://new.nsf.gov/funding/opportunities/mid-scale-research-infrastructure-1-mid-scale-ri-1\" rel=\"noreferrer noopener\" target=\"_blank\" data-mce-href=\"https://new.nsf.gov/funding/opportunities/mid-scale-research-infrastructure-1-mid-scale-ri-1\">Mid-scale Research Infrastructure-1</a>:  The MSRI-1 program supports the design and implementation of research infrastructure  including equipment, cyberinfrastructure, large-scale datasets and personnel  whose total project costs exceed the NSF Major Research Instrumentation program limit but are under $20 million. \n\n</div>\n<div>\n  \n \n\n</div>\n<div>\n  \n<a href=\"https://new.nsf.gov/funding/opportunities/mid-scale-research-infrastructure-2-mid-scale-ri-2\" rel=\"noreferrer noopener\" target=\"_blank\" data-mce-href=\"https://new.nsf.gov/funding/opportunities/mid-scale-research-infrastructure-2-mid-scale-ri-2\">Mid-scale Research Infrastructure-2</a>:  The MSRI-2 program supports the implementation of research infrastructure  including equipment, cyberinfrastructure, large-scale datasets and personnel  whose total project costs fall between $20 million and $100 million.  \n\n</div>\n<div>\n  \n&#8239;&#8239; \n\n</div>",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506308",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-24-7790",
+            "postingDate": "Sep 26, 2024 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Sep 27, 2024 01:00:15 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Sep 23, 2025 11:00:08 PM EDT",
+            "createdDate": "Sep 26, 2024 01:00:08 AM EDT",
+            "lastUpdatedDate": "Sep 27, 2024 01:00:15 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2024-09-26-00-00-00",
+            "createTimeStampStr": "2024-09-27-01-00-15"
+          },
+          "cfdas": [
+            {
+              "id": 423896,
+              "opportunityId": 356538,
+              "revision": 1,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 423899,
+              "opportunityId": 356538,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 287991,
+          "topportunityId": 356538,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-24-7790",
+          "opportunityTitle": "Atmosphere Cluster",
+          "openingDate": "2024-09-26",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Nicholas F. Anderson\r\nE-mail: nanderso@nsf.gov\r\nPhone: (703) 292-8522",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 400,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 01, 2025 09:29:33 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00287991",
+          "openingDateStr": "2024-09-26-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

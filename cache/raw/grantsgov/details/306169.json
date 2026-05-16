@@ -1,0 +1,838 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "306169",
+  "fetched_at": "2026-05-16T14:06:18.931Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InY3WUFLZTFMeFA5MXdHSWkzeXNBZ3R3NVZCR1U2eW1pS095SFZ4OG01RUk9Ig.SCDq8xY6VbJFDCsK-O7enD0uP73JFc8-PKQ5CZdBM7c",
+    "data": {
+      "id": 306169,
+      "revision": 7,
+      "opportunityNumber": "PD-19-073Y",
+      "opportunityTitle": "Engineering for Civil Infrastructure",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 306169,
+        "version": 8,
+        "agencyCode": "NSF",
+        "agencyName": "National Science Foundation",
+        "agencyPhone": "703-292-4261",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4261",
+        "agencyContactName": "National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The Engineering for Civil Infrastructure (ECI) program supports fundamental research in geotechnical, structural, materials, architectural, and coastal engineering. The ECI program promotes research that can shape the future of the nation&rsquo;s physical civil infrastructure and that can contribute to climate change adaptation and mitigation, and hazards and disaster resilience. Types of civil infrastructure that the ECI program considers include, but are not limited to, buildings, residential construction, earth and earth retaining structures, and components of flood protection systems; water, waste disposal, and wastewater systems; energy infrastructure (excluding nuclear); and transportation systems (excluding pavements). Both disciplinary and convergent research that can address the challenges of physical civil infrastructure to be resilient and sustainable over its service lifetime are of particular interest. Broader impacts of ECI research include fostering community welfare for an equitable and prosperous nation and promoting environmentally friendly, circular economy policies.\n\r\n\nThe ECI program supports research that advances knowledge on the behavior of physical civil infrastructure subjected to and interacting with the natural environment during construction; under service and long-term conditions, including increased demands due to climate change adaptation and other emerging stressors; and under conditions caused by single or multiple extreme hazard events (extreme weather, windstorms, earthquakes, tsunamis, storm surges, landslides, and fire, including wildland-urban interface fire). The ECI program also supports research on geomaterials and infrastructure materials utilized in load-bearing systems as well as in non-structural systems. Of particular interest is experimental and analytical/computational research to advance the fundamental understanding of coupled multi-physics, multi-scale (spatial and temporal), multi-functional behavior of these materials and their intended use in civil infrastructure.\n\r\n\nThe ECI program supports research on civil infrastructure that contributes to the National Science Foundation&rsquo;s role in the National Earthquake Hazards Reduction Program (NEHRP) and the National Windstorm Impact Reduction Program (NWIRP). Principal Investigators are encouraged to leverage NSF&rsquo;s investments in the Natural Hazards Engineering Research Infrastructure (NHERI) experimental, computational modeling and simulation, and data resources (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://www.designsafe-ci.org/\">https://www.designsafe-ci.org/</a>) in their research to accelerate advances needed for reducing the impacts of natural hazards on civil infrastructure. The NHERI Science Plan (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://www.designsafe-ci.org/facilities/nco/science-plan/\">https://www.designsafe-ci.org/facilities/nco/science-plan/</a>) offers a range of research topics that could benefit from the use of NHERI resources and are relevant to the ECI program.\n\r\n\nThe ECI program does not support research that addresses natural resource exploration or recovery, investigates blasts and explosions, develops sensor and measurement technologies, or focuses on hazard characterization. The ECI program only supports fundamental research topics for civil infrastructure with a strong grounding in theory. Topics which fall within the mission for research and/or development of other federal and state agencies are appropriate for the ECI program only when addressing fundamental scientific questions. Research on natural hazard characterization is supported through programs in the NSF Directorate for Geosciences.\n\r\n\nProposers are actively encouraged to email a one-page project summary to the ECI Program Officers before submitting a full proposal for guidance on whether the proposed research topic falls within the scope of the ECI program; this guidance especially should be requested for multi-disciplinary research proposals, proposals for which research and/or development on the subject civil infrastructure(s) are also supported by other federal and state agencies, and proposals that consider civil infrastructure not listed above.",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505488",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-19-073Y",
+        "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Feb 24, 2024 12:01:42 AM EST",
+        "modComments": ".",
+        "createdDate": "Jun 12, 2018 01:00:11 AM EDT",
+        "lastUpdatedDate": "Feb 24, 2024 12:01:42 AM EST",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2018-06-12-00-00-00",
+        "createTimeStampStr": "2024-02-24-00-01-42"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 354946,
+          "opportunityId": 306169,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering Grants"
+        },
+        {
+          "id": 354953,
+          "opportunityId": 306169
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 306169,
+            "revision": 0
+          },
+          "opportunityId": 306169,
+          "revision": 0,
+          "opportunityNumber": "PD-19-073Y",
+          "opportunityTitle": "Engineering for Civil Infrastructure",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 306169,
+              "revision": 0
+            },
+            "opportunityId": 306169,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov\n",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact",
+            "synopsisDesc": "The Engineering for Civil Infrastructure (ECI) program supports fundamental research that will shape the future of our nation's constructed civil infrastructure, subjected to and interacting with the natural environment, to meet the needs of humans. In this context, research driven by radical rethinking of traditional civil infrastructure in response to emerging technological innovations, changing population demographics, and evolving societal needs is encouraged.\n\r\n\nThe ECI program focuses on the physical infrastructure, such as the soil-foundation-structure-envelope-nonstructural building system; geostructures; and underground facilities. It seeks proposals that advance knowledge and methodologies within geotechnical, structural, architectural, materials, coastal, and construction engineering, especially that include collaboration with researchers from other fields, including, for example, biomimetics, bioinspired design, advanced computation, data science, materials science, additive manufacturing, robotics, and control theory.\n\r\n\nResearch may explore holistic building systems that view construction, geotechnical, structural, and architectural design as an integrated system; adaptive building envelope systems; nonconventional building materials; breakthroughs in remediated geological materials; and transformational construction processes. Principal investigators are encouraged to consider civil infrastructure subjected to and interacting with the natural environment under &ldquo;normal&rdquo; operating conditions; intermediate stress conditions (such as deterioration, and severe locational and climate conditions); and extreme single or multi natural hazard events (including earthquakes, windstorms, tsunamis, storm surges, sinkholes, subsidence, and landslides). Principal investigators are expected to bear in mind broader impacts associated with, for example, economic, environmental, habitant comfort, and societal benefits, which may include implications for resource and energy efficiency, life cycle, adaptability and resilience, and reduced dependence on municipal services and utilities.\n\r\n\nPrincipal Investigators are encouraged to leverage NSF&rsquo;s investments in the national experimental facilities of the National Hazards Engineering Research Infrastructure (NHERI) program https://www.designsafe-ci.org/. Principal Investigators are also urged to make full use of resources available through the NHERI Cyberinfrastructure and NHERI Computational Modeling and Simulation Center awards, especially to both use and share experimental and simulation data, as well as computational models and simulation tools, to accelerate advances in engineering the constructed environment.\n\r\n\nThe ECI Program does not support research on mission agency responsibilities, such as nuclear power plants and energy-related infrastructure, transportation infrastructure (e.g., bridges and pavements), and natural resource exploration or recovery. The ECI Program also does not support research on: hazard characterization for and hazard mitigation of the impact of explosions, fire, blast loading, flooding, and solar wind and storms on civil infrastructure; sensor and measurement technologies; field instrumentation and monitoring; induced seismicity; and construction safety. Research on natural hazard characterization is supported through programs in the NSF Directorate for Geosciences.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505488",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-19-073Y",
+            "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jun 12, 2018 01:00:11 AM EDT",
+            "actionType": "U",
+            "actionDate": "Feb 29, 2020 01:00:09 AM EST",
+            "createdDate": "Jun 12, 2018 01:00:11 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2018-06-12-00-00-00",
+            "createTimeStampStr": "2018-06-12-01-00-11"
+          },
+          "cfdas": [
+            {
+              "id": 354946,
+              "opportunityId": 306169,
+              "revision": 6,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering Grants"
+            },
+            {
+              "id": 354953,
+              "opportunityId": 306169,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 306169,
+            "revision": 1
+          },
+          "opportunityId": 306169,
+          "revision": 1,
+          "opportunityNumber": "PD-19-073Y",
+          "opportunityTitle": "Engineering for Civil Infrastructure",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 306169,
+              "revision": 1
+            },
+            "opportunityId": 306169,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Engineering for Civil Infrastructure (ECI) program supports fundamental research in infrastructure materials and architectural, geotechnical and structural engineering that can shape the future of the nation's civil infrastructure. The ECI program focuses on geomaterials and geostructures, structural materials (metallic, polymeric, cementitious, glass, composites, etc.), structural and non-structural systems, and building envelopes. Principal Investigators are encouraged to consider physical civil infrastructure subjected to and interacting with the natural environment during construction; under normal service conditions; and under severe loading and environmental conditions such as extreme single or multi natural hazard events (including earthquakes, windstorms, tsunamis, storm surges, sinkholes, subsidence, and landslides).\n\r\n\nThe ECI program supports both disciplinary and cross-disciplinary research, such as research at the intersection of civil infrastructure with data science and analytics, uncertainty quantification, risk and reliability, artificial intelligence and machine learning, biomimetics and bioinspiration, metamaterial concepts, multifunctionality (architectural, mechanical, thermal and others), and/or physics-based, multiscale, predictive modeling and simulation.\n\r\n\nPrincipal Investigators are encouraged to address, as appropriate, potential economic, environmental, sustainability, resiliency and societal aspects of the research. The ECI program supports research on civil infrastructure that contributes to the National Science Foundation&rsquo;s role in the National Earthquake Hazards Reduction Program (NEHRP) and the National Windstorm Impact Reduction Program (NWIRP).\n\r\n\nPrincipal Investigators are encouraged to leverage NSF&rsquo;s investments in the Natural Hazards Engineering Research Infrastructure (NHERI) experimental, computational modeling and simulation, and data resources (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://www.designsafe-ci.org/\">https://www.designsafe-ci.org/</a>) in their research to accelerate advances needed for reducing the impacts of natural hazards on civil infrastructure. The NHERI Five-Year Science Plan (January 2020) (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://tinyurl.com/ue8g5ra\">https://tinyurl.com/ue8g5ra</a>) offers a range of research topics that could benefit from the use of NHERI resources and are relevant to the ECI program.\n\r\n\nThe ECI program does not support research that lacks grounding in theory or focused on mission agency responsibilities, such as nuclear power plant, energy, and transportation infrastructure (for example, bridges and pavements), and natural resource exploration or recovery.The ECI program also does not support research onhazard characterization for and mitigation of the impact of explosions, blast loading, and fire; nor on sensor and measurement technology development. Research on natural hazard characterization is supported through programs in the NSF Directorate for Geosciences.\n\r\n\nProposers are actively encouraged to email a one-page project summary to ECI@nsf.gov before full proposal submission to determine if the research topic falls within the scope of the ECI program.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505488",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-19-073Y",
+            "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Feb 29, 2020 01:00:09 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Oct 14, 2020 01:00:23 AM EDT",
+            "createdDate": "Jun 12, 2018 01:00:11 AM EDT",
+            "lastUpdatedDate": "Feb 29, 2020 01:00:09 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2018-06-12-00-00-00",
+            "createTimeStampStr": "2020-02-29-01-00-09"
+          },
+          "cfdas": [
+            {
+              "id": 354946,
+              "opportunityId": 306169,
+              "revision": 6,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering Grants"
+            },
+            {
+              "id": 354953,
+              "opportunityId": 306169,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "agencyAddressDesc",
+            "agencyContactDesc",
+            "agencyContactEmailDesc",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 306169,
+            "revision": 2
+          },
+          "opportunityId": 306169,
+          "revision": 2,
+          "opportunityNumber": "PD-19-073Y",
+          "opportunityTitle": "Engineering for Civil Infrastructure",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 306169,
+              "revision": 2
+            },
+            "opportunityId": 306169,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Engineering for Civil Infrastructure (ECI) program supports fundamental research in infrastructure materials and architectural, geotechnical and structural engineering that can shape the future of the nation's civil infrastructure. The ECI program focuses on geomaterials and geostructures, structural materials (metallic, polymeric, cementitious, glass, composites, etc.), structural and non-structural systems, and building envelopes. Principal Investigators are encouraged to consider physical civil infrastructure subjected to and interacting with the natural environment during construction; under normal service conditions; and under severe loading and environmental conditions such as extreme single or multi natural hazard events (including earthquakes, windstorms, tsunamis, storm surges, sinkholes, subsidence, and landslides).\n\r\n\nThe ECI program supports both disciplinary and cross-disciplinary research, such as research at the intersection of civil infrastructure with data science and analytics, uncertainty quantification, risk and reliability, artificial intelligence and machine learning, biomimetics and bioinspiration, metamaterial concepts, multifunctionality (architectural, mechanical, thermal and others), and/or physics-based, multiscale, predictive modeling and simulation.\n\r\n\nPrincipal Investigators are encouraged to address, as appropriate, potential economic, environmental, sustainability, resiliency and societal aspects of the research. The ECI program supports research on civil infrastructure that contributes to the National Science Foundation&rsquo;s role in the National Earthquake Hazards Reduction Program (NEHRP) and the National Windstorm Impact Reduction Program (NWIRP).\n\r\n\nPrincipal Investigators are encouraged to leverage NSF&rsquo;s investments in the Natural Hazards Engineering Research Infrastructure (NHERI) experimental, computational modeling and simulation, and data resources (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://www.designsafe-ci.org/\">https://www.designsafe-ci.org/</a>) in their research to accelerate advances needed for reducing the impacts of natural hazards on civil infrastructure. The NHERI Five-Year Science Plan (January 2020) (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://tinyurl.com/ue8g5ra\">https://tinyurl.com/ue8g5ra</a>) offers a range of research topics that could benefit from the use of NHERI resources and are relevant to the ECI program.\n\r\n\nThe ECI program does not support research that lacks grounding in theory or focused on mission agency responsibilities, such as nuclear power plant, energy, and transportation infrastructure (for example, bridges and pavements), and natural resource exploration or recovery.The ECI program also does not support research onhazard characterization for and mitigation of the impact of explosions, blast loading, and fire; nor on sensor and measurement technology development. Research on natural hazard characterization is supported through programs in the NSF Directorate for Geosciences.\n\r\n\nProposers are actively encouraged to email a one-page project summary to ECI@nsf.gov before full proposal submission to determine if the research topic falls within the scope of the ECI program.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505488",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-19-073Y",
+            "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Oct 14, 2020 01:00:23 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Mar 31, 2022 01:00:17 AM EDT",
+            "createdDate": "Jun 12, 2018 01:00:11 AM EDT",
+            "lastUpdatedDate": "Oct 14, 2020 01:00:23 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2018-06-12-00-00-00",
+            "createTimeStampStr": "2020-10-14-01-00-23"
+          },
+          "cfdas": [
+            {
+              "id": 354946,
+              "opportunityId": 306169,
+              "revision": 6,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering Grants"
+            },
+            {
+              "id": 354953,
+              "opportunityId": 306169,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 306169,
+            "revision": 3
+          },
+          "opportunityId": 306169,
+          "revision": 3,
+          "opportunityNumber": "PD-19-073Y",
+          "opportunityTitle": "Engineering for Civil Infrastructure",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 306169,
+              "revision": 3
+            },
+            "opportunityId": 306169,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Engineering for Civil Infrastructure (ECI) program supports fundamental research in geotechnical, structural, materials, architectural, and coastal engineering. The ECI program promotes research that can shape the future of the nation&rsquo;s physical civil infrastructure and that can contribute to climate change adaptation and mitigation, and hazards and disaster resilience. Types of civil infrastructure that the ECI program considers include, but are not limited to, buildings, residential construction, earth and earth retaining structures, and components of flood protection systems; water, waste disposal, and wastewater systems; energy infrastructure (excluding nuclear); and transportation systems (excluding pavements). Both disciplinary and convergent research that can address the challenges of physical civil infrastructure to be resilient and sustainable over its service lifetime are of particular interest. Broader impacts of ECI research include fostering community welfare for an equitable and prosperous nation and promoting environmentally friendly, circular economy policies.\n\r\n\nThe ECI program supports research that advances knowledge on the behavior of physical civil infrastructure subjected to and interacting with the natural environment during construction; under service and long-term conditions, including increased demands due to climate change adaptation and other emerging stressors; and under conditions caused by single or multiple extreme hazard events (extreme weather, windstorms, earthquakes, tsunamis, storm surges, landslides, and fire, including wildland-urban interface fire). The ECI program also supports research on geomaterials and infrastructure materials utilized in load-bearing systems as well as in non-structural systems. Of particular interest is experimental and analytical/computational research to advance the fundamental understanding of coupled multi-physics, multi-scale (spatial and temporal), multi-functional behavior of these materials and their intended use in civil infrastructure.\n\r\n\nThe ECI program supports research on civil infrastructure that contributes to the National Science Foundation&rsquo;s role in the National Earthquake Hazards Reduction Program (NEHRP) and the National Windstorm Impact Reduction Program (NWIRP). Principal Investigators are encouraged to leverage NSF&rsquo;s investments in the Natural Hazards Engineering Research Infrastructure (NHERI) experimental, computational modeling and simulation, and data resources (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://www.designsafe-ci.org/\">https://www.designsafe-ci.org/</a>) in their research to accelerate advances needed for reducing the impacts of natural hazards on civil infrastructure. The NHERI Science Plan (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://www.designsafe-ci.org/facilities/nco/science-plan/\">https://www.designsafe-ci.org/facilities/nco/science-plan/</a>) offers a range of research topics that could benefit from the use of NHERI resources and are relevant to the ECI program.\n\r\n\nThe ECI program does not support research that addresses natural resource exploration or recovery, investigates blasts and explosions, develops sensor and measurement technologies, or focuses on hazard characterization. The ECI program only supports fundamental research topics for civil infrastructure with a strong grounding in theory. Topics which fall within the mission for research and/or development of other federal and state agencies are appropriate for the ECI program only when addressing fundamental scientific questions. Research on natural hazard characterization is supported through programs in the NSF Directorate for Geosciences.\n\r\n\nProposers are actively encouraged to email a one-page project summary to the ECI Program Officers before submitting a full proposal for guidance on whether the proposed research topic falls within the scope of the ECI program; this guidance especially should be requested for multi-disciplinary research proposals, proposals for which research and/or development on the subject civil infrastructure(s) are also supported by other federal and state agencies, and proposals that consider civil infrastructure not listed above.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505488",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-19-073Y",
+            "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Mar 31, 2022 01:00:17 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Sep 16, 2022 01:00:11 AM EDT",
+            "createdDate": "Jun 12, 2018 01:00:11 AM EDT",
+            "lastUpdatedDate": "Mar 31, 2022 01:00:17 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2018-06-12-00-00-00",
+            "createTimeStampStr": "2022-03-31-01-00-17"
+          },
+          "cfdas": [
+            {
+              "id": 354946,
+              "opportunityId": 306169,
+              "revision": 6,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering Grants"
+            },
+            {
+              "id": 354953,
+              "opportunityId": 306169,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 306169,
+            "revision": 4
+          },
+          "opportunityId": 306169,
+          "revision": 4,
+          "opportunityNumber": "PD-19-073Y",
+          "opportunityTitle": "Engineering for Civil Infrastructure",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 306169,
+              "revision": 4
+            },
+            "opportunityId": 306169,
+            "revision": 4,
+            "version": 5,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Engineering for Civil Infrastructure (ECI) program supports fundamental research in geotechnical, structural, materials, architectural, and coastal engineering. The ECI program promotes research that can shape the future of the nation&rsquo;s physical civil infrastructure and that can contribute to climate change adaptation and mitigation, and hazards and disaster resilience. Types of civil infrastructure that the ECI program considers include, but are not limited to, buildings, residential construction, earth and earth retaining structures, and components of flood protection systems; water, waste disposal, and wastewater systems; energy infrastructure (excluding nuclear); and transportation systems (excluding pavements). Both disciplinary and convergent research that can address the challenges of physical civil infrastructure to be resilient and sustainable over its service lifetime are of particular interest. Broader impacts of ECI research include fostering community welfare for an equitable and prosperous nation and promoting environmentally friendly, circular economy policies.\n\r\n\nThe ECI program supports research that advances knowledge on the behavior of physical civil infrastructure subjected to and interacting with the natural environment during construction; under service and long-term conditions, including increased demands due to climate change adaptation and other emerging stressors; and under conditions caused by single or multiple extreme hazard events (extreme weather, windstorms, earthquakes, tsunamis, storm surges, landslides, and fire, including wildland-urban interface fire). The ECI program also supports research on geomaterials and infrastructure materials utilized in load-bearing systems as well as in non-structural systems. Of particular interest is experimental and analytical/computational research to advance the fundamental understanding of coupled multi-physics, multi-scale (spatial and temporal), multi-functional behavior of these materials and their intended use in civil infrastructure.\n\r\n\nThe ECI program supports research on civil infrastructure that contributes to the National Science Foundation&rsquo;s role in the National Earthquake Hazards Reduction Program (NEHRP) and the National Windstorm Impact Reduction Program (NWIRP). Principal Investigators are encouraged to leverage NSF&rsquo;s investments in the Natural Hazards Engineering Research Infrastructure (NHERI) experimental, computational modeling and simulation, and data resources (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://www.designsafe-ci.org/\">https://www.designsafe-ci.org/</a>) in their research to accelerate advances needed for reducing the impacts of natural hazards on civil infrastructure. The NHERI Science Plan (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://www.designsafe-ci.org/facilities/nco/science-plan/\">https://www.designsafe-ci.org/facilities/nco/science-plan/</a>) offers a range of research topics that could benefit from the use of NHERI resources and are relevant to the ECI program.\n\r\n\nThe ECI program does not support research that addresses natural resource exploration or recovery, investigates blasts and explosions, develops sensor and measurement technologies, or focuses on hazard characterization. The ECI program only supports fundamental research topics for civil infrastructure with a strong grounding in theory. Topics which fall within the mission for research and/or development of other federal and state agencies are appropriate for the ECI program only when addressing fundamental scientific questions. Research on natural hazard characterization is supported through programs in the NSF Directorate for Geosciences.\n\r\n\nProposers are actively encouraged to email a one-page project summary to the ECI Program Officers before submitting a full proposal for guidance on whether the proposed research topic falls within the scope of the ECI program; this guidance especially should be requested for multi-disciplinary research proposals, proposals for which research and/or development on the subject civil infrastructure(s) are also supported by other federal and state agencies, and proposals that consider civil infrastructure not listed above.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505488",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-19-073Y",
+            "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Sep 16, 2022 01:00:11 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jan 28, 2023 01:48:42 AM EST",
+            "createdDate": "Jun 12, 2018 01:00:11 AM EDT",
+            "lastUpdatedDate": "Sep 16, 2022 01:00:11 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2018-06-12-00-00-00",
+            "createTimeStampStr": "2022-09-16-01-00-11"
+          },
+          "cfdas": [
+            {
+              "id": 354946,
+              "opportunityId": 306169,
+              "revision": 6,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering Grants"
+            },
+            {
+              "id": 354953,
+              "opportunityId": 306169,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 306169,
+            "revision": 5
+          },
+          "opportunityId": 306169,
+          "revision": 5,
+          "opportunityNumber": "PD-19-073Y",
+          "opportunityTitle": "Engineering for Civil Infrastructure",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 306169,
+              "revision": 5
+            },
+            "opportunityId": 306169,
+            "revision": 5,
+            "version": 6,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Engineering for Civil Infrastructure (ECI) program supports fundamental research in geotechnical, structural, materials, architectural, and coastal engineering. The ECI program promotes research that can shape the future of the nation&rsquo;s physical civil infrastructure and that can contribute to climate change adaptation and mitigation, and hazards and disaster resilience. Types of civil infrastructure that the ECI program considers include, but are not limited to, buildings, residential construction, earth and earth retaining structures, and components of flood protection systems; water, waste disposal, and wastewater systems; energy infrastructure (excluding nuclear); and transportation systems (excluding pavements). Both disciplinary and convergent research that can address the challenges of physical civil infrastructure to be resilient and sustainable over its service lifetime are of particular interest. Broader impacts of ECI research include fostering community welfare for an equitable and prosperous nation and promoting environmentally friendly, circular economy policies.\n\r\n\nThe ECI program supports research that advances knowledge on the behavior of physical civil infrastructure subjected to and interacting with the natural environment during construction; under service and long-term conditions, including increased demands due to climate change adaptation and other emerging stressors; and under conditions caused by single or multiple extreme hazard events (extreme weather, windstorms, earthquakes, tsunamis, storm surges, landslides, and fire, including wildland-urban interface fire). The ECI program also supports research on geomaterials and infrastructure materials utilized in load-bearing systems as well as in non-structural systems. Of particular interest is experimental and analytical/computational research to advance the fundamental understanding of coupled multi-physics, multi-scale (spatial and temporal), multi-functional behavior of these materials and their intended use in civil infrastructure.\n\r\n\nThe ECI program supports research on civil infrastructure that contributes to the National Science Foundation&rsquo;s role in the National Earthquake Hazards Reduction Program (NEHRP) and the National Windstorm Impact Reduction Program (NWIRP). Principal Investigators are encouraged to leverage NSF&rsquo;s investments in the Natural Hazards Engineering Research Infrastructure (NHERI) experimental, computational modeling and simulation, and data resources (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://www.designsafe-ci.org/\">https://www.designsafe-ci.org/</a>) in their research to accelerate advances needed for reducing the impacts of natural hazards on civil infrastructure. The NHERI Science Plan (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://www.designsafe-ci.org/facilities/nco/science-plan/\">https://www.designsafe-ci.org/facilities/nco/science-plan/</a>) offers a range of research topics that could benefit from the use of NHERI resources and are relevant to the ECI program.\n\r\n\nThe ECI program does not support research that addresses natural resource exploration or recovery, investigates blasts and explosions, develops sensor and measurement technologies, or focuses on hazard characterization. The ECI program only supports fundamental research topics for civil infrastructure with a strong grounding in theory. Topics which fall within the mission for research and/or development of other federal and state agencies are appropriate for the ECI program only when addressing fundamental scientific questions. Research on natural hazard characterization is supported through programs in the NSF Directorate for Geosciences.\n\r\n\nProposers are actively encouraged to email a one-page project summary to the ECI Program Officers before submitting a full proposal for guidance on whether the proposed research topic falls within the scope of the ECI program; this guidance especially should be requested for multi-disciplinary research proposals, proposals for which research and/or development on the subject civil infrastructure(s) are also supported by other federal and state agencies, and proposals that consider civil infrastructure not listed above.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505488",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-19-073Y",
+            "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jan 28, 2023 01:48:42 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "May 19, 2023 11:53:32 PM EDT",
+            "createdDate": "Jun 12, 2018 01:00:11 AM EDT",
+            "lastUpdatedDate": "Jan 28, 2023 01:48:42 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2018-06-12-00-00-00",
+            "createTimeStampStr": "2023-01-28-01-48-42"
+          },
+          "cfdas": [
+            {
+              "id": 354946,
+              "opportunityId": 306169,
+              "revision": 6,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering Grants"
+            },
+            {
+              "id": 354953,
+              "opportunityId": 306169,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 306169,
+            "revision": 6
+          },
+          "opportunityId": 306169,
+          "revision": 6,
+          "opportunityNumber": "PD-19-073Y",
+          "opportunityTitle": "Engineering for Civil Infrastructure",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 306169,
+              "revision": 6
+            },
+            "opportunityId": 306169,
+            "revision": 6,
+            "version": 7,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Engineering for Civil Infrastructure (ECI) program supports fundamental research in geotechnical, structural, materials, architectural, and coastal engineering. The ECI program promotes research that can shape the future of the nation&rsquo;s physical civil infrastructure and that can contribute to climate change adaptation and mitigation, and hazards and disaster resilience. Types of civil infrastructure that the ECI program considers include, but are not limited to, buildings, residential construction, earth and earth retaining structures, and components of flood protection systems; water, waste disposal, and wastewater systems; energy infrastructure (excluding nuclear); and transportation systems (excluding pavements). Both disciplinary and convergent research that can address the challenges of physical civil infrastructure to be resilient and sustainable over its service lifetime are of particular interest. Broader impacts of ECI research include fostering community welfare for an equitable and prosperous nation and promoting environmentally friendly, circular economy policies.\n\r\n\nThe ECI program supports research that advances knowledge on the behavior of physical civil infrastructure subjected to and interacting with the natural environment during construction; under service and long-term conditions, including increased demands due to climate change adaptation and other emerging stressors; and under conditions caused by single or multiple extreme hazard events (extreme weather, windstorms, earthquakes, tsunamis, storm surges, landslides, and fire, including wildland-urban interface fire). The ECI program also supports research on geomaterials and infrastructure materials utilized in load-bearing systems as well as in non-structural systems. Of particular interest is experimental and analytical/computational research to advance the fundamental understanding of coupled multi-physics, multi-scale (spatial and temporal), multi-functional behavior of these materials and their intended use in civil infrastructure.\n\r\n\nThe ECI program supports research on civil infrastructure that contributes to the National Science Foundation&rsquo;s role in the National Earthquake Hazards Reduction Program (NEHRP) and the National Windstorm Impact Reduction Program (NWIRP). Principal Investigators are encouraged to leverage NSF&rsquo;s investments in the Natural Hazards Engineering Research Infrastructure (NHERI) experimental, computational modeling and simulation, and data resources (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://www.designsafe-ci.org/\">https://www.designsafe-ci.org/</a>) in their research to accelerate advances needed for reducing the impacts of natural hazards on civil infrastructure. The NHERI Science Plan (<a href=\"https://www.nsf.gov/cgi-bin/good-bye?https://www.designsafe-ci.org/facilities/nco/science-plan/\">https://www.designsafe-ci.org/facilities/nco/science-plan/</a>) offers a range of research topics that could benefit from the use of NHERI resources and are relevant to the ECI program.\n\r\n\nThe ECI program does not support research that addresses natural resource exploration or recovery, investigates blasts and explosions, develops sensor and measurement technologies, or focuses on hazard characterization. The ECI program only supports fundamental research topics for civil infrastructure with a strong grounding in theory. Topics which fall within the mission for research and/or development of other federal and state agencies are appropriate for the ECI program only when addressing fundamental scientific questions. Research on natural hazard characterization is supported through programs in the NSF Directorate for Geosciences.\n\r\n\nProposers are actively encouraged to email a one-page project summary to the ECI Program Officers before submitting a full proposal for guidance on whether the proposed research topic falls within the scope of the ECI program; this guidance especially should be requested for multi-disciplinary research proposals, proposals for which research and/or development on the subject civil infrastructure(s) are also supported by other federal and state agencies, and proposals that consider civil infrastructure not listed above.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505488",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-19-073Y",
+            "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "May 19, 2023 11:53:32 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 24, 2024 12:01:42 AM EST",
+            "createdDate": "Jun 12, 2018 01:00:11 AM EDT",
+            "lastUpdatedDate": "May 19, 2023 11:53:32 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2018-06-12-00-00-00",
+            "createTimeStampStr": "2023-05-19-23-53-32"
+          },
+          "cfdas": [
+            {
+              "id": 354946,
+              "opportunityId": 306169,
+              "revision": 6,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering Grants"
+            },
+            {
+              "id": 354953,
+              "opportunityId": 306169,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 242991,
+          "topportunityId": 306169,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-19-073Y",
+          "opportunityTitle": "Engineering for Civil Infrastructure",
+          "openingDate": "2018-06-12",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Joy M. Pauschke\r\nE-mail: jpauschk@nsf.gov\r\nPhone: (703) 292-7024",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 100,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 01, 2025 09:31:11 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00242991",
+          "openingDateStr": "2018-06-12-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 7,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

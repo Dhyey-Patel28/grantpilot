@@ -1,0 +1,644 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361721",
+  "fetched_at": "2026-05-16T14:09:07.627Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjIybFF1bXFqaEtMN1RGM20zUkJqV2RmbjB5WVlPVFRYTVhaUWplbWpydGs9Ig.YG-KAYJxXTr7m42gbhBTampDXmxw-9n8ypQewFHBrJI",
+    "data": {
+      "id": 361721,
+      "revision": 3,
+      "opportunityNumber": "W9127N-26-2-R001",
+      "opportunityTitle": "Willamette Valley Project (WVP) 2026 NRM Education and Training of Botanically Sophisticated Restoration Workers",
+      "owningAgencyCode": "DOD-COE-PORT",
+      "listed": "L",
+      "publisherUid": "Melanie503",
+      "modifiedComments": "To include Non-profit organizations (501 c-3)",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361721,
+        "version": 4,
+        "agencyCode": "DOD-COE-PORT",
+        "agencyName": "Melanie A Barrett\nGrantor",
+        "agencyPhone": "503-808-4623",
+        "agencyAddressDesc": "Work Email",
+        "agencyDetails": {
+          "code": "PORT",
+          "seed": "DOD-COE-PORT",
+          "agencyName": "USACE Portland District",
+          "agencyCode": "DOD-COE-PORT",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "503-808-4623",
+        "agencyContactName": "Melanie A Barrett\nGrantor",
+        "agencyContactDesc": "Melanie A Barrett\r\nGrantor\r\nPhone 503-808-4623",
+        "agencyContactEmail": "melanie.a.barrett@usace.army.mil",
+        "agencyContactEmailDesc": "Work Email",
+        "synopsisDesc": "<p><strong>Willamette Valley Project (WVP) 2026 Natural Resource Management (NRM) Education and Training of Botanically Sophisticated Restoration Workers&nbsp;</strong></p><p><br></p><p>This Agreement will assist NWP in fulfilling environmental stewardship responsibilities consisting of restoration and management of native landscapes and wildlife habitat at NWP Projects while providing education and training in botanically sophisticated ecological restoration design, implementation, and community involvement to young professionals, veterans, displaced workers, college students, or other community members; and to provide opportunities for local primary and secondary school students to produce and install native plant materials in restoration sites, participating in stewardship of local habitats and gaining knowledge and appreciation of the environment on USACE Portland District (NWP) lands. The recipient’s participants will gain experience with project planning, development, and implementation at water resources projects under USACE jurisdiction at the Willamette Valley Project. Program activities may occur at any site in the Willamette Valley Project but will be concentrated at the southern lakes: Fern Ridge, Fall Creek, Dexter, Lookout Point, Hills Creek, Cottage Grove and Dorena. USACE expects no more than a week at Cougar, Foster-Greenpeter, or Detroit-Big Cliff during the period of performance.</p><p>&nbsp;</p><p>Work projects will consist of education and task assignments in land stewardship and restoration, wildlife habitat improvement, riparian enhancement, wetlands restoration and enhancement, native grassland restoration and management, plant propagation and greenhouse operations, fisheries habitat management, park and recreation site improvement, and outreach activities for public education and interpretive services.</p>",
+        "responseDate": "May 20, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Mar 31, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 19, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "175000",
+        "estimatedFundingFormatted": "175,000",
+        "awardCeiling": "250000",
+        "awardCeilingFormatted": "250,000",
+        "awardFloor": "3000",
+        "awardFloorFormatted": "3,000",
+        "applicantEligibilityDesc": "",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 23, 2026 10:51:44 AM EDT",
+        "modComments": "To include Non-profit organizations (501 c-3)",
+        "createdDate": "Mar 31, 2026 12:25:37 PM EDT",
+        "lastUpdatedDate": "Apr 23, 2026 10:51:44 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          }
+        ],
+        "responseDateStr": "2026-05-20-00-00-00",
+        "postingDateStr": "2026-03-31-00-00-00",
+        "archiveDateStr": "2026-06-19-00-00-00",
+        "createTimeStampStr": "2026-04-23-10-51-44"
+      },
+      "agencyDetails": {
+        "code": "PORT",
+        "seed": "DOD-COE-PORT",
+        "agencyName": "USACE Portland District",
+        "agencyCode": "DOD-COE-PORT",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79123,
+          "opportunityId": 361721,
+          "folderType": "Full Announcement",
+          "folderName": "FOA Attachments",
+          "zipLobSize": 3959322,
+          "createdDate": "Mar 31, 2026 12:40:05 PM EDT",
+          "lastUpdatedDate": "Mar 31, 2026 01:04:34 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350884,
+              "opportunityId": 361721,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "FOA Application Checklist.docx",
+              "fileDescription": "Application Checklist",
+              "fileLobSize": 17693,
+              "createdDate": "Mar 31, 2026 12:41:54 PM EDT",
+              "lastUpdatedDate": "Mar 31, 2026 01:02:23 PM EDT",
+              "synopsisAttFolderId": 79123
+            },
+            {
+              "id": 350889,
+              "opportunityId": 361721,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment 4 - Form Budget for Non-Construction Form SF424A-V1.0.pdf",
+              "fileDescription": "Budget Proposal",
+              "fileLobSize": 39699,
+              "createdDate": "Mar 31, 2026 12:47:46 PM EDT",
+              "synopsisAttFolderId": 79123
+            },
+            {
+              "id": 350890,
+              "opportunityId": 361721,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment 6 &ndash; Certifications.pdf",
+              "fileDescription": "Certification Submission",
+              "fileLobSize": 135794,
+              "createdDate": "Mar 31, 2026 12:54:56 PM EDT",
+              "synopsisAttFolderId": 79123
+            },
+            {
+              "id": 350891,
+              "opportunityId": 361721,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment 7 - SF425_3_0-V3.0.pdf",
+              "fileDescription": "Federal Financial Report",
+              "fileLobSize": 3253402,
+              "createdDate": "Mar 31, 2026 12:56:50 PM EDT",
+              "synopsisAttFolderId": 79123
+            },
+            {
+              "id": 350882,
+              "opportunityId": 361721,
+              "mimeType": "application/pdf",
+              "fileName": "FOA W9127N262R001 FOA - NRM Biological Restoration Work.pdf",
+              "fileDescription": "Funding Opportunity Announcement - Biological Restoration",
+              "fileLobSize": 279641,
+              "createdDate": "Mar 31, 2026 12:41:15 PM EDT",
+              "lastUpdatedDate": "Mar 31, 2026 01:03:16 PM EDT",
+              "synopsisAttFolderId": 79123
+            },
+            {
+              "id": 350892,
+              "opportunityId": 361721,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment 8 - SF-424-Instructions.pdf",
+              "fileDescription": "Instructions for Filling SF 424",
+              "fileLobSize": 42092,
+              "createdDate": "Mar 31, 2026 12:57:30 PM EDT",
+              "synopsisAttFolderId": 79123
+            },
+            {
+              "id": 350888,
+              "opportunityId": 361721,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment 3 - SF424_4_0-V4.0.pdf",
+              "fileDescription": "SF 424 - Application for Federal Assistance",
+              "fileLobSize": 132483,
+              "createdDate": "Mar 31, 2026 12:46:36 PM EDT",
+              "synopsisAttFolderId": 79123
+            },
+            {
+              "id": 350886,
+              "opportunityId": 361721,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment 1 - FY26 Statement of Work - Biological Restoration.pdf",
+              "fileDescription": "Statement of Work (SOW)",
+              "fileLobSize": 122682,
+              "createdDate": "Mar 31, 2026 12:44:13 PM EDT",
+              "lastUpdatedDate": "Mar 31, 2026 01:04:34 PM EDT",
+              "synopsisAttFolderId": 79123
+            },
+            {
+              "id": 350887,
+              "opportunityId": 361721,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "Attachment 2 - Annual Performance Progress Reports.docx",
+              "fileDescription": "Template - Annual Performance - Progress Report",
+              "fileLobSize": 30124,
+              "createdDate": "Mar 31, 2026 12:45:32 PM EDT",
+              "synopsisAttFolderId": 79123
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432489,
+          "opportunityId": 361721,
+          "cfdaNumber": "12.010",
+          "programTitle": "Youth Conservation Services"
+        },
+        {
+          "id": 432787,
+          "opportunityId": 361721
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361721,
+            "revision": 0
+          },
+          "opportunityId": 361721,
+          "revision": 0,
+          "opportunityNumber": "W9127N-26-2-R001",
+          "opportunityTitle": "Willamette Valley Project (WVP) 2026 NRM Education and Training of Botanically Sophisticated Restoration Workers",
+          "owningAgencyCode": "DOD-COE-PORT",
+          "publisherUid": "Melanie503",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361721,
+              "revision": 0
+            },
+            "opportunityId": 361721,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOD-COE-PORT",
+            "agencyAddressDesc": "Work Email",
+            "agencyDetails": {
+              "code": "PORT",
+              "seed": "DOD-COE-PORT",
+              "agencyName": "USACE Portland District",
+              "agencyCode": "DOD-COE-PORT",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "503-808-4623",
+            "agencyContactName": "Melanie A Barrett\nGrantor",
+            "agencyContactDesc": "Melanie A Barrett\r\nGrantor\r\nPhone 503-808-4623",
+            "agencyContactEmail": "melanie.a.barrett@usace.army.mil",
+            "agencyContactEmailDesc": "Work Email",
+            "synopsisDesc": "<p><strong>Willamette Valley Project (WVP) 2026 Natural Resource Management (NRM) Education and Training of Botanically Sophisticated Restoration Workers&nbsp;</strong></p><p><br></p><p>This Agreement will assist NWP in fulfilling environmental stewardship responsibilities consisting of restoration and management of native landscapes and wildlife habitat at NWP Projects while providing education and training in botanically sophisticated ecological restoration design, implementation, and community involvement to young professionals, veterans, displaced workers, college students, or other community members; and to provide opportunities for local primary and secondary school students to produce and install native plant materials in restoration sites, participating in stewardship of local habitats and gaining knowledge and appreciation of the environment on USACE Portland District (NWP) lands. The recipient’s participants will gain experience with project planning, development, and implementation at water resources projects under USACE jurisdiction at the Willamette Valley Project. Program activities may occur at any site in the Willamette Valley Project but will be concentrated at the southern lakes: Fern Ridge, Fall Creek, Dexter, Lookout Point, Hills Creek, Cottage Grove and Dorena. USACE expects no more than a week at Cougar, Foster-Greenpeter, or Detroit-Big Cliff during the period of performance.</p><p>&nbsp;</p><p>Work projects will consist of education and task assignments in land stewardship and restoration, wildlife habitat improvement, riparian enhancement, wetlands restoration and enhancement, native grassland restoration and management, plant propagation and greenhouse operations, fisheries habitat management, park and recreation site improvement, and outreach activities for public education and interpretive services.</p>",
+            "responseDate": "Apr 30, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Mar 31, 2026 12:00:00 AM EDT",
+            "archiveDate": "May 30, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "175000",
+            "estimatedFundingFormatted": "175,000",
+            "awardCeiling": "250000",
+            "awardCeilingFormatted": "250,000",
+            "awardFloor": "3000",
+            "awardFloorFormatted": "3,000",
+            "applicantEligibilityDesc": "",
+            "createTimeStamp": "Mar 31, 2026 01:05:45 PM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Apr 20, 2026 11:20:08 AM EDT",
+            "createdDate": "Mar 31, 2026 12:25:37 PM EDT",
+            "lastUpdatedDate": "Mar 31, 2026 01:05:45 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2026-04-30-00-00-00",
+            "postingDateStr": "2026-03-31-00-00-00",
+            "archiveDateStr": "2026-05-30-00-00-00",
+            "createTimeStampStr": "2026-03-31-13-05-45"
+          },
+          "cfdas": [
+            {
+              "id": 432489,
+              "opportunityId": 361721,
+              "revision": 2,
+              "cfdaNumber": "12.010",
+              "programTitle": "Youth Conservation Services"
+            },
+            {
+              "id": 432787,
+              "opportunityId": 361721,
+              "revision": 2
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361721,
+            "revision": 1
+          },
+          "opportunityId": 361721,
+          "revision": 1,
+          "opportunityNumber": "W9127N-26-2-R001",
+          "opportunityTitle": "Willamette Valley Project (WVP) 2026 NRM Education and Training of Botanically Sophisticated Restoration Workers",
+          "owningAgencyCode": "DOD-COE-PORT",
+          "publisherUid": "Melanie503",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Extend Closing Date",
+          "synopsis": {
+            "id": {
+              "opportunityId": 361721,
+              "revision": 1
+            },
+            "opportunityId": 361721,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "DOD-COE-PORT",
+            "agencyAddressDesc": "Work Email",
+            "agencyDetails": {
+              "code": "PORT",
+              "seed": "DOD-COE-PORT",
+              "agencyName": "USACE Portland District",
+              "agencyCode": "DOD-COE-PORT",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "503-808-4623",
+            "agencyContactName": "Melanie A Barrett\nGrantor",
+            "agencyContactDesc": "Melanie A Barrett\r\nGrantor\r\nPhone 503-808-4623",
+            "agencyContactEmail": "melanie.a.barrett@usace.army.mil",
+            "agencyContactEmailDesc": "Work Email",
+            "synopsisDesc": "<p><strong>Willamette Valley Project (WVP) 2026 Natural Resource Management (NRM) Education and Training of Botanically Sophisticated Restoration Workers&nbsp;</strong></p><p><br></p><p>This Agreement will assist NWP in fulfilling environmental stewardship responsibilities consisting of restoration and management of native landscapes and wildlife habitat at NWP Projects while providing education and training in botanically sophisticated ecological restoration design, implementation, and community involvement to young professionals, veterans, displaced workers, college students, or other community members; and to provide opportunities for local primary and secondary school students to produce and install native plant materials in restoration sites, participating in stewardship of local habitats and gaining knowledge and appreciation of the environment on USACE Portland District (NWP) lands. The recipient’s participants will gain experience with project planning, development, and implementation at water resources projects under USACE jurisdiction at the Willamette Valley Project. Program activities may occur at any site in the Willamette Valley Project but will be concentrated at the southern lakes: Fern Ridge, Fall Creek, Dexter, Lookout Point, Hills Creek, Cottage Grove and Dorena. USACE expects no more than a week at Cougar, Foster-Greenpeter, or Detroit-Big Cliff during the period of performance.</p><p>&nbsp;</p><p>Work projects will consist of education and task assignments in land stewardship and restoration, wildlife habitat improvement, riparian enhancement, wetlands restoration and enhancement, native grassland restoration and management, plant propagation and greenhouse operations, fisheries habitat management, park and recreation site improvement, and outreach activities for public education and interpretive services.</p>",
+            "responseDate": "Apr 30, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Mar 31, 2026 12:00:00 AM EDT",
+            "archiveDate": "May 30, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "175000",
+            "estimatedFundingFormatted": "175,000",
+            "awardCeiling": "250000",
+            "awardCeilingFormatted": "250,000",
+            "awardFloor": "3000",
+            "awardFloorFormatted": "3,000",
+            "applicantEligibilityDesc": "",
+            "createTimeStamp": "Apr 20, 2026 11:20:08 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "Extend Closing Date",
+            "actionType": "U",
+            "actionDate": "Apr 20, 2026 11:21:08 AM EDT",
+            "createdDate": "Mar 31, 2026 12:25:37 PM EDT",
+            "lastUpdatedDate": "Apr 20, 2026 11:20:08 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2026-04-30-00-00-00",
+            "postingDateStr": "2026-03-31-00-00-00",
+            "archiveDateStr": "2026-05-30-00-00-00",
+            "createTimeStampStr": "2026-04-20-11-20-08"
+          },
+          "cfdas": [
+            {
+              "id": 432489,
+              "opportunityId": 361721,
+              "revision": 2,
+              "cfdaNumber": "12.010",
+              "programTitle": "Youth Conservation Services"
+            },
+            {
+              "id": 432787,
+              "opportunityId": 361721,
+              "revision": 2
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361721,
+            "revision": 2
+          },
+          "opportunityId": 361721,
+          "revision": 2,
+          "opportunityNumber": "W9127N-26-2-R001",
+          "opportunityTitle": "Willamette Valley Project (WVP) 2026 NRM Education and Training of Botanically Sophisticated Restoration Workers",
+          "owningAgencyCode": "DOD-COE-PORT",
+          "publisherUid": "Melanie503",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Extend Closing Date",
+          "synopsis": {
+            "id": {
+              "opportunityId": 361721,
+              "revision": 2
+            },
+            "opportunityId": 361721,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "DOD-COE-PORT",
+            "agencyAddressDesc": "Work Email",
+            "agencyDetails": {
+              "code": "PORT",
+              "seed": "DOD-COE-PORT",
+              "agencyName": "USACE Portland District",
+              "agencyCode": "DOD-COE-PORT",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "503-808-4623",
+            "agencyContactName": "Melanie A Barrett\nGrantor",
+            "agencyContactDesc": "Melanie A Barrett\r\nGrantor\r\nPhone 503-808-4623",
+            "agencyContactEmail": "melanie.a.barrett@usace.army.mil",
+            "agencyContactEmailDesc": "Work Email",
+            "synopsisDesc": "<p><strong>Willamette Valley Project (WVP) 2026 Natural Resource Management (NRM) Education and Training of Botanically Sophisticated Restoration Workers&nbsp;</strong></p><p><br></p><p>This Agreement will assist NWP in fulfilling environmental stewardship responsibilities consisting of restoration and management of native landscapes and wildlife habitat at NWP Projects while providing education and training in botanically sophisticated ecological restoration design, implementation, and community involvement to young professionals, veterans, displaced workers, college students, or other community members; and to provide opportunities for local primary and secondary school students to produce and install native plant materials in restoration sites, participating in stewardship of local habitats and gaining knowledge and appreciation of the environment on USACE Portland District (NWP) lands. The recipient’s participants will gain experience with project planning, development, and implementation at water resources projects under USACE jurisdiction at the Willamette Valley Project. Program activities may occur at any site in the Willamette Valley Project but will be concentrated at the southern lakes: Fern Ridge, Fall Creek, Dexter, Lookout Point, Hills Creek, Cottage Grove and Dorena. USACE expects no more than a week at Cougar, Foster-Greenpeter, or Detroit-Big Cliff during the period of performance.</p><p>&nbsp;</p><p>Work projects will consist of education and task assignments in land stewardship and restoration, wildlife habitat improvement, riparian enhancement, wetlands restoration and enhancement, native grassland restoration and management, plant propagation and greenhouse operations, fisheries habitat management, park and recreation site improvement, and outreach activities for public education and interpretive services.</p>",
+            "responseDate": "May 20, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Mar 31, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jun 19, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "175000",
+            "estimatedFundingFormatted": "175,000",
+            "awardCeiling": "250000",
+            "awardCeilingFormatted": "250,000",
+            "awardFloor": "3000",
+            "awardFloorFormatted": "3,000",
+            "applicantEligibilityDesc": "",
+            "createTimeStamp": "Apr 20, 2026 11:21:08 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "Extended Closing Date.",
+            "actionType": "U",
+            "actionDate": "Apr 23, 2026 10:51:44 AM EDT",
+            "createdDate": "Mar 31, 2026 12:25:37 PM EDT",
+            "lastUpdatedDate": "Apr 20, 2026 11:21:08 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2026-05-20-00-00-00",
+            "postingDateStr": "2026-03-31-00-00-00",
+            "archiveDateStr": "2026-06-19-00-00-00",
+            "createTimeStampStr": "2026-04-20-11-21-08"
+          },
+          "cfdas": [
+            {
+              "id": 432489,
+              "opportunityId": 361721,
+              "revision": 2,
+              "cfdaNumber": "12.010",
+              "programTitle": "Youth Conservation Services"
+            },
+            {
+              "id": 432787,
+              "opportunityId": 361721,
+              "revision": 2
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "archiveDate"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292449,
+          "topportunityId": 361721,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "W9127N-26-2-R001",
+          "opportunityTitle": "Willamette Valley Project (WVP) 2026 NRM Education and Training of Botanically Sophisticated Restoration Workers",
+          "openingDate": "2026-04-20",
+          "closingDate": "2026-05-20",
+          "owningAgencyCode": "DOD-COE-PORT",
+          "agencyDetails": {
+            "code": "PORT",
+            "seed": "DOD-COE-PORT",
+            "agencyName": "USACE Portland District",
+            "agencyCode": "DOD-COE-PORT",
+            "topAgencyCode": "DOD"
+          },
+          "topAgencyDetails": {
+            "code": "DOD",
+            "seed": "DOD",
+            "agencyName": "Department of Defense",
+            "agencyCode": "DOD",
+            "topAgencyCode": "DOD"
+          },
+          "contactInfo": "Melanie A Barrett\r\nGrantor\r\nE-mail: melanie.a.barrett@usace.army.mil\r\nPhone: 503-808-4623",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 1,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 20, 2026 11:19:11 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292449",
+          "openingDateStr": "2026-04-20-00-00-00",
+          "closingDateStr": "2026-05-20-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Apr 30, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 3,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

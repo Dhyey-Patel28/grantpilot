@@ -1,0 +1,183 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "353012",
+  "fetched_at": "2026-05-16T14:07:06.744Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlhmSlVWbkE3VE9iZjNUMW4yZmVGdTRQNlNWN2dDeSs3YzZ0d3dXc1JSR2s9Ig.2mz-vPMoKhjWD24uQHDQ8XIs_jbk0KkFbsSniAYXZ5Q",
+    "data": {
+      "id": 353012,
+      "revision": 0,
+      "opportunityNumber": "DOS-AZE-PD-24-02",
+      "opportunityTitle": "English-Language Program for Disadvantaged Communities Initiatives Program",
+      "owningAgencyCode": "DOS-AZE",
+      "listed": "L",
+      "publisherUid": "AliyevaN",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "AZE",
+        "seed": "DOS-AZE",
+        "agencyName": "U.S. Mission to Azerbaijan",
+        "agencyCode": "DOS-AZE",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "forecast": {
+        "opportunityId": 353012,
+        "version": 1,
+        "postingDate": "Mar 18, 2024 12:00:00 AM EDT",
+        "forecastDesc": "<p><span style=\"color: rgb(10, 49, 77);\">The U.S. Embassy is pleased to announce a call for proposals from individuals and organizations for its English-Language Program for Disadvantaged Communities.&nbsp;The program is focused on English-language training for youth aged 12-17 from underserved communities, especially those located outside of the capital city.&nbsp;In addition to in-person programs, instruction may be offered partly virtually.</span></p>\n<p><strong style=\"color: rgb(10, 49, 77);\"><em>The program objectives are:</em></strong></p>\n<ul>\n <li>To offer free-of-charge English-language instruction to Azerbaijani students from underserved communities.</li>\n <li>To create highly effective English-language instruction using current, student-centered methodologies to improve the students’ ability to comprehend and communicate in real-world contexts.</li>\n <li>To instill knowledge of and appreciation for American culture and values, to promote community service, and to enhance critical-thinking skills among program participants.</li>\n</ul>\n<p><strong style=\"color: rgb(10, 49, 77);\"><em>Participants and Audiences:</em></strong></p>\n<p><span style=\"color: rgb(10, 49, 77);\">The intended audiences for potential projects are individuals from disadvantaged communities (rural areas, low-income, IDPs etc.).&nbsp;Secondary school students and young people living in rural and vulnerable communities are the targeted beneficiaries and special consideration will be given to programs working in regions outside of Baku.&nbsp;Proposed programs should include contingency plans to accommodate potential prohibitions on in-person gatherings.</span></p>",
+        "costSharing": false,
+        "numberOfAwards": "5",
+        "estimatedFunding": "100000",
+        "awardCeiling": "25000",
+        "awardFloor": "15000",
+        "agencyContactName": "Sabina Abdullayeva \r\nGrantor",
+        "agencyContactPhone": "+994124883310",
+        "agencyContactEmail": "BakuELPrograms@state.gov",
+        "agencyContactEmailDesc": "BakuELPrograms@state.gov",
+        "agencyCode": "DOS-AZE",
+        "sendEmail": "Y",
+        "estSynopsisPostingDate": "Mar 18, 2024 12:00:00 AM EDT",
+        "estApplicationResponseDate": "May 05, 2024 12:00:00 AM EDT",
+        "estAwardDate": "Jun 20, 2024 12:00:00 AM EDT",
+        "estProjectStartDate": "Jun 30, 2024 12:00:00 AM EDT",
+        "fiscalYear": 2024,
+        "createTimeStamp": "Mar 18, 2024 04:37:02 AM EDT",
+        "createdDate": "Mar 18, 2024 04:33:39 AM EDT",
+        "lastUpdatedDate": "Mar 18, 2024 04:37:02 AM EDT",
+        "agencyDetails": {
+          "code": "AZE",
+          "seed": "DOS-AZE",
+          "agencyName": "U.S. Mission to Azerbaijan",
+          "agencyCode": "DOS-AZE",
+          "topAgencyCode": "DOS"
+        },
+        "estimatedFundingFormatted": "100,000",
+        "awardCeilingFormatted": "25,000",
+        "awardFloorFormatted": "15,000",
+        "applicantTypes": [
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "21",
+            "description": "Individuals"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ED",
+            "description": "Education"
+          }
+        ],
+        "postingDateStr": "2024-03-18-00-00-00",
+        "estSynopsisPostingDateStr": "2024-03-18-00-00-00",
+        "estApplicationResponseDateStr": "2024-05-05-00-00-00",
+        "estAwardDateStr": "2024-06-20-00-00-00",
+        "estProjectStartDateStr": "2024-06-30-00-00-00",
+        "createTimeStampStr": "2024-03-18-04-37-02"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 71166,
+          "opportunityId": 353012,
+          "folderType": "Full Announcement",
+          "folderName": "English Language NOFO",
+          "zipLobSize": 28922,
+          "createdDate": "Mar 18, 2024 04:35:35 AM EDT",
+          "lastUpdatedDate": "Mar 18, 2024 04:37:02 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 336928,
+              "opportunityId": 353012,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "English Language NOFO_2024.docx",
+              "fileDescription": "NOFO text",
+              "fileLobSize": 32045,
+              "createdDate": "Mar 18, 2024 04:37:02 AM EDT",
+              "synopsisAttFolderId": 71166
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 418332,
+          "opportunityId": 353012,
+          "cfdaNumber": "19.900",
+          "programTitle": "AEECA/ESF PD Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [
+        {
+          "id": 285398,
+          "topportunityId": 353012,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "DOS-AZE-PD-24-02",
+          "opportunityTitle": "English-Language Program for Disadvantaged Communities Initiatives Program",
+          "cfdaNumber": "19.900",
+          "openingDate": "Mar 18, 2024 12:00:00 AM EDT",
+          "closingDate": "May 05, 2024 12:00:00 AM EDT",
+          "owningAgencyCode": "DOS-AZE",
+          "programTitle": "AEECA/ESF PD Programs",
+          "contactInfo": "Sabina Abdullayeva\r\nGrantor\r\nE-mail: BakuELPrograms@state.gov\r\nPhone:",
+          "competitionId": "DOS-AZE-PD-24-02",
+          "competitionTitle": "English-Language Program for Disadvantaged Communities Initiatives Program",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 15,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "docx",
+          "mimetype": "application/msword",
+          "lastUpdate": "Mar 18, 2024 04:44:09 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00285398",
+          "openingDateStr": "2024-03-18-00-00-00",
+          "closingDateStr": "2024-05-05-00-00-00"
+        }
+      ],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

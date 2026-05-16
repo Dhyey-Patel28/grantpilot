@@ -1,0 +1,1046 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361310",
+  "fetched_at": "2026-05-16T14:08:42.860Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ik1FK0ZEc0sxOHEwcVVYSXd4TEd1VytZVU8wbm1tcC9ib2NRcU9vYUJFM009Ig.knMVMcYhfNKn6iDHifKAOFjGvnyztweu_OIeY_pD0gI",
+    "data": {
+      "id": 361310,
+      "revision": 8,
+      "opportunityNumber": "HRSA-26-051",
+      "opportunityTitle": "Emergency Medical Services for Children (EMSC) National Pediatric Readiness Coordinating Center Cooperative Agreement",
+      "owningAgencyCode": "HHS-HRSA",
+      "listed": "L",
+      "publisherUid": "126180912667672078351494559614883671930",
+      "modifiedComments": "changing dates",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "HRSA",
+        "seed": "HHS-HRSA",
+        "agencyName": "Health Resources and Services Administration",
+        "agencyCode": "HHS-HRSA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 361310,
+        "version": 9,
+        "postingDate": "Feb 17, 2026 12:00:00 AM EST",
+        "archiveDate": "Jul 15, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>The Emergency Medical Services for Children National Pediatric Readiness Coordinating Center (EMSC NPRCC) demonstration program will work to assess and expand “Pediatric Readiness” in hospital emergency departments (ED) and pre-hospital emergency medical services (EMS) systems. Because children have unique physiological, emotional, and developmental characteristics, specialized emergency care is needed. &nbsp;Pediatric Readiness ensures that every EMS and fire-rescue agency and ED has the pediatric-specific leadership, competencies, policies, equipment, and other resources needed to provide high-quality emergency care for children, no matter where they live, attend school, or travel in the United States.&nbsp;</p>",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "4200000",
+        "awardCeiling": "4200000",
+        "awardFloor": "3900000",
+        "agencyContactName": "HRSA/MCHB",
+        "agencyContactPhone": "&#8203;240-800-7959",
+        "agencyContactEmail": "mchbguidance@hrsa.gov",
+        "agencyContactEmailDesc": "mchbguidance@hrsa.gov",
+        "agencyCode": "HHS-HRSA",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "The eligible applicants are state governments and accredited schools of medicine.",
+        "estSynopsisPostingDate": "May 15, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jun 15, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+        "estAwardDate": "Jun 30, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "changing dates",
+        "createTimeStamp": "May 05, 2026 11:45:24 AM EDT",
+        "createdDate": "Feb 17, 2026 03:13:36 PM EST",
+        "lastUpdatedDate": "May 05, 2026 11:45:24 AM EDT",
+        "agencyDetails": {
+          "code": "HRSA",
+          "seed": "HHS-HRSA",
+          "agencyName": "Health Resources and Services Administration",
+          "agencyCode": "HHS-HRSA",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "4,200,000",
+        "awardCeilingFormatted": "4,200,000",
+        "awardFloorFormatted": "3,900,000",
+        "applicantTypes": [
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2026-02-17-00-00-00",
+        "archiveDateStr": "2026-07-15-00-00-00",
+        "estSynopsisPostingDateStr": "2026-05-15-00-00-00",
+        "estApplicationResponseDateStr": "2026-06-15-00-00-00",
+        "estAwardDateStr": "2026-06-30-00-00-00",
+        "estProjectStartDateStr": "2026-07-01-00-00-00",
+        "createTimeStampStr": "2026-05-05-11-45-24"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 431981,
+          "opportunityId": 361310,
+          "cfdaNumber": "93.127",
+          "programTitle": "Emergency Medical Services for Children"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361310,
+            "revision": 0
+          },
+          "opportunityId": 361310,
+          "revision": 0,
+          "opportunityNumber": "HRSA-26-051",
+          "opportunityTitle": "Emergency Medical Services for Children (EMSC) National Pediatric Readiness Coordinating Center Cooperative Agreement",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361310,
+              "revision": 0
+            },
+            "opportunityId": 361310,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Feb 17, 2026 12:00:00 AM EST",
+            "archiveDate": "Feb 25, 2026 12:00:00 AM EST",
+            "forecastDesc": "<p>The Emergency Medical Services for Children National Pediatric Readiness Coordinating Center (EMSC NPRCC) demonstration program will work to assess and expand “Pediatric Readiness” in hospital emergency departments (ED) and pre-hospital emergency medical services (EMS) systems. Children have unique physiological, emotional, and developmental characteristics that require specialized medical care. Pediatric Readiness ensures that every EMS and fire-rescue agency and EDs have the pediatric-specific coordinators, competencies, policies, equipment, and other resources needed to provide high-quality emergency care for children, no matter where they live, attend school, or travel in the United States.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "4200000",
+            "awardCeiling": "4200000",
+            "awardFloor": "0",
+            "agencyContactName": "HRSA/MCHB",
+            "agencyContactPhone": "&#8203;240-800-7959",
+            "agencyContactEmail": "mchbguidance@hrsa.gov",
+            "agencyContactEmailDesc": "mchbguidance@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "applicantEligibilityDesc": "The eligible Applicant should be accredited medical school and state governments",
+            "estSynopsisPostingDate": "Apr 11, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "May 21, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Feb 17, 2026 03:13:36 PM EST",
+            "actionType": "U",
+            "actionDate": "Apr 06, 2026 03:40:53 PM EDT",
+            "createdDate": "Feb 17, 2026 03:13:36 PM EST",
+            "lastUpdatedDate": "Feb 17, 2026 03:13:36 PM EST",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,200,000",
+            "awardCeilingFormatted": "4,200,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-02-17-00-00-00",
+            "archiveDateStr": "2026-02-25-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-11-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-21-00-00-00",
+            "estAwardDateStr": "2026-07-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-02-17-15-13-36"
+          },
+          "cfdas": [
+            {
+              "id": 431981,
+              "opportunityId": 361310,
+              "revision": 7,
+              "cfdaNumber": "93.127",
+              "programTitle": "Emergency Medical Services for Children"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361310,
+            "revision": 1
+          },
+          "opportunityId": 361310,
+          "revision": 1,
+          "opportunityNumber": "HRSA-26-051",
+          "opportunityTitle": "Emergency Medical Services for Children (EMSC) National Pediatric Readiness Coordinating Center Cooperative Agreement",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361310,
+              "revision": 1
+            },
+            "opportunityId": 361310,
+            "revision": 1,
+            "version": 2,
+            "postingDate": "Feb 17, 2026 12:00:00 AM EST",
+            "archiveDate": "Jul 02, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Emergency Medical Services for Children National Pediatric Readiness Coordinating Center (EMSC NPRCC) demonstration program will work to assess and expand “Pediatric Readiness” in hospital emergency departments (ED) and pre-hospital emergency medical services (EMS) systems. Because children have unique physiological, emotional, and developmental characteristics, specialized emergency care is needed. &nbsp;Pediatric Readiness ensures that every EMS and fire-rescue agency and ED has the pediatric-specific leadership, competencies, policies, equipment, and other resources needed to provide high-quality emergency care for children, no matter where they live, attend school, or travel in the United States.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "4200000",
+            "awardCeiling": "4200000",
+            "awardFloor": "3900000",
+            "agencyContactName": "HRSA/MCHB",
+            "agencyContactPhone": "&#8203;240-800-7959",
+            "agencyContactEmail": "mchbguidance@hrsa.gov",
+            "agencyContactEmailDesc": "mchbguidance@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "The eligible applicants are state governments and accredited schools of medicine.",
+            "estSynopsisPostingDate": "Apr 30, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "May 21, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "updating tentative NOFO positing and closing dates",
+            "createTimeStamp": "Apr 06, 2026 03:40:53 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 06, 2026 03:40:53 PM EDT",
+            "createdDate": "Feb 17, 2026 03:13:36 PM EST",
+            "lastUpdatedDate": "Apr 06, 2026 03:40:53 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,200,000",
+            "awardCeilingFormatted": "4,200,000",
+            "awardFloorFormatted": "3,900,000",
+            "applicantTypes": [
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-02-17-00-00-00",
+            "archiveDateStr": "2026-07-02-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-30-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-21-00-00-00",
+            "estAwardDateStr": "2026-06-30-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-04-06-15-40-53"
+          },
+          "cfdas": [
+            {
+              "id": 431981,
+              "opportunityId": 361310,
+              "revision": 7,
+              "cfdaNumber": "93.127",
+              "programTitle": "Emergency Medical Services for Children"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "applicantEligibilityDesc",
+            "forecastDesc",
+            "archiveDate",
+            "awardFloor",
+            "applicantEligibilityDesc",
+            "estSynopsisPostingDate",
+            "estAwardDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361310,
+            "revision": 2
+          },
+          "opportunityId": 361310,
+          "revision": 2,
+          "opportunityNumber": "HRSA-26-051",
+          "opportunityTitle": "Emergency Medical Services for Children (EMSC) National Pediatric Readiness Coordinating Center Cooperative Agreement",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "updating tentative NOFO positing and closing dates",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361310,
+              "revision": 2
+            },
+            "opportunityId": 361310,
+            "revision": 2,
+            "version": 3,
+            "postingDate": "Feb 17, 2026 12:00:00 AM EST",
+            "archiveDate": "Jul 02, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Emergency Medical Services for Children National Pediatric Readiness Coordinating Center (EMSC NPRCC) demonstration program will work to assess and expand “Pediatric Readiness” in hospital emergency departments (ED) and pre-hospital emergency medical services (EMS) systems. Because children have unique physiological, emotional, and developmental characteristics, specialized emergency care is needed. &nbsp;Pediatric Readiness ensures that every EMS and fire-rescue agency and ED has the pediatric-specific leadership, competencies, policies, equipment, and other resources needed to provide high-quality emergency care for children, no matter where they live, attend school, or travel in the United States.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "4200000",
+            "awardCeiling": "4200000",
+            "awardFloor": "3900000",
+            "agencyContactName": "HRSA/MCHB",
+            "agencyContactPhone": "&#8203;240-800-7959",
+            "agencyContactEmail": "mchbguidance@hrsa.gov",
+            "agencyContactEmailDesc": "mchbguidance@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "The eligible applicants are state governments and accredited schools of medicine.",
+            "estSynopsisPostingDate": "Apr 30, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "May 21, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "updating tentative NOFO positing and closing dates",
+            "createTimeStamp": "Apr 06, 2026 03:40:53 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 07, 2026 09:04:46 AM EDT",
+            "createdDate": "Feb 17, 2026 03:13:36 PM EST",
+            "lastUpdatedDate": "Apr 06, 2026 03:40:53 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,200,000",
+            "awardCeilingFormatted": "4,200,000",
+            "awardFloorFormatted": "3,900,000",
+            "applicantTypes": [
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-02-17-00-00-00",
+            "archiveDateStr": "2026-07-02-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-30-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-21-00-00-00",
+            "estAwardDateStr": "2026-06-30-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-04-06-15-40-53"
+          },
+          "cfdas": [
+            {
+              "id": 431981,
+              "opportunityId": 361310,
+              "revision": 7,
+              "cfdaNumber": "93.127",
+              "programTitle": "Emergency Medical Services for Children"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361310,
+            "revision": 3
+          },
+          "opportunityId": 361310,
+          "revision": 3,
+          "opportunityNumber": "HRSA-26-051",
+          "opportunityTitle": "Emergency Medical Services for Children (EMSC) National Pediatric Readiness Coordinating Center Cooperative Agreement",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "updating tentative NOFO positing and closing dates",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361310,
+              "revision": 3
+            },
+            "opportunityId": 361310,
+            "revision": 3,
+            "version": 4,
+            "postingDate": "Feb 17, 2026 12:00:00 AM EST",
+            "archiveDate": "Jul 02, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Emergency Medical Services for Children National Pediatric Readiness Coordinating Center (EMSC NPRCC) demonstration program will work to assess and expand “Pediatric Readiness” in hospital emergency departments (ED) and pre-hospital emergency medical services (EMS) systems. Because children have unique physiological, emotional, and developmental characteristics, specialized emergency care is needed. &nbsp;Pediatric Readiness ensures that every EMS and fire-rescue agency and ED has the pediatric-specific leadership, competencies, policies, equipment, and other resources needed to provide high-quality emergency care for children, no matter where they live, attend school, or travel in the United States.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "4200000",
+            "awardCeiling": "4200000",
+            "awardFloor": "3900000",
+            "agencyContactName": "HRSA/MCHB",
+            "agencyContactPhone": "&#8203;240-800-7959",
+            "agencyContactEmail": "mchbguidance@hrsa.gov",
+            "agencyContactEmailDesc": "mchbguidance@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "The eligible applicants are state governments and accredited schools of medicine.",
+            "estSynopsisPostingDate": "Apr 30, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 14, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "updating key dates",
+            "createTimeStamp": "Apr 07, 2026 09:04:46 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 07, 2026 09:04:46 AM EDT",
+            "createdDate": "Feb 17, 2026 03:13:36 PM EST",
+            "lastUpdatedDate": "Apr 07, 2026 09:04:46 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,200,000",
+            "awardCeilingFormatted": "4,200,000",
+            "awardFloorFormatted": "3,900,000",
+            "applicantTypes": [
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-02-17-00-00-00",
+            "archiveDateStr": "2026-07-02-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-30-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-14-00-00-00",
+            "estAwardDateStr": "2026-06-30-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-04-07-09-04-46"
+          },
+          "cfdas": [
+            {
+              "id": 431981,
+              "opportunityId": 361310,
+              "revision": 7,
+              "cfdaNumber": "93.127",
+              "programTitle": "Emergency Medical Services for Children"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361310,
+            "revision": 4
+          },
+          "opportunityId": 361310,
+          "revision": 4,
+          "opportunityNumber": "HRSA-26-051",
+          "opportunityTitle": "Emergency Medical Services for Children (EMSC) National Pediatric Readiness Coordinating Center Cooperative Agreement",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "updating key dates",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361310,
+              "revision": 4
+            },
+            "opportunityId": 361310,
+            "revision": 4,
+            "version": 5,
+            "postingDate": "Feb 17, 2026 12:00:00 AM EST",
+            "archiveDate": "Jul 02, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Emergency Medical Services for Children National Pediatric Readiness Coordinating Center (EMSC NPRCC) demonstration program will work to assess and expand “Pediatric Readiness” in hospital emergency departments (ED) and pre-hospital emergency medical services (EMS) systems. Because children have unique physiological, emotional, and developmental characteristics, specialized emergency care is needed. &nbsp;Pediatric Readiness ensures that every EMS and fire-rescue agency and ED has the pediatric-specific leadership, competencies, policies, equipment, and other resources needed to provide high-quality emergency care for children, no matter where they live, attend school, or travel in the United States.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "4200000",
+            "awardCeiling": "4200000",
+            "awardFloor": "3900000",
+            "agencyContactName": "HRSA/MCHB",
+            "agencyContactPhone": "&#8203;240-800-7959",
+            "agencyContactEmail": "mchbguidance@hrsa.gov",
+            "agencyContactEmailDesc": "mchbguidance@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "The eligible applicants are state governments and accredited schools of medicine.",
+            "estSynopsisPostingDate": "Apr 30, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 14, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "updating key dates",
+            "createTimeStamp": "Apr 07, 2026 09:04:46 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 13, 2026 05:13:44 PM EDT",
+            "createdDate": "Feb 17, 2026 03:13:36 PM EST",
+            "lastUpdatedDate": "Apr 07, 2026 09:04:46 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,200,000",
+            "awardCeilingFormatted": "4,200,000",
+            "awardFloorFormatted": "3,900,000",
+            "applicantTypes": [
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-02-17-00-00-00",
+            "archiveDateStr": "2026-07-02-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-30-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-14-00-00-00",
+            "estAwardDateStr": "2026-06-30-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-04-07-09-04-46"
+          },
+          "cfdas": [
+            {
+              "id": 431981,
+              "opportunityId": 361310,
+              "revision": 7,
+              "cfdaNumber": "93.127",
+              "programTitle": "Emergency Medical Services for Children"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361310,
+            "revision": 5
+          },
+          "opportunityId": 361310,
+          "revision": 5,
+          "opportunityNumber": "HRSA-26-051",
+          "opportunityTitle": "Emergency Medical Services for Children (EMSC) National Pediatric Readiness Coordinating Center Cooperative Agreement",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "updating key dates",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361310,
+              "revision": 5
+            },
+            "opportunityId": 361310,
+            "revision": 5,
+            "version": 6,
+            "postingDate": "Feb 17, 2026 12:00:00 AM EST",
+            "archiveDate": "Jul 02, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Emergency Medical Services for Children National Pediatric Readiness Coordinating Center (EMSC NPRCC) demonstration program will work to assess and expand “Pediatric Readiness” in hospital emergency departments (ED) and pre-hospital emergency medical services (EMS) systems. Because children have unique physiological, emotional, and developmental characteristics, specialized emergency care is needed. &nbsp;Pediatric Readiness ensures that every EMS and fire-rescue agency and ED has the pediatric-specific leadership, competencies, policies, equipment, and other resources needed to provide high-quality emergency care for children, no matter where they live, attend school, or travel in the United States.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "4200000",
+            "awardCeiling": "4200000",
+            "awardFloor": "3900000",
+            "agencyContactName": "HRSA/MCHB",
+            "agencyContactPhone": "&#8203;240-800-7959",
+            "agencyContactEmail": "mchbguidance@hrsa.gov",
+            "agencyContactEmailDesc": "mchbguidance@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "N",
+            "applicantEligibilityDesc": "The eligible applicants are state governments and accredited schools of medicine.",
+            "estSynopsisPostingDate": "May 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updating dates",
+            "createTimeStamp": "Apr 13, 2026 05:13:44 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 13, 2026 05:13:45 PM EDT",
+            "createdDate": "Feb 17, 2026 03:13:36 PM EST",
+            "lastUpdatedDate": "Apr 13, 2026 05:13:44 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,200,000",
+            "awardCeilingFormatted": "4,200,000",
+            "awardFloorFormatted": "3,900,000",
+            "applicantTypes": [
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-02-17-00-00-00",
+            "archiveDateStr": "2026-07-02-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-01-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-01-00-00-00",
+            "estAwardDateStr": "2026-06-30-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-04-13-17-13-44"
+          },
+          "cfdas": [
+            {
+              "id": 431981,
+              "opportunityId": 361310,
+              "revision": 7,
+              "cfdaNumber": "93.127",
+              "programTitle": "Emergency Medical Services for Children"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361310,
+            "revision": 6
+          },
+          "opportunityId": 361310,
+          "revision": 6,
+          "opportunityNumber": "HRSA-26-051",
+          "opportunityTitle": "Emergency Medical Services for Children (EMSC) National Pediatric Readiness Coordinating Center Cooperative Agreement",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updating dates",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361310,
+              "revision": 6
+            },
+            "opportunityId": 361310,
+            "revision": 6,
+            "version": 7,
+            "postingDate": "Feb 17, 2026 12:00:00 AM EST",
+            "archiveDate": "Jul 02, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Emergency Medical Services for Children National Pediatric Readiness Coordinating Center (EMSC NPRCC) demonstration program will work to assess and expand “Pediatric Readiness” in hospital emergency departments (ED) and pre-hospital emergency medical services (EMS) systems. Because children have unique physiological, emotional, and developmental characteristics, specialized emergency care is needed. &nbsp;Pediatric Readiness ensures that every EMS and fire-rescue agency and ED has the pediatric-specific leadership, competencies, policies, equipment, and other resources needed to provide high-quality emergency care for children, no matter where they live, attend school, or travel in the United States.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "4200000",
+            "awardCeiling": "4200000",
+            "awardFloor": "3900000",
+            "agencyContactName": "HRSA/MCHB",
+            "agencyContactPhone": "&#8203;240-800-7959",
+            "agencyContactEmail": "mchbguidance@hrsa.gov",
+            "agencyContactEmailDesc": "mchbguidance@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "N",
+            "applicantEligibilityDesc": "The eligible applicants are state governments and accredited schools of medicine.",
+            "estSynopsisPostingDate": "May 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updating dates",
+            "createTimeStamp": "Apr 13, 2026 05:13:45 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 05, 2026 11:45:24 AM EDT",
+            "createdDate": "Feb 17, 2026 03:13:36 PM EST",
+            "lastUpdatedDate": "Apr 13, 2026 05:13:45 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,200,000",
+            "awardCeilingFormatted": "4,200,000",
+            "awardFloorFormatted": "3,900,000",
+            "applicantTypes": [
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-02-17-00-00-00",
+            "archiveDateStr": "2026-07-02-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-01-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-01-00-00-00",
+            "estAwardDateStr": "2026-06-30-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-04-13-17-13-45"
+          },
+          "cfdas": [
+            {
+              "id": 431981,
+              "opportunityId": 361310,
+              "revision": 7,
+              "cfdaNumber": "93.127",
+              "programTitle": "Emergency Medical Services for Children"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361310,
+            "revision": 7
+          },
+          "opportunityId": 361310,
+          "revision": 7,
+          "opportunityNumber": "HRSA-26-051",
+          "opportunityTitle": "Emergency Medical Services for Children (EMSC) National Pediatric Readiness Coordinating Center Cooperative Agreement",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updating dates",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361310,
+              "revision": 7
+            },
+            "opportunityId": 361310,
+            "revision": 7,
+            "version": 8,
+            "postingDate": "Feb 17, 2026 12:00:00 AM EST",
+            "archiveDate": "Jul 15, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Emergency Medical Services for Children National Pediatric Readiness Coordinating Center (EMSC NPRCC) demonstration program will work to assess and expand “Pediatric Readiness” in hospital emergency departments (ED) and pre-hospital emergency medical services (EMS) systems. Because children have unique physiological, emotional, and developmental characteristics, specialized emergency care is needed. &nbsp;Pediatric Readiness ensures that every EMS and fire-rescue agency and ED has the pediatric-specific leadership, competencies, policies, equipment, and other resources needed to provide high-quality emergency care for children, no matter where they live, attend school, or travel in the United States.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "4200000",
+            "awardCeiling": "4200000",
+            "awardFloor": "3900000",
+            "agencyContactName": "HRSA/MCHB",
+            "agencyContactPhone": "&#8203;240-800-7959",
+            "agencyContactEmail": "mchbguidance@hrsa.gov",
+            "agencyContactEmailDesc": "mchbguidance@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "The eligible applicants are state governments and accredited schools of medicine.",
+            "estSynopsisPostingDate": "May 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "changing dates",
+            "createTimeStamp": "May 05, 2026 11:45:24 AM EDT",
+            "actionType": "U",
+            "actionDate": "May 05, 2026 11:45:24 AM EDT",
+            "createdDate": "Feb 17, 2026 03:13:36 PM EST",
+            "lastUpdatedDate": "May 05, 2026 11:45:24 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,200,000",
+            "awardCeilingFormatted": "4,200,000",
+            "awardFloorFormatted": "3,900,000",
+            "applicantTypes": [
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-02-17-00-00-00",
+            "archiveDateStr": "2026-07-15-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-15-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-15-00-00-00",
+            "estAwardDateStr": "2026-06-30-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-05-05-11-45-24"
+          },
+          "cfdas": [
+            {
+              "id": 431981,
+              "opportunityId": 361310,
+              "revision": 7,
+              "cfdaNumber": "93.127",
+              "programTitle": "Emergency Medical Services for Children"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 8,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

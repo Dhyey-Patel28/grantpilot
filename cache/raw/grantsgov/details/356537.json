@@ -1,0 +1,264 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "356537",
+  "fetched_at": "2026-05-16T14:07:23.754Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InRKalZkaHlQeXJkSDl2YmtwNG9sTnZCMDZtemowbXhCQTJBUHNRNkRyYnc9Ig.DlAfA4nMvLUJvQCnUDBox1rCNK8_w398In9xoutTAH4",
+    "data": {
+      "id": 356537,
+      "revision": 1,
+      "opportunityNumber": "PD-24-7791",
+      "opportunityTitle": "Infrastructure Cluster",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 356537,
+        "version": 2,
+        "agencyCode": "NSF",
+        "agencyName": "National Science Foundation",
+        "agencyPhone": "703-292-4261",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4261",
+        "agencyContactName": "National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "<p class=\"Paragraph SCXW90113113 BCX8\" style=\"margin: 0px 0px 10.6667px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: left; text-indent: 0px;\"><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; font-weight: bold;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\" data-ccp-charstyle-defn=\"{\">AGS Infrastructure Cluster</span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"eop\" data-ccp-charstyle-defn=\"{\">&#8239;</span></span><span class=\"EOP SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; color: #000000;\" data-ccp-props=\"{}\"></span>\n\n<div class=\"OutlineElement Ltr SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: #000000; font-family: 'Segoe UI', 'Segoe UI Web', Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">\n<p class=\"Paragraph SCXW90113113 BCX8\" style=\"margin: 0px 0px 10.6667px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: left; text-indent: 0px;\"><span class=\"EOP SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; color: #000000;\" data-ccp-props=\"{}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: #000000; font-family: 'Segoe UI', 'Segoe UI Web', Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">\n<p class=\"Paragraph SCXW90113113 BCX8\" style=\"margin: 0px 0px 10.6667px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: left; text-indent: 0px;\"><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">The </span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">Atmospheric and Geospace Sciences (AGS) </span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">Infrastructure Cluster (IC) </span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">is responsible for</span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\"> the oversight of facilities that enable research in the atmospheric and geospace sciences.</span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\"> The </span></span><span class=\"TextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: #000000; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">IC primarily </span></span><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">oversee</span></span><span class=\"TextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: #000000; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">s</span></span><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\"> the </span></span><span class=\"TextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: #000000; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">NSF </span></span><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">National Center for Atmospheric Research (NCAR)</span></span><span class=\"TextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: #000000; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">, but </span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">i</span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">t </span></span><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">also supports community-based instrumentation and facilities</span></span><span class=\"TextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: #000000; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">,</span></span><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\"> and </span></span><span class=\"TextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: #000000; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">data</span></span><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\"> storage and provisioning.</span></span><span class=\"EOP SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; color: #000000;\" data-ccp-props=\"{}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: #000000; font-family: 'Segoe UI', 'Segoe UI Web', Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">\n<p class=\"Paragraph SCXW90113113 BCX8\" style=\"margin: 0px 0px 10.6667px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: left; text-indent: 0px;\"><span class=\"EOP SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; color: #000000;\" data-ccp-props=\"{}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: #000000; font-family: 'Segoe UI', 'Segoe UI Web', Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">\n<p class=\"Paragraph SCXW90113113 BCX8\" style=\"margin: 0px 0px 10.6667px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: left; text-indent: 0px;\"><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; font-weight: bold;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">NSF </span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-chars",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506311",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-24-7791",
+        "postingDate": "Sep 26, 2024 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Sep 27, 2024 01:00:15 AM EDT",
+        "modComments": ".",
+        "createdDate": "Sep 26, 2024 01:00:08 AM EDT",
+        "lastUpdatedDate": "Sep 27, 2024 01:00:15 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2024-09-26-00-00-00",
+        "createTimeStampStr": "2024-09-27-01-00-15"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 423895,
+          "opportunityId": 356537,
+          "cfdaNumber": "47.050",
+          "programTitle": "Geosciences"
+        },
+        {
+          "id": 423898,
+          "opportunityId": 356537
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 356537,
+            "revision": 0
+          },
+          "opportunityId": 356537,
+          "revision": 0,
+          "opportunityNumber": "PD-24-7791",
+          "opportunityTitle": "Infrastructure Cluster",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 356537,
+              "revision": 0
+            },
+            "opportunityId": 356537,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "<p class=\"Paragraph SCXW90113113 BCX8\" style=\"margin: 0px 0px 10.6667px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: left; text-indent: 0px;\"><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; font-weight: bold;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\" data-ccp-charstyle-defn=\"{\">AGS Infrastructure Cluster</span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"eop\" data-ccp-charstyle-defn=\"{\">&#8239;</span></span><span class=\"EOP SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; color: #000000;\" data-ccp-props=\"{}\"></span>\n\n<div class=\"OutlineElement Ltr SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: #000000; font-family: 'Segoe UI', 'Segoe UI Web', Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">\n<p class=\"Paragraph SCXW90113113 BCX8\" style=\"margin: 0px 0px 10.6667px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: left; text-indent: 0px;\"><span class=\"EOP SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; color: #000000;\" data-ccp-props=\"{}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: #000000; font-family: 'Segoe UI', 'Segoe UI Web', Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">\n<p class=\"Paragraph SCXW90113113 BCX8\" style=\"margin: 0px 0px 10.6667px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: left; text-indent: 0px;\"><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">The </span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">Atmospheric and Geospace Sciences (AGS) </span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">Infrastructure Cluster (IC) </span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">is responsible for</span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\"> the oversight of facilities that enable research in the atmospheric and geospace sciences.</span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\"> The </span></span><span class=\"TextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: #000000; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">IC primarily </span></span><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">oversee</span></span><span class=\"TextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: #000000; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">s</span></span><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\"> the </span></span><span class=\"TextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: #000000; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">NSF </span></span><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">National Center for Atmospheric Research (NCAR)</span></span><span class=\"TextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: #000000; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">, but </span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">i</span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">t </span></span><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">also supports community-based instrumentation and facilities</span></span><span class=\"TextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: #000000; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">,</span></span><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\"> and </span></span><span class=\"TextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: #000000; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">data</span></span><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\"> storage and provisioning.</span></span><span class=\"EOP SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; color: #000000;\" data-ccp-props=\"{}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: #000000; font-family: 'Segoe UI', 'Segoe UI Web', Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">\n<p class=\"Paragraph SCXW90113113 BCX8\" style=\"margin: 0px 0px 10.6667px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: left; text-indent: 0px;\"><span class=\"EOP SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; color: #000000;\" data-ccp-props=\"{}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr; color: #000000; font-family: 'Segoe UI', 'Segoe UI Web', Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">\n<p class=\"Paragraph SCXW90113113 BCX8\" style=\"margin: 0px 0px 10.6667px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: left; text-indent: 0px;\"><span class=\"TextRun Highlight SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; outline: transparent solid 1px; font-variant-ligatures: none !important; color: #000000; background-color: #ffffff; font-size: 11pt; line-height: 18.3458px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, sans-serif; font-weight: bold;\" lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-charstyle=\"normaltextrun\">NSF </span><span class=\"NormalTextRun SCXW90113113 BCX8\" style=\"margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;\" data-ccp-chars",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506311",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-24-7791",
+            "postingDate": "Sep 26, 2024 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Sep 26, 2024 01:00:08 AM EDT",
+            "actionType": "U",
+            "actionDate": "Sep 27, 2024 01:00:15 AM EDT",
+            "createdDate": "Sep 26, 2024 01:00:08 AM EDT",
+            "lastUpdatedDate": "Sep 26, 2024 01:00:08 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2024-09-26-00-00-00",
+            "createTimeStampStr": "2024-09-26-01-00-08"
+          },
+          "cfdas": [
+            {
+              "id": 423895,
+              "opportunityId": 356537,
+              "revision": 0,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 423898,
+              "opportunityId": 356537,
+              "revision": 0
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 287990,
+          "topportunityId": 356537,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-24-7791",
+          "opportunityTitle": "Infrastructure Cluster",
+          "openingDate": "2024-09-26",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Bernard M. Grant\r\nE-mail: bgrant@nsf.gov\r\nPhone: (703) 292-8521",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 10,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 01, 2025 09:30:28 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00287990",
+          "openingDateStr": "2024-09-26-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

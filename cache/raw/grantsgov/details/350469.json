@@ -1,0 +1,375 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "350469",
+  "fetched_at": "2026-05-16T14:06:58.400Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Iko5K21nMXYxSEg5THNpSmxTT3ZIclNEQ1U3eXZUaXdhOFBaN0h2N3NuZGc9Ig.lO3AkpMUJq9m52j7h7tgx9qfOvPP6NKelfONTvznOm4",
+    "data": {
+      "id": 350469,
+      "revision": 2,
+      "opportunityNumber": "PD-23-277Y",
+      "opportunityTitle": "Research Infrastructure in the Social and Behavioral Sciences",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 350469,
+        "version": 3,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The Research Infrastructure in the Social and Behavioral Sciences Program (RISBS) supports projects that create computational tools and data to facilitate basic research in the social and behavioral sciences that can lead to improved health, prosperity and security.\n\n\nProjects should be aimed at creating computational tools and data to enable research by social scientists. Examples include, but are not limited to, data collection or assembly efforts that result in new resources for a community of researchers or software platforms that facilitate data collection efforts by others. RISBS does not support research by PIs except in service of creation of the infrastructure. Innovation is especially encouraged.\n\n\nRISBS directly supports three key longitudinal surveys and panel studies that provide researchers with data on how American society functions and changes over time (and in 2010 were recognized as among the 60 most significant \"discoveries or advances that... have had a large impact or influence on every American&rsquo;s life... call[ed] the &lsquo;Sensational 60&rsquo;, in honor of NSF&rsquo;s 60th anniversary&rdquo;):\n\n<ol>\n<li>The <a href=\"https://new.nsf.gov/funding/opportunities/2024-american-national-election-study-competition\">American National Election Study</a>, which started in 1948 and has been funded by NSF since 1977, provides &ldquo;gold standard&rdquo; data on voting, public opinion, and political participation in U.S. national elections.</li>\n<li>The <a href=\"https://new.nsf.gov/funding/opportunities/general-social-survey-competition-0\">General Social Survey</a>, a nationally representative interview survey of the U.S. adult population, collects data on a wide range of topics and has been funded by NSF since its inception in 1972.</li>\n<li>The <a href=\"https://new.nsf.gov/funding/opportunities/panel-study-income-dynamics-competition\">Panel Study of Income Dynamics</a>, a longitudinal survey of a nationally representative sample of U.S. families begun in 1968 (with NSF taking over most of its funding in 1980) collects data on a wide array of economic, social and health factors.</li>\n</ol>\n\nThe RISBS program administers separate solicitations for the American National Election Study (ANES), the General Social Survey (GSS) and the Panel Study of Income Dynamics (PSID). These solicitations have specific requirements and submission deadlines. Other infrastructure proposals may be submitted directly to the RISBS program at any time or transferred from other SBE programs following the respective program&rsquo;s submission guidelines. RISBS also collaborates with other programs in the social and behavioral sciences through a co-funding process to support projects that create especially valuable tools for researchers in those fields or are furthering innovations in research infrastructure.\n\n\nProspective PIs may also be interested in the <a href=\"https://new.nsf.gov/funding/opportunities/human-networks-data-science-hnds\">Human Networks and Data Science Program <span>&mdash; Infrastructure(HNDS-I)</span></a>, which supports proposals addressing the development of data resources and relevant analytic techniques that support research in the social, behavioral and economic sciences.Prospective PIs are strongly encouraged to contact the RISBS program officers and/or program officers from other SBE programs that may be applicable to the proposal before submitting to RISBS and to refer to the NSF <a href=\"https://new.nsf.gov/policies/pappg/\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a> policies on duplicate or substantially similar proposals.",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506221",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-23-277Y",
+        "postingDate": "Oct 05, 2023 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "5",
+        "estimatedFunding": "16000000",
+        "estimatedFundingFormatted": "16,000,000",
+        "awardCeiling": "2000000",
+        "awardCeilingFormatted": "2,000,000",
+        "awardFloor": "400000",
+        "awardFloorFormatted": "400,000",
+        "sendEmail": "N",
+        "createTimeStamp": "Mar 17, 2026 11:00:09 PM EDT",
+        "modComments": ".",
+        "createdDate": "Oct 05, 2023 01:00:20 AM EDT",
+        "lastUpdatedDate": "Mar 17, 2026 11:00:09 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2023-10-05-00-00-00",
+        "createTimeStampStr": "2026-03-17-23-00-09"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 414648,
+          "opportunityId": 350469,
+          "cfdaNumber": "47.075",
+          "programTitle": "Social, Behavioral, and Economic Sciences"
+        },
+        {
+          "id": 414649,
+          "opportunityId": 350469
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 350469,
+            "revision": 0
+          },
+          "opportunityId": 350469,
+          "revision": 0,
+          "opportunityNumber": "PD-23-277Y",
+          "opportunityTitle": "Research Infrastructure in the Social and Behavioral Sciences",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 350469,
+              "revision": 0
+            },
+            "opportunityId": 350469,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Research Infrastructure in the Social and Behavioral Sciences Program (RISBS) supports projects that create computational tools and data to facilitate basic research in the social and behavioral sciences that can lead to improved health, prosperity and security.\n\r\n\nProjects should be aimed at creating computational tools and data to enable research by social scientists. Examples include, but are not limited to, data collection or assembly efforts that result in new resources for a community of researchers or software platforms that facilitate data collection efforts by others. RISBS does not support research by PIs except in service of creation of the infrastructure. Innovation is especially encouraged.\n\r\n\nRISBS directly supports three key longitudinal surveys and panel studies that provide researchers with data on how American society functions and changes over time (and in 2010 were recognized as among the 60 most significant \"discoveries or advances that... have had a large impact or influence on every American&rsquo;s life... call[ed] the &lsquo;Sensational 60&rsquo;, in honor of NSF&rsquo;s 60th anniversary&rdquo;):\n\r\n<ol>\r\n<li>The <a href=\"https://new.nsf.gov/funding/opportunities/2024-american-national-election-study-competition\">American National Election Study</a>, which started in 1948 and has been funded by NSF since 1977, provides &ldquo;gold standard&rdquo; data on voting, public opinion, and political participation in U.S. national elections.</li>\r\n<li>The <a href=\"https://new.nsf.gov/funding/opportunities/general-social-survey-competition-0\">General Social Survey</a>, a nationally representative interview survey of the U.S. adult population, collects data on a wide range of topics and has been funded by NSF since its inception in 1972.</li>\r\n<li>The <a href=\"https://new.nsf.gov/funding/opportunities/panel-study-income-dynamics-competition\">Panel Study of Income Dynamics</a>, a longitudinal survey of a nationally representative sample of U.S. families begun in 1968 (with NSF taking over most of its funding in 1980) collects data on a wide array of economic, social and health factors.</li>\r\n</ol>\r\n\nThe RISBS program administers separate solicitations for the American National Election Study (ANES), the General Social Survey (GSS) and the Panel Study of Income Dynamics (PSID). These solicitations have specific requirements and submission deadlines. Other infrastructure proposals may be submitted directly to the RISBS program at any time or transferred from other SBE programs following the respective program&rsquo;s submission guidelines. RISBS also collaborates with other programs in the social and behavioral sciences through a co-funding process to support projects that create especially valuable tools for researchers in those fields or are furthering innovations in research infrastructure.\n\r\n\nProspective PIs may also be interested in the <a href=\"https://new.nsf.gov/funding/opportunities/human-networks-data-science-hnds\">Human Networks and Data Science Program <span>&mdash; Infrastructure(HNDS-I)</span></a>, which supports proposals addressing the development of data resources and relevant analytic techniques that support research in the social, behavioral and economic sciences.Prospective PIs are strongly encouraged to contact the RISBS program officers and/or program officers from other SBE programs that may be applicable to the proposal before submitting to RISBS and to refer to the NSF <a href=\"https://new.nsf.gov/policies/pappg/\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a> policies on duplicate or substantially similar proposals.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506221",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-23-277Y",
+            "postingDate": "Oct 05, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "5",
+            "estimatedFunding": "16000000",
+            "estimatedFundingFormatted": "16,000,000",
+            "awardCeiling": "2000000",
+            "awardCeilingFormatted": "2,000,000",
+            "awardFloor": "400000",
+            "awardFloorFormatted": "400,000",
+            "createTimeStamp": "Oct 05, 2023 01:00:20 AM EDT",
+            "actionType": "U",
+            "actionDate": "Feb 24, 2024 12:53:17 AM EST",
+            "createdDate": "Oct 05, 2023 01:00:20 AM EDT",
+            "lastUpdatedDate": "Oct 05, 2023 01:00:20 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-10-05-00-00-00",
+            "createTimeStampStr": "2023-10-05-01-00-20"
+          },
+          "cfdas": [
+            {
+              "id": 414648,
+              "opportunityId": 350469,
+              "revision": 1,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 414649,
+              "opportunityId": 350469,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 350469,
+            "revision": 1
+          },
+          "opportunityId": 350469,
+          "revision": 1,
+          "opportunityNumber": "PD-23-277Y",
+          "opportunityTitle": "Research Infrastructure in the Social and Behavioral Sciences",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 350469,
+              "revision": 1
+            },
+            "opportunityId": 350469,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Research Infrastructure in the Social and Behavioral Sciences Program (RISBS) supports projects that create computational tools and data to facilitate basic research in the social and behavioral sciences that can lead to improved health, prosperity and security.\n\r\n\nProjects should be aimed at creating computational tools and data to enable research by social scientists. Examples include, but are not limited to, data collection or assembly efforts that result in new resources for a community of researchers or software platforms that facilitate data collection efforts by others. RISBS does not support research by PIs except in service of creation of the infrastructure. Innovation is especially encouraged.\n\r\n\nRISBS directly supports three key longitudinal surveys and panel studies that provide researchers with data on how American society functions and changes over time (and in 2010 were recognized as among the 60 most significant \"discoveries or advances that... have had a large impact or influence on every American&rsquo;s life... call[ed] the &lsquo;Sensational 60&rsquo;, in honor of NSF&rsquo;s 60th anniversary&rdquo;):\n\r\n<ol>\r\n<li>The <a href=\"https://new.nsf.gov/funding/opportunities/2024-american-national-election-study-competition\">American National Election Study</a>, which started in 1948 and has been funded by NSF since 1977, provides &ldquo;gold standard&rdquo; data on voting, public opinion, and political participation in U.S. national elections.</li>\r\n<li>The <a href=\"https://new.nsf.gov/funding/opportunities/general-social-survey-competition-0\">General Social Survey</a>, a nationally representative interview survey of the U.S. adult population, collects data on a wide range of topics and has been funded by NSF since its inception in 1972.</li>\r\n<li>The <a href=\"https://new.nsf.gov/funding/opportunities/panel-study-income-dynamics-competition\">Panel Study of Income Dynamics</a>, a longitudinal survey of a nationally representative sample of U.S. families begun in 1968 (with NSF taking over most of its funding in 1980) collects data on a wide array of economic, social and health factors.</li>\r\n</ol>\r\n\nThe RISBS program administers separate solicitations for the American National Election Study (ANES), the General Social Survey (GSS) and the Panel Study of Income Dynamics (PSID). These solicitations have specific requirements and submission deadlines. Other infrastructure proposals may be submitted directly to the RISBS program at any time or transferred from other SBE programs following the respective program&rsquo;s submission guidelines. RISBS also collaborates with other programs in the social and behavioral sciences through a co-funding process to support projects that create especially valuable tools for researchers in those fields or are furthering innovations in research infrastructure.\n\r\n\nProspective PIs may also be interested in the <a href=\"https://new.nsf.gov/funding/opportunities/human-networks-data-science-hnds\">Human Networks and Data Science Program <span>&mdash; Infrastructure(HNDS-I)</span></a>, which supports proposals addressing the development of data resources and relevant analytic techniques that support research in the social, behavioral and economic sciences.Prospective PIs are strongly encouraged to contact the RISBS program officers and/or program officers from other SBE programs that may be applicable to the proposal before submitting to RISBS and to refer to the NSF <a href=\"https://new.nsf.gov/policies/pappg/\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a> policies on duplicate or substantially similar proposals.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506221",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-23-277Y",
+            "postingDate": "Oct 05, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "5",
+            "estimatedFunding": "16000000",
+            "estimatedFundingFormatted": "16,000,000",
+            "awardCeiling": "2000000",
+            "awardCeilingFormatted": "2,000,000",
+            "awardFloor": "400000",
+            "awardFloorFormatted": "400,000",
+            "createTimeStamp": "Feb 24, 2024 12:53:17 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Mar 17, 2026 11:00:09 PM EDT",
+            "createdDate": "Oct 05, 2023 01:00:20 AM EDT",
+            "lastUpdatedDate": "Feb 24, 2024 12:53:17 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-10-05-00-00-00",
+            "createTimeStampStr": "2024-02-24-00-53-17"
+          },
+          "cfdas": [
+            {
+              "id": 414648,
+              "opportunityId": 350469,
+              "revision": 1,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 414649,
+              "opportunityId": 350469,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 283368,
+          "topportunityId": 350469,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-23-277Y",
+          "opportunityTitle": "Research Infrastructure in the Social and Behavioral Sciences",
+          "openingDate": "2023-10-05",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Lee D. Walker\nE-mail: lwalker@nsf.gov\nPhone: (703) 292-7174",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 20,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 17, 2026 11:20:06 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00283368",
+          "openingDateStr": "2023-10-05-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

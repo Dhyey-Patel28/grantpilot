@@ -1,0 +1,118 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "334791",
+  "fetched_at": "2026-05-16T14:06:32.050Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjkrZ2Z5SmxTVnh4QU5mdkxwdlJjajc1SEw2QjlObTUzeGp1MGdSazhVNXM9Ig.tI-Ou1m7NadZ6RP5idYeTbLsSnv78-jtCk7e-tHUD0c",
+    "data": {
+      "id": 334791,
+      "revision": 0,
+      "opportunityNumber": "S-NL800-20-GR-3011",
+      "opportunityTitle": "Funding for New Counter-Disinformation Game",
+      "owningAgencyCode": "DOS-NLD",
+      "listed": "L",
+      "publisherUid": "mabryga94",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "NLD",
+        "seed": "DOS-NLD",
+        "agencyName": "U.S. Mission to the Netherlands",
+        "agencyCode": "DOS-NLD",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "forecast": {
+        "opportunityId": 334791,
+        "version": 1,
+        "postingDate": "Jul 19, 2021 12:00:00 AM EDT",
+        "forecastDesc": "<p><br></p> \n<p>&nbsp;<strong>U.S. DEPARTMENT OF STATE</strong>&nbsp;</p> \n<p><strong>U.S. EMBASSY THE HAGUE<em>&nbsp;</em>PUBLIC AFFAIRS SECTION</strong>&nbsp;</p> \n<p><strong>Notice of Funding Opportunity&nbsp;</strong>&nbsp;</p> \n<p><span style=\"color: black;\">&nbsp;</span></p> \n<p><strong style=\"color: black;\">Funding Opportunity Title: </strong><span style=\"color: black;\"> </span><strong style=\"color: black;\">Funding for New Counter-Disinformation Game</strong><span style=\"color: black;\">&nbsp;</span></p> \n<p><strong style=\"color: black;\">Funding Opportunity Number: </strong><span style=\"color: black;\"> </span><strong style=\"color: black;\">S-NL800-20-GR-3011</strong><span style=\"color: black;\">&nbsp;</span></p> \n<p><strong style=\"color: black;\">Deadline for&nbsp;Applications</strong><span style=\"color: black;\">:&nbsp;</span><strong style=\"color: black;\">August&nbsp;19, 2021&nbsp;6PM Local Time</strong><span style=\"color: black;\">&nbsp;</span></p> \n<p><strong style=\"color: black;\">CFDA Number: </strong><span style=\"color: black;\"> </span><strong style=\"color: black;\">19.040 – Public Diplomacy Programs<em>&nbsp;</em></strong><span style=\"color: black;\">&nbsp;</span></p> \n<p><strong style=\"color: black;\">Total Amount Available:</strong><span style=\"color: black;\">&nbsp;</span><strong style=\"color: black;\">$275,000&nbsp;</strong><span style=\"color: black;\">&nbsp;&nbsp;</span></p> \n<p><span style=\"color: black;\">&nbsp;</span></p> \n<p><strong style=\"color: black;\">A.&nbsp;PROGRAM DESCRIPTION</strong><span style=\"color: black;\">&nbsp;</span></p> \n<p><span style=\"color: black;\">&nbsp;</span></p> \n<p><span style=\"color: black;\"> The U.S. Embassy The Hague Public Affairs Section announces an open competition for organizations to submit applications to&nbsp;1)&nbsp;&nbsp;produce an English-&nbsp;and Dutch-language&nbsp;pilot&nbsp;version of a counter-disinformation game (requirements below),&nbsp;2) produce a&nbsp;French&nbsp;version of the game,&nbsp;3) produce&nbsp;one&nbsp;additional&nbsp;translation into&nbsp;a&nbsp;European, Asian, and/or African language, to be determined at a later date&nbsp;4) host the game on the company's own servers,&nbsp;and&nbsp;5)&nbsp;develop and implement data collection and analysis methodologies to demonstrate the project’s achievement of expected results, and&nbsp;6) promote games to target audiences.&nbsp;Please carefully follow all instructions below.&nbsp;</span></p> \n<p><span style=\"color: black;\">&nbsp;</span></p> \n<p><span style=\"color: black;\">Digital&nbsp;games have proven&nbsp;to be&nbsp;an effective tool in building cognitive resistance to disinformation across diverse environments and cultural contexts.&nbsp;The&nbsp;U.S. Embassy in The Hague is accepting proposals for the development of a&nbsp;digital&nbsp;game that incorporates&nbsp;active inoculation theory</span>1<span style=\"color: black;\">&nbsp;along with other digital media literacy education methods in a fun, interactive experience targeting global internet users ages 15 and up. Primary gameplay should simulate the experience of engaging in common disinformation and propaganda activities, while educating the user on digital literacy applicable in the real world.&nbsp;</span></p> \n<p><span style=\"color: black;\">&nbsp;</span></p> \n<p><span style=\"color: black;\">Successful proposals will incorporate active inoculation theory and address current disinformation and propaganda tactics.&nbsp;The&nbsp;delivered&nbsp;product should be modular, scalable, and expandable&nbsp;so that later iterations could&nbsp;address additional problem sets,&nbsp;such as violent extremism and health misinformation.&nbsp;The&nbsp;game&nbsp;will be&nbsp;piloted&nbsp;simultaneously&nbsp;with&nbsp;players in the United Kingdom and the Netherlands,&nbsp;and&nbsp;lessons learned from&nbsp;these&nbsp;pilots&nbsp;will&nbsp;inform&nbsp;the final&nbsp;version of the game&nbsp;intended&nbsp;ultimately&nbsp;for global audiences.&nbsp;The&nbsp;next&nbsp;translation&nbsp;will be&nbsp;produced&nbsp;for French speakers in Europe and Africa,&nbsp;followed by&nbsp;one more translation into a European, Asian, or African language to be determined later.&nbsp;Ideally, the proposed project would use&nbsp;in-game&nbsp;surveys or other in-game methods&nbsp;to measure effectiveness.&nbsp;The total amount of funds available for a successful proposal would be $275,000.&nbsp;</span></p> \n<p><span style=\"color: black;\">&nbsp;</span></p> \n<p><strong style=\"color: black;\">Priority Region: </strong><span style=\"color: black;\">Global&nbsp;</span></p> \n<p><span style=\"color: black;\">&nbsp;</span></p> \n<p><strong style=\"color: black;\">Program&nbsp;Goal:&nbsp;</strong><span style=\"color: black;\">Degrade malign actors’&nbsp;ability to diffuse&nbsp;disinformation among&nbsp;target audiences.&nbsp;</span></p> \n<p><span style=\"color: black;\">&nbsp;</span></p> \n<p><strong>Expected Results</strong>&nbsp;</p> \n<p><span style=\"color: black;\">&nbsp;</span>Objective 1:&nbsp;Target audiences&nbsp;have&nbsp;increased&nbsp;their&nbsp;ability&nbsp;to discern disinformation,&nbsp;self-confidence in these abilities,&nbsp;and&nbsp;motivation&nbsp;to share factual&nbsp;narratives.&nbsp;</p> \n<p>Outcome 1.1:&nbsp;Members of the target audiences&nbsp;played&nbsp;the game to completion.&nbsp;</p> \n<p>Output 1.1.1:&nbsp;Produced&nbsp;counter-disinformation game&nbsp;consistent with&nbsp;funding&nbsp;requirements.&nbsp;</p> \n<p>Output 1.1.2:&nbsp;Launched pilot versions&nbsp;and gathered lessons learned&nbsp;</p> \n<p>Output 1.1.3: Updated game based on pilot lessons learned&nbsp;</p> \n<p>Output 1.1.4:&nbsp;Translated&nbsp;and launched&nbsp;game&nbsp;for&nbsp;specific&nbsp;target audiences.&nbsp;</p> \n<p>Output 1.1.5: Promoted game through key channels for each target audience&nbsp;</p> \n<p>Outcome 1.2:&nbsp;Players of&nbsp;the game participated&nbsp;in&nbsp;pre and post&nbsp;survey&nbsp;to&nbsp;gauge the&nbsp;effectiveness of the game.&nbsp;</p> \n<p>Output 1.2.1: Developed&nbsp;and implemented methodology to collect and analyze&nbsp;data on the effectiveness of the game.&nbsp;&nbsp;</p> \n<p><strong>Main Activities</strong>&nbsp;</p> \n<p>To contribute to the stated goals and achieve expected results, the&nbsp;awardee will carry out the following activities:&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Produce an English-&nbsp;and Dutch-language&nbsp;pilot&nbsp;version of a counter-disinformation game&nbsp;and gather lessons learned&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Produce&nbsp;a translation&nbsp;for a&nbsp;French-speaking&nbsp;audience&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Produce&nbsp;a&nbsp;translation&nbsp;of the&nbsp;gameinto&nbsp;one more&nbsp;European, Asian,&nbsp;or African language&nbsp;(to be determined in consultation with Grant Administrators during development)&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Host the game on the company's own servers&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Develop and implement data collection and analysis methodologies to demonstrate the project’s achievement of expected results&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Promote games&nbsp;including translated versions&nbsp;to target audiences,&nbsp;may use&nbsp;up to $10,000 of award funds for paid promotion (paid promotion&nbsp;is&nbsp;optional)&nbsp;</p> \n<p><span style=\"color: black;\">&nbsp;</span></p> \n<p><strong>Performance Indicators</strong>&nbsp;</p> \n<p>The project should monitor and report on performance indicators that are specific, measurable, achievable, reasonable, and time-bound.&nbsp;Prior to implementation,&nbsp;the implementer shall produce&nbsp;a monitoring and evaluation plan&nbsp;documenting&nbsp;indicators for each&nbsp;expected&nbsp;result, key definitions,&nbsp;performance baselines&nbsp;(where possible),&nbsp;performance targets,&nbsp;justification of performance targets,&nbsp;sources of data,&nbsp;methods&nbsp;of&nbsp;data&nbsp;collection, methods&nbsp;of analysis, frequency of measurement, and units of measurement.&nbsp;&nbsp;In addition to&nbsp;disaggregation by target audiences,&nbsp;all&nbsp;indicators should&nbsp;also be disaggregated by sex and age where feasible.&nbsp;Preferably, the project should establish an automated means of collecting and analyzing performance metrics, with&nbsp;a dashboard displaying these metrics for easy sharing or review by Grant Administrators.<u>&nbsp;</u>&nbsp;</p> \n<p><u>Potential indicators&nbsp;may&nbsp;include:</u>&nbsp;</p> \n<p>Objective 1&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Average change in surveyed individuals’ abilities&nbsp;to discern disinformation&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Average change in surveyed individuals’ self-confidence in discerning disinformation&nbsp;&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Average change in&nbsp;the&nbsp;proportion of surveyed individuals&nbsp;reporting that&nbsp;they are less likely to share disinformation and more likely to share&nbsp;factual narratives&nbsp;</p> \n<p>Outcome 1.1&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of individuals that completed the game&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of individuals that started but did not complete the game&nbsp;</p> \n<p>Output&nbsp;1.1.1&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of counter-disinformation games produced&nbsp;and launched&nbsp;following funding requirements&nbsp;</p> \n<p>Output 1.1.2&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of pilot versions launched&nbsp;</p> \n<p>Output 1.1.3&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of updated games produced based on pilot lessons learned&nbsp;</p> \n<p>Output&nbsp;1.1.4&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of translated versions produced&nbsp;and launched&nbsp;</p> \n<p>Output&nbsp;1.1.5&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of promotion activities conducted, by type of promotion (ex.&nbsp;social media ads)&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of&nbsp;individuals reached by promotion activities&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of articles covering project-funded game&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of key stakeholders promoting project-funded game&nbsp;</p> \n<p>Outcome 1.2&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of individuals that completed the pre and post surveys&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of individuals that responded to pre and post surveys&nbsp;</p> \n<p>Output 1.2.1&nbsp;&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of survey methodologies developed to measure the effectiveness of the game in Objective 1&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# of times that the developed data collection method was implemented&nbsp;</p> \n<p><span style=\"color: black;\">&nbsp;</span></p> \n<p><span style=\"color: black;\">&nbsp;</span></p> \n<p><br></p>",
+        "costSharing": false,
+        "estimatedFunding": "275000",
+        "fundingDescLinkUrl": "https://nl.usembassy.gov/education-culture/small-grant-program/",
+        "fundingDescLinkDesc": "U. S. Embassy the Hague - Funding for New Counter-Disinformation Game",
+        "agencyContactName": "Gregory Mabry\r\nGrantor",
+        "agencyContactPhone": "31-0703102442",
+        "agencyContactEmail": "mabryga@state.gov",
+        "agencyContactEmailDesc": "Work",
+        "agencyCode": "DOS-NLD",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "C. ELIGILIBITY INFORMATION  1.\tEligible Applicants  The following organizations are eligible to apply:   &bull;\tBoth US and foreign organizations &bull;\tNot-for-profit organizations, including think tanks and civil society/non-governmental organizations  &bull;\tPublic and private educational institutions &bull;\tFor Profit Commercial Entities  &bull;\t 2.\tCost Sharing or Matching  N/A  3.\tOther Eligibility Requirements  In order to be eligible to receive an award, all organizations must have a unique entity identifier (Data Universal Numbering System/DUNS number from Dun &amp; Bradstreet), as well as a valid registration on www.SAM.gov. Please see Section D for information on how to obtain these registrations. &bull;\tApplicants are only allowed to submit one proposal per organization.",
+        "estSynopsisPostingDate": "Jul 19, 2021 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Aug 19, 2021 12:00:00 AM EDT",
+        "fiscalYear": 2021,
+        "createTimeStamp": "Jul 19, 2021 07:31:11 AM EDT",
+        "createdDate": "Jul 19, 2021 03:57:51 AM EDT",
+        "lastUpdatedDate": "Jul 19, 2021 07:31:11 AM EDT",
+        "agencyDetails": {
+          "code": "NLD",
+          "seed": "DOS-NLD",
+          "agencyName": "U.S. Mission to the Netherlands",
+          "agencyCode": "DOS-NLD",
+          "topAgencyCode": "DOS"
+        },
+        "estimatedFundingFormatted": "275,000",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "IS",
+            "description": "Information and Statistics"
+          }
+        ],
+        "postingDateStr": "2021-07-19-00-00-00",
+        "estSynopsisPostingDateStr": "2021-07-19-00-00-00",
+        "estApplicationResponseDateStr": "2021-08-19-00-00-00",
+        "createTimeStampStr": "2021-07-19-07-31-11"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 393272,
+          "opportunityId": 334791,
+          "cfdaNumber": "19.040",
+          "programTitle": "Public Diplomacy Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=12969",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=12969",
+  "website": "https://www.michigan.gov/dnr/buy-and-apply/grants/forestry/fire",
+  "grant_id": "12969",
+  "title": "Michigan Volunteer Fire Capacity Grants",
+  "overview": "Goal/purpose: To assist fire departments in acquiring firefighting equipment for local communities.Additional applicant eligibility criteria: Fire departments in rural communities with populations of 10,000 or less and that have publicly-owned forested land within their protection area are eligible. Applications are evaluated based on criteria including the number of fire departments involved, number of communities served, population of the area served, number of formal, written, nonpay mutual aid agreements, annual budget, type of organization (paid or volunteer), current participation in FHA Community Facilities Loan, currently under a commercial loan, unusual fire hazards, type of water supply, and insurance classification.Project eligibility: Funds must be used to purchase firefighting equipment. Projects must be completed by July 1 of the following year.Application process: Local fire departments apply to the Division's Management Unit Office. Applications are emailed to fire departments during the application period using the State Fire Directory. The Management Unit prioritizes applications within the unit and forwards them to the Division. The Division office prioritizes applications statewide and awards grants. Grantees purchase equipment and send documentation to the Division for a 50 percent reimbursement. Show More",
+  "additional_info": "Posted Date: May 15, 2025 Application Due Date: June 30, 2026 Estimated Award Date: Not Specified Eligible Applicants: City or township governmentsCounty governmentsSpecial district governmentsOthers Show More",
+  "eligible_applicants": [
+    "City or township governmentsCounty governmentsSpecial district governmentsOthers"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "agriculture",
+    "public_safety",
+    "water"
+  ],
+  "due_date": "",
+  "agency": "Michigan Department of Natural Resources",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:11.400Z",
+  "content_hash": "6acbb1c4f4f507b306787fecd8299696965b4f67a3b98ed9330ac9bbf93c57bb",
+  "from_cache": false
+}

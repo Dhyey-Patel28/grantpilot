@@ -1,0 +1,209 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360678",
+  "fetched_at": "2026-05-16T14:08:25.647Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImlCUG0zcXFrcFRGVVROTE0rZnZYZHc1bUxPNTREYTNHMGVKTzBVQkhRTWc9Ig.6pS2KFfrViV7dhQgCpX1N8bqXBGZJu1ry6ysq8hMY1o",
+    "data": {
+      "id": 360678,
+      "revision": 1,
+      "opportunityNumber": "DE-FOA-0003600",
+      "opportunityTitle": "FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program",
+      "owningAgencyCode": "PAMS-SC",
+      "listed": "L",
+      "publisherUid": "Zarkinm",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 360678,
+        "version": 1,
+        "agencyCode": "PAMS-SC",
+        "agencyName": "Michael S Zarkin\nGrants Management Specialist",
+        "agencyPhone": "301-903-4946",
+        "agencyAddressDesc": "Open Call",
+        "agencyDetails": {
+          "code": "SC",
+          "seed": "PAMS-SC",
+          "agencyName": "Office of Science",
+          "agencyCode": "PAMS-SC",
+          "topAgencyCode": "PAMS"
+        },
+        "topAgencyDetails": {
+          "code": "PAMS",
+          "seed": "PAMS",
+          "agencyName": "Department of Energy - Office of Science",
+          "agencyCode": "PAMS",
+          "topAgencyCode": "PAMS"
+        },
+        "agencyContactPhone": "301-903-4946",
+        "agencyContactName": "Michael S Zarkin\nGrants Management Specialist",
+        "agencyContactDesc": "sc.opencall@science.doe.gov",
+        "agencyContactEmail": "sc.opencall@science.doe.gov",
+        "agencyContactEmailDesc": "Open Call",
+        "synopsisDesc": "<p><span style=\"color: windowtext;\">The Office of Science (SC) of the Department of Energy (DOE) hereby announces its continuing interest in receiving applications for support of work in the following program areas: Advanced Scientific Computing Research, Basic Energy Sciences, Biological and Environmental Research, Fusion Energy Sciences, High Energy Physics, Nuclear Physics, and Isotope R&amp;D and Production. On September 3, 1992, DOE published in the Federal Register the Office of Energy Research Financial Assistance Program (now called the Office of Science Financial Assistance Program), 10 CFR 605, as a Final Rule, which contained a solicitation for this program. Information about submission of applications, eligibility, limitations, evaluation and selection processes and other policies and procedures are specified in 10 CFR 605.</span></p>\n<p><span style=\"color: windowtext;\">&nbsp;</span></p>\n<p><span style=\"color: windowtext;\">This NOFO is our annual open solicitation that covers all research areas in SC and is open throughout the Fiscal Year. Any research within SC’s Congressionally authorized mission may be proposed under this NOFO.</span></p>\n<p><span style=\"color: windowtext;\">&nbsp;</span></p>\n<p><span style=\"color: windowtext;\">This NOFO will remain open until September 30, 2026, 11:59 PM Eastern Time, or until it is succeeded by another issuance, whichever occurs first. This NOFO succeeds DE-FOA-0003432, which was published September 30, 2024.</span></p>",
+        "responseDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://science.osti.gov",
+        "fundingDescLinkDesc": "Office of Science",
+        "postingDate": "Sep 30, 2025 12:00:00 AM EDT",
+        "archiveDate": "Oct 30, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "500",
+        "estimatedFunding": "500000000",
+        "estimatedFundingFormatted": "500,000,000",
+        "awardCeiling": "5000000",
+        "awardCeilingFormatted": "5,000,000",
+        "awardFloor": "50000",
+        "awardFloorFormatted": "50,000",
+        "applicantEligibilityDesc": "",
+        "createTimeStamp": "Dec 16, 2025 11:45:38 AM EST",
+        "createdDate": "Sep 30, 2025 07:58:18 AM EDT",
+        "lastUpdatedDate": "Sep 30, 2025 07:58:18 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "G",
+            "description": "Grant"
+          },
+          {
+            "id": "O",
+            "description": "Other"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-09-30-00-00-00",
+        "postingDateStr": "2025-09-30-00-00-00",
+        "archiveDateStr": "2026-10-30-00-00-00",
+        "createTimeStampStr": "2025-12-16-11-45-38"
+      },
+      "agencyDetails": {
+        "code": "SC",
+        "seed": "PAMS-SC",
+        "agencyName": "Office of Science",
+        "agencyCode": "PAMS-SC",
+        "topAgencyCode": "PAMS"
+      },
+      "topAgencyDetails": {
+        "code": "PAMS",
+        "seed": "PAMS",
+        "agencyName": "Department of Energy - Office of Science",
+        "agencyCode": "PAMS",
+        "topAgencyCode": "PAMS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 78558,
+          "opportunityId": 360678,
+          "folderType": "Full Announcement",
+          "folderName": "DE-FOA-0003600",
+          "zipLobSize": 1463407,
+          "createdDate": "Sep 30, 2025 07:58:35 AM EDT",
+          "lastUpdatedDate": "Dec 16, 2025 11:45:38 AM EST",
+          "synopsisAttachments": [
+            {
+              "id": 349515,
+              "opportunityId": 360678,
+              "mimeType": "application/pdf",
+              "fileName": "DE-FOA-0003600.000001.pdf",
+              "fileDescription": "DE-FOA-0003600",
+              "fileLobSize": 1559282,
+              "createdDate": "Sep 30, 2025 07:59:01 AM EDT",
+              "lastUpdatedDate": "Dec 16, 2025 11:45:38 AM EST",
+              "synopsisAttFolderId": 78558
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 431238,
+          "opportunityId": 360678,
+          "cfdaNumber": "81.049",
+          "programTitle": "Office of Science Financial Assistance Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 291552,
+          "topportunityId": 360678,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "DE-FOA-0003600",
+          "opportunityTitle": "FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program",
+          "cfdaNumber": "81.049",
+          "openingDate": "2025-09-30",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "PAMS-SC",
+          "agencyDetails": {
+            "code": "SC",
+            "seed": "PAMS-SC",
+            "agencyName": "Office of Science",
+            "agencyCode": "PAMS-SC",
+            "topAgencyCode": "PAMS"
+          },
+          "topAgencyDetails": {
+            "code": "PAMS",
+            "seed": "PAMS",
+            "agencyName": "Department of Energy - Office of Science",
+            "agencyCode": "PAMS",
+            "topAgencyCode": "PAMS"
+          },
+          "programTitle": "Office of Science Financial Assistance Program",
+          "contactInfo": "sc.opencall@science.doe.gov",
+          "competitionId": "DE-FOA-0003600",
+          "competitionTitle": "FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 1000,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Dec 16, 2025 11:46:12 AM EST",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00291552",
+          "openingDateStr": "2025-09-30-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Sep 30, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

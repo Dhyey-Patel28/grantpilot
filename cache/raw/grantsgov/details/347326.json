@@ -1,0 +1,368 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "347326",
+  "fetched_at": "2026-05-16T14:06:48.564Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ilg0ZmhjYWo2YS9Md21sNHBKLzZzRFAvR2R0YVVmZ2N1bXJ4bTBYRVhReWM9Ig.8xFoBbDNlsNWFhfMW8p9TYyBxndWSDDKhfksHD1uAhg",
+    "data": {
+      "id": 347326,
+      "revision": 2,
+      "opportunityNumber": "PD-23-1417",
+      "opportunityTitle": "Interfacial Engineering",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 347326,
+        "version": 3,
+        "agencyCode": "NSF",
+        "agencyName": "National Science Foundation",
+        "agencyPhone": "703-292-4261",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4261",
+        "agencyContactName": "National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The Interfacial Engineering program is part of the Chemical Process Systems cluster, which also includes: 1) the Catalysis program; 2) the Electrochemical Systems program; and 3) the Process Systems, Reaction Engineering, and Molecular Thermodynamics program.\n\r\n\nThe goal of the Interfacial Engineering program is to support fundamental research on atomic- and molecular-scale interfacial phenomena and engineering of interfacial properties, processes, and materials. Fundamental understanding of the thermodynamic, kinetic, and transport properties of interfacial systems underpins improvements in chemical process efficiency and resource utilization. As such, proposed research should have a clear vision for how the results will translate to practice in or otherwise advance industrial chemical or biochemical processes. The program encourages proposals that present new approaches to long-standing challenges or address emerging research areas and technologies. Collaborative and interdisciplinary proposals are also encouraged, particularly those that involve a combination of experiment with theory or modeling.\n\r\n\nMajor research areas of interest in the program include:\n\r\n<ul>\r\n<li>Chemical separations: Design of scalable mass separating agents (for example, sorbents and membranes); field-induced separation processes that target a significant reduction in energy and/or materials requirements</li>\r\n<li>Biological separations: Downstream processing of biologically-derived chemicals, therapeutic proteins, and biologics for increased throughput and purity; engineering interfaces for molecular recognition</li>\r\n<li>Interfacial phenomena at engineered interfaces and surfaces: Kinetics and thermodynamics of adsorption/desorption and complex interactions of molecules and ions at engineered interfaces and surfaces within chemical process systems</li>\r\n<li>Nanoconfinement and engineered surfaces: Theory, modeling, and/or approaches for examining transport and thermodynamic properties of fluids within nanopores, under nanoconfinement, or at highly engineered surfaces within chemical process systems</li>\r\n</ul>\r\n\nNOTE: Studies that examine chemical reaction and transport phenomena related to electrochemical system performance, including batteries, fuel cells, flow batteries, electrochemical conversions, and related components, should be directed to the Electrochemical Systems program (CBET 7644). Studies that focus on interactions of nanomaterials and nanosystems, particularly as relevant to environmental or biological applications, may be more appropriate for the Nanoscale Interactions program (CBET 1179). Studies of how interfacial dynamics affect transport or bulk properties of multiphase systems may be more appropriate for the Particulate and Multiphase Processes program (CBET 1415). Please consult with program directors prior to submission if you have questions about programmatic fit.\n\r\n\nInnovative proposals outside of these specific interest areas may be considered. The Principal Investigator is encouraged contact the Program Director prior to submission to avoid the possibility of the proposal being returned without review.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of principal investigator time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the Program Director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the &ldquo;What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)&rdquo; link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged. Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the Program Director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission. Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in theProposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E.\n\r\n\nCOMPLIANCE: Proposals which are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506071",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-23-1417",
+        "postingDate": "Apr 05, 2023 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "113",
+        "estimatedFunding": "3200000",
+        "estimatedFundingFormatted": "3,200,000",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Feb 24, 2024 12:51:23 AM EST",
+        "modComments": ".",
+        "createdDate": "Apr 05, 2023 01:00:07 AM EDT",
+        "lastUpdatedDate": "Feb 24, 2024 12:51:23 AM EST",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2023-04-05-00-00-00",
+        "createTimeStampStr": "2024-02-24-00-51-23"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 409845,
+          "opportunityId": 347326,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 409854,
+          "opportunityId": 347326
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 347326,
+            "revision": 0
+          },
+          "opportunityId": 347326,
+          "revision": 0,
+          "opportunityNumber": "PD-23-1417",
+          "opportunityTitle": "Interfacial Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347326,
+              "revision": 0
+            },
+            "opportunityId": 347326,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Interfacial Engineering program is part of the Chemical Process Systems cluster, which also includes: 1) the Catalysis program; 2) the Electrochemical Systems program; and 3) the Process Systems, Reaction Engineering, and Molecular Thermodynamics program.\n\r\n\nThe goal of the Interfacial Engineering program is to support fundamental research on atomic- and molecular-scale interfacial phenomena and engineering of interfacial properties, processes, and materials. Fundamental understanding of the thermodynamic, kinetic, and transport properties of interfacial systems underpins improvements in chemical process efficiency and resource utilization. As such, proposed research should have a clear vision for how the results will translate to practice in or otherwise advance industrial chemical or biochemical processes. The program encourages proposals that present new approaches to long-standing challenges or address emerging research areas and technologies. Collaborative and interdisciplinary proposals are also encouraged, particularly those that involve a combination of experiment with theory or modeling.\n\r\n\nMajor research areas of interest in the program include:\n\r\n<ul>\r\n<li>Chemical separations: Design of scalable mass separating agents (for example, sorbents and membranes); field-induced separation processes that target a significant reduction in energy and/or materials requirements</li>\r\n<li>Biological separations: Downstream processing of biologically-derived chemicals, therapeutic proteins, and biologics for increased throughput and purity; engineering interfaces for molecular recognition</li>\r\n<li>Interfacial phenomena at engineered interfaces and surfaces: Kinetics and thermodynamics of adsorption/desorption and complex interactions of molecules and ions at engineered interfaces and surfaces within chemical process systems</li>\r\n<li>Nanoconfinement and engineered surfaces: Theory, modeling, and/or approaches for examining transport and thermodynamic properties of fluids within nanopores, under nanoconfinement, or at highly engineered surfaces within chemical process systems</li>\r\n</ul>\r\n\nNOTE: Studies that examine chemical reaction and transport phenomena related to electrochemical system performance, including batteries, fuel cells, flow batteries, electrochemical conversions, and related components, should be directed to the Electrochemical Systems program (CBET 7644). Studies that focus on interactions of nanomaterials and nanosystems, particularly as relevant to environmental or biological applications, may be more appropriate for the Nanoscale Interactions program (CBET 1179). Studies of how interfacial dynamics affect transport or bulk properties of multiphase systems may be more appropriate for the Particulate and Multiphase Processes program (CBET 1415). Please consult with program directors prior to submission if you have questions about programmatic fit.\n\r\n\nInnovative proposals outside of these specific interest areas may be considered. The Principal Investigator is encouraged contact the Program Director prior to submission to avoid the possibility of the proposal being returned without review.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of principal investigator time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the Program Director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the &ldquo;What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)&rdquo; link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged. Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the Program Director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission. Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in theProposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E.\n\r\n\nCOMPLIANCE: Proposals which are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506071",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-23-1417",
+            "postingDate": "Apr 05, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "113",
+            "estimatedFunding": "3200000",
+            "estimatedFundingFormatted": "3,200,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Apr 05, 2023 01:00:07 AM EDT",
+            "actionType": "U",
+            "actionDate": "May 20, 2023 12:03:23 AM EDT",
+            "createdDate": "Apr 05, 2023 01:00:07 AM EDT",
+            "lastUpdatedDate": "Apr 05, 2023 01:00:07 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-04-05-00-00-00",
+            "createTimeStampStr": "2023-04-05-01-00-07"
+          },
+          "cfdas": [
+            {
+              "id": 409845,
+              "opportunityId": 347326,
+              "revision": 1,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 409854,
+              "opportunityId": 347326,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 347326,
+            "revision": 1
+          },
+          "opportunityId": 347326,
+          "revision": 1,
+          "opportunityNumber": "PD-23-1417",
+          "opportunityTitle": "Interfacial Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347326,
+              "revision": 1
+            },
+            "opportunityId": 347326,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Interfacial Engineering program is part of the Chemical Process Systems cluster, which also includes: 1) the Catalysis program; 2) the Electrochemical Systems program; and 3) the Process Systems, Reaction Engineering, and Molecular Thermodynamics program.\n\r\n\nThe goal of the Interfacial Engineering program is to support fundamental research on atomic- and molecular-scale interfacial phenomena and engineering of interfacial properties, processes, and materials. Fundamental understanding of the thermodynamic, kinetic, and transport properties of interfacial systems underpins improvements in chemical process efficiency and resource utilization. As such, proposed research should have a clear vision for how the results will translate to practice in or otherwise advance industrial chemical or biochemical processes. The program encourages proposals that present new approaches to long-standing challenges or address emerging research areas and technologies. Collaborative and interdisciplinary proposals are also encouraged, particularly those that involve a combination of experiment with theory or modeling.\n\r\n\nMajor research areas of interest in the program include:\n\r\n<ul>\r\n<li>Chemical separations: Design of scalable mass separating agents (for example, sorbents and membranes); field-induced separation processes that target a significant reduction in energy and/or materials requirements</li>\r\n<li>Biological separations: Downstream processing of biologically-derived chemicals, therapeutic proteins, and biologics for increased throughput and purity; engineering interfaces for molecular recognition</li>\r\n<li>Interfacial phenomena at engineered interfaces and surfaces: Kinetics and thermodynamics of adsorption/desorption and complex interactions of molecules and ions at engineered interfaces and surfaces within chemical process systems</li>\r\n<li>Nanoconfinement and engineered surfaces: Theory, modeling, and/or approaches for examining transport and thermodynamic properties of fluids within nanopores, under nanoconfinement, or at highly engineered surfaces within chemical process systems</li>\r\n</ul>\r\n\nNOTE: Studies that examine chemical reaction and transport phenomena related to electrochemical system performance, including batteries, fuel cells, flow batteries, electrochemical conversions, and related components, should be directed to the Electrochemical Systems program (CBET 7644). Studies that focus on interactions of nanomaterials and nanosystems, particularly as relevant to environmental or biological applications, may be more appropriate for the Nanoscale Interactions program (CBET 1179). Studies of how interfacial dynamics affect transport or bulk properties of multiphase systems may be more appropriate for the Particulate and Multiphase Processes program (CBET 1415). Please consult with program directors prior to submission if you have questions about programmatic fit.\n\r\n\nInnovative proposals outside of these specific interest areas may be considered. The Principal Investigator is encouraged contact the Program Director prior to submission to avoid the possibility of the proposal being returned without review.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of principal investigator time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the Program Director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the &ldquo;What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)&rdquo; link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged. Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the Program Director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission. Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in theProposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E.\n\r\n\nCOMPLIANCE: Proposals which are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506071",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-23-1417",
+            "postingDate": "Apr 05, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "113",
+            "estimatedFunding": "3200000",
+            "estimatedFundingFormatted": "3,200,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "May 20, 2023 12:03:23 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 24, 2024 12:51:23 AM EST",
+            "createdDate": "Apr 05, 2023 01:00:07 AM EDT",
+            "lastUpdatedDate": "May 20, 2023 12:03:23 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-04-05-00-00-00",
+            "createTimeStampStr": "2023-05-20-00-03-23"
+          },
+          "cfdas": [
+            {
+              "id": 409845,
+              "opportunityId": 347326,
+              "revision": 1,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 409854,
+              "opportunityId": 347326,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 281002,
+          "topportunityId": 347326,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-23-1417",
+          "opportunityTitle": "Interfacial Engineering",
+          "openingDate": "2023-04-05",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Christina Payne\r\nE-mail: cpayne@nsf.gov\r\nPhone: (703) 292-2895",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 150,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 01, 2025 09:25:57 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00281002",
+          "openingDateStr": "2023-04-05-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

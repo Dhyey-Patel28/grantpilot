@@ -1,0 +1,211 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360205",
+  "fetched_at": "2026-05-16T14:08:08.935Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Im5rZllOcDNqdG9lQndlSXpBeHJJMzI4R2YwNURhcy9WVjRsMGt6UDhlaVk9Ig.vtCmQ9BK1KGS4FWB-c2cXc6gOI_Ntya0kgxGjAWlLjk",
+    "data": {
+      "id": 360205,
+      "revision": 0,
+      "opportunityNumber": "USDA-NIFA-AFRI-011134",
+      "opportunityTitle": "Agriculture and Food Research Initiative Competitive Grants Program Foundational and Applied Science Program",
+      "owningAgencyCode": "USDA-NIFA",
+      "listed": "L",
+      "publisherUid": "jperez21",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 360205,
+        "version": 1,
+        "agencyCode": "USDA-NIFA",
+        "agencyName": "Joseph  Perez\nProgram Analyst",
+        "agencyPhone": "202-445-5402",
+        "agencyAddressDesc": "If you have questions about preparing application content, contact grantapplicationquestions@usda.gov",
+        "agencyDetails": {
+          "code": "NIFA",
+          "seed": "USDA-NIFA",
+          "agencyName": "National Institute of Food and Agriculture",
+          "agencyCode": "USDA-NIFA",
+          "topAgencyCode": "USDA"
+        },
+        "topAgencyDetails": {
+          "code": "USDA",
+          "seed": "USDA",
+          "agencyName": "Department of Agriculture",
+          "agencyCode": "USDA",
+          "topAgencyCode": "USDA"
+        },
+        "agencyContactPhone": "202-445-5402",
+        "agencyContactName": "Joseph  Perez\nProgram Analyst",
+        "agencyContactDesc": "NIFA Support\r\nBusiness hours: Monday thru Friday, 7a.m. &ndash; 5p.m. ET, except federal holidays",
+        "agencyContactEmail": "grantapplicationquestions@usda.gov",
+        "agencyContactEmailDesc": "If you have questions about preparing application content, contact grantapplicationquestions@usda.gov",
+        "synopsisDesc": "<p><span style=\"color: rgb(49, 37, 28);\">The AFRI Foundational and Applied Science Program supports grants in six AFRI priority areas to advance knowledge in both fundamental and applied sciences important to agriculture. The six priority areas are: Plant Health and Production and Plant Products; Animal Health and Production and Animal Products; Food Safety, Nutrition, and Health; Bioenergy, Natural Resources, and Environment; Agriculture Systems and Technology; and Agriculture Economics and Rural Communities. Research-only, extension-only, and integrated research, education and/or extension projects are solicited in this Request for Applications (RFA). See Foundational and Applied Science RFA for specific detail.</span></p>",
+        "responseDate": "Dec 31, 2026 12:00:00 AM EST",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://www.nifa.usda.gov/grants/funding-opportunities/agriculture-food-research-initiative-foundational-applied-science",
+        "fundingDescLinkDesc": "Agriculture and Food Research Initiative - Foundational and Applied Science Program",
+        "postingDate": "Aug 01, 2025 12:00:00 AM EDT",
+        "archiveDate": "Jan 30, 2027 12:00:00 AM EST",
+        "costSharing": false,
+        "estimatedFunding": "300000000",
+        "estimatedFundingFormatted": "300,000,000",
+        "awardCeiling": "10000000",
+        "awardCeilingFormatted": "10,000,000",
+        "awardFloor": "10000",
+        "awardFloorFormatted": "10,000",
+        "applicantEligibilityDesc": "Eligibility Requirements\r\nApplicants for AFRI must meet all the requirements discussed in this RFA. Failure to meet the eligibility criteria by the application deadline may result in exclusion from consideration or, preclude NIFA from making an award. For those new to Federal financial assistance, NIFA&rsquo;s About Grants provides highly recommended information about grants and other resources to help understand the Federal awards process.\r\n\r\nEligibility is linked to the project type as specified below.\r\n\r\n1.\tResearch, Education or Extension Projects\r\nEligible applicants for single-function Research, Education or Extension Projects include:\r\na)\tState Agricultural Experiment Station;\r\nb)\tcolleges and universities (including junior colleges offering associate degrees or higher);\r\nc)\tuniversity research foundations;\r\nd)\tother research institutions and organizations;\r\ne)\tFederal agencies;\r\nf)\tnational laboratories;\r\ng)\tprivate organizations or corporations;\r\nh)\tindividuals who are U.S. citizens, nationals, or permanent residents; and\r\ni)\tany group consisting of two or more entities identified in a) through h).\r\n\r\nEligible institutions do not include foreign and international organizations.\r\n\r\n2.\tIntegrated Projects\r\nEligible applicants for Integrated Projects include: \r\na)\tcolleges and universities;\r\nb)\t1994 Land-Grant Institutions; and\r\nc)\tHispanic-serving agricultural colleges and universities (see NIFA's Hispanic-Serving Agricultural Colleges and Universities page).\r\n\r\nFor item a) under Integrated Projects, the terms &quot;college&quot; and &quot;university&quot; mean an educational institution in any state which \r\na)\tadmits as regular students only persons having a certificate of graduation from a school providing secondary education, or the recognized equivalent of such a certificate; \r\nb)\tis legally authorized within such state to provide a program of education beyond secondary education; \r\nc)\tprovides an educational program for which a bachelor&rsquo;s degree or any other higher degree is awarded; \r\nd)\tis a public or other nonprofit institution; and \r\ne)\tis accredited by a nationally recognized accrediting agency or association. \r\n\r\nA research foundation maintained by a college or university is eligible to receive an award under this program.\r\n3.\tFood and Agricultural Science Enhancement Grants\r\nPart II &sect; C.2 contains the eligibility details for Food and Agricultural Science Enhancement (FASE) Grants. Note that under the FASE program, New Investigator Standard, New Investigator Seed, Strengthening Standard, Strengthening Workshop, Strengthening Seed, Equipment and Sabbatical Grants are solicited by specific program area priorities in this RFA. Not all grant types are solicited by every program area priority in this RFA and only grant types specifically solicited by each specific program area priority, as identified in the Program Area Descriptions of Part I &sect; C, will be considered for review.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Nov 14, 2025 12:04:45 PM EST",
+        "createdDate": "Aug 01, 2025 03:30:57 PM EDT",
+        "lastUpdatedDate": "Aug 01, 2025 03:30:57 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "AG",
+            "description": "Agriculture"
+          }
+        ],
+        "responseDateStr": "2026-12-31-00-00-00",
+        "postingDateStr": "2025-08-01-00-00-00",
+        "archiveDateStr": "2027-01-30-00-00-00",
+        "createTimeStampStr": "2025-11-14-12-04-45"
+      },
+      "agencyDetails": {
+        "code": "NIFA",
+        "seed": "USDA-NIFA",
+        "agencyName": "National Institute of Food and Agriculture",
+        "agencyCode": "USDA-NIFA",
+        "topAgencyCode": "USDA"
+      },
+      "topAgencyDetails": {
+        "code": "USDA",
+        "seed": "USDA",
+        "agencyName": "Department of Agriculture",
+        "agencyCode": "USDA",
+        "topAgencyCode": "USDA"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 78287,
+          "opportunityId": 360205,
+          "folderType": "Full Announcement",
+          "folderName": "FY26-AFRI-FAS-RFA",
+          "zipLobSize": 1279898,
+          "createdDate": "Aug 01, 2025 03:34:37 PM EDT",
+          "lastUpdatedDate": "Nov 14, 2025 12:03:03 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 349216,
+              "opportunityId": 360205,
+              "mimeType": "application/pdf",
+              "fileName": "FY26-AFRI-FAS-RFA-MOD1.pdf",
+              "fileDescription": "FY2026 - Agriculture and Food Research Initiative Competitive Grants Program Foundational and Applied Science Program - RFA-MOD1",
+              "fileLobSize": 1363698,
+              "createdDate": "Aug 21, 2025 10:28:38 AM EDT",
+              "lastUpdatedDate": "Nov 14, 2025 12:03:03 PM EST",
+              "synopsisAttFolderId": 78287
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [
+        {
+          "id": {
+            "opportunityId": 360205,
+            "attType": "D",
+            "createdDate": "Nov 14, 2025 12:04:45 PM EST",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Nov 14, 2025"
+          },
+          "changeComments": "Updated Various Program Area Priority Deadline Dates - Please Review RFA for Changes"
+        }
+      ],
+      "cfdas": [
+        {
+          "id": 430442,
+          "opportunityId": 360205,
+          "cfdaNumber": "10.310",
+          "programTitle": "Agriculture and Food Research Initiative (AFRI)"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 291311,
+          "topportunityId": 360205,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "USDA-NIFA-AFRI-011134",
+          "opportunityTitle": "Agriculture and Food Research Initiative Competitive Grants Program Foundational and Applied Science Program",
+          "cfdaNumber": "10.310",
+          "openingDate": "2025-08-01",
+          "closingDate": "2026-12-31",
+          "owningAgencyCode": "USDA-NIFA",
+          "agencyDetails": {
+            "code": "NIFA",
+            "seed": "USDA-NIFA",
+            "agencyName": "National Institute of Food and Agriculture",
+            "agencyCode": "USDA-NIFA",
+            "topAgencyCode": "USDA"
+          },
+          "topAgencyDetails": {
+            "code": "USDA",
+            "seed": "USDA",
+            "agencyName": "Department of Agriculture",
+            "agencyCode": "USDA",
+            "topAgencyCode": "USDA"
+          },
+          "programTitle": "Agriculture and Food Research Initiative (AFRI)",
+          "contactInfo": "NIFA Support\r\nBusiness hours: Monday thru Friday, 7a.m. – 5p.m. ET, except federal holidays\r\nEmail: grantapplicationquestions@usda.gov",
+          "gracePeriod": 30,
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 250,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Aug 01, 2025 03:34:15 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00291311",
+          "openingDateStr": "2025-08-01-00-00-00",
+          "closingDateStr": "2026-12-31-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Dec 31, 2026 12:00:00 AM EST",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

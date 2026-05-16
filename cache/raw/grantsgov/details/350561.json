@@ -1,0 +1,1070 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "350561",
+  "fetched_at": "2026-05-16T14:06:58.949Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Iko5K21nMXYxSEg5THNpSmxTT3ZIclhXSzNhbjFYbmQ0cFEydE9rTGt6YU09Ig.9c_9SKy0KgXHVbXlAHa4ievh6REVwP5qCh2TNlEPq-g",
+    "data": {
+      "id": 350561,
+      "revision": 9,
+      "opportunityNumber": "PD-24-1699",
+      "opportunityTitle": "Cognitive Neuroscience",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 350561,
+        "version": 10,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The Cognitive Neuroscience (CogNeuro) program seeks to fund proposals that can advance our understanding of the neural mechanisms underlying human cognition and behavior. Funded proposals typically relate precise and rich quantifications of physiological responses and behavior in ways that advance theory (Intellectual Merit). Funded proposal also typically strengthen the field through, for example, outreach, mentoring the next generation of diverse cognitive neuroscientists, and/or increasing awareness and utilization of the research the field produces (Broader Impacts).\n\n\n\n\n\n<span style=\"text-decoration: underline;\">Intellectual Merit</span>\n\n\nIn general, successful proposals provide a theoretical motivation and consist of a series of experiments/analyses that test the differential predictions of that theory; they go beyond quantifying physiology during certain tasks and behaviors. Research topics considered for funding include but are not limited to: perception, recognition, categorization, implicit and explicit memory, working memory, attention, language, decision-making, and social reasoning. Commensurate with the inherently multidisciplinary nature of the field and the limitations of any single technique, a wide variety of physiological methods are considered, including but not limited to: neuroimaging (e.g., fMRI, EEG, MEG), non-invasive stimulation (e.g. TMS, tDCS), lesion analysis, intracranial recording, optogenetics, genetics, optical imaging, computational modeling, and pharmacological interventions in both human and non-human primates and other animal models. The program is particularly interested in proposals that achieve or enable convergence across multiple techniques.\n\n\nCritically, proposals will be returned without review if they are focused on: 1) either behavior or physiology and lack a specific link between them, 2) understanding clinical populations, 3) non-human animals without a clear benefit to our understanding of humans.\n\n\n<span style=\"text-decoration: underline;\"></span>\n\n\n<span style=\"text-decoration: underline;\">Broader Impacts</span>\n\n\nIn general, successful proposals make impacts beyond traditional academic routes, such as publishing research or teaching undergraduate courses. Strong broader impacts can be quite varied but will typically involve specific efforts strengthening the field and/or increasing its visibility that leverage the characteristics of the institution, department, and/or researcher. Consider the following non-exhaustive examples: 1) STEM education and outreach, particularly in underserved communities, 2) directly involving undergraduates and high-school students in research, 3) making tools and applications for the general public, 4) science journalism or advocacy. These efforts can, but need not, directly relate to the proposed research. It is also encouraged to include budget for these efforts if warranted.\n\n\n\n\n\n<span style=\"text-decoration: underline;\">Mentoring Plans</span>\n\n\nStrong mentoring plans generally go beyond inclusion in standard lab activities and incorporate specific ideas for forwarding the careers of young scientists and trainees that leverage the setting and content of the proposed research.\n\n\n<span style=\"text-decoration: underline;\"></span>\n\n\n<span style=\"text-decoration: underline;\">General Directions</span>\n\n\nPrior to the development of a full proposal, investigators are strongly encouraged to submit a one-page summary of the proposed research to a program director to evaluate its appropriateness for the CogNeuro program. Please contact the director early enough to allow for revisions and incorporation what may be extensive feedback. The summary should include an overview of your research and statements of intellectual merit and broader impacts, the two NSF review criteria.\n\n\nSee the Merit Review Fact Sheet for more important facts about the NSF merit review process. Please read the NSF Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG) carefully, as it will be strictly adhered to even if other directives or communications appear to contradict it.\n\n\nCurrently, the average standard/CAREER award size is $175,000-$225,000 per year for 3-5 years. Awards in excess of $1.0 million are exceptionally rare and almost always multidisciplinary. Please be judicious in your requests, understanding the realities of the limited funding available for all proposals. See the Listing of Active Cognitive Neuroscience Awards for additional award information.\n\n\nDeclined proposals are ineligible for resubmission until a minimum of one year has passed since the due date of their initial submission, unless specifically allowed by the PO in the feedback received during the decline process. This moratorium allows investigators the time required to digest the results of the merit review and revise their proposal accordingly. A proposal that has not been substantially revised will be returned without review as per the PAPPG.\n\n\nPIs are strongly encouraged to submit the Single Copy Document titled &ldquo;List of Suggested Reviewers&rdquo; with their full proposal. Sharing of data and other materials is an expectation for funded research. Please consult the NSF Dear Colleague Letter: Effective Practices for Data for more details.\n\n\nInterested in talking with a program director? Send a one-page description of the proposed research to sbe-cogneuro@nsf.gov.",
+        "responseDate": "Aug 17, 2026 12:00:00 AM EDT",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506244",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-24-1699",
+        "postingDate": "Oct 12, 2023 12:00:00 AM EDT",
+        "archiveDate": "Sep 14, 2033 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "25",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Apr 06, 2026 11:00:09 PM EDT",
+        "modComments": ".",
+        "createdDate": "Oct 12, 2023 01:00:19 AM EDT",
+        "lastUpdatedDate": "Apr 06, 2026 11:00:09 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-08-17-00-00-00",
+        "postingDateStr": "2023-10-12-00-00-00",
+        "archiveDateStr": "2033-09-14-00-00-00",
+        "createTimeStampStr": "2026-04-06-23-00-09"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 414752,
+          "opportunityId": 350561,
+          "cfdaNumber": "47.075",
+          "programTitle": "Social, Behavioral, and Economic Sciences"
+        },
+        {
+          "id": 414753,
+          "opportunityId": 350561
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 350561,
+            "revision": 0
+          },
+          "opportunityId": 350561,
+          "revision": 0,
+          "opportunityNumber": "PD-24-1699",
+          "opportunityTitle": "Cognitive Neuroscience",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 350561,
+              "revision": 0
+            },
+            "opportunityId": 350561,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Cognitive Neuroscience (CogNeuro) Program seeks to fund proposals that can advance our understanding of the neural mechanisms underlying human cognition and behavior. Funded proposals typically advance theories in cognitive neuroscience by relating precise and rich quantifications of physiology, cognition and behavior with each other (Intellectual Merit). Funded proposals also typically strengthen the field through, for example, outreach, mentoring the next generation of diverse cognitive neuroscientists and/or increasing awareness and utilization of the research the field produces (Broader Impacts).\n\r\n\nIntellectual Merit<span style=\"text-decoration: underline;\"><br /></span>In general, successful proposals provide a theoretical motivation for a series of experiments and analyses that test the differential predictions of that theory; they go beyond quantifying physiology associated with cognition and behavior. Research topics considered for funding include but are not limited to: action, perception, imagery, recognition, categorization, learning and memory, working memory, attention, language, problem solving, decision-making and social reasoning. Commensurate with the inherently multidisciplinary nature of the field and the limitations of any single technique, a wide variety of physiological methods are considered, including but not limited to: neuroimaging (e.g., fMRI, EEG, MEG), non-invasive stimulation (e.g. TMS, tES), lesion analysis, intracranial recording, optogenetics, genetics, optical imaging, computational modeling and pharmacological interventions in both human and non-human primates and other animal models. The program is particularly interested in proposals that achieve or enable convergence across multiple techniques.\n\r\n\nCritically, proposals will be returned without review if they are focused on: (1) either behavior or physiology and lack a specific link between them, (2) understanding clinical populations or 3) non-human animals without a clear benefit to our understanding of humans.\n\r\n\nBroader Impacts<br />In general, successful proposals seek to make impacts beyond traditional academic routes, such as having the PIs publish research or teach undergraduate courses. Strong broader impacts can be quite varied but will typically involve specific efforts strengthening the field and/or increasing its visibility by leveraging the characteristics of the institution, department and/or researcher. Consider the following non-exhaustive examples:\n\r\n<ol>\r\n<li>STEM education and outreach, particularly in underserved communities.</li>\r\n<li>Directly involving undergraduates and high-school students in research.</li>\r\n<li>Making tools and applications available, discoverable, and easily useable by, the general public.</li>\r\n<li>Science journalism or communication.</li>\r\n</ol>\r\n\nThese efforts often relate to the proposed research, but suitable broader impacts with less direct connections to the specific research may also be proposed. PIs are encouraged to include these efforts in their proposal budgets if warranted. Refer to the <a href=\"https://www.nsf.gov/pubs/2021/nsf21059/nsf21059.jsp\">Dear Colleague Letter: A Broader Impacts Framework for Proposals Submitted to NSF's Social, Behavioral, and Economic Sciences Directorate</a> for more information.\n\r\n\nPost-Doc Mentoring Plans<br />Strong mentoring plans generally go beyond inclusion in standard lab activities and incorporate specific ideas for forwarding the careers of young scientists and trainees that leverage the setting and content of the proposed research.\n\r\n\nGeneral Directions<span style=\"text-decoration: underline;\"><br /></span>Prior to the development of a full proposal, investigators are strongly encouraged to submit a one-page summary of the proposed research to a program director to evaluate its appropriateness for the CogNeuro Program. Please contact the program director early enough to allow for revisions and incorporation of what may be extensive feedback. The summary should include an overview of your research and statements of intellectual merit and broader impacts, the two NSF review criteria.\n\r\n\nSee the <a href=\"https://www.nsf.gov/bfa/dias/policy/merit_review/facts.jsp\">Merit Review Fact Sheet</a> for more important facts about the NSF merit review process. Please read the <a href=\"https://new.nsf.gov/policies/pappg/\">NSF Proposal &amp; Award Policies &amp; Procedures Guide</a> (PAPPG) carefully, as it will be strictly followed .\n\r\n\nCurrently, the average standard/CAREER award size is about $225K/175K per year for 3 to 5 years. Awards in excess of 1M are exceptionally rare and almost always multidisciplinary. Please be judicious in your requests, understanding the realities of the limited funding available for all proposals. See the <a href=\"https://www.nsf.gov/awardsearch/advancedSearchResult?ProgOrganization=04040000&amp;ProgEleCode=1699&amp;BooleanElement=ANY&amp;BooleanRef=ANY&amp;ActiveAwards=true&amp;#results)\">listing of active Cognitive Neuroscience awards</a> for additional award information.\n\r\n\nDeclined proposals are ineligible for resubmission until a minimum of one year has passed since the due date of their initial submission, unless specifically allowed by the Program Director in the feedback received during the decline process. This moratorium allows investigators the time required to digest the results of the merit review and revise their proposal accordingly. A proposal that has not been substantially revised will be returned without review as per the PAPPG.\n\r\n\nPIs are strongly encouraged to submit the Single Copy Document titled &ldquo;List of Suggested Reviewers&rdquo; with their full proposal. Sharing of data and other materials is an expectation for funded research. Please consult the <a href=\"https://www.nsf.gov/pubs/2019/nsf19069/nsf19069.jsp\">NSF Dear Colleague Letter: Effective Practices for Data</a> for more details.\n\r\n\nInterested in talking with a Program Director? Send a one-page description of the proposed research to <a href=\"mailto:sbe-cogneuro@nsf.gov\">sbe-cogneuro@nsf.gov</a>or submit a concept outline using the <a href=\"https://suitability.nsf.gov/s/\">Program Suitability and Proposal Concept Tool (ProSPCT)</a>.",
+            "responseDate": "Feb 01, 2024 12:00:00 AM EST",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506244",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-24-1699",
+            "postingDate": "Oct 12, 2023 12:00:00 AM EDT",
+            "archiveDate": "Sep 14, 2033 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Oct 12, 2023 01:00:19 AM EDT",
+            "actionType": "U",
+            "actionDate": "Feb 09, 2024 01:00:33 AM EST",
+            "createdDate": "Oct 12, 2023 01:00:19 AM EDT",
+            "lastUpdatedDate": "Oct 12, 2023 01:00:19 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2024-02-01-00-00-00",
+            "postingDateStr": "2023-10-12-00-00-00",
+            "archiveDateStr": "2033-09-14-00-00-00",
+            "createTimeStampStr": "2023-10-12-01-00-19"
+          },
+          "cfdas": [
+            {
+              "id": 414752,
+              "opportunityId": 350561,
+              "revision": 8,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 414753,
+              "opportunityId": 350561,
+              "revision": 8
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 350561,
+            "revision": 1
+          },
+          "opportunityId": 350561,
+          "revision": 1,
+          "opportunityNumber": "PD-24-1699",
+          "opportunityTitle": "Cognitive Neuroscience",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 350561,
+              "revision": 1
+            },
+            "opportunityId": 350561,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Cognitive Neuroscience (CogNeuro) Program seeks to fund proposals that can advance our understanding of the neural mechanisms underlying human cognition and behavior. Funded proposals typically advance theories in cognitive neuroscience by relating precise and rich quantifications of physiology, cognition and behavior with each other (Intellectual Merit). Funded proposals also typically strengthen the field through, for example, outreach, mentoring the next generation of diverse cognitive neuroscientists and/or increasing awareness and utilization of the research the field produces (Broader Impacts).\n\r\n\nIntellectual Merit<span style=\"text-decoration: underline;\"><br /></span>In general, successful proposals provide a theoretical motivation for a series of experiments and analyses that test the differential predictions of that theory; they go beyond quantifying physiology associated with cognition and behavior. Research topics considered for funding include but are not limited to: action, perception, imagery, recognition, categorization, learning and memory, working memory, attention, language, problem solving, decision-making and social reasoning. Commensurate with the inherently multidisciplinary nature of the field and the limitations of any single technique, a wide variety of physiological methods are considered, including but not limited to: neuroimaging (e.g., fMRI, EEG, MEG), non-invasive stimulation (e.g. TMS, tES), lesion analysis, intracranial recording, optogenetics, genetics, optical imaging, computational modeling and pharmacological interventions in both human and non-human primates and other animal models. The program is particularly interested in proposals that achieve or enable convergence across multiple techniques.\n\r\n\nCritically, proposals will be returned without review if they are focused on: (1) either behavior or physiology and lack a specific link between them, (2) understanding clinical populations or 3) non-human animals without a clear benefit to our understanding of humans.\n\r\n\nBroader Impacts<br />In general, successful proposals seek to make impacts beyond traditional academic routes, such as having the PIs publish research or teach undergraduate courses. Strong broader impacts can be quite varied but will typically involve specific efforts strengthening the field and/or increasing its visibility by leveraging the characteristics of the institution, department and/or researcher. Consider the following non-exhaustive examples:\n\r\n<ol>\r\n<li>STEM education and outreach, particularly in underserved communities.</li>\r\n<li>Directly involving undergraduates and high-school students in research.</li>\r\n<li>Making tools and applications available, discoverable, and easily useable by, the general public.</li>\r\n<li>Science journalism or communication.</li>\r\n</ol>\r\n\nThese efforts often relate to the proposed research, but suitable broader impacts with less direct connections to the specific research may also be proposed. PIs are encouraged to include these efforts in their proposal budgets if warranted. Refer to the <a href=\"https://www.nsf.gov/pubs/2021/nsf21059/nsf21059.jsp\">Dear Colleague Letter: A Broader Impacts Framework for Proposals Submitted to NSF's Social, Behavioral, and Economic Sciences Directorate</a> for more information.\n\r\n\nPost-Doc Mentoring Plans<br />Strong mentoring plans generally go beyond inclusion in standard lab activities and incorporate specific ideas for forwarding the careers of young scientists and trainees that leverage the setting and content of the proposed research.\n\r\n\nGeneral Directions<span style=\"text-decoration: underline;\"><br /></span>Prior to the development of a full proposal, investigators are strongly encouraged to submit a one-page summary of the proposed research to a program director to evaluate its appropriateness for the CogNeuro Program. Please contact the program director early enough to allow for revisions and incorporation of what may be extensive feedback. The summary should include an overview of your research and statements of intellectual merit and broader impacts, the two NSF review criteria.\n\r\n\nSee the <a href=\"https://www.nsf.gov/bfa/dias/policy/merit_review/facts.jsp\">Merit Review Fact Sheet</a> for more important facts about the NSF merit review process. Please read the <a href=\"https://new.nsf.gov/policies/pappg/\">NSF Proposal &amp; Award Policies &amp; Procedures Guide</a> (PAPPG) carefully, as it will be strictly followed .\n\r\n\nCurrently, the average standard/CAREER award size is about $225K/175K per year for 3 to 5 years. Awards in excess of 1M are exceptionally rare and almost always multidisciplinary. Please be judicious in your requests, understanding the realities of the limited funding available for all proposals. See the <a href=\"https://www.nsf.gov/awardsearch/advancedSearchResult?ProgOrganization=04040000&amp;ProgEleCode=1699&amp;BooleanElement=ANY&amp;BooleanRef=ANY&amp;ActiveAwards=true&amp;#results)\">listing of active Cognitive Neuroscience awards</a> for additional award information.\n\r\n\nDeclined proposals are ineligible for resubmission until a minimum of one year has passed since the due date of their initial submission, unless specifically allowed by the Program Director in the feedback received during the decline process. This moratorium allows investigators the time required to digest the results of the merit review and revise their proposal accordingly. A proposal that has not been substantially revised will be returned without review as per the PAPPG.\n\r\n\nPIs are strongly encouraged to submit the Single Copy Document titled &ldquo;List of Suggested Reviewers&rdquo; with their full proposal. Sharing of data and other materials is an expectation for funded research. Please consult the <a href=\"https://www.nsf.gov/pubs/2019/nsf19069/nsf19069.jsp\">NSF Dear Colleague Letter: Effective Practices for Data</a> for more details.\n\r\n\nInterested in talking with a Program Director? Send a one-page description of the proposed research to <a href=\"mailto:sbe-cogneuro@nsf.gov\">sbe-cogneuro@nsf.gov</a>or submit a concept outline using the <a href=\"https://suitability.nsf.gov/s/\">Program Suitability and Proposal Concept Tool (ProSPCT)</a>.",
+            "responseDate": "Aug 15, 2024 12:00:00 AM EDT",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506244",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-24-1699",
+            "postingDate": "Oct 12, 2023 12:00:00 AM EDT",
+            "archiveDate": "Sep 14, 2033 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Feb 09, 2024 01:00:33 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 24, 2024 12:36:50 AM EST",
+            "createdDate": "Oct 12, 2023 01:00:19 AM EDT",
+            "lastUpdatedDate": "Feb 09, 2024 01:00:33 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2024-08-15-00-00-00",
+            "postingDateStr": "2023-10-12-00-00-00",
+            "archiveDateStr": "2033-09-14-00-00-00",
+            "createTimeStampStr": "2024-02-09-01-00-33"
+          },
+          "cfdas": [
+            {
+              "id": 414752,
+              "opportunityId": 350561,
+              "revision": 8,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 414753,
+              "opportunityId": 350561,
+              "revision": 8
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 350561,
+            "revision": 2
+          },
+          "opportunityId": 350561,
+          "revision": 2,
+          "opportunityNumber": "PD-24-1699",
+          "opportunityTitle": "Cognitive Neuroscience",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 350561,
+              "revision": 2
+            },
+            "opportunityId": 350561,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Cognitive Neuroscience (CogNeuro) Program seeks to fund proposals that can advance our understanding of the neural mechanisms underlying human cognition and behavior. Funded proposals typically advance theories in cognitive neuroscience by relating precise and rich quantifications of physiology, cognition and behavior with each other (Intellectual Merit). Funded proposals also typically strengthen the field through, for example, outreach, mentoring the next generation of diverse cognitive neuroscientists and/or increasing awareness and utilization of the research the field produces (Broader Impacts).\n\r\n\nIntellectual Merit<span style=\"text-decoration: underline;\"><br /></span>In general, successful proposals provide a theoretical motivation for a series of experiments and analyses that test the differential predictions of that theory; they go beyond quantifying physiology associated with cognition and behavior. Research topics considered for funding include but are not limited to: action, perception, imagery, recognition, categorization, learning and memory, working memory, attention, language, problem solving, decision-making and social reasoning. Commensurate with the inherently multidisciplinary nature of the field and the limitations of any single technique, a wide variety of physiological methods are considered, including but not limited to: neuroimaging (e.g., fMRI, EEG, MEG), non-invasive stimulation (e.g. TMS, tES), lesion analysis, intracranial recording, optogenetics, genetics, optical imaging, computational modeling and pharmacological interventions in both human and non-human primates and other animal models. The program is particularly interested in proposals that achieve or enable convergence across multiple techniques.\n\r\n\nCritically, proposals will be returned without review if they are focused on: (1) either behavior or physiology and lack a specific link between them, (2) understanding clinical populations or 3) non-human animals without a clear benefit to our understanding of humans.\n\r\n\nBroader Impacts<br />In general, successful proposals seek to make impacts beyond traditional academic routes, such as having the PIs publish research or teach undergraduate courses. Strong broader impacts can be quite varied but will typically involve specific efforts strengthening the field and/or increasing its visibility by leveraging the characteristics of the institution, department and/or researcher. Consider the following non-exhaustive examples:\n\r\n<ol>\r\n<li>STEM education and outreach, particularly in underserved communities.</li>\r\n<li>Directly involving undergraduates and high-school students in research.</li>\r\n<li>Making tools and applications available, discoverable, and easily useable by, the general public.</li>\r\n<li>Science journalism or communication.</li>\r\n</ol>\r\n\nThese efforts often relate to the proposed research, but suitable broader impacts with less direct connections to the specific research may also be proposed. PIs are encouraged to include these efforts in their proposal budgets if warranted. Refer to the <a href=\"https://www.nsf.gov/pubs/2021/nsf21059/nsf21059.jsp\">Dear Colleague Letter: A Broader Impacts Framework for Proposals Submitted to NSF's Social, Behavioral, and Economic Sciences Directorate</a> for more information.\n\r\n\nPost-Doc Mentoring Plans<br />Strong mentoring plans generally go beyond inclusion in standard lab activities and incorporate specific ideas for forwarding the careers of young scientists and trainees that leverage the setting and content of the proposed research.\n\r\n\nGeneral Directions<span style=\"text-decoration: underline;\"><br /></span>Prior to the development of a full proposal, investigators are strongly encouraged to submit a one-page summary of the proposed research to a program director to evaluate its appropriateness for the CogNeuro Program. Please contact the program director early enough to allow for revisions and incorporation of what may be extensive feedback. The summary should include an overview of your research and statements of intellectual merit and broader impacts, the two NSF review criteria.\n\r\n\nSee the <a href=\"https://www.nsf.gov/bfa/dias/policy/merit_review/facts.jsp\">Merit Review Fact Sheet</a> for more important facts about the NSF merit review process. Please read the <a href=\"https://new.nsf.gov/policies/pappg/\">NSF Proposal &amp; Award Policies &amp; Procedures Guide</a> (PAPPG) carefully, as it will be strictly followed .\n\r\n\nCurrently, the average standard/CAREER award size is about $225K/175K per year for 3 to 5 years. Awards in excess of 1M are exceptionally rare and almost always multidisciplinary. Please be judicious in your requests, understanding the realities of the limited funding available for all proposals. See the <a href=\"https://www.nsf.gov/awardsearch/advancedSearchResult?ProgOrganization=04040000&amp;ProgEleCode=1699&amp;BooleanElement=ANY&amp;BooleanRef=ANY&amp;ActiveAwards=true&amp;#results)\">listing of active Cognitive Neuroscience awards</a> for additional award information.\n\r\n\nDeclined proposals are ineligible for resubmission until a minimum of one year has passed since the due date of their initial submission, unless specifically allowed by the Program Director in the feedback received during the decline process. This moratorium allows investigators the time required to digest the results of the merit review and revise their proposal accordingly. A proposal that has not been substantially revised will be returned without review as per the PAPPG.\n\r\n\nPIs are strongly encouraged to submit the Single Copy Document titled &ldquo;List of Suggested Reviewers&rdquo; with their full proposal. Sharing of data and other materials is an expectation for funded research. Please consult the <a href=\"https://www.nsf.gov/pubs/2019/nsf19069/nsf19069.jsp\">NSF Dear Colleague Letter: Effective Practices for Data</a> for more details.\n\r\n\nInterested in talking with a Program Director? Send a one-page description of the proposed research to <a href=\"mailto:sbe-cogneuro@nsf.gov\">sbe-cogneuro@nsf.gov</a>or submit a concept outline using the <a href=\"https://suitability.nsf.gov/s/\">Program Suitability and Proposal Concept Tool (ProSPCT)</a>.",
+            "responseDate": "Aug 15, 2024 12:00:00 AM EDT",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506244",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-24-1699",
+            "postingDate": "Oct 12, 2023 12:00:00 AM EDT",
+            "archiveDate": "Sep 14, 2033 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Feb 24, 2024 12:36:50 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 24, 2024 01:41:04 AM EST",
+            "createdDate": "Oct 12, 2023 01:00:19 AM EDT",
+            "lastUpdatedDate": "Feb 24, 2024 12:36:50 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2024-08-15-00-00-00",
+            "postingDateStr": "2023-10-12-00-00-00",
+            "archiveDateStr": "2033-09-14-00-00-00",
+            "createTimeStampStr": "2024-02-24-00-36-50"
+          },
+          "cfdas": [
+            {
+              "id": 414752,
+              "opportunityId": 350561,
+              "revision": 8,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 414753,
+              "opportunityId": 350561,
+              "revision": 8
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 350561,
+            "revision": 3
+          },
+          "opportunityId": 350561,
+          "revision": 3,
+          "opportunityNumber": "PD-24-1699",
+          "opportunityTitle": "Cognitive Neuroscience",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 350561,
+              "revision": 3
+            },
+            "opportunityId": 350561,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Cognitive Neuroscience (CogNeuro) Program seeks to fund proposals that can advance our understanding of the neural mechanisms underlying human cognition and behavior. Funded proposals typically advance theories in cognitive neuroscience by relating precise and rich quantifications of physiology, cognition and behavior with each other (Intellectual Merit). Funded proposals also typically strengthen the field through, for example, outreach, mentoring the next generation of diverse cognitive neuroscientists and/or increasing awareness and utilization of the research the field produces (Broader Impacts).\n\r\n\nIntellectual Merit<span style=\"text-decoration: underline;\"><br /></span>In general, successful proposals provide a theoretical motivation for a series of experiments and analyses that test the differential predictions of that theory; they go beyond quantifying physiology associated with cognition and behavior. Research topics considered for funding include but are not limited to: action, perception, imagery, recognition, categorization, learning and memory, working memory, attention, language, problem solving, decision-making and social reasoning. Commensurate with the inherently multidisciplinary nature of the field and the limitations of any single technique, a wide variety of physiological methods are considered, including but not limited to: neuroimaging (e.g., fMRI, EEG, MEG), non-invasive stimulation (e.g. TMS, tES), lesion analysis, intracranial recording, optogenetics, genetics, optical imaging, computational modeling and pharmacological interventions in both human and non-human primates and other animal models. The program is particularly interested in proposals that achieve or enable convergence across multiple techniques.\n\r\n\nCritically, proposals will be returned without review if they are focused on: (1) either behavior or physiology and lack a specific link between them, (2) understanding clinical populations or 3) non-human animals without a clear benefit to our understanding of humans.\n\r\n\nBroader Impacts<br />In general, successful proposals seek to make impacts beyond traditional academic routes, such as having the PIs publish research or teach undergraduate courses. Strong broader impacts can be quite varied but will typically involve specific efforts strengthening the field and/or increasing its visibility by leveraging the characteristics of the institution, department and/or researcher. Consider the following non-exhaustive examples:\n\r\n<ol>\r\n<li>STEM education and outreach, particularly in underserved communities.</li>\r\n<li>Directly involving undergraduates and high-school students in research.</li>\r\n<li>Making tools and applications available, discoverable, and easily useable by, the general public.</li>\r\n<li>Science journalism or communication.</li>\r\n</ol>\r\n\nThese efforts often relate to the proposed research, but suitable broader impacts with less direct connections to the specific research may also be proposed. PIs are encouraged to include these efforts in their proposal budgets if warranted. Refer to the <a href=\"https://www.nsf.gov/pubs/2021/nsf21059/nsf21059.jsp\">Dear Colleague Letter: A Broader Impacts Framework for Proposals Submitted to NSF's Social, Behavioral, and Economic Sciences Directorate</a> for more information.\n\r\n\nPost-Doc Mentoring Plans<br />Strong mentoring plans generally go beyond inclusion in standard lab activities and incorporate specific ideas for forwarding the careers of young scientists and trainees that leverage the setting and content of the proposed research.\n\r\n\nGeneral Directions<span style=\"text-decoration: underline;\"><br /></span>Prior to the development of a full proposal, investigators are strongly encouraged to submit a one-page summary of the proposed research to a program director to evaluate its appropriateness for the CogNeuro Program. Please contact the program director early enough to allow for revisions and incorporation of what may be extensive feedback. The summary should include an overview of your research and statements of intellectual merit and broader impacts, the two NSF review criteria.\n\r\n\nSee the <a href=\"https://www.nsf.gov/bfa/dias/policy/merit_review/facts.jsp\">Merit Review Fact Sheet</a> for more important facts about the NSF merit review process. Please read the <a href=\"https://new.nsf.gov/policies/pappg/\">NSF Proposal &amp; Award Policies &amp; Procedures Guide</a> (PAPPG) carefully, as it will be strictly followed .\n\r\n\nCurrently, the average standard/CAREER award size is about $225K/175K per year for 3 to 5 years. Awards in excess of 1M are exceptionally rare and almost always multidisciplinary. Please be judicious in your requests, understanding the realities of the limited funding available for all proposals. See the <a href=\"https://www.nsf.gov/awardsearch/advancedSearchResult?ProgOrganization=04040000&amp;ProgEleCode=1699&amp;BooleanElement=ANY&amp;BooleanRef=ANY&amp;ActiveAwards=true&amp;#results)\">listing of active Cognitive Neuroscience awards</a> for additional award information.\n\r\n\nDeclined proposals are ineligible for resubmission until a minimum of one year has passed since the due date of their initial submission, unless specifically allowed by the Program Director in the feedback received during the decline process. This moratorium allows investigators the time required to digest the results of the merit review and revise their proposal accordingly. A proposal that has not been substantially revised will be returned without review as per the PAPPG.\n\r\n\nPIs are strongly encouraged to submit the Single Copy Document titled &ldquo;List of Suggested Reviewers&rdquo; with their full proposal. Sharing of data and other materials is an expectation for funded research. Please consult the <a href=\"https://www.nsf.gov/pubs/2019/nsf19069/nsf19069.jsp\">NSF Dear Colleague Letter: Effective Practices for Data</a> for more details.\n\r\n\nInterested in talking with a Program Director? Send a one-page description of the proposed research to <a href=\"mailto:sbe-cogneuro@nsf.gov\">sbe-cogneuro@nsf.gov</a>or submit a concept outline using the <a href=\"https://suitability.nsf.gov/s/\">Program Suitability and Proposal Concept Tool (ProSPCT)</a>.",
+            "responseDate": "Aug 15, 2024 12:00:00 AM EDT",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506244",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-24-1699",
+            "postingDate": "Oct 12, 2023 12:00:00 AM EDT",
+            "archiveDate": "Sep 14, 2033 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Feb 24, 2024 01:41:04 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Aug 23, 2024 01:00:11 AM EDT",
+            "createdDate": "Oct 12, 2023 01:00:19 AM EDT",
+            "lastUpdatedDate": "Feb 24, 2024 01:41:04 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2024-08-15-00-00-00",
+            "postingDateStr": "2023-10-12-00-00-00",
+            "archiveDateStr": "2033-09-14-00-00-00",
+            "createTimeStampStr": "2024-02-24-01-41-04"
+          },
+          "cfdas": [
+            {
+              "id": 414752,
+              "opportunityId": 350561,
+              "revision": 8,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 414753,
+              "opportunityId": 350561,
+              "revision": 8
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 350561,
+            "revision": 4
+          },
+          "opportunityId": 350561,
+          "revision": 4,
+          "opportunityNumber": "PD-24-1699",
+          "opportunityTitle": "Cognitive Neuroscience",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 350561,
+              "revision": 4
+            },
+            "opportunityId": 350561,
+            "revision": 4,
+            "version": 5,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Cognitive Neuroscience (CogNeuro) Program seeks to fund proposals that can advance our understanding of the neural mechanisms underlying human cognition and behavior. Funded proposals typically advance theories in cognitive neuroscience by relating precise and rich quantifications of physiology, cognition and behavior with each other (Intellectual Merit). Funded proposals also typically strengthen the field through, for example, outreach, mentoring the next generation of diverse cognitive neuroscientists and/or increasing awareness and utilization of the research the field produces (Broader Impacts).\n\n\nIntellectual Merit<span style=\"text-decoration: underline;\"><br /></span>In general, successful proposals provide a theoretical motivation for a series of experiments and analyses that test the differential predictions of that theory; they go beyond quantifying physiology associated with cognition and behavior. Research topics considered for funding include but are not limited to: action, perception, imagery, recognition, categorization, learning and memory, working memory, attention, language, problem solving, decision-making and social reasoning. Commensurate with the inherently multidisciplinary nature of the field and the limitations of any single technique, a wide variety of physiological methods are considered, including but not limited to: neuroimaging (e.g., fMRI, EEG, MEG), non-invasive stimulation (e.g. TMS, tES), lesion analysis, intracranial recording, optogenetics, genetics, optical imaging, computational modeling and pharmacological interventions in both human and non-human primates and other animal models. The program is particularly interested in proposals that achieve or enable convergence across multiple techniques.\n\n\nCritically, proposals will be returned without review if they are focused on: (1) either behavior or physiology and lack a specific link between them, (2) understanding clinical populations or 3) non-human animals without a clear benefit to our understanding of humans.\n\n\nBroader Impacts<br />In general, successful proposals seek to make impacts beyond traditional academic routes, such as having the PIs publish research or teach undergraduate courses. Strong broader impacts can be quite varied but will typically involve specific efforts strengthening the field and/or increasing its visibility by leveraging the characteristics of the institution, department and/or researcher. Consider the following non-exhaustive examples:\n\n<ol>\n<li>STEM education and outreach, particularly in underserved communities.</li>\n<li>Directly involving undergraduates and high-school students in research.</li>\n<li>Making tools and applications available, discoverable, and easily useable by, the general public.</li>\n<li>Science journalism or communication.</li>\n</ol>\n\nThese efforts often relate to the proposed research, but suitable broader impacts with less direct connections to the specific research may also be proposed. PIs are encouraged to include these efforts in their proposal budgets if warranted. Refer to the <a href=\"https://www.nsf.gov/pubs/2021/nsf21059/nsf21059.jsp\">Dear Colleague Letter: A Broader Impacts Framework for Proposals Submitted to NSF's Social, Behavioral, and Economic Sciences Directorate</a> for more information.\n\n\nPost-Doc Mentoring Plans<br />Strong mentoring plans generally go beyond inclusion in standard lab activities and incorporate specific ideas for forwarding the careers of young scientists and trainees that leverage the setting and content of the proposed research.\n\n\nGeneral Directions<span style=\"text-decoration: underline;\"><br /></span>Prior to the development of a full proposal, investigators are strongly encouraged to submit a one-page summary of the proposed research to a program director to evaluate its appropriateness for the CogNeuro Program. Please contact the program director early enough to allow for revisions and incorporation of what may be extensive feedback. The summary should include an overview of your research and statements of intellectual merit and broader impacts, the two NSF review criteria.\n\n\nSee the <a href=\"https://www.nsf.gov/bfa/dias/policy/merit_review/facts.jsp\">Merit Review Fact Sheet</a> for more important facts about the NSF merit review process. Please read the <a href=\"https://new.nsf.gov/policies/pappg/\">NSF Proposal &amp; Award Policies &amp; Procedures Guide</a> (PAPPG) carefully, as it will be strictly followed .\n\n\nCurrently, the average standard/CAREER award size is about $225K/175K per year for 3 to 5 years. Awards in excess of 1M are exceptionally rare and almost always multidisciplinary. Please be judicious in your requests, understanding the realities of the limited funding available for all proposals. See the <a href=\"https://www.nsf.gov/awardsearch/advancedSearchResult?ProgOrganization=04040000&amp;ProgEleCode=1699&amp;BooleanElement=ANY&amp;BooleanRef=ANY&amp;ActiveAwards=true&amp;#results)\">listing of active Cognitive Neuroscience awards</a> for additional award information.\n\n\nDeclined proposals are ineligible for resubmission until a minimum of one year has passed since the due date of their initial submission, unless specifically allowed by the Program Director in the feedback received during the decline process. This moratorium allows investigators the time required to digest the results of the merit review and revise their proposal accordingly. A proposal that has not been substantially revised will be returned without review as per the PAPPG.\n\n\nPIs are strongly encouraged to submit the Single Copy Document titled &ldquo;List of Suggested Reviewers&rdquo; with their full proposal. Sharing of data and other materials is an expectation for funded research. Please consult the <a href=\"https://www.nsf.gov/pubs/2019/nsf19069/nsf19069.jsp\">NSF Dear Colleague Letter: Effective Practices for Data</a> for more details.\n\n\nInterested in talking with a Program Director? Send a one-page description of the proposed research to <a href=\"mailto:sbe-cogneuro@nsf.gov\">sbe-cogneuro@nsf.gov</a>or submit a concept outline using the <a href=\"https://suitability.nsf.gov/s/\">Program Suitability and Proposal Concept Tool (ProSPCT)</a>.",
+            "responseDate": "Feb 03, 2025 12:00:00 AM EST",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506244",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-24-1699",
+            "postingDate": "Oct 12, 2023 12:00:00 AM EDT",
+            "archiveDate": "Sep 14, 2033 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Aug 23, 2024 01:00:11 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jan 17, 2025 01:15:53 AM EST",
+            "createdDate": "Oct 12, 2023 01:00:19 AM EDT",
+            "lastUpdatedDate": "Aug 23, 2024 01:00:11 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-02-03-00-00-00",
+            "postingDateStr": "2023-10-12-00-00-00",
+            "archiveDateStr": "2033-09-14-00-00-00",
+            "createTimeStampStr": "2024-08-23-01-00-11"
+          },
+          "cfdas": [
+            {
+              "id": 414752,
+              "opportunityId": 350561,
+              "revision": 8,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 414753,
+              "opportunityId": 350561,
+              "revision": 8
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 350561,
+            "revision": 5
+          },
+          "opportunityId": 350561,
+          "revision": 5,
+          "opportunityNumber": "PD-24-1699",
+          "opportunityTitle": "Cognitive Neuroscience",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 350561,
+              "revision": 5
+            },
+            "opportunityId": 350561,
+            "revision": 5,
+            "version": 6,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Cognitive Neuroscience (CogNeuro) program seeks to fund proposals that can advance our understanding of the neural mechanisms underlying human cognition and behavior. Funded proposals typically relate precise and rich quantifications of physiological responses and behavior in ways that advance theory (Intellectual Merit). Funded proposal also typically strengthen the field through, for example, outreach, mentoring the next generation of diverse cognitive neuroscientists, and/or increasing awareness and utilization of the research the field produces (Broader Impacts).\n\n\n\n\n\n<span style=\"text-decoration: underline;\">Intellectual Merit</span>\n\n\nIn general, successful proposals provide a theoretical motivation and consist of a series of experiments/analyses that test the differential predictions of that theory; they go beyond quantifying physiology during certain tasks and behaviors. Research topics considered for funding include but are not limited to: perception, recognition, categorization, implicit and explicit memory, working memory, attention, language, decision-making, and social reasoning. Commensurate with the inherently multidisciplinary nature of the field and the limitations of any single technique, a wide variety of physiological methods are considered, including but not limited to: neuroimaging (e.g., fMRI, EEG, MEG), non-invasive stimulation (e.g. TMS, tDCS), lesion analysis, intracranial recording, optogenetics, genetics, optical imaging, computational modeling, and pharmacological interventions in both human and non-human primates and other animal models. The program is particularly interested in proposals that achieve or enable convergence across multiple techniques.\n\n\nCritically, proposals will be returned without review if they are focused on: 1) either behavior or physiology and lack a specific link between them, 2) understanding clinical populations, 3) non-human animals without a clear benefit to our understanding of humans.\n\n\n<span style=\"text-decoration: underline;\"></span>\n\n\n<span style=\"text-decoration: underline;\">Broader Impacts</span>\n\n\nIn general, successful proposals make impacts beyond traditional academic routes, such as publishing research or teaching undergraduate courses. Strong broader impacts can be quite varied but will typically involve specific efforts strengthening the field and/or increasing its visibility that leverage the characteristics of the institution, department, and/or researcher. Consider the following non-exhaustive examples: 1) STEM education and outreach, particularly in underserved communities, 2) directly involving undergraduates and high-school students in research, 3) making tools and applications for the general public, 4) science journalism or advocacy. These efforts can, but need not, directly relate to the proposed research. It is also encouraged to include budget for these efforts if warranted.\n\n\n\n\n\n<span style=\"text-decoration: underline;\">Mentoring Plans</span>\n\n\nStrong mentoring plans generally go beyond inclusion in standard lab activities and incorporate specific ideas for forwarding the careers of young scientists and trainees that leverage the setting and content of the proposed research.\n\n\n<span style=\"text-decoration: underline;\"></span>\n\n\n<span style=\"text-decoration: underline;\">General Directions</span>\n\n\nPrior to the development of a full proposal, investigators are strongly encouraged to submit a one-page summary of the proposed research to a program director to evaluate its appropriateness for the CogNeuro program. Please contact the director early enough to allow for revisions and incorporation what may be extensive feedback. The summary should include an overview of your research and statements of intellectual merit and broader impacts, the two NSF review criteria.\n\n\nSee the Merit Review Fact Sheet for more important facts about the NSF merit review process. Please read the NSF Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG) carefully, as it will be strictly adhered to even if other directives or communications appear to contradict it.\n\n\nCurrently, the average standard/CAREER award size is $175,000-$225,000 per year for 3-5 years. Awards in excess of $1.0 million are exceptionally rare and almost always multidisciplinary. Please be judicious in your requests, understanding the realities of the limited funding available for all proposals. See the Listing of Active Cognitive Neuroscience Awards for additional award information.\n\n\nDeclined proposals are ineligible for resubmission until a minimum of one year has passed since the due date of their initial submission, unless specifically allowed by the PO in the feedback received during the decline process. This moratorium allows investigators the time required to digest the results of the merit review and revise their proposal accordingly. A proposal that has not been substantially revised will be returned without review as per the PAPPG.\n\n\nPIs are strongly encouraged to submit the Single Copy Document titled &ldquo;List of Suggested Reviewers&rdquo; with their full proposal. Sharing of data and other materials is an expectation for funded research. Please consult the NSF Dear Colleague Letter: Effective Practices for Data for more details.\n\n\nInterested in talking with a program director? Send a one-page description of the proposed research to sbe-cogneuro@nsf.gov.",
+            "responseDate": "Feb 03, 2025 12:00:00 AM EST",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506244",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-24-1699",
+            "postingDate": "Oct 12, 2023 12:00:00 AM EDT",
+            "archiveDate": "Sep 14, 2033 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jan 17, 2025 01:15:53 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 19, 2025 01:00:07 AM EST",
+            "createdDate": "Oct 12, 2023 01:00:19 AM EDT",
+            "lastUpdatedDate": "Jan 17, 2025 01:15:53 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-02-03-00-00-00",
+            "postingDateStr": "2023-10-12-00-00-00",
+            "archiveDateStr": "2033-09-14-00-00-00",
+            "createTimeStampStr": "2025-01-17-01-15-53"
+          },
+          "cfdas": [
+            {
+              "id": 414752,
+              "opportunityId": 350561,
+              "revision": 8,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 414753,
+              "opportunityId": 350561,
+              "revision": 8
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 350561,
+            "revision": 6
+          },
+          "opportunityId": 350561,
+          "revision": 6,
+          "opportunityNumber": "PD-24-1699",
+          "opportunityTitle": "Cognitive Neuroscience",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 350561,
+              "revision": 6
+            },
+            "opportunityId": 350561,
+            "revision": 6,
+            "version": 7,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Cognitive Neuroscience (CogNeuro) program seeks to fund proposals that can advance our understanding of the neural mechanisms underlying human cognition and behavior. Funded proposals typically relate precise and rich quantifications of physiological responses and behavior in ways that advance theory (Intellectual Merit). Funded proposal also typically strengthen the field through, for example, outreach, mentoring the next generation of diverse cognitive neuroscientists, and/or increasing awareness and utilization of the research the field produces (Broader Impacts).\n\n\n\n\n\n<span style=\"text-decoration: underline;\">Intellectual Merit</span>\n\n\nIn general, successful proposals provide a theoretical motivation and consist of a series of experiments/analyses that test the differential predictions of that theory; they go beyond quantifying physiology during certain tasks and behaviors. Research topics considered for funding include but are not limited to: perception, recognition, categorization, implicit and explicit memory, working memory, attention, language, decision-making, and social reasoning. Commensurate with the inherently multidisciplinary nature of the field and the limitations of any single technique, a wide variety of physiological methods are considered, including but not limited to: neuroimaging (e.g., fMRI, EEG, MEG), non-invasive stimulation (e.g. TMS, tDCS), lesion analysis, intracranial recording, optogenetics, genetics, optical imaging, computational modeling, and pharmacological interventions in both human and non-human primates and other animal models. The program is particularly interested in proposals that achieve or enable convergence across multiple techniques.\n\n\nCritically, proposals will be returned without review if they are focused on: 1) either behavior or physiology and lack a specific link between them, 2) understanding clinical populations, 3) non-human animals without a clear benefit to our understanding of humans.\n\n\n<span style=\"text-decoration: underline;\"></span>\n\n\n<span style=\"text-decoration: underline;\">Broader Impacts</span>\n\n\nIn general, successful proposals make impacts beyond traditional academic routes, such as publishing research or teaching undergraduate courses. Strong broader impacts can be quite varied but will typically involve specific efforts strengthening the field and/or increasing its visibility that leverage the characteristics of the institution, department, and/or researcher. Consider the following non-exhaustive examples: 1) STEM education and outreach, particularly in underserved communities, 2) directly involving undergraduates and high-school students in research, 3) making tools and applications for the general public, 4) science journalism or advocacy. These efforts can, but need not, directly relate to the proposed research. It is also encouraged to include budget for these efforts if warranted.\n\n\n\n\n\n<span style=\"text-decoration: underline;\">Mentoring Plans</span>\n\n\nStrong mentoring plans generally go beyond inclusion in standard lab activities and incorporate specific ideas for forwarding the careers of young scientists and trainees that leverage the setting and content of the proposed research.\n\n\n<span style=\"text-decoration: underline;\"></span>\n\n\n<span style=\"text-decoration: underline;\">General Directions</span>\n\n\nPrior to the development of a full proposal, investigators are strongly encouraged to submit a one-page summary of the proposed research to a program director to evaluate its appropriateness for the CogNeuro program. Please contact the director early enough to allow for revisions and incorporation what may be extensive feedback. The summary should include an overview of your research and statements of intellectual merit and broader impacts, the two NSF review criteria.\n\n\nSee the Merit Review Fact Sheet for more important facts about the NSF merit review process. Please read the NSF Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG) carefully, as it will be strictly adhered to even if other directives or communications appear to contradict it.\n\n\nCurrently, the average standard/CAREER award size is $175,000-$225,000 per year for 3-5 years. Awards in excess of $1.0 million are exceptionally rare and almost always multidisciplinary. Please be judicious in your requests, understanding the realities of the limited funding available for all proposals. See the Listing of Active Cognitive Neuroscience Awards for additional award information.\n\n\nDeclined proposals are ineligible for resubmission until a minimum of one year has passed since the due date of their initial submission, unless specifically allowed by the PO in the feedback received during the decline process. This moratorium allows investigators the time required to digest the results of the merit review and revise their proposal accordingly. A proposal that has not been substantially revised will be returned without review as per the PAPPG.\n\n\nPIs are strongly encouraged to submit the Single Copy Document titled &ldquo;List of Suggested Reviewers&rdquo; with their full proposal. Sharing of data and other materials is an expectation for funded research. Please consult the NSF Dear Colleague Letter: Effective Practices for Data for more details.\n\n\nInterested in talking with a program director? Send a one-page description of the proposed research to sbe-cogneuro@nsf.gov.",
+            "responseDate": "Aug 15, 2025 12:00:00 AM EDT",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506244",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-24-1699",
+            "postingDate": "Oct 12, 2023 12:00:00 AM EDT",
+            "archiveDate": "Sep 14, 2033 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Feb 19, 2025 01:00:07 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Aug 31, 2025 11:00:08 PM EDT",
+            "createdDate": "Oct 12, 2023 01:00:19 AM EDT",
+            "lastUpdatedDate": "Feb 19, 2025 01:00:07 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-08-15-00-00-00",
+            "postingDateStr": "2023-10-12-00-00-00",
+            "archiveDateStr": "2033-09-14-00-00-00",
+            "createTimeStampStr": "2025-02-19-01-00-07"
+          },
+          "cfdas": [
+            {
+              "id": 414752,
+              "opportunityId": 350561,
+              "revision": 8,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 414753,
+              "opportunityId": 350561,
+              "revision": 8
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 350561,
+            "revision": 7
+          },
+          "opportunityId": 350561,
+          "revision": 7,
+          "opportunityNumber": "PD-24-1699",
+          "opportunityTitle": "Cognitive Neuroscience",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 350561,
+              "revision": 7
+            },
+            "opportunityId": 350561,
+            "revision": 7,
+            "version": 8,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4203",
+            "agencyContactName": "U.S. National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Cognitive Neuroscience (CogNeuro) program seeks to fund proposals that can advance our understanding of the neural mechanisms underlying human cognition and behavior. Funded proposals typically relate precise and rich quantifications of physiological responses and behavior in ways that advance theory (Intellectual Merit). Funded proposal also typically strengthen the field through, for example, outreach, mentoring the next generation of diverse cognitive neuroscientists, and/or increasing awareness and utilization of the research the field produces (Broader Impacts).\n\n\n\n\n\n<span style=\"text-decoration: underline;\">Intellectual Merit</span>\n\n\nIn general, successful proposals provide a theoretical motivation and consist of a series of experiments/analyses that test the differential predictions of that theory; they go beyond quantifying physiology during certain tasks and behaviors. Research topics considered for funding include but are not limited to: perception, recognition, categorization, implicit and explicit memory, working memory, attention, language, decision-making, and social reasoning. Commensurate with the inherently multidisciplinary nature of the field and the limitations of any single technique, a wide variety of physiological methods are considered, including but not limited to: neuroimaging (e.g., fMRI, EEG, MEG), non-invasive stimulation (e.g. TMS, tDCS), lesion analysis, intracranial recording, optogenetics, genetics, optical imaging, computational modeling, and pharmacological interventions in both human and non-human primates and other animal models. The program is particularly interested in proposals that achieve or enable convergence across multiple techniques.\n\n\nCritically, proposals will be returned without review if they are focused on: 1) either behavior or physiology and lack a specific link between them, 2) understanding clinical populations, 3) non-human animals without a clear benefit to our understanding of humans.\n\n\n<span style=\"text-decoration: underline;\"></span>\n\n\n<span style=\"text-decoration: underline;\">Broader Impacts</span>\n\n\nIn general, successful proposals make impacts beyond traditional academic routes, such as publishing research or teaching undergraduate courses. Strong broader impacts can be quite varied but will typically involve specific efforts strengthening the field and/or increasing its visibility that leverage the characteristics of the institution, department, and/or researcher. Consider the following non-exhaustive examples: 1) STEM education and outreach, particularly in underserved communities, 2) directly involving undergraduates and high-school students in research, 3) making tools and applications for the general public, 4) science journalism or advocacy. These efforts can, but need not, directly relate to the proposed research. It is also encouraged to include budget for these efforts if warranted.\n\n\n\n\n\n<span style=\"text-decoration: underline;\">Mentoring Plans</span>\n\n\nStrong mentoring plans generally go beyond inclusion in standard lab activities and incorporate specific ideas for forwarding the careers of young scientists and trainees that leverage the setting and content of the proposed research.\n\n\n<span style=\"text-decoration: underline;\"></span>\n\n\n<span style=\"text-decoration: underline;\">General Directions</span>\n\n\nPrior to the development of a full proposal, investigators are strongly encouraged to submit a one-page summary of the proposed research to a program director to evaluate its appropriateness for the CogNeuro program. Please contact the director early enough to allow for revisions and incorporation what may be extensive feedback. The summary should include an overview of your research and statements of intellectual merit and broader impacts, the two NSF review criteria.\n\n\nSee the Merit Review Fact Sheet for more important facts about the NSF merit review process. Please read the NSF Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG) carefully, as it will be strictly adhered to even if other directives or communications appear to contradict it.\n\n\nCurrently, the average standard/CAREER award size is $175,000-$225,000 per year for 3-5 years. Awards in excess of $1.0 million are exceptionally rare and almost always multidisciplinary. Please be judicious in your requests, understanding the realities of the limited funding available for all proposals. See the Listing of Active Cognitive Neuroscience Awards for additional award information.\n\n\nDeclined proposals are ineligible for resubmission until a minimum of one year has passed since the due date of their initial submission, unless specifically allowed by the PO in the feedback received during the decline process. This moratorium allows investigators the time required to digest the results of the merit review and revise their proposal accordingly. A proposal that has not been substantially revised will be returned without review as per the PAPPG.\n\n\nPIs are strongly encouraged to submit the Single Copy Document titled &ldquo;List of Suggested Reviewers&rdquo; with their full proposal. Sharing of data and other materials is an expectation for funded research. Please consult the NSF Dear Colleague Letter: Effective Practices for Data for more details.\n\n\nInterested in talking with a program director? Send a one-page description of the proposed research to sbe-cogneuro@nsf.gov.",
+            "responseDate": "Feb 02, 2026 12:00:00 AM EST",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506244",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-24-1699",
+            "postingDate": "Oct 12, 2023 12:00:00 AM EDT",
+            "archiveDate": "Sep 14, 2033 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Aug 31, 2025 11:00:08 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 18, 2026 11:00:31 PM EST",
+            "createdDate": "Oct 12, 2023 01:00:19 AM EDT",
+            "lastUpdatedDate": "Aug 31, 2025 11:00:08 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2026-02-02-00-00-00",
+            "postingDateStr": "2023-10-12-00-00-00",
+            "archiveDateStr": "2033-09-14-00-00-00",
+            "createTimeStampStr": "2025-08-31-23-00-08"
+          },
+          "cfdas": [
+            {
+              "id": 414752,
+              "opportunityId": 350561,
+              "revision": 8,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 414753,
+              "opportunityId": 350561,
+              "revision": 8
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 350561,
+            "revision": 8
+          },
+          "opportunityId": 350561,
+          "revision": 8,
+          "opportunityNumber": "PD-24-1699",
+          "opportunityTitle": "Cognitive Neuroscience",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 350561,
+              "revision": 8
+            },
+            "opportunityId": 350561,
+            "revision": 8,
+            "version": 9,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4203",
+            "agencyContactName": "U.S. National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Cognitive Neuroscience (CogNeuro) program seeks to fund proposals that can advance our understanding of the neural mechanisms underlying human cognition and behavior. Funded proposals typically relate precise and rich quantifications of physiological responses and behavior in ways that advance theory (Intellectual Merit). Funded proposal also typically strengthen the field through, for example, outreach, mentoring the next generation of diverse cognitive neuroscientists, and/or increasing awareness and utilization of the research the field produces (Broader Impacts).\n\n\n\n\n\n<span style=\"text-decoration: underline;\">Intellectual Merit</span>\n\n\nIn general, successful proposals provide a theoretical motivation and consist of a series of experiments/analyses that test the differential predictions of that theory; they go beyond quantifying physiology during certain tasks and behaviors. Research topics considered for funding include but are not limited to: perception, recognition, categorization, implicit and explicit memory, working memory, attention, language, decision-making, and social reasoning. Commensurate with the inherently multidisciplinary nature of the field and the limitations of any single technique, a wide variety of physiological methods are considered, including but not limited to: neuroimaging (e.g., fMRI, EEG, MEG), non-invasive stimulation (e.g. TMS, tDCS), lesion analysis, intracranial recording, optogenetics, genetics, optical imaging, computational modeling, and pharmacological interventions in both human and non-human primates and other animal models. The program is particularly interested in proposals that achieve or enable convergence across multiple techniques.\n\n\nCritically, proposals will be returned without review if they are focused on: 1) either behavior or physiology and lack a specific link between them, 2) understanding clinical populations, 3) non-human animals without a clear benefit to our understanding of humans.\n\n\n<span style=\"text-decoration: underline;\"></span>\n\n\n<span style=\"text-decoration: underline;\">Broader Impacts</span>\n\n\nIn general, successful proposals make impacts beyond traditional academic routes, such as publishing research or teaching undergraduate courses. Strong broader impacts can be quite varied but will typically involve specific efforts strengthening the field and/or increasing its visibility that leverage the characteristics of the institution, department, and/or researcher. Consider the following non-exhaustive examples: 1) STEM education and outreach, particularly in underserved communities, 2) directly involving undergraduates and high-school students in research, 3) making tools and applications for the general public, 4) science journalism or advocacy. These efforts can, but need not, directly relate to the proposed research. It is also encouraged to include budget for these efforts if warranted.\n\n\n\n\n\n<span style=\"text-decoration: underline;\">Mentoring Plans</span>\n\n\nStrong mentoring plans generally go beyond inclusion in standard lab activities and incorporate specific ideas for forwarding the careers of young scientists and trainees that leverage the setting and content of the proposed research.\n\n\n<span style=\"text-decoration: underline;\"></span>\n\n\n<span style=\"text-decoration: underline;\">General Directions</span>\n\n\nPrior to the development of a full proposal, investigators are strongly encouraged to submit a one-page summary of the proposed research to a program director to evaluate its appropriateness for the CogNeuro program. Please contact the director early enough to allow for revisions and incorporation what may be extensive feedback. The summary should include an overview of your research and statements of intellectual merit and broader impacts, the two NSF review criteria.\n\n\nSee the Merit Review Fact Sheet for more important facts about the NSF merit review process. Please read the NSF Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG) carefully, as it will be strictly adhered to even if other directives or communications appear to contradict it.\n\n\nCurrently, the average standard/CAREER award size is $175,000-$225,000 per year for 3-5 years. Awards in excess of $1.0 million are exceptionally rare and almost always multidisciplinary. Please be judicious in your requests, understanding the realities of the limited funding available for all proposals. See the Listing of Active Cognitive Neuroscience Awards for additional award information.\n\n\nDeclined proposals are ineligible for resubmission until a minimum of one year has passed since the due date of their initial submission, unless specifically allowed by the PO in the feedback received during the decline process. This moratorium allows investigators the time required to digest the results of the merit review and revise their proposal accordingly. A proposal that has not been substantially revised will be returned without review as per the PAPPG.\n\n\nPIs are strongly encouraged to submit the Single Copy Document titled &ldquo;List of Suggested Reviewers&rdquo; with their full proposal. Sharing of data and other materials is an expectation for funded research. Please consult the NSF Dear Colleague Letter: Effective Practices for Data for more details.\n\n\nInterested in talking with a program director? Send a one-page description of the proposed research to sbe-cogneuro@nsf.gov.",
+            "responseDate": "Aug 17, 2026 12:00:00 AM EDT",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506244",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-24-1699",
+            "postingDate": "Oct 12, 2023 12:00:00 AM EDT",
+            "archiveDate": "Sep 14, 2033 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Feb 18, 2026 11:00:31 PM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Apr 06, 2026 11:00:09 PM EDT",
+            "createdDate": "Oct 12, 2023 01:00:19 AM EDT",
+            "lastUpdatedDate": "Feb 18, 2026 11:00:31 PM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2026-08-17-00-00-00",
+            "postingDateStr": "2023-10-12-00-00-00",
+            "archiveDateStr": "2033-09-14-00-00-00",
+            "createTimeStampStr": "2026-02-18-23-00-31"
+          },
+          "cfdas": [
+            {
+              "id": 414752,
+              "opportunityId": 350561,
+              "revision": 8,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 414753,
+              "opportunityId": 350561,
+              "revision": 8
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 283432,
+          "topportunityId": 350561,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-24-1699",
+          "opportunityTitle": "Cognitive Neuroscience",
+          "openingDate": "2023-10-12",
+          "closingDate": "2026-08-17",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Elizabeth F. Chua\nE-mail: echua@nsf.gov\nPhone: (703) 292-5187",
+          "gracePeriod": 15,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 125,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 06, 2026 11:21:44 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00283432",
+          "openingDateStr": "2023-10-12-00-00-00",
+          "closingDateStr": "2026-08-17-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Feb 01, 2024 12:00:00 AM EST",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 9,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

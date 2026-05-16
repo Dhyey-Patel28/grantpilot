@@ -1,0 +1,412 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361514",
+  "fetched_at": "2026-05-16T14:08:55.446Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldVS2dnSjZQR2p1UE9WTXplSXpvUDNWU2Q2a1B2SHhVbUdKYTdPazJFQkE9Ig.m4IiUyZhTuStEOon4P4u8_EcZwhusrO55SIGutk7q1U",
+    "data": {
+      "id": 361514,
+      "revision": 2,
+      "opportunityNumber": "OIA-BTS-2026",
+      "opportunityTitle": "OIA Brown Treesnake Program 2026",
+      "owningAgencyCode": "DOI",
+      "listed": "L",
+      "publisherUid": "113080850824856438988185809190837265423",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361514,
+        "version": 3,
+        "agencyCode": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyPhone": "703-851-1570",
+        "agencyAddressDesc": "work email",
+        "agencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactPhone": "703-851-1570",
+        "agencyContactName": "Department of the Interior",
+        "agencyContactDesc": "Hailey McCoy\nhailey_mccoy@ios.doi.gov",
+        "agencyContactEmail": "hailey_mccoy@ios.doi.gov",
+        "agencyContactEmailDesc": "work email",
+        "synopsisDesc": "The Office of Insular Affairs (OIA) is requesting funding proposals for its Brown Treesnake (BTS) Control Program to prevent the migration of the BTS from Guam to other United States jurisdictions; to suppress and control the BTS on Guam to support the restoration of the island's native ecosystems; to avoid electrical outages to civilian or military facilities caused by the snakes; and to ultimately develop the capability to eradicate the BTS from Guam.The Administration will prioritize projects that drive economic growth, ensure reliable and affordable energy, and strengthen national security and regional stability.",
+        "responseDate": "Jun 08, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 5:00 p.m., ET, on the listed application due date (deadline has been extended to June 8, 2026).",
+        "postingDate": "Mar 16, 2026 12:00:00 AM EDT",
+        "archiveDate": "Apr 09, 2027 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "Brown Treesnake (BTS) program funds are provided to prevent the migration of the BTS from Guam to other United States jurisdictions; to suppress and control the BTS on Guam to support the restoration of the island's native ecosystems; to avoid electrical outages to civilian or military facilities caused by the snakes; and to ultimately develop the capability to eradicate the BTS from Guam.",
+        "costSharing": false,
+        "numberOfAwards": "7",
+        "estimatedFunding": "4000000",
+        "estimatedFundingFormatted": "4,000,000",
+        "awardCeiling": "4000000",
+        "awardCeilingFormatted": "4,000,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Eligible applicants are limited to members and active participants of the Brown Treesnake Technical Working Group which includes, but is not limited to, representatives of the governments of Guam, the Commonwealth Northern Mariana Islands, and Federal Agencies, in accordance with 2 CFR 200.",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 01, 2026 09:35:43 AM EDT",
+        "modComments": "The deadline for the Office of Insular Affairs&quot; Notices of Funding Opportunities (NOFOs) has been extended to June 8, 2026. This extension is being offered in recognition of the significant impacts caused by Super Typhoon Sinlaku, which has affected applicants&quot; ability to prepare and submit materials on the original timeline.\n \nWe hope this additional time will help ensure that all eligible entities are able to fully participate in the application process.",
+        "createdDate": "Mar 16, 2026 10:35:24 AM EDT",
+        "lastUpdatedDate": "May 01, 2026 09:34:37 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "responseDateStr": "2026-06-08-00-00-00",
+        "postingDateStr": "2026-03-16-00-00-00",
+        "archiveDateStr": "2027-04-09-00-00-00",
+        "createTimeStampStr": "2026-05-01-09-35-43"
+      },
+      "agencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79497,
+          "opportunityId": 361514,
+          "folderType": "Revised Full Announcement",
+          "folderName": "Revised Full Announcement",
+          "zipLobSize": 144638,
+          "createdDate": "May 01, 2026 09:35:42 AM EDT",
+          "lastUpdatedDate": "May 01, 2026 09:35:43 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351653,
+              "opportunityId": 361514,
+              "mimeType": "application/pdf",
+              "fileName": "NOFO OIA-BTS-2026 - updated deadline June 8, 2026.pdf",
+              "fileDescription": "NOFO OIA-BTS-2026 - updated deadline June 8, 2026.pdf",
+              "fileLobSize": 177510,
+              "createdDate": "May 01, 2026 09:35:43 AM EDT",
+              "synopsisAttFolderId": 79497
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432247,
+          "opportunityId": 361514,
+          "cfdaNumber": "15.875",
+          "programTitle": "Economic, Social, and Political Development of the Territories"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361514,
+            "revision": 0
+          },
+          "opportunityId": 361514,
+          "revision": 0,
+          "opportunityNumber": "OIA-BTS-2026",
+          "opportunityTitle": "OIA Brown Treesnake Program 2026",
+          "owningAgencyCode": "DOI",
+          "publisherUid": "113080850824856438988185809190837265423",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361514,
+              "revision": 0
+            },
+            "opportunityId": 361514,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOI",
+            "agencyAddressDesc": "work email",
+            "agencyDetails": {
+              "code": "DOI",
+              "seed": "DOI",
+              "agencyName": "Department of the Interior",
+              "agencyCode": "DOI",
+              "topAgencyCode": "DOI"
+            },
+            "agencyContactPhone": "303-570-4499",
+            "agencyContactName": "Department of the Interior",
+            "agencyContactDesc": "Hailey McCoy\nhailey_mccoy@ios.doi.gov",
+            "agencyContactEmail": "hailey_mccoy@ios.doi.gov",
+            "agencyContactEmailDesc": "work email",
+            "synopsisDesc": "The Office of Insular Affairs (OIA) is requesting funding proposals for its Brown Treesnake (BTS) Control Program to prevent the migration of the BTS from Guam to other United States jurisdictions; to suppress and control the BTS on Guam to support the restoration of the island's native ecosystems; to avoid electrical outages to civilian or military facilities caused by the snakes; and to ultimately develop the capability to eradicate the BTS from Guam.The Administration will prioritize projects that drive economic growth, ensure reliable and affordable energy, and strengthen national security and regional stability.",
+            "responseDate": "May 18, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 5:00 p.m., ET, on the listed application due date (May 18, 2026).",
+            "postingDate": "Mar 16, 2026 12:00:00 AM EDT",
+            "archiveDate": "Apr 09, 2027 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "Brown Treesnake (BTS) program funds are provided to prevent the migration of the BTS from Guam to other United States jurisdictions; to suppress and control the BTS on Guam to support the restoration of the island's native ecosystems; to avoid electrical outages to civilian or military facilities caused by the snakes; and to ultimately develop the capability to eradicate the BTS from Guam.",
+            "costSharing": false,
+            "numberOfAwards": "7",
+            "estimatedFunding": "4000000",
+            "estimatedFundingFormatted": "4,000,000",
+            "awardCeiling": "4000000",
+            "awardCeilingFormatted": "4,000,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Eligible applicants are limited to members and active participants of the Brown Treesnake Technical Working Group which includes, but is not limited to, representatives of the governments of Guam, the Commonwealth Northern Mariana Islands, and Federal Agencies, in accordance with 2 CFR 200.",
+            "createTimeStamp": "Mar 16, 2026 10:36:35 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 06, 2026 12:59:08 PM EDT",
+            "createdDate": "Mar 16, 2026 10:35:24 AM EDT",
+            "lastUpdatedDate": "Mar 16, 2026 10:35:24 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "responseDateStr": "2026-05-18-00-00-00",
+            "postingDateStr": "2026-03-16-00-00-00",
+            "archiveDateStr": "2027-04-09-00-00-00",
+            "createTimeStampStr": "2026-03-16-10-36-35"
+          },
+          "cfdas": [
+            {
+              "id": 432247,
+              "opportunityId": 361514,
+              "revision": 1,
+              "cfdaNumber": "15.875",
+              "programTitle": "Economic, Social, and Political Development of the Territories"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361514,
+            "revision": 1
+          },
+          "opportunityId": 361514,
+          "revision": 1,
+          "opportunityNumber": "OIA-BTS-2026",
+          "opportunityTitle": "OIA Brown Treesnake Program 2026",
+          "owningAgencyCode": "DOI",
+          "publisherUid": "113080850824856438988185809190837265423",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361514,
+              "revision": 1
+            },
+            "opportunityId": 361514,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "DOI",
+            "agencyAddressDesc": "work email",
+            "agencyDetails": {
+              "code": "DOI",
+              "seed": "DOI",
+              "agencyName": "Department of the Interior",
+              "agencyCode": "DOI",
+              "topAgencyCode": "DOI"
+            },
+            "agencyContactPhone": "303-570-4499",
+            "agencyContactName": "Department of the Interior",
+            "agencyContactDesc": "Hailey McCoy\r\nhailey_mccoy@ios.doi.gov",
+            "agencyContactEmail": "hailey_mccoy@ios.doi.gov",
+            "agencyContactEmailDesc": "work email",
+            "synopsisDesc": "<p>The Office of Insular Affairs (OIA) is requesting funding proposals for its Brown Treesnake (BTS) Control Program to prevent the migration of the BTS from Guam to other United States jurisdictions; to suppress and control the BTS on Guam to support the restoration of the island's native ecosystems; to avoid electrical outages to civilian or military facilities caused by the snakes; and to ultimately develop the capability to eradicate the BTS from Guam.The Administration will prioritize projects that drive economic growth, ensure reliable and affordable energy, and strengthen national security and regional stability.</p>",
+            "responseDate": "May 18, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 5:00 p.m., ET, on the listed application due date (May 18, 2026).",
+            "fundingDescLinkUrl": "https://www.youtube.com/watch?v=En5rUeVohEo",
+            "fundingDescLinkDesc": "March 31, 2026 NOFO workshop recording",
+            "postingDate": "Mar 16, 2026 12:00:00 AM EDT",
+            "archiveDate": "Apr 09, 2027 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "Brown Treesnake (BTS) program funds are provided to prevent the migration of the BTS from Guam to other United States jurisdictions; to suppress and control the BTS on Guam to support the restoration of the island's native ecosystems; to avoid electrical outages to civilian or military facilities caused by the snakes; and to ultimately develop the capability to eradicate the BTS from Guam.",
+            "costSharing": false,
+            "numberOfAwards": "7",
+            "estimatedFunding": "4000000",
+            "estimatedFundingFormatted": "4,000,000",
+            "awardCeiling": "4000000",
+            "awardCeilingFormatted": "4,000,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Eligible applicants are limited to members and active participants of the Brown Treesnake Technical Working Group which includes, but is not limited to, representatives of the governments of Guam, the Commonwealth Northern Mariana Islands, and Federal Agencies, in accordance with 2 CFR 200.",
+            "createTimeStamp": "Apr 06, 2026 12:59:08 PM EDT",
+            "sendEmail": "N",
+            "modComments": "Added link to NOFO workshop recording",
+            "actionType": "U",
+            "actionDate": "May 01, 2026 09:34:37 AM EDT",
+            "createdDate": "Mar 16, 2026 10:35:24 AM EDT",
+            "lastUpdatedDate": "Apr 06, 2026 12:59:08 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "responseDateStr": "2026-05-18-00-00-00",
+            "postingDateStr": "2026-03-16-00-00-00",
+            "archiveDateStr": "2027-04-09-00-00-00",
+            "createTimeStampStr": "2026-04-06-12-59-08"
+          },
+          "cfdas": [
+            {
+              "id": 432247,
+              "opportunityId": 361514,
+              "revision": 1,
+              "cfdaNumber": "15.875",
+              "programTitle": "Economic, Social, and Political Development of the Territories"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "agencyContactDesc",
+            "synopsisDesc",
+            "fundingDescLinkUrl",
+            "fundingDescLinkDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292127,
+          "topportunityId": 361514,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "OIA-BTS-2026",
+          "opportunityTitle": "OIA Brown Treesnake Program 2026",
+          "cfdaNumber": "15.875",
+          "openingDate": "2026-03-16",
+          "closingDate": "2026-06-08",
+          "owningAgencyCode": "DOI",
+          "agencyDetails": {
+            "code": "DOI",
+            "seed": "DOI",
+            "agencyName": "Department of the Interior",
+            "agencyCode": "DOI",
+            "topAgencyCode": "DOI"
+          },
+          "topAgencyDetails": {
+            "code": "DOI",
+            "seed": "DOI",
+            "agencyName": "Department of the Interior",
+            "agencyCode": "DOI",
+            "topAgencyCode": "DOI"
+          },
+          "programTitle": "Economic, Social, and Political Development of the Territories",
+          "contactInfo": "Hailey McCoy",
+          "gracePeriod": 0,
+          "competitionId": "OIA-BTS-2026",
+          "competitionTitle": "OIA Brown Treesnake Program 2026",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 10,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "May 01, 2026 09:35:08 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292127",
+          "openingDateStr": "2026-03-16-00-00-00",
+          "closingDateStr": "2026-06-08-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 18, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 5:00 p.m., ET, on the listed application due date (May 18, 2026).",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "agencyContactDesc",
+        "synopsisDesc",
+        "responseDate",
+        "responseDateDesc",
+        "fundingDescLinkUrl",
+        "fundingDescLinkDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

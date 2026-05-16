@@ -1,0 +1,352 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "353475",
+  "fetched_at": "2026-05-16T14:07:07.736Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlhmSlVWbkE3VE9iZjNUMW4yZmVGdXduM2gzZVRtZDNwM1NwQ2xCN0pOb289Ig.-UgNVUlCTjE1mz-i7mwqKaal15rn_VE70pN-BTsxfVU",
+    "data": {
+      "id": 353475,
+      "revision": 1,
+      "opportunityNumber": "PD-24-7414",
+      "opportunityTitle": "Cyberinfrastructure for Public Access and Open Science",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 353475,
+        "version": 2,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "<div class=\"OutlineElement Ltr SCXW46560207 BCX4\">\n<p class=\"Paragraph SCXW46560207 BCX4\"><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">The Cyberinfrastructure</span><span class=\"NormalTextRun SCXW46560207 BCX4\">for Public Access and Open Science (CI PAOS)</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> program </span><span class=\"NormalTextRun SCXW46560207 BCX4\">within the Office of Advanced Cyberinfrastructure (OAC) </span><span class=\"NormalTextRun SCXW46560207 BCX4\">aims to </span><span class=\"NormalTextRun SCXW46560207 BCX4\">catalyze </span><span class=\"NormalTextRun SCXW46560207 BCX4\">new </span><span class=\"NormalTextRun SCXW46560207 BCX4\">and transformative </span><span class=\"NormalTextRun SCXW46560207 BCX4\">socio-technical partnerships </span><span class=\"NormalTextRun SCXW46560207 BCX4\">supporting </span><span class=\"NormalTextRun SCXW46560207 BCX4\">research data infrastructure ecosystems </span><span class=\"NormalTextRun SCXW46560207 BCX4\">across d</span><span class=\"NormalTextRun SCXW46560207 BCX4\">omains</span><span class=\"NormalTextRun SCXW46560207 BCX4\">through </span><span class=\"NormalTextRun SCXW46560207 BCX4\">early-stage collaborative activities between </span><span class=\"NormalTextRun SCXW46560207 BCX4\">cyberinfrastructure researchers, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">scie</span><span class=\"NormalTextRun SCXW46560207 BCX4\">ntists</span><span class=\"NormalTextRun SCXW46560207 BCX4\">, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">research </span><span class=\"NormalTextRun SCXW46560207 BCX4\">computing experts, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">data management</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> experts</span><span class=\"NormalTextRun SCXW46560207 BCX4\">, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">research labs</span><span class=\"NormalTextRun SCXW46560207 BCX4\">, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">university libraries</span><span class=\"NormalTextRun SCXW46560207 BCX4\">, and other </span><span class=\"NormalTextRun SCXW46560207 BCX4\">communities</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> of practice.</span></span><span class=\"EOP SCXW46560207 BCX4\" data-ccp-props=\"{\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW46560207 BCX4\">\n<p class=\"Paragraph SCXW46560207 BCX4\"><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">The CI PAOS program </span><span class=\"NormalTextRun CommentStart SCXW46560207 BCX4\">supports the NSF Public Access Initiative by</span><span class=\"NormalTextRun SCXW46560207 BCX4\">encouraging </span><span class=\"NormalTextRun SCXW46560207 BCX4\">innovation across the CI ecosystem </span><span class=\"NormalTextRun SCXW46560207 BCX4\">t</span><span class=\"NormalTextRun SCXW46560207 BCX4\">o </span><span class=\"NormalTextRun SCXW46560207 BCX4\">address accessibility, discoverability, reliability, reproducibility, sustainability, and utility of data products</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> in alignment with NSF and national goals for public access and open science</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> [</span><span class=\"NormalTextRun SCXW46560207 BCX4\">See: </span></span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://new.nsf.gov/public-access\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">NSF Public Access Initiative</span></span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">, </span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-access-Memo.pdf\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">Office of Science and Technology Policy Memorandum on Ensuring Free, Immediate, and equitable Access to Federally funded Research</span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">, and </span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://www.whitehouse.gov/wp-content/uploads/2022/05/05-2022-Desirable-Characteristics-of-Data-Repositories.pdf\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">Desirable Characteristics of Data Repositories for Federally Funded Research</span></span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">]</span><span class=\"NormalTextRun SCXW46560207 BCX4\">.</span><span class=\"NormalTextRun SCXW46560207 BCX4\">CI PAOS builds on </span><span class=\"NormalTextRun SCXW46560207 BCX4\">previous</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> investments including those </span><span class=\"NormalTextRun SCXW46560207 BCX4\">through Dear Colleague Letters </span></span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://www.nsf.gov/pubs/2019/nsf19069/nsf19069.jsp\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">NSF</span><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">19-069</span></span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">,</span></span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://www.nsf.gov/pubs/2020/nsf20068/nsf20068.jsp\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">NSF</span><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">20</span><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">-068</span></span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">, </span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://www.nsf.gov/pubs/2023/nsf23018/nsf23018.jsp\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">NSF 23-018</span></span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">and the FAIROS R</span><span class=\"NormalTextRun SCXW46560207 BCX4\">esearch </span><span class=\"NormalTextRun SCXW46560207 BCX4\">C</span><span class=\"NormalTextRun SCXW46560207 BCX4\">oordination </span><span class=\"NormalTextRun SCXW46560207 BCX4\">N</span><span class=\"NormalTextRun SCXW46560207 BCX4\">etworks (</span><span class=\"NormalTextRun SCXW46560207 BCX4\">RCN</span><span class=\"NormalTextRun SCXW46560207 BCX4\">)</span><span class=\"NormalTextRun SCXW46560207 BCX4\">p</span><span class=\"NormalTextRun SCXW46560207 BCX4\">rogram solicitation </span><span class=\"NormalTextRun SCXW46560207 BCX4\">(</span></span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://new.nsf.gov/funding/opportunities/findable-accessible-interoperable-reusable-open/nsf22-553/solicitation\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">NSF</span><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\"> 22-553</span></span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">)</span><span class=\"NormalTextRun SCXW46560207 BCX4\">.</span><span class=\"NormalTextRun SCXW46560207 BCX4\"></span></span><span class=\"EOP SCXW46560207 BCX4\" data-ccp-props=\"{\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW46560207 BCX4\">\n<p class=\"Paragraph SCXW46560207 BCX4\"><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">NSF</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> accepts proposals </span><span class=\"NormalTextRun SCXW46560207 BCX4\">pursuant to</span><span class=\"NormalTextRun SCXW46560207 BCX4\">this </span><span class=\"NormalTextRun SCXW46560207 BCX4\">Program </span><span class=\"NormalTextRun SCXW46560207 BCX4\">Description </span><span class=\"NormalTextRun SCXW46560207 BCX4\">year-round. From time to time</span><span class=\"NormalTextRun SCXW46560207 BCX4\">, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">NSF</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> may</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> also issue Dear Colleague Letters </span><span class=\"NormalTextRun SCXW46560207 BCX4\">to </span><span class=\"NormalTextRun SCXW46560207 BCX4\">encourage proposals on </span><span class=\"NormalTextRun SCXW46560207 BCX4\">special thema</span><span class=\"NormalTextRun SCXW46560207 BCX4\">tic </span><span class=\"NormalTextRun SCXW46560207 BCX4\">interests and opportunities</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> related to this progra</span><span class=\"NormalTextRun SCXW46560207 BCX4\">m</span><span class=\"NormalTextRun CommentStart SCXW46560207 BCX4\">.</span></span><span class=\"EOP SCXW46560207 BCX4\" data-ccp-props=\"{\"></span>\n\n<div class=\"OutlineElement Ltr SCXW92189242 BCX4\">\n<p class=\"Paragraph SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">GUIDANCE TO POTENTIAL PROPOSERS</span><span class=\"EOP SCXW92189242 BCX4\" data-ccp-props=\"{\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW92189242 BCX4\">\n<p class=\"Paragraph SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW92189242 BCX4\">A primary feature of successful CI PAOS projects is a robust, synergistic collaborative team </span><span class=\"NormalTextRun SCXW92189242 BCX4\">comprising</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> skills from across communities of science/engineering, research data science, and information science discipline(s) and </span><span class=\"NormalTextRun SCXW92189242 BCX4\">expertise</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> in </span><span class=\"NormalTextRun SCXW92189242 BCX4\">leveraging</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> connections between cyberinfrastructure researchers and providers and data specialists</span><span class=\"NormalTextRun SCXW92189242 BCX4\">. </span><span class=\"NormalTextRun SCXW92189242 BCX4\"></span><span class=\"NormalTextRun SCXW92189242 BCX4\">Leveraging </span><span class=\"NormalTextRun SCXW92189242 BCX4\">international collaboration to build shared norms and address </span><span class=\"NormalTextRun SCXW92189242 BCX4\">c</span><span class=\"NormalTextRun SCXW92189242 BCX4\">hallenges related to developing and implementing PAOS policies and practices</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> is encouraged</span><span class=\"NormalTextRun SCXW92189242 BCX4\">. </span><span class=\"NormalTextRun CommentStart SCXW92189242 BCX4\"></span><span class=\"NormalTextRun SCXW92189242 BCX4\">Research and education in science and engineering benefit immensely from international cooperation. </span><span class=\"NormalTextRun SCXW92189242 BCX4\">P</span><span class=\"NormalTextRun SCXW92189242 BCX4\">roposals with an international </span><span class=\"NormalTextRun SCXW92189242 BCX4\">component</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> are also welcome</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> [See: </span></span><a class=\"Hyperlink SCXW92189242 BCX4\" href=\"https://www.nsf.gov/od/oise/IntlCollaborations/index.jsp\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW92189242 BCX4\" data-ccp-charstyle=\"Hyperlink\">International Collaborations Opportunities at NSF</span></span></a><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW92189242 BCX4\">]</span><span class=\"NormalTextRun SCXW92189242 BCX4\">. </span><span class=\"NormalTextRun SCXW92189242 BCX4\">Proposers must target one or more of th</span><span class=\"NormalTextRun SCXW92189242 BCX4\">e following</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> themes/pathways:</span><span class=\"NormalTextRun SCXW92189242 BCX4\">Competency Building, Capability Building, and</span><span class=\"NormalTextRun SCXW92189242 BCX4\">/or </span><span class=\"NormalTextRun SCXW92189242 BCX4\">Community Building. </span></span><span class=\"EOP SCXW92189242 BCX4\" data-ccp-props=\"{\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW92189242 BCX4\">\n<p class=\"Paragraph SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">Competency Building</span><span class=\"EOP SCXW92189242 BCX4\" data-ccp-props=\"{\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW92189242 BCX4\">\n<p class=\"Paragraph SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW92189242 BCX4\">Open </span><span class=\"NormalTextRun SCXW92189242 BCX4\">s</span><span class=\"NormalTextRun SCXW92189242 BCX4\">cience</span><span class=\"NormalTextRun SCXW92189242 BCX4\">/engineering-driven collaboration</span><span class=\"NormalTextRun SCXW92189242 BCX4\">. </span></span><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW92189242 BCX4\">A socio</span><span class=\"NormalTextRun SCXW92189242 BCX4\">-technical collaborative approach </span><span class=\"NormalTextRun SCXW92189242 BCX4\">in addressing disciplinary</span><span class=\"NormalTextRun SCXW92189242 BCX4\">, </span><span class=\"NormalTextRun SCXW92189242 BCX4\">interdisciplinary</span><span class=\"NormalTextRun SCXW92189242 BCX4\">, domestic, and international</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> data lifecycle </span><span class=\"NormalTextRun SCXW92189242 BCX4\">challenges is critical </span><span class=\"NormalTextRun SCXW92189242 BCX4\">to informing and guiding the development of </span><span class=\"NormalTextRun SCXW92189242 BCX4\">principles, </span><span class=\"NormalTextRun SCXW92189242 BCX4\">requirements</span><span class=\"NormalTextRun SCXW92189242 BCX4\">, </span><span class=\"NormalTextRun SCXW92189242 BCX4\">and </span><span class=\"NormalTextRun SCXW92189242 BCX4\">standards</span><span class=\"NormalTextRun SCXW92189242 BCX4\">of </span><span class=\"NormalTextRun SCXW92189242 BCX4\">a CI ecosystem</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> that fosters </span><span class=\"NormalTextRun SCXW92189242 BCX4\">pipelines to good data management and pathways to </span><span class=\"NormalTextRun SCXW92189242 BCX4\">access.</span><span class=\"NormalTextRun SCXW92189242 BCX4\">Propos</span><span class=\"NormalTextRun SCXW92189242 BCX4\">al</span><span class=\"NormalTextRun SCXW92189242 BCX4\">s </span><span class=\"NormalTextRun SCXW92189242 BCX4\">should clearly describe the goals, challenges, and rationale for the proposed data science and engineering project and include an explanation of the potential for transformative research and broader impacts on the open science ecosystem</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> [</span><span class=\"NormalTextRun CommentStart SCXW92189242 BCX4\">See: </span></span><a class=\"Hyperlink SCXW92189242 BCX4\" href=\"https://new.nsf.gov/funding/learn/broader-impacts%22%20HYPERLINK%20%22https://new.nsf.gov/funding/learn/broader-impacts\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"FieldRange SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">U.S. NSF Broader Impacts</span></span></a><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW92189242 BCX4\">]</span><span class=\"NormalTextRun SCXW92189242 BCX4\">.</span><span class=\"NormalTextRun SCXW92189242 BCX4\">Successful proposals will also clearly </span><span class=\"NormalTextRun SCXW92189242 BCX4\">identify</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> utilization</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> science scenarios and use cases</span><span class=\"NormalTextRun SCXW92189242 BCX4\">.</span></span><span class=\"EOP SCXW92189242 BCX4\" data-ccp-props=\"{\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW92189242 BCX4\">\n<p class=\"Paragraph SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW92189242 BCX4\">C</span><span class=\"NormalTextRun SCXW92189242 BCX4\">apability</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> Building</span></span><span class=\"EOP SCXW92189242 BCX4\" data-ccp-props=\"{\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW92189242 BCX4\">\n<p class=\"Paragraph SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">Exploratory and pilot activities.</span><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" d",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506307",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-24-7414",
+        "postingDate": "Apr 10, 2024 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "10",
+        "estimatedFunding": "600000",
+        "estimatedFundingFormatted": "600,000",
+        "awardCeiling": "600000",
+        "awardCeilingFormatted": "600,000",
+        "awardFloor": "50000",
+        "awardFloorFormatted": "50,000",
+        "sendEmail": "N",
+        "createTimeStamp": "Aug 01, 2025 11:00:09 PM EDT",
+        "modComments": ".",
+        "createdDate": "Apr 10, 2024 01:00:20 AM EDT",
+        "lastUpdatedDate": "Aug 01, 2025 11:00:09 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2024-04-10-00-00-00",
+        "createTimeStampStr": "2025-08-01-23-00-09"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 419033,
+          "opportunityId": 353475,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 419027,
+          "opportunityId": 353475,
+          "cfdaNumber": "47.049",
+          "programTitle": "Mathematical and Physical Sciences"
+        },
+        {
+          "id": 419028,
+          "opportunityId": 353475,
+          "cfdaNumber": "47.050",
+          "programTitle": "Geosciences"
+        },
+        {
+          "id": 419029,
+          "opportunityId": 353475,
+          "cfdaNumber": "47.070",
+          "programTitle": "Computer and Information Science and Engineering"
+        },
+        {
+          "id": 419026,
+          "opportunityId": 353475,
+          "cfdaNumber": "47.074",
+          "programTitle": "Biological Sciences"
+        },
+        {
+          "id": 419030,
+          "opportunityId": 353475,
+          "cfdaNumber": "47.075",
+          "programTitle": "Social, Behavioral, and Economic Sciences"
+        },
+        {
+          "id": 419031,
+          "opportunityId": 353475,
+          "cfdaNumber": "47.076",
+          "programTitle": "STEM Education (formerly Education and Human Resources)"
+        },
+        {
+          "id": 419034,
+          "opportunityId": 353475,
+          "cfdaNumber": "47.079",
+          "programTitle": "Office of International Science and Engineering"
+        },
+        {
+          "id": 419035,
+          "opportunityId": 353475,
+          "cfdaNumber": "47.083",
+          "programTitle": "Integrative Activities"
+        },
+        {
+          "id": 419032,
+          "opportunityId": 353475,
+          "cfdaNumber": "47.084",
+          "programTitle": "NSF Technology, Innovation, and Partnerships"
+        },
+        {
+          "id": 419036,
+          "opportunityId": 353475
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 353475,
+            "revision": 0
+          },
+          "opportunityId": 353475,
+          "revision": 0,
+          "opportunityNumber": "PD-24-7414",
+          "opportunityTitle": "Cyberinfrastructure for Public Access and Open Science",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 353475,
+              "revision": 0
+            },
+            "opportunityId": 353475,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "<div class=\"OutlineElement Ltr SCXW46560207 BCX4\">\r\n<p class=\"Paragraph SCXW46560207 BCX4\"><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">The Cyberinfrastructure</span><span class=\"NormalTextRun SCXW46560207 BCX4\">for Public Access and Open Science (CI PAOS)</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> program </span><span class=\"NormalTextRun SCXW46560207 BCX4\">within the Office of Advanced Cyberinfrastructure (OAC) </span><span class=\"NormalTextRun SCXW46560207 BCX4\">aims to </span><span class=\"NormalTextRun SCXW46560207 BCX4\">catalyze </span><span class=\"NormalTextRun SCXW46560207 BCX4\">new </span><span class=\"NormalTextRun SCXW46560207 BCX4\">and transformative </span><span class=\"NormalTextRun SCXW46560207 BCX4\">socio-technical partnerships </span><span class=\"NormalTextRun SCXW46560207 BCX4\">supporting </span><span class=\"NormalTextRun SCXW46560207 BCX4\">research data infrastructure ecosystems </span><span class=\"NormalTextRun SCXW46560207 BCX4\">across d</span><span class=\"NormalTextRun SCXW46560207 BCX4\">omains</span><span class=\"NormalTextRun SCXW46560207 BCX4\">through </span><span class=\"NormalTextRun SCXW46560207 BCX4\">early-stage collaborative activities between </span><span class=\"NormalTextRun SCXW46560207 BCX4\">cyberinfrastructure researchers, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">scie</span><span class=\"NormalTextRun SCXW46560207 BCX4\">ntists</span><span class=\"NormalTextRun SCXW46560207 BCX4\">, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">research </span><span class=\"NormalTextRun SCXW46560207 BCX4\">computing experts, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">data management</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> experts</span><span class=\"NormalTextRun SCXW46560207 BCX4\">, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">research labs</span><span class=\"NormalTextRun SCXW46560207 BCX4\">, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">university libraries</span><span class=\"NormalTextRun SCXW46560207 BCX4\">, and other </span><span class=\"NormalTextRun SCXW46560207 BCX4\">communities</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> of practice.</span></span><span class=\"EOP SCXW46560207 BCX4\" data-ccp-props=\"{\"></span>\n\r\n</div>\r\n<div class=\"OutlineElement Ltr SCXW46560207 BCX4\">\r\n<p class=\"Paragraph SCXW46560207 BCX4\"><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">The CI PAOS program </span><span class=\"NormalTextRun CommentStart SCXW46560207 BCX4\">supports the NSF Public Access Initiative by</span><span class=\"NormalTextRun SCXW46560207 BCX4\">encouraging </span><span class=\"NormalTextRun SCXW46560207 BCX4\">innovation across the CI ecosystem </span><span class=\"NormalTextRun SCXW46560207 BCX4\">t</span><span class=\"NormalTextRun SCXW46560207 BCX4\">o </span><span class=\"NormalTextRun SCXW46560207 BCX4\">address accessibility, discoverability, reliability, reproducibility, sustainability, and utility of data products</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> in alignment with NSF and national goals for public access and open science</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> [</span><span class=\"NormalTextRun SCXW46560207 BCX4\">See: </span></span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://new.nsf.gov/public-access\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">NSF Public Access Initiative</span></span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">, </span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-access-Memo.pdf\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">Office of Science and Technology Policy Memorandum on Ensuring Free, Immediate, and equitable Access to Federally funded Research</span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">, and </span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://www.whitehouse.gov/wp-content/uploads/2022/05/05-2022-Desirable-Characteristics-of-Data-Repositories.pdf\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">Desirable Characteristics of Data Repositories for Federally Funded Research</span></span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">]</span><span class=\"NormalTextRun SCXW46560207 BCX4\">.</span><span class=\"NormalTextRun SCXW46560207 BCX4\">CI PAOS builds on </span><span class=\"NormalTextRun SCXW46560207 BCX4\">previous</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> investments including those </span><span class=\"NormalTextRun SCXW46560207 BCX4\">through Dear Colleague Letters </span></span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://www.nsf.gov/pubs/2019/nsf19069/nsf19069.jsp\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">NSF</span><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">19-069</span></span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">,</span></span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://www.nsf.gov/pubs/2020/nsf20068/nsf20068.jsp\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">NSF</span><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">20</span><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">-068</span></span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">, </span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://www.nsf.gov/pubs/2023/nsf23018/nsf23018.jsp\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">NSF 23-018</span></span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">and the FAIROS R</span><span class=\"NormalTextRun SCXW46560207 BCX4\">esearch </span><span class=\"NormalTextRun SCXW46560207 BCX4\">C</span><span class=\"NormalTextRun SCXW46560207 BCX4\">oordination </span><span class=\"NormalTextRun SCXW46560207 BCX4\">N</span><span class=\"NormalTextRun SCXW46560207 BCX4\">etworks (</span><span class=\"NormalTextRun SCXW46560207 BCX4\">RCN</span><span class=\"NormalTextRun SCXW46560207 BCX4\">)</span><span class=\"NormalTextRun SCXW46560207 BCX4\">p</span><span class=\"NormalTextRun SCXW46560207 BCX4\">rogram solicitation </span><span class=\"NormalTextRun SCXW46560207 BCX4\">(</span></span><a class=\"Hyperlink SCXW46560207 BCX4\" href=\"https://new.nsf.gov/funding/opportunities/findable-accessible-interoperable-reusable-open/nsf22-553/solicitation\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\">NSF</span><span class=\"NormalTextRun SCXW46560207 BCX4\" data-ccp-charstyle=\"Hyperlink\"> 22-553</span></span></a><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">)</span><span class=\"NormalTextRun SCXW46560207 BCX4\">.</span><span class=\"NormalTextRun SCXW46560207 BCX4\"></span></span><span class=\"EOP SCXW46560207 BCX4\" data-ccp-props=\"{\"></span>\n\r\n</div>\r\n<div class=\"OutlineElement Ltr SCXW46560207 BCX4\">\r\n<p class=\"Paragraph SCXW46560207 BCX4\"><span class=\"TextRun SCXW46560207 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW46560207 BCX4\">NSF</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> accepts proposals </span><span class=\"NormalTextRun SCXW46560207 BCX4\">pursuant to</span><span class=\"NormalTextRun SCXW46560207 BCX4\">this </span><span class=\"NormalTextRun SCXW46560207 BCX4\">Program </span><span class=\"NormalTextRun SCXW46560207 BCX4\">Description </span><span class=\"NormalTextRun SCXW46560207 BCX4\">year-round. From time to time</span><span class=\"NormalTextRun SCXW46560207 BCX4\">, </span><span class=\"NormalTextRun SCXW46560207 BCX4\">NSF</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> may</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> also issue Dear Colleague Letters </span><span class=\"NormalTextRun SCXW46560207 BCX4\">to </span><span class=\"NormalTextRun SCXW46560207 BCX4\">encourage proposals on </span><span class=\"NormalTextRun SCXW46560207 BCX4\">special thema</span><span class=\"NormalTextRun SCXW46560207 BCX4\">tic </span><span class=\"NormalTextRun SCXW46560207 BCX4\">interests and opportunities</span><span class=\"NormalTextRun SCXW46560207 BCX4\"> related to this progra</span><span class=\"NormalTextRun SCXW46560207 BCX4\">m</span><span class=\"NormalTextRun CommentStart SCXW46560207 BCX4\">.</span></span><span class=\"EOP SCXW46560207 BCX4\" data-ccp-props=\"{\"></span>\n\r\n<div class=\"OutlineElement Ltr SCXW92189242 BCX4\">\r\n<p class=\"Paragraph SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">GUIDANCE TO POTENTIAL PROPOSERS</span><span class=\"EOP SCXW92189242 BCX4\" data-ccp-props=\"{\"></span>\n\r\n</div>\r\n<div class=\"OutlineElement Ltr SCXW92189242 BCX4\">\r\n<p class=\"Paragraph SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW92189242 BCX4\">A primary feature of successful CI PAOS projects is a robust, synergistic collaborative team </span><span class=\"NormalTextRun SCXW92189242 BCX4\">comprising</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> skills from across communities of science/engineering, research data science, and information science discipline(s) and </span><span class=\"NormalTextRun SCXW92189242 BCX4\">expertise</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> in </span><span class=\"NormalTextRun SCXW92189242 BCX4\">leveraging</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> connections between cyberinfrastructure researchers and providers and data specialists</span><span class=\"NormalTextRun SCXW92189242 BCX4\">. </span><span class=\"NormalTextRun SCXW92189242 BCX4\"></span><span class=\"NormalTextRun SCXW92189242 BCX4\">Leveraging </span><span class=\"NormalTextRun SCXW92189242 BCX4\">international collaboration to build shared norms and address </span><span class=\"NormalTextRun SCXW92189242 BCX4\">c</span><span class=\"NormalTextRun SCXW92189242 BCX4\">hallenges related to developing and implementing PAOS policies and practices</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> is encouraged</span><span class=\"NormalTextRun SCXW92189242 BCX4\">. </span><span class=\"NormalTextRun CommentStart SCXW92189242 BCX4\"></span><span class=\"NormalTextRun SCXW92189242 BCX4\">Research and education in science and engineering benefit immensely from international cooperation. </span><span class=\"NormalTextRun SCXW92189242 BCX4\">P</span><span class=\"NormalTextRun SCXW92189242 BCX4\">roposals with an international </span><span class=\"NormalTextRun SCXW92189242 BCX4\">component</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> are also welcome</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> [See: </span></span><a class=\"Hyperlink SCXW92189242 BCX4\" href=\"https://www.nsf.gov/od/oise/IntlCollaborations/index.jsp\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW92189242 BCX4\" data-ccp-charstyle=\"Hyperlink\">International Collaborations Opportunities at NSF</span></span></a><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW92189242 BCX4\">]</span><span class=\"NormalTextRun SCXW92189242 BCX4\">. </span><span class=\"NormalTextRun SCXW92189242 BCX4\">Proposers must target one or more of th</span><span class=\"NormalTextRun SCXW92189242 BCX4\">e following</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> themes/pathways:</span><span class=\"NormalTextRun SCXW92189242 BCX4\">Competency Building, Capability Building, and</span><span class=\"NormalTextRun SCXW92189242 BCX4\">/or </span><span class=\"NormalTextRun SCXW92189242 BCX4\">Community Building. </span></span><span class=\"EOP SCXW92189242 BCX4\" data-ccp-props=\"{\"></span>\n\r\n</div>\r\n<div class=\"OutlineElement Ltr SCXW92189242 BCX4\">\r\n<p class=\"Paragraph SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">Competency Building</span><span class=\"EOP SCXW92189242 BCX4\" data-ccp-props=\"{\"></span>\n\r\n</div>\r\n<div class=\"OutlineElement Ltr SCXW92189242 BCX4\">\r\n<p class=\"Paragraph SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW92189242 BCX4\">Open </span><span class=\"NormalTextRun SCXW92189242 BCX4\">s</span><span class=\"NormalTextRun SCXW92189242 BCX4\">cience</span><span class=\"NormalTextRun SCXW92189242 BCX4\">/engineering-driven collaboration</span><span class=\"NormalTextRun SCXW92189242 BCX4\">. </span></span><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW92189242 BCX4\">A socio</span><span class=\"NormalTextRun SCXW92189242 BCX4\">-technical collaborative approach </span><span class=\"NormalTextRun SCXW92189242 BCX4\">in addressing disciplinary</span><span class=\"NormalTextRun SCXW92189242 BCX4\">, </span><span class=\"NormalTextRun SCXW92189242 BCX4\">interdisciplinary</span><span class=\"NormalTextRun SCXW92189242 BCX4\">, domestic, and international</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> data lifecycle </span><span class=\"NormalTextRun SCXW92189242 BCX4\">challenges is critical </span><span class=\"NormalTextRun SCXW92189242 BCX4\">to informing and guiding the development of </span><span class=\"NormalTextRun SCXW92189242 BCX4\">principles, </span><span class=\"NormalTextRun SCXW92189242 BCX4\">requirements</span><span class=\"NormalTextRun SCXW92189242 BCX4\">, </span><span class=\"NormalTextRun SCXW92189242 BCX4\">and </span><span class=\"NormalTextRun SCXW92189242 BCX4\">standards</span><span class=\"NormalTextRun SCXW92189242 BCX4\">of </span><span class=\"NormalTextRun SCXW92189242 BCX4\">a CI ecosystem</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> that fosters </span><span class=\"NormalTextRun SCXW92189242 BCX4\">pipelines to good data management and pathways to </span><span class=\"NormalTextRun SCXW92189242 BCX4\">access.</span><span class=\"NormalTextRun SCXW92189242 BCX4\">Propos</span><span class=\"NormalTextRun SCXW92189242 BCX4\">al</span><span class=\"NormalTextRun SCXW92189242 BCX4\">s </span><span class=\"NormalTextRun SCXW92189242 BCX4\">should clearly describe the goals, challenges, and rationale for the proposed data science and engineering project and include an explanation of the potential for transformative research and broader impacts on the open science ecosystem</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> [</span><span class=\"NormalTextRun CommentStart SCXW92189242 BCX4\">See: </span></span><a class=\"Hyperlink SCXW92189242 BCX4\" href=\"https://new.nsf.gov/funding/learn/broader-impacts%22%20HYPERLINK%20%22https://new.nsf.gov/funding/learn/broader-impacts\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"FieldRange SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">U.S. NSF Broader Impacts</span></span></a><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW92189242 BCX4\">]</span><span class=\"NormalTextRun SCXW92189242 BCX4\">.</span><span class=\"NormalTextRun SCXW92189242 BCX4\">Successful proposals will also clearly </span><span class=\"NormalTextRun SCXW92189242 BCX4\">identify</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> utilization</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> science scenarios and use cases</span><span class=\"NormalTextRun SCXW92189242 BCX4\">.</span></span><span class=\"EOP SCXW92189242 BCX4\" data-ccp-props=\"{\"></span>\n\r\n</div>\r\n<div class=\"OutlineElement Ltr SCXW92189242 BCX4\">\r\n<p class=\"Paragraph SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW92189242 BCX4\">C</span><span class=\"NormalTextRun SCXW92189242 BCX4\">apability</span><span class=\"NormalTextRun SCXW92189242 BCX4\"> Building</span></span><span class=\"EOP SCXW92189242 BCX4\" data-ccp-props=\"{\"></span>\n\r\n</div>\r\n<div class=\"OutlineElement Ltr SCXW92189242 BCX4\">\r\n<p class=\"Paragraph SCXW92189242 BCX4\"><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">Exploratory and pilot activities.</span><span class=\"TextRun SCXW92189242 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" d",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506307",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-24-7414",
+            "postingDate": "Apr 10, 2024 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "10",
+            "estimatedFunding": "600000",
+            "estimatedFundingFormatted": "600,000",
+            "awardCeiling": "600000",
+            "awardCeilingFormatted": "600,000",
+            "awardFloor": "50000",
+            "awardFloorFormatted": "50,000",
+            "createTimeStamp": "Apr 10, 2024 01:00:20 AM EDT",
+            "actionType": "U",
+            "actionDate": "Aug 01, 2025 11:00:09 PM EDT",
+            "createdDate": "Apr 10, 2024 01:00:20 AM EDT",
+            "lastUpdatedDate": "Apr 10, 2024 01:00:20 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2024-04-10-00-00-00",
+            "createTimeStampStr": "2024-04-10-01-00-20"
+          },
+          "cfdas": [
+            {
+              "id": 419033,
+              "opportunityId": 353475,
+              "revision": 0,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 419027,
+              "opportunityId": 353475,
+              "revision": 0,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 419028,
+              "opportunityId": 353475,
+              "revision": 0,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 419029,
+              "opportunityId": 353475,
+              "revision": 0,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 419026,
+              "opportunityId": 353475,
+              "revision": 0,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 419030,
+              "opportunityId": 353475,
+              "revision": 0,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 419031,
+              "opportunityId": 353475,
+              "revision": 0,
+              "cfdaNumber": "47.076",
+              "programTitle": "STEM Education (formerly Education and Human Resources)"
+            },
+            {
+              "id": 419034,
+              "opportunityId": 353475,
+              "revision": 0,
+              "cfdaNumber": "47.079",
+              "programTitle": "Office of International Science and Engineering"
+            },
+            {
+              "id": 419035,
+              "opportunityId": 353475,
+              "revision": 0,
+              "cfdaNumber": "47.083",
+              "programTitle": "Integrative Activities"
+            },
+            {
+              "id": 419032,
+              "opportunityId": 353475,
+              "revision": 0,
+              "cfdaNumber": "47.084",
+              "programTitle": "NSF Technology, Innovation, and Partnerships"
+            },
+            {
+              "id": 419036,
+              "opportunityId": 353475,
+              "revision": 0
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

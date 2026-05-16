@@ -1,0 +1,159 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "358932",
+  "fetched_at": "2026-05-16T14:07:45.065Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImhiakxHSEk4VW01MmYzTCtRMThRREgybzQ5NVYvY2tXbDZvS3FxeTNXeFE9Ig.0PH4Gw3K9z_4eieM9XZ6HgAlU3hZhQSCtX-tokZ_ELc",
+    "data": {
+      "id": 358932,
+      "revision": 0,
+      "opportunityNumber": "FOR-NR-25-007",
+      "opportunityTitle": "Strategies to Improve Health Outcomes and Reduce Health Disparities in Rural Populations (R01 Clinical Trial Optional)",
+      "owningAgencyCode": "HHS-NIH11",
+      "listed": "L",
+      "publisherUid": "waltemi",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "NIH",
+        "seed": "HHS-NIH11",
+        "agencyName": "National Institutes of Health",
+        "agencyCode": "HHS-NIH11",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 358932,
+        "version": 1,
+        "postingDate": "May 13, 2025 12:00:00 AM EDT",
+        "forecastDesc": "<p>The purpose of this notice is to inform the research community that the National Institute of Nursing Research (NINR) intends to publish a notice of funding opportunity (NOFO), Strategies to Improve Health Outcomes and Reduce Health Disparities in Rural Populations (R01 Clinical Trial Optional), a re-issuance of RFA-NR-24-005.</p><p><br></p><p>This Notice is being provided to allow potential applicants sufficient time to develop meaningful collaborations and responsive projects.</p><p>This NOFO will utilize the R01 activity code. Details of the planned NOFO are provided below.</p><p><br></p><p><strong>Research Initiative Details</strong></p><p>This funding opportunity will support research that seeks to develop, adapt, and/or evaluate social determinants of health (SDOH) interventions, or test strategies for the implementation of SDOH interventions already shown to be effective in rural populations. Research must address SDOH in the development, adaptation, implementation, or evaluation of interventions. Interventions or implementation strategies seeking to either mitigate or eliminate the impacts of adverse SDOH and/or bolster positive SDOH are of interest. Successful, evidence-based interventions may be adapted to specific rural communities and tested for acceptability and efficacy or effectiveness. Pragmatic and implementation studies are welcome, including hybrid effectiveness/implementation studies of adapted interventions or intervention bundles. Studies that include the evaluation of the impact of an event or policy (e.g., closing of local hospital, opening of a new employment center, change in internet access, new school consolidation) are welcome. Applications that are responsive to this NOFO will include an organizational-, community-, or population-level SDOH intervention. In addition, individual- or interpersonal-level interventions can be included in a multi-level intervention or intervention bundle.</p>",
+        "costSharing": false,
+        "agencyContactName": "Karen A. Kehl, PhD, RN\r\nNational Institute of Nursing Research (NINR)",
+        "agencyContactPhone": "301-594-8010",
+        "agencyContactEmail": "karen.kehl@nih.gov",
+        "agencyContactEmailDesc": "karen.kehl@nih.gov",
+        "agencyCode": "HHS-NIH11",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "",
+        "estSynopsisPostingDate": "Jun 13, 2025 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Aug 12, 2025 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "",
+        "estAwardDate": "Apr 01, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Apr 01, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "May 13, 2025 03:33:24 PM EDT",
+        "createdDate": "May 13, 2025 03:33:24 PM EDT",
+        "lastUpdatedDate": "May 13, 2025 03:33:24 PM EDT",
+        "agencyDetails": {
+          "code": "NIH",
+          "seed": "HHS-NIH11",
+          "agencyName": "National Institutes of Health",
+          "agencyCode": "HHS-NIH11",
+          "topAgencyCode": "HHS"
+        },
+        "applicantTypes": [
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-05-13-00-00-00",
+        "estSynopsisPostingDateStr": "2025-06-13-00-00-00",
+        "estApplicationResponseDateStr": "2025-08-12-00-00-00",
+        "estAwardDateStr": "2026-04-01-00-00-00",
+        "estProjectStartDateStr": "2026-04-01-00-00-00",
+        "createTimeStampStr": "2025-05-13-15-33-24"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 428387,
+          "opportunityId": 358932,
+          "cfdaNumber": "93.361",
+          "programTitle": "Nursing Research"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

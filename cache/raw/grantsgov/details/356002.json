@@ -1,0 +1,210 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "356002",
+  "fetched_at": "2026-05-16T14:07:16.459Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ii8yN3BEcE55dEllNEp3TjlBbTluaDJvU2lkNDE0TzAybHh0VVVadnRtaG89Ig.lT5xQg59g7XWvm9kCJIItRHU_234z5Whe8Cm1_NWmE0",
+    "data": {
+      "id": 356002,
+      "revision": 0,
+      "opportunityNumber": "NOAA-SEC-OED-2024-28060",
+      "opportunityTitle": "FY 2024 &ndash; 2026 - Broad Agency Announcement (BAA) for the Office of Education",
+      "owningAgencyCode": "DOC-DOCNOAAERA",
+      "listed": "L",
+      "publisherUid": "maguiniga",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 356002,
+        "version": 1,
+        "agencyCode": "DOC-DOCNOAAERA",
+        "agencyName": "Maria Aguiniga\nGrantor",
+        "agencyPhone": "301-628-1384",
+        "agencyAddressDesc": "NOAA Line Office",
+        "agencyDetails": {
+          "code": "DOCNOAAERA",
+          "seed": "DOC-DOCNOAAERA",
+          "agencyName": "DOC NOAA - ERA Production",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "topAgencyCode": "DOC"
+        },
+        "topAgencyDetails": {
+          "code": "DOC",
+          "seed": "DOC",
+          "agencyName": "Department of Commerce",
+          "agencyCode": "DOC",
+          "topAgencyCode": "DOC"
+        },
+        "agencyContactPhone": "301-628-1384",
+        "agencyContactName": "Maria Aguiniga\nGrantor",
+        "agencyContactDesc": "National Marine Fisheries Service (NMFS) \r\nJeffrey Kulnis \r\njeffrey.kulnis@noaa.gov \r\n(301) 427-8771 \r\nSSMC3 Rm: 14358 1315 East-West Hwy \r\nSilver Spring, MD 20910-3282 \r\n\r\nNational Ocean Service (NOS) \r\nKadija Baffoe-Harding \r\nkadija.baffoeharding@noaa.gov \r\n240-533-0955\r\nSSMC4 Rm: 13250 1305 East-West Hwy \r\nSilver Spring MD 20910-3281 \r\n\r\nNational Weather Service (NWS) \r\nJennifer Peisach \r\nJennifer.Peisach@noaa.gov \r\n1325 East West Hwy \r\nSilver Spring, MD 20910-3283\r\n\r\nOffice of Atmospheric Research (OAR) \r\nMelissa Dixon \r\nmelissa.dixon@noaa.gov \r\n302-648-6106 \r\nSSMC3 Rm: 11640 1315 East-West Hwy \r\nSilver Spring MD 20910-3282 \r\n\r\nNOAA Office of Education (OED) \r\nJohn McLaughlin \r\nJohn.McLaughlin@noaa.gov \r\n202-743-0854 SSMC3, Room 10812 1315 East West Highway, \r\nSilver Spring, Md. 20910 \r\n\r\nNational Environmental Satellite Data Information Service (NESDIS) \r\nDouglas Howard \r\ndouglas.howard@noaa.gov \r\n(240) 233-6828 \r\nBldg. NCWCP 5830 University Research Ct, Ste 2600 \r\nCollege Park, MD 20740",
+        "agencyContactEmail": "Agency Contact",
+        "agencyContactEmailDesc": "NOAA Line Office",
+        "synopsisDesc": "<p>This notice is not a mechanism to fund existing NOAA awards. The purpose of this notice is to request applications for special projects and programs associated with NOAA's strategic plan and mission goals, as well as to provide the general public with information and guidelines on how NOAA will select applications and administer discretionary Federal assistance under this Broad Agency Announcement (BAA). Each NOAA Line or Staff Office that supports financial assistance (National Marine Fisheries Service, National Ocean Service, National Weather Service, Office of Atmospheric Research, Office of Education, and National Environmental Satellite Data Information Service) has a separate BAA found in Grants.gov, so applicants should submit their application to the BAA for the Line Office that best fits their application. A description of NOAA Line Offices is found at https://www.corporateservices.noaa.gov/public/lineoffices.html and https://www.noaa.gov/office-education, and applicants may contact the Agency Contacts in Section VII. below for more information. If you submit the same application to more than Line Office, mention this in your application and notify the relevant contacts in Section VII. so that NOAA may coordinate internally. <span style=\"color: black;\">&nbsp;</span></p>",
+        "responseDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Aug 12, 2024 12:00:00 AM EDT",
+        "archiveDate": "Oct 30, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "0",
+        "awardCeilingFormatted": "0",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Eligible applicants may be institutions of higher education, nonprofits, commercial organizations, international or foreign organizations or governments, individuals, state, local, and Indian Tribal governments. Eligibility also depends on the statutory authority that permits NOAA to fund the proposed activity. Funding of Federal organizations is outside the scope of this announcement; if funding authority exists, Federal organizations seeking NOAA funds should contact relevant program officials about the interagency agreement process.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Aug 12, 2024 04:45:43 PM EDT",
+        "createdDate": "Aug 12, 2024 04:44:28 PM EDT",
+        "lastUpdatedDate": "Aug 12, 2024 04:44:28 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ED",
+            "description": "Education"
+          },
+          {
+            "id": "ENV",
+            "description": "Environment"
+          },
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          },
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-09-30-00-00-00",
+        "postingDateStr": "2024-08-12-00-00-00",
+        "archiveDateStr": "2026-10-30-00-00-00",
+        "createTimeStampStr": "2024-08-12-16-45-43"
+      },
+      "agencyDetails": {
+        "code": "DOCNOAAERA",
+        "seed": "DOC-DOCNOAAERA",
+        "agencyName": "DOC NOAA - ERA Production",
+        "agencyCode": "DOC-DOCNOAAERA",
+        "topAgencyCode": "DOC"
+      },
+      "topAgencyDetails": {
+        "code": "DOC",
+        "seed": "DOC",
+        "agencyName": "Department of Commerce",
+        "agencyCode": "DOC",
+        "topAgencyCode": "DOC"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 74233,
+          "opportunityId": 356002,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 107160,
+          "createdDate": "Aug 12, 2024 04:45:02 PM EDT",
+          "lastUpdatedDate": "Aug 12, 2024 04:45:43 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 342114,
+              "opportunityId": 356002,
+              "mimeType": "application/pdf",
+              "fileName": "Foa_Content_of_NOAA-SEC-OED-2024-28060.pdf",
+              "fileDescription": "NOAA-SEC-OED-2024-28060",
+              "fileLobSize": 125352,
+              "createdDate": "Aug 12, 2024 04:45:43 PM EDT",
+              "synopsisAttFolderId": 74233
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 423078,
+          "opportunityId": 356002,
+          "cfdaNumber": "11.015",
+          "programTitle": "Broad Agency Announcement"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 287633,
+          "topportunityId": 356002,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "NOAA-SEC-OED-2024-28060",
+          "opportunityTitle": "FY 2024 – 2026 - Broad Agency Announcement (BAA) for the Office of Education",
+          "cfdaNumber": "11.015",
+          "openingDate": "2024-08-12",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "DOC-DOCNOAAERA",
+          "agencyDetails": {
+            "code": "DOCNOAAERA",
+            "seed": "DOC-DOCNOAAERA",
+            "agencyName": "DOC NOAA - ERA Production",
+            "agencyCode": "DOC-DOCNOAAERA",
+            "topAgencyCode": "DOC"
+          },
+          "topAgencyDetails": {
+            "code": "DOC",
+            "seed": "DOC",
+            "agencyName": "Department of Commerce",
+            "agencyCode": "DOC",
+            "topAgencyCode": "DOC"
+          },
+          "programTitle": "Broad Agency Announcement",
+          "contactInfo": "National Marine Fisheries Service (NMFS) \r\nJeffrey Kulnis \r\njeffrey.kulnis@noaa.gov \r\n(301) 427-8771 \r\nSSMC3 Rm: 14358 1315 East-West Hwy \r\nSilver Spring, MD 20910-3282 \r\n\r\nNational Ocean Service (NOS) \r\nKadija Baffoe-Harding \r\nkadija.baffoeharding@noaa.gov \r\n240-533-0955\r\nSSMC4 Rm: 13250 1305 East-West Hwy \r\nSilver Spring MD 20910-3281 \r\n\r\nNational Weather Service (NWS) \r\nJennifer Peisach \r\nJennifer.Peisach@noaa.gov \r\n1325 East West Hwy \r\nSilver Spring, MD 20910-3283\r\n\r\nOffice of Atmospheric Research (OAR) \r\nMelissa Dixon \r\nmelissa.dixon@noaa.gov \r\n302-648-6106 \r\nSSMC3 Rm: 11640 1315 East-West Hwy \r\nSilver Spring MD 20910-3282 \r\n\r\nNOAA Office of Education (OED) \r\nJohn McLaughlin \r\nJohn.McLaughlin@noaa.gov \r\n202-743-0854 SSMC3, Room 10812 1315 East West Highway, \r\nSilver Spring, Md. 20910 \r\n\r\nNational Environmental Satellite Data Information Service (NESDIS) \r\nDouglas Howard \r\ndouglas.howard@noaa.gov \r\n(240) 233-6828 \r\nBldg. NCWCP 5830 University Research Ct, Ste 2600 \r\nCollege Park, MD 20740",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 15,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Aug 12, 2024 04:53:59 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00287633",
+          "openingDateStr": "2024-08-12-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Sep 30, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

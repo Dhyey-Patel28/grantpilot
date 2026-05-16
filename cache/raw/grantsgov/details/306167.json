@@ -1,0 +1,647 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "306167",
+  "fetched_at": "2026-05-16T14:06:18.383Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InY3WUFLZTFMeFA5MXdHSWkzeXNBZ3NjSS9kKy91elpPZzg1WUFESVhnMk09Ig.nQTJx_Q7sMX6hdrdssXLI5b1P5gEtw_wRc77SmH3D3I",
+    "data": {
+      "id": 306167,
+      "revision": 5,
+      "opportunityNumber": "PD-19-006Y",
+      "opportunityTitle": "Operations Engineering",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 306167,
+        "version": 6,
+        "agencyCode": "NSF",
+        "agencyName": "National Science Foundation",
+        "agencyPhone": "703-292-4261",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4261",
+        "agencyContactName": "National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The Operations Engineering (OE) program supports fundamental research on advanced analytical methods for improving operations in complex decision-driven environments. Analytical methods include, but are not limited to, deterministic and stochastic modeling, optimization, decision and risk analysis, data science, and simulation. Methodological research is highly encouraged but must be motivated by problems that have potential for high impact in engineering applications. Application domains of particular interest to the program arise in commercial enterprises (e.g., production/manufacturing systems and distribution of goods, delivery of services), the public sector/government (e.g., public safety and security), and public/private partnerships (e.g., health care, environment and energy). The program also welcomes operations research in new and emerging domains and addressing systemic societal or technological problems. The OE program particularly values cross-disciplinary proposals that leverage application-specific expertise with strong quantitative analysis in a decision-making context. Proposals for methodological research that are not strongly motivated by high-potential engineering applications are not appropriate for this program.\n\r\n\nPIs are encouraged to send any program inquiries to both Program Directors.",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505202",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-19-006Y",
+        "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Feb 23, 2024 11:59:45 PM EST",
+        "modComments": ".",
+        "createdDate": "Jun 12, 2018 01:00:10 AM EDT",
+        "lastUpdatedDate": "Feb 23, 2024 11:59:45 PM EST",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2018-06-12-00-00-00",
+        "createTimeStampStr": "2024-02-23-23-59-45"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 354944,
+          "opportunityId": 306167,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering Grants"
+        },
+        {
+          "id": 354951,
+          "opportunityId": 306167
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 306167,
+            "revision": 0
+          },
+          "opportunityId": 306167,
+          "revision": 0,
+          "opportunityNumber": "PD-19-006Y",
+          "opportunityTitle": "Operations Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 306167,
+              "revision": 0
+            },
+            "opportunityId": 306167,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov\n",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact",
+            "synopsisDesc": "The Operations Engineering (OE) program supports fundamental research on advanced analytical methods for improving operations in complex decision-driven environments. Analytical methods include, but are not limited to, deterministic and stochastic modeling, optimization, decision and risk analysis, data science, and simulation. Methodological research is highly encouraged but must be motivated by problems that have potential for high impact in engineering applications. Application domains of particular interest to the program arise in commercial enterprises (e.g., production/manufacturing systems and distribution of goods, delivery of services), the public sector/government (e.g., public safety and security), and public/private partnerships (e.g., health care, environment and energy). The program also welcomes operations research in new and emerging domains and addressing systemic societal or technological problems. The OE program particularly values cross-disciplinary proposals that leverage application-specific expertise with strong quantitative analysis in a decision-making context. Proposals for methodological research that are not strongly motivated by high-potential engineering applications are not appropriate for this program.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505202",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-19-006Y",
+            "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jun 12, 2018 01:00:10 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 12, 2022 01:00:19 AM EDT",
+            "createdDate": "Jun 12, 2018 01:00:10 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2018-06-12-00-00-00",
+            "createTimeStampStr": "2018-06-12-01-00-10"
+          },
+          "cfdas": [
+            {
+              "id": 354944,
+              "opportunityId": 306167,
+              "revision": 4,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering Grants"
+            },
+            {
+              "id": 354951,
+              "opportunityId": 306167,
+              "revision": 4
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 306167,
+            "revision": 1
+          },
+          "opportunityId": 306167,
+          "revision": 1,
+          "opportunityNumber": "PD-19-006Y",
+          "opportunityTitle": "Operations Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 306167,
+              "revision": 1
+            },
+            "opportunityId": 306167,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Operations Engineering (OE) program supports fundamental research on advanced analytical methods for improving operations in complex decision-driven environments. Analytical methods include, but are not limited to, deterministic and stochastic modeling, optimization, decision and risk analysis, data science, and simulation. Methodological research is highly encouraged but must be motivated by problems that have potential for high impact in engineering applications. Application domains of particular interest to the program arise in commercial enterprises (e.g., production/manufacturing systems and distribution of goods, delivery of services), the public sector/government (e.g., public safety and security), and public/private partnerships (e.g., health care, environment and energy). The program also welcomes operations research in new and emerging domains and addressing systemic societal or technological problems. The OE program particularly values cross-disciplinary proposals that leverage application-specific expertise with strong quantitative analysis in a decision-making context. Proposals for methodological research that are not strongly motivated by high-potential engineering applications are not appropriate for this program.\n\r\n\nPIs are encouraged to send any program inquiries to both Program Directors.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505202",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-19-006Y",
+            "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Apr 12, 2022 01:00:19 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Sep 16, 2022 01:00:10 AM EDT",
+            "createdDate": "Jun 12, 2018 01:00:10 AM EDT",
+            "lastUpdatedDate": "Apr 12, 2022 01:00:19 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2018-06-12-00-00-00",
+            "createTimeStampStr": "2022-04-12-01-00-19"
+          },
+          "cfdas": [
+            {
+              "id": 354944,
+              "opportunityId": 306167,
+              "revision": 4,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering Grants"
+            },
+            {
+              "id": 354951,
+              "opportunityId": 306167,
+              "revision": 4
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "agencyAddressDesc",
+            "agencyContactDesc",
+            "agencyContactEmailDesc",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 306167,
+            "revision": 2
+          },
+          "opportunityId": 306167,
+          "revision": 2,
+          "opportunityNumber": "PD-19-006Y",
+          "opportunityTitle": "Operations Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 306167,
+              "revision": 2
+            },
+            "opportunityId": 306167,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Operations Engineering (OE) program supports fundamental research on advanced analytical methods for improving operations in complex decision-driven environments. Analytical methods include, but are not limited to, deterministic and stochastic modeling, optimization, decision and risk analysis, data science, and simulation. Methodological research is highly encouraged but must be motivated by problems that have potential for high impact in engineering applications. Application domains of particular interest to the program arise in commercial enterprises (e.g., production/manufacturing systems and distribution of goods, delivery of services), the public sector/government (e.g., public safety and security), and public/private partnerships (e.g., health care, environment and energy). The program also welcomes operations research in new and emerging domains and addressing systemic societal or technological problems. The OE program particularly values cross-disciplinary proposals that leverage application-specific expertise with strong quantitative analysis in a decision-making context. Proposals for methodological research that are not strongly motivated by high-potential engineering applications are not appropriate for this program.\n\r\n\nPIs are encouraged to send any program inquiries to both Program Directors.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505202",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-19-006Y",
+            "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Sep 16, 2022 01:00:10 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jan 28, 2023 01:49:56 AM EST",
+            "createdDate": "Jun 12, 2018 01:00:10 AM EDT",
+            "lastUpdatedDate": "Sep 16, 2022 01:00:10 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2018-06-12-00-00-00",
+            "createTimeStampStr": "2022-09-16-01-00-10"
+          },
+          "cfdas": [
+            {
+              "id": 354944,
+              "opportunityId": 306167,
+              "revision": 4,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering Grants"
+            },
+            {
+              "id": 354951,
+              "opportunityId": 306167,
+              "revision": 4
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 306167,
+            "revision": 3
+          },
+          "opportunityId": 306167,
+          "revision": 3,
+          "opportunityNumber": "PD-19-006Y",
+          "opportunityTitle": "Operations Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 306167,
+              "revision": 3
+            },
+            "opportunityId": 306167,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Operations Engineering (OE) program supports fundamental research on advanced analytical methods for improving operations in complex decision-driven environments. Analytical methods include, but are not limited to, deterministic and stochastic modeling, optimization, decision and risk analysis, data science, and simulation. Methodological research is highly encouraged but must be motivated by problems that have potential for high impact in engineering applications. Application domains of particular interest to the program arise in commercial enterprises (e.g., production/manufacturing systems and distribution of goods, delivery of services), the public sector/government (e.g., public safety and security), and public/private partnerships (e.g., health care, environment and energy). The program also welcomes operations research in new and emerging domains and addressing systemic societal or technological problems. The OE program particularly values cross-disciplinary proposals that leverage application-specific expertise with strong quantitative analysis in a decision-making context. Proposals for methodological research that are not strongly motivated by high-potential engineering applications are not appropriate for this program.\n\r\n\nPIs are encouraged to send any program inquiries to both Program Directors.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505202",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-19-006Y",
+            "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jan 28, 2023 01:49:56 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "May 19, 2023 11:50:00 PM EDT",
+            "createdDate": "Jun 12, 2018 01:00:10 AM EDT",
+            "lastUpdatedDate": "Jan 28, 2023 01:49:56 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2018-06-12-00-00-00",
+            "createTimeStampStr": "2023-01-28-01-49-56"
+          },
+          "cfdas": [
+            {
+              "id": 354944,
+              "opportunityId": 306167,
+              "revision": 4,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering Grants"
+            },
+            {
+              "id": 354951,
+              "opportunityId": 306167,
+              "revision": 4
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 306167,
+            "revision": 4
+          },
+          "opportunityId": 306167,
+          "revision": 4,
+          "opportunityNumber": "PD-19-006Y",
+          "opportunityTitle": "Operations Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 306167,
+              "revision": 4
+            },
+            "opportunityId": 306167,
+            "revision": 4,
+            "version": 5,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Operations Engineering (OE) program supports fundamental research on advanced analytical methods for improving operations in complex decision-driven environments. Analytical methods include, but are not limited to, deterministic and stochastic modeling, optimization, decision and risk analysis, data science, and simulation. Methodological research is highly encouraged but must be motivated by problems that have potential for high impact in engineering applications. Application domains of particular interest to the program arise in commercial enterprises (e.g., production/manufacturing systems and distribution of goods, delivery of services), the public sector/government (e.g., public safety and security), and public/private partnerships (e.g., health care, environment and energy). The program also welcomes operations research in new and emerging domains and addressing systemic societal or technological problems. The OE program particularly values cross-disciplinary proposals that leverage application-specific expertise with strong quantitative analysis in a decision-making context. Proposals for methodological research that are not strongly motivated by high-potential engineering applications are not appropriate for this program.\n\r\n\nPIs are encouraged to send any program inquiries to both Program Directors.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505202",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-19-006Y",
+            "postingDate": "Jun 12, 2018 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "May 19, 2023 11:50:00 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 23, 2024 11:59:45 PM EST",
+            "createdDate": "Jun 12, 2018 01:00:10 AM EDT",
+            "lastUpdatedDate": "May 19, 2023 11:50:00 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2018-06-12-00-00-00",
+            "createTimeStampStr": "2023-05-19-23-50-00"
+          },
+          "cfdas": [
+            {
+              "id": 354944,
+              "opportunityId": 306167,
+              "revision": 4,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering Grants"
+            },
+            {
+              "id": 354951,
+              "opportunityId": 306167,
+              "revision": 4
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 242989,
+          "topportunityId": 306167,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-19-006Y",
+          "opportunityTitle": "Operations Engineering",
+          "openingDate": "2018-06-12",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Georgia-Ann Klutke\r\nE-mail: gaklutke@nsf.gov\r\nPhone: (703) 292-2443",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 100,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 01, 2025 09:28:32 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00242989",
+          "openingDateStr": "2018-06-12-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 5,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

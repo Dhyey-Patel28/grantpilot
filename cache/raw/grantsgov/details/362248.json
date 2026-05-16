@@ -1,0 +1,128 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362248",
+  "fetched_at": "2026-05-16T14:10:10.193Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlFHUEUyakQ2UlRwTG9weUpXNlBwYnRHUDVCa29NNDJkZDlLSWZlb1FMNWs9Ig.yVzcjXRr8XyTeKGvDzAW6kNZRh0BWqk5CU7c88xjfiY",
+    "data": {
+      "id": 362248,
+      "revision": 0,
+      "opportunityNumber": "HT942526MBRPPCRA",
+      "opportunityTitle": "DoW Military Burn, Patient-Centered Research Award",
+      "owningAgencyCode": "DOD-AMRAA",
+      "listed": "L",
+      "publisherUid": "TeriR707",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "AMRAA",
+        "seed": "DOD-AMRAA",
+        "agencyName": "Dept. of the Army -- USAMRAA",
+        "agencyCode": "DOD-AMRAA",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "forecast": {
+        "opportunityId": 362248,
+        "version": 1,
+        "postingDate": "May 05, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p><strong>Summary:</strong> Despite significant research investment in combat-relevant burn care, a disparity exists between newly discovered knowledge in burn care and its implementation into clinical practice across the distributed operational battlespace. The fiscal year 2026 (FY26) Military Burn Research Program (MBRP) Patient-Centered Research Award (PCRA) seeks to bridge the gap between research, practice, and policy by developing a knowledge base that provides clinically useful findings about how interventions, clinical practices, guidelines, tools, and policies can be deployed to burn patients in an austere, resource-limited, military operational environment.</p>\n<p><strong>Distinctive Features:</strong><strong style=\"color: red;\"> </strong></p>\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This award mechanism <strong><em>must support clinical research or clinical trials but cannot support preclinical or animal research</em>.</strong> Applications may propose prospective or retrospective research involving human subjects or human subject data.</p>\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><em>New for FY26: </em></strong>The FY26 PCRA offers a Mentorship Option at a higher funding level to support a synergistic relationship between an experienced researcher (Mentor) and one to two junior researchers (Mentees). The dual purpose of this award is to fund a primary research study addressing a critical gap in combat burn care while simultaneously fostering the development of the next generation of military burn research leaders.</p>\n<p><br></p>\n<p><a href=\"https://cdmrp.health.mil/pubs/press/2026/mbrppreann\" target=\"_blank\">https://cdmrp.health.mil/pubs/press/2026/mbrppreann</a></p>",
+        "costSharing": false,
+        "numberOfAwards": "2",
+        "estimatedFunding": "3400000",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "agencyContactName": "eBRAP Help Desk\r\nPhone:  301-682-5507\r\nEmail:  help@eBRAP.org",
+        "agencyContactPhone": "301-682-5507",
+        "agencyContactEmail": "help@eBRAP.org",
+        "agencyContactEmailDesc": "eBRAP Help Desk",
+        "agencyCode": "DOD-AMRAA",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "",
+        "estSynopsisPostingDate": "Jun 01, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Oct 22, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "",
+        "estAwardDate": "Sep 30, 2027 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2027 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "May 05, 2026 03:17:57 PM EDT",
+        "createdDate": "May 05, 2026 03:17:57 PM EDT",
+        "lastUpdatedDate": "May 05, 2026 03:17:57 PM EDT",
+        "agencyDetails": {
+          "code": "AMRAA",
+          "seed": "DOD-AMRAA",
+          "agencyName": "Dept. of the Army -- USAMRAA",
+          "agencyCode": "DOD-AMRAA",
+          "topAgencyCode": "DOD"
+        },
+        "estimatedFundingFormatted": "3,400,000",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2026-05-05-00-00-00",
+        "estSynopsisPostingDateStr": "2026-06-01-00-00-00",
+        "estApplicationResponseDateStr": "2026-10-22-00-00-00",
+        "estAwardDateStr": "2027-09-30-00-00-00",
+        "estProjectStartDateStr": "2027-09-30-00-00-00",
+        "createTimeStampStr": "2026-05-05-15-17-57"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 433153,
+          "opportunityId": 362248,
+          "cfdaNumber": "12.420",
+          "programTitle": "Military Medical Research and Development"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

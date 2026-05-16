@@ -1,0 +1,175 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362016",
+  "fetched_at": "2026-05-16T14:09:37.576Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImIwMUlKKyszcS80QzdodC9sc0VlTFliUXBXTnFQRU5Qd2NvbE41cTJUc1k9Ig.pWqZfU_D0iN1hnRmx3GZe6XA4HDy1UfCV0p87mJvb5c",
+    "data": {
+      "id": 362016,
+      "revision": 0,
+      "opportunityNumber": "HHS-2026-ACL-NIDILRR-DPCP-0222",
+      "opportunityTitle": "Disability and Rehabilitation Research Projects (DRRP) Program: Community Living and Participation (Development)",
+      "owningAgencyCode": "HHS-ACL",
+      "publisherUid": "44153474529580271320823759458004961120",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "ACL",
+        "seed": "HHS-ACL",
+        "agencyName": "Administration for Community Living",
+        "agencyCode": "HHS-ACL",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 362016,
+        "version": 1,
+        "postingDate": "Apr 22, 2026 12:00:00 AM EDT",
+        "archiveDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>Under this particular DRRP priority, applicants must propose a development project that is aimed at improving community living and participation outcomes of individuals with disabilities. In carrying out a development project under this program, a grantee must use knowledge and understanding gained from research to create models, methods, tools, applications, and devices beneficial to the target population, including design and development of protypes and processes. NIDILRR's field-initiated DRRP awards in the community living and participation domain will be (1) research projects, (2) development projects, or (3) a combination of research and development projects, depending on the ranking of applications provided by the peer review panel. The grants will have a 36-month project period, with three 12-month budget periods.<br>&nbsp;</p>",
+        "costSharing": false,
+        "numberOfAwards": "2",
+        "estimatedFunding": "500000",
+        "awardCeiling": "500000",
+        "awardFloor": "495000",
+        "fundingDescLinkUrl": "https://www.acl.gov/grants/applying-grants",
+        "fundingDescLinkDesc": "https://www.acl.gov/grants/applying-grants",
+        "agencyContactName": "Maureen Linden",
+        "agencyContactPhone": "202-207-9776",
+        "agencyContactEmail": "maureen.linden@acl.hhs.gov",
+        "agencyContactEmailDesc": "maureen.linden@acl.hhs.gov",
+        "agencyCode": "HHS-ACL",
+        "applicantEligibilityDesc": "States; public or private agencies, including for-profit agencies; public or private organizations, including for-profit organizations; IHEs; and Indian tribes and tribal organizations. Foreign entities are not eligible to compete for, or receive, awards made under this announcement. Faith-based and community organizations that meet the eligibility requirements are eligible to receive awards under this funding opportunity announcement.",
+        "estSynopsisPostingDate": "Apr 24, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jun 24, 2026 12:00:00 AM EDT",
+        "estAwardDate": "Sep 01, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "Apr 22, 2026 02:18:17 PM EDT",
+        "createdDate": "Apr 22, 2026 02:18:17 PM EDT",
+        "lastUpdatedDate": "Apr 22, 2026 02:18:17 PM EDT",
+        "agencyDetails": {
+          "code": "ACL",
+          "seed": "HHS-ACL",
+          "agencyName": "Administration for Community Living",
+          "agencyCode": "HHS-ACL",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "500,000",
+        "awardCeilingFormatted": "500,000",
+        "awardFloorFormatted": "495,000",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2026-04-22-00-00-00",
+        "archiveDateStr": "2026-09-30-00-00-00",
+        "estSynopsisPostingDateStr": "2026-04-24-00-00-00",
+        "estApplicationResponseDateStr": "2026-06-24-00-00-00",
+        "estAwardDateStr": "2026-09-01-00-00-00",
+        "estProjectStartDateStr": "2026-09-01-00-00-00",
+        "createTimeStampStr": "2026-04-22-14-18-17"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432845,
+          "opportunityId": 362016,
+          "cfdaNumber": "93.433",
+          "programTitle": "ACL National Institute on Disability, Independent Living, and Rehabilitation Research"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

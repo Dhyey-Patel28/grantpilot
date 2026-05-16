@@ -1,0 +1,200 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361458",
+  "fetched_at": "2026-05-16T14:08:51.516Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldVS2dnSjZQR2p1UE9WTXplSXpvUDdadzk3OFpvUy9SMFdWNWZoVWtuOVE9Ig.lVBqMvPLpYLB8ZLlbs6hmAPvWXLNIdgQUe2IFRsDgIY",
+    "data": {
+      "id": 361458,
+      "revision": 0,
+      "opportunityNumber": "DE-FOA-0003620",
+      "opportunityTitle": "FY2026 Research Opportunities in Accelerator Stewardship and Accelerator Development",
+      "owningAgencyCode": "PAMS-SC",
+      "listed": "L",
+      "publisherUid": "Zarkinm",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361458,
+        "version": 1,
+        "agencyCode": "PAMS-SC",
+        "agencyName": "Michael S Zarkin\nGrants Management Specialist",
+        "agencyPhone": "301-903-4946",
+        "agencyAddressDesc": "Eric.Colby@science.doe.gov",
+        "agencyDetails": {
+          "code": "SC",
+          "seed": "PAMS-SC",
+          "agencyName": "Office of Science",
+          "agencyCode": "PAMS-SC",
+          "topAgencyCode": "PAMS"
+        },
+        "topAgencyDetails": {
+          "code": "PAMS",
+          "seed": "PAMS",
+          "agencyName": "Department of Energy - Office of Science",
+          "agencyCode": "PAMS",
+          "topAgencyCode": "PAMS"
+        },
+        "agencyContactPhone": "301-903-4946",
+        "agencyContactName": "Michael S Zarkin\nGrants Management Specialist",
+        "agencyContactDesc": "Dr. Eric R. Colby\r\nProgram Manager\r\n(301)-722-2148",
+        "agencyContactEmail": "Eric.Colby@science.doe.gov",
+        "agencyContactEmailDesc": "Eric.Colby@science.doe.gov",
+        "synopsisDesc": "<p><span style=\"color: black;\">The DOE SC program in High Energy Physics (HEP) hereby announces its interest in applications to conduct cross-cutting use-inspired basic research and development (R&amp;D) to advance accelerator science and technology (AS&amp;T) and domestic supplier development that supports SC’s activities in physical sciences research and which is of broader benefit to other U.S. government agencies and industry. Please note that this Notice of Funding Opportunity (NOFO) is for cross-cutting R&amp;D and domestic supplier development and that program-specific AS&amp;T R&amp;D is supported though NOFOs issued by each SC program.</span></p>",
+        "responseDate": "May 21, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Mar 12, 2026 12:00:00 AM EDT",
+        "archiveDate": "Aug 21, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "12",
+        "estimatedFunding": "15000000",
+        "estimatedFundingFormatted": "15,000,000",
+        "awardCeiling": "3000000",
+        "awardCeilingFormatted": "3,000,000",
+        "awardFloor": "50000",
+        "awardFloorFormatted": "50,000",
+        "applicantEligibilityDesc": "Track 1: Accelerator Stewardship Topical Areas\r\n\r\nApplications for activities in Track 1: Accelerator Stewardship Topical Areas will be accepted from all responsible domestic organizations capable of meeting the objectives of this NOFO.\r\n\r\nTrack 2: Collaborative Accelerator Research Teams (CARTs) for Long-Term Generic Accelerator Research\r\n\r\nApplications for terminal renewal awards under Track 2: Collaborative Accelerator Research Teams (CARTs) for Long-Term Generic Accelerator Research are restricted to Track 2 PIs organizations with a current award that ends before September 30, 2026. Eligibility is limited in Track 2 to current PIs at organizations with awards expiring within FY 2026 while Track 2 changes from a single-PI/single-institution funding model to a multi-PI/multi-institution funding model. The one-year-long terminal renewal award is offered to allow a smooth transition to other funding sources (which might include participating in a multi-PI/multi-institution award).\r\n\r\nTrack 4b: Accelerator Technology Partnerships\r\n\r\nEligibility is limited in Track 4b to domestic for-profit organizations, as the intent of this Track is to develop U.S. companies capable of producing particle accelerator components for DOE and commercial purposes. \r\n\r\nTrack 3 and Track 4a:\r\n\r\nTrack 3 (Accelerator Stewardship Test Facility Program) and Track 4a (Accelerator-Technology Sector Business Plans) are no longer accepting applications.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Mar 12, 2026 08:03:46 AM EDT",
+        "createdDate": "Mar 12, 2026 08:01:56 AM EDT",
+        "lastUpdatedDate": "Mar 12, 2026 08:01:56 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-05-21-00-00-00",
+        "postingDateStr": "2026-03-12-00-00-00",
+        "archiveDateStr": "2026-08-21-00-00-00",
+        "createTimeStampStr": "2026-03-12-08-03-46"
+      },
+      "agencyDetails": {
+        "code": "SC",
+        "seed": "PAMS-SC",
+        "agencyName": "Office of Science",
+        "agencyCode": "PAMS-SC",
+        "topAgencyCode": "PAMS"
+      },
+      "topAgencyDetails": {
+        "code": "PAMS",
+        "seed": "PAMS",
+        "agencyName": "Department of Energy - Office of Science",
+        "agencyCode": "PAMS",
+        "topAgencyCode": "PAMS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 78965,
+          "opportunityId": 361458,
+          "folderType": "Full Announcement",
+          "folderName": "DE-FOA-0003620",
+          "zipLobSize": 1249474,
+          "createdDate": "Mar 12, 2026 08:02:10 AM EDT",
+          "lastUpdatedDate": "Mar 12, 2026 08:03:46 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350487,
+              "opportunityId": 361458,
+              "mimeType": "application/pdf",
+              "fileName": "DE-FOA-0003620.pdf",
+              "fileDescription": "DE-FOA-0003620",
+              "fileLobSize": 1313433,
+              "createdDate": "Mar 12, 2026 08:03:46 AM EDT",
+              "synopsisAttFolderId": 78965
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432181,
+          "opportunityId": 361458,
+          "cfdaNumber": "81.049",
+          "programTitle": "Office of Science Financial Assistance Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292090,
+          "topportunityId": 361458,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "DE-FOA-0003620",
+          "opportunityTitle": "FY2026 Research Opportunities in Accelerator Stewardship and Accelerator Development",
+          "cfdaNumber": "81.049",
+          "openingDate": "2026-03-12",
+          "closingDate": "2026-05-21",
+          "owningAgencyCode": "PAMS-SC",
+          "agencyDetails": {
+            "code": "SC",
+            "seed": "PAMS-SC",
+            "agencyName": "Office of Science",
+            "agencyCode": "PAMS-SC",
+            "topAgencyCode": "PAMS"
+          },
+          "topAgencyDetails": {
+            "code": "PAMS",
+            "seed": "PAMS",
+            "agencyName": "Department of Energy - Office of Science",
+            "agencyCode": "PAMS",
+            "topAgencyCode": "PAMS"
+          },
+          "programTitle": "Office of Science Financial Assistance Program",
+          "contactInfo": "Dr. Eric R. Colby\r\nEric.Colby@science.doe.gov\r\n(301)-722-2148",
+          "gracePeriod": 7,
+          "competitionId": "DE-FOA-0003620",
+          "competitionTitle": "FY2026 Research Opportunities in Accelerator Stewardship and Accelerator Development",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 75,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 12, 2026 08:05:07 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292090",
+          "openingDateStr": "2026-03-12-00-00-00",
+          "closingDateStr": "2026-05-21-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 21, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

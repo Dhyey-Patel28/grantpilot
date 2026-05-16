@@ -1,0 +1,319 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "345872",
+  "fetched_at": "2026-05-16T14:06:43.852Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ilg0ZmhjYWo2YS9Md21sNHBKLzZzREgwSEFTenJVSUdub2dvekhkVlVhc3M9Ig.w61XJ4NGhJd4xZAY-inAZJW-0hn1X3G78SMsHlsbJp4",
+    "data": {
+      "id": 345872,
+      "revision": 2,
+      "opportunityNumber": "PD-18-1517",
+      "opportunityTitle": "Electronics, Photonics and Magnetic Devices",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 345872,
+        "version": 3,
+        "agencyCode": "NSF",
+        "agencyName": "National Science Foundation",
+        "agencyPhone": "703-292-4261",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4261",
+        "agencyContactName": "National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "TheElectronics, Photonics and Magnetic Devices (EPMD) Programsupports innovative research on novel devices based on the principles of electronics, optics and photonics, optoelectronics, magnetics, opto- and electromechanics, electromagnetics, and related physical phenomena. EPMD&rsquo;s goal is to advance the frontiers of micro-, nano- and quantum-based devices operating within the electromagnetic spectrum and contributing to a broad range of application domains including information and communications, imaging and sensing, healthcare, Internet of Things, energy, infrastructure, and manufacturing. The program encourages research based on emerging technologies for miniaturization, integration, and energy efficiency as well as novel material-based devices with new functionalities, improved efficiency, flexibility, tunability, wearability, and enhanced reliability.\n\r\n\nAreas managed by Program Directors (please contact Program Directors listed in the <a href=\"https://www.nsf.gov/staff/staff_list.jsp?orgId=94&amp;subDiv=y&amp;org=ECCS&amp;from_org=ECCS\">EPMD staff directory</a> for areas of interest):\n\r\n\nElectronic Devices\n\r\n<ul>\r\n<li>Nanoelectronics</li>\r\n<li>Wide/Extreme- and Narrow-Bandgap, Semiconductor Devices</li>\r\n<li>Devices with New Functionalities based on Material-Device Interactions and Reliability</li>\r\n<li>Device-Related Electromagnetic Effects, Propagationand Scattering</li>\r\n<li>Microwave/mm-Wave/THz Devices</li>\r\n<li>Flexible, Printed Electronics</li>\r\n<li>Carbon-based Electronics</li>\r\n<li>Thermoelectric and Ferroelectric Devices</li>\r\n</ul>\r\n\nPhotonic Devices\n\r\n<ul>\r\n<li>Advanced Optical Emitters and Photodetectors, from Extreme UV to THz</li>\r\n<li>Single-Photon Quantum Devices</li>\r\n<li>Nonlinear and Ultrafast Photonics</li>\r\n<li>Nanophotonics and Photonic Integration</li>\r\n<li>Optical Imaging and Sensing Techniques</li>\r\n<li>Opto-Mechanical Nanodevices</li>\r\n<li>Optical Communication Components</li>\r\n</ul>\r\n\nMagnetic Devices\n\r\n<ul>\r\n<li>Biomagnetic Devices</li>\r\n<li>Nanomagnetic and Quantum Devices</li>\r\n<li>Spin Electronics for Next Generation of Logic and Memories</li>\r\n</ul>\r\n\nCross-Cutting\n\r\n<ul>\r\n<li>2D Material Devices and Circuits</li>\r\n<li>Devices based on Paper Electronics</li>\r\n<li>Bioelectronic Devices</li>\r\n<li>Photovoltaic and Energy Harvesting Devices</li>\r\n<li>Metamaterial and Plasmonic-Based Devices</li>\r\n<li>Sensor Device Technologies</li>\r\n</ul>",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505250",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-18-1517",
+        "postingDate": "Feb 08, 2023 12:00:00 AM EST",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Feb 23, 2024 11:55:58 PM EST",
+        "modComments": ".",
+        "createdDate": "Feb 08, 2023 01:00:15 AM EST",
+        "lastUpdatedDate": "Feb 23, 2024 11:55:58 PM EST",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2023-02-08-00-00-00",
+        "createTimeStampStr": "2024-02-23-23-55-58"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 407922,
+          "opportunityId": 345872,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 407924,
+          "opportunityId": 345872
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 345872,
+            "revision": 0
+          },
+          "opportunityId": 345872,
+          "revision": 0,
+          "opportunityNumber": "PD-18-1517",
+          "opportunityTitle": "Electronics, Photonics and Magnetic Devices",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 345872,
+              "revision": 0
+            },
+            "opportunityId": 345872,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "TheElectronics, Photonics and Magnetic Devices (EPMD) Programsupports innovative research on novel devices based on the principles of electronics, optics and photonics, optoelectronics, magnetics, opto- and electromechanics, electromagnetics, and related physical phenomena. EPMD&rsquo;s goal is to advance the frontiers of micro-, nano- and quantum-based devices operating within the electromagnetic spectrum and contributing to a broad range of application domains including information and communications, imaging and sensing, healthcare, Internet of Things, energy, infrastructure, and manufacturing. The program encourages research based on emerging technologies for miniaturization, integration, and energy efficiency as well as novel material-based devices with new functionalities, improved efficiency, flexibility, tunability, wearability, and enhanced reliability.\n\r\n\nAreas managed by Program Directors (please contact Program Directors listed in the <a href=\"https://www.nsf.gov/staff/staff_list.jsp?orgId=94&amp;subDiv=y&amp;org=ECCS&amp;from_org=ECCS\">EPMD staff directory</a> for areas of interest):\n\r\n\nElectronic Devices\n\r\n<ul>\r\n<li>Nanoelectronics</li>\r\n<li>Wide/Extreme- and Narrow-Bandgap, Semiconductor Devices</li>\r\n<li>Devices with New Functionalities based on Material-Device Interactions and Reliability</li>\r\n<li>Device-Related Electromagnetic Effects, Propagationand Scattering</li>\r\n<li>Microwave/mm-Wave/THz Devices</li>\r\n<li>Flexible, Printed Electronics</li>\r\n<li>Carbon-based Electronics</li>\r\n<li>Thermoelectric and Ferroelectric Devices</li>\r\n</ul>\r\n\nPhotonic Devices\n\r\n<ul>\r\n<li>Advanced Optical Emitters and Photodetectors, from Extreme UV to THz</li>\r\n<li>Single-Photon Quantum Devices</li>\r\n<li>Nonlinear and Ultrafast Photonics</li>\r\n<li>Nanophotonics and Photonic Integration</li>\r\n<li>Optical Imaging and Sensing Techniques</li>\r\n<li>Opto-Mechanical Nanodevices</li>\r\n<li>Optical Communication Components</li>\r\n</ul>\r\n\nMagnetic Devices\n\r\n<ul>\r\n<li>Biomagnetic Devices</li>\r\n<li>Nanomagnetic and Quantum Devices</li>\r\n<li>Spin Electronics for Next Generation of Logic and Memories</li>\r\n</ul>\r\n\nCross-Cutting\n\r\n<ul>\r\n<li>2D Material Devices and Circuits</li>\r\n<li>Devices based on Paper Electronics</li>\r\n<li>Bioelectronic Devices</li>\r\n<li>Photovoltaic and Energy Harvesting Devices</li>\r\n<li>Metamaterial and Plasmonic-Based Devices</li>\r\n<li>Sensor Device Technologies</li>\r\n</ul>",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505250",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-18-1517",
+            "postingDate": "Feb 08, 2023 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Feb 08, 2023 01:00:15 AM EST",
+            "actionType": "U",
+            "actionDate": "May 19, 2023 11:43:23 PM EDT",
+            "createdDate": "Feb 08, 2023 01:00:15 AM EST",
+            "lastUpdatedDate": "Feb 08, 2023 01:00:15 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-02-08-00-00-00",
+            "createTimeStampStr": "2023-02-08-01-00-15"
+          },
+          "cfdas": [
+            {
+              "id": 407922,
+              "opportunityId": 345872,
+              "revision": 1,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 407924,
+              "opportunityId": 345872,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 345872,
+            "revision": 1
+          },
+          "opportunityId": 345872,
+          "revision": 1,
+          "opportunityNumber": "PD-18-1517",
+          "opportunityTitle": "Electronics, Photonics and Magnetic Devices",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 345872,
+              "revision": 1
+            },
+            "opportunityId": 345872,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "TheElectronics, Photonics and Magnetic Devices (EPMD) Programsupports innovative research on novel devices based on the principles of electronics, optics and photonics, optoelectronics, magnetics, opto- and electromechanics, electromagnetics, and related physical phenomena. EPMD&rsquo;s goal is to advance the frontiers of micro-, nano- and quantum-based devices operating within the electromagnetic spectrum and contributing to a broad range of application domains including information and communications, imaging and sensing, healthcare, Internet of Things, energy, infrastructure, and manufacturing. The program encourages research based on emerging technologies for miniaturization, integration, and energy efficiency as well as novel material-based devices with new functionalities, improved efficiency, flexibility, tunability, wearability, and enhanced reliability.\n\r\n\nAreas managed by Program Directors (please contact Program Directors listed in the <a href=\"https://www.nsf.gov/staff/staff_list.jsp?orgId=94&amp;subDiv=y&amp;org=ECCS&amp;from_org=ECCS\">EPMD staff directory</a> for areas of interest):\n\r\n\nElectronic Devices\n\r\n<ul>\r\n<li>Nanoelectronics</li>\r\n<li>Wide/Extreme- and Narrow-Bandgap, Semiconductor Devices</li>\r\n<li>Devices with New Functionalities based on Material-Device Interactions and Reliability</li>\r\n<li>Device-Related Electromagnetic Effects, Propagationand Scattering</li>\r\n<li>Microwave/mm-Wave/THz Devices</li>\r\n<li>Flexible, Printed Electronics</li>\r\n<li>Carbon-based Electronics</li>\r\n<li>Thermoelectric and Ferroelectric Devices</li>\r\n</ul>\r\n\nPhotonic Devices\n\r\n<ul>\r\n<li>Advanced Optical Emitters and Photodetectors, from Extreme UV to THz</li>\r\n<li>Single-Photon Quantum Devices</li>\r\n<li>Nonlinear and Ultrafast Photonics</li>\r\n<li>Nanophotonics and Photonic Integration</li>\r\n<li>Optical Imaging and Sensing Techniques</li>\r\n<li>Opto-Mechanical Nanodevices</li>\r\n<li>Optical Communication Components</li>\r\n</ul>\r\n\nMagnetic Devices\n\r\n<ul>\r\n<li>Biomagnetic Devices</li>\r\n<li>Nanomagnetic and Quantum Devices</li>\r\n<li>Spin Electronics for Next Generation of Logic and Memories</li>\r\n</ul>\r\n\nCross-Cutting\n\r\n<ul>\r\n<li>2D Material Devices and Circuits</li>\r\n<li>Devices based on Paper Electronics</li>\r\n<li>Bioelectronic Devices</li>\r\n<li>Photovoltaic and Energy Harvesting Devices</li>\r\n<li>Metamaterial and Plasmonic-Based Devices</li>\r\n<li>Sensor Device Technologies</li>\r\n</ul>",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505250",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-18-1517",
+            "postingDate": "Feb 08, 2023 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "May 19, 2023 11:43:23 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 23, 2024 11:55:58 PM EST",
+            "createdDate": "Feb 08, 2023 01:00:15 AM EST",
+            "lastUpdatedDate": "May 19, 2023 11:43:23 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-02-08-00-00-00",
+            "createTimeStampStr": "2023-05-19-23-43-23"
+          },
+          "cfdas": [
+            {
+              "id": 407922,
+              "opportunityId": 345872,
+              "revision": 1,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 407924,
+              "opportunityId": 345872,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

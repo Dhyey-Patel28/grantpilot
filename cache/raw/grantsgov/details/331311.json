@@ -1,0 +1,137 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "331311",
+  "fetched_at": "2026-05-16T14:06:27.566Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InltWWc2bTVYak1CQzRrWlVBNGxkdG1VQmxiL2JYeUg3d1hycTlhdFdNRVU9Ig.7zCHFxbAbVslm-ZZhXRyVjtOrpKUgjJWo1ENe2GIsP0",
+    "data": {
+      "id": 331311,
+      "revision": 0,
+      "opportunityNumber": "95332421K0004",
+      "opportunityTitle": "Request for Information (RFI) No.  95332421K0004 - Community Engagement Services for the Solomon Islands Threshold Program",
+      "owningAgencyCode": "MCC",
+      "listed": "L",
+      "publisherUid": "yembeka",
+      "flag2006": "N",
+      "opportunityCategoryExplanation": "All",
+      "opportunityCategory": {
+        "category": "O",
+        "description": "Other"
+      },
+      "agencyDetails": {
+        "code": "MCC",
+        "seed": "MCC",
+        "agencyName": "Millennium Challenge Corporation",
+        "agencyCode": "MCC",
+        "topAgencyCode": "MCC"
+      },
+      "topAgencyDetails": {
+        "code": "MCC",
+        "seed": "MCC",
+        "agencyName": "Millennium Challenge Corporation",
+        "agencyCode": "MCC",
+        "topAgencyCode": "MCC"
+      },
+      "forecast": {
+        "opportunityId": 331311,
+        "version": 1,
+        "postingDate": "Feb 04, 2021 12:00:00 AM EST",
+        "forecastDesc": "<p><strong>Description of Anticipated Services</strong></p> \n<p><strong>&nbsp;</strong></p> \n<p>The Government of the United States of America, via the Millennium Challenge Corporation (MCC), and the Solomon Islands Government (SIG) expect to sign a Threshold Program Grant Agreement (Grant) in 2021 totaling US $23 million to support a 4-year program with the objective of implementing policy and institutional reforms that lead to a reduction in poverty through economic growth in Solomon Islands. The 4-year timeline for this program is expected to begin in April 2021. The Solomon Islands Threshold Program consists of two projects: the Accessing Land for Tourism Investment Facilitation (ALTIF) Project and the Forest Value Enhancement Project (FoVEP).</p> \n<p><br></p> \n<p>MCC is assessing the feasibility of awarding a community engagement cooperative agreement under the ALTIF Project to support the delivery of information, public outreach and awareness, training, and advisory assistance to communities that are located nearby land parcels with a high potential to attract tourism investment. The objective of this Request for Information (RFI) is to gauge the interest of non-profit organizations and for-profit companies, in bidding on a cooperative agreement and to assess organizational capabilities of individual organizations or a consortium of organizations to meet the requirements for the Project.</p> \n<p><br></p> \n<p><strong style=\"color: black;\"><em><u>THIS IS NOT A FUNDING OPPORTUNITY</u></em></strong><span style=\"color: black;\">. Through this Request for Information (RFI), MCC seeks to collect expert industry input to inform and enhance the design of </span>the ALTIF Project<span style=\"color: black;\">. This RFI is limited to industry; MCC staff and other global donors should not participate. </span>The purpose of this RFI is to solicit feedback from organizations about the ALTIF program description below. However, the USG reserves the right to not issue a Request for Application for this potential activity. The program description presents the draft objectives and key elements of the activity.</p> \n<p><br></p> \n<p><strong>Background</strong></p> \n<p><strong>&nbsp;</strong></p> \n<p>Access to land for investment is a constraint to economic growth in Solomon Islands. While the majority of land in Solomon Islands is governed under customary rules, investors require the certainty afforded by registered land (non-customary) to realize an investment. Yet, even registered land often has insufficient tenure security to attract investment due to historical interests and disputes between communities over land, frequent court challenges to titles, and a lack of certainty over land suited to investment. To ensure successful lasting investment outcomes an investor and community must agree on how to work together, so that the investor has, and maintains, social license, which is <span style=\"color: rgb(34, 34, 34);\">defined as ongoing acceptance by the community of an investor’s presence on the land as legitimate and often includes a sharing of benefits from the investment with the community.&nbsp;</span></p> \n<p><br></p> \n<p>The ALTIF Project seeks to identify registered land parcels that have a high potential to attract tourism investment, assist investors to negotiate secure access to registered land with land owners and neighboring communities (via social license), and facilitate investments on that land by outside tourism investors through financial close. These land parcels must possess the necessary governance stability and characteristics for long term land settlement suited to investment.&nbsp;As it relates to land and community engagement issues, ALTIF will engage in five activities:&nbsp;</p> \n<p><br></p> \n<p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Identify registered land parcels that have the physical characteristics, location that is desirable for a tourism investment, and the requisite social and governance elements to permit successful investment and target these parcels to attract new investments.&nbsp;&nbsp;</p> \n<p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provide information and educate investors on the need for social license to obtain access to the targeted registered land parcel(s) and ensure tenure security.</p> \n<p>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Work with the Ministry of Culture and Tourism and other Solomon Islands Government actors to develop a model for sustainable land settlement and maintaining social license.</p> \n<p>4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Work with nearby villages and communities with interests in targeted registered land parcel(s) to:</p> \n<p>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;support community leaders and members as they agree with the investor on social license, ensuring that the community realizes a benefits from a tourism investment; and</p> \n<p>b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strengthen community governance to ensure equity in decision making that will promote establishment and maintenance of social license over the long term.</p> \n<p>5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Support the investor and the community as the parties jointly work to establish social license by providing advice and facilitating throughout the process.</p> \n<p>6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Where necessary to achieve social license, support communities realizing their ambitions to secure the customary land rights of the community and its members through whatever formal mechanism they deem appropriate. This could include, for example, supporting the community to record land via the Customary Land Records Act.&nbsp;</p> \n<p><br></p> \n<p>MCC expects to engage three organizations (Project Implementers) to implement the activities described above.&nbsp;The land identification and investor facing activities (1, 2, and the investor related activities of 3, and 4) are expected to be implemented by an organization with experience and expertise in tourism investment promotion.&nbsp;The community facing activities (3, and the community related activities of 4, and 5), which are the focus of this RFI, are expected to be implemented by an organization with extensive experience working with communities in Solomon Islands on issues related to land, stakeholder engagement, community governance and decision making, and gender equality and social inclusion.&nbsp;A third organization will support government direction of the land identification and investment facilitation process (as a cross cutting element over all land activities and all investment facilitation activities) through a facilitated governance reform process, which could include a problem driven iterative adaptation (PDIA) approach where the state institutions participate in a tourism task force and topic specific problems solving teams established to resolve issues that inhibit the realization of tourism investments in the Solomon Islands.&nbsp;It will be vital that implementing organizations coordinate their public outreach and awareness messages and work together to communicate a shared vision to all stakeholders for how social license will be achieved and how benefits may be shared.&nbsp;</p> \n<p><br></p> \n<p><strong>Anticipated Tasks for the Community Engagement Recipient</strong></p> \n<p><strong>&nbsp;</strong></p> \n<p>Please view the \"Related Documents\" tab for this requirement for a full version of the RFI detailing the anticipated tasks.</p> \n<p><br></p> \n<p><strong>Requested Information:</strong></p> \n<p><strong>&nbsp;</strong></p> \n<p><em>(A) Responses to Questions: </em>MCC is looking for responses to several questions in relation to this potential assignment.</p> \n<p><br></p> \n<p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Does your organization have qualifications and experience in working through community governance, decision-making and conflict resolution issues as they relate to land use in Solomon Islands? If not, are you aware of Civil Society Organizations (CSOs) or Community Based Organizations (CBOs) that you could partner with to bring such experience to the Project? Can you provide a short description of any relevant experience your organization might have in this regard and whether in the past you have teamed with a CSO or CBO to deliver such services?&nbsp;</p> \n<p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Is your organization interested in bidding on such a cooperative agreement?&nbsp;</p> \n<p>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please <em>specify </em>what kind of entity are you? (i.e. corporation, non-profit, etc.)</p> \n<p>4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do you believe this work is more suitable for an <em>acquisition</em> approach (i.e., traditional FAR-based contract), or an <em>assistance</em> approach (i.e., uniform guidelines at 2 CFR 200)?&nbsp;Why?&nbsp;Note that assistance work (grants/cooperative agreements) must primarily serve a public purpose and does <em>not</em> result in a traditional contractor/client relationship, but in a partnership with mutually defined objectives and goals.</p> \n<p>5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Does your organization have the financial capacity to act as the prime recipient and hire necessary subrecipients?&nbsp;If you do not have financial capacity to prime the cooperative agreement, are you willing and able to partner with another firm with greater financial capacity to implement the cooperative agreement?&nbsp;</p> \n<p>6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do you have comments that may improve the stated activities and the objectives of the activity?&nbsp;</p> \n<p>7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Are you prepared to cooperate and coordinate with other organizations in implementing the community engagement element of the ALTIF Project? Cooperation/coordination is necessary in the following areas:</p> \n<p>a.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Messages delivered to the community and the investors regarding expectations of all parties involved in social license need to be sufficiently similar to maintain stability in discussion/negotiations between investors and community.&nbsp;These messages need to be coordinated between the organizations implementing the investor facing activities and the community facing activities.&nbsp;</p> \n<p>b.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The community engagement recipient may need to coordinate more general messages about the benefits and activities of the project with a general Threshold Program communications recipient to ensure consistency in messaging and branding across all Projects.&nbsp;</p> \n<p>c.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The community engagement recipient will need to coordinate and cooperate with the PDIA contractor as it supports the government task force and problem-solving groups to address problems that affect the community interests in land and agreements on social license.&nbsp;</p> \n<p>d.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The community engagement recipient will be required to cooperate/coordinate with the Ministry of Culture and Tourism and Provincial Government, whose representatives need to be closely involved in all community facing activities related to establishment and maintenance of social license to build MCT and Provincial Government capacity to address such issues in the future as new tourism investors express interest in land parcels in the Solomons Islands.</p> \n<p><br></p> \n<p>To expedite MCC’s review and to be considerate of your time, please keep total responses to the above questions to no more than 5 pages in length.</p> \n<p><br></p> \n<p><em>(B) Brief Descriptions of Relevant Project Experience: </em>Additionally, interested organizations are asked to submit <strong>no more than 5 pages</strong> of examples of previous and relevant project experience.</p> \n<p><br></p> \n<p><strong>The final package, including responses to (A) and (B) above, should not exceed 10 pages in length.</strong></p> \n<p><br></p> \n<p>This is an RFI and not a Request for Quotations and is not to be construed as a commitment by MCC to issue a solicitation or to pay for any cost incurred in the preparation and submission of responses to this RFI.</p> \n<p><br></p> \n<p>Responding to this RFI will not give any advantage to any organization in a subsequent procurement and will not lead to an organizational conflict of interest. Responses will strictly be held confidential and used for market research purposes only.</p> \n<p><br></p> \n<p>Please send responses to this RFI via email t<strong>o </strong><a target=\"_blank\">kapakasay@mcc.gov</a> and <a target=\"_blank\">maxwellre@mcc.gov</a> with the subject title “[Company Name] Response to RFI #95332421K0004”, no later than <strong>12:00 PM Eastern Time on Thursday, February 18, 2021</strong>.&nbsp;You will receive an electronic confirmation acknowledging receipt of your response.</p> \n<p><br></p> \n<p><strong style=\"color: black;\">Additionally, MCC will hold an online Industry Day about this </strong><strong>ALTIF Project</strong><strong style=\"color: black;\"> Community Engagement and other procurement opportunities under the Solomon Islands Threshold Program in late February 2021. MCC will share the link to the industry day information with respondents</strong><span style=\"color: black;\">, </span><strong style=\"color: black;\">please monitor beta.sam for additional updates</strong><span style=\"color: black;\">.</span></p> \n<p><br></p> \n<p>After submission of the RFI responses, MCC may request additional information from some or all RFI respondents individually to further clarify the input provided.</p> \n<p><br></p> \n<p><em>Please note:</em></p> \n<p>(a) MCC does not intend to award a cooperative agreement on the basis of this RFI or to otherwise pay for the information solicited.</p> \n<p>(b) Although the term “bid” is used in this Request for Information, your response will be treated as information only. It shall not be construed as a grant application.</p> \n<p>(c) This RFI is issued for the sole purpose of conducting market research and gathering comments on MCC’s draft requirements and procurement strategy.</p> \n<p>(d) This RFI is issued solely for information and planning purposes and does not constitute a Request for Applications (RFA), Annual Program Statement (APS) or any other type of funding opportunity(ies). Responses to this RFI shall not be portrayed as concept papers or applications and will not be accepted by the U.S. Government (USG) to form a binding agreement. This RFI is not to be construed as a commitment by the USG to issue any funding opportunity, to conduct discussions, or ultimately award of any award on the basis of this RFI, or to pay for any information submitted as a result of this request. Responders are solely responsible for all expenses associated with responding to this RFI.</p> \n<p><br></p> \n<p>Thank you for your assistance and interest in the Solomon Islands Threshold Program. We look forward to hearing from you.</p>",
+        "costSharing": true,
+        "fundingDescLinkUrl": "https://beta.sam.gov/",
+        "fundingDescLinkDesc": "beta.sam.gov",
+        "agencyContactName": "Yembeka Kapakasa\r\nSenior Agreement Specialist (Contractor)",
+        "agencyContactPhone": "202-772-6600",
+        "agencyContactEmail": "kapakasay@mcc.gov",
+        "agencyContactEmailDesc": "kapakasay@mcc.gov",
+        "agencyCode": "MCC",
+        "sendEmail": "Y",
+        "estApplicationResponseDate": "Feb 18, 2021 12:00:00 AM EST",
+        "estApplicationResponseDateDesc": "Responses to this Request for Information are due no later than 12:00 pm ET on Thursday, February 18, 2021",
+        "fiscalYear": 2021,
+        "createTimeStamp": "Feb 04, 2021 02:53:56 PM EST",
+        "createdDate": "Feb 04, 2021 02:33:33 PM EST",
+        "lastUpdatedDate": "Feb 04, 2021 02:53:56 PM EST",
+        "agencyDetails": {
+          "code": "MCC",
+          "seed": "MCC",
+          "agencyName": "Millennium Challenge Corporation",
+          "agencyCode": "MCC",
+          "topAgencyCode": "MCC"
+        },
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "CD",
+            "description": "Community Development"
+          }
+        ],
+        "postingDateStr": "2021-02-04-00-00-00",
+        "estApplicationResponseDateStr": "2021-02-18-00-00-00",
+        "createTimeStampStr": "2021-02-04-14-53-56"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 49516,
+          "opportunityId": 331311,
+          "folderType": "Other Supporting Documents",
+          "folderName": "RFI No. 95332420K0004",
+          "zipLobSize": 230586,
+          "createdDate": "Feb 04, 2021 02:44:55 PM EST",
+          "lastUpdatedDate": "Feb 04, 2021 02:45:16 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 304098,
+              "opportunityId": 331311,
+              "mimeType": "application/pdf",
+              "fileName": "Request for Information (RFI) No.  95332421K0004 - Community Engagement Services for the Solomon Islands Threshold Program.pdf",
+              "fileDescription": "Request for Information (RFI) No.  95332421K0004 - Community Engagement Services for the Solomon Islands Threshold Program",
+              "fileLobSize": 242647,
+              "createdDate": "Feb 04, 2021 02:45:16 PM EST",
+              "synopsisAttFolderId": 49516
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 388263,
+          "opportunityId": 331311,
+          "cfdaNumber": "85.002",
+          "programTitle": "MCC Foreign Assistance for Overseas Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/search2",
+  "keyword": "stormwater",
+  "fetched_at": "2026-05-16T14:05:56.912Z",
+  "rows_requested": 35,
+  "hit_count": 8,
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InNvcUhmU0RTSlh5cUMyanBMM0lVQ1NRV2FrWTlJQi9pM1JGVi9TQlpqbFE9Ig.Jv_n0BYlWX93xb6DDwqU4w6YRwUI7i0XeEALYOdjLSo",
+    "data": {
+      "searchParams": {
+        "resultType": "json",
+        "searchOnly": false,
+        "oppNum": "",
+        "cfda": "",
+        "sortBy": "",
+        "oppStatuses": "forecasted|posted",
+        "startRecordNum": 0,
+        "eligibilities": "",
+        "fundingInstruments": "",
+        "fundingCategories": "",
+        "agencies": "",
+        "rows": 35,
+        "keyword": "stormwater",
+        "keywordEncoded": true
+      },
+      "hitCount": 8,
+      "startRecord": 0,
+      "oppHits": [
+        {
+          "id": "348809",
+          "number": "RD-RUS-CY22DISASTER",
+          "title": "Calendar Year 2022 Disaster Water Grants",
+          "agencyCode": "USDA-RUS",
+          "agency": "Rural Utilities Service",
+          "openDate": "06/22/2023",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "10.760"
+          ]
+        },
+        {
+          "id": "361415",
+          "number": "R26AS00016",
+          "title": "WaterSMART Drought Response Program",
+          "agencyCode": "DOI-BOR",
+          "agency": "Bureau of Reclamation",
+          "openDate": "03/05/2026",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "15.514"
+          ]
+        },
+        {
+          "id": "359701",
+          "number": "PAR-26-106",
+          "title": "Development of Collaborative Research Facilities or Research-Resource Facilities (C06 Clinical Trial Not Allowed)",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "03/06/2026",
+          "closeDate": "01/25/2028",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "93.310",
+            "93.352"
+          ]
+        },
+        {
+          "id": "351567",
+          "number": "693JJ324NF00006",
+          "title": "Fiscal Year (FY) 2023 through FY 2026 Bridge Investment Program, Planning and Bridge Project Grants",
+          "agencyCode": "DOT-FHWA",
+          "agency": "DOT Federal Highway Administration ",
+          "openDate": "12/20/2023",
+          "closeDate": "06/29/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "20.205"
+          ]
+        },
+        {
+          "id": "358015",
+          "number": "DHS-24-MT-029-000-98",
+          "title": "Fiscal Year 2024 Flood Mitigation Assistance",
+          "agencyCode": "DHS-DHS",
+          "agency": "Department of Homeland Security - FEMA",
+          "openDate": "01/06/2025",
+          "closeDate": "08/06/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "97.029"
+          ]
+        },
+        {
+          "id": "362394",
+          "number": "R26AS00017",
+          "title": "WaterSMART Enhancing Water Resources Projects",
+          "agencyCode": "DOI-BOR",
+          "agency": "Bureau of Reclamation",
+          "openDate": "05/14/2026",
+          "closeDate": "09/08/2027",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "15.507"
+          ]
+        },
+        {
+          "id": "359225",
+          "number": "EDA-DISASTER-2025",
+          "title": "EDA FY25 Disaster Supplemental",
+          "agencyCode": "DOC-EDA",
+          "agency": "Economic Development Administration",
+          "openDate": "06/04/2025",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.307"
+          ]
+        },
+        {
+          "id": "346815",
+          "number": "PWEAA2023",
+          "title": "FY 2025 EDA Public Works and Economic Adjustment Assistance Programs",
+          "agencyCode": "DOC-EDA",
+          "agency": "Economic Development Administration",
+          "openDate": "03/14/2023",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.307",
+            "11.300"
+          ]
+        }
+      ],
+      "oppStatusOptions": [
+        {
+          "label": "posted",
+          "value": "posted",
+          "count": 8
+        },
+        {
+          "label": "closed",
+          "value": "closed",
+          "count": 41
+        },
+        {
+          "label": "archived",
+          "value": "archived",
+          "count": 605
+        },
+        {
+          "label": "forecasted",
+          "value": "forecasted",
+          "count": 0
+        }
+      ],
+      "dateRangeOptions": [
+        {
+          "label": "Posted Date - Last 3 Days",
+          "value": "3",
+          "count": 1
+        },
+        {
+          "label": "Posted Date - Last 1 Week",
+          "value": "7",
+          "count": 1
+        },
+        {
+          "label": "Posted Date - Last 2 Weeks",
+          "value": "14",
+          "count": 1
+        },
+        {
+          "label": "Posted Date - Last 3 Weeks",
+          "value": "21",
+          "count": 1
+        },
+        {
+          "label": "Posted Date - Last 4 Weeks",
+          "value": "28",
+          "count": 1
+        },
+        {
+          "label": "Posted Date - Last 5 Weeks",
+          "value": "35",
+          "count": 1
+        },
+        {
+          "label": "Posted Date - Last 6 Weeks",
+          "value": "42",
+          "count": 1
+        },
+        {
+          "label": "Posted Date - Last 7 Weeks",
+          "value": "49",
+          "count": 1
+        },
+        {
+          "label": "Posted Date - Last 8 Weeks",
+          "value": "56",
+          "count": 1
+        }
+      ],
+      "suggestion": "",
+      "eligibilities": [
+        {
+          "label": "City or township governments",
+          "value": "02",
+          "count": 4
+        },
+        {
+          "label": "County governments",
+          "value": "01",
+          "count": 4
+        },
+        {
+          "label": "For profit organizations other than small businesses",
+          "value": "22",
+          "count": 1
+        },
+        {
+          "label": "Independent school districts",
+          "value": "05",
+          "count": 2
+        },
+        {
+          "label": "Native American tribal governments (Federally recognized)",
+          "value": "07",
+          "count": 4
+        },
+        {
+          "label": "Native American tribal organizations (other than Federally recognized tribal governments)",
+          "value": "11",
+          "count": 2
+        },
+        {
+          "label": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education",
+          "value": "12",
+          "count": 3
+        },
+        {
+          "label": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education",
+          "value": "13",
+          "count": 3
+        },
+        {
+          "label": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)",
+          "value": "25",
+          "count": 8
+        },
+        {
+          "label": "Private institutions of higher education",
+          "value": "20",
+          "count": 2
+        },
+        {
+          "label": "Public and State controlled institutions of higher education",
+          "value": "06",
+          "count": 2
+        },
+        {
+          "label": "Public housing authorities/Indian housing authorities",
+          "value": "08",
+          "count": 1
+        },
+        {
+          "label": "Small businesses",
+          "value": "23",
+          "count": 1
+        },
+        {
+          "label": "Special district governments",
+          "value": "04",
+          "count": 2
+        },
+        {
+          "label": "State governments",
+          "value": "00",
+          "count": 3
+        }
+      ],
+      "fundingCategories": [
+        {
+          "label": "Community Development",
+          "value": "CD",
+          "count": 1
+        },
+        {
+          "label": "Health",
+          "value": "HL",
+          "count": 1
+        },
+        {
+          "label": "Natural Resources",
+          "value": "NR",
+          "count": 2
+        },
+        {
+          "label": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)",
+          "value": "O",
+          "count": 3
+        },
+        {
+          "label": "Transportation",
+          "value": "T",
+          "count": 1
+        }
+      ],
+      "fundingInstruments": [
+        {
+          "label": "Cooperative Agreement",
+          "value": "CA",
+          "count": 3
+        },
+        {
+          "label": "Grant",
+          "value": "G",
+          "count": 8
+        }
+      ],
+      "agencies": [
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Rural Utilities Service",
+              "value": "USDA-RUS",
+              "count": 1
+            }
+          ],
+          "label": "Department of Agriculture",
+          "value": "USDA",
+          "count": 1
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Economic Development Administration",
+              "value": "DOC-EDA",
+              "count": 2
+            }
+          ],
+          "label": "Department of Commerce",
+          "value": "DOC",
+          "count": 2
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "National Institutes of Health",
+              "value": "HHS-NIH11",
+              "count": 1
+            }
+          ],
+          "label": "Department of Health and Human Services",
+          "value": "HHS",
+          "count": 1
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Department of Homeland Security - FEMA",
+              "value": "DHS-DHS",
+              "count": 1
+            }
+          ],
+          "label": "Department of Homeland Security",
+          "value": "DHS",
+          "count": 1
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Bureau of Reclamation",
+              "value": "DOI-BOR",
+              "count": 2
+            }
+          ],
+          "label": "Department of the Interior",
+          "value": "DOI",
+          "count": 2
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "DOT Federal Highway Administration ",
+              "value": "DOT-FHWA",
+              "count": 1
+            }
+          ],
+          "label": "Department of Transportation",
+          "value": "DOT",
+          "count": 1
+        }
+      ],
+      "accessKey": "",
+      "errorMsgs": []
+    }
+  }
+}

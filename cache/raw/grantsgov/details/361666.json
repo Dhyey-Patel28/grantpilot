@@ -1,0 +1,365 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361666",
+  "fetched_at": "2026-05-16T14:09:05.181Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjIybFF1bXFqaEtMN1RGM20zUkJqV2Q1WTRaTXEzYmszNFJqZmFBZUVjakU9Ig.EYK5tUfpyUNii9eHi3gTydCIXKDGfq56aqR3-Xu6ijI",
+    "data": {
+      "id": 361666,
+      "revision": 1,
+      "opportunityNumber": "OFOP0002567",
+      "opportunityTitle": "Accelerating Prosecution of Criminals and Terrorists in Lebanon by Digitizing Paper Criminal Court files",
+      "owningAgencyCode": "DOS-INL",
+      "listed": "L",
+      "publisherUid": "4449340775911576642",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361666,
+        "version": 2,
+        "agencyCode": "DOS-INL",
+        "agencyName": "Bureau of International Narcotics-Law Enforcement",
+        "agencyPhone": "202-890-9795",
+        "agencyAddressDesc": "Grantor Email",
+        "agencyDetails": {
+          "code": "INL",
+          "seed": "DOS-INL",
+          "agencyName": "Bureau of International Narcotics-Law Enforcement",
+          "agencyCode": "DOS-INL",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "202-890-9795",
+        "agencyContactName": "Bureau of International Narcotics-Law Enforcement",
+        "agencyContactDesc": "venettim@state.gov, StallworthS@state.gov, ChamichianAG@state.gov",
+        "agencyContactEmail": "venettim@state.gov",
+        "agencyContactEmailDesc": "Grantor Email",
+        "synopsisDesc": "<p>By digitizing criminal court files, the project will expedite investigations and prosecutions, ensuring that individuals accused of collaborating with Foreign Terrorist Organizations (FTO)s or Transnational Criminal Organizations (TCO)s, including those who threaten U.S. Interests, are held accountable. Enhanced digital access will also strengthen collaboration between U.S. and Lebanese Law Enforcement Agencies, enabling both countries to access criminal case files in minutes rather than months. This will significantly enhance the ability of U.S. agencies to investigate and disrupt FTO and TCO activities in Lebanon, directly supporting U.S. national security objectives.</p>",
+        "responseDate": "May 26, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&table=x_g_usd4_o_grant_funding_opportunity&sys_id=ed233d1647373ad067358810326d4311&view=Default",
+        "fundingDescLinkDesc": "Link to Opportunity in MyGrants",
+        "postingDate": "Mar 26, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "900000",
+        "estimatedFundingFormatted": "900,000",
+        "awardCeiling": "900000",
+        "awardCeilingFormatted": "900,000",
+        "awardFloor": "700000",
+        "awardFloorFormatted": "700,000",
+        "applicantEligibilityDesc": "Applicants must also meet the following requirements to be eligible to apply to this NOFO:\r\n&bull;\tExperience in Lebanon or similar Middle Eastern country that routinely deals with conflict.\r\n&bull;\tAt least 5 years&rsquo; experience working with a judicial system to document and digitize criminal or other case files.\r\n&bull;\tSuccessfully digitized court case files for a non-U.S. partner government.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 08, 2026 12:46:49 PM EDT",
+        "modComments": "Additional Information on Applicant Eligibility",
+        "createdDate": "Mar 26, 2026 07:37:49 AM EDT",
+        "lastUpdatedDate": "Mar 26, 2026 07:40:47 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "LJL",
+            "description": "Law, Justice and Legal Services"
+          }
+        ],
+        "responseDateStr": "2026-05-26-00-00-00",
+        "postingDateStr": "2026-03-26-00-00-00",
+        "createTimeStampStr": "2026-04-08-12-46-49"
+      },
+      "agencyDetails": {
+        "code": "INL",
+        "seed": "DOS-INL",
+        "agencyName": "Bureau of International Narcotics-Law Enforcement",
+        "agencyCode": "DOS-INL",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79069,
+          "opportunityId": 361666,
+          "folderType": "Full Announcement",
+          "folderName": "NOFO & INL Templates",
+          "zipLobSize": 774782,
+          "createdDate": "Mar 26, 2026 07:41:11 AM EDT",
+          "lastUpdatedDate": "Mar 26, 2026 07:41:39 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350733,
+              "opportunityId": 361666,
+              "mimeType": "application/x-zip-compressed",
+              "fileName": "FY2026 v.1 Open-Source Templates (Grants.gov).zip",
+              "fileDescription": "INL Templates",
+              "fileLobSize": 202908,
+              "createdDate": "Mar 26, 2026 07:41:39 AM EDT",
+              "synopsisAttFolderId": 79069
+            },
+            {
+              "id": 350732,
+              "opportunityId": 361666,
+              "mimeType": "application/pdf",
+              "fileName": "NOFO_Lebanon_Crime Files_OFOP0002567_FINAL.pdf",
+              "fileDescription": "NOFO",
+              "fileLobSize": 591093,
+              "createdDate": "Mar 26, 2026 07:41:24 AM EDT",
+              "synopsisAttFolderId": 79069
+            }
+          ]
+        },
+        {
+          "id": 79204,
+          "opportunityId": 361666,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Questions & Answers",
+          "zipLobSize": 27312,
+          "createdDate": "Apr 08, 2026 09:08:52 AM EDT",
+          "lastUpdatedDate": "Apr 08, 2026 12:45:57 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351035,
+              "opportunityId": 361666,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "OFOP0002567 - Questions and Answers (2).docx",
+              "fileDescription": "OFOP0002567 - Questions and Answers",
+              "fileLobSize": 34160,
+              "createdDate": "Apr 08, 2026 09:09:34 AM EDT",
+              "lastUpdatedDate": "Apr 08, 2026 12:45:57 PM EDT",
+              "synopsisAttFolderId": 79204
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [
+        {
+          "id": {
+            "opportunityId": 361666,
+            "attType": "D",
+            "createdDate": "Apr 08, 2026 12:46:49 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Apr 08, 2026"
+          },
+          "changeComments": "Updated Q&A response from INL is located within the 'Related Documents' section under 'Other Supporting Documents' folder of this NOFO on grants.gov"
+        },
+        {
+          "id": {
+            "opportunityId": 361666,
+            "attType": "D",
+            "createdDate": "Apr 08, 2026 09:11:27 AM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Apr 08, 2026"
+          },
+          "changeComments": "INL's Q&A response posted to the 'Related Documents' section of the NOFO on grants.gov"
+        }
+      ],
+      "cfdas": [
+        {
+          "id": 432427,
+          "opportunityId": 361666,
+          "cfdaNumber": "19.703",
+          "programTitle": "Criminal Justice Systems"
+        },
+        {
+          "id": 432428,
+          "opportunityId": 361666
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361666,
+            "revision": 0
+          },
+          "opportunityId": 361666,
+          "revision": 0,
+          "opportunityNumber": "OFOP0002567",
+          "opportunityTitle": "Accelerating Prosecution of Criminals and Terrorists in Lebanon by Digitizing Paper Criminal Court files",
+          "owningAgencyCode": "DOS-INL",
+          "publisherUid": "4449340775911576642",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361666,
+              "revision": 0
+            },
+            "opportunityId": 361666,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOS-INL",
+            "agencyDetails": {
+              "code": "INL",
+              "seed": "DOS-INL",
+              "agencyName": "Bureau of International Narcotics-Law Enforcement",
+              "agencyCode": "DOS-INL",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "202-890-9795",
+            "agencyContactName": "Bureau of International Narcotics-Law Enforcement",
+            "agencyContactDesc": "venettim@state.gov, StallworthS@state.gov, ChamichianAG@state.gov",
+            "synopsisDesc": "By digitizing criminal court files, the project will expedite investigations and prosecutions, ensuring that individuals accused of collaborating with Foreign Terrorist Organizations (FTO)s or Transnational Criminal Organizations (TCO)s, including those who threaten U.S. Interests, are held accountable.  Enhanced digital access will also strengthen collaboration between U.S. and Lebanese Law Enforcement Agencies, enabling both countries to access criminal case files in minutes rather than months. This will significantly enhance the ability of U.S. agencies to investigate and disrupt FTO and TCO activities in Lebanon, directly supporting U.S. national security objectives.",
+            "responseDate": "May 26, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&table=x_g_usd4_o_grant_funding_opportunity&sys_id=ed233d1647373ad067358810326d4311&view=Default",
+            "fundingDescLinkDesc": "Link to Opportunity in MyGrants",
+            "postingDate": "Mar 26, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "900000",
+            "estimatedFundingFormatted": "900,000",
+            "awardCeiling": "900000",
+            "awardCeilingFormatted": "900,000",
+            "awardFloor": "700000",
+            "awardFloorFormatted": "700,000",
+            "applicantEligibilityDesc": "",
+            "createTimeStamp": "Mar 26, 2026 07:37:49 AM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 26, 2026 07:40:47 AM EDT",
+            "createdDate": "Mar 26, 2026 07:37:49 AM EDT",
+            "lastUpdatedDate": "Mar 26, 2026 07:37:49 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "LJL",
+                "description": "Law, Justice and Legal Services"
+              }
+            ],
+            "responseDateStr": "2026-05-26-00-00-00",
+            "postingDateStr": "2026-03-26-00-00-00",
+            "createTimeStampStr": "2026-03-26-07-37-49"
+          },
+          "cfdas": [
+            {
+              "id": 432427,
+              "opportunityId": 361666,
+              "revision": 0,
+              "cfdaNumber": "19.703",
+              "programTitle": "Criminal Justice Systems"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292246,
+          "topportunityId": 361666,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "OFOP0002567",
+          "opportunityTitle": "Accelerating Prosecution of Criminals and Terrorists in Lebanon by Digitizing Paper Criminal Court files",
+          "openingDate": "2026-03-26",
+          "closingDate": "2026-05-26",
+          "owningAgencyCode": "DOS-INL",
+          "agencyDetails": {
+            "code": "INL",
+            "seed": "DOS-INL",
+            "agencyName": "Bureau of International Narcotics-Law Enforcement",
+            "agencyCode": "DOS-INL",
+            "topAgencyCode": "DOS"
+          },
+          "topAgencyDetails": {
+            "code": "DOS",
+            "seed": "DOS",
+            "agencyName": "Department of State",
+            "agencyCode": "DOS",
+            "topAgencyCode": "DOS"
+          },
+          "contactInfo": "Simonique L Stallworth\r\nGrantor\r\nE-mail: stallworths@state.gov\r\nPhone: 2027391969",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 5,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 26, 2026 07:42:40 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292246",
+          "openingDateStr": "2026-03-26-00-00-00",
+          "closingDateStr": "2026-05-26-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 26, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "agencyAddressDesc",
+        "agencyContactEmail",
+        "agencyContactEmailDesc",
+        "synopsisDesc",
+        "applicantEligibilityDesc",
+        "createTimeStamp",
+        "applicantTypes"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

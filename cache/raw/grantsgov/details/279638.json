@@ -1,0 +1,205 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "279638",
+  "fetched_at": "2026-05-16T14:06:16.037Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InY3WUFLZTFMeFA5MXdHSWkzeXNBZ3BDWW93MFRBMmdMRytBTXNRQWxDQUk9Ig.n_IZNt6lXwxtOtFsABEeMLXmhf0_PlI9RIl5sBLWv9c",
+    "data": {
+      "id": 279638,
+      "revision": 0,
+      "opportunityNumber": "RDBCP-REAP-RES-EEI-2016",
+      "opportunityTitle": "Renewable Energy Systems and Energy Efficiency Improvements Program",
+      "owningAgencyCode": "USDA-RBCS",
+      "listed": "L",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "M",
+        "description": "Mandatory"
+      },
+      "synopsis": {
+        "opportunityId": 279638,
+        "version": 1,
+        "agencyCode": "USDA-RBCS",
+        "agencyName": "Business and Cooperative Programs",
+        "agencyPhone": "202-720-1914 ",
+        "agencyAddressDesc": "Refer to energy coordinator list via link posted above.",
+        "agencyDetails": {
+          "code": "USDA-RBCS",
+          "seed": "USDA-RBCS",
+          "agencyName": "Rural Business-Cooperative Service ",
+          "agencyCode": "USDA-RBCS",
+          "topAgencyCode": "USDA"
+        },
+        "topAgencyDetails": {
+          "code": "USDA",
+          "seed": "USDA",
+          "agencyName": "Department of Agriculture",
+          "agencyCode": "USDA",
+          "topAgencyCode": "USDA"
+        },
+        "agencyContactPhone": "202-720-1914 ",
+        "agencyContactName": "Business and Cooperative Programs",
+        "agencyContactDesc": "State Energy Coordinator  \r\nhttp://www.rd.usda.gov/files/RBS_StateEnergyCoordinators.pdf",
+        "agencyContactEmail": "Refer to energy coordinator list via link posted above.",
+        "agencyContactEmailDesc": "Refer to energy coordinator list via link posted above.",
+        "synopsisDesc": "REAP Renewable Energy Systems and Energy Efficiency Improvement Program.\r\n\r\nRefer to Application Package AND Application Instruction links to obtain all necessary forms for a complete application.\r\n\r\nContact State Energy Coordinators with questions: http://www.rd.usda.gov/files/RBS_StateEnergyCoordinators.pdf",
+        "responseDateDesc": "REAP Applications are accepted year-round.\r\n\r\nFor applicants requesting grants of $20,000 or less, that wish to have their application compete for the &quot;Grants of $20,000 or less set aside&quot;, complete applications must be received no later than 4:30pm local time on: November 2, 2015, or May 2, 2016.\r\n\r\nFor applicants requesting grant funds of over $20,000 or funding for a combination grant and guaranteed loan, complete applications must be recevied no later than 4:30pm local time on May 2, 2016. ",
+        "fundingDescLinkUrl": "http://www.rd.usda.gov/programs-services/rural-energy-america-program-renewable-energy-systems-energy-efficiency",
+        "fundingDescLinkDesc": "REAP Renewable Energy Systems and Energy Efficiency Improvements Program",
+        "postingDate": "Oct 13, 2015 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "1000",
+        "estimatedFunding": "35400000",
+        "estimatedFundingFormatted": "35,400,000",
+        "awardCeiling": "500000",
+        "awardCeilingFormatted": "500,000",
+        "awardFloor": "1500",
+        "awardFloorFormatted": "1,500",
+        "applicantEligibilityDesc": "Agricultural Producers",
+        "createTimeStamp": "Oct 13, 2015 02:25:35 PM EDT",
+        "createdDate": "Oct 13, 2015 02:25:35 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "AG",
+            "description": "Agriculture"
+          },
+          {
+            "id": "BC",
+            "description": "Business and Commerce"
+          },
+          {
+            "id": "EN",
+            "description": "Energy"
+          }
+        ],
+        "postingDateStr": "2015-10-13-00-00-00",
+        "createTimeStampStr": "2015-10-13-14-25-35"
+      },
+      "agencyDetails": {
+        "code": "USDA-RBCS",
+        "seed": "USDA-RBCS",
+        "agencyName": "Rural Business-Cooperative Service ",
+        "agencyCode": "USDA-RBCS",
+        "topAgencyCode": "USDA"
+      },
+      "topAgencyDetails": {
+        "code": "USDA",
+        "seed": "USDA",
+        "agencyName": "Department of Agriculture",
+        "agencyCode": "USDA",
+        "topAgencyCode": "USDA"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 17675,
+          "opportunityId": 279638,
+          "folderType": "Full Announcement",
+          "folderName": "1",
+          "zipLobSize": 182033,
+          "createdDate": "Oct 13, 2015 02:28:22 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 246456,
+              "opportunityId": 279638,
+              "attachmentRevision": 1,
+              "attachmentType": "Full Announcement",
+              "mimeType": "application/pdf",
+              "linkUrl": "reap nosa 2016-october 6 2015.pdf",
+              "fileName": "reap nosa 2016-october 6 2015.pdf",
+              "fileDescription": "REAP FY2016 NOSA",
+              "fileLobSize": 224322,
+              "createdDate": "Oct 13, 2015 02:28:22 PM EDT",
+              "fileExt": "PDF",
+              "synopsisAttFolderId": 17675
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 316059,
+          "opportunityId": 279638,
+          "cfdaNumber": "10.868",
+          "programTitle": "Rural Energy for America Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [
+        {
+          "id": 219171,
+          "topportunityId": 279638,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "RDBCP-REAP-RES-EEI-2016",
+          "opportunityTitle": "Renewable Energy Systems and Energy Efficiency Improvements Program",
+          "cfdaNumber": "10.868",
+          "closingDate": "Sep 30, 2016 12:00:00 AM EDT",
+          "owningAgencyCode": "USDA-RBCS",
+          "programTitle": "Rural Energy for America Program",
+          "contactInfo": "Contact your state energy coordinator: http://www.rd.usda.gov/files/RBS_StateEnergyCoordinators.pdf",
+          "electronicRequired": "N",
+          "expectedApplicationCount": 1000,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "zip",
+          "mimetype": "application/zip",
+          "lastUpdate": "Oct 17, 2015 07:17:21 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00219171",
+          "closingDateStr": "2016-09-30-00-00-00"
+        }
+      ],
+      "originalDueDateDesc": "REAP Applications are accepted year-round.\r\n\r\nFor applicants requesting grants of $20,000 or less, that wish to have their application compete for the &quot;Grants of $20,000 or less set aside&quot;, complete applications must be received no later than 4:30pm local time on: November 2, 2015, or May 2, 2016.\r\n\r\nFor applicants requesting grant funds of over $20,000 or funding for a combination grant and guaranteed loan, complete applications must be recevied no later than 4:30pm local time on May 2, 2016. ",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [
+        {
+          "sourceOpportunityId": 279638,
+          "opportunityId": 310029,
+          "opportunityNum": "RDBCP-REAP-RES-EEI-2019",
+          "opportunityTitle": "Renewable Energy Systems and Energy Efficiency Improvements Program",
+          "agencyCode": "USDA-RBCS",
+          "postedDate": "Oct 30, 2018",
+          "closeDate": "",
+          "comments": ""
+        }
+      ],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

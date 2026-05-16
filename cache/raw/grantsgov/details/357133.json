@@ -1,0 +1,144 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "357133",
+  "fetched_at": "2026-05-16T14:07:31.072Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldEenRGOXpJYVFkY3A0TVBBVG5zWlNzSDRkZy90RFpVQ0ZrdXE0TXNMbUU9Ig.4mBrDm6UawYVhUwY5azac4xEGDptoPgScBx-RGHw4Bs",
+    "data": {
+      "id": 357133,
+      "revision": 1,
+      "opportunityNumber": "THEHAGUE-FY25-01",
+      "opportunityTitle": "U.S. Embassy The Hague PD Annual Program Statement",
+      "owningAgencyCode": "DOS-NLD",
+      "listed": "L",
+      "publisherUid": "mabryga94",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "NLD",
+        "seed": "DOS-NLD",
+        "agencyName": "U.S. Mission to the Netherlands",
+        "agencyCode": "DOS-NLD",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "forecast": {
+        "opportunityId": 357133,
+        "version": 2,
+        "postingDate": "Nov 18, 2024 12:00:00 AM EST",
+        "forecastDesc": "<p>ANNUAL PROGRAM STATEMENT</p><p>Funding Opportunity Title: U.S. Embassy The Hague PD Annual Program Statement</p><p>Funding Opportunity Number: PD-THEHAGUE-FY25-01</p><p>Deadline for Applications: November 15, 2024 (Additional review cycles with corresponding deadlines will be determined and announced in January 2025)</p><p>CFDA Number: 19.040 – Public Diplomacy Programs</p><p>CONTACT:</p><p>If you have any questions about the grant application process, please contact PD at: GrantsTheHague@state.gov.</p><p>IMPORTANT:</p><p>– Please note that only complete applications will be taken into consideration by the Grants Committee. An application is considered complete if the following guidelines are met:</p><p>• All required forms are attached;</p><p>1. Cover Sheet U.S. Embassy The Hague Small Grants Program</p><p>2. Mandatory application forms (download below)</p><p>3. Proposal Narrative</p><p>4. Budget Justification Narrative</p><p>• All documents are in English;</p><p>• All budgets are in U.S. dollars;</p><p>• All pages are numbered;</p><p>• Applicant has an active SAM.gov registration on the date of the application submission (not needed for individuals). Registration and renewal may take several weeks to complete; applicants are advised to start these tasks well before the deadline.</p><p>– The start date of the proposed program should not be less than 60 days after the application deadline.</p><p>Program Description. The U.S. Embassy The Hague’s Public Diplomacy Section (PD) is pleased to announce</p><p>funding is available through its Public Diplomacy Small Grants Program. This is an Annual Program Statement outlining our funding priorities, the strategic themes of focus, and the procedures for submitting requests for funding. Please carefully follow all instructions below.</p><p>Purpose of Small Grants: PD The Hague invites proposals for programs that strengthen ties between the United States and the Netherlands through programming that highlights shared values and promotes bilateral cooperation. All programs must include a U.S. component and/or American expert/s, organization/s, or institution/s in a specific field that will promote increased understanding of U.S. policy and perspectives among Dutch audiences.</p><p>Examples of PD Small Grants Program programs include, but are not limited to:</p><p>• Academic and professional lectures, seminars, and speaker programs;</p><p>• Artistic and cultural workshops, joint performances, and exhibitions;</p><p>• Professional, youth, and academic exchanges and programs;</p><p>• Radio, television, and social media programming or campaigns in support of the above objectives;</p><p>• Other creative ways to tell U.S. stories and connect U.S. and Dutch audiences.</p><p>Priority Program Areas:</p><p>Though all submitted projects will be reviewed, projects that advance one or more of the following priorities will be given preference:</p><p>• Reinforcing transatlantic security alliances (with a particular interest in applications related to the 2025 The Hague NATO Summit)</p><p>• Safeguarding democracy and combating disinformation</p><p>FEDERAL AWARD INFORMATION</p><p>Length of performance period: Up to 12 months</p><p>Award amounts: Awards typically range from $2,000 to $25,000 up to a maximum of $50,000</p><p>Total available funding: Approximately $150,000 for fiscal year 2025 (October 1, 2024 through September 30, 2025)</p><p>This notice is subject to the availability of funding.</p><p>Funding Instrument Type: Grant, Fixed Amount Award, or Cooperative Agreement.</p><p>Program Performance Period: Proposed programs should be completed in one year or less, unless there is a substantial justification for a longer period of performance.</p><p>ELIGIBILITY INFORMATION</p><p>Eligible Applicants The Public Diplomacy Section welcomes applications from both individuals and organizations based in the Netherlands or abroad. Registered not-for-profit organizations, including think tanks and civil society/non-governmental organizations, individuals, non-profit or educational institutions, and governmental institutions are eligible to apply. For-profit or commercial entities are not eligible to apply.</p><p>Cost Sharing or Matching Cost sharing and/or matching is not required.</p><p>Participants and Audiences The primary audience should be non-Americans within the Netherlands. Special consideration will be given to programs that reach youth and/or underserved communities and/or programs with geographic diversity within the Netherlands.</p><p>The following types of programs are not eligible for funding:</p><p>• Programs relating to partisan political activity;</p><p>• Charitable or development activities;</p><p>• Construction programs;</p><p>• Programs that support specific religious activities;</p><p>• Fund-raising campaigns;</p><p>• Lobbying for specific legislation or programs;</p><p>• Scientific research;</p><p>• Programs intended primarily for the growth or institutional development of the organization; or</p><p>• Programs that duplicate existing programs.</p><p>APPLICATION SUBMISSION INFORMATION AND FORMS</p><p>Content and Form of Application Submission Please follow all instructions below carefully. Proposals that do not meet the requirements of this announcement or fail to comply with the stated requirements will be ineligible.</p><p>Content of Application Please note that only complete applications will be taken into consideration by the Grants Committee. An application is considered complete if the following guidelines are met:</p><p>• All required forms are attached;</p><p>1. Mandatory application forms (download below)</p><p>2. Coversheet U.S. Embassy The Hague Small Grants Program</p><p>3. Proposal Narrative</p><p>4. Budget Justification Narrative</p><p>• All documents are in English;</p><p>• All budgets are in U.S. dollars;</p><p>• All pages are numbered;</p><p>• Applicant has an active www.sam.gov registration (not needed for individuals).</p><p>The following documents are required:</p><p>1. Summary Coversheet (Download here):</p><p>2. Mandatory application forms</p><p>• SF-424 (Application for Federal Assistance – organizations) or SF-424-I (Application for Federal Assistance – individuals)</p><p>• SF-424A (Budget Information for Non-Construction programs)</p><p>• SF-424B (Assurances for Non-Construction programs)</p><p>1. Proposal: The proposal should contain sufficient information that anyone not familiar with it would understand exactly what the applicant wants to do. You may use your own proposal format, but it must include all the items below.</p><p>• Proposal Summary: Short narrative that outlines the proposed program, including program objectives and anticipated impact.</p><p>• Introduction to the Organization or Individual applying: Description of past and present operations, showing ability to carry out the program, including information on all previous grants from the U.S. Embassy and/or U.S. government agencies.</p><p>• Problem Statement: Clear, concise, and well-supported statement of the problem to be addressed and why the proposed program is needed.</p><p>• Program Goals and Objectives: The “goals” describe what the program is intended to achieve. What aspect of the relationship between the United States and the Netherlands will be improved? The “objectives” refer to the intermediate accomplishments on the way to the goals. These should be achievable and measurable.</p><p>• Program Activities: Describe the program activities and how they will help achieve the objectives.</p><p>• Program Methods and Design: A description of how the program is expected to work to solve the stated problem and achieve the goal.</p><p>• Proposed Program Schedule: The proposed timeline for the program activities. Include the dates, times, and locations of planned activities and events.</p><p>• Program Partners: List the names and type of involvement of key partner organizations.</p><p>• Program Monitoring and Evaluation Plan: This is an important part of successful programs. Throughout the time frame of the grant, how will the activities be monitored to ensure they are happening in a timely manner, and how will the program be evaluated to make sure it is meeting the stated goals?</p><p>• Future Funding or Sustainability: Applicant’s plan for continuing the program beyond the grant period, or the availability of other resources, if applicable.</p><p>• Budget Justification Narrative: After filling out the SF-424A Budget (above), use a separate sheet of paper to describe each of the budget line items in detail. See section H. Other Information: Guidelines for Budget Submissions below for further information.</p><p>All application materials must be submitted by email to GrantsTheHague@state.gov</p><p>Required Registrations:</p><p>All organizations applying for grants (except individuals) must obtain these registrations. Registration and renewal may take several weeks and applicants are advised to start these</p><p>tasks well before the deadline. All initial registrations and subsequent renewals are always free of charge:</p><p>• www.SAM.gov registration, which will generate a UEI</p><p>• NCAGE/CAGE code</p><p>Any applicant with an exclusion in the System for Award Management (SAM) is not eligible to apply for an assistance award in accordance with the OMB guidelines at 2 CFR 180 that implement Executive Orders 12549 (3 CFR, 1986 Comp., p. 189) and 12689 (3 CFR, 1989 Comp., p. 235), “Debarment and Suspension.”</p><p>The Unique Entity Identifier (UEI) is one of the data elements mandated by Public Law 109-282, the Federal Funding Accountability and Transparency Act (FFATA), for all Federal awards. SAM.gov is the Federal government’s primary database for complying with FFATA reporting requirements. OMB designated SAM.gov as the central repository to facilitate applicant and recipient use of a single public website that consolidates data on all federal financial assistance. Applicants are required by law to register in SAM.gov.</p><p>Starting April 2022, the UEI will be assigned when an organization registers or renews its registration in SAM.gov at www.SAM.gov. To access SAM.gov, an organization is required to have a Login.gov account. Organizations can create an account at https://login.gov/ . As a reminder, organizations need to renew their SAM.gov registration annually and this process is free of charge.</p><p>Note: As of April 2022, a DUNS number is no longer required.</p><p>U.S.-based organizations: A CAGE code will be automatically assigned when the U.S. organizations registers in www.sam.gov . CAGE must be renewed every 5 years. Grantees may be asked for more information to be finalized and must comply with such requests for additional information.</p><p>Foreign-based organizations: Must apply for a NCAGE code before registering in SAM.gov. Click here to apply for a NCAGE code. NCAGE codes must be renewed every 5 years.</p><p>It is in the organization’s best interest to check if the CAGE or NCAGE code is active. Organizations are required to register or renew the CAGE or NCAGE code prior to registering or renewing www.sam.gov . Both registration and renewals for both CAGE and NCAGE can take up to 10 days. The organization’s legal address in NCAGE/CAGE must be identical to the address listed in SAM.gov . Even minor variations in the way the address is listed can cause significant delays.</p><p>SAM.gov requires all entities to renew their registration once per year in order to maintain an active registration status in SAM.gov. It is the responsibility of the applicant to ensure it has an active registration in SAM.gov.</p><p>If an organization plans to issue a sub-contract or sub-award, those sub-awardees must also have a unique entity identifier (UEI number). Those entities can register for a UEI only at SAM.gov.</p><p>If an organization does not have an active registration in SAM.gov prior to submitting an application, the application will be deemed ineligible. All organizations applying for grants (except individuals) must obtain these registrations, and the registrations are free of charge.</p><p>Submission Dates and Times</p><p>The Public Diplomacy Section will accept proposals on a rolling basis, and will convene the Grants Review Committee three times. The deadlines for submission are the following:</p><p>•November 15, 2024•TBD, 2025•TBD, 2025</p><p>Applications submitted at any time before the above-mentioned deadlines will be reviewed by the Grants Review Committee at the following committee meeting.</p><p>The Grants Committee aims to review all proposals within 30 days of the deadline, and applicants can expect a response within 60 days of the deadline.</p><p>Funding Restrictions</p><p>Costs for food and drinks can only be a minimal part of the budget (no more than 10 percent) and award funds cannot be used for alcoholic beverages.</p><p>FEDERAL AWARD ADMINISTRATION INFORMATION</p><p>Federal Award Notices The fixed amount award, grant award, or cooperative agreement will be written, signed, awarded, and administered by the Grant Officer. The assistance award agreement is the authorizing document and it will be provided to the recipient for review and signature by email. The recipient may only start incurring program expenses beginning on the start date shown on the grant award document signed by the Grant Officer.</p><p>If a proposal is selected for funding, the Department of State has no obligation to provide any additional future funding. Renewal of an award to increase funding or extend the period of performance is at the discretion of the Department of State.</p><p>Issuance of this NOFO does not constitute an award commitment on the part of the U.S. government, nor does it commit the U.S. government to pay for costs incurred in the preparation and submission of proposals. Further, the U.S. government reserves the right to reject any or all proposals received.</p><p>Administrative and National Policy Requirements Terms and Conditions: Before submitting an application, applicants should review all the terms and conditions and required certifications which will apply to this award, to ensure that they will be able to comply. These include: 2 CFR 200, 2 CFR 600, Certifications and Assurances, and the Department of State standard terms and conditions, all of which are available on the State Department’s website . Note the U.S. Flag branding and marking requirements in the standard terms and conditions.</p><p>Reporting Recipients will be required to report on the outcome of the project. The award document will specify the frequency of project reports.</p><p>OTHER INFORMATION:</p><p>Guidelines for Budget Justification</p><p>Personnel: Describe the wages, salaries, and benefits of temporary or permanent staff who will be working directly for the applicant on the program, and the percentage of their time that will be spent on the program.</p><p>Travel: Estimate the costs of travel, visas or entry permits, lodging, and per diem for this program. If the program involves international travel, include a brief statement of justification for that travel. Please note all Federal government financed international air transportation is required by 49 U.S.C. 40118, commonly referred to as the “Fly America Act,” to use U.S. air carrier service for all air travel and cargo transportation services. Applicants are advised to budget accordingly.</p><p>Equipment: Describe any machinery, furniture, or other personal property that is required for the program, which has a useful life of more than one year (or a life longer than the duration of the program), and costs at least $5,000 per unit.</p><p>Supplies: List and describe all items and materials, including any computer devices, that are needed for the program. If an item costs more than $5,000 per unit, then list the item in the budget under Equipment.</p><p>Contractual: Describe goods and services the applicant plans to acquire through a contract with a vendor. Also describe any sub-awards to non-profit partners that will help carry out the program activities.</p><p>Other Direct Costs: Describe other costs directly associated with the program, which do not fit in the other categories. For example, shipping costs for materials and equipment or applicable taxes. All “Other” or “Miscellaneous” expenses must be itemized and explained.</p><p>Indirect Costs: These are costs that cannot be linked directly to the program activities, such as overhead costs needed to help keep the organization operating. If your organization has a Negotiated Indirect Cost Rate (NICRA) and includes NICRA charges in the budget, attach a copy of your latest NICRA. Organizations that have never had a NICRA may request indirect costs of 10 percent of the modified total direct costs as defined in 2 CFR 200.68.</p><p>“Cost Sharing” refers to contributions from the organization or other entities other than the U.S. Embassy. It also includes in-kind contributions such as volunteers’ time and donated venues. Cost sharing is not required.</p><p>Alcoholic Beverages: Please note that award funds cannot be used for alcoholic beverages.</p><p>CONTACT:</p><p>If you have any questions about the grant application process, please contact GrantsTheHague@state.gov.</p><p>Note: Organizations are encouraged to review this NOFO carefully. The U.S. Department of State is available to respond to general inquiries, but cannot become directly involved as the organization prepares program proposals for submission. Once an application has been submitted, State Department officials and staff — both in the Department and at embassies overseas — may not discuss this competition with applicants until the entire proposal review process is completed.</p>",
+        "fundingActivityCategoryDesc": "Proposals for programs that strengthen ties between the United States and the Netherlands.",
+        "costSharing": false,
+        "numberOfAwards": "25",
+        "estimatedFunding": "50000",
+        "awardCeiling": "25000",
+        "awardFloor": "2000",
+        "fundingDescLinkUrl": "https://nl.usembassy.gov/grant-program/",
+        "fundingDescLinkDesc": "https://nl.usembassy.gov/grant-program/",
+        "agencyContactName": "Grants Committee",
+        "agencyContactPhone": "+31000000000",
+        "agencyContactEmail": "GrantsTheHague@state.gov",
+        "agencyContactEmailDesc": "2025 Grant Requests",
+        "agencyCode": "DOS-NLD",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "The Public Diplomacy Section welcomes applications from both individuals and organizations based in the Netherlands or abroad. Registered not-for-profit organizations, including think tanks and civil society/non-governmental organizations, individuals, non-profit or educational institutions, and governmental institutions are eligible to apply. For-profit or commercial entities are not eligible to apply.",
+        "estApplicationResponseDateDesc": "",
+        "fiscalYear": 2025,
+        "modComments": "Grant contact information adjusted.",
+        "createTimeStamp": "Jan 07, 2025 08:04:54 AM EST",
+        "createdDate": "Nov 15, 2024 09:27:46 AM EST",
+        "lastUpdatedDate": "Jan 07, 2025 08:04:54 AM EST",
+        "agencyDetails": {
+          "code": "NLD",
+          "seed": "DOS-NLD",
+          "agencyName": "U.S. Mission to the Netherlands",
+          "agencyCode": "DOS-NLD",
+          "topAgencyCode": "DOS"
+        },
+        "estimatedFundingFormatted": "50,000",
+        "awardCeilingFormatted": "25,000",
+        "awardFloorFormatted": "2,000",
+        "applicantTypes": [
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "postingDateStr": "2024-11-18-00-00-00",
+        "createTimeStampStr": "2025-01-07-08-04-54"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 75479,
+          "opportunityId": 357133,
+          "folderType": "Full Announcement",
+          "folderName": "U.S. Embassy The Hague PD Annu",
+          "zipLobSize": 151941,
+          "createdDate": "Nov 15, 2024 09:30:23 AM EST",
+          "lastUpdatedDate": "Nov 15, 2024 09:31:26 AM EST",
+          "synopsisAttachments": [
+            {
+              "id": 344225,
+              "opportunityId": 357133,
+              "mimeType": "application/pdf",
+              "fileName": "APS - FY2025 - Final.pdf",
+              "fileDescription": "U.S. Embassy The Hague PD Annual Program Statement 2025",
+              "fileLobSize": 161612,
+              "createdDate": "Nov 15, 2024 09:31:26 AM EST",
+              "synopsisAttFolderId": 75479
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 425099,
+          "opportunityId": 357133,
+          "cfdaNumber": "19.040",
+          "programTitle": "Public Diplomacy Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

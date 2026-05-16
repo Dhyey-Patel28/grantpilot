@@ -1,0 +1,867 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "339728",
+  "fetched_at": "2026-05-16T14:06:37.170Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjkrZ2Z5SmxTVnh4QU5mdkxwdlJjajNpb0tPbzkybTE2ZEg3Vml4Ui9LalU9Ig.hNXOr2zZ5DSYtv_75Q9voQysMsrae-asbHZY3303H64",
+    "data": {
+      "id": 339728,
+      "revision": 7,
+      "opportunityNumber": "W911NF-22-S-0011",
+      "opportunityTitle": "Tactical Behaviors for Autonomous Maneuver",
+      "owningAgencyCode": "DOD-AMC",
+      "listed": "L",
+      "publisherUid": "christopher.d.justice4",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 339728,
+        "version": 8,
+        "agencyCode": "DOD-AMC",
+        "agencyName": "Christopher D Justice\nContract Specialist",
+        "agencyPhone": "9195494287",
+        "agencyAddressDesc": "TBAM-CRP Email Address",
+        "agencyDetails": {
+          "code": "AMC",
+          "seed": "DOD-AMC",
+          "agencyName": "Dept of the Army -- Materiel Command",
+          "agencyCode": "DOD-AMC",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "9195494287",
+        "agencyContactName": "Christopher D Justice\nContract Specialist",
+        "agencyContactDesc": "Christopher D Justice\r\nContract Specialist",
+        "agencyContactEmail": "usarmy.adelphi.devcom-arl.mbx.tbam-crp-questions@army.mil",
+        "agencyContactEmailDesc": "TBAM-CRP Email Address",
+        "synopsisDesc": "<p>**UPDATE 5 APRIL 2024: The proposal submission date has been updated to 24 April 2024.&nbsp;The FOA has been amended to reflect this submission date and include a Question and Answer document based on questions received from interested applicants.&nbsp;Other than the updated proposal submission date in the FOA, the actual FOA Amendment has not been changed. However, the answers provided in the Q&amp;A document are considered part of the FOA Amendment.**</p>\n<p><br></p>\n<p>**CYCLE 2 UPDATE 20 MARCH 2024 - THE OPPORTUNITY WEBINAR FOR CYCLE 2 WILL BE HELD ONLINE VIA MS TEAMS AT 1500 EDT ON 22 MARCH 2024 AT THE FOLLOWING LINK:</p>\n<p><br></p>\n<p><a href=\"https://dod.teams.microsoft.us/l/meetup-join/19%3adod%3ameeting_5fa41fe6fa874484b473d8a6ba7921c6%40thread.v2/0?context=%7b%22Tid%22%3a%22fae6d70f-954b-4811-92b6-0530d6f84c43%22%2c%22Oid%22%3a%22e9f6fc39-8f22-44e5-8bd0-64f0cde32305%22%2c%22IsBroadcastMeeting%22%3atrue%7d\" target=\"_blank\">https://dod.teams.microsoft.us/l/meetup-join/19%3adod%3ameeting_5fa41fe6fa874484b473d8a6ba7921c6%40thread.v2/0?context=%7b%22Tid%22%3a%22fae6d70f-954b-4811-92b6-0530d6f84c43%22%2c%22Oid%22%3a%22e9f6fc39-8f22-44e5-8bd0-64f0cde32305%22%2c%22IsBroadcastMeeting%22%3atrue%7d</a></p>\n<p><br></p>\n<p>**UPDATE 14 MARCH 2024 - CYCLE 2 HAS BEEN POSTED TO THE ANNOUNCEMENT. PLEASE REVIEW THE UPDATED ANNOUNCEMENT IN FULL FOR SUBMISSION TIME, UPDATED TOPIC, AND FUNDING AMOUNT AND SCHEDULE CHANGES FROM CYCLE 1**</p>\n<p><br></p>\n<p>TACTICAL BEHAVIORS FOR AUTONOMOUS MANEUVER COLLABORATIVE RESEARCH PROGRAM (TBAM-CRP)</p>\n<p><br></p>\n<p>Future Army forces will be called upon to operate and maneuver in multi-domain</p>\n<p>operations (MDO), against a modern and capable peer adversary. The battlefield of the future</p>\n<p>may impose additional constraints on maneuver forces such as disruption in communication as</p>\n<p>well as positioning services. To field a highly capable fighting force in this future battlefield,</p>\n<p>novel tactics and doctrines leveraging nascent technologies in robotics and autonomous systems</p>\n<p>(RAS) will need to be developed. Teams of RAS will serve an increasingly critical role in the</p>\n<p>future force to deliver situational awareness, defend key locations or positions, or take point in</p>\n<p>dynamic and hazardous situations. Resilience to disruptions, failures, or unexpected scenarios, is</p>\n<p>a key quality for teams of RAS to operate alongside other future Army forces. The US Army</p>\n<p>Combat Capabilities Development Command (DEVCOM) Army Research Laboratory (ARL) is</p>\n<p>focused on developing fundamental understanding and informing the art-of-the-possible for</p>\n<p>warfighter concepts through research to greatly improve the scope of mission capabilities of</p>\n<p>teams of RAS, develop robust and resilient approaches to plan under extreme conditions of</p>\n<p>uncertainty, to learn coordinated strategies for groups of agents to achieve a common objective,</p>\n<p>all within a complex maneuver environment including adversaries. The Tactical Behaviors for</p>\n<p>Autonomous Maneuver Collaborative Research Program (TBAM-CRP) is focused on developing</p>\n<p>and experimentally evaluating coordinated and individual behaviors for small groups of</p>\n<p>autonomous agents to learn doctrinal as well as novel tactics for maneuvering in military relevant</p>\n<p>environments. The TBAM-CRP will leverage developments in other internal and extramural</p>\n<p>programs as well as identify new research directions to find novel solutions to these maneuver</p>\n<p>problems in analogical simulations representing complex realistic terrain.</p>\n<p><br></p>\n<p>The Tactical Behaviors for Autonomous Maneuver Collaborative Research Program (TBAM-CRP) will</p>\n<p>consist of a series of sprint efforts executed with annual program reviews. Each topic will be focused on</p>\n<p>addressing a different set of scientific areas which will support the research aims of an associated ARL</p>\n<p>researcher from a related internal essential research program (ERP) or mission-funded program.</p>\n<p><br></p>\n<p>The TBAM-CRP has been developed in coordination with other related ARL-funded collaborative efforts</p>\n<p>(see descriptions of ARL collaborative alliances at https://www.arl.army.mil/business/collaborativealliances/)</p>\n<p>and shares a common vision of highly collaborative academia-industry-government</p>\n<p>partnerships; however, it will be executed with a program model adapted from the Scalable, Adaptive,</p>\n<p>and Resilient Autonomy (SARA), which established a new paradigm for collaborative research. Some</p>\n<p>key properties of this new approach are described below:</p>\n<p><br></p>\n<p>• TBAM-CRP sprint topics will be offered on a two-year cycle. Proposals will be solicited for a</p>\n<p>possible two-year period structured as a first-year pilot followed by a second-year option where</p>\n<p>the option may be awarded based upon progress assessed at an annual review. The FOA will be</p>\n<p>amended annually to identify a specific problem statement and scope for that specific cycle. The</p>\n<p>topics for each cycle will be chosen to address the long-term program goal.</p>\n<p>• Five new topics (Cycles 1-5) are expected in FY22, 24, 26, 28, 30. Each topic will be carefully</p>\n<p>chosen based on the previous accomplishments in the prior cycle(s), the development of new</p>\n<p>technologies and capabilities in the broader research and development communities, and the</p>\n<p>Army’s evolving needs for future capabilities.</p>\n<p>• For each topic, funding will be provided to those Recipients selected under a cooperative</p>\n<p>agreement (CA).</p>\n<p>• Enhanced Research Program funding from ARL or Other Government Agencies (OGAs) may</p>\n<p>become available during a cycle which provides a mechanism for growth and enhancement within</p>\n<p>the TBAM-CRP. A proposal should not include any discussion of the Enhanced Research</p>\n<p>Program. Recipients receiving a CA will be notified and provided details if the opportunity for</p>\n<p>Enhanced Research Program funding becomes available during their award period of</p>\n<p>performance.</p>\n<p>• There is no limitation on the place of performance, although on-site collaboration at ARL</p>\n<p>facilities and with ARL researchers as well as with other Recipients are encouraged. Research</p>\n<p>outcomes in this program must, at the very least, be demonstrated in sophisticated simulations of</p>\n<p>relevant environments. Together with ARL collaborators, these results may be adapted for higher</p>\n<p>TRL experimentation on surrogate platforms at ARL test facilities such as the Robotics Research</p>\n<p>Collaboration Campus (R2C2) at Graces Quarters, Aberdeen Proving Ground, Maryland.</p>\n<p>• Recipients will be furnished with access to the ARL Autonomy Stack software suite as well as all</p>\n<p>relevant simulation tools and multi-agent learning support.</p>\n<p>• Recipients will be provided with information about the current state of the Autonomous Systems</p>\n<p>Enterprise (ASE) with an overview of developments in the associated collaborative research</p>\n<p>alliances including Distributed and Collaborative Intelligent Systems and Technology (DCIST),</p>\n<p>Scalable, Adaptive, and Resilient Autonomy (SARA), as well as internal ARL essential research</p>\n<p>programs including the AI for Maneuver and Mobility (AIMM), Emerging Overmatch</p>\n<p>Technologies (EOT), and Versatile Tactical Power and Propulsion (VICTOR). Capabilities</p>\n<p>demonstrated in simulation should reflect significant appropriate developments. This midpoint</p>\n<p>review is expected to take place as a mini symposium where Recipients can share results with</p>\n<p>one another along with the ARL community to foster further collaboration.</p>\n<p>• At the end of the second year, a capstone demonstration will be executed by those Recipients</p>\n<p>receiving an option to their award in a set of simulated relevant environments, either those</p>\n<p>environment scenarios provided by the Government and other program performers, or optionally</p>\n<p>of a specific environment developed by the Recipient to exhibit their developed capability. Any</p>\n<p>system level capability demonstration that can be made with the internal ARL collaborator or</p>\n<p>description of capability development and program contribution can also be made at this time.</p>\n<p>These system demonstrations are expected to coincide to foster further integration and adoption</p>\n<p>with related internal research programs as well as partner organizations from within the</p>\n<p>DEVCOM, other Army and DoD service branches and agencies, in addition to other government</p>\n<p>agencies.</p>\n<p><br></p>\n<p>Proposals that follow the requirements of the FOA will be evaluated in accordance with merit-based,</p>\n<p>competitive procedures. These procedures will include evaluation factors and an adjectival and color</p>\n<p>rating system. A review team, consisting of a qualified group of Government scientists and managers</p>\n<p>will evaluate the compliant proposals and provide the results of that evaluation to the decision-maker for</p>\n<p>the Government. Relevant internal research program materials approved for public release and contact</p>\n<p>information will be provided to potential proposers during introductory presentations to help facilitate</p>\n<p>identification of collaboration between proposers and individual ARL researchers or internal research</p>\n<p>programs. Additional connections to ARL programs can be identified during the proposal review process.</p>\n<p><br></p>\n<p>Eligible applicants under this FOA include institutions of higher education, nonprofit organizations, and</p>\n<p>for-profit organizations (i.e., large and small businesses) for scientific research in the knowledge domains</p>\n<p>outlined throughout this Funding Opportunity. Federally Funded Research and Development Centers</p>\n<p>(FFRDC) may propose as well, with effort as allowed by their sponsoring agency and in accordance with</p>\n<p>their sponsoring agency policy.</p>",
+        "responseDateDesc": "Proposals for Cycle 2 are due no later than 24 April 2024.",
+        "postingDate": "Apr 22, 2022 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "2300000",
+        "awardCeilingFormatted": "2,300,000",
+        "awardFloor": "100000",
+        "awardFloorFormatted": "100,000",
+        "applicantEligibilityDesc": "It is our goal for the program to include a diverse group of Applicants with varied long-term interests.Applicants may be institutions of higher education, for-profit, or non-profit organizations. FederallyFunded Research and Development Centers (FFRDC) may propose as well, with effort as allowed bytheir sponsoring agency and in accordance with their sponsoring agency policy. Proposals may consistof teams from any combination of organizations (e.g., prime and subawardees), but this is not arequirement for award and award will only be made to a single entity.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 05, 2024 04:29:35 PM EDT",
+        "modComments": "**The proposal submission date has been updated to 24 April 2024.  The FOA has been amended to reflect this submission date and include a Question and Answer document based on questions received from interested applicants.  Other than the updated proposal submission date in the FOA, the actual FOA Amendment has not been changed. However, the answers provided in the Q&amp;A document are considered part of the FOA Amendment.**",
+        "createdDate": "Apr 22, 2022 03:50:12 PM EDT",
+        "lastUpdatedDate": "Apr 05, 2024 04:29:35 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2022-04-22-00-00-00",
+        "createTimeStampStr": "2024-04-05-16-29-35"
+      },
+      "agencyDetails": {
+        "code": "AMC",
+        "seed": "DOD-AMC",
+        "agencyName": "Dept of the Army -- Materiel Command",
+        "agencyCode": "DOD-AMC",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 58110,
+          "opportunityId": 339728,
+          "folderType": "Full Announcement",
+          "folderName": "TBAM-CRP FOA",
+          "zipLobSize": 476374,
+          "createdDate": "Apr 22, 2022 03:50:39 PM EDT",
+          "lastUpdatedDate": "Apr 05, 2024 04:29:00 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 337859,
+              "opportunityId": 339728,
+              "mimeType": "application/pdf",
+              "fileName": "TBAM FOA Cycle 2 Amendment Question and Answer Document .pdf",
+              "fileDescription": "TBAM FOA Cycle 2 Amendment Question and Answer Document",
+              "fileLobSize": 125878,
+              "createdDate": "Apr 05, 2024 04:20:42 PM EDT",
+              "lastUpdatedDate": "Apr 05, 2024 04:28:40 PM EDT",
+              "synopsisAttFolderId": 58110
+            },
+            {
+              "id": 317312,
+              "opportunityId": 339728,
+              "mimeType": "application/pdf",
+              "fileName": "W911NF-22-S-0011 CYCLE 2 Tactical Behaviors FOA Amendment.pdf",
+              "fileDescription": "TBAM-CRP CYCLE 2 Funding Opportunity Announcement",
+              "fileLobSize": 372246,
+              "createdDate": "Apr 22, 2022 03:51:11 PM EDT",
+              "lastUpdatedDate": "Apr 05, 2024 04:29:00 PM EDT",
+              "synopsisAttFolderId": 58110
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [
+        {
+          "id": {
+            "opportunityId": 339728,
+            "attType": "D",
+            "createdDate": "Apr 05, 2024 04:23:25 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Apr 05, 2024"
+          },
+          "changeComments": "**The proposal submission date has been updated to 23 April 2024.  The FOA has been amended to reflect this submission date and include a Question and Answer document based on questions received from interested applicants.  Other than the updated proposal submission date in the FOA, the actual FOA Amendment has not been changed. However, the answers provided in the Q&A document are considered part of the FOA Amendment.**"
+        },
+        {
+          "id": {
+            "opportunityId": 339728,
+            "attType": "D",
+            "createdDate": "Mar 14, 2024 03:47:32 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Mar 14, 2024"
+          },
+          "changeComments": "**UPDATE 14 MARCH 2024 - CYCLE 2 HAS BEEN POSTED TO THE ANNOUNCEMENT. PLEASE REVIEW THE UPDATED ANNOUNCEMENT IN FULL FOR SUBMISSION TIME, UPDATED TOPIC, AND FUNDING AMOUNT AND SCHEDULE CHANGES FROM CYCLE 1**"
+        },
+        {
+          "id": {
+            "opportunityId": 339728,
+            "attType": "D",
+            "createdDate": "Apr 22, 2022 03:51:41 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Apr 22, 2022"
+          },
+          "changeComments": "TBAM-CRP Funding Opportunity Announcement added to Attchments"
+        }
+      ],
+      "cfdas": [
+        {
+          "id": 400452,
+          "opportunityId": 339728,
+          "cfdaNumber": "12.630",
+          "programTitle": "Basic, Applied, and Advanced Research in Science and Engineering"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 339728,
+            "revision": 0
+          },
+          "opportunityId": 339728,
+          "revision": 0,
+          "opportunityNumber": "W911NF-22-S-0011",
+          "opportunityTitle": "Tactical Behaviors for Autonomous Maneuver",
+          "owningAgencyCode": "DOD-AMC",
+          "publisherUid": "christopher.d.justice4",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 339728,
+              "revision": 0
+            },
+            "opportunityId": 339728,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOD-AMC",
+            "agencyAddressDesc": "TBAM-CRP Email Address",
+            "agencyDetails": {
+              "code": "AMC",
+              "seed": "DOD-AMC",
+              "agencyName": "Dept of the Army -- Materiel Command",
+              "agencyCode": "DOD-AMC",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "9195494287",
+            "agencyContactName": "Christopher D Justice\nContract Specialist",
+            "agencyContactDesc": "Christopher D Justice\r\nContract Specialist",
+            "agencyContactEmail": "usarmy.adelphi.devcom-arl.mbx.tbam-crp-questions@army.mil",
+            "agencyContactEmailDesc": "TBAM-CRP Email Address",
+            "synopsisDesc": "<p>TACTICAL BEHAVIORS FOR AUTONOMOUS MANEUVER COLLABORATIVE RESEARCH PROGRAM (TBAM-CRP)</p><p><br></p><p>Future Army forces will be called upon to operate and maneuver in multi-domain</p><p>operations (MDO), against a modern and capable peer adversary. The battlefield of the future</p><p>may impose additional constraints on maneuver forces such as disruption in communication as</p><p>well as positioning services. To field a highly capable fighting force in this future battlefield,</p><p>novel tactics and doctrines leveraging nascent technologies in robotics and autonomous systems</p><p>(RAS) will need to be developed. Teams of RAS will serve an increasingly critical role in the</p><p>future force to deliver situational awareness, defend key locations or positions, or take point in</p><p>dynamic and hazardous situations. Resilience to disruptions, failures, or unexpected scenarios, is</p><p>a key quality for teams of RAS to operate alongside other future Army forces. The US Army</p><p>Combat Capabilities Development Command (DEVCOM) Army Research Laboratory (ARL) is</p><p>focused on developing fundamental understanding and informing the art-of-the-possible for</p><p>warfighter concepts through research to greatly improve the scope of mission capabilities of</p><p>teams of RAS, develop robust and resilient approaches to plan under extreme conditions of</p><p>uncertainty, to learn coordinated strategies for groups of agents to achieve a common objective,</p><p>all within a complex maneuver environment including adversaries. The Tactical Behaviors for</p><p>Autonomous Maneuver Collaborative Research Program (TBAM-CRP) is focused on developing</p><p>and experimentally evaluating coordinated and individual behaviors for small groups of</p><p>autonomous agents to learn doctrinal as well as novel tactics for maneuvering in military relevant</p><p>environments. The TBAM-CRP will leverage developments in other internal and extramural</p><p>programs as well as identify new research directions to find novel solutions to these maneuver</p><p>problems in analogical simulations representing complex realistic terrain.</p><p><br></p><p>The Tactical Behaviors for Autonomous Maneuver Collaborative Research Program (TBAM-CRP) will</p><p>consist of a series of sprint efforts executed with annual program reviews. Each topic will be focused on</p><p>addressing a different set of scientific areas which will support the research aims of an associated ARL</p><p>researcher from a related internal essential research program (ERP) or mission-funded program.</p><p><br></p><p>The TBAM-CRP has been developed in coordination with other related ARL-funded collaborative efforts</p><p>(see descriptions of ARL collaborative alliances at https://www.arl.army.mil/business/collaborativealliances/)</p><p>and shares a common vision of highly collaborative academia-industry-government</p><p>partnerships; however, it will be executed with a program model adapted from the Scalable, Adaptive,</p><p>and Resilient Autonomy (SARA), which established a new paradigm for collaborative research. Some</p><p>key properties of this new approach are described below:</p><p><br></p><p>• TBAM-CRP sprint topics will be offered on a two-year cycle. Proposals will be solicited for a</p><p>possible two-year period structured as a first-year pilot followed by a second-year option where</p><p>the option may be awarded based upon progress assessed at an annual review. The FOA will be</p><p>amended annually to identify a specific problem statement and scope for that specific cycle. The</p><p>topics for each cycle will be chosen to address the long-term program goal.</p><p>• Five new topics (Cycles 1-5) are expected in FY22, 24, 26, 28, 30. Each topic will be carefully</p><p>chosen based on the previous accomplishments in the prior cycle(s), the development of new</p><p>technologies and capabilities in the broader research and development communities, and the</p><p>Army’s evolving needs for future capabilities.</p><p>• For each topic, funding will be provided to those Recipients selected under a cooperative</p><p>agreement (CA).</p><p>• Enhanced Research Program funding from ARL or Other Government Agencies (OGAs) may</p><p>become available during a cycle which provides a mechanism for growth and enhancement within</p><p>the TBAM-CRP. A proposal should not include any discussion of the Enhanced Research</p><p>Program. Recipients receiving a CA will be notified and provided details if the opportunity for</p><p>Enhanced Research Program funding becomes available during their award period of</p><p>performance.</p><p>• There is no limitation on the place of performance, although on-site collaboration at ARL</p><p>facilities and with ARL researchers as well as with other Recipients are encouraged. Research</p><p>outcomes in this program must, at the very least, be demonstrated in sophisticated simulations of</p><p>relevant environments. Together with ARL collaborators, these results may be adapted for higher</p><p>TRL experimentation on surrogate platforms at ARL test facilities such as the Robotics Research</p><p>Collaboration Campus (R2C2) at Graces Quarters, Aberdeen Proving Ground, Maryland.</p><p>• Recipients will be furnished with access to the ARL Autonomy Stack software suite as well as all</p><p>relevant simulation tools and multi-agent learning support.</p><p>• Recipients will be provided with information about the current state of the Autonomous Systems</p><p>Enterprise (ASE) with an overview of developments in the associated collaborative research</p><p>alliances including Distributed and Collaborative Intelligent Systems and Technology (DCIST),</p><p>Scalable, Adaptive, and Resilient Autonomy (SARA), as well as internal ARL essential research</p><p>programs including the AI for Maneuver and Mobility (AIMM), Emerging Overmatch</p><p>Technologies (EOT), and Versatile Tactical Power and Propulsion (VICTOR). Capabilities</p><p>demonstrated in simulation should reflect significant appropriate developments. This midpoint</p><p>review is expected to take place as a mini symposium where Recipients can share results with</p><p>one another along with the ARL community to foster further collaboration.</p><p>• At the end of the second year, a capstone demonstration will be executed by those Recipients</p><p>receiving an option to their award in a set of simulated relevant environments, either those</p><p>environment scenarios provided by the Government and other program performers, or optionally</p><p>of a specific environment developed by the Recipient to exhibit their developed capability. Any</p><p>system level capability demonstration that can be made with the internal ARL collaborator or</p><p>description of capability development and program contribution can also be made at this time.</p><p>These system demonstrations are expected to coincide to foster further integration and adoption</p><p>with related internal research programs as well as partner organizations from within the</p><p>DEVCOM, other Army and DoD service branches and agencies, in addition to other government</p><p>agencies.</p><p><br></p><p>Proposals that follow the requirements of the FOA will be evaluated in accordance with merit-based,</p><p>competitive procedures. These procedures will include evaluation factors and an adjectival and color</p><p>rating system. A review team, consisting of a qualified group of Government scientists and managers</p><p>will evaluate the compliant proposals and provide the results of that evaluation to the decision-maker for</p><p>the Government. Relevant internal research program materials approved for public release and contact</p><p>information will be provided to potential proposers during introductory presentations to help facilitate</p><p>identification of collaboration between proposers and individual ARL researchers or internal research</p><p>programs. Additional connections to ARL programs can be identified during the proposal review process.</p><p><br></p><p>Eligible applicants under this FOA include institutions of higher education, nonprofit organizations, and</p><p>for-profit organizations (i.e., large and small businesses) for scientific research in the knowledge domains</p><p>outlined throughout this Funding Opportunity. Federally Funded Research and Development Centers</p><p>(FFRDC) may propose as well, with effort as allowed by their sponsoring agency and in accordance with</p><p>their sponsoring agency policy.</p>",
+            "responseDateDesc": "Proposals for Cycle 1 are due no later than 1700 Eastern Time on 27 May 2022.",
+            "postingDate": "Apr 22, 2022 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "2300000",
+            "awardCeilingFormatted": "2,300,000",
+            "awardFloor": "100000",
+            "awardFloorFormatted": "100,000",
+            "applicantEligibilityDesc": "It is our goal for the program to include a diverse group of Applicants with varied long-term interests.\r\nApplicants may be institutions of higher education, for-profit, or non-profit organizations. Federally\r\nFunded Research and Development Centers (FFRDC) may propose as well, with effort as allowed by\r\ntheir sponsoring agency and in accordance with their sponsoring agency policy. Proposals may consist\r\nof teams from any combination of organizations (e.g., prime and subawardees), but this is not a\r\nrequirement for award and award will only be made to a single entity.",
+            "createTimeStamp": "May 19, 2022 04:41:14 PM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Mar 14, 2024 03:46:10 PM EDT",
+            "createdDate": "Apr 22, 2022 03:50:12 PM EDT",
+            "lastUpdatedDate": "Apr 22, 2022 03:50:12 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2022-04-22-00-00-00",
+            "createTimeStampStr": "2022-05-19-16-41-14"
+          },
+          "cfdas": [
+            {
+              "id": 400452,
+              "opportunityId": 339728,
+              "revision": 6,
+              "cfdaNumber": "12.630",
+              "programTitle": "Basic, Applied, and Advanced Research in Science and Engineering"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 339728,
+            "revision": 1
+          },
+          "opportunityId": 339728,
+          "revision": 1,
+          "opportunityNumber": "W911NF-22-S-0011",
+          "opportunityTitle": "Tactical Behaviors for Autonomous Maneuver",
+          "owningAgencyCode": "DOD-AMC",
+          "publisherUid": "christopher.d.justice4",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 339728,
+              "revision": 1
+            },
+            "opportunityId": 339728,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "DOD-AMC",
+            "agencyAddressDesc": "TBAM-CRP Email Address",
+            "agencyDetails": {
+              "code": "AMC",
+              "seed": "DOD-AMC",
+              "agencyName": "Dept of the Army -- Materiel Command",
+              "agencyCode": "DOD-AMC",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "9195494287",
+            "agencyContactName": "Christopher D Justice\nContract Specialist",
+            "agencyContactDesc": "Christopher D Justice\r\nContract Specialist",
+            "agencyContactEmail": "usarmy.adelphi.devcom-arl.mbx.tbam-crp-questions@army.mil",
+            "agencyContactEmailDesc": "TBAM-CRP Email Address",
+            "synopsisDesc": "<p>**UPDATE 14 MARCH 2024 - CYCLE 2 HAS BEEN POSTED TO THE ANNOUNCEMENT. PLEASE REVIEW THE UPDATED ANNOUNCEMENT IN FULL FOR SUBMISSION TIME, UPDATED TOPIC, AND FUNDING AMOUNT AND SCHEDULE CHANGES FROM CYCLE 1**</p><p><br></p><p>TACTICAL BEHAVIORS FOR AUTONOMOUS MANEUVER COLLABORATIVE RESEARCH PROGRAM (TBAM-CRP)</p><p><br></p><p>Future Army forces will be called upon to operate and maneuver in multi-domain</p><p>operations (MDO), against a modern and capable peer adversary. The battlefield of the future</p><p>may impose additional constraints on maneuver forces such as disruption in communication as</p><p>well as positioning services. To field a highly capable fighting force in this future battlefield,</p><p>novel tactics and doctrines leveraging nascent technologies in robotics and autonomous systems</p><p>(RAS) will need to be developed. Teams of RAS will serve an increasingly critical role in the</p><p>future force to deliver situational awareness, defend key locations or positions, or take point in</p><p>dynamic and hazardous situations. Resilience to disruptions, failures, or unexpected scenarios, is</p><p>a key quality for teams of RAS to operate alongside other future Army forces. The US Army</p><p>Combat Capabilities Development Command (DEVCOM) Army Research Laboratory (ARL) is</p><p>focused on developing fundamental understanding and informing the art-of-the-possible for</p><p>warfighter concepts through research to greatly improve the scope of mission capabilities of</p><p>teams of RAS, develop robust and resilient approaches to plan under extreme conditions of</p><p>uncertainty, to learn coordinated strategies for groups of agents to achieve a common objective,</p><p>all within a complex maneuver environment including adversaries. The Tactical Behaviors for</p><p>Autonomous Maneuver Collaborative Research Program (TBAM-CRP) is focused on developing</p><p>and experimentally evaluating coordinated and individual behaviors for small groups of</p><p>autonomous agents to learn doctrinal as well as novel tactics for maneuvering in military relevant</p><p>environments. The TBAM-CRP will leverage developments in other internal and extramural</p><p>programs as well as identify new research directions to find novel solutions to these maneuver</p><p>problems in analogical simulations representing complex realistic terrain.</p><p><br></p><p>The Tactical Behaviors for Autonomous Maneuver Collaborative Research Program (TBAM-CRP) will</p><p>consist of a series of sprint efforts executed with annual program reviews. Each topic will be focused on</p><p>addressing a different set of scientific areas which will support the research aims of an associated ARL</p><p>researcher from a related internal essential research program (ERP) or mission-funded program.</p><p><br></p><p>The TBAM-CRP has been developed in coordination with other related ARL-funded collaborative efforts</p><p>(see descriptions of ARL collaborative alliances at https://www.arl.army.mil/business/collaborativealliances/)</p><p>and shares a common vision of highly collaborative academia-industry-government</p><p>partnerships; however, it will be executed with a program model adapted from the Scalable, Adaptive,</p><p>and Resilient Autonomy (SARA), which established a new paradigm for collaborative research. Some</p><p>key properties of this new approach are described below:</p><p><br></p><p>• TBAM-CRP sprint topics will be offered on a two-year cycle. Proposals will be solicited for a</p><p>possible two-year period structured as a first-year pilot followed by a second-year option where</p><p>the option may be awarded based upon progress assessed at an annual review. The FOA will be</p><p>amended annually to identify a specific problem statement and scope for that specific cycle. The</p><p>topics for each cycle will be chosen to address the long-term program goal.</p><p>• Five new topics (Cycles 1-5) are expected in FY22, 24, 26, 28, 30. Each topic will be carefully</p><p>chosen based on the previous accomplishments in the prior cycle(s), the development of new</p><p>technologies and capabilities in the broader research and development communities, and the</p><p>Army’s evolving needs for future capabilities.</p><p>• For each topic, funding will be provided to those Recipients selected under a cooperative</p><p>agreement (CA).</p><p>• Enhanced Research Program funding from ARL or Other Government Agencies (OGAs) may</p><p>become available during a cycle which provides a mechanism for growth and enhancement within</p><p>the TBAM-CRP. A proposal should not include any discussion of the Enhanced Research</p><p>Program. Recipients receiving a CA will be notified and provided details if the opportunity for</p><p>Enhanced Research Program funding becomes available during their award period of</p><p>performance.</p><p>• There is no limitation on the place of performance, although on-site collaboration at ARL</p><p>facilities and with ARL researchers as well as with other Recipients are encouraged. Research</p><p>outcomes in this program must, at the very least, be demonstrated in sophisticated simulations of</p><p>relevant environments. Together with ARL collaborators, these results may be adapted for higher</p><p>TRL experimentation on surrogate platforms at ARL test facilities such as the Robotics Research</p><p>Collaboration Campus (R2C2) at Graces Quarters, Aberdeen Proving Ground, Maryland.</p><p>• Recipients will be furnished with access to the ARL Autonomy Stack software suite as well as all</p><p>relevant simulation tools and multi-agent learning support.</p><p>• Recipients will be provided with information about the current state of the Autonomous Systems</p><p>Enterprise (ASE) with an overview of developments in the associated collaborative research</p><p>alliances including Distributed and Collaborative Intelligent Systems and Technology (DCIST),</p><p>Scalable, Adaptive, and Resilient Autonomy (SARA), as well as internal ARL essential research</p><p>programs including the AI for Maneuver and Mobility (AIMM), Emerging Overmatch</p><p>Technologies (EOT), and Versatile Tactical Power and Propulsion (VICTOR). Capabilities</p><p>demonstrated in simulation should reflect significant appropriate developments. This midpoint</p><p>review is expected to take place as a mini symposium where Recipients can share results with</p><p>one another along with the ARL community to foster further collaboration.</p><p>• At the end of the second year, a capstone demonstration will be executed by those Recipients</p><p>receiving an option to their award in a set of simulated relevant environments, either those</p><p>environment scenarios provided by the Government and other program performers, or optionally</p><p>of a specific environment developed by the Recipient to exhibit their developed capability. Any</p><p>system level capability demonstration that can be made with the internal ARL collaborator or</p><p>description of capability development and program contribution can also be made at this time.</p><p>These system demonstrations are expected to coincide to foster further integration and adoption</p><p>with related internal research programs as well as partner organizations from within the</p><p>DEVCOM, other Army and DoD service branches and agencies, in addition to other government</p><p>agencies.</p><p><br></p><p>Proposals that follow the requirements of the FOA will be evaluated in accordance with merit-based,</p><p>competitive procedures. These procedures will include evaluation factors and an adjectival and color</p><p>rating system. A review team, consisting of a qualified group of Government scientists and managers</p><p>will evaluate the compliant proposals and provide the results of that evaluation to the decision-maker for</p><p>the Government. Relevant internal research program materials approved for public release and contact</p><p>information will be provided to potential proposers during introductory presentations to help facilitate</p><p>identification of collaboration between proposers and individual ARL researchers or internal research</p><p>programs. Additional connections to ARL programs can be identified during the proposal review process.</p><p><br></p><p>Eligible applicants under this FOA include institutions of higher education, nonprofit organizations, and</p><p>for-profit organizations (i.e., large and small businesses) for scientific research in the knowledge domains</p><p>outlined throughout this Funding Opportunity. Federally Funded Research and Development Centers</p><p>(FFRDC) may propose as well, with effort as allowed by their sponsoring agency and in accordance with</p><p>their sponsoring agency policy.</p>",
+            "responseDateDesc": "Proposals for Cycle 2 are due no later than 16 April 2022.",
+            "postingDate": "Apr 22, 2022 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "2300000",
+            "awardCeilingFormatted": "2,300,000",
+            "awardFloor": "100000",
+            "awardFloorFormatted": "100,000",
+            "applicantEligibilityDesc": "It is our goal for the program to include a diverse group of Applicants with varied long-term interests.Applicants may be institutions of higher education, for-profit, or non-profit organizations. FederallyFunded Research and Development Centers (FFRDC) may propose as well, with effort as allowed bytheir sponsoring agency and in accordance with their sponsoring agency policy. Proposals may consistof teams from any combination of organizations (e.g., prime and subawardees), but this is not arequirement for award and award will only be made to a single entity.",
+            "createTimeStamp": "Mar 14, 2024 03:47:32 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "**UPDATE 14 MARCH 2024 - CYCLE 2 HAS BEEN POSTED TO THE ANNOUNCEMENT. PLEASE REVIEW THE UPDATED ANNOUNCEMENT IN FULL FOR SUBMISSION TIME, UPDATED TOPIC, AND FUNDING AMOUNT AND SCHEDULE CHANGES FROM CYCLE 1**",
+            "actionType": "U",
+            "actionDate": "Mar 14, 2024 03:48:22 PM EDT",
+            "createdDate": "Apr 22, 2022 03:50:12 PM EDT",
+            "lastUpdatedDate": "Mar 14, 2024 03:46:10 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2022-04-22-00-00-00",
+            "createTimeStampStr": "2024-03-14-15-47-32"
+          },
+          "cfdas": [
+            {
+              "id": 400452,
+              "opportunityId": 339728,
+              "revision": 6,
+              "cfdaNumber": "12.630",
+              "programTitle": "Basic, Applied, and Advanced Research in Science and Engineering"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "responseDateDesc",
+            "applicantEligibilityDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 339728,
+            "revision": 2
+          },
+          "opportunityId": 339728,
+          "revision": 2,
+          "opportunityNumber": "W911NF-22-S-0011",
+          "opportunityTitle": "Tactical Behaviors for Autonomous Maneuver",
+          "owningAgencyCode": "DOD-AMC",
+          "publisherUid": "christopher.d.justice4",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 339728,
+              "revision": 2
+            },
+            "opportunityId": 339728,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "DOD-AMC",
+            "agencyAddressDesc": "TBAM-CRP Email Address",
+            "agencyDetails": {
+              "code": "AMC",
+              "seed": "DOD-AMC",
+              "agencyName": "Dept of the Army -- Materiel Command",
+              "agencyCode": "DOD-AMC",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "9195494287",
+            "agencyContactName": "Christopher D Justice\nContract Specialist",
+            "agencyContactDesc": "Christopher D Justice\r\nContract Specialist",
+            "agencyContactEmail": "usarmy.adelphi.devcom-arl.mbx.tbam-crp-questions@army.mil",
+            "agencyContactEmailDesc": "TBAM-CRP Email Address",
+            "synopsisDesc": "<p>**UPDATE 14 MARCH 2024 - CYCLE 2 HAS BEEN POSTED TO THE ANNOUNCEMENT. PLEASE REVIEW THE UPDATED ANNOUNCEMENT IN FULL FOR SUBMISSION TIME, UPDATED TOPIC, AND FUNDING AMOUNT AND SCHEDULE CHANGES FROM CYCLE 1**</p><p><br></p><p>TACTICAL BEHAVIORS FOR AUTONOMOUS MANEUVER COLLABORATIVE RESEARCH PROGRAM (TBAM-CRP)</p><p><br></p><p>Future Army forces will be called upon to operate and maneuver in multi-domain</p><p>operations (MDO), against a modern and capable peer adversary. The battlefield of the future</p><p>may impose additional constraints on maneuver forces such as disruption in communication as</p><p>well as positioning services. To field a highly capable fighting force in this future battlefield,</p><p>novel tactics and doctrines leveraging nascent technologies in robotics and autonomous systems</p><p>(RAS) will need to be developed. Teams of RAS will serve an increasingly critical role in the</p><p>future force to deliver situational awareness, defend key locations or positions, or take point in</p><p>dynamic and hazardous situations. Resilience to disruptions, failures, or unexpected scenarios, is</p><p>a key quality for teams of RAS to operate alongside other future Army forces. The US Army</p><p>Combat Capabilities Development Command (DEVCOM) Army Research Laboratory (ARL) is</p><p>focused on developing fundamental understanding and informing the art-of-the-possible for</p><p>warfighter concepts through research to greatly improve the scope of mission capabilities of</p><p>teams of RAS, develop robust and resilient approaches to plan under extreme conditions of</p><p>uncertainty, to learn coordinated strategies for groups of agents to achieve a common objective,</p><p>all within a complex maneuver environment including adversaries. The Tactical Behaviors for</p><p>Autonomous Maneuver Collaborative Research Program (TBAM-CRP) is focused on developing</p><p>and experimentally evaluating coordinated and individual behaviors for small groups of</p><p>autonomous agents to learn doctrinal as well as novel tactics for maneuvering in military relevant</p><p>environments. The TBAM-CRP will leverage developments in other internal and extramural</p><p>programs as well as identify new research directions to find novel solutions to these maneuver</p><p>problems in analogical simulations representing complex realistic terrain.</p><p><br></p><p>The Tactical Behaviors for Autonomous Maneuver Collaborative Research Program (TBAM-CRP) will</p><p>consist of a series of sprint efforts executed with annual program reviews. Each topic will be focused on</p><p>addressing a different set of scientific areas which will support the research aims of an associated ARL</p><p>researcher from a related internal essential research program (ERP) or mission-funded program.</p><p><br></p><p>The TBAM-CRP has been developed in coordination with other related ARL-funded collaborative efforts</p><p>(see descriptions of ARL collaborative alliances at https://www.arl.army.mil/business/collaborativealliances/)</p><p>and shares a common vision of highly collaborative academia-industry-government</p><p>partnerships; however, it will be executed with a program model adapted from the Scalable, Adaptive,</p><p>and Resilient Autonomy (SARA), which established a new paradigm for collaborative research. Some</p><p>key properties of this new approach are described below:</p><p><br></p><p>• TBAM-CRP sprint topics will be offered on a two-year cycle. Proposals will be solicited for a</p><p>possible two-year period structured as a first-year pilot followed by a second-year option where</p><p>the option may be awarded based upon progress assessed at an annual review. The FOA will be</p><p>amended annually to identify a specific problem statement and scope for that specific cycle. The</p><p>topics for each cycle will be chosen to address the long-term program goal.</p><p>• Five new topics (Cycles 1-5) are expected in FY22, 24, 26, 28, 30. Each topic will be carefully</p><p>chosen based on the previous accomplishments in the prior cycle(s), the development of new</p><p>technologies and capabilities in the broader research and development communities, and the</p><p>Army’s evolving needs for future capabilities.</p><p>• For each topic, funding will be provided to those Recipients selected under a cooperative</p><p>agreement (CA).</p><p>• Enhanced Research Program funding from ARL or Other Government Agencies (OGAs) may</p><p>become available during a cycle which provides a mechanism for growth and enhancement within</p><p>the TBAM-CRP. A proposal should not include any discussion of the Enhanced Research</p><p>Program. Recipients receiving a CA will be notified and provided details if the opportunity for</p><p>Enhanced Research Program funding becomes available during their award period of</p><p>performance.</p><p>• There is no limitation on the place of performance, although on-site collaboration at ARL</p><p>facilities and with ARL researchers as well as with other Recipients are encouraged. Research</p><p>outcomes in this program must, at the very least, be demonstrated in sophisticated simulations of</p><p>relevant environments. Together with ARL collaborators, these results may be adapted for higher</p><p>TRL experimentation on surrogate platforms at ARL test facilities such as the Robotics Research</p><p>Collaboration Campus (R2C2) at Graces Quarters, Aberdeen Proving Ground, Maryland.</p><p>• Recipients will be furnished with access to the ARL Autonomy Stack software suite as well as all</p><p>relevant simulation tools and multi-agent learning support.</p><p>• Recipients will be provided with information about the current state of the Autonomous Systems</p><p>Enterprise (ASE) with an overview of developments in the associated collaborative research</p><p>alliances including Distributed and Collaborative Intelligent Systems and Technology (DCIST),</p><p>Scalable, Adaptive, and Resilient Autonomy (SARA), as well as internal ARL essential research</p><p>programs including the AI for Maneuver and Mobility (AIMM), Emerging Overmatch</p><p>Technologies (EOT), and Versatile Tactical Power and Propulsion (VICTOR). Capabilities</p><p>demonstrated in simulation should reflect significant appropriate developments. This midpoint</p><p>review is expected to take place as a mini symposium where Recipients can share results with</p><p>one another along with the ARL community to foster further collaboration.</p><p>• At the end of the second year, a capstone demonstration will be executed by those Recipients</p><p>receiving an option to their award in a set of simulated relevant environments, either those</p><p>environment scenarios provided by the Government and other program performers, or optionally</p><p>of a specific environment developed by the Recipient to exhibit their developed capability. Any</p><p>system level capability demonstration that can be made with the internal ARL collaborator or</p><p>description of capability development and program contribution can also be made at this time.</p><p>These system demonstrations are expected to coincide to foster further integration and adoption</p><p>with related internal research programs as well as partner organizations from within the</p><p>DEVCOM, other Army and DoD service branches and agencies, in addition to other government</p><p>agencies.</p><p><br></p><p>Proposals that follow the requirements of the FOA will be evaluated in accordance with merit-based,</p><p>competitive procedures. These procedures will include evaluation factors and an adjectival and color</p><p>rating system. A review team, consisting of a qualified group of Government scientists and managers</p><p>will evaluate the compliant proposals and provide the results of that evaluation to the decision-maker for</p><p>the Government. Relevant internal research program materials approved for public release and contact</p><p>information will be provided to potential proposers during introductory presentations to help facilitate</p><p>identification of collaboration between proposers and individual ARL researchers or internal research</p><p>programs. Additional connections to ARL programs can be identified during the proposal review process.</p><p><br></p><p>Eligible applicants under this FOA include institutions of higher education, nonprofit organizations, and</p><p>for-profit organizations (i.e., large and small businesses) for scientific research in the knowledge domains</p><p>outlined throughout this Funding Opportunity. Federally Funded Research and Development Centers</p><p>(FFRDC) may propose as well, with effort as allowed by their sponsoring agency and in accordance with</p><p>their sponsoring agency policy.</p>",
+            "responseDate": "Apr 16, 2024 12:00:00 AM EDT",
+            "responseDateDesc": "Proposals for Cycle 2 are due no later than 16 April 2022.",
+            "postingDate": "Apr 22, 2022 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "2300000",
+            "awardCeilingFormatted": "2,300,000",
+            "awardFloor": "100000",
+            "awardFloorFormatted": "100,000",
+            "applicantEligibilityDesc": "It is our goal for the program to include a diverse group of Applicants with varied long-term interests.Applicants may be institutions of higher education, for-profit, or non-profit organizations. FederallyFunded Research and Development Centers (FFRDC) may propose as well, with effort as allowed bytheir sponsoring agency and in accordance with their sponsoring agency policy. Proposals may consistof teams from any combination of organizations (e.g., prime and subawardees), but this is not arequirement for award and award will only be made to a single entity.",
+            "createTimeStamp": "Mar 14, 2024 03:48:22 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "**UPDATE 14 MARCH 2024 - CYCLE 2 HAS BEEN POSTED TO THE ANNOUNCEMENT. PLEASE REVIEW THE UPDATED ANNOUNCEMENT IN FULL FOR SUBMISSION TIME, UPDATED TOPIC, AND FUNDING AMOUNT AND SCHEDULE CHANGES FROM CYCLE 1**",
+            "actionType": "U",
+            "actionDate": "Mar 14, 2024 03:49:22 PM EDT",
+            "createdDate": "Apr 22, 2022 03:50:12 PM EDT",
+            "lastUpdatedDate": "Mar 14, 2024 03:48:22 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2024-04-16-00-00-00",
+            "postingDateStr": "2022-04-22-00-00-00",
+            "createTimeStampStr": "2024-03-14-15-48-22"
+          },
+          "cfdas": [
+            {
+              "id": 400452,
+              "opportunityId": 339728,
+              "revision": 6,
+              "cfdaNumber": "12.630",
+              "programTitle": "Basic, Applied, and Advanced Research in Science and Engineering"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 339728,
+            "revision": 3
+          },
+          "opportunityId": 339728,
+          "revision": 3,
+          "opportunityNumber": "W911NF-22-S-0011",
+          "opportunityTitle": "Tactical Behaviors for Autonomous Maneuver",
+          "owningAgencyCode": "DOD-AMC",
+          "publisherUid": "christopher.d.justice4",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 339728,
+              "revision": 3
+            },
+            "opportunityId": 339728,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "DOD-AMC",
+            "agencyAddressDesc": "TBAM-CRP Email Address",
+            "agencyDetails": {
+              "code": "AMC",
+              "seed": "DOD-AMC",
+              "agencyName": "Dept of the Army -- Materiel Command",
+              "agencyCode": "DOD-AMC",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "9195494287",
+            "agencyContactName": "Christopher D Justice\nContract Specialist",
+            "agencyContactDesc": "Christopher D Justice\r\nContract Specialist",
+            "agencyContactEmail": "usarmy.adelphi.devcom-arl.mbx.tbam-crp-questions@army.mil",
+            "agencyContactEmailDesc": "TBAM-CRP Email Address",
+            "synopsisDesc": "<p>**UPDATE 14 MARCH 2024 - CYCLE 2 HAS BEEN POSTED TO THE ANNOUNCEMENT. PLEASE REVIEW THE UPDATED ANNOUNCEMENT IN FULL FOR SUBMISSION TIME, UPDATED TOPIC, AND FUNDING AMOUNT AND SCHEDULE CHANGES FROM CYCLE 1**</p><p><br></p><p>TACTICAL BEHAVIORS FOR AUTONOMOUS MANEUVER COLLABORATIVE RESEARCH PROGRAM (TBAM-CRP)</p><p><br></p><p>Future Army forces will be called upon to operate and maneuver in multi-domain</p><p>operations (MDO), against a modern and capable peer adversary. The battlefield of the future</p><p>may impose additional constraints on maneuver forces such as disruption in communication as</p><p>well as positioning services. To field a highly capable fighting force in this future battlefield,</p><p>novel tactics and doctrines leveraging nascent technologies in robotics and autonomous systems</p><p>(RAS) will need to be developed. Teams of RAS will serve an increasingly critical role in the</p><p>future force to deliver situational awareness, defend key locations or positions, or take point in</p><p>dynamic and hazardous situations. Resilience to disruptions, failures, or unexpected scenarios, is</p><p>a key quality for teams of RAS to operate alongside other future Army forces. The US Army</p><p>Combat Capabilities Development Command (DEVCOM) Army Research Laboratory (ARL) is</p><p>focused on developing fundamental understanding and informing the art-of-the-possible for</p><p>warfighter concepts through research to greatly improve the scope of mission capabilities of</p><p>teams of RAS, develop robust and resilient approaches to plan under extreme conditions of</p><p>uncertainty, to learn coordinated strategies for groups of agents to achieve a common objective,</p><p>all within a complex maneuver environment including adversaries. The Tactical Behaviors for</p><p>Autonomous Maneuver Collaborative Research Program (TBAM-CRP) is focused on developing</p><p>and experimentally evaluating coordinated and individual behaviors for small groups of</p><p>autonomous agents to learn doctrinal as well as novel tactics for maneuvering in military relevant</p><p>environments. The TBAM-CRP will leverage developments in other internal and extramural</p><p>programs as well as identify new research directions to find novel solutions to these maneuver</p><p>problems in analogical simulations representing complex realistic terrain.</p><p><br></p><p>The Tactical Behaviors for Autonomous Maneuver Collaborative Research Program (TBAM-CRP) will</p><p>consist of a series of sprint efforts executed with annual program reviews. Each topic will be focused on</p><p>addressing a different set of scientific areas which will support the research aims of an associated ARL</p><p>researcher from a related internal essential research program (ERP) or mission-funded program.</p><p><br></p><p>The TBAM-CRP has been developed in coordination with other related ARL-funded collaborative efforts</p><p>(see descriptions of ARL collaborative alliances at https://www.arl.army.mil/business/collaborativealliances/)</p><p>and shares a common vision of highly collaborative academia-industry-government</p><p>partnerships; however, it will be executed with a program model adapted from the Scalable, Adaptive,</p><p>and Resilient Autonomy (SARA), which established a new paradigm for collaborative research. Some</p><p>key properties of this new approach are described below:</p><p><br></p><p>• TBAM-CRP sprint topics will be offered on a two-year cycle. Proposals will be solicited for a</p><p>possible two-year period structured as a first-year pilot followed by a second-year option where</p><p>the option may be awarded based upon progress assessed at an annual review. The FOA will be</p><p>amended annually to identify a specific problem statement and scope for that specific cycle. The</p><p>topics for each cycle will be chosen to address the long-term program goal.</p><p>• Five new topics (Cycles 1-5) are expected in FY22, 24, 26, 28, 30. Each topic will be carefully</p><p>chosen based on the previous accomplishments in the prior cycle(s), the development of new</p><p>technologies and capabilities in the broader research and development communities, and the</p><p>Army’s evolving needs for future capabilities.</p><p>• For each topic, funding will be provided to those Recipients selected under a cooperative</p><p>agreement (CA).</p><p>• Enhanced Research Program funding from ARL or Other Government Agencies (OGAs) may</p><p>become available during a cycle which provides a mechanism for growth and enhancement within</p><p>the TBAM-CRP. A proposal should not include any discussion of the Enhanced Research</p><p>Program. Recipients receiving a CA will be notified and provided details if the opportunity for</p><p>Enhanced Research Program funding becomes available during their award period of</p><p>performance.</p><p>• There is no limitation on the place of performance, although on-site collaboration at ARL</p><p>facilities and with ARL researchers as well as with other Recipients are encouraged. Research</p><p>outcomes in this program must, at the very least, be demonstrated in sophisticated simulations of</p><p>relevant environments. Together with ARL collaborators, these results may be adapted for higher</p><p>TRL experimentation on surrogate platforms at ARL test facilities such as the Robotics Research</p><p>Collaboration Campus (R2C2) at Graces Quarters, Aberdeen Proving Ground, Maryland.</p><p>• Recipients will be furnished with access to the ARL Autonomy Stack software suite as well as all</p><p>relevant simulation tools and multi-agent learning support.</p><p>• Recipients will be provided with information about the current state of the Autonomous Systems</p><p>Enterprise (ASE) with an overview of developments in the associated collaborative research</p><p>alliances including Distributed and Collaborative Intelligent Systems and Technology (DCIST),</p><p>Scalable, Adaptive, and Resilient Autonomy (SARA), as well as internal ARL essential research</p><p>programs including the AI for Maneuver and Mobility (AIMM), Emerging Overmatch</p><p>Technologies (EOT), and Versatile Tactical Power and Propulsion (VICTOR). Capabilities</p><p>demonstrated in simulation should reflect significant appropriate developments. This midpoint</p><p>review is expected to take place as a mini symposium where Recipients can share results with</p><p>one another along with the ARL community to foster further collaboration.</p><p>• At the end of the second year, a capstone demonstration will be executed by those Recipients</p><p>receiving an option to their award in a set of simulated relevant environments, either those</p><p>environment scenarios provided by the Government and other program performers, or optionally</p><p>of a specific environment developed by the Recipient to exhibit their developed capability. Any</p><p>system level capability demonstration that can be made with the internal ARL collaborator or</p><p>description of capability development and program contribution can also be made at this time.</p><p>These system demonstrations are expected to coincide to foster further integration and adoption</p><p>with related internal research programs as well as partner organizations from within the</p><p>DEVCOM, other Army and DoD service branches and agencies, in addition to other government</p><p>agencies.</p><p><br></p><p>Proposals that follow the requirements of the FOA will be evaluated in accordance with merit-based,</p><p>competitive procedures. These procedures will include evaluation factors and an adjectival and color</p><p>rating system. A review team, consisting of a qualified group of Government scientists and managers</p><p>will evaluate the compliant proposals and provide the results of that evaluation to the decision-maker for</p><p>the Government. Relevant internal research program materials approved for public release and contact</p><p>information will be provided to potential proposers during introductory presentations to help facilitate</p><p>identification of collaboration between proposers and individual ARL researchers or internal research</p><p>programs. Additional connections to ARL programs can be identified during the proposal review process.</p><p><br></p><p>Eligible applicants under this FOA include institutions of higher education, nonprofit organizations, and</p><p>for-profit organizations (i.e., large and small businesses) for scientific research in the knowledge domains</p><p>outlined throughout this Funding Opportunity. Federally Funded Research and Development Centers</p><p>(FFRDC) may propose as well, with effort as allowed by their sponsoring agency and in accordance with</p><p>their sponsoring agency policy.</p>",
+            "responseDate": "Apr 16, 2024 12:00:00 AM EDT",
+            "responseDateDesc": "Proposals for Cycle 2 are due no later than 16 April 2024.",
+            "postingDate": "Apr 22, 2022 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "2300000",
+            "awardCeilingFormatted": "2,300,000",
+            "awardFloor": "100000",
+            "awardFloorFormatted": "100,000",
+            "applicantEligibilityDesc": "It is our goal for the program to include a diverse group of Applicants with varied long-term interests.Applicants may be institutions of higher education, for-profit, or non-profit organizations. FederallyFunded Research and Development Centers (FFRDC) may propose as well, with effort as allowed bytheir sponsoring agency and in accordance with their sponsoring agency policy. Proposals may consistof teams from any combination of organizations (e.g., prime and subawardees), but this is not arequirement for award and award will only be made to a single entity.",
+            "createTimeStamp": "Mar 14, 2024 03:49:22 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "**UPDATE 14 MARCH 2024 - CYCLE 2 HAS BEEN POSTED TO THE ANNOUNCEMENT. PLEASE REVIEW THE UPDATED ANNOUNCEMENT IN FULL FOR SUBMISSION TIME, UPDATED TOPIC, AND FUNDING AMOUNT AND SCHEDULE CHANGES FROM CYCLE 1**",
+            "actionType": "U",
+            "actionDate": "Mar 14, 2024 03:50:54 PM EDT",
+            "createdDate": "Apr 22, 2022 03:50:12 PM EDT",
+            "lastUpdatedDate": "Mar 14, 2024 03:49:22 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2024-04-16-00-00-00",
+            "postingDateStr": "2022-04-22-00-00-00",
+            "createTimeStampStr": "2024-03-14-15-49-22"
+          },
+          "cfdas": [
+            {
+              "id": 400452,
+              "opportunityId": 339728,
+              "revision": 6,
+              "cfdaNumber": "12.630",
+              "programTitle": "Basic, Applied, and Advanced Research in Science and Engineering"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDateDesc"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 339728,
+            "revision": 4
+          },
+          "opportunityId": 339728,
+          "revision": 4,
+          "opportunityNumber": "W911NF-22-S-0011",
+          "opportunityTitle": "Tactical Behaviors for Autonomous Maneuver",
+          "owningAgencyCode": "DOD-AMC",
+          "publisherUid": "christopher.d.justice4",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 339728,
+              "revision": 4
+            },
+            "opportunityId": 339728,
+            "revision": 4,
+            "version": 5,
+            "agencyCode": "DOD-AMC",
+            "agencyAddressDesc": "TBAM-CRP Email Address",
+            "agencyDetails": {
+              "code": "AMC",
+              "seed": "DOD-AMC",
+              "agencyName": "Dept of the Army -- Materiel Command",
+              "agencyCode": "DOD-AMC",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "9195494287",
+            "agencyContactName": "Christopher D Justice\nContract Specialist",
+            "agencyContactDesc": "Christopher D Justice\r\nContract Specialist",
+            "agencyContactEmail": "usarmy.adelphi.devcom-arl.mbx.tbam-crp-questions@army.mil",
+            "agencyContactEmailDesc": "TBAM-CRP Email Address",
+            "synopsisDesc": "<p>**UPDATE 14 MARCH 2024 - CYCLE 2 HAS BEEN POSTED TO THE ANNOUNCEMENT. PLEASE REVIEW THE UPDATED ANNOUNCEMENT IN FULL FOR SUBMISSION TIME, UPDATED TOPIC, AND FUNDING AMOUNT AND SCHEDULE CHANGES FROM CYCLE 1**</p><p><br></p><p>TACTICAL BEHAVIORS FOR AUTONOMOUS MANEUVER COLLABORATIVE RESEARCH PROGRAM (TBAM-CRP)</p><p><br></p><p>Future Army forces will be called upon to operate and maneuver in multi-domain</p><p>operations (MDO), against a modern and capable peer adversary. The battlefield of the future</p><p>may impose additional constraints on maneuver forces such as disruption in communication as</p><p>well as positioning services. To field a highly capable fighting force in this future battlefield,</p><p>novel tactics and doctrines leveraging nascent technologies in robotics and autonomous systems</p><p>(RAS) will need to be developed. Teams of RAS will serve an increasingly critical role in the</p><p>future force to deliver situational awareness, defend key locations or positions, or take point in</p><p>dynamic and hazardous situations. Resilience to disruptions, failures, or unexpected scenarios, is</p><p>a key quality for teams of RAS to operate alongside other future Army forces. The US Army</p><p>Combat Capabilities Development Command (DEVCOM) Army Research Laboratory (ARL) is</p><p>focused on developing fundamental understanding and informing the art-of-the-possible for</p><p>warfighter concepts through research to greatly improve the scope of mission capabilities of</p><p>teams of RAS, develop robust and resilient approaches to plan under extreme conditions of</p><p>uncertainty, to learn coordinated strategies for groups of agents to achieve a common objective,</p><p>all within a complex maneuver environment including adversaries. The Tactical Behaviors for</p><p>Autonomous Maneuver Collaborative Research Program (TBAM-CRP) is focused on developing</p><p>and experimentally evaluating coordinated and individual behaviors for small groups of</p><p>autonomous agents to learn doctrinal as well as novel tactics for maneuvering in military relevant</p><p>environments. The TBAM-CRP will leverage developments in other internal and extramural</p><p>programs as well as identify new research directions to find novel solutions to these maneuver</p><p>problems in analogical simulations representing complex realistic terrain.</p><p><br></p><p>The Tactical Behaviors for Autonomous Maneuver Collaborative Research Program (TBAM-CRP) will</p><p>consist of a series of sprint efforts executed with annual program reviews. Each topic will be focused on</p><p>addressing a different set of scientific areas which will support the research aims of an associated ARL</p><p>researcher from a related internal essential research program (ERP) or mission-funded program.</p><p><br></p><p>The TBAM-CRP has been developed in coordination with other related ARL-funded collaborative efforts</p><p>(see descriptions of ARL collaborative alliances at https://www.arl.army.mil/business/collaborativealliances/)</p><p>and shares a common vision of highly collaborative academia-industry-government</p><p>partnerships; however, it will be executed with a program model adapted from the Scalable, Adaptive,</p><p>and Resilient Autonomy (SARA), which established a new paradigm for collaborative research. Some</p><p>key properties of this new approach are described below:</p><p><br></p><p>• TBAM-CRP sprint topics will be offered on a two-year cycle. Proposals will be solicited for a</p><p>possible two-year period structured as a first-year pilot followed by a second-year option where</p><p>the option may be awarded based upon progress assessed at an annual review. The FOA will be</p><p>amended annually to identify a specific problem statement and scope for that specific cycle. The</p><p>topics for each cycle will be chosen to address the long-term program goal.</p><p>• Five new topics (Cycles 1-5) are expected in FY22, 24, 26, 28, 30. Each topic will be carefully</p><p>chosen based on the previous accomplishments in the prior cycle(s), the development of new</p><p>technologies and capabilities in the broader research and development communities, and the</p><p>Army’s evolving needs for future capabilities.</p><p>• For each topic, funding will be provided to those Recipients selected under a cooperative</p><p>agreement (CA).</p><p>• Enhanced Research Program funding from ARL or Other Government Agencies (OGAs) may</p><p>become available during a cycle which provides a mechanism for growth and enhancement within</p><p>the TBAM-CRP. A proposal should not include any discussion of the Enhanced Research</p><p>Program. Recipients receiving a CA will be notified and provided details if the opportunity for</p><p>Enhanced Research Program funding becomes available during their award period of</p><p>performance.</p><p>• There is no limitation on the place of performance, although on-site collaboration at ARL</p><p>facilities and with ARL researchers as well as with other Recipients are encouraged. Research</p><p>outcomes in this program must, at the very least, be demonstrated in sophisticated simulations of</p><p>relevant environments. Together with ARL collaborators, these results may be adapted for higher</p><p>TRL experimentation on surrogate platforms at ARL test facilities such as the Robotics Research</p><p>Collaboration Campus (R2C2) at Graces Quarters, Aberdeen Proving Ground, Maryland.</p><p>• Recipients will be furnished with access to the ARL Autonomy Stack software suite as well as all</p><p>relevant simulation tools and multi-agent learning support.</p><p>• Recipients will be provided with information about the current state of the Autonomous Systems</p><p>Enterprise (ASE) with an overview of developments in the associated collaborative research</p><p>alliances including Distributed and Collaborative Intelligent Systems and Technology (DCIST),</p><p>Scalable, Adaptive, and Resilient Autonomy (SARA), as well as internal ARL essential research</p><p>programs including the AI for Maneuver and Mobility (AIMM), Emerging Overmatch</p><p>Technologies (EOT), and Versatile Tactical Power and Propulsion (VICTOR). Capabilities</p><p>demonstrated in simulation should reflect significant appropriate developments. This midpoint</p><p>review is expected to take place as a mini symposium where Recipients can share results with</p><p>one another along with the ARL community to foster further collaboration.</p><p>• At the end of the second year, a capstone demonstration will be executed by those Recipients</p><p>receiving an option to their award in a set of simulated relevant environments, either those</p><p>environment scenarios provided by the Government and other program performers, or optionally</p><p>of a specific environment developed by the Recipient to exhibit their developed capability. Any</p><p>system level capability demonstration that can be made with the internal ARL collaborator or</p><p>description of capability development and program contribution can also be made at this time.</p><p>These system demonstrations are expected to coincide to foster further integration and adoption</p><p>with related internal research programs as well as partner organizations from within the</p><p>DEVCOM, other Army and DoD service branches and agencies, in addition to other government</p><p>agencies.</p><p><br></p><p>Proposals that follow the requirements of the FOA will be evaluated in accordance with merit-based,</p><p>competitive procedures. These procedures will include evaluation factors and an adjectival and color</p><p>rating system. A review team, consisting of a qualified group of Government scientists and managers</p><p>will evaluate the compliant proposals and provide the results of that evaluation to the decision-maker for</p><p>the Government. Relevant internal research program materials approved for public release and contact</p><p>information will be provided to potential proposers during introductory presentations to help facilitate</p><p>identification of collaboration between proposers and individual ARL researchers or internal research</p><p>programs. Additional connections to ARL programs can be identified during the proposal review process.</p><p><br></p><p>Eligible applicants under this FOA include institutions of higher education, nonprofit organizations, and</p><p>for-profit organizations (i.e., large and small businesses) for scientific research in the knowledge domains</p><p>outlined throughout this Funding Opportunity. Federally Funded Research and Development Centers</p><p>(FFRDC) may propose as well, with effort as allowed by their sponsoring agency and in accordance with</p><p>their sponsoring agency policy.</p>",
+            "responseDateDesc": "Proposals for Cycle 2 are due no later than 16 April 2024.",
+            "postingDate": "Apr 22, 2022 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "2300000",
+            "awardCeilingFormatted": "2,300,000",
+            "awardFloor": "100000",
+            "awardFloorFormatted": "100,000",
+            "applicantEligibilityDesc": "It is our goal for the program to include a diverse group of Applicants with varied long-term interests.Applicants may be institutions of higher education, for-profit, or non-profit organizations. FederallyFunded Research and Development Centers (FFRDC) may propose as well, with effort as allowed bytheir sponsoring agency and in accordance with their sponsoring agency policy. Proposals may consistof teams from any combination of organizations (e.g., prime and subawardees), but this is not arequirement for award and award will only be made to a single entity.",
+            "createTimeStamp": "Mar 20, 2024 03:32:44 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "**UPDATE 14 MARCH 2024 - CYCLE 2 HAS BEEN POSTED TO THE ANNOUNCEMENT. PLEASE REVIEW THE UPDATED ANNOUNCEMENT IN FULL FOR SUBMISSION TIME, UPDATED TOPIC, AND FUNDING AMOUNT AND SCHEDULE CHANGES FROM CYCLE 1**",
+            "actionType": "U",
+            "actionDate": "Mar 20, 2024 03:35:18 PM EDT",
+            "createdDate": "Apr 22, 2022 03:50:12 PM EDT",
+            "lastUpdatedDate": "Mar 14, 2024 03:50:54 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2022-04-22-00-00-00",
+            "createTimeStampStr": "2024-03-20-15-32-44"
+          },
+          "cfdas": [
+            {
+              "id": 400452,
+              "opportunityId": 339728,
+              "revision": 6,
+              "cfdaNumber": "12.630",
+              "programTitle": "Basic, Applied, and Advanced Research in Science and Engineering"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 339728,
+            "revision": 5
+          },
+          "opportunityId": 339728,
+          "revision": 5,
+          "opportunityNumber": "W911NF-22-S-0011",
+          "opportunityTitle": "Tactical Behaviors for Autonomous Maneuver",
+          "owningAgencyCode": "DOD-AMC",
+          "publisherUid": "christopher.d.justice4",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 339728,
+              "revision": 5
+            },
+            "opportunityId": 339728,
+            "revision": 5,
+            "version": 6,
+            "agencyCode": "DOD-AMC",
+            "agencyAddressDesc": "TBAM-CRP Email Address",
+            "agencyDetails": {
+              "code": "AMC",
+              "seed": "DOD-AMC",
+              "agencyName": "Dept of the Army -- Materiel Command",
+              "agencyCode": "DOD-AMC",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "9195494287",
+            "agencyContactName": "Christopher D Justice\nContract Specialist",
+            "agencyContactDesc": "Christopher D Justice\r\nContract Specialist",
+            "agencyContactEmail": "usarmy.adelphi.devcom-arl.mbx.tbam-crp-questions@army.mil",
+            "agencyContactEmailDesc": "TBAM-CRP Email Address",
+            "synopsisDesc": "<p>**CYCLE 2 UPDATE 20 MARCH 2024 - THE OPPORTUNITY WEBINAR FOR CYCLE 2 WILL BE HELD ONLINE VIA MS TEAMS AT 1500 EDT ON 22 MARCH 2024 AT THE FOLLOWING LINK:</p>\n<p><br></p>\n<p><a href=\"https://dod.teams.microsoft.us/l/meetup-join/19%3adod%3ameeting_5fa41fe6fa874484b473d8a6ba7921c6%40thread.v2/0?context=%7b%22Tid%22%3a%22fae6d70f-954b-4811-92b6-0530d6f84c43%22%2c%22Oid%22%3a%22e9f6fc39-8f22-44e5-8bd0-64f0cde32305%22%2c%22IsBroadcastMeeting%22%3atrue%7d\" target=\"_blank\">https://dod.teams.microsoft.us/l/meetup-join/19%3adod%3ameeting_5fa41fe6fa874484b473d8a6ba7921c6%40thread.v2/0?context=%7b%22Tid%22%3a%22fae6d70f-954b-4811-92b6-0530d6f84c43%22%2c%22Oid%22%3a%22e9f6fc39-8f22-44e5-8bd0-64f0cde32305%22%2c%22IsBroadcastMeeting%22%3atrue%7d</a></p>\n<p><br></p>\n<p>**UPDATE 14 MARCH 2024 - CYCLE 2 HAS BEEN POSTED TO THE ANNOUNCEMENT. PLEASE REVIEW THE UPDATED ANNOUNCEMENT IN FULL FOR SUBMISSION TIME, UPDATED TOPIC, AND FUNDING AMOUNT AND SCHEDULE CHANGES FROM CYCLE 1**</p>\n<p><br></p>\n<p>TACTICAL BEHAVIORS FOR AUTONOMOUS MANEUVER COLLABORATIVE RESEARCH PROGRAM (TBAM-CRP)</p>\n<p><br></p>\n<p>Future Army forces will be called upon to operate and maneuver in multi-domain</p>\n<p>operations (MDO), against a modern and capable peer adversary. The battlefield of the future</p>\n<p>may impose additional constraints on maneuver forces such as disruption in communication as</p>\n<p>well as positioning services. To field a highly capable fighting force in this future battlefield,</p>\n<p>novel tactics and doctrines leveraging nascent technologies in robotics and autonomous systems</p>\n<p>(RAS) will need to be developed. Teams of RAS will serve an increasingly critical role in the</p>\n<p>future force to deliver situational awareness, defend key locations or positions, or take point in</p>\n<p>dynamic and hazardous situations. Resilience to disruptions, failures, or unexpected scenarios, is</p>\n<p>a key quality for teams of RAS to operate alongside other future Army forces. The US Army</p>\n<p>Combat Capabilities Development Command (DEVCOM) Army Research Laboratory (ARL) is</p>\n<p>focused on developing fundamental understanding and informing the art-of-the-possible for</p>\n<p>warfighter concepts through research to greatly improve the scope of mission capabilities of</p>\n<p>teams of RAS, develop robust and resilient approaches to plan under extreme conditions of</p>\n<p>uncertainty, to learn coordinated strategies for groups of agents to achieve a common objective,</p>\n<p>all within a complex maneuver environment including adversaries. The Tactical Behaviors for</p>\n<p>Autonomous Maneuver Collaborative Research Program (TBAM-CRP) is focused on developing</p>\n<p>and experimentally evaluating coordinated and individual behaviors for small groups of</p>\n<p>autonomous agents to learn doctrinal as well as novel tactics for maneuvering in military relevant</p>\n<p>environments. The TBAM-CRP will leverage developments in other internal and extramural</p>\n<p>programs as well as identify new research directions to find novel solutions to these maneuver</p>\n<p>problems in analogical simulations representing complex realistic terrain.</p>\n<p><br></p>\n<p>The Tactical Behaviors for Autonomous Maneuver Collaborative Research Program (TBAM-CRP) will</p>\n<p>consist of a series of sprint efforts executed with annual program reviews. Each topic will be focused on</p>\n<p>addressing a different set of scientific areas which will support the research aims of an associated ARL</p>\n<p>researcher from a related internal essential research program (ERP) or mission-funded program.</p>\n<p><br></p>\n<p>The TBAM-CRP has been developed in coordination with other related ARL-funded collaborative efforts</p>\n<p>(see descriptions of ARL collaborative alliances at https://www.arl.army.mil/business/collaborativealliances/)</p>\n<p>and shares a common vision of highly collaborative academia-industry-government</p>\n<p>partnerships; however, it will be executed with a program model adapted from the Scalable, Adaptive,</p>\n<p>and Resilient Autonomy (SARA), which established a new paradigm for collaborative research. Some</p>\n<p>key properties of this new approach are described below:</p>\n<p><br></p>\n<p>• TBAM-CRP sprint topics will be offered on a two-year cycle. Proposals will be solicited for a</p>\n<p>possible two-year period structured as a first-year pilot followed by a second-year option where</p>\n<p>the option may be awarded based upon progress assessed at an annual review. The FOA will be</p>\n<p>amended annually to identify a specific problem statement and scope for that specific cycle. The</p>\n<p>topics for each cycle will be chosen to address the long-term program goal.</p>\n<p>• Five new topics (Cycles 1-5) are expected in FY22, 24, 26, 28, 30. Each topic will be carefully</p>\n<p>chosen based on the previous accomplishments in the prior cycle(s), the development of new</p>\n<p>technologies and capabilities in the broader research and development communities, and the</p>\n<p>Army’s evolving needs for future capabilities.</p>\n<p>• For each topic, funding will be provided to those Recipients selected under a cooperative</p>\n<p>agreement (CA).</p>\n<p>• Enhanced Research Program funding from ARL or Other Government Agencies (OGAs) may</p>\n<p>become available during a cycle which provides a mechanism for growth and enhancement within</p>\n<p>the TBAM-CRP. A proposal should not include any discussion of the Enhanced Research</p>\n<p>Program. Recipients receiving a CA will be notified and provided details if the opportunity for</p>\n<p>Enhanced Research Program funding becomes available during their award period of</p>\n<p>performance.</p>\n<p>• There is no limitation on the place of performance, although on-site collaboration at ARL</p>\n<p>facilities and with ARL researchers as well as with other Recipients are encouraged. Research</p>\n<p>outcomes in this program must, at the very least, be demonstrated in sophisticated simulations of</p>\n<p>relevant environments. Together with ARL collaborators, these results may be adapted for higher</p>\n<p>TRL experimentation on surrogate platforms at ARL test facilities such as the Robotics Research</p>\n<p>Collaboration Campus (R2C2) at Graces Quarters, Aberdeen Proving Ground, Maryland.</p>\n<p>• Recipients will be furnished with access to the ARL Autonomy Stack software suite as well as all</p>\n<p>relevant simulation tools and multi-agent learning support.</p>\n<p>• Recipients will be provided with information about the current state of the Autonomous Systems</p>\n<p>Enterprise (ASE) with an overview of developments in the associated collaborative research</p>\n<p>alliances including Distributed and Collaborative Intelligent Systems and Technology (DCIST),</p>\n<p>Scalable, Adaptive, and Resilient Autonomy (SARA), as well as internal ARL essential research</p>\n<p>programs including the AI for Maneuver and Mobility (AIMM), Emerging Overmatch</p>\n<p>Technologies (EOT), and Versatile Tactical Power and Propulsion (VICTOR). Capabilities</p>\n<p>demonstrated in simulation should reflect significant appropriate developments. This midpoint</p>\n<p>review is expected to take place as a mini symposium where Recipients can share results with</p>\n<p>one another along with the ARL community to foster further collaboration.</p>\n<p>• At the end of the second year, a capstone demonstration will be executed by those Recipients</p>\n<p>receiving an option to their award in a set of simulated relevant environments, either those</p>\n<p>environment scenarios provided by the Government and other program performers, or optionally</p>\n<p>of a specific environment developed by the Recipient to exhibit their developed capability. Any</p>\n<p>system level capability demonstration that can be made with the internal ARL collaborator or</p>\n<p>description of capability development and program contribution can also be made at this time.</p>\n<p>These system demonstrations are expected to coincide to foster further integration and adoption</p>\n<p>with related internal research programs as well as partner organizations from within the</p>\n<p>DEVCOM, other Army and DoD service branches and agencies, in addition to other government</p>\n<p>agencies.</p>\n<p><br></p>\n<p>Proposals that follow the requirements of the FOA will be evaluated in accordance with merit-based,</p>\n<p>competitive procedures. These procedures will include evaluation factors and an adjectival and color</p>\n<p>rating system. A review team, consisting of a qualified group of Government scientists and managers</p>\n<p>will evaluate the compliant proposals and provide the results of that evaluation to the decision-maker for</p>\n<p>the Government. Relevant internal research program materials approved for public release and contact</p>\n<p>information will be provided to potential proposers during introductory presentations to help facilitate</p>\n<p>identification of collaboration between proposers and individual ARL researchers or internal research</p>\n<p>programs. Additional connections to ARL programs can be identified during the proposal review process.</p>\n<p><br></p>\n<p>Eligible applicants under this FOA include institutions of higher education, nonprofit organizations, and</p>\n<p>for-profit organizations (i.e., large and small businesses) for scientific research in the knowledge domains</p>\n<p>outlined throughout this Funding Opportunity. Federally Funded Research and Development Centers</p>\n<p>(FFRDC) may propose as well, with effort as allowed by their sponsoring agency and in accordance with</p>\n<p>their sponsoring agency policy.</p>",
+            "responseDateDesc": "Proposals for Cycle 2 are due no later than 16 April 2024.",
+            "postingDate": "Apr 22, 2022 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "2300000",
+            "awardCeilingFormatted": "2,300,000",
+            "awardFloor": "100000",
+            "awardFloorFormatted": "100,000",
+            "applicantEligibilityDesc": "It is our goal for the program to include a diverse group of Applicants with varied long-term interests.Applicants may be institutions of higher education, for-profit, or non-profit organizations. FederallyFunded Research and Development Centers (FFRDC) may propose as well, with effort as allowed bytheir sponsoring agency and in accordance with their sponsoring agency policy. Proposals may consistof teams from any combination of organizations (e.g., prime and subawardees), but this is not arequirement for award and award will only be made to a single entity.",
+            "createTimeStamp": "Apr 05, 2024 04:23:25 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "CYCLE 2 UPDATE 20 MARCH 2024 - THE OPPORTUNITY WEBINAR FOR CYCLE 2 WILL BE HELD ONLINE VIA MS TEAMS AT 1500 EDT ON 22 MARCH 2024 AT THE FOLLOWING LINK:\r\n\r\n\r\n\r\nhttps://dod.teams.microsoft.us/l/meetup-join/19%3adod%3ameeting_5fa41fe6fa874484b473d8a6ba7921c6%40thread.v2/0?context=%7b%22Tid%22%3a%22fae6d70f-954b-4811-92b6-0530d6f84c43%22%2c%22Oid%22%3a%22e9f6fc39-8f22-44e5-8bd0-64f0cde32305%22%2c%22IsBroadcastMeeting%22%3atrue%7d",
+            "actionType": "U",
+            "actionDate": "Apr 05, 2024 04:24:38 PM EDT",
+            "createdDate": "Apr 22, 2022 03:50:12 PM EDT",
+            "lastUpdatedDate": "Mar 20, 2024 03:35:18 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2022-04-22-00-00-00",
+            "createTimeStampStr": "2024-04-05-16-23-25"
+          },
+          "cfdas": [
+            {
+              "id": 400452,
+              "opportunityId": 339728,
+              "revision": 6,
+              "cfdaNumber": "12.630",
+              "programTitle": "Basic, Applied, and Advanced Research in Science and Engineering"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 339728,
+            "revision": 6
+          },
+          "opportunityId": 339728,
+          "revision": 6,
+          "opportunityNumber": "W911NF-22-S-0011",
+          "opportunityTitle": "Tactical Behaviors for Autonomous Maneuver",
+          "owningAgencyCode": "DOD-AMC",
+          "publisherUid": "christopher.d.justice4",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 339728,
+              "revision": 6
+            },
+            "opportunityId": 339728,
+            "revision": 6,
+            "version": 7,
+            "agencyCode": "DOD-AMC",
+            "agencyAddressDesc": "TBAM-CRP Email Address",
+            "agencyDetails": {
+              "code": "AMC",
+              "seed": "DOD-AMC",
+              "agencyName": "Dept of the Army -- Materiel Command",
+              "agencyCode": "DOD-AMC",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "9195494287",
+            "agencyContactName": "Christopher D Justice\nContract Specialist",
+            "agencyContactDesc": "Christopher D Justice\r\nContract Specialist",
+            "agencyContactEmail": "usarmy.adelphi.devcom-arl.mbx.tbam-crp-questions@army.mil",
+            "agencyContactEmailDesc": "TBAM-CRP Email Address",
+            "synopsisDesc": "<p>**UPDATE 5 APRIL 2024: The proposal submission date has been updated to 23 April 2024.&nbsp;The FOA has been amended to reflect this submission date and include a Question and Answer document based on questions received from interested applicants.&nbsp;Other than the updated proposal submission date in the FOA, the actual FOA Amendment has not been changed. However, the answers provided in the Q&amp;A document are considered part of the FOA Amendment.**</p>\n<p><br></p>\n<p>**CYCLE 2 UPDATE 20 MARCH 2024 - THE OPPORTUNITY WEBINAR FOR CYCLE 2 WILL BE HELD ONLINE VIA MS TEAMS AT 1500 EDT ON 22 MARCH 2024 AT THE FOLLOWING LINK:</p>\n<p><br></p>\n<p><a href=\"https://dod.teams.microsoft.us/l/meetup-join/19%3adod%3ameeting_5fa41fe6fa874484b473d8a6ba7921c6%40thread.v2/0?context=%7b%22Tid%22%3a%22fae6d70f-954b-4811-92b6-0530d6f84c43%22%2c%22Oid%22%3a%22e9f6fc39-8f22-44e5-8bd0-64f0cde32305%22%2c%22IsBroadcastMeeting%22%3atrue%7d\" target=\"_blank\">https://dod.teams.microsoft.us/l/meetup-join/19%3adod%3ameeting_5fa41fe6fa874484b473d8a6ba7921c6%40thread.v2/0?context=%7b%22Tid%22%3a%22fae6d70f-954b-4811-92b6-0530d6f84c43%22%2c%22Oid%22%3a%22e9f6fc39-8f22-44e5-8bd0-64f0cde32305%22%2c%22IsBroadcastMeeting%22%3atrue%7d</a></p>\n<p><br></p>\n<p>**UPDATE 14 MARCH 2024 - CYCLE 2 HAS BEEN POSTED TO THE ANNOUNCEMENT. PLEASE REVIEW THE UPDATED ANNOUNCEMENT IN FULL FOR SUBMISSION TIME, UPDATED TOPIC, AND FUNDING AMOUNT AND SCHEDULE CHANGES FROM CYCLE 1**</p>\n<p><br></p>\n<p>TACTICAL BEHAVIORS FOR AUTONOMOUS MANEUVER COLLABORATIVE RESEARCH PROGRAM (TBAM-CRP)</p>\n<p><br></p>\n<p>Future Army forces will be called upon to operate and maneuver in multi-domain</p>\n<p>operations (MDO), against a modern and capable peer adversary. The battlefield of the future</p>\n<p>may impose additional constraints on maneuver forces such as disruption in communication as</p>\n<p>well as positioning services. To field a highly capable fighting force in this future battlefield,</p>\n<p>novel tactics and doctrines leveraging nascent technologies in robotics and autonomous systems</p>\n<p>(RAS) will need to be developed. Teams of RAS will serve an increasingly critical role in the</p>\n<p>future force to deliver situational awareness, defend key locations or positions, or take point in</p>\n<p>dynamic and hazardous situations. Resilience to disruptions, failures, or unexpected scenarios, is</p>\n<p>a key quality for teams of RAS to operate alongside other future Army forces. The US Army</p>\n<p>Combat Capabilities Development Command (DEVCOM) Army Research Laboratory (ARL) is</p>\n<p>focused on developing fundamental understanding and informing the art-of-the-possible for</p>\n<p>warfighter concepts through research to greatly improve the scope of mission capabilities of</p>\n<p>teams of RAS, develop robust and resilient approaches to plan under extreme conditions of</p>\n<p>uncertainty, to learn coordinated strategies for groups of agents to achieve a common objective,</p>\n<p>all within a complex maneuver environment including adversaries. The Tactical Behaviors for</p>\n<p>Autonomous Maneuver Collaborative Research Program (TBAM-CRP) is focused on developing</p>\n<p>and experimentally evaluating coordinated and individual behaviors for small groups of</p>\n<p>autonomous agents to learn doctrinal as well as novel tactics for maneuvering in military relevant</p>\n<p>environments. The TBAM-CRP will leverage developments in other internal and extramural</p>\n<p>programs as well as identify new research directions to find novel solutions to these maneuver</p>\n<p>problems in analogical simulations representing complex realistic terrain.</p>\n<p><br></p>\n<p>The Tactical Behaviors for Autonomous Maneuver Collaborative Research Program (TBAM-CRP) will</p>\n<p>consist of a series of sprint efforts executed with annual program reviews. Each topic will be focused on</p>\n<p>addressing a different set of scientific areas which will support the research aims of an associated ARL</p>\n<p>researcher from a related internal essential research program (ERP) or mission-funded program.</p>\n<p><br></p>\n<p>The TBAM-CRP has been developed in coordination with other related ARL-funded collaborative efforts</p>\n<p>(see descriptions of ARL collaborative alliances at https://www.arl.army.mil/business/collaborativealliances/)</p>\n<p>and shares a common vision of highly collaborative academia-industry-government</p>\n<p>partnerships; however, it will be executed with a program model adapted from the Scalable, Adaptive,</p>\n<p>and Resilient Autonomy (SARA), which established a new paradigm for collaborative research. Some</p>\n<p>key properties of this new approach are described below:</p>\n<p><br></p>\n<p>• TBAM-CRP sprint topics will be offered on a two-year cycle. Proposals will be solicited for a</p>\n<p>possible two-year period structured as a first-year pilot followed by a second-year option where</p>\n<p>the option may be awarded based upon progress assessed at an annual review. The FOA will be</p>\n<p>amended annually to identify a specific problem statement and scope for that specific cycle. The</p>\n<p>topics for each cycle will be chosen to address the long-term program goal.</p>\n<p>• Five new topics (Cycles 1-5) are expected in FY22, 24, 26, 28, 30. Each topic will be carefully</p>\n<p>chosen based on the previous accomplishments in the prior cycle(s), the development of new</p>\n<p>technologies and capabilities in the broader research and development communities, and the</p>\n<p>Army’s evolving needs for future capabilities.</p>\n<p>• For each topic, funding will be provided to those Recipients selected under a cooperative</p>\n<p>agreement (CA).</p>\n<p>• Enhanced Research Program funding from ARL or Other Government Agencies (OGAs) may</p>\n<p>become available during a cycle which provides a mechanism for growth and enhancement within</p>\n<p>the TBAM-CRP. A proposal should not include any discussion of the Enhanced Research</p>\n<p>Program. Recipients receiving a CA will be notified and provided details if the opportunity for</p>\n<p>Enhanced Research Program funding becomes available during their award period of</p>\n<p>performance.</p>\n<p>• There is no limitation on the place of performance, although on-site collaboration at ARL</p>\n<p>facilities and with ARL researchers as well as with other Recipients are encouraged. Research</p>\n<p>outcomes in this program must, at the very least, be demonstrated in sophisticated simulations of</p>\n<p>relevant environments. Together with ARL collaborators, these results may be adapted for higher</p>\n<p>TRL experimentation on surrogate platforms at ARL test facilities such as the Robotics Research</p>\n<p>Collaboration Campus (R2C2) at Graces Quarters, Aberdeen Proving Ground, Maryland.</p>\n<p>• Recipients will be furnished with access to the ARL Autonomy Stack software suite as well as all</p>\n<p>relevant simulation tools and multi-agent learning support.</p>\n<p>• Recipients will be provided with information about the current state of the Autonomous Systems</p>\n<p>Enterprise (ASE) with an overview of developments in the associated collaborative research</p>\n<p>alliances including Distributed and Collaborative Intelligent Systems and Technology (DCIST),</p>\n<p>Scalable, Adaptive, and Resilient Autonomy (SARA), as well as internal ARL essential research</p>\n<p>programs including the AI for Maneuver and Mobility (AIMM), Emerging Overmatch</p>\n<p>Technologies (EOT), and Versatile Tactical Power and Propulsion (VICTOR). Capabilities</p>\n<p>demonstrated in simulation should reflect significant appropriate developments. This midpoint</p>\n<p>review is expected to take place as a mini symposium where Recipients can share results with</p>\n<p>one another along with the ARL community to foster further collaboration.</p>\n<p>• At the end of the second year, a capstone demonstration will be executed by those Recipients</p>\n<p>receiving an option to their award in a set of simulated relevant environments, either those</p>\n<p>environment scenarios provided by the Government and other program performers, or optionally</p>\n<p>of a specific environment developed by the Recipient to exhibit their developed capability. Any</p>\n<p>system level capability demonstration that can be made with the internal ARL collaborator or</p>\n<p>description of capability development and program contribution can also be made at this time.</p>\n<p>These system demonstrations are expected to coincide to foster further integration and adoption</p>\n<p>with related internal research programs as well as partner organizations from within the</p>\n<p>DEVCOM, other Army and DoD service branches and agencies, in addition to other government</p>\n<p>agencies.</p>\n<p><br></p>\n<p>Proposals that follow the requirements of the FOA will be evaluated in accordance with merit-based,</p>\n<p>competitive procedures. These procedures will include evaluation factors and an adjectival and color</p>\n<p>rating system. A review team, consisting of a qualified group of Government scientists and managers</p>\n<p>will evaluate the compliant proposals and provide the results of that evaluation to the decision-maker for</p>\n<p>the Government. Relevant internal research program materials approved for public release and contact</p>\n<p>information will be provided to potential proposers during introductory presentations to help facilitate</p>\n<p>identification of collaboration between proposers and individual ARL researchers or internal research</p>\n<p>programs. Additional connections to ARL programs can be identified during the proposal review process.</p>\n<p><br></p>\n<p>Eligible applicants under this FOA include institutions of higher education, nonprofit organizations, and</p>\n<p>for-profit organizations (i.e., large and small businesses) for scientific research in the knowledge domains</p>\n<p>outlined throughout this Funding Opportunity. Federally Funded Research and Development Centers</p>\n<p>(FFRDC) may propose as well, with effort as allowed by their sponsoring agency and in accordance with</p>\n<p>their sponsoring agency policy.</p>",
+            "responseDateDesc": "Proposals for Cycle 2 are due no later than 23 April 2024.",
+            "postingDate": "Apr 22, 2022 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "2300000",
+            "awardCeilingFormatted": "2,300,000",
+            "awardFloor": "100000",
+            "awardFloorFormatted": "100,000",
+            "applicantEligibilityDesc": "It is our goal for the program to include a diverse group of Applicants with varied long-term interests.Applicants may be institutions of higher education, for-profit, or non-profit organizations. FederallyFunded Research and Development Centers (FFRDC) may propose as well, with effort as allowed bytheir sponsoring agency and in accordance with their sponsoring agency policy. Proposals may consistof teams from any combination of organizations (e.g., prime and subawardees), but this is not arequirement for award and award will only be made to a single entity.",
+            "createTimeStamp": "Apr 05, 2024 04:29:00 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "**The proposal submission date has been updated to 23 April 2024.  The FOA has been amended to reflect this submission date and include a Question and Answer document based on questions received from interested applicants.  Other than the updated proposal submission date in the FOA, the actual FOA Amendment has not been changed. However, the answers provided in the Q&amp;A document are considered part of the FOA Amendment.**",
+            "actionType": "U",
+            "actionDate": "Apr 05, 2024 04:29:35 PM EDT",
+            "createdDate": "Apr 22, 2022 03:50:12 PM EDT",
+            "lastUpdatedDate": "Apr 05, 2024 04:24:38 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2022-04-22-00-00-00",
+            "createTimeStampStr": "2024-04-05-16-29-00"
+          },
+          "cfdas": [
+            {
+              "id": 400452,
+              "opportunityId": 339728,
+              "revision": 6,
+              "cfdaNumber": "12.630",
+              "programTitle": "Basic, Applied, and Advanced Research in Science and Engineering"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "responseDateDesc"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [
+        {
+          "id": 273617,
+          "topportunityId": 339728,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "W911NF-22-S-0011",
+          "opportunityTitle": "Tactical Behaviors for Autonomous Maneuver",
+          "cfdaNumber": "12.630",
+          "openingDate": "Mar 14, 2024 12:00:00 AM EDT",
+          "closingDate": "Apr 24, 2024 12:00:00 AM EDT",
+          "owningAgencyCode": "DOD-AMC",
+          "programTitle": "Basic, Applied, and Advanced Research in Science and Engineering",
+          "contactInfo": "Christopher D Justice\r\nContract Specialist\r\nE-mail: christopher.d.justice4.civ@mail.mil\r\nPhone: 9195494287",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 50,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 05, 2024 04:27:56 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00273617",
+          "openingDateStr": "2024-03-14-00-00-00",
+          "closingDateStr": "2024-04-24-00-00-00"
+        }
+      ],
+      "originalDueDateDesc": "Proposals for Cycle 1 are due no later than 1700 Eastern Time on 27 May 2022.",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc",
+        "responseDateDesc"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 7,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

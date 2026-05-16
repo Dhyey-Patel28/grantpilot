@@ -1,0 +1,505 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360999",
+  "fetched_at": "2026-05-16T14:08:32.767Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IkNLQ3BSc1lBRjI4dEd0NTlzenRROERoOWlKaG8weThOOFB6MWdRMHVLbGs9Ig.qKZSnegSSBoBUNtZ40KIwS8X41VM4notLVTIX42CvZ4",
+    "data": {
+      "id": 360999,
+      "revision": 3,
+      "opportunityNumber": "RFA-JG-26-034",
+      "opportunityTitle": "Enhancing Understanding of and Preparedness for Public Health Threats Through Research in Kenya",
+      "owningAgencyCode": "HHS-CDC-HHSCDCERA",
+      "publisherUid": "21075984081049386526321738257390910592",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 360999,
+        "version": 1,
+        "agencyCode": "HHS-CDC-HHSCDCERA",
+        "agencyName": "Centers for Disease Control and Prevention - ERA",
+        "agencyPhone": "404-498-2015",
+        "agencyAddressDesc": "kva5@cdc.gov",
+        "agencyDetails": {
+          "code": "HHSCDCERA",
+          "seed": "HHS-CDC-HHSCDCERA",
+          "agencyName": "Centers for Disease Control and Prevention - ERA",
+          "agencyCode": "HHS-CDC-HHSCDCERA",
+          "topAgencyCode": "HHS"
+        },
+        "topAgencyDetails": {
+          "code": "HHS",
+          "seed": "HHS",
+          "agencyName": "Department of Health and Human Services",
+          "agencyCode": "HHS",
+          "topAgencyCode": "HHS"
+        },
+        "agencyContactPhone": "404-498-2015",
+        "agencyContactName": "Centers for Disease Control and Prevention - ERA",
+        "agencyContactDesc": "Jaya Raman\nkva5@cdc.gov",
+        "agencyContactEmail": "kva5@cdc.gov",
+        "agencyContactEmailDesc": "kva5@cdc.gov",
+        "synopsisDesc": "This notice of funding opportunity (NOFO) supports research, implementation science, and public health evaluations to inform best practices for preventing and responding to infectious disease threats in Kenya, while strengthening local research capacity.The award recipient will conduct research, implementation science, and public health evaluations through the Kenya Medical Research Institute (KEMRI) and focus on four required priority areas:Influenza and other respiratory pathogens: Activities include surveilling high-risk groups; monitoring for human and avian influenza and other pathogens; and evaluating efficacy and use of vaccines and other treatments. Outcomes include increasing understanding of disease burden and improving vaccination strategies.Vaccine-preventable diseases: Research will assess disease burden, vaccine effectiveness, and sociocultural factors influencing immunization. Outcomes include increasing vaccine uptake and strengthening immunization systems.Drug-resistant infections: Activities include monitoring antimicrobial resistance (AMR) trends, applying novel diagnostics, and identifying drivers of resistance. Outcomes include improving mitigation strategies and global AMR preparedness.Global and emerging health threats: Research will address malaria, HIV, tuberculosis, schistosomiasis, and emerging infections. Outcomes include improving understanding of disease dynamics, intervention effectiveness, and cross-border risks.The recipient will also conduct research coordination and administration activities to manage and oversee U.S. government–funded public health research, ensure compliance with financial and ethical standards, and enhance organizational infrastructure. Outcomes include improved management and compliance with federal funding regulations.The proposed activities under this NOFO will generate evidence to guide U.S. and global preparedness, reduce disease burden and health threats in Kenya, and prevent the spread of health threats across borders.",
+        "responseDate": "Jun 22, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+        "postingDate": "May 11, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 23, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "30000000",
+        "estimatedFundingFormatted": "30,000,000",
+        "awardCeiling": "6000000",
+        "awardCeilingFormatted": "6,000,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Foreign organizations. A foreign organization is a public or private organization, whether nonprofit or for-profit, located in a country other than the United States and its territories that is subject to the laws of the country in which it is located, irrespective of the citizenship of project staff or place of performance.",
+        "createTimeStamp": "May 11, 2026 04:12:58 PM EDT",
+        "createdDate": "May 11, 2026 04:10:43 PM EDT",
+        "lastUpdatedDate": "May 11, 2026 04:10:43 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "responseDateStr": "2026-06-22-00-00-00",
+        "postingDateStr": "2026-05-11-00-00-00",
+        "archiveDateStr": "2026-06-23-00-00-00",
+        "createTimeStampStr": "2026-05-11-16-12-58"
+      },
+      "agencyDetails": {
+        "code": "HHSCDCERA",
+        "seed": "HHS-CDC-HHSCDCERA",
+        "agencyName": "Centers for Disease Control and Prevention - ERA",
+        "agencyCode": "HHS-CDC-HHSCDCERA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 360999,
+        "version": 3,
+        "postingDate": "Dec 11, 2025 12:00:00 AM EST",
+        "archiveDate": "May 10, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>The purpose of this notice of funding opportunity is:&nbsp;</p><ul style=\"list-style-type:disc;\"><li>To conduct surveillance, epidemiologic, laboratory, clinical, and operations research on public health threats in Kenya to better understand disease transmission and to develop and refine medical countermeasures and interventions for preparedness in the U.S. and globally. &nbsp;</li><li>To support Kenya’s local capacity to conduct research on public health threats to strengthen local response and reduce spread of infectious disease threats.&nbsp; &nbsp;&nbsp;</li></ul>",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "15000000",
+        "awardCeiling": "3000000",
+        "awardFloor": "0",
+        "agencyContactName": "Lata Kumar",
+        "agencyContactPhone": "404.955.6527",
+        "agencyContactEmail": "lek7@cdc.gov",
+        "agencyContactEmailDesc": "lek7@cdc.gov",
+        "agencyCode": "HHS-CDC-HHSCDCERA",
+        "estSynopsisPostingDate": "Dec 30, 2025 12:00:00 AM EST",
+        "estApplicationResponseDate": "Mar 06, 2026 12:00:00 AM EST",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+        "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "Updated Archive Date",
+        "createTimeStamp": "May 11, 2026 04:12:58 PM EDT",
+        "createdDate": "Dec 11, 2025 05:30:39 PM EST",
+        "lastUpdatedDate": "May 11, 2026 04:12:58 PM EDT",
+        "agencyDetails": {
+          "code": "HHSCDCERA",
+          "seed": "HHS-CDC-HHSCDCERA",
+          "agencyName": "Centers for Disease Control and Prevention - ERA",
+          "agencyCode": "HHS-CDC-HHSCDCERA",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "15,000,000",
+        "awardCeilingFormatted": "3,000,000",
+        "awardFloorFormatted": "0",
+        "applicantTypes": [
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-12-11-00-00-00",
+        "archiveDateStr": "2026-05-10-00-00-00",
+        "estSynopsisPostingDateStr": "2025-12-30-00-00-00",
+        "estApplicationResponseDateStr": "2026-03-06-00-00-00",
+        "estAwardDateStr": "2026-08-31-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-05-11-16-12-58"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79663,
+          "opportunityId": 360999,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 267036,
+          "createdDate": "May 11, 2026 04:12:57 PM EDT",
+          "lastUpdatedDate": "May 11, 2026 04:12:58 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351926,
+              "opportunityId": 360999,
+              "mimeType": "application/pdf",
+              "fileName": "rfa-jg-26-034_rev10.pdf",
+              "fileDescription": "rfa-jg-26-034_rev10.pdf",
+              "fileLobSize": 303567,
+              "createdDate": "May 11, 2026 04:12:58 PM EDT",
+              "synopsisAttFolderId": 79663
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 431591,
+          "opportunityId": 360999,
+          "cfdaNumber": "93.326",
+          "programTitle": "Strengthening Public Health through Surveillance, Epidemiologic Research, Disease Detection and Prevention"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 360999,
+            "revision": 0
+          },
+          "opportunityId": 360999,
+          "revision": 0,
+          "opportunityNumber": "RFA-JG-26-034",
+          "opportunityTitle": "Enhancing Understanding and Preparedness for Public Health Threats Through Research in Kenya",
+          "owningAgencyCode": "HHS-CDC-HHSCDCERA",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360999,
+              "revision": 0
+            },
+            "opportunityId": 360999,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Dec 11, 2025 12:00:00 AM EST",
+            "archiveDate": "Apr 05, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The purpose of this notice of funding opportunity is:&nbsp;</p><ul style=\"list-style-type:disc;\"><li>To conduct surveillance, epidemiologic, laboratory, clinical, and operations research on public health threats in Kenya to better understand disease transmission and to develop and refine medical countermeasures and interventions for preparedness in the U.S. and globally. &nbsp;</li><li>To support Kenya’s local capacity to conduct research on public health threats to strengthen local response and reduce spread of infectious disease threats.&nbsp; &nbsp;&nbsp;</li></ul>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "15000000",
+            "awardCeiling": "3000000",
+            "awardFloor": "0",
+            "agencyContactName": "Lata Kumar",
+            "agencyContactPhone": "404.955.6527",
+            "agencyContactEmail": "lek7@cdc.gov",
+            "agencyContactEmailDesc": "lek7@cdc.gov",
+            "agencyCode": "HHS-CDC-HHSCDCERA",
+            "estSynopsisPostingDate": "Dec 30, 2025 12:00:00 AM EST",
+            "estApplicationResponseDate": "Mar 06, 2026 12:00:00 AM EST",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Dec 11, 2025 05:30:39 PM EST",
+            "actionType": "U",
+            "actionDate": "May 11, 2026 04:10:43 PM EDT",
+            "createdDate": "Dec 11, 2025 05:30:39 PM EST",
+            "lastUpdatedDate": "Dec 11, 2025 05:30:39 PM EST",
+            "agencyDetails": {
+              "code": "HHSCDCERA",
+              "seed": "HHS-CDC-HHSCDCERA",
+              "agencyName": "Centers for Disease Control and Prevention - ERA",
+              "agencyCode": "HHS-CDC-HHSCDCERA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "15,000,000",
+            "awardCeilingFormatted": "3,000,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-11-00-00-00",
+            "archiveDateStr": "2026-04-05-00-00-00",
+            "estSynopsisPostingDateStr": "2025-12-30-00-00-00",
+            "estApplicationResponseDateStr": "2026-03-06-00-00-00",
+            "estAwardDateStr": "2026-08-31-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2025-12-11-17-30-39"
+          },
+          "cfdas": [
+            {
+              "id": 431591,
+              "opportunityId": 360999,
+              "revision": 1,
+              "cfdaNumber": "93.326",
+              "programTitle": "Strengthening Public Health through Surveillance, Epidemiologic Research, Disease Detection and Prevention"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360999,
+            "revision": 2
+          },
+          "opportunityId": 360999,
+          "revision": 2,
+          "opportunityNumber": "RFA-JG-26-034",
+          "opportunityTitle": "Enhancing Understanding of and Preparedness for Public Health Threats Through Research in Kenya",
+          "owningAgencyCode": "HHS-CDC-HHSCDCERA",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360999,
+              "revision": 2
+            },
+            "opportunityId": 360999,
+            "revision": 2,
+            "version": 2,
+            "postingDate": "Dec 11, 2025 12:00:00 AM EST",
+            "archiveDate": "Apr 05, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The purpose of this notice of funding opportunity is:&nbsp;</p><ul style=\"list-style-type:disc;\"><li>To conduct surveillance, epidemiologic, laboratory, clinical, and operations research on public health threats in Kenya to better understand disease transmission and to develop and refine medical countermeasures and interventions for preparedness in the U.S. and globally. &nbsp;</li><li>To support Kenya’s local capacity to conduct research on public health threats to strengthen local response and reduce spread of infectious disease threats.&nbsp; &nbsp;&nbsp;</li></ul>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "15000000",
+            "awardCeiling": "3000000",
+            "awardFloor": "0",
+            "agencyContactName": "Lata Kumar",
+            "agencyContactPhone": "404.955.6527",
+            "agencyContactEmail": "lek7@cdc.gov",
+            "agencyContactEmailDesc": "lek7@cdc.gov",
+            "agencyCode": "HHS-CDC-HHSCDCERA",
+            "estSynopsisPostingDate": "Dec 30, 2025 12:00:00 AM EST",
+            "estApplicationResponseDate": "Mar 06, 2026 12:00:00 AM EST",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "May 11, 2026 04:10:43 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 11, 2026 04:10:43 PM EDT",
+            "createdDate": "Dec 11, 2025 05:30:39 PM EST",
+            "lastUpdatedDate": "May 11, 2026 04:10:43 PM EDT",
+            "agencyDetails": {
+              "code": "HHSCDCERA",
+              "seed": "HHS-CDC-HHSCDCERA",
+              "agencyName": "Centers for Disease Control and Prevention - ERA",
+              "agencyCode": "HHS-CDC-HHSCDCERA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "15,000,000",
+            "awardCeilingFormatted": "3,000,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-11-00-00-00",
+            "archiveDateStr": "2026-04-05-00-00-00",
+            "estSynopsisPostingDateStr": "2025-12-30-00-00-00",
+            "estApplicationResponseDateStr": "2026-03-06-00-00-00",
+            "estAwardDateStr": "2026-08-31-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-05-11-16-10-43"
+          },
+          "cfdas": [
+            {
+              "id": 431591,
+              "opportunityId": 360999,
+              "revision": 1,
+              "cfdaNumber": "93.326",
+              "programTitle": "Strengthening Public Health through Surveillance, Epidemiologic Research, Disease Detection and Prevention"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "opportunityTitle",
+            "createTimeStamp"
+          ]
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292751,
+          "topportunityId": 360999,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "RFA-JG-26-034",
+          "opportunityTitle": "Enhancing Understanding of and Preparedness for Public Health Threats Through Research in Kenya",
+          "cfdaNumber": "93.326",
+          "openingDate": "2026-05-11",
+          "closingDate": "2026-06-22",
+          "owningAgencyCode": "HHS-CDC-HHSCDCERA",
+          "agencyDetails": {
+            "code": "HHSCDCERA",
+            "seed": "HHS-CDC-HHSCDCERA",
+            "agencyName": "Centers for Disease Control and Prevention - ERA",
+            "agencyCode": "HHS-CDC-HHSCDCERA",
+            "topAgencyCode": "HHS"
+          },
+          "topAgencyDetails": {
+            "code": "HHS",
+            "seed": "HHS",
+            "agencyName": "Department of Health and Human Services",
+            "agencyCode": "HHS",
+            "topAgencyCode": "HHS"
+          },
+          "programTitle": "Strengthening Public Health through Surveillance, Epidemiologic Research, Disease Detection and Prevention",
+          "contactInfo": "Jaya Raman",
+          "gracePeriod": 1,
+          "competitionId": "RFA-JG-26-034",
+          "competitionTitle": "Enhancing Understanding of and Preparedness for Public Health Threats Through Research in Kenya",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 20,
+          "expectedApplicationSize": 100,
+          "openToApplicantType": 1,
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "May 11, 2026 04:12:25 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292751",
+          "openingDateStr": "2026-05-11-00-00-00",
+          "closingDateStr": "2026-06-22-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 22, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version",
+        "archiveDate",
+        "modComments"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 2,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

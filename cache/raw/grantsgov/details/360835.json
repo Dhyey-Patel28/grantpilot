@@ -1,0 +1,505 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360835",
+  "fetched_at": "2026-05-16T14:08:28.478Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImlCUG0zcXFrcFRGVVROTE0rZnZYZDBUNXdVd0t1dCtWSThsc3ErM3RpV3M9Ig.1xxPCMMX6wDQiwnDLZDu7FaCVwUvogSEY28WzlYSjws",
+    "data": {
+      "id": 360835,
+      "revision": 2,
+      "opportunityNumber": "CDC-RFA-JG-26-0156",
+      "opportunityTitle": "Strengthening and modernizing Uganda's sustainable public health systems and workforce in data science, informatics, and surveillance to produce timely, accurate, and integrated data for action",
+      "owningAgencyCode": "HHS-CDC-GHC",
+      "listed": "L",
+      "publisherUid": "21075984081049386526321738257390910592",
+      "modifiedComments": "The estimated publication date has been revised from December 2, 2026 to April 10, 2026                                                                                                                          \nThe application deadline has been updated from February 17, 2026 to June 2026\n Title, funding, and summary were updated.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "GHC",
+        "seed": "HHS-CDC-GHC",
+        "agencyName": "Centers for Disease Control-GHC",
+        "agencyCode": "HHS-CDC-GHC",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 360835,
+        "version": 3,
+        "postingDate": "Nov 06, 2025 12:00:00 AM EST",
+        "archiveDate": "Jul 13, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p><strong>The Award Ceiling for Year 1 is 0 (none). CDC anticipates an Approximate Total Fiscal Year Funding amount of $30,000,000 for Year 1, subject to the availability of funds.</strong></p><p>This NOFO supports the Ministry of Health (MOH)-led digital transformation vision to modernize Uganda’s health data systems and infrastructure. It also supports enhancing capacity to provide timely epidemic intelligence for critical decision-making in HIV and related health programs. The data architecture is expected to encompass:</p><ul style=\"list-style-type:disc;\"><li>General and targeted surveys.</li><li>Clinical systems such as electronic medical records (EMR).</li><li>Digital registers.</li><li>Clinical indicator-based surveillance.</li><li>Disease surveillance.</li><li>Laboratory data.</li><li>Commodities, logistics, and pharmacy management information systems.</li><li>Community data.</li><li>Human resource management and development.</li><li>Other data collection activities to address existing data and knowledge gaps.</li></ul><p>&nbsp;</p><p>The NOFO also supports developing digital solutions and strengthening data warehousing, integration, and interoperability to build a sustainable and resilient digital ecosystem ready for transition to local governance.&nbsp;</p>",
+        "costSharing": false,
+        "numberOfAwards": "2",
+        "estimatedFunding": "0",
+        "awardCeiling": "0",
+        "awardFloor": "0",
+        "agencyContactName": "DGHT NOFOs",
+        "agencyContactPhone": "pepfarfoas@cdc.gov",
+        "agencyContactEmail": "pepfarfoas@cdc.gov",
+        "agencyContactEmailDesc": "pepfarfoas@cdc.gov",
+        "agencyCode": "HHS-CDC-GHC",
+        "sendEmail": "Y",
+        "estSynopsisPostingDate": "Apr 14, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jun 13, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+        "estAwardDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "The estimated publication date has been revised from December 2, 2026 to April 10, 2026                                                                                                                          \nThe application deadline has been updated from February 17, 2026 to June 2026\n Title, funding, and summary were updated.",
+        "createTimeStamp": "Mar 20, 2026 04:10:14 PM EDT",
+        "createdDate": "Nov 06, 2025 03:25:32 PM EST",
+        "lastUpdatedDate": "Mar 20, 2026 04:10:14 PM EDT",
+        "agencyDetails": {
+          "code": "GHC",
+          "seed": "HHS-CDC-GHC",
+          "agencyName": "Centers for Disease Control-GHC",
+          "agencyCode": "HHS-CDC-GHC",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "0",
+        "awardCeilingFormatted": "0",
+        "awardFloorFormatted": "0",
+        "applicantTypes": [
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-11-06-00-00-00",
+        "archiveDateStr": "2026-07-13-00-00-00",
+        "estSynopsisPostingDateStr": "2026-04-14-00-00-00",
+        "estApplicationResponseDateStr": "2026-06-13-00-00-00",
+        "estAwardDateStr": "2026-09-30-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-03-20-16-10-14"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 431403,
+          "opportunityId": 360835,
+          "cfdaNumber": "93.067",
+          "programTitle": "Global AIDS"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 360835,
+            "revision": 0
+          },
+          "opportunityId": 360835,
+          "revision": 0,
+          "opportunityNumber": "CDC-RFA-JG-26-0156",
+          "opportunityTitle": "Strengthening and modernizing sustainable public health systems and workforce in Uganda for data science, informatics, implementation science and surveys, and surveillance for timely, accurate, and integrated data for action under PEPFAR",
+          "owningAgencyCode": "HHS-CDC-GHC",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360835,
+              "revision": 0
+            },
+            "opportunityId": 360835,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Nov 06, 2025 12:00:00 AM EST",
+            "archiveDate": "Apr 12, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p><strong>The Award Ceiling for Year 1 is 0 (none). CDC anticipates an Approximate Total Fiscal Year Funding amount of $30,000,000 for Year 1, subject to the availability of funds.</strong></p><p style=\"margin-left:0px;\">​​This NOFO will focus on supporting the Ministry of Health (MOH)-led digital transformation vision to modernize health data systems and infrastructure, enhancing capacity to provide timely epidemic intelligence for critical decision-making in HIV and related health programs in Uganda. The data architecture will encompass general and targeted surveys and implementation science, clinical systems such as electronic medical records, digital registers, clinical indicator-based surveillance, disease surveillance, laboratory data, commodities/logistics/pharmacy management information systems, community data, human resource management and development, and other data collection activities to address existing data and knowledge gaps.</p><p style=\"margin-left:0px;\">​​The NOFO will also support efforts for solutions development, data warehousing and integration, as well as central integration and interoperability solutions to facilitate a sustainable digital ecosystem. &nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "2",
+            "estimatedFunding": "0",
+            "awardCeiling": "0",
+            "awardFloor": "0",
+            "agencyContactName": "DGHT NOFOs",
+            "agencyContactPhone": "pepfarfoas@cdc.gov",
+            "agencyContactEmail": "pepfarfoas@cdc.gov",
+            "agencyContactEmailDesc": "pepfarfoas@cdc.gov",
+            "agencyCode": "HHS-CDC-GHC",
+            "estSynopsisPostingDate": "Dec 02, 2025 12:00:00 AM EST",
+            "estApplicationResponseDate": "Mar 13, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Nov 06, 2025 03:25:32 PM EST",
+            "actionType": "U",
+            "actionDate": "Mar 20, 2026 04:10:14 PM EDT",
+            "createdDate": "Nov 06, 2025 03:25:32 PM EST",
+            "lastUpdatedDate": "Nov 06, 2025 03:25:32 PM EST",
+            "agencyDetails": {
+              "code": "GHC",
+              "seed": "HHS-CDC-GHC",
+              "agencyName": "Centers for Disease Control-GHC",
+              "agencyCode": "HHS-CDC-GHC",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "0",
+            "awardCeilingFormatted": "0",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-11-06-00-00-00",
+            "archiveDateStr": "2026-04-12-00-00-00",
+            "estSynopsisPostingDateStr": "2025-12-02-00-00-00",
+            "estApplicationResponseDateStr": "2026-03-13-00-00-00",
+            "estAwardDateStr": "2026-09-30-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2025-11-06-15-25-32"
+          },
+          "cfdas": [
+            {
+              "id": 431403,
+              "opportunityId": 360835,
+              "revision": 1,
+              "cfdaNumber": "93.067",
+              "programTitle": "Global AIDS"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360835,
+            "revision": 1
+          },
+          "opportunityId": 360835,
+          "revision": 1,
+          "opportunityNumber": "CDC-RFA-JG-26-0156",
+          "opportunityTitle": "Strengthening and modernizing sustainable public health systems and workforce in Uganda for data science, informatics, implementation science and surveys, and surveillance for timely, accurate, and integrated data for action under PEPFAR",
+          "owningAgencyCode": "HHS-CDC-GHC",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360835,
+              "revision": 1
+            },
+            "opportunityId": 360835,
+            "revision": 1,
+            "version": 2,
+            "postingDate": "Nov 06, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 13, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p><strong>The Award Ceiling for Year 1 is 0 (none). CDC anticipates an Approximate Total Fiscal Year Funding amount of $30,000,000 for Year 1, subject to the availability of funds.</strong></p><p>This NOFO supports the Ministry of Health (MOH)-led digital transformation vision to modernize Uganda’s health data systems and infrastructure. It also supports enhancing capacity to provide timely epidemic intelligence for critical decision-making in HIV and related health programs. The data architecture is expected to encompass:</p><ul style=\"list-style-type:disc;\"><li>General and targeted surveys.</li><li>Clinical systems such as electronic medical records (EMR).</li><li>Digital registers.</li><li>Clinical indicator-based surveillance.</li><li>Disease surveillance.</li><li>Laboratory data.</li><li>Commodities, logistics, and pharmacy management information systems.</li><li>Community data.</li><li>Human resource management and development.</li><li>Other data collection activities to address existing data and knowledge gaps.</li></ul><p>&nbsp;</p><p>The NOFO also supports developing digital solutions and strengthening data warehousing, integration, and interoperability to build a sustainable and resilient digital ecosystem ready for transition to local governance.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "2",
+            "estimatedFunding": "0",
+            "awardCeiling": "0",
+            "awardFloor": "0",
+            "agencyContactName": "DGHT NOFOs",
+            "agencyContactPhone": "pepfarfoas@cdc.gov",
+            "agencyContactEmail": "pepfarfoas@cdc.gov",
+            "agencyContactEmailDesc": "pepfarfoas@cdc.gov",
+            "agencyCode": "HHS-CDC-GHC",
+            "sendEmail": "Y",
+            "estSynopsisPostingDate": "Apr 14, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 13, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "The estimated publication date has been revised from December 2, 2026 to April 10, 2026                                                                                                                          \nThe application deadline has been updated from February 17, 2026 to June 2026\n Title, funding, and summary were updated.",
+            "createTimeStamp": "Mar 20, 2026 04:10:14 PM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 20, 2026 04:10:14 PM EDT",
+            "createdDate": "Nov 06, 2025 03:25:32 PM EST",
+            "lastUpdatedDate": "Mar 20, 2026 04:10:14 PM EDT",
+            "agencyDetails": {
+              "code": "GHC",
+              "seed": "HHS-CDC-GHC",
+              "agencyName": "Centers for Disease Control-GHC",
+              "agencyCode": "HHS-CDC-GHC",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "0",
+            "awardCeilingFormatted": "0",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-11-06-00-00-00",
+            "archiveDateStr": "2026-07-13-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-14-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-13-00-00-00",
+            "estAwardDateStr": "2026-09-30-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-03-20-16-10-14"
+          },
+          "cfdas": [
+            {
+              "id": 431403,
+              "opportunityId": 360835,
+              "revision": 1,
+              "cfdaNumber": "93.067",
+              "programTitle": "Global AIDS"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "forecastDesc",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version",
+        "opportunityTitle"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 2,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

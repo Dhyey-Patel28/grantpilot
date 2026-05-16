@@ -1,0 +1,359 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361417",
+  "fetched_at": "2026-05-16T14:08:49.657Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldVS2dnSjZQR2p1UE9WTXplSXpvUDI1d0hJMzZLUHZneFlrRFZ1OG9oZEk9Ig.HO0sxoOkOaAkuiWddjSDGuDyC1c884UaftEaOzlxP8E",
+    "data": {
+      "id": 361417,
+      "revision": 1,
+      "opportunityNumber": "R25AS00280",
+      "opportunityTitle": "WaterSMART: Applied Science Grants",
+      "owningAgencyCode": "DOI-BOR",
+      "listed": "L",
+      "publisherUid": "113080850824856438988185809190837265423",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361417,
+        "version": 2,
+        "agencyCode": "DOI-BOR",
+        "agencyName": "Bureau of Reclamation",
+        "agencyPhone": "tbd",
+        "agencyAddressDesc": "mstonebridge@usbr.gov",
+        "agencyDetails": {
+          "code": "BOR",
+          "seed": "DOI-BOR",
+          "agencyName": "Bureau of Reclamation",
+          "agencyCode": "DOI-BOR",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactPhone": "tbd",
+        "agencyContactName": "Bureau of Reclamation",
+        "agencyContactDesc": "Matt Stonebridge\nmstonebridge@usbr.gov",
+        "agencyContactEmail": "mstonebridge@usbr.gov",
+        "agencyContactEmailDesc": "mstonebridge@usbr.gov",
+        "synopsisDesc": "Through WaterSMART, the Bureau of Reclamation (Reclamation) leverages Federal and non-Federal funding to work cooperatively with States, Tribes, and local entities as they plan and implement actions to increase water supply and hydropower reliability. The WaterSMART Program demonstrably advances Trump administration priorities, such as those identified in Presidential Executive Order 14154 (January 20, 2025): Unleashing American Energy (E.O. 14154) and Secretarial Order 3418, and aligns with other priorities and requirements, such as those identified in Presidential Executive Order 14332 (August 7, 2025): Improving Oversight in Federal Grantmaking (E.O. 14332).  The goal of the WaterSMART Applied Science Grants (ASG) Notice of Funding Opportunity (NOFO) is to invite eligible entities to apply for funding to improve access to and use of hydrologic data, develop and improve water management tools, and improve hydrologic modeling and forecasting capabilities.Water managers and reservoir operators rely on hydrologic data, modeling, and water supply forecasts to make decisions to meet future water demands. Water supply forecasts are estimates of current and future water supplies based on measured basin conditions (e.g., such as the quantity of upstream mountain snowpack). Results from these projects will be used by water managers to increase water supply reliability to meet water delivery requirements (e.g., compacts, decrees, etc.), provide flexibility in water operations to be more resilient during droughts, and enhance water supply forecasts to better predict floods and optimize limited water supplies. Example projects include improving operational models for irrigation water deliveries or reservoir operations, improving the use of snow monitoring technologies to enhance the skill of water supply forecasts, and improving data acquisition, data analysis, and data delivery, including the development of hydrologic databases.The ASG NOFO will build on and complement projects funded under the Snow Water Supply Forecasting Funding Opportunity by providing funding for applicants to improve the integration of innovative snow measurement data into water supply forecasts.",
+        "responseDate": "Jul 08, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "First application July 8, 2026, at 5:00pm MDTSecond application : April 13, 2027, 5:00PM MDT",
+        "postingDate": "Mar 05, 2026 12:00:00 AM EST",
+        "costSharing": true,
+        "numberOfAwards": "20",
+        "estimatedFunding": "6000000",
+        "estimatedFundingFormatted": "6,000,000",
+        "awardCeiling": "400000",
+        "awardCeilingFormatted": "400,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Category A Applicants:States, Indian tribes, irrigation districts, water districts;State, Regional, or local authorities whose members include one or more organizations with water or power delivery authority; and other organizations with water or power delivery authority.All Category A applicants must be located in the Western United States or United States Territories, including Alaska, Arizona, California, Colorado, Hawaii, Idaho, Kansas, Montana, Nebraska, Nevada, New Mexico, North Dakota, Oklahoma, Oregon, South Dakota, Texas, Utah, Washington, Wyoming, American Samoa, Guam, the Northern Mariana Islands, the Virgin Islands, and Puerto Rico.Category B Applicants:Universities, nonprofit research institutions, nonprofit organizations, and Federally-funded research and development centers that are acting in partnership with the agreement of an entity described in Category A. All Category B applicants must be in the United States or the specific Territories identified above.Ineligible Applicants:Those not eligible include the following entities:Federal Governmental EntitiesIndividualsCommercial/industrial organizationsPrivate entities",
+        "sendEmail": "Y",
+        "createTimeStamp": "Mar 06, 2026 09:50:18 AM EST",
+        "modComments": "Update to Point of Contact details",
+        "createdDate": "Mar 05, 2026 05:37:55 PM EST",
+        "lastUpdatedDate": "Mar 06, 2026 09:50:18 AM EST",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          }
+        ],
+        "responseDateStr": "2026-07-08-00-00-00",
+        "postingDateStr": "2026-03-05-00-00-00",
+        "createTimeStampStr": "2026-03-06-09-50-18"
+      },
+      "agencyDetails": {
+        "code": "BOR",
+        "seed": "DOI-BOR",
+        "agencyName": "Bureau of Reclamation",
+        "agencyCode": "DOI-BOR",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 78936,
+          "opportunityId": 361417,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 188942,
+          "createdDate": "Mar 05, 2026 05:39:31 PM EST",
+          "lastUpdatedDate": "Mar 05, 2026 05:40:09 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 350428,
+              "opportunityId": 361417,
+              "mimeType": "application/pdf",
+              "fileName": "Foa_Content_of_R25AS00280_3.2.26 v2.FINAL.pdf",
+              "fileDescription": "Foa_Content_of_R25AS00280_3.2.26 v2.FINAL.pdf",
+              "fileLobSize": 204842,
+              "createdDate": "Mar 05, 2026 05:39:32 PM EST",
+              "lastUpdatedDate": "Mar 05, 2026 05:40:09 PM EST",
+              "synopsisAttFolderId": 78936
+            }
+          ]
+        },
+        {
+          "id": 78937,
+          "opportunityId": 361417,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Other Supporting Documents",
+          "zipLobSize": 792219,
+          "createdDate": "Mar 05, 2026 05:39:49 PM EST",
+          "lastUpdatedDate": "Mar 05, 2026 05:40:42 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 350429,
+              "opportunityId": 361417,
+              "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "fileName": "Attachment A - Budget_Detail_and_Narrative_template_v2025_March.xlsx",
+              "fileDescription": "Attachment A - Budget_Detail_and_Narrative_template_v2025_March.xlsx",
+              "fileLobSize": 73639,
+              "createdDate": "Mar 05, 2026 05:39:50 PM EST",
+              "synopsisAttFolderId": 78937
+            },
+            {
+              "id": 350430,
+              "opportunityId": 361417,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "Attachment B - Budget_Narrative_Guidance_v2025_March.docx",
+              "fileDescription": "Attachment B - Budget_Narrative_Guidance_v2025_March.docx",
+              "fileLobSize": 226941,
+              "createdDate": "Mar 05, 2026 05:39:59 PM EST",
+              "synopsisAttFolderId": 78937
+            },
+            {
+              "id": 350431,
+              "opportunityId": 361417,
+              "mimeType": "application/pdf",
+              "fileName": "General NOFO FAQ.pdf",
+              "fileDescription": "General NOFO FAQ.pdf",
+              "fileLobSize": 216859,
+              "createdDate": "Mar 05, 2026 05:40:24 PM EST",
+              "synopsisAttFolderId": 78937
+            },
+            {
+              "id": 350432,
+              "opportunityId": 361417,
+              "mimeType": "application/pdf",
+              "fileName": "Submission Instructions &amp; Tips.pdf",
+              "fileDescription": "Submission Instructions &amp; Tips.pdf",
+              "fileLobSize": 327139,
+              "createdDate": "Mar 05, 2026 05:40:42 PM EST",
+              "synopsisAttFolderId": 78937
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432129,
+          "opportunityId": 361417,
+          "cfdaNumber": "15.557",
+          "programTitle": "Applied Science Grants"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361417,
+            "revision": 0
+          },
+          "opportunityId": 361417,
+          "revision": 0,
+          "opportunityNumber": "R25AS00280",
+          "opportunityTitle": "WaterSMART: Applied Science Grants",
+          "owningAgencyCode": "DOI-BOR",
+          "publisherUid": "113080850824856438988185809190837265423",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361417,
+              "revision": 0
+            },
+            "opportunityId": 361417,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOI-BOR",
+            "agencyAddressDesc": "nmoeller@usbr.gov",
+            "agencyDetails": {
+              "code": "BOR",
+              "seed": "DOI-BOR",
+              "agencyName": "Bureau of Reclamation",
+              "agencyCode": "DOI-BOR",
+              "topAgencyCode": "DOI"
+            },
+            "agencyContactPhone": "tbd",
+            "agencyContactName": "Bureau of Reclamation",
+            "agencyContactDesc": "Matt Stonebridge\nnmoeller@usbr.gov",
+            "agencyContactEmail": "nmoeller@usbr.gov",
+            "agencyContactEmailDesc": "nmoeller@usbr.gov",
+            "synopsisDesc": "Through WaterSMART, the Bureau of Reclamation (Reclamation) leverages Federal and non-Federal funding to work cooperatively with States, Tribes, and local entities as they plan and implement actions to increase water supply and hydropower reliability. The WaterSMART Program demonstrably advances Trump administration priorities, such as those identified in Presidential Executive Order 14154 (January 20, 2025): Unleashing American Energy (E.O. 14154) and Secretarial Order 3418, and aligns with other priorities and requirements, such as those identified in Presidential Executive Order 14332 (August 7, 2025): Improving Oversight in Federal Grantmaking (E.O. 14332).  The goal of the WaterSMART Applied Science Grants (ASG) Notice of Funding Opportunity (NOFO) is to invite eligible entities to apply for funding to improve access to and use of hydrologic data, develop and improve water management tools, and improve hydrologic modeling and forecasting capabilities.Water managers and reservoir operators rely on hydrologic data, modeling, and water supply forecasts to make decisions to meet future water demands. Water supply forecasts are estimates of current and future water supplies based on measured basin conditions (e.g., such as the quantity of upstream mountain snowpack). Results from these projects will be used by water managers to increase water supply reliability to meet water delivery requirements (e.g., compacts, decrees, etc.), provide flexibility in water operations to be more resilient during droughts, and enhance water supply forecasts to better predict floods and optimize limited water supplies. Example projects include improving operational models for irrigation water deliveries or reservoir operations, improving the use of snow monitoring technologies to enhance the skill of water supply forecasts, and improving data acquisition, data analysis, and data delivery, including the development of hydrologic databases.The ASG NOFO will build on and complement projects funded under the Snow Water Supply Forecasting Funding Opportunity by providing funding for applicants to improve the integration of innovative snow measurement data into water supply forecasts.",
+            "responseDate": "Jul 08, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "First application July 8, 2026, at 5:00pm MDTSecond application : April 13, 2027, 5:00PM MDT",
+            "postingDate": "Mar 05, 2026 12:00:00 AM EST",
+            "costSharing": true,
+            "numberOfAwards": "20",
+            "estimatedFunding": "6000000",
+            "estimatedFundingFormatted": "6,000,000",
+            "awardCeiling": "400000",
+            "awardCeilingFormatted": "400,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Category A Applicants:States, Indian tribes, irrigation districts, water districts;State, Regional, or local authorities whose members include one or more organizations with water or power delivery authority; and other organizations with water or power delivery authority.All Category A applicants must be located in the Western United States or United States Territories, including Alaska, Arizona, California, Colorado, Hawaii, Idaho, Kansas, Montana, Nebraska, Nevada, New Mexico, North Dakota, Oklahoma, Oregon, South Dakota, Texas, Utah, Washington, Wyoming, American Samoa, Guam, the Northern Mariana Islands, the Virgin Islands, and Puerto Rico.Category B Applicants:Universities, nonprofit research institutions, nonprofit organizations, and Federally-funded research and development centers that are acting in partnership with the agreement of an entity described in Category A. All Category B applicants must be in the United States or the specific Territories identified above.Ineligible Applicants:Those not eligible include the following entities:Federal Governmental EntitiesIndividualsCommercial/industrial organizationsPrivate entities",
+            "createTimeStamp": "Mar 05, 2026 05:40:42 PM EST",
+            "actionType": "U",
+            "actionDate": "Mar 06, 2026 09:50:18 AM EST",
+            "createdDate": "Mar 05, 2026 05:37:55 PM EST",
+            "lastUpdatedDate": "Mar 05, 2026 05:37:55 PM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2026-07-08-00-00-00",
+            "postingDateStr": "2026-03-05-00-00-00",
+            "createTimeStampStr": "2026-03-05-17-40-42"
+          },
+          "cfdas": [
+            {
+              "id": 432129,
+              "opportunityId": 361417,
+              "revision": 0,
+              "cfdaNumber": "15.557",
+              "programTitle": "Applied Science Grants"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292061,
+          "topportunityId": 361417,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "R25AS00280",
+          "opportunityTitle": "WaterSMART: Applied Science Grants",
+          "cfdaNumber": "15.557",
+          "openingDate": "2026-03-05",
+          "closingDate": "2026-07-08",
+          "owningAgencyCode": "DOI-BOR",
+          "agencyDetails": {
+            "code": "BOR",
+            "seed": "DOI-BOR",
+            "agencyName": "Bureau of Reclamation",
+            "agencyCode": "DOI-BOR",
+            "topAgencyCode": "DOI"
+          },
+          "topAgencyDetails": {
+            "code": "DOI",
+            "seed": "DOI",
+            "agencyName": "Department of the Interior",
+            "agencyCode": "DOI",
+            "topAgencyCode": "DOI"
+          },
+          "programTitle": "Applied Science Grants",
+          "contactInfo": "Matt Stonebridge",
+          "gracePeriod": 0,
+          "competitionId": "R25AS00280",
+          "competitionTitle": "WaterSMART: Applied Science Grants",
+          "electronicRequired": "N",
+          "expectedApplicationCount": 40,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 05, 2026 05:38:34 PM EST",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292061",
+          "openingDateStr": "2026-03-05-00-00-00",
+          "closingDateStr": "2026-07-08-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jul 08, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "First application July 8, 2026, at 5:00pm MDTSecond application : April 13, 2027, 5:00PM MDT",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "agencyAddressDesc",
+        "agencyContactDesc",
+        "agencyContactEmail",
+        "agencyContactEmailDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

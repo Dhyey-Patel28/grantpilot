@@ -1,0 +1,573 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362089",
+  "fetched_at": "2026-05-16T14:09:51.621Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVUK1hheFRGZjNYYnhNbEpjYVhFWUxDU2YrMldkbEVwSXQ0SzdyZXFFeHc9Ig.0OUBfKcVPnjdLJNkGT1igFzpDOzrBeyhOj3r_9MNpVo",
+    "data": {
+      "id": 362089,
+      "revision": 4,
+      "opportunityNumber": "CPD-2600-DC-0008",
+      "opportunityTitle": "FY 2025 Rural Capacity Building for Community Development and Affordable Housing Grants (RCB)",
+      "owningAgencyCode": "HUD",
+      "publisherUid": "15962964103075612635523162374797683255",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362089,
+        "version": 3,
+        "agencyCode": "HUD",
+        "agencyName": "Department of Housing and Urban Development",
+        "agencyPhone": "202-402-2440",
+        "agencyAddressDesc": "CapacityBuilding@hud.gov",
+        "agencyDetails": {
+          "code": "HUD",
+          "seed": "HUD",
+          "agencyName": "Department of Housing and Urban Development",
+          "agencyCode": "HUD",
+          "topAgencyCode": "HUD"
+        },
+        "topAgencyDetails": {
+          "code": "HUD",
+          "seed": "HUD",
+          "agencyName": "Department of Housing and Urban Development",
+          "agencyCode": "HUD",
+          "topAgencyCode": "HUD"
+        },
+        "agencyContactPhone": "202-402-2440",
+        "agencyContactName": "Department of Housing and Urban Development",
+        "agencyContactDesc": "Anupama Abhyankar\nCapacityBuilding@hud.gov",
+        "agencyContactEmail": "CapacityBuilding@hud.gov",
+        "agencyContactEmailDesc": "CapacityBuilding@hud.gov",
+        "synopsisDesc": "Purpose: The Rural Capacity Building program enhances the capacity and ability of rural housing development organizations, Community Development Corporations (CDCs), Community Housing Development Organizations (CHDOs), rural local governments, and Indian tribes (eligible beneficiaries) to carry out affordable housing and community development activities in rural areas for the benefit of low- and moderate-income families and persons. The Rural Capacity Building program achieves this by funding National Organizations with expertise in rural housing and rural community development who work directly to build the capacity of eligible beneficiaries.Eligible Program Activities. RCB program funds are limited to activities that strengthen the organizational infrastructure, management, and governance capabilities of eligible beneficiaries serving rural areas to effectively increase the capacity of the eligible beneficiaries to carry out community development and affordable housing activities that benefit low-income or low- and moderate-income families and persons in rural areas.Training, education, and support. This may include, but is not limited to, building the capacity of eligible beneficiaries to:Conduct organizational assessments;Engage in strategic planning and Board development;Access and implement technological improvements;Engage with rural community stakeholders;Evaluate performance of current and planned rural community efforts;Plan for the use of available rural resources in a comprehensive and holistic manner;Participate in HUD planning efforts to ensure rural participation and the assessment of rural area needs; andFoster regional planning efforts by connecting local, rural community plans with neighboring communities.Financial assistance.Such other activities as may be determined by the grantees in consultation with the Secretary or his or her designee.",
+        "responseDate": "Jul 06, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+        "fundingDescLinkUrl": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+        "fundingDescLinkDesc": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+        "postingDate": "May 06, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "5",
+        "estimatedFunding": "6000000",
+        "estimatedFundingFormatted": "6,000,000",
+        "awardCeiling": "3500000",
+        "awardCeilingFormatted": "3,500,000",
+        "awardFloor": "750000",
+        "awardFloorFormatted": "750,000",
+        "applicantEligibilityDesc": "Only National Organizations that are 501(c)(3) nonprofits, other than institutions of higher education, may apply for RCB funding.For the purpose of the RCB program, a National Organization must be a single non-profit organization that has ongoing experience conducting RCB eligible capacity building activities in rural areas with rural housing organizations, local governments, and Indian tribes as evidenced by work within the last ten years in at least eight of HUD&quot;s Federal regions. Having relevant experience working in one state in a HUD region is sufficient for counting that region towards the eight-region minimum. HUD&quot;s Federal regions are described on HUD&quot;s website at: http://portal.hud.gov/hudportal/HUD?src=/localoffices/regions    Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 14, 2026 09:47:48 AM EDT",
+        "modComments": "Updated statutory citation in #13 of Section VII.A.",
+        "createdDate": "May 06, 2026 02:28:36 PM EDT",
+        "lastUpdatedDate": "May 14, 2026 09:45:34 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "CD",
+            "description": "Community Development"
+          }
+        ],
+        "responseDateStr": "2026-07-06-00-00-00",
+        "postingDateStr": "2026-05-06-00-00-00",
+        "createTimeStampStr": "2026-05-14-09-47-48"
+      },
+      "agencyDetails": {
+        "code": "HUD",
+        "seed": "HUD",
+        "agencyName": "Department of Housing and Urban Development",
+        "agencyCode": "HUD",
+        "topAgencyCode": "HUD"
+      },
+      "topAgencyDetails": {
+        "code": "HUD",
+        "seed": "HUD",
+        "agencyName": "Department of Housing and Urban Development",
+        "agencyCode": "HUD",
+        "topAgencyCode": "HUD"
+      },
+      "forecast": {
+        "opportunityId": 362089,
+        "version": 2,
+        "postingDate": "Apr 28, 2026 12:00:00 AM EDT",
+        "archiveDate": "May 05, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p><strong>Purpose:</strong> The Rural Capacity Building program enhances the capacity and ability of rural housing development organizations, Community Development Corporations (CDCs), Community Housing Development Organizations (CHDOs), rural local governments, and Indian tribes (eligible beneficiaries) to carry out affordable housing and community development activities in rural areas for the benefit of low- and moderate-income families and persons. The Rural Capacity Building program achieves this by funding National Organizations with expertise in rural housing and rural community development who work directly to build the capacity of eligible beneficiaries.</p><p><strong>Eligible Program Activities. </strong>RCB program funds are limited to activities that strengthen the organizational infrastructure, management, and governance capabilities of eligible beneficiaries serving rural areas to effectively increase the capacity of the eligible beneficiaries to carry out community development and affordable housing activities that benefit low-income or low- and moderate-income families and persons in rural areas.</p><ol><li><i><strong>Training, education, and support. </strong></i>This may include, but is not limited to, building the capacity of eligible beneficiaries to:<ol><li>Conduct organizational assessments;</li><li>Engage in strategic planning and Board development;</li><li>Access and implement technological improvements;</li><li>Engage with rural community stakeholders;</li><li>Evaluate performance of current and planned rural community efforts;</li><li>Plan for the use of available rural resources in a comprehensive and holistic manner;</li><li>Participate in HUD planning efforts to ensure rural participation and the assessment of rural area needs; and</li><li>Foster regional planning efforts by connecting local, rural community plans with neighboring communities.</li></ol></li><li><i><strong>Financial assistance.</strong></i></li><li><i><strong>Such other activities as may be determined by the grantees in consultation with the Secretary or his or her designee. </strong></i></li></ol>",
+        "costSharing": false,
+        "numberOfAwards": "5",
+        "estimatedFunding": "6000000",
+        "awardCeiling": "3500000",
+        "awardFloor": "750000",
+        "fundingDescLinkUrl": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+        "fundingDescLinkDesc": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+        "agencyContactName": "Anupama Abhyankar",
+        "agencyContactPhone": "(202) 402-3981",
+        "agencyContactEmail": "CapacityBuilding@hud.gov",
+        "agencyContactEmailDesc": "CapacityBuilding@hud.gov",
+        "agencyCode": "HUD",
+        "applicantEligibilityDesc": "Only National Organizations that are 501(c)(3) nonprofits, other than institutions of higher education, may apply for RCB funding.For the purpose of the RCB program, a National Organization must be a single non-profit organization that has ongoing experience conducting RCB eligible capacity building activities in rural areas with rural housing organizations, local governments, and Indian tribes as evidenced by work within the last ten years in at least eight of HUD&quot;s Federal regions. Having relevant experience working in one state in a HUD region is sufficient for counting that region towards the eight-region minimum. HUD&quot;s Federal regions are described on HUD&quot;s website at: http://portal.hud.gov/hudportal/HUD?src=/localoffices/regions    Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+        "estSynopsisPostingDate": "May 01, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jul 01, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+        "estAwardDate": "Oct 01, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Oct 01, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "Updated Archive Date",
+        "createTimeStamp": "May 14, 2026 09:47:48 AM EDT",
+        "createdDate": "Apr 28, 2026 10:09:43 AM EDT",
+        "lastUpdatedDate": "May 14, 2026 09:47:48 AM EDT",
+        "agencyDetails": {
+          "code": "HUD",
+          "seed": "HUD",
+          "agencyName": "Department of Housing and Urban Development",
+          "agencyCode": "HUD",
+          "topAgencyCode": "HUD"
+        },
+        "estimatedFundingFormatted": "6,000,000",
+        "awardCeilingFormatted": "3,500,000",
+        "awardFloorFormatted": "750,000",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "CD",
+            "description": "Community Development"
+          },
+          {
+            "id": "OZ",
+            "description": "Opportunity Zone Benefits"
+          }
+        ],
+        "postingDateStr": "2026-04-28-00-00-00",
+        "archiveDateStr": "2026-05-05-00-00-00",
+        "estSynopsisPostingDateStr": "2026-05-01-00-00-00",
+        "estApplicationResponseDateStr": "2026-07-01-00-00-00",
+        "estAwardDateStr": "2026-10-01-00-00-00",
+        "estProjectStartDateStr": "2026-10-01-00-00-00",
+        "createTimeStampStr": "2026-05-14-09-47-48"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79709,
+          "opportunityId": 362089,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 2928185,
+          "createdDate": "May 14, 2026 09:47:46 AM EDT",
+          "lastUpdatedDate": "May 14, 2026 09:47:48 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 352018,
+              "opportunityId": 362089,
+              "mimeType": "application/pdf",
+              "fileName": "Foa_Content_of_CPD-2600-DC-0008_2026-05-14.pdf",
+              "fileDescription": "Foa_Content_of_CPD-2600-DC-0008_2026-05-14.pdf",
+              "fileLobSize": 3432709,
+              "createdDate": "May 14, 2026 09:47:48 AM EDT",
+              "synopsisAttFolderId": 79709
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432931,
+          "opportunityId": 362089,
+          "cfdaNumber": "14.265",
+          "programTitle": "Rural Capacity Building for Community Development and Affordable Housing Grants"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 362089,
+            "revision": 1
+          },
+          "opportunityId": 362089,
+          "revision": 1,
+          "opportunityNumber": "CPD-2600-DC-0008",
+          "opportunityTitle": "FY 2025 Rural Capacity Building for Community Development and Affordable Housing Grants (RCB)",
+          "owningAgencyCode": "HUD",
+          "publisherUid": "15962964103075612635523162374797683255",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 362089,
+              "revision": 1
+            },
+            "opportunityId": 362089,
+            "revision": 1,
+            "version": 1,
+            "postingDate": "Apr 28, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p><strong>Purpose:</strong> The Rural Capacity Building program enhances the capacity and ability of rural housing development organizations, Community Development Corporations (CDCs), Community Housing Development Organizations (CHDOs), rural local governments, and Indian tribes (eligible beneficiaries) to carry out affordable housing and community development activities in rural areas for the benefit of low- and moderate-income families and persons. The Rural Capacity Building program achieves this by funding National Organizations with expertise in rural housing and rural community development who work directly to build the capacity of eligible beneficiaries.</p><p><strong>Eligible Program Activities. </strong>RCB program funds are limited to activities that strengthen the organizational infrastructure, management, and governance capabilities of eligible beneficiaries serving rural areas to effectively increase the capacity of the eligible beneficiaries to carry out community development and affordable housing activities that benefit low-income or low- and moderate-income families and persons in rural areas.</p><ol><li><i><strong>Training, education, and support. </strong></i>This may include, but is not limited to, building the capacity of eligible beneficiaries to:<ol><li>Conduct organizational assessments;</li><li>Engage in strategic planning and Board development;</li><li>Access and implement technological improvements;</li><li>Engage with rural community stakeholders;</li><li>Evaluate performance of current and planned rural community efforts;</li><li>Plan for the use of available rural resources in a comprehensive and holistic manner;</li><li>Participate in HUD planning efforts to ensure rural participation and the assessment of rural area needs; and</li><li>Foster regional planning efforts by connecting local, rural community plans with neighboring communities.</li></ol></li><li><i><strong>Financial assistance.</strong></i></li><li><i><strong>Such other activities as may be determined by the grantees in consultation with the Secretary or his or her designee. </strong></i></li></ol>",
+            "costSharing": false,
+            "numberOfAwards": "5",
+            "estimatedFunding": "6000000",
+            "awardCeiling": "3500000",
+            "awardFloor": "750000",
+            "fundingDescLinkUrl": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "fundingDescLinkDesc": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "agencyContactName": "Anupama Abhyankar",
+            "agencyContactPhone": "(202) 402-3981",
+            "agencyContactEmail": "CapacityBuilding@hud.gov",
+            "agencyContactEmailDesc": "CapacityBuilding@hud.gov",
+            "agencyCode": "HUD",
+            "applicantEligibilityDesc": "Only National Organizations that are 501(c)(3) nonprofits, other than institutions of higher education, may apply for RCB funding.For the purpose of the RCB program, a National Organization must be a single non-profit organization that has ongoing experience conducting RCB eligible capacity building activities in rural areas with rural housing organizations, local governments, and Indian tribes as evidenced by work within the last ten years in at least eight of HUD&quot;s Federal regions. Having relevant experience working in one state in a HUD region is sufficient for counting that region towards the eight-region minimum. HUD&quot;s Federal regions are described on HUD&quot;s website at: http://portal.hud.gov/hudportal/HUD?src=/localoffices/regions    Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+            "estSynopsisPostingDate": "May 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Oct 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Oct 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Apr 28, 2026 10:09:43 AM EDT",
+            "actionType": "U",
+            "actionDate": "May 06, 2026 02:28:36 PM EDT",
+            "createdDate": "Apr 28, 2026 10:09:43 AM EDT",
+            "lastUpdatedDate": "Apr 28, 2026 10:09:43 AM EDT",
+            "agencyDetails": {
+              "code": "HUD",
+              "seed": "HUD",
+              "agencyName": "Department of Housing and Urban Development",
+              "agencyCode": "HUD",
+              "topAgencyCode": "HUD"
+            },
+            "estimatedFundingFormatted": "6,000,000",
+            "awardCeilingFormatted": "3,500,000",
+            "awardFloorFormatted": "750,000",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "CD",
+                "description": "Community Development"
+              },
+              {
+                "id": "OZ",
+                "description": "Opportunity Zone Benefits"
+              }
+            ],
+            "postingDateStr": "2026-04-28-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-01-00-00-00",
+            "estApplicationResponseDateStr": "2026-07-01-00-00-00",
+            "estAwardDateStr": "2026-10-01-00-00-00",
+            "estProjectStartDateStr": "2026-10-01-00-00-00",
+            "createTimeStampStr": "2026-04-28-10-09-43"
+          },
+          "cfdas": [
+            {
+              "id": 432931,
+              "opportunityId": 362089,
+              "revision": 3,
+              "cfdaNumber": "14.265",
+              "programTitle": "Rural Capacity Building for Community Development and Affordable Housing Grants"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 362089,
+            "revision": 2
+          },
+          "opportunityId": 362089,
+          "revision": 2,
+          "opportunityNumber": "CPD-2600-DC-0008",
+          "opportunityTitle": "FY 2025 Rural Capacity Building for Community Development and Affordable Housing Grants (RCB)",
+          "owningAgencyCode": "HUD",
+          "publisherUid": "15962964103075612635523162374797683255",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 362089,
+              "revision": 2
+            },
+            "opportunityId": 362089,
+            "revision": 2,
+            "version": 1,
+            "agencyCode": "HUD",
+            "agencyAddressDesc": "CapacityBuilding@hud.gov",
+            "agencyDetails": {
+              "code": "HUD",
+              "seed": "HUD",
+              "agencyName": "Department of Housing and Urban Development",
+              "agencyCode": "HUD",
+              "topAgencyCode": "HUD"
+            },
+            "agencyContactPhone": "202-402-2440",
+            "agencyContactName": "Department of Housing and Urban Development",
+            "agencyContactDesc": "Anupama Abhyankar\nCapacityBuilding@hud.gov",
+            "agencyContactEmail": "CapacityBuilding@hud.gov",
+            "agencyContactEmailDesc": "CapacityBuilding@hud.gov",
+            "synopsisDesc": "Purpose: The Rural Capacity Building program enhances the capacity and ability of rural housing development organizations, Community Development Corporations (CDCs), Community Housing Development Organizations (CHDOs), rural local governments, and Indian tribes (eligible beneficiaries) to carry out affordable housing and community development activities in rural areas for the benefit of low- and moderate-income families and persons. The Rural Capacity Building program achieves this by funding National Organizations with expertise in rural housing and rural community development who work directly to build the capacity of eligible beneficiaries.Eligible Program Activities. RCB program funds are limited to activities that strengthen the organizational infrastructure, management, and governance capabilities of eligible beneficiaries serving rural areas to effectively increase the capacity of the eligible beneficiaries to carry out community development and affordable housing activities that benefit low-income or low- and moderate-income families and persons in rural areas.Training, education, and support. This may include, but is not limited to, building the capacity of eligible beneficiaries to:Conduct organizational assessments;Engage in strategic planning and Board development;Access and implement technological improvements;Engage with rural community stakeholders;Evaluate performance of current and planned rural community efforts;Plan for the use of available rural resources in a comprehensive and holistic manner;Participate in HUD planning efforts to ensure rural participation and the assessment of rural area needs; andFoster regional planning efforts by connecting local, rural community plans with neighboring communities.Financial assistance.Such other activities as may be determined by the grantees in consultation with the Secretary or his or her designee.",
+            "responseDate": "Jul 06, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "fundingDescLinkUrl": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "fundingDescLinkDesc": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "postingDate": "May 06, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "5",
+            "estimatedFunding": "6000000",
+            "estimatedFundingFormatted": "6,000,000",
+            "awardCeiling": "3500000",
+            "awardCeilingFormatted": "3,500,000",
+            "awardFloor": "750000",
+            "awardFloorFormatted": "750,000",
+            "applicantEligibilityDesc": "Only National Organizations that are 501(c)(3) nonprofits, other than institutions of higher education, may apply for RCB funding.For the purpose of the RCB program, a National Organization must be a single non-profit organization that has ongoing experience conducting RCB eligible capacity building activities in rural areas with rural housing organizations, local governments, and Indian tribes as evidenced by work within the last ten years in at least eight of HUD&quot;s Federal regions. Having relevant experience working in one state in a HUD region is sufficient for counting that region towards the eight-region minimum. HUD&quot;s Federal regions are described on HUD&quot;s website at: http://portal.hud.gov/hudportal/HUD?src=/localoffices/regions    Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+            "createTimeStamp": "May 06, 2026 02:38:21 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 11, 2026 12:16:12 PM EDT",
+            "createdDate": "May 06, 2026 02:28:36 PM EDT",
+            "lastUpdatedDate": "May 06, 2026 02:28:36 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "CD",
+                "description": "Community Development"
+              },
+              {
+                "id": "OZ",
+                "description": "Opportunity Zone Benefits"
+              }
+            ],
+            "responseDateStr": "2026-07-06-00-00-00",
+            "postingDateStr": "2026-05-06-00-00-00",
+            "createTimeStampStr": "2026-05-06-14-38-21"
+          },
+          "cfdas": [
+            {
+              "id": 432931,
+              "opportunityId": 362089,
+              "revision": 3,
+              "cfdaNumber": "14.265",
+              "programTitle": "Rural Capacity Building for Community Development and Affordable Housing Grants"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 362089,
+            "revision": 3
+          },
+          "opportunityId": 362089,
+          "revision": 3,
+          "opportunityNumber": "CPD-2600-DC-0008",
+          "opportunityTitle": "FY 2025 Rural Capacity Building for Community Development and Affordable Housing Grants (RCB)",
+          "owningAgencyCode": "HUD",
+          "publisherUid": "15962964103075612635523162374797683255",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 362089,
+              "revision": 3
+            },
+            "opportunityId": 362089,
+            "revision": 3,
+            "version": 2,
+            "agencyCode": "HUD",
+            "agencyAddressDesc": "CapacityBuilding@hud.gov",
+            "agencyDetails": {
+              "code": "HUD",
+              "seed": "HUD",
+              "agencyName": "Department of Housing and Urban Development",
+              "agencyCode": "HUD",
+              "topAgencyCode": "HUD"
+            },
+            "agencyContactPhone": "202-402-2440",
+            "agencyContactName": "Department of Housing and Urban Development",
+            "agencyContactDesc": "Anupama Abhyankar\nCapacityBuilding@hud.gov",
+            "agencyContactEmail": "CapacityBuilding@hud.gov",
+            "agencyContactEmailDesc": "CapacityBuilding@hud.gov",
+            "synopsisDesc": "Purpose: The Rural Capacity Building program enhances the capacity and ability of rural housing development organizations, Community Development Corporations (CDCs), Community Housing Development Organizations (CHDOs), rural local governments, and Indian tribes (eligible beneficiaries) to carry out affordable housing and community development activities in rural areas for the benefit of low- and moderate-income families and persons. The Rural Capacity Building program achieves this by funding National Organizations with expertise in rural housing and rural community development who work directly to build the capacity of eligible beneficiaries.Eligible Program Activities. RCB program funds are limited to activities that strengthen the organizational infrastructure, management, and governance capabilities of eligible beneficiaries serving rural areas to effectively increase the capacity of the eligible beneficiaries to carry out community development and affordable housing activities that benefit low-income or low- and moderate-income families and persons in rural areas.Training, education, and support. This may include, but is not limited to, building the capacity of eligible beneficiaries to:Conduct organizational assessments;Engage in strategic planning and Board development;Access and implement technological improvements;Engage with rural community stakeholders;Evaluate performance of current and planned rural community efforts;Plan for the use of available rural resources in a comprehensive and holistic manner;Participate in HUD planning efforts to ensure rural participation and the assessment of rural area needs; andFoster regional planning efforts by connecting local, rural community plans with neighboring communities.Financial assistance.Such other activities as may be determined by the grantees in consultation with the Secretary or his or her designee.",
+            "responseDate": "Jul 06, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "fundingDescLinkUrl": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "fundingDescLinkDesc": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "postingDate": "May 06, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "5",
+            "estimatedFunding": "6000000",
+            "estimatedFundingFormatted": "6,000,000",
+            "awardCeiling": "3500000",
+            "awardCeilingFormatted": "3,500,000",
+            "awardFloor": "750000",
+            "awardFloorFormatted": "750,000",
+            "applicantEligibilityDesc": "Only National Organizations that are 501(c)(3) nonprofits, other than institutions of higher education, may apply for RCB funding.For the purpose of the RCB program, a National Organization must be a single non-profit organization that has ongoing experience conducting RCB eligible capacity building activities in rural areas with rural housing organizations, local governments, and Indian tribes as evidenced by work within the last ten years in at least eight of HUD&quot;s Federal regions. Having relevant experience working in one state in a HUD region is sufficient for counting that region towards the eight-region minimum. HUD&quot;s Federal regions are described on HUD&quot;s website at: http://portal.hud.gov/hudportal/HUD?src=/localoffices/regions    Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+            "createTimeStamp": "May 11, 2026 12:20:57 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "Technical Correction:\n\nTable inserted in Rating Factor 1 under ii. Timely Expenditure and Disbursement.",
+            "actionType": "U",
+            "actionDate": "May 14, 2026 09:45:34 AM EDT",
+            "createdDate": "May 06, 2026 02:28:36 PM EDT",
+            "lastUpdatedDate": "May 11, 2026 12:16:12 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "CD",
+                "description": "Community Development"
+              }
+            ],
+            "responseDateStr": "2026-07-06-00-00-00",
+            "postingDateStr": "2026-05-06-00-00-00",
+            "createTimeStampStr": "2026-05-11-12-20-57"
+          },
+          "cfdas": [
+            {
+              "id": 432931,
+              "opportunityId": 362089,
+              "revision": 3,
+              "cfdaNumber": "14.265",
+              "programTitle": "Rural Capacity Building for Community Development and Affordable Housing Grants"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp",
+            "fundingActivityCategories"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292698,
+          "topportunityId": 362089,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "CPD-2600-DC-0008",
+          "opportunityTitle": "FY 2025 Rural Capacity Building for Community Development and Affordable Housing Grants (RCB)",
+          "cfdaNumber": "14.265",
+          "openingDate": "2026-05-06",
+          "closingDate": "2026-07-06",
+          "owningAgencyCode": "HUD",
+          "agencyDetails": {
+            "code": "HUD",
+            "seed": "HUD",
+            "agencyName": "Department of Housing and Urban Development",
+            "agencyCode": "HUD",
+            "topAgencyCode": "HUD"
+          },
+          "topAgencyDetails": {
+            "code": "HUD",
+            "seed": "HUD",
+            "agencyName": "Department of Housing and Urban Development",
+            "agencyCode": "HUD",
+            "topAgencyCode": "HUD"
+          },
+          "programTitle": "Rural Capacity Building for Community Development and Affordable Housing Grants",
+          "contactInfo": "Anupama Abhyankar",
+          "gracePeriod": 1,
+          "competitionId": "CPD-2600-DC-0008",
+          "competitionTitle": "FY 2025 Rural Capacity Building for Community Development and Affordable Housing Grants (RCB)",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 10,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "isMultiProject": "N",
+          "extension": "zip",
+          "mimetype": "application/zip",
+          "lastUpdate": "May 14, 2026 09:46:31 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292698",
+          "openingDateStr": "2026-05-06-00-00-00",
+          "closingDateStr": "2026-07-06-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jul 06, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [
+        "revision",
+        "version",
+        "archiveDate",
+        "modComments",
+        "createTimeStamp"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 1,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

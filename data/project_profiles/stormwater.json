@@ -1,0 +1,25 @@
+{
+  "community_name": "Harbor Glen Village",
+  "applicant_type": "City or township governments",
+  "county": "Muskegon County",
+  "population": 7100,
+  "project_category": "water",
+  "project_stage": "planning",
+  "description": "Harbor Glen Village experiences repeated street flooding after heavy rain near Lakeshore Avenue and the downtown business district. Storm drains are undersized and several small businesses report basement flooding. The village needs funding for stormwater engineering, drainage improvements, and green infrastructure planning.",
+  "estimated_cost": null,
+  "match_available": true,
+  "documents_available": [
+    "resident complaints",
+    "business owner statements",
+    "flooding photos",
+    "council meeting notes"
+  ],
+  "impact_keywords": [
+    "stormwater",
+    "flooding",
+    "small business",
+    "downtown",
+    "resilience",
+    "infrastructure"
+  ]
+}

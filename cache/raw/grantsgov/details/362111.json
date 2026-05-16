@@ -1,0 +1,127 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362111",
+  "fetched_at": "2026-05-16T14:09:54.975Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVUK1hheFRGZjNYYnhNbEpjYVhFWUE2TmdMTlVhTzlrRy9seUFqQVpQUGc9Ig.Nb5vlHBj7_qZqo2xjoxxbHkwFnkk0C1MxaSEHlrE1d0",
+    "data": {
+      "id": 362111,
+      "revision": 0,
+      "opportunityNumber": "HHS-2026-ACL-AOA-ADPI-0031",
+      "opportunityTitle": "Alzheimer's Disease Programs Initiative (ADPI) - Dementia Capable Community Health Worker Programs",
+      "owningAgencyCode": "HHS-ACL",
+      "publisherUid": "44153474529580271320823759458004961120",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "ACL",
+        "seed": "HHS-ACL",
+        "agencyName": "Administration for Community Living",
+        "agencyCode": "HHS-ACL",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 362111,
+        "version": 1,
+        "postingDate": "Apr 29, 2026 12:00:00 AM EDT",
+        "archiveDate": "Sep 01, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>Through the Alzheimers Disease Program Initiative (ADPI), ACL seeks to enhance workforce capacity in the National Aging Network with the inclusion of dementia-capable Community Health Workers (CHWs). CHWs work to improve conditions for health in communities with the highest rates of disease, disability, and death. ADPI supports dementia-capable home and community-based services for people living with dementia and their caregivers. As a result of this initiative, ACL seeks to strengthen relationships with rural and underserved communities and address barriers to care for people living with dementia and their caregivers.</p>",
+        "costSharing": true,
+        "numberOfAwards": "7",
+        "estimatedFunding": "5250000",
+        "awardCeiling": "750000",
+        "awardFloor": "700000",
+        "fundingDescLinkUrl": "https://acl.gov/grants/open-opportunities",
+        "fundingDescLinkDesc": "https://acl.gov/grants/open-opportunities",
+        "agencyContactName": "Kari Benson",
+        "agencyContactPhone": "202-401-4634",
+        "agencyContactEmail": "AoA.OAA@acl.hhs.gov",
+        "agencyContactEmailDesc": "Government Email",
+        "agencyCode": "HHS-ACL",
+        "applicantEligibilityDesc": "Eligible applicants include entities designated to plan and coordinate a network of Older Americans Act (OAA) programs, services, and supports at a local level, including Area Agencies on Aging (AAA), Federally recognized Native American Tribal governments, and any State which has been designated a single planning and service area under section 305(a)(1)(E) of Title III in the OAA functioning as an AAA.",
+        "estSynopsisPostingDate": "Apr 29, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jun 30, 2026 12:00:00 AM EDT",
+        "estAwardDate": "Aug 25, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "Apr 29, 2026 09:52:40 AM EDT",
+        "createdDate": "Apr 29, 2026 09:52:40 AM EDT",
+        "lastUpdatedDate": "Apr 29, 2026 09:52:40 AM EDT",
+        "agencyDetails": {
+          "code": "ACL",
+          "seed": "HHS-ACL",
+          "agencyName": "Administration for Community Living",
+          "agencyCode": "HHS-ACL",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "5,250,000",
+        "awardCeilingFormatted": "750,000",
+        "awardFloorFormatted": "700,000",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ISS",
+            "description": "Income Security and Social Services"
+          }
+        ],
+        "postingDateStr": "2026-04-29-00-00-00",
+        "archiveDateStr": "2026-09-01-00-00-00",
+        "estSynopsisPostingDateStr": "2026-04-29-00-00-00",
+        "estApplicationResponseDateStr": "2026-06-30-00-00-00",
+        "estAwardDateStr": "2026-08-25-00-00-00",
+        "estProjectStartDateStr": "2026-09-01-00-00-00",
+        "createTimeStampStr": "2026-04-29-09-52-40"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432957,
+          "opportunityId": 362111,
+          "cfdaNumber": "93.470",
+          "programTitle": "Alzheimer’s Disease Program Initiative (ADPI)"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

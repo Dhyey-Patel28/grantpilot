@@ -1,0 +1,37 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=13806",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=13806",
+  "website": "https://www.rd.usda.gov/programs-services/community-facilities/community-facilities-guaranteed-loan-program-19",
+  "grant_id": "13806",
+  "title": "Community Facilities Guaranteed Loan Program in Michigan",
+  "overview": "Goal/purpose: This program provides loan guarantees to eligible lenders to develop essential community facilities (CF) in rural areas. An essential community facility is defined as a public improvement, operated on a non-profit basis, needed for the orderly development of a rural community.Additional applicant eligibility criteria: Applicants (lenders) must have the legal authority, financial strength, and sufficient experience to operate a successful lending program. Eligible borrowers include public bodies, Indian tribes on Federal and State reservations, Federally-recognized Tribes, and non-profit organizations. Borrowers must be unable to finance the project from their own resources or through commercial credit at reasonable rates and terms, and must provide evidence of significant community support.Project eligibility: Projects must be located in rural areas with populations of 50,000 residents or less. Funds can be used to construct, enlarge, extend, or otherwise improve essential community facilities, or for refinancing debt of an essential community facility. Examples include health care facilities, public safety facilities, community/educational/cultural facilities, transportation facilities, water infrastructure, and renewable energy systems. Funds may not be used for lines of credit, owner-occupied/rental housing, golf courses, racetracks, inherently religious activities, or inherently commercial enterprises.Application process: Applications are accepted from lenders through USDA local offices year-round on an ongoing basis from October 1 to September 30. Interested borrowers should inquire about the program with their lender. Lenders should contact the USDA Rural Development Community Programs Director in the state where the project is located. Show More",
+  "additional_info": "Posted Date: Not Specified Application Due Date: Not Specified Estimated Award Date: Not Specified Eligible Applicants: City or township governmentsCounty governmentsNative American tribal governments (Federally recognized)Native American tribal organizations (other than Federally recognized tribal governments)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationSpecial district governmentsOthers Show More",
+  "eligible_applicants": [
+    "City or township governmentsCounty governmentsNative American tribal governments (Federally recognized)Native American tribal organizations (other than Federally recognized tribal governments)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationSpecial district governmentsOthers"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "agriculture",
+    "energy",
+    "health",
+    "housing",
+    "public_safety",
+    "transportation",
+    "water"
+  ],
+  "due_date": "",
+  "agency": "Michigan USDA-RD",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:23:53.617Z",
+  "content_hash": "682b7b5f33a6f5f6fe33717de15346936d04c89d3f050672db52677a4612f846",
+  "from_cache": false
+}

@@ -1,0 +1,756 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "325599",
+  "fetched_at": "2026-05-16T14:06:21.480Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InltWWc2bTVYak1CQzRrWlVBNGxkdGgzaUduWXFXaEJMYjAwMWR4T3R4VXc9Ig.kJ6B-EzXS74vVwpFdmSkEYgoSRF3CTjhf3iGZhd-whY",
+    "data": {
+      "id": 325599,
+      "revision": 6,
+      "opportunityNumber": "AFPRA-20-04",
+      "opportunityTitle": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+      "owningAgencyCode": "DOS-CPV",
+      "listed": "L",
+      "publisherUid": "HenriquesSS@state.gov",
+      "modifiedComments": "Correcting CFDA number for the SSH program.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 325599,
+        "version": 7,
+        "agencyCode": "DOS-CPV",
+        "agencyName": "Sonia S Henriques\nGrantor",
+        "agencyPhone": "00238 9912642",
+        "agencyAddressDesc": "For inquiries",
+        "agencyDetails": {
+          "code": "CPV",
+          "seed": "DOS-CPV",
+          "agencyName": "U.S. Mission to Cape Verde",
+          "agencyCode": "DOS-CPV",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "00238 9912642",
+        "agencyContactName": "Sonia S Henriques\nGrantor",
+        "agencyContactDesc": "U.S. Embassy Praia Grants",
+        "agencyContactEmail": "PRAIAGRANTS@state.gov",
+        "agencyContactEmailDesc": "For inquiries",
+        "synopsisDesc": "<p><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia welcomes the submission of project applications for funding through the Ambassador’s Special Self-Help Program (SSH). If interested, please carefully review the instructions below.</span></p> \n<p><br></p> \n<p><span style=\"color: rgb(51, 51, 51);\">The SSH is a grass-roots grant assistance program that allows U.S. Ambassadors to support local requests for small community-based development projects.&nbsp;The purpose of the Special Self-Help Program is to support communities through modest grants that will positively impact local communities.&nbsp;The SSH philosophy is to help communities help themselves. </span><strong style=\"color: rgb(51, 51, 51);\">Projects submitted for SSH must align with one or more U.S. Embassy priorities:&nbsp;</strong></p> \n<p><em style=\"color: rgb(51, 51, 51);\">Economic diversification, including small business creation and income generation&nbsp;</em></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Projects must aim to 1) generate sustainable income and employment opportunities in local communities, 2) advance economic diversification and encourage use of local natural resources or income generation, 3) promote a culture of entrepreneurship, and/or 4) improve economic or living conditions of a community.</span></p> \n<p><em style=\"color: rgb(51, 51, 51);\">Women start-ups and women entrepreneurs</em></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Eligible projects assist women who are launching a business or who are overseeing the early stages of business development (between one to two years). Such projects must promote a culture of women-led entrepreneurship and innovation that can be replicated in the community. Projects must also promote profitable businesses that generate revenue and benefit the community.</span></p> \n<p><em style=\"color: rgb(51, 51, 51);\">Social and economic inclusion and creation of opportunities</em></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Projects in this category must assist youth, children, women (particularly female heads of household), and other vulnerable groups to gain access to basic services (for example water, sanitation, and primary/pre-K education). They can also assist the creation of opportunities for vulnerable groups, particularly employment for youth.</span></p> \n<p><em style=\"color: rgb(51, 51, 51);\">Environmental protection, sustainability, resilience to environmental vulnerabilities, and adaptation to environmental change</em></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Eligible projects will increase the capacity of communities to cope with vulnerability to drought and other environmental changes by building resilience, increasing capacity to adapt, and promoting income-generating activities. For example, projects may involve activities to improve water management, diversify agricultural practices, or provide benefits to the environment.</span></p> \n<p><br></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">&nbsp;Local Community Involvement:&nbsp;</strong></p> \n<p><span style=\"color: rgb(51, 51, 51);\">&nbsp;Local involvement of the organization or group must be at least 10% in cash or in kind of the total project costs.&nbsp;The community contribution of funding may be crucial to make a choice between two viable requestors.&nbsp;In-kind contributions could be:&nbsp;labor (wages of masons and workers), food, accommodation for qualified labor, carts of sand or gravel, bricks for construction, sand, fence, water supply, transportation costs, donations of materials etc.</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Additionally, community leaders can sign a statement of interest.&nbsp;Community leaders include local municipal leaders, religious leaders, civil society leaders, or any governing body that has oversight over where the project will be implemented.&nbsp;One community leader can sign the statement of interest; however, multiple signatures are strongly encouraged.&nbsp;Community leaders may also submit letters of support for the project.</span></p> \n<p><br></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">&nbsp;</strong><strong>Elements of a Successful Project</strong></p> \n<ul> \n <li>The project is initiated by the community.</li> \n <li>The project plan contains pre-established long-term goals and a coherent plan to keep the project running in the future.</li> \n <li>A capable project manager who is a long-term resident in the community is responsible for the project.</li> \n <li>There is strong coordination and communication among the grant recipient, local leaders, and local government representatives.</li> \n <li>The project makes use of materials and supplies that can be maintained by the community, and the materials that will not harm the environment.</li> \n <li>The project has a high beneficiary to budget ratio, benefiting a significant number of community members</li> \n <li>The project budget is clear, complete, and well defined.</li> \n <li>The project responds to a community need and is based on a well-developed proposal that is responsive to the priorities and criteria explained in this NOFO.</li> \n <li>Project activities and results show long-term sustainability.</li> \n</ul> \n<p><strong style=\"color: rgb(68, 114, 196);\">Application Documents and Procedures</strong></p> \n<p>1. Applications for Special Self-Help Funds should include the following:</p> \n<p><span style=\"color: black;\">a. Completed </span><span style=\"color: rgb(51, 51, 51);\">SSH form, which can be downloaded&nbsp;</span><a href=\"https://cv.usembassy.gov/wp-content/uploads/sites/265/SSH_Informacoes-e-Formulario-copy.pdf\" target=\"_blank\" style=\"color: rgb(0, 56, 117);\">here</a><span style=\"color: rgb(51, 51, 51);\">.</span></p> \n<p>b.&nbsp;Detailed building plan with dimensions (if necessary/ if small-scale construction envisioned in the project proposal).</p> \n<p>c.&nbsp;Project location (include map if available).</p> \n<p>d.&nbsp;Any additional information/literature you have about your organization and/or project.</p> \n<p>&nbsp;<span style=\"color: black;\">2. The following documents are </span><strong style=\"color: black;\"><u>required</u></strong><span style=\"color: black;\">:&nbsp;</span></p> \n<p><strong>&nbsp;</strong><span style=\"color: black;\">Mandatory application forms</span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">SF-424&nbsp;(Application for Federal Assistance&nbsp;– organizations)&nbsp;</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style=\"color: black;\">SF-424A&nbsp;(Budget Information for Non-Construction programs)</span></p> \n<p><strong>&nbsp;</strong>The forms can be downloaded from <a href=\"https://www.grants.gov/web/grants/forms.html\" target=\"_blank\">grants.gov</a>.&nbsp;Instructions are available on the Embassy website at the <a href=\"https://cv.usembassy.gov/embassy/praia/grants-program/\" target=\"_blank\">&nbsp;grant support resources toolkit</a></p> \n<p><span style=\"color: black;\">3. Make sure that the below is addressed in your SSH form, </span><strong style=\"color: black;\"><u>or</u></strong><span style=\"color: black;\"> submit the following: </span><strong style=\"color: black;\">Summary Page:&nbsp;</strong><span style=\"color: black;\">Cover sheet stating the applicant’s name and organization, proposal date, program title, program period proposed start and end date, and brief purpose of the program.</span>&nbsp;<strong style=\"color: black;\">Proposal </strong><strong style=\"color: rgb(51, 51, 51);\">(</strong><strong style=\"color: black;\">3 pages maximum):&nbsp;</strong><span style=\"color: black;\">The proposal should contain sufficient information that anyone not familiar with it would understand exactly what the applicant wants to do. You may use your own proposal format, but it must include.&nbsp;</span><em style=\"color: black;\">Proposal Summary</em><strong style=\"color: black;\">: </strong><span style=\"color: black;\">Short narrative that outlines the proposed program, including program objectives and anticipated impact. </span><em style=\"color: black;\">Introduction to the Organization or Individual applying</em><span style=\"color: black;\">: A description of past and present operations, showing ability to carry out the program, including information on all previous grants from the U.S. Embassy and/or U.S. government agencies. </span><strong style=\"color: black;\">Problem Statement: </strong><span style=\"color: black;\">Clear, concise and well-supported statement of the problem to be addressed and why the proposed program is needed. </span><strong style=\"color: black;\">Program Goals and Objectives:&nbsp;</strong><span style=\"color: black;\">The “goals” describe what the program is intended to achieve.&nbsp;The “objectives” refer to the intermediate accomplishments on the way to the goals. These should be achievable and measurable. </span><strong style=\"color: black;\">Program Activities</strong><span style=\"color: black;\">: Describe the program activities and how they will help achieve the objectives. </span><strong style=\"color: black;\">Program Methods and Design</strong><span style=\"color: black;\">: A description of how the program is expected to work to solve the stated problem and achieve the goal.&nbsp;Include a logic model as appropriate. </span><strong style=\"color: black;\">Proposed Program Schedule and Timeline:&nbsp;</strong><span style=\"color: black;\">The proposed timeline for the program activities.&nbsp;Include the dates, times, and locations of planned activities and events. </span><strong style=\"color: black;\">Key Personnel:&nbsp;</strong><span style=\"color: black;\">Names, titles, roles and experience/qualifications of key personnel involved in the program.&nbsp;What proportion of their time will be used in support of this program?&nbsp;</span><strong style=\"color: black;\">Program Partners:</strong><span style=\"color: black;\">&nbsp;List the names and type of involvement of key partner organizations and sub-awardees. </span><strong style=\"color: black;\">Program Monitoring and Evaluation Plan:</strong><span style=\"color: black;\">&nbsp;This is an important part of successful grants. Throughout the time-frame of the grant, how will the activities be monitored to ensure they are happening in a timely manner, and how will the program be evaluated to make sure it is meeting the goals of the grant? </span><strong style=\"color: black;\">Future Funding or Sustainability</strong><span style=\"color: black;\">&nbsp;Applicant’s plan for continuing the program beyond the grant period, or the availability of other resources, if applicable.</span></p> \n<p>&nbsp;<strong style=\"color: black;\">4. Budget Justification Narrative</strong><span style=\"color: black;\">:&nbsp;After filling out the SF-424A Budget (above), use a separate sheet of paper to describe each of the budget expenses in detail.</span></p> \n<p>&nbsp;Proposals can be submitted in English or Portuguese languages.&nbsp;</p> \n<p>Submit the complete application package to the U.S. Self-Help Coordinator/ Praia Grants.&nbsp;Applications will be accepted in electronic format, on a rolling basis.&nbsp;Email all required information to <strong>praiagrants@state.gov</strong></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">&nbsp;Application Deadline: </strong><span style=\"color: rgb(51, 51, 51);\">Applications received after&nbsp;</span><strong style=\"color: rgb(51, 51, 51);\">June</strong><span style=\"color: rgb(51, 51, 51);\">&nbsp;will be considered with the next application period or will not be considered.&nbsp;Project selections will be announced&nbsp;</span><strong style=\"color: rgb(51, 51, 51);\">by October.</strong></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Applications will be evaluated on the following factors: </strong><span style=\"color: rgb(51, 51, 51);\">&nbsp;</span><strong>Completeness:&nbsp;&nbsp;</strong>Did the applicant submit all of the materials requested, including but not limited to requirements in the SSH forms found on U.S. Embassy Praia’s website. <strong>Embassy priorities:&nbsp;</strong>Does the application describe how the project’s goals are related to the Embassy priorities stated in this document? <strong>Sustainability:</strong>&nbsp;Is the project sustainable in the long term?&nbsp;Will the project be able to continue without additional investment?&nbsp;Are the suggested measurements of success adequate? <strong>Need:</strong>&nbsp;Does the project adequately fulfill a stated need within a community? <strong>Budget:</strong>&nbsp;Is the budget complete, and well defined? Is the budget reasonable? <strong>Completion within one year:</strong>&nbsp;Can the project be completed in a single year? <strong>Community support:</strong>&nbsp;Does the project show strong community support? <strong>Impact:</strong>&nbsp;Does the project benefit the broadest numbers of beneficiaries possible?&nbsp;Is there a substantial impact on the affected community? <strong>Contribution and Group Capabilities:</strong>&nbsp;Does the group provide adequate resources and show commitment to the project?&nbsp;Is the group capable of administering the project as designed?</p> \n<p>&nbsp;<strong style=\"color: rgb(68, 114, 196);\">Review and Selection Process: </strong>A review committee will evaluate all eligible applications.&nbsp;</p> \n<p><strong style=\"color: rgb(68, 114, 196);\">Other Required Documentation/ Reporting: </strong><span style=\"color: rgb(51, 51, 51);\">Groups selected for funding will subsequently need to submit several required forms, including U.S. Standard Form 424, a grants award document, and any other terms and conditions required by U.S. Embassy Praia. Performance and financial reports will be required throughout the duration of the award.</span></p> \n<p><strong style=\"color: rgb(68, 114, 196);\">Publicity Campaign: </strong><span style=\"color: rgb(51, 51, 51);\">It is expected that publicity will be given to the Ambassador’s Special Self-Help program and its projects, including press and radio releases, photographs, and project site plaques that acknowledge the shared efforts of Cabo Verde and the United States.&nbsp;Publicity costs should be considered in the proposed budget.</span></p> \n<p><strong style=\"color: rgb(68, 114, 196);\">Funding: </strong><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia is not required to fund any applications.&nbsp;Submitting an application does not guarantee selection.</span></p>",
+        "responseDateDesc": "Rolling Applications",
+        "fundingDescLinkUrl": "https://cv.usembassy.gov/embassy/praia/grants-program/ambassadors-special-self-help-ssh-program/",
+        "fundingDescLinkDesc": "Embassy Praia's Grant Program",
+        "postingDate": "Mar 19, 2020 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+        "costSharing": false,
+        "numberOfAwards": "6",
+        "awardCeiling": "10000",
+        "awardCeilingFormatted": "10,000",
+        "awardFloor": "3000",
+        "awardFloorFormatted": "3,000",
+        "applicantEligibilityDesc": "An SSH project must be submitted by an organized group that is motivated, has identified a real need, and has already successfully implemented projects in the community. The project should be feasible and based on the socio-economic context of the local community. Organizational Requirements: All applicants must be registered Non-Profit Organizations (NPOs). We welcome proposals from Community and Non-Governmental Organizations (NGOs) that work directly with communities. Organizations must be able to demonstrate that they have adequate internal controls and financial systems in place. In order to be eligible to receive an award, all organizations must also have a Unique Entity Identifier (UEI) number issued via www.SAM.gov as well as a valid registration on www.SAM.gov. To be eligible for funding the project must meet the following criteria: The project should help improve basic economic or social conditions at the local community level and have long-term value. The project should be high impact, benefiting the greatest number of people possible. Substantial community participation in the activity is required. Contributions may include labor, materials (bricks, sand, gravel, seeds, etc.), land, buildings, or money that is given to ensure the success of the project. [See the section below on &ldquo;Local Community Involvement&rdquo;].\r\nFunding is limited to one project, which must be completed within twelve (12) months or less.\r\nProjects must be self-sustaining upon completion. The U.S. Embassy&rsquo;s support for the project is a one-time-only grant contribution. Projects must be within the community&rsquo;s ability to maintain and operate. Requests for large-scale agriculture or construction projects, or for expensive equipment are not considered priority projects.\r\nManagers of a project should have proof that they are financially responsible and will be able to account for funds sent to them. Having a bank account, or establishing credit with vendors, are examples of such evidence. The requested amount for implementing activities cannot exceed $10,000. Project budgets generally range from $4,000 to $8,000. Limitations/Exclusions from Eligibility: The Self-Help Program may only pay for items and technical assistance that are absolutely necessary for the completion of the project. The program cannot be used for administrative costs, salaries, costs associated with the project manager, travel to and from the Embassy, or items that are not permanent in nature. Costs incurred prior to the actual award of a grant will be reimbursed only by pre-approval of the grants officer at the sole discretion of the Embassy. Additionally, the Special Self-Help Program does not fund:\r\nRequests to buy equipment like vehicles, office equipment, copiers, or stereos. Proposals that have a purely police, military, or cultural emphasis. Religious projects unless they genuinely assist the whole community without regard to religious affiliation.\r\nPersonal businesses. Scholarships, donations, or honorariums. Payment for pesticides, herbicides, labor, salaries, operating costs, printing material, fuel, or land.\r\nTo remodel or renovate an existing facility that is in disrepair as a result of neglect or lack of money.\r\nOffice supplies such as pencils, paper, forms, and folders.\r\nProjects that are partially funded by another donor or from the government of Cabo Verde. Funds cannot be commingled with funds from other donors, international organization, or other U.S. government programs.\r\nProjects that focus on refugees or displaced persons. There are specific U.S. bilateral or multilateral assistance programs designed to address their needs.\r\nSSH funds may not be used to buy previously owned equipment, luxury goods, or gambling equipment.\r\nSalaries or supervision costs for the supervising organization. Contingency estimates also do not qualify.\r\nWe encourage you to contact us with questions.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Oct 27, 2022 07:17:39 AM EDT",
+        "modComments": "Edits to NOFO to reflect updated ICS goals and changes in SAM.gov registration.",
+        "createdDate": "Mar 19, 2020 01:32:02 PM EDT",
+        "lastUpdatedDate": "Oct 27, 2022 07:17:39 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "postingDateStr": "2020-03-19-00-00-00",
+        "createTimeStampStr": "2022-10-27-07-17-39"
+      },
+      "agencyDetails": {
+        "code": "CPV",
+        "seed": "DOS-CPV",
+        "agencyName": "U.S. Mission to Cape Verde",
+        "agencyCode": "DOS-CPV",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 394274,
+          "opportunityId": 325599,
+          "cfdaNumber": "19.220",
+          "programTitle": "Ambassadors' Special Self Help Fund"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 325599,
+            "revision": 0
+          },
+          "opportunityId": 325599,
+          "revision": 0,
+          "opportunityNumber": "AFPRA-20-04",
+          "opportunityTitle": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+          "owningAgencyCode": "DOS-CPV",
+          "publisherUid": "HenriquesSS@state.gov",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 325599,
+              "revision": 0
+            },
+            "opportunityId": 325599,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOS-CPV",
+            "agencyAddressDesc": "For inquiries",
+            "agencyDetails": {
+              "code": "CPV",
+              "seed": "DOS-CPV",
+              "agencyName": "U.S. Mission to Cape Verde",
+              "agencyCode": "DOS-CPV",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "00238 9912642",
+            "agencyContactName": "Sonia S Henriques\nGrantor",
+            "agencyContactDesc": "U.S. Embassy Praia Grants",
+            "agencyContactEmail": "PRAIAGRANTS@state.gov",
+            "agencyContactEmailDesc": "For inquiries",
+            "synopsisDesc": "<p><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia welcomes the submission of project applications for funding through the Ambassador’s Special Self Help Program (SSH). If interested, please carefully review the instructions below.</span></p> \n<p><br></p> \n<p><strong>Purpose of Small Grants:&nbsp;</strong></p> \n<p>The SSH is a grass-roots grant assistance program that allows U.S. Ambassadors to support local requests for small community-based development projects.&nbsp;The purpose of the Special Self-Help Program is to support communities through modest grants that will positively impact local communities.&nbsp;The SSH philosophy is to help communities help themselves.</p> \n<p><strong>Projects submitted for SSH must align with one or more U.S. Embassy priorities:&nbsp;</strong></p> \n<p><em>Economic diversification, including small business creation and income generation&nbsp;</em></p> \n<p>Projects must aim to 1) generate sustainable income and employment opportunities in local communities, 2) advance economic diversification and encourage use of local natural resources or income generation, 3) promote a culture of entrepreneurship, and/or 4) improve economic or living conditions of a community.</p> \n<p><em>Women start-ups and women entrepreneurs</em></p> \n<p>Eligible projects assist women who are launching a business or who are overseeing the early stages of business development (between one to two years). Such projects must promote a culture of women-led entrepreneurship and innovation that can be replicated in the community. Projects must also promote profitable businesses that generate revenue and benefit the community.</p> \n<p><em>Social inclusion and creation of opportunities</em></p> \n<p>Projects in this category must assist youth, children, women (particularly female heads of household), and other vulnerable groups to gain access to basic services (for example water, sanitation, and primary/pre-K education). They can also assist the creation of opportunities for vulnerable groups, particularly employment for youth.</p> \n<p><em>Drought response/ resiliency&nbsp;</em></p> \n<p>Eligible projects will increase the capacity of communities to cope with the effects of drought by building resilience and promoting&nbsp;income-generating activities. Activities can include increasing water supply quality, improving water management, diversifying agricultural practices, and providing benefits to the environment.</p> \n<p><br></p> \n<p><strong>Local Community Involvement:&nbsp;</strong></p> \n<p>Local involvement of the organization or group must be at least 10% in cash or in kind of the total project costs.&nbsp;The community contribution of funding may be crucial to make a choice between two viable requestors.&nbsp;In-kind contributions could be:&nbsp;labor (wages of masons and workers), food, accommodation for qualified labor, carts of sand or gravel, bricks for construction, sand, fence, water supply, transportation costs, donations of materials etc.</p> \n<p>Additionally, community leaders must sign the statement of interest.&nbsp;Community leaders include local municipal leaders, religious leaders, tribal or clan leaders, or any governing body that has oversight over where the project will be implemented.&nbsp;At least one community leader must sign the statement of interest, however, multiple signatures are strongly encouraged.&nbsp;Community leaders may also submit letters of support for the project, so long as they specifically mention the project by title.</p> \n<p><br></p> \n<p><strong>Application Procedures:</strong></p> \n<p><br></p> \n<p><strong>Content of Application</strong></p> \n<ol> \n <li>Please complete the SSH form, which can be downloaded&nbsp;<a href=\"https://cv.usembassy.gov/wp-content/uploads/sites/265/SSH_Informacoes-e-Formulario-copy.pdf\" target=\"_blank\" style=\"background-color: transparent; color: rgb(93, 117, 155);\">here</a>.</li> \n <li>Other required documents:</li> \n</ol> \n<ul> \n <li>A list of Committee/Board members with their names, positions, addresses, and phone numbers.</li> \n <li>A list of all people working in the organization (including all staff and volunteers) with names, positions and starting dates.</li> \n <li>A copy of your registration from the Ministry of Finance.</li> \n <li>A copy of your fiscal identification number<strong>&nbsp;</strong></li> \n</ul> \n<p><strong>Submission of Application</strong></p> \n<p>Complete application packages may be submitted to the U.S. Self-Help Coordinator on a rolling basis<strong>.&nbsp;</strong>Applications will be accepted only in electronic format. Email all required information to&nbsp;<strong>PRAIAGRANTS</strong><strong style=\"background-color: transparent; color: rgb(93, 117, 155);\">@state.gov</strong><strong>&nbsp;</strong></p> \n<p><strong>Application Deadline</strong></p> \n<p>Applications received after&nbsp;<strong>August 2020</strong>&nbsp;will be considered with the next application period. Projects that are time sensitive may not be considered. All projects submitted for funding after August 2020 will be dependent of availability of funds.</p> \n<p>Project selections will be announced&nbsp;<strong><u>by October 2020</u>.</strong></p> \n<p><br></p> \n<p><strong>Evaluation Criteria:</strong></p> \n<p><br></p> \n<p><strong>This application will be evaluated on the following factors:</strong></p> \n<ul> \n <li><strong>Completeness:&nbsp;&nbsp;</strong>Did the applicant submit all of the materials requested, including but not limited to requirements in the SSH forms found on U.S. Embassy Praia’s website.</li> \n <li><strong>Embassy priorities:&nbsp;</strong>Does the application describe how the project’s goals are related to the Embassy priorities stated in this document?</li> \n <li><strong>Sustainability:</strong>&nbsp;Is the project sustainable in the long term?&nbsp;Will the project be able to continue without additional investment?&nbsp;Are the suggested measurements of success adequate?</li> \n <li><strong>Need:</strong>&nbsp;Does the project adequately fulfill a stated need within a community?</li> \n <li><strong>Budget:</strong>&nbsp;Is the budget complete, and well defined? Is the budget reasonable?</li> \n <li><strong>Completion within one year:</strong>&nbsp;Can the project be completed in a single year?</li> \n <li><strong>Community support:</strong>&nbsp;Does the project show strong community support?</li> \n <li><strong>Impact:</strong>&nbsp;Does the project benefit the broadest numbers of beneficiaries possible?&nbsp;Is there a substantial impact on the affected community?</li> \n <li><strong>Contribution and Group Capabilities:</strong>&nbsp;Does the group provide adequate resources and show commitment to the project?&nbsp;Is the group capable of administering the project as designed?</li> \n</ul> \n<p><br></p> \n<p><strong>Required documentation and reporting:</strong></p> \n<p><br></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Groups selected for funding will need to submit several required forms, including&nbsp;U.S. Standard Form 424, a grants award document, and any other terms and conditions required by U.S. Embassy Praia. Performance and financial reports will be required throughout the duration of the award.</span></p> \n<p><br></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Publicity campaign:</strong></p> \n<p><br></p> \n<p><span style=\"color: rgb(51, 51, 51);\">It is expected that publicity will be given to the Ambassador’s Special Self-Help program and its projects, including press and radio releases, photographs, and project site plaques that acknowledge the shared efforts of Cabo Verde and the United States. Publicity costs should be considered in the proposed budget.</span></p> \n<p><br></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Funding:</strong></p> \n<p><br></p> \n<p><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia is not required to fund any applications. Submitting an application does not guarantee selection.</span></p> \n<p><br></p>",
+            "responseDate": "Aug 31, 2020 12:00:00 AM EDT",
+            "responseDateDesc": "Rolling Applications",
+            "fundingDescLinkUrl": "https://cv.usembassy.gov/embassy/praia/grants-program/ambassadors-special-self-help-ssh-program/",
+            "fundingDescLinkDesc": "Embassy Praia's Grant Program",
+            "postingDate": "Mar 19, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 30, 2020 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+            "costSharing": false,
+            "awardCeiling": "8000",
+            "awardCeilingFormatted": "8,000",
+            "awardFloor": "3000",
+            "awardFloorFormatted": "3,000",
+            "applicantEligibilityDesc": "An SSH project must be submitted by an organized group that is motivated, has identified a real need, and has already successfully implemented projects in the community.  The project should be feasible and based on the socio-economic context of the local community. All applicants must be registered Non-Profit Organizations (NPOs). We welcome proposals from Community and Non-Governmental Organizations (NGOs) that work directly with communities.  Organizations must be able to demonstrate that they have adequate internal controls and financial systems in place.\r\n\r\nTo be eligible for funding the project must meet the following criteria: The project should help improve basic economic or social conditions at the local community level, and have long-term value.\r\nThe project should be high-impact, benefiting the greatest number of people possible.\r\nSubstantial community participation in the activity is required.  Contributions may include labor, materials (bricks, sand, gravel, seeds, etc.), land, buildings, or money that is given to ensure the success of the project. [See the section below on &ldquo;Local Community Involvement&rdquo;].\r\nFunding is limited to one project, which must be completed within twelve (12) months or less.\r\nProjects must be self-sustaining upon completion.  The U.S. Embassy&rsquo;s support for the project is a one-time-only grant contribution.\r\nProjects must be within the community&rsquo;s ability to maintain and operate.  Requests for large-scale agriculture or construction projects, or for expensive equipment are not considered priority projects.\r\nManagers of a project should have proof that they are financially responsible and will be able to account for funds sent to them.  Having a bank account, or establishing credit with vendors, are examples of such evidence.\r\nThe requested amount for implementing activities cannot exceed $8,000.  Project budgets generally range from $4,000 to $8,000. \r\n\r\nimitations/Exclusions from Eligibility \r\n\r\nApplicants are only allowed to submit one proposal per organization. If more than one proposal is submitted from an organization, all proposals from that institution will be considered ineligible for funding.\r\n\r\nThe Self Help Program may only pay for items and technical assistance that are absolutely necessary for the completion of the project.  The Self Help Program cannot be used for administrative costs, salaries, costs associated with the project manager, travel to and from the Embassy, or items that are not permanent in nature.  Costs incurred prior to the actual award of a grant will be reimbursed only by pre-approval of the grants officer at the sole discretion of the Embassy.\r\n\r\nAdditionally, the Special Self Help Program does not fund: Requests to buy equipment like vehicles, office equipment, copiers, or stereos.\r\nProposals that have a purely police, military, or cultural emphasis.\r\nReligious projects unless they genuinely assist the whole community without regard to religious affiliation.\r\nPersonal businesses. Scholarships, donations, or honorariums. Payment for pesticides, herbicides, labor, salaries, operating costs, printing material, fuel, or land.\r\nTo remodel or renovate an existing facility that is in disrepair as a result of neglect or lack of money.\r\nOffice supplies such as pencils, paper, forms, and folders.\r\nProjects that are partially funded by another donor or from the government of Cabo Verde.  Funds cannot be commingled with funds from other donors, international organization, or other U.S. government programs.\r\nProjects that focus on refugees or displaced persons.  \r\nSSH funds may not be used to buy previously owned equipment, luxury goods, or gambling equipment.\r\nSalaries or supervision costs for the supervising organization.  Contingency estimates also do not qualify.\r\nIn order to be eligible to receive an award, all organizations must have a Data Universal Numbering System (DUNS) number from Dun &amp; Bradstreet, as well as a valid registration on www.SAM.gov.\r\nWe encourage you to contact us with questions as you develop your proposal, as applications that include ineligible items may be disqualified. Please contact us via email at PRAIAGRANTS@state.gov",
+            "createTimeStamp": "Mar 19, 2020 01:32:02 PM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Mar 19, 2020 01:34:37 PM EDT",
+            "createdDate": "Mar 19, 2020 01:32:02 PM EDT",
+            "lastUpdatedDate": "Mar 19, 2020 01:32:02 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "responseDateStr": "2020-08-31-00-00-00",
+            "postingDateStr": "2020-03-19-00-00-00",
+            "archiveDateStr": "2020-09-30-00-00-00",
+            "createTimeStampStr": "2020-03-19-13-32-02"
+          },
+          "cfdas": [
+            {
+              "id": 379520,
+              "opportunityId": 325599,
+              "revision": 2,
+              "cfdaNumber": "19.700",
+              "programTitle": "General Department of State Assistance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 325599,
+            "revision": 1
+          },
+          "opportunityId": 325599,
+          "revision": 1,
+          "opportunityNumber": "AFPRA-20-04",
+          "opportunityTitle": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+          "owningAgencyCode": "DOS-CPV",
+          "publisherUid": "HenriquesSS@state.gov",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "The opportunity AFPRA-20-03 was also created is the same opportunity.  It was drafted but not published.",
+          "synopsis": {
+            "id": {
+              "opportunityId": 325599,
+              "revision": 1
+            },
+            "opportunityId": 325599,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "DOS-CPV",
+            "agencyAddressDesc": "For inquiries",
+            "agencyDetails": {
+              "code": "CPV",
+              "seed": "DOS-CPV",
+              "agencyName": "U.S. Mission to Cape Verde",
+              "agencyCode": "DOS-CPV",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "00238 9912642",
+            "agencyContactName": "Sonia S Henriques\nGrantor",
+            "agencyContactDesc": "U.S. Embassy Praia Grants",
+            "agencyContactEmail": "PRAIAGRANTS@state.gov",
+            "agencyContactEmailDesc": "For inquiries",
+            "synopsisDesc": "<p><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia welcomes the submission of project applications for funding through the Ambassador’s Special Self Help Program (SSH). If interested, please carefully review the instructions below.</span></p> <p><br></p> <p><strong>Purpose of Small Grants:&nbsp;</strong></p> <p>The SSH is a grass-roots grant assistance program that allows U.S. Ambassadors to support local requests for small community-based development projects.&nbsp;The purpose of the Special Self-Help Program is to support communities through modest grants that will positively impact local communities.&nbsp;The SSH philosophy is to help communities help themselves.</p> <p><strong>Projects submitted for SSH must align with one or more U.S. Embassy priorities:&nbsp;</strong></p> <p><em>Economic diversification, including small business creation and income generation&nbsp;</em></p> <p>Projects must aim to 1) generate sustainable income and employment opportunities in local communities, 2) advance economic diversification and encourage use of local natural resources or income generation, 3) promote a culture of entrepreneurship, and/or 4) improve economic or living conditions of a community.</p> <p><em>Women start-ups and women entrepreneurs</em></p> <p>Eligible projects assist women who are launching a business or who are overseeing the early stages of business development (between one to two years). Such projects must promote a culture of women-led entrepreneurship and innovation that can be replicated in the community. Projects must also promote profitable businesses that generate revenue and benefit the community.</p> <p><em>Social inclusion and creation of opportunities</em></p> <p>Projects in this category must assist youth, children, women (particularly female heads of household), and other vulnerable groups to gain access to basic services (for example water, sanitation, and primary/pre-K education). They can also assist the creation of opportunities for vulnerable groups, particularly employment for youth.</p> <p><em>Drought response/ resiliency&nbsp;</em></p> <p>Eligible projects will increase the capacity of communities to cope with the effects of drought by building resilience and promoting&nbsp;income-generating activities. Activities can include increasing water supply quality, improving water management, diversifying agricultural practices, and providing benefits to the environment.</p> <p><br></p> <p><strong>Local Community Involvement:&nbsp;</strong></p> <p>Local involvement of the organization or group must be at least 10% in cash or in kind of the total project costs.&nbsp;The community contribution of funding may be crucial to make a choice between two viable requestors.&nbsp;In-kind contributions could be:&nbsp;labor (wages of masons and workers), food, accommodation for qualified labor, carts of sand or gravel, bricks for construction, sand, fence, water supply, transportation costs, donations of materials etc.</p> <p>Additionally, community leaders must sign the statement of interest.&nbsp;Community leaders include local municipal leaders, religious leaders, tribal or clan leaders, or any governing body that has oversight over where the project will be implemented.&nbsp;At least one community leader must sign the statement of interest, however, multiple signatures are strongly encouraged.&nbsp;Community leaders may also submit letters of support for the project, so long as they specifically mention the project by title.</p> <p><br></p> <p><strong>Application Procedures:</strong></p> <p><br></p> <p><strong>Content of Application</strong></p> <ol>  <li>Please complete the SSH form, which can be downloaded&nbsp;<a href=\"https://cv.usembassy.gov/wp-content/uploads/sites/265/SSH_Informacoes-e-Formulario-copy.pdf\" target=\"_blank\" style=\"background-color: transparent; color: rgb(93, 117, 155);\">here</a>.</li>  <li>Other required documents:</li> </ol> <ul>  <li>A list of Committee/Board members with their names, positions, addresses, and phone numbers.</li>  <li>A list of all people working in the organization (including all staff and volunteers) with names, positions and starting dates.</li>  <li>A copy of your registration from the Ministry of Finance.</li>  <li>A copy of your fiscal identification number<strong>&nbsp;</strong></li> </ul> <p><strong>Submission of Application</strong></p> <p>Complete application packages may be submitted to the U.S. Self-Help Coordinator on a rolling basis<strong>.&nbsp;</strong>Applications will be accepted only in electronic format. Email all required information to&nbsp;<strong>PRAIAGRANTS</strong><strong style=\"background-color: transparent; color: rgb(93, 117, 155);\">@state.gov</strong><strong>&nbsp;</strong></p> <p><strong>Application Deadline</strong></p> <p>Applications received after&nbsp;<strong>August 2020</strong>&nbsp;will be considered with the next application period. Projects that are time sensitive may not be considered. All projects submitted for funding after August 2020 will be dependent of availability of funds.</p> <p>Project selections will be announced&nbsp;<strong><u>by October 2020</u>.</strong></p> <p><br></p> <p><strong>Evaluation Criteria:</strong></p> <p><br></p> <p><strong>This application will be evaluated on the following factors:</strong></p> <ul>  <li><strong>Completeness:&nbsp;&nbsp;</strong>Did the applicant submit all of the materials requested, including but not limited to requirements in the SSH forms found on U.S. Embassy Praia’s website.</li>  <li><strong>Embassy priorities:&nbsp;</strong>Does the application describe how the project’s goals are related to the Embassy priorities stated in this document?</li>  <li><strong>Sustainability:</strong>&nbsp;Is the project sustainable in the long term?&nbsp;Will the project be able to continue without additional investment?&nbsp;Are the suggested measurements of success adequate?</li>  <li><strong>Need:</strong>&nbsp;Does the project adequately fulfill a stated need within a community?</li>  <li><strong>Budget:</strong>&nbsp;Is the budget complete, and well defined? Is the budget reasonable?</li>  <li><strong>Completion within one year:</strong>&nbsp;Can the project be completed in a single year?</li>  <li><strong>Community support:</strong>&nbsp;Does the project show strong community support?</li>  <li><strong>Impact:</strong>&nbsp;Does the project benefit the broadest numbers of beneficiaries possible?&nbsp;Is there a substantial impact on the affected community?</li>  <li><strong>Contribution and Group Capabilities:</strong>&nbsp;Does the group provide adequate resources and show commitment to the project?&nbsp;Is the group capable of administering the project as designed?</li> </ul> <p><br></p> <p><strong>Required documentation and reporting:</strong></p> <p><br></p> <p><span style=\"color: rgb(51, 51, 51);\">Groups selected for funding will need to submit several required forms, including&nbsp;U.S. Standard Form 424, a grants award document, and any other terms and conditions required by U.S. Embassy Praia. Performance and financial reports will be required throughout the duration of the award.</span></p> <p><br></p> <p><strong style=\"color: rgb(51, 51, 51);\">Publicity campaign:</strong></p> <p><br></p> <p><span style=\"color: rgb(51, 51, 51);\">It is expected that publicity will be given to the Ambassador’s Special Self-Help program and its projects, including press and radio releases, photographs, and project site plaques that acknowledge the shared efforts of Cabo Verde and the United States. Publicity costs should be considered in the proposed budget.</span></p> <p><br></p> <p><strong style=\"color: rgb(51, 51, 51);\">Funding:</strong></p> <p><br></p> <p><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia is not required to fund any applications. Submitting an application does not guarantee selection.</span></p> <p><br></p>",
+            "responseDate": "Aug 31, 2020 12:00:00 AM EDT",
+            "responseDateDesc": "Rolling Applications",
+            "fundingDescLinkUrl": "https://cv.usembassy.gov/embassy/praia/grants-program/ambassadors-special-self-help-ssh-program/",
+            "fundingDescLinkDesc": "Embassy Praia's Grant Program",
+            "postingDate": "Mar 19, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 30, 2020 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+            "costSharing": false,
+            "awardCeiling": "8000",
+            "awardCeilingFormatted": "8,000",
+            "awardFloor": "3000",
+            "awardFloorFormatted": "3,000",
+            "applicantEligibilityDesc": "An SSH project must be submitted by an organized group that is motivated, has identified a real need, and has already successfully implemented projects in the community.  The project should be feasible and based on the socio-economic context of the local community. All applicants must be registered Non-Profit Organizations (NPOs). We welcome proposals from Community and Non-Governmental Organizations (NGOs) that work directly with communities.  Organizations must be able to demonstrate that they have adequate internal controls and financial systems in place.To be eligible for funding the project must meet the following criteria: The project should help improve basic economic or social conditions at the local community level, and have long-term value.The project should be high-impact, benefiting the greatest number of people possible.Substantial community participation in the activity is required.  Contributions may include labor, materials (bricks, sand, gravel, seeds, etc.), land, buildings, or money that is given to ensure the success of the project. [See the section below on &ldquo;Local Community Involvement&rdquo;].Funding is limited to one project, which must be completed within twelve (12) months or less.Projects must be self-sustaining upon completion.  The U.S. Embassy&rsquo;s support for the project is a one-time-only grant contribution.Projects must be within the community&rsquo;s ability to maintain and operate.  Requests for large-scale agriculture or construction projects, or for expensive equipment are not considered priority projects.Managers of a project should have proof that they are financially responsible and will be able to account for funds sent to them.  Having a bank account, or establishing credit with vendors, are examples of such evidence.The requested amount for implementing activities cannot exceed $8,000.  Project budgets generally range from $4,000 to $8,000. imitations/Exclusions from Eligibility Applicants are only allowed to submit one proposal per organization. If more than one proposal is submitted from an organization, all proposals from that institution will be considered ineligible for funding.The Self Help Program may only pay for items and technical assistance that are absolutely necessary for the completion of the project.  The Self Help Program cannot be used for administrative costs, salaries, costs associated with the project manager, travel to and from the Embassy, or items that are not permanent in nature.  Costs incurred prior to the actual award of a grant will be reimbursed only by pre-approval of the grants officer at the sole discretion of the Embassy.Additionally, the Special Self Help Program does not fund: Requests to buy equipment like vehicles, office equipment, copiers, or stereos.Proposals that have a purely police, military, or cultural emphasis.Religious projects unless they genuinely assist the whole community without regard to religious affiliation.Personal businesses. Scholarships, donations, or honorariums. Payment for pesticides, herbicides, labor, salaries, operating costs, printing material, fuel, or land.To remodel or renovate an existing facility that is in disrepair as a result of neglect or lack of money.Office supplies such as pencils, paper, forms, and folders.Projects that are partially funded by another donor or from the government of Cabo Verde.  Funds cannot be commingled with funds from other donors, international organization, or other U.S. government programs.Projects that focus on refugees or displaced persons.  SSH funds may not be used to buy previously owned equipment, luxury goods, or gambling equipment.Salaries or supervision costs for the supervising organization.  Contingency estimates also do not qualify.In order to be eligible to receive an award, all organizations must have a Data Universal Numbering System (DUNS) number from Dun &amp; Bradstreet, as well as a valid registration on www.SAM.gov.We encourage you to contact us with questions as you develop your proposal, as applications that include ineligible items may be disqualified. Please contact us via email at PRAIAGRANTS@state.gov",
+            "createTimeStamp": "Mar 19, 2020 01:44:16 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "The opportunity AFPRA-20-03 was also created is the same opportunity.  It was drafted but not published.",
+            "actionType": "U",
+            "actionDate": "Nov 08, 2020 05:28:34 PM EST",
+            "createdDate": "Mar 19, 2020 01:32:02 PM EDT",
+            "lastUpdatedDate": "Mar 19, 2020 01:34:37 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "responseDateStr": "2020-08-31-00-00-00",
+            "postingDateStr": "2020-03-19-00-00-00",
+            "archiveDateStr": "2020-09-30-00-00-00",
+            "createTimeStampStr": "2020-03-19-13-44-16"
+          },
+          "cfdas": [
+            {
+              "id": 379520,
+              "opportunityId": 325599,
+              "revision": 2,
+              "cfdaNumber": "19.700",
+              "programTitle": "General Department of State Assistance"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "applicantEligibilityDesc"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 325599,
+            "revision": 2
+          },
+          "opportunityId": 325599,
+          "revision": 2,
+          "opportunityNumber": "AFPRA-20-04",
+          "opportunityTitle": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+          "owningAgencyCode": "DOS-CPV",
+          "publisherUid": "HenriquesSS@state.gov",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "The opportunity AFPRA-20-03 was also created is the same opportunity.  It was drafted but not published.",
+          "synopsis": {
+            "id": {
+              "opportunityId": 325599,
+              "revision": 2
+            },
+            "opportunityId": 325599,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "DOS-CPV",
+            "agencyAddressDesc": "For inquiries",
+            "agencyDetails": {
+              "code": "CPV",
+              "seed": "DOS-CPV",
+              "agencyName": "U.S. Mission to Cape Verde",
+              "agencyCode": "DOS-CPV",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "00238 9912642",
+            "agencyContactName": "Sonia S Henriques\nGrantor",
+            "agencyContactDesc": "U.S. Embassy Praia Grants",
+            "agencyContactEmail": "PRAIAGRANTS@state.gov",
+            "agencyContactEmailDesc": "For inquiries",
+            "synopsisDesc": "<p><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia welcomes the submission of project applications for funding through the Ambassador’s Special Self Help Program (SSH). If interested, please carefully review the instructions below.</span></p> \n<p><br></p> \n<p><strong>Purpose of Small Grants:&nbsp;</strong></p> \n<p>The SSH is a grass-roots grant assistance program that allows U.S. Ambassadors to support local requests for small community-based development projects.&nbsp;The purpose of the Special Self-Help Program is to support communities through modest grants that will positively impact local communities.&nbsp;The SSH philosophy is to help communities help themselves.</p> \n<p><strong>Projects submitted for SSH must align with one or more U.S. Embassy priorities:&nbsp;</strong></p> \n<p><em>Economic diversification, including small business creation and income generation&nbsp;</em></p> \n<p>Projects must aim to 1) generate sustainable income and employment opportunities in local communities, 2) advance economic diversification and encourage use of local natural resources or income generation, 3) promote a culture of entrepreneurship, and/or 4) improve economic or living conditions of a community.</p> \n<p><em>Women start-ups and women entrepreneurs</em></p> \n<p>Eligible projects assist women who are launching a business or who are overseeing the early stages of business development (between one to two years). Such projects must promote a culture of women-led entrepreneurship and innovation that can be replicated in the community. Projects must also promote profitable businesses that generate revenue and benefit the community.</p> \n<p><em>Social inclusion and creation of opportunities</em></p> \n<p>Projects in this category must assist youth, children, women (particularly female heads of household), and other vulnerable groups to gain access to basic services (for example water, sanitation, and primary/pre-K education). They can also assist the creation of opportunities for vulnerable groups, particularly employment for youth.</p> \n<p><em>Drought response/ resiliency&nbsp;</em></p> \n<p>Eligible projects will increase the capacity of communities to cope with the effects of drought by building resilience and promoting&nbsp;income-generating activities. Activities can include increasing water supply quality, improving water management, diversifying agricultural practices, and providing benefits to the environment.</p> \n<p><br></p> \n<p><strong>Local Community Involvement:&nbsp;</strong></p> \n<p>Local involvement of the organization or group must be at least 10% in cash or in kind of the total project costs.&nbsp;The community contribution of funding may be crucial to make a choice between two viable requestors.&nbsp;In-kind contributions could be:&nbsp;labor (wages of masons and workers), food, accommodation for qualified labor, carts of sand or gravel, bricks for construction, sand, fence, water supply, transportation costs, donations of materials etc.</p> \n<p>Additionally, community leaders must sign the statement of interest.&nbsp;Community leaders include local municipal leaders, religious leaders, tribal or clan leaders, or any governing body that has oversight over where the project will be implemented.&nbsp;At least one community leader must sign the statement of interest, however, multiple signatures are strongly encouraged.&nbsp;Community leaders may also submit letters of support for the project, so long as they specifically mention the project by title.</p> \n<p><br></p> \n<p><strong>Application Procedures:</strong></p> \n<p><br></p> \n<p><strong>Content of Application</strong></p> \n<ol> \n <li>Please complete the SSH form, which can be downloaded&nbsp;<a style=\"color: rgb(93, 117, 155); background-color: transparent;\" href=\"https://cv.usembassy.gov/wp-content/uploads/sites/265/SSH_Informacoes-e-Formulario-copy.pdf\" target=\"_blank\">here</a>.</li> \n <li>Other required documents:</li> \n</ol> \n<ul> \n <li>A list of Committee/Board members with their names, positions, addresses, and phone numbers.</li> \n <li>A list of all people working in the organization (including all staff and volunteers) with names, positions and starting dates.</li> \n <li>A copy of your registration from the Ministry of Finance.</li> \n <li>A copy of your fiscal identification number<strong>&nbsp;</strong></li> \n</ul> \n<p><strong>Submission of Application</strong></p> \n<p>Complete application packages may be submitted to the U.S. Self-Help Coordinator on a rolling basis<strong>.&nbsp;</strong>Applications will be accepted only in electronic format. Email all required information to&nbsp;<strong>PRAIAGRANTS</strong><strong style=\"color: rgb(93, 117, 155); background-color: transparent;\">@state.gov</strong><strong>&nbsp;</strong></p> \n<p><strong>Application Deadline</strong></p> \n<p>Applications received after&nbsp;<strong>August 2021</strong>&nbsp;will be considered with the next application period. Projects that are time sensitive may not be considered. All projects submitted for funding after August 2020 will be dependent of availability of funds.</p> \n<p>Project selections will be announced&nbsp;<strong><u>by October 2021</u>.</strong></p> \n<p><br></p> \n<p><strong>Evaluation Criteria:</strong></p> \n<p><br></p> \n<p><strong>This application will be evaluated on the following factors:</strong></p> \n<ul> \n <li><strong>Completeness:&nbsp;&nbsp;</strong>Did the applicant submit all of the materials requested, including but not limited to requirements in the SSH forms found on U.S. Embassy Praia’s website.</li> \n <li><strong>Embassy priorities:&nbsp;</strong>Does the application describe how the project’s goals are related to the Embassy priorities stated in this document?</li> \n <li><strong>Sustainability:</strong>&nbsp;Is the project sustainable in the long term?&nbsp;Will the project be able to continue without additional investment?&nbsp;Are the suggested measurements of success adequate?</li> \n <li><strong>Need:</strong>&nbsp;Does the project adequately fulfill a stated need within a community?</li> \n <li><strong>Budget:</strong>&nbsp;Is the budget complete, and well defined? Is the budget reasonable?</li> \n <li><strong>Completion within one year:</strong>&nbsp;Can the project be completed in a single year?</li> \n <li><strong>Community support:</strong>&nbsp;Does the project show strong community support?</li> \n <li><strong>Impact:</strong>&nbsp;Does the project benefit the broadest numbers of beneficiaries possible?&nbsp;Is there a substantial impact on the affected community?</li> \n <li><strong>Contribution and Group Capabilities:</strong>&nbsp;Does the group provide adequate resources and show commitment to the project?&nbsp;Is the group capable of administering the project as designed?</li> \n</ul> \n<p><br></p> \n<p><strong>Required documentation and reporting:</strong></p> \n<p><br></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Groups selected for funding will need to submit several required forms, including&nbsp;U.S. Standard Form 424, a grants award document, and any other terms and conditions required by U.S. Embassy Praia. Performance and financial reports will be required throughout the duration of the award.</span></p> \n<p><br></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Publicity campaign:</strong></p> \n<p><br></p> \n<p><span style=\"color: rgb(51, 51, 51);\">It is expected that publicity will be given to the Ambassador’s Special Self-Help program and its projects, including press and radio releases, photographs, and project site plaques that acknowledge the shared efforts of Cabo Verde and the United States. Publicity costs should be considered in the proposed budget.</span></p> \n<p><br></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Funding:</strong></p> \n<p><br></p> \n<p><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia is not required to fund any applications. Submitting an application does not guarantee selection.</span></p> \n<p><br></p>",
+            "responseDate": "Aug 31, 2021 12:00:00 AM EDT",
+            "responseDateDesc": "Rolling Applications",
+            "fundingDescLinkUrl": "https://cv.usembassy.gov/embassy/praia/grants-program/ambassadors-special-self-help-ssh-program/",
+            "fundingDescLinkDesc": "Embassy Praia's Grant Program",
+            "postingDate": "Mar 19, 2020 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+            "costSharing": false,
+            "awardCeiling": "8000",
+            "awardCeilingFormatted": "8,000",
+            "awardFloor": "3000",
+            "awardFloorFormatted": "3,000",
+            "applicantEligibilityDesc": "An SSH project must be submitted by an organized group that is motivated, has identified a real need, and has already successfully implemented projects in the community.  The project should be feasible and based on the socio-economic context of the local community. All applicants must be registered Non-Profit Organizations (NPOs). We welcome proposals from Community and Non-Governmental Organizations (NGOs) that work directly with communities.  Organizations must be able to demonstrate that they have adequate internal controls and financial systems in place.To be eligible for funding the project must meet the following criteria: The project should help improve basic economic or social conditions at the local community level, and have long-term value.The project should be high-impact, benefiting the greatest number of people possible.Substantial community participation in the activity is required.  Contributions may include labor, materials (bricks, sand, gravel, seeds, etc.), land, buildings, or money that is given to ensure the success of the project. [See the section below on &ldquo;Local Community Involvement&rdquo;].Funding is limited to one project, which must be completed within twelve (12) months or less.Projects must be self-sustaining upon completion.  The U.S. Embassy&rsquo;s support for the project is a one-time-only grant contribution.Projects must be within the community&rsquo;s ability to maintain and operate.  Requests for large-scale agriculture or construction projects, or for expensive equipment are not considered priority projects.Managers of a project should have proof that they are financially responsible and will be able to account for funds sent to them.  Having a bank account, or establishing credit with vendors, are examples of such evidence.The requested amount for implementing activities cannot exceed $8,000.  Project budgets generally range from $4,000 to $8,000. imitations/Exclusions from Eligibility Applicants are only allowed to submit one proposal per organization. If more than one proposal is submitted from an organization, all proposals from that institution will be considered ineligible for funding.The Self Help Program may only pay for items and technical assistance that are absolutely necessary for the completion of the project.  The Self Help Program cannot be used for administrative costs, salaries, costs associated with the project manager, travel to and from the Embassy, or items that are not permanent in nature.  Costs incurred prior to the actual award of a grant will be reimbursed only by pre-approval of the grants officer at the sole discretion of the Embassy.Additionally, the Special Self Help Program does not fund: Requests to buy equipment like vehicles, office equipment, copiers, or stereos.Proposals that have a purely police, military, or cultural emphasis.Religious projects unless they genuinely assist the whole community without regard to religious affiliation.Personal businesses. Scholarships, donations, or honorariums. Payment for pesticides, herbicides, labor, salaries, operating costs, printing material, fuel, or land.To remodel or renovate an existing facility that is in disrepair as a result of neglect or lack of money.Office supplies such as pencils, paper, forms, and folders.Projects that are partially funded by another donor or from the government of Cabo Verde.  Funds cannot be commingled with funds from other donors, international organization, or other U.S. government programs.Projects that focus on refugees or displaced persons.  SSH funds may not be used to buy previously owned equipment, luxury goods, or gambling equipment.Salaries or supervision costs for the supervising organization.  Contingency estimates also do not qualify.In order to be eligible to receive an award, all organizations must have a Data Universal Numbering System (DUNS) number from Dun &amp; Bradstreet, as well as a valid registration on www.SAM.gov.We encourage you to contact us with questions as you develop your proposal, as applications that include ineligible items may be disqualified. Please contact us via email at PRAIAGRANTS@state.gov",
+            "createTimeStamp": "Nov 08, 2020 05:28:34 PM EST",
+            "sendEmail": "Y",
+            "modComments": "Changing dates to cover the 2020/ 2021 cycle.",
+            "actionType": "U",
+            "actionDate": "Aug 30, 2021 10:47:27 AM EDT",
+            "createdDate": "Mar 19, 2020 01:32:02 PM EDT",
+            "lastUpdatedDate": "Nov 08, 2020 05:28:34 PM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "responseDateStr": "2021-08-31-00-00-00",
+            "postingDateStr": "2020-03-19-00-00-00",
+            "createTimeStampStr": "2020-11-08-17-28-34"
+          },
+          "cfdas": [
+            {
+              "id": 379520,
+              "opportunityId": 325599,
+              "revision": 2,
+              "cfdaNumber": "19.700",
+              "programTitle": "General Department of State Assistance"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "responseDate",
+            "archiveDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 325599,
+            "revision": 3
+          },
+          "opportunityId": 325599,
+          "revision": 3,
+          "opportunityNumber": "AFPRA-20-04",
+          "opportunityTitle": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+          "owningAgencyCode": "DOS-CPV",
+          "publisherUid": "HenriquesSS@state.gov",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Correcting CFDA number for the SSH program.",
+          "synopsis": {
+            "id": {
+              "opportunityId": 325599,
+              "revision": 3
+            },
+            "opportunityId": 325599,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "DOS-CPV",
+            "agencyAddressDesc": "For inquiries",
+            "agencyDetails": {
+              "code": "CPV",
+              "seed": "DOS-CPV",
+              "agencyName": "U.S. Mission to Cape Verde",
+              "agencyCode": "DOS-CPV",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "00238 9912642",
+            "agencyContactName": "Sonia S Henriques\nGrantor",
+            "agencyContactDesc": "U.S. Embassy Praia Grants",
+            "agencyContactEmail": "PRAIAGRANTS@state.gov",
+            "agencyContactEmailDesc": "For inquiries",
+            "synopsisDesc": "<p><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia welcomes the submission of project applications for funding through the Ambassador’s Special Self Help Program (SSH). If interested, please carefully review the instructions below.</span></p> <p><br></p> <p><strong>Purpose of Small Grants:&nbsp;</strong></p> <p>The SSH is a grass-roots grant assistance program that allows U.S. Ambassadors to support local requests for small community-based development projects.&nbsp;The purpose of the Special Self-Help Program is to support communities through modest grants that will positively impact local communities.&nbsp;The SSH philosophy is to help communities help themselves.</p> <p><strong>Projects submitted for SSH must align with one or more U.S. Embassy priorities:&nbsp;</strong></p> <p><em>Economic diversification, including small business creation and income generation&nbsp;</em></p> <p>Projects must aim to 1) generate sustainable income and employment opportunities in local communities, 2) advance economic diversification and encourage use of local natural resources or income generation, 3) promote a culture of entrepreneurship, and/or 4) improve economic or living conditions of a community.</p> <p><em>Women start-ups and women entrepreneurs</em></p> <p>Eligible projects assist women who are launching a business or who are overseeing the early stages of business development (between one to two years). Such projects must promote a culture of women-led entrepreneurship and innovation that can be replicated in the community. Projects must also promote profitable businesses that generate revenue and benefit the community.</p> <p><em>Social inclusion and creation of opportunities</em></p> <p>Projects in this category must assist youth, children, women (particularly female heads of household), and other vulnerable groups to gain access to basic services (for example water, sanitation, and primary/pre-K education). They can also assist the creation of opportunities for vulnerable groups, particularly employment for youth.</p> <p><em>Drought response/ resiliency&nbsp;</em></p> <p>Eligible projects will increase the capacity of communities to cope with the effects of drought by building resilience and promoting&nbsp;income-generating activities. Activities can include increasing water supply quality, improving water management, diversifying agricultural practices, and providing benefits to the environment.</p> <p><br></p> <p><strong>Local Community Involvement:&nbsp;</strong></p> <p>Local involvement of the organization or group must be at least 10% in cash or in kind of the total project costs.&nbsp;The community contribution of funding may be crucial to make a choice between two viable requestors.&nbsp;In-kind contributions could be:&nbsp;labor (wages of masons and workers), food, accommodation for qualified labor, carts of sand or gravel, bricks for construction, sand, fence, water supply, transportation costs, donations of materials etc.</p> <p>Additionally, community leaders must sign the statement of interest.&nbsp;Community leaders include local municipal leaders, religious leaders, tribal or clan leaders, or any governing body that has oversight over where the project will be implemented.&nbsp;At least one community leader must sign the statement of interest, however, multiple signatures are strongly encouraged.&nbsp;Community leaders may also submit letters of support for the project, so long as they specifically mention the project by title.</p> <p><br></p> <p><strong>Application Procedures:</strong></p> <p><br></p> <p><strong>Content of Application</strong></p> <ol>  <li>Please complete the SSH form, which can be downloaded&nbsp;<a style=\"color: rgb(93, 117, 155); background-color: transparent;\" href=\"https://cv.usembassy.gov/wp-content/uploads/sites/265/SSH_Informacoes-e-Formulario-copy.pdf\" target=\"_blank\">here</a>.</li>  <li>Other required documents:</li> </ol> <ul>  <li>A list of Committee/Board members with their names, positions, addresses, and phone numbers.</li>  <li>A list of all people working in the organization (including all staff and volunteers) with names, positions and starting dates.</li>  <li>A copy of your registration from the Ministry of Finance.</li>  <li>A copy of your fiscal identification number<strong>&nbsp;</strong></li> </ul> <p><strong>Submission of Application</strong></p> <p>Complete application packages may be submitted to the U.S. Self-Help Coordinator on a rolling basis<strong>.&nbsp;</strong>Applications will be accepted only in electronic format. Email all required information to&nbsp;<strong>PRAIAGRANTS</strong><strong style=\"color: rgb(93, 117, 155); background-color: transparent;\">@state.gov</strong><strong>&nbsp;</strong></p> <p><strong>Application Deadline</strong></p> <p>Applications received after&nbsp;<strong>August 2021</strong>&nbsp;will be considered with the next application period. Projects that are time sensitive may not be considered. All projects submitted for funding after August 2020 will be dependent of availability of funds.</p> <p>Project selections will be announced&nbsp;<strong><u>by October 2021</u>.</strong></p> <p><br></p> <p><strong>Evaluation Criteria:</strong></p> <p><br></p> <p><strong>This application will be evaluated on the following factors:</strong></p> <ul>  <li><strong>Completeness:&nbsp;&nbsp;</strong>Did the applicant submit all of the materials requested, including but not limited to requirements in the SSH forms found on U.S. Embassy Praia’s website.</li>  <li><strong>Embassy priorities:&nbsp;</strong>Does the application describe how the project’s goals are related to the Embassy priorities stated in this document?</li>  <li><strong>Sustainability:</strong>&nbsp;Is the project sustainable in the long term?&nbsp;Will the project be able to continue without additional investment?&nbsp;Are the suggested measurements of success adequate?</li>  <li><strong>Need:</strong>&nbsp;Does the project adequately fulfill a stated need within a community?</li>  <li><strong>Budget:</strong>&nbsp;Is the budget complete, and well defined? Is the budget reasonable?</li>  <li><strong>Completion within one year:</strong>&nbsp;Can the project be completed in a single year?</li>  <li><strong>Community support:</strong>&nbsp;Does the project show strong community support?</li>  <li><strong>Impact:</strong>&nbsp;Does the project benefit the broadest numbers of beneficiaries possible?&nbsp;Is there a substantial impact on the affected community?</li>  <li><strong>Contribution and Group Capabilities:</strong>&nbsp;Does the group provide adequate resources and show commitment to the project?&nbsp;Is the group capable of administering the project as designed?</li> </ul> <p><br></p> <p><strong>Required documentation and reporting:</strong></p> <p><br></p> <p><span style=\"color: rgb(51, 51, 51);\">Groups selected for funding will need to submit several required forms, including&nbsp;U.S. Standard Form 424, a grants award document, and any other terms and conditions required by U.S. Embassy Praia. Performance and financial reports will be required throughout the duration of the award.</span></p> <p><br></p> <p><strong style=\"color: rgb(51, 51, 51);\">Publicity campaign:</strong></p> <p><br></p> <p><span style=\"color: rgb(51, 51, 51);\">It is expected that publicity will be given to the Ambassador’s Special Self-Help program and its projects, including press and radio releases, photographs, and project site plaques that acknowledge the shared efforts of Cabo Verde and the United States. Publicity costs should be considered in the proposed budget.</span></p> <p><br></p> <p><strong style=\"color: rgb(51, 51, 51);\">Funding:</strong></p> <p><br></p> <p><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia is not required to fund any applications. Submitting an application does not guarantee selection.</span></p> <p><br></p>",
+            "responseDate": "Aug 31, 2021 12:00:00 AM EDT",
+            "responseDateDesc": "Rolling Applications",
+            "fundingDescLinkUrl": "https://cv.usembassy.gov/embassy/praia/grants-program/ambassadors-special-self-help-ssh-program/",
+            "fundingDescLinkDesc": "Embassy Praia's Grant Program",
+            "postingDate": "Mar 19, 2020 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+            "costSharing": false,
+            "awardCeiling": "8000",
+            "awardCeilingFormatted": "8,000",
+            "awardFloor": "3000",
+            "awardFloorFormatted": "3,000",
+            "applicantEligibilityDesc": "An SSH project must be submitted by an organized group that is motivated, has identified a real need, and has already successfully implemented projects in the community.  The project should be feasible and based on the socio-economic context of the local community. All applicants must be registered Non-Profit Organizations (NPOs). We welcome proposals from Community and Non-Governmental Organizations (NGOs) that work directly with communities.  Organizations must be able to demonstrate that they have adequate internal controls and financial systems in place.To be eligible for funding the project must meet the following criteria: The project should help improve basic economic or social conditions at the local community level, and have long-term value.The project should be high-impact, benefiting the greatest number of people possible.Substantial community participation in the activity is required.  Contributions may include labor, materials (bricks, sand, gravel, seeds, etc.), land, buildings, or money that is given to ensure the success of the project. [See the section below on &ldquo;Local Community Involvement&rdquo;].Funding is limited to one project, which must be completed within twelve (12) months or less.Projects must be self-sustaining upon completion.  The U.S. Embassy&rsquo;s support for the project is a one-time-only grant contribution.Projects must be within the community&rsquo;s ability to maintain and operate.  Requests for large-scale agriculture or construction projects, or for expensive equipment are not considered priority projects.Managers of a project should have proof that they are financially responsible and will be able to account for funds sent to them.  Having a bank account, or establishing credit with vendors, are examples of such evidence.The requested amount for implementing activities cannot exceed $8,000.  Project budgets generally range from $4,000 to $8,000. imitations/Exclusions from Eligibility Applicants are only allowed to submit one proposal per organization. If more than one proposal is submitted from an organization, all proposals from that institution will be considered ineligible for funding.The Self Help Program may only pay for items and technical assistance that are absolutely necessary for the completion of the project.  The Self Help Program cannot be used for administrative costs, salaries, costs associated with the project manager, travel to and from the Embassy, or items that are not permanent in nature.  Costs incurred prior to the actual award of a grant will be reimbursed only by pre-approval of the grants officer at the sole discretion of the Embassy.Additionally, the Special Self Help Program does not fund: Requests to buy equipment like vehicles, office equipment, copiers, or stereos.Proposals that have a purely police, military, or cultural emphasis.Religious projects unless they genuinely assist the whole community without regard to religious affiliation.Personal businesses. Scholarships, donations, or honorariums. Payment for pesticides, herbicides, labor, salaries, operating costs, printing material, fuel, or land.To remodel or renovate an existing facility that is in disrepair as a result of neglect or lack of money.Office supplies such as pencils, paper, forms, and folders.Projects that are partially funded by another donor or from the government of Cabo Verde.  Funds cannot be commingled with funds from other donors, international organization, or other U.S. government programs.Projects that focus on refugees or displaced persons.  SSH funds may not be used to buy previously owned equipment, luxury goods, or gambling equipment.Salaries or supervision costs for the supervising organization.  Contingency estimates also do not qualify.In order to be eligible to receive an award, all organizations must have a Data Universal Numbering System (DUNS) number from Dun &amp; Bradstreet, as well as a valid registration on www.SAM.gov.We encourage you to contact us with questions as you develop your proposal, as applications that include ineligible items may be disqualified. Please contact us via email at PRAIAGRANTS@state.gov",
+            "createTimeStamp": "Aug 30, 2021 10:47:27 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "Correcting CFDA number for the SSH program.",
+            "actionType": "U",
+            "actionDate": "Aug 30, 2021 10:50:10 AM EDT",
+            "createdDate": "Mar 19, 2020 01:32:02 PM EDT",
+            "lastUpdatedDate": "Aug 30, 2021 10:47:27 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "responseDateStr": "2021-08-31-00-00-00",
+            "postingDateStr": "2020-03-19-00-00-00",
+            "createTimeStampStr": "2021-08-30-10-47-27"
+          },
+          "cfdas": [
+            {
+              "id": 394274,
+              "opportunityId": 325599,
+              "revision": 5,
+              "cfdaNumber": "19.220",
+              "programTitle": "Ambassadors' Special Self Help Fund"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "cfdas",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 325599,
+            "revision": 4
+          },
+          "opportunityId": 325599,
+          "revision": 4,
+          "opportunityNumber": "AFPRA-20-04",
+          "opportunityTitle": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+          "owningAgencyCode": "DOS-CPV",
+          "publisherUid": "HenriquesSS@state.gov",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Correcting CFDA number for the SSH program.",
+          "synopsis": {
+            "id": {
+              "opportunityId": 325599,
+              "revision": 4
+            },
+            "opportunityId": 325599,
+            "revision": 4,
+            "version": 5,
+            "agencyCode": "DOS-CPV",
+            "agencyAddressDesc": "For inquiries",
+            "agencyDetails": {
+              "code": "CPV",
+              "seed": "DOS-CPV",
+              "agencyName": "U.S. Mission to Cape Verde",
+              "agencyCode": "DOS-CPV",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "00238 9912642",
+            "agencyContactName": "Sonia S Henriques\nGrantor",
+            "agencyContactDesc": "U.S. Embassy Praia Grants",
+            "agencyContactEmail": "PRAIAGRANTS@state.gov",
+            "agencyContactEmailDesc": "For inquiries",
+            "synopsisDesc": "<p><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia welcomes the submission of project applications for funding through the Ambassador’s Special Self Help Program (SSH). If interested, please carefully review the instructions below.</span></p> \n<p><br></p> \n<p><strong>Purpose of Small Grants:&nbsp;</strong></p> \n<p>The SSH is a grass-roots grant assistance program that allows U.S. Ambassadors to support local requests for small community-based development projects.&nbsp;The purpose of the Special Self-Help Program is to support communities through modest grants that will positively impact local communities.&nbsp;The SSH philosophy is to help communities help themselves.</p> \n<p><strong>Projects submitted for SSH must align with one or more U.S. Embassy priorities:&nbsp;</strong></p> \n<p><em>Economic diversification, including small business creation and income generation&nbsp;</em></p> \n<p>Projects must aim to 1) generate sustainable income and employment opportunities in local communities, 2) advance economic diversification and encourage use of local natural resources or income generation, 3) promote a culture of entrepreneurship, and/or 4) improve economic or living conditions of a community.</p> \n<p><em>Women start-ups and women entrepreneurs</em></p> \n<p>Eligible projects assist women who are launching a business or who are overseeing the early stages of business development (between one to two years). Such projects must promote a culture of women-led entrepreneurship and innovation that can be replicated in the community. Projects must also promote profitable businesses that generate revenue and benefit the community.</p> \n<p><em>Social inclusion and creation of opportunities</em></p> \n<p>Projects in this category must assist youth, children, women (particularly female heads of household), and other vulnerable groups to gain access to basic services (for example water, sanitation, and primary/pre-K education). They can also assist the creation of opportunities for vulnerable groups, particularly employment for youth.</p> \n<p><em>Drought response/ resiliency&nbsp;</em></p> \n<p>Eligible projects will increase the capacity of communities to cope with the effects of drought by building resilience and promoting&nbsp;income-generating activities. Activities can include increasing water supply quality, improving water management, diversifying agricultural practices, and providing benefits to the environment.</p> \n<p><br></p> \n<p><strong>Local Community Involvement:&nbsp;</strong></p> \n<p>Local involvement of the organization or group must be at least 10% in cash or in kind of the total project costs.&nbsp;The community contribution of funding may be crucial to make a choice between two viable requestors.&nbsp;In-kind contributions could be:&nbsp;labor (wages of masons and workers), food, accommodation for qualified labor, carts of sand or gravel, bricks for construction, sand, fence, water supply, transportation costs, donations of materials etc.</p> \n<p>Additionally, community leaders must sign the statement of interest.&nbsp;Community leaders include local municipal leaders, religious leaders, tribal or clan leaders, or any governing body that has oversight over where the project will be implemented.&nbsp;At least one community leader must sign the statement of interest, however, multiple signatures are strongly encouraged.&nbsp;Community leaders may also submit letters of support for the project, so long as they specifically mention the project by title.</p> \n<p><br></p> \n<p><strong>Application Procedures:</strong></p> \n<p><br></p> \n<p><strong>Content of Application</strong></p> \n<ol> \n <li>Please complete the SSH form, which can be downloaded&nbsp;<a href=\"https://cv.usembassy.gov/wp-content/uploads/sites/265/SSH_Informacoes-e-Formulario-copy.pdf\" target=\"_blank\" style=\"background-color: transparent; color: rgb(93, 117, 155);\">here</a>.</li> \n <li>Other required documents:</li> \n</ol> \n<ul> \n <li>A list of Committee/Board members with their names, positions, addresses, and phone numbers.</li> \n <li>A list of all people working in the organization (including all staff and volunteers) with names, positions and starting dates.</li> \n <li>A copy of your registration from the Ministry of Finance.</li> \n <li>A copy of your fiscal identification number<strong>&nbsp;</strong></li> \n</ul> \n<p><strong>Submission of Application</strong></p> \n<p>Complete application packages may be submitted to the U.S. Self-Help Coordinator on a rolling basis<strong>.&nbsp;</strong>Applications will be accepted only in electronic format. Email all required information to&nbsp;<strong>PRAIAGRANTS</strong><strong style=\"background-color: transparent; color: rgb(93, 117, 155);\">@state.gov</strong><strong>&nbsp;</strong></p> \n<p><strong>Application Deadline</strong></p> \n<p>Applications received after&nbsp;<strong>August 2022</strong>&nbsp;will be considered with the next application period. Projects that are time sensitive may not be considered. All projects submitted for funding after August 2020 will be dependent of availability of funds.</p> \n<p>Project selections will be announced&nbsp;<strong><u>by October 2022</u>.</strong></p> \n<p><br></p> \n<p><strong>Evaluation Criteria:</strong></p> \n<p><br></p> \n<p><strong>This application will be evaluated on the following factors:</strong></p> \n<ul> \n <li><strong>Completeness:&nbsp;&nbsp;</strong>Did the applicant submit all of the materials requested, including but not limited to requirements in the SSH forms found on U.S. Embassy Praia’s website.</li> \n <li><strong>Embassy priorities:&nbsp;</strong>Does the application describe how the project’s goals are related to the Embassy priorities stated in this document?</li> \n <li><strong>Sustainability:</strong>&nbsp;Is the project sustainable in the long term?&nbsp;Will the project be able to continue without additional investment?&nbsp;Are the suggested measurements of success adequate?</li> \n <li><strong>Need:</strong>&nbsp;Does the project adequately fulfill a stated need within a community?</li> \n <li><strong>Budget:</strong>&nbsp;Is the budget complete, and well defined? Is the budget reasonable?</li> \n <li><strong>Completion within one year:</strong>&nbsp;Can the project be completed in a single year?</li> \n <li><strong>Community support:</strong>&nbsp;Does the project show strong community support?</li> \n <li><strong>Impact:</strong>&nbsp;Does the project benefit the broadest numbers of beneficiaries possible?&nbsp;Is there a substantial impact on the affected community?</li> \n <li><strong>Contribution and Group Capabilities:</strong>&nbsp;Does the group provide adequate resources and show commitment to the project?&nbsp;Is the group capable of administering the project as designed?</li> \n</ul> \n<p><br></p> \n<p><strong>Required documentation and reporting:</strong></p> \n<p><br></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Groups selected for funding will need to submit several required forms, including&nbsp;U.S. Standard Form 424, a grants award document, and any other terms and conditions required by U.S. Embassy Praia. Performance and financial reports will be required throughout the duration of the award.</span></p> \n<p><br></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Publicity campaign:</strong></p> \n<p><br></p> \n<p><span style=\"color: rgb(51, 51, 51);\">It is expected that publicity will be given to the Ambassador’s Special Self-Help program and its projects, including press and radio releases, photographs, and project site plaques that acknowledge the shared efforts of Cabo Verde and the United States. Publicity costs should be considered in the proposed budget.</span></p> \n<p><br></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Funding:</strong></p> \n<p><br></p> \n<p><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia is not required to fund any applications. Submitting an application does not guarantee selection.</span></p> \n<p><br></p>",
+            "responseDate": "Aug 31, 2022 12:00:00 AM EDT",
+            "responseDateDesc": "Rolling Applications",
+            "fundingDescLinkUrl": "https://cv.usembassy.gov/embassy/praia/grants-program/ambassadors-special-self-help-ssh-program/",
+            "fundingDescLinkDesc": "Embassy Praia's Grant Program",
+            "postingDate": "Mar 19, 2020 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+            "costSharing": false,
+            "numberOfAwards": "6",
+            "awardCeiling": "8000",
+            "awardCeilingFormatted": "8,000",
+            "awardFloor": "3000",
+            "awardFloorFormatted": "3,000",
+            "applicantEligibilityDesc": "An SSH project must be submitted by an organized group that is motivated, has identified a real need, and has already successfully implemented projects in the community.  The project should be feasible and based on the socio-economic context of the local community. All applicants must be registered Non-Profit Organizations (NPOs). We welcome proposals from Community and Non-Governmental Organizations (NGOs) that work directly with communities.  Organizations must be able to demonstrate that they have adequate internal controls and financial systems in place.To be eligible for funding the project must meet the following criteria: The project should help improve basic economic or social conditions at the local community level, and have long-term value.The project should be high-impact, benefiting the greatest number of people possible.Substantial community participation in the activity is required.  Contributions may include labor, materials (bricks, sand, gravel, seeds, etc.), land, buildings, or money that is given to ensure the success of the project. [See the section below on &ldquo;Local Community Involvement&rdquo;].Funding is limited to one project, which must be completed within twelve (12) months or less.Projects must be self-sustaining upon completion.  The U.S. Embassy&rsquo;s support for the project is a one-time-only grant contribution.Projects must be within the community&rsquo;s ability to maintain and operate.  Requests for large-scale agriculture or construction projects, or for expensive equipment are not considered priority projects.Managers of a project should have proof that they are financially responsible and will be able to account for funds sent to them.  Having a bank account, or establishing credit with vendors, are examples of such evidence.The requested amount for implementing activities cannot exceed $8,000.  Project budgets generally range from $4,000 to $8,000. imitations/Exclusions from Eligibility Applicants are only allowed to submit one proposal per organization. If more than one proposal is submitted from an organization, all proposals from that institution will be considered ineligible for funding.The Self Help Program may only pay for items and technical assistance that are absolutely necessary for the completion of the project.  The Self Help Program cannot be used for administrative costs, salaries, costs associated with the project manager, travel to and from the Embassy, or items that are not permanent in nature.  Costs incurred prior to the actual award of a grant will be reimbursed only by pre-approval of the grants officer at the sole discretion of the Embassy.Additionally, the Special Self Help Program does not fund: Requests to buy equipment like vehicles, office equipment, copiers, or stereos.Proposals that have a purely police, military, or cultural emphasis.Religious projects unless they genuinely assist the whole community without regard to religious affiliation.Personal businesses. Scholarships, donations, or honorariums. Payment for pesticides, herbicides, labor, salaries, operating costs, printing material, fuel, or land.To remodel or renovate an existing facility that is in disrepair as a result of neglect or lack of money.Office supplies such as pencils, paper, forms, and folders.Projects that are partially funded by another donor or from the government of Cabo Verde.  Funds cannot be commingled with funds from other donors, international organization, or other U.S. government programs.Projects that focus on refugees or displaced persons.  SSH funds may not be used to buy previously owned equipment, luxury goods, or gambling equipment.Salaries or supervision costs for the supervising organization.  Contingency estimates also do not qualify.In order to be eligible to receive an award, all organizations must have a Data Universal Numbering System (DUNS) number from Dun &amp; Bradstreet, as well as a valid registration on www.SAM.gov.We encourage you to contact us with questions as you develop your proposal, as applications that include ineligible items may be disqualified. Please contact us via email at PRAIAGRANTS@state.gov",
+            "createTimeStamp": "Aug 30, 2021 11:07:40 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "Changing dates to cover the 2021/ 2022 cycle.",
+            "actionType": "U",
+            "actionDate": "Oct 04, 2022 09:14:30 AM EDT",
+            "createdDate": "Mar 19, 2020 01:32:02 PM EDT",
+            "lastUpdatedDate": "Aug 30, 2021 10:50:10 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "responseDateStr": "2022-08-31-00-00-00",
+            "postingDateStr": "2020-03-19-00-00-00",
+            "createTimeStampStr": "2021-08-30-11-07-40"
+          },
+          "cfdas": [
+            {
+              "id": 394274,
+              "opportunityId": 325599,
+              "revision": 5,
+              "cfdaNumber": "19.220",
+              "programTitle": "Ambassadors' Special Self Help Fund"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "responseDate",
+            "numberOfAwards"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 325599,
+            "revision": 5
+          },
+          "opportunityId": 325599,
+          "revision": 5,
+          "opportunityNumber": "AFPRA-20-04",
+          "opportunityTitle": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+          "owningAgencyCode": "DOS-CPV",
+          "publisherUid": "HenriquesSS@state.gov",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Correcting CFDA number for the SSH program.",
+          "synopsis": {
+            "id": {
+              "opportunityId": 325599,
+              "revision": 5
+            },
+            "opportunityId": 325599,
+            "revision": 5,
+            "version": 6,
+            "agencyCode": "DOS-CPV",
+            "agencyAddressDesc": "For inquiries",
+            "agencyDetails": {
+              "code": "CPV",
+              "seed": "DOS-CPV",
+              "agencyName": "U.S. Mission to Cape Verde",
+              "agencyCode": "DOS-CPV",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "00238 9912642",
+            "agencyContactName": "Sonia S Henriques\nGrantor",
+            "agencyContactDesc": "U.S. Embassy Praia Grants",
+            "agencyContactEmail": "PRAIAGRANTS@state.gov",
+            "agencyContactEmailDesc": "For inquiries",
+            "synopsisDesc": "<p><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia welcomes the submission of project applications for funding through the Ambassador’s Special Self Help Program (SSH). If interested, please carefully review the instructions below.</span></p> \n<p><br></p> \n<p><strong>Purpose of Small Grants:&nbsp;</strong></p> \n<p>The SSH is a grass-roots grant assistance program that allows U.S. Ambassadors to support local requests for small community-based development projects.&nbsp;The purpose of the Special Self-Help Program is to support communities through modest grants that will positively impact local communities.&nbsp;The SSH philosophy is to help communities help themselves.</p> \n<p><strong>Projects submitted for SSH must align with one or more U.S. Embassy priorities:&nbsp;</strong></p> \n<p><em>Economic diversification, including small business creation and income generation&nbsp;</em></p> \n<p>Projects must aim to 1) generate sustainable income and employment opportunities in local communities, 2) advance economic diversification and encourage use of local natural resources or income generation, 3) promote a culture of entrepreneurship, and/or 4) improve economic or living conditions of a community.</p> \n<p><em>Women start-ups and women entrepreneurs</em></p> \n<p>Eligible projects assist women who are launching a business or who are overseeing the early stages of business development (between one to two years). Such projects must promote a culture of women-led entrepreneurship and innovation that can be replicated in the community. Projects must also promote profitable businesses that generate revenue and benefit the community.</p> \n<p><em>Social inclusion and creation of opportunities</em></p> \n<p>Projects in this category must assist youth, children, women (particularly female heads of household), and other vulnerable groups to gain access to basic services (for example water, sanitation, and primary/pre-K education). They can also assist the creation of opportunities for vulnerable groups, particularly employment for youth.</p> \n<p><em>Drought response/ resiliency&nbsp;</em></p> \n<p>Eligible projects will increase the capacity of communities to cope with the effects of drought by building resilience and promoting&nbsp;income-generating activities. Activities can include increasing water supply quality, improving water management, diversifying agricultural practices, and providing benefits to the environment.</p> \n<p><br></p> \n<p><strong>Local Community Involvement:&nbsp;</strong></p> \n<p>Local involvement of the organization or group must be at least 10% in cash or in kind of the total project costs.&nbsp;The community contribution of funding may be crucial to make a choice between two viable requestors.&nbsp;In-kind contributions could be:&nbsp;labor (wages of masons and workers), food, accommodation for qualified labor, carts of sand or gravel, bricks for construction, sand, fence, water supply, transportation costs, donations of materials etc.</p> \n<p>Additionally, community leaders must sign the statement of interest.&nbsp;Community leaders include local municipal leaders, religious leaders, tribal or clan leaders, or any governing body that has oversight over where the project will be implemented.&nbsp;At least one community leader must sign the statement of interest, however, multiple signatures are strongly encouraged.&nbsp;Community leaders may also submit letters of support for the project, so long as they specifically mention the project by title.</p> \n<p><br></p> \n<p><strong>Application Procedures:</strong></p> \n<p><br></p> \n<p><strong>Content of Application</strong></p> \n<ol> \n <li>Please complete the SSH form, which can be downloaded&nbsp;<a href=\"https://cv.usembassy.gov/wp-content/uploads/sites/265/SSH_Informacoes-e-Formulario-copy.pdf\" target=\"_blank\" style=\"color: rgb(93, 117, 155); background-color: transparent;\">here</a>.</li> \n <li>Other required documents:</li> \n</ol> \n<ul> \n <li>A list of Committee/Board members with their names, positions, addresses, and phone numbers.</li> \n <li>A list of all people working in the organization (including all staff and volunteers) with names, positions and starting dates.</li> \n <li>A copy of your registration from the Ministry of Finance.</li> \n <li>A copy of your fiscal identification number<strong>&nbsp;</strong></li> \n</ul> \n<p><strong>Submission of Application</strong></p> \n<p>Complete application packages may be submitted to the U.S. Self-Help Coordinator on a rolling basis<strong>.&nbsp;</strong>Applications will be accepted only in electronic format. Email all required information to&nbsp;<strong>PRAIAGRANTS</strong><strong style=\"color: rgb(93, 117, 155); background-color: transparent;\">@state.gov</strong><strong>&nbsp;</strong></p> \n<p><strong>Application Deadline</strong></p> \n<p>Applications received after&nbsp;<strong>August </strong>will be considered with the next application period. Projects that are time sensitive may not be considered. All projects submitted for funding after August will be dependent of availability of funds.</p> \n<p>Project selections will be announced&nbsp;<strong><u>by October</u>.</strong></p> \n<p><br></p> \n<p><strong>Evaluation Criteria:</strong></p> \n<p><br></p> \n<p><strong>This application will be evaluated on the following factors:</strong></p> \n<ul> \n <li><strong>Completeness:&nbsp;&nbsp;</strong>Did the applicant submit all of the materials requested, including but not limited to requirements in the SSH forms found on U.S. Embassy Praia’s website.</li> \n <li><strong>Embassy priorities:&nbsp;</strong>Does the application describe how the project’s goals are related to the Embassy priorities stated in this document?</li> \n <li><strong>Sustainability:</strong>&nbsp;Is the project sustainable in the long term?&nbsp;Will the project be able to continue without additional investment?&nbsp;Are the suggested measurements of success adequate?</li> \n <li><strong>Need:</strong>&nbsp;Does the project adequately fulfill a stated need within a community?</li> \n <li><strong>Budget:</strong>&nbsp;Is the budget complete, and well defined? Is the budget reasonable?</li> \n <li><strong>Completion within one year:</strong>&nbsp;Can the project be completed in a single year?</li> \n <li><strong>Community support:</strong>&nbsp;Does the project show strong community support?</li> \n <li><strong>Impact:</strong>&nbsp;Does the project benefit the broadest numbers of beneficiaries possible?&nbsp;Is there a substantial impact on the affected community?</li> \n <li><strong>Contribution and Group Capabilities:</strong>&nbsp;Does the group provide adequate resources and show commitment to the project?&nbsp;Is the group capable of administering the project as designed?</li> \n</ul> \n<p><br></p> \n<p><strong>Required documentation and reporting:</strong></p> \n<p><br></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Groups selected for funding will need to submit several required forms, including&nbsp;U.S. Standard Form 424, a grants award document, and any other terms and conditions required by U.S. Embassy Praia. Performance and financial reports will be required throughout the duration of the award.</span></p> \n<p><br></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Publicity campaign:</strong></p> \n<p><br></p> \n<p><span style=\"color: rgb(51, 51, 51);\">It is expected that publicity will be given to the Ambassador’s Special Self-Help program and its projects, including press and radio releases, photographs, and project site plaques that acknowledge the shared efforts of Cabo Verde and the United States. Publicity costs should be considered in the proposed budget.</span></p> \n<p><br></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Funding:</strong></p> \n<p><br></p> \n<p><span style=\"color: rgb(51, 51, 51);\">U.S. Embassy Praia is not required to fund any applications. Submitting an application does not guarantee selection.</span></p> \n<p><br></p>",
+            "responseDateDesc": "Rolling Applications",
+            "fundingDescLinkUrl": "https://cv.usembassy.gov/embassy/praia/grants-program/ambassadors-special-self-help-ssh-program/",
+            "fundingDescLinkDesc": "Embassy Praia's Grant Program",
+            "postingDate": "Mar 19, 2020 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+            "costSharing": false,
+            "numberOfAwards": "6",
+            "awardCeiling": "8000",
+            "awardCeilingFormatted": "8,000",
+            "awardFloor": "3000",
+            "awardFloorFormatted": "3,000",
+            "applicantEligibilityDesc": "An SSH project must be submitted by an organized group that is motivated, has identified a real need, and has already successfully implemented projects in the community.  The project should be feasible and based on the socio-economic context of the local community. All applicants must be registered Non-Profit Organizations (NPOs). We welcome proposals from Community and Non-Governmental Organizations (NGOs) that work directly with communities.  Organizations must be able to demonstrate that they have adequate internal controls and financial systems in place.To be eligible for funding the project must meet the following criteria: The project should help improve basic economic or social conditions at the local community level, and have long-term value.The project should be high-impact, benefiting the greatest number of people possible.Substantial community participation in the activity is required.  Contributions may include labor, materials (bricks, sand, gravel, seeds, etc.), land, buildings, or money that is given to ensure the success of the project. [See the section below on &ldquo;Local Community Involvement&rdquo;].Funding is limited to one project, which must be completed within twelve (12) months or less.Projects must be self-sustaining upon completion.  The U.S. Embassy&rsquo;s support for the project is a one-time-only grant contribution.Projects must be within the community&rsquo;s ability to maintain and operate.  Requests for large-scale agriculture or construction projects, or for expensive equipment are not considered priority projects.Managers of a project should have proof that they are financially responsible and will be able to account for funds sent to them.  Having a bank account, or establishing credit with vendors, are examples of such evidence.The requested amount for implementing activities cannot exceed $8,000.  Project budgets generally range from $4,000 to $8,000. imitations/Exclusions from Eligibility Applicants are only allowed to submit one proposal per organization. If more than one proposal is submitted from an organization, all proposals from that institution will be considered ineligible for funding.The Self Help Program may only pay for items and technical assistance that are absolutely necessary for the completion of the project.  The Self Help Program cannot be used for administrative costs, salaries, costs associated with the project manager, travel to and from the Embassy, or items that are not permanent in nature.  Costs incurred prior to the actual award of a grant will be reimbursed only by pre-approval of the grants officer at the sole discretion of the Embassy.Additionally, the Special Self Help Program does not fund: Requests to buy equipment like vehicles, office equipment, copiers, or stereos.Proposals that have a purely police, military, or cultural emphasis.Religious projects unless they genuinely assist the whole community without regard to religious affiliation.Personal businesses. Scholarships, donations, or honorariums. Payment for pesticides, herbicides, labor, salaries, operating costs, printing material, fuel, or land.To remodel or renovate an existing facility that is in disrepair as a result of neglect or lack of money.Office supplies such as pencils, paper, forms, and folders.Projects that are partially funded by another donor or from the government of Cabo Verde.  Funds cannot be commingled with funds from other donors, international organization, or other U.S. government programs.Projects that focus on refugees or displaced persons.  SSH funds may not be used to buy previously owned equipment, luxury goods, or gambling equipment.Salaries or supervision costs for the supervising organization.  Contingency estimates also do not qualify.In order to be eligible to receive an award, all organizations must have a Data Universal Numbering System (DUNS) number from Dun &amp; Bradstreet, as well as a valid registration on www.SAM.gov.We encourage you to contact us with questions as you develop your proposal, as applications that include ineligible items may be disqualified. Please contact us via email at PRAIAGRANTS@state.gov",
+            "createTimeStamp": "Oct 04, 2022 09:14:30 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "Deleting references to closing date.  Applications are received on a rolling basis.",
+            "actionType": "U",
+            "actionDate": "Oct 27, 2022 07:17:39 AM EDT",
+            "createdDate": "Mar 19, 2020 01:32:02 PM EDT",
+            "lastUpdatedDate": "Oct 04, 2022 09:14:30 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "postingDateStr": "2020-03-19-00-00-00",
+            "createTimeStampStr": "2022-10-04-09-14-30"
+          },
+          "cfdas": [
+            {
+              "id": 394274,
+              "opportunityId": 325599,
+              "revision": 5,
+              "cfdaNumber": "19.220",
+              "programTitle": "Ambassadors' Special Self Help Fund"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [
+        {
+          "id": 268725,
+          "topportunityId": 325599,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "AFPRA-20-04",
+          "opportunityTitle": "U.S. Embassy Praia Ambassador’s Special Self-Help (SSH) Program",
+          "cfdaNumber": "19.220",
+          "closingDate": "Aug 31, 2022 12:00:00 AM EDT",
+          "owningAgencyCode": "DOS-CPV",
+          "programTitle": "Ambassadors' Special Self Help Fund",
+          "contactInfo": "U.S. Embassy Praia\r\nE-mail: praiagrants@state.gov",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 6,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 21, 2022 10:35:55 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00268725",
+          "closingDateStr": "2022-08-31-00-00-00"
+        }
+      ],
+      "originalDueDate": "Aug 31, 2020 12:00:00 AM EDT",
+      "originalDueDateDesc": "Rolling Applications",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc",
+        "awardCeiling",
+        "applicantEligibilityDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 6,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

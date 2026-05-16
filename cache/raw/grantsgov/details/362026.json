@@ -1,0 +1,220 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362026",
+  "fetched_at": "2026-05-16T14:09:39.424Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImIwMUlKKyszcS80QzdodC9sc0VlTGJkdFZ2OVV0cS9ZVHBGQ3hONFF4Y009Ig.af_OFKaAqUegFIbVGL2SblwbAO1QHFCkhBM79cagmOI",
+    "data": {
+      "id": 362026,
+      "revision": 0,
+      "opportunityNumber": "USDA-NRCS–NHQ-VPA-26-NOFO001448",
+      "opportunityTitle": "Voluntary Public Access and Habitat Incentive Program competition for Federal fiscal year (FY) 2026",
+      "owningAgencyCode": "USDA-NRCS",
+      "listed": "L",
+      "publisherUid": "RicoSuave",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362026,
+        "version": 2,
+        "agencyCode": "USDA-NRCS",
+        "agencyName": "Jose Berna\nGrants Specialist",
+        "agencyPhone": "202-572-5814",
+        "agencyAddressDesc": "If you have any questions related to preparing application content",
+        "agencyDetails": {
+          "code": "NRCS",
+          "seed": "USDA-NRCS",
+          "agencyName": "Natural Resources Conservation Service",
+          "agencyCode": "USDA-NRCS",
+          "topAgencyCode": "USDA"
+        },
+        "topAgencyDetails": {
+          "code": "USDA",
+          "seed": "USDA",
+          "agencyName": "Department of Agriculture",
+          "agencyCode": "USDA",
+          "topAgencyCode": "USDA"
+        },
+        "agencyContactPhone": "202-572-5814",
+        "agencyContactName": "Jose Berna\nGrants Specialist",
+        "agencyContactDesc": "Tessa Garcia\r\nGrants Specialist",
+        "agencyContactEmail": "Tessa.Garcia@usda.gov",
+        "agencyContactEmailDesc": "If you have any questions related to preparing application content",
+        "synopsisDesc": "<p>NRCS is announcing the availability of up to $52 million in Voluntary Public Access-Habitat Incentive Program (VPA-HIP) funding through One Big Beautiful Bill Act (OBBBA), Public Law 119-21 to create or enhance state and Tribal government programs that encourage owners and operators of privately held farm, ranch, and forest land to voluntarily make that land available for access by the public for hunting, fishing, and other wildlife-dependent recreation. VPA-HIP is a competitive grant program and only state and tribal governments may apply. Projects may be up to 3 years in duration. The maximum amount for a single award is $3 million. Up to 25% of the funding for each award may be used to provide incentives to improve wildlife habitat on enrolled public access program lands. For new users of Grants.gov, see Section D of this Notice of Funding Opportunity (NOFO) for information about steps required before submitting an application through Grants.gov.</p><p><br></p><p>Application deadline: Submit via Grants.gov by 11:59 pm Eastern Time on June 8, 2026.</p>",
+        "responseDate": "Jun 08, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Applications must be received by 11:59 pmEastern Time.",
+        "fundingDescLinkDesc": "See Related Documents Tab",
+        "postingDate": "Apr 24, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 08, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "30",
+        "estimatedFunding": "52000000",
+        "estimatedFundingFormatted": "52,000,000",
+        "awardCeiling": "3000000",
+        "awardCeilingFormatted": "3,000,000",
+        "awardFloor": "100000",
+        "awardFloorFormatted": "100,000",
+        "applicantEligibilityDesc": "State government",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 15, 2026 02:17:33 PM EDT",
+        "createdDate": "Apr 22, 2026 03:45:47 PM EDT",
+        "lastUpdatedDate": "Apr 23, 2026 09:59:04 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "AG",
+            "description": "Agriculture"
+          }
+        ],
+        "responseDateStr": "2026-06-08-00-00-00",
+        "postingDateStr": "2026-04-24-00-00-00",
+        "archiveDateStr": "2026-07-08-00-00-00",
+        "createTimeStampStr": "2026-05-15-14-17-33"
+      },
+      "agencyDetails": {
+        "code": "NRCS",
+        "seed": "USDA-NRCS",
+        "agencyName": "Natural Resources Conservation Service",
+        "agencyCode": "USDA-NRCS",
+        "topAgencyCode": "USDA"
+      },
+      "topAgencyDetails": {
+        "code": "USDA",
+        "seed": "USDA",
+        "agencyName": "Department of Agriculture",
+        "agencyCode": "USDA",
+        "topAgencyCode": "USDA"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79371,
+          "opportunityId": 362026,
+          "folderType": "Full Announcement",
+          "folderName": "USDA-NRCS–NHQ-VPA-26NOFO001448",
+          "zipLobSize": 291033,
+          "createdDate": "Apr 23, 2026 09:45:06 AM EDT",
+          "lastUpdatedDate": "May 15, 2026 02:17:04 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351444,
+              "opportunityId": 362026,
+              "mimeType": "application/pdf",
+              "fileName": "USDA-NRCS-NHQ-VPA-26-NOFO0001448-MOD 2.pdf",
+              "fileDescription": "Voluntary Public Access-Habitat Incentive Program (VPA-HIP)",
+              "fileLobSize": 304829,
+              "createdDate": "Apr 23, 2026 09:46:31 AM EDT",
+              "lastUpdatedDate": "May 15, 2026 02:17:04 PM EDT",
+              "synopsisAttFolderId": 79371
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [
+        {
+          "id": {
+            "opportunityId": 362026,
+            "attType": "D",
+            "createdDate": "May 15, 2026 02:17:33 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "May 15, 2026"
+          },
+          "changeComments": "Update to A.6. Key dates, webinar link. "
+        },
+        {
+          "id": {
+            "opportunityId": 362026,
+            "attType": "D",
+            "createdDate": "May 11, 2026 03:08:34 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "May 11, 2026"
+          },
+          "changeComments": "Modifications to Key Dates: pages 2 and 3"
+        }
+      ],
+      "cfdas": [
+        {
+          "id": 432855,
+          "opportunityId": 362026,
+          "cfdaNumber": "10.093",
+          "programTitle": "Voluntary Public Access and Habitat Incentive Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292518,
+          "topportunityId": 362026,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "USDA-NRCS–NHQ-VPA-26-NOFO001448",
+          "opportunityTitle": "Voluntary Public Access and Habitat Incentive Program competition for Federal fiscal year (FY) 2026",
+          "cfdaNumber": "10.093",
+          "openingDate": "2026-04-24",
+          "closingDate": "2026-06-08",
+          "owningAgencyCode": "USDA-NRCS",
+          "agencyDetails": {
+            "code": "NRCS",
+            "seed": "USDA-NRCS",
+            "agencyName": "Natural Resources Conservation Service",
+            "agencyCode": "USDA-NRCS",
+            "topAgencyCode": "USDA"
+          },
+          "topAgencyDetails": {
+            "code": "USDA",
+            "seed": "USDA",
+            "agencyName": "Department of Agriculture",
+            "agencyCode": "USDA",
+            "topAgencyCode": "USDA"
+          },
+          "programTitle": "Voluntary Public Access and Habitat Incentive Program",
+          "contactInfo": "Tessa Garcia\r\nGrants Specialist\r\nE-mail: Tessa.Garcia@usda.gov",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 25,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 28, 2026 10:32:32 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292518",
+          "openingDateStr": "2026-04-24-00-00-00",
+          "closingDateStr": "2026-06-08-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 08, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Applications must be received by 11:59 pmEastern Time.",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

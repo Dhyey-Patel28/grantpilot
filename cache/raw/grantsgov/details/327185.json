@@ -1,0 +1,127 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "327185",
+  "fetched_at": "2026-05-16T14:06:23.541Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InltWWc2bTVYak1CQzRrWlVBNGxkdG9mVlNtYzNROG1ibjg4V0NFYmtjZUk9Ig.QctLynHVll7eKyXKVbN3Fip1nV9C1EuTgaSyXvWfSSk",
+    "data": {
+      "id": 327185,
+      "revision": 0,
+      "opportunityNumber": "DOS-USEU-PD-2020-002",
+      "opportunityTitle": "Public Diplomacy Small Grants Program",
+      "owningAgencyCode": "DOS-USEU",
+      "listed": "L",
+      "publisherUid": "JenningsAJ",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "USEU",
+        "seed": "DOS-USEU",
+        "agencyName": "U.S. Mission to the European Union",
+        "agencyCode": "DOS-USEU",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "forecast": {
+        "opportunityId": 327185,
+        "version": 1,
+        "postingDate": "May 20, 2020 12:00:00 AM EDT",
+        "forecastDesc": "<p><strong style=\"color: rgb(51, 51, 51);\">Notice of Funding Opportunity</strong></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">U.S. Mission to the European Union</strong></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Funding Opportunity Title:</strong><span style=\"color: rgb(51, 51, 51);\">&nbsp;Public Diplomacy Small Grants Program</span></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Funding Opportunity Number:</strong><span style=\"color: rgb(51, 51, 51);\">&nbsp;DOS-USEU-PD-2020-002</span></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Deadline for Applications:</strong><span style=\"color: rgb(51, 51, 51);\">&nbsp;July 1, 2020</span></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Total Amount Available:</strong><span style=\"color: rgb(51, 51, 51);\">&nbsp;$200,000.00</span></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">Maximum for Each Award:</strong><span style=\"color: rgb(51, 51, 51);\">&nbsp;$70,000.00</span></p> \n<p><strong style=\"color: rgb(51, 51, 51);\">A. PROGRAM DESCRIPTION</strong></p> \n<p><span style=\"color: rgb(51, 51, 51);\">The U.S. Mission to the European Union, Office of Public Affairs (USEU PA) is pleased to announce that funding is available through its Public Diplomacy Small Grants Program. This is program statement outlines our funding priorities, the strategic themes we focus on, and the procedures for submitting requests for funding. Please carefully follow all instructions below. Purpose of Small Grants:&nbsp;USEU PA invites proposals that strengthen ties between the U.S. and the EU through programming that highlights shared values and promotes greater transatlantic cooperation. All programs must include an American cultural element, or connection with American expert(s), organization(s), or institution(s)&nbsp;in a specific field that will promote increased understanding of U.S. policy and perspectives. Summary –&nbsp;USEU PA is soliciting proposals for projects designed for EU audiences that: Strengthen the transatlantic economic relationship through programs to address malign influence in the trade sphere; increase U.S./EU market access; promote data privacy and shared norms for the digital economy; and promote intellectual property rights; Advance the transatlantic partnership on common foreign policy and security objectives, such as increasing collective defense responsibilities; countering disinformation; balancing our relationships with China; promoting EU enlargement; backing democratic governance in Latin America, Africa, and Eastern Partnership countries; and aligning our policies on the Middle East; Enhance European energy security and promote sustainable development;</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\"> Increase public understanding of transatlantic shared value. USEU PA seeks projects engaging EU policymakers, opinion shapers, and publics. Proposals may include but are not limited to:&nbsp;conferences, workshops, and training seminars featuring U.S. Government (USG) officials or non-USG individuals (please note that travel costs for USG officials cannot be covered by the grant).&nbsp;USEU PA encourages new and creative approaches that utilize digital technology, social media, and other innovative means. Applicants must be legally recognized non-profit, non-governmental organizations (NGOs), think tanks, or academic institutions that comply with U.S. and EU requirements and have a proven track record of developing and implementing programs in the EU environment. Projects should be carried out in Brussels and in EU Member States and may include a U.S. component. This notice of funding opportunity is subject to funds availability. B: FEDERAL AWARD INFORMATION&nbsp;</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Application Opening Date:&nbsp;&nbsp;May 19, 2020</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Application End Date:&nbsp;July 1, 2020 (11:59 p.m.) European Central Time (Brussels time, UTC +1)</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\"> Estimated Total Program Funding:&nbsp;&nbsp;$200,000</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Minimum Award Amount:&nbsp;$10,000</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Maximum Award Amount: $70,000</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Contact:&nbsp;Questions and proposals should be addressed to useupa@state.gov.</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\">Notification:&nbsp;&nbsp;Applicants will be notified of the Funding Decision by September 6, 2020. C: ELIGIBILITY CRITERIA Applicants must be legally recognized non-profit, non-governmental organizations (NGOs), think tanks, or academic institutions that comply with U.S. and EU requirements. EU-based applicants must be listed in the&nbsp;</span><a href=\"https://ec.europa.eu/transparencyregister/public/ri/registering.do?locale=en\" target=\"_blank\" style=\"color: rgb(51, 51, 51);\">EU Transparency Register</a><span style=\"color: rgb(51, 51, 51);\">. Cost sharing or matching is not required for this funding opportunity, but it is encouraged. Any cost sharing must be clearly laid out in the proposal and budget estimate. All applicants must have a Data Universal Number System (DUNS) number from Dun and Bradstreet and an active SAM registration before award is granted. D. APPLICATION AND SUBMISSION INFORMATION Applicants must submit a detailed proposal in English and a budget estimate electronically to useupa@state.gov by July 1, 2020, 11:59 p.m. European Central Time (Brussels time, UTC +1 hour).&nbsp;Late or incomplete applications will not be considered for this competition. Costs incurred before the official grant period begins will not be reimbursed. To Request Application Package:</span></p> \n<p>Required application forms are available on www.grants.gov or by request to useupa@state.gov<span style=\"color: rgb(51, 51, 51);\"> Content and Form of Application Submission:</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\"> Please follow all instructions below carefully. Proposals that do not meet the requirements of this announcement or fail to comply with the stated requirements will be ineligible for consideration. Content of Application</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\"> Please ensure: The proposal clearly addresses the goals and objectives of this funding opportunity All documents are in English. All budgets are in U.S. dollars. All pages are numbered. All documents are formatted to 8 ½ x 11 paper, and All Microsoft Word documents are single-spaced, 12 point Times New Roman font, with a minimum of 1-inch margins. The following documents are required: Mandatory application forms:&nbsp;SF-424 (Application for Federal Assistance – organizations)&nbsp;</span><a href=\"https://apply07.grants.gov/apply/forms/sample/SF424_2_1-V2.1.pdf\" target=\"_blank\" style=\"color: rgb(51, 51, 51);\">https://apply07.grants.gov/apply/forms/sample/SF424_2_1-V2.1.pdf</a><span style=\"color: rgb(51, 51, 51);\"> SF424A (Budget Information for Non-Construction programs) Summary Coversheet: A cover sheet stating the applicant name and organization, proposal date, program title, program period proposed start and end date, and a brief description of the program’s purpose. Proposal (6 pages maximum): The proposal should contain sufficient information that anyone not familiar with it would understand exactly what the applicant wants to do. You may use your own proposal format, but it must include all the items below.&nbsp;Proposal Summary:&nbsp;Short narrative that outlines the proposed program, including program objectives and anticipated impact. Introduction to the Organization applying:&nbsp;A description of past and present operations, showing ability to carry out the program, including information on all previous grants from the U.S. Embassy and/or U.S. government agencies. Problem Statement:&nbsp;Clear, concise and well-supported statement of the problem to be addressed and why the proposed program is needed. Program Goals and Objectives:&nbsp;The “goals” describe what the program is intended to achieve. What aspect of the relationship between the U.S. and XXX will be improved? The “objectives” refer to the intermediate accomplishments on the way to the goals. These should be achievable and measurable. Program Activities:&nbsp;Describe the program activities and how they will help achieve the objectives. Program Methods and Design:&nbsp;A description of how the program is expected to work to solve the stated problem and achieve the goal. Proposed Program Schedule:&nbsp;The proposed timeline for the program activities. Include the dates, times, and locations of planned activities and events. Program Partners:&nbsp;List the names and type of involvement of key partner organizations and sub-awardees. Program Monitoring and Evaluation Plan:&nbsp;This is an important part of successful grants. Throughout the time-frame of the grant, how will the activities be monitored to ensure they are happening in a timely manner, and how will the program be evaluated to make sure it is meeting the goals of the grant? Future Funding or Sustainability:&nbsp;Applicant’s plan for continuing the program beyond the grant period, or the availability of other resources, if applicable. Budget Justification Narrative: After filling out the SF-424A Budget (above), use a separate sheet of paper to describe each of the budget expenses in detail. See section H. Other Information: Guidelines for Budget Submissions below for further information. Required Registrations:</span></p> \n<p>All organizations applying for grants must obtain these registrations. All are free of charge: Unique Identifier Number from Dun &amp; Bradstreet (DUNS number) NCAGE/CAGE code, SAM.gov registration, EU Transparency registration confirmation&nbsp;<a href=\"https://ec.europa.eu/transparencyregister/public/ri/registering.do?locale=en\" target=\"_blank\" style=\"color: rgb(51, 51, 51);\">https://ec.europa.eu/transparencyregister/public/ri/registering.do?locale=en</a><span style=\"color: rgb(51, 51, 51);\">All application materials must be submitted by email to </span>useupa@state.gov</p> \n<p><span style=\"color: rgb(51, 51, 51);\">E. APPLICATION REVIEW INFORMATIONEvaluation Criteria – Applicants should note that the following criteria</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\"> (1) Serve as a standard against which all proposals will be evaluated, and</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\"> (2) Serve to identify the significant matters that should be addressed in all proposals. The USG will award grants to the applicant whose offers represent the best value to the USG on the basis of technical merit, past performance, and cost. Each application will be evaluated by a peer review committee of USEU PA representatives and other experts, as deemed appropriate. The evaluation criteria have been tailored to the requirements of this NOFO. Project Goals/Implementation Plan (45 points):&nbsp;Applicants should describe what they propose to do and how they will do it. The proposed activities must directly relate to meeting the goals and objectives, and applicants should include information on how they will measure activities’ effectiveness and provide milestones to indicate progress toward NOFO-stipulated goals. The review panel will review the implementation plan in terms of how well it addresses the goals and objectives, the feasibility of the proposed activities and their timeline for completion, and the extent to which the impact of the project will continue beyond the conclusion of the funding period. Budget (20 points):&nbsp;Costs shall be evaluated for realism, control practices, and efficiency. USEU PA must determine that the costs paid for this award are reasonable, allowable, and allocable to the proposed project activities. This will consist of a review of the Budget to determine if the overall costs are realistic for the work to be performed, if the costs reflect the applicant’s understanding of the allowable cost principles established by OMB Circular A-122, and if the costs are consistent with the program narrative. Applicants must submit SF 424A – “Budget Information – Non-Construction Program” along with a comprehensive budget for the entire program. There must be a summary budget as well as breakdowns reflecting both administrative and program budgets. Applicants may provide separate sub-budgets for each program phase, location or activity to provide clarification. Organizational Capability (20 points):&nbsp;Proposals should demonstrate the ability to develop and implement programs in the areas covered by the NOFO. Applicants must demonstrate how their resources, capabilities, and experience will enable them to achieve the stated goals and objectives. Monitoring and evaluation plan (15 points):&nbsp;Applicants must demonstrate their ability to measure program success against key indicators and provide milestones to indicate progress toward goals outlined in the proposal. The monitoring and evaluation plan should include output and outcome indicators and show how and when those will be measured. F. FEDERAL AWARD ADMINISTRATION INFORMATION1. Federal Award NoticesThe grant award will be written, signed, awarded, and administered by the Grants Officer. The assistance award agreement is the authorizing document and it will be provided to the recipient for review and signature by email. The recipient may only start incurring program expenses beginning on the start date shown on the grant award document signed by the Grants Officer. If a proposal is selected for funding, the Department of State has no obligation to provide any additional future funding. Renewal of an award to increase funding or extend the period of performance is at the discretion of the Department of State. Issuance of this program statement does not constitute an award commitment on the part of the U.S. government, nor does it commit the U.S. government to pay for costs incurred in the preparation and submission of proposals. Further, the U.S. government reserves the right to reject any or all proposals received. Organizations whose applications will not be funded will also be notified via email. 2. Administrative and National Policy Requirements Terms and Conditions: Before submitting an application, applicants should review all the terms and conditions and required certifications which will apply to this award to ensure that they will be able to comply. These include: 2 CFR 200, 2 CFR 600, Certifications and Assurances, and the Department of State Standard Terms and Conditions, all of which are available at: https://www.state.gov/m/a/ope/index.htm.</span></p> \n<p><span style=\"color: rgb(51, 51, 51);\"> Note the U.S flag branding and marking requirements in the Standard Terms and Conditions. 3. Reporting Reporting Requirements: Recipients will be required to submit financial reports and program reports. The award document will specify how often these reports must be submitted. G. FEDERAL AWARDING AGENCY CONTACTS If you have any questions about the grant application process, please contact USEU PA at: </span>useupa@state.gov<span style=\"color: rgb(51, 51, 51);\"> Note: We do not provide any pre-consultations for application-related questions that are addressed in the NOFO. Once an application has been submitted, State Department officials and staff — both in the Department and at embassies overseas — may not discuss this competition with applicants until the entire proposal review process is completed. H. OTHER INFORMATION Guidelines for Budget Justification Personnel:&nbsp;Describe the wages, salaries, and benefits of temporary or permanent staff who will be working directly for the applicant on the program, and the percentage of their time that will be spent on the program. Travel:&nbsp;Estimate the costs of travel and per diem for this program. If the program involves international travel, include a brief statement of justification for that travel. Equipment:&nbsp;Describe any machinery, furniture, or other personal property that is required for the program, which has a useful life of more than one year (or a life longer than the duration of the program), and costs at least $5,000 per unit. Supplies:&nbsp;List and describe all the items and materials, including any computer devices, that are needed for the program. If an item costs more than $5,000 per unit, then put it in the budget under Equipment. Contractual: Describe goods and services that the applicant plans to acquire through a contract with a vendor. Also describe any sub-awards to non-profit partners that will help carry out the program activities. Other Direct Costs:&nbsp;Describe other costs directly associated with the program, which do not fit in the other categories. For example, shipping costs for materials and equipment or applicable taxes. All “Other” or “Miscellaneous” expenses must be itemized and explained. Indirect Costs:&nbsp;These are costs that cannot be linked directly to the program activities, such as overhead costs needed to help keep the organization operating. If your organization has a Negotiated Indirect Cost Rate (NICRA) and includes NICRA charges in the budget, attach a copy of your latest NICRA. Organizations that have never had a NICRA may request indirect costs of 10% of the modified total direct costs as defined in 2 CFR 200.68. “Cost Sharing” refers to contributions from the organization or other entities other than the U.S. Embassy. It also includes in-kind contributions such as volunteers’ time and donated venues. Alcoholic Beverages: Please note that award funds cannot be used for alcoholic beverages. For more information, please visit www.grants.gov. Funding Opportunity Number: DOS-USEU-PD-2020-002.</span></p>",
+        "fundingActivityCategoryDesc": "Public Diplomacy",
+        "costSharing": false,
+        "numberOfAwards": "25",
+        "estimatedFunding": "200000",
+        "awardCeiling": "70000",
+        "awardFloor": "1000",
+        "fundingDescLinkUrl": "https://useu.usmission.gov/notice-of-funding-opportunity-2020-closing-date-july-1-2020/",
+        "agencyContactName": "Anita Jennings\r\nGrantor",
+        "agencyContactPhone": "32228115552",
+        "agencyContactEmail": "useupa@state.gov",
+        "agencyContactEmailDesc": "office email",
+        "agencyCode": "DOS-USEU",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "Legally recognized non-profit, non-governmental organizations (NGOs), think-tanks, or academic institutions that comply with U.S. and EU requirements.",
+        "estSynopsisPostingDate": "May 20, 2020 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jul 01, 2020 12:00:00 AM EDT",
+        "estAwardDate": "Sep 15, 2020 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 21, 2020 12:00:00 AM EDT",
+        "fiscalYear": 2020,
+        "createTimeStamp": "May 20, 2020 09:22:31 AM EDT",
+        "createdDate": "May 19, 2020 10:09:19 AM EDT",
+        "lastUpdatedDate": "May 20, 2020 09:22:31 AM EDT",
+        "agencyDetails": {
+          "code": "USEU",
+          "seed": "DOS-USEU",
+          "agencyName": "U.S. Mission to the European Union",
+          "agencyCode": "DOS-USEU",
+          "topAgencyCode": "DOS"
+        },
+        "estimatedFundingFormatted": "200,000",
+        "awardCeilingFormatted": "70,000",
+        "awardFloorFormatted": "1,000",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "postingDateStr": "2020-05-20-00-00-00",
+        "estSynopsisPostingDateStr": "2020-05-20-00-00-00",
+        "estApplicationResponseDateStr": "2020-07-01-00-00-00",
+        "estAwardDateStr": "2020-09-15-00-00-00",
+        "estProjectStartDateStr": "2020-09-21-00-00-00",
+        "createTimeStampStr": "2020-05-20-09-22-31"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 381890,
+          "opportunityId": 327185,
+          "cfdaNumber": "19.040",
+          "programTitle": "Public Diplomacy Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

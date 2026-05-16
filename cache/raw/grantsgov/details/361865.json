@@ -1,0 +1,198 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361865",
+  "fetched_at": "2026-05-16T14:09:17.816Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVkeUZTQU1aV1Z6Sjdsbm43NGRLYW12RklMQXRGZDU5dmVIWHkwZVFVZkU9Ig.Is_IZBFqoUPtSxvvvaknqPWmr0cRxATl1WO_G0LyWEM",
+    "data": {
+      "id": 361865,
+      "revision": 0,
+      "opportunityNumber": "ETA-TEGL-08-25",
+      "opportunityTitle": "State Apprenticeship Expansion Formula, Round 4 (SAEF4)",
+      "owningAgencyCode": "DOL-ETA",
+      "listed": "L",
+      "publisherUid": "23373679683863839485835374571932212563",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361865,
+        "version": 1,
+        "agencyCode": "DOL-ETA",
+        "agencyName": "Employment and Training Administration",
+        "agencyPhone": "202-693-2606",
+        "agencyAddressDesc": "SAEF4-TEGL@dol.gov",
+        "agencyDetails": {
+          "code": "ETA",
+          "seed": "DOL-ETA",
+          "agencyName": "Employment and Training Administration",
+          "agencyCode": "DOL-ETA",
+          "topAgencyCode": "DOL"
+        },
+        "topAgencyDetails": {
+          "code": "DOL",
+          "seed": "DOL",
+          "agencyName": "Department of Labor",
+          "agencyCode": "DOL",
+          "topAgencyCode": "DOL"
+        },
+        "agencyContactPhone": "202-693-2606",
+        "agencyContactName": "Employment and Training Administration",
+        "agencyContactDesc": "LaQuisha Barnes\nSAEF4-TEGL@dol.gov",
+        "agencyContactEmail": "SAEF4-TEGL@dol.gov",
+        "agencyContactEmailDesc": "SAEF4-TEGL@dol.gov",
+        "synopsisDesc": "Questions regarding this Training and Employment Guidance Letter (TEGL) may be emailed to SAEF4-TEGL@dol.gov.  We encourage prospective eligible applicants and interested parties to use the Grants.gov subscription option to register for future updates provided for this particular TEGL.",
+        "responseDate": "May 26, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Applications must be submitted electronically no later than 11:59 pm Eastern Time.",
+        "postingDate": "Apr 10, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "53",
+        "estimatedFunding": "85000000",
+        "estimatedFundingFormatted": "85,000,000",
+        "awardCeiling": "8287067",
+        "awardCeilingFormatted": "8,287,067",
+        "awardFloor": "561760",
+        "awardFloorFormatted": "561,760",
+        "applicantEligibilityDesc": "See the Training and Employment Guidance Letter for specific eligibility requirements.",
+        "createTimeStamp": "Apr 10, 2026 04:49:36 PM EDT",
+        "createdDate": "Apr 10, 2026 04:47:18 PM EDT",
+        "lastUpdatedDate": "Apr 10, 2026 04:47:18 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "00",
+            "description": "State governments"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ELT",
+            "description": "Employment, Labor and Training"
+          }
+        ],
+        "responseDateStr": "2026-05-26-00-00-00",
+        "postingDateStr": "2026-04-10-00-00-00",
+        "createTimeStampStr": "2026-04-10-16-49-36"
+      },
+      "agencyDetails": {
+        "code": "ETA",
+        "seed": "DOL-ETA",
+        "agencyName": "Employment and Training Administration",
+        "agencyCode": "DOL-ETA",
+        "topAgencyCode": "DOL"
+      },
+      "topAgencyDetails": {
+        "code": "DOL",
+        "seed": "DOL",
+        "agencyName": "Department of Labor",
+        "agencyCode": "DOL",
+        "topAgencyCode": "DOL"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79243,
+          "opportunityId": 361865,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 638480,
+          "createdDate": "Apr 10, 2026 04:49:35 PM EDT",
+          "lastUpdatedDate": "Apr 10, 2026 04:49:36 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351110,
+              "opportunityId": 361865,
+              "mimeType": "application/pdf",
+              "fileName": "ETA-TEGL-08-25.pdf",
+              "fileDescription": "ETA-TEGL-08-25.pdf",
+              "fileLobSize": 656673,
+              "createdDate": "Apr 10, 2026 04:49:36 PM EDT",
+              "synopsisAttFolderId": 79243
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432656,
+          "opportunityId": 361865,
+          "cfdaNumber": "17.285",
+          "programTitle": "Registered Apprenticeship"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292386,
+          "topportunityId": 361865,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "ETA-TEGL-08-25",
+          "opportunityTitle": "State Apprenticeship Expansion Formula, Round 4 (SAEF4)",
+          "cfdaNumber": "17.285",
+          "openingDate": "2026-04-10",
+          "closingDate": "2026-05-26",
+          "owningAgencyCode": "DOL-ETA",
+          "agencyDetails": {
+            "code": "ETA",
+            "seed": "DOL-ETA",
+            "agencyName": "Employment and Training Administration",
+            "agencyCode": "DOL-ETA",
+            "topAgencyCode": "DOL"
+          },
+          "topAgencyDetails": {
+            "code": "DOL",
+            "seed": "DOL",
+            "agencyName": "Department of Labor",
+            "agencyCode": "DOL",
+            "topAgencyCode": "DOL"
+          },
+          "programTitle": "Registered Apprenticeship",
+          "contactInfo": "LaQuisha Barnes",
+          "gracePeriod": 0,
+          "competitionId": "ETA-TEGL-08-25",
+          "competitionTitle": "State Apprenticeship Expansion Formula, Round 4 (SAEF4)",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 53,
+          "expectedApplicationSize": 50,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 10, 2026 04:56:17 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292386",
+          "openingDateStr": "2026-04-10-00-00-00",
+          "closingDateStr": "2026-05-26-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 26, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Applications must be submitted electronically no later than 11:59 pm Eastern Time.",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

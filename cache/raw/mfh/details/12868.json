@@ -1,0 +1,35 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=12868",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=12868",
+  "website": "https://www.michigan.gov/egle/about/organization/materials-management/energy/rfps-loans/community-energy-management-program",
+  "grant_id": "12868",
+  "title": "Community Energy Management (CEM) Program",
+  "overview": "Goal/purpose: The Community Energy Management (CEM) Program offers financial assistance for communities to improve energy management and accelerate the implementation of energy efficiency and renewable energy for local governments and tribes. This program is part of the EGLE Catalyst Communities Initiative to provide resources to local public officials as they prepare for climate impacts on emergency response and public health, and support climate change priorities through measurable reductions in greenhouse gas emissions.Additional applicant eligibility criteria: Applicants must be physically located in Michigan. Eligible entities include local governments, tribal governments, and other public service entities (such as non-profit organizations that provide a critical service to communities). Public schools, universities, and recreation-based organizations are not eligible. Previous recipients must wait at least one program year after their most recent award before applying again.Project eligibility: Eligible projects must involve or address energy management, energy efficiency, renewable energy, fleet electrification, EV charging infrastructure, sustainable financing solutions, and/or clean energy workforce development. Renewable energy projects will only be considered after all, or a majority of, energy efficiency upgrades have been completed as identified in an ASHRAE Level II audit. Projects requiring an environmental assessment study under NEPA are ineligible unless DOE approval is shown. Renewable energy projects greater than 60 kW DC for solar arrays and/or 1,000 kWh of battery storage are ineligible.Application process: Applicants must submit a complete response to the RFP via the Online Application, addressing the Program Objectives, Program Priorities, and Applicant Tasks. Required attachments include an Approved Budget Form, Detailed Timeline, Applicant Organizational Chart, and recent financial statements or A-133 audit. Applications are accepted on a rolling basis until all funds are allocated or until August 31, 2027. Show More",
+  "additional_info": "Posted Date: April 22, 2026 Application Due Date: August 31, 2026 Estimated Award Date: Not Specified Eligible Applicants: City or township governmentsCounty governmentsSpecial district governmentsNative American tribal governments (Federally recognized)Native American tribal organizations (other than Federally recognized tribal governments)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationOthers Show More",
+  "eligible_applicants": [
+    "City or township governmentsCounty governmentsSpecial district governmentsNative American tribal governments (Federally recognized)Native American tribal organizations (other than Federally recognized tribal governments)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationOthers"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "energy",
+    "environment",
+    "health",
+    "public_safety",
+    "workforce"
+  ],
+  "due_date": "",
+  "agency": "Michigan Department of Environment, Great Lakes, and Energy",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:14.202Z",
+  "content_hash": "83290a2a0a2c534eb471328b5ca91881e69e9aac186e27fff4c59036a646efc5",
+  "from_cache": false
+}

@@ -1,0 +1,157 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361928",
+  "fetched_at": "2026-05-16T14:09:26.203Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlJVWndyVTk1UWk0d3lDYXRJcUR5RC9RMW1QRHVLZ2o5aU93NHRyTjFtZTA9Ig._fRSdthVcABgk-BOYiRqjhDfpL5urriuKJka0t6px6c",
+    "data": {
+      "id": 361928,
+      "revision": 0,
+      "opportunityNumber": "PDS-BUE-2026-04",
+      "opportunityTitle": "U.S.-Argentina Lithium Tech &amp; Transparency Initiative",
+      "owningAgencyCode": "DOS-ARG",
+      "listed": "L",
+      "publisherUid": "PASBuenosAires",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361928,
+        "version": 1,
+        "agencyCode": "DOS-ARG",
+        "agencyName": "Esteban R Carbone\nResource Coordination Specialist",
+        "agencyPhone": "541157774751",
+        "agencyAddressDesc": "Public Diplomacy Section",
+        "agencyDetails": {
+          "code": "ARG",
+          "seed": "DOS-ARG",
+          "agencyName": "U.S. Mission to Argentina",
+          "agencyCode": "DOS-ARG",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "541157774751",
+        "agencyContactName": "Esteban R Carbone\nResource Coordination Specialist",
+        "agencyContactDesc": "Public Diplomacy Section\r\nU.S. Embassy Buenos Aires, Argentina",
+        "agencyContactEmail": "US-ArgentinaGrants@state.gov",
+        "agencyContactEmailDesc": "Public Diplomacy Section",
+        "synopsisDesc": "<p>U.S. Embassy Buenos Aires announces an open competition to implement the U.S.-Argentina Lithium Tech &amp; Transparency Initiative, a program designed to strengthen technical knowledge, transparency, and standards-based approached in Argentina’s lithium sector.</p><p>The initiative will engage provincial mining officials, environmental scientists, and university graduate students in Argentina’s Lithium Triangle regions, including Salta, Jujuy, and Catamarca. Through workshops, expert exchanges, technical training, and applied learning activities, the program will increase participants’ understanding of transparent regulatory frameworks, responsible resource governance, and United States best practices related to critical mineral supply chains.</p><p>This program advances U.S. foreign policy priorities by promoting economic prosperity, transparent governance, supply chain resilience, and stronger U.S.-Argentina cooperation in strategic sectors. It will provide a practical, high-value alternative to opaque investment and research practices by emphasizing merit-based, technically sound, and internationally credible approaches to lithium development and oversight.</p><p>The Embassy seeks proposals from qualified organizations capable of designing and implementing a program that produces measurable gains in participant knowledge and supports durable professional linkages around transparent and responsible critical mineral development.</p><p><u>Project Background, Goals, and Objectives</u></p><p>Argentina is home to some of the world’s most significant lithium reserves, particularly in the provinces of Salta, Jujuy, and Catamarca, which form part of what is often referred to as the Lithium Triangle. As global demand for lithium grows, Argentina’s role in critical mineral supply chains is becoming increasingly important for energy security, advanced manufacturing, and emerging technologies.</p><p>At the same time, the rapid development of the lithium sector presents governance, environmental, and technical challenges. Provincial authorities, academic stakeholders, and technical experts increasingly need access to practical knowledge on transparent regulatory systems, environmental oversight, responsible resource management, and international best practices. These needs are especially important in strategic sectors where opaque financing and closed investment ecosystems can distort markets, reduce transparency, and weaken confidence in long-term supply chain integrity.</p><p>Through this proposal, the U.S. Embassy seeks to support a program that equips key stakeholders in Argentina’s lithium-producing regions with stronger technical knowledge and practical tools related to transparent resource governance and responsible supply chain standards. The program should present the United States as a reliable, pragmatic, and technically credible partner in a sector of growing strategic significance.</p><p>The proposed project should build professional and institutional understanding of regulatory best practices, transparency, and open, rules-based approaches to critical mineral development. The Embassy encourages proposals that combine technical content with practical application, peer learning, and long-term relationship-building among participants.</p><p>Project Audience(s): Primary beneficiaries should include:</p><p>•Provincial mining officials in lithium-producing regions, especially in Salta, Jujuy, and Catamarca.</p><p>•Scientists and technical experts involved in mining oversight, environmental assessment, or related policy fields.</p><p>•University graduate students in disciplines such as environmental science, geology, mining engineering, public policy, natural resource governance, or related fields.</p><p>Applicants should clearly describe participant recruitment and selection, including geographic reach, professional profiles, and expected cohort size.</p><p><u>Project Goal:</u></p><p>The project goal is to strengthen transparent, technically sound, and U.S. aligned approaches to lithium sector governance and supply chain standards in Argentina’s Lithium Triangle, in support of U.S.-Argentina cooperation on economic prosperity and supply chain resilience.</p><p>Project Objectives: Applicants should design projects that contribute to the following objectives: Objective 1: Increase technical knowledge among provincial mining officials, environmental scientists, and graduate students regarding transparent regulatory frameworks, responsible environmental oversight, and U.S. best practices for critical mineral supply chains. Objective 2: Strengthen participant understanding of the risks associated with opaque, closed-loop investment and research models in strategic sectors, and increase familiarity with transparent, merit-based alternatives. Objective 3: Build durable professional connections among regional stakeholders and U.S.-aligned experts, institutions, or models that can support future collaboration on lithium governance, transparency, and responsible development. Expected Outcome: At least 80 percent of participants will demonstrate increased understanding of U.S. regulatory best practices and the risks of opaque, closed-loop investment models. Decrease time it takes to permit and receive license to explore and mine lithium in Argentina by 50%. Illustrative Program Activities Applicants may propose activities such as:</p><p>• In-person or hybrid technical workshops in lithium-producing provinces led by U.S. partners and organizations.</p><p>• Expert-led seminars on transparent supply chain standards and responsible mining governance.</p><p>• Case studies on international best practices in regulatory oversight and environmental stewardship.</p><p>• University engagement activities for graduate students in relevant disciplines</p><p>• Applied exercises, simulation activities, or policy labs.</p><p>• Networking sessions linking provincial, academic, and technical actors.</p><p>• Follow-on dissemination or knowledge-sharing activities by participants. Applicants should explain how their proposed activities will directly support the stated objectives and expected outcome.</p>",
+        "responseDate": "May 31, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "See full NOFO text attached",
+        "postingDate": "Apr 16, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 30, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "100000",
+        "estimatedFundingFormatted": "100,000",
+        "awardCeiling": "100000",
+        "awardCeilingFormatted": "100,000",
+        "awardFloor": "50000",
+        "awardFloorFormatted": "50,000",
+        "applicantEligibilityDesc": "Not-for-profit organizations, including think-tanks and civil society/non-governmental organizations\r\nPublic and private educational institutions\r\nPublic International Organizations\r\nGovernmental institutions",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 16, 2026 01:57:46 PM EDT",
+        "createdDate": "Apr 16, 2026 01:57:46 PM EDT",
+        "lastUpdatedDate": "Apr 16, 2026 01:57:46 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "EIC",
+            "description": "Energy Infrastructure and Critical Mineral and Materials (EICMM)"
+          }
+        ],
+        "responseDateStr": "2026-05-31-00-00-00",
+        "postingDateStr": "2026-04-16-00-00-00",
+        "archiveDateStr": "2026-06-30-00-00-00",
+        "createTimeStampStr": "2026-04-16-13-57-46"
+      },
+      "agencyDetails": {
+        "code": "ARG",
+        "seed": "DOS-ARG",
+        "agencyName": "U.S. Mission to Argentina",
+        "agencyCode": "DOS-ARG",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79306,
+          "opportunityId": 361928,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 467510,
+          "createdDate": "Apr 16, 2026 01:54:18 PM EDT",
+          "lastUpdatedDate": "Apr 16, 2026 01:54:36 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351263,
+              "opportunityId": 361928,
+              "mimeType": "application/pdf",
+              "fileName": "NOFO -Lithium Triangle best practices.pdf",
+              "fileDescription": "Full text",
+              "fileLobSize": 522100,
+              "createdDate": "Apr 16, 2026 01:54:36 PM EDT",
+              "synopsisAttFolderId": 79306
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432745,
+          "opportunityId": 361928,
+          "cfdaNumber": "19.040",
+          "programTitle": "Public Diplomacy Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 31, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

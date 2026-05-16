@@ -1,0 +1,33 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=14271",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=14271",
+  "website": "https://www.michigan.gov/egle/about/organization/materials-management/energy/rfps-loans/agricultural-businesses-energy-incentive-program",
+  "grant_id": "14271",
+  "title": "Agricultural Businesses Energy Incentive Program",
+  "overview": "The Agricultural Businesses Energy Incentive Program offers matching grants to accelerate the implementation of energy efficiency and renewable energy on farms and other agriculture-related entities. The goal is to support innovative technologies to reduce onsite energy use, reduce climate impacts, improve energy efficiency, increase onsite renewable generation, improve resiliency, and support the economic vitality of agricultural businesses in Michigan.Eligible applicants include any agricultural or related entity (farm, crop processing, food processing, etc.) or organizations that provide assistance/services to these entities, provided they have less than 500 employees worldwide and are physically located in Michigan. Cannabis facilities and municipalities are ineligible.Eligible projects must address program objectives and priorities, such as high efficiency HVAC, insulation, efficient lighting, solar panels, and wind turbines. Impacted facilities must be occupied and have long-range plans of continued use.The application process requires submitting an Online Application along with an Approved Budget Form, Detailed Timeline, Organizational Charts, and other required attachments. Applications are accepted on a rolling basis until all funds are allocated or by August 30, 2027. Show More",
+  "additional_info": "Posted Date: April 22, 2026 Application Due Date: Not Specified Estimated Award Date: Not Specified Eligible Applicants: Small businessesFor profit organizations other than small businessesNonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationOthers Show More",
+  "eligible_applicants": [
+    "Small businessesFor profit organizations other than small businessesNonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationOthers"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "agriculture",
+    "energy",
+    "environment"
+  ],
+  "due_date": "",
+  "agency": "Michigan Department of Environment, Great Lakes, and Energy",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:25.185Z",
+  "content_hash": "932497144374a587968bac98066e5af809bcc2b29e4dc664e25c3a23febee7d0",
+  "from_cache": false
+}

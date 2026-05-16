@@ -1,0 +1,35 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=14254",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=14254",
+  "website": "https://www.michigan.gov/mdard/business-development/grantfund/county-fairs-water-infrastructure-capital-improvement-grant",
+  "grant_id": "14254",
+  "title": "County Fairs Water Infrastructure Capital Improvement Grant",
+  "overview": "The Michigan Department of Agriculture and Rural Development is offering the Water Infrastructure Capital Improvement Grant opportunity to county fairs within the state. The goal is to assist in the enhancement of water infrastructure at county fairgrounds to ultimately protect human, animal, and environmental health. Funded through Michigan's Emerging Contaminants in Food and Agriculture appropriation, the priority focuses on reducing current risks and preventing future impacts from emerging contaminants across drinking water, wastewater, and other fairground water infrastructure. Eligible applicants include fairs incorporated under Act 80 of 1855, county-owned and operated fairs operating under Act 11 of 1929, and county fairs that have submitted all required year-end reports for the prior three years. Fair Associations leasing their grounds must have a minimum of a five-year lease. Eligible projects include water line replacement, sewage or septic upgrades, well drilling, municipal hookup, filtration systems, upgrades to animal watering systems, and water storage capabilities. All grant proposals shall be submitted electronically via the MDARD - MiAgGrants Grant Management System. Show More",
+  "additional_info": "Posted Date: March 16, 2026 Application Due Date: June 15, 2026 Estimated Award Date: Not Specified Eligible Applicants: County governmentsOthers Show More",
+  "eligible_applicants": [
+    "County governmentsOthers"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "agriculture",
+    "environment",
+    "health",
+    "public_safety",
+    "water"
+  ],
+  "due_date": "",
+  "agency": "Michigan Department of Agriculture and Rural Development",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:23:49.231Z",
+  "content_hash": "319d18fa8bccda692dd91fbf4461c39279d35be51c2724fb11117918db8dd6c5",
+  "from_cache": false
+}

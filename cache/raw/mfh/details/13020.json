@@ -1,0 +1,33 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=13020",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=13020",
+  "website": "https://mihealthfund.org/grantmaking/behavioral-health-initiative",
+  "grant_id": "13020",
+  "title": "The Health Fund’s Behavioral Health Initiative",
+  "overview": "The Health Fund's behavioral health grantmaking serves to improve access to effective mental health and substance use disorder (SUD) services for Michigan residents, serve populations experiencing significant health disparities, and strengthen the behavioral health system, including infrastructure, workforce development, technology, and sustainability planning. The 2026 cycle is a transition year, welcoming applications through the Healthy Kids Initiative, Healthy Aging Initiative, and a separate, one-time Behavioral Health RFP. This competitive round will focus on advancing promising work currently supported, as well as high-impact investments to address critical needs in the behavioral health ecosystem that affect all Michiganders. The application process requires a concept paper (which was due March 30, 2026). Applicants who submitted a concept paper by the deadline will be informed by May 5 if they are being invited to submit a full proposal. Full applications are due June 1, 2026, and grants will be announced September 15, 2026. Show More",
+  "additional_info": "Posted Date: Not Specified Application Due Date: May 31, 2026 Estimated Award Date: Not Specified Eligible Applicants: City or township governmentsCounty governmentsNonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationPublic and State controlled institutions of higher educationState governments Show More",
+  "eligible_applicants": [
+    "City or township governmentsCounty governmentsNonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationPublic and State controlled institutions of higher educationState governments"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "health",
+    "transportation",
+    "workforce"
+  ],
+  "due_date": "",
+  "agency": "Michigan Health Endowment Fund",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:45.347Z",
+  "content_hash": "6262c9b7df57a50e045e477c977a4e0194bb80c818e13bb6ec5485fcc43a1ee4",
+  "from_cache": false
+}

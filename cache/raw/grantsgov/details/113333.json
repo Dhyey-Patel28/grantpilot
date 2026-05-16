@@ -1,0 +1,123 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "113333",
+  "fetched_at": "2026-05-16T14:06:15.578Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InY3WUFLZTFMeFA5MXdHSWkzeXNBZ2luVDd6c09BdGJqcDk1czBNQk1HWHc9Ig.4z2fWw5XlVzHSz2dfGTp1eD-0nXiGeugnpf8kZQ-g5g",
+    "data": {
+      "id": 113333,
+      "revision": 0,
+      "opportunityNumber": "P11AT80752",
+      "opportunityTitle": "Research Techs",
+      "owningAgencyCode": "DOI-NPS",
+      "listed": "L",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 113333,
+        "version": 1,
+        "agencyCode": "DOI-NPS",
+        "agencyName": "National Park Service",
+        "agencyPhone": "303-969-2755",
+        "agencyAddressDesc": "none",
+        "agencyDetails": {
+          "code": "DOINPSWASO",
+          "seed": "DOI-NPS",
+          "agencyName": "National Park Service",
+          "agencyCode": "DOI-NPS",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactPhone": "303-969-2755",
+        "agencyContactName": "National Park Service",
+        "agencyContactDesc": "Barbara Eschels\r\nSupervisory Contract Specialist\r\nPhone 7022938909",
+        "agencyContactEmail": "barbara_eschels@nps.gov",
+        "agencyContactEmailDesc": "none",
+        "synopsisDesc": "The objective of this Task Agreement is to support and stimulate work and/or education and training opportunities for young adults through collaborative participation in natural resource research and inventory and monitoring for the parks of the Mojave Desert Network.",
+        "responseDateDesc": "Agreement awarded to SCA. ",
+        "postingDate": "Aug 10, 2011 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "125994",
+        "estimatedFundingFormatted": "125,994",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "createTimeStamp": "Aug 10, 2011 07:59:11 PM EDT",
+        "createdDate": "Aug 10, 2011 07:59:11 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ED",
+            "description": "Education"
+          }
+        ],
+        "postingDateStr": "2011-08-10-00-00-00",
+        "createTimeStampStr": "2011-08-10-19-59-11"
+      },
+      "agencyDetails": {
+        "code": "DOINPSWASO",
+        "seed": "DOI-NPS",
+        "agencyName": "National Park Service",
+        "agencyCode": "DOI-NPS",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 139604,
+          "opportunityId": 113333,
+          "cfdaNumber": "15.931",
+          "programTitle": "Conservation Activities by Youth Service Organizations"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Agreement awarded to SCA. ",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=14441",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=14441",
+  "website": "https://www.grants.gov/search-results-detail/361822",
+  "grant_id": "14441",
+  "title": "Home Study and Post-Release Services for Unaccompanied Alien Children​​",
+  "overview": "The Office of Refugee Resettlement (ORR) provides temporary housing and care for children who arrive in the United States alone. These are children who are under 18 years old, don't have legal permission to be in the U.S., and don't have a parent or legal guardian in the U.S. who can take care of them. ORR runs the Home Study and Post-Release Services Program to help these children. Before placing a child with a sponsor, ORR carefully checks potential homes to make sure they're safe and appropriate. After placement, ORR provides ongoing support to help children and their sponsors succeed. This support helps children adjust to living with their sponsor, connect with their community, stay safe and healthy, and navigate the immigration court process. The goal is to make sure children are placed in safe homes and have the support they need to thrive while their immigration cases move forward. Show More",
+  "additional_info": "Posted Date: April 8, 2026 Application Due Date: June 23, 2026 Estimated Award Date: Not Specified Eligible Applicants: Public and State controlled institutions of higher educationCounty governmentsSpecial district governmentsPublic housing authorities/Indian housing authoritiesState governmentsCity or township governmentsNonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationPrivate institutions of higher educationSmall businessesOthersNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationFor profit organizations other than small businessesIndependent school districtsNative American tribal organizations (other than Federally recognized tribal governments)Native American tribal governments (Federally recognized) Show More",
+  "eligible_applicants": [
+    "Public and State controlled institutions of higher educationCounty governmentsSpecial district governmentsPublic housing authorities/Indian housing authoritiesState governmentsCity or township governmentsNonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationPrivate institutions of higher educationSmall businessesOthersNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationFor profit organizations other than small businessesIndependent school districtsNative American tribal organizations (other than Federally recognized tribal governments)Native American tribal governments (Federally recognized)"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "health",
+    "housing"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Health and Human Services",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:24:36.913Z",
+  "content_hash": "8140a0e5be19d564cf26ffe5295d1fc3c96a4e8f57b1fcde52f4e448ad1c1bcb",
+  "from_cache": false
+}

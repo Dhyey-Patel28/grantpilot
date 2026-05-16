@@ -1,0 +1,496 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360970",
+  "fetched_at": "2026-05-16T14:08:31.803Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IkNLQ3BSc1lBRjI4dEd0NTlzenRROE9RcXM5UWhWSkg3YnBzc0FFRVFKOTA9Ig.DU8hFaja0BWL_rTy96QAXoe7hpgB3XK9t19rhN0Cloc",
+    "data": {
+      "id": 360970,
+      "revision": 4,
+      "opportunityNumber": "SM-26-007",
+      "opportunityTitle": "Adult Suicide Prevention",
+      "owningAgencyCode": "HHS-SAMHS-SAMHSA",
+      "listed": "L",
+      "publisherUid": "carmen.baldwin",
+      "modifiedComments": "updated opportunity title",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "SAMHSA",
+        "seed": "HHS-SAMHS-SAMHSA",
+        "agencyName": "Substance Abuse and Mental Health Services Adminis",
+        "agencyCode": "HHS-SAMHS-SAMHSA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 360970,
+        "version": 5,
+        "postingDate": "Dec 10, 2025 12:00:00 AM EST",
+        "forecastDesc": "<p><span style=\"color: black;\">The purpose of this program is to implement suicide prevention and intervention programs for adults, 18 years of age or older. This is accomplished by taking a broad-based public health approach to suicide prevention through enhanced collaboration with key community stakeholders, raising awareness of available suicide prevention resources, and implementing lethal means safety.</span></p>",
+        "costSharing": false,
+        "numberOfAwards": "4",
+        "estimatedFunding": "1858489",
+        "agencyContactName": "Tara Parra",
+        "agencyContactPhone": "(240) 276-2830",
+        "agencyContactEmail": "SAMHSA-NSSP@samhsa.hhs.gov",
+        "agencyContactEmailDesc": "SAMHSA-NSSP@samhsa.hhs.gov",
+        "agencyCode": "HHS-SAMHS-SAMHSA",
+        "sendEmail": "N",
+        "applicantEligibilityDesc": "Eligibility is statutorily limited [section 520L(a)(2)] to a community-based primary care or behavioral health care setting, an emergency department, a State mental health agency (or State health agency with mental or behavioral health functions), public health agency, a territory of the United States, or an Indian tribe or tribal organization (as the terms &quot;Indian tribe&quot; and &quot;tribal organization&quot; are defined in section 5304 of title 25).",
+        "estSynopsisPostingDate": "May 29, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "",
+        "fiscalYear": 2026,
+        "modComments": "Updated Estimated Synopsis Post Date",
+        "createTimeStamp": "May 12, 2026 10:19:50 AM EDT",
+        "createdDate": "Dec 10, 2025 03:40:52 PM EST",
+        "lastUpdatedDate": "May 12, 2026 10:19:50 AM EDT",
+        "agencyDetails": {
+          "code": "SAMHSA",
+          "seed": "HHS-SAMHS-SAMHSA",
+          "agencyName": "Substance Abuse and Mental Health Services Adminis",
+          "agencyCode": "HHS-SAMHS-SAMHSA",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "1,858,489",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-12-10-00-00-00",
+        "estSynopsisPostingDateStr": "2026-05-29-00-00-00",
+        "createTimeStampStr": "2026-05-12-10-19-50"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432229,
+          "opportunityId": 360970,
+          "cfdaNumber": "93.532",
+          "programTitle": "Center for Mental Health Services Projects of Regional and National Significance"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 360970,
+            "revision": 0
+          },
+          "opportunityId": 360970,
+          "revision": 0,
+          "opportunityNumber": "SM-26-007",
+          "opportunityTitle": "National Strategy for Suicide Prevention",
+          "owningAgencyCode": "HHS-SAMHS-SAMHSA",
+          "publisherUid": "rachel.bailey",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360970,
+              "revision": 0
+            },
+            "opportunityId": 360970,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Dec 10, 2025 12:00:00 AM EST",
+            "forecastDesc": "<p><span style=\"color: black;\">The purpose of this program is to implement suicide prevention and intervention programs for individuals, 25 years of age or older. This is accomplished by taking a broad-based public health approach to suicide prevention through enhanced collaboration with key community stakeholders, raising awareness of available suicide prevention resources, and implementing lethal means safety.&nbsp;&nbsp;</span></p>",
+            "costSharing": false,
+            "numberOfAwards": "5",
+            "estimatedFunding": "2000000",
+            "agencyContactName": "Tara Parra",
+            "agencyContactPhone": "(240) 276-2830",
+            "agencyContactEmail": "SAMHSA-NSSP@samhsa.hhs.gov",
+            "agencyContactEmailDesc": "SAMHSA-NSSP@samhsa.hhs.gov",
+            "agencyCode": "HHS-SAMHS-SAMHSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Eligibility is statutorily limited [section 520L(a)(2)] to a community-based primary care or behavioral health care setting, an emergency department, a State mental health agency (or State health agency with mental or behavioral health functions), public health agency, a territory of the United States, or an Indian tribe or tribal organization (as the terms &quot;Indian tribe&quot; and &quot;tribal organization&quot; are defined in section 5304 of title 25).",
+            "estSynopsisPostingDate": "Mar 16, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Dec 10, 2025 03:40:52 PM EST",
+            "actionType": "U",
+            "actionDate": "Mar 13, 2026 02:50:07 PM EDT",
+            "createdDate": "Dec 10, 2025 03:40:52 PM EST",
+            "lastUpdatedDate": "Dec 10, 2025 03:40:52 PM EST",
+            "agencyDetails": {
+              "code": "SAMHSA",
+              "seed": "HHS-SAMHS-SAMHSA",
+              "agencyName": "Substance Abuse and Mental Health Services Adminis",
+              "agencyCode": "HHS-SAMHS-SAMHSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "2,000,000",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-10-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-16-00-00-00",
+            "createTimeStampStr": "2025-12-10-15-40-52"
+          },
+          "cfdas": [
+            {
+              "id": 431560,
+              "opportunityId": 360970,
+              "revision": 0,
+              "cfdaNumber": "93.243",
+              "programTitle": "Substance Abuse and Mental Health Services Projects of Regional and National Significance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360970,
+            "revision": 1
+          },
+          "opportunityId": 360970,
+          "revision": 1,
+          "opportunityNumber": "SM-26-007",
+          "opportunityTitle": "National Strategy for Suicide Prevention",
+          "owningAgencyCode": "HHS-SAMHS-SAMHSA",
+          "publisherUid": "rachel.bailey",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated Assistance Listing Number",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360970,
+              "revision": 1
+            },
+            "opportunityId": 360970,
+            "revision": 1,
+            "version": 2,
+            "postingDate": "Dec 10, 2025 12:00:00 AM EST",
+            "forecastDesc": "<p><span style=\"color: black;\">The purpose of this program is to implement suicide prevention and intervention programs for individuals, 25 years of age or older. This is accomplished by taking a broad-based public health approach to suicide prevention through enhanced collaboration with key community stakeholders, raising awareness of available suicide prevention resources, and implementing lethal means safety.&nbsp;&nbsp;</span></p>",
+            "costSharing": false,
+            "numberOfAwards": "5",
+            "estimatedFunding": "2000000",
+            "agencyContactName": "Tara Parra",
+            "agencyContactPhone": "(240) 276-2830",
+            "agencyContactEmail": "SAMHSA-NSSP@samhsa.hhs.gov",
+            "agencyContactEmailDesc": "SAMHSA-NSSP@samhsa.hhs.gov",
+            "agencyCode": "HHS-SAMHS-SAMHSA",
+            "sendEmail": "N",
+            "applicantEligibilityDesc": "Eligibility is statutorily limited [section 520L(a)(2)] to a community-based primary care or behavioral health care setting, an emergency department, a State mental health agency (or State health agency with mental or behavioral health functions), public health agency, a territory of the United States, or an Indian tribe or tribal organization (as the terms &quot;Indian tribe&quot; and &quot;tribal organization&quot; are defined in section 5304 of title 25).",
+            "estSynopsisPostingDate": "Mar 16, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "",
+            "fiscalYear": 2026,
+            "modComments": "Updated Assistance Listing Number",
+            "createTimeStamp": "Mar 13, 2026 02:50:07 PM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 20, 2026 01:08:47 PM EDT",
+            "createdDate": "Dec 10, 2025 03:40:52 PM EST",
+            "lastUpdatedDate": "Mar 13, 2026 02:50:07 PM EDT",
+            "agencyDetails": {
+              "code": "SAMHSA",
+              "seed": "HHS-SAMHS-SAMHSA",
+              "agencyName": "Substance Abuse and Mental Health Services Adminis",
+              "agencyCode": "HHS-SAMHS-SAMHSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "2,000,000",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-10-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-16-00-00-00",
+            "createTimeStampStr": "2026-03-13-14-50-07"
+          },
+          "cfdas": [
+            {
+              "id": 432229,
+              "opportunityId": 360970,
+              "revision": 3,
+              "cfdaNumber": "93.532",
+              "programTitle": "Center for Mental Health Services Projects of Regional and National Significance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "cfdas",
+            "sendEmail",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360970,
+            "revision": 2
+          },
+          "opportunityId": 360970,
+          "revision": 2,
+          "opportunityNumber": "SM-26-007",
+          "opportunityTitle": "Adult Suicide Prevention",
+          "owningAgencyCode": "HHS-SAMHS-SAMHSA",
+          "publisherUid": "carmen.baldwin",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "updated opportunity title",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360970,
+              "revision": 2
+            },
+            "opportunityId": 360970,
+            "revision": 2,
+            "version": 3,
+            "postingDate": "Dec 10, 2025 12:00:00 AM EST",
+            "forecastDesc": "<p><span style=\"color: black;\">The purpose of this program is to implement suicide prevention and intervention programs for individuals, 25 years of age or older. This is accomplished by taking a broad-based public health approach to suicide prevention through enhanced collaboration with key community stakeholders, raising awareness of available suicide prevention resources, and implementing lethal means safety.&nbsp;&nbsp;</span></p>",
+            "costSharing": false,
+            "numberOfAwards": "5",
+            "estimatedFunding": "2000000",
+            "agencyContactName": "Tara Parra",
+            "agencyContactPhone": "(240) 276-2830",
+            "agencyContactEmail": "SAMHSA-NSSP@samhsa.hhs.gov",
+            "agencyContactEmailDesc": "SAMHSA-NSSP@samhsa.hhs.gov",
+            "agencyCode": "HHS-SAMHS-SAMHSA",
+            "sendEmail": "N",
+            "applicantEligibilityDesc": "Eligibility is statutorily limited [section 520L(a)(2)] to a community-based primary care or behavioral health care setting, an emergency department, a State mental health agency (or State health agency with mental or behavioral health functions), public health agency, a territory of the United States, or an Indian tribe or tribal organization (as the terms &quot;Indian tribe&quot; and &quot;tribal organization&quot; are defined in section 5304 of title 25).",
+            "estSynopsisPostingDate": "Mar 16, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "",
+            "fiscalYear": 2026,
+            "modComments": "updated opportunity title",
+            "createTimeStamp": "Mar 20, 2026 01:08:47 PM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 20, 2026 01:10:11 PM EDT",
+            "createdDate": "Dec 10, 2025 03:40:52 PM EST",
+            "lastUpdatedDate": "Mar 20, 2026 01:08:47 PM EDT",
+            "agencyDetails": {
+              "code": "SAMHSA",
+              "seed": "HHS-SAMHS-SAMHSA",
+              "agencyName": "Substance Abuse and Mental Health Services Adminis",
+              "agencyCode": "HHS-SAMHS-SAMHSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "2,000,000",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-10-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-16-00-00-00",
+            "createTimeStampStr": "2026-03-20-13-08-47"
+          },
+          "cfdas": [
+            {
+              "id": 432229,
+              "opportunityId": 360970,
+              "revision": 3,
+              "cfdaNumber": "93.532",
+              "programTitle": "Center for Mental Health Services Projects of Regional and National Significance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "opportunityTitle",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360970,
+            "revision": 3
+          },
+          "opportunityId": 360970,
+          "revision": 3,
+          "opportunityNumber": "SM-26-007",
+          "opportunityTitle": "Adult Suicide Prevention",
+          "owningAgencyCode": "HHS-SAMHS-SAMHSA",
+          "publisherUid": "carmen.baldwin",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "updated opportunity title",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360970,
+              "revision": 3
+            },
+            "opportunityId": 360970,
+            "revision": 3,
+            "version": 4,
+            "postingDate": "Dec 10, 2025 12:00:00 AM EST",
+            "forecastDesc": "<p><span style=\"color: black;\">The purpose of this program is to implement suicide prevention and intervention programs for adults, 18 years of age or older. This is accomplished by taking a broad-based public health approach to suicide prevention through enhanced collaboration with key community stakeholders, raising awareness of available suicide prevention resources, and implementing lethal means safety.</span></p>",
+            "costSharing": false,
+            "numberOfAwards": "4",
+            "estimatedFunding": "1858489",
+            "agencyContactName": "Tara Parra",
+            "agencyContactPhone": "(240) 276-2830",
+            "agencyContactEmail": "SAMHSA-NSSP@samhsa.hhs.gov",
+            "agencyContactEmailDesc": "SAMHSA-NSSP@samhsa.hhs.gov",
+            "agencyCode": "HHS-SAMHS-SAMHSA",
+            "sendEmail": "N",
+            "applicantEligibilityDesc": "Eligibility is statutorily limited [section 520L(a)(2)] to a community-based primary care or behavioral health care setting, an emergency department, a State mental health agency (or State health agency with mental or behavioral health functions), public health agency, a territory of the United States, or an Indian tribe or tribal organization (as the terms &quot;Indian tribe&quot; and &quot;tribal organization&quot; are defined in section 5304 of title 25).",
+            "estSynopsisPostingDate": "Apr 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "",
+            "fiscalYear": 2026,
+            "modComments": "updated estimated funding, expected number of awards, post date, and description",
+            "createTimeStamp": "Mar 20, 2026 01:10:11 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 12, 2026 10:19:50 AM EDT",
+            "createdDate": "Dec 10, 2025 03:40:52 PM EST",
+            "lastUpdatedDate": "Mar 20, 2026 01:10:11 PM EDT",
+            "agencyDetails": {
+              "code": "SAMHSA",
+              "seed": "HHS-SAMHS-SAMHSA",
+              "agencyName": "Substance Abuse and Mental Health Services Adminis",
+              "agencyCode": "HHS-SAMHS-SAMHSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "1,858,489",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-10-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-15-00-00-00",
+            "createTimeStampStr": "2026-03-20-13-10-11"
+          },
+          "cfdas": [
+            {
+              "id": 432229,
+              "opportunityId": 360970,
+              "revision": 3,
+              "cfdaNumber": "93.532",
+              "programTitle": "Center for Mental Health Services Projects of Regional and National Significance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "forecastDesc",
+            "numberOfAwards",
+            "estimatedFunding",
+            "estSynopsisPostingDate",
+            "modComments"
+          ]
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version",
+        "estSynopsisPostingDate",
+        "modComments",
+        "createTimeStamp"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 4,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

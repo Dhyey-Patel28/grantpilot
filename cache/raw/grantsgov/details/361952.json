@@ -1,0 +1,168 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361952",
+  "fetched_at": "2026-05-16T14:09:28.647Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlJVWndyVTk1UWk0d3lDYXRJcUR5RDRpU0k5WEJvUGp2cWVkOGFFbUZQNFE9Ig.PYsNGwXe2JvcV5yWybeH3unQqYhukMhDOFDoZsEiTts",
+    "data": {
+      "id": 361952,
+      "revision": 0,
+      "opportunityNumber": "PD-26-1341",
+      "opportunityTitle": "Professional Formation of Engineers",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361952,
+        "version": 1,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The Professional Formation of Engineers (PFE) initiative integrates engineering research and education to improve and expand the nation&rsquo;s engineering workforce. PFE is defined as the formal and informal processes and value systems by which people become engineers. The goal of PFE is to create an ethical engineering workforce with a global outlook and the ability to adapt to the rapidly evolving technical environment. This will help build a future engineering workforce with the skills to compete in the global marketplace, support emerging technologies, and grow U.S. industry.\n\n\nPFE supports projects in the ENGINEER program relating to future and current engineers&rsquo; training and education in many contexts, including formal classrooms, informal maker spaces, clubs and co-curricular activities, and workplaces. Such training encompasses cooperative education and internships, community-based experiences, and research labs. It also involves many scales of analysis, from mentor/mentee relationships to large-scale online learning and professional development experiences. Engineers must develop and maintain these learning opportunities with clear pathways to and through the profession. Such pathways include formal and informal education, apprenticeships, credentialing, and licensure, and consider relationships with other professionals, technical workers, and community members. Finally, such opportunities include transitions across and within academia and industry. To understand and improve this system requires expertise in both engineering and the social sciences.",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506521",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-26-1341",
+        "postingDate": "Apr 17, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "createTimeStamp": "Apr 17, 2026 11:00:19 PM EDT",
+        "createdDate": "Apr 17, 2026 11:00:19 PM EDT",
+        "lastUpdatedDate": "Apr 17, 2026 11:00:19 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2026-04-17-00-00-00",
+        "createTimeStampStr": "2026-04-17-23-00-19"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432772,
+          "opportunityId": 361952,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 432774,
+          "opportunityId": 361952
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292442,
+          "topportunityId": 361952,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-26-1341",
+          "opportunityTitle": "Professional Formation of Engineers",
+          "openingDate": "2026-04-17",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Alice L. Pawley\nE-mail: eec-engineer@nsf.gov\nPhone: (703) 292-8380",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 1,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 17, 2026 11:25:49 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292442",
+          "openingDateStr": "2026-04-17-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

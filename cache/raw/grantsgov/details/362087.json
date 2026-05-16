@@ -1,0 +1,283 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362087",
+  "fetched_at": "2026-05-16T14:09:50.679Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVUK1hheFRGZjNYYnhNbEpjYVhFWUFSVnVuRE9UeFZLcXpoTGd0NmhiZm89Ig.n143_Y9K0-A6F2TRnFpMe8V8dIA7FmtEWaNTzLwO-lg",
+    "data": {
+      "id": 362087,
+      "revision": 1,
+      "opportunityNumber": "PAS-ZAF-FY26-02",
+      "opportunityTitle": "EducationUSA Opportunity Funds Program (OFP) 2026",
+      "owningAgencyCode": "DOS-ZAF",
+      "listed": "L",
+      "publisherUid": "ZunguNN@state.gov",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362087,
+        "version": 3,
+        "agencyCode": "DOS-ZAF",
+        "agencyName": "Nondumiso N Zungu\nGrantor",
+        "agencyPhone": "0124314367",
+        "agencyAddressDesc": "Public Diplomacy Grants Team",
+        "agencyDetails": {
+          "code": "ZAF",
+          "seed": "DOS-ZAF",
+          "agencyName": "U.S. Mission to South Africa",
+          "agencyCode": "DOS-ZAF",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "0124314367",
+        "agencyContactName": "Nondumiso N Zungu\nGrantor",
+        "agencyContactDesc": "Public Diplomacy Grants Team",
+        "agencyContactEmail": "PretoriaGrants@state.gov",
+        "agencyContactEmailDesc": "Public Diplomacy Grants Team",
+        "synopsisDesc": "<p><span style=\"color: black;\">The U.S. Department of State’s U.S. Mission in South Africa, Public Diplomacy Section (PDS) announces an open competition to implement a program to roll out South Africa’s EducationUSA Opportunity Funds Program (OFP). This program assists highly qualified students who wish to pursue an undergraduate or postgraduate degree program at an accredited post-secondary institution in the United States, and who are likely to be awarded full financial aid from such U.S. colleges and universities but lack the financial resources to cover the up-front costs.&nbsp;</span></p>",
+        "responseDate": "May 29, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Apr 28, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 28, 2026 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "Public Diplomacy programs",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "awardCeiling": "67500",
+        "awardCeilingFormatted": "67,500",
+        "awardFloor": "67500",
+        "awardFloorFormatted": "67,500",
+        "applicantEligibilityDesc": "The following organizations are eligible to apply: Only non-profit South African or U.S. organizations are eligible to apply.  This includes non-profit think tanks, civil society/non-governmental organizations, and public and private educational institutions.Applicants should provide proof of their non-profit status if there is any ambiguity regarding this.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 28, 2026 10:17:54 AM EDT",
+        "modComments": "Modification of contact details.",
+        "createdDate": "Apr 28, 2026 09:45:59 AM EDT",
+        "lastUpdatedDate": "Apr 28, 2026 10:17:54 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "responseDateStr": "2026-05-29-00-00-00",
+        "postingDateStr": "2026-04-28-00-00-00",
+        "archiveDateStr": "2026-06-28-00-00-00",
+        "createTimeStampStr": "2026-04-28-10-17-54"
+      },
+      "agencyDetails": {
+        "code": "ZAF",
+        "seed": "DOS-ZAF",
+        "agencyName": "U.S. Mission to South Africa",
+        "agencyCode": "DOS-ZAF",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79411,
+          "opportunityId": 362087,
+          "folderType": "Full Announcement",
+          "folderName": "PAS-ZAF-FY26-02 - EduUSA OFP",
+          "zipLobSize": 773183,
+          "createdDate": "Apr 28, 2026 09:50:05 AM EDT",
+          "lastUpdatedDate": "Apr 28, 2026 09:51:45 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351496,
+              "opportunityId": 362087,
+              "mimeType": "application/pdf",
+              "fileName": "2026 EduUSA OFP NOFO Mission South Africa.pdf",
+              "fileDescription": "2026 EduUSA OFP NOFO Mission South Africa",
+              "fileLobSize": 527227,
+              "createdDate": "Apr 28, 2026 09:50:36 AM EDT",
+              "synopsisAttFolderId": 79411
+            },
+            {
+              "id": 351498,
+              "opportunityId": 362087,
+              "mimeType": "application/pdf",
+              "fileName": "Application-for-Federal-Assistance-SF-424.pdf",
+              "fileDescription": "Application-for-Federal-Assistance-SF-424",
+              "fileLobSize": 147839,
+              "createdDate": "Apr 28, 2026 09:51:27 AM EDT",
+              "synopsisAttFolderId": 79411
+            },
+            {
+              "id": 351497,
+              "opportunityId": 362087,
+              "mimeType": "application/pdf",
+              "fileName": "Budget-Information-for-Non-Construction-Programs-SF-424A.pdf",
+              "fileDescription": "Budget-Information-for-Non-Construction-Programs-SF-424A",
+              "fileLobSize": 134775,
+              "createdDate": "Apr 28, 2026 09:50:59 AM EDT",
+              "synopsisAttFolderId": 79411
+            },
+            {
+              "id": 351499,
+              "opportunityId": 362087,
+              "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "fileName": "Suggested-budget-template.xlsx",
+              "fileDescription": "Suggested-budget-template",
+              "fileLobSize": 54959,
+              "createdDate": "Apr 28, 2026 09:51:45 AM EDT",
+              "synopsisAttFolderId": 79411
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432929,
+          "opportunityId": 362087,
+          "cfdaNumber": "19.022",
+          "programTitle": "Educational and Cultural Exchange Programs Appropriation Overseas Grants"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 362087,
+            "revision": 0
+          },
+          "opportunityId": 362087,
+          "revision": 0,
+          "opportunityNumber": "PAS-ZAF-FY26-02",
+          "opportunityTitle": "EducationUSA Opportunity Funds Program (OFP) 2026",
+          "owningAgencyCode": "DOS-ZAF",
+          "publisherUid": "ZunguNN@state.gov",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 362087,
+              "revision": 0
+            },
+            "opportunityId": 362087,
+            "revision": 0,
+            "version": 2,
+            "agencyCode": "DOS-ZAF",
+            "agencyAddressDesc": "Public Diplomacy Grants Team",
+            "agencyDetails": {
+              "code": "ZAF",
+              "seed": "DOS-ZAF",
+              "agencyName": "U.S. Mission to South Africa",
+              "agencyCode": "DOS-ZAF",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "0124314367",
+            "agencyContactName": "Nondumiso N Zungu\nGrantor",
+            "agencyContactDesc": "If you have difficulty accessing the full announcement electronically, please contact:\r\nPublic Diplomacy Grants Team",
+            "agencyContactEmail": "PretoriaGrants@state.gov",
+            "agencyContactEmailDesc": "Public Diplomacy Grants Team",
+            "synopsisDesc": "<p><span style=\"color: black;\">The U.S. Department of State’s U.S. Mission in South Africa, Public Diplomacy Section (PDS) announces an open competition to implement a program to roll out South Africa’s EducationUSA Opportunity Funds Program (OFP). This program assists highly qualified students who wish to pursue an undergraduate or postgraduate degree program at an accredited post-secondary institution in the United States, and who are likely to be awarded full financial aid from such U.S. colleges and universities but lack the financial resources to cover the up-front costs.&nbsp;</span></p>",
+            "responseDate": "May 29, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Apr 28, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jun 28, 2026 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "Public Diplomacy programs",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "awardCeiling": "67500",
+            "awardCeilingFormatted": "67,500",
+            "awardFloor": "67500",
+            "awardFloorFormatted": "67,500",
+            "applicantEligibilityDesc": "The following organizations are eligible to apply: Only non-profit South African or U.S. organizations are eligible to apply.  This includes non-profit think tanks, civil society/non-governmental organizations, and public and private educational institutions.Applicants should provide proof of their non-profit status if there is any ambiguity regarding this.",
+            "createTimeStamp": "Apr 28, 2026 09:58:01 AM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Apr 28, 2026 10:17:54 AM EDT",
+            "createdDate": "Apr 28, 2026 09:45:59 AM EDT",
+            "lastUpdatedDate": "Apr 28, 2026 09:58:01 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "responseDateStr": "2026-05-29-00-00-00",
+            "postingDateStr": "2026-04-28-00-00-00",
+            "archiveDateStr": "2026-06-28-00-00-00",
+            "createTimeStampStr": "2026-04-28-09-58-01"
+          },
+          "cfdas": [
+            {
+              "id": 432929,
+              "opportunityId": 362087,
+              "revision": 0,
+              "cfdaNumber": "19.022",
+              "programTitle": "Educational and Cultural Exchange Programs Appropriation Overseas Grants"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 29, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "agencyContactDesc"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

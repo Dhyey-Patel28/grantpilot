@@ -1,0 +1,265 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362063",
+  "fetched_at": "2026-05-16T14:09:44.539Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlovOUhRV3FWTlh4SjVxVE1ldXFpYW1Xdkp2ekJBMTlpWFdBdk54WlQwSjg9Ig.Tpn9xrjUPanNka82TuaNkRC-RJPW2S1DTqwhF1cSPr4",
+    "data": {
+      "id": 362063,
+      "revision": 1,
+      "opportunityNumber": "PD-26-366Y",
+      "opportunityTitle": "Transport Phenomena (TP)",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362063,
+        "version": 2,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The Transport Phenomena (TP) program supports fundamental research to understand, model, and control the transport of mass, momentum, energy, and species across multiple scales. Innovative TP research supports advances in artificial intelligence; manufacturing; biotechnology; microelectronics; energy generation, extraction, and utilization; nuclear energy; quantum science and engineering; and other national priorities.\n\n\nTP projects involve experiments, theory, and/or computational modeling. They aim to improve understanding and to create novel analytical techniques. While projects focus on fundamental principles, they also have a clear vision of how research outcomes will benefit applications in engineering.\n\n\nTP supports research on the dynamics of single- and multiphase systems. Special interests include flow separation, transition to turbulence, drag reduction, cavitation, instabilities, and reactive flows. The program encourages research on the connection between dynamics at the microscale and material and flow properties at the macroscale. Fluids of interest include liquids, gases, suspensions, emulsions, granular materials, active fluids, biological fluids, colloids, aerosols, bubbles and drops, and fluids with surfactants.\n\n\nTP supports research on physicochemical phenomena at the interfaces between fluids and between fluids and solids. These phenomena include adsorption and desorption of nanoparticles and surfactants; bulk and interfacial rheology; wetting and capillarity phenomena; electrokinetics; flow in porous media; and directed and self-assembly of particles.\n\n\nTP supports research on thermodynamics and thermal transport involving conduction, diffusion, convection, phase transition, and radiation. Research may be across scales, in complex structures and at interfaces, in microelectronic devices, and in biological systems. Projects involving phonon transport and quantum thermal phenomena are welcome.\n\n\nTP encourages proposals focused on combustion of gas, liquid and solid fuels. Combustion topics of interest include chemical kinetic modeling, turbulence-chemistry interactions, detonations, plasma assisted reacting flows, sustainable fuels, mechanisms for pollutant control, and in-situ diagnostic methods. The program also supports research on wildland fire behavior that aims to prevent wildfire spread, inhibit its growth, and/or predict and mitigate fires at the wildland-urban interface.\n\n\nPartnerships: To speed discovery and innovation, NSF partners with federal agencies, industry, international groups, and others. Current opportunities are at <a href=\"https://www.nsf.gov/eng/partnerships\">NSF ENG Partnerships.</a>",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506550",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-26-366Y",
+        "postingDate": "Apr 24, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Apr 27, 2026 11:00:13 PM EDT",
+        "modComments": ".",
+        "createdDate": "Apr 24, 2026 11:00:08 PM EDT",
+        "lastUpdatedDate": "Apr 27, 2026 11:00:13 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2026-04-24-00-00-00",
+        "createTimeStampStr": "2026-04-27-23-00-13"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432894,
+          "opportunityId": 362063,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 432898,
+          "opportunityId": 362063
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 362063,
+            "revision": 0
+          },
+          "opportunityId": 362063,
+          "revision": 0,
+          "opportunityNumber": "PD-26-366Y",
+          "opportunityTitle": "Transport Phenomena (TP)",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 362063,
+              "revision": 0
+            },
+            "opportunityId": 362063,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4203",
+            "agencyContactName": "U.S. National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "<div class=\"OutlineElement Ltr SCXW64952610 BCX4\">\n<p class=\"Paragraph SCXW64952610 BCX4\"><span class=\"TextRun SCXW64952610 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW64952610 BCX4\">The</span><span class=\"NormalTextRun SCXW64952610 BCX4\">Transport Phenomena</span><span class=\"NormalTextRun SCXW64952610 BCX4\">(TP)</span><span class=\"NormalTextRun SCXW64952610 BCX4\">program</span><span class=\"NormalTextRun SCXW64952610 BCX4\">supports fundamental research to understand, model, and control the transport of mass, momentum, energy, and species across multiple scales. Innovative</span><span class=\"NormalTextRun SCXW64952610 BCX4\">TP research</span><span class=\"NormalTextRun SCXW64952610 BCX4\">supports</span><span class=\"NormalTextRun SCXW64952610 BCX4\">advances</span><span class=\"NormalTextRun SCXW64952610 BCX4\">in</span><span class=\"NormalTextRun SCXW64952610 BCX4\">artificial intelligence</span><span class=\"NormalTextRun SCXW64952610 BCX4\">;</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">manufacturing</span><span class=\"NormalTextRun SCXW64952610 BCX4\">;</span><span class=\"NormalTextRun SCXW64952610 BCX4\">biotechnology</span><span class=\"NormalTextRun SCXW64952610 BCX4\">;</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">micro</span><span class=\"NormalTextRun SCXW64952610 BCX4\">electronics</span><span class=\"NormalTextRun SCXW64952610 BCX4\">;</span><span class=\"NormalTextRun SCXW64952610 BCX4\">energy generation, extraction, and</span><span class=\"NormalTextRun SCXW64952610 BCX4\">utilization</span><span class=\"NormalTextRun SCXW64952610 BCX4\">;</span><span class=\"NormalTextRun SCXW64952610 BCX4\">nuclear</span><span class=\"NormalTextRun SCXW64952610 BCX4\">energy</span><span class=\"NormalTextRun SCXW64952610 BCX4\">;</span><span class=\"NormalTextRun SCXW64952610 BCX4\">quantum science and engineering</span><span class=\"NormalTextRun SCXW64952610 BCX4\">;</span><span class=\"NormalTextRun SCXW64952610 BCX4\">and other</span><span class=\"NormalTextRun SCXW64952610 BCX4\">national priorities</span><span class=\"NormalTextRun SCXW64952610 BCX4\">.</span></span><span class=\"EOP SCXW64952610 BCX4\" data-ccp-props=\"{}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW64952610 BCX4\">\n<p class=\"Paragraph SCXW64952610 BCX4\"><span class=\"TextRun SCXW64952610 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW64952610 BCX4\">TP</span><span class=\"NormalTextRun SCXW64952610 BCX4\">projects</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">involve experiments, theory, and/or computational modeling</span><span class=\"NormalTextRun SCXW64952610 BCX4\">. They aim</span><span class=\"NormalTextRun SCXW64952610 BCX4\">to</span><span class=\"NormalTextRun SCXW64952610 BCX4\">improve</span><span class=\"NormalTextRun SCXW64952610 BCX4\">understanding and to</span><span class=\"NormalTextRun SCXW64952610 BCX4\">create novel</span><span class=\"NormalTextRun SCXW64952610 BCX4\">analytical techniques. While</span><span class=\"NormalTextRun SCXW64952610 BCX4\">projects</span><span class=\"NormalTextRun SCXW64952610 BCX4\">focus on fundamental principles, they also</span><span class=\"NormalTextRun SCXW64952610 BCX4\">have</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">a clear vision</span><span class=\"NormalTextRun SCXW64952610 BCX4\">of how research outcomes will</span><span class=\"NormalTextRun SCXW64952610 BCX4\">benefit</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">applications</span><span class=\"NormalTextRun SCXW64952610 BCX4\">in</span><span class=\"NormalTextRun SCXW64952610 BCX4\">engineering.</span></span><span class=\"EOP SCXW64952610 BCX4\" data-ccp-props=\"{}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW64952610 BCX4\">\n<p class=\"Paragraph SCXW64952610 BCX4\"><span class=\"TextRun SCXW64952610 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW64952610 BCX4\">TP</span><span class=\"NormalTextRun SCXW64952610 BCX4\">supports research</span><span class=\"NormalTextRun SCXW64952610 BCX4\">on the</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">dynamics of single- and multiphase systems</span><span class=\"NormalTextRun SCXW64952610 BCX4\">.</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">S</span><span class=\"NormalTextRun SCXW64952610 BCX4\">pecial</span><span class=\"NormalTextRun SCXW64952610 BCX4\">interests include</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">flow separation, transition to turbulence, drag reduction, cavitation, instabilities, and reactive flows.</span><span class=\"NormalTextRun SCXW64952610 BCX4\">The program encourages</span><span class=\"NormalTextRun SCXW64952610 BCX4\">research on the connection between dynamics</span><span class=\"NormalTextRun SCXW64952610 BCX4\">at the</span><span class=\"NormalTextRun SCXW64952610 BCX4\">microscale</span><span class=\"NormalTextRun SCXW64952610 BCX4\">and material and flow properties</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">at the</span><span class=\"NormalTextRun SCXW64952610 BCX4\">macroscale</span><span class=\"NormalTextRun SCXW64952610 BCX4\">. Fluids of interest include liquids, gases, suspensions,</span><span class=\"NormalTextRun SCXW64952610 BCX4\">emulsions,</span><span class=\"NormalTextRun SCXW64952610 BCX4\">granular materials, active fluids, biological fluids, colloids, aerosols, bubbles and drops, and fluids with surfactants.</span></span><span class=\"EOP SCXW64952610 BCX4\" data-ccp-props=\"{}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW64952610 BCX4\">\n<p class=\"Paragraph SCXW64952610 BCX4\"><span class=\"TextRun SCXW64952610 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW64952610 BCX4\">TP supports</span><span class=\"NormalTextRun SCXW64952610 BCX4\">research on physicochemical phenomena at</span><span class=\"NormalTextRun SCXW64952610 BCX4\">the</span><span class=\"NormalTextRun SCXW64952610 BCX4\">interfaces</span><span class=\"NormalTextRun SCXW64952610 BCX4\">between fluids and between fluids and solids</span><span class=\"NormalTextRun SCXW64952610 BCX4\">.</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">These phenomena include</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">adsorption and desorption of nanoparticles and surfactants</span><span class=\"NormalTextRun SCXW64952610 BCX4\">;</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">bulk and interfacial rheology</span><span class=\"NormalTextRun SCXW64952610 BCX4\">;</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">wetting and capillarity phenomena</span><span class=\"NormalTextRun SCXW64952610 BCX4\">;</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW64952610 BCX4\">e</span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW64952610 BCX4\">lectrokinetic</span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW64952610 BCX4\">s</span><span class=\"NormalTextRun SCXW64952610 BCX4\">;</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">flow in porous media</span><span class=\"NormalTextRun SCXW64952610 BCX4\">;</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">and directed</span><span class=\"NormalTextRun SCXW64952610 BCX4\">and self-</span><span class=\"NormalTextRun SCXW64952610 BCX4\">assembly of particles.</span></span><span class=\"EOP SCXW64952610 BCX4\" data-ccp-props=\"{}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW64952610 BCX4\">\n<p class=\"Paragraph SCXW64952610 BCX4\"><span class=\"TextRun SCXW64952610 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW64952610 BCX4\">TP</span><span class=\"NormalTextRun SCXW64952610 BCX4\">supports research on</span><span class=\"NormalTextRun SCXW64952610 BCX4\">thermodynamics and</span><span class=\"NormalTextRun SCXW64952610 BCX4\">thermal transport involving conduction, diffusion, convection, phase transition, and radiation</span><span class=\"NormalTextRun SCXW64952610 BCX4\">. Research may be</span><span class=\"NormalTextRun SCXW64952610 BCX4\">across scales, in</span><span class=\"NormalTextRun SCXW64952610 BCX4\">complex structures and at interfaces</span><span class=\"NormalTextRun SCXW64952610 BCX4\">,</span><span class=\"NormalTextRun SCXW64952610 BCX4\">in microelectronic devices,</span><span class=\"NormalTextRun SCXW64952610 BCX4\">and in biological systems</span><span class=\"NormalTextRun SCXW64952610 BCX4\">.</span><span class=\"NormalTextRun SCXW64952610 BCX4\">P</span><span class=\"NormalTextRun SCXW64952610 BCX4\">rojects</span><span class=\"NormalTextRun SCXW64952610 BCX4\">involving phonon transport</span><span class=\"NormalTextRun SCXW64952610 BCX4\">and</span><span class=\"NormalTextRun SCXW64952610 BCX4\">quantum thermal phenomena</span><span class=\"NormalTextRun SCXW64952610 BCX4\">are</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">welcome.</span></span><span class=\"EOP SCXW64952610 BCX4\" data-ccp-props=\"{}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW64952610 BCX4\">\n<p class=\"Paragraph SCXW64952610 BCX4\"><span class=\"TextRun SCXW64952610 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW64952610 BCX4\">TP</span><span class=\"NormalTextRun SCXW64952610 BCX4\">encourages proposals focused on combustion of gas,</span><span class=\"NormalTextRun SCXW64952610 BCX4\">liquid</span><span class=\"NormalTextRun SCXW64952610 BCX4\">and solid fuels</span><span class=\"NormalTextRun SCXW64952610 BCX4\">. Combustion topics</span><span class=\"NormalTextRun SCXW64952610 BCX4\">of interest</span><span class=\"NormalTextRun SCXW64952610 BCX4\">includ</span><span class=\"NormalTextRun SCXW64952610 BCX4\">e</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">chemical kinetic modeling, turbulence-chemistry interactions, detonations, plasma</span><span class=\"NormalTextRun SCXW64952610 BCX4\">assisted</span><span class=\"NormalTextRun SCXW64952610 BCX4\">reacting flows, sustainable fuels,</span><span class=\"NormalTextRun SCXW64952610 BCX4\">mechanisms</span><span class=\"NormalTextRun SCXW64952610 BCX4\">for</span><span class=\"NormalTextRun SCXW64952610 BCX4\">pollutant control, and in-situ diagnostic methods.</span><span class=\"NormalTextRun SCXW64952610 BCX4\">The program also supports r</span><span class=\"NormalTextRun SCXW64952610 BCX4\">esearch</span><span class=\"NormalTextRun SCXW64952610 BCX4\">on</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">wildland fire behavior</span><span class=\"NormalTextRun SCXW64952610 BCX4\">that aims to</span><span class=\"NormalTextRun SCXW64952610 BCX4\">prevent wildfire spread, inhibit its growth</span><span class=\"NormalTextRun SCXW64952610 BCX4\">,</span><span class=\"NormalTextRun SCXW64952610 BCX4\">and</span><span class=\"NormalTextRun SCXW64952610 BCX4\">/or</span><span class=\"NormalTextRun SCXW64952610 BCX4\">predict and</span><span class=\"NormalTextRun SCXW64952610 BCX4\">mitigat</span><span class=\"NormalTextRun SCXW64952610 BCX4\">e</span><span class=\"NormalTextRun SCXW64952610 BCX4\"></span><span class=\"NormalTextRun SCXW64952610 BCX4\">fires at the wildland-urban interface.</span></span><span class=\"EOP SCXW64952610 BCX4\" data-ccp-props=\"{}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW64952610 BCX4\">\n<p class=\"Paragraph SCXW64952610 BCX4\"><span class=\"TextRun SCXW64952610 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">Partnerships:</span><span class=\"TextRun SCXW64952610 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW64952610 BCX4\">To</span><span class=\"NormalTextRun SCXW64952610 BCX4\">speed</span><span class=\"NormalTextRun SCXW64952610 BCX4\">discovery and innovation, NSF partners with federal agencies, industry, international</span><span class=\"NormalTextRun SCXW64952610 BCX4\">groups</span><span class=\"NormalTextRun SCXW64952610 BCX4\">, and others. Current opportunities are at</span></span><a class=\"Hyperlink SCXW64952610 BCX4\" href=\"https://nsf.gov/eng/partnerships\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW64952610 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW64952610 BCX4\" data-ccp-charstyle=\"Hyperlink\">NSF ENG Partnerships</span></span></a><span class=\"TextRun SCXW64952610 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">.</span><span class=\"TextRun SCXW64952610 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"></span><span class=\"EOP SCXW64952610 BCX4\" data-ccp-props=\"{}\"></span>\n\n</div>",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506550",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-26-366Y",
+            "postingDate": "Apr 24, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Apr 24, 2026 11:00:08 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 27, 2026 11:00:13 PM EDT",
+            "createdDate": "Apr 24, 2026 11:00:08 PM EDT",
+            "lastUpdatedDate": "Apr 24, 2026 11:00:08 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2026-04-24-00-00-00",
+            "createTimeStampStr": "2026-04-24-23-00-08"
+          },
+          "cfdas": [
+            {
+              "id": 432894,
+              "opportunityId": 362063,
+              "revision": 0,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 432898,
+              "opportunityId": 362063,
+              "revision": 0
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292502,
+          "topportunityId": 362063,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-26-366Y",
+          "opportunityTitle": "Transport Phenomena (TP)",
+          "openingDate": "2026-04-24",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "TP Program Team\nE-mail: cbet-tp@nsf.gov",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 500,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 27, 2026 11:25:19 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292502",
+          "openingDateStr": "2026-04-24-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

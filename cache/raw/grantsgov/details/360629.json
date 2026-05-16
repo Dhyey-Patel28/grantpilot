@@ -1,0 +1,177 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360629",
+  "fetched_at": "2026-05-16T14:08:22.884Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImlCUG0zcXFrcFRGVVROTE0rZnZYZHlTS3dPTnFUc2VKZ0hRRlpjNFRZWkU9Ig.sCOmSsIdfQdjow-VRbs069zXmLBz-mVnXP_tK-ySKJ8",
+    "data": {
+      "id": 360629,
+      "revision": 0,
+      "opportunityNumber": "RFA-EB-26-001",
+      "opportunityTitle": "Funding Opportunity Announcement - NIBIB Technology Development Networks",
+      "owningAgencyCode": "HHS-NIH11",
+      "publisherUid": "85078824959489933389587371192040018034",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "NIH",
+        "seed": "HHS-NIH11",
+        "agencyName": "National Institutes of Health",
+        "agencyCode": "HHS-NIH11",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 360629,
+        "version": 1,
+        "postingDate": "Sep 18, 2025 12:00:00 AM EDT",
+        "forecastDesc": "<p>The NIBIB intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications for NIBIB Technology Development Network Coordinating Centers.&nbsp; These Coordinating Centers are designed to bring scientific and engineering communities together to solve translational problems.&nbsp; The Coordinating Centers will be responsible for enhancing integration between components of the Network by facilitating opportunities for collaborations across technology development projects. &nbsp;Also, the Coordinating Centers will disseminate program advances, develop resources and outreach strategies for engaging the broader biomedical research community, and manage an Opportunity Funds program to rapidly fund and support promising small-scale work that advances translational development of innovative platform technologies.</p><p>Applications are not being solicited at this time. Notice is being provided to allow potential applicants sufficient time to develop meaningful collaborations and responsive projects.&nbsp; This NOFO will utilize the U24 activity code. Investigators with expertise and insights into this area are encouraged to begin to consider applying for this new NOFO. In addition, collaborative partnerships combining expertise in engineering and translation will be encouraged and these investigators should also begin considering applying for this application. &nbsp;Forecasts for specific Technology Development Centers will follow.</p>",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "1000000",
+        "awardCeiling": "1000000",
+        "agencyContactName": "Luisa Russell",
+        "agencyContactPhone": "Please contact via e-mail.",
+        "agencyContactEmail": "luisa.russell@nih.gov",
+        "agencyContactEmailDesc": "luisa.russell@nih.gov",
+        "agencyCode": "HHS-NIH11",
+        "applicantEligibilityDesc": "Other Eligible ApplicantsIndian/Native American Tribal Governments (Other than Federally Recognized);Eligible Agencies of the Federal Government;U.S. Territory or Possession;Faith-based or Community-based Organizations;Regional Organizations.",
+        "estSynopsisPostingDate": "May 01, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Aug 01, 2026 12:00:00 AM EDT",
+        "estAwardDate": "Apr 01, 2027 12:00:00 AM EDT",
+        "estProjectStartDate": "May 01, 2027 12:00:00 AM EDT",
+        "fiscalYear": 2027,
+        "createTimeStamp": "Sep 18, 2025 03:53:10 PM EDT",
+        "createdDate": "Sep 18, 2025 03:53:10 PM EDT",
+        "lastUpdatedDate": "Sep 18, 2025 03:53:10 PM EDT",
+        "agencyDetails": {
+          "code": "NIH",
+          "seed": "HHS-NIH11",
+          "agencyName": "National Institutes of Health",
+          "agencyCode": "HHS-NIH11",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "1,000,000",
+        "awardCeilingFormatted": "1,000,000",
+        "applicantTypes": [
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-09-18-00-00-00",
+        "estSynopsisPostingDateStr": "2026-05-01-00-00-00",
+        "estApplicationResponseDateStr": "2026-08-01-00-00-00",
+        "estAwardDateStr": "2027-04-01-00-00-00",
+        "estProjectStartDateStr": "2027-05-01-00-00-00",
+        "createTimeStampStr": "2025-09-18-15-53-10"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 431151,
+          "opportunityId": 360629,
+          "cfdaNumber": "93.286",
+          "programTitle": "Discovery and Applied Research for Technological Innovations to Improve Human Health"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

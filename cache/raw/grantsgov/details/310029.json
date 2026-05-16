@@ -1,0 +1,185 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "310029",
+  "fetched_at": "2026-05-16T14:06:19.410Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InY3WUFLZTFMeFA5MXdHSWkzeXNBZ3A2RDRMYnF6b2N5aVU5RkhnZkZxdWc9Ig.uET-ksBuK_28IBQ3WbpmbOzpjR_80PENXMghCZ1XLWU",
+    "data": {
+      "id": 310029,
+      "revision": 1,
+      "opportunityNumber": "RDBCP-REAP-RES-EEI-2019",
+      "opportunityTitle": "Renewable Energy Systems and Energy Efficiency Improvements Program",
+      "owningAgencyCode": "USDA-RBCS",
+      "listed": "L",
+      "publisherUid": "maureen.hessel",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "M",
+        "description": "Mandatory"
+      },
+      "synopsis": {
+        "opportunityId": 310029,
+        "version": 1,
+        "agencyCode": "USDA-RBCS",
+        "agencyName": "Maureen Hessel\nBusiness Loan and Grant Analyst",
+        "agencyPhone": "2024010142",
+        "agencyAddressDesc": "Refer to energy coordinator list via link posted above.",
+        "agencyDetails": {
+          "code": "USDA-RBCS",
+          "seed": "USDA-RBCS",
+          "agencyName": "Rural Business-Cooperative Service ",
+          "agencyCode": "USDA-RBCS",
+          "topAgencyCode": "USDA"
+        },
+        "topAgencyDetails": {
+          "code": "USDA",
+          "seed": "USDA",
+          "agencyName": "Department of Agriculture",
+          "agencyCode": "USDA",
+          "topAgencyCode": "USDA"
+        },
+        "agencyContactPhone": "2024010142",
+        "agencyContactName": "Maureen Hessel\nBusiness Loan and Grant Analyst",
+        "agencyContactDesc": "Maureen Hessel\r\nBusiness Loan and Grant Analyst\r\nPhone 2024010142",
+        "agencyContactEmail": "maureen.hessel@wdc.usda.gov",
+        "agencyContactEmailDesc": "Refer to energy coordinator list via link posted above.",
+        "synopsisDesc": "REAP Renewable Energy Systems and Energy Efficiency Improvement Program.Refer to Application Package AND Application Instruction links to obtain all necessary forms for a complete application.Contact State Energy Coordinators with questions: http://www.rd.usda.gov/files/RBS_StateEnergyCoordinators.pdf",
+        "responseDateDesc": "REAP Applications are accepted year-round.For applicants requesting grants of $20,000 or less, that wish to have their application compete for the &quot;Grants of $20,000 or less set aside&quot;, complete applications must be received no later than 4:30pm local time on: October 31, 2018, or April 1, 2019. For applicants requesting grant funds of over $20,000, complete applications must be recevied no later than 4:30pm local time on April 1, 2019.",
+        "fundingDescLinkUrl": "http://www.rd.usda.gov/programs-services/rural-energy-america-program-renewable-energy-systems-energy-efficiency",
+        "fundingDescLinkDesc": "REAP Renewable Energy Systems and Energy Efficiency Improvements Program",
+        "postingDate": "Oct 30, 2018 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "1000",
+        "estimatedFunding": "35400000",
+        "estimatedFundingFormatted": "35,400,000",
+        "awardCeiling": "500000",
+        "awardCeilingFormatted": "500,000",
+        "awardFloor": "1500",
+        "awardFloorFormatted": "1,500",
+        "applicantEligibilityDesc": "Agricultural Producers",
+        "sendEmail": "Y",
+        "createTimeStamp": "Oct 30, 2018 04:44:14 PM EDT",
+        "createdDate": "Oct 30, 2018 04:38:45 PM EDT",
+        "lastUpdatedDate": "Oct 30, 2018 04:44:14 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "AG",
+            "description": "Agriculture"
+          },
+          {
+            "id": "BC",
+            "description": "Business and Commerce"
+          },
+          {
+            "id": "EN",
+            "description": "Energy"
+          }
+        ],
+        "postingDateStr": "2018-10-30-00-00-00",
+        "createTimeStampStr": "2018-10-30-16-44-14"
+      },
+      "agencyDetails": {
+        "code": "USDA-RBCS",
+        "seed": "USDA-RBCS",
+        "agencyName": "Rural Business-Cooperative Service ",
+        "agencyCode": "USDA-RBCS",
+        "topAgencyCode": "USDA"
+      },
+      "topAgencyDetails": {
+        "code": "USDA",
+        "seed": "USDA",
+        "agencyName": "Department of Agriculture",
+        "agencyCode": "USDA",
+        "topAgencyCode": "USDA"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 360053,
+          "opportunityId": 310029,
+          "cfdaNumber": "10.868",
+          "programTitle": "Rural Energy for America Program"
+        },
+        {
+          "id": 360073,
+          "opportunityId": 310029
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [
+        {
+          "id": 245998,
+          "topportunityId": 310029,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "RDBCP-REAP-RES-EEI-2019",
+          "opportunityTitle": "Renewable Energy Systems and Energy Efficiency Improvements Program",
+          "closingDate": "Sep 30, 2019 12:00:00 AM EDT",
+          "owningAgencyCode": "USDA-RBCS",
+          "contactInfo": "Maureen Hessel\r\nBusiness Loan and Grant Analyst\r\nE-mail: maureen.hessel@wdc.usda.gov\r\nPhone: 2024010142",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 3000,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 31, 2018 08:44:08 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00245998",
+          "closingDateStr": "2019-09-30-00-00-00"
+        }
+      ],
+      "originalDueDateDesc": "REAP Applications are accepted year-round.For applicants requesting grants of $20,000 or less, that wish to have their application compete for the &quot;Grants of $20,000 or less set aside&quot;, complete applications must be received no later than 4:30pm local time on: October 31, 2018, or April 1, 2019. For applicants requesting grant funds of over $20,000, complete applications must be recevied no later than 4:30pm local time on April 1, 2019.",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [
+        {
+          "sourceOpportunityId": 310029,
+          "opportunityId": 279638,
+          "opportunityNum": "RDBCP-REAP-RES-EEI-2016",
+          "opportunityTitle": "Renewable Energy Systems and Energy Efficiency Improvements Program",
+          "agencyCode": "USDA-RBCS",
+          "postedDate": "Oct 13, 2015",
+          "closeDate": "",
+          "comments": ""
+        }
+      ],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

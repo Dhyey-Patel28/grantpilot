@@ -1,0 +1,189 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361906",
+  "fetched_at": "2026-05-16T14:09:22.493Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlJVWndyVTk1UWk0d3lDYXRJcUR5RDJYWlVhS0ZrM2tMcUY3em9KN00wYUE9Ig.4TT8j3BbY2ZSsL6pAsgis1bfLttF-bU3yg4tnlHSuiQ",
+    "data": {
+      "id": 361906,
+      "revision": 0,
+      "opportunityNumber": "O-BJA-2025-172495",
+      "opportunityTitle": "BJA FY25 Rural Law Enforcement Violent Crime Reduction Initiative",
+      "owningAgencyCode": "USDOJ-OJP-BJA",
+      "listed": "L",
+      "publisherUid": "ojpuserbja",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361906,
+        "version": 1,
+        "agencyCode": "USDOJ-OJP-BJA",
+        "agencyName": "Bureau of Justice Assistance",
+        "agencyPhone": "202-514-9354",
+        "agencyAddressDesc": "OJP.ResourceCenter@usdoj.gov",
+        "agencyDetails": {
+          "code": "BJA",
+          "seed": "USDOJ-OJP-BJA",
+          "agencyName": "Bureau of Justice Assistance",
+          "agencyCode": "USDOJ-OJP-BJA",
+          "topAgencyCode": "USDOJ"
+        },
+        "topAgencyDetails": {
+          "code": "USDOJ",
+          "seed": "USDOJ",
+          "agencyName": "Department of Justice",
+          "agencyCode": "USDOJ",
+          "topAgencyCode": "USDOJ"
+        },
+        "agencyContactPhone": "202-514-9354",
+        "agencyContactName": "Bureau of Justice Assistance",
+        "agencyContactDesc": "OJP.ResourceCenter@usdoj.gov\nOJP.ResourceCenter@usdoj.gov",
+        "agencyContactEmail": "OJP.ResourceCenter@usdoj.gov",
+        "agencyContactEmailDesc": "OJP.ResourceCenter@usdoj.gov",
+        "synopsisDesc": "This funding opportunity seeks to support local law enforcement in rural jurisdictions to prevent, respond to, and reduce violent crime. The goal is to equip rural law enforcement agencies and prosecutors’ offices with the resources necessary to implement a violent crime reduction strategy to solve a specific violent crime challenge.",
+        "responseDate": "May 27, 2026 12:00:00 AM EDT",
+        "fundingDescLinkUrl": "https://bja.ojp.gov/funding/opportunities/o-bja-2025-172495",
+        "fundingDescLinkDesc": "https://bja.ojp.gov/funding/opportunities/o-bja-2025-172495",
+        "postingDate": "Apr 15, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "400000",
+        "awardCeilingFormatted": "400,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Units of local government",
+        "createTimeStamp": "Apr 15, 2026 12:21:10 PM EDT",
+        "createdDate": "Apr 15, 2026 12:21:10 PM EDT",
+        "lastUpdatedDate": "Apr 15, 2026 12:21:10 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "LJL",
+            "description": "Law, Justice and Legal Services"
+          }
+        ],
+        "responseDateStr": "2026-05-27-00-00-00",
+        "postingDateStr": "2026-04-15-00-00-00",
+        "createTimeStampStr": "2026-04-15-12-21-10"
+      },
+      "agencyDetails": {
+        "code": "BJA",
+        "seed": "USDOJ-OJP-BJA",
+        "agencyName": "Bureau of Justice Assistance",
+        "agencyCode": "USDOJ-OJP-BJA",
+        "topAgencyCode": "USDOJ"
+      },
+      "topAgencyDetails": {
+        "code": "USDOJ",
+        "seed": "USDOJ",
+        "agencyName": "Department of Justice",
+        "agencyCode": "USDOJ",
+        "topAgencyCode": "USDOJ"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432716,
+          "opportunityId": 361906,
+          "cfdaNumber": "16.039",
+          "programTitle": "Rural Violent Crime Initiative"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292417,
+          "topportunityId": 361906,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "O-BJA-2025-172495",
+          "opportunityTitle": "BJA FY25 Rural Law Enforcement Violent Crime Reduction Initiative",
+          "cfdaNumber": "16.039",
+          "openingDate": "2026-04-15",
+          "closingDate": "2026-05-27",
+          "owningAgencyCode": "USDOJ-OJP-BJA",
+          "agencyDetails": {
+            "code": "BJA",
+            "seed": "USDOJ-OJP-BJA",
+            "agencyName": "Bureau of Justice Assistance",
+            "agencyCode": "USDOJ-OJP-BJA",
+            "topAgencyCode": "USDOJ"
+          },
+          "topAgencyDetails": {
+            "code": "USDOJ",
+            "seed": "USDOJ",
+            "agencyName": "Department of Justice",
+            "agencyCode": "USDOJ",
+            "topAgencyCode": "USDOJ"
+          },
+          "programTitle": "Rural Violent Crime Initiative",
+          "contactInfo": "OJP Resource Center",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 90,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 15, 2026 12:21:21 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292417",
+          "openingDateStr": "2026-04-15-00-00-00",
+          "closingDateStr": "2026-05-27-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 27, 2026 12:00:00 AM EDT",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

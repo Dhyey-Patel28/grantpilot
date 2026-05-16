@@ -1,0 +1,305 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362258",
+  "fetched_at": "2026-05-16T14:10:11.162Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlFHUEUyakQ2UlRwTG9weUpXNlBwYm1HbUxYL3RzU3FsUE5MVlF4Y3FqUkk9Ig.OMZr6ZjIOuefw7X_A1d2mxSmJ2VoDICutucVQS6-5fw",
+    "data": {
+      "id": 362258,
+      "revision": 1,
+      "opportunityNumber": "NOAA-OAR-CPO-2026-33094",
+      "opportunityTitle": "Climate Program Office FY 2026 - Regional Integrated Sciences and Assessments (RISA)",
+      "owningAgencyCode": "DOC-DOCNOAAERA",
+      "listed": "L",
+      "publisherUid": "brandifranklin",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362258,
+        "version": 2,
+        "agencyCode": "DOC-DOCNOAAERA",
+        "agencyName": "Brandi L Franklin\nGrantor",
+        "agencyPhone": "3016830496",
+        "agencyAddressDesc": "Work",
+        "agencyDetails": {
+          "code": "DOCNOAAERA",
+          "seed": "DOC-DOCNOAAERA",
+          "agencyName": "DOC NOAA - ERA Production",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "topAgencyCode": "DOC"
+        },
+        "topAgencyDetails": {
+          "code": "DOC",
+          "seed": "DOC",
+          "agencyName": "Department of Commerce",
+          "agencyCode": "DOC",
+          "topAgencyCode": "DOC"
+        },
+        "agencyContactPhone": "3016830496",
+        "agencyContactName": "Brandi L Franklin\nGrantor",
+        "agencyContactDesc": "Please visit the CPO website for further information at www.cpo.noaa.gov.  For general NOFO questions, please contact Kathleen Palermo by email at Kathleen.Palermo@noaa.gov. For competition specific information, please contact the corresponding competition manager, (Sean Bath at oar.cpo.risa@noaa.gov),  Please allow up to two weeks after receipt for a response.",
+        "agencyContactEmail": "oar.cpo.risa@noaa.gov",
+        "agencyContactEmailDesc": "Work",
+        "synopsisDesc": "<p>Through this Notice of Federal Funding Opportunity, the NOAA Climate Program Oﬃce (https://cpo.noaa.gov/funding-opportunities/) of the Oﬃce of Oceanic and Atmospheric Research is soliciting proposals for the Regional Integrated Sciences and Assessments FY 2026 competition for cooperative agreements.</p><p><br></p><p>States and communities regularly face risks from weather and climate-driven hazards, including ﬂooding, extreme temperatures, water shortages, wildﬁres, and severe storms. These events directly impact the health, housing, safety, business development, and economies of communities and frequently recur in seasonal cycles. Beyond short-term cycles of emergency response, state and local governments are seeking to improve their understanding and address current risks, while improving their overall preparedness for future disasters. NOAA RISA teams are place-based science teams that provide support for planning and preparedness, with expertise in regional risks, local context, institutions, and approaches. These teams partner with decision-makers across multiple private and public sector organizations in their regions, including emergency managers, utilities, ports, small- and medium-sized businesses, rural towns, city planners, and regional councils.</p><p><br></p><p>In FY 2026, the RISA program will solicit proposals for teams in 9 regions of the United States. The proposal should articulate an integrated set of research and partnership activities that will meaningfully advance the resilience and preparedness of states and communities in each designated region. In the proposed projects, applicants should consider how the research and partnerships will lead to outcomes for planning and decision making and potential scalability within or across the region.</p>",
+        "responseDate": "Jun 05, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "May 05, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 04, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "estimatedFunding": "16200000",
+        "estimatedFundingFormatted": "16,200,000",
+        "awardCeiling": "1800000",
+        "awardCeilingFormatted": "1,800,000",
+        "awardFloor": "1",
+        "awardFloorFormatted": "1",
+        "applicantEligibilityDesc": "Eligible applicants are:Institutions of higher educationOther nonprofitsCommercial organizationsState, local, territorial, and tribal governments",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 06, 2026 10:36:43 AM EDT",
+        "modComments": "The opportunity Close Date and Letter of Intent (LOI) dates has been updated.",
+        "createdDate": "May 05, 2026 04:13:14 PM EDT",
+        "lastUpdatedDate": "May 06, 2026 10:34:51 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          },
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-06-05-00-00-00",
+        "postingDateStr": "2026-05-05-00-00-00",
+        "archiveDateStr": "2026-07-04-00-00-00",
+        "createTimeStampStr": "2026-05-06-10-36-43"
+      },
+      "agencyDetails": {
+        "code": "DOCNOAAERA",
+        "seed": "DOC-DOCNOAAERA",
+        "agencyName": "DOC NOAA - ERA Production",
+        "agencyCode": "DOC-DOCNOAAERA",
+        "topAgencyCode": "DOC"
+      },
+      "topAgencyDetails": {
+        "code": "DOC",
+        "seed": "DOC",
+        "agencyName": "Department of Commerce",
+        "agencyCode": "DOC",
+        "topAgencyCode": "DOC"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79598,
+          "opportunityId": 362258,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 120858,
+          "createdDate": "May 05, 2026 04:18:51 PM EDT",
+          "lastUpdatedDate": "May 06, 2026 10:36:43 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351801,
+              "opportunityId": 362258,
+              "mimeType": "application/pdf",
+              "fileName": "NOAA-OAR-CPO-2026-33094.pdf",
+              "fileDescription": "Full Announcement",
+              "fileLobSize": 138721,
+              "createdDate": "May 05, 2026 04:19:58 PM EDT",
+              "lastUpdatedDate": "May 06, 2026 10:36:43 AM EDT",
+              "synopsisAttFolderId": 79598
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 433163,
+          "opportunityId": 362258,
+          "cfdaNumber": "11.431",
+          "programTitle": "Climate and Atmospheric Research"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 362258,
+            "revision": 0
+          },
+          "opportunityId": 362258,
+          "revision": 0,
+          "opportunityNumber": "NOAA-OAR-CPO-2026-33094",
+          "opportunityTitle": "Climate Program Office FY 2026 - Regional Integrated Sciences and Assessments (RISA)",
+          "owningAgencyCode": "DOC-DOCNOAAERA",
+          "publisherUid": "brandifranklin",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 362258,
+              "revision": 0
+            },
+            "opportunityId": 362258,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOC-DOCNOAAERA",
+            "agencyAddressDesc": "Work",
+            "agencyDetails": {
+              "code": "DOCNOAAERA",
+              "seed": "DOC-DOCNOAAERA",
+              "agencyName": "DOC NOAA - ERA Production",
+              "agencyCode": "DOC-DOCNOAAERA",
+              "topAgencyCode": "DOC"
+            },
+            "agencyContactPhone": "3016830496",
+            "agencyContactName": "Brandi L Franklin\nGrantor",
+            "agencyContactDesc": "Please visit the CPO website for further information at www.cpo.noaa.gov.  For general NOFO questions, please contact Kathleen Palermo by email at Kathleen.Palermo@noaa.gov. For competition specific information, please contact the corresponding competition manager, (Sean Bath at oar.cpo.risa@noaa.gov),  Please allow up to two weeks after receipt for a response.",
+            "agencyContactEmail": "oar.cpo.risa@noaa.gov",
+            "agencyContactEmailDesc": "Work",
+            "synopsisDesc": "<p>Through this Notice of Federal Funding Opportunity, the NOAA Climate Program Oﬃce (https://cpo.noaa.gov/funding-opportunities/) of the Oﬃce of Oceanic and Atmospheric Research is soliciting proposals for the Regional Integrated Sciences and Assessments FY 2026 competition for cooperative agreements.</p><p><br></p><p>States and communities regularly face risks from weather and climate-driven hazards, including ﬂooding, extreme temperatures, water shortages, wildﬁres, and severe storms. These events directly impact the health, housing, safety, business development, and economies of communities and frequently recur in seasonal cycles. Beyond short-term cycles of emergency response, state and local governments are seeking to improve their understanding and address current risks, while improving their overall preparedness for future disasters. NOAA RISA teams are place-based science teams that provide support for planning and preparedness, with expertise in regional risks, local context, institutions, and approaches. These teams partner with decision-makers across multiple private and public sector organizations in their regions, including emergency managers, utilities, ports, small- and medium-sized businesses, rural towns, city planners, and regional councils.</p><p><br></p><p>In FY 2026, the RISA program will solicit proposals for teams in 9 regions of the United States. The proposal should articulate an integrated set of research and partnership activities that will meaningfully advance the resilience and preparedness of states and communities in each designated region. In the proposed projects, applicants should consider how the research and partnerships will lead to outcomes for planning and decision making and potential scalability within or across the region.</p>",
+            "responseDate": "Jun 04, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "May 05, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 04, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "estimatedFunding": "16200000",
+            "estimatedFundingFormatted": "16,200,000",
+            "awardCeiling": "1800000",
+            "awardCeilingFormatted": "1,800,000",
+            "awardFloor": "1",
+            "awardFloorFormatted": "1",
+            "applicantEligibilityDesc": "Eligible applicants are:\r\n\r\nInstitutions of higher education\r\nOther nonprofits\r\nCommercial organizations\r\nState, local, territorial, and tribal governments",
+            "createTimeStamp": "May 05, 2026 04:19:58 PM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "May 06, 2026 10:34:51 AM EDT",
+            "createdDate": "May 05, 2026 04:13:14 PM EDT",
+            "lastUpdatedDate": "May 05, 2026 04:13:14 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              },
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2026-06-04-00-00-00",
+            "postingDateStr": "2026-05-05-00-00-00",
+            "archiveDateStr": "2026-07-04-00-00-00",
+            "createTimeStampStr": "2026-05-05-16-19-58"
+          },
+          "cfdas": [
+            {
+              "id": 433163,
+              "opportunityId": 362258,
+              "revision": 0,
+              "cfdaNumber": "11.431",
+              "programTitle": "Climate and Atmospheric Research"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292688,
+          "topportunityId": 362258,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "NOAA-OAR-CPO-2026-33094",
+          "opportunityTitle": "Climate Program Office FY 2026 - Regional Integrated Sciences and Assessments (RISA)",
+          "cfdaNumber": "11.431",
+          "openingDate": "2026-05-05",
+          "closingDate": "2026-06-05",
+          "owningAgencyCode": "DOC-DOCNOAAERA",
+          "agencyDetails": {
+            "code": "DOCNOAAERA",
+            "seed": "DOC-DOCNOAAERA",
+            "agencyName": "DOC NOAA - ERA Production",
+            "agencyCode": "DOC-DOCNOAAERA",
+            "topAgencyCode": "DOC"
+          },
+          "topAgencyDetails": {
+            "code": "DOC",
+            "seed": "DOC",
+            "agencyName": "Department of Commerce",
+            "agencyCode": "DOC",
+            "topAgencyCode": "DOC"
+          },
+          "programTitle": "Climate and Atmospheric Research",
+          "contactInfo": "Please visit the CPO website for further information at www.cpo.noaa.gov.  For general NOFO questions, please contact Kathleen Palermo by email at Kathleen.Palermo@noaa.gov. For competition specific information, please contact the corresponding competition manager, (Sean Bath at oar.cpo.risa@noaa.gov),  Please allow up to two weeks after receipt for a response.",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 10,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "May 06, 2026 10:36:07 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292688",
+          "openingDateStr": "2026-05-05-00-00-00",
+          "closingDateStr": "2026-06-05-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 04, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "responseDate",
+        "applicantEligibilityDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

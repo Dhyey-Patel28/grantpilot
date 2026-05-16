@@ -1,0 +1,35 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=13805",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=13805",
+  "website": "https://www.rd.usda.gov/programs-services/community-facilities/community-facilities-direct-loan-grant-program-29",
+  "grant_id": "13805",
+  "title": "Community Facilities Direct Loan & Grant Program in Michigan",
+  "overview": "Goal/purpose: This program provides affordable funding to develop essential community facilities in rural areas. An essential community facility is defined as a facility that provides an essential service to the local community for the orderly development of the community in a primarily rural area, and does not include private, commercial or business undertakings.Additional applicant eligibility criteria: Applicants must have legal authority to borrow money, obtain security, repay loans, construct, operate, and maintain the proposed facilities. They must be unable to finance the project from their own resources and/or through commercial credit at reasonable rates and terms. The facilities must serve the rural area where they are located, demonstrate substantial community support, and have an acceptable completed environmental review.Project eligibility: Funds can be used to purchase, construct, and/or improve essential community facilities, purchase equipment, and pay related project expenses. Examples include health care facilities, public facilities, community support services, public safety services, educational services, utility services, and local food systems. Projects must be located in eligible rural areas with no more than 20,000 residents.Application process: Applications are accepted on an ongoing basis year-round from October 1 to September 30. Applicants should contact their local Rural Development office to discuss their specific project and review requirements. Applicants must request a Unique Entity ID number and register with the System for Award Management (SAM) prior to applying. Show More",
+  "additional_info": "Posted Date: Not Specified Application Due Date: Not Specified Estimated Award Date: Not Specified Eligible Applicants: City or township governmentsCounty governmentsSpecial district governmentsNative American tribal governments (Federally recognized)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education Show More",
+  "eligible_applicants": [
+    "City or township governmentsCounty governmentsSpecial district governmentsNative American tribal governments (Federally recognized)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "agriculture",
+    "environment",
+    "health",
+    "housing",
+    "public_safety"
+  ],
+  "due_date": "",
+  "agency": "Michigan USDA-RD",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:05.767Z",
+  "content_hash": "2037351889cb168b971c36ff53185bce0657041d47ffc6d1331b6ead4c6f4755",
+  "from_cache": false
+}

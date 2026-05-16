@@ -1,0 +1,175 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362105",
+  "fetched_at": "2026-05-16T14:09:53.968Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVUK1hheFRGZjNYYnhNbEpjYVhFWU9yTGplaVlQOVRIdTg0MlZVMXVNQnc9Ig.zAWV_Tm5xKz0nCUF5Azx5Uon_DVl3XIPU7zDRR5uyyo",
+    "data": {
+      "id": 362105,
+      "revision": 0,
+      "opportunityNumber": "W9126G262SOI9343",
+      "opportunityTitle": "Tree Island Wildlife Habitat Assessment for Water Conservation Area 3 and Everglades National Park, Florida",
+      "owningAgencyCode": "DOD",
+      "listed": "L",
+      "publisherUid": "yvonne.howard",
+      "flag2006": "N",
+      "opportunityCategoryExplanation": "Request for Statements of Interest to identify potential investigators for Tree Island Wildlife Habitat Assessment for Water Conservation Area 3 and Everglades National Park, Florida for 10 USC 4001 (formerly 2358).",
+      "opportunityCategory": {
+        "category": "O",
+        "description": "Other"
+      },
+      "synopsis": {
+        "opportunityId": 362105,
+        "version": 3,
+        "agencyCode": "DOD",
+        "agencyName": "Yvonne Howard\nGrantor",
+        "agencyPhone": "817-751-9737",
+        "agencyAddressDesc": "yvonne.howard@usace.army.mil",
+        "agencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "817-751-9737",
+        "agencyContactName": "Yvonne Howard\nGrantor",
+        "agencyContactDesc": "Yvonne Howard\r\nGrantor\r\nPhone 817-751-9737",
+        "agencyContactEmail": "yvonne.howard@usace.army.mil",
+        "agencyContactEmailDesc": "yvonne.howard@usace.army.mil",
+        "synopsisDesc": "<p><strong>Agency Name: </strong> Fort Worth District</p><p><br></p><p><strong>Description:</strong></p><p><strong>Note: A full study proposal and proposed budget are NOT requested at this time.</strong></p><p><br></p><p><strong>Project Title:</strong> Tree Island Wildlife Habitat Assessment for Water Conservation Area 3 and Everglades National Park, Florida</p><p><br></p><p>Responses to this Request for Statements of Interest will be used to identify potential organizations for this project.&nbsp;Approximately<strong> $200,000</strong> is expected to be available to support this project for the base period.&nbsp;Additional funding may be available to the successful recipient for optional tasks and/or follow on work in subsequent years.&nbsp;&nbsp;</p><p><br></p><p><strong>Description of Anticipated Work:</strong> See attached Statement of Objectives.</p><p><br></p><p><strong>Period of Performance.</strong>&nbsp;&nbsp;The base period of the agreement will extend 12 months from the date of award. There may be up to two (2) 12-month follow-on periods based on availability of funding.</p><p><br></p><p><strong>Note: A full study proposal and proposed budget are NOT requested at this time.</strong></p><p><br></p><p><strong>Submission of Your Statement of Interest</strong></p><p><br></p><p>Statements of Interest (SOI) are due by<strong> 1:00 PM, CDT, on&nbsp;28 May 2026 </strong>via email to the parties listed below.&nbsp;&nbsp;</p><p><br></p><p>Direct questions no later than <strong>1:00 PM, CDT, on 08 May 2026</strong> via email to the parties listed below.&nbsp;&nbsp;</p><p><br></p><p>Yvonne Howard</p><p>Grants Specialist</p><p>USACE, Fort Worth District</p><p>Email: yvonne.howard@usace.army.mil</p><p>Office:&nbsp;817-751-9737</p><p>AND</p><p>Nicole D. Baker</p><p>Project Manager</p><p>USACE, Fort Worth District&nbsp;</p><p>Email: nicole.d.baker@usace.army.mil</p><p>Office: 918-669-4939</p><p><br></p><p><strong>Timeline for Review of Statements of Interest: </strong>RSOIs are required to be posted on www.Grants.gov for 30 days prior to the Government making a decision and requesting full proposals.&nbsp;&nbsp;</p>",
+        "responseDate": "May 28, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Apr 28, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 26, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "630500",
+        "awardCeilingFormatted": "630,500",
+        "awardFloor": "200000",
+        "awardFloorFormatted": "200,000",
+        "applicantEligibilityDesc": "This funding opportunity is ONLY available for Cooperative Ecosystem Study Units under the Gulf Coast and South Florida-Caribbean CESU Regions.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 28, 2026 07:18:51 PM EDT",
+        "createdDate": "Apr 28, 2026 07:05:08 PM EDT",
+        "lastUpdatedDate": "Apr 28, 2026 07:13:53 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-05-28-00-00-00",
+        "postingDateStr": "2026-04-28-00-00-00",
+        "archiveDateStr": "2026-06-26-00-00-00",
+        "createTimeStampStr": "2026-04-28-19-18-51"
+      },
+      "agencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79418,
+          "opportunityId": 362105,
+          "folderType": "Full Announcement",
+          "folderName": "FULL RSOI and SOO",
+          "zipLobSize": 1534897,
+          "createdDate": "Apr 28, 2026 07:16:10 PM EDT",
+          "lastUpdatedDate": "Apr 28, 2026 07:16:59 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351514,
+              "opportunityId": 362105,
+              "mimeType": "application/pdf",
+              "fileName": "B01-RSOI W9126G26SOI9343_RD.pdf",
+              "fileDescription": "RSOI W9126G262SOI9343",
+              "fileLobSize": 1552937,
+              "createdDate": "Apr 28, 2026 07:16:58 PM EDT",
+              "synopsisAttFolderId": 79418
+            }
+          ]
+        },
+        {
+          "id": 79419,
+          "opportunityId": 362105,
+          "folderType": "Other Supporting Documents",
+          "folderName": "NIST REQUIREMENTS",
+          "zipLobSize": 3859698,
+          "createdDate": "Apr 28, 2026 07:18:08 PM EDT",
+          "lastUpdatedDate": "Apr 28, 2026 07:18:51 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351515,
+              "opportunityId": 362105,
+              "mimeType": "application/pdf",
+              "fileName": "B01-NIST Requirement Notice.pdf",
+              "fileDescription": "NIST REQUIREMENT NOTICE",
+              "fileLobSize": 3872904,
+              "createdDate": "Apr 28, 2026 07:18:51 PM EDT",
+              "synopsisAttFolderId": 79419
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432948,
+          "opportunityId": 362105,
+          "cfdaNumber": "12.005",
+          "programTitle": "Conservation and Rehabilitation of Natural Resources on Military Installations"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 28, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

@@ -1,0 +1,1442 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361496",
+  "fetched_at": "2026-05-16T14:08:53.498Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldVS2dnSjZQR2p1UE9WTXplSXpvUDhnM1gvMjh6VVlnencxQ3VTSXNkeVE9Ig.lSliI9gIf-2z2d3D5lf-VbjIfajw0bVFMve3_e3xNKk",
+    "data": {
+      "id": 361496,
+      "revision": 8,
+      "opportunityNumber": "HRSA-26-104",
+      "opportunityTitle": "Transforming Pediatrics for Early Childhood (TPEC) Program",
+      "owningAgencyCode": "HHS-HRSA",
+      "listed": "L",
+      "publisherUid": "126180912667672078351494559614883671930",
+      "modifiedComments": "changing dates",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "HRSA",
+        "seed": "HHS-HRSA",
+        "agencyName": "Health Resources and Services Administration",
+        "agencyCode": "HHS-HRSA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 361496,
+        "version": 9,
+        "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 15, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p style=\"margin-left:0px;\">The Transforming Pediatrics for Early Childhood Program (TPEC) will advance the U.S. Department of Health and Human Services’ Make America Healthy Again (MAHA) priorities by preventing chronic disease early in life and promoting healthy development in early childhood. TPEC recipients - organizations with statewide or tribal reach - will place early childhood development (ECD) experts in local pediatric practices to deliver team-based care to young children and their families. Recipients will improve the quality and cost effectiveness of pediatric primary care by delivering a comprehensive team-based approach that focuses on factors critical to child development. Through this approach, pediatric primary care staff will:  </p><ul><li>​Screen families for their needs related to mental health, housing, nutrition, and child development;  </li><li>​Build safe, stable, and nurturing relationships between caregivers and their children;  </li><li>​Educate caregivers on developmental milestones and how to watch for them; and  </li><li>​Make sure that families get referrals and access to additional or specialized support.  &nbsp;</li></ul><p style=\"margin-left:0px;\">TPEC recipients will:</p><ol><li>Place early childhood development (ECD) experts in pediatric practices that primarily serve families covered by Medicaid/Children’s Health Insurance Program (CHIP) and deliver high-quality ECD services using a team-based approach.</li><li>Build the skills of pediatric primary care staff statewide to deliver high-quality ECD services using a team-based approach.&nbsp;</li><li>Improve statewide administrative policies and financing strategies to expand and sustain team-based pediatric primary care, improving the standard of care for all young children.&nbsp;</li></ol><p style=\"margin-left:0px;\">TPEC will result in measurable improvements in service delivery rates and early childhood development outcomes.&nbsp;</p>",
+        "costSharing": false,
+        "numberOfAwards": "10",
+        "estimatedFunding": "9500000",
+        "awardCeiling": "950000",
+        "awardFloor": "0",
+        "agencyContactName": "Maternal and Child Health Bureau - Division of Home Visiting and Early Childhood Systems",
+        "agencyContactPhone": "(301) 443-1440",
+        "agencyContactEmail": "HomeVisiting@hrsa.gov &#8203;",
+        "agencyContactEmailDesc": "TPEC Program",
+        "agencyCode": "HHS-HRSA",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "Other Eligibility Criteria&quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau. Existing award recipients under the FY 2022 TPEC program funding opportunity (HRSA-22-141) whose period of performance ends September 29, 2027, are eligible to apply for funding under this announcement. If funded, the existing FY 2022 TPEC award will be relinquished, and a new award period of performance will begin. If an existing recipient applies but is not awarded funding under this announcement, their FY 2022 TPEC award will continue at the original level of funding through the end of the project period.",
+        "estSynopsisPostingDate": "May 15, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jun 15, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+        "estAwardDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "changing dates",
+        "createTimeStamp": "May 05, 2026 11:36:42 AM EDT",
+        "createdDate": "Mar 13, 2026 01:43:08 PM EDT",
+        "lastUpdatedDate": "May 05, 2026 11:36:42 AM EDT",
+        "agencyDetails": {
+          "code": "HRSA",
+          "seed": "HHS-HRSA",
+          "agencyName": "Health Resources and Services Administration",
+          "agencyCode": "HHS-HRSA",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "9,500,000",
+        "awardCeilingFormatted": "950,000",
+        "awardFloorFormatted": "0",
+        "applicantTypes": [
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2026-03-13-00-00-00",
+        "archiveDateStr": "2026-07-15-00-00-00",
+        "estSynopsisPostingDateStr": "2026-05-15-00-00-00",
+        "estApplicationResponseDateStr": "2026-06-15-00-00-00",
+        "estAwardDateStr": "2026-09-30-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-05-05-11-36-42"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432219,
+          "opportunityId": 361496,
+          "cfdaNumber": "93.110",
+          "programTitle": "Special Projects of Regional and National Significance"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361496,
+            "revision": 0
+          },
+          "opportunityId": 361496,
+          "revision": 0,
+          "opportunityNumber": "HRSA-26-104",
+          "opportunityTitle": "Transforming Pediatrics for Early Childhood (TPEC) Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361496,
+              "revision": 0
+            },
+            "opportunityId": 361496,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+            "archiveDate": "Aug 14, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p style=\"margin-left:0px;\">The Transforming Pediatrics for Early Childhood Program (TPEC) will advance the U.S. Department of Health and Human Services’ Make America Healthy Again (MAHA) priorities by preventing chronic disease early in life and promoting healthy development in early childhood. TPEC recipients - organizations with statewide or tribal reach - will place early childhood development (ECD) experts in local pediatric practices to deliver team-based care to young children and their families. Recipients will improve the quality and cost effectiveness of pediatric primary care by delivering a comprehensive team-based approach that focuses on factors critical to child development. Through this approach, pediatric primary care staff will:  </p><ul><li style=\"margin-left:0px;\">​Screen families for their needs related to mental health, housing, nutrition, and child development;  </li><li style=\"margin-left:0px;\">​Build safe, stable, and nurturing relationships between caregivers and their children;  </li><li style=\"margin-left:0px;\">​Educate caregivers on developmental milestones and how to watch for them; and  </li><li style=\"margin-left:0px;\">​Make sure that families get referrals and access to additional or specialized support.  &nbsp;</li></ul><p style=\"margin-left:0px;\">TPEC recipients will:</p><ol><li style=\"margin-left:0px;\">Place early childhood development (ECD) experts in pediatric practices that primarily serve families covered by Medicaid/Children’s Health Insurance Program (CHIP) and deliver high-quality ECD services using a team-based approach.</li><li style=\"margin-left:0px;\">Build the skills of pediatric primary care staff statewide to deliver high-quality ECD services using a team-based approach.&nbsp;</li><li style=\"margin-left:0px;\">Improve statewide administrative policies and financing strategies to expand and sustain team-based pediatric primary care, improving the standard of care for all young children.&nbsp;</li></ol><p style=\"margin-left:0px;\">TPEC will result in measurable improvements in service delivery rates and early childhood development outcomes.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "10",
+            "estimatedFunding": "9500000",
+            "awardCeiling": "950000",
+            "awardFloor": "0",
+            "agencyContactName": "Maternal and Child Health Bureau - Division of Home Visiting and Early Childhood Systems",
+            "agencyContactPhone": "(301) 443-1440",
+            "agencyContactEmail": "HomeVisiting@hrsa.gov &#8203;",
+            "agencyContactEmailDesc": "TPEC Program",
+            "agencyCode": "HHS-HRSA",
+            "applicantEligibilityDesc": "Other Eligibility Criteria&quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "May 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jul 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Mar 13, 2026 01:43:08 PM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 19, 2026 02:43:51 PM EDT",
+            "createdDate": "Mar 13, 2026 01:43:08 PM EDT",
+            "lastUpdatedDate": "Mar 13, 2026 01:43:08 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "9,500,000",
+            "awardCeilingFormatted": "950,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-03-13-00-00-00",
+            "archiveDateStr": "2026-08-14-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-15-00-00-00",
+            "estApplicationResponseDateStr": "2026-07-15-00-00-00",
+            "estAwardDateStr": "2026-09-30-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-03-13-13-43-08"
+          },
+          "cfdas": [
+            {
+              "id": 432219,
+              "opportunityId": 361496,
+              "revision": 7,
+              "cfdaNumber": "93.110",
+              "programTitle": "Special Projects of Regional and National Significance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361496,
+            "revision": 1
+          },
+          "opportunityId": 361496,
+          "revision": 1,
+          "opportunityNumber": "HRSA-26-104",
+          "opportunityTitle": "Transforming Pediatrics for Early Childhood (TPEC) Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361496,
+              "revision": 1
+            },
+            "opportunityId": 361496,
+            "revision": 1,
+            "version": 2,
+            "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+            "archiveDate": "Aug 14, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p style=\"margin-left:0px;\">The Transforming Pediatrics for Early Childhood Program (TPEC) will advance the U.S. Department of Health and Human Services’ Make America Healthy Again (MAHA) priorities by preventing chronic disease early in life and promoting healthy development in early childhood. TPEC recipients - organizations with statewide or tribal reach - will place early childhood development (ECD) experts in local pediatric practices to deliver team-based care to young children and their families. Recipients will improve the quality and cost effectiveness of pediatric primary care by delivering a comprehensive team-based approach that focuses on factors critical to child development. Through this approach, pediatric primary care staff will:  </p><ul><li style=\"margin-left:0px;\">​Screen families for their needs related to mental health, housing, nutrition, and child development;  </li><li style=\"margin-left:0px;\">​Build safe, stable, and nurturing relationships between caregivers and their children;  </li><li style=\"margin-left:0px;\">​Educate caregivers on developmental milestones and how to watch for them; and  </li><li style=\"margin-left:0px;\">​Make sure that families get referrals and access to additional or specialized support.  &nbsp;</li></ul><p style=\"margin-left:0px;\">TPEC recipients will:</p><ol><li style=\"margin-left:0px;\">Place early childhood development (ECD) experts in pediatric practices that primarily serve families covered by Medicaid/Children’s Health Insurance Program (CHIP) and deliver high-quality ECD services using a team-based approach.</li><li style=\"margin-left:0px;\">Build the skills of pediatric primary care staff statewide to deliver high-quality ECD services using a team-based approach.&nbsp;</li><li style=\"margin-left:0px;\">Improve statewide administrative policies and financing strategies to expand and sustain team-based pediatric primary care, improving the standard of care for all young children.&nbsp;</li></ol><p style=\"margin-left:0px;\">TPEC will result in measurable improvements in service delivery rates and early childhood development outcomes.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "10",
+            "estimatedFunding": "9500000",
+            "awardCeiling": "950000",
+            "awardFloor": "0",
+            "agencyContactName": "Maternal and Child Health Bureau - Division of Home Visiting and Early Childhood Systems",
+            "agencyContactPhone": "(301) 443-1440",
+            "agencyContactEmail": "HomeVisiting@hrsa.gov &#8203;",
+            "agencyContactEmailDesc": "TPEC Program",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Other Eligibility Criteria&quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau. Existing award recipients under the FY 2022 TPEC program funding opportunity (HRSA-22-141) whose period of performance ends September 29, 2027 are eligible to apply for funding under this announcement. If funded, the existing TPEC award will be relinquished, and a new award period of performance will begin. If an existing recipient applies but is not awarded funding under this announcement, the existing award will continue at the original level of funding through the project period end date.",
+            "estSynopsisPostingDate": "May 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jul 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated eligibility",
+            "createTimeStamp": "Mar 19, 2026 02:43:51 PM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 19, 2026 02:43:52 PM EDT",
+            "createdDate": "Mar 13, 2026 01:43:08 PM EDT",
+            "lastUpdatedDate": "Mar 19, 2026 02:43:51 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "9,500,000",
+            "awardCeilingFormatted": "950,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-03-13-00-00-00",
+            "archiveDateStr": "2026-08-14-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-15-00-00-00",
+            "estApplicationResponseDateStr": "2026-07-15-00-00-00",
+            "estAwardDateStr": "2026-09-30-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-03-19-14-43-51"
+          },
+          "cfdas": [
+            {
+              "id": 432219,
+              "opportunityId": 361496,
+              "revision": 7,
+              "cfdaNumber": "93.110",
+              "programTitle": "Special Projects of Regional and National Significance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "applicantEligibilityDesc",
+            "applicantEligibilityDesc",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361496,
+            "revision": 2
+          },
+          "opportunityId": 361496,
+          "revision": 2,
+          "opportunityNumber": "HRSA-26-104",
+          "opportunityTitle": "Transforming Pediatrics for Early Childhood (TPEC) Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated eligibility",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361496,
+              "revision": 2
+            },
+            "opportunityId": 361496,
+            "revision": 2,
+            "version": 3,
+            "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+            "archiveDate": "Aug 14, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p style=\"margin-left:0px;\">The Transforming Pediatrics for Early Childhood Program (TPEC) will advance the U.S. Department of Health and Human Services’ Make America Healthy Again (MAHA) priorities by preventing chronic disease early in life and promoting healthy development in early childhood. TPEC recipients - organizations with statewide or tribal reach - will place early childhood development (ECD) experts in local pediatric practices to deliver team-based care to young children and their families. Recipients will improve the quality and cost effectiveness of pediatric primary care by delivering a comprehensive team-based approach that focuses on factors critical to child development. Through this approach, pediatric primary care staff will:  </p><ul><li style=\"margin-left:0px;\">​Screen families for their needs related to mental health, housing, nutrition, and child development;  </li><li style=\"margin-left:0px;\">​Build safe, stable, and nurturing relationships between caregivers and their children;  </li><li style=\"margin-left:0px;\">​Educate caregivers on developmental milestones and how to watch for them; and  </li><li style=\"margin-left:0px;\">​Make sure that families get referrals and access to additional or specialized support.  &nbsp;</li></ul><p style=\"margin-left:0px;\">TPEC recipients will:</p><ol><li style=\"margin-left:0px;\">Place early childhood development (ECD) experts in pediatric practices that primarily serve families covered by Medicaid/Children’s Health Insurance Program (CHIP) and deliver high-quality ECD services using a team-based approach.</li><li style=\"margin-left:0px;\">Build the skills of pediatric primary care staff statewide to deliver high-quality ECD services using a team-based approach.&nbsp;</li><li style=\"margin-left:0px;\">Improve statewide administrative policies and financing strategies to expand and sustain team-based pediatric primary care, improving the standard of care for all young children.&nbsp;</li></ol><p style=\"margin-left:0px;\">TPEC will result in measurable improvements in service delivery rates and early childhood development outcomes.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "10",
+            "estimatedFunding": "9500000",
+            "awardCeiling": "950000",
+            "awardFloor": "0",
+            "agencyContactName": "Maternal and Child Health Bureau - Division of Home Visiting and Early Childhood Systems",
+            "agencyContactPhone": "(301) 443-1440",
+            "agencyContactEmail": "HomeVisiting@hrsa.gov &#8203;",
+            "agencyContactEmailDesc": "TPEC Program",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Other Eligibility Criteria&quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau. Existing award recipients under the FY 2022 TPEC program funding opportunity (HRSA-22-141) whose period of performance ends September 29, 2027 are eligible to apply for funding under this announcement. If funded, the existing TPEC award will be relinquished, and a new award period of performance will begin. If an existing recipient applies but is not awarded funding under this announcement, the existing award will continue at the original level of funding through the project period end date.",
+            "estSynopsisPostingDate": "May 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jul 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated eligibility",
+            "createTimeStamp": "Mar 19, 2026 02:43:52 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 13, 2026 05:12:33 PM EDT",
+            "createdDate": "Mar 13, 2026 01:43:08 PM EDT",
+            "lastUpdatedDate": "Mar 19, 2026 02:43:52 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "9,500,000",
+            "awardCeilingFormatted": "950,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-03-13-00-00-00",
+            "archiveDateStr": "2026-08-14-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-15-00-00-00",
+            "estApplicationResponseDateStr": "2026-07-15-00-00-00",
+            "estAwardDateStr": "2026-09-30-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-03-19-14-43-52"
+          },
+          "cfdas": [
+            {
+              "id": 432219,
+              "opportunityId": 361496,
+              "revision": 7,
+              "cfdaNumber": "93.110",
+              "programTitle": "Special Projects of Regional and National Significance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361496,
+            "revision": 3
+          },
+          "opportunityId": 361496,
+          "revision": 3,
+          "opportunityNumber": "HRSA-26-104",
+          "opportunityTitle": "Transforming Pediatrics for Early Childhood (TPEC) Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated eligibility",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361496,
+              "revision": 3
+            },
+            "opportunityId": 361496,
+            "revision": 3,
+            "version": 4,
+            "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p style=\"margin-left:0px;\">The Transforming Pediatrics for Early Childhood Program (TPEC) will advance the U.S. Department of Health and Human Services’ Make America Healthy Again (MAHA) priorities by preventing chronic disease early in life and promoting healthy development in early childhood. TPEC recipients - organizations with statewide or tribal reach - will place early childhood development (ECD) experts in local pediatric practices to deliver team-based care to young children and their families. Recipients will improve the quality and cost effectiveness of pediatric primary care by delivering a comprehensive team-based approach that focuses on factors critical to child development. Through this approach, pediatric primary care staff will:  </p><ul><li>​Screen families for their needs related to mental health, housing, nutrition, and child development;  </li><li>​Build safe, stable, and nurturing relationships between caregivers and their children;  </li><li>​Educate caregivers on developmental milestones and how to watch for them; and  </li><li>​Make sure that families get referrals and access to additional or specialized support.  &nbsp;</li></ul><p style=\"margin-left:0px;\">TPEC recipients will:</p><ol><li>Place early childhood development (ECD) experts in pediatric practices that primarily serve families covered by Medicaid/Children’s Health Insurance Program (CHIP) and deliver high-quality ECD services using a team-based approach.</li><li>Build the skills of pediatric primary care staff statewide to deliver high-quality ECD services using a team-based approach.&nbsp;</li><li>Improve statewide administrative policies and financing strategies to expand and sustain team-based pediatric primary care, improving the standard of care for all young children.&nbsp;</li></ol><p style=\"margin-left:0px;\">TPEC will result in measurable improvements in service delivery rates and early childhood development outcomes.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "10",
+            "estimatedFunding": "9500000",
+            "awardCeiling": "950000",
+            "awardFloor": "0",
+            "agencyContactName": "Maternal and Child Health Bureau - Division of Home Visiting and Early Childhood Systems",
+            "agencyContactPhone": "(301) 443-1440",
+            "agencyContactEmail": "HomeVisiting@hrsa.gov &#8203;",
+            "agencyContactEmailDesc": "TPEC Program",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "N",
+            "applicantEligibilityDesc": "Other Eligibility Criteria&quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "May 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updating dates",
+            "createTimeStamp": "Apr 13, 2026 05:12:33 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 13, 2026 05:12:33 PM EDT",
+            "createdDate": "Mar 13, 2026 01:43:08 PM EDT",
+            "lastUpdatedDate": "Apr 13, 2026 05:12:33 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "9,500,000",
+            "awardCeilingFormatted": "950,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-03-13-00-00-00",
+            "archiveDateStr": "2026-07-01-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-01-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-01-00-00-00",
+            "estAwardDateStr": "2026-09-30-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-04-13-17-12-33"
+          },
+          "cfdas": [
+            {
+              "id": 432219,
+              "opportunityId": 361496,
+              "revision": 7,
+              "cfdaNumber": "93.110",
+              "programTitle": "Special Projects of Regional and National Significance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "applicantEligibilityDesc",
+            "forecastDesc",
+            "archiveDate",
+            "applicantEligibilityDesc",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361496,
+            "revision": 4
+          },
+          "opportunityId": 361496,
+          "revision": 4,
+          "opportunityNumber": "HRSA-26-104",
+          "opportunityTitle": "Transforming Pediatrics for Early Childhood (TPEC) Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updating dates",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361496,
+              "revision": 4
+            },
+            "opportunityId": 361496,
+            "revision": 4,
+            "version": 5,
+            "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p style=\"margin-left:0px;\">The Transforming Pediatrics for Early Childhood Program (TPEC) will advance the U.S. Department of Health and Human Services’ Make America Healthy Again (MAHA) priorities by preventing chronic disease early in life and promoting healthy development in early childhood. TPEC recipients - organizations with statewide or tribal reach - will place early childhood development (ECD) experts in local pediatric practices to deliver team-based care to young children and their families. Recipients will improve the quality and cost effectiveness of pediatric primary care by delivering a comprehensive team-based approach that focuses on factors critical to child development. Through this approach, pediatric primary care staff will:  </p><ul><li>​Screen families for their needs related to mental health, housing, nutrition, and child development;  </li><li>​Build safe, stable, and nurturing relationships between caregivers and their children;  </li><li>​Educate caregivers on developmental milestones and how to watch for them; and  </li><li>​Make sure that families get referrals and access to additional or specialized support.  &nbsp;</li></ul><p style=\"margin-left:0px;\">TPEC recipients will:</p><ol><li>Place early childhood development (ECD) experts in pediatric practices that primarily serve families covered by Medicaid/Children’s Health Insurance Program (CHIP) and deliver high-quality ECD services using a team-based approach.</li><li>Build the skills of pediatric primary care staff statewide to deliver high-quality ECD services using a team-based approach.&nbsp;</li><li>Improve statewide administrative policies and financing strategies to expand and sustain team-based pediatric primary care, improving the standard of care for all young children.&nbsp;</li></ol><p style=\"margin-left:0px;\">TPEC will result in measurable improvements in service delivery rates and early childhood development outcomes.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "10",
+            "estimatedFunding": "9500000",
+            "awardCeiling": "950000",
+            "awardFloor": "0",
+            "agencyContactName": "Maternal and Child Health Bureau - Division of Home Visiting and Early Childhood Systems",
+            "agencyContactPhone": "(301) 443-1440",
+            "agencyContactEmail": "HomeVisiting@hrsa.gov &#8203;",
+            "agencyContactEmailDesc": "TPEC Program",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "N",
+            "applicantEligibilityDesc": "Other Eligibility Criteria&quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "May 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updating dates",
+            "createTimeStamp": "Apr 13, 2026 05:12:33 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 21, 2026 12:58:22 PM EDT",
+            "createdDate": "Mar 13, 2026 01:43:08 PM EDT",
+            "lastUpdatedDate": "Apr 13, 2026 05:12:33 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "9,500,000",
+            "awardCeilingFormatted": "950,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-03-13-00-00-00",
+            "archiveDateStr": "2026-07-01-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-01-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-01-00-00-00",
+            "estAwardDateStr": "2026-09-30-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-04-13-17-12-33"
+          },
+          "cfdas": [
+            {
+              "id": 432219,
+              "opportunityId": 361496,
+              "revision": 7,
+              "cfdaNumber": "93.110",
+              "programTitle": "Special Projects of Regional and National Significance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361496,
+            "revision": 5
+          },
+          "opportunityId": 361496,
+          "revision": 5,
+          "opportunityNumber": "HRSA-26-104",
+          "opportunityTitle": "Transforming Pediatrics for Early Childhood (TPEC) Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updating dates",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361496,
+              "revision": 5
+            },
+            "opportunityId": 361496,
+            "revision": 5,
+            "version": 6,
+            "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p style=\"margin-left:0px;\">The Transforming Pediatrics for Early Childhood Program (TPEC) will advance the U.S. Department of Health and Human Services’ Make America Healthy Again (MAHA) priorities by preventing chronic disease early in life and promoting healthy development in early childhood. TPEC recipients - organizations with statewide or tribal reach - will place early childhood development (ECD) experts in local pediatric practices to deliver team-based care to young children and their families. Recipients will improve the quality and cost effectiveness of pediatric primary care by delivering a comprehensive team-based approach that focuses on factors critical to child development. Through this approach, pediatric primary care staff will:  </p><ul><li>​Screen families for their needs related to mental health, housing, nutrition, and child development;  </li><li>​Build safe, stable, and nurturing relationships between caregivers and their children;  </li><li>​Educate caregivers on developmental milestones and how to watch for them; and  </li><li>​Make sure that families get referrals and access to additional or specialized support.  &nbsp;</li></ul><p style=\"margin-left:0px;\">TPEC recipients will:</p><ol><li>Place early childhood development (ECD) experts in pediatric practices that primarily serve families covered by Medicaid/Children’s Health Insurance Program (CHIP) and deliver high-quality ECD services using a team-based approach.</li><li>Build the skills of pediatric primary care staff statewide to deliver high-quality ECD services using a team-based approach.&nbsp;</li><li>Improve statewide administrative policies and financing strategies to expand and sustain team-based pediatric primary care, improving the standard of care for all young children.&nbsp;</li></ol><p style=\"margin-left:0px;\">TPEC will result in measurable improvements in service delivery rates and early childhood development outcomes.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "10",
+            "estimatedFunding": "9500000",
+            "awardCeiling": "950000",
+            "awardFloor": "0",
+            "agencyContactName": "Maternal and Child Health Bureau - Division of Home Visiting and Early Childhood Systems",
+            "agencyContactPhone": "(301) 443-1440",
+            "agencyContactEmail": "HomeVisiting@hrsa.gov &#8203;",
+            "agencyContactEmailDesc": "TPEC Program",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Other Eligibility Criteria&quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau. Existing award recipients under the FY 2022 TPEC program funding opportunity (HRSA-22-141) whose period of performance ends September 29, 2027, are eligible to apply for funding under this announcement. If funded, the existing FY 2022 TPEC award will be relinquished, and a new award period of performance will begin. If an existing recipient applies but is not awarded funding under this announcement, their FY 2022 TPEC award will continue at the original level of funding through the end of the project period.",
+            "estSynopsisPostingDate": "May 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated eligibility.",
+            "createTimeStamp": "Apr 21, 2026 12:58:22 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 21, 2026 12:58:23 PM EDT",
+            "createdDate": "Mar 13, 2026 01:43:08 PM EDT",
+            "lastUpdatedDate": "Apr 21, 2026 12:58:22 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "9,500,000",
+            "awardCeilingFormatted": "950,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-03-13-00-00-00",
+            "archiveDateStr": "2026-07-01-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-01-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-01-00-00-00",
+            "estAwardDateStr": "2026-09-30-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-04-21-12-58-22"
+          },
+          "cfdas": [
+            {
+              "id": 432219,
+              "opportunityId": 361496,
+              "revision": 7,
+              "cfdaNumber": "93.110",
+              "programTitle": "Special Projects of Regional and National Significance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "applicantEligibilityDesc",
+            "applicantEligibilityDesc",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361496,
+            "revision": 6
+          },
+          "opportunityId": 361496,
+          "revision": 6,
+          "opportunityNumber": "HRSA-26-104",
+          "opportunityTitle": "Transforming Pediatrics for Early Childhood (TPEC) Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated eligibility.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361496,
+              "revision": 6
+            },
+            "opportunityId": 361496,
+            "revision": 6,
+            "version": 7,
+            "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p style=\"margin-left:0px;\">The Transforming Pediatrics for Early Childhood Program (TPEC) will advance the U.S. Department of Health and Human Services’ Make America Healthy Again (MAHA) priorities by preventing chronic disease early in life and promoting healthy development in early childhood. TPEC recipients - organizations with statewide or tribal reach - will place early childhood development (ECD) experts in local pediatric practices to deliver team-based care to young children and their families. Recipients will improve the quality and cost effectiveness of pediatric primary care by delivering a comprehensive team-based approach that focuses on factors critical to child development. Through this approach, pediatric primary care staff will:  </p><ul><li>​Screen families for their needs related to mental health, housing, nutrition, and child development;  </li><li>​Build safe, stable, and nurturing relationships between caregivers and their children;  </li><li>​Educate caregivers on developmental milestones and how to watch for them; and  </li><li>​Make sure that families get referrals and access to additional or specialized support.  &nbsp;</li></ul><p style=\"margin-left:0px;\">TPEC recipients will:</p><ol><li>Place early childhood development (ECD) experts in pediatric practices that primarily serve families covered by Medicaid/Children’s Health Insurance Program (CHIP) and deliver high-quality ECD services using a team-based approach.</li><li>Build the skills of pediatric primary care staff statewide to deliver high-quality ECD services using a team-based approach.&nbsp;</li><li>Improve statewide administrative policies and financing strategies to expand and sustain team-based pediatric primary care, improving the standard of care for all young children.&nbsp;</li></ol><p style=\"margin-left:0px;\">TPEC will result in measurable improvements in service delivery rates and early childhood development outcomes.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "10",
+            "estimatedFunding": "9500000",
+            "awardCeiling": "950000",
+            "awardFloor": "0",
+            "agencyContactName": "Maternal and Child Health Bureau - Division of Home Visiting and Early Childhood Systems",
+            "agencyContactPhone": "(301) 443-1440",
+            "agencyContactEmail": "HomeVisiting@hrsa.gov &#8203;",
+            "agencyContactEmailDesc": "TPEC Program",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Other Eligibility Criteria&quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau. Existing award recipients under the FY 2022 TPEC program funding opportunity (HRSA-22-141) whose period of performance ends September 29, 2027, are eligible to apply for funding under this announcement. If funded, the existing FY 2022 TPEC award will be relinquished, and a new award period of performance will begin. If an existing recipient applies but is not awarded funding under this announcement, their FY 2022 TPEC award will continue at the original level of funding through the end of the project period.",
+            "estSynopsisPostingDate": "May 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated eligibility.",
+            "createTimeStamp": "Apr 21, 2026 12:58:23 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 05, 2026 11:36:41 AM EDT",
+            "createdDate": "Mar 13, 2026 01:43:08 PM EDT",
+            "lastUpdatedDate": "Apr 21, 2026 12:58:23 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "9,500,000",
+            "awardCeilingFormatted": "950,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-03-13-00-00-00",
+            "archiveDateStr": "2026-07-01-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-01-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-01-00-00-00",
+            "estAwardDateStr": "2026-09-30-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-04-21-12-58-23"
+          },
+          "cfdas": [
+            {
+              "id": 432219,
+              "opportunityId": 361496,
+              "revision": 7,
+              "cfdaNumber": "93.110",
+              "programTitle": "Special Projects of Regional and National Significance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361496,
+            "revision": 7
+          },
+          "opportunityId": 361496,
+          "revision": 7,
+          "opportunityNumber": "HRSA-26-104",
+          "opportunityTitle": "Transforming Pediatrics for Early Childhood (TPEC) Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated eligibility.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361496,
+              "revision": 7
+            },
+            "opportunityId": 361496,
+            "revision": 7,
+            "version": 8,
+            "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 15, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p style=\"margin-left:0px;\">The Transforming Pediatrics for Early Childhood Program (TPEC) will advance the U.S. Department of Health and Human Services’ Make America Healthy Again (MAHA) priorities by preventing chronic disease early in life and promoting healthy development in early childhood. TPEC recipients - organizations with statewide or tribal reach - will place early childhood development (ECD) experts in local pediatric practices to deliver team-based care to young children and their families. Recipients will improve the quality and cost effectiveness of pediatric primary care by delivering a comprehensive team-based approach that focuses on factors critical to child development. Through this approach, pediatric primary care staff will:  </p><ul><li>​Screen families for their needs related to mental health, housing, nutrition, and child development;  </li><li>​Build safe, stable, and nurturing relationships between caregivers and their children;  </li><li>​Educate caregivers on developmental milestones and how to watch for them; and  </li><li>​Make sure that families get referrals and access to additional or specialized support.  &nbsp;</li></ul><p style=\"margin-left:0px;\">TPEC recipients will:</p><ol><li>Place early childhood development (ECD) experts in pediatric practices that primarily serve families covered by Medicaid/Children’s Health Insurance Program (CHIP) and deliver high-quality ECD services using a team-based approach.</li><li>Build the skills of pediatric primary care staff statewide to deliver high-quality ECD services using a team-based approach.&nbsp;</li><li>Improve statewide administrative policies and financing strategies to expand and sustain team-based pediatric primary care, improving the standard of care for all young children.&nbsp;</li></ol><p style=\"margin-left:0px;\">TPEC will result in measurable improvements in service delivery rates and early childhood development outcomes.&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "10",
+            "estimatedFunding": "9500000",
+            "awardCeiling": "950000",
+            "awardFloor": "0",
+            "agencyContactName": "Maternal and Child Health Bureau - Division of Home Visiting and Early Childhood Systems",
+            "agencyContactPhone": "(301) 443-1440",
+            "agencyContactEmail": "HomeVisiting@hrsa.gov &#8203;",
+            "agencyContactEmailDesc": "TPEC Program",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Other Eligibility Criteria&quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau. Existing award recipients under the FY 2022 TPEC program funding opportunity (HRSA-22-141) whose period of performance ends September 29, 2027, are eligible to apply for funding under this announcement. If funded, the existing FY 2022 TPEC award will be relinquished, and a new award period of performance will begin. If an existing recipient applies but is not awarded funding under this announcement, their FY 2022 TPEC award will continue at the original level of funding through the end of the project period.",
+            "estSynopsisPostingDate": "May 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "changing dates",
+            "createTimeStamp": "May 05, 2026 11:36:41 AM EDT",
+            "actionType": "U",
+            "actionDate": "May 05, 2026 11:36:42 AM EDT",
+            "createdDate": "Mar 13, 2026 01:43:08 PM EDT",
+            "lastUpdatedDate": "May 05, 2026 11:36:41 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "9,500,000",
+            "awardCeilingFormatted": "950,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-03-13-00-00-00",
+            "archiveDateStr": "2026-07-15-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-15-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-15-00-00-00",
+            "estAwardDateStr": "2026-09-30-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-05-05-11-36-41"
+          },
+          "cfdas": [
+            {
+              "id": 432219,
+              "opportunityId": 361496,
+              "revision": 7,
+              "cfdaNumber": "93.110",
+              "programTitle": "Special Projects of Regional and National Significance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 8,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

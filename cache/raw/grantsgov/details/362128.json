@@ -1,0 +1,176 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362128",
+  "fetched_at": "2026-05-16T14:09:57.839Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVUK1hheFRGZjNYYnhNbEpjYVhFWURLUnNWOHV6V1hJbjN5UlNOdzV2cjQ9Ig.nVJIWOajkWavTtKTrC6fJ6ys_VM_FwFviniC7FobWt4",
+    "data": {
+      "id": 362128,
+      "revision": 0,
+      "opportunityNumber": "HHS-2026-ACF-ACYF-TS-0013",
+      "opportunityTitle": "Title V Competitive Sexual Risk Avoidance Education",
+      "owningAgencyCode": "HHS-ACF-FYSB",
+      "publisherUid": "63890787833131766027530892347803189092",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "FYSB",
+        "seed": "HHS-ACF-FYSB",
+        "agencyName": "Administration for Children & Families - ACYF/FYSB",
+        "agencyCode": "HHS-ACF-FYSB",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 362128,
+        "version": 1,
+        "postingDate": "Apr 29, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>The Title V Competitive SRAE program competitively funds projects to implement sexual risk avoidance education that teaches youth ages 10-19 how to voluntarily refrain from non-marital sexual activity. Projects must: 1) use medically accurate information referencing peer-reviewed publications by educational, scientific, governmental, or health organizations; 2) implement an evidence-based approach integrating research findings with practical strategies that align with the needs and desired outcomes for the intended audience; 3) teach the benefits associated with personal responsibility, self-regulation, goal setting, healthy decision making, and a focus on the future; 4) discourage sexual coercion, dating violence, and other youth risk behaviors such as underage drinking or illicit drug use; 5) be culturally appropriate, recognizing the experiences of youth from diverse communities, backgrounds, and experiences; 6) normalize avoiding non-marital sexual activity; and 7) be age-appropriate. This opportunity supports the development and implementation of such projects in states that do not accept FY 2026 allocations for Title V State SRAE.</p>",
+        "costSharing": false,
+        "numberOfAwards": "20",
+        "estimatedFunding": "8358870",
+        "awardCeiling": "450000",
+        "awardFloor": "13501",
+        "agencyContactName": "Ch&eacute;ri Thompson",
+        "agencyContactPhone": "202-205-8173",
+        "agencyContactEmail": "FYSB.NOFO.CSRAE@acf.hhs.gov",
+        "agencyContactEmailDesc": "FYSB.NOFO.CSRAE@acf.hhs.gov",
+        "agencyCode": "HHS-ACF-FYSB",
+        "applicantEligibilityDesc": "Eligibility is limited to local organizations and entities, including faith-based organizations, located in states that have not accepted their fiscal year Title V State SRAE allotment. Applications from individuals (including sole proprietorships) and foreign entities are not eligible and will be disqualified from the merit review and funding under this funding opportunity. Faith-based and community organizations that meet the eligibility requirements are eligible for awards under this funding opportunity.",
+        "estSynopsisPostingDate": "Jun 22, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jul 29, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm Eastern Standard Time on the listed application due date.",
+        "estAwardDate": "Sep 15, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "Apr 29, 2026 01:55:49 PM EDT",
+        "createdDate": "Apr 29, 2026 01:55:49 PM EDT",
+        "lastUpdatedDate": "Apr 29, 2026 01:55:49 PM EDT",
+        "agencyDetails": {
+          "code": "FYSB",
+          "seed": "HHS-ACF-FYSB",
+          "agencyName": "Administration for Children & Families - ACYF/FYSB",
+          "agencyCode": "HHS-ACF-FYSB",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "8,358,870",
+        "awardCeilingFormatted": "450,000",
+        "awardFloorFormatted": "13,501",
+        "applicantTypes": [
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ISS",
+            "description": "Income Security and Social Services"
+          }
+        ],
+        "postingDateStr": "2026-04-29-00-00-00",
+        "estSynopsisPostingDateStr": "2026-06-22-00-00-00",
+        "estApplicationResponseDateStr": "2026-07-29-00-00-00",
+        "estAwardDateStr": "2026-09-15-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-04-29-13-55-49"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432974,
+          "opportunityId": 362128,
+          "cfdaNumber": "93.787",
+          "programTitle": "Title V Sexual Risk Avoidance Education Program (Discretionary Grants)"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

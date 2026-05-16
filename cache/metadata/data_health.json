@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-05-16T14:26:29.170Z",
+  "total_normalized_real_grants": 613,
+  "by_source": {
+    "Grants.gov": 499,
+    "MI Funding Hub": 114
+  },
+  "by_status": {
+    "unknown": 374,
+    "open": 151,
+    "closing_soon": 88
+  },
+  "known_mi_funding_hub_urls": 114,
+  "known_grants_gov_opportunities": 552,
+  "notes": [
+    "This cache is built from public configured sources.",
+    "Public information can be fragmented; this does not guarantee every grant on the internet.",
+    "Use cached JSON for demos instead of live refresh during judging."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=14816",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=14816",
+  "website": "https://www.grants.gov/search-results-detail/362143",
+  "grant_id": "14816",
+  "title": "Agricultural Genome to Phenome Initiative - Research Grants",
+  "overview": "The National Institute of Food and Agriculture\"s Agricultural Genome to Phenome Initiative (AG2PI), Assistance Listing 10.332, is intended to: Study agriculturally significant crops and animals in production environments to achieve viable and secure agricultural production.Ensure that current gaps in existing knowledge of agricultural crops, animal genetics, and phenomics are filled.Identify and develop a functional understanding of relevant genes from animals and agronomically relevant genes from crops that are of importance to the agriculture sector of the United States.Ensure future genetic improvement of crops and animals of importance to the agriculture sector of the United States.Study the relevance of different germplasm as a source of unique genes that may be of importance in the future.Enhance genetics to reduce the economic impact of pathogens on crops and animals of importance to the agriculture sector of the United States.Disseminate findings to relevant audiences. Show More",
+  "additional_info": "Posted Date: April 30, 2026 Application Due Date: June 29, 2026 Estimated Award Date: Not Specified Eligible Applicants: Others Show More",
+  "eligible_applicants": [
+    "Others"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "agriculture",
+    "environment"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Agriculture",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:41.322Z",
+  "content_hash": "0ded15d367504cf6d3af99e6eaba6cb6f7a60ec6fd7579b1cfc44505fe1818e4",
+  "from_cache": false
+}

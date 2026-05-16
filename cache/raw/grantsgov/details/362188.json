@@ -1,0 +1,230 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362188",
+  "fetched_at": "2026-05-16T14:10:06.472Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjRmMEtrZGdxU2pLckM5WWkxa1VPWlIzN2hSTHYwVDU2UE9LSVk3Y0R4NnM9Ig.FrKtuIMeRcf_vLgUaw3la5pE0_xcwKyiI2SyDbXWzls",
+    "data": {
+      "id": 362188,
+      "revision": 0,
+      "opportunityNumber": "DOS-PDS-FY26-02",
+      "opportunityTitle": "American Center Kampala Management and Programming",
+      "owningAgencyCode": "DOS-UGA",
+      "listed": "L",
+      "publisherUid": "BangiranaCS",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362188,
+        "version": 1,
+        "agencyCode": "DOS-UGA",
+        "agencyName": "Carol Bangirana\nGrantor",
+        "agencyPhone": "256414306001",
+        "agencyAddressDesc": "\"For Inquiries\"",
+        "agencyDetails": {
+          "code": "UGA",
+          "seed": "DOS-UGA",
+          "agencyName": "U.S. Mission to Uganda",
+          "agencyCode": "DOS-UGA",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "256414306001",
+        "agencyContactName": "Carol Bangirana\nGrantor",
+        "agencyContactDesc": "Mission Uganda Public Affairs Grants Management Team\r\nGrantor\r\nPhone 256414306001",
+        "agencyContactEmail": "kampalagrants@state.gov",
+        "agencyContactEmailDesc": "&quot;For Inquiries&quot;",
+        "synopsisDesc": "<p><span style=\"color: black;\">The U.S. Department of State’s Embassy Uganda announces an open competition for management and operations of the American Center Kampala. This award will support a comprehensive program advancing U.S. priorities in Uganda through cultural and educational exchange by providing a strategic public platform where Ugandans can access information,&nbsp;participate&nbsp;in programs, and engage directly with American ideas and values.&nbsp;</span></p>\n<p><span style=\"color: black;\">The selected organization will manage all aspects of the American Center's daily operations, including, but not limited to, facility management, security coordination, staff supervision, and visitor services. The implementer must maintain a welcoming, clean, accessible hub that provides information about American culture, values, and educational opportunities, while building strong partnerships with local institutions, demonstrating effective resource management, establishing robust monitoring and evaluation systems, and employing innovative approaches to audience engagement.</span></p>\n<p><span style=\"color: black;\">Additionally, the award recipient will develop and implement dynamic public programming that promotes mutual understanding between the United States and Uganda, including educational workshops, cultural events, English language programs, speaker series, and digital engagement initiatives. Programs must be interactive, accessible, and tailored to local audiences, including students, educators, entrepreneurs, and civil society leaders—while aligning with Embassy priorities and supporting key themes such as democratic governance, economic prosperity, educational opportunity, and people-to-people ties.</span></p>\n<p><span style=\"color: black;\">The U.S. Embassy will retain responsibility for the American Center’s strategic direction, including setting goals and priorities, approving programming, and providing policy guidance. The implementer will work closely with Embassy staff to align activities with U.S. foreign policy objectives, comply with U.S. government regulations, and report on outcomes. </span></p>\n<p><span style=\"color: black;\">The award period is 12 months and may be renewed on a non-competitive basis subject to availability of funds, satisfactory performance, and a determination that continued funding serves the best interest of the U.S. Department of State.</span></p>",
+        "responseDate": "May 29, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "May 04, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 28, 2026 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "Public Diplomacy",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "70000",
+        "estimatedFundingFormatted": "70,000",
+        "awardCeiling": "70000",
+        "awardCeilingFormatted": "70,000",
+        "awardFloor": "30000",
+        "awardFloorFormatted": "30,000",
+        "applicantEligibilityDesc": "",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 04, 2026 03:03:06 AM EDT",
+        "createdDate": "May 04, 2026 02:56:21 AM EDT",
+        "lastUpdatedDate": "May 04, 2026 02:56:21 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "responseDateStr": "2026-05-29-00-00-00",
+        "postingDateStr": "2026-05-04-00-00-00",
+        "archiveDateStr": "2026-06-28-00-00-00",
+        "createTimeStampStr": "2026-05-04-03-03-06"
+      },
+      "agencyDetails": {
+        "code": "UGA",
+        "seed": "DOS-UGA",
+        "agencyName": "U.S. Mission to Uganda",
+        "agencyCode": "DOS-UGA",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79521,
+          "opportunityId": 362188,
+          "folderType": "Full Announcement",
+          "folderName": "AC Operations",
+          "zipLobSize": 264535,
+          "createdDate": "May 04, 2026 02:57:36 AM EDT",
+          "lastUpdatedDate": "May 04, 2026 03:03:06 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351693,
+              "opportunityId": 362188,
+              "mimeType": "application/pdf",
+              "fileName": "Detailed Budget Worksheet.pdf",
+              "fileDescription": "Detailed Budget Worksheet",
+              "fileLobSize": 25032,
+              "createdDate": "May 04, 2026 03:00:49 AM EDT",
+              "synopsisAttFolderId": 79521
+            },
+            {
+              "id": 351695,
+              "opportunityId": 362188,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "Attachment-6.-Instructions-ME-Performance-Monitoring-Plan-PMP-2.docx",
+              "fileDescription": "M&amp;E plan",
+              "fileLobSize": 185667,
+              "createdDate": "May 04, 2026 03:03:06 AM EDT",
+              "synopsisAttFolderId": 79521
+            },
+            {
+              "id": 351694,
+              "opportunityId": 362188,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "Attachment 3. Applicant Organization Information (AOI) Survey (1).docx",
+              "fileDescription": "Organization Information",
+              "fileLobSize": 49963,
+              "createdDate": "May 04, 2026 03:01:33 AM EDT",
+              "synopsisAttFolderId": 79521
+            },
+            {
+              "id": 351692,
+              "opportunityId": 362188,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "Proposal Template.docx",
+              "fileDescription": "Proposal Template",
+              "fileLobSize": 42824,
+              "createdDate": "May 04, 2026 02:59:27 AM EDT",
+              "synopsisAttFolderId": 79521
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 433052,
+          "opportunityId": 362188,
+          "cfdaNumber": "19.022",
+          "programTitle": "Educational and Cultural Exchange Programs Appropriation Overseas Grants"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292611,
+          "topportunityId": 362188,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "DOS-PDS-FY26-02",
+          "opportunityTitle": "American Center Kampala Management and Programming",
+          "cfdaNumber": "19.022",
+          "openingDate": "2026-05-04",
+          "closingDate": "2026-05-29",
+          "owningAgencyCode": "DOS-UGA",
+          "agencyDetails": {
+            "code": "UGA",
+            "seed": "DOS-UGA",
+            "agencyName": "U.S. Mission to Uganda",
+            "agencyCode": "DOS-UGA",
+            "topAgencyCode": "DOS"
+          },
+          "topAgencyDetails": {
+            "code": "DOS",
+            "seed": "DOS",
+            "agencyName": "Department of State",
+            "agencyCode": "DOS",
+            "topAgencyCode": "DOS"
+          },
+          "programTitle": "Educational and Cultural Exchange Programs Appropriation Overseas Grants",
+          "contactInfo": "Mission Uganda Public Affairs Grants Management Team\r\nGrantor\r\nE-mail: kampalagrants@state.gov\r\nPhone: 256414306001",
+          "competitionId": "DOS-PDS-FY26-02",
+          "competitionTitle": "American Center Kampala Management and Programming",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 6,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "May 04, 2026 03:13:40 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292611",
+          "openingDateStr": "2026-05-04-00-00-00",
+          "closingDateStr": "2026-05-29-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 29, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

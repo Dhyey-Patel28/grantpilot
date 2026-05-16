@@ -1,0 +1,1324 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "356605",
+  "fetched_at": "2026-05-16T14:07:26.320Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InRKalZkaHlQeXJkSDl2YmtwNG9sTm5HWmNLVm9kSXFxR1BLaU1vajJrZ0E9Ig.30VniRYqmUb87FnNnzizV5N9tXe39ThIZVJNgXeZxtM",
+    "data": {
+      "id": 356605,
+      "revision": 9,
+      "opportunityNumber": "N0001425SB001",
+      "opportunityTitle": "FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology",
+      "owningAgencyCode": "DOD-ONR",
+      "listed": "L",
+      "publisherUid": "mmurray5",
+      "modifiedComments": "Amendment 0007 - Addition of clause FAR 52.222-90",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 356605,
+        "version": 11,
+        "agencyCode": "DOD-ONR",
+        "agencyName": "Matthew Murray\nContracting Specialist",
+        "agencyPhone": "703-696-4257",
+        "agencyAddressDesc": "For additional questions related to this posting.",
+        "agencyDetails": {
+          "code": "ONR",
+          "seed": "DOD-ONR",
+          "agencyName": "Office of Naval Research",
+          "agencyCode": "DOD-ONR",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "703-696-4257",
+        "agencyContactName": "Matthew Murray\nContracting Specialist",
+        "agencyContactDesc": "Veronica Lacey\r\nGrantor\r\nPhone: 703-696-2593",
+        "agencyContactEmail": "veronica.y.lacey.civ@us.navy.mil",
+        "agencyContactEmailDesc": "For additional questions related to this posting.",
+        "synopsisDesc": "<p>ONR, ONRG, and MCWL are interested in receiving proposals for Long-Range S&amp;T Projects that offer potential for advancement and improvement of Navy and Marine Corps operations. Readers should note that this is an announcement to declare ONR, ONRG and MCWL’s broad role in competitive funding of meritorious research across a spectrum of science and engineering disciplines.</p><p><br></p><p>All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.</p>",
+        "responseDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://www.onr.navy.mil/work-with-us/funding-opportunities",
+        "fundingDescLinkDesc": "Link to all ONR funding announcements.",
+        "postingDate": "Oct 01, 2024 12:00:00 AM EDT",
+        "archiveDate": "Oct 30, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "applicantEligibilityDesc": "All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. Historically Black Colleges and Universities (HBCUs) and Minority Institutions (MIs) are encouraged to submit proposals and join others in submitting proposals; however, no portion of this BAA will be set aside for HBCUs/MIs, small businesses or other socio-economic participation. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.Federally Funded Research &amp; Development Centers (FFRDCs), including Department of Energy National Laboratories, are not eligible to receive awards under this BAA. However, teaming arrangements between FFRDCs and eligible principal Offerors are allowed so long as such arrangements are permitted under the sponsoring agreement between the Government and the specific FFRDC.Navy laboratories, military universities and warfare centers as well as other Department of Defense and civilian agency laboratories are also not eligible to receive awards under this BAA and should not directly submit either white papers or full proposals in response to this BAA. If any such organization is interested in one or more of the programs described herein, the organization should contact an appropriate ONR Technical POC to discuss its area of interest.University Affiliated Research Centers (UARCs) are eligible to submit proposals under this BAA unless precluded from doing so by their Department of Defense UARC contract.Teams are also encouraged and may submit proposals in any areas; however, Offerors must be willing to cooperate and exchange software, data and other information in an integrated program with other contractors, as well as with system integrators, selected by ONR.Disclosures of current and pending support made in this application may render an applicant ineligible for funding. Prior to award and throughout the period of performance, DoD may continue to request updated continuing and pending support information, which will be reviewed and may result in discontinuation of funding.",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 14, 2026 03:00:08 PM EDT",
+        "modComments": "Amendment 0007 - Addition of clause FAR 52.222-90",
+        "createdDate": "Oct 01, 2024 10:15:50 AM EDT",
+        "lastUpdatedDate": "May 14, 2026 02:58:43 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "G",
+            "description": "Grant"
+          },
+          {
+            "id": "O",
+            "description": "Other"
+          },
+          {
+            "id": "PC",
+            "description": "Procurement Contract"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-09-30-00-00-00",
+        "postingDateStr": "2024-10-01-00-00-00",
+        "archiveDateStr": "2026-10-30-00-00-00",
+        "createTimeStampStr": "2026-05-14-15-00-08"
+      },
+      "agencyDetails": {
+        "code": "ONR",
+        "seed": "DOD-ONR",
+        "agencyName": "Office of Naval Research",
+        "agencyCode": "DOD-ONR",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 74819,
+          "opportunityId": 356605,
+          "folderType": "Full Announcement",
+          "folderName": "FY25 Long Range BAA",
+          "zipLobSize": 671476,
+          "createdDate": "Oct 01, 2024 10:17:41 AM EDT",
+          "lastUpdatedDate": "Oct 01, 2024 10:18:10 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 342968,
+              "opportunityId": 356605,
+              "mimeType": "application/pdf",
+              "fileName": "N0001425SB001.pdf",
+              "fileDescription": "FY25 Long Range BAA",
+              "fileLobSize": 810412,
+              "createdDate": "Oct 01, 2024 10:18:10 AM EDT",
+              "synopsisAttFolderId": 74819
+            }
+          ]
+        },
+        {
+          "id": 74826,
+          "opportunityId": 356605,
+          "folderType": "Revised Full Announcement",
+          "folderName": "Amendments",
+          "zipLobSize": 7318713,
+          "createdDate": "Oct 01, 2024 02:06:02 PM EDT",
+          "lastUpdatedDate": "May 14, 2026 02:59:26 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 342983,
+              "opportunityId": 356605,
+              "mimeType": "application/pdf",
+              "fileName": "N0001425SB001_Amendment 0001.pdf",
+              "fileDescription": "N0001425SB001 - Amendment 0001",
+              "fileLobSize": 810329,
+              "createdDate": "Oct 01, 2024 02:06:30 PM EDT",
+              "synopsisAttFolderId": 74826
+            },
+            {
+              "id": 344280,
+              "opportunityId": 356605,
+              "mimeType": "application/pdf",
+              "fileName": "N0001425SB001_Amendment 0002.pdf",
+              "fileDescription": "N0001425SB001 - Amendment 0002",
+              "fileLobSize": 827645,
+              "createdDate": "Nov 18, 2024 03:26:43 PM EST",
+              "synopsisAttFolderId": 74826
+            },
+            {
+              "id": 346988,
+              "opportunityId": 356605,
+              "mimeType": "application/pdf",
+              "fileName": "N0001425SB001_Amendment 0003.pdf",
+              "fileDescription": "N0001425SB001 - Amendment 0003",
+              "fileLobSize": 828552,
+              "createdDate": "Mar 11, 2025 10:56:05 AM EDT",
+              "synopsisAttFolderId": 74826
+            },
+            {
+              "id": 347864,
+              "opportunityId": 356605,
+              "mimeType": "application/pdf",
+              "fileName": "N0001425SB001_Amendment 0004.pdf",
+              "fileDescription": "N0001425SB001 - Amendment 0004",
+              "fileLobSize": 829708,
+              "createdDate": "May 29, 2025 09:27:09 AM EDT",
+              "synopsisAttFolderId": 74826
+            },
+            {
+              "id": 349491,
+              "opportunityId": 356605,
+              "mimeType": "application/pdf",
+              "fileName": "N0001425SB001_Amendment 0005 (Clean).pdf",
+              "fileDescription": "N0001425SB001 - Amendment 0005 (Clean)",
+              "fileLobSize": 1350386,
+              "createdDate": "Sep 26, 2025 12:18:45 PM EDT",
+              "lastUpdatedDate": "Sep 26, 2025 12:18:58 PM EDT",
+              "synopsisAttFolderId": 74826
+            },
+            {
+              "id": 349490,
+              "opportunityId": 356605,
+              "mimeType": "application/pdf",
+              "fileName": "N0001425SB001_Amendment 0005 (Redlined).pdf",
+              "fileDescription": "N0001425SB001 - Amendment 0005 (Redlined)",
+              "fileLobSize": 1416015,
+              "createdDate": "Sep 26, 2025 12:18:25 PM EDT",
+              "synopsisAttFolderId": 74826
+            },
+            {
+              "id": 350058,
+              "opportunityId": 356605,
+              "mimeType": "application/pdf",
+              "fileName": "N0001425SB001_Amendment 0006.pdf",
+              "fileDescription": "N0001425SB001 - Amendment 0006",
+              "fileLobSize": 756638,
+              "createdDate": "Jan 14, 2026 04:37:21 PM EST",
+              "synopsisAttFolderId": 74826
+            },
+            {
+              "id": 352048,
+              "opportunityId": 356605,
+              "mimeType": "application/pdf",
+              "fileName": "N0001425SB001_Amendment 0007.pdf",
+              "fileDescription": "N0001425SB001 - Amendment 0007",
+              "fileLobSize": 1286475,
+              "createdDate": "May 14, 2026 02:59:26 PM EDT",
+              "synopsisAttFolderId": 74826
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [
+        {
+          "id": {
+            "opportunityId": 356605,
+            "attType": "D",
+            "createdDate": "May 14, 2026 03:00:08 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "May 14, 2026"
+          },
+          "changeComments": "Amendment 0007 - Addition of clause FAR 52.222-90"
+        },
+        {
+          "id": {
+            "opportunityId": 356605,
+            "attType": "D",
+            "createdDate": "Jan 14, 2026 04:37:45 PM EST",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Jan 14, 2026"
+          },
+          "changeComments": "Amendment 0006 has been posted."
+        },
+        {
+          "id": {
+            "opportunityId": 356605,
+            "attType": "D",
+            "createdDate": "Sep 26, 2025 12:19:34 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Sep 26, 2025"
+          },
+          "changeComments": "Amendment 0005 - Announcement extension + updates\r\n\r\nSee the full text of the amendment posted under Related Documents for additional details."
+        },
+        {
+          "id": {
+            "opportunityId": 356605,
+            "attType": "D",
+            "createdDate": "May 29, 2025 09:27:37 AM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "May 29, 2025"
+          },
+          "changeComments": "Amendment 0004 has been posted."
+        },
+        {
+          "id": {
+            "opportunityId": 356605,
+            "attType": "D",
+            "createdDate": "Nov 18, 2024 03:27:18 PM EST",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Nov 18, 2024"
+          },
+          "changeComments": "Amendment 0002 to ONR BAA N0001425SB001 has been posted to Grants.gov under the 'Related Documents' tab."
+        }
+      ],
+      "cfdas": [
+        {
+          "id": 423986,
+          "opportunityId": 356605,
+          "cfdaNumber": "12.300",
+          "programTitle": "Basic and Applied Scientific Research"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 356605,
+            "revision": 0
+          },
+          "opportunityId": 356605,
+          "revision": 0,
+          "opportunityNumber": "N0001425SB001",
+          "opportunityTitle": "FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology",
+          "owningAgencyCode": "DOD-ONR",
+          "publisherUid": "mmurray5",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 356605,
+              "revision": 0
+            },
+            "opportunityId": 356605,
+            "revision": 0,
+            "version": 2,
+            "agencyCode": "DOD-ONR",
+            "agencyAddressDesc": "For additional questions related to this posting.",
+            "agencyDetails": {
+              "code": "ONR",
+              "seed": "DOD-ONR",
+              "agencyName": "Office of Naval Research",
+              "agencyCode": "DOD-ONR",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-696-4257",
+            "agencyContactName": "Matthew Murray\nContracting Specialist",
+            "agencyContactDesc": "Veronica Lacey\r\nGrantor\r\nPhone: 703-696-2593",
+            "agencyContactEmail": "veronica.y.lacey.civ@us.navy.mil",
+            "agencyContactEmailDesc": "For additional questions related to this posting.",
+            "synopsisDesc": "<p>ONR, ONRG, and MCWL are interested in receiving proposals for Long-Range S&amp;T Projects that offer potential for advancement and improvement of Navy and Marine Corps operations. Readers should note that this is an announcement to declare ONR, ONRG and MCWL’s broad role in competitive funding of meritorious research across a spectrum of science and engineering disciplines.</p><p><br></p><p>All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.</p>",
+            "responseDate": "Sep 30, 2025 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://www.onr.navy.mil/work-with-us/funding-opportunities",
+            "fundingDescLinkDesc": "Link to all ONR funding announcements.",
+            "postingDate": "Oct 01, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 30, 2025 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. Historically Black Colleges and Universities (HBCUs) and Minority Institutions (MIs) are encouraged to submit proposals and join others in submitting proposals; however, no portion of this BAA will be set aside for HBCUs/MIs, small businesses or other socio-economic participation. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.Federally Funded Research &amp; Development Centers (FFRDCs), including Department of Energy National Laboratories, are not eligible to receive awards under this BAA. However, teaming arrangements between FFRDCs and eligible principal Offerors are allowed so long as such arrangements are permitted under the sponsoring agreement between the Government and the specific FFRDC.Navy laboratories, military universities and warfare centers as well as other Department of Defense and civilian agency laboratories are also not eligible to receive awards under this BAA and should not directly submit either white papers or full proposals in response to this BAA. If any such organization is interested in one or more of the programs described herein, the organization should contact an appropriate ONR Technical POC to discuss its area of interest.University Affiliated Research Centers (UARCs) are eligible to submit proposals under this BAA unless precluded from doing so by their Department of Defense UARC contract.Teams are also encouraged and may submit proposals in any areas; however, Offerors must be willing to cooperate and exchange software, data and other information in an integrated program with other contractors, as well as with system integrators, selected by ONR.Disclosures of current and pending support made in this application may render an applicant ineligible for funding. Prior to award and throughout the period of performance, DoD may continue to request updated continuing and pending support information, which will be reviewed and may result in discontinuation of funding.",
+            "createTimeStamp": "Oct 01, 2024 10:19:26 AM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Oct 01, 2024 02:05:47 PM EDT",
+            "createdDate": "Oct 01, 2024 10:15:50 AM EDT",
+            "lastUpdatedDate": "Oct 01, 2024 10:19:26 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              },
+              {
+                "id": "O",
+                "description": "Other"
+              },
+              {
+                "id": "PC",
+                "description": "Procurement Contract"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-09-30-00-00-00",
+            "postingDateStr": "2024-10-01-00-00-00",
+            "archiveDateStr": "2025-10-30-00-00-00",
+            "createTimeStampStr": "2024-10-01-10-19-26"
+          },
+          "cfdas": [
+            {
+              "id": 423986,
+              "opportunityId": 356605,
+              "revision": 8,
+              "cfdaNumber": "12.300",
+              "programTitle": "Basic and Applied Scientific Research"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 356605,
+            "revision": 1
+          },
+          "opportunityId": 356605,
+          "revision": 1,
+          "opportunityNumber": "N0001425SB001",
+          "opportunityTitle": "FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology",
+          "owningAgencyCode": "DOD-ONR",
+          "publisherUid": "mmurray5",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Revisions to the FedConnect posting and Appendix I.  (See amendment document for full details.)",
+          "synopsis": {
+            "id": {
+              "opportunityId": 356605,
+              "revision": 1
+            },
+            "opportunityId": 356605,
+            "revision": 1,
+            "version": 3,
+            "agencyCode": "DOD-ONR",
+            "agencyAddressDesc": "For additional questions related to this posting.",
+            "agencyDetails": {
+              "code": "ONR",
+              "seed": "DOD-ONR",
+              "agencyName": "Office of Naval Research",
+              "agencyCode": "DOD-ONR",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-696-4257",
+            "agencyContactName": "Matthew Murray\nContracting Specialist",
+            "agencyContactDesc": "Veronica Lacey\r\nGrantor\r\nPhone: 703-696-2593",
+            "agencyContactEmail": "veronica.y.lacey.civ@us.navy.mil",
+            "agencyContactEmailDesc": "For additional questions related to this posting.",
+            "synopsisDesc": "<p>ONR, ONRG, and MCWL are interested in receiving proposals for Long-Range S&amp;T Projects that offer potential for advancement and improvement of Navy and Marine Corps operations. Readers should note that this is an announcement to declare ONR, ONRG and MCWL’s broad role in competitive funding of meritorious research across a spectrum of science and engineering disciplines.</p><p><br></p><p>All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.</p>",
+            "responseDate": "Sep 30, 2025 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://www.onr.navy.mil/work-with-us/funding-opportunities",
+            "fundingDescLinkDesc": "Link to all ONR funding announcements.",
+            "postingDate": "Oct 01, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 30, 2025 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. Historically Black Colleges and Universities (HBCUs) and Minority Institutions (MIs) are encouraged to submit proposals and join others in submitting proposals; however, no portion of this BAA will be set aside for HBCUs/MIs, small businesses or other socio-economic participation. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.Federally Funded Research &amp; Development Centers (FFRDCs), including Department of Energy National Laboratories, are not eligible to receive awards under this BAA. However, teaming arrangements between FFRDCs and eligible principal Offerors are allowed so long as such arrangements are permitted under the sponsoring agreement between the Government and the specific FFRDC.Navy laboratories, military universities and warfare centers as well as other Department of Defense and civilian agency laboratories are also not eligible to receive awards under this BAA and should not directly submit either white papers or full proposals in response to this BAA. If any such organization is interested in one or more of the programs described herein, the organization should contact an appropriate ONR Technical POC to discuss its area of interest.University Affiliated Research Centers (UARCs) are eligible to submit proposals under this BAA unless precluded from doing so by their Department of Defense UARC contract.Teams are also encouraged and may submit proposals in any areas; however, Offerors must be willing to cooperate and exchange software, data and other information in an integrated program with other contractors, as well as with system integrators, selected by ONR.Disclosures of current and pending support made in this application may render an applicant ineligible for funding. Prior to award and throughout the period of performance, DoD may continue to request updated continuing and pending support information, which will be reviewed and may result in discontinuation of funding.",
+            "createTimeStamp": "Oct 01, 2024 02:06:30 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "Revisions to the FedConnect posting and Appendix I.  (See amendment document for full details.)",
+            "actionType": "U",
+            "actionDate": "Nov 18, 2024 03:26:09 PM EST",
+            "createdDate": "Oct 01, 2024 10:15:50 AM EDT",
+            "lastUpdatedDate": "Oct 01, 2024 02:05:47 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              },
+              {
+                "id": "O",
+                "description": "Other"
+              },
+              {
+                "id": "PC",
+                "description": "Procurement Contract"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-09-30-00-00-00",
+            "postingDateStr": "2024-10-01-00-00-00",
+            "archiveDateStr": "2025-10-30-00-00-00",
+            "createTimeStampStr": "2024-10-01-14-06-30"
+          },
+          "cfdas": [
+            {
+              "id": 423986,
+              "opportunityId": 356605,
+              "revision": 8,
+              "cfdaNumber": "12.300",
+              "programTitle": "Basic and Applied Scientific Research"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 356605,
+            "revision": 2
+          },
+          "opportunityId": 356605,
+          "revision": 2,
+          "opportunityNumber": "N0001425SB001",
+          "opportunityTitle": "FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology",
+          "owningAgencyCode": "DOD-ONR",
+          "publisherUid": "mmurray5",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Revisions to the FedConnect posting and Appendix I.  (See amendment document for full details.)",
+          "synopsis": {
+            "id": {
+              "opportunityId": 356605,
+              "revision": 2
+            },
+            "opportunityId": 356605,
+            "revision": 2,
+            "version": 4,
+            "agencyCode": "DOD-ONR",
+            "agencyAddressDesc": "For additional questions related to this posting.",
+            "agencyDetails": {
+              "code": "ONR",
+              "seed": "DOD-ONR",
+              "agencyName": "Office of Naval Research",
+              "agencyCode": "DOD-ONR",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-696-4257",
+            "agencyContactName": "Matthew Murray\nContracting Specialist",
+            "agencyContactDesc": "Veronica Lacey\r\nGrantor\r\nPhone: 703-696-2593",
+            "agencyContactEmail": "veronica.y.lacey.civ@us.navy.mil",
+            "agencyContactEmailDesc": "For additional questions related to this posting.",
+            "synopsisDesc": "<p>ONR, ONRG, and MCWL are interested in receiving proposals for Long-Range S&amp;T Projects that offer potential for advancement and improvement of Navy and Marine Corps operations. Readers should note that this is an announcement to declare ONR, ONRG and MCWL’s broad role in competitive funding of meritorious research across a spectrum of science and engineering disciplines.</p><p><br></p><p>All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.</p>",
+            "responseDate": "Sep 30, 2025 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://www.onr.navy.mil/work-with-us/funding-opportunities",
+            "fundingDescLinkDesc": "Link to all ONR funding announcements.",
+            "postingDate": "Oct 01, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 30, 2025 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. Historically Black Colleges and Universities (HBCUs) and Minority Institutions (MIs) are encouraged to submit proposals and join others in submitting proposals; however, no portion of this BAA will be set aside for HBCUs/MIs, small businesses or other socio-economic participation. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.Federally Funded Research &amp; Development Centers (FFRDCs), including Department of Energy National Laboratories, are not eligible to receive awards under this BAA. However, teaming arrangements between FFRDCs and eligible principal Offerors are allowed so long as such arrangements are permitted under the sponsoring agreement between the Government and the specific FFRDC.Navy laboratories, military universities and warfare centers as well as other Department of Defense and civilian agency laboratories are also not eligible to receive awards under this BAA and should not directly submit either white papers or full proposals in response to this BAA. If any such organization is interested in one or more of the programs described herein, the organization should contact an appropriate ONR Technical POC to discuss its area of interest.University Affiliated Research Centers (UARCs) are eligible to submit proposals under this BAA unless precluded from doing so by their Department of Defense UARC contract.Teams are also encouraged and may submit proposals in any areas; however, Offerors must be willing to cooperate and exchange software, data and other information in an integrated program with other contractors, as well as with system integrators, selected by ONR.Disclosures of current and pending support made in this application may render an applicant ineligible for funding. Prior to award and throughout the period of performance, DoD may continue to request updated continuing and pending support information, which will be reviewed and may result in discontinuation of funding.",
+            "createTimeStamp": "Nov 18, 2024 03:27:18 PM EST",
+            "sendEmail": "Y",
+            "modComments": "Amendment 0002 has been posted as of 18 November 2024.",
+            "actionType": "U",
+            "actionDate": "Mar 11, 2025 10:55:35 AM EDT",
+            "createdDate": "Oct 01, 2024 10:15:50 AM EDT",
+            "lastUpdatedDate": "Nov 18, 2024 03:26:09 PM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              },
+              {
+                "id": "O",
+                "description": "Other"
+              },
+              {
+                "id": "PC",
+                "description": "Procurement Contract"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-09-30-00-00-00",
+            "postingDateStr": "2024-10-01-00-00-00",
+            "archiveDateStr": "2025-10-30-00-00-00",
+            "createTimeStampStr": "2024-11-18-15-27-18"
+          },
+          "cfdas": [
+            {
+              "id": 423986,
+              "opportunityId": 356605,
+              "revision": 8,
+              "cfdaNumber": "12.300",
+              "programTitle": "Basic and Applied Scientific Research"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 356605,
+            "revision": 3
+          },
+          "opportunityId": 356605,
+          "revision": 3,
+          "opportunityNumber": "N0001425SB001",
+          "opportunityTitle": "FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology",
+          "owningAgencyCode": "DOD-ONR",
+          "publisherUid": "mmurray5",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Revisions to the FedConnect posting and Appendix I.  (See amendment document for full details.)",
+          "synopsis": {
+            "id": {
+              "opportunityId": 356605,
+              "revision": 3
+            },
+            "opportunityId": 356605,
+            "revision": 3,
+            "version": 5,
+            "agencyCode": "DOD-ONR",
+            "agencyAddressDesc": "For additional questions related to this posting.",
+            "agencyDetails": {
+              "code": "ONR",
+              "seed": "DOD-ONR",
+              "agencyName": "Office of Naval Research",
+              "agencyCode": "DOD-ONR",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-696-4257",
+            "agencyContactName": "Matthew Murray\nContracting Specialist",
+            "agencyContactDesc": "Veronica Lacey\r\nGrantor\r\nPhone: 703-696-2593",
+            "agencyContactEmail": "veronica.y.lacey.civ@us.navy.mil",
+            "agencyContactEmailDesc": "For additional questions related to this posting.",
+            "synopsisDesc": "<p>ONR, ONRG, and MCWL are interested in receiving proposals for Long-Range S&amp;T Projects that offer potential for advancement and improvement of Navy and Marine Corps operations. Readers should note that this is an announcement to declare ONR, ONRG and MCWL’s broad role in competitive funding of meritorious research across a spectrum of science and engineering disciplines.</p><p><br></p><p>All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.</p>",
+            "responseDate": "Sep 30, 2025 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://www.onr.navy.mil/work-with-us/funding-opportunities",
+            "fundingDescLinkDesc": "Link to all ONR funding announcements.",
+            "postingDate": "Oct 01, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 30, 2025 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. Historically Black Colleges and Universities (HBCUs) and Minority Institutions (MIs) are encouraged to submit proposals and join others in submitting proposals; however, no portion of this BAA will be set aside for HBCUs/MIs, small businesses or other socio-economic participation. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.Federally Funded Research &amp; Development Centers (FFRDCs), including Department of Energy National Laboratories, are not eligible to receive awards under this BAA. However, teaming arrangements between FFRDCs and eligible principal Offerors are allowed so long as such arrangements are permitted under the sponsoring agreement between the Government and the specific FFRDC.Navy laboratories, military universities and warfare centers as well as other Department of Defense and civilian agency laboratories are also not eligible to receive awards under this BAA and should not directly submit either white papers or full proposals in response to this BAA. If any such organization is interested in one or more of the programs described herein, the organization should contact an appropriate ONR Technical POC to discuss its area of interest.University Affiliated Research Centers (UARCs) are eligible to submit proposals under this BAA unless precluded from doing so by their Department of Defense UARC contract.Teams are also encouraged and may submit proposals in any areas; however, Offerors must be willing to cooperate and exchange software, data and other information in an integrated program with other contractors, as well as with system integrators, selected by ONR.Disclosures of current and pending support made in this application may render an applicant ineligible for funding. Prior to award and throughout the period of performance, DoD may continue to request updated continuing and pending support information, which will be reviewed and may result in discontinuation of funding.",
+            "createTimeStamp": "Mar 11, 2025 10:56:05 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "Amendment 0003 has been posted as of 11 March 2025.",
+            "actionType": "U",
+            "actionDate": "May 29, 2025 09:26:23 AM EDT",
+            "createdDate": "Oct 01, 2024 10:15:50 AM EDT",
+            "lastUpdatedDate": "Mar 11, 2025 10:55:35 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              },
+              {
+                "id": "O",
+                "description": "Other"
+              },
+              {
+                "id": "PC",
+                "description": "Procurement Contract"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-09-30-00-00-00",
+            "postingDateStr": "2024-10-01-00-00-00",
+            "archiveDateStr": "2025-10-30-00-00-00",
+            "createTimeStampStr": "2025-03-11-10-56-05"
+          },
+          "cfdas": [
+            {
+              "id": 423986,
+              "opportunityId": 356605,
+              "revision": 8,
+              "cfdaNumber": "12.300",
+              "programTitle": "Basic and Applied Scientific Research"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 356605,
+            "revision": 4
+          },
+          "opportunityId": 356605,
+          "revision": 4,
+          "opportunityNumber": "N0001425SB001",
+          "opportunityTitle": "FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology",
+          "owningAgencyCode": "DOD-ONR",
+          "publisherUid": "mmurray5",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Amendment 0004 - Replacement of FedConnect with ONR Submission Portal; Formatting revisions; Updated DTIC website URL.",
+          "synopsis": {
+            "id": {
+              "opportunityId": 356605,
+              "revision": 4
+            },
+            "opportunityId": 356605,
+            "revision": 4,
+            "version": 6,
+            "agencyCode": "DOD-ONR",
+            "agencyAddressDesc": "For additional questions related to this posting.",
+            "agencyDetails": {
+              "code": "ONR",
+              "seed": "DOD-ONR",
+              "agencyName": "Office of Naval Research",
+              "agencyCode": "DOD-ONR",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-696-4257",
+            "agencyContactName": "Matthew Murray\nContracting Specialist",
+            "agencyContactDesc": "Veronica Lacey\r\nGrantor\r\nPhone: 703-696-2593",
+            "agencyContactEmail": "veronica.y.lacey.civ@us.navy.mil",
+            "agencyContactEmailDesc": "For additional questions related to this posting.",
+            "synopsisDesc": "<p>ONR, ONRG, and MCWL are interested in receiving proposals for Long-Range S&amp;T Projects that offer potential for advancement and improvement of Navy and Marine Corps operations. Readers should note that this is an announcement to declare ONR, ONRG and MCWL’s broad role in competitive funding of meritorious research across a spectrum of science and engineering disciplines.</p><p><br></p><p>All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.</p>",
+            "responseDate": "Sep 30, 2025 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://www.onr.navy.mil/work-with-us/funding-opportunities",
+            "fundingDescLinkDesc": "Link to all ONR funding announcements.",
+            "postingDate": "Oct 01, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 30, 2025 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. Historically Black Colleges and Universities (HBCUs) and Minority Institutions (MIs) are encouraged to submit proposals and join others in submitting proposals; however, no portion of this BAA will be set aside for HBCUs/MIs, small businesses or other socio-economic participation. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.Federally Funded Research &amp; Development Centers (FFRDCs), including Department of Energy National Laboratories, are not eligible to receive awards under this BAA. However, teaming arrangements between FFRDCs and eligible principal Offerors are allowed so long as such arrangements are permitted under the sponsoring agreement between the Government and the specific FFRDC.Navy laboratories, military universities and warfare centers as well as other Department of Defense and civilian agency laboratories are also not eligible to receive awards under this BAA and should not directly submit either white papers or full proposals in response to this BAA. If any such organization is interested in one or more of the programs described herein, the organization should contact an appropriate ONR Technical POC to discuss its area of interest.University Affiliated Research Centers (UARCs) are eligible to submit proposals under this BAA unless precluded from doing so by their Department of Defense UARC contract.Teams are also encouraged and may submit proposals in any areas; however, Offerors must be willing to cooperate and exchange software, data and other information in an integrated program with other contractors, as well as with system integrators, selected by ONR.Disclosures of current and pending support made in this application may render an applicant ineligible for funding. Prior to award and throughout the period of performance, DoD may continue to request updated continuing and pending support information, which will be reviewed and may result in discontinuation of funding.",
+            "createTimeStamp": "May 29, 2025 09:27:37 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "Amendment 0004 - Replacement of FedConnect with ONR Submission Portal; Formatting revisions; Updated DTIC website URL.",
+            "actionType": "U",
+            "actionDate": "Sep 26, 2025 12:16:51 PM EDT",
+            "createdDate": "Oct 01, 2024 10:15:50 AM EDT",
+            "lastUpdatedDate": "May 29, 2025 09:26:23 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              },
+              {
+                "id": "O",
+                "description": "Other"
+              },
+              {
+                "id": "PC",
+                "description": "Procurement Contract"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-09-30-00-00-00",
+            "postingDateStr": "2024-10-01-00-00-00",
+            "archiveDateStr": "2025-10-30-00-00-00",
+            "createTimeStampStr": "2025-05-29-09-27-37"
+          },
+          "cfdas": [
+            {
+              "id": 423986,
+              "opportunityId": 356605,
+              "revision": 8,
+              "cfdaNumber": "12.300",
+              "programTitle": "Basic and Applied Scientific Research"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 356605,
+            "revision": 5
+          },
+          "opportunityId": 356605,
+          "revision": 5,
+          "opportunityNumber": "N0001425SB001",
+          "opportunityTitle": "FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology",
+          "owningAgencyCode": "DOD-ONR",
+          "publisherUid": "mmurray5",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Amendment 0005 - Announcement extension + revisions\r\n\r\nSee the full text of the amendment posted under Related Documents for additional details.",
+          "synopsis": {
+            "id": {
+              "opportunityId": 356605,
+              "revision": 5
+            },
+            "opportunityId": 356605,
+            "revision": 5,
+            "version": 7,
+            "agencyCode": "DOD-ONR",
+            "agencyAddressDesc": "For additional questions related to this posting.",
+            "agencyDetails": {
+              "code": "ONR",
+              "seed": "DOD-ONR",
+              "agencyName": "Office of Naval Research",
+              "agencyCode": "DOD-ONR",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-696-4257",
+            "agencyContactName": "Matthew Murray\nContracting Specialist",
+            "agencyContactDesc": "Veronica Lacey\r\nGrantor\r\nPhone: 703-696-2593",
+            "agencyContactEmail": "veronica.y.lacey.civ@us.navy.mil",
+            "agencyContactEmailDesc": "For additional questions related to this posting.",
+            "synopsisDesc": "<p>ONR, ONRG, and MCWL are interested in receiving proposals for Long-Range S&amp;T Projects that offer potential for advancement and improvement of Navy and Marine Corps operations. Readers should note that this is an announcement to declare ONR, ONRG and MCWL’s broad role in competitive funding of meritorious research across a spectrum of science and engineering disciplines.</p><p><br></p><p>All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.</p>",
+            "responseDate": "Sep 30, 2025 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://www.onr.navy.mil/work-with-us/funding-opportunities",
+            "fundingDescLinkDesc": "Link to all ONR funding announcements.",
+            "postingDate": "Oct 01, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 30, 2025 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. Historically Black Colleges and Universities (HBCUs) and Minority Institutions (MIs) are encouraged to submit proposals and join others in submitting proposals; however, no portion of this BAA will be set aside for HBCUs/MIs, small businesses or other socio-economic participation. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.Federally Funded Research &amp; Development Centers (FFRDCs), including Department of Energy National Laboratories, are not eligible to receive awards under this BAA. However, teaming arrangements between FFRDCs and eligible principal Offerors are allowed so long as such arrangements are permitted under the sponsoring agreement between the Government and the specific FFRDC.Navy laboratories, military universities and warfare centers as well as other Department of Defense and civilian agency laboratories are also not eligible to receive awards under this BAA and should not directly submit either white papers or full proposals in response to this BAA. If any such organization is interested in one or more of the programs described herein, the organization should contact an appropriate ONR Technical POC to discuss its area of interest.University Affiliated Research Centers (UARCs) are eligible to submit proposals under this BAA unless precluded from doing so by their Department of Defense UARC contract.Teams are also encouraged and may submit proposals in any areas; however, Offerors must be willing to cooperate and exchange software, data and other information in an integrated program with other contractors, as well as with system integrators, selected by ONR.Disclosures of current and pending support made in this application may render an applicant ineligible for funding. Prior to award and throughout the period of performance, DoD may continue to request updated continuing and pending support information, which will be reviewed and may result in discontinuation of funding.",
+            "createTimeStamp": "Sep 26, 2025 12:16:51 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "Amendment 0005 - Announcement extension + revisions\r\n\r\nSee the full text of the amendment posted under Related Documents for additional details.",
+            "actionType": "U",
+            "actionDate": "Sep 26, 2025 12:17:44 PM EDT",
+            "createdDate": "Oct 01, 2024 10:15:50 AM EDT",
+            "lastUpdatedDate": "Sep 26, 2025 12:16:51 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              },
+              {
+                "id": "O",
+                "description": "Other"
+              },
+              {
+                "id": "PC",
+                "description": "Procurement Contract"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-09-30-00-00-00",
+            "postingDateStr": "2024-10-01-00-00-00",
+            "archiveDateStr": "2025-10-30-00-00-00",
+            "createTimeStampStr": "2025-09-26-12-16-51"
+          },
+          "cfdas": [
+            {
+              "id": 423986,
+              "opportunityId": 356605,
+              "revision": 8,
+              "cfdaNumber": "12.300",
+              "programTitle": "Basic and Applied Scientific Research"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 356605,
+            "revision": 6
+          },
+          "opportunityId": 356605,
+          "revision": 6,
+          "opportunityNumber": "N0001425SB001",
+          "opportunityTitle": "FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology",
+          "owningAgencyCode": "DOD-ONR",
+          "publisherUid": "mmurray5",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Amendment 0005 - Announcement extension + revisions\r\n\r\nSee the full text of the amendment posted under Related Documents for additional details.",
+          "synopsis": {
+            "id": {
+              "opportunityId": 356605,
+              "revision": 6
+            },
+            "opportunityId": 356605,
+            "revision": 6,
+            "version": 8,
+            "agencyCode": "DOD-ONR",
+            "agencyAddressDesc": "For additional questions related to this posting.",
+            "agencyDetails": {
+              "code": "ONR",
+              "seed": "DOD-ONR",
+              "agencyName": "Office of Naval Research",
+              "agencyCode": "DOD-ONR",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-696-4257",
+            "agencyContactName": "Matthew Murray\nContracting Specialist",
+            "agencyContactDesc": "Veronica Lacey\r\nGrantor\r\nPhone: 703-696-2593",
+            "agencyContactEmail": "veronica.y.lacey.civ@us.navy.mil",
+            "agencyContactEmailDesc": "For additional questions related to this posting.",
+            "synopsisDesc": "<p>ONR, ONRG, and MCWL are interested in receiving proposals for Long-Range S&amp;T Projects that offer potential for advancement and improvement of Navy and Marine Corps operations. Readers should note that this is an announcement to declare ONR, ONRG and MCWL’s broad role in competitive funding of meritorious research across a spectrum of science and engineering disciplines.</p><p><br></p><p>All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.</p>",
+            "responseDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://www.onr.navy.mil/work-with-us/funding-opportunities",
+            "fundingDescLinkDesc": "Link to all ONR funding announcements.",
+            "postingDate": "Oct 01, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 30, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. Historically Black Colleges and Universities (HBCUs) and Minority Institutions (MIs) are encouraged to submit proposals and join others in submitting proposals; however, no portion of this BAA will be set aside for HBCUs/MIs, small businesses or other socio-economic participation. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.Federally Funded Research &amp; Development Centers (FFRDCs), including Department of Energy National Laboratories, are not eligible to receive awards under this BAA. However, teaming arrangements between FFRDCs and eligible principal Offerors are allowed so long as such arrangements are permitted under the sponsoring agreement between the Government and the specific FFRDC.Navy laboratories, military universities and warfare centers as well as other Department of Defense and civilian agency laboratories are also not eligible to receive awards under this BAA and should not directly submit either white papers or full proposals in response to this BAA. If any such organization is interested in one or more of the programs described herein, the organization should contact an appropriate ONR Technical POC to discuss its area of interest.University Affiliated Research Centers (UARCs) are eligible to submit proposals under this BAA unless precluded from doing so by their Department of Defense UARC contract.Teams are also encouraged and may submit proposals in any areas; however, Offerors must be willing to cooperate and exchange software, data and other information in an integrated program with other contractors, as well as with system integrators, selected by ONR.Disclosures of current and pending support made in this application may render an applicant ineligible for funding. Prior to award and throughout the period of performance, DoD may continue to request updated continuing and pending support information, which will be reviewed and may result in discontinuation of funding.",
+            "createTimeStamp": "Sep 26, 2025 12:19:34 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "Amendment 0005 - Announcement extension + revisions\r\n\r\nSee the full text of the amendment posted under Related Documents for additional details.",
+            "actionType": "U",
+            "actionDate": "Oct 02, 2025 03:16:45 PM EDT",
+            "createdDate": "Oct 01, 2024 10:15:50 AM EDT",
+            "lastUpdatedDate": "Sep 26, 2025 12:17:44 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              },
+              {
+                "id": "O",
+                "description": "Other"
+              },
+              {
+                "id": "PC",
+                "description": "Procurement Contract"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2026-09-30-00-00-00",
+            "postingDateStr": "2024-10-01-00-00-00",
+            "archiveDateStr": "2026-10-30-00-00-00",
+            "createTimeStampStr": "2025-09-26-12-19-34"
+          },
+          "cfdas": [
+            {
+              "id": 423986,
+              "opportunityId": 356605,
+              "revision": 8,
+              "cfdaNumber": "12.300",
+              "programTitle": "Basic and Applied Scientific Research"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "archiveDate"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 356605,
+            "revision": 7
+          },
+          "opportunityId": 356605,
+          "revision": 7,
+          "opportunityNumber": "N0001425SB001",
+          "opportunityTitle": "FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology",
+          "owningAgencyCode": "DOD-ONR",
+          "publisherUid": "Laceyv",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "The application package closing date was updated to 9/30/2026",
+          "synopsis": {
+            "id": {
+              "opportunityId": 356605,
+              "revision": 7
+            },
+            "opportunityId": 356605,
+            "revision": 7,
+            "version": 9,
+            "agencyCode": "DOD-ONR",
+            "agencyAddressDesc": "For additional questions related to this posting.",
+            "agencyDetails": {
+              "code": "ONR",
+              "seed": "DOD-ONR",
+              "agencyName": "Office of Naval Research",
+              "agencyCode": "DOD-ONR",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-696-4257",
+            "agencyContactName": "Matthew Murray\nContracting Specialist",
+            "agencyContactDesc": "Veronica Lacey\r\nGrantor\r\nPhone: 703-696-2593",
+            "agencyContactEmail": "veronica.y.lacey.civ@us.navy.mil",
+            "agencyContactEmailDesc": "For additional questions related to this posting.",
+            "synopsisDesc": "<p>ONR, ONRG, and MCWL are interested in receiving proposals for Long-Range S&amp;T Projects that offer potential for advancement and improvement of Navy and Marine Corps operations. Readers should note that this is an announcement to declare ONR, ONRG and MCWL’s broad role in competitive funding of meritorious research across a spectrum of science and engineering disciplines.</p><p><br></p><p>All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.</p>",
+            "responseDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://www.onr.navy.mil/work-with-us/funding-opportunities",
+            "fundingDescLinkDesc": "Link to all ONR funding announcements.",
+            "postingDate": "Oct 01, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 30, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. Historically Black Colleges and Universities (HBCUs) and Minority Institutions (MIs) are encouraged to submit proposals and join others in submitting proposals; however, no portion of this BAA will be set aside for HBCUs/MIs, small businesses or other socio-economic participation. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.Federally Funded Research &amp; Development Centers (FFRDCs), including Department of Energy National Laboratories, are not eligible to receive awards under this BAA. However, teaming arrangements between FFRDCs and eligible principal Offerors are allowed so long as such arrangements are permitted under the sponsoring agreement between the Government and the specific FFRDC.Navy laboratories, military universities and warfare centers as well as other Department of Defense and civilian agency laboratories are also not eligible to receive awards under this BAA and should not directly submit either white papers or full proposals in response to this BAA. If any such organization is interested in one or more of the programs described herein, the organization should contact an appropriate ONR Technical POC to discuss its area of interest.University Affiliated Research Centers (UARCs) are eligible to submit proposals under this BAA unless precluded from doing so by their Department of Defense UARC contract.Teams are also encouraged and may submit proposals in any areas; however, Offerors must be willing to cooperate and exchange software, data and other information in an integrated program with other contractors, as well as with system integrators, selected by ONR.Disclosures of current and pending support made in this application may render an applicant ineligible for funding. Prior to award and throughout the period of performance, DoD may continue to request updated continuing and pending support information, which will be reviewed and may result in discontinuation of funding.",
+            "createTimeStamp": "Oct 02, 2025 03:16:45 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "The application package closing date was updated to 9/30/2026",
+            "actionType": "U",
+            "actionDate": "Jan 14, 2026 04:36:45 PM EST",
+            "createdDate": "Oct 01, 2024 10:15:50 AM EDT",
+            "lastUpdatedDate": "Oct 02, 2025 03:16:45 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              },
+              {
+                "id": "O",
+                "description": "Other"
+              },
+              {
+                "id": "PC",
+                "description": "Procurement Contract"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2026-09-30-00-00-00",
+            "postingDateStr": "2024-10-01-00-00-00",
+            "archiveDateStr": "2026-10-30-00-00-00",
+            "createTimeStampStr": "2025-10-02-15-16-45"
+          },
+          "cfdas": [
+            {
+              "id": 423986,
+              "opportunityId": 356605,
+              "revision": 8,
+              "cfdaNumber": "12.300",
+              "programTitle": "Basic and Applied Scientific Research"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 356605,
+            "revision": 8
+          },
+          "opportunityId": 356605,
+          "revision": 8,
+          "opportunityNumber": "N0001425SB001",
+          "opportunityTitle": "FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology",
+          "owningAgencyCode": "DOD-ONR",
+          "publisherUid": "mmurray5",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Amendment 0006 - Removal of NavalX information.",
+          "synopsis": {
+            "id": {
+              "opportunityId": 356605,
+              "revision": 8
+            },
+            "opportunityId": 356605,
+            "revision": 8,
+            "version": 10,
+            "agencyCode": "DOD-ONR",
+            "agencyAddressDesc": "For additional questions related to this posting.",
+            "agencyDetails": {
+              "code": "ONR",
+              "seed": "DOD-ONR",
+              "agencyName": "Office of Naval Research",
+              "agencyCode": "DOD-ONR",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-696-4257",
+            "agencyContactName": "Matthew Murray\nContracting Specialist",
+            "agencyContactDesc": "Veronica Lacey\r\nGrantor\r\nPhone: 703-696-2593",
+            "agencyContactEmail": "veronica.y.lacey.civ@us.navy.mil",
+            "agencyContactEmailDesc": "For additional questions related to this posting.",
+            "synopsisDesc": "<p>ONR, ONRG, and MCWL are interested in receiving proposals for Long-Range S&amp;T Projects that offer potential for advancement and improvement of Navy and Marine Corps operations. Readers should note that this is an announcement to declare ONR, ONRG and MCWL’s broad role in competitive funding of meritorious research across a spectrum of science and engineering disciplines.</p><p><br></p><p>All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.</p>",
+            "responseDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://www.onr.navy.mil/work-with-us/funding-opportunities",
+            "fundingDescLinkDesc": "Link to all ONR funding announcements.",
+            "postingDate": "Oct 01, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 30, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "All responsible sources from academia, industry and the research community worldwide may submit proposals under this BAA. Historically Black Colleges and Universities (HBCUs) and Minority Institutions (MIs) are encouraged to submit proposals and join others in submitting proposals; however, no portion of this BAA will be set aside for HBCUs/MIs, small businesses or other socio-economic participation. All businesses, both small and large, are encouraged to submit proposals and compete for funding consideration.Federally Funded Research &amp; Development Centers (FFRDCs), including Department of Energy National Laboratories, are not eligible to receive awards under this BAA. However, teaming arrangements between FFRDCs and eligible principal Offerors are allowed so long as such arrangements are permitted under the sponsoring agreement between the Government and the specific FFRDC.Navy laboratories, military universities and warfare centers as well as other Department of Defense and civilian agency laboratories are also not eligible to receive awards under this BAA and should not directly submit either white papers or full proposals in response to this BAA. If any such organization is interested in one or more of the programs described herein, the organization should contact an appropriate ONR Technical POC to discuss its area of interest.University Affiliated Research Centers (UARCs) are eligible to submit proposals under this BAA unless precluded from doing so by their Department of Defense UARC contract.Teams are also encouraged and may submit proposals in any areas; however, Offerors must be willing to cooperate and exchange software, data and other information in an integrated program with other contractors, as well as with system integrators, selected by ONR.Disclosures of current and pending support made in this application may render an applicant ineligible for funding. Prior to award and throughout the period of performance, DoD may continue to request updated continuing and pending support information, which will be reviewed and may result in discontinuation of funding.",
+            "createTimeStamp": "Jan 14, 2026 04:37:45 PM EST",
+            "sendEmail": "Y",
+            "modComments": "Amendment 0006 - Removal of NavalX information.",
+            "actionType": "U",
+            "actionDate": "May 14, 2026 02:58:43 PM EDT",
+            "createdDate": "Oct 01, 2024 10:15:50 AM EDT",
+            "lastUpdatedDate": "Jan 14, 2026 04:36:45 PM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              },
+              {
+                "id": "O",
+                "description": "Other"
+              },
+              {
+                "id": "PC",
+                "description": "Procurement Contract"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2026-09-30-00-00-00",
+            "postingDateStr": "2024-10-01-00-00-00",
+            "archiveDateStr": "2026-10-30-00-00-00",
+            "createTimeStampStr": "2026-01-14-16-37-45"
+          },
+          "cfdas": [
+            {
+              "id": 423986,
+              "opportunityId": 356605,
+              "revision": 8,
+              "cfdaNumber": "12.300",
+              "programTitle": "Basic and Applied Scientific Research"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 288030,
+          "topportunityId": 356605,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "N0001425SB001",
+          "opportunityTitle": "FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology",
+          "cfdaNumber": "12.300",
+          "openingDate": "2024-10-01",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "DOD-ONR",
+          "agencyDetails": {
+            "code": "ONR",
+            "seed": "DOD-ONR",
+            "agencyName": "Office of Naval Research",
+            "agencyCode": "DOD-ONR",
+            "topAgencyCode": "DOD"
+          },
+          "topAgencyDetails": {
+            "code": "DOD",
+            "seed": "DOD",
+            "agencyName": "Department of Defense",
+            "agencyCode": "DOD",
+            "topAgencyCode": "DOD"
+          },
+          "programTitle": "Basic and Applied Scientific Research",
+          "contactInfo": "Veronica Lacey\r\nLead Grants Specialist\r\nE-mail: veronica.y.lacey.civ@us.navy.mil\r\nPhone: 703-696-2593",
+          "competitionId": "N0001425SB001",
+          "competitionTitle": "FY25 Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 99,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 02, 2025 03:15:06 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00288030",
+          "openingDateStr": "2024-10-01-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Sep 30, 2025 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 9,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

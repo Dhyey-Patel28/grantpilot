@@ -1,0 +1,24 @@
+{
+  "community_name": "Cedar Valley Township",
+  "applicant_type": "City or township governments",
+  "county": "Montcalm County",
+  "population": 2900,
+  "project_category": "broadband",
+  "project_stage": "early planning",
+  "description": "Cedar Valley Township has several rural neighborhoods with unreliable internet access. Residents report difficulty completing online schoolwork, telehealth appointments, job applications, and remote work. The township wants funding for broadband mapping, provider coordination, and infrastructure planning.",
+  "estimated_cost": null,
+  "match_available": false,
+  "documents_available": [
+    "resident survey responses",
+    "school connectivity concerns",
+    "township meeting notes"
+  ],
+  "impact_keywords": [
+    "broadband",
+    "rural",
+    "internet access",
+    "telehealth",
+    "education",
+    "workforce"
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361493",
+  "fetched_at": "2026-05-16T14:08:52.970Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldVS2dnSjZQR2p1UE9WTXplSXpvUCtFZjdNamR0Ry9DZ3pIQ1M4Z0h4a0k9Ig.n7WBkABjH0_-RxmO3T2nm_anZGvzjp61gafgQQUuf88",
+    "data": {
+      "id": 361493,
+      "revision": 1,
+      "opportunityNumber": "DFOP0017930",
+      "opportunityTitle": "FY 2026 U.S. Leadership in Education, Advanced Manufacturing, and Digital Skills (U.S. LEADS) Program",
+      "owningAgencyCode": "DOS-ECA",
+      "listed": "L",
+      "publisherUid": "4449340775911576642",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361493,
+        "version": 2,
+        "agencyCode": "DOS-ECA",
+        "agencyName": "Bureau Of Educational and Cultural Affairs",
+        "agencyPhone": "202-890-9795",
+        "agencyAddressDesc": "SaccoMJ@state.gov",
+        "agencyDetails": {
+          "code": "ECA",
+          "seed": "DOS-ECA",
+          "agencyName": "Bureau Of Educational and Cultural Affairs",
+          "agencyCode": "DOS-ECA",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "202-890-9795",
+        "agencyContactName": "Bureau Of Educational and Cultural Affairs",
+        "agencyContactDesc": "Matt Sacco",
+        "agencyContactEmail": "SaccoMJ@state.gov",
+        "agencyContactEmailDesc": "SaccoMJ@state.gov",
+        "synopsisDesc": "<p>The United States Leadership in Education, Advanced Manufacturing, and Digital Skills (U.S. LEADS) Program celebrates America's 250th anniversary by showcasing U.S. leadership from the Industrial Revolution to the Digital Revolution, focusing on revitalizing manufacturing, advancing AI, and strengthening supply chains.&nbsp;This Freedom 250 initiative will spark collaboration between U.S. community colleges, international vocational leaders, and U.S. industry partners to address emerging labor market demands that advance U.S. interests and drive economic development.&nbsp;The program will launch with a summit in Washington, D.C. to highlight America’s industrial heritage, current leadership in manufacturing and AI, and the role of U.S. community colleges in preparing the workforce of tomorrow. </p><p><br></p><p>The program will also include a U.S. exchange for approximately 100 higher education officials, commerce leaders, and policymakers from countries strategically important to U.S. industry.&nbsp;The group should be divided into four cohorts comprised of approximately 25 representatives from approximately 3-4 countries, determined based on U.S. foreign policy priorities in consultation with ECA, U.S. embassies, and regional bureau input.&nbsp;These two-week regional programs will take place in approximately four U.S. cities with strong higher education-industry partnerships. Through site visits, hands-on learning, and industry engagement, international participants will gain knowledge of U.S. best practices in manufacturing and technology training, enabling them to adopt similar approaches and establish partnerships that advantage U.S. companies.&nbsp;&nbsp;The summit should occur between December 2026 and March 2027 and be followed immediately by the in-person regional exchanges. &nbsp;The successful applicant will provide responsive and flexible programming with activities tailored to U.S. priorities for vocational-technical education and commercial diplomacy that will lead to measurable positive policy change. &nbsp;Please see the Notice of Funding Opportunity for additional information.</p>",
+        "responseDate": "May 18, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://www.state.gov/eca-grant-opportunities/",
+        "fundingDescLinkDesc": "Bureau of Educational and Cultural Affairs Organizational Funding Opportunities",
+        "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 17, 2026 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "Please see full announcement.",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "awardCeiling": "2500000",
+        "awardCeilingFormatted": "2,500,000",
+        "awardFloor": "2500000",
+        "awardFloorFormatted": "2,500,000",
+        "applicantEligibilityDesc": "Please see full announcement.",
+        "sendEmail": "N",
+        "createTimeStamp": "Mar 13, 2026 11:23:19 AM EDT",
+        "modComments": "Finalizing Grants.gov posting.",
+        "createdDate": "Mar 13, 2026 11:17:15 AM EDT",
+        "lastUpdatedDate": "Mar 13, 2026 11:19:28 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "responseDateStr": "2026-05-18-00-00-00",
+        "postingDateStr": "2026-03-13-00-00-00",
+        "archiveDateStr": "2026-06-17-00-00-00",
+        "createTimeStampStr": "2026-03-13-11-23-19"
+      },
+      "agencyDetails": {
+        "code": "ECA",
+        "seed": "DOS-ECA",
+        "agencyName": "Bureau Of Educational and Cultural Affairs",
+        "agencyCode": "DOS-ECA",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 78988,
+          "opportunityId": 361493,
+          "folderType": "Full Announcement",
+          "folderName": "FY26 U.S. LEADS NOFO",
+          "zipLobSize": 1240940,
+          "createdDate": "Mar 13, 2026 11:22:16 AM EDT",
+          "lastUpdatedDate": "Mar 13, 2026 11:23:19 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350561,
+              "opportunityId": 361493,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "performance_monitoring_plan_mode_2.3_02.03.2025-4.docx",
+              "fileDescription": "ECA Performance Monitoring Plan  (PMP) (DOCX)",
+              "fileLobSize": 224445,
+              "createdDate": "Mar 13, 2026 11:22:58 AM EDT",
+              "synopsisAttFolderId": 78988
+            },
+            {
+              "id": 350562,
+              "opportunityId": 361493,
+              "mimeType": "application/pdf",
+              "fileName": "performance_monitoring_plan_mode_2.3_02.03.2025.pdf",
+              "fileDescription": "ECA Performance Monitoring Plan (PMP) (PDF)",
+              "fileLobSize": 640736,
+              "createdDate": "Mar 13, 2026 11:23:19 AM EDT",
+              "synopsisAttFolderId": 78988
+            },
+            {
+              "id": 350560,
+              "opportunityId": 361493,
+              "mimeType": "application/pdf",
+              "fileName": "FY26 NOFO_U.S. LEADS.pdf",
+              "fileDescription": "FY 2026 U.S. Leadership in Education, Advanced Manufacturing, and Digital Skills (U.S. LEADS) Program NOFO",
+              "fileLobSize": 523073,
+              "createdDate": "Mar 13, 2026 11:22:33 AM EDT",
+              "synopsisAttFolderId": 78988
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [
+        {
+          "id": 1378,
+          "opportunityId": 361493,
+          "docUrl": "https://www.state.gov/eca-grant-opportunities/",
+          "description": "Bureau of Educational and Cultural Affairs Organizational Funding Opportunities",
+          "createdDate": "Mar 13, 2026 11:20:55 AM EDT"
+        }
+      ],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432216,
+          "opportunityId": 361493,
+          "cfdaNumber": "19.408",
+          "programTitle": "Academic Exchange Programs - Teachers"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361493,
+            "revision": 0
+          },
+          "opportunityId": 361493,
+          "revision": 0,
+          "opportunityNumber": "DFOP0017930",
+          "opportunityTitle": "FY 2026 U.S. Leadership in Education, Advanced Manufacturing, and Digital Skills (U.S. LEADS) Program",
+          "owningAgencyCode": "DOS-ECA",
+          "publisherUid": "4449340775911576642",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361493,
+              "revision": 0
+            },
+            "opportunityId": 361493,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOS-ECA",
+            "agencyDetails": {
+              "code": "ECA",
+              "seed": "DOS-ECA",
+              "agencyName": "Bureau Of Educational and Cultural Affairs",
+              "agencyCode": "DOS-ECA",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "202-890-9795",
+            "agencyContactName": "Bureau Of Educational and Cultural Affairs",
+            "agencyContactDesc": "Matt Sacco, SaccoMJ@state.gov",
+            "synopsisDesc": "The United States Leadership in Education, Advanced Manufacturing, and Digital Skills (U.S. LEADS) Program celebrates America's 250th anniversary by showcasing U.S. leadership from the Industrial Revolution to the Digital Revolution, focusing on revitalizing manufacturing, advancing AI, and strengthening supply chains.  This Freedom 250 initiative will spark collaboration between U.S. community colleges, international vocational leaders, and U.S. industry partners to address emerging labor market demands that advance U.S. interests and drive economic development.  The program will launch with a summit in Washington, D.C. to highlight America’s industrial heritage, current leadership in manufacturing and AI, and the role of U.S. community colleges in preparing the workforce of tomorrow. \n\nThe program will also include a U.S. exchange for approximately 100 higher education officials, commerce leaders, and policymakers from countries strategically important to U.S. industry.  The group should be divided into four cohorts comprised of approximately 25 representatives from approximately 3-4 countries, determined based on U.S. foreign policy priorities in consultation with ECA, U.S. embassies, and regional bureau input.  These two-week regional programs will take place in approximately four U.S. cities with strong higher education-industry partnerships. Through site visits, hands-on learning, and industry engagement, international participants will gain knowledge of U.S. best practices in manufacturing and technology training, enabling them to adopt similar approaches and establish partnerships that advantage U.S. companies.   The summit should occur between December 2026 and March 2027 and be followed immediately by the in-person regional exchanges.  The successful applicant will provide responsive and flexible programming with activities tailored to U.S. priorities for vocational-technical education and commercial diplomacy that will lead to measurable positive policy",
+            "responseDate": "May 18, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&table=x_g_usd4_d_grant_funding_opportunity&sys_id=f7877f1a872f769420b862060cbb3528&view=Default",
+            "fundingDescLinkDesc": "Link to Opportunity in MyGrants",
+            "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "Please see full announcement.",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "awardCeiling": "2500000",
+            "awardCeilingFormatted": "2,500,000",
+            "awardFloor": "2500000",
+            "awardFloorFormatted": "2,500,000",
+            "applicantEligibilityDesc": "Please see full announcement.",
+            "createTimeStamp": "Mar 13, 2026 11:17:15 AM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 13, 2026 11:19:28 AM EDT",
+            "createdDate": "Mar 13, 2026 11:17:15 AM EDT",
+            "lastUpdatedDate": "Mar 13, 2026 11:17:15 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "responseDateStr": "2026-05-18-00-00-00",
+            "postingDateStr": "2026-03-13-00-00-00",
+            "createTimeStampStr": "2026-03-13-11-17-15"
+          },
+          "cfdas": [
+            {
+              "id": 432216,
+              "opportunityId": 361493,
+              "revision": 0,
+              "cfdaNumber": "19.408",
+              "programTitle": "Academic Exchange Programs - Teachers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292115,
+          "topportunityId": 361493,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "DFOP0017930",
+          "opportunityTitle": "FY 2026 U.S. Leadership in Education, Advanced Manufacturing, and Digital Skills (U.S. LEADS) Program",
+          "cfdaNumber": "19.408",
+          "openingDate": "2026-03-13",
+          "closingDate": "2026-05-18",
+          "owningAgencyCode": "DOS-ECA",
+          "agencyDetails": {
+            "code": "ECA",
+            "seed": "DOS-ECA",
+            "agencyName": "Bureau Of Educational and Cultural Affairs",
+            "agencyCode": "DOS-ECA",
+            "topAgencyCode": "DOS"
+          },
+          "topAgencyDetails": {
+            "code": "DOS",
+            "seed": "DOS",
+            "agencyName": "Department of State",
+            "agencyCode": "DOS",
+            "topAgencyCode": "DOS"
+          },
+          "programTitle": "Academic Exchange Programs - Teachers",
+          "contactInfo": "Hans Posey\r\nProgram Analyst",
+          "competitionId": "DFOP0017930",
+          "competitionTitle": "FY 2026 U.S. Leadership in Education, Advanced Manufacturing, and Digital Skills (U.S. LEADS) Program",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 3,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 13, 2026 11:20:16 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292115",
+          "openingDateStr": "2026-03-13-00-00-00",
+          "closingDateStr": "2026-05-18-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 18, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "agencyAddressDesc",
+        "agencyContactDesc",
+        "agencyContactEmail",
+        "agencyContactEmailDesc",
+        "synopsisDesc",
+        "fundingDescLinkUrl",
+        "fundingDescLinkDesc",
+        "archiveDate",
+        "applicantTypes"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

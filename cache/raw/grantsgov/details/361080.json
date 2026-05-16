@@ -1,0 +1,229 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361080",
+  "fetched_at": "2026-05-16T14:08:35.801Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IkNLQ3BSc1lBRjI4dEd0NTlzenRROENkM3Fpck5jcDlTTzBsMHBQaE1RT3M9Ig.rO3hTZ0__To_6i6suRDLUO7qUTcAkX96gjlHeUU9o34",
+    "data": {
+      "id": 361080,
+      "revision": 1,
+      "opportunityNumber": "W912HZ26S0001",
+      "opportunityTitle": "ERDC Broad Agency Announcement",
+      "owningAgencyCode": "DOD-COE-ERDC",
+      "listed": "L",
+      "publisherUid": "cmbarnett",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361080,
+        "version": 2,
+        "agencyCode": "DOD-COE-ERDC",
+        "agencyName": "CHRISTOPHER M BARNETT\nGrantor",
+        "agencyPhone": "601-918-6467",
+        "agencyAddressDesc": "GRANTS OFFICER",
+        "agencyDetails": {
+          "code": "ERDC",
+          "seed": "DOD-COE-ERDC",
+          "agencyName": "Engineer Research and Development Center",
+          "agencyCode": "DOD-COE-ERDC",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "601-918-6467",
+        "agencyContactName": "CHRISTOPHER M BARNETT\nGrantor",
+        "agencyContactDesc": "ZAVIEN BEAL\r\nGrantor\r\nPhone 601-634-3962",
+        "agencyContactEmail": "ZAVIEN.T.BEAL@usace.army.mil",
+        "agencyContactEmailDesc": "GRANTS OFFICER",
+        "synopsisDesc": "<p>The U.S. Army Corps of Engineers (USACE) Engineer Research and Development Center (ERDC) is issuing this announcement for various research and development topic areas. The ERDC consists of the Coastal and Hydraulics Laboratory (CHL), the Geotechnical and Structures Laboratory (GSL), the Environmental Laboratory (EL) and the Information Technology Laboratory (ITL) in Vicksburg, Mississippi, the Cold Regions Research and Engineering Laboratory (CRREL) in Hanover, New Hampshire, the Construction Engineering Research Laboratory (CERL) in Champaign, Illinois, and the Geospatial Research Laboratory (GRL) in Alexandria, Virginia. The ERDC is responsible for conducting research in the broad fields of hydraulics, dredging, coastal engineering, instrumentation, oceanography, remote sensing, geotechnical engineering, earthquake engineering, soil effects, vehicle mobility, self-contained munitions, military engineering, geophysics, pavements, protective structures, aquatic plants, water quality, dredged material, treatment of hazardous waste, wetlands, physical/mechanical/ chemical properties of snow and other frozen precipitation, infrastructure and environmental issues for installations, computer science, telecommunications management, energy, facilities maintenance, materials and structures, engineering processes, environmental processes, land and heritage conservation, and ecological processes.</p><p><br></p><p>This announcement is continuously open; pre-proposals may be submitted and will be reviewed at any time throughout the year. The availability of funds may limit the ability of the U.S. Government to make awards in specific areas, nevertheless pre-proposals are sought under this announcement for all research areas identified.</p><p><br></p><p>For additional details on the research topic areas and how to submit pre-proposals, please go to:</p><p><br></p><p>https://www.erdcwerx.org/u-s-army-engineer-research-and-development-center-broad-agency-announcement/</p>",
+        "responseDate": "Jan 01, 2027 12:00:00 AM EST",
+        "responseDateDesc": "",
+        "postingDate": "Jan 02, 2026 12:00:00 AM EST",
+        "archiveDate": "Jan 31, 2027 12:00:00 AM EST",
+        "costSharing": false,
+        "awardCeiling": "999999999",
+        "awardCeilingFormatted": "999,999,999",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "",
+        "sendEmail": "N",
+        "createTimeStamp": "Jan 22, 2026 09:35:25 AM EST",
+        "modComments": "POC changed to Zavien Beal.",
+        "createdDate": "Jan 02, 2026 10:28:33 AM EST",
+        "lastUpdatedDate": "Jan 22, 2026 09:35:25 AM EST",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2027-01-01-00-00-00",
+        "postingDateStr": "2026-01-02-00-00-00",
+        "archiveDateStr": "2027-01-31-00-00-00",
+        "createTimeStampStr": "2026-01-22-09-35-25"
+      },
+      "agencyDetails": {
+        "code": "ERDC",
+        "seed": "DOD-COE-ERDC",
+        "agencyName": "Engineer Research and Development Center",
+        "agencyCode": "DOD-COE-ERDC",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 431692,
+          "opportunityId": 361080,
+          "cfdaNumber": "12.630",
+          "programTitle": "Basic, Applied, and Advanced Research in Science and Engineering"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361080,
+            "revision": 0
+          },
+          "opportunityId": 361080,
+          "revision": 0,
+          "opportunityNumber": "W912HZ26S0001",
+          "opportunityTitle": "ERDC Broad Agency Announcement",
+          "owningAgencyCode": "DOD-COE-ERDC",
+          "publisherUid": "cmbarnett",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361080,
+              "revision": 0
+            },
+            "opportunityId": 361080,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOD-COE-ERDC",
+            "agencyAddressDesc": "GRANTS OFFICER",
+            "agencyDetails": {
+              "code": "ERDC",
+              "seed": "DOD-COE-ERDC",
+              "agencyName": "Engineer Research and Development Center",
+              "agencyCode": "DOD-COE-ERDC",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "601-918-6467",
+            "agencyContactName": "CHRISTOPHER M BARNETT\nGrantor",
+            "agencyContactDesc": "ALLISON HUDSON\r\nGrantor\r\nPhone 601-634-5337",
+            "agencyContactEmail": "ALLISON.B.HUDSON@usace.army.mil",
+            "agencyContactEmailDesc": "GRANTS OFFICER",
+            "synopsisDesc": "<p>The U.S. Army Corps of Engineers (USACE) Engineer Research and Development Center (ERDC) is issuing this announcement for various research and development topic areas. The ERDC consists of the Coastal and Hydraulics Laboratory (CHL), the Geotechnical and Structures Laboratory (GSL), the Environmental Laboratory (EL) and the Information Technology Laboratory (ITL) in Vicksburg, Mississippi, the Cold Regions Research and Engineering Laboratory (CRREL) in Hanover, New Hampshire, the Construction Engineering Research Laboratory (CERL) in Champaign, Illinois, and the Geospatial Research Laboratory (GRL) in Alexandria, Virginia. The ERDC is responsible for conducting research in the broad fields of hydraulics, dredging, coastal engineering, instrumentation, oceanography, remote sensing, geotechnical engineering, earthquake engineering, soil effects, vehicle mobility, self-contained munitions, military engineering, geophysics, pavements, protective structures, aquatic plants, water quality, dredged material, treatment of hazardous waste, wetlands, physical/mechanical/ chemical properties of snow and other frozen precipitation, infrastructure and environmental issues for installations, computer science, telecommunications management, energy, facilities maintenance, materials and structures, engineering processes, environmental processes, land and heritage conservation, and ecological processes.</p><p><br></p><p>This announcement is continuously open; pre-proposals may be submitted and will be reviewed at any time throughout the year. The availability of funds may limit the ability of the U.S. Government to make awards in specific areas, nevertheless pre-proposals are sought under this announcement for all research areas identified.</p><p><br></p><p>For additional details on the research topic areas and how to submit pre-proposals, please go to:</p><p><br></p><p>https://www.erdcwerx.org/u-s-army-engineer-research-and-development-center-broad-agency-announcement/</p>",
+            "responseDate": "Jan 01, 2027 12:00:00 AM EST",
+            "responseDateDesc": "",
+            "postingDate": "Jan 02, 2026 12:00:00 AM EST",
+            "archiveDate": "Jan 31, 2027 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "999999999",
+            "awardCeilingFormatted": "999,999,999",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "",
+            "createTimeStamp": "Jan 02, 2026 10:28:33 AM EST",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Jan 22, 2026 09:35:25 AM EST",
+            "createdDate": "Jan 02, 2026 10:28:33 AM EST",
+            "lastUpdatedDate": "Jan 02, 2026 10:28:33 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2027-01-01-00-00-00",
+            "postingDateStr": "2026-01-02-00-00-00",
+            "archiveDateStr": "2027-01-31-00-00-00",
+            "createTimeStampStr": "2026-01-02-10-28-33"
+          },
+          "cfdas": [
+            {
+              "id": 431692,
+              "opportunityId": 361080,
+              "revision": 0,
+              "cfdaNumber": "12.630",
+              "programTitle": "Basic, Applied, and Advanced Research in Science and Engineering"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jan 01, 2027 12:00:00 AM EST",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "agencyContactDesc",
+        "agencyContactEmail",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

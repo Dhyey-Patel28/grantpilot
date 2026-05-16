@@ -1,0 +1,1078 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "358380",
+  "fetched_at": "2026-05-16T14:07:40.326Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImhiakxHSEk4VW01MmYzTCtRMThRREVZUXV0dS9SU21RdnBTZ3dBUUhBMU09Ig.EuTWEdGYuNWKHumNp9giemiHDTLw9QnH2U0gJCysg7M",
+    "data": {
+      "id": 358380,
+      "revision": 9,
+      "opportunityNumber": "HQ003425NFOEASD03",
+      "opportunityTitle": "Department of War Cyber Service Academy (DoW CSA)",
+      "owningAgencyCode": "DOD-WHS",
+      "listed": "L",
+      "publisherUid": "jebertsch",
+      "modifiedComments": "Updated Opportunity Title to match the Academic Year 2026-2027 NFO.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 358380,
+        "version": 10,
+        "agencyCode": "DOD-WHS",
+        "agencyName": "Jonathan Bertsch\nGrantor",
+        "agencyPhone": "7035453559",
+        "agencyAddressDesc": "Grants Officer E-mail",
+        "agencyDetails": {
+          "code": "WHS",
+          "seed": "DOD-WHS",
+          "agencyName": "Washington Headquarters Services",
+          "agencyCode": "DOD-WHS",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "7035453559",
+        "agencyContactName": "Jonathan Bertsch\nGrantor",
+        "agencyContactDesc": "Jonathan Bertsch",
+        "agencyContactEmail": "jonathan.e.bertsch.civ@mail.mil",
+        "agencyContactEmailDesc": "Grants Officer E-mail",
+        "synopsisDesc": "<p><strong><em><u>See the \"Related Documents\" and \"Package\" tabs for the complete application package, including the full text of the Notice of Funding Opportunity.</u></em></strong></p><p><br></p><p>The Department of War (DoW) Cyber Service Academy (CSA) is authorized by Chapter 112 of Title 10, United States Code, Section 2200. The purpose of the program is to support the recruitment of new cyber talent and the retention of current highly skilled professionals within the DoW cyber workforce. Additionally, this program serves to enhance the national pipeline for the development of cyber personnel by providing grants to institutions of higher education.</p><p><br></p><p>Regionally and nationally accredited U.S. institutions of higher education, designated under the National Centers of Academic Excellence in Cybersecurity (NCAE-C) and known as National Centers of Academic Excellence in Cyber Defense, Research, and/or Cyber Operations (hereinafter referred to as designated institutions) are invited to submit proposals for developing and managing a full-time, institution-based, grant-funded scholarship program in cyber-related disciplines for Academic Year 2026-2027.</p><p><br></p><p>Consistent with 10 U.S.C. 2200b, proposals to this solicitation may also request modest collateral support for purposes of institutional capacity building to include faculty development, laboratory improvements, and/or curriculum development, in cyber-related topics to providing a strong foundation for a DoW CSA.</p>",
+        "responseDate": "Jan 22, 2030 12:00:00 AM EST",
+        "responseDateDesc": "",
+        "postingDate": "Jan 23, 2025 12:00:00 AM EST",
+        "archiveDate": "Feb 21, 2030 12:00:00 AM EST",
+        "costSharing": false,
+        "numberOfAwards": "75",
+        "awardCeiling": "20000000",
+        "awardCeilingFormatted": "20,000,000",
+        "awardFloor": "50000",
+        "awardFloorFormatted": "50,000",
+        "applicantEligibilityDesc": "Please see Section C of the Notice of Funding Opportunity (under the &quot;Related Documents&quot; tab) for complete eligibility requirements.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Mar 19, 2026 03:24:18 PM EDT",
+        "modComments": "Updated Opportunity Title to match the Academic Year 2026-2027 NFO.",
+        "createdDate": "Jan 23, 2025 02:08:55 PM EST",
+        "lastUpdatedDate": "Mar 19, 2026 03:24:18 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ED",
+            "description": "Education"
+          }
+        ],
+        "responseDateStr": "2030-01-22-00-00-00",
+        "postingDateStr": "2025-01-23-00-00-00",
+        "archiveDateStr": "2030-02-21-00-00-00",
+        "createTimeStampStr": "2026-03-19-15-24-18"
+      },
+      "agencyDetails": {
+        "code": "WHS",
+        "seed": "DOD-WHS",
+        "agencyName": "Washington Headquarters Services",
+        "agencyCode": "DOD-WHS",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79021,
+          "opportunityId": 358380,
+          "folderType": "Full Announcement",
+          "folderName": "Academic Year 2026-2027 NFO",
+          "zipLobSize": 1261474,
+          "createdDate": "Mar 19, 2026 03:15:01 PM EDT",
+          "lastUpdatedDate": "Mar 19, 2026 03:21:25 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350624,
+              "opportunityId": 358380,
+              "mimeType": "application/pdf",
+              "fileName": "H08 HQ003425NFOEASD03 20260319.pdf",
+              "fileDescription": "Academic Year 2026-2027 Notice of Funding Opportunity",
+              "fileLobSize": 454525,
+              "createdDate": "Mar 19, 2026 03:21:25 PM EDT",
+              "synopsisAttFolderId": 79021
+            },
+            {
+              "id": 350622,
+              "opportunityId": 358380,
+              "mimeType": "application/pdf",
+              "fileName": "H08 Application Instructions 20260319.pdf",
+              "fileDescription": "Application Instructions 20260319",
+              "fileLobSize": 91322,
+              "createdDate": "Mar 19, 2026 03:20:43 PM EDT",
+              "synopsisAttFolderId": 79021
+            },
+            {
+              "id": 350620,
+              "opportunityId": 358380,
+              "mimeType": "application/pdf",
+              "fileName": "H08 DoW CSA Bootcamp 2027.pdf",
+              "fileDescription": "DoW CSA Bootcamp 2027",
+              "fileLobSize": 146454,
+              "createdDate": "Mar 19, 2026 03:19:48 PM EDT",
+              "synopsisAttFolderId": 79021
+            },
+            {
+              "id": 350621,
+              "opportunityId": 358380,
+              "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "fileName": "H08 DoW CSA Budget and Student Identification Sheet 2026-2027.xlsx",
+              "fileDescription": "DoW CSA Budget and Student Identification Sheet 2026-2027",
+              "fileLobSize": 89932,
+              "createdDate": "Mar 19, 2026 03:20:22 PM EDT",
+              "synopsisAttFolderId": 79021
+            },
+            {
+              "id": 350619,
+              "opportunityId": 358380,
+              "mimeType": "application/pdf",
+              "fileName": "H08 DoW CSA INSuRE Summer Camp 2027.pdf",
+              "fileDescription": "DoW CSA INSuRE Summer Camp 2027",
+              "fileLobSize": 294094,
+              "createdDate": "Mar 19, 2026 03:19:34 PM EDT",
+              "synopsisAttFolderId": 79021
+            },
+            {
+              "id": 350618,
+              "opportunityId": 358380,
+              "mimeType": "application/pdf",
+              "fileName": "H08 DoW Retention Program 2026 2027.pdf",
+              "fileDescription": "DoW Retention Program 2026-2027",
+              "fileLobSize": 79477,
+              "createdDate": "Mar 19, 2026 03:19:15 PM EDT",
+              "synopsisAttFolderId": 79021
+            },
+            {
+              "id": 350623,
+              "opportunityId": 358380,
+              "mimeType": "application/pdf",
+              "fileName": "H08 Evaluation Factors DoW CSA 20260227.pdf",
+              "fileDescription": "Evaluation Factors",
+              "fileLobSize": 207415,
+              "createdDate": "Mar 19, 2026 03:21:01 PM EDT",
+              "synopsisAttFolderId": 79021
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [
+        {
+          "id": {
+            "opportunityId": 358380,
+            "attType": "D",
+            "createdDate": "Mar 19, 2026 03:22:26 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Mar 19, 2026"
+          },
+          "changeComments": "This Related Documents Modification provides the Academic Year 2026-2027 DoW CSA application package."
+        },
+        {
+          "id": {
+            "opportunityId": 358380,
+            "attType": "D",
+            "createdDate": "Mar 10, 2025 02:51:59 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Mar 10, 2025"
+          },
+          "changeComments": "The FY25 DoD CSA NFO has been updated with new page limit information."
+        },
+        {
+          "id": {
+            "opportunityId": 358380,
+            "attType": "D",
+            "createdDate": "Feb 12, 2025 02:58:12 PM EST",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Feb 12, 2025"
+          },
+          "changeComments": "Additional supporting documents added"
+        },
+        {
+          "id": {
+            "opportunityId": 358380,
+            "attType": "D",
+            "createdDate": "Feb 12, 2025 12:47:04 PM EST",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Feb 12, 2025"
+          },
+          "changeComments": "Related Documents folder was updated to include revised NFO and supporting documents."
+        }
+      ],
+      "cfdas": [
+        {
+          "id": 427554,
+          "opportunityId": 358380,
+          "cfdaNumber": "12.902",
+          "programTitle": "Information Security Grants"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 358380,
+            "revision": 1
+          },
+          "opportunityId": 358380,
+          "revision": 1,
+          "opportunityNumber": "HQ003425NFOEASD03",
+          "opportunityTitle": "DoD Cyber Service Academy (DoD CSA)",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "jebertsch",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 358380,
+              "revision": 1
+            },
+            "opportunityId": 358380,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer E-mail",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "7035453559",
+            "agencyContactName": "Jonathan Bertsch\nGrantor",
+            "agencyContactDesc": "Jonathan Bertsch",
+            "agencyContactEmail": "jonathan.e.bertsch.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer E-mail",
+            "synopsisDesc": "<p><strong><em><u>See the \"Related Documents\" and \"Package\" tabs for the complete application package, including the full text of the Notice of Funding Opportunity.</u></em></strong></p><p><br></p><p>The Department of Defense (DoD) Cyber Service Academy (CSA) is authorized by Chapter 112 of title 10, United States Code, Section 2200. The purpose of the program is to support the recruitment of new cyber talent and the retention of current highly skilled professionals within the DoD cyber workforce. Additionally, this program serves to enhance the national pipeline for the development of cyber personnel by providing grants to institutions of higher education.</p><p><br></p><p>Regionally and nationally accredited U.S. institutions of higher education, designated under the National Centers of Academic Excellence in Cybersecurity (NCAE-C) and known as National Centers of Academic Excellence in Cyber Defense, Research, and/or Cyber Operations (hereinafter referred to as NCAE-Cs) are invited to submit proposals for developing and managing a full-time, institution-based, grant-funded scholarship program in cyber-related disciplines for Academic Year 2024- 2025. NCAE-Cs may propose collaboration with other accredited institutions, and are encouraged to include accredited post-secondary minority institutions. NCAE-Cs must be in good standing with the NCAE-C Program Office and not be delinquent on any required documentation by the NCAE-C Program Office.</p><p><br></p><p>Consistent with 10 U.S.C. 2200b, NCAE-C proposals to this solicitation may also request modest collateral support for purposes of institutional capacity building to include faculty development, laboratory improvements, and/or curriculum development, in cyber-related topics to providing a strong foundation for a DoD CSA.</p>",
+            "responseDate": "Feb 28, 2025 12:00:00 AM EST",
+            "responseDateDesc": "",
+            "postingDate": "Jan 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Mar 30, 2025 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "75",
+            "awardCeiling": "20000000",
+            "awardCeilingFormatted": "20,000,000",
+            "awardFloor": "50000",
+            "awardFloorFormatted": "50,000",
+            "applicantEligibilityDesc": "Only NCAE-C institutions may apply for scholarship and/or capacity building grants. To be eligible for an award, an organization must submit a certificate of Assurance or Compliance with Title VI of the Civil Rights Act of 1964 and be constantly in compliance with the Act. Individual student applicants must meet the eligibility criteria outlined at 10 U.S.C. 2220b. Scholarship applicants must meet all requirements for acceptance to the specific institution they plan to attend. To continue the development of a strong foundation for recruitment scholarship program during the Academic Year 2025-2026, students falling into one of the following categories may apply: Rising second-year NCAE-C Community College students who will be transitioning into a bachelor&rsquo;s degree program at a 4-year NCAE-C; Current individuals who hold a non-cyber related bachelor&rsquo;s or graduate degree, cross training into cyber by pursuing an associate&rsquo;s degree; Juniors or Seniors pursuing a bachelor's degree (Sophomore's promoting to a Junior in Fall 2025 are eligible to apply); Students in their first or second year of a master's degree; or Students pursuing doctoral degrees. Traditional National Guardsmen and reservists are eligible to apply under the recruitment program. Current DoD civilians and active duty military members are only eligible for the retention program. DoD civilian employees are eligible to apply, but must first be nominated by their Component. Nominated personnel shall be high performing employees who are rated at the higher levels of the applicable performance appraisal system and demonstrate sustained quality performance with the potential for increased responsibilities. Applications for the retention program are processed under a different memorandum. NCAE-C are not required to forward or handle retention student applications. These individuals may also participate in the retention community college program. Reserve Officer&rsquo;s Training Corps (ROTC) participants are eligible to apply as long as they do not currently have a service obligation with their ROTC activities. Employees of non-DoD federal agencies are ineligible for either program. All eligibility criteria, especially academic credentials, should be carefully reviewed, as DoD CSA requirements may be more stringent than general academic enrollment criteria for a particular college/university. No waivers will be granted.",
+            "createTimeStamp": "Feb 12, 2025 12:47:04 PM EST",
+            "sendEmail": "Y",
+            "modComments": "Updated the Posted Date",
+            "actionType": "U",
+            "actionDate": "Feb 12, 2025 12:55:51 PM EST",
+            "createdDate": "Jan 23, 2025 02:08:55 PM EST",
+            "lastUpdatedDate": "Jan 23, 2025 03:33:37 PM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              }
+            ],
+            "responseDateStr": "2025-02-28-00-00-00",
+            "postingDateStr": "2025-01-23-00-00-00",
+            "archiveDateStr": "2025-03-30-00-00-00",
+            "createTimeStampStr": "2025-02-12-12-47-04"
+          },
+          "cfdas": [
+            {
+              "id": 427554,
+              "opportunityId": 358380,
+              "revision": 8,
+              "cfdaNumber": "12.902",
+              "programTitle": "Information Security Grants"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 358380,
+            "revision": 2
+          },
+          "opportunityId": 358380,
+          "revision": 2,
+          "opportunityNumber": "HQ003425NFOEASD03",
+          "opportunityTitle": "DoD Cyber Service Academy (DoD CSA)",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "jebertsch",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 358380,
+              "revision": 2
+            },
+            "opportunityId": 358380,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer E-mail",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "7035453559",
+            "agencyContactName": "Jonathan Bertsch\nGrantor",
+            "agencyContactDesc": "Jonathan Bertsch",
+            "agencyContactEmail": "jonathan.e.bertsch.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer E-mail",
+            "synopsisDesc": "<p><strong><em><u>See the \"Related Documents\" and \"Package\" tabs for the complete application package, including the full text of the Notice of Funding Opportunity.</u></em></strong></p><p><br></p><p>The Department of Defense (DoD) Cyber Service Academy (CSA) is authorized by Chapter 112 of title 10, United States Code, Section 2200. The purpose of the program is to support the recruitment of new cyber talent and the retention of current highly skilled professionals within the DoD cyber workforce. Additionally, this program serves to enhance the national pipeline for the development of cyber personnel by providing grants to institutions of higher education.</p><p><br></p><p>Regionally and nationally accredited U.S. institutions of higher education, designated under the National Centers of Academic Excellence in Cybersecurity (NCAE-C) and known as National Centers of Academic Excellence in Cyber Defense, Research, and/or Cyber Operations (hereinafter referred to as NCAE-Cs) are invited to submit proposals for developing and managing a full-time, institution-based, grant-funded scholarship program in cyber-related disciplines for Academic Year 2024- 2025. NCAE-Cs may propose collaboration with other accredited institutions, and are encouraged to include accredited post-secondary minority institutions. NCAE-Cs must be in good standing with the NCAE-C Program Office and not be delinquent on any required documentation by the NCAE-C Program Office.</p><p><br></p><p>Consistent with 10 U.S.C. 2200b, NCAE-C proposals to this solicitation may also request modest collateral support for purposes of institutional capacity building to include faculty development, laboratory improvements, and/or curriculum development, in cyber-related topics to providing a strong foundation for a DoD CSA.</p>",
+            "responseDate": "Feb 28, 2025 12:00:00 AM EST",
+            "responseDateDesc": "",
+            "postingDate": "Jan 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Mar 30, 2025 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "75",
+            "awardCeiling": "20000000",
+            "awardCeilingFormatted": "20,000,000",
+            "awardFloor": "50000",
+            "awardFloorFormatted": "50,000",
+            "applicantEligibilityDesc": "Please see Section C of the Notice of Funding Opportunity (under the &quot;Related Documents&quot; tab) for complete eligibility requirements.",
+            "createTimeStamp": "Feb 12, 2025 02:58:12 PM EST",
+            "sendEmail": "Y",
+            "modComments": "Updated the Related Documents tab with revised NFO and supporting documents, as well as the Eligibility section of this Synopsis.",
+            "actionType": "U",
+            "actionDate": "Feb 13, 2025 09:19:02 AM EST",
+            "createdDate": "Jan 23, 2025 02:08:55 PM EST",
+            "lastUpdatedDate": "Feb 12, 2025 12:55:51 PM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              }
+            ],
+            "responseDateStr": "2025-02-28-00-00-00",
+            "postingDateStr": "2025-01-23-00-00-00",
+            "archiveDateStr": "2025-03-30-00-00-00",
+            "createTimeStampStr": "2025-02-12-14-58-12"
+          },
+          "cfdas": [
+            {
+              "id": 427554,
+              "opportunityId": 358380,
+              "revision": 8,
+              "cfdaNumber": "12.902",
+              "programTitle": "Information Security Grants"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "applicantEligibilityDesc"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 358380,
+            "revision": 3
+          },
+          "opportunityId": 358380,
+          "revision": 3,
+          "opportunityNumber": "HQ003425NFOEASD03",
+          "opportunityTitle": "DoD Cyber Service Academy (DoD CSA)",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "jebertsch",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 358380,
+              "revision": 3
+            },
+            "opportunityId": 358380,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer E-mail",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "7035453559",
+            "agencyContactName": "Jonathan Bertsch\nGrantor",
+            "agencyContactDesc": "Jonathan Bertsch",
+            "agencyContactEmail": "jonathan.e.bertsch.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer E-mail",
+            "synopsisDesc": "<p><strong><em><u>See the \"Related Documents\" and \"Package\" tabs for the complete application package, including the full text of the Notice of Funding Opportunity.</u></em></strong></p><p><br></p><p>The Department of Defense (DoD) Cyber Service Academy (CSA) is authorized by Chapter 112 of title 10, United States Code, Section 2200. The purpose of the program is to support the recruitment of new cyber talent and the retention of current highly skilled professionals within the DoD cyber workforce. Additionally, this program serves to enhance the national pipeline for the development of cyber personnel by providing grants to institutions of higher education.</p><p><br></p><p>Regionally and nationally accredited U.S. institutions of higher education, designated under the National Centers of Academic Excellence in Cybersecurity (NCAE-C) and known as National Centers of Academic Excellence in Cyber Defense, Research, and/or Cyber Operations (hereinafter referred to as NCAE-Cs) are invited to submit proposals for developing and managing a full-time, institution-based, grant-funded scholarship program in cyber-related disciplines for Academic Year 2024- 2025. NCAE-Cs may propose collaboration with other accredited institutions, and are encouraged to include accredited post-secondary minority institutions. NCAE-Cs must be in good standing with the NCAE-C Program Office and not be delinquent on any required documentation by the NCAE-C Program Office.</p><p><br></p><p>Consistent with 10 U.S.C. 2200b, NCAE-C proposals to this solicitation may also request modest collateral support for purposes of institutional capacity building to include faculty development, laboratory improvements, and/or curriculum development, in cyber-related topics to providing a strong foundation for a DoD CSA.</p>",
+            "responseDate": "Mar 28, 2025 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Jan 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Apr 27, 2025 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "75",
+            "awardCeiling": "20000000",
+            "awardCeilingFormatted": "20,000,000",
+            "awardFloor": "50000",
+            "awardFloorFormatted": "50,000",
+            "applicantEligibilityDesc": "Please see Section C of the Notice of Funding Opportunity (under the &quot;Related Documents&quot; tab) for complete eligibility requirements.",
+            "createTimeStamp": "Mar 10, 2025 02:51:59 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "Application closing date updated to 28 March 2025.",
+            "actionType": "U",
+            "actionDate": "Apr 28, 2025 10:39:23 AM EDT",
+            "createdDate": "Jan 23, 2025 02:08:55 PM EST",
+            "lastUpdatedDate": "Feb 13, 2025 09:19:02 AM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              }
+            ],
+            "responseDateStr": "2025-03-28-00-00-00",
+            "postingDateStr": "2025-01-23-00-00-00",
+            "archiveDateStr": "2025-04-27-00-00-00",
+            "createTimeStampStr": "2025-03-10-14-51-59"
+          },
+          "cfdas": [
+            {
+              "id": 427554,
+              "opportunityId": 358380,
+              "revision": 8,
+              "cfdaNumber": "12.902",
+              "programTitle": "Information Security Grants"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "archiveDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 358380,
+            "revision": 4
+          },
+          "opportunityId": 358380,
+          "revision": 4,
+          "opportunityNumber": "HQ003425NFOEASD03",
+          "opportunityTitle": "DoD Cyber Service Academy (DoD CSA)",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "jebertsch",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 358380,
+              "revision": 4
+            },
+            "opportunityId": 358380,
+            "revision": 4,
+            "version": 5,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer E-mail",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "7035453559",
+            "agencyContactName": "Jonathan Bertsch\nGrantor",
+            "agencyContactDesc": "Jonathan Bertsch",
+            "agencyContactEmail": "jonathan.e.bertsch.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer E-mail",
+            "synopsisDesc": "<p><strong><em><u>See the \"Related Documents\" and \"Package\" tabs for the complete application package, including the full text of the Notice of Funding Opportunity.</u></em></strong></p><p><br></p><p>The Department of Defense (DoD) Cyber Service Academy (CSA) is authorized by Chapter 112 of title 10, United States Code, Section 2200. The purpose of the program is to support the recruitment of new cyber talent and the retention of current highly skilled professionals within the DoD cyber workforce. Additionally, this program serves to enhance the national pipeline for the development of cyber personnel by providing grants to institutions of higher education.</p><p><br></p><p>Regionally and nationally accredited U.S. institutions of higher education, designated under the National Centers of Academic Excellence in Cybersecurity (NCAE-C) and known as National Centers of Academic Excellence in Cyber Defense, Research, and/or Cyber Operations (hereinafter referred to as NCAE-Cs) are invited to submit proposals for developing and managing a full-time, institution-based, grant-funded scholarship program in cyber-related disciplines for Academic Year 2024- 2025. NCAE-Cs may propose collaboration with other accredited institutions, and are encouraged to include accredited post-secondary minority institutions. NCAE-Cs must be in good standing with the NCAE-C Program Office and not be delinquent on any required documentation by the NCAE-C Program Office.</p><p><br></p><p>Consistent with 10 U.S.C. 2200b, NCAE-C proposals to this solicitation may also request modest collateral support for purposes of institutional capacity building to include faculty development, laboratory improvements, and/or curriculum development, in cyber-related topics to providing a strong foundation for a DoD CSA.</p>",
+            "responseDate": "May 12, 2025 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Jan 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jun 11, 2025 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "75",
+            "awardCeiling": "20000000",
+            "awardCeilingFormatted": "20,000,000",
+            "awardFloor": "50000",
+            "awardFloorFormatted": "50,000",
+            "applicantEligibilityDesc": "Please see Section C of the Notice of Funding Opportunity (under the &quot;Related Documents&quot; tab) for complete eligibility requirements.",
+            "createTimeStamp": "Apr 28, 2025 10:39:23 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "Opportunity reopened",
+            "actionType": "U",
+            "actionDate": "May 22, 2025 10:48:30 AM EDT",
+            "createdDate": "Jan 23, 2025 02:08:55 PM EST",
+            "lastUpdatedDate": "Apr 28, 2025 10:39:23 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              }
+            ],
+            "responseDateStr": "2025-05-12-00-00-00",
+            "postingDateStr": "2025-01-23-00-00-00",
+            "archiveDateStr": "2025-06-11-00-00-00",
+            "createTimeStampStr": "2025-04-28-10-39-23"
+          },
+          "cfdas": [
+            {
+              "id": 427554,
+              "opportunityId": 358380,
+              "revision": 8,
+              "cfdaNumber": "12.902",
+              "programTitle": "Information Security Grants"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "archiveDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 358380,
+            "revision": 5
+          },
+          "opportunityId": 358380,
+          "revision": 5,
+          "opportunityNumber": "HQ003425NFOEASD03",
+          "opportunityTitle": "DoD Cyber Service Academy (DoD CSA)",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "jebertsch",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 358380,
+              "revision": 5
+            },
+            "opportunityId": 358380,
+            "revision": 5,
+            "version": 6,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer E-mail",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "7035453559",
+            "agencyContactName": "Jonathan Bertsch\nGrantor",
+            "agencyContactDesc": "Jonathan Bertsch",
+            "agencyContactEmail": "jonathan.e.bertsch.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer E-mail",
+            "synopsisDesc": "<p><strong><em><u>See the \"Related Documents\" and \"Package\" tabs for the complete application package, including the full text of the Notice of Funding Opportunity.</u></em></strong></p><p><br></p><p>The Department of Defense (DoD) Cyber Service Academy (CSA) is authorized by Chapter 112 of title 10, United States Code, Section 2200. The purpose of the program is to support the recruitment of new cyber talent and the retention of current highly skilled professionals within the DoD cyber workforce. Additionally, this program serves to enhance the national pipeline for the development of cyber personnel by providing grants to institutions of higher education.</p><p><br></p><p>Regionally and nationally accredited U.S. institutions of higher education, designated under the National Centers of Academic Excellence in Cybersecurity (NCAE-C) and known as National Centers of Academic Excellence in Cyber Defense, Research, and/or Cyber Operations (hereinafter referred to as NCAE-Cs) are invited to submit proposals for developing and managing a full-time, institution-based, grant-funded scholarship program in cyber-related disciplines for Academic Year 2024- 2025. NCAE-Cs may propose collaboration with other accredited institutions, and are encouraged to include accredited post-secondary minority institutions. NCAE-Cs must be in good standing with the NCAE-C Program Office and not be delinquent on any required documentation by the NCAE-C Program Office.</p><p><br></p><p>Consistent with 10 U.S.C. 2200b, NCAE-C proposals to this solicitation may also request modest collateral support for purposes of institutional capacity building to include faculty development, laboratory improvements, and/or curriculum development, in cyber-related topics to providing a strong foundation for a DoD CSA.</p>",
+            "responseDate": "Jun 06, 2025 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Jan 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 06, 2025 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "75",
+            "awardCeiling": "20000000",
+            "awardCeilingFormatted": "20,000,000",
+            "awardFloor": "50000",
+            "awardFloorFormatted": "50,000",
+            "applicantEligibilityDesc": "Please see Section C of the Notice of Funding Opportunity (under the &quot;Related Documents&quot; tab) for complete eligibility requirements.",
+            "createTimeStamp": "May 22, 2025 10:48:30 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "Synopsis re-opened to allow applicants to resubmit.",
+            "actionType": "U",
+            "actionDate": "Jun 18, 2025 11:48:13 AM EDT",
+            "createdDate": "Jan 23, 2025 02:08:55 PM EST",
+            "lastUpdatedDate": "May 22, 2025 10:48:30 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              }
+            ],
+            "responseDateStr": "2025-06-06-00-00-00",
+            "postingDateStr": "2025-01-23-00-00-00",
+            "archiveDateStr": "2025-07-06-00-00-00",
+            "createTimeStampStr": "2025-05-22-10-48-30"
+          },
+          "cfdas": [
+            {
+              "id": 427554,
+              "opportunityId": 358380,
+              "revision": 8,
+              "cfdaNumber": "12.902",
+              "programTitle": "Information Security Grants"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "archiveDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 358380,
+            "revision": 6
+          },
+          "opportunityId": 358380,
+          "revision": 6,
+          "opportunityNumber": "HQ003425NFOEASD03",
+          "opportunityTitle": "DoD Cyber Service Academy (DoD CSA)",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "jebertsch",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 358380,
+              "revision": 6
+            },
+            "opportunityId": 358380,
+            "revision": 6,
+            "version": 7,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer E-mail",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "7035453559",
+            "agencyContactName": "Jonathan Bertsch\nGrantor",
+            "agencyContactDesc": "Jonathan Bertsch",
+            "agencyContactEmail": "jonathan.e.bertsch.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer E-mail",
+            "synopsisDesc": "<p><strong><em><u>See the \"Related Documents\" and \"Package\" tabs for the complete application package, including the full text of the Notice of Funding Opportunity.</u></em></strong></p><p><br></p><p>The Department of Defense (DoD) Cyber Service Academy (CSA) is authorized by Chapter 112 of title 10, United States Code, Section 2200. The purpose of the program is to support the recruitment of new cyber talent and the retention of current highly skilled professionals within the DoD cyber workforce. Additionally, this program serves to enhance the national pipeline for the development of cyber personnel by providing grants to institutions of higher education.</p><p><br></p><p>Regionally and nationally accredited U.S. institutions of higher education, designated under the National Centers of Academic Excellence in Cybersecurity (NCAE-C) and known as National Centers of Academic Excellence in Cyber Defense, Research, and/or Cyber Operations (hereinafter referred to as NCAE-Cs) are invited to submit proposals for developing and managing a full-time, institution-based, grant-funded scholarship program in cyber-related disciplines for Academic Year 2024- 2025. NCAE-Cs may propose collaboration with other accredited institutions, and are encouraged to include accredited post-secondary minority institutions. NCAE-Cs must be in good standing with the NCAE-C Program Office and not be delinquent on any required documentation by the NCAE-C Program Office.</p><p><br></p><p>Consistent with 10 U.S.C. 2200b, NCAE-C proposals to this solicitation may also request modest collateral support for purposes of institutional capacity building to include faculty development, laboratory improvements, and/or curriculum development, in cyber-related topics to providing a strong foundation for a DoD CSA.</p>",
+            "responseDate": "Jul 07, 2025 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Jan 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Aug 06, 2025 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "75",
+            "awardCeiling": "20000000",
+            "awardCeilingFormatted": "20,000,000",
+            "awardFloor": "50000",
+            "awardFloorFormatted": "50,000",
+            "applicantEligibilityDesc": "Please see Section C of the Notice of Funding Opportunity (under the &quot;Related Documents&quot; tab) for complete eligibility requirements.",
+            "createTimeStamp": "Jun 18, 2025 11:48:13 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "NFO re-opened to allow applicant re-submissions",
+            "actionType": "U",
+            "actionDate": "Jan 08, 2026 02:42:24 PM EST",
+            "createdDate": "Jan 23, 2025 02:08:55 PM EST",
+            "lastUpdatedDate": "Jun 18, 2025 11:48:13 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              }
+            ],
+            "responseDateStr": "2025-07-07-00-00-00",
+            "postingDateStr": "2025-01-23-00-00-00",
+            "archiveDateStr": "2025-08-06-00-00-00",
+            "createTimeStampStr": "2025-06-18-11-48-13"
+          },
+          "cfdas": [
+            {
+              "id": 427554,
+              "opportunityId": 358380,
+              "revision": 8,
+              "cfdaNumber": "12.902",
+              "programTitle": "Information Security Grants"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "archiveDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 358380,
+            "revision": 7
+          },
+          "opportunityId": 358380,
+          "revision": 7,
+          "opportunityNumber": "HQ003425NFOEASD03",
+          "opportunityTitle": "DoD Cyber Service Academy (DoD CSA)",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "jebertsch",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 358380,
+              "revision": 7
+            },
+            "opportunityId": 358380,
+            "revision": 7,
+            "version": 8,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer E-mail",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "7035453559",
+            "agencyContactName": "Jonathan Bertsch\nGrantor",
+            "agencyContactDesc": "Jonathan Bertsch",
+            "agencyContactEmail": "jonathan.e.bertsch.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer E-mail",
+            "synopsisDesc": "<p><strong><em><u>See the \"Related Documents\" and \"Package\" tabs for the complete application package, including the full text of the Notice of Funding Opportunity.</u></em></strong></p><p><br></p><p>The Department of Defense (DoD) Cyber Service Academy (CSA) is authorized by Chapter 112 of title 10, United States Code, Section 2200. The purpose of the program is to support the recruitment of new cyber talent and the retention of current highly skilled professionals within the DoD cyber workforce. Additionally, this program serves to enhance the national pipeline for the development of cyber personnel by providing grants to institutions of higher education.</p><p><br></p><p>Regionally and nationally accredited U.S. institutions of higher education, designated under the National Centers of Academic Excellence in Cybersecurity (NCAE-C) and known as National Centers of Academic Excellence in Cyber Defense, Research, and/or Cyber Operations (hereinafter referred to as NCAE-Cs) are invited to submit proposals for developing and managing a full-time, institution-based, grant-funded scholarship program in cyber-related disciplines for Academic Year 2024- 2025. NCAE-Cs may propose collaboration with other accredited institutions, and are encouraged to include accredited post-secondary minority institutions. NCAE-Cs must be in good standing with the NCAE-C Program Office and not be delinquent on any required documentation by the NCAE-C Program Office.</p><p><br></p><p>Consistent with 10 U.S.C. 2200b, NCAE-C proposals to this solicitation may also request modest collateral support for purposes of institutional capacity building to include faculty development, laboratory improvements, and/or curriculum development, in cyber-related topics to providing a strong foundation for a DoD CSA.</p>",
+            "responseDate": "Jan 22, 2030 12:00:00 AM EST",
+            "responseDateDesc": "",
+            "postingDate": "Jan 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Feb 21, 2030 12:00:00 AM EST",
+            "costSharing": false,
+            "numberOfAwards": "75",
+            "awardCeiling": "20000000",
+            "awardCeilingFormatted": "20,000,000",
+            "awardFloor": "50000",
+            "awardFloorFormatted": "50,000",
+            "applicantEligibilityDesc": "Please see Section C of the Notice of Funding Opportunity (under the &quot;Related Documents&quot; tab) for complete eligibility requirements.",
+            "createTimeStamp": "Jan 08, 2026 02:42:24 PM EST",
+            "sendEmail": "Y",
+            "modComments": "Updated Grants.gov synopsis to be open continuously for five years from the original posting date.",
+            "actionType": "U",
+            "actionDate": "Mar 19, 2026 03:14:30 PM EDT",
+            "createdDate": "Jan 23, 2025 02:08:55 PM EST",
+            "lastUpdatedDate": "Jan 08, 2026 02:42:24 PM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              }
+            ],
+            "responseDateStr": "2030-01-22-00-00-00",
+            "postingDateStr": "2025-01-23-00-00-00",
+            "archiveDateStr": "2030-02-21-00-00-00",
+            "createTimeStampStr": "2026-01-08-14-42-24"
+          },
+          "cfdas": [
+            {
+              "id": 427554,
+              "opportunityId": 358380,
+              "revision": 8,
+              "cfdaNumber": "12.902",
+              "programTitle": "Information Security Grants"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "archiveDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 358380,
+            "revision": 8
+          },
+          "opportunityId": 358380,
+          "revision": 8,
+          "opportunityNumber": "HQ003425NFOEASD03",
+          "opportunityTitle": "DoD Cyber Service Academy (DoD CSA)",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "jebertsch",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 358380,
+              "revision": 8
+            },
+            "opportunityId": 358380,
+            "revision": 8,
+            "version": 9,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer E-mail",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "7035453559",
+            "agencyContactName": "Jonathan Bertsch\nGrantor",
+            "agencyContactDesc": "Jonathan Bertsch",
+            "agencyContactEmail": "jonathan.e.bertsch.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer E-mail",
+            "synopsisDesc": "<p><strong><em><u>See the \"Related Documents\" and \"Package\" tabs for the complete application package, including the full text of the Notice of Funding Opportunity.</u></em></strong></p><p><br></p><p>The Department of War (DoW) Cyber Service Academy (CSA) is authorized by Chapter 112 of Title 10, United States Code, Section 2200. The purpose of the program is to support the recruitment of new cyber talent and the retention of current highly skilled professionals within the DoW cyber workforce. Additionally, this program serves to enhance the national pipeline for the development of cyber personnel by providing grants to institutions of higher education.</p><p><br></p><p>Regionally and nationally accredited U.S. institutions of higher education, designated under the National Centers of Academic Excellence in Cybersecurity (NCAE-C) and known as National Centers of Academic Excellence in Cyber Defense, Research, and/or Cyber Operations (hereinafter referred to as designated institutions) are invited to submit proposals for developing and managing a full-time, institution-based, grant-funded scholarship program in cyber-related disciplines for Academic Year 2026-2027.</p><p><br></p><p>Consistent with 10 U.S.C. 2200b, proposals to this solicitation may also request modest collateral support for purposes of institutional capacity building to include faculty development, laboratory improvements, and/or curriculum development, in cyber-related topics to providing a strong foundation for a DoW CSA.</p>",
+            "responseDate": "Jan 22, 2030 12:00:00 AM EST",
+            "responseDateDesc": "",
+            "postingDate": "Jan 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Feb 21, 2030 12:00:00 AM EST",
+            "costSharing": false,
+            "numberOfAwards": "75",
+            "awardCeiling": "20000000",
+            "awardCeilingFormatted": "20,000,000",
+            "awardFloor": "50000",
+            "awardFloorFormatted": "50,000",
+            "applicantEligibilityDesc": "Please see Section C of the Notice of Funding Opportunity (under the &quot;Related Documents&quot; tab) for complete eligibility requirements.",
+            "createTimeStamp": "Mar 19, 2026 03:22:26 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "This Opportunity Modification opens the Academic Year 2026-2027 application cycle. Please see the revised Notice of Funding Opportunity and supporting documents for complete application and submission information.",
+            "actionType": "U",
+            "actionDate": "Mar 19, 2026 03:24:18 PM EDT",
+            "createdDate": "Jan 23, 2025 02:08:55 PM EST",
+            "lastUpdatedDate": "Mar 19, 2026 03:14:30 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              }
+            ],
+            "responseDateStr": "2030-01-22-00-00-00",
+            "postingDateStr": "2025-01-23-00-00-00",
+            "archiveDateStr": "2030-02-21-00-00-00",
+            "createTimeStampStr": "2026-03-19-15-22-26"
+          },
+          "cfdas": [
+            {
+              "id": 427554,
+              "opportunityId": 358380,
+              "revision": 8,
+              "cfdaNumber": "12.902",
+              "programTitle": "Information Security Grants"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 290291,
+          "topportunityId": 358380,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "HQ003425NFOEASD03",
+          "opportunityTitle": "Department of War Cyber Service Academy (DoW CSA)",
+          "cfdaNumber": "12.902",
+          "openingDate": "2025-01-24",
+          "closingDate": "2030-01-22",
+          "owningAgencyCode": "DOD-WHS",
+          "agencyDetails": {
+            "code": "WHS",
+            "seed": "DOD-WHS",
+            "agencyName": "Washington Headquarters Services",
+            "agencyCode": "DOD-WHS",
+            "topAgencyCode": "DOD"
+          },
+          "topAgencyDetails": {
+            "code": "DOD",
+            "seed": "DOD",
+            "agencyName": "Department of Defense",
+            "agencyCode": "DOD",
+            "topAgencyCode": "DOD"
+          },
+          "programTitle": "Information Security Grants",
+          "contactInfo": "Jonathan Bertsch\r\nE-mail: jonathan.e.bertsch.civ@mail.mil",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 100,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Jan 08, 2026 02:43:01 PM EST",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00290291",
+          "openingDateStr": "2025-01-24-00-00-00",
+          "closingDateStr": "2030-01-22-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Feb 28, 2025 12:00:00 AM EST",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "opportunityTitle"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 8,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

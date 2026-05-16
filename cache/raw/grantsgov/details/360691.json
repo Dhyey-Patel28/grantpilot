@@ -1,0 +1,503 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360691",
+  "fetched_at": "2026-05-16T14:08:26.574Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImlCUG0zcXFrcFRGVVROTE0rZnZYZDRjb3ZyVm8zOFByd1g5dThJRHpaeFk9Ig.XUKjGEuRDNHvvTfoznxoJdCV0SMdxGeQNCYpx_bp9oE",
+    "data": {
+      "id": 360691,
+      "revision": 2,
+      "opportunityNumber": "CDC-RFA-CK-26-0107",
+      "opportunityTitle": "Building National Partnerships for the Prevention of Emerging and Reemerging Infectious Diseases",
+      "owningAgencyCode": "HHS-CDC-NCEZID",
+      "listed": "L",
+      "publisherUid": "21075984081049386526321738257390910592",
+      "modifiedComments": "The Notice of Funding Opportunity (NOFO) associated with this forecast has been delayed, and the anticipated application due date has shifted accordingly. This opportunity is still expected to be released. Prospective applicants are encouraged to continue monitoring this forecast and Grants.gov for updates and the official NOFO publication. We appreciate your interest and patience.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "NCEZID",
+        "seed": "HHS-CDC-NCEZID",
+        "agencyName": "Centers for Disease Control - NCEZID",
+        "agencyCode": "HHS-CDC-NCEZID",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 360691,
+        "version": 3,
+        "postingDate": "Sep 30, 2025 12:00:00 AM EDT",
+        "archiveDate": "Jul 13, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>This cooperative agreement establishes a single, integrated funding mechanism aimed at enhancing the nation's ability to prevent, detect, and respond to infectious disease threats. It will support clinicians, healthcare professionals, healthcare systems, institutions, and organizations directly involved in patient care, public health, and infectious disease control across the United States. By strengthening the capacity of these key stakeholders, the program will enable more effective frontline engagement, facilitate the implementation of timely public health responses, and generate expert insights to inform and improve public health guidance and practice.</p><p>The program will focus on building and sustaining critical infrastructure, workforce training, communication strategies, and emergency response capabilities needed to address both emerging and reemerging infectious diseases. Emphasis will be placed on expanding national infection prevention capacity through targeted education and training initiatives, particularly in the areas of antimicrobial resistance and infection control. Additionally, the program will enhance preparedness by supporting surge staffing and fostering coordination among healthcare and public health partners during emergency response efforts.</p>",
+        "costSharing": false,
+        "numberOfAwards": "15",
+        "estimatedFunding": "150000000",
+        "awardCeiling": "30000000",
+        "awardFloor": "1000000",
+        "agencyContactName": "Trisia Shannon",
+        "agencyContactPhone": "404-639-0063",
+        "agencyContactEmail": "xki5@cdc.gov",
+        "agencyContactEmailDesc": "xki5@cdc.gov",
+        "agencyCode": "HHS-CDC-NCEZID",
+        "sendEmail": "Y",
+        "estSynopsisPostingDate": "Apr 14, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jun 13, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+        "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "The Notice of Funding Opportunity (NOFO) associated with this forecast has been delayed, and the anticipated application due date has shifted accordingly. This opportunity is still expected to be released. Prospective applicants are encouraged to continue monitoring this forecast and Grants.gov for updates and the official NOFO publication. We appreciate your interest and patience.",
+        "createTimeStamp": "May 05, 2026 02:54:37 PM EDT",
+        "createdDate": "Sep 30, 2025 01:21:14 PM EDT",
+        "lastUpdatedDate": "May 05, 2026 02:54:37 PM EDT",
+        "agencyDetails": {
+          "code": "NCEZID",
+          "seed": "HHS-CDC-NCEZID",
+          "agencyName": "Centers for Disease Control - NCEZID",
+          "agencyCode": "HHS-CDC-NCEZID",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "150,000,000",
+        "awardCeilingFormatted": "30,000,000",
+        "awardFloorFormatted": "1,000,000",
+        "applicantTypes": [
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-09-30-00-00-00",
+        "archiveDateStr": "2026-07-13-00-00-00",
+        "estSynopsisPostingDateStr": "2026-04-14-00-00-00",
+        "estApplicationResponseDateStr": "2026-06-13-00-00-00",
+        "estAwardDateStr": "2026-08-31-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-05-05-14-54-37"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 431252,
+          "opportunityId": 360691,
+          "cfdaNumber": "93.084",
+          "programTitle": "Prevention of Disease, Disability, and Death by Infectious Diseases"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 360691,
+            "revision": 0
+          },
+          "opportunityId": 360691,
+          "revision": 0,
+          "opportunityNumber": "CDC-RFA-CK-26-0107",
+          "opportunityTitle": "Building National Partnerships for the Prevention of Emerging and Reemerging Infectious Diseases",
+          "owningAgencyCode": "HHS-CDC-NCEZID",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360691,
+              "revision": 0
+            },
+            "opportunityId": 360691,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Sep 30, 2025 12:00:00 AM EDT",
+            "archiveDate": "May 18, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>This cooperative agreement establishes a single, integrated funding mechanism aimed at enhancing the nation's ability to prevent, detect, and respond to infectious disease threats. It will support clinicians, healthcare professionals, healthcare systems, institutions, and organizations directly involved in patient care, public health, and infectious disease control across the United States. By strengthening the capacity of these key stakeholders, the program will enable more effective frontline engagement, facilitate the implementation of timely public health responses, and generate expert insights to inform and improve public health guidance and practice.</p><p>The program will focus on building and sustaining critical infrastructure, workforce training, communication strategies, and emergency response capabilities needed to address both emerging and reemerging infectious diseases. Emphasis will be placed on expanding national infection prevention capacity through targeted education and training initiatives, particularly in the areas of antimicrobial resistance and infection control. Additionally, the program will enhance preparedness by supporting surge staffing and fostering coordination among healthcare and public health partners during emergency response efforts.</p>",
+            "costSharing": false,
+            "numberOfAwards": "15",
+            "estimatedFunding": "150000000",
+            "awardCeiling": "30000000",
+            "awardFloor": "1000000",
+            "agencyContactName": "Trisia Shannon",
+            "agencyContactPhone": "404-639-0063",
+            "agencyContactEmail": "xki5@cdc.gov",
+            "agencyContactEmailDesc": "xki5@cdc.gov",
+            "agencyCode": "HHS-CDC-NCEZID",
+            "estSynopsisPostingDate": "Feb 17, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "Apr 18, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Sep 30, 2025 01:21:14 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 05, 2026 02:54:37 PM EDT",
+            "createdDate": "Sep 30, 2025 01:21:14 PM EDT",
+            "lastUpdatedDate": "Sep 30, 2025 01:21:14 PM EDT",
+            "agencyDetails": {
+              "code": "NCEZID",
+              "seed": "HHS-CDC-NCEZID",
+              "agencyName": "Centers for Disease Control - NCEZID",
+              "agencyCode": "HHS-CDC-NCEZID",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "150,000,000",
+            "awardCeilingFormatted": "30,000,000",
+            "awardFloorFormatted": "1,000,000",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-09-30-00-00-00",
+            "archiveDateStr": "2026-05-18-00-00-00",
+            "estSynopsisPostingDateStr": "2026-02-17-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-18-00-00-00",
+            "estAwardDateStr": "2026-08-31-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2025-09-30-13-21-14"
+          },
+          "cfdas": [
+            {
+              "id": 431252,
+              "opportunityId": 360691,
+              "revision": 1,
+              "cfdaNumber": "93.084",
+              "programTitle": "Prevention of Disease, Disability, and Death by Infectious Diseases"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360691,
+            "revision": 1
+          },
+          "opportunityId": 360691,
+          "revision": 1,
+          "opportunityNumber": "CDC-RFA-CK-26-0107",
+          "opportunityTitle": "Building National Partnerships for the Prevention of Emerging and Reemerging Infectious Diseases",
+          "owningAgencyCode": "HHS-CDC-NCEZID",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360691,
+              "revision": 1
+            },
+            "opportunityId": 360691,
+            "revision": 1,
+            "version": 2,
+            "postingDate": "Sep 30, 2025 12:00:00 AM EDT",
+            "archiveDate": "Jul 13, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>This cooperative agreement establishes a single, integrated funding mechanism aimed at enhancing the nation's ability to prevent, detect, and respond to infectious disease threats. It will support clinicians, healthcare professionals, healthcare systems, institutions, and organizations directly involved in patient care, public health, and infectious disease control across the United States. By strengthening the capacity of these key stakeholders, the program will enable more effective frontline engagement, facilitate the implementation of timely public health responses, and generate expert insights to inform and improve public health guidance and practice.</p><p>The program will focus on building and sustaining critical infrastructure, workforce training, communication strategies, and emergency response capabilities needed to address both emerging and reemerging infectious diseases. Emphasis will be placed on expanding national infection prevention capacity through targeted education and training initiatives, particularly in the areas of antimicrobial resistance and infection control. Additionally, the program will enhance preparedness by supporting surge staffing and fostering coordination among healthcare and public health partners during emergency response efforts.</p>",
+            "costSharing": false,
+            "numberOfAwards": "15",
+            "estimatedFunding": "150000000",
+            "awardCeiling": "30000000",
+            "awardFloor": "1000000",
+            "agencyContactName": "Trisia Shannon",
+            "agencyContactPhone": "404-639-0063",
+            "agencyContactEmail": "xki5@cdc.gov",
+            "agencyContactEmailDesc": "xki5@cdc.gov",
+            "agencyCode": "HHS-CDC-NCEZID",
+            "sendEmail": "Y",
+            "estSynopsisPostingDate": "Apr 14, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 13, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "The Notice of Funding Opportunity (NOFO) associated with this forecast has been delayed, and the anticipated application due date has shifted accordingly. This opportunity is still expected to be released. Prospective applicants are encouraged to continue monitoring this forecast and Grants.gov for updates and the official NOFO publication. We appreciate your interest and patience.",
+            "createTimeStamp": "May 05, 2026 02:54:37 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 05, 2026 02:54:37 PM EDT",
+            "createdDate": "Sep 30, 2025 01:21:14 PM EDT",
+            "lastUpdatedDate": "May 05, 2026 02:54:37 PM EDT",
+            "agencyDetails": {
+              "code": "NCEZID",
+              "seed": "HHS-CDC-NCEZID",
+              "agencyName": "Centers for Disease Control - NCEZID",
+              "agencyCode": "HHS-CDC-NCEZID",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "150,000,000",
+            "awardCeilingFormatted": "30,000,000",
+            "awardFloorFormatted": "1,000,000",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-09-30-00-00-00",
+            "archiveDateStr": "2026-07-13-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-14-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-13-00-00-00",
+            "estAwardDateStr": "2026-08-31-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-05-05-14-54-37"
+          },
+          "cfdas": [
+            {
+              "id": 431252,
+              "opportunityId": 360691,
+              "revision": 1,
+              "cfdaNumber": "93.084",
+              "programTitle": "Prevention of Disease, Disability, and Death by Infectious Diseases"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 2,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

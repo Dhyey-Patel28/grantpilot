@@ -1,0 +1,264 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "39841",
+  "fetched_at": "2026-05-16T14:06:13.037Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InY3WUFLZTFMeFA5MXdHSWkzeXNBZ29SYUlIWU1hK2RuOSt3enFYaFhGbzQ9Ig.17pZhlMn1Jo7Tv5Enj0hZ7BkqaTHrpnUViXt-DzxqaI",
+    "data": {
+      "id": 39841,
+      "revision": 1,
+      "opportunityNumber": "FAA-COE-JAMS",
+      "opportunityTitle": "Joint Center of Excellence for Advanced Materials Research",
+      "owningAgencyCode": "DOT-FAA-FAA COE-FAA JAMS",
+      "listed": "L",
+      "publisherUid": "2030009-D126A281-1D85-4C96-B9AA-B1A63644466B",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 39841,
+        "version": 1,
+        "agencyCode": "DOT-FAA-FAA COE-FAA JAMS",
+        "agencyName": "Ahmet Oztekin\nGeneral Engineer",
+        "agencyPhone": "609 485 6809",
+        "agencyAddressDesc": "work",
+        "agencyDetails": {
+          "code": "FAA JAMS",
+          "seed": "DOT-FAA-FAA COE-FAA JAMS",
+          "agencyName": "FAA-COE-JAMS",
+          "agencyCode": "DOT-FAA-FAA COE-FAA JAMS",
+          "topAgencyCode": "DOT"
+        },
+        "topAgencyDetails": {
+          "code": "DOT",
+          "seed": "DOT",
+          "agencyName": "Department of Transportation",
+          "agencyCode": "DOT",
+          "topAgencyCode": "DOT"
+        },
+        "agencyContactPhone": "609 485 6809",
+        "agencyContactName": "Ahmet Oztekin\nGeneral Engineer",
+        "agencyContactDesc": "Ahmet Oztekin\r\nFAA Program Manager\r\nPhone 609 485 6809",
+        "agencyContactEmail": "ahmet.oztekin@faa.gov",
+        "agencyContactEmailDesc": "work",
+        "synopsisDesc": "<p>The Joint Center of Excellence (COE) for Advanced Materials (JAMS) was established in January 2004 to assist in ensuring the safe and reliable application of com­posites and advanced materials to commercial aircraft. The Center is a joint effort of the Center of Excel­lence for Composite and Advanced Materials (CECAM) led by Wich­ita State University and the Center of Excellence for Advanced Mate­rials in Transport Aircraft Struc­tures (AMTAS) led by the Univer­sity of Washington. The COE is a leader in international coordina­tion of research, development, and standardization for structures con­structed from these new materials.</p><p><br></p><p>The goal of this joint cen­ter is to create a cost-sharing academic, in­dustrial, and governmental part­nership. The members are forging a union between the public sector, the private sector and academic in­stitutions to create a world-class capability to identify solutions for existing and potential advanced materials and structures issues.</p><p><br></p><p>The focus of this partnership is the research, engineering and de­velopment of information used to assure safety and standardize cer­tification of existing and emerg­ing structural applications of com­posites and advanced materials. Specifically, projects include the evaluation of past applications, performance of applied research and the development of standard engineering practices.&nbsp;This Joint Center of Excellence, working with industry and government, also plays an important role in technology transfer, training, and continuing education for the aircraft industry and regulators.</p><p><br></p><p><strong>Research Areas:</strong></p><ul><li>Damage Tolerance of Advanced Composite Structures</li><li>Durability of Adhesively Bonded Joints (Composite and Hybrid)</li><li>Metal &amp; Non-Metal Based Additive Manufacturing Technologies</li><li>Crashworthiness of Composite Airframes and Seating Systems</li><li>Environmental and Aging Effects on In- Service Composite Structures</li><li>Lightning Strikes on Composite Airframes</li><li>New material systems and innovative production technologies</li><li>Maintenance and Inspection of Composite Structures&nbsp;</li></ul>",
+        "responseDateDesc": "Close Date to be determined by the Agency",
+        "fundingDescLinkDesc": "http://www.jams-coe.org/",
+        "postingDate": "Nov 01, 2023 12:00:00 AM EDT",
+        "costSharing": true,
+        "awardCeiling": "20000000",
+        "awardCeilingFormatted": "20,000,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Member universities of the COE can apply.",
+        "createTimeStamp": "Nov 01, 2023 11:58:23 AM EDT",
+        "createdDate": "Nov 01, 2023 11:58:23 AM EDT",
+        "lastUpdatedDate": "Nov 01, 2023 11:58:23 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          },
+          {
+            "id": "T",
+            "description": "Transportation"
+          }
+        ],
+        "postingDateStr": "2023-11-01-00-00-00",
+        "createTimeStampStr": "2023-11-01-11-58-23"
+      },
+      "agencyDetails": {
+        "code": "FAA JAMS",
+        "seed": "DOT-FAA-FAA COE-FAA JAMS",
+        "agencyName": "FAA-COE-JAMS",
+        "agencyCode": "DOT-FAA-FAA COE-FAA JAMS",
+        "topAgencyCode": "DOT"
+      },
+      "topAgencyDetails": {
+        "code": "DOT",
+        "seed": "DOT",
+        "agencyName": "Department of Transportation",
+        "agencyCode": "DOT",
+        "topAgencyCode": "DOT"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 57115,
+          "opportunityId": 39841,
+          "cfdaNumber": "20.109",
+          "programTitle": "Air Transportation Centers of Excellence"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 5380,
+          "topportunityId": 39841,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "FAA-COE-JAMS",
+          "opportunityTitle": "Joint Center of Excellence for Advanced Materials Research",
+          "cfdaNumber": "20.109",
+          "openingDate": "2006-03-16",
+          "closingDate": "2027-01-01",
+          "owningAgencyCode": "DOT-FAA-FAA COE-FAA JAMS",
+          "agencyDetails": {
+            "code": "FAA JAMS",
+            "seed": "DOT-FAA-FAA COE-FAA JAMS",
+            "agencyName": "FAA-COE-JAMS",
+            "agencyCode": "DOT-FAA-FAA COE-FAA JAMS",
+            "topAgencyCode": "DOT"
+          },
+          "topAgencyDetails": {
+            "code": "DOT",
+            "seed": "DOT",
+            "agencyName": "Department of Transportation",
+            "agencyCode": "DOT",
+            "topAgencyCode": "DOT"
+          },
+          "programTitle": "Air Transportation Centers of Excellence",
+          "contactInfo": "Ahmet Oztekin\r\nFAA JAMS Program Manager\r\n609 485-6809\r\nahmet.oztekin@faa.gov",
+          "gracePeriod": 0,
+          "competitionId": "JAMS-NEW",
+          "competitionTitle": "JAMS New Funding",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 42,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "doc",
+          "mimetype": "application/msword",
+          "lastUpdate": "Jan 13, 2025 09:27:41 AM EST",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00005380",
+          "openingDateStr": "2006-03-16-00-00-00",
+          "closingDateStr": "2027-01-01-00-00-00"
+        },
+        {
+          "id": 5381,
+          "topportunityId": 39841,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "FAA-COE-JAMS",
+          "opportunityTitle": "Joint Center of Excellence for Advanced Materials Research",
+          "cfdaNumber": "20.109",
+          "openingDate": "2006-03-13",
+          "closingDate": "2027-01-01",
+          "owningAgencyCode": "DOT-FAA-FAA COE-FAA JAMS",
+          "agencyDetails": {
+            "code": "FAA JAMS",
+            "seed": "DOT-FAA-FAA COE-FAA JAMS",
+            "agencyName": "FAA-COE-JAMS",
+            "agencyCode": "DOT-FAA-FAA COE-FAA JAMS",
+            "topAgencyCode": "DOT"
+          },
+          "topAgencyDetails": {
+            "code": "DOT",
+            "seed": "DOT",
+            "agencyName": "Department of Transportation",
+            "agencyCode": "DOT",
+            "topAgencyCode": "DOT"
+          },
+          "programTitle": "Air Transportation Centers of Excellence",
+          "contactInfo": "Ahmet Oztekin\r\nFAA JAMS Program Manager\r\n609-485-6809\r\nahmet.oztekin@faa.gov",
+          "gracePeriod": 0,
+          "competitionId": "JAMS-ADDITIONAL",
+          "competitionTitle": "Jams Additional Funding",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 100,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "doc",
+          "mimetype": "application/msword",
+          "lastUpdate": "Jan 13, 2025 09:28:11 AM EST",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00005381",
+          "openingDateStr": "2006-03-13-00-00-00",
+          "closingDateStr": "2027-01-01-00-00-00"
+        },
+        {
+          "id": 5382,
+          "topportunityId": 39841,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "FAA-COE-JAMS",
+          "opportunityTitle": "Joint Center of Excellence for Advanced Materials Research",
+          "cfdaNumber": "20.109",
+          "openingDate": "2006-03-13",
+          "closingDate": "2027-01-01",
+          "owningAgencyCode": "DOT-FAA-FAA COE-FAA JAMS",
+          "agencyDetails": {
+            "code": "FAA JAMS",
+            "seed": "DOT-FAA-FAA COE-FAA JAMS",
+            "agencyName": "FAA-COE-JAMS",
+            "agencyCode": "DOT-FAA-FAA COE-FAA JAMS",
+            "topAgencyCode": "DOT"
+          },
+          "topAgencyDetails": {
+            "code": "DOT",
+            "seed": "DOT",
+            "agencyName": "Department of Transportation",
+            "agencyCode": "DOT",
+            "topAgencyCode": "DOT"
+          },
+          "programTitle": "Air Transportation Centers of Excellence",
+          "contactInfo": "Ahmet Oztekin\r\nFAA JAMS Program Manager\r\n609-485-6809\r\nahmet.oztekin@faa.gov",
+          "gracePeriod": 0,
+          "competitionId": "JAMS-NCE",
+          "competitionTitle": "JAMS No Cost Extension",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 50,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "doc",
+          "mimetype": "application/msword",
+          "lastUpdate": "Jan 13, 2025 09:28:38 AM EST",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00005382",
+          "openingDateStr": "2006-03-13-00-00-00",
+          "closingDateStr": "2027-01-01-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Close Date to be determined by the Agency",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

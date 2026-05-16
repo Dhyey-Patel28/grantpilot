@@ -1,0 +1,367 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "350338",
+  "fetched_at": "2026-05-16T14:06:57.915Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Iko5K21nMXYxSEg5THNpSmxTT3ZIclQ3UGl0dEw5Y3cxdDlLWGZ6KzZSZnM9Ig.dZ2JG87j5qWGjMt_10JHpPM6OlNVVKT9ThXYu96xNZw",
+    "data": {
+      "id": 350338,
+      "revision": 2,
+      "opportunityNumber": "2023-NIST-CHIPS-SMME-01",
+      "opportunityTitle": "CHIPS Incentives Program &ndash; Facilities for Semiconductor Materials and Manufacturing Equipment",
+      "owningAgencyCode": "DOC-NIST",
+      "listed": "L",
+      "publisherUid": "Gamber",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 350338,
+        "version": 10,
+        "agencyCode": "DOC-NIST",
+        "agencyName": "Misty L Roosa\nManagement Analyst",
+        "agencyPhone": "301-975-3007",
+        "agencyAddressDesc": "apply@chips.gov",
+        "agencyDetails": {
+          "code": "NIST",
+          "seed": "DOC-NIST",
+          "agencyName": "National Institute of Standards and Technology",
+          "agencyCode": "DOC-NIST",
+          "topAgencyCode": "DOC"
+        },
+        "topAgencyDetails": {
+          "code": "DOC",
+          "seed": "DOC",
+          "agencyName": "Department of Commerce",
+          "agencyCode": "DOC",
+          "topAgencyCode": "DOC"
+        },
+        "agencyContactPhone": "301-975-3007",
+        "agencyContactName": "Misty L Roosa\nManagement Analyst",
+        "agencyContactDesc": "Misty Roosa\r\nManagement Analyst",
+        "agencyContactEmail": "apply@chips.gov",
+        "agencyContactEmailDesc": "apply@chips.gov",
+        "synopsisDesc": "<p>The CHIPS Incentives Program aims to catalyze long-term economically sustainable growth in the domestic semiconductor industry in support of U.S. economic and national security. This is the second Notice of Funding Opportunity under this program and seeks applications for projects for the construction, expansion, or modernization of commercial facilities for semiconductor materials and manufacturing equipment.</p>\n<p><br></p>\n<p>For more information, additional resources, and instructions on how to apply, please visit chips.gov. Note that all applications must be submitted through the CHIPS Incentives Portal at <a href=\"https://applications.chips.gov\" target=\"_blank\">https://applications.chips.gov</a>. If you have any questions on how to apply, please email apply@chips.gov.</p>\n<p><br></p>",
+        "responseDate": "Nov 01, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://applications.chips.gov/s/",
+        "fundingDescLinkDesc": "CHIPS Application Portal",
+        "postingDate": "Sep 29, 2023 12:00:00 AM EDT",
+        "archiveDate": "Dec 01, 2026 12:00:00 AM EST",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "applicantEligibilityDesc": "An applicant must be a &ldquo;covered entity&rdquo; to receive CHIPS Incentives. For purposes of this NOFO, a &ldquo;covered entity&rdquo; means a nonprofit entity; a private-sector entity; a consortium of private-sector entities; or a consortium of nonprofit, public, and private-sector entities with a demonstrated ability to substantially finance, construct, expand, or modernize a facility relating to the fabrication, assembly, testing, advanced packaging, production, or research and development of semiconductors, materials used to manufacture semiconductors or semiconductor manufacturing equipment.",
+        "sendEmail": "N",
+        "createTimeStamp": "Oct 16, 2025 06:17:20 PM EDT",
+        "modComments": "Removed &quot;for which the capital investment falls below $300 million&quot; from the additional information.",
+        "createdDate": "Sep 26, 2023 02:19:36 PM EDT",
+        "lastUpdatedDate": "Oct 16, 2025 06:17:20 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-11-01-00-00-00",
+        "postingDateStr": "2023-09-29-00-00-00",
+        "archiveDateStr": "2026-12-01-00-00-00",
+        "createTimeStampStr": "2025-10-16-18-17-20"
+      },
+      "agencyDetails": {
+        "code": "NIST",
+        "seed": "DOC-NIST",
+        "agencyName": "National Institute of Standards and Technology",
+        "agencyCode": "DOC-NIST",
+        "topAgencyCode": "DOC"
+      },
+      "topAgencyDetails": {
+        "code": "DOC",
+        "seed": "DOC",
+        "agencyName": "Department of Commerce",
+        "agencyCode": "DOC",
+        "topAgencyCode": "DOC"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 67921,
+          "opportunityId": 350338,
+          "folderType": "Full Announcement",
+          "folderName": "2023-NIST-CHIPS-SMME-01",
+          "zipLobSize": 619474,
+          "createdDate": "Sep 27, 2023 12:56:50 PM EDT",
+          "lastUpdatedDate": "Sep 27, 2023 04:40:23 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 332081,
+              "opportunityId": 350338,
+              "mimeType": "application/pdf",
+              "fileName": "CHIPS - Facilities for Semiconductor Materials and Manufacturing Equipment NOFO.pdf",
+              "fileDescription": "2023-NIST-CHIPS-SMME-01",
+              "fileLobSize": 643184,
+              "createdDate": "Sep 27, 2023 04:40:23 PM EDT",
+              "synopsisAttFolderId": 67921
+            }
+          ]
+        },
+        {
+          "id": 78581,
+          "opportunityId": 350338,
+          "folderType": "Full Announcement",
+          "folderName": "2023-NIST-CHIPS-SMME-01Amend",
+          "zipLobSize": 368251,
+          "createdDate": "Oct 16, 2025 01:33:10 PM EDT",
+          "lastUpdatedDate": "Oct 16, 2025 04:46:29 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 349581,
+              "opportunityId": 350338,
+              "mimeType": "application/pdf",
+              "fileName": "2023-NIST-CHIPS-SMME-01-Amendment.pdf",
+              "fileDescription": "2023-NIST-CHIPS-SMME-01 Amendment",
+              "fileLobSize": 424786,
+              "createdDate": "Oct 16, 2025 04:46:29 PM EDT",
+              "synopsisAttFolderId": 78581
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 414430,
+          "opportunityId": 350338,
+          "cfdaNumber": "11.037",
+          "programTitle": "CHIPS Incentives Program"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 350338,
+            "revision": 0
+          },
+          "opportunityId": 350338,
+          "revision": 0,
+          "opportunityNumber": "2023-NIST-CHIPS-SMME-01",
+          "opportunityTitle": "CHIPS Incentives Program &ndash; Facilities for Semiconductor Materials and Manufacturing Equipment",
+          "owningAgencyCode": "DOC-NIST",
+          "publisherUid": "Gamber",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 350338,
+              "revision": 0
+            },
+            "opportunityId": 350338,
+            "revision": 0,
+            "version": 8,
+            "agencyCode": "DOC-NIST",
+            "agencyAddressDesc": "Agency Contact",
+            "agencyDetails": {
+              "code": "NIST",
+              "seed": "DOC-NIST",
+              "agencyName": "National Institute of Standards and Technology",
+              "agencyCode": "DOC-NIST",
+              "topAgencyCode": "DOC"
+            },
+            "agencyContactPhone": "301-975-3007",
+            "agencyContactName": "Misty L Roosa\nManagement Analyst",
+            "agencyContactDesc": "Misty Roosa\r\nManagement Analyst",
+            "agencyContactEmail": "apply@chips.gov",
+            "agencyContactEmailDesc": "Agency Contact",
+            "synopsisDesc": "<p>The CHIPS Incentives Program aims to catalyze long-term economically sustainable growth in the domestic semiconductor industry in support of U.S. economic and national security. This is the second Notice of Funding Opportunity under this program and seeks applications for projects for the construction, expansion, or modernization of commercial facilities for semiconductor materials and manufacturing equipment for which the capital investment falls below $300 million.</p> \n<p><br></p> \n<p>For more information, additional resources, and instructions on how to apply, please visit chips.gov. Note that all applications must be submitted through the CHIPS Incentives Portal at <a href=\"https://applications.chips.gov\" target=\"_blank\">https://applications.chips.gov</a>. If you have any questions on how to apply, please email <a target=\"_blank\">apply@chips.gov</a>.</p> \n<p><br></p>",
+            "responseDateDesc": "Rolling NOFO",
+            "fundingDescLinkUrl": "https://applications.chips.gov/s/",
+            "fundingDescLinkDesc": "CHIPS Application Portal",
+            "postingDate": "Sep 29, 2023 12:00:00 AM EDT",
+            "archiveDate": "Mar 02, 2024 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "An applicant must be a &ldquo;covered entity&rdquo; to receive CHIPS Incentives. For purposes of this NOFO, a &ldquo;covered entity&rdquo; means a nonprofit entity; a private-sector entity; a consortium of private-sector entities; or a consortium of nonprofit, public, and private-sector entities with a demonstrated ability to substantially finance, construct, expand, or modernize a facility relating to the fabrication, assembly, testing, advanced packaging, production, or research and development of semiconductors, materials used to manufacture semiconductors or semiconductor manufacturing equipment.",
+            "createTimeStamp": "Oct 16, 2025 04:46:29 PM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Oct 16, 2025 05:01:13 PM EDT",
+            "createdDate": "Sep 26, 2023 02:19:36 PM EDT",
+            "lastUpdatedDate": "Sep 29, 2023 04:44:58 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-09-29-00-00-00",
+            "archiveDateStr": "2024-03-02-00-00-00",
+            "createTimeStampStr": "2025-10-16-16-46-29"
+          },
+          "cfdas": [
+            {
+              "id": 414430,
+              "opportunityId": 350338,
+              "revision": 1,
+              "cfdaNumber": "11.037",
+              "programTitle": "CHIPS Incentives Program"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 350338,
+            "revision": 1
+          },
+          "opportunityId": 350338,
+          "revision": 1,
+          "opportunityNumber": "2023-NIST-CHIPS-SMME-01",
+          "opportunityTitle": "CHIPS Incentives Program &ndash; Facilities for Semiconductor Materials and Manufacturing Equipment",
+          "owningAgencyCode": "DOC-NIST",
+          "publisherUid": "Gamber",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 350338,
+              "revision": 1
+            },
+            "opportunityId": 350338,
+            "revision": 1,
+            "version": 9,
+            "agencyCode": "DOC-NIST",
+            "agencyAddressDesc": "apply@chips.gov",
+            "agencyDetails": {
+              "code": "NIST",
+              "seed": "DOC-NIST",
+              "agencyName": "National Institute of Standards and Technology",
+              "agencyCode": "DOC-NIST",
+              "topAgencyCode": "DOC"
+            },
+            "agencyContactPhone": "301-975-3007",
+            "agencyContactName": "Misty L Roosa\nManagement Analyst",
+            "agencyContactDesc": "Misty Roosa\r\nManagement Analyst",
+            "agencyContactEmail": "apply@chips.gov",
+            "agencyContactEmailDesc": "apply@chips.gov",
+            "synopsisDesc": "<p>The CHIPS Incentives Program aims to catalyze long-term economically sustainable growth in the domestic semiconductor industry in support of U.S. economic and national security. This is the second Notice of Funding Opportunity under this program and seeks applications for projects for the construction, expansion, or modernization of commercial facilities for semiconductor materials and manufacturing equipment for which the capital investment falls below $300 million.</p>\n<p><br></p>\n<p>For more information, additional resources, and instructions on how to apply, please visit chips.gov. Note that all applications must be submitted through the CHIPS Incentives Portal at <a href=\"https://applications.chips.gov\" target=\"_blank\">https://applications.chips.gov</a>. If you have any questions on how to apply, please email apply@chips.gov.</p>\n<p><br></p>",
+            "responseDate": "Nov 01, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://applications.chips.gov/s/",
+            "fundingDescLinkDesc": "CHIPS Application Portal",
+            "postingDate": "Sep 29, 2023 12:00:00 AM EDT",
+            "archiveDate": "Dec 01, 2026 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "An applicant must be a &ldquo;covered entity&rdquo; to receive CHIPS Incentives. For purposes of this NOFO, a &ldquo;covered entity&rdquo; means a nonprofit entity; a private-sector entity; a consortium of private-sector entities; or a consortium of nonprofit, public, and private-sector entities with a demonstrated ability to substantially finance, construct, expand, or modernize a facility relating to the fabrication, assembly, testing, advanced packaging, production, or research and development of semiconductors, materials used to manufacture semiconductors or semiconductor manufacturing equipment.",
+            "createTimeStamp": "Oct 16, 2025 05:01:13 PM EDT",
+            "sendEmail": "N",
+            "modComments": "The CHIPS Incentives Program aims to catalyze long-term economically sustainable growth in the domestic semiconductor industry in support of U.S. economic and national security. This is an amendment to the second Notice of Funding Opportunity under this program. This amendment re-opens and extends the period of acceptance of applications, which was originally open from December 1, 2023, through February 1, 2024, so that concept plans will now be accepted through November 1, 2026. It seeks applications for projects for the construction, expansion, or modernization of commercial facilities for semiconductor materials and manufacturing equipment. Application forms and instructions are available on the CHIPS Incentives Program application portal. FAQs, guides and templates are available at https://www.chips.gov.",
+            "actionType": "U",
+            "actionDate": "Oct 16, 2025 06:17:20 PM EDT",
+            "createdDate": "Sep 26, 2023 02:19:36 PM EDT",
+            "lastUpdatedDate": "Oct 16, 2025 05:01:13 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2026-11-01-00-00-00",
+            "postingDateStr": "2023-09-29-00-00-00",
+            "archiveDateStr": "2026-12-01-00-00-00",
+            "createTimeStampStr": "2025-10-16-17-01-13"
+          },
+          "cfdas": [
+            {
+              "id": 414430,
+              "opportunityId": 350338,
+              "revision": 1,
+              "cfdaNumber": "11.037",
+              "programTitle": "CHIPS Incentives Program"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "agencyAddressDesc",
+            "agencyContactEmailDesc",
+            "synopsisDesc",
+            "responseDate",
+            "responseDateDesc",
+            "archiveDate"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Rolling NOFO",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361499",
+  "fetched_at": "2026-05-16T14:08:54.466Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldVS2dnSjZQR2p1UE9WTXplSXpvUHdWQjhnYkQvRWFQMmNRQ0V3N0NxdTg9Ig.NCLhIQpei15u0_sirPSQHs7-jz7N4s9AjWbuax8fTSM",
+    "data": {
+      "id": 361499,
+      "revision": 1,
+      "opportunityNumber": "NOAA-NOS-NCCOS-2026-32955",
+      "opportunityTitle": "Harmful Algal Bloom Innovation Challenge: Toxin Detection in Seafood",
+      "owningAgencyCode": "DOC-DOCNOAAERA",
+      "listed": "L",
+      "publisherUid": "fisaac",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361499,
+        "version": 2,
+        "agencyCode": "DOC-DOCNOAAERA",
+        "agencyName": "Frederick L Isaac\nGrantor",
+        "agencyPhone": "30-628-1330",
+        "agencyAddressDesc": "Work",
+        "agencyDetails": {
+          "code": "DOCNOAAERA",
+          "seed": "DOC-DOCNOAAERA",
+          "agencyName": "DOC NOAA - ERA Production",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "topAgencyCode": "DOC"
+        },
+        "topAgencyDetails": {
+          "code": "DOC",
+          "seed": "DOC",
+          "agencyName": "Department of Commerce",
+          "agencyCode": "DOC",
+          "topAgencyCode": "DOC"
+        },
+        "agencyContactPhone": "30-628-1330",
+        "agencyContactName": "Frederick L Isaac\nGrantor",
+        "agencyContactDesc": "Technical Program Information: Sarah Pease, NCCOS/CRP Program Manager,",
+        "agencyContactEmail": "sarah.pease@noaa.gov",
+        "agencyContactEmailDesc": "Work",
+        "synopsisDesc": "<p>The purpose of this document is to advise the public that NOAA/NOS/National Centers for Coastal Ocean Science (NCCOS) Competitive Research Program (NCCOS/CRP) [formerly Center for Sponsored Coastal Ocean Research (CSCOR)/Coastal Ocean Program (COP)] is soliciting proposals to drive practical and cost-effective innovations for harmful algal bloom toxin detection in seafood that promotes seafood safety, food security, and the economic success of U.S. seafood industries and their competitiveness in global markets. For this Announcement, proposals will focus on the development and advancement of innovative, efficient, and effective point-of-use harmful algal bloom toxin detection technologies in support of the Nation’s nutritional, cultural, and economic seafood interests, and to reduce costs to U.S. communities and industries that rely on safe seafood. --- Funding is contingent upon the availability of Federal appropriations. If funding is available for this program, two to five projects are expected to be supported for one to three years in duration, with an approximate annual budget for each project of $100,000-$250,000, not to exceed $750,000 per project. NCCOS/CRP may reject any proposals submitted with an annual budget that is greater than $250,000 for any year. --- An informational webinar on this solicitation will be offered on March 24, 2026 from 2 to 3 p.m. Eastern Time. Information regarding this Announcement, including the webinar and additional background information, is available on the NCCOS Funding Opportunities webpage (https://coastalscience.noaa.gov/about/funding-opportunities/).</p>",
+        "responseDate": "Jul 16, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+        "archiveDate": "Aug 17, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "5",
+        "estimatedFunding": "1000000",
+        "estimatedFundingFormatted": "1,000,000",
+        "awardCeiling": "250000",
+        "awardCeilingFormatted": "250,000",
+        "awardFloor": "1",
+        "awardFloorFormatted": "1",
+        "applicantEligibilityDesc": "Eligible applicants for Federal financial assistance in this competition are U.S. institutions of higher education, non-profits, state and local governments, tribal government entities, U.S. Territories, U.S. Affiliated Pacific Islands institutions, and for-profit organizations. Federal applicants (including NOAA) are eligible provided legal authority exists for the Federal applicant to receive funds from another agency.--- Please note that: 1. PIs must be employees of an eligible entity listed above; and applications must be submitted through that entity. Non-Federal researchers should comply with their institutional requirements for application submission. --- 2. Non-Federal researchers affiliated with NOAA-University CIs will be funded through cooperative agreements. --- 3. Foreign researchers must apply as subawards or contracts through an eligible U.S. entity. --- 4. Federal applicants are eligible to submit applications for intra- or inter-agency funds transfers through this competition. Non-NOAA Federal applicants will be required to submit certifications or documentation showing that they have specific legal authority to accept funds for this type of research. --- 5. An eligible U.S. entity may propose Federal agency researchers as funded or unfunded collaborators. If Federal agency researchers are proposed as funded collaborators, the applicant should present the collaborator's funding request in the application in the same way documentation is provided for a subrecipient for purposes of project evaluation, even though intra- or inter-agency funding transfers will generally be used if the project is selected. --- 6. NOAA NCCOS researchers may apply through an eligible U.S. entity as funded or unfunded collaborators, but cannot be the lead PI on the application. Federal employees, including NOAA, with the exception of NCCOS employees, may serve as lead PI on the application. NOAA Federal salaries will not be paid. ---",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 15, 2026 09:54:49 AM EDT",
+        "modComments": "To extend the close date per the PO's email dated 4/15/2026.",
+        "createdDate": "Mar 13, 2026 06:46:39 PM EDT",
+        "lastUpdatedDate": "Apr 15, 2026 09:51:51 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ENV",
+            "description": "Environment"
+          },
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          },
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-07-16-00-00-00",
+        "postingDateStr": "2026-03-13-00-00-00",
+        "archiveDateStr": "2026-08-17-00-00-00",
+        "createTimeStampStr": "2026-04-15-09-54-49"
+      },
+      "agencyDetails": {
+        "code": "DOCNOAAERA",
+        "seed": "DOC-DOCNOAAERA",
+        "agencyName": "DOC NOAA - ERA Production",
+        "agencyCode": "DOC-DOCNOAAERA",
+        "topAgencyCode": "DOC"
+      },
+      "topAgencyDetails": {
+        "code": "DOC",
+        "seed": "DOC",
+        "agencyName": "Department of Commerce",
+        "agencyCode": "DOC",
+        "topAgencyCode": "DOC"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 78991,
+          "opportunityId": 361499,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 159054,
+          "createdDate": "Mar 13, 2026 06:51:54 PM EDT",
+          "lastUpdatedDate": "Apr 15, 2026 09:54:49 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350565,
+              "opportunityId": 361499,
+              "mimeType": "application/pdf",
+              "fileName": "Foa_Content_of_NOAA-NOS-NCCOS-2026-32955 (1).pdf",
+              "fileDescription": "Full Announcement",
+              "fileLobSize": 186669,
+              "createdDate": "Mar 13, 2026 06:52:31 PM EDT",
+              "lastUpdatedDate": "Apr 15, 2026 09:54:49 AM EDT",
+              "synopsisAttFolderId": 78991
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432232,
+          "opportunityId": 361499,
+          "cfdaNumber": "11.478",
+          "programTitle": "Center for Sponsored Coastal Ocean Research Coastal Ocean Program"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361499,
+            "revision": 0
+          },
+          "opportunityId": 361499,
+          "revision": 0,
+          "opportunityNumber": "NOAA-NOS-NCCOS-2026-32955",
+          "opportunityTitle": "Harmful Algal Bloom Innovation Challenge: Toxin Detection in Seafood",
+          "owningAgencyCode": "DOC-DOCNOAAERA",
+          "publisherUid": "fisaac",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361499,
+              "revision": 0
+            },
+            "opportunityId": 361499,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOC-DOCNOAAERA",
+            "agencyAddressDesc": "Work",
+            "agencyDetails": {
+              "code": "DOCNOAAERA",
+              "seed": "DOC-DOCNOAAERA",
+              "agencyName": "DOC NOAA - ERA Production",
+              "agencyCode": "DOC-DOCNOAAERA",
+              "topAgencyCode": "DOC"
+            },
+            "agencyContactPhone": "30-628-1330",
+            "agencyContactName": "Frederick L Isaac\nGrantor",
+            "agencyContactDesc": "Technical Program Information: Sarah Pease, NCCOS/CRP Program Manager,",
+            "agencyContactEmail": "sarah.pease@noaa.gov",
+            "agencyContactEmailDesc": "Work",
+            "synopsisDesc": "<p>The purpose of this document is to advise the public that NOAA/NOS/National Centers for Coastal Ocean Science (NCCOS) Competitive Research Program (NCCOS/CRP) [formerly Center for Sponsored Coastal Ocean Research (CSCOR)/Coastal Ocean Program (COP)] is soliciting proposals to drive practical and cost-effective innovations for harmful algal bloom toxin detection in seafood that promotes seafood safety, food security, and the economic success of U.S. seafood industries and their competitiveness in global markets. For this Announcement, proposals will focus on the development and advancement of innovative, efficient, and effective point-of-use harmful algal bloom toxin detection technologies in support of the Nation’s nutritional, cultural, and economic seafood interests, and to reduce costs to U.S. communities and industries that rely on safe seafood. --- Funding is contingent upon the availability of Federal appropriations. If funding is available for this program, two to five projects are expected to be supported for one to three years in duration, with an approximate annual budget for each project of $100,000-$250,000, not to exceed $750,000 per project. NCCOS/CRP may reject any proposals submitted with an annual budget that is greater than $250,000 for any year. --- An informational webinar on this solicitation will be offered on March 24, 2026 from 2 to 3 p.m. Eastern Time. Information regarding this Announcement, including the webinar and additional background information, is available on the NCCOS Funding Opportunities webpage (https://coastalscience.noaa.gov/about/funding-opportunities/).</p>",
+            "responseDate": "May 14, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jun 13, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "5",
+            "estimatedFunding": "1000000",
+            "estimatedFundingFormatted": "1,000,000",
+            "awardCeiling": "250000",
+            "awardCeilingFormatted": "250,000",
+            "awardFloor": "1",
+            "awardFloorFormatted": "1",
+            "applicantEligibilityDesc": "Eligible applicants for Federal financial assistance in this competition are U.S. institutions of higher education, non-profits, state and local governments, tribal government entities, U.S. Territories, U.S. Affiliated Pacific Islands institutions, and for-profit organizations. Federal applicants (including NOAA) are eligible provided legal authority exists for the Federal applicant to receive funds from another agency.\r\n--- Please note that: 1. PIs must be employees of an eligible entity listed above; and applications must be submitted through that entity. Non-Federal researchers should comply with their institutional requirements for application submission. --- 2. Non-Federal researchers affiliated with NOAA-University CIs will be funded through cooperative agreements. --- 3. Foreign researchers must apply as subawards or contracts through an eligible U.S. entity. --- 4. Federal applicants are eligible to submit applications for intra- or inter-agency funds transfers through this competition. Non-NOAA Federal applicants will be required to submit certifications or documentation showing that they have specific legal authority to accept funds for this type of research. --- 5. An eligible U.S. entity may propose Federal agency researchers as funded or unfunded collaborators. If Federal agency researchers are proposed as funded collaborators, the applicant should present the collaborator's funding request in the application in the same way documentation is provided for a subrecipient for purposes of project evaluation, even though intra- or inter-agency funding transfers will generally be used if the project is selected. --- 6. NOAA NCCOS researchers may apply through an eligible U.S. entity as funded or unfunded collaborators, but cannot be the lead PI on the application. Federal employees, including NOAA, with the exception of NCCOS employees, may serve as lead PI on the application. NOAA Federal salaries will not be paid. ---",
+            "createTimeStamp": "Mar 13, 2026 06:52:31 PM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Apr 15, 2026 09:51:51 AM EDT",
+            "createdDate": "Mar 13, 2026 06:46:39 PM EDT",
+            "lastUpdatedDate": "Mar 13, 2026 06:46:39 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ENV",
+                "description": "Environment"
+              },
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              },
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2026-05-14-00-00-00",
+            "postingDateStr": "2026-03-13-00-00-00",
+            "archiveDateStr": "2026-06-13-00-00-00",
+            "createTimeStampStr": "2026-03-13-18-52-31"
+          },
+          "cfdas": [
+            {
+              "id": 432232,
+              "opportunityId": 361499,
+              "revision": 0,
+              "cfdaNumber": "11.478",
+              "programTitle": "Center for Sponsored Coastal Ocean Research Coastal Ocean Program"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292118,
+          "topportunityId": 361499,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "NOAA-NOS-NCCOS-2026-32955",
+          "opportunityTitle": "Harmful Algal Bloom Innovation Challenge: Toxin Detection in Seafood",
+          "cfdaNumber": "11.478",
+          "openingDate": "2026-03-13",
+          "closingDate": "2026-07-16",
+          "owningAgencyCode": "DOC-DOCNOAAERA",
+          "agencyDetails": {
+            "code": "DOCNOAAERA",
+            "seed": "DOC-DOCNOAAERA",
+            "agencyName": "DOC NOAA - ERA Production",
+            "agencyCode": "DOC-DOCNOAAERA",
+            "topAgencyCode": "DOC"
+          },
+          "topAgencyDetails": {
+            "code": "DOC",
+            "seed": "DOC",
+            "agencyName": "Department of Commerce",
+            "agencyCode": "DOC",
+            "topAgencyCode": "DOC"
+          },
+          "programTitle": "Center for Sponsored Coastal Ocean Research Coastal Ocean Program",
+          "contactInfo": "Technical Program Information: Sarah Pease, NCCOS/CRP Program Manager, sarah.pease@noaa.gov",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 5,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 15, 2026 09:53:58 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292118",
+          "openingDateStr": "2026-03-13-00-00-00",
+          "closingDateStr": "2026-07-16-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 14, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "responseDate",
+        "archiveDate",
+        "applicantEligibilityDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

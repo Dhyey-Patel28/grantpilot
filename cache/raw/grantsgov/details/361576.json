@@ -1,0 +1,211 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361576",
+  "fetched_at": "2026-05-16T14:09:00.378Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjIybFF1bXFqaEtMN1RGM20zUkJqV1dLWDZkcnBIUHB5K0JJR0JEOXhjMzQ9Ig.WXulsJilqJjVu2Wv7deZCmgeX36GlOe6J8fT6bGgTuY",
+    "data": {
+      "id": 361576,
+      "revision": 1,
+      "opportunityNumber": "TI-26-005",
+      "opportunityTitle": "Screening, Brief Intervention and Referral to Treatment",
+      "owningAgencyCode": "HHS-SAMHS-SAMHSA",
+      "listed": "L",
+      "publisherUid": "carmen.baldwin",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "SAMHSA",
+        "seed": "HHS-SAMHS-SAMHSA",
+        "agencyName": "Substance Abuse and Mental Health Services Adminis",
+        "agencyCode": "HHS-SAMHS-SAMHSA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 361576,
+        "version": 2,
+        "postingDate": "Mar 20, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>The purpose of this program is to implement the Screening, Brief Intervention, and Referral to Treatment public health model for children, adolescents, and/or adults in primary care and community health settings (e.g., health centers, hospital systems, HMOs, PPOs, health plans, FQHCs, behavioral health centers, pediatric health care providers offices, children’s hospitals) and schools, with a focus on screening for underage drinking, opioid use, and other substance use.</p>",
+        "costSharing": false,
+        "numberOfAwards": "8",
+        "estimatedFunding": "7960000",
+        "agencyContactName": "Shaquilla Terry",
+        "agencyContactPhone": "240-276-0362",
+        "agencyContactEmail": "SBIRT@samhsa.hhs.gov",
+        "agencyContactEmailDesc": "SBIRT@samhsa.hhs.gov",
+        "agencyCode": "HHS-SAMHS-SAMHSA",
+        "sendEmail": "N",
+        "applicantEligibilityDesc": "States, political subdivisions of states, Indian tribes or tribal organizations, health facilities, programs operated by or in accordance with a contract or award with the Indian Health Service, and domestic public and private nonprofit entities, including faith-based organizations.",
+        "estSynopsisPostingDate": "May 29, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "",
+        "fiscalYear": 2026,
+        "modComments": "Updated Estimated Synopsis Post Date",
+        "createTimeStamp": "May 12, 2026 10:34:29 AM EDT",
+        "createdDate": "Mar 20, 2026 03:08:28 PM EDT",
+        "lastUpdatedDate": "May 12, 2026 10:34:29 AM EDT",
+        "agencyDetails": {
+          "code": "SAMHSA",
+          "seed": "HHS-SAMHS-SAMHSA",
+          "agencyName": "Substance Abuse and Mental Health Services Adminis",
+          "agencyCode": "HHS-SAMHS-SAMHSA",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "7,960,000",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2026-03-20-00-00-00",
+        "estSynopsisPostingDateStr": "2026-05-29-00-00-00",
+        "createTimeStampStr": "2026-05-12-10-34-29"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432321,
+          "opportunityId": 361576,
+          "cfdaNumber": "93.490",
+          "programTitle": "Center for Substance Abuse Treatment Projects of Regional and National Significance"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361576,
+            "revision": 0
+          },
+          "opportunityId": 361576,
+          "revision": 0,
+          "opportunityNumber": "TI-26-005",
+          "opportunityTitle": "Screening, Brief Intervention and Referral to Treatment",
+          "owningAgencyCode": "HHS-SAMHS-SAMHSA",
+          "publisherUid": "carmen.baldwin",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361576,
+              "revision": 0
+            },
+            "opportunityId": 361576,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Mar 20, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The purpose of this program is to implement the Screening, Brief Intervention, and Referral to Treatment public health model for children, adolescents, and/or adults in primary care and community health settings (e.g., health centers, hospital systems, HMOs, PPOs, health plans, FQHCs, behavioral health centers, pediatric health care providers offices, children’s hospitals) and schools, with a focus on screening for underage drinking, opioid use, and other substance use.</p>",
+            "costSharing": false,
+            "numberOfAwards": "8",
+            "estimatedFunding": "7960000",
+            "agencyContactName": "Shaquilla Terry",
+            "agencyContactPhone": "240-276-0362",
+            "agencyContactEmail": "SBIRT@samhsa.hhs.gov",
+            "agencyContactEmailDesc": "SBIRT@samhsa.hhs.gov",
+            "agencyCode": "HHS-SAMHS-SAMHSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "States, political subdivisions of states, Indian tribes or tribal organizations, health facilities, programs operated by or in accordance with a contract or award with the Indian Health Service, and domestic public and private nonprofit entities, including faith-based organizations.",
+            "estSynopsisPostingDate": "May 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Mar 20, 2026 03:08:28 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 12, 2026 10:34:29 AM EDT",
+            "createdDate": "Mar 20, 2026 03:08:28 PM EDT",
+            "lastUpdatedDate": "Mar 20, 2026 03:08:28 PM EDT",
+            "agencyDetails": {
+              "code": "SAMHSA",
+              "seed": "HHS-SAMHS-SAMHSA",
+              "agencyName": "Substance Abuse and Mental Health Services Adminis",
+              "agencyCode": "HHS-SAMHS-SAMHSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "7,960,000",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-03-20-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-01-00-00-00",
+            "createTimeStampStr": "2026-03-20-15-08-28"
+          },
+          "cfdas": [
+            {
+              "id": 432321,
+              "opportunityId": 361576,
+              "revision": 0,
+              "cfdaNumber": "93.490",
+              "programTitle": "Center for Substance Abuse Treatment Projects of Regional and National Significance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version",
+        "sendEmail",
+        "estSynopsisPostingDate",
+        "modComments",
+        "createTimeStamp"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

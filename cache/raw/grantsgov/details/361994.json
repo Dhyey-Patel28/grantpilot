@@ -1,0 +1,985 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361994",
+  "fetched_at": "2026-05-16T14:09:34.344Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImIwMUlKKyszcS80QzdodC9sc0VlTFpsTlc2YWl5VnZJOVRSTFdpbVFTeFk9Ig.3TtKRuLrO702xo8oTySl-GahPGiV49d2asvHTEluvbc",
+    "data": {
+      "id": 361994,
+      "revision": 6,
+      "opportunityNumber": "PIH-2600-DC-0005",
+      "opportunityTitle": "Resident Opportunity and Self-Sufficiency Service Coordinator (ROSS-SC) Program &ndash; Fiscal Year 2026",
+      "owningAgencyCode": "HUD",
+      "listed": "L",
+      "publisherUid": "15962964103075612635523162374797683255",
+      "modifiedComments": "Updated estimate award floor.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "HUD",
+        "seed": "HUD",
+        "agencyName": "Department of Housing and Urban Development",
+        "agencyCode": "HUD",
+        "topAgencyCode": "HUD"
+      },
+      "topAgencyDetails": {
+        "code": "HUD",
+        "seed": "HUD",
+        "agencyName": "Department of Housing and Urban Development",
+        "agencyCode": "HUD",
+        "topAgencyCode": "HUD"
+      },
+      "forecast": {
+        "opportunityId": 361994,
+        "version": 7,
+        "postingDate": "Apr 21, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>The Resident Opportunity and Self Sufficiency Service Coordinator (ROSS-SC) program is designed to assist residents of Public and Indian Housing make progress towards economic and housing self-sufficiency by addressing the educational, professional and health barriers they face.  Self-sufficiency is defined as an individual’s ability to support their household by maintaining financial, housing, and personal/family stability.  To achieve self-sufficiency, an individual moves along a continuum towards economic independence and stability; such movement is facilitated by the achievement of individual educational, professional, and health-related goals.<br><br>To help residents make progress towards self-sufficiency, HUD provides ROSS-SC grant funding to eligible applicants to hire a Service Coordinator who assesses the needs of Public and Indian housing residents and links them to local training and supportive services that will enable participants to move along the self-sufficiency continuum.  In the case of elderly/residents with disabilities, the Service Coordinator also links them to congregate and other supportive services which enable them to age/remain in place in addition to providing other desired training and supportive services which are made available to other residents.  In addition, with the ROSS-SC grant, HUD provides funding for grantees to provide direct services to further support the work of the ROSS-SC and ultimately, the goals of the ROSS program.</p>",
+        "costSharing": true,
+        "numberOfAwards": "143",
+        "estimatedFunding": "40000000",
+        "awardCeiling": "816750",
+        "awardFloor": "272250",
+        "fundingDescLinkUrl": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+        "fundingDescLinkDesc": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+        "agencyContactName": "US Department of Housing and Urban Development",
+        "agencyContactPhone": "(800) 955-2232",
+        "agencyContactEmail": "ross-pih@hud.gov",
+        "agencyContactEmailDesc": "ross-pih@hud.gov",
+        "agencyCode": "HUD",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "Resident Associations (RAs) are eligible to apply. RAs must have either locally incorporated nonprofit status (usually designated by the state) or 501(c)(3) nonprofit status designated by the IRS.Multifamily Owners are eligible to apply. Multifamily Owners that are applying to serve RAD PBRA residents must be the entity that has the legal right to lease dwelling units in the PBRA project(s) to be served.Indian Tribes as defined in Section 4(13) of NAHASDA (25 U.S.C. 4103) are eligible to apply.Tribally-Designated Housing Entities (TDHEs) as defined in section 4(22) of NAHASDA (25 U.S.C. 4103) are also eligible to apply for FY25 ROSS funding. Tribes are reminded that the number of ROSS-SC positions they are eligible to apply for is based on the number of occupied units in projects to be served that receive NAHASDA-rental assistance as of the application deadline Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+        "estSynopsisPostingDate": "Jul 28, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Sep 28, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+        "estAwardDate": "Apr 30, 2027 12:00:00 AM EDT",
+        "estProjectStartDate": "Jun 01, 2027 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "Updated estimate award floor.",
+        "createTimeStamp": "Apr 28, 2026 10:04:32 AM EDT",
+        "createdDate": "Apr 21, 2026 12:56:35 PM EDT",
+        "lastUpdatedDate": "Apr 28, 2026 10:04:32 AM EDT",
+        "agencyDetails": {
+          "code": "HUD",
+          "seed": "HUD",
+          "agencyName": "Department of Housing and Urban Development",
+          "agencyCode": "HUD",
+          "topAgencyCode": "HUD"
+        },
+        "estimatedFundingFormatted": "40,000,000",
+        "awardCeilingFormatted": "816,750",
+        "awardFloorFormatted": "272,250",
+        "applicantTypes": [
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "CD",
+            "description": "Community Development"
+          },
+          {
+            "id": "ED",
+            "description": "Education"
+          },
+          {
+            "id": "ELT",
+            "description": "Employment, Labor and Training"
+          },
+          {
+            "id": "HL",
+            "description": "Health"
+          },
+          {
+            "id": "HO",
+            "description": "Housing"
+          }
+        ],
+        "postingDateStr": "2026-04-21-00-00-00",
+        "estSynopsisPostingDateStr": "2026-07-28-00-00-00",
+        "estApplicationResponseDateStr": "2026-09-28-00-00-00",
+        "estAwardDateStr": "2027-04-30-00-00-00",
+        "estProjectStartDateStr": "2027-06-01-00-00-00",
+        "createTimeStampStr": "2026-04-28-10-04-32"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432821,
+          "opportunityId": 361994,
+          "cfdaNumber": "14.870",
+          "programTitle": "Resident Opportunity and Supportive Services - Service Coordinators"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361994,
+            "revision": 0
+          },
+          "opportunityId": 361994,
+          "revision": 0,
+          "opportunityNumber": "PIH-2600-DC-0005",
+          "opportunityTitle": "Resident Opportunity and Self-Sufficiency Service Coordinator (ROSS-SC) Program &ndash; Fiscal Year 2026",
+          "owningAgencyCode": "HUD",
+          "publisherUid": "15962964103075612635523162374797683255",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361994,
+              "revision": 0
+            },
+            "opportunityId": 361994,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Apr 21, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Resident Opportunity and Self Sufficiency Service Coordinator (ROSS-SC) program is designed to assist residents of Public and Indian Housing make progress towards economic and housing self-sufficiency by addressing the educational, professional and health barriers they face.  Self-sufficiency is defined as an individual’s ability to support their household by maintaining financial, housing, and personal/family stability.  To achieve self-sufficiency, an individual moves along a continuum towards economic independence and stability; such movement is facilitated by the achievement of individual educational, professional, and health-related goals.<br><br>To help residents make progress towards self-sufficiency, HUD provides ROSS-SC grant funding to eligible applicants to hire a Service Coordinator who assesses the needs of Public and Indian housing residents and links them to local training and supportive services that will enable participants to move along the self-sufficiency continuum.  In the case of elderly/residents with disabilities, the Service Coordinator also links them to congregate and other supportive services which enable them to age/remain in place in addition to providing other desired training and supportive services which are made available to other residents.  In addition, with the ROSS-SC grant, HUD provides funding for grantees to provide direct services to further support the work of the ROSS-SC and ultimately, the goals of the ROSS program.</p>",
+            "costSharing": true,
+            "numberOfAwards": "114",
+            "estimatedFunding": "40000000",
+            "awardCeiling": "816750",
+            "awardFloor": "272255",
+            "fundingDescLinkUrl": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "fundingDescLinkDesc": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "agencyContactName": "US Department of Housing and Urban Development",
+            "agencyContactPhone": "(800) 955-2232",
+            "agencyContactEmail": "ross-pih@hud.gov",
+            "agencyContactEmailDesc": "ross-pih@hud.gov",
+            "agencyCode": "HUD",
+            "applicantEligibilityDesc": "Resident Associations (RAs) are eligible to apply. RAs must have either locally incorporated nonprofit status (usually designated by the state) or 501(c)(3) nonprofit status designated by the IRS.Multifamily Owners are eligible to apply. Multifamily Owners that are applying to serve RAD PBRA residents must be the entity that has the legal right to lease dwelling units in the PBRA project(s) to be served.Indian Tribes as defined in Section 4(13) of NAHASDA (25 U.S.C. 4103) are eligible to apply.Tribally-Designated Housing Entities (TDHEs) as defined in section 4(22) of NAHASDA (25 U.S.C. 4103) are also eligible to apply for FY25 ROSS funding. Tribes are reminded that the number of ROSS-SC positions they are eligible to apply for is based on the number of occupied units in projects to be served that receive NAHASDA-rental assistance as of the application deadline Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+            "estSynopsisPostingDate": "Jul 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Sep 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Dec 29, 2026 12:00:00 AM EST",
+            "estProjectStartDate": "Jun 01, 2027 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Apr 21, 2026 12:56:35 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 21, 2026 01:04:13 PM EDT",
+            "createdDate": "Apr 21, 2026 12:56:35 PM EDT",
+            "lastUpdatedDate": "Apr 21, 2026 12:56:35 PM EDT",
+            "agencyDetails": {
+              "code": "HUD",
+              "seed": "HUD",
+              "agencyName": "Department of Housing and Urban Development",
+              "agencyCode": "HUD",
+              "topAgencyCode": "HUD"
+            },
+            "estimatedFundingFormatted": "40,000,000",
+            "awardCeilingFormatted": "816,750",
+            "awardFloorFormatted": "272,255",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "CD",
+                "description": "Community Development"
+              },
+              {
+                "id": "ED",
+                "description": "Education"
+              },
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              },
+              {
+                "id": "HL",
+                "description": "Health"
+              },
+              {
+                "id": "HO",
+                "description": "Housing"
+              }
+            ],
+            "postingDateStr": "2026-04-21-00-00-00",
+            "estSynopsisPostingDateStr": "2026-07-28-00-00-00",
+            "estApplicationResponseDateStr": "2026-09-28-00-00-00",
+            "estAwardDateStr": "2026-12-29-00-00-00",
+            "estProjectStartDateStr": "2027-06-01-00-00-00",
+            "createTimeStampStr": "2026-04-21-12-56-35"
+          },
+          "cfdas": [
+            {
+              "id": 432821,
+              "opportunityId": 361994,
+              "revision": 5,
+              "cfdaNumber": "14.870",
+              "programTitle": "Resident Opportunity and Supportive Services - Service Coordinators"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361994,
+            "revision": 1
+          },
+          "opportunityId": 361994,
+          "revision": 1,
+          "opportunityNumber": "PIH-2600-DC-0005",
+          "opportunityTitle": "Resident Opportunity and Self-Sufficiency Service Coordinator (ROSS-SC) Program &ndash; Fiscal Year 2026",
+          "owningAgencyCode": "HUD",
+          "publisherUid": "15962964103075612635523162374797683255",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361994,
+              "revision": 1
+            },
+            "opportunityId": 361994,
+            "revision": 1,
+            "version": 2,
+            "postingDate": "Apr 21, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Resident Opportunity and Self Sufficiency Service Coordinator (ROSS-SC) program is designed to assist residents of Public and Indian Housing make progress towards economic and housing self-sufficiency by addressing the educational, professional and health barriers they face.  Self-sufficiency is defined as an individual’s ability to support their household by maintaining financial, housing, and personal/family stability.  To achieve self-sufficiency, an individual moves along a continuum towards economic independence and stability; such movement is facilitated by the achievement of individual educational, professional, and health-related goals.<br><br>To help residents make progress towards self-sufficiency, HUD provides ROSS-SC grant funding to eligible applicants to hire a Service Coordinator who assesses the needs of Public and Indian housing residents and links them to local training and supportive services that will enable participants to move along the self-sufficiency continuum.  In the case of elderly/residents with disabilities, the Service Coordinator also links them to congregate and other supportive services which enable them to age/remain in place in addition to providing other desired training and supportive services which are made available to other residents.  In addition, with the ROSS-SC grant, HUD provides funding for grantees to provide direct services to further support the work of the ROSS-SC and ultimately, the goals of the ROSS program.</p>",
+            "costSharing": true,
+            "numberOfAwards": "114",
+            "estimatedFunding": "40000000",
+            "awardCeiling": "816750",
+            "awardFloor": "272255",
+            "fundingDescLinkUrl": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "fundingDescLinkDesc": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "agencyContactName": "US Department of Housing and Urban Development",
+            "agencyContactPhone": "(800) 955-2232",
+            "agencyContactEmail": "ross-pih@hud.gov",
+            "agencyContactEmailDesc": "ross-pih@hud.gov",
+            "agencyCode": "HUD",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Resident Associations (RAs) are eligible to apply. RAs must have either locally incorporated nonprofit status (usually designated by the state) or 501(c)(3) nonprofit status designated by the IRS.Multifamily Owners are eligible to apply. Multifamily Owners that are applying to serve RAD PBRA residents must be the entity that has the legal right to lease dwelling units in the PBRA project(s) to be served.Indian Tribes as defined in Section 4(13) of NAHASDA (25 U.S.C. 4103) are eligible to apply.Tribally-Designated Housing Entities (TDHEs) as defined in section 4(22) of NAHASDA (25 U.S.C. 4103) are also eligible to apply for FY25 ROSS funding. Tribes are reminded that the number of ROSS-SC positions they are eligible to apply for is based on the number of occupied units in projects to be served that receive NAHASDA-rental assistance as of the application deadline Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+            "estSynopsisPostingDate": "Jul 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Sep 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Dec 29, 2026 12:00:00 AM EST",
+            "estProjectStartDate": "Jun 01, 2027 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated processing year.",
+            "createTimeStamp": "Apr 21, 2026 01:04:13 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 21, 2026 01:04:14 PM EDT",
+            "createdDate": "Apr 21, 2026 12:56:35 PM EDT",
+            "lastUpdatedDate": "Apr 21, 2026 01:04:13 PM EDT",
+            "agencyDetails": {
+              "code": "HUD",
+              "seed": "HUD",
+              "agencyName": "Department of Housing and Urban Development",
+              "agencyCode": "HUD",
+              "topAgencyCode": "HUD"
+            },
+            "estimatedFundingFormatted": "40,000,000",
+            "awardCeilingFormatted": "816,750",
+            "awardFloorFormatted": "272,255",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "CD",
+                "description": "Community Development"
+              },
+              {
+                "id": "ED",
+                "description": "Education"
+              },
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              },
+              {
+                "id": "HL",
+                "description": "Health"
+              },
+              {
+                "id": "HO",
+                "description": "Housing"
+              }
+            ],
+            "postingDateStr": "2026-04-21-00-00-00",
+            "estSynopsisPostingDateStr": "2026-07-28-00-00-00",
+            "estApplicationResponseDateStr": "2026-09-28-00-00-00",
+            "estAwardDateStr": "2026-12-29-00-00-00",
+            "estProjectStartDateStr": "2027-06-01-00-00-00",
+            "createTimeStampStr": "2026-04-21-13-04-13"
+          },
+          "cfdas": [
+            {
+              "id": 432821,
+              "opportunityId": 361994,
+              "revision": 5,
+              "cfdaNumber": "14.870",
+              "programTitle": "Resident Opportunity and Supportive Services - Service Coordinators"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "modComments"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361994,
+            "revision": 2
+          },
+          "opportunityId": 361994,
+          "revision": 2,
+          "opportunityNumber": "PIH-2600-DC-0005",
+          "opportunityTitle": "Resident Opportunity and Self-Sufficiency Service Coordinator (ROSS-SC) Program &ndash; Fiscal Year 2026",
+          "owningAgencyCode": "HUD",
+          "publisherUid": "15962964103075612635523162374797683255",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated processing year.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361994,
+              "revision": 2
+            },
+            "opportunityId": 361994,
+            "revision": 2,
+            "version": 3,
+            "postingDate": "Apr 21, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Resident Opportunity and Self Sufficiency Service Coordinator (ROSS-SC) program is designed to assist residents of Public and Indian Housing make progress towards economic and housing self-sufficiency by addressing the educational, professional and health barriers they face.  Self-sufficiency is defined as an individual’s ability to support their household by maintaining financial, housing, and personal/family stability.  To achieve self-sufficiency, an individual moves along a continuum towards economic independence and stability; such movement is facilitated by the achievement of individual educational, professional, and health-related goals.<br><br>To help residents make progress towards self-sufficiency, HUD provides ROSS-SC grant funding to eligible applicants to hire a Service Coordinator who assesses the needs of Public and Indian housing residents and links them to local training and supportive services that will enable participants to move along the self-sufficiency continuum.  In the case of elderly/residents with disabilities, the Service Coordinator also links them to congregate and other supportive services which enable them to age/remain in place in addition to providing other desired training and supportive services which are made available to other residents.  In addition, with the ROSS-SC grant, HUD provides funding for grantees to provide direct services to further support the work of the ROSS-SC and ultimately, the goals of the ROSS program.</p>",
+            "costSharing": true,
+            "numberOfAwards": "114",
+            "estimatedFunding": "40000000",
+            "awardCeiling": "816750",
+            "awardFloor": "272255",
+            "fundingDescLinkUrl": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "fundingDescLinkDesc": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "agencyContactName": "US Department of Housing and Urban Development",
+            "agencyContactPhone": "(800) 955-2232",
+            "agencyContactEmail": "ross-pih@hud.gov",
+            "agencyContactEmailDesc": "ross-pih@hud.gov",
+            "agencyCode": "HUD",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Resident Associations (RAs) are eligible to apply. RAs must have either locally incorporated nonprofit status (usually designated by the state) or 501(c)(3) nonprofit status designated by the IRS.Multifamily Owners are eligible to apply. Multifamily Owners that are applying to serve RAD PBRA residents must be the entity that has the legal right to lease dwelling units in the PBRA project(s) to be served.Indian Tribes as defined in Section 4(13) of NAHASDA (25 U.S.C. 4103) are eligible to apply.Tribally-Designated Housing Entities (TDHEs) as defined in section 4(22) of NAHASDA (25 U.S.C. 4103) are also eligible to apply for FY25 ROSS funding. Tribes are reminded that the number of ROSS-SC positions they are eligible to apply for is based on the number of occupied units in projects to be served that receive NAHASDA-rental assistance as of the application deadline Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+            "estSynopsisPostingDate": "Jul 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Sep 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Dec 29, 2026 12:00:00 AM EST",
+            "estProjectStartDate": "Jun 01, 2027 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated processing year.",
+            "createTimeStamp": "Apr 21, 2026 01:04:14 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 21, 2026 01:52:10 PM EDT",
+            "createdDate": "Apr 21, 2026 12:56:35 PM EDT",
+            "lastUpdatedDate": "Apr 21, 2026 01:04:14 PM EDT",
+            "agencyDetails": {
+              "code": "HUD",
+              "seed": "HUD",
+              "agencyName": "Department of Housing and Urban Development",
+              "agencyCode": "HUD",
+              "topAgencyCode": "HUD"
+            },
+            "estimatedFundingFormatted": "40,000,000",
+            "awardCeilingFormatted": "816,750",
+            "awardFloorFormatted": "272,255",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "CD",
+                "description": "Community Development"
+              },
+              {
+                "id": "ED",
+                "description": "Education"
+              },
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              },
+              {
+                "id": "HL",
+                "description": "Health"
+              },
+              {
+                "id": "HO",
+                "description": "Housing"
+              }
+            ],
+            "postingDateStr": "2026-04-21-00-00-00",
+            "estSynopsisPostingDateStr": "2026-07-28-00-00-00",
+            "estApplicationResponseDateStr": "2026-09-28-00-00-00",
+            "estAwardDateStr": "2026-12-29-00-00-00",
+            "estProjectStartDateStr": "2027-06-01-00-00-00",
+            "createTimeStampStr": "2026-04-21-13-04-14"
+          },
+          "cfdas": [
+            {
+              "id": 432821,
+              "opportunityId": 361994,
+              "revision": 5,
+              "cfdaNumber": "14.870",
+              "programTitle": "Resident Opportunity and Supportive Services - Service Coordinators"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361994,
+            "revision": 3
+          },
+          "opportunityId": 361994,
+          "revision": 3,
+          "opportunityNumber": "PIH-2600-DC-0005",
+          "opportunityTitle": "Resident Opportunity and Self-Sufficiency Service Coordinator (ROSS-SC) Program &ndash; Fiscal Year 2026",
+          "owningAgencyCode": "HUD",
+          "publisherUid": "15962964103075612635523162374797683255",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated processing year.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361994,
+              "revision": 3
+            },
+            "opportunityId": 361994,
+            "revision": 3,
+            "version": 4,
+            "postingDate": "Apr 21, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Resident Opportunity and Self Sufficiency Service Coordinator (ROSS-SC) program is designed to assist residents of Public and Indian Housing make progress towards economic and housing self-sufficiency by addressing the educational, professional and health barriers they face.  Self-sufficiency is defined as an individual’s ability to support their household by maintaining financial, housing, and personal/family stability.  To achieve self-sufficiency, an individual moves along a continuum towards economic independence and stability; such movement is facilitated by the achievement of individual educational, professional, and health-related goals.<br><br>To help residents make progress towards self-sufficiency, HUD provides ROSS-SC grant funding to eligible applicants to hire a Service Coordinator who assesses the needs of Public and Indian housing residents and links them to local training and supportive services that will enable participants to move along the self-sufficiency continuum.  In the case of elderly/residents with disabilities, the Service Coordinator also links them to congregate and other supportive services which enable them to age/remain in place in addition to providing other desired training and supportive services which are made available to other residents.  In addition, with the ROSS-SC grant, HUD provides funding for grantees to provide direct services to further support the work of the ROSS-SC and ultimately, the goals of the ROSS program.</p>",
+            "costSharing": true,
+            "numberOfAwards": "114",
+            "estimatedFunding": "40000000",
+            "awardCeiling": "816750",
+            "awardFloor": "272255",
+            "fundingDescLinkUrl": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "fundingDescLinkDesc": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "agencyContactName": "US Department of Housing and Urban Development",
+            "agencyContactPhone": "(800) 955-2232",
+            "agencyContactEmail": "ross-pih@hud.gov",
+            "agencyContactEmailDesc": "ross-pih@hud.gov",
+            "agencyCode": "HUD",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Resident Associations (RAs) are eligible to apply. RAs must have either locally incorporated nonprofit status (usually designated by the state) or 501(c)(3) nonprofit status designated by the IRS.Multifamily Owners are eligible to apply. Multifamily Owners that are applying to serve RAD PBRA residents must be the entity that has the legal right to lease dwelling units in the PBRA project(s) to be served.Indian Tribes as defined in Section 4(13) of NAHASDA (25 U.S.C. 4103) are eligible to apply.Tribally-Designated Housing Entities (TDHEs) as defined in section 4(22) of NAHASDA (25 U.S.C. 4103) are also eligible to apply for FY25 ROSS funding. Tribes are reminded that the number of ROSS-SC positions they are eligible to apply for is based on the number of occupied units in projects to be served that receive NAHASDA-rental assistance as of the application deadline Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+            "estSynopsisPostingDate": "Jul 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Sep 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Dec 29, 2026 12:00:00 AM EST",
+            "estProjectStartDate": "Jun 01, 2027 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated Previously Published Fiscal Year",
+            "createTimeStamp": "Apr 21, 2026 01:52:10 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 21, 2026 01:52:10 PM EDT",
+            "createdDate": "Apr 21, 2026 12:56:35 PM EDT",
+            "lastUpdatedDate": "Apr 21, 2026 01:52:10 PM EDT",
+            "agencyDetails": {
+              "code": "HUD",
+              "seed": "HUD",
+              "agencyName": "Department of Housing and Urban Development",
+              "agencyCode": "HUD",
+              "topAgencyCode": "HUD"
+            },
+            "estimatedFundingFormatted": "40,000,000",
+            "awardCeilingFormatted": "816,750",
+            "awardFloorFormatted": "272,255",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "CD",
+                "description": "Community Development"
+              },
+              {
+                "id": "ED",
+                "description": "Education"
+              },
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              },
+              {
+                "id": "HL",
+                "description": "Health"
+              },
+              {
+                "id": "HO",
+                "description": "Housing"
+              }
+            ],
+            "postingDateStr": "2026-04-21-00-00-00",
+            "estSynopsisPostingDateStr": "2026-07-28-00-00-00",
+            "estApplicationResponseDateStr": "2026-09-28-00-00-00",
+            "estAwardDateStr": "2026-12-29-00-00-00",
+            "estProjectStartDateStr": "2027-06-01-00-00-00",
+            "createTimeStampStr": "2026-04-21-13-52-10"
+          },
+          "cfdas": [
+            {
+              "id": 432821,
+              "opportunityId": 361994,
+              "revision": 5,
+              "cfdaNumber": "14.870",
+              "programTitle": "Resident Opportunity and Supportive Services - Service Coordinators"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "modComments"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361994,
+            "revision": 4
+          },
+          "opportunityId": 361994,
+          "revision": 4,
+          "opportunityNumber": "PIH-2600-DC-0005",
+          "opportunityTitle": "Resident Opportunity and Self-Sufficiency Service Coordinator (ROSS-SC) Program &ndash; Fiscal Year 2026",
+          "owningAgencyCode": "HUD",
+          "publisherUid": "15962964103075612635523162374797683255",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated Previously Published Fiscal Year",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361994,
+              "revision": 4
+            },
+            "opportunityId": 361994,
+            "revision": 4,
+            "version": 5,
+            "postingDate": "Apr 21, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Resident Opportunity and Self Sufficiency Service Coordinator (ROSS-SC) program is designed to assist residents of Public and Indian Housing make progress towards economic and housing self-sufficiency by addressing the educational, professional and health barriers they face.  Self-sufficiency is defined as an individual’s ability to support their household by maintaining financial, housing, and personal/family stability.  To achieve self-sufficiency, an individual moves along a continuum towards economic independence and stability; such movement is facilitated by the achievement of individual educational, professional, and health-related goals.<br><br>To help residents make progress towards self-sufficiency, HUD provides ROSS-SC grant funding to eligible applicants to hire a Service Coordinator who assesses the needs of Public and Indian housing residents and links them to local training and supportive services that will enable participants to move along the self-sufficiency continuum.  In the case of elderly/residents with disabilities, the Service Coordinator also links them to congregate and other supportive services which enable them to age/remain in place in addition to providing other desired training and supportive services which are made available to other residents.  In addition, with the ROSS-SC grant, HUD provides funding for grantees to provide direct services to further support the work of the ROSS-SC and ultimately, the goals of the ROSS program.</p>",
+            "costSharing": true,
+            "numberOfAwards": "114",
+            "estimatedFunding": "40000000",
+            "awardCeiling": "816750",
+            "awardFloor": "272255",
+            "fundingDescLinkUrl": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "fundingDescLinkDesc": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "agencyContactName": "US Department of Housing and Urban Development",
+            "agencyContactPhone": "(800) 955-2232",
+            "agencyContactEmail": "ross-pih@hud.gov",
+            "agencyContactEmailDesc": "ross-pih@hud.gov",
+            "agencyCode": "HUD",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Resident Associations (RAs) are eligible to apply. RAs must have either locally incorporated nonprofit status (usually designated by the state) or 501(c)(3) nonprofit status designated by the IRS.Multifamily Owners are eligible to apply. Multifamily Owners that are applying to serve RAD PBRA residents must be the entity that has the legal right to lease dwelling units in the PBRA project(s) to be served.Indian Tribes as defined in Section 4(13) of NAHASDA (25 U.S.C. 4103) are eligible to apply.Tribally-Designated Housing Entities (TDHEs) as defined in section 4(22) of NAHASDA (25 U.S.C. 4103) are also eligible to apply for FY25 ROSS funding. Tribes are reminded that the number of ROSS-SC positions they are eligible to apply for is based on the number of occupied units in projects to be served that receive NAHASDA-rental assistance as of the application deadline Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+            "estSynopsisPostingDate": "Jul 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Sep 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Dec 29, 2026 12:00:00 AM EST",
+            "estProjectStartDate": "Jun 01, 2027 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated Previously Published Fiscal Year",
+            "createTimeStamp": "Apr 21, 2026 01:52:10 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 28, 2026 10:04:31 AM EDT",
+            "createdDate": "Apr 21, 2026 12:56:35 PM EDT",
+            "lastUpdatedDate": "Apr 21, 2026 01:52:10 PM EDT",
+            "agencyDetails": {
+              "code": "HUD",
+              "seed": "HUD",
+              "agencyName": "Department of Housing and Urban Development",
+              "agencyCode": "HUD",
+              "topAgencyCode": "HUD"
+            },
+            "estimatedFundingFormatted": "40,000,000",
+            "awardCeilingFormatted": "816,750",
+            "awardFloorFormatted": "272,255",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "CD",
+                "description": "Community Development"
+              },
+              {
+                "id": "ED",
+                "description": "Education"
+              },
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              },
+              {
+                "id": "HL",
+                "description": "Health"
+              },
+              {
+                "id": "HO",
+                "description": "Housing"
+              }
+            ],
+            "postingDateStr": "2026-04-21-00-00-00",
+            "estSynopsisPostingDateStr": "2026-07-28-00-00-00",
+            "estApplicationResponseDateStr": "2026-09-28-00-00-00",
+            "estAwardDateStr": "2026-12-29-00-00-00",
+            "estProjectStartDateStr": "2027-06-01-00-00-00",
+            "createTimeStampStr": "2026-04-21-13-52-10"
+          },
+          "cfdas": [
+            {
+              "id": 432821,
+              "opportunityId": 361994,
+              "revision": 5,
+              "cfdaNumber": "14.870",
+              "programTitle": "Resident Opportunity and Supportive Services - Service Coordinators"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361994,
+            "revision": 5
+          },
+          "opportunityId": 361994,
+          "revision": 5,
+          "opportunityNumber": "PIH-2600-DC-0005",
+          "opportunityTitle": "Resident Opportunity and Self-Sufficiency Service Coordinator (ROSS-SC) Program &ndash; Fiscal Year 2026",
+          "owningAgencyCode": "HUD",
+          "publisherUid": "15962964103075612635523162374797683255",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated Previously Published Fiscal Year",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361994,
+              "revision": 5
+            },
+            "opportunityId": 361994,
+            "revision": 5,
+            "version": 6,
+            "postingDate": "Apr 21, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Resident Opportunity and Self Sufficiency Service Coordinator (ROSS-SC) program is designed to assist residents of Public and Indian Housing make progress towards economic and housing self-sufficiency by addressing the educational, professional and health barriers they face.  Self-sufficiency is defined as an individual’s ability to support their household by maintaining financial, housing, and personal/family stability.  To achieve self-sufficiency, an individual moves along a continuum towards economic independence and stability; such movement is facilitated by the achievement of individual educational, professional, and health-related goals.<br><br>To help residents make progress towards self-sufficiency, HUD provides ROSS-SC grant funding to eligible applicants to hire a Service Coordinator who assesses the needs of Public and Indian housing residents and links them to local training and supportive services that will enable participants to move along the self-sufficiency continuum.  In the case of elderly/residents with disabilities, the Service Coordinator also links them to congregate and other supportive services which enable them to age/remain in place in addition to providing other desired training and supportive services which are made available to other residents.  In addition, with the ROSS-SC grant, HUD provides funding for grantees to provide direct services to further support the work of the ROSS-SC and ultimately, the goals of the ROSS program.</p>",
+            "costSharing": true,
+            "numberOfAwards": "143",
+            "estimatedFunding": "40000000",
+            "awardCeiling": "816750",
+            "awardFloor": "272250",
+            "fundingDescLinkUrl": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "fundingDescLinkDesc": "https://www.hud.gov/program_offices/spm/gmomgmt/grantsinfo/fundingopps",
+            "agencyContactName": "US Department of Housing and Urban Development",
+            "agencyContactPhone": "(800) 955-2232",
+            "agencyContactEmail": "ross-pih@hud.gov",
+            "agencyContactEmailDesc": "ross-pih@hud.gov",
+            "agencyCode": "HUD",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Resident Associations (RAs) are eligible to apply. RAs must have either locally incorporated nonprofit status (usually designated by the state) or 501(c)(3) nonprofit status designated by the IRS.Multifamily Owners are eligible to apply. Multifamily Owners that are applying to serve RAD PBRA residents must be the entity that has the legal right to lease dwelling units in the PBRA project(s) to be served.Indian Tribes as defined in Section 4(13) of NAHASDA (25 U.S.C. 4103) are eligible to apply.Tribally-Designated Housing Entities (TDHEs) as defined in section 4(22) of NAHASDA (25 U.S.C. 4103) are also eligible to apply for FY25 ROSS funding. Tribes are reminded that the number of ROSS-SC positions they are eligible to apply for is based on the number of occupied units in projects to be served that receive NAHASDA-rental assistance as of the application deadline Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+            "estSynopsisPostingDate": "Jul 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Sep 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Apr 30, 2027 12:00:00 AM EDT",
+            "estProjectStartDate": "Jun 01, 2027 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated estimate award floor.",
+            "createTimeStamp": "Apr 28, 2026 10:04:31 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 28, 2026 10:04:32 AM EDT",
+            "createdDate": "Apr 21, 2026 12:56:35 PM EDT",
+            "lastUpdatedDate": "Apr 28, 2026 10:04:31 AM EDT",
+            "agencyDetails": {
+              "code": "HUD",
+              "seed": "HUD",
+              "agencyName": "Department of Housing and Urban Development",
+              "agencyCode": "HUD",
+              "topAgencyCode": "HUD"
+            },
+            "estimatedFundingFormatted": "40,000,000",
+            "awardCeilingFormatted": "816,750",
+            "awardFloorFormatted": "272,250",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "CD",
+                "description": "Community Development"
+              },
+              {
+                "id": "ED",
+                "description": "Education"
+              },
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              },
+              {
+                "id": "HL",
+                "description": "Health"
+              },
+              {
+                "id": "HO",
+                "description": "Housing"
+              }
+            ],
+            "postingDateStr": "2026-04-21-00-00-00",
+            "estSynopsisPostingDateStr": "2026-07-28-00-00-00",
+            "estApplicationResponseDateStr": "2026-09-28-00-00-00",
+            "estAwardDateStr": "2027-04-30-00-00-00",
+            "estProjectStartDateStr": "2027-06-01-00-00-00",
+            "createTimeStampStr": "2026-04-28-10-04-31"
+          },
+          "cfdas": [
+            {
+              "id": 432821,
+              "opportunityId": 361994,
+              "revision": 5,
+              "cfdaNumber": "14.870",
+              "programTitle": "Resident Opportunity and Supportive Services - Service Coordinators"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "numberOfAwards",
+            "awardFloor",
+            "estAwardDate",
+            "modComments",
+            "createTimeStamp",
+            "applicantTypes"
+          ]
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 6,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

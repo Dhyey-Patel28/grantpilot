@@ -1,0 +1,1773 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "328573",
+  "fetched_at": "2026-05-16T14:06:24.594Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InltWWc2bTVYak1CQzRrWlVBNGxkdGd0eUxXR3lsSXEzdVlwWDJLR21BRUE9Ig.a10ImPp0DP_Qj8j4DYc5fWu_zh3eJqx3HA4vuparDZQ",
+    "data": {
+      "id": 328573,
+      "revision": 16,
+      "opportunityNumber": "PD-20-1260",
+      "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 328573,
+        "version": 17,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\n\nSee below for more information about each category of Infrastructure projects.\n\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\n\nIn addition, all proposals of this type must clearly identify:\n\n<ul>\n<li>Goals to be achieved;</li>\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\n<li>Measurable outcomes for the project;</li>\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\n<li>A budget commensurate with the proposed activity.</li>\n</ul>\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\n<ul>\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\n</ul>",
+        "responseDate": "Aug 04, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+        "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+        "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Feb 19, 2026 11:00:12 PM EST",
+        "modComments": ".",
+        "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+        "lastUpdatedDate": "Feb 19, 2026 11:00:12 PM EST",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-08-04-00-00-00",
+        "postingDateStr": "2020-08-07-00-00-00",
+        "archiveDateStr": "2035-09-06-00-00-00",
+        "createTimeStampStr": "2026-02-19-23-00-12"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 384159,
+          "opportunityId": 328573,
+          "cfdaNumber": "47.049",
+          "programTitle": "Mathematical and Physical Sciences"
+        },
+        {
+          "id": 384174,
+          "opportunityId": 328573
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 0
+          },
+          "opportunityId": 328573,
+          "revision": 0,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 0
+            },
+            "opportunityId": 328573,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale. See below for more information about each category.\n\r\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. In case of questions regarding suitability of a project for the program, please email an Infrastructure Program Officer with a one-page description of the proposed project and a tentative budget. Full proposals must be submitted by the Full Proposal Deadline Date.\n\r\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full Proposal Deadline Date; and they must:\n\r\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\r\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\r\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\r\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated (an EHR review may be solicited),\n\r\n<p style=\"padding-left: 60px;\">ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or\n\r\n<p style=\"padding-left: 60px;\">iii. Include a substantial broadening participation initiative.\n\r\n\nIn addition, all proposals of this type must clearly identify:\n\r\n<ul>\r\n<li>Goals to be achieved;</li>\r\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\r\n<li>Measurable outcomes for the project;</li>\r\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\r\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\r\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\r\n<li>A budget commensurate with the proposed activity.</li>\r\n</ul>\r\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation <a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities. Generally, proposals under this solicitation should first be considered for submission to the appropriate DMS disciplinary program subject to the lead-time requirements specified by that program; see the program web pages listed on the <a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\r\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\r\n\n Budgets and submission windows:\n\r\n<p style=\"padding-left: 30px;\">A. Proposals of this type with budgets not exceeding $50,000, which in accordance with NSF policy can be reviewed internally at NSF, should be submitted six to eight months in advance of the meeting date;\n\r\n<p style=\"padding-left: 30px;\">B. Proposals with budgets higher than $50,000 should be submitted by the Full Proposal Deadline Date that occurs at least six months prior to the event in order to allow time for external review.",
+            "responseDate": "Dec 15, 2020 12:00:00 AM EST",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Jun 08, 2034 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Aug 07, 2020 01:00:08 AM EDT",
+            "actionType": "U",
+            "actionDate": "Dec 23, 2020 01:00:19 AM EST",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2020-12-15-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2034-06-08-00-00-00",
+            "createTimeStampStr": "2020-08-07-01-00-08"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 1
+          },
+          "opportunityId": 328573,
+          "revision": 1,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 1
+            },
+            "opportunityId": 328573,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale. See below for more information about each category.\n\r\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. In case of questions regarding suitability of a project for the program, please email an Infrastructure Program Officer with a one-page description of the proposed project and a tentative budget. Full proposals must be submitted by the Full Proposal Deadline Date.\n\r\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full Proposal Deadline Date; and they must:\n\r\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\r\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\r\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\r\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated (an EHR review may be solicited),\n\r\n<p style=\"padding-left: 60px;\">ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or\n\r\n<p style=\"padding-left: 60px;\">iii. Include a substantial broadening participation initiative.\n\r\n\nIn addition, all proposals of this type must clearly identify:\n\r\n<ul>\r\n<li>Goals to be achieved;</li>\r\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\r\n<li>Measurable outcomes for the project;</li>\r\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\r\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\r\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\r\n<li>A budget commensurate with the proposed activity.</li>\r\n</ul>\r\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation <a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities. Generally, proposals under this solicitation should first be considered for submission to the appropriate DMS disciplinary program subject to the lead-time requirements specified by that program; see the program web pages listed on the <a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\r\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\r\n\n Budgets and submission windows:\n\r\n<p style=\"padding-left: 30px;\">A. Proposals of this type with budgets not exceeding $50,000, which in accordance with NSF policy can be reviewed internally at NSF, should be submitted six to eight months in advance of the meeting date;\n\r\n<p style=\"padding-left: 30px;\">B. Proposals with budgets higher than $50,000 should be submitted by the Full Proposal Deadline Date that occurs at least six months prior to the event in order to allow time for external review.",
+            "responseDate": "May 11, 2021 12:00:00 AM EDT",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Jun 08, 2034 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Dec 23, 2020 01:00:19 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "May 19, 2021 01:00:20 AM EDT",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Dec 23, 2020 01:00:19 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2021-05-11-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2034-06-08-00-00-00",
+            "createTimeStampStr": "2020-12-23-01-00-19"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 2
+          },
+          "opportunityId": 328573,
+          "revision": 2,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 2
+            },
+            "opportunityId": 328573,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale. See below for more information about each category.\n\r\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. In case of questions regarding suitability of a project for the program, please email an Infrastructure Program Officer with a one-page description of the proposed project and a tentative budget. Full proposals must be submitted by the Full Proposal Deadline Date.\n\r\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full Proposal Deadline Date; and they must:\n\r\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\r\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\r\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\r\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated (an EHR review may be solicited),\n\r\n<p style=\"padding-left: 60px;\">ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or\n\r\n<p style=\"padding-left: 60px;\">iii. Include a substantial broadening participation initiative.\n\r\n\nIn addition, all proposals of this type must clearly identify:\n\r\n<ul>\r\n<li>Goals to be achieved;</li>\r\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\r\n<li>Measurable outcomes for the project;</li>\r\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\r\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\r\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\r\n<li>A budget commensurate with the proposed activity.</li>\r\n</ul>\r\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation <a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities. Generally, proposals under this solicitation should first be considered for submission to the appropriate DMS disciplinary program subject to the lead-time requirements specified by that program; see the program web pages listed on the <a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\r\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\r\n\n Budgets and submission windows:\n\r\n<p style=\"padding-left: 30px;\">A. Proposals of this type with budgets not exceeding $50,000, which in accordance with NSF policy can be reviewed internally at NSF, should be submitted six to eight months in advance of the meeting date;\n\r\n<p style=\"padding-left: 30px;\">B. Proposals with budgets higher than $50,000 should be submitted by the Full Proposal Deadline Date that occurs at least six months prior to the event in order to allow time for external review.",
+            "responseDate": "May 10, 2022 12:00:00 AM EDT",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Jun 08, 2034 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "May 19, 2021 01:00:20 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Sep 15, 2021 01:00:21 AM EDT",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "May 19, 2021 01:00:20 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2022-05-10-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2034-06-08-00-00-00",
+            "createTimeStampStr": "2021-05-19-01-00-20"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 3
+          },
+          "opportunityId": 328573,
+          "revision": 3,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 3
+            },
+            "opportunityId": 328573,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\r\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\r\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\r\n\nSee below for more information about each category of Infrastructure projects.\n\r\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\r\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\r\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\r\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\r\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\r\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\r\n\nIn addition, all proposals of this type must clearly identify:\n\r\n<ul>\r\n<li>Goals to be achieved;</li>\r\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\r\n<li>Measurable outcomes for the project;</li>\r\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\r\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\r\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\r\n<li>A budget commensurate with the proposed activity.</li>\r\n</ul>\r\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\r\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\r\n<ul>\r\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\r\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\r\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\r\n</ul>",
+            "responseDate": "Feb 01, 2022 12:00:00 AM EST",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Sep 15, 2021 01:00:21 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 17, 2022 01:00:36 AM EST",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Sep 15, 2021 01:00:21 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2022-02-01-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2035-09-06-00-00-00",
+            "createTimeStampStr": "2021-09-15-01-00-21"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "responseDate",
+            "archiveDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 4
+          },
+          "opportunityId": 328573,
+          "revision": 4,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 4
+            },
+            "opportunityId": 328573,
+            "revision": 4,
+            "version": 5,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\r\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\r\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\r\n\nSee below for more information about each category of Infrastructure projects.\n\r\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\r\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\r\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\r\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\r\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\r\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\r\n\nIn addition, all proposals of this type must clearly identify:\n\r\n<ul>\r\n<li>Goals to be achieved;</li>\r\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\r\n<li>Measurable outcomes for the project;</li>\r\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\r\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\r\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\r\n<li>A budget commensurate with the proposed activity.</li>\r\n</ul>\r\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\r\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\r\n<ul>\r\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\r\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\r\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\r\n</ul>",
+            "responseDate": "Aug 02, 2022 12:00:00 AM EDT",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Feb 17, 2022 01:00:36 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Aug 18, 2022 01:00:10 AM EDT",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Feb 17, 2022 01:00:36 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2022-08-02-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2035-09-06-00-00-00",
+            "createTimeStampStr": "2022-02-17-01-00-36"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 5
+          },
+          "opportunityId": 328573,
+          "revision": 5,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 5
+            },
+            "opportunityId": 328573,
+            "revision": 5,
+            "version": 6,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\r\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\r\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\r\n\nSee below for more information about each category of Infrastructure projects.\n\r\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\r\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\r\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\r\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\r\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\r\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\r\n\nIn addition, all proposals of this type must clearly identify:\n\r\n<ul>\r\n<li>Goals to be achieved;</li>\r\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\r\n<li>Measurable outcomes for the project;</li>\r\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\r\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\r\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\r\n<li>A budget commensurate with the proposed activity.</li>\r\n</ul>\r\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\r\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\r\n<ul>\r\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\r\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\r\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\r\n</ul>",
+            "responseDate": "Feb 07, 2023 12:00:00 AM EST",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Aug 18, 2022 01:00:10 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Oct 16, 2022 01:00:08 AM EDT",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Aug 18, 2022 01:00:10 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2023-02-07-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2035-09-06-00-00-00",
+            "createTimeStampStr": "2022-08-18-01-00-10"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 6
+          },
+          "opportunityId": 328573,
+          "revision": 6,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 6
+            },
+            "opportunityId": 328573,
+            "revision": 6,
+            "version": 7,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\r\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\r\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\r\n\nSee below for more information about each category of Infrastructure projects.\n\r\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\r\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\r\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\r\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\r\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\r\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\r\n\nIn addition, all proposals of this type must clearly identify:\n\r\n<ul>\r\n<li>Goals to be achieved;</li>\r\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\r\n<li>Measurable outcomes for the project;</li>\r\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\r\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\r\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\r\n<li>A budget commensurate with the proposed activity.</li>\r\n</ul>\r\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\r\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\r\n<ul>\r\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\r\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\r\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\r\n</ul>",
+            "responseDate": "Feb 07, 2023 12:00:00 AM EST",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Oct 16, 2022 01:00:08 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jan 28, 2023 01:42:59 AM EST",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Oct 16, 2022 01:00:08 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2023-02-07-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2035-09-06-00-00-00",
+            "createTimeStampStr": "2022-10-16-01-00-08"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 7
+          },
+          "opportunityId": 328573,
+          "revision": 7,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 7
+            },
+            "opportunityId": 328573,
+            "revision": 7,
+            "version": 8,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\r\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\r\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\r\n\nSee below for more information about each category of Infrastructure projects.\n\r\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\r\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\r\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\r\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\r\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\r\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\r\n\nIn addition, all proposals of this type must clearly identify:\n\r\n<ul>\r\n<li>Goals to be achieved;</li>\r\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\r\n<li>Measurable outcomes for the project;</li>\r\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\r\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\r\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\r\n<li>A budget commensurate with the proposed activity.</li>\r\n</ul>\r\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\r\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\r\n<ul>\r\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\r\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\r\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\r\n</ul>",
+            "responseDate": "Feb 07, 2023 12:00:00 AM EST",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jan 28, 2023 01:42:59 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Mar 21, 2023 01:38:40 PM EDT",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Jan 28, 2023 01:42:59 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2023-02-07-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2035-09-06-00-00-00",
+            "createTimeStampStr": "2023-01-28-01-42-59"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 8
+          },
+          "opportunityId": 328573,
+          "revision": 8,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 8
+            },
+            "opportunityId": 328573,
+            "revision": 8,
+            "version": 9,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\r\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\r\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\r\n\nSee below for more information about each category of Infrastructure projects.\n\r\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\r\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\r\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\r\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\r\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\r\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\r\n\nIn addition, all proposals of this type must clearly identify:\n\r\n<ul>\r\n<li>Goals to be achieved;</li>\r\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\r\n<li>Measurable outcomes for the project;</li>\r\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\r\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\r\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\r\n<li>A budget commensurate with the proposed activity.</li>\r\n</ul>\r\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\r\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\r\n<ul>\r\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\r\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\r\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\r\n</ul>",
+            "responseDate": "Aug 01, 2023 12:00:00 AM EDT",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Mar 21, 2023 01:38:40 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "May 20, 2023 12:10:16 AM EDT",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Mar 21, 2023 01:38:40 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2023-08-01-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2035-09-06-00-00-00",
+            "createTimeStampStr": "2023-03-21-13-38-40"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 9
+          },
+          "opportunityId": 328573,
+          "revision": 9,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 9
+            },
+            "opportunityId": 328573,
+            "revision": 9,
+            "version": 10,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\r\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\r\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\r\n\nSee below for more information about each category of Infrastructure projects.\n\r\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\r\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\r\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\r\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\r\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\r\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\r\n\nIn addition, all proposals of this type must clearly identify:\n\r\n<ul>\r\n<li>Goals to be achieved;</li>\r\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\r\n<li>Measurable outcomes for the project;</li>\r\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\r\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\r\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\r\n<li>A budget commensurate with the proposed activity.</li>\r\n</ul>\r\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\r\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\r\n<ul>\r\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\r\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\r\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\r\n</ul>",
+            "responseDate": "Aug 01, 2023 12:00:00 AM EDT",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "May 20, 2023 12:10:16 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Aug 17, 2023 01:00:18 AM EDT",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "May 20, 2023 12:10:16 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2023-08-01-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2035-09-06-00-00-00",
+            "createTimeStampStr": "2023-05-20-00-10-16"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 10
+          },
+          "opportunityId": 328573,
+          "revision": 10,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 10
+            },
+            "opportunityId": 328573,
+            "revision": 10,
+            "version": 11,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\r\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\r\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\r\n\nSee below for more information about each category of Infrastructure projects.\n\r\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\r\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\r\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\r\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\r\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\r\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\r\n\nIn addition, all proposals of this type must clearly identify:\n\r\n<ul>\r\n<li>Goals to be achieved;</li>\r\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\r\n<li>Measurable outcomes for the project;</li>\r\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\r\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\r\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\r\n<li>A budget commensurate with the proposed activity.</li>\r\n</ul>\r\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\r\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\r\n<ul>\r\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\r\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\r\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\r\n</ul>",
+            "responseDate": "Feb 06, 2024 12:00:00 AM EST",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Aug 17, 2023 01:00:18 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 22, 2024 01:00:31 AM EST",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Aug 17, 2023 01:00:18 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2024-02-06-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2035-09-06-00-00-00",
+            "createTimeStampStr": "2023-08-17-01-00-18"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 11
+          },
+          "opportunityId": 328573,
+          "revision": 11,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 11
+            },
+            "opportunityId": 328573,
+            "revision": 11,
+            "version": 12,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\r\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\r\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\r\n\nSee below for more information about each category of Infrastructure projects.\n\r\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\r\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\r\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\r\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\r\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\r\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\r\n\nIn addition, all proposals of this type must clearly identify:\n\r\n<ul>\r\n<li>Goals to be achieved;</li>\r\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\r\n<li>Measurable outcomes for the project;</li>\r\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\r\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\r\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\r\n<li>A budget commensurate with the proposed activity.</li>\r\n</ul>\r\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\r\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\r\n<ul>\r\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\r\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\r\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\r\n</ul>",
+            "responseDate": "Aug 06, 2024 12:00:00 AM EDT",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Feb 22, 2024 01:00:31 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 24, 2024 12:05:14 AM EST",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Feb 22, 2024 01:00:31 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2024-08-06-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2035-09-06-00-00-00",
+            "createTimeStampStr": "2024-02-22-01-00-31"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 12
+          },
+          "opportunityId": 328573,
+          "revision": 12,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 12
+            },
+            "opportunityId": 328573,
+            "revision": 12,
+            "version": 13,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\r\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\r\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\r\n\nSee below for more information about each category of Infrastructure projects.\n\r\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\r\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\r\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\r\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\r\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\r\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\r\n\nIn addition, all proposals of this type must clearly identify:\n\r\n<ul>\r\n<li>Goals to be achieved;</li>\r\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\r\n<li>Measurable outcomes for the project;</li>\r\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\r\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\r\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\r\n<li>A budget commensurate with the proposed activity.</li>\r\n</ul>\r\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\r\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\r\n<ul>\r\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\r\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\r\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\r\n</ul>",
+            "responseDate": "Aug 06, 2024 12:00:00 AM EDT",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Feb 24, 2024 12:05:14 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Aug 22, 2024 01:00:05 AM EDT",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Feb 24, 2024 12:05:14 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2024-08-06-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2035-09-06-00-00-00",
+            "createTimeStampStr": "2024-02-24-00-05-14"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 13
+          },
+          "opportunityId": 328573,
+          "revision": 13,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 13
+            },
+            "opportunityId": 328573,
+            "revision": 13,
+            "version": 14,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\n\nSee below for more information about each category of Infrastructure projects.\n\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\n\nIn addition, all proposals of this type must clearly identify:\n\n<ul>\n<li>Goals to be achieved;</li>\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\n<li>Measurable outcomes for the project;</li>\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\n<li>A budget commensurate with the proposed activity.</li>\n</ul>\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\n<ul>\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\n</ul>",
+            "responseDate": "Feb 04, 2025 12:00:00 AM EST",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Aug 22, 2024 01:00:05 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 20, 2025 01:00:08 AM EST",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Aug 22, 2024 01:00:05 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-02-04-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2035-09-06-00-00-00",
+            "createTimeStampStr": "2024-08-22-01-00-05"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 14
+          },
+          "opportunityId": 328573,
+          "revision": 14,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 14
+            },
+            "opportunityId": 328573,
+            "revision": 14,
+            "version": 15,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\n\nSee below for more information about each category of Infrastructure projects.\n\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\n\nIn addition, all proposals of this type must clearly identify:\n\n<ul>\n<li>Goals to be achieved;</li>\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\n<li>Measurable outcomes for the project;</li>\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\n<li>A budget commensurate with the proposed activity.</li>\n</ul>\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\n<ul>\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\n</ul>",
+            "responseDate": "Aug 05, 2025 12:00:00 AM EDT",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Feb 20, 2025 01:00:08 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Aug 21, 2025 11:00:07 PM EDT",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Feb 20, 2025 01:00:08 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-08-05-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2035-09-06-00-00-00",
+            "createTimeStampStr": "2025-02-20-01-00-08"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 328573,
+            "revision": 15
+          },
+          "opportunityId": 328573,
+          "revision": 15,
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 328573,
+              "revision": 15
+            },
+            "opportunityId": 328573,
+            "revision": 15,
+            "version": 16,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4203",
+            "agencyContactName": "U.S. National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The primary aim of the Mathematical Sciences Infrastructure Program is to foster the continuing health of the mathematical sciences research community as a whole. In addition,the program complements the <a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a> in its goal to increase the number of well-prepared U.S. based individuals who successfully pursue careers in the mathematical sciences and in other professions in which expertise in the mathematical sciences plays an increasingly important role. The DMS Infrastructure program invites projects that support core research in the mathematical sciences, including: 1) novel projects supporting research infrastructure across the mathematical sciences community; 2) training projects complementing the Workforce Program, and 3) conference, workshop, and travel support requests that include cross-disciplinary activities or have an impact at the national scale.\n\n\nProposals under this solicitation submitted to DMS Infrastructure must show engagement in developing or enhancing the mathematical sciences research infrastructure in the U.S., including, but not limited to, broadening participation activities; professional development training; or involvement of students and early career researchers. Proposals must explain the regional or national scale impact of the activity that goes substantially beyond the submitting institution or the location of the event.\n\n\nFull proposals (with exception of conference proposals, which are subject to lead-time requirements) must be submitted close to one of the Full Proposal Target Dates.\n\n\nSee below for more information about each category of Infrastructure projects.\n\n\n(1)Novel projects that serve to strengthen the research infrastructure: The DMS Infrastructure Program will consider novel projects that support and strengthen the research infrastructure across the mathematical sciences community. These projects most often cut across multiple sub-disciplines supported by DMS or involve interdisciplinary collaborations. The main goal of these projects should be to create a new research infrastructure or substantially enhance or transform an existing infrastructure with regional or national impact that goes substantially beyond the submitting institution or the location of the project. Full proposals must be submitted by the Full ProposalTarget Date.\n\n\n(2)Training projects: Training proposals submitted to DMS Infrastructure must not fit into one of the areas covered by solicitations in the <span style=\"text-decoration: underline;\"><a title=\"DMS Workforce\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503233\" target=\"_blank\">Workforce Program in the Mathematical Sciences</a></span>; they must be submitted by the Full ProposalTarget Date; and they must:\n\n<p style=\"padding-left: 30px;\">A. Include a core research component for trainees in mathematical sciences;\n\n<p style=\"padding-left: 30px;\">B. Demonstrate promise for an impact at the regional or national scale that goes substantially beyond the submitting institution or the location of the project;\n\n<p style=\"padding-left: 30px;\">C. Satisfy at least one of the following criteria:\n\n<p style=\"padding-left: 60px;\">i. Serve as models to be replicated,<br />ii. Promote partnerships with non-academic entities, minority-serving institutions, or community colleges, or<br />iii. Include a substantial broadening participation initiative.\n\n\nIn addition, all proposals of this type must clearly identify:\n\n<ul>\n<li>Goals to be achieved;</li>\n<li>Specific new activities to be conducted, the way in which these address the goals, and the way in which the activities significantly differ from or enhance common practice;</li>\n<li>Measurable outcomes for the project;</li>\n<li>Plans and methods for assessment of progress toward the goals to be achieved, and for evaluation of the success of the activity;</li>\n<li>Recruitment, selection, and retention plans for participants, including members of underrepresented groups;</li>\n<li>Sustainability plans to continue the pursuit of the project's goals when funding terminates; and</li>\n<li>A budget commensurate with the proposed activity.</li>\n</ul>\n\n3) Conferences, Symposia, Working Research Sessions, Travel Support Requests: Principal Investigators should carefully read the program solicitation<a title=\"DMS Conferences and Workshop Program Page\" href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=11701\" target=\"_blank\">Conferences and Workshops in the Mathematical Sciences</a>to obtain important information regarding the substance of proposals for conferences, workshops, summer/winter schools, international travel support, and similar activities.Conference/workshop proposals that concern topics within a particular subdiscipline of mathematics or statistics should be submitted to the appropriate DMS disciplinary program(s). These submissions are subject to the lead-time requirements specified by the disciplinary program(s); see the program web pages listed on the<a title=\"Division of Mathematical Sciences\" href=\"https://www.nsf.gov/div/index.jsp?div=DMS\" target=\"_blank\">DMS home page</a>.\n\n\nConference/workshop proposals may be submitted to the DMS Infrastructure program only if the intended topical areas span a wide range of the mathematical sciences and are consequently not within the scope of DMS disciplinary programs. The required lead time for submission of such proposals is:\n\n<ul>\n<li>6 months in advance of the meeting date for proposals requesting no more than $50,000 to support a domestic meeting;</li>\n<li>9 months in advance of the meeting date for proposals requesting more than $50,000 to support a domestic meeting;</li>\n<li>12 months in advance of the meeting date for proposals requesting support for participation in a meeting taking place outside the United States.</li>\n</ul>",
+            "responseDate": "Feb 03, 2026 12:00:00 AM EST",
+            "responseDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12756",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1260",
+            "postingDate": "Aug 07, 2020 12:00:00 AM EDT",
+            "archiveDate": "Sep 06, 2035 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Aug 21, 2025 11:00:07 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 19, 2026 11:00:12 PM EST",
+            "createdDate": "Aug 07, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Aug 21, 2025 11:00:07 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2026-02-03-00-00-00",
+            "postingDateStr": "2020-08-07-00-00-00",
+            "archiveDateStr": "2035-09-06-00-00-00",
+            "createTimeStampStr": "2025-08-21-23-00-07"
+          },
+          "cfdas": [
+            {
+              "id": 384159,
+              "opportunityId": 328573,
+              "revision": 15,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 384174,
+              "opportunityId": 328573,
+              "revision": 15
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 262944,
+          "topportunityId": 328573,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-20-1260",
+          "opportunityTitle": "Mathematical Sciences Infrastructure Program",
+          "openingDate": "2020-08-07",
+          "closingDate": "2026-08-04",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Tomek Bartoszynski\nE-mail: tbartosz@nsf.gov\nPhone: (703) 292-4885",
+          "gracePeriod": 15,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 35,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Feb 19, 2026 11:12:09 PM EST",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00262944",
+          "openingDateStr": "2020-08-07-00-00-00",
+          "closingDateStr": "2026-08-04-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Dec 15, 2020 12:00:00 AM EST",
+      "originalDueDateDesc": "For proposals that deal with training as described in the Synopsis; For proposals dealing with training; -- for proposals dealing with training.",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "responseDate",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 16,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

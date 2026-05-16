@@ -1,0 +1,182 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360958",
+  "fetched_at": "2026-05-16T14:08:31.311Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IkNLQ3BSc1lBRjI4dEd0NTlzenRROEk0ZExNT0VMemZWRVkwR1U0Yi9TQ009Ig.xmfzLhzxnZ96XEmQqXiCy8yh_EQkFmyPEdG9pjE7Yhw",
+    "data": {
+      "id": 360958,
+      "revision": 0,
+      "opportunityNumber": "CDC-RFA-CK-26-0193",
+      "opportunityTitle": "Increasing awareness and knowledge of Alpha-gal Syndrome in the United States",
+      "owningAgencyCode": "HHS-CDC-NCEZID",
+      "publisherUid": "21075984081049386526321738257390910592",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "NCEZID",
+        "seed": "HHS-CDC-NCEZID",
+        "agencyName": "Centers for Disease Control - NCEZID",
+        "agencyCode": "HHS-CDC-NCEZID",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 360958,
+        "version": 1,
+        "postingDate": "Dec 10, 2025 12:00:00 AM EST",
+        "archiveDate": "May 31, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>The purpose of this NOFO is to improved awareness and knowledge of alpha-gal syndrome (AGS) in the United States. AGS is an emerging condition and is not nationally notifiable. This NOFO seeks to improve AGS surveillance, patient care, and public awareness and understanding. The NOFO strategies are to 1) SHARE - Formation of an association of AGS professionals to disseminate latest knowledge of AGS among stakeholders, including public health agencies, academic researchers, and advocacy groups, in order to improve patient care for AGS and the public health response. 2) EDUCATE - Create AGS communications targeted at the general public, AGS patients, or persons at higher risk for tick encounters (outdoor enthusiasts, dog owners, outdoor workers, etc.). Create communications targeted at healthcare providers including educational resources and training. 3) TRACK - Conduct active or enhances public health surveillance for AGS. This strategy could involve patient populations or geographical locations with limited access to specialized healthcare provider care. Social Determinants of Health impacts could be considered as well. Please note that applicants must apply for strategy number 1 (SHARE) and that strategies 2 (EDUCATE) and 3 (TRACK) are optional. &nbsp;</p>",
+        "costSharing": false,
+        "numberOfAwards": "3",
+        "estimatedFunding": "10000000",
+        "awardCeiling": "1000000",
+        "awardFloor": "25000",
+        "agencyContactName": "Jeff Borchert",
+        "agencyContactPhone": "(970) 221-6494",
+        "agencyContactEmail": "gqx1@cdc.gov",
+        "agencyContactEmailDesc": "gqx1@cdc.gov",
+        "agencyCode": "HHS-CDC-NCEZID",
+        "applicantEligibilityDesc": "Bona fide agents are eligible to apply. For more information about bona fide agents, please see the CDC webpage on Expediting the Federal Grant Process with an Administrative Partner located at https://www.cdc.gov/publichealthgateway/grantsfunding/expediting.html#Q2",
+        "estSynopsisPostingDate": "Feb 28, 2026 12:00:00 AM EST",
+        "estApplicationResponseDate": "May 01, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+        "estAwardDate": "Jul 01, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "Dec 10, 2025 10:33:00 AM EST",
+        "createdDate": "Dec 10, 2025 10:33:00 AM EST",
+        "lastUpdatedDate": "Dec 10, 2025 10:33:00 AM EST",
+        "agencyDetails": {
+          "code": "NCEZID",
+          "seed": "HHS-CDC-NCEZID",
+          "agencyName": "Centers for Disease Control - NCEZID",
+          "agencyCode": "HHS-CDC-NCEZID",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "10,000,000",
+        "awardCeilingFormatted": "1,000,000",
+        "awardFloorFormatted": "25,000",
+        "applicantTypes": [
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-12-10-00-00-00",
+        "archiveDateStr": "2026-05-31-00-00-00",
+        "estSynopsisPostingDateStr": "2026-02-28-00-00-00",
+        "estApplicationResponseDateStr": "2026-05-01-00-00-00",
+        "estAwardDateStr": "2026-07-01-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2025-12-10-10-33-00"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 431547,
+          "opportunityId": 360958,
+          "cfdaNumber": "93.084",
+          "programTitle": "Prevention of Disease, Disability, and Death by Infectious Diseases"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

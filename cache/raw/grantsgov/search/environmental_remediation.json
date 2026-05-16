@@ -1,0 +1,1407 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/search2",
+  "keyword": "environmental remediation",
+  "fetched_at": "2026-05-16T14:06:08.170Z",
+  "rows_requested": 35,
+  "hit_count": 35,
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjBHdlkyZjcyQ0xYVm5FeFg0VDgrYWhUaGZCcnBKd0lQbWtxMldhWndSS0U9Ig.wLWYKTGBs89gobCgN2A-iP8fDt_LTnZsdemGu_FPmNg",
+    "data": {
+      "searchParams": {
+        "resultType": "json",
+        "searchOnly": false,
+        "oppNum": "",
+        "cfda": "",
+        "sortBy": "",
+        "oppStatuses": "forecasted|posted",
+        "startRecordNum": 0,
+        "eligibilities": "",
+        "fundingInstruments": "",
+        "fundingCategories": "",
+        "agencies": "",
+        "rows": 35,
+        "keyword": "environmental remediation",
+        "keywordEncoded": true
+      },
+      "hitCount": 348,
+      "startRecord": 0,
+      "oppHits": [
+        {
+          "id": "347328",
+          "number": "PD-23-7643",
+          "title": "Environmental Sustainability",
+          "agencyCode": "NSF",
+          "agency": "U.S. National Science Foundation",
+          "openDate": "04/05/2023",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "47.041"
+          ]
+        },
+        {
+          "id": "348932",
+          "number": "PD-23-1401",
+          "title": "Catalysis",
+          "agencyCode": "NSF",
+          "agency": "U.S. National Science Foundation",
+          "openDate": "06/27/2023",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "47.041"
+          ]
+        },
+        {
+          "id": "351715",
+          "number": "PD-24-110Z",
+          "title": "ECosystem for Leading Innovation in Plasma Science and Engineering",
+          "agencyCode": "NSF",
+          "agency": "U.S. National Science Foundation",
+          "openDate": "01/06/2024",
+          "closeDate": "08/11/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "47.083",
+            "47.050",
+            "47.041",
+            "47.049",
+            "47.076"
+          ]
+        },
+        {
+          "id": "362370",
+          "number": "LHC-2600-DC-0032",
+          "title": "Lead-Safe and Healthy Homes Financing Demonstration",
+          "agencyCode": "HUD",
+          "agency": "Department of Housing and Urban Development",
+          "openDate": "05/12/2026",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "14.922"
+          ]
+        },
+        {
+          "id": "358373",
+          "number": "PAR-25-378",
+          "title": "Intervention Research to Improve Native American Health (R34 Clinical Trial Optional)",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "01/22/2025",
+          "closeDate": "01/07/2027",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "93.273",
+            "93.213",
+            "93.313",
+            "93.866",
+            "93.279",
+            "93.310",
+            "93.865",
+            "93.361",
+            "93.113",
+            "93.121",
+            "93.242"
+          ]
+        },
+        {
+          "id": "351547",
+          "number": "EPA-OLEM-R10-NC-24-01",
+          "title": "CONTAMINATED ALASKA NATIVE CLAIMS SETTLEMENT ACT LANDS ASSISTANCE PROGRAM",
+          "agencyCode": "EPA",
+          "agency": "Environmental Protection Agency",
+          "openDate": "12/28/2023",
+          "closeDate": "12/31/2027",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "66.965"
+          ]
+        },
+        {
+          "id": "348830",
+          "number": "HQ003423NFOEASD07",
+          "title": "DoW&rsquo;s Energy, Installations, and Environment Innovation Partners Programs",
+          "agencyCode": "DOD-WHS",
+          "agency": "Washington Headquarters Services",
+          "openDate": "06/21/2023",
+          "closeDate": "01/08/2028",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "12.632"
+          ]
+        },
+        {
+          "id": "320490",
+          "number": "PD-20-1440",
+          "title": "Environmental Engineering",
+          "agencyCode": "NSF",
+          "agency": "U.S. National Science Foundation",
+          "openDate": "09/11/2019",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "47.041"
+          ]
+        },
+        {
+          "id": "361928",
+          "number": "PDS-BUE-2026-04",
+          "title": "U.S.-Argentina Lithium Tech &amp; Transparency Initiative",
+          "agencyCode": "DOS-ARG",
+          "agency": "U.S. Mission to Argentina",
+          "openDate": "04/16/2026",
+          "closeDate": "05/31/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "19.040"
+          ]
+        },
+        {
+          "id": "359149",
+          "number": "FOR-RFA-OD-25-004",
+          "title": "For Funding Opportunity for Maximizing the Scientific Value of Data Generated by the Environmental influences on Child Health Outcomes (ECHO) Program: Dissertation Grant (R36)",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "05/27/2025",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "93.310"
+          ]
+        },
+        {
+          "id": "359150",
+          "number": "FOR-RFA-OD-25-005",
+          "title": "For Funding Opportunity for Maximizing the Scientific Value of Data Generated by the Environmental Influences on Child Health Outcomes (ECHO) Program: Ruth L. Kirschstein NRSA Individual Postdoctoral Fellowship (F32)",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "05/27/2025",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "93.310"
+          ]
+        },
+        {
+          "id": "344137",
+          "number": "SPAINNOFOSUSI2023",
+          "title": "Notice of Funding Opportunity (NOFO) SUSI Civic Engagement and Environmental Issues Selection Process",
+          "agencyCode": "DOS-ESP",
+          "agency": "U.S. Mission to Spain",
+          "openDate": "10/21/2022",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "19.040"
+          ]
+        },
+        {
+          "id": "357121",
+          "number": "RFA-ES-25-002",
+          "title": "Environmental Health Sciences Core Centers Program (P30 Clinical Trials Optional)",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "11/14/2024",
+          "closeDate": "04/20/2027",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "93.113"
+          ]
+        },
+        {
+          "id": "360926",
+          "number": "RFA-ES-26-004",
+          "title": "Pediatric and Reproductive Environmental Health Scholars (PREHS) Program",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "12/02/2025",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "93.113"
+          ]
+        },
+        {
+          "id": "361526",
+          "number": "DE-FOA-0003612",
+          "title": "The Genesis Mission:  Transforming Science and Energy with AI",
+          "agencyCode": "PAMS-SC",
+          "agency": "Office of Science",
+          "openDate": "03/17/2026",
+          "closeDate": "12/17/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "81.049"
+          ]
+        },
+        {
+          "id": "359970",
+          "number": "TEMP-31334",
+          "title": "NIEHS Worker Training Program&rsquo;s HAZMAT Training at DOE Nuclear Weapons Complex (UH4 Clinical Trial Not Allowed)",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "07/17/2025",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "93.142"
+          ]
+        },
+        {
+          "id": "325599",
+          "number": "AFPRA-20-04",
+          "title": "U.S. Embassy Praia Ambassador&rsquo;s Special Self-Help (SSH) Program",
+          "agencyCode": "DOS-CPV",
+          "agency": "U.S. Mission to Cape Verde",
+          "openDate": "03/19/2020",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "19.220"
+          ]
+        },
+        {
+          "id": "362368",
+          "number": "LHC-2600-DC-0044",
+          "title": "Healthy Homes Production Grant Program",
+          "agencyCode": "HUD",
+          "agency": "Department of Housing and Urban Development",
+          "openDate": "05/12/2026",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "14.913"
+          ]
+        },
+        {
+          "id": "359020",
+          "number": "TEMP-31126",
+          "title": "Funding Opportunity Announcement for Impact of Environmental Exposures on Gut-Brain Signaling in Neurological Conditions (R01)",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "07/18/2025",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "93.113"
+          ]
+        },
+        {
+          "id": "361241",
+          "number": "RFA-DK-27-137",
+          "title": "Single Source: Chronic Kidney Diseases of UnceRtain Etiology (CKDu) in Agricultural Communities (CURE) Research Consortium- Renal and Environmental Science Core (U01-Clinical Trial Not Allowed)",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "02/05/2026",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "93.847"
+          ]
+        },
+        {
+          "id": "362064",
+          "number": "PD-26-370Y",
+          "title": "Engineering Environmental Resiliency (EER)",
+          "agencyCode": "NSF",
+          "agency": "U.S. National Science Foundation",
+          "openDate": "04/24/2026",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "47.041"
+          ]
+        },
+        {
+          "id": "361744",
+          "number": "HHS-2026-ACF-ANA-NR-0115",
+          "title": "Environmental Regulatory Enhancement",
+          "agencyCode": "HHS-ACF-ANA",
+          "agency": "Administration for Children and Families - ANA",
+          "openDate": "04/02/2026",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "93.581"
+          ]
+        },
+        {
+          "id": "362357",
+          "number": "W81EWF-26-SOI-0003",
+          "title": "Willow Creek Reservoir Water Quality Research and Evaluation Studies",
+          "agencyCode": "DOD-COE-ERDC",
+          "agency": "Engineer Research and Development Center",
+          "openDate": "05/12/2026",
+          "closeDate": "07/09/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "12.630"
+          ]
+        },
+        {
+          "id": "362387",
+          "number": "G26AS00114",
+          "title": "Cooperative Agreement for affiliated Partner with the Gulf Coast Cooperative Ecosystem Studies Unit",
+          "agencyCode": "DOI-USGS1",
+          "agency": "Geological Survey",
+          "openDate": "05/13/2026",
+          "closeDate": "06/12/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "15.808"
+          ]
+        },
+        {
+          "id": "359158",
+          "number": "TEMP-31337",
+          "title": "Notice of Intent to Publish a Funding Opportunity Announcement for NIEHS Worker Training Program&rsquo;s Hazardous Materials Worker Health and Safety Training (U45 &ndash; Clinical Trials Not Allowed)",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "05/28/2025",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "93.142"
+          ]
+        },
+        {
+          "id": "360680",
+          "number": "RFA-DK-27-130",
+          "title": "Limited Competition: Chronic Kidney Diseases of UnceRtain Etiology (CKDu) in Agricultural Communities (CURE) Research Consortium- Field Epidemiology Sites",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "09/30/2025",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "93.847"
+          ]
+        },
+        {
+          "id": "320536",
+          "number": "PD-20-7909",
+          "title": "Biosensing",
+          "agencyCode": "NSF",
+          "agency": "U.S. National Science Foundation",
+          "openDate": "09/12/2019",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "47.041"
+          ]
+        },
+        {
+          "id": "350018",
+          "number": "PD-23-1242",
+          "title": "Plasma Physics",
+          "agencyCode": "NSF",
+          "agency": "U.S. National Science Foundation",
+          "openDate": "08/29/2023",
+          "closeDate": "11/16/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "47.049"
+          ]
+        },
+        {
+          "id": "360645",
+          "number": "RFA-AT-26-001",
+          "title": "Interdisciplinary Research Networks to Advance Biomedical Research on Resilience and Health Optimization",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "09/23/2025",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "93.213"
+          ]
+        },
+        {
+          "id": "361080",
+          "number": "W912HZ26S0001",
+          "title": "ERDC Broad Agency Announcement",
+          "agencyCode": "DOD-COE-ERDC",
+          "agency": "Engineer Research and Development Center",
+          "openDate": "01/02/2026",
+          "closeDate": "01/01/2027",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "12.630"
+          ]
+        },
+        {
+          "id": "330296",
+          "number": "21-544",
+          "title": "Long Term Research in Environmental Biology",
+          "agencyCode": "NSF",
+          "agency": "U.S. National Science Foundation",
+          "openDate": "12/10/2020",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "47.074"
+          ]
+        },
+        {
+          "id": "352947",
+          "number": "PAR-24-167",
+          "title": "Utilizing Equipment to Study Environmental Extrinsic Factors and Enhance Rigor and Reproducibility of Animal Research (R24, Clinical Trials Not-Allowed)",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "03/13/2024",
+          "closeDate": "09/25/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "93.351"
+          ]
+        },
+        {
+          "id": "360195",
+          "number": "RFA-TS-26-165",
+          "title": "Identify and Evaluate Potential Risk Factors for Amyotrophic Lateral Sclerosis (ALS)",
+          "agencyCode": "HHS-CDC-HHSCDCERA",
+          "agency": "Centers for Disease Control and Prevention - ERA",
+          "openDate": "05/11/2026",
+          "closeDate": "06/10/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "93.061"
+          ]
+        },
+        {
+          "id": "361974",
+          "number": "W9127N-26-2-R002",
+          "title": "Natural Resource Management (NRM) Education and Training of Eugene, OR, Area Youth",
+          "agencyCode": "DOD-COE-PORT",
+          "agency": "USACE Portland District",
+          "openDate": "04/20/2026",
+          "closeDate": "05/20/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "12.010"
+          ]
+        },
+        {
+          "id": "361957",
+          "number": "HE125426R5001",
+          "title": "Military-Connected Schools Construction, Modernization and Facilities Maintenance Program",
+          "agencyCode": "DOD-DODEA",
+          "agency": "DoD Education Activity",
+          "openDate": "04/19/2026",
+          "closeDate": "05/22/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "12.556"
+          ]
+        }
+      ],
+      "oppStatusOptions": [
+        {
+          "label": "posted",
+          "value": "posted",
+          "count": 304
+        },
+        {
+          "label": "closed",
+          "value": "closed",
+          "count": 2988
+        },
+        {
+          "label": "archived",
+          "value": "archived",
+          "count": 25138
+        },
+        {
+          "label": "forecasted",
+          "value": "forecasted",
+          "count": 44
+        }
+      ],
+      "dateRangeOptions": [
+        {
+          "label": "Posted Date - Last 3 Days",
+          "value": "3",
+          "count": 12
+        },
+        {
+          "label": "Posted Date - Last 1 Week",
+          "value": "7",
+          "count": 25
+        },
+        {
+          "label": "Posted Date - Last 2 Weeks",
+          "value": "14",
+          "count": 63
+        },
+        {
+          "label": "Posted Date - Last 3 Weeks",
+          "value": "21",
+          "count": 87
+        },
+        {
+          "label": "Posted Date - Last 4 Weeks",
+          "value": "28",
+          "count": 108
+        },
+        {
+          "label": "Posted Date - Last 5 Weeks",
+          "value": "35",
+          "count": 122
+        },
+        {
+          "label": "Posted Date - Last 6 Weeks",
+          "value": "42",
+          "count": 129
+        },
+        {
+          "label": "Posted Date - Last 7 Weeks",
+          "value": "49",
+          "count": 136
+        },
+        {
+          "label": "Posted Date - Last 8 Weeks",
+          "value": "56",
+          "count": 150
+        }
+      ],
+      "suggestion": "",
+      "eligibilities": [
+        {
+          "label": "City or township governments",
+          "value": "02",
+          "count": 94
+        },
+        {
+          "label": "County governments",
+          "value": "01",
+          "count": 108
+        },
+        {
+          "label": "For profit organizations other than small businesses",
+          "value": "22",
+          "count": 73
+        },
+        {
+          "label": "Independent school districts",
+          "value": "05",
+          "count": 69
+        },
+        {
+          "label": "Individuals",
+          "value": "21",
+          "count": 10
+        },
+        {
+          "label": "Native American tribal governments (Federally recognized)",
+          "value": "07",
+          "count": 113
+        },
+        {
+          "label": "Native American tribal organizations (other than Federally recognized tribal governments)",
+          "value": "11",
+          "count": 86
+        },
+        {
+          "label": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education",
+          "value": "12",
+          "count": 130
+        },
+        {
+          "label": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education",
+          "value": "13",
+          "count": 87
+        },
+        {
+          "label": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)",
+          "value": "25",
+          "count": 221
+        },
+        {
+          "label": "Private institutions of higher education",
+          "value": "20",
+          "count": 119
+        },
+        {
+          "label": "Public and State controlled institutions of higher education",
+          "value": "06",
+          "count": 126
+        },
+        {
+          "label": "Public housing authorities/Indian housing authorities",
+          "value": "08",
+          "count": 59
+        },
+        {
+          "label": "Small businesses",
+          "value": "23",
+          "count": 81
+        },
+        {
+          "label": "Special district governments",
+          "value": "04",
+          "count": 78
+        },
+        {
+          "label": "State governments",
+          "value": "00",
+          "count": 116
+        },
+        {
+          "label": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\"",
+          "value": "99",
+          "count": 65
+        }
+      ],
+      "fundingCategories": [
+        {
+          "label": "Agriculture",
+          "value": "AG",
+          "count": 18
+        },
+        {
+          "label": "Business and Commerce",
+          "value": "BC",
+          "count": 10
+        },
+        {
+          "label": "Community Development",
+          "value": "CD",
+          "count": 10
+        },
+        {
+          "label": "Consumer Protection",
+          "value": "CP",
+          "count": 4
+        },
+        {
+          "label": "Disaster Prevention and Relief",
+          "value": "DPR",
+          "count": 3
+        },
+        {
+          "label": "Education",
+          "value": "ED",
+          "count": 18
+        },
+        {
+          "label": "Employment, Labor and Training",
+          "value": "ELT",
+          "count": 4
+        },
+        {
+          "label": "Energy",
+          "value": "EN",
+          "count": 14
+        },
+        {
+          "label": "Energy Infrastructure and Critical Mineral and Materials (EICMM)",
+          "value": "EIC",
+          "count": 1
+        },
+        {
+          "label": "Environment",
+          "value": "ENV",
+          "count": 25
+        },
+        {
+          "label": "Food and Nutrition",
+          "value": "FN",
+          "count": 7
+        },
+        {
+          "label": "Health",
+          "value": "HL",
+          "count": 79
+        },
+        {
+          "label": "Housing",
+          "value": "HO",
+          "count": 6
+        },
+        {
+          "label": "Humanities",
+          "value": "HU",
+          "count": 3
+        },
+        {
+          "label": "Income Security and Social Services",
+          "value": "ISS",
+          "count": 3
+        },
+        {
+          "label": "Information and Statistics",
+          "value": "IS",
+          "count": 1
+        },
+        {
+          "label": "Infrastructure Investment and Jobs Act (IIJA)",
+          "value": "IIJ",
+          "count": 2
+        },
+        {
+          "label": "Law, Justice and Legal Services",
+          "value": "LJL",
+          "count": 5
+        },
+        {
+          "label": "Natural Resources",
+          "value": "NR",
+          "count": 35
+        },
+        {
+          "label": "Opportunity Zone Benefits",
+          "value": "OZ",
+          "count": 4
+        },
+        {
+          "label": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)",
+          "value": "O",
+          "count": 51
+        },
+        {
+          "label": "Regional Development",
+          "value": "RD",
+          "count": 2
+        },
+        {
+          "label": "Science and Technology and other Research and Development",
+          "value": "ST",
+          "count": 118
+        },
+        {
+          "label": "Transportation",
+          "value": "T",
+          "count": 8
+        }
+      ],
+      "fundingInstruments": [
+        {
+          "label": "Cooperative Agreement",
+          "value": "CA",
+          "count": 167
+        },
+        {
+          "label": "Grant",
+          "value": "G",
+          "count": 227
+        },
+        {
+          "label": "Other",
+          "value": "O",
+          "count": 28
+        },
+        {
+          "label": "Procurement Contract",
+          "value": "PC",
+          "count": 16
+        }
+      ],
+      "agencies": [
+        {
+          "subAgencyOptions": [],
+          "label": "AmeriCorps",
+          "value": "AC",
+          "count": 1
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Agricultural Marketing Service",
+              "value": "USDA-AMS",
+              "count": 2
+            },
+            {
+              "label": "Animal and Plant Health Inspection Service",
+              "value": "USDA-APHIS",
+              "count": 1
+            },
+            {
+              "label": "Foreign Agricultural Service",
+              "value": "USDA-FAS",
+              "count": 2
+            },
+            {
+              "label": "National Institute of Food and Agriculture",
+              "value": "USDA-NIFA",
+              "count": 5
+            },
+            {
+              "label": "National Institute of Food and Agriculture-eRA",
+              "value": "USDA-NIFA-ERA",
+              "count": 1
+            },
+            {
+              "label": "Natural Resources Conservation Service",
+              "value": "USDA-NRCS",
+              "count": 1
+            },
+            {
+              "label": "Rural Business-Cooperative Service ",
+              "value": "USDA-RBCS",
+              "count": 6
+            },
+            {
+              "label": "Rural Utilities Service",
+              "value": "USDA-RUS",
+              "count": 3
+            }
+          ],
+          "label": "Department of Agriculture",
+          "value": "USDA",
+          "count": 21
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Department of Commerce",
+              "value": "DOC",
+              "count": 7
+            },
+            {
+              "label": "DOC NOAA - ERA Production",
+              "value": "DOC-DOCNOAAERA",
+              "count": 17
+            },
+            {
+              "label": "Economic Development Administration",
+              "value": "DOC-EDA",
+              "count": 3
+            },
+            {
+              "label": "National Institute of Standards and Technology",
+              "value": "DOC-NIST",
+              "count": 2
+            }
+          ],
+          "label": "Department of Commerce",
+          "value": "DOC",
+          "count": 29
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Air Force -- Research Lab",
+              "value": "DOD-AFRL",
+              "count": 4
+            },
+            {
+              "label": "Air Force Academy",
+              "value": "DOD-USAFA",
+              "count": 1
+            },
+            {
+              "label": "Alaska District",
+              "value": "DOD-COE-AK",
+              "count": 1
+            },
+            {
+              "label": "Army Contracting Command Rock Island",
+              "value": "DOD-AMC-ACCRI",
+              "count": 1
+            },
+            {
+              "label": "DARPA - Biological Technologies Office",
+              "value": "DOD-DARPA-BTO",
+              "count": 1
+            },
+            {
+              "label": "DARPA - Information Innovation Office",
+              "value": "DOD-DARPA-I2O",
+              "count": 1
+            },
+            {
+              "label": "Defense Threat Reduction Agency",
+              "value": "DOD-DTRA",
+              "count": 1
+            },
+            {
+              "label": "Department of Defense",
+              "value": "DOD",
+              "count": 3
+            },
+            {
+              "label": "Dept of the Army -- Materiel Command",
+              "value": "DOD-AMC",
+              "count": 7
+            },
+            {
+              "label": "Dept. of the Army -- USAMRAA",
+              "value": "DOD-AMRAA",
+              "count": 19
+            },
+            {
+              "label": "DoD Education Activity",
+              "value": "DOD-DODEA",
+              "count": 1
+            },
+            {
+              "label": "Engineer Research and Development Center",
+              "value": "DOD-COE-ERDC",
+              "count": 4
+            },
+            {
+              "label": "Fort Worth District",
+              "value": "DOD-COE-FW",
+              "count": 4
+            },
+            {
+              "label": "Munitions Directorate",
+              "value": "DOD-AFRL-RW",
+              "count": 2
+            },
+            {
+              "label": "National Geospatial-Intelligence Agency ",
+              "value": "DOD-NGIA",
+              "count": 1
+            },
+            {
+              "label": "NAVAIR",
+              "value": "DOD-ONR-AIR",
+              "count": 1
+            },
+            {
+              "label": "Naval Research Laboratory",
+              "value": "DOD-ONR-NRL",
+              "count": 1
+            },
+            {
+              "label": "Naval Supply Systems Command",
+              "value": "DOD-ONR-SUP",
+              "count": 1
+            },
+            {
+              "label": "NSWC CRANE - N00164",
+              "value": "DOD-ONR-SEA-CRANE",
+              "count": 1
+            },
+            {
+              "label": "NSWC Dahlgren",
+              "value": "DOD-ONR-SEA-N00178",
+              "count": 1
+            },
+            {
+              "label": "Office of Local Defense Community Cooperation",
+              "value": "DOD-OEA",
+              "count": 2
+            },
+            {
+              "label": "Office of Naval Research",
+              "value": "DOD-ONR",
+              "count": 2
+            },
+            {
+              "label": "USACE Portland District",
+              "value": "DOD-COE-PORT",
+              "count": 3
+            },
+            {
+              "label": "Walla Walla District",
+              "value": "DOD-COE-WW",
+              "count": 2
+            },
+            {
+              "label": "Washington Headquarters Services",
+              "value": "DOD-WHS",
+              "count": 5
+            }
+          ],
+          "label": "Department of Defense",
+          "value": "DOD",
+          "count": 70
+        },
+        {
+          "subAgencyOptions": [],
+          "label": "Department of Education",
+          "value": "ED",
+          "count": 4
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Advanced Research Projects Agency Energy ",
+              "value": "DOE-ARPAE",
+              "count": 3
+            },
+            {
+              "label": "Golden Field Office",
+              "value": "DOE-GFO",
+              "count": 2
+            },
+            {
+              "label": "Idaho Field Office",
+              "value": "DOE-ID",
+              "count": 6
+            },
+            {
+              "label": "National Energy Technology Laboratory",
+              "value": "DOE-NETL",
+              "count": 1
+            },
+            {
+              "label": "NNSA",
+              "value": "DOE-NNSA",
+              "count": 1
+            }
+          ],
+          "label": "Department of Energy",
+          "value": "DOE",
+          "count": 13
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Office of Science",
+              "value": "PAMS-SC",
+              "count": 6
+            }
+          ],
+          "label": "Department of Energy - Office of Science",
+          "value": "PAMS",
+          "count": 6
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Administration for Children and Families - ANA",
+              "value": "HHS-ACF-ANA",
+              "count": 1
+            },
+            {
+              "label": "Administration for Community Living",
+              "value": "HHS-ACL",
+              "count": 2
+            },
+            {
+              "label": "Center for Medicare and Medicaid Services",
+              "value": "HHS-CMS",
+              "count": 1
+            },
+            {
+              "label": "Centers for Disease Control - NCIPC",
+              "value": "HHS-CDC-NCIPC",
+              "count": 1
+            },
+            {
+              "label": "Centers for Disease Control - OPHPR",
+              "value": "HHS-CDC-OPHPR",
+              "count": 1
+            },
+            {
+              "label": "Centers for Disease Control and Prevention - ERA",
+              "value": "HHS-CDC-HHSCDCERA",
+              "count": 7
+            },
+            {
+              "label": "Food and Drug Administration",
+              "value": "HHS-FDA",
+              "count": 4
+            },
+            {
+              "label": "National Institutes of Health",
+              "value": "HHS-NIH11",
+              "count": 58
+            },
+            {
+              "label": "Office of the Assistant Secretary for Health",
+              "value": "HHS-OPHS",
+              "count": 1
+            },
+            {
+              "label": "Office of the National Coordinator",
+              "value": "HHS-OS-ONC",
+              "count": 1
+            }
+          ],
+          "label": "Department of Health and Human Services",
+          "value": "HHS",
+          "count": 77
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Department of Homeland Security - FEMA",
+              "value": "DHS-DHS",
+              "count": 3
+            }
+          ],
+          "label": "Department of Homeland Security",
+          "value": "DHS",
+          "count": 3
+        },
+        {
+          "subAgencyOptions": [],
+          "label": "Department of Housing and Urban Development",
+          "value": "HUD",
+          "count": 8
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Employment and Training Administration",
+              "value": "DOL-ETA",
+              "count": 1
+            }
+          ],
+          "label": "Department of Labor",
+          "value": "DOL",
+          "count": 1
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Bureau Of Educational and Cultural Affairs",
+              "value": "DOS-ECA",
+              "count": 15
+            },
+            {
+              "label": "Bureau of Global Health Security and Diplomacy",
+              "value": "DOS-GHSD",
+              "count": 1
+            },
+            {
+              "label": "Bureau of International Narcotics-Law Enforcement",
+              "value": "DOS-INL",
+              "count": 4
+            },
+            {
+              "label": "U.S. Mission to Argentina",
+              "value": "DOS-ARG",
+              "count": 5
+            },
+            {
+              "label": "U.S. Mission to Cape Verde",
+              "value": "DOS-CPV",
+              "count": 1
+            },
+            {
+              "label": "U.S. Mission to China",
+              "value": "DOS-CHN",
+              "count": 1
+            },
+            {
+              "label": "U.S. Mission to Gabon",
+              "value": "DOS-GAB",
+              "count": 1
+            },
+            {
+              "label": "U.S. Mission to Germany",
+              "value": "DOS-DEU",
+              "count": 2
+            },
+            {
+              "label": "U.S. Mission to Spain",
+              "value": "DOS-ESP",
+              "count": 1
+            },
+            {
+              "label": "U.S. Mission to the Dominican Republic",
+              "value": "DOS-DOM",
+              "count": 1
+            },
+            {
+              "label": "U.S. Mission to Tunisia",
+              "value": "DOS-TUN",
+              "count": 1
+            }
+          ],
+          "label": "Department of State",
+          "value": "DOS",
+          "count": 33
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Bureau of Indian Affairs",
+              "value": "DOI-BIA",
+              "count": 1
+            },
+            {
+              "label": "Bureau of Reclamation",
+              "value": "DOI-BOR",
+              "count": 6
+            },
+            {
+              "label": "Department of the Interior",
+              "value": "DOI",
+              "count": 5
+            },
+            {
+              "label": "Fish and Wildlife Service",
+              "value": "DOI-FWS",
+              "count": 9
+            },
+            {
+              "label": "Geological Survey",
+              "value": "DOI-USGS1",
+              "count": 4
+            },
+            {
+              "label": "Interior Business Center",
+              "value": "DOI-IBC",
+              "count": 1
+            },
+            {
+              "label": "National Park Service",
+              "value": "DOI-NPS",
+              "count": 7
+            }
+          ],
+          "label": "Department of the Interior",
+          "value": "DOI",
+          "count": 33
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Low Income Taxpayer Clinic ",
+              "value": "USDOT-LITC",
+              "count": 1
+            },
+            {
+              "label": "Tax Counseling for the Elderly ",
+              "value": "USDOT-IRS-TCE",
+              "count": 1
+            },
+            {
+              "label": "U.S. Dept. of Treasury RESTORE Act Program",
+              "value": "USDOT-GCR",
+              "count": 1
+            },
+            {
+              "label": "Volunteer Income Tax Assistance",
+              "value": "USDOT-IRS-VITA",
+              "count": 1
+            }
+          ],
+          "label": "Department of the Treasury",
+          "value": "USDOT",
+          "count": 4
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "69A345 Office of the Under Secretary for Policy",
+              "value": "DOT-DOT X-50",
+              "count": 1
+            },
+            {
+              "label": "DOT - FAA Aviation Research Grants",
+              "value": "DOT-FAA-FAA ARG",
+              "count": 1
+            },
+            {
+              "label": "DOT - Federal Transit Administration",
+              "value": "DOT-FTA",
+              "count": 1
+            },
+            {
+              "label": "DOT Federal Highway Administration ",
+              "value": "DOT-FHWA",
+              "count": 2
+            },
+            {
+              "label": "FAA-COE-JAMS",
+              "value": "DOT-FAA-FAA COE-FAA JAMS",
+              "count": 1
+            },
+            {
+              "label": "Maritime Administration",
+              "value": "DOT-MA",
+              "count": 1
+            },
+            {
+              "label": "Pipeline and Hazardous Materials Safety Admin",
+              "value": "DOT-PHMSA",
+              "count": 1
+            }
+          ],
+          "label": "Department of Transportation",
+          "value": "DOT",
+          "count": 8
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Construction of State Home Facilities",
+              "value": "VA-CSHF",
+              "count": 1
+            },
+            {
+              "label": "Office of Suicide Prevention",
+              "value": "VA-OMHSP",
+              "count": 1
+            }
+          ],
+          "label": "Department of Veterans Affairs",
+          "value": "VA",
+          "count": 2
+        },
+        {
+          "subAgencyOptions": [],
+          "label": "Environmental Protection Agency",
+          "value": "EPA",
+          "count": 4
+        },
+        {
+          "subAgencyOptions": [],
+          "label": "Millennium Challenge Corporation",
+          "value": "MCC",
+          "count": 1
+        },
+        {
+          "subAgencyOptions": [],
+          "label": "National Endowment for the Humanities",
+          "value": "NEH",
+          "count": 3
+        },
+        {
+          "subAgencyOptions": [],
+          "label": "U.S. National Science Foundation",
+          "value": "NSF",
+          "count": 27
+        }
+      ],
+      "accessKey": "",
+      "errorMsgs": []
+    }
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "356623",
+  "fetched_at": "2026-05-16T14:07:26.823Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InRKalZkaHlQeXJkSDl2YmtwNG9sTnEyV3pLeWNEOGV0TU9NcTJmU3dzSm89Ig.NYOtNjc98CO247JRoDe-71V4s5q7ot_MoDT3xfmayCs",
+    "data": {
+      "id": 356623,
+      "revision": 2,
+      "opportunityNumber": "DE-FOA-0003467",
+      "opportunityTitle": "SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY",
+      "owningAgencyCode": "DOE-ARPAE",
+      "listed": "L",
+      "publisherUid": "jafleming191",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 356623,
+        "version": 4,
+        "agencyCode": "DOE-ARPAE",
+        "agencyName": "Jennifer A Fleming\nGrantor",
+        "agencyPhone": "240-885-2793",
+        "agencyAddressDesc": "ARPA-E CO",
+        "agencyDetails": {
+          "code": "ARPAE",
+          "seed": "DOE-ARPAE",
+          "agencyName": "Advanced Research Projects Agency Energy ",
+          "agencyCode": "DOE-ARPAE",
+          "topAgencyCode": "DOE"
+        },
+        "topAgencyDetails": {
+          "code": "DOE",
+          "seed": "DOE",
+          "agencyName": "Department of Energy",
+          "agencyCode": "DOE",
+          "topAgencyCode": "DOE"
+        },
+        "agencyContactPhone": "240-885-2793",
+        "agencyContactName": "Jennifer A Fleming\nGrantor",
+        "agencyContactDesc": "ARPA-E CO",
+        "agencyContactEmail": "ARPA-E-CO@hq.doe.gov",
+        "agencyContactEmailDesc": "ARPA-E CO",
+        "synopsisDesc": "<p>The purpose of this modification is to clarify the meaning of the Program Policy Factors in Section V.C.</p>\n<p><br></p>\n<p>To obtain a copy of the Notice of Funding Opportunity (NOFO) please go to the ARPA-E website at https://arpa-e-foa.energy.gov.&nbsp;To apply to this NOFO, Applicants must register with and submit application materials through ARPA-E eXCHANGE (<a href=\"https://arpa-e-foa.energy.gov/Registration.aspx\" target=\"_blank\">https://arpa-e-foa.energy.gov/Registration.aspx</a>).&nbsp;For detailed guidance on using ARPA-E eXCHANGE, please refer to the ARPA-E eXCHANGE User Guide (https://arpa-e-foa.energy.gov/Manuals.aspx).&nbsp;ARPA-E will not review or consider concept papers submitted through other means. For problems with ARPA-E eXCHANGE, email ExchangeHelp@hq.doe.gov (with NOFO name and number in the subject line).</p>\n<p>Questions about this NOFO? Check the Frequently Asked Questions available at <a href=\"http://arpa-e.energy.gov/faq\" target=\"_blank\">http://arpa-e.energy.gov/faq</a>.&nbsp;For questions that have not already been answered, email ARPA-E-CO@hq.doe.gov.&nbsp;&nbsp;</p>\n<p><br></p>\n<p>AGENCY OVERVIEW</p>\n<p>The Advanced Research Projects Agency – Energy (ARPA-E), an organization within the Department of Energy (DOE), is chartered by Congress in the America COMPETES Act of 2007 (P.L. 110-69), as amended by the America COMPETES Reauthorization Act of 2010 (P.L. 111-358), as further amended by the Energy Act of 2020 (P.L. 116-260):</p>\n<p>“(A) to enhance the economic and energy security of the United States through the development of energy technologies that—</p>\n<p>(i) reduce imports of energy from foreign sources;</p>\n<p>(ii) reduce energy-related emissions, including greenhouse gases;</p>\n<p>(iii) improve the energy efficiency of all economic sectors;</p>\n<p>(iv) provide transformative solutions to improve the management, clean-up, and disposal of radioactive waste and spent nuclear fuel; and</p>\n<p>(v) improve the resilience, reliability, and security of infrastructure to produce, deliver, and store energy; and</p>\n<p>(B) to ensure that the United States maintains a technological lead in developing and deploying advanced energy technologies.”</p>\n<p>ARPA-E issues this Notice of Funding Opportunity (NOFO) under its authorizing statute codified at 42 U.S.C. § 16538. The NOFO and any cooperative agreements or grants made under this NOFO are subject to 2 C.F.R. Part 200 as supplemented by 2 C.F.R. Part 910.</p>\n<p>ARPA-E funds research on, and the development of, transformative science and technology solutions to address the energy and environmental missions of the Department. The agency focuses on technologies that can be meaningfully advanced with a modest investment over a defined period of time in order to catalyze the translation from scientific discovery to early-stage technology. For the latest news and information about ARPA-E, its programs and the research projects currently supported, see: http://arpa-e.energy.gov/.</p>\n<p>ARPA-E funds transformational research. Existing energy technologies generally progress on established “learning curves” where refinements to a technology and the economies of scale that accrue as manufacturing and distribution develop drive improvements to the cost/performance metric in a gradual fashion. This continual improvement of a technology is important to its increased commercial deployment and is appropriately the focus of the private sector or the applied technology offices within DOE. In contrast, ARPA-E supports transformative research that has the potential to create fundamentally new learning curves. ARPA-E technology projects typically start with cost/performance estimates well above the level of an incumbent technology. Given the high risk inherent in these projects, many will fail to progress, but some may succeed in generating a new learning curve with a projected cost/performance metric that is significantly better than that of the incumbent technology. ARPA-E will provide support at the highest funding level only for submissions with significant technology risk, aggressive timetables, and careful management and mitigation of the associated risks.</p>\n<p>ARPA-E funds technology with the potential to be disruptive in the marketplace. The mere creation of a new learning curve does not ensure market penetration. Rather, the ultimate value of a technology is determined by the marketplace, and impactful technologies ultimately become disruptive – that is, they are widely adopted and displace existing technologies from the marketplace or create entirely new markets. ARPA-E understands that definitive proof of market disruption takes time, particularly for energy technologies. Therefore, ARPA-E funds the development of technologies that, if technically successful, have clear disruptive potential, e.g., by demonstrating capability for manufacturing at competitive cost and deployment at scale.</p>\n<p>ARPA-E funds applied research and development (R&amp;D). The Office of Management and Budget defines “applied research” as an “original investigation undertaken in order to acquire new knowledge…directed primarily towards a specific practical aim or objective” and defines “experimental development” as “creative and systematic work, drawing on knowledge gained from research and practical experience, which is directed at producing new products or processes or improving existing products or processes.”0F1 Applicants interested in receiving financial assistance for basic research (defined by the Office of Management and Budget as “experimental or theoretical work undertaken primarily to acquire new knowledge of the underlying foundations of phenomena and observable facts”)1 should contact the DOE’s Office of Science (http://science.energy.gov/). Office of Science national scientific user facilities (http://science.energy.gov/user-facilities/) are open to all researchers, including ARPA-E Applicants and awardees. These facilities provide advanced tools of modern science including accelerators, colliders, supercomputers, light sources and neutron sources, as well as facilities for studying the nanoworld, the environment, and the atmosphere. Projects focused on early-stage R&amp;D for the improvement of technology along defined roadmaps may be more appropriate for support through the DOE applied energy offices including: the Office of Energy Efficiency and Renewable Energy (http://www.eere.energy.gov/), the Office of Fossil Energy and Carbon Management (https://www.energy.gov/fecm/office-fossil-energy-and-carbon-management), the Office of Nuclear Energy (http://www.energy.gov/ne/office-nuclear-energy), and the Office of Electricity (https://www.energy.gov/oe/office-electricity).</p>\n<p>ARPA-E encourages submissions stemming from ideas that still require proof-of-concept R&amp;D efforts as well as those for which some proof-of-concept demonstration already exists. Submissions can propose a project with the end deliverable being an extremely creative, but partial solution.</p>\n<p>PROGRAM OVERVIEW</p>\n<p>The Seeding Critical Advances for Leading Energy technologies with Untapped Potential (SCALEUP) Ready program provides a vital mechanism for the support of innovative energy R&amp;D that complements ARPA-E’s primary focus on early-stage transformational energy technologies that require proof of concept.</p>\n<p>Technologies that achieve substantial technical advancement under ARPA-E support may still face significant technical and commercial challenges upon completion of an award's funding period, and thus are at risk of being stranded in their development path once ARPA-E funding ends. Experience across ARPA-E’s diverse energy portfolios, and input from a wide range of investors and industry stakeholders, indicate that pre-commercial scaling projects are critical to establish practical performance and cost parameters. These pre-commercial scaling projects aim to 1) translate the performance achieved at bench scale to commercially scalable versions of the technology, 2) integrate the technology with broader systems, 3) provide extended performance data, and 4) validate the manufacturability and reliability of new energy technologies. Successful scaling projects should enable industry stakeholders to justify the substantial commitments of financial resources, personnel, manufacturing facilities, and materials necessary to subsequently deploy the technologies at a commercial scale.</p>\n<p>SCALEUP Ready seeks to scale the most promising technologies previously funded by ARPA-E. The possibility of ARPA-E-funded technologies becoming stranded along their development pathways leaves substantial intellectual property developed with American taxpayer dollars vulnerable to adoption by foreign competitors, who capture it for continued development and economic benefit overseas. This harms national competitiveness, as U.S. industries often fall behind on the development, scaling, and manufacturing of technologies necessary to compete in rapidly evolving global energy markets. Thus, projects selected for SCALEUP Ready will meet ARPA-E’s statutory goals by “accelerating transformational technological advances in areas that industry by itself is not likely to undertake because of technical and financial uncertainty.\"</p>",
+        "responseDate": "Sep 29, 2029 12:00:00 AM EDT",
+        "responseDateDesc": "Open continuously until otherwise amended.",
+        "fundingDescLinkUrl": "https://arpa-e-foa.energy.gov",
+        "fundingDescLinkDesc": "ARPA-E",
+        "postingDate": "Oct 02, 2024 12:00:00 AM EDT",
+        "archiveDate": "Oct 29, 2029 12:00:00 AM EDT",
+        "costSharing": true,
+        "awardCeiling": "20000000",
+        "awardCeilingFormatted": "20,000,000",
+        "awardFloor": "5000000",
+        "awardFloorFormatted": "5,000,000",
+        "applicantEligibilityDesc": "See Section II.A. of the NOFO.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Feb 11, 2025 11:52:53 AM EST",
+        "modComments": "The purpose of this modification is to clarify the meaning of the Program Policy Factors in Section V.C.",
+        "createdDate": "Oct 02, 2024 01:43:21 PM EDT",
+        "lastUpdatedDate": "Feb 11, 2025 11:52:53 AM EST",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "O",
+            "description": "Other"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "OZ",
+            "description": "Opportunity Zone Benefits"
+          },
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2029-09-29-00-00-00",
+        "postingDateStr": "2024-10-02-00-00-00",
+        "archiveDateStr": "2029-10-29-00-00-00",
+        "createTimeStampStr": "2025-02-11-11-52-53"
+      },
+      "agencyDetails": {
+        "code": "ARPAE",
+        "seed": "DOE-ARPAE",
+        "agencyName": "Advanced Research Projects Agency Energy ",
+        "agencyCode": "DOE-ARPAE",
+        "topAgencyCode": "DOE"
+      },
+      "topAgencyDetails": {
+        "code": "DOE",
+        "seed": "DOE",
+        "agencyName": "Department of Energy",
+        "agencyCode": "DOE",
+        "topAgencyCode": "DOE"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 74847,
+          "opportunityId": 356623,
+          "folderType": "Full Announcement",
+          "folderName": "SCALEUP Ready NOFO",
+          "zipLobSize": 841645,
+          "createdDate": "Oct 02, 2024 01:46:42 PM EDT",
+          "lastUpdatedDate": "Oct 02, 2024 01:48:23 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 343006,
+              "opportunityId": 356623,
+              "mimeType": "application/pdf",
+              "fileName": "SCALEUP Ready FA NOFO.pdf",
+              "fileDescription": "SCALEUP Ready NOFO",
+              "fileLobSize": 880411,
+              "createdDate": "Oct 02, 2024 01:48:23 PM EDT",
+              "synopsisAttFolderId": 74847
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 424033,
+          "opportunityId": 356623,
+          "cfdaNumber": "81.135",
+          "programTitle": "Advanced Research Projects Agency - Energy"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 356623,
+            "revision": 0
+          },
+          "opportunityId": 356623,
+          "revision": 0,
+          "opportunityNumber": "DE-FOA-0003467",
+          "opportunityTitle": "SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY",
+          "owningAgencyCode": "DOE-ARPAE",
+          "publisherUid": "jafleming191",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 356623,
+              "revision": 0
+            },
+            "opportunityId": 356623,
+            "revision": 0,
+            "version": 2,
+            "agencyCode": "DOE-ARPAE",
+            "agencyAddressDesc": "ARPA-E CO",
+            "agencyDetails": {
+              "code": "ARPAE",
+              "seed": "DOE-ARPAE",
+              "agencyName": "Advanced Research Projects Agency Energy ",
+              "agencyCode": "DOE-ARPAE",
+              "topAgencyCode": "DOE"
+            },
+            "agencyContactPhone": "240-885-2793",
+            "agencyContactName": "Jennifer A Fleming\nGrantor",
+            "agencyContactDesc": "ARPA-E CO",
+            "agencyContactEmail": "ARPA-E-CO@hq.doe.gov",
+            "agencyContactEmailDesc": "ARPA-E CO",
+            "synopsisDesc": "<p>To obtain a copy of the Notice of Funding Opportunity (NOFO) please go to the ARPA-E website at https://arpa-e-foa.energy.gov.&nbsp;To apply to this NOFO, Applicants must register with and submit application materials through ARPA-E eXCHANGE (<a href=\"https://arpa-e-foa.energy.gov/Registration.aspx\" target=\"_blank\">https://arpa-e-foa.energy.gov/Registration.aspx</a>).&nbsp;For detailed guidance on using ARPA-E eXCHANGE, please refer to the ARPA-E eXCHANGE User Guide (https://arpa-e-foa.energy.gov/Manuals.aspx).&nbsp;ARPA-E will not review or consider concept papers submitted through other means. For problems with ARPA-E eXCHANGE, email <a target=\"_blank\">ExchangeHelp@hq.doe.gov</a> (with NOFO name and number in the subject line).</p> \n<p>Questions about this NOFO? Check the Frequently Asked Questions available at <a href=\"http://arpa-e.energy.gov/faq\" target=\"_blank\">http://arpa-e.energy.gov/faq</a>.&nbsp;For questions that have not already been answered, email <a target=\"_blank\">ARPA-E-CO@hq.doe.gov</a>.&nbsp;&nbsp;</p> \n<p><br></p> \n<p>AGENCY OVERVIEW</p> \n<p>The Advanced Research Projects Agency – Energy (ARPA-E), an organization within the Department of Energy (DOE), is chartered by Congress in the America COMPETES Act of 2007 (P.L. 110-69), as amended by the America COMPETES Reauthorization Act of 2010 (P.L. 111-358), as further amended by the Energy Act of 2020 (P.L. 116-260):</p> \n<p>“(A) to enhance the economic and energy security of the United States through the development of energy technologies that—</p> \n<p>(i) reduce imports of energy from foreign sources;</p> \n<p>(ii) reduce energy-related emissions, including greenhouse gases;</p> \n<p>(iii) improve the energy efficiency of all economic sectors;</p> \n<p>(iv) provide transformative solutions to improve the management, clean-up, and disposal of radioactive waste and spent nuclear fuel; and</p> \n<p>(v) improve the resilience, reliability, and security of infrastructure to produce, deliver, and store energy; and</p> \n<p>(B) to ensure that the United States maintains a technological lead in developing and deploying advanced energy technologies.”</p> \n<p>ARPA-E issues this Notice of Funding Opportunity (NOFO) under its authorizing statute codified at 42 U.S.C. § 16538. The NOFO and any cooperative agreements or grants made under this NOFO are subject to 2 C.F.R. Part 200 as supplemented by 2 C.F.R. Part 910.</p> \n<p>ARPA-E funds research on, and the development of, transformative science and technology solutions to address the energy and environmental missions of the Department. The agency focuses on technologies that can be meaningfully advanced with a modest investment over a defined period of time in order to catalyze the translation from scientific discovery to early-stage technology. For the latest news and information about ARPA-E, its programs and the research projects currently supported, see: http://arpa-e.energy.gov/.</p> \n<p>ARPA-E funds transformational research. Existing energy technologies generally progress on established “learning curves” where refinements to a technology and the economies of scale that accrue as manufacturing and distribution develop drive improvements to the cost/performance metric in a gradual fashion. This continual improvement of a technology is important to its increased commercial deployment and is appropriately the focus of the private sector or the applied technology offices within DOE. In contrast, ARPA-E supports transformative research that has the potential to create fundamentally new learning curves. ARPA-E technology projects typically start with cost/performance estimates well above the level of an incumbent technology. Given the high risk inherent in these projects, many will fail to progress, but some may succeed in generating a new learning curve with a projected cost/performance metric that is significantly better than that of the incumbent technology. ARPA-E will provide support at the highest funding level only for submissions with significant technology risk, aggressive timetables, and careful management and mitigation of the associated risks.</p> \n<p>ARPA-E funds technology with the potential to be disruptive in the marketplace. The mere creation of a new learning curve does not ensure market penetration. Rather, the ultimate value of a technology is determined by the marketplace, and impactful technologies ultimately become disruptive – that is, they are widely adopted and displace existing technologies from the marketplace or create entirely new markets. ARPA-E understands that definitive proof of market disruption takes time, particularly for energy technologies. Therefore, ARPA-E funds the development of technologies that, if technically successful, have clear disruptive potential, e.g., by demonstrating capability for manufacturing at competitive cost and deployment at scale.</p> \n<p>ARPA-E funds applied research and development (R&amp;D). The Office of Management and Budget defines “applied research” as an “original investigation undertaken in order to acquire new knowledge…directed primarily towards a specific practical aim or objective” and defines “experimental development” as “creative and systematic work, drawing on knowledge gained from research and practical experience, which is directed at producing new products or processes or improving existing products or processes.”0F1 Applicants interested in receiving financial assistance for basic research (defined by the Office of Management and Budget as “experimental or theoretical work undertaken primarily to acquire new knowledge of the underlying foundations of phenomena and observable facts”)1 should contact the DOE’s Office of Science (http://science.energy.gov/). Office of Science national scientific user facilities (http://science.energy.gov/user-facilities/) are open to all researchers, including ARPA-E Applicants and awardees. These facilities provide advanced tools of modern science including accelerators, colliders, supercomputers, light sources and neutron sources, as well as facilities for studying the nanoworld, the environment, and the atmosphere. Projects focused on early-stage R&amp;D for the improvement of technology along defined roadmaps may be more appropriate for support through the DOE applied energy offices including: the Office of Energy Efficiency and Renewable Energy (http://www.eere.energy.gov/), the Office of Fossil Energy and Carbon Management (https://www.energy.gov/fecm/office-fossil-energy-and-carbon-management), the Office of Nuclear Energy (http://www.energy.gov/ne/office-nuclear-energy), and the Office of Electricity (https://www.energy.gov/oe/office-electricity).</p> \n<p>ARPA-E encourages submissions stemming from ideas that still require proof-of-concept R&amp;D efforts as well as those for which some proof-of-concept demonstration already exists. Submissions can propose a project with the end deliverable being an extremely creative, but partial solution.</p> \n<p>PROGRAM OVERVIEW</p> \n<p>The Seeding Critical Advances for Leading Energy technologies with Untapped Potential (SCALEUP) Ready program provides a vital mechanism for the support of innovative energy R&amp;D that complements ARPA-E’s primary focus on early-stage transformational energy technologies that require proof of concept.</p> \n<p>Technologies that achieve substantial technical advancement under ARPA-E support may still face significant technical and commercial challenges upon completion of an award's funding period, and thus are at risk of being stranded in their development path once ARPA-E funding ends. Experience across ARPA-E’s diverse energy portfolios, and input from a wide range of investors and industry stakeholders, indicate that pre-commercial scaling projects are critical to establish practical performance and cost parameters. These pre-commercial scaling projects aim to 1) translate the performance achieved at bench scale to commercially scalable versions of the technology, 2) integrate the technology with broader systems, 3) provide extended performance data, and 4) validate the manufacturability and reliability of new energy technologies. Successful scaling projects should enable industry stakeholders to justify the substantial commitments of financial resources, personnel, manufacturing facilities, and materials necessary to subsequently deploy the technologies at a commercial scale.</p> \n<p>SCALEUP Ready seeks to scale the most promising technologies previously funded by ARPA-E. The possibility of ARPA-E-funded technologies becoming stranded along their development pathways leaves substantial intellectual property developed with American taxpayer dollars vulnerable to adoption by foreign competitors, who capture it for continued development and economic benefit overseas. This harms national competitiveness, as U.S. industries often fall behind on the development, scaling, and manufacturing of technologies necessary to compete in rapidly evolving global energy markets. Thus, projects selected for SCALEUP Ready will meet ARPA-E’s statutory goals by “accelerating transformational technological advances in areas that industry by itself is not likely to undertake because of technical and financial uncertainty.\"</p>",
+            "responseDate": "Sep 29, 2029 12:00:00 AM EDT",
+            "responseDateDesc": "Open continuously until otherwise amended.",
+            "fundingDescLinkUrl": "https://arpa-e-foa.energy.gov",
+            "fundingDescLinkDesc": "ARPA-E",
+            "postingDate": "Oct 02, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 29, 2029 12:00:00 AM EDT",
+            "costSharing": true,
+            "awardCeiling": "20000000",
+            "awardCeilingFormatted": "20,000,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "See Section II.A. of the NOFO.",
+            "createTimeStamp": "Oct 02, 2024 01:50:57 PM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Oct 03, 2024 11:17:11 AM EDT",
+            "createdDate": "Oct 02, 2024 01:43:21 PM EDT",
+            "lastUpdatedDate": "Oct 02, 2024 01:50:57 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "O",
+                "description": "Other"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "OZ",
+                "description": "Opportunity Zone Benefits"
+              },
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2029-09-29-00-00-00",
+            "postingDateStr": "2024-10-02-00-00-00",
+            "archiveDateStr": "2029-10-29-00-00-00",
+            "createTimeStampStr": "2024-10-02-13-50-57"
+          },
+          "cfdas": [
+            {
+              "id": 424033,
+              "opportunityId": 356623,
+              "revision": 1,
+              "cfdaNumber": "81.135",
+              "programTitle": "Advanced Research Projects Agency - Energy"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 356623,
+            "revision": 1
+          },
+          "opportunityId": 356623,
+          "revision": 1,
+          "opportunityNumber": "DE-FOA-0003467",
+          "opportunityTitle": "SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY",
+          "owningAgencyCode": "DOE-ARPAE",
+          "publisherUid": "jafleming191",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 356623,
+              "revision": 1
+            },
+            "opportunityId": 356623,
+            "revision": 1,
+            "version": 3,
+            "agencyCode": "DOE-ARPAE",
+            "agencyAddressDesc": "ARPA-E CO",
+            "agencyDetails": {
+              "code": "ARPAE",
+              "seed": "DOE-ARPAE",
+              "agencyName": "Advanced Research Projects Agency Energy ",
+              "agencyCode": "DOE-ARPAE",
+              "topAgencyCode": "DOE"
+            },
+            "agencyContactPhone": "240-885-2793",
+            "agencyContactName": "Jennifer A Fleming\nGrantor",
+            "agencyContactDesc": "ARPA-E CO",
+            "agencyContactEmail": "ARPA-E-CO@hq.doe.gov",
+            "agencyContactEmailDesc": "ARPA-E CO",
+            "synopsisDesc": "<p>To obtain a copy of the Notice of Funding Opportunity (NOFO) please go to the ARPA-E website at https://arpa-e-foa.energy.gov.&nbsp;To apply to this NOFO, Applicants must register with and submit application materials through ARPA-E eXCHANGE (<a href=\"https://arpa-e-foa.energy.gov/Registration.aspx\" target=\"_blank\">https://arpa-e-foa.energy.gov/Registration.aspx</a>).&nbsp;For detailed guidance on using ARPA-E eXCHANGE, please refer to the ARPA-E eXCHANGE User Guide (https://arpa-e-foa.energy.gov/Manuals.aspx).&nbsp;ARPA-E will not review or consider concept papers submitted through other means. For problems with ARPA-E eXCHANGE, email ExchangeHelp@hq.doe.gov (with NOFO name and number in the subject line).</p>\n<p>Questions about this NOFO? Check the Frequently Asked Questions available at <a href=\"http://arpa-e.energy.gov/faq\" target=\"_blank\">http://arpa-e.energy.gov/faq</a>.&nbsp;For questions that have not already been answered, email ARPA-E-CO@hq.doe.gov.&nbsp;&nbsp;</p>\n<p><br></p>\n<p>AGENCY OVERVIEW</p>\n<p>The Advanced Research Projects Agency – Energy (ARPA-E), an organization within the Department of Energy (DOE), is chartered by Congress in the America COMPETES Act of 2007 (P.L. 110-69), as amended by the America COMPETES Reauthorization Act of 2010 (P.L. 111-358), as further amended by the Energy Act of 2020 (P.L. 116-260):</p>\n<p>“(A) to enhance the economic and energy security of the United States through the development of energy technologies that—</p>\n<p>(i) reduce imports of energy from foreign sources;</p>\n<p>(ii) reduce energy-related emissions, including greenhouse gases;</p>\n<p>(iii) improve the energy efficiency of all economic sectors;</p>\n<p>(iv) provide transformative solutions to improve the management, clean-up, and disposal of radioactive waste and spent nuclear fuel; and</p>\n<p>(v) improve the resilience, reliability, and security of infrastructure to produce, deliver, and store energy; and</p>\n<p>(B) to ensure that the United States maintains a technological lead in developing and deploying advanced energy technologies.”</p>\n<p>ARPA-E issues this Notice of Funding Opportunity (NOFO) under its authorizing statute codified at 42 U.S.C. § 16538. The NOFO and any cooperative agreements or grants made under this NOFO are subject to 2 C.F.R. Part 200 as supplemented by 2 C.F.R. Part 910.</p>\n<p>ARPA-E funds research on, and the development of, transformative science and technology solutions to address the energy and environmental missions of the Department. The agency focuses on technologies that can be meaningfully advanced with a modest investment over a defined period of time in order to catalyze the translation from scientific discovery to early-stage technology. For the latest news and information about ARPA-E, its programs and the research projects currently supported, see: http://arpa-e.energy.gov/.</p>\n<p>ARPA-E funds transformational research. Existing energy technologies generally progress on established “learning curves” where refinements to a technology and the economies of scale that accrue as manufacturing and distribution develop drive improvements to the cost/performance metric in a gradual fashion. This continual improvement of a technology is important to its increased commercial deployment and is appropriately the focus of the private sector or the applied technology offices within DOE. In contrast, ARPA-E supports transformative research that has the potential to create fundamentally new learning curves. ARPA-E technology projects typically start with cost/performance estimates well above the level of an incumbent technology. Given the high risk inherent in these projects, many will fail to progress, but some may succeed in generating a new learning curve with a projected cost/performance metric that is significantly better than that of the incumbent technology. ARPA-E will provide support at the highest funding level only for submissions with significant technology risk, aggressive timetables, and careful management and mitigation of the associated risks.</p>\n<p>ARPA-E funds technology with the potential to be disruptive in the marketplace. The mere creation of a new learning curve does not ensure market penetration. Rather, the ultimate value of a technology is determined by the marketplace, and impactful technologies ultimately become disruptive – that is, they are widely adopted and displace existing technologies from the marketplace or create entirely new markets. ARPA-E understands that definitive proof of market disruption takes time, particularly for energy technologies. Therefore, ARPA-E funds the development of technologies that, if technically successful, have clear disruptive potential, e.g., by demonstrating capability for manufacturing at competitive cost and deployment at scale.</p>\n<p>ARPA-E funds applied research and development (R&amp;D). The Office of Management and Budget defines “applied research” as an “original investigation undertaken in order to acquire new knowledge…directed primarily towards a specific practical aim or objective” and defines “experimental development” as “creative and systematic work, drawing on knowledge gained from research and practical experience, which is directed at producing new products or processes or improving existing products or processes.”0F1 Applicants interested in receiving financial assistance for basic research (defined by the Office of Management and Budget as “experimental or theoretical work undertaken primarily to acquire new knowledge of the underlying foundations of phenomena and observable facts”)1 should contact the DOE’s Office of Science (http://science.energy.gov/). Office of Science national scientific user facilities (http://science.energy.gov/user-facilities/) are open to all researchers, including ARPA-E Applicants and awardees. These facilities provide advanced tools of modern science including accelerators, colliders, supercomputers, light sources and neutron sources, as well as facilities for studying the nanoworld, the environment, and the atmosphere. Projects focused on early-stage R&amp;D for the improvement of technology along defined roadmaps may be more appropriate for support through the DOE applied energy offices including: the Office of Energy Efficiency and Renewable Energy (http://www.eere.energy.gov/), the Office of Fossil Energy and Carbon Management (https://www.energy.gov/fecm/office-fossil-energy-and-carbon-management), the Office of Nuclear Energy (http://www.energy.gov/ne/office-nuclear-energy), and the Office of Electricity (https://www.energy.gov/oe/office-electricity).</p>\n<p>ARPA-E encourages submissions stemming from ideas that still require proof-of-concept R&amp;D efforts as well as those for which some proof-of-concept demonstration already exists. Submissions can propose a project with the end deliverable being an extremely creative, but partial solution.</p>\n<p>PROGRAM OVERVIEW</p>\n<p>The Seeding Critical Advances for Leading Energy technologies with Untapped Potential (SCALEUP) Ready program provides a vital mechanism for the support of innovative energy R&amp;D that complements ARPA-E’s primary focus on early-stage transformational energy technologies that require proof of concept.</p>\n<p>Technologies that achieve substantial technical advancement under ARPA-E support may still face significant technical and commercial challenges upon completion of an award's funding period, and thus are at risk of being stranded in their development path once ARPA-E funding ends. Experience across ARPA-E’s diverse energy portfolios, and input from a wide range of investors and industry stakeholders, indicate that pre-commercial scaling projects are critical to establish practical performance and cost parameters. These pre-commercial scaling projects aim to 1) translate the performance achieved at bench scale to commercially scalable versions of the technology, 2) integrate the technology with broader systems, 3) provide extended performance data, and 4) validate the manufacturability and reliability of new energy technologies. Successful scaling projects should enable industry stakeholders to justify the substantial commitments of financial resources, personnel, manufacturing facilities, and materials necessary to subsequently deploy the technologies at a commercial scale.</p>\n<p>SCALEUP Ready seeks to scale the most promising technologies previously funded by ARPA-E. The possibility of ARPA-E-funded technologies becoming stranded along their development pathways leaves substantial intellectual property developed with American taxpayer dollars vulnerable to adoption by foreign competitors, who capture it for continued development and economic benefit overseas. This harms national competitiveness, as U.S. industries often fall behind on the development, scaling, and manufacturing of technologies necessary to compete in rapidly evolving global energy markets. Thus, projects selected for SCALEUP Ready will meet ARPA-E’s statutory goals by “accelerating transformational technological advances in areas that industry by itself is not likely to undertake because of technical and financial uncertainty.\"</p>",
+            "responseDate": "Sep 29, 2029 12:00:00 AM EDT",
+            "responseDateDesc": "Open continuously until otherwise amended.",
+            "fundingDescLinkUrl": "https://arpa-e-foa.energy.gov",
+            "fundingDescLinkDesc": "ARPA-E",
+            "postingDate": "Oct 02, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 29, 2029 12:00:00 AM EDT",
+            "costSharing": true,
+            "awardCeiling": "20000000",
+            "awardCeilingFormatted": "20,000,000",
+            "awardFloor": "5000000",
+            "awardFloorFormatted": "5,000,000",
+            "applicantEligibilityDesc": "See Section II.A. of the NOFO.",
+            "createTimeStamp": "Oct 03, 2024 11:17:11 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "The purpose of this modification is to correct the amount cited for the Award Floor ceiling to match the amount in the NOFO document.",
+            "actionType": "U",
+            "actionDate": "Feb 11, 2025 11:52:53 AM EST",
+            "createdDate": "Oct 02, 2024 01:43:21 PM EDT",
+            "lastUpdatedDate": "Oct 03, 2024 11:17:11 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "O",
+                "description": "Other"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "OZ",
+                "description": "Opportunity Zone Benefits"
+              },
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2029-09-29-00-00-00",
+            "postingDateStr": "2024-10-02-00-00-00",
+            "archiveDateStr": "2029-10-29-00-00-00",
+            "createTimeStampStr": "2024-10-03-11-17-11"
+          },
+          "cfdas": [
+            {
+              "id": 424033,
+              "opportunityId": 356623,
+              "revision": 1,
+              "cfdaNumber": "81.135",
+              "programTitle": "Advanced Research Projects Agency - Energy"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "awardFloor",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Sep 29, 2029 12:00:00 AM EDT",
+      "originalDueDateDesc": "Open continuously until otherwise amended.",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

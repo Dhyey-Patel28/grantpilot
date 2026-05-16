@@ -1,0 +1,120 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360091",
+  "fetched_at": "2026-05-16T14:08:07.080Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Im5rZllOcDNqdG9lQndlSXpBeHJJMzJRMk1hRE1vUzA2Qk9GWXJKVXR1QTQ9Ig.UPaBNiGSCKzGIhLTJPK22gqkccmb2d7dcNoc5jQL4Gw",
+    "data": {
+      "id": 360091,
+      "revision": 0,
+      "opportunityNumber": "FOR-FD-25-016",
+      "opportunityTitle": "FDA's Integrated Food Safety System Training Delivery and Development",
+      "owningAgencyCode": "HHS-FDA",
+      "listed": "L",
+      "publisherUid": "sbogan12",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "FDA",
+        "seed": "HHS-FDA",
+        "agencyName": "Food and Drug Administration",
+        "agencyCode": "HHS-FDA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 360091,
+        "version": 1,
+        "postingDate": "Jul 21, 2025 12:00:00 AM EDT",
+        "forecastDesc": "<p><span style=\"color: rgb(51, 51, 51);\">The purpose of this funding opportunity is to support the advancement of a nationwide, Integrated Food Safety System (IFSS).&nbsp;</span></p>",
+        "costSharing": false,
+        "numberOfAwards": "4",
+        "agencyContactName": "Patrick Johnson \r\nGrants Management Specialist",
+        "agencyContactPhone": "patrick.johnson@fda.hhs.gov",
+        "agencyContactEmail": "patrick.johnson@fda.hhs.gov",
+        "agencyContactEmailDesc": "Email Address",
+        "agencyCode": "HHS-FDA",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "Only current recipients under RFA-FD-20-024 are eligible to apply for this funding opportunity.",
+        "estApplicationResponseDateDesc": "",
+        "fiscalYear": 2025,
+        "createTimeStamp": "Jul 21, 2025 04:32:04 PM EDT",
+        "createdDate": "Jul 21, 2025 04:32:05 PM EDT",
+        "lastUpdatedDate": "Jul 21, 2025 04:32:04 PM EDT",
+        "agencyDetails": {
+          "code": "FDA",
+          "seed": "HHS-FDA",
+          "agencyName": "Food and Drug Administration",
+          "agencyCode": "HHS-FDA",
+          "topAgencyCode": "HHS"
+        },
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "AG",
+            "description": "Agriculture"
+          },
+          {
+            "id": "CP",
+            "description": "Consumer Protection"
+          },
+          {
+            "id": "FN",
+            "description": "Food and Nutrition"
+          }
+        ],
+        "postingDateStr": "2025-07-21-00-00-00",
+        "createTimeStampStr": "2025-07-21-16-32-04"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 430301,
+          "opportunityId": 360091,
+          "cfdaNumber": "93.103",
+          "programTitle": "Food and Drug Administration Research"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

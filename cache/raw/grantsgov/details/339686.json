@@ -1,0 +1,166 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "339686",
+  "fetched_at": "2026-05-16T14:06:36.584Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjkrZ2Z5SmxTVnh4QU5mdkxwdlJjajlPZlBzSHZPTEhZcHVvMEtobmI2WVU9Ig.a0BfsgDJMVaTUgVIebTPpZrguhmgmKwZqjh1c7W_yfI",
+    "data": {
+      "id": 339686,
+      "revision": 0,
+      "opportunityNumber": "PRM-A-NOI-01",
+      "opportunityTitle": "Notice of Intent to Publish a Request for Concept Notes Announcement on Capacity Development for the Reception &amp; Placement Program",
+      "owningAgencyCode": "DOS-PRM",
+      "listed": "L",
+      "publisherUid": "KeeneLE",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "PRM",
+        "seed": "DOS-PRM",
+        "agencyName": "Bureau of Population Refugees and Migration",
+        "agencyCode": "DOS-PRM",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "forecast": {
+        "opportunityId": 339686,
+        "version": 1,
+        "postingDate": "Apr 21, 2022 12:00:00 AM EDT",
+        "forecastDesc": "<p><strong>PRM intends to issue a request for concept notes on or around April 28, 2022 to fund specialized technical assistance projects to develop and expand the capacity of existing and new partners participating in and contributing to? the Reception and Placement Program (R&amp;P) to resettle refugees admitted to the United States through the U.S. Refugee Admissions Program.&nbsp;The goal of this initiative is to improve outcomes for refugees resettled through the U.S. Refugee Admissions Program, including by building the capacity of and expanding the group of partners providing technical expertise and other support.&nbsp;&nbsp;</strong></p>\n<p><strong>&nbsp;</strong></p>\n<p><strong>The purpose of these technical assistance projects will be to increase the capacity of resettlement agencies, their affiliates, community partners, and new participating organizations to provide initial reception and placement services to refugees within the first 30 to 90 days of their arrival in the United States. The request for concept notes will invite proposals on technical assistance projects that address one or more of the following capacity building topics:&nbsp;&nbsp;</strong></p>\n<p><strong>&nbsp;</strong></p>\n<ul>\n <li><strong>identifying and developing new and innovative housing programs for newly arriving refugees;&nbsp;&nbsp;</strong></li>\n <li><strong>deepening community engagement in refugee resettlement, including through the use of community&nbsp;sponsorship programs;&nbsp;&nbsp;</strong></li>\n <li><strong>supporting and facilitating the entry of new partner organizations to participate in R&amp;P;&nbsp;&nbsp;</strong></li>\n <li><strong>strengthening the ability of current R&amp;P partners and/or communities to successfully resettle refugees, as well as to expand their capacity and resources as needed.&nbsp;&nbsp;</strong></li>\n</ul>\n<p><strong>&nbsp;</strong></p>\n<p><strong>PRM welcomes applications from organizations who have not traditionally participated in the R&amp;P program.&nbsp;Organizations may apply to this anticipated request for concept notes as individual organizations or as consortia.&nbsp;For consortia, one organization must be designated as the lead applicant at both the concept note and full proposal stage, as applicable.&nbsp;&nbsp;Applicants may form consortia in order to bring together organizations with varied expertise to propose a comprehensive program in one proposal.&nbsp;&nbsp;&nbsp;&nbsp;</strong></p>\n<p><br></p>\n<p><strong>The request for concept notes will be posted on </strong><a href=\"http://www.grants.gov/\" target=\"_blank\" style=\"color: rgb(0, 0, 255);\"><strong>grants.gov</strong></a><strong>, and applications in response to this future posting must be submitted through </strong><a href=\"http://www.grants.gov/\" target=\"_blank\" style=\"color: rgb(0, 0, 255);\"><strong>grants.gov</strong></a><strong>.&nbsp;</strong></p>\n<p><br></p>",
+        "fundingActivityCategoryDesc": "U.S. Refugee Admissions Program",
+        "costSharing": false,
+        "awardCeiling": "1000000",
+        "awardFloor": "50000",
+        "agencyContactName": "Kiera Berdinner",
+        "agencyContactPhone": "999-999-9999",
+        "agencyContactEmail": "BerdinnerKR@state.gov",
+        "agencyContactEmailDesc": "PRM Program Officer",
+        "agencyCode": "DOS-PRM",
+        "sendEmail": "Y",
+        "estSynopsisPostingDate": "Apr 28, 2022 12:00:00 AM EDT",
+        "estApplicationResponseDate": "May 30, 2022 12:00:00 AM EDT",
+        "fiscalYear": 2022,
+        "createTimeStamp": "Apr 29, 2022 12:57:37 PM EDT",
+        "createdDate": "Apr 21, 2022 11:14:56 AM EDT",
+        "lastUpdatedDate": "Apr 29, 2022 12:57:37 PM EDT",
+        "agencyDetails": {
+          "code": "PRM",
+          "seed": "DOS-PRM",
+          "agencyName": "Bureau of Population Refugees and Migration",
+          "agencyCode": "DOS-PRM",
+          "topAgencyCode": "DOS"
+        },
+        "awardCeilingFormatted": "1,000,000",
+        "awardFloorFormatted": "50,000",
+        "applicantTypes": [
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "postingDateStr": "2022-04-21-00-00-00",
+        "estSynopsisPostingDateStr": "2022-04-28-00-00-00",
+        "estApplicationResponseDateStr": "2022-05-30-00-00-00",
+        "createTimeStampStr": "2022-04-29-12-57-37"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 58057,
+          "opportunityId": 339686,
+          "folderType": "Full Announcement",
+          "folderName": "Statement of Intent",
+          "zipLobSize": 131799,
+          "createdDate": "Apr 21, 2022 11:15:24 AM EDT",
+          "lastUpdatedDate": "Apr 29, 2022 12:57:15 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 317266,
+              "opportunityId": 339686,
+              "mimeType": "application/pdf",
+              "fileName": "Final Notice of Intent for Capacity Building CN Request (1).pdf",
+              "fileDescription": "Notice of Intent for Capacity Building CN Request",
+              "fileLobSize": 138443,
+              "createdDate": "Apr 21, 2022 11:17:27 AM EDT",
+              "lastUpdatedDate": "Apr 29, 2022 12:57:15 PM EDT",
+              "synopsisAttFolderId": 58057
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [
+        {
+          "id": {
+            "opportunityId": 339686,
+            "attType": "D",
+            "createdDate": "Apr 29, 2022 12:57:37 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Apr 29, 2022"
+          },
+          "changeComments": "Updated NOI posted to correct for typos."
+        },
+        {
+          "id": {
+            "opportunityId": 339686,
+            "attType": "D",
+            "createdDate": "Apr 26, 2022 09:39:04 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Apr 26, 2022"
+          },
+          "changeComments": "Revised posting to include expanded eligible applicants."
+        }
+      ],
+      "cfdas": [
+        {
+          "id": 400408,
+          "opportunityId": 339686,
+          "cfdaNumber": "19.510",
+          "programTitle": "U.S. Refugee Admissions Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

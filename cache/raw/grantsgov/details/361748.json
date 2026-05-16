@@ -1,0 +1,201 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361748",
+  "fetched_at": "2026-05-16T14:09:11.076Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVkeUZTQU1aV1Z6Sjdsbm43NGRLYWl2WGphb1NJMDI3UnRxdFE5NFkxTFk9Ig.mlH4P2CdY4nL2ICvyw_L4ub7a8Wx0pO9236jhOkxCMw",
+    "data": {
+      "id": 361748,
+      "revision": 0,
+      "opportunityNumber": "NOAA-OAR-CIAO-2026-32786",
+      "opportunityTitle": "Cooperative Institute in the Northern Gulf of America (CINGA)",
+      "owningAgencyCode": "DOC-DOCNOAAERA",
+      "listed": "L",
+      "publisherUid": "brandifranklin",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361748,
+        "version": 1,
+        "agencyCode": "DOC-DOCNOAAERA",
+        "agencyName": "Brandi L Franklin\nGrantor",
+        "agencyPhone": "3016830496",
+        "agencyAddressDesc": "Work",
+        "agencyDetails": {
+          "code": "DOCNOAAERA",
+          "seed": "DOC-DOCNOAAERA",
+          "agencyName": "DOC NOAA - ERA Production",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "topAgencyCode": "DOC"
+        },
+        "topAgencyDetails": {
+          "code": "DOC",
+          "seed": "DOC",
+          "agencyName": "Department of Commerce",
+          "agencyCode": "DOC",
+          "topAgencyCode": "DOC"
+        },
+        "agencyContactPhone": "3016830496",
+        "agencyContactName": "Brandi L Franklin\nGrantor",
+        "agencyContactDesc": "For questions regarding this announcement contact the Cooperative Institutes Administration Office (CIAO), OAR, NOAA at cipo.oar@noaa.gov.",
+        "agencyContactEmail": "cipo.oar@noaa.gov",
+        "agencyContactEmailDesc": "Work",
+        "synopsisDesc": "<p>The NOAA Office of Oceanic and Atmospheric Research (OAR) invites applications for the establishment of the Cooperative Institute in the Northern Gulf of America (CINGA). This CI may consist of a group of academic institutions (a consortium), at times working in conjunction with supporting research affiliates, with expertise and capabilities in the NOAA priority areas that contribute to the areas of research described in the Funding Opportunity Description of this announcement.</p><p><br></p><p>Applicants to this Notice of Funding Opportunity will submit only one overarching application that seeks to establish the CINGA at an eligible group of institutions (a consortium). This application should be submitted by the lead institution of the eligible group. This application should address high level research themes (See Section I.B. of this Announcement) that could encompass future projects and should not include detailed projects at this time.</p><p><br></p><p>Following the selection of the CI host institution, the awardee will be requested to submit additional subsequent non-competitive projects proposals that fall under the research themes for review and potential funding. The host institution will continue to submit detailed project applications at various funding levels and periods of performances throughout the life of the five-year award.&nbsp;</p><p><br></p><p>Applicants must complete and maintain three registrations to be eligible to apply for or receive an award. These registrations include SAM.gov, Grants.gov, and eRA Commons. All registrations must be completed prior to the application being submitted. The complete registration process for all three systems can take 4 to 6 weeks, so applicants should begin this activity as soon as possible. NOAA has created a website to aid applicants in understanding Notices of Funding Opportunities (NOFOs), the application process, and how to properly format application packages to eRA, linked here.</p><p><br></p><p>Prior to registering with eRA Commons, applicant organizations must first obtain a Unique Entity Identifier (UEI) from SAM.gov, if needed (refer to Section IV. Applications and Submission Information, Section C). Organizations can register with eRA Commons in tandem with completing their full SAM and Grants.gov registrations; however, all registrations must be in place by time of application submission. eRA Commons requires organizations to identify at least one Signing Official (SO) and at least one Program Director/Principal Investigator (PD/PI) account in order to submit an application.</p><p><br></p><p>This document sets out requirements for submitting to NOAA-OAR-CIAO-2026-32786</p>",
+        "responseDate": "May 18, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Apr 02, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 17, 2026 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "1",
+        "estimatedFunding": "100000000",
+        "estimatedFundingFormatted": "100,000,000",
+        "awardCeiling": "100000000",
+        "awardCeilingFormatted": "100,000,000",
+        "awardFloor": "1",
+        "awardFloorFormatted": "1",
+        "applicantEligibilityDesc": "The following entities are eligible to submit to this opportunity:\r\n\r\nEligibility is limited to non-Federal public and private non-profit universities, colleges and research institutions that offer accredited graduate level degree-granting programs in NOAA-related sciences and that are within the Gulf of America region. Only the lead institution in the consortium applying for the award (and where the CI will be established) must satisfy the location requirement. Federal agencies and their personnel are not permitted to receive federal funding under this competition; however, federal scientists and other employees can serve as uncompensated partners or co-Principal Investigators on subsequent T3 projects proposals. Federal labs and offices can also make available specialized expertise, facilities or equipment to applicants but cannot be compensated under this competition for their use.\r\n\r\nTo be eligible to apply or receive an award, applicants must complete and maintain three registrations;&nbsp;SAM.gov,&nbsp;Grants.gov, and&nbsp;eRA Commons.&nbsp;For each,&nbsp;the complete registration process can take 4 to 6 weeks, so applicants must begin this activity as soon as possible and well before the proposal due date. For more information on how to meet these registration and application submission requirements without errors, we advise all to carefully review relevant Applicant and Grantee Training modules:&nbsp;https://www.commerce.gov/ocio/programs/gems/applicant-and-grantee-training. Additionally, we advise that all carefully read &lsquo;Additional Application Package Forms&rsquo; within the &lsquo;Full Proposal Required Elements&rsquo; section below.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 02, 2026 04:04:14 PM EDT",
+        "createdDate": "Apr 02, 2026 03:44:24 PM EDT",
+        "lastUpdatedDate": "Apr 02, 2026 03:44:24 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          },
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-05-18-00-00-00",
+        "postingDateStr": "2026-04-02-00-00-00",
+        "archiveDateStr": "2026-06-17-00-00-00",
+        "createTimeStampStr": "2026-04-02-16-04-14"
+      },
+      "agencyDetails": {
+        "code": "DOCNOAAERA",
+        "seed": "DOC-DOCNOAAERA",
+        "agencyName": "DOC NOAA - ERA Production",
+        "agencyCode": "DOC-DOCNOAAERA",
+        "topAgencyCode": "DOC"
+      },
+      "topAgencyDetails": {
+        "code": "DOC",
+        "seed": "DOC",
+        "agencyName": "Department of Commerce",
+        "agencyCode": "DOC",
+        "topAgencyCode": "DOC"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79165,
+          "opportunityId": 361748,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 153903,
+          "createdDate": "Apr 02, 2026 04:01:17 PM EDT",
+          "lastUpdatedDate": "Apr 02, 2026 04:04:14 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350962,
+              "opportunityId": 361748,
+              "mimeType": "application/pdf",
+              "fileName": "NOAA-OAR-CIAO-2026-32786.pdf",
+              "fileDescription": "Full Announcement",
+              "fileLobSize": 183694,
+              "createdDate": "Apr 02, 2026 04:04:14 PM EDT",
+              "synopsisAttFolderId": 79165
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432519,
+          "opportunityId": 361748,
+          "cfdaNumber": "11.432",
+          "programTitle": "National Oceanic and Atmospheric Administration (NOAA) Cooperative Institutes"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292319,
+          "topportunityId": 361748,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "NOAA-OAR-CIAO-2026-32786",
+          "opportunityTitle": "Cooperative Institute in the Northern Gulf of America (CINGA)",
+          "cfdaNumber": "11.432",
+          "openingDate": "2026-04-02",
+          "closingDate": "2026-05-18",
+          "owningAgencyCode": "DOC-DOCNOAAERA",
+          "agencyDetails": {
+            "code": "DOCNOAAERA",
+            "seed": "DOC-DOCNOAAERA",
+            "agencyName": "DOC NOAA - ERA Production",
+            "agencyCode": "DOC-DOCNOAAERA",
+            "topAgencyCode": "DOC"
+          },
+          "topAgencyDetails": {
+            "code": "DOC",
+            "seed": "DOC",
+            "agencyName": "Department of Commerce",
+            "agencyCode": "DOC",
+            "topAgencyCode": "DOC"
+          },
+          "programTitle": "National Oceanic and Atmospheric Administration (NOAA) Cooperative Institutes",
+          "contactInfo": "For questions regarding this announcement contact the Cooperative Institutes Administration Office (CIAO), OAR, NOAA at cipo.oar@noaa.gov.",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 5,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 02, 2026 03:58:06 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292319",
+          "openingDateStr": "2026-04-02-00-00-00",
+          "closingDateStr": "2026-05-18-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 18, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

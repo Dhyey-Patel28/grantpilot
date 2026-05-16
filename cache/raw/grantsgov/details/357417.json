@@ -1,0 +1,186 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "357417",
+  "fetched_at": "2026-05-16T14:07:33.348Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldEenRGOXpJYVFkY3A0TVBBVG5zWmFrZGQ2SVZtMWRZQ0drWkora2J4amc9Ig.76vW9B2tuqDfupRpnTi3i6mgaPgOB5nz52zopR9SH00",
+    "data": {
+      "id": 357417,
+      "revision": 0,
+      "opportunityNumber": "RFA-OH-26-007",
+      "opportunityTitle": "State Occupational Safety and Health Surveillance Program (U60)",
+      "owningAgencyCode": "HHS-CDC-HHSCDCERA",
+      "publisherUid": "6276468772116399212211019013632420038",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "HHSCDCERA",
+        "seed": "HHS-CDC-HHSCDCERA",
+        "agencyName": "Centers for Disease Control and Prevention - ERA",
+        "agencyCode": "HHS-CDC-HHSCDCERA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 357417,
+        "version": 1,
+        "postingDate": "Nov 27, 2024 12:00:00 AM EST",
+        "archiveDate": "Dec 31, 2030 12:00:00 AM EST",
+        "forecastDesc": "NIOSH has established state surveillance programs broadly intended to: (1) Assess the extent and severity of workplace illnesses, injuries, exposures, and fatalities; (2) Identify workers and occupations at greatest risk; (3) Establish priorities for follow-up activities, such as more in-depth data surveillance and outreach, prevention and/ or intervention programs, and developing policies to address state priorities and emerging issues; (4) Develop a broad network of partners who can assist in identifying and interpreting occupational safety and health (OSH) surveillance data and disseminating results to stakeholders; (5) Communicate audience-specific educational materials and other resources for optimizing their uptake and adoption for protecting workers; (6) Measure the effectiveness of prevention activities; and (7) Fill gaps in federal and national OSH surveillance data. OSH surveillance may include population/group- and case-based approaches and activities. Funded programs are expected to be resourceful and proactive in identifying and accessing data sources for OSH surveillance, which may include adding or developing occupation data within public health data systems, creating linkages between data sources, or developing new methods for OSH surveillance. Through this funding announcement, NIOSH seeks to continue and strengthen OSH surveillance programs within states and other eligible jurisdictions to provide information that will help drive actions to improve the health and safety of workers in the US. This program will build upon existing public health practice, capacity, and expertise in OSH surveillance. For states and others where OSH surveillance capacity does not currently exist, this program may help to develop that capacity.",
+        "costSharing": false,
+        "numberOfAwards": "23",
+        "estimatedFunding": "40000000",
+        "awardCeiling": "705000",
+        "awardFloor": "140000",
+        "agencyContactName": "Eduardo O'Neill, PhD, MS, MPH",
+        "agencyContactPhone": "404-718-8844",
+        "agencyContactEmail": "fzt4@cdc.gov",
+        "agencyContactEmailDesc": "fzt4@cdc.gov",
+        "agencyCode": "HHS-CDC-HHSCDCERA",
+        "applicantEligibilityDesc": "Non-domestic (non-U.S.) Entities (Foreign Institutions) are not eligible to apply. Non-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply. Foreign components, as defined in the HHS Grants Policy Statement are not allowed.",
+        "estSynopsisPostingDate": "May 30, 2025 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Sep 30, 2025 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "All applications are due by 5:00 PM local time of applicant organization.",
+        "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "Nov 27, 2024 07:42:46 AM EST",
+        "createdDate": "Nov 27, 2024 07:42:46 AM EST",
+        "lastUpdatedDate": "Nov 27, 2024 07:42:46 AM EST",
+        "agencyDetails": {
+          "code": "HHSCDCERA",
+          "seed": "HHS-CDC-HHSCDCERA",
+          "agencyName": "Centers for Disease Control and Prevention - ERA",
+          "agencyCode": "HHS-CDC-HHSCDCERA",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "40,000,000",
+        "awardCeilingFormatted": "705,000",
+        "awardFloorFormatted": "140,000",
+        "applicantTypes": [
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2024-11-27-00-00-00",
+        "archiveDateStr": "2030-12-31-00-00-00",
+        "estSynopsisPostingDateStr": "2025-05-30-00-00-00",
+        "estApplicationResponseDateStr": "2025-09-30-00-00-00",
+        "estAwardDateStr": "2026-06-01-00-00-00",
+        "estProjectStartDateStr": "2026-07-01-00-00-00",
+        "createTimeStampStr": "2024-11-27-07-42-46"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 425706,
+          "opportunityId": 357417,
+          "cfdaNumber": "93.262",
+          "programTitle": "Occupational Safety and Health Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361725",
+  "fetched_at": "2026-05-16T14:09:08.108Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjIybFF1bXFqaEtMN1RGM20zUkJqV1gvM0VmYXNMWkdZRjFqY05RSEtCZk09Ig.wgwPWHdgIgUyMB_c3vqam7I4U940XcgjGQVwlqG5E1o",
+    "data": {
+      "id": 361725,
+      "revision": 0,
+      "opportunityNumber": "RDBCP-DHCS-2026",
+      "opportunityTitle": "Delta Health Care Service Grant Program",
+      "owningAgencyCode": "USDA-RBCS",
+      "listed": "L",
+      "publisherUid": "sharp595",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361725,
+        "version": 3,
+        "agencyCode": "USDA-RBCS",
+        "agencyName": "Honie Turner\nGrants Management Specialist",
+        "agencyPhone": "2024010088",
+        "agencyAddressDesc": "Program Manager",
+        "agencyDetails": {
+          "code": "USDA-RBCS",
+          "seed": "USDA-RBCS",
+          "agencyName": "Rural Business-Cooperative Service ",
+          "agencyCode": "USDA-RBCS",
+          "topAgencyCode": "USDA"
+        },
+        "topAgencyDetails": {
+          "code": "USDA",
+          "seed": "USDA",
+          "agencyName": "Department of Agriculture",
+          "agencyCode": "USDA",
+          "topAgencyCode": "USDA"
+        },
+        "agencyContactPhone": "2024010088",
+        "agencyContactName": "Honie Turner\nGrants Management Specialist",
+        "agencyContactDesc": "Ann Stahl\r\nBusiness Loan &amp; Grant Analyst",
+        "agencyContactEmail": "Ann.Stahl@usda.gov",
+        "agencyContactEmailDesc": "Program Manager",
+        "synopsisDesc": "<p>The Rural Business-Cooperative Service announces the availability of $6,000,000 in competitive grant funds for the FY 2026 Delta Health Care Services Grant (DHCS) Program as authorized under Section 379G of the Consolidated Farm and Rural Development Act (7 U.S.C. 2008u), as amended by the Agricultural Act of 2018 (Pub. L. 115-334).&nbsp;The purpose of this program is to provide financial assistance to address the continued unmet health needs in the Delta Region, through cooperation among health care professionals, institutions of higher education, research institutions and economic development entities in the Delta Region.</p>",
+        "responseDate": "Jun 01, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://www.rd.usda.gov/programs-services/delta-health-care-services-grant",
+        "fundingDescLinkDesc": "DHCS Program Website",
+        "postingDate": "Apr 01, 2026 12:00:00 AM EDT",
+        "archiveDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "12",
+        "estimatedFunding": "6000000",
+        "estimatedFundingFormatted": "6,000,000",
+        "awardCeiling": "1000000",
+        "awardCeilingFormatted": "1,000,000",
+        "awardFloor": "50000",
+        "awardFloorFormatted": "50,000",
+        "applicantEligibilityDesc": "Eligible applicants are a consortium/group of three or more entities that are; Regional Institutions of Higher Education, Academic Health and Research Institutes, and/or Economic Development Entities, as defined in this Notice. The consortium must be located in the Delta Region and must have at least one year of prior experience in addressing the health care needs or the Delta Region. At least one of the consortium members must be legally organized as an incorporated organization or other legal entity and have legal authority to contract with the Federal Government.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 07, 2026 02:02:10 PM EDT",
+        "createdDate": "Mar 31, 2026 02:53:28 PM EDT",
+        "lastUpdatedDate": "Mar 31, 2026 03:11:27 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "responseDateStr": "2026-06-01-00-00-00",
+        "postingDateStr": "2026-04-01-00-00-00",
+        "archiveDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-04-07-14-02-10"
+      },
+      "agencyDetails": {
+        "code": "USDA-RBCS",
+        "seed": "USDA-RBCS",
+        "agencyName": "Rural Business-Cooperative Service ",
+        "agencyCode": "USDA-RBCS",
+        "topAgencyCode": "USDA"
+      },
+      "topAgencyDetails": {
+        "code": "USDA",
+        "seed": "USDA",
+        "agencyName": "Department of Agriculture",
+        "agencyCode": "USDA",
+        "topAgencyCode": "USDA"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79140,
+          "opportunityId": 361725,
+          "folderType": "Full Announcement",
+          "folderName": "Delta Health NOFO - FY 26",
+          "zipLobSize": 476285,
+          "createdDate": "Apr 01, 2026 11:04:37 AM EDT",
+          "lastUpdatedDate": "Apr 01, 2026 11:05:31 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350912,
+              "opportunityId": 361725,
+              "mimeType": "application/pdf",
+              "fileName": "Delta Health FY 26 NOFO 3.27.26.pdf",
+              "fileDescription": "FY 26 Notice of Funding Opportunity",
+              "fileLobSize": 503597,
+              "createdDate": "Apr 01, 2026 11:05:31 AM EDT",
+              "synopsisAttFolderId": 79140
+            }
+          ]
+        },
+        {
+          "id": 79154,
+          "opportunityId": 361725,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Application Template Guide",
+          "zipLobSize": 102007,
+          "createdDate": "Apr 01, 2026 02:50:39 PM EDT",
+          "lastUpdatedDate": "Apr 07, 2026 02:02:10 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350947,
+              "opportunityId": 361725,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "DHCS-2026-Application-Template-Guide.docx",
+              "fileDescription": "Application Template Guide",
+              "fileLobSize": 109051,
+              "createdDate": "Apr 01, 2026 02:52:31 PM EDT",
+              "lastUpdatedDate": "Apr 07, 2026 02:02:10 PM EDT",
+              "synopsisAttFolderId": 79154
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [
+        {
+          "id": 1396,
+          "opportunityId": 361725,
+          "docUrl": "https://www.rd.usda.gov/programs-services/business-programs/delta-health-care-services-grant",
+          "description": "Delta Health Care Services Grant",
+          "createdDate": "Mar 31, 2026 03:29:28 PM EDT"
+        }
+      ],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432493,
+          "opportunityId": 361725,
+          "cfdaNumber": "10.874",
+          "programTitle": "Delta Health Care Services Grant Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292301,
+          "topportunityId": 361725,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "RDBCP-DHCS-2026",
+          "opportunityTitle": "Delta Health Care Service Grant Program",
+          "cfdaNumber": "10.874",
+          "openingDate": "2026-04-01",
+          "closingDate": "2026-06-01",
+          "owningAgencyCode": "USDA-RBCS",
+          "agencyDetails": {
+            "code": "USDA-RBCS",
+            "seed": "USDA-RBCS",
+            "agencyName": "Rural Business-Cooperative Service ",
+            "agencyCode": "USDA-RBCS",
+            "topAgencyCode": "USDA"
+          },
+          "topAgencyDetails": {
+            "code": "USDA",
+            "seed": "USDA",
+            "agencyName": "Department of Agriculture",
+            "agencyCode": "USDA",
+            "topAgencyCode": "USDA"
+          },
+          "programTitle": "Delta Health Care Services Grant Program",
+          "contactInfo": "Ann Stahl\r\nProgram Manager\r\nE-mail: Ann.Stahl@usda.gov",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 12,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "docx",
+          "mimetype": "application/msword",
+          "lastUpdate": "Mar 31, 2026 03:38:17 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292301",
+          "openingDateStr": "2026-04-01-00-00-00",
+          "closingDateStr": "2026-06-01-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 01, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [
+        {
+          "sourceOpportunityId": 361725,
+          "opportunityId": 354896,
+          "opportunityNum": "RDBCP-DHCS-2024",
+          "opportunityTitle": "Delta Health Care Service Grant Program",
+          "agencyCode": "USDA-RBCS",
+          "postedDate": "Jun 12, 2024",
+          "closeDate": "Aug 12, 2024",
+          "comments": ""
+        }
+      ],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

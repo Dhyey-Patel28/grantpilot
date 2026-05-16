@@ -1,0 +1,389 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361773",
+  "fetched_at": "2026-05-16T14:09:13.012Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVkeUZTQU1aV1Z6Sjdsbm43NGRLYW1SS2V6OU1xRUlBZjZSbVBPVnR5ZVE9Ig.Qg3eHervGBoWdWQuinW_3wjfdHmcPXEmipuaiTVyiGU",
+    "data": {
+      "id": 361773,
+      "revision": 2,
+      "opportunityNumber": "DE-FOA-0003589",
+      "opportunityTitle": "Critical Minerals and Materials Accelerator Notice of Funding Opportunity",
+      "owningAgencyCode": "DOE-GFO",
+      "listed": "L",
+      "publisherUid": "goadmin",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361773,
+        "version": 3,
+        "agencyCode": "DOE-GFO",
+        "agencyName": "Golden Field Office",
+        "agencyPhone": "2022871878",
+        "agencyAddressDesc": "Click to email contact",
+        "agencyDetails": {
+          "code": "GFO",
+          "seed": "DOE-GFO",
+          "agencyName": "Golden Field Office",
+          "agencyCode": "DOE-GFO",
+          "topAgencyCode": "DOE"
+        },
+        "topAgencyDetails": {
+          "code": "DOE",
+          "seed": "DOE",
+          "agencyName": "Department of Energy",
+          "agencyCode": "DOE",
+          "topAgencyCode": "DOE"
+        },
+        "agencyContactPhone": "2022871878",
+        "agencyContactName": "Golden Field Office",
+        "agencyContactDesc": "NOFO Inbox \ncmmacceleratornofo@ee.doe.gov",
+        "agencyContactEmail": "cmmacceleratornofo@ee.doe.gov",
+        "agencyContactEmailDesc": "Click to email contact",
+        "synopsisDesc": "Modification 0002 Annoucement (04/21/26): \nExtended LOI due date to 4/24/2026\nExtended TA1 due date to 5/29/2026\nExtended TA2 due date to 6/25/2026\nExtended TA3 due date to 7/23/2026\n\nModification 0001 Announcement (04/15/26):\nCorrected units in Figure 3;\nReplaced instances of ‘FOA’ with ‘NOFO’ in Section D. Expected Performance Goals, Application Metrics;\nCorrected LOI character limit in Section IV.C.\n\n\nThis Notice of Funding Opportunity (NOFO) supports critical minerals and materials. Critical minerals and materials (CMM) are the building blocks for technologies foundational to U.S. energy dominance, national security, and industrial competitiveness. To build a secure domestic supply of CMMs, the U.S. Department of Energy (DOE) aims to support collaborative industry partnerships to prototype and pilot innovative processing technologies that are currently only proven at the bench scale to address CMM challenges in high impact areas. The CMM Accelerator program will advance these mid-stage innovations through validation, benchmarking, access to national lab test beds, testing in industry relevant environments, technoeconomic analysis, and life-cycle assessment. The program establishes a pipeline to support technology maturation to ultimately unlock private capital investments. It also will leverage other DOE lab-based activities, such as the Critical Materials Innovation Hub (CMI Hub) and the Minerals to Materials Supply Chain Research Facility (METALLIC). Technologies resulting from the program are expected to have a path to domestic commercialization within 3-7 years.\n\nThis NOFO has 3 Topic Areas, and is further divided into sub-topics for Topic Areas 1 and 3.  Apply to each topic following instructions below:\n\n•\tTopic Area 1 (Applications must be submitted via eXCHANGE, specifically under DE-TA1-0003589): Production and material efficiency for critical materials including rare earth elements. Inclusive of the following sub-topics:\no\t1A: Recovery and production from postindustrial manufacturing scrap\no\t1B: Recovery and production from postconsumer scrap (with an emphasis on electronic waste and drivetrains)\no\t1C: Recovery and production from combinations of feedstocks including mine tailings, postindustrial scrap, and postconsumer scrap\n\n•\tTopic Area 2 (Applications must be submitted via eXCHANGE, specifically under DE-TA2-0003589): Processes to refine and alloy gallium, gallium nitride, germanium, and silicon carbide for use in semiconductor applications.\n\n•\tTopic Area 3 (Applications must be submitted via eXCHANGE, specifically under DE-TA3-0003589): Cost-competitive direct lithium extraction, separation, and processing.¿Inclusive of the following sub-topics:\no\t3A: Cost-competitive direct lithium extraction\no\t3B: Advancing pre- and post- treatment and disposal technologies for direct lithium extraction and from geothermal brines\no\t3C: Exploration and Characterization of Critical Materials and Rare Earth Elements from Volcanically Hosted Geothermal Systems\n\nAdditionally, please note that each Topic Area has it’s own Application Deadline, as identified in the Key Facts section of the NOFO Part 1.\n\nThere is a Teaming Partner List associated with this NOFO to facilitate formation of new project teams. It can be found in e-XCHANGE under: TPL-0000069. Additional information about Teaming Partner Lists can be found in Section I. C. of the NOFO.  \n\nThe eXCHANGE system is currently designed to enforce hard deadlines for Letter of Intent and Full Application submissions. The APPLY and SUBMIT buttons automatically disable at the defined submission deadlines. The intention of this design is to consistently enforce a standard deadline for all applicants.\n\nApplicants that experience issues with submissions PRIOR to the NOFO Topic Area Deadlines: In the event that an Applicant experiences technical difficulties with a submission, the Applicant should contact the eXCHANGE helpdesk for assistance (exchangehelp@hq.doe.gov). The eXCHANGE helpdesk and/or the EERE eXCHANGE System Administrators (EERE-eXCHANGESupport@hq.doe.gov ) will assist the Applicant in resolving all issues.\n\nApplicants that experience issues with submissions that result in a late submission: In the event that an Applicant experiences technical difficulties with a submission that results in a late submission, the Applicant should contact the eXCHANGE helpdesk for assistance (exchangehelp@hq.doe.gov). The eXCHANGE helpdesk and/or the EERE eXCHANGE System Administrators (EERE-eXCHANGESupport@hq.doe.gov ) will assist the Applicant in resolving all issues (including finalizing the submission on behalf of, and with the \nApplicant's concurrence). DOE will only accept late applications when the Applicant has a) encountered technical difficulties beyond their control; b) has contacted the eXCHANGE helpdesk for assistance; and c) has submitted the application through eXCHANGE within 24 hours of the NOFO's posted deadline.\n\nPlease see the full NOFO in the DOCUMENTS section below. \n\nThe Teaming Partner List is transferred from Notice of Intent (NOI) DE-FOA-0003588. The list will remain open and updated at least weekly until the close of the Full Application period, to reflect new Teaming Partners who have provided their information.",
+        "responseDate": "Jul 23, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://eere-exchange.energy.gov",
+        "fundingDescLinkDesc": "CMEI Funding Opportunity Exchange",
+        "postingDate": "Apr 07, 2026 12:00:00 AM EDT",
+        "archiveDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "44",
+        "estimatedFunding": "69000000",
+        "estimatedFundingFormatted": "69,000,000",
+        "awardCeiling": "3000000",
+        "awardCeilingFormatted": "3,000,000",
+        "awardFloor": "1",
+        "awardFloorFormatted": "1",
+        "applicantEligibilityDesc": "Please see section II.A. in the NOFO",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 21, 2026 04:00:11 PM EDT",
+        "modComments": "Modification 0002 Annoucement (04/21/26): \nExtended LOI due date to 4/24/2026\nExtended TA1 due date to 5/29/2026\nExtended TA2 due date to 6/25/2026\nExtended TA3 due date to 7/23/2026\n\nModification 0001 Announcement (04/15/26):\nCorrected units in Figure 3;\nReplaced instances of &lsquo;FOA&rsquo; with &lsquo;NOFO&rsquo; in Section D. Expected Performance Goals, Application Metrics;\nCorrected LOI character limit in Section IV.C.",
+        "createdDate": "Apr 07, 2026 10:03:39 AM EDT",
+        "lastUpdatedDate": "Apr 21, 2026 04:00:09 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "EN",
+            "description": "Energy"
+          }
+        ],
+        "responseDateStr": "2026-07-23-00-00-00",
+        "postingDateStr": "2026-04-07-00-00-00",
+        "archiveDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-04-21-16-00-11"
+      },
+      "agencyDetails": {
+        "code": "GFO",
+        "seed": "DOE-GFO",
+        "agencyName": "Golden Field Office",
+        "agencyCode": "DOE-GFO",
+        "topAgencyCode": "DOE"
+      },
+      "topAgencyDetails": {
+        "code": "DOE",
+        "seed": "DOE",
+        "agencyName": "Department of Energy",
+        "agencyCode": "DOE",
+        "topAgencyCode": "DOE"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79187,
+          "opportunityId": 361773,
+          "folderType": "Full Announcement",
+          "folderName": "DE-FOA-0003589 (BASE)",
+          "createdDate": "Apr 07, 2026 10:03:43 AM EDT",
+          "synopsisAttachments": []
+        },
+        {
+          "id": 79294,
+          "opportunityId": 361773,
+          "folderType": "Revised Full Announcement",
+          "folderName": "DE-FOA-0003589 (000001)",
+          "zipLobSize": 2224274,
+          "createdDate": "Apr 15, 2026 05:33:45 PM EDT",
+          "lastUpdatedDate": "Apr 15, 2026 05:33:48 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351243,
+              "opportunityId": 361773,
+              "mimeType": "application/octet-stream",
+              "fileName": "DE-FOA-0003589_Critical_Minerals_and_Materials_Accelerator_Notice_of Funding_Opportunity_Part_1_MOD0001.pdf",
+              "fileDescription": "DE-FOA-0003589_Critical_Minerals_and_Materials_Accelerator_Notice_of Funding_Opportunity_Part_1_MOD0001",
+              "fileLobSize": 2323014,
+              "createdDate": "Apr 15, 2026 05:33:47 PM EDT",
+              "synopsisAttFolderId": 79294
+            }
+          ]
+        },
+        {
+          "id": 79354,
+          "opportunityId": 361773,
+          "folderType": "Revised Full Announcement",
+          "folderName": "DE-FOA-0003589 (000002)",
+          "zipLobSize": 2224947,
+          "createdDate": "Apr 21, 2026 04:00:09 PM EDT",
+          "lastUpdatedDate": "Apr 21, 2026 04:00:11 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351413,
+              "opportunityId": 361773,
+              "mimeType": "application/octet-stream",
+              "fileName": "DE-FOA-0003589_CMMA_NOFO_Part_1_MOD0002.pdf",
+              "fileDescription": "DE-FOA-0003589_CMMA_NOFO_Part_1_MOD0002",
+              "fileLobSize": 2323977,
+              "createdDate": "Apr 21, 2026 04:00:11 PM EDT",
+              "synopsisAttFolderId": 79354
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432548,
+          "opportunityId": 361773,
+          "cfdaNumber": "81.086",
+          "programTitle": "Conservation Research and Development"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361773,
+            "revision": 0
+          },
+          "opportunityId": 361773,
+          "revision": 0,
+          "opportunityNumber": "DE-FOA-0003589",
+          "opportunityTitle": "Critical Minerals and Materials Accelerator Notice of Funding Opportunity",
+          "owningAgencyCode": "DOE-GFO",
+          "publisherUid": "goadmin",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361773,
+              "revision": 0
+            },
+            "opportunityId": 361773,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOE-GFO",
+            "agencyAddressDesc": "Click to email contact",
+            "agencyDetails": {
+              "code": "GFO",
+              "seed": "DOE-GFO",
+              "agencyName": "Golden Field Office",
+              "agencyCode": "DOE-GFO",
+              "topAgencyCode": "DOE"
+            },
+            "agencyContactPhone": "2022871878",
+            "agencyContactName": "Golden Field Office",
+            "agencyContactDesc": "NOFO Inbox \ncmmacceleratornofo@ee.doe.gov",
+            "agencyContactEmail": "cmmacceleratornofo@ee.doe.gov",
+            "agencyContactEmailDesc": "Click to email contact",
+            "synopsisDesc": "This Notice of Funding Opportunity (NOFO) supports critical minerals and materials. Critical minerals and materials (CMM) are the building blocks for technologies foundational to U.S. energy dominance, national security, and industrial competitiveness. To build a secure domestic supply of CMMs, the U.S. Department of Energy (DOE) aims to support collaborative industry partnerships to prototype and pilot innovative processing technologies that are currently only proven at the bench scale to address CMM challenges in high impact areas. The CMM Accelerator program will advance these mid-stage innovations through validation, benchmarking, access to national lab test beds, testing in industry relevant environments, technoeconomic analysis, and life-cycle assessment. The program establishes a pipeline to support technology maturation to ultimately unlock private capital investments. It also will leverage other DOE lab-based activities, such as the Critical Materials Innovation Hub (CMI Hub) and the Minerals to Materials Supply Chain Research Facility (METALLIC). Technologies resulting from the program are expected to have a path to domestic commercialization within 3-7 years.\n\nThis NOFO has 3 Topic Areas, and is further divided into sub-topics for Topic Areas 1 and 3.  Apply to each topic following instructions below:\n\n•\tTopic Area 1 (Applications must be submitted via eXCHANGE, specifically under DE-TA1-0003589): Production and material efficiency for critical materials including rare earth elements. Inclusive of the following sub-topics:\no\t1A: Recovery and production from postindustrial manufacturing scrap\no\t1B: Recovery and production from postconsumer scrap (with an emphasis on electronic waste and drivetrains)\no\t1C: Recovery and production from combinations of feedstocks including mine tailings, postindustrial scrap, and postconsumer scrap\n\n•\tTopic Area 2 (Applications must be submitted via eXCHANGE, specifically under DE-TA2-0003589): Processes to refine and alloy gallium, gallium nitride, germanium, and silicon carbide for use in semiconductor applications.\n\n•\tTopic Area 3 (Applications must be submitted via eXCHANGE, specifically under DE-TA3-0003589): Cost-competitive direct lithium extraction, separation, and processing.¿Inclusive of the following sub-topics:\no\t3A: Cost-competitive direct lithium extraction\no\t3B: Advancing pre- and post- treatment and disposal technologies for direct lithium extraction and from geothermal brines\no\t3C: Exploration and Characterization of Critical Materials and Rare Earth Elements from Volcanically Hosted Geothermal Systems\n\nAdditionally, please note that each Topic Area has it’s own Application Deadline, as identified in the Key Facts section of the NOFO Part 1.\n\nThere is a Teaming Partner List associated with this NOFO to facilitate formation of new project teams. It can be found in e-XCHANGE under: TPL-0000069. Additional information about Teaming Partner Lists can be found in Section I. C. of the NOFO.  \n\nThe eXCHANGE system is currently designed to enforce hard deadlines for Letter of Intent and Full Application submissions. The APPLY and SUBMIT buttons automatically disable at the defined submission deadlines. The intention of this design is to consistently enforce a standard deadline for all applicants.\n\nApplicants that experience issues with submissions PRIOR to the NOFO Topic Area Deadlines: In the event that an Applicant experiences technical difficulties with a submission, the Applicant should contact the eXCHANGE helpdesk for assistance (exchangehelp@hq.doe.gov). The eXCHANGE helpdesk and/or the EERE eXCHANGE System Administrators (EERE-eXCHANGESupport@hq.doe.gov ) will assist the Applicant in resolving all issues.\n\nApplicants that experience issues with submissions that result in a late submission: In the event that an Applicant experiences technical difficulties with a submission that results in a late submission, the Applicant should contact the eXCHANGE helpdesk for assistance (exchangehelp@hq.doe.gov). The eXCHANGE helpdesk and/or the EERE eXCHANGE System Administrators (EERE-eXCHANGESupport@hq.doe.gov ) will assist the Applicant in resolving all issues (including finalizing the submission on behalf of, and with the \nApplicant's concurrence). DOE will only accept late applications when the Applicant has a) encountered technical difficulties beyond their control; b) has contacted the eXCHANGE helpdesk for assistance; and c) has submitted the application through eXCHANGE within 24 hours of the NOFO's posted deadline.\n\nPlease see the full NOFO in the DOCUMENTS section below. \n\nThe Teaming Partner List is transferred from Notice of Intent (NOI) DE-FOA-0003588. The list will remain open and updated at least weekly until the close of the Full Application period, to reflect new Teaming Partners who have provided their information.",
+            "responseDate": "Jul 20, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://eere-exchange.energy.gov",
+            "postingDate": "Apr 07, 2026 12:00:00 AM EDT",
+            "archiveDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "costSharing": true,
+            "numberOfAwards": "44",
+            "estimatedFunding": "69000000",
+            "estimatedFundingFormatted": "69,000,000",
+            "awardCeiling": "3000000",
+            "awardCeilingFormatted": "3,000,000",
+            "awardFloor": "1",
+            "awardFloorFormatted": "1",
+            "applicantEligibilityDesc": "Please see section II.A. in the NOFO",
+            "createTimeStamp": "Apr 07, 2026 10:03:43 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 15, 2026 05:33:45 PM EDT",
+            "createdDate": "Apr 07, 2026 10:03:39 AM EDT",
+            "lastUpdatedDate": "Apr 07, 2026 10:03:39 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "EN",
+                "description": "Energy"
+              }
+            ],
+            "responseDateStr": "2026-07-20-00-00-00",
+            "postingDateStr": "2026-04-07-00-00-00",
+            "archiveDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-04-07-10-03-43"
+          },
+          "cfdas": [
+            {
+              "id": 432548,
+              "opportunityId": 361773,
+              "revision": 1,
+              "cfdaNumber": "81.086",
+              "programTitle": "Conservation Research and Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361773,
+            "revision": 1
+          },
+          "opportunityId": 361773,
+          "revision": 1,
+          "opportunityNumber": "DE-FOA-0003589",
+          "opportunityTitle": "Critical Minerals and Materials Accelerator Notice of Funding Opportunity",
+          "owningAgencyCode": "DOE-GFO",
+          "publisherUid": "goadmin",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361773,
+              "revision": 1
+            },
+            "opportunityId": 361773,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "DOE-GFO",
+            "agencyAddressDesc": "Click to email contact",
+            "agencyDetails": {
+              "code": "GFO",
+              "seed": "DOE-GFO",
+              "agencyName": "Golden Field Office",
+              "agencyCode": "DOE-GFO",
+              "topAgencyCode": "DOE"
+            },
+            "agencyContactPhone": "2022871878",
+            "agencyContactName": "Golden Field Office",
+            "agencyContactDesc": "NOFO Inbox \ncmmacceleratornofo@ee.doe.gov",
+            "agencyContactEmail": "cmmacceleratornofo@ee.doe.gov",
+            "agencyContactEmailDesc": "Click to email contact",
+            "synopsisDesc": "This Notice of Funding Opportunity (NOFO) supports critical minerals and materials. Critical minerals and materials (CMM) are the building blocks for technologies foundational to U.S. energy dominance, national security, and industrial competitiveness. To build a secure domestic supply of CMMs, the U.S. Department of Energy (DOE) aims to support collaborative industry partnerships to prototype and pilot innovative processing technologies that are currently only proven at the bench scale to address CMM challenges in high impact areas. The CMM Accelerator program will advance these mid-stage innovations through validation, benchmarking, access to national lab test beds, testing in industry relevant environments, technoeconomic analysis, and life-cycle assessment. The program establishes a pipeline to support technology maturation to ultimately unlock private capital investments. It also will leverage other DOE lab-based activities, such as the Critical Materials Innovation Hub (CMI Hub) and the Minerals to Materials Supply Chain Research Facility (METALLIC). Technologies resulting from the program are expected to have a path to domestic commercialization within 3-7 years.\n\nThis NOFO has 3 Topic Areas, and is further divided into sub-topics for Topic Areas 1 and 3.  Apply to each topic following instructions below:\n\n•\tTopic Area 1 (Applications must be submitted via eXCHANGE, specifically under DE-TA1-0003589): Production and material efficiency for critical materials including rare earth elements. Inclusive of the following sub-topics:\no\t1A: Recovery and production from postindustrial manufacturing scrap\no\t1B: Recovery and production from postconsumer scrap (with an emphasis on electronic waste and drivetrains)\no\t1C: Recovery and production from combinations of feedstocks including mine tailings, postindustrial scrap, and postconsumer scrap\n\n•\tTopic Area 2 (Applications must be submitted via eXCHANGE, specifically under DE-TA2-0003589): Processes to refine and alloy gallium, gallium nitride, germanium, and silicon carbide for use in semiconductor applications.\n\n•\tTopic Area 3 (Applications must be submitted via eXCHANGE, specifically under DE-TA3-0003589): Cost-competitive direct lithium extraction, separation, and processing.¿Inclusive of the following sub-topics:\no\t3A: Cost-competitive direct lithium extraction\no\t3B: Advancing pre- and post- treatment and disposal technologies for direct lithium extraction and from geothermal brines\no\t3C: Exploration and Characterization of Critical Materials and Rare Earth Elements from Volcanically Hosted Geothermal Systems\n\nAdditionally, please note that each Topic Area has it’s own Application Deadline, as identified in the Key Facts section of the NOFO Part 1.\n\nThere is a Teaming Partner List associated with this NOFO to facilitate formation of new project teams. It can be found in e-XCHANGE under: TPL-0000069. Additional information about Teaming Partner Lists can be found in Section I. C. of the NOFO.  \n\nThe eXCHANGE system is currently designed to enforce hard deadlines for Letter of Intent and Full Application submissions. The APPLY and SUBMIT buttons automatically disable at the defined submission deadlines. The intention of this design is to consistently enforce a standard deadline for all applicants.\n\nApplicants that experience issues with submissions PRIOR to the NOFO Topic Area Deadlines: In the event that an Applicant experiences technical difficulties with a submission, the Applicant should contact the eXCHANGE helpdesk for assistance (exchangehelp@hq.doe.gov). The eXCHANGE helpdesk and/or the EERE eXCHANGE System Administrators (EERE-eXCHANGESupport@hq.doe.gov ) will assist the Applicant in resolving all issues.\n\nApplicants that experience issues with submissions that result in a late submission: In the event that an Applicant experiences technical difficulties with a submission that results in a late submission, the Applicant should contact the eXCHANGE helpdesk for assistance (exchangehelp@hq.doe.gov). The eXCHANGE helpdesk and/or the EERE eXCHANGE System Administrators (EERE-eXCHANGESupport@hq.doe.gov ) will assist the Applicant in resolving all issues (including finalizing the submission on behalf of, and with the \nApplicant's concurrence). DOE will only accept late applications when the Applicant has a) encountered technical difficulties beyond their control; b) has contacted the eXCHANGE helpdesk for assistance; and c) has submitted the application through eXCHANGE within 24 hours of the NOFO's posted deadline.\n\nPlease see the full NOFO in the DOCUMENTS section below. \n\nThe Teaming Partner List is transferred from Notice of Intent (NOI) DE-FOA-0003588. The list will remain open and updated at least weekly until the close of the Full Application period, to reflect new Teaming Partners who have provided their information.",
+            "responseDate": "Jul 20, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://eere-exchange.energy.gov",
+            "fundingDescLinkDesc": "CMEI Funding Opportunity Exchange",
+            "postingDate": "Apr 07, 2026 12:00:00 AM EDT",
+            "archiveDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "costSharing": true,
+            "numberOfAwards": "44",
+            "estimatedFunding": "69000000",
+            "estimatedFundingFormatted": "69,000,000",
+            "awardCeiling": "3000000",
+            "awardCeilingFormatted": "3,000,000",
+            "awardFloor": "1",
+            "awardFloorFormatted": "1",
+            "applicantEligibilityDesc": "Please see section II.A. in the NOFO",
+            "createTimeStamp": "Apr 15, 2026 05:33:48 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "MOD 0001: Corrected typo for the units in Figure 3 (from Mt of e-waste to kt of e-waste), replaced instances of FOA with NOFO in Section D. Expected Performance Goals, Application Metrics, and Corrected typo in Section IV.C. Character limit of 6,000.",
+            "actionType": "U",
+            "actionDate": "Apr 21, 2026 04:00:09 PM EDT",
+            "createdDate": "Apr 07, 2026 10:03:39 AM EDT",
+            "lastUpdatedDate": "Apr 15, 2026 05:33:45 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "EN",
+                "description": "Energy"
+              }
+            ],
+            "responseDateStr": "2026-07-20-00-00-00",
+            "postingDateStr": "2026-04-07-00-00-00",
+            "archiveDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-04-15-17-33-48"
+          },
+          "cfdas": [
+            {
+              "id": 432548,
+              "opportunityId": 361773,
+              "revision": 1,
+              "cfdaNumber": "81.086",
+              "programTitle": "Conservation Research and Development"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "fundingDescLinkDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jul 20, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc",
+        "responseDate",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

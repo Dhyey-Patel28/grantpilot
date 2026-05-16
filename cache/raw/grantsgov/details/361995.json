@@ -1,0 +1,300 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361995",
+  "fetched_at": "2026-05-16T14:09:34.834Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImIwMUlKKyszcS80QzdodC9sc0VlTFFqSm53YlNyK0tzUkZDNU81WUkxaVU9Ig.x36LG957wxwY6az5NtFaph7FQbSdZhagGTy4zG_aI3g",
+    "data": {
+      "id": 361995,
+      "revision": 1,
+      "opportunityNumber": "USDA-AMS-TM-LFPP-G-26-0004",
+      "opportunityTitle": "Local Food Promotion Program Fiscal Year 2026",
+      "owningAgencyCode": "USDA-AMS",
+      "listed": "L",
+      "publisherUid": "272315922995587219945618497563212961069",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361995,
+        "version": 2,
+        "agencyCode": "USDA-AMS",
+        "agencyName": "Agricultural Marketing Service",
+        "agencyPhone": "202-260-8449",
+        "agencyAddressDesc": "FMLFPPGrants@usda.gov",
+        "agencyDetails": {
+          "code": "AMS",
+          "seed": "USDA-AMS",
+          "agencyName": "Agricultural Marketing Service",
+          "agencyCode": "USDA-AMS",
+          "topAgencyCode": "USDA"
+        },
+        "topAgencyDetails": {
+          "code": "USDA",
+          "seed": "USDA",
+          "agencyName": "Department of Agriculture",
+          "agencyCode": "USDA",
+          "topAgencyCode": "USDA"
+        },
+        "agencyContactPhone": "202-260-8449",
+        "agencyContactName": "Agricultural Marketing Service",
+        "agencyContactDesc": "Local Food Promotion Program\nFMLFPPGrants@usda.gov",
+        "agencyContactEmail": "FMLFPPGrants@usda.gov",
+        "agencyContactEmailDesc": "FMLFPPGrants@usda.gov",
+        "synopsisDesc": "The U.S. Department of Agriculture (USDA), Agricultural Marketing Service (AMS), requests applications for the 2026 fiscal year (FY) Local Food Promotion Program (LFPP). LFPP\"s purpose is to support the development, coordination, and expansion of local and regional food business enterprises that engage as intermediaries in indirect producer-to-consumer marketing to increase access to and availability of locally and regionally produced agricultural products.",
+        "responseDate": "Jun 05, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Applications must be submitted electronically no later than 11:59 pm Eastern Time.",
+        "postingDate": "Apr 21, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 05, 2026 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "55",
+        "estimatedFunding": "13840000",
+        "estimatedFundingFormatted": "13,840,000",
+        "awardCeiling": "500000",
+        "awardCeilingFormatted": "500,000",
+        "awardFloor": "25000",
+        "awardFloorFormatted": "25,000",
+        "applicantEligibilityDesc": "See Section 2.0 Eligibility Section of the Notice of Funding Opportunity (NOFO) for a full list of eligible applicants and eligible entities (partners).",
+        "sendEmail": "N",
+        "createTimeStamp": "Apr 22, 2026 12:16:00 PM EDT",
+        "modComments": "Updated &quot;Additional Information on Eligibility&quot; text field language.",
+        "createdDate": "Apr 21, 2026 01:00:17 PM EDT",
+        "lastUpdatedDate": "Apr 21, 2026 02:15:07 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "AG",
+            "description": "Agriculture"
+          }
+        ],
+        "responseDateStr": "2026-06-05-00-00-00",
+        "postingDateStr": "2026-04-21-00-00-00",
+        "archiveDateStr": "2026-07-05-00-00-00",
+        "createTimeStampStr": "2026-04-22-12-16-00"
+      },
+      "agencyDetails": {
+        "code": "AMS",
+        "seed": "USDA-AMS",
+        "agencyName": "Agricultural Marketing Service",
+        "agencyCode": "USDA-AMS",
+        "topAgencyCode": "USDA"
+      },
+      "topAgencyDetails": {
+        "code": "USDA",
+        "seed": "USDA",
+        "agencyName": "Department of Agriculture",
+        "agencyCode": "USDA",
+        "topAgencyCode": "USDA"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79361,
+          "opportunityId": 361995,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 665434,
+          "createdDate": "Apr 22, 2026 12:15:59 PM EDT",
+          "lastUpdatedDate": "Apr 22, 2026 12:16:00 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351426,
+              "opportunityId": 361995,
+              "mimeType": "application/pdf",
+              "fileName": "AMS LFPP NOFO 4-22-26_Compliant_Final.pdf",
+              "fileDescription": "AMS LFPP NOFO 4-22-26_Compliant_Final.pdf",
+              "fileLobSize": 779991,
+              "createdDate": "Apr 22, 2026 12:16:00 PM EDT",
+              "synopsisAttFolderId": 79361
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432822,
+          "opportunityId": 361995,
+          "cfdaNumber": "10.175",
+          "programTitle": "Farmers Market and Local Food Promotion Program"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361995,
+            "revision": 0
+          },
+          "opportunityId": 361995,
+          "revision": 0,
+          "opportunityNumber": "USDA-AMS-TM-LFPP-G-26-0004",
+          "opportunityTitle": "Local Food Promotion Program Fiscal Year 2026",
+          "owningAgencyCode": "USDA-AMS",
+          "publisherUid": "272315922995587219945618497563212961069",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361995,
+              "revision": 0
+            },
+            "opportunityId": 361995,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "USDA-AMS",
+            "agencyAddressDesc": "FMLFPPGrants@usda.gov",
+            "agencyDetails": {
+              "code": "AMS",
+              "seed": "USDA-AMS",
+              "agencyName": "Agricultural Marketing Service",
+              "agencyCode": "USDA-AMS",
+              "topAgencyCode": "USDA"
+            },
+            "agencyContactPhone": "202-260-8449",
+            "agencyContactName": "Agricultural Marketing Service",
+            "agencyContactDesc": "Local Food Promotion Program\nFMLFPPGrants@usda.gov",
+            "agencyContactEmail": "FMLFPPGrants@usda.gov",
+            "agencyContactEmailDesc": "FMLFPPGrants@usda.gov",
+            "synopsisDesc": "The U.S. Department of Agriculture (USDA), Agricultural Marketing Service (AMS), requests applications for the 2026 fiscal year (FY) Local Food Promotion Program (LFPP). LFPP\"s purpose is to support the development, coordination, and expansion of local and regional food business enterprises that engage as intermediaries in indirect producer-to-consumer marketing to increase access to and availability of locally and regionally produced agricultural products.",
+            "responseDate": "Jun 05, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Applications must be submitted electronically no later than 11:59 pm Eastern Time.",
+            "postingDate": "Apr 21, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 05, 2026 12:00:00 AM EDT",
+            "costSharing": true,
+            "numberOfAwards": "55",
+            "estimatedFunding": "13840000",
+            "estimatedFundingFormatted": "13,840,000",
+            "awardCeiling": "500000",
+            "awardCeilingFormatted": "500,000",
+            "awardFloor": "25000",
+            "awardFloorFormatted": "25,000",
+            "applicantEligibilityDesc": "Agricultural Business or CooperativeCommunity Supported Agriculture (CSA) Network or AssociationEconomic Development CorporationFood CouncilLocal GovernmentNonprofit CorporationProducer Network or AssociationPublic Benefit CorporationRegional Farmers Market AuthorityTribal Government",
+            "createTimeStamp": "Apr 21, 2026 01:01:48 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 21, 2026 02:15:07 PM EDT",
+            "createdDate": "Apr 21, 2026 01:00:17 PM EDT",
+            "lastUpdatedDate": "Apr 21, 2026 01:00:17 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "AG",
+                "description": "Agriculture"
+              }
+            ],
+            "responseDateStr": "2026-06-05-00-00-00",
+            "postingDateStr": "2026-04-21-00-00-00",
+            "archiveDateStr": "2026-07-05-00-00-00",
+            "createTimeStampStr": "2026-04-21-13-01-48"
+          },
+          "cfdas": [
+            {
+              "id": 432822,
+              "opportunityId": 361995,
+              "revision": 0,
+              "cfdaNumber": "10.175",
+              "programTitle": "Farmers Market and Local Food Promotion Program"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292461,
+          "topportunityId": 361995,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "USDA-AMS-TM-LFPP-G-26-0004",
+          "opportunityTitle": "Local Food Promotion Program Fiscal Year 2026",
+          "cfdaNumber": "10.175",
+          "openingDate": "2026-04-21",
+          "closingDate": "2026-06-05",
+          "owningAgencyCode": "USDA-AMS",
+          "agencyDetails": {
+            "code": "AMS",
+            "seed": "USDA-AMS",
+            "agencyName": "Agricultural Marketing Service",
+            "agencyCode": "USDA-AMS",
+            "topAgencyCode": "USDA"
+          },
+          "topAgencyDetails": {
+            "code": "USDA",
+            "seed": "USDA",
+            "agencyName": "Department of Agriculture",
+            "agencyCode": "USDA",
+            "topAgencyCode": "USDA"
+          },
+          "programTitle": "Farmers Market and Local Food Promotion Program",
+          "contactInfo": "Local Food Promotion Program",
+          "gracePeriod": 0,
+          "competitionId": "USDA-AMS-TM-LFPP-G-26-0004",
+          "competitionTitle": "Local Food Promotion Program Fiscal Year 2026",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 55,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 22, 2026 12:17:47 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292461",
+          "openingDateStr": "2026-04-21-00-00-00",
+          "closingDateStr": "2026-06-05-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 05, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Applications must be submitted electronically no later than 11:59 pm Eastern Time.",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "applicantEligibilityDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

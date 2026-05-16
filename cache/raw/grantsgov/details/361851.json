@@ -1,0 +1,299 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361851",
+  "fetched_at": "2026-05-16T14:09:17.357Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVkeUZTQU1aV1Z6Sjdsbm43NGRLYWcrL2kxREE3RFNMbTZtMlRCdG00bTA9Ig.FpMkJH37UvsYGm8iovVSKgMIrRD3roBm4at-J31iT0A",
+    "data": {
+      "id": 361851,
+      "revision": 1,
+      "opportunityNumber": "F27AS00007",
+      "opportunityTitle": "F27AS00007 FY 2027 National Coastal Wetlands Conservation Grant Program Notice of Funding Opportunity",
+      "owningAgencyCode": "DOI-FWS",
+      "listed": "L",
+      "publisherUid": "113080850824856438988185809190837265423",
+      "modifiedComments": "To fix error in the title",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361851,
+        "version": 2,
+        "agencyCode": "DOI-FWS",
+        "agencyName": "Fish and Wildlife Service",
+        "agencyPhone": "22041-3803",
+        "agencyAddressDesc": "U.S. Fish and Wildlife Service",
+        "agencyDetails": {
+          "code": "FWS",
+          "seed": "DOI-FWS",
+          "agencyName": "Fish and Wildlife Service",
+          "agencyCode": "DOI-FWS",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactPhone": "22041-3803",
+        "agencyContactName": "Fish and Wildlife Service",
+        "agencyContactDesc": "Christy Vigfusson\nchristy_vigfusson@fws.gov",
+        "agencyContactEmail": "christy_vigfusson@fws.gov",
+        "agencyContactEmailDesc": "U.S. Fish and Wildlife Service",
+        "synopsisDesc": "The National Coastal Wetlands Conservation Grant Program supports the long‐term conservation of coastal wetland ecosystems for the benefit of coastal communities, fish and wildlife and their habitats, and the recreating public. The Program provides designated State and Territory agencies with cost sharing awards for projects that protect and restore valuable coastal wetland resources. Projects may include the acquisition of real property interests in a coastal wetland ecosystem and the restoration, enhancement, or management of coastal wetlands.Coastal wetlands are valued because they protect against flooding, help maintain water quality, and provide habitats for fish and wildlife. Coastal environments are also important economically, generating billions of dollars annually through recreational and commercial fishing, boating, and tourism.The Program is co-administered by the U.S. Fish and Wildlife Service's Coastal Program and the Office of Conservation Investment. For more information, visit the U.S. Fish and Wildlife Service's National Coastal Wetlands Conservation Grants Home Page.",
+        "responseDate": "Jul 09, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date.",
+        "postingDate": "Apr 10, 2026 12:00:00 AM EDT",
+        "archiveDate": "May 03, 2030 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "35",
+        "estimatedFunding": "18000000",
+        "estimatedFundingFormatted": "18,000,000",
+        "awardCeiling": "1000000",
+        "awardCeilingFormatted": "1,000,000",
+        "awardFloor": "50000",
+        "awardFloorFormatted": "50,000",
+        "applicantEligibilityDesc": "Participation is limited to State and Territory agencies designated as eligible by the Governor of each jurisdiction. The eligible agency is usually a natural resource or fish and wildlife agency. Applications from agencies that are not designated as eligible will not be accepted. Applicants that are uncertain of their eligibility should contact the Regional Office of Conservation Investment before preparing or submitting an application (see Basic Information above).Eligible States and Territories are those bordering the Great Lakes, and those bordering the Atlantic, Gulf (except Louisiana), and Pacific coasts. Louisiana is not eligible because it receives separate funding through the Coastal Wetlands Planning, Protection, and Restoration Act (16 U.S.C. 3955 (b)(1)).The complete list of eligible States and Territories is: Alabama, Alaska, American Samoa, California, Connecticut, Delaware, Florida, Georgia, Guam, Hawai&quot;i, Illinois, Indiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, New Hampshire, New Jersey, New York, North Carolina, the Commonwealth of the Northern Mariana Islands, Ohio, Oregon, Pennsylvania, Puerto Rico, Rhode Island, South Carolina, Texas, the U.S. Virgin Islands, Virginia, Washington, and Wisconsin.",
+        "sendEmail": "N",
+        "createTimeStamp": "Apr 10, 2026 12:16:37 PM EDT",
+        "modComments": "To fix error in the title",
+        "createdDate": "Apr 10, 2026 12:14:21 PM EDT",
+        "lastUpdatedDate": "Apr 10, 2026 12:15:44 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "00",
+            "description": "State governments"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          }
+        ],
+        "responseDateStr": "2026-07-09-00-00-00",
+        "postingDateStr": "2026-04-10-00-00-00",
+        "archiveDateStr": "2030-05-03-00-00-00",
+        "createTimeStampStr": "2026-04-10-12-16-37"
+      },
+      "agencyDetails": {
+        "code": "FWS",
+        "seed": "DOI-FWS",
+        "agencyName": "Fish and Wildlife Service",
+        "agencyCode": "DOI-FWS",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79236,
+          "opportunityId": 361851,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 169328,
+          "createdDate": "Apr 10, 2026 12:16:36 PM EDT",
+          "lastUpdatedDate": "Apr 10, 2026 12:16:37 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351101,
+              "opportunityId": 361851,
+              "mimeType": "application/pdf",
+              "fileName": "F27AS00007_FY 2027_National Coastal Wetlands Conservation Grant Program_Notice of Funding Opportunity.pdf",
+              "fileDescription": "F27AS00007_FY 2027_National Coastal Wetlands Conservation Grant Program_Notice of Funding Opportunity.pdf",
+              "fileLobSize": 225063,
+              "createdDate": "Apr 10, 2026 12:16:37 PM EDT",
+              "synopsisAttFolderId": 79236
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432642,
+          "opportunityId": 361851,
+          "cfdaNumber": "15.614",
+          "programTitle": "Coastal Wetlands Planning, Protection and Restoration"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361851,
+            "revision": 0
+          },
+          "opportunityId": 361851,
+          "revision": 0,
+          "opportunityNumber": "F27AS00007",
+          "opportunityTitle": "F27AS00007_FY 2027_National Coastal Wetlands Conservation Grant Program_Notice of Funding Opportunity",
+          "owningAgencyCode": "DOI-FWS",
+          "publisherUid": "113080850824856438988185809190837265423",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361851,
+              "revision": 0
+            },
+            "opportunityId": 361851,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOI-FWS",
+            "agencyAddressDesc": "U.S. Fish and Wildlife Service",
+            "agencyDetails": {
+              "code": "FWS",
+              "seed": "DOI-FWS",
+              "agencyName": "Fish and Wildlife Service",
+              "agencyCode": "DOI-FWS",
+              "topAgencyCode": "DOI"
+            },
+            "agencyContactPhone": "22041-3803",
+            "agencyContactName": "Fish and Wildlife Service",
+            "agencyContactDesc": "Christy Vigfusson\nchristy_vigfusson@fws.gov",
+            "agencyContactEmail": "christy_vigfusson@fws.gov",
+            "agencyContactEmailDesc": "U.S. Fish and Wildlife Service",
+            "synopsisDesc": "The National Coastal Wetlands Conservation Grant Program supports the long‐term conservation of coastal wetland ecosystems for the benefit of coastal communities, fish and wildlife and their habitats, and the recreating public. The Program provides designated State and Territory agencies with cost sharing awards for projects that protect and restore valuable coastal wetland resources. Projects may include the acquisition of real property interests in a coastal wetland ecosystem and the restoration, enhancement, or management of coastal wetlands.Coastal wetlands are valued because they protect against flooding, help maintain water quality, and provide habitats for fish and wildlife. Coastal environments are also important economically, generating billions of dollars annually through recreational and commercial fishing, boating, and tourism.The Program is co-administered by the U.S. Fish and Wildlife Service's Coastal Program and the Office of Conservation Investment. For more information, visit the U.S. Fish and Wildlife Service's National Coastal Wetlands Conservation Grants Home Page.",
+            "responseDate": "Jul 09, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date.",
+            "postingDate": "Apr 10, 2026 12:00:00 AM EDT",
+            "archiveDate": "May 03, 2030 12:00:00 AM EDT",
+            "costSharing": true,
+            "numberOfAwards": "35",
+            "estimatedFunding": "18000000",
+            "estimatedFundingFormatted": "18,000,000",
+            "awardCeiling": "1000000",
+            "awardCeilingFormatted": "1,000,000",
+            "awardFloor": "50000",
+            "awardFloorFormatted": "50,000",
+            "applicantEligibilityDesc": "Participation is limited to State and Territory agencies designated as eligible by the Governor of each jurisdiction. The eligible agency is usually a natural resource or fish and wildlife agency. Applications from agencies that are not designated as eligible will not be accepted. Applicants that are uncertain of their eligibility should contact the Regional Office of Conservation Investment before preparing or submitting an application (see Basic Information above).Eligible States and Territories are those bordering the Great Lakes, and those bordering the Atlantic, Gulf (except Louisiana), and Pacific coasts. Louisiana is not eligible because it receives separate funding through the Coastal Wetlands Planning, Protection, and Restoration Act (16 U.S.C. 3955 (b)(1)).The complete list of eligible States and Territories is: Alabama, Alaska, American Samoa, California, Connecticut, Delaware, Florida, Georgia, Guam, Hawai&quot;i, Illinois, Indiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, New Hampshire, New Jersey, New York, North Carolina, the Commonwealth of the Northern Mariana Islands, Ohio, Oregon, Pennsylvania, Puerto Rico, Rhode Island, South Carolina, Texas, the U.S. Virgin Islands, Virginia, Washington, and Wisconsin.",
+            "createTimeStamp": "Apr 10, 2026 12:14:21 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 10, 2026 12:15:44 PM EDT",
+            "createdDate": "Apr 10, 2026 12:14:21 PM EDT",
+            "lastUpdatedDate": "Apr 10, 2026 12:14:21 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "00",
+                "description": "State governments"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2026-07-09-00-00-00",
+            "postingDateStr": "2026-04-10-00-00-00",
+            "archiveDateStr": "2030-05-03-00-00-00",
+            "createTimeStampStr": "2026-04-10-12-14-21"
+          },
+          "cfdas": [
+            {
+              "id": 432642,
+              "opportunityId": 361851,
+              "revision": 0,
+              "cfdaNumber": "15.614",
+              "programTitle": "Coastal Wetlands Planning, Protection and Restoration"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292383,
+          "topportunityId": 361851,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "F27AS00007",
+          "opportunityTitle": "F27AS00007 FY 2027 National Coastal Wetlands Conservation Grant Program Notice of Funding Opportunity",
+          "cfdaNumber": "15.614",
+          "openingDate": "2026-04-10",
+          "closingDate": "2026-07-09",
+          "owningAgencyCode": "DOI-FWS",
+          "agencyDetails": {
+            "code": "FWS",
+            "seed": "DOI-FWS",
+            "agencyName": "Fish and Wildlife Service",
+            "agencyCode": "DOI-FWS",
+            "topAgencyCode": "DOI"
+          },
+          "topAgencyDetails": {
+            "code": "DOI",
+            "seed": "DOI",
+            "agencyName": "Department of the Interior",
+            "agencyCode": "DOI",
+            "topAgencyCode": "DOI"
+          },
+          "programTitle": "Coastal Wetlands Planning, Protection and Restoration",
+          "contactInfo": "Christy Vigfusson",
+          "competitionId": "F27AS00007",
+          "competitionTitle": "F27AS00007 FY 2027 National Coastal Wetlands Conservation Grant Program Notice of Funding Opportunity",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 35,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 10, 2026 12:16:11 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292383",
+          "openingDateStr": "2026-04-10-00-00-00",
+          "closingDateStr": "2026-07-09-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jul 09, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date.",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "opportunityTitle"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

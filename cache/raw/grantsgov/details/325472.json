@@ -1,0 +1,110 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "325472",
+  "fetched_at": "2026-05-16T14:06:20.951Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InltWWc2bTVYak1CQzRrWlVBNGxkdGtiZTByV1oyaFp0RnZGNkpYV2pOajg9Ig._9SP-J7RuQxyWhmxAiDkZbA89lZ2eP5p5KibLhtHjQs",
+    "data": {
+      "id": 325472,
+      "revision": 0,
+      "opportunityNumber": "L20AS00080",
+      "opportunityTitle": "USDA/USDOI Joint Fire Science Program (JFSP)",
+      "owningAgencyCode": "DOI-BLM",
+      "listed": "L",
+      "publisherUid": "kdeltoro",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "BLM",
+        "seed": "DOI-BLM",
+        "agencyName": "Bureau of Land Management",
+        "agencyCode": "DOI-BLM",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "forecast": {
+        "opportunityId": 325472,
+        "version": 1,
+        "postingDate": "Mar 16, 2020 12:00:00 AM EDT",
+        "forecastDesc": "<p><strong>GRANT OPPORTUNITY FORECAST</strong></p>\n<p><strong>USDA/USDOI Joint Fire Science Program (JFSP)</strong></p>\n<p><strong>Funding Opportunity Announcement (FOA):&nbsp;July – September 2020</strong></p>\n<p><strong>Potential Topics</strong></p>\n<p>March 2020</p>\n<p><br></p>\n<p><strong>Background</strong></p>\n<p>The interagency Joint Fire Science Program (JFSP) intends to request proposals through one or more formal Funding Opportunity Announcements (FOA) beginning approximately July 2020 and remaining open 60 days. The intent of this announcement is to provide an early alert to investigators interested in the topics listed below so that they can begin considering responsive ideas with potential partners and collaborators.</p>\n<p><br></p>\n<p>Investigators should recognize that final decisions regarding topic selection will not be made until Spring of 2020 and that final topic selection may differ from that posted here. One or more topics could be dropped or added, and the specific focus of individual topics may be altered. Investigators should recognize this uncertainty and not invest substantial time or resources working on proposals until the FOAs and their associated topics are formally posted.</p>\n<p><br></p>\n<p><strong><em>Investigators should not contact the JFSP Office or Governing Board members seeking further information on these topics. No further information will be released until the FOAs are formally posted.</em></strong></p>\n<p><br></p>\n<p><strong>&nbsp;Primary FOA</strong></p>\n<p><strong>A.</strong> <strong>Relative impacts of prescribed and wildland fire</strong></p>\n<p>Although the documented benefits of prescribed fire are numerous including habitat improvement and hazardous fuel reduction, there are drawbacks as well, such as reductions in air quality, which may impact human health. Prescribed fire is often implemented with the assumption that it will mitigate the effects of uncontrolled wildfire, because prescribed fire has been shown to reduce the intensity of subsequent wildfire under certain conditions. This is desirable because the impacts of wildfire are usually of a higher magnitude, larger in size and intensity, and pose a risk to public safety. To fully evaluate the trade-offs between prescribed fire programs and current wildfire impacts, an assessment framework is vital. Currently, there is little information on the spatial scale, frequency and spatial pattern at which prescribed fire begins to have an impact on subsequent wildfire extent, intensity and severity.&nbsp;As a result, JFSP is interested in proposals that improve our understanding of the relationship between prescribed fire programs and subsequent wildfire characteristics and this information is needed across a variety of vegetation types and regions.</p>\n<p><br></p>\n<p><strong> B.</strong> <strong>Types and distribution of ignitions and their relation to fire size and impacts</strong></p>\n<p>One approach to reducing the negative impacts of wildfire to social and ecological values is to reduce the occurrence of human-caused wildfire ignitions with targeted wildfire prevention strategies. Planning and implementing effective fire prevention strategies requires detailed knowledge of the temporal and spatial distribution of different wildfire ignition sources (e.g., arson, accidental, lightning) and factors that influence whether different ignition sources lead to development of large wildfires. As a result, JFSP is interested in proposals that evaluate driving factors for the spatial and temporal distribution of ignitions and the effectiveness of different fire prevention actions as they relate to different human-caused ignitions.</p>\n<p><br></p>\n<p><strong>C. Science in support of fuel treatment performance metrics</strong></p>\n<p>While it is relatively easy to document changes in fuels conditions following treatments at finer spatial scales, there is currently no objective framework to link fuel conditions to desired outcomes (e.g., reducing fire intensity and severity, improving fire suppression efficacy, reducing resource loss) at the landscape level. Such information is critical for developing cost-effective strategies to address the threats of wildfire. One possible strategy is to consider the evaluation of fuels treatment programs using a risk framework, where the probability and intensity of wildfire is considered in conjunction with valued resources. The development of a risk framework should assist agencies in measuring the extent and duration of risk reduction that could be achieved from a given fuel treatment. As a result, JFSP is interested in proposals that improve our understanding of the impacts of fuels treatments on fire suppression efficiency and protection of valued resources including the development of fuel treatment performance metrics at landscape scales.&nbsp;</p>\n<p><br></p>\n<p><strong>GRIN FOA - Graduate Research Innovation (GRIN) Award</strong></p>\n<p>In partnership with the Association for Fire Ecology, the Joint Fire Science Program (JFSP) will likely continue the Graduate Research Innovation (GRIN) program for current master and doctoral students in the field of wildland fire and related physical, biological, and social sciences. The purpose of these awards is to enhance student exposure to the management and policy relevance of their research. As a result, these awards will enable graduate students to conduct research that will supplement and enhance the quality, scope, or applicability of their thesis or dissertation to develop information and products useful to managers and decision-makers.</p>\n<p><br></p>\n<p>Proposals must describe new, unfunded work that extends ongoing or planned research that is the subject of a thesis or dissertation that has been approved by the graduate student’s advisory committee. Proposals must be directly related to the mission and goals of JFSP to be considered, and they must address management- or policy-related questions related to<span style=\"color: black;\"> one or more of the following general topic areas: fuels management and fire behavior, emissions and air quality, fire effects and post-fire recovery, relative impacts of prescribed fire versus wildfire, or human dimensions of fire.</span></p>\n<p><br></p>\n<p><strong style=\"color: black;\"><em>Note</em></strong><span style=\"color: black;\">: The specific topics eligible for GRIN proposals identified in the FOA may differ from those listed above.</span></p>\n<p><br></p>\n<p><br></p>",
+        "costSharing": false,
+        "agencyContactName": "Karina I Del Toro\r\nGrants Management Officer",
+        "agencyContactPhone": "208-373-3881",
+        "agencyContactEmail": "kdeltoro@blm.gov",
+        "agencyContactEmailDesc": "kdeltoro@blm.gov",
+        "agencyCode": "DOI-BLM",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "The following types of entities are eligible to apply for award under this announcement. Failure to meet eligibility requirements will result in precluding the BLM from making an award. Types are:\r\n- State, local government, Indian Tribe;\r\n- Institution of Higher Education (IHE);\r\n- Nonprofit Organizations",
+        "fiscalYear": 2020,
+        "createTimeStamp": "Mar 16, 2020 01:46:42 PM EDT",
+        "createdDate": "Mar 16, 2020 01:46:42 PM EDT",
+        "lastUpdatedDate": "Mar 16, 2020 01:46:42 PM EDT",
+        "agencyDetails": {
+          "code": "BLM",
+          "seed": "DOI-BLM",
+          "agencyName": "Bureau of Land Management",
+          "agencyCode": "DOI-BLM",
+          "topAgencyCode": "DOI"
+        },
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2020-03-16-00-00-00",
+        "createTimeStampStr": "2020-03-16-13-46-42"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 379414,
+          "opportunityId": 325472,
+          "cfdaNumber": "15.232",
+          "programTitle": "Joint Fire Science Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

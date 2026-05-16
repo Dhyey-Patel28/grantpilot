@@ -1,0 +1,463 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "347020",
+  "fetched_at": "2026-05-16T14:06:47.064Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ilg0ZmhjYWo2YS9Md21sNHBKLzZzRERyNmlUMyt5U3FLZ3F1cVI0eEE3aEE9Ig.rDU85JYNgqBasUuArJ5-nODuOc8Kd4SinYXgt7AcmBU",
+    "data": {
+      "id": 347020,
+      "revision": 3,
+      "opportunityNumber": "PD-23-1443",
+      "opportunityTitle": "Fluid Dynamics",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 347020,
+        "version": 4,
+        "agencyCode": "NSF",
+        "agencyName": "National Science Foundation",
+        "agencyPhone": "703-292-4261",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4261",
+        "agencyContactName": "National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "TheFluid Dynamicsprogram is part of the Transport Phenomena cluster, which also includes 1) theCombustion and Fire Systemsprogram; 2) theParticulate and Multiphase Processesprogram; and 3) theThermal Transport Processesprogram.\n\r\n\nTheFluid Dynamicsprogram supports fundamental research toward gaining an understanding of the physics of various fluid dynamics phenomena. Proposed research should contribute to basic scientific understanding via experiments, theoretical developments, and computational discovery.\n\r\n\nMajor areas of interest and activity in the program include:\n\r\n<ul type=\"disc\">\r\n<li>Turbulence and transition: High Reynolds number experiments; large eddy simulation; direct numerical simulation; transition to turbulence; 3-D boundary layers; separated flows; multi-phase turbulent flows; flow control and drag reduction. High-speed boundary layer transition and turbulence at Mach numbers greater than 5 to understand modal and/or non-modal interactions leading to boundary layer transition and the ensuing developing and fully developed turbulent boundary layer flows.Combined experiments and simulations are encouraged.</li>\r\n<li>Bio-fluid physics:Bio-inspired flows; biological flows with emphasis on flow physics.</li>\r\n<li>Non-Newtonian fluid mechanics:Single-phase viscoelastic flows; solutions of macro-molecules.</li>\r\n<li>Bubble dynamics: Bubbles related to cavitation and/or drag reduction or impacting the fluid viscosity (locally) or manipulation of bubbles with external excitation (acoustofluidics).</li>\r\n<li>Microfluidics and nanofluidics: Micro-and nano-scale flow physics.</li>\r\n<li>Wind and ocean energy harvesting: Focused on fundamental fluid dynamics associated with renewable energy. The NSF-DOE (Department of Energy) joint funding area is focused on high Reynolds number aerodynamics of thick airfoils (&gt; 21% thickness/chord) operating in complex (3D) steady, unsteady, and separated flows. Impacts of blade surface quality/roughness rotor performance on the aerodynamic/aeroelastic performance of novel rotor geometries and supporting structures are also of interest. Air/sea interactions, including waves/currents, on the hydrodynamic loading for offshore wind turbines. Improved measurement techniques and sensing/control technologies required to characterize the metocean environment impact on performance. The DoE participates in this initiative throughthe Wind Energy Technologies Office (program manager Michael Derby, email: michael.derby@ee.doe.gov).</li>\r\n<li>Fluid-structure interactions:General FSI applications across the low- to high-Reynolds number range are of interest to NSF. In addition, NSF-AFOSR (Air Force Office of Scientific Research) joint funding area is focused on theory, modeling and/or experiments for hypersonic applications. AFOSR participates in this initiative through the Aerothermodynamics program.</li>\r\n<li>Canonicalconfigurations:Experimental research is encouraged to develop spatiotemporally resolveddatabases for canonical configurations to either confirm historicalresults or to provide data in an unexplored parameter region. Fidelity and completeness for theoretical/computational validation is a key attribute of theproposed experimental data.</li>\r\n<li>Artificial intelligence (AI)/machine learning:Innovative AI ideas related to the use of machine learning and other AI approaches in fluid dynamics research to model and control the flows are encouraged.Verifying new models with canonicalconfigurations, when appropriate, is encouraged for theComputational andData-Enabled Science &amp; Engineering(CDS&amp;E) program.</li>\r\n<li>Instrumentation and Flow Diagnostics: Instrument development for time-space resolvedmeasurements; shear stress sensors; novel flow imaging; and velocimetry.</li>\r\n</ul>\r\n\nNOTE:Proposals that use fluid flows as a boundary input condition or a driving force in a problem do not fit within the scope of this program. Proposals focused on particulates (including droplets) two-way coupled with fluids, colloids, and multiphase rheology and processes should be directed to the Particulate andMultiphase Processesprogram. Proposals dealing mainly with materials synthesis, processing and characterization may be more suitable for theAdvanced Manufacturingprogramin the Division of Civil, Mechanical, and Manufacturing Innovation orprograms in theDivision of Materials Research. Proposals dealing primarily with sensors and controls may be more suitable for the Dynamics, Controls, &amp; Cognition program in the Division of Civil, Mechanical, and Manufacturing Innovation. Proposals focused on biological systems may be more suitable forPhysiological and Structural Systemsin the Division of Integrative Organismal Systems.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the \"What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)\" link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged.Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the<a href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503214\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG), Part 1, Chapter II, Section E: Types of Proposals.\n\r\n\nCompliance: Proposalsthat are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review.",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506069",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-23-1443",
+        "postingDate": "Mar 21, 2023 12:00:00 AM EDT",
+        "costSharing": false,
+        "estimatedFunding": "9175000",
+        "estimatedFundingFormatted": "9,175,000",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Feb 24, 2024 12:51:40 AM EST",
+        "modComments": ".",
+        "createdDate": "Mar 21, 2023 01:38:38 PM EDT",
+        "lastUpdatedDate": "Feb 24, 2024 12:51:40 AM EST",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2023-03-21-00-00-00",
+        "createTimeStampStr": "2024-02-24-00-51-40"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 409398,
+          "opportunityId": 347020,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 409419,
+          "opportunityId": 347020
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 347020,
+            "revision": 0
+          },
+          "opportunityId": 347020,
+          "revision": 0,
+          "opportunityNumber": "PD-23-1443",
+          "opportunityTitle": "Fluid Dynamics",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347020,
+              "revision": 0
+            },
+            "opportunityId": 347020,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "TheFluid Dynamicsprogram is part of the Transport Phenomena cluster, which also includes 1) theCombustion and Fire Systemsprogram; 2) theParticulate and Multiphase Processesprogram; and 3) theThermal Transport Processesprogram.\n\r\n\nTheFluid Dynamicsprogram supports fundamental research toward gaining an understanding of the physics of various fluid dynamics phenomena. Proposed research should contribute to basic scientific understanding using and/or creating innovative experimental, theoretical, and/or computational methods.\n\r\n\nMajor areas of interest and activity in the program include:\n\r\n\n&middot;Turbulence and transition: High Reynolds number experiments; large eddy simulation; direct numerical simulation; transition to turbulence; 3-D boundary layers; separated flows; flow control; and drag reduction.High-speed boundary-layer transition and turbulence at Mach numbers greater than 5 to understand modal and/or non-modal interactions leading to boundary layer transition and the ensuing developing and fully developed turbulent boundary layer flows.\n\r\n\n&middot;Bio-fluid physics:Bio-inspired flows; biological flows with emphasis on flow physics.\n\r\n\n&middot;Non-Newtonian fluid mechanics:Viscoelastic flows; solutions of macro-molecules.\n\r\n\n&middot;Microfluidics and nanofluidics: Micro-and nano-scale flow physics.\n\r\n\n&middot;Wind and ocean energy harvesting:Focused on fundamental fluid dynamics associated with renewal energy systems or concepts.\n\r\n\n&middot;Fluid-structure interactions (FSI):Two-way coupled FSI applications across the low- to high-Reynolds number range are of interest to NSF. In addition, NSF-AFOSR (Air Force Office of Scientific Research) joint funding area is focused on theory, modeling and/or experiments for hypersonic applications. Proposals will be jointly reviewed by NSF and AFOSR using the NSF panel format. Actual funding format and agency split for an award will be determined after the proposal selection process. AFOSR participates in this initiative throughtheAerothermodynamics program(program officer<a href=\"mailto:sarah.popkin@us.af.mil\">Dr. Sarah Popkin</a>).\n\r\n\n&middot;Canonicalconfigurations:Experimental research is encouraged to develop spatiotemporally resolveddatabases for canonical configurations to either reaffirm historicaltheories/results or to provide data in an unexplored parameter region. Fidelity and completeness for theoretical/computational validation are key attributes of theproposed experimental data.\n\r\n\n&middot;Artificial intelligence (AI)/machine learning:Innovative AI ideas related to the use of machine learning and other AI approaches in fluid dynamics research are encouraged to model and control the flows.Verifying new models with canonical configurations, when appropriate, is encouraged for submission to theComputational andData-Enabled Science &amp; Engineering(CDS&amp;E 8084) program.\n\r\n\n&middot;Instrumentation and Flow Diagnostics: Instrument development for time-space resolvedmeasurements; shear stress sensors; novel flow imaging; velocimetry; etc.\n\r\n\nNOTE:Proposals that use fluid flows as a boundary input condition or a driving force in a problem do not fit within the scope of this program.Proposals focused on particulates (including droplets) two-way coupled with fluids, colloids, and multiphase rheology and processes should be directed to theParticulate andMultiphase Processesprogram (CBET PD-1415). Proposals dealing mainly with materials synthesis, processing and characterization may be more suitable for theAdvanced Manufacturingprogramin the Division of Civil, Mechanical, and Manufacturing Innovation (ENG/CMMI) orprograms in theDivision of Materials Research (MPS/DMR). Proposals focused on biological systems may be more suitable forPhysiological and Structural Systemsin the Division of Integrative Organismal Systems (BIO/IOS).\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the \"What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)\" link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged.Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the<a href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503214\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG), Part 1, Chapter II, Section E: Types of Proposals.\n\r\n\nCompliance: Proposalsthat are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506069",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-23-1443",
+            "postingDate": "Mar 21, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "estimatedFunding": "9175000",
+            "estimatedFundingFormatted": "9,175,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Mar 21, 2023 01:38:38 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 20, 2023 12:04:09 AM EDT",
+            "createdDate": "Mar 21, 2023 01:38:38 PM EDT",
+            "lastUpdatedDate": "Mar 21, 2023 01:38:38 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-03-21-00-00-00",
+            "createTimeStampStr": "2023-03-21-13-38-38"
+          },
+          "cfdas": [
+            {
+              "id": 409398,
+              "opportunityId": 347020,
+              "revision": 2,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 409419,
+              "opportunityId": 347020,
+              "revision": 2
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 347020,
+            "revision": 1
+          },
+          "opportunityId": 347020,
+          "revision": 1,
+          "opportunityNumber": "PD-23-1443",
+          "opportunityTitle": "Fluid Dynamics",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347020,
+              "revision": 1
+            },
+            "opportunityId": 347020,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "TheFluid Dynamicsprogram is part of the Transport Phenomena cluster, which also includes 1) theCombustion and Fire Systemsprogram; 2) theParticulate and Multiphase Processesprogram; and 3) theThermal Transport Processesprogram.\n\r\n\nTheFluid Dynamicsprogram supports fundamental research toward gaining an understanding of the physics of various fluid dynamics phenomena. Proposed research should contribute to basic scientific understanding using and/or creating innovative experimental, theoretical, and/or computational methods.\n\r\n\nMajor areas of interest and activity in the program include:\n\r\n\n&middot;Turbulence and transition: High Reynolds number experiments; large eddy simulation; direct numerical simulation; transition to turbulence; 3-D boundary layers; separated flows; flow control; and drag reduction.High-speed boundary-layer transition and turbulence at Mach numbers greater than 5 to understand modal and/or non-modal interactions leading to boundary layer transition and the ensuing developing and fully developed turbulent boundary layer flows.\n\r\n\n&middot;Bio-fluid physics:Bio-inspired flows; biological flows with emphasis on flow physics.\n\r\n\n&middot;Non-Newtonian fluid mechanics:Viscoelastic flows; solutions of macro-molecules.\n\r\n\n&middot;Microfluidics and nanofluidics: Micro-and nano-scale flow physics.\n\r\n\n&middot;Wind and ocean energy harvesting:Focused on fundamental fluid dynamics associated with renewal energy systems or concepts.\n\r\n\n&middot;Fluid-structure interactions (FSI):Two-way coupled FSI applications across the low- to high-Reynolds number range are of interest to NSF. In addition, NSF-AFOSR (Air Force Office of Scientific Research) joint funding area is focused on theory, modeling and/or experiments for hypersonic applications. Proposals will be jointly reviewed by NSF and AFOSR using the NSF panel format. Actual funding format and agency split for an award will be determined after the proposal selection process. AFOSR participates in this initiative throughtheAerothermodynamics program(program officer<a href=\"mailto:sarah.popkin@us.af.mil\">Dr. Sarah Popkin</a>).\n\r\n\n&middot;Canonicalconfigurations:Experimental research is encouraged to develop spatiotemporally resolveddatabases for canonical configurations to either reaffirm historicaltheories/results or to provide data in an unexplored parameter region. Fidelity and completeness for theoretical/computational validation are key attributes of theproposed experimental data.\n\r\n\n&middot;Artificial intelligence (AI)/machine learning:Innovative AI ideas related to the use of machine learning and other AI approaches in fluid dynamics research are encouraged to model and control the flows.Verifying new models with canonical configurations, when appropriate, is encouraged for submission to theComputational andData-Enabled Science &amp; Engineering(CDS&amp;E 8084) program.\n\r\n\n&middot;Instrumentation and Flow Diagnostics: Instrument development for time-space resolvedmeasurements; shear stress sensors; novel flow imaging; velocimetry; etc.\n\r\n\nNOTE:Proposals that use fluid flows as a boundary input condition or a driving force in a problem do not fit within the scope of this program.Proposals focused on particulates (including droplets) two-way coupled with fluids, colloids, and multiphase rheology and processes should be directed to theParticulate andMultiphase Processesprogram (CBET PD-1415). Proposals dealing mainly with materials synthesis, processing and characterization may be more suitable for theAdvanced Manufacturingprogramin the Division of Civil, Mechanical, and Manufacturing Innovation (ENG/CMMI) orprograms in theDivision of Materials Research (MPS/DMR). Proposals focused on biological systems may be more suitable forPhysiological and Structural Systemsin the Division of Integrative Organismal Systems (BIO/IOS).\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the \"What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)\" link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged.Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the<a href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503214\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG), Part 1, Chapter II, Section E: Types of Proposals.\n\r\n\nCompliance: Proposalsthat are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506069",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-23-1443",
+            "postingDate": "Mar 21, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "estimatedFunding": "9175000",
+            "estimatedFundingFormatted": "9,175,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "May 20, 2023 12:04:09 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jul 19, 2023 01:00:18 AM EDT",
+            "createdDate": "Mar 21, 2023 01:38:38 PM EDT",
+            "lastUpdatedDate": "May 20, 2023 12:04:09 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-03-21-00-00-00",
+            "createTimeStampStr": "2023-05-20-00-04-09"
+          },
+          "cfdas": [
+            {
+              "id": 409398,
+              "opportunityId": 347020,
+              "revision": 2,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 409419,
+              "opportunityId": 347020,
+              "revision": 2
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 347020,
+            "revision": 2
+          },
+          "opportunityId": 347020,
+          "revision": 2,
+          "opportunityNumber": "PD-23-1443",
+          "opportunityTitle": "Fluid Dynamics",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347020,
+              "revision": 2
+            },
+            "opportunityId": 347020,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "TheFluid Dynamicsprogram is part of the Transport Phenomena cluster, which also includes 1) theCombustion and Fire Systemsprogram; 2) theParticulate and Multiphase Processesprogram; and 3) theThermal Transport Processesprogram.\n\r\n\nTheFluid Dynamicsprogram supports fundamental research toward gaining an understanding of the physics of various fluid dynamics phenomena. Proposed research should contribute to basic scientific understanding via experiments, theoretical developments, and computational discovery.\n\r\n\nMajor areas of interest and activity in the program include:\n\r\n<ul type=\"disc\">\r\n<li>Turbulence and transition: High Reynolds number experiments; large eddy simulation; direct numerical simulation; transition to turbulence; 3-D boundary layers; separated flows; multi-phase turbulent flows; flow control and drag reduction. High-speed boundary layer transition and turbulence at Mach numbers greater than 5 to understand modal and/or non-modal interactions leading to boundary layer transition and the ensuing developing and fully developed turbulent boundary layer flows.Combined experiments and simulations are encouraged.</li>\r\n<li>Bio-fluid physics:Bio-inspired flows; biological flows with emphasis on flow physics.</li>\r\n<li>Non-Newtonian fluid mechanics:Single-phase viscoelastic flows; solutions of macro-molecules.</li>\r\n<li>Bubble dynamics: Bubbles related to cavitation and/or drag reduction or impacting the fluid viscosity (locally) or manipulation of bubbles with external excitation (acoustofluidics).</li>\r\n<li>Microfluidics and nanofluidics: Micro-and nano-scale flow physics.</li>\r\n<li>Wind and ocean energy harvesting: Focused on fundamental fluid dynamics associated with renewable energy. The NSF-DOE (Department of Energy) joint funding area is focused on high Reynolds number aerodynamics of thick airfoils (&gt; 21% thickness/chord) operating in complex (3D) steady, unsteady, and separated flows. Impacts of blade surface quality/roughness rotor performance on the aerodynamic/aeroelastic performance of novel rotor geometries and supporting structures are also of interest. Air/sea interactions, including waves/currents, on the hydrodynamic loading for offshore wind turbines. Improved measurement techniques and sensing/control technologies required to characterize the metocean environment impact on performance. The DoE participates in this initiative throughthe Wind Energy Technologies Office (program manager Michael Derby, email: michael.derby@ee.doe.gov).</li>\r\n<li>Fluid-structure interactions:General FSI applications across the low- to high-Reynolds number range are of interest to NSF. In addition, NSF-AFOSR (Air Force Office of Scientific Research) joint funding area is focused on theory, modeling and/or experiments for hypersonic applications. AFOSR participates in this initiative through the Aerothermodynamics program.</li>\r\n<li>Canonicalconfigurations:Experimental research is encouraged to develop spatiotemporally resolveddatabases for canonical configurations to either confirm historicalresults or to provide data in an unexplored parameter region. Fidelity and completeness for theoretical/computational validation is a key attribute of theproposed experimental data.</li>\r\n<li>Artificial intelligence (AI)/machine learning:Innovative AI ideas related to the use of machine learning and other AI approaches in fluid dynamics research to model and control the flows are encouraged.Verifying new models with canonicalconfigurations, when appropriate, is encouraged for theComputational andData-Enabled Science &amp; Engineering(CDS&amp;E) program.</li>\r\n<li>Instrumentation and Flow Diagnostics: Instrument development for time-space resolvedmeasurements; shear stress sensors; novel flow imaging; and velocimetry.</li>\r\n</ul>\r\n\nNOTE:Proposals that use fluid flows as a boundary input condition or a driving force in a problem do not fit within the scope of this program. Proposals focused on particulates (including droplets) two-way coupled with fluids, colloids, and multiphase rheology and processes should be directed to the Particulate andMultiphase Processesprogram. Proposals dealing mainly with materials synthesis, processing and characterization may be more suitable for theAdvanced Manufacturingprogramin the Division of Civil, Mechanical, and Manufacturing Innovation orprograms in theDivision of Materials Research. Proposals dealing primarily with sensors and controls may be more suitable for the Dynamics, Controls, &amp; Cognition program in the Division of Civil, Mechanical, and Manufacturing Innovation. Proposals focused on biological systems may be more suitable forPhysiological and Structural Systemsin the Division of Integrative Organismal Systems.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the \"What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)\" link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged.Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the<a href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503214\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG), Part 1, Chapter II, Section E: Types of Proposals.\n\r\n\nCompliance: Proposalsthat are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506069",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-23-1443",
+            "postingDate": "Mar 21, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "estimatedFunding": "9175000",
+            "estimatedFundingFormatted": "9,175,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jul 19, 2023 01:00:18 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 24, 2024 12:51:40 AM EST",
+            "createdDate": "Mar 21, 2023 01:38:38 PM EDT",
+            "lastUpdatedDate": "Jul 19, 2023 01:00:18 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-03-21-00-00-00",
+            "createTimeStampStr": "2023-07-19-01-00-18"
+          },
+          "cfdas": [
+            {
+              "id": 409398,
+              "opportunityId": 347020,
+              "revision": 2,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 409419,
+              "opportunityId": 347020,
+              "revision": 2
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 280715,
+          "topportunityId": 347020,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-23-1443",
+          "opportunityTitle": "Fluid Dynamics",
+          "openingDate": "2023-03-21",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Ronald D. Joslin\r\nE-mail: rjoslin@nsf.gov\r\nPhone: (703) 292-7030",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 200,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 01, 2025 09:29:13 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00280715",
+          "openingDateStr": "2023-03-21-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 3,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

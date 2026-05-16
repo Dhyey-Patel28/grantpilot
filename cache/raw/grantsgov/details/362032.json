@@ -1,0 +1,205 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362032",
+  "fetched_at": "2026-05-16T14:09:41.253Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlovOUhRV3FWTlh4SjVxVE1ldXFpYWphQXRqOVZrVFJMVSswMCtLVGxzUFU9Ig._p_DpgVNsYDVw5U20Ifs8S_ju4bO-9XEoDFGPJWH-h0",
+    "data": {
+      "id": 362032,
+      "revision": 0,
+      "opportunityNumber": "HQ003426NFOEFCD01",
+      "opportunityTitle": "WMATA Transportation &ndash; Shuttle Services Route A90",
+      "owningAgencyCode": "DOD-WHS",
+      "listed": "L",
+      "publisherUid": "Nicole.Savoy",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "C",
+        "description": "Continuation"
+      },
+      "synopsis": {
+        "opportunityId": 362032,
+        "version": 1,
+        "agencyCode": "DOD-WHS",
+        "agencyName": "Nicole A Savoy\nGrantor",
+        "agencyPhone": "571-421-7337",
+        "agencyAddressDesc": "Contracting Officer/Specialist",
+        "agencyDetails": {
+          "code": "WHS",
+          "seed": "DOD-WHS",
+          "agencyName": "Washington Headquarters Services",
+          "agencyCode": "DOD-WHS",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "571-421-7337",
+        "agencyContactName": "Nicole A Savoy\nGrantor",
+        "agencyContactDesc": "Nicole A Savoy\r\nGrantor\r\nPhone 571-421-7337",
+        "agencyContactEmail": "nicole.a.savoy.civ@mail.mil",
+        "agencyContactEmailDesc": "Contracting Officer/Specialist",
+        "synopsisDesc": "<p>This program, administered by the Washington Headquarters Services (WHS) of the Department of War (DoW), seeks to fund a Contractor to provide comprehensive bus transportation services for DoW personnel. The primary focus of this funding opportunity is to establish and operate a continual express shuttle bus service, designated as Route A90, between the Pentagon Transit Center (PTC) and the Mark Center Station (MCS) facility.</p><p>The overarching goal of this program is to ensure reliable and efficient ground transportation for DoW employees in the National Capital Region. The key objectives include:</p><p>• Providing driver-operated shuttle bus services.</p><p>• Maintaining and inspecting all transportation vehicles to ensure safety and reliability.</p><p>• Adhering to all necessary license and security requirements.</p><p>• Securing appropriate vehicle insurance and liability coverage.</p><p>• Ensuring buses meet capacity (seating and standing) and accessibility requirements under federal standards.</p><p>Historically, the Pentagon Services Division (PSD), a component of the Executive Services Directorate (ESD) under WHS, has been responsible for providing transportation solutions to DoW employees. This NFO continues that mission by addressing the specific transportation needs created by the location of the Mark Center facility, which is not within walking distance of any mass transit facility.</p>",
+        "responseDate": "May 22, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Apr 23, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 21, 2026 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "1",
+        "awardCeiling": "6440000",
+        "awardCeilingFormatted": "6,440,000",
+        "awardFloor": "1600000",
+        "awardFloorFormatted": "1,600,000",
+        "applicantEligibilityDesc": "The Government intends to make a sole source award under this NFO to WMATA as the only responsible source considering there are no other supplies, services or sources that will satisfy agency requirements. WMATA is the only public transit agency capable of maintaining a continual, uninterrupted express shuttle service with no intermediate stops between the PTC and the MCT. WMATA has historically operated shuttle bus services for the required A90 Route (formerly known as &ldquo;7M&rdquo;) that services the public and DoW employees. Since BRAC the DoW has been supporting WMATA in providing public transportation services that might not have continued after DoW facilities realignment which is a direct public benefit of this cooperative agreement. No other applicants will be reviewed or considered for award under this NFO.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 23, 2026 01:13:00 PM EDT",
+        "createdDate": "Apr 23, 2026 01:09:13 PM EDT",
+        "lastUpdatedDate": "Apr 23, 2026 01:13:00 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "T",
+            "description": "Transportation"
+          }
+        ],
+        "responseDateStr": "2026-05-22-00-00-00",
+        "postingDateStr": "2026-04-23-00-00-00",
+        "archiveDateStr": "2026-06-21-00-00-00",
+        "createTimeStampStr": "2026-04-23-13-13-00"
+      },
+      "agencyDetails": {
+        "code": "WHS",
+        "seed": "DOD-WHS",
+        "agencyName": "Washington Headquarters Services",
+        "agencyCode": "DOD-WHS",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79374,
+          "opportunityId": 362032,
+          "folderType": "Full Announcement",
+          "folderName": "NFO_SOW",
+          "zipLobSize": 765460,
+          "createdDate": "Apr 23, 2026 01:11:10 PM EDT",
+          "lastUpdatedDate": "Apr 23, 2026 01:11:58 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351448,
+              "opportunityId": 362032,
+              "mimeType": "application/pdf",
+              "fileName": "WHS Assistance NFO COOP Final.pdf",
+              "fileDescription": "NFO",
+              "fileLobSize": 393356,
+              "createdDate": "Apr 23, 2026 01:11:58 PM EDT",
+              "synopsisAttFolderId": 79374
+            },
+            {
+              "id": 351447,
+              "opportunityId": 362032,
+              "mimeType": "application/pdf",
+              "fileName": "SOW WMATA Pent-MC-COOP 26 Mar 26.pdf",
+              "fileDescription": "SOW",
+              "fileLobSize": 394312,
+              "createdDate": "Apr 23, 2026 01:11:37 PM EDT",
+              "synopsisAttFolderId": 79374
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432861,
+          "opportunityId": 362032,
+          "cfdaNumber": "12.016",
+          "programTitle": "Transportation - DASH 102X and WMATA 7M Shuttles"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292478,
+          "topportunityId": 362032,
+          "familyId": 16,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "HQ003426NFOEFCD01",
+          "opportunityTitle": "WMATA Transportation – Shuttle Services Route A90",
+          "cfdaNumber": "12.016",
+          "openingDate": "2026-04-23",
+          "closingDate": "2026-05-22",
+          "owningAgencyCode": "DOD-WHS",
+          "agencyDetails": {
+            "code": "WHS",
+            "seed": "DOD-WHS",
+            "agencyName": "Washington Headquarters Services",
+            "agencyCode": "DOD-WHS",
+            "topAgencyCode": "DOD"
+          },
+          "topAgencyDetails": {
+            "code": "DOD",
+            "seed": "DOD",
+            "agencyName": "Department of Defense",
+            "agencyCode": "DOD",
+            "topAgencyCode": "DOD"
+          },
+          "programTitle": "Transportation - DASH 102X and WMATA 7M Shuttles",
+          "contactInfo": "Nicole A Savoy\r\nGrantor\r\nE-mail: nicole.a.savoy.civ@mail.mil\r\nPhone: 571-421-7337",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 1,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 23, 2026 01:16:08 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292478",
+          "openingDateStr": "2026-04-23-00-00-00",
+          "closingDateStr": "2026-05-22-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 22, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

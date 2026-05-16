@@ -1,0 +1,32 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=14867",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=14867",
+  "website": "https://www.grants.gov/search-results-detail/362077",
+  "grant_id": "14867",
+  "title": "Preservation and Reinvestment Initiative for Community Enhancement (PRICE)",
+  "overview": "HUD is issuing the Preservation and Reinvestment Initiative for Community Enhancement (PRICE) competition NOFO to preserve long-term housing affordability for residents of manufactured housing or an MHC, to redevelop MHCs, and to primarily benefit low- and moderate-income (LMI) residents. Congress appropriated in FY2025 these competitive grants to preserve and revitalize manufactured housing and eligible manufactured housing communities and directed HUD to undertake a competition under title I of the Housing and Community Development Act of 1974, as amended (42 U.S.C. 5301 et seq.). Show More",
+  "additional_info": "Posted Date: April 27, 2026 Application Due Date: July 15, 2026 Estimated Award Date: Not Specified Eligible Applicants: State governmentsNative American tribal governments (Federally recognized)UnrestrictedNative American tribal organizations (other than Federally recognized tribal governments)City or township governmentsOthersCounty governments Show More",
+  "eligible_applicants": [
+    "State governmentsNative American tribal governments (Federally recognized)UnrestrictedNative American tribal organizations (other than Federally recognized tribal governments)City or township governmentsOthersCounty governments"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "community_development",
+    "housing"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Housing and Urban Development",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:24:16.355Z",
+  "content_hash": "f023743eff1e2319f4967b45cade040d58fb8460cceb096cd5242cdb1dc0261a",
+  "from_cache": false
+}

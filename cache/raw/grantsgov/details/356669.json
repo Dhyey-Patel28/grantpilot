@@ -1,0 +1,223 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "356669",
+  "fetched_at": "2026-05-16T14:07:27.756Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InRKalZkaHlQeXJkSDl2YmtwNG9sTmtocGQzekFwMW8xNDVEaE55MXU3WUk9Ig.z4DnDbiUVQtpYinKePaBjawbXTuQuHg9FfafL6CupP8",
+    "data": {
+      "id": 356669,
+      "revision": 0,
+      "opportunityNumber": "NOAA-OAR-CPO-2024-28363",
+      "opportunityTitle": "FY 2024 &ndash; 2026 Broad Agency Announcement (BAA), Office of Oceanic and Atmospheric Research (OAR)",
+      "owningAgencyCode": "DOC-DOCNOAAERA",
+      "listed": "L",
+      "publisherUid": "casseus",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 356669,
+        "version": 1,
+        "agencyCode": "DOC-DOCNOAAERA",
+        "agencyName": "Sandra  Casseus\nGrantor",
+        "agencyPhone": "3016281342",
+        "agencyAddressDesc": "Business",
+        "agencyDetails": {
+          "code": "DOCNOAAERA",
+          "seed": "DOC-DOCNOAAERA",
+          "agencyName": "DOC NOAA - ERA Production",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "topAgencyCode": "DOC"
+        },
+        "topAgencyDetails": {
+          "code": "DOC",
+          "seed": "DOC",
+          "agencyName": "Department of Commerce",
+          "agencyCode": "DOC",
+          "topAgencyCode": "DOC"
+        },
+        "agencyContactPhone": "3016281342",
+        "agencyContactName": "Sandra  Casseus\nGrantor",
+        "agencyContactDesc": "Office of Atmospheric Research (OAR)\r\n\r\nDiane Brown, CPO Grants Manager\r\ndiane.brown@noaa.gov\r\nNOAA Climate Program Office (R/CP1)\r\nSSMC3, Room 12737\r\n1315 East-West Highway, Silver Spring, MD 20910",
+        "agencyContactEmail": "diane.brown@noaa.gov",
+        "agencyContactEmailDesc": "Business",
+        "synopsisDesc": "<p><br></p> \n<p><span style=\"background-color: rgb(240, 240, 240); color: rgb(33, 37, 41);\">This notice is not a mechanism to fund existing NOAA awards. The purpose of this notice is to request applications for special projects and programs associated with NOAA's strategic plan and mission goals, as well as to provide the general public with information and guidelines on how NOAA will select applications and administer discretionary Federal assistance under this Broad Agency Announcement (BAA). Each NOAA Line Office that supports financial assistance (National Marine Fisheries Service, National Ocean Service, National Weather Service, Office of Atmospheric Research, Office of Education, and National Environmental Satellite Data Information Service) has a separate BAA found in Grants.gov, so applicants should submit their application to the BAA for the Line Office that best fits their application. A description of NOAA Line Offices is found at&nbsp;</span><a href=\"https://www.corporateservices.noaa.gov/public/lineoffices.html\" target=\"_blank\" style=\"background-color: rgb(240, 240, 240); color: rgb(7, 130, 193);\">https://www.corporateservices.noaa.gov/public/lineoffices.html</a><span style=\"background-color: rgb(240, 240, 240); color: rgb(33, 37, 41);\">&nbsp;and&nbsp;</span><a href=\"https://www.noaa.gov/office-education,\" target=\"_blank\" style=\"background-color: rgb(240, 240, 240); color: rgb(7, 130, 193);\">https://www.noaa.gov/office-education</a><span style=\"background-color: rgb(240, 240, 240); color: rgb(33, 37, 41);\">, and applicants may contact the Agency Contacts in Section VII. below for more information. If you submit the same application to more than one Line Office, mention this in your application and notify the relevant contacts in Section VII. so that NOAA may coordinate internally.</span></p>",
+        "responseDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Oct 09, 2024 12:00:00 AM EDT",
+        "archiveDate": "Oct 30, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "0",
+        "awardCeilingFormatted": "0",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Eligible applicants may be institutions of higher education, nonprofits, commercial organizations, international or foreign organizations or governments, individuals, state, local, and Indian Tribal governments. Eligibility also depends on the statutory authority that permits NOAA to fund the proposed activity. Funding of Federal organizations is outside the scope of this announcement; if funding authority exists, Federal organizations seeking NOAA funds should contact relevant program officials about the interagency agreement process.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Oct 09, 2024 09:20:13 AM EDT",
+        "createdDate": "Oct 09, 2024 09:18:36 AM EDT",
+        "lastUpdatedDate": "Oct 09, 2024 09:18:36 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "BC",
+            "description": "Business and Commerce"
+          },
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-09-30-00-00-00",
+        "postingDateStr": "2024-10-09-00-00-00",
+        "archiveDateStr": "2026-10-30-00-00-00",
+        "createTimeStampStr": "2024-10-09-09-20-13"
+      },
+      "agencyDetails": {
+        "code": "DOCNOAAERA",
+        "seed": "DOC-DOCNOAAERA",
+        "agencyName": "DOC NOAA - ERA Production",
+        "agencyCode": "DOC-DOCNOAAERA",
+        "topAgencyCode": "DOC"
+      },
+      "topAgencyDetails": {
+        "code": "DOC",
+        "seed": "DOC",
+        "agencyName": "Department of Commerce",
+        "agencyCode": "DOC",
+        "topAgencyCode": "DOC"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 74903,
+          "opportunityId": 356669,
+          "folderType": "Full Announcement",
+          "folderName": "NOAA-OAR-CPO-2024-28363",
+          "zipLobSize": 101309,
+          "createdDate": "Oct 09, 2024 09:19:17 AM EDT",
+          "lastUpdatedDate": "Oct 09, 2024 09:19:30 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 343154,
+              "opportunityId": 356669,
+              "mimeType": "application/pdf",
+              "fileName": "NOAA-OAR-CPO-2024-28363.pdf",
+              "fileDescription": "NOFO",
+              "fileLobSize": 120489,
+              "createdDate": "Oct 09, 2024 09:19:30 AM EDT",
+              "synopsisAttFolderId": 74903
+            }
+          ]
+        },
+        {
+          "id": 74904,
+          "opportunityId": 356669,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Other Supporting Documents",
+          "zipLobSize": 169066,
+          "createdDate": "Oct 09, 2024 09:19:43 AM EDT",
+          "lastUpdatedDate": "Oct 09, 2024 09:20:13 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 343155,
+              "opportunityId": 356669,
+              "mimeType": "application/pdf",
+              "fileName": "GMD_Budget_Narrative_Guidance.pdf",
+              "fileDescription": "NOAA GMD Budget Narrative Guidance",
+              "fileLobSize": 176588,
+              "createdDate": "Oct 09, 2024 09:20:13 AM EDT",
+              "synopsisAttFolderId": 74904
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 424110,
+          "opportunityId": 356669,
+          "cfdaNumber": "11.015",
+          "programTitle": "Broad Agency Announcement"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 288074,
+          "topportunityId": 356669,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "NOAA-OAR-CPO-2024-28363",
+          "opportunityTitle": "FY 2024 – 2026 Broad Agency Announcement (BAA), Office of Oceanic and Atmospheric Research (OAR)",
+          "cfdaNumber": "11.015",
+          "openingDate": "2024-10-09",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "DOC-DOCNOAAERA",
+          "agencyDetails": {
+            "code": "DOCNOAAERA",
+            "seed": "DOC-DOCNOAAERA",
+            "agencyName": "DOC NOAA - ERA Production",
+            "agencyCode": "DOC-DOCNOAAERA",
+            "topAgencyCode": "DOC"
+          },
+          "topAgencyDetails": {
+            "code": "DOC",
+            "seed": "DOC",
+            "agencyName": "Department of Commerce",
+            "agencyCode": "DOC",
+            "topAgencyCode": "DOC"
+          },
+          "programTitle": "Broad Agency Announcement",
+          "contactInfo": "Office of Atmospheric Research (OAR)\r\n\r\nDiane Brown, CPO Grants Manager\r\ndiane.brown@noaa.gov\r\nNOAA Climate Program Office (R/CP1)\r\nSSMC3, Room 12737\r\n1315 East-West Highway, Silver Spring, MD 20910",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 10,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 09, 2024 09:26:25 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00288074",
+          "openingDateStr": "2024-10-09-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Sep 30, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

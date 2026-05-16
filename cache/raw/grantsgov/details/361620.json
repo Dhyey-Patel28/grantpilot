@@ -1,0 +1,218 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361620",
+  "fetched_at": "2026-05-16T14:09:03.730Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjIybFF1bXFqaEtMN1RGM20zUkJqV1ZJVHpraXV2R1daVnJVTWFhamtWNmM9Ig.TopY7zW3dvRnwE9UnbuhI4C2ET-0az8_T30H_-dpQ20",
+    "data": {
+      "id": 361620,
+      "revision": 0,
+      "opportunityNumber": "DHS-25-MT-047-00-98",
+      "opportunityTitle": "Fiscal Year 2024 &amp; 2025 Building Resilient Infrastructure and Communities (BRIC)",
+      "owningAgencyCode": "DHS-DHS",
+      "listed": "L",
+      "publisherUid": "rmorenoj",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361620,
+        "version": 1,
+        "agencyCode": "DHS-DHS",
+        "agencyName": "Rogelio B Moreno Jr.\nManagement and Program Analyst",
+        "agencyPhone": "202-786-9752",
+        "agencyAddressDesc": "femago@fema.dhs.gov",
+        "agencyDetails": {
+          "code": "DHS",
+          "seed": "DHS-DHS",
+          "agencyName": "Department of Homeland Security - FEMA",
+          "agencyCode": "DHS-DHS",
+          "topAgencyCode": "DHS"
+        },
+        "topAgencyDetails": {
+          "code": "DHS",
+          "seed": "DHS",
+          "agencyName": "Department of Homeland Security",
+          "agencyCode": "DHS",
+          "topAgencyCode": "DHS"
+        },
+        "agencyContactPhone": "202-786-9752",
+        "agencyContactName": "Rogelio B Moreno Jr.\nManagement and Program Analyst",
+        "agencyContactDesc": "FEMA GO Help Desk\r\n   Phone: 1-877-585-3242\r\n   E-mail: femago@fema.dhs.gov",
+        "agencyContactEmail": "femago@fema.dhs.gov",
+        "agencyContactEmailDesc": "femago@fema.dhs.gov",
+        "synopsisDesc": "<p>The Building Resilient Infrastructure and Communities (BRIC) grant program makes federal funds available to states, U.S. territories, federally recognized tribal governments,, and local governments for hazard mitigation activities. It does so by recognizing the need to upgrade and modernize the nation’s infrastructure against the growing risks to communities and the need for natural hazard risk mitigation activities that promote resilience with respect to natural hazards.</p><p><br></p><p>Certain awards made under this funding opportunity may be funded, in whole or in part, by the Infrastructure Investment and Jobs Act (IIJA). The IIJA appropriates billions of dollars to FEMA to promote resilient infrastructure, respond to the impacts of natural weather disasters, and equip our nation with the resources to combat its most pressing natural hazard threats.</p><p><br></p><p>BRIC aims to shift the focus of federal investments away from reactive post-disaster spending towards proactive infrastructure-focused hazard mitigation. For this funding opportunity, the program prioritizes investment in infrastructure and construction projects that deliver immediate, measurable risk reduction to communities vulnerable to natural hazards. BRIC emphasizes the adoption and enforcement of modern building codes and limits capability- and capacity-building activities to those directly tied to infrastructure resilience, such as building code adoption and enforcement.</p><p><br></p><p>Applicants can submit applications for this funding opportunity through FEMA Grants Outcomes (GO). Access the system at https://go.fema.gov/.\"</p>",
+        "responseDate": "Jul 23, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://www.fema.gov/grants/mitigation/learn/building-resilient-infrastructure-communities",
+        "postingDate": "Mar 25, 2026 12:00:00 AM EDT",
+        "archiveDate": "Aug 22, 2026 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "The Robert T. Stafford Disaster Relief and Emergency Assistance Act, Public Law 93-288, as amended, (42 U.S.C. 5133), Section 203 authorizes FEMA to make grants for the purpose of implementing a sustained pre-disaster natural hazard mitigation program to reduce overall risk to the population and structures from future hazard events, while also reducing reliance on federal funding from future disasters.",
+        "costSharing": true,
+        "estimatedFunding": "1000000000",
+        "estimatedFundingFormatted": "1,000,000,000",
+        "awardCeiling": "150000000",
+        "awardCeilingFormatted": "150,000,000",
+        "awardFloor": "none",
+        "applicantEligibilityDesc": "&quot;U.S. Territories; District of Columbia\r\nLocal governments must apply through their state or territory.&quot;",
+        "sendEmail": "Y",
+        "createTimeStamp": "Mar 26, 2026 12:17:39 PM EDT",
+        "createdDate": "Mar 25, 2026 11:30:08 AM EDT",
+        "lastUpdatedDate": "Mar 25, 2026 11:30:08 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "responseDateStr": "2026-07-23-00-00-00",
+        "postingDateStr": "2026-03-25-00-00-00",
+        "archiveDateStr": "2026-08-22-00-00-00",
+        "createTimeStampStr": "2026-03-26-12-17-39"
+      },
+      "agencyDetails": {
+        "code": "DHS",
+        "seed": "DHS-DHS",
+        "agencyName": "Department of Homeland Security - FEMA",
+        "agencyCode": "DHS-DHS",
+        "topAgencyCode": "DHS"
+      },
+      "topAgencyDetails": {
+        "code": "DHS",
+        "seed": "DHS",
+        "agencyName": "Department of Homeland Security",
+        "agencyCode": "DHS",
+        "topAgencyCode": "DHS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79058,
+          "opportunityId": 361620,
+          "folderType": "Full Announcement",
+          "folderName": "Notice of Funding Opportunity",
+          "zipLobSize": 781631,
+          "createdDate": "Mar 25, 2026 11:32:21 AM EDT",
+          "lastUpdatedDate": "Mar 26, 2026 12:17:39 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350708,
+              "opportunityId": 361620,
+              "mimeType": "application/pdf",
+              "fileName": "FY_2024 &amp; 2025_BRIC_NOFO_FINAL 1.pdf",
+              "fileDescription": "FY_2024&amp;2025_BRIC_NOFO_Final.pdf",
+              "fileLobSize": 823868,
+              "createdDate": "Mar 25, 2026 11:33:36 AM EDT",
+              "lastUpdatedDate": "Mar 26, 2026 12:17:39 PM EDT",
+              "synopsisAttFolderId": 79058
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432375,
+          "opportunityId": 361620,
+          "cfdaNumber": "97.047",
+          "programTitle": "BRIC: Building Resilient Infrastructure and Communities"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292197,
+          "topportunityId": 361620,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "DHS-25-MT-047-00-98",
+          "opportunityTitle": "Fiscal Year 2024 & 2025 Building Resilient Infrastructure and Communities (BRIC)",
+          "cfdaNumber": "97.047",
+          "openingDate": "2026-03-25",
+          "closingDate": "2026-07-23",
+          "owningAgencyCode": "DHS-DHS",
+          "agencyDetails": {
+            "code": "DHS",
+            "seed": "DHS-DHS",
+            "agencyName": "Department of Homeland Security - FEMA",
+            "agencyCode": "DHS-DHS",
+            "topAgencyCode": "DHS"
+          },
+          "topAgencyDetails": {
+            "code": "DHS",
+            "seed": "DHS",
+            "agencyName": "Department of Homeland Security",
+            "agencyCode": "DHS",
+            "topAgencyCode": "DHS"
+          },
+          "programTitle": "BRIC: Building Resilient Infrastructure and Communities",
+          "contactInfo": "FEMA Grants Information Desk\r\nfema-grants-news@fema.dhs.gov",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 110,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 25, 2026 11:45:50 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292197",
+          "openingDateStr": "2026-03-25-00-00-00",
+          "closingDateStr": "2026-07-23-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jul 23, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

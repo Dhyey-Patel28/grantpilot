@@ -1,0 +1,655 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "345938",
+  "fetched_at": "2026-05-16T14:06:44.842Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ilg0ZmhjYWo2YS9Md21sNHBKLzZzRExOZVdXVjk0RFNtcldST3N1YkdySlU9Ig.ifsmMsLUOiU3dtoImTEbyn0p_n27FZSYdc2f7FU96ws",
+    "data": {
+      "id": 345938,
+      "revision": 3,
+      "opportunityNumber": "HQ003423NFOEASD01",
+      "opportunityTitle": "NDEP STEM Open NFO",
+      "owningAgencyCode": "DOD-WHS",
+      "listed": "L",
+      "publisherUid": "jebertsch",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 345938,
+        "version": 5,
+        "agencyCode": "DOD-WHS",
+        "agencyName": "Jonathan Bertsch\nGrantor",
+        "agencyPhone": "7035453559",
+        "agencyAddressDesc": "E-Mail",
+        "agencyDetails": {
+          "code": "WHS",
+          "seed": "DOD-WHS",
+          "agencyName": "Washington Headquarters Services",
+          "agencyCode": "DOD-WHS",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "7035453559",
+        "agencyContactName": "Jonathan Bertsch\nGrantor",
+        "agencyContactDesc": "Jonathan Bertsch\r\nGrants Officer",
+        "agencyContactEmail": "jonathan.e.bertsch.civ@mail.mil",
+        "agencyContactEmailDesc": "E-Mail",
+        "synopsisDesc": "<p><strong><em><u>This is an open NFO, applicants may apply to this posting or subsequent amendments for specific STEM activities. See the Related Documents tab for the full NFO, and amendments announcing new funding opportunities.</u></em></strong></p> \n<p><br></p> \n<p>The Department of War (DoW) Office of the Under Secretary of War for Research and Engineering (OUSW(R&amp;E)) seeks innovative applications on mechanisms to implement and research the effectiveness of STEM education, outreach, and/or workforce initiative programs, here onto referred as STEM activities.</p> \n<p><br></p> \n<p>In response to this NFO, the Department intends to release amendments and solicitations, such as Industry Days, Opportunity Days, etc., detailing funding opportunities through award(s) in STEM activities. These activities include, but are not limited to:</p> \n<p><br></p> \n<ol> \n <li>STEM Education and Outreach</li> \n <li>Support for STEM Education at Two-Year Institutions/Community Colleges (2YI/CCs)</li> \n <li>Manufacturing Engineering Education Program</li> \n <li>Education and Workforce Development aligned to the DoW Critical Technology Areas</li> \n <li>STEM Scholarship Programs</li> \n <li>Strategic Partnerships</li> \n <li>Program Evaluations, Assessments, Data Analytics and Visualizations</li> \n <li>Other NDEP Congressional Initiatives and Programs</li> \n</ol> \n<p><br></p> \n<p>As funding becomes available, NFO amendments or Industry Day/Opportunity Day announcements detailing opening and closing dates for topics of interest will be posted. In response, applicants may be asked for a mandatory white paper submission, emailed to <a target=\"_blank\">osw.ndep.dowstem@mail.mil</a>. Refer to the amendment for formatting the email subject line. Use of the white paper is intended to determine which efforts are of merit preparatory to submission of a full application as described in Section IV. Applicants will be selected from the white paper submissions to be invited by the Government via email to submit a full application on Grants.gov for evaluation and possible award consideration. White papers that fail to address the areas listed in the Program Description of the NFO amendment or Industry Day/Opportunity Day announcement will not be evaluated and will not receive an invitation to submit a full technical application.</p> \n<p><br></p> \n<p>White paper submissions will only be accepted in response to active NFO amendments or Industry Day/Opportunity Day announcements. In addition to the submission requirements outlined in Section IV, all responses should address items in the specific NFO amendment or Industry Day/Opportunity Day announcement.</p>",
+        "responseDate": "Feb 08, 2028 12:00:00 AM EST",
+        "responseDateDesc": "",
+        "postingDate": "Feb 09, 2023 12:00:00 AM EST",
+        "archiveDate": "Mar 09, 2028 12:00:00 AM EST",
+        "costSharing": false,
+        "awardCeiling": "10000000",
+        "awardCeilingFormatted": "10,000,000",
+        "awardFloor": "100000",
+        "awardFloorFormatted": "100,000",
+        "applicantEligibilityDesc": "Eligible applicants include: industry, non-profit institutions, institutions of higher education, state and/or local educational agencies, or consortia of such institutions and/or industry. Foreign entities will not be considered.",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 07, 2026 02:11:11 PM EDT",
+        "modComments": "Updated synopsis description",
+        "createdDate": "Feb 09, 2023 12:08:05 PM EST",
+        "lastUpdatedDate": "Apr 23, 2026 10:13:19 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ED",
+            "description": "Education"
+          }
+        ],
+        "responseDateStr": "2028-02-08-00-00-00",
+        "postingDateStr": "2023-02-09-00-00-00",
+        "archiveDateStr": "2028-03-09-00-00-00",
+        "createTimeStampStr": "2026-05-07-14-11-11"
+      },
+      "agencyDetails": {
+        "code": "WHS",
+        "seed": "DOD-WHS",
+        "agencyName": "Washington Headquarters Services",
+        "agencyCode": "DOD-WHS",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 77625,
+          "opportunityId": 345938,
+          "folderType": "Revised Full Announcement",
+          "folderName": "NDEP STEM Open NFO Revised",
+          "zipLobSize": 720383,
+          "createdDate": "May 09, 2025 03:09:38 PM EDT",
+          "lastUpdatedDate": "Mar 23, 2026 03:13:32 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350678,
+              "opportunityId": 345938,
+              "mimeType": "application/pdf",
+              "fileName": "H08 HQ003423NFOEASD01 STEM NFO 20260323.pdf",
+              "fileDescription": "NDEP STEM NFO Revised 20260323",
+              "fileLobSize": 806554,
+              "createdDate": "Mar 23, 2026 03:13:32 PM EDT",
+              "synopsisAttFolderId": 77625
+            }
+          ]
+        },
+        {
+          "id": 79044,
+          "opportunityId": 345938,
+          "folderType": "Other Supporting Documents",
+          "folderName": "FY26 Amendments",
+          "zipLobSize": 335633,
+          "createdDate": "Mar 23, 2026 03:13:51 PM EDT",
+          "lastUpdatedDate": "May 07, 2026 02:10:57 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350679,
+              "opportunityId": 345938,
+              "mimeType": "application/pdf",
+              "fileName": "H08 HQ003423NFOEASD01 Amd 5 MEEP 20260323.pdf",
+              "fileDescription": "NDEP STEM NFO Amendment 5 Manufacturing Engineering Education Program",
+              "fileLobSize": 182565,
+              "createdDate": "Mar 23, 2026 03:14:31 PM EDT",
+              "synopsisAttFolderId": 79044
+            },
+            {
+              "id": 351843,
+              "opportunityId": 345938,
+              "mimeType": "application/pdf",
+              "fileName": "H08 STEM NFO_Amendment06_JROTC_20260507 Rev1.pdf",
+              "fileDescription": "NDEP STEM NFO Amendment 6 JROTC STEM Leadership Academy (Revision 1)",
+              "fileLobSize": 176942,
+              "createdDate": "May 07, 2026 09:41:57 AM EDT",
+              "lastUpdatedDate": "May 07, 2026 02:10:57 PM EDT",
+              "synopsisAttFolderId": 79044
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "May 07, 2026 02:11:11 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "May 07, 2026"
+          },
+          "changeComments": "Revised Amendment 6 uploaded"
+        },
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "May 07, 2026 09:42:22 AM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "May 07, 2026"
+          },
+          "changeComments": "Added Amendment 6 JROTC STEM Leadership Academy"
+        },
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "Mar 23, 2026 03:14:45 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Mar 23, 2026"
+          },
+          "changeComments": "Revised NFO and Amendment 5 posted"
+        },
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "May 09, 2025 03:10:09 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "May 09, 2025"
+          },
+          "changeComments": "Revised and updated NDEP STEM NFO has been posted"
+        },
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "Jul 29, 2024 07:54:08 AM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Jul 29, 2024"
+          },
+          "changeComments": "Full Announcement folder has been updated with latest NFO revision"
+        },
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "May 14, 2024 08:04:53 AM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "May 14, 2024"
+          },
+          "changeComments": "Revised Full Announcement - Amendments has been updated with a Q&A document"
+        },
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "Mar 01, 2024 12:29:13 PM EST",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Mar 01, 2024"
+          },
+          "changeComments": "Amendment 05 modified to reflect new White Paper deadline of 5 March 2024 at 2359 Eastern"
+        },
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "Jan 19, 2024 04:37:33 PM EST",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Jan 19, 2024"
+          },
+          "changeComments": "Related documents updated to include revised NFO and new Amendment 05."
+        },
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "May 03, 2023 01:51:28 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "May 03, 2023"
+          },
+          "changeComments": "Amendments 1 through 4 have been updated to reflect a modified timeline."
+        },
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "May 02, 2023 07:59:28 AM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "May 02, 2023"
+          },
+          "changeComments": "The NDEP STEM Open NFO document was updated to remove conflicting page limit information for Project Narrative submissions."
+        },
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "Apr 03, 2023 10:22:42 AM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Apr 03, 2023"
+          },
+          "changeComments": "The purpose of this modification is to update Amendments 01 through 04 with revised key dates."
+        },
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "Feb 13, 2023 10:06:51 AM EST",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Feb 13, 2023"
+          },
+          "changeComments": "The purpose of this modification is to correct several typos in Amendments 01 through 04."
+        },
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "Feb 09, 2023 03:05:20 PM EST",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Feb 09, 2023"
+          },
+          "changeComments": "Updated Amendments 2 and 3 with revised ceiling amounts."
+        },
+        {
+          "id": {
+            "opportunityId": 345938,
+            "attType": "D",
+            "createdDate": "Feb 09, 2023 03:05:20 PM EST",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Feb 09, 2023"
+          },
+          "changeComments": "Updated Amendments 2 and 3 with revised ceiling amounts."
+        }
+      ],
+      "cfdas": [
+        {
+          "id": 408005,
+          "opportunityId": 345938,
+          "cfdaNumber": "12.006",
+          "programTitle": "National Defense Education Program"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 345938,
+            "revision": 0
+          },
+          "opportunityId": 345938,
+          "revision": 0,
+          "opportunityNumber": "HQ003423NFOEASD01",
+          "opportunityTitle": "NDEP STEM Open NFO",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "jebertsch",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 345938,
+              "revision": 0
+            },
+            "opportunityId": 345938,
+            "revision": 0,
+            "version": 2,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "E-Mail",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "7035453559",
+            "agencyContactName": "Jonathan Bertsch\nGrantor",
+            "agencyContactDesc": "Jonathan Bertsch\r\nGrants Officer",
+            "agencyContactEmail": "jonathan.e.bertsch.civ@mail.mil",
+            "agencyContactEmailDesc": "E-Mail",
+            "synopsisDesc": "<p><strong><em><u>See the Related Documents tab for the full NFO, and amendments announcing new funding opportunities.</u></em></strong></p><p><br></p><p>The Department of Defense (DoD) Office of the Under Secretary of Defense for Research and Engineering (OUSD(R&amp;E)) seeks innovative applications on mechanisms to implement and research the effectiveness of STEM education, outreach, and/or workforce initiative programs, here onto referred as STEM activities.</p><p><br></p><p>In response to this NFO, the Department intends to release amendments and solicitations, such as Industry Days, Opportunity Days, etc., detailing funding opportunities through award(s) in STEM activities. These activities include, but are not limited to:</p><p><br></p><ol><li>STEM Education and Outreach</li><li>Support for STEM Education at Two-Year Institutions/Community Colleges (2YI/CCs)</li><li>Manufacturing Engineering Education Program</li><li>Education and Workforce Development aligned to the DoD Critical Technology Areas</li><li>Enhanced Civics Education</li><li>STEM Scholarship Programs</li><li>Strategic Partnerships</li><li>Program Evaluations and Assessments</li><li>Data Analytics and Visualizations</li><li>Activities aligned to the DoD STEM Strategic Plan</li><li>Other NDEP Congressional Initiatives and Programs</li></ol><p><br></p><p>In response to this NFO, applicants may be asked for a mandatory white paper submission, emailed to osd.dodstem@mail.mil. Use of the white paper is intended to determine which efforts are of merit preparatory to submission of a full application as described in Section IV. Applicants will be selected from the white paper submissions to be <strong><em><u>invited by the Government via email</u></em></strong> to submit a full application on Grants.gov for evaluation and possible award consideration. White papers that fail to address the areas listed in the Program Description of the NFO amendment or Industry Day/Opportunity Day announcement will not be evaluated and will not receive an invitation to submit a full technical application.</p><p><br></p><p>The submission of a white paper is dependent on the NFO amendment or Industry Day/Opportunity Day announcement. In addition to the submission requirements outlined in Section IV, all responses should address items in the specific NFO amendment or Industry Day/Opportunity Day announcement.</p>",
+            "responseDate": "Feb 08, 2028 12:00:00 AM EST",
+            "postingDate": "Feb 09, 2023 12:00:00 AM EST",
+            "archiveDate": "Mar 09, 2028 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "10000000",
+            "awardCeilingFormatted": "10,000,000",
+            "awardFloor": "100000",
+            "awardFloorFormatted": "100,000",
+            "applicantEligibilityDesc": "Eligible applicants include: industry, non-profit institutions, institutions of higher education, state and/or local educational agencies, or consortia of such institutions and/or industry. Foreign entities will not be considered.",
+            "createTimeStamp": "Aug 15, 2024 03:18:05 PM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Aug 15, 2024 03:21:26 PM EDT",
+            "createdDate": "Feb 09, 2023 12:08:05 PM EST",
+            "lastUpdatedDate": "Feb 09, 2023 02:15:50 PM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              }
+            ],
+            "responseDateStr": "2028-02-08-00-00-00",
+            "postingDateStr": "2023-02-09-00-00-00",
+            "archiveDateStr": "2028-03-09-00-00-00",
+            "createTimeStampStr": "2024-08-15-15-18-05"
+          },
+          "cfdas": [
+            {
+              "id": 408005,
+              "opportunityId": 345938,
+              "revision": 2,
+              "cfdaNumber": "12.006",
+              "programTitle": "National Defense Education Program"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 345938,
+            "revision": 1
+          },
+          "opportunityId": 345938,
+          "revision": 1,
+          "opportunityNumber": "HQ003423NFOEASD01",
+          "opportunityTitle": "NDEP STEM Open NFO",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "jebertsch",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 345938,
+              "revision": 1
+            },
+            "opportunityId": 345938,
+            "revision": 1,
+            "version": 3,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "E-Mail",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "7035453559",
+            "agencyContactName": "Jonathan Bertsch\nGrantor",
+            "agencyContactDesc": "Jonathan Bertsch\r\nGrants Officer",
+            "agencyContactEmail": "jonathan.e.bertsch.civ@mail.mil",
+            "agencyContactEmailDesc": "E-Mail",
+            "synopsisDesc": "<p><strong><em><u>This is an open NFO, applicants may apply to this posting or subsequent amendments for specific STEM activities. See the Related Documents tab for the full NFO, and amendments announcing new funding opportunities.</u></em></strong></p><p><br></p><p>The Department of Defense (DoD) Office of the Under Secretary of Defense for Research and Engineering (OUSD(R&amp;E)) seeks innovative applications on mechanisms to implement and research the effectiveness of STEM education, outreach, and/or workforce initiative programs, here onto referred as STEM activities.</p><p><br></p><p>In response to this NFO, the Department intends to release amendments and solicitations, such as Industry Days, Opportunity Days, etc., detailing funding opportunities through award(s) in STEM activities. These activities include, but are not limited to:</p><p><br></p><ol><li>STEM Education and Outreach</li><li>Support for STEM Education at Two-Year Institutions/Community Colleges (2YI/CCs)</li><li>Manufacturing Engineering Education Program</li><li>Education and Workforce Development aligned to the DoD Critical Technology Areas</li><li>Enhanced Civics Education</li><li>STEM Scholarship Programs</li><li>Strategic Partnerships</li><li>Program Evaluations and Assessments</li><li>Data Analytics and Visualizations</li><li>Activities aligned to the DoD STEM Strategic Plan</li><li>Other NDEP Congressional Initiatives and Programs</li></ol><p><br></p><p>In response to this NFO, applicants may be asked for a mandatory white paper submission, emailed to osd.dodstem@mail.mil. Use of the white paper is intended to determine which efforts are of merit preparatory to submission of a full application as described in Section IV. Applicants will be selected from the white paper submissions to be <strong><em><u>invited by the Government via email</u></em></strong> to submit a full application on Grants.gov for evaluation and possible award consideration. White papers that fail to address the areas listed in the Program Description of the NFO amendment or Industry Day/Opportunity Day announcement will not be evaluated and will not receive an invitation to submit a full technical application.</p><p><br></p><p>The submission of a white paper is dependent on the NFO amendment or Industry Day/Opportunity Day announcement. In addition to the submission requirements outlined in Section IV, all responses should address items in the specific NFO amendment or Industry Day/Opportunity Day announcement.</p>",
+            "responseDate": "Feb 08, 2028 12:00:00 AM EST",
+            "responseDateDesc": "",
+            "postingDate": "Feb 09, 2023 12:00:00 AM EST",
+            "archiveDate": "Mar 09, 2028 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "10000000",
+            "awardCeilingFormatted": "10,000,000",
+            "awardFloor": "100000",
+            "awardFloorFormatted": "100,000",
+            "applicantEligibilityDesc": "Eligible applicants include: industry, non-profit institutions, institutions of higher education, state and/or local educational agencies, or consortia of such institutions and/or industry. Foreign entities will not be considered.",
+            "createTimeStamp": "May 09, 2025 03:10:09 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "This modification clarifies that applicants may apply to this NFO as well as to specific amendments.",
+            "actionType": "U",
+            "actionDate": "May 20, 2025 03:05:58 PM EDT",
+            "createdDate": "Feb 09, 2023 12:08:05 PM EST",
+            "lastUpdatedDate": "Aug 15, 2024 03:21:26 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              }
+            ],
+            "responseDateStr": "2028-02-08-00-00-00",
+            "postingDateStr": "2023-02-09-00-00-00",
+            "archiveDateStr": "2028-03-09-00-00-00",
+            "createTimeStampStr": "2025-05-09-15-10-09"
+          },
+          "cfdas": [
+            {
+              "id": 408005,
+              "opportunityId": 345938,
+              "revision": 2,
+              "cfdaNumber": "12.006",
+              "programTitle": "National Defense Education Program"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "responseDateDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 345938,
+            "revision": 2
+          },
+          "opportunityId": 345938,
+          "revision": 2,
+          "opportunityNumber": "HQ003423NFOEASD01",
+          "opportunityTitle": "NDEP STEM Open NFO",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "jebertsch",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 345938,
+              "revision": 2
+            },
+            "opportunityId": 345938,
+            "revision": 2,
+            "version": 4,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "E-Mail",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "7035453559",
+            "agencyContactName": "Jonathan Bertsch\nGrantor",
+            "agencyContactDesc": "Jonathan Bertsch\r\nGrants Officer",
+            "agencyContactEmail": "jonathan.e.bertsch.civ@mail.mil",
+            "agencyContactEmailDesc": "E-Mail",
+            "synopsisDesc": "<p><strong><em><u>This is an open NFO, applicants may apply to this posting or subsequent amendments for specific STEM activities. See the Related Documents tab for the full NFO, and amendments announcing new funding opportunities.</u></em></strong></p><p><br></p><p>The Department of Defense (DoD) Office of the Under Secretary of Defense for Research and Engineering (OUSD(R&amp;E)) seeks innovative applications on mechanisms to implement and research the effectiveness of STEM education, outreach, and/or workforce initiative programs, here onto referred as STEM activities.</p><p><br></p><p>In response to this NFO, the Department intends to release amendments and solicitations, such as Industry Days, Opportunity Days, etc., detailing funding opportunities through award(s) in STEM activities. These activities include, but are not limited to:</p><p><br></p><ol><li>STEM Education and Outreach</li><li>Support for STEM Education at Two-Year Institutions/Community Colleges (2YI/CCs)</li><li>Manufacturing Engineering Education Program</li><li>Education and Workforce Development aligned to the DoD Critical Technology Areas</li><li>STEM Scholarship Programs</li><li>Strategic Partnerships</li><li>Program Evaluations, Assessments, Data Analytics and Visualizations</li><li>Other NDEP Congressional Initiatives and Programs</li></ol><p><br></p><p>As funding becomes available, NFO amendments or Industry Day/Opportunity Day announcements detailing opening and closing dates for topics of interest will be posted. In response, applicants may be asked for a mandatory white paper submission, emailed to osd.dodstem@mail.mil. Refer to the amendment for formatting the email subject line. Use of the white paper is intended to determine which efforts are of merit preparatory to submission of a full application as described in Section IV. Applicants will be selected from the white paper submissions to be <strong><em><u>invited by the Government via email</u></em></strong> to submit a full application on Grants.gov for evaluation and possible award consideration. White papers that fail to address the areas listed in the Program Description of the NFO amendment or Industry Day/Opportunity Day announcement will not be evaluated and will not receive an invitation to submit a full technical application.</p><p><br></p><p>White paper submissions will only be accepted in response to active NFO amendments or Industry Day/Opportunity Day announcements. In addition to the submission requirements outlined in Section IV, all responses should address items in the specific NFO amendment or Industry Day/Opportunity Day announcement.</p>",
+            "responseDate": "Feb 08, 2028 12:00:00 AM EST",
+            "responseDateDesc": "",
+            "postingDate": "Feb 09, 2023 12:00:00 AM EST",
+            "archiveDate": "Mar 09, 2028 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "10000000",
+            "awardCeilingFormatted": "10,000,000",
+            "awardFloor": "100000",
+            "awardFloorFormatted": "100,000",
+            "applicantEligibilityDesc": "Eligible applicants include: industry, non-profit institutions, institutions of higher education, state and/or local educational agencies, or consortia of such institutions and/or industry. Foreign entities will not be considered.",
+            "createTimeStamp": "Mar 23, 2026 03:14:45 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "Synopsis updated to reflect revised NFO posted in May 2025.",
+            "actionType": "U",
+            "actionDate": "Apr 23, 2026 10:13:19 AM EDT",
+            "createdDate": "Feb 09, 2023 12:08:05 PM EST",
+            "lastUpdatedDate": "May 20, 2025 03:05:58 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              }
+            ],
+            "responseDateStr": "2028-02-08-00-00-00",
+            "postingDateStr": "2023-02-09-00-00-00",
+            "archiveDateStr": "2028-03-09-00-00-00",
+            "createTimeStampStr": "2026-03-23-15-14-45"
+          },
+          "cfdas": [
+            {
+              "id": 408005,
+              "opportunityId": 345938,
+              "revision": 2,
+              "cfdaNumber": "12.006",
+              "programTitle": "National Defense Education Program"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 279796,
+          "topportunityId": 345938,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "HQ003423NFOEASD01",
+          "opportunityTitle": "NDEP STEM Open NFO",
+          "cfdaNumber": "12.006",
+          "openingDate": "2023-02-09",
+          "closingDate": "2028-02-08",
+          "owningAgencyCode": "DOD-WHS",
+          "agencyDetails": {
+            "code": "WHS",
+            "seed": "DOD-WHS",
+            "agencyName": "Washington Headquarters Services",
+            "agencyCode": "DOD-WHS",
+            "topAgencyCode": "DOD"
+          },
+          "topAgencyDetails": {
+            "code": "DOD",
+            "seed": "DOD",
+            "agencyName": "Department of Defense",
+            "agencyCode": "DOD",
+            "topAgencyCode": "DOD"
+          },
+          "programTitle": "National Defense Education Program",
+          "contactInfo": "Jonathan Bertsch\r\nGrants Officer\r\nE-mail: jonathan.e.bertsch.civ@mail.mil",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 50,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 28, 2023 11:28:56 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00279796",
+          "openingDateStr": "2023-02-09-00-00-00",
+          "closingDateStr": "2028-02-08-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Feb 08, 2028 12:00:00 AM EST",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 3,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

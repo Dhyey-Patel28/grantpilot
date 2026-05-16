@@ -1,0 +1,142 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361908",
+  "fetched_at": "2026-05-16T14:09:22.969Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlJVWndyVTk1UWk0d3lDYXRJcUR5RDhiemFtQTRSeW4zNStHbTRWeGxtZkU9Ig.bUX12bnVLxkiFbkx4G_NU8YMkHYqJdmzQ3Vos0RaPy8",
+    "data": {
+      "id": 361908,
+      "revision": 0,
+      "opportunityNumber": "HHS-2026-ACF-ANA-NEG-0120",
+      "opportunityTitle": "Economic Advancement Grants for Local Empowerment (EAGLE)",
+      "owningAgencyCode": "HHS-ACF-ANA",
+      "publisherUid": "63890787833131766027530892347803189092",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "ANA",
+        "seed": "HHS-ACF-ANA",
+        "agencyName": "Administration for Children and Families - ANA",
+        "agencyCode": "HHS-ACF-ANA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 361908,
+        "version": 1,
+        "postingDate": "Apr 15, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>The Administration for Native Americans anticipates announcing the availability of funds and requesting applications for EAGLE: Economic Advancement Grants for Local Empowerment, supporting socioeconomic and cultural success for Native communities through business creation in regenerative agriculture, artificial intelligence, tribal energy sovereignty, and human capital development.&nbsp;</p><p>The primary goals are to 1) support Native capacity, health, employability, and resourcefulness; 2) foster sustainable economic growth through job creation, infrastructure, and wealth-building; and 3) accelerate economic development and optimize governance. ANA intends to fully fund FY 2026 EAGLE awards for three years, with the NOFO including multiple Program Areas (PAs): Seventh-Generation Greenhouses to expand affordable, nutritious food production and local enterprise; Microgrids to enhance energy reliability, resilience, and independence; Welders to Elders to promote workforce development and community resilience; Tradition in Action—A Native Elder Program to support cultural education, intergenerational knowledge transfer, and leadership pipelines; and Indigenous Designs to Empower and Advance Self-Determination (IDEAS) to enable community-designed solutions to priority needs.</p>",
+        "costSharing": true,
+        "numberOfAwards": "31",
+        "estimatedFunding": "24000000",
+        "awardCeiling": "1000000",
+        "awardFloor": "300000",
+        "fundingDescLinkUrl": "https://www.acf.hhs.gov/ana",
+        "fundingDescLinkDesc": "https://www.acf.hhs.gov/ana",
+        "agencyContactName": "Carmelia Strickland",
+        "agencyContactPhone": "(202) 401-6741",
+        "agencyContactEmail": "Carmelia.Strickland@acf.hhs.gov",
+        "agencyContactEmailDesc": "Carmelia.Strickland@acf.hhs.gov",
+        "agencyCode": "HHS-ACF-ANA",
+        "applicantEligibilityDesc": "Pursuant to 42 U.S.C. &sect;2991b and 45 CFR &sect;1336.33, eligible applicants under this announcement are: Federally-recognized Indian tribes, as recognized by the Bureau of Indian Affairs (BIA); Incorporated non-federally recognized tribes; Incorporated state-recognized Indian tribes; Consortia of Indian tribes; Incorporated non-profit multi-purpose community-based Indian organizations (including Urban Indian Organizations as defined by 25 U.S.C &sect;1603(29)); Urban Indian Centers; Native Community Development Financial Institutions (Native CDFIs); Alaska Native villages as defined in the Alaska Native Claims Settlement Act (ANCSA) and/or non-profit village consortia; Non-profit native organizations in Alaska with village-specific projects; Incorporated non-profit Alaska Native multipurpose, community-based organizations; Non-profit Alaska Native Regional Corporations/Associations in Alaska with village-specific projects; Non-profit Alaska Native community entities or tribal governing bodies (Indian Reorganization Act or Traditional Councils) as recognized by the BIA; Public and non-profit private agencies serving Native Hawaiians; National or regional incorporated non-profit Native American organizations with Native American community-specific objectives; Public and non-profit private agencies serving Native peoples from Guam, American Samoa, or the Commonwealth of the Northern Mariana Islands; Tribal Colleges and Universities, and colleges and universities located in Hawaii, Guam, American Samoa, or the Commonwealth of the Northern Mariana Islands that serve Native American Pacific Islanders. Applications from individuals (including sole proprietorships) and foreign entities are not eligible and will be disqualified from the merit review and funding under this funding opportunity. Faith-based and community organizations that meet the eligibility requirements are eligible for awards under this funding opportunity.",
+        "estSynopsisPostingDate": "Jun 03, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Aug 02, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm Eastern Standard Time on the listed application due date.",
+        "estAwardDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "Apr 15, 2026 12:55:07 PM EDT",
+        "createdDate": "Apr 15, 2026 12:55:07 PM EDT",
+        "lastUpdatedDate": "Apr 15, 2026 12:55:07 PM EDT",
+        "agencyDetails": {
+          "code": "ANA",
+          "seed": "HHS-ACF-ANA",
+          "agencyName": "Administration for Children and Families - ANA",
+          "agencyCode": "HHS-ACF-ANA",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "24,000,000",
+        "awardCeilingFormatted": "1,000,000",
+        "awardFloorFormatted": "300,000",
+        "applicantTypes": [
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ISS",
+            "description": "Income Security and Social Services"
+          }
+        ],
+        "postingDateStr": "2026-04-15-00-00-00",
+        "estSynopsisPostingDateStr": "2026-06-03-00-00-00",
+        "estApplicationResponseDateStr": "2026-08-02-00-00-00",
+        "estAwardDateStr": "2026-09-30-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-04-15-12-55-07"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432718,
+          "opportunityId": 361908,
+          "cfdaNumber": "93.612",
+          "programTitle": "Native American Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

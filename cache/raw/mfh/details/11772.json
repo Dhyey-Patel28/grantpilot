@@ -1,0 +1,34 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=11772",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=11772",
+  "website": "https://www.grants.gov/search-results-detail/306167",
+  "grant_id": "11772",
+  "title": "Operations Engineering",
+  "overview": "The Operations Engineering (OE) program supports fundamental research on advanced analytical methods for improving operations in complex decision-driven environments. Analytical methods include, but are not limited to, deterministic and stochastic modeling, optimization, decision and risk analysis, data science, and simulation. Methodological research is highly encouraged but must be motivated by problems that have potential for high impact in engineering applications. Application domains of particular interest to the program arise in commercial enterprises (e.g., production/manufacturing systems and distribution of goods, delivery of services), the public sector/government (e.g., public safety and security), and public/private partnerships (e.g., health care, environment and energy). The program also welcomes operations research in new and emerging domains and addressing systemic societal or technological problems. The OE program particularly values cross-disciplinary proposals that leverage application-specific expertise with strong quantitative analysis in a decision-making context. Proposals for methodological research that are not strongly motivated by high-potential engineering applications are not appropriate for this program.PIs are encouraged to send any program inquiries to both Program Directors. Show More",
+  "additional_info": "Posted Date: June 12, 2018 Application Due Date: Not Specified Estimated Award Date: Not Specified Eligible Applicants: Unrestricted Show More",
+  "eligible_applicants": [
+    "Unrestricted"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "energy",
+    "environment",
+    "health",
+    "public_safety"
+  ],
+  "due_date": "",
+  "agency": "National Science Foundation",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:04.051Z",
+  "content_hash": "3dd9d235402a26c253f5610742490d76c5152ba0c654b3f0ca4a375c5222fbbc",
+  "from_cache": false
+}

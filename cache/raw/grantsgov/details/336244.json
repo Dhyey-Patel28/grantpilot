@@ -1,0 +1,433 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "336244",
+  "fetched_at": "2026-05-16T14:06:34.650Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjkrZ2Z5SmxTVnh4QU5mdkxwdlJjajNQb0RRcm53V0tnODRDSzVpY0d4czg9Ig.Jt87HYmFlBHNufKALWR0mycVUeXHBQu51RQtav-YIz0",
+    "data": {
+      "id": 336244,
+      "revision": 3,
+      "opportunityNumber": "ESP22APS",
+      "opportunityTitle": "Mission Spain Public Diplomacy 2022 Annual Program Statement",
+      "owningAgencyCode": "DOS-ESP",
+      "listed": "L",
+      "publisherUid": "Spainpdgrants",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "M",
+        "description": "Mandatory"
+      },
+      "synopsis": {
+        "opportunityId": 336244,
+        "version": 2,
+        "agencyCode": "DOS-ESP",
+        "agencyName": "Sabine Weiler\nGrantor",
+        "agencyPhone": "34915872516",
+        "agencyAddressDesc": "Contact SpainPDGrants@state.gov for any questions and application submissions",
+        "agencyDetails": {
+          "code": "ESP",
+          "seed": "DOS-ESP",
+          "agencyName": "U.S. Mission to Spain",
+          "agencyCode": "DOS-ESP",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "34915872516",
+        "agencyContactName": "Sabine Weiler\nGrantor",
+        "agencyContactDesc": "U.S. Mission to Spain\r\nPublic Diplomacy Section (PD Spain)",
+        "agencyContactEmail": "SpainPDGrants@state.gov",
+        "agencyContactEmailDesc": "Contact SpainPDGrants@state.gov for any questions and application submissions",
+        "synopsisDesc": "<p><br></p>\n<p>The Public Diplomacy Section (PD Spain) of the U.S. Embassy Madrid and U.S. Consulate General Barcelona&nbsp;welcomes proposals for creative, engaging projects that line up with PD Spain’s main objectives. That includes:&nbsp;</p>\n<p>&nbsp;</p>\n<ol>\n <li><span style=\"color: windowtext;\">Promote citizen participation in the fight against the </span><strong style=\"color: windowtext;\">climate crisis</strong><span style=\"color: windowtext;\"> and facilitate better knowledge of the policies and actions of the United States in this area.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Ensure&nbsp;that Spanish and /or Andorran students know the United States as a destination for their training, for summer work programs and for learning English.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Promote</span><strong style=\"color: windowtext;\"> security and defense alliances</strong><span style=\"color: windowtext;\"> between the United States and Spain and the Atlantic Alliance (NATO).&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Communicate the importance of Spain being the venue for the </span><strong style=\"color: windowtext;\">2022 NATO Summit</strong><span style=\"color: windowtext;\">, the role that Spain plays within NATO and the strategic concept of NATO&nbsp;in the near future.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Explain the value of initiatives dedicated to </span><strong style=\"color: windowtext;\">women, peace and security</strong><span style=\"color: windowtext;\">.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Support the areas of</span><strong style=\"color: windowtext;\"> entrepreneurship, innovation and STEM</strong><span style=\"color: windowtext;\"> to increase economic opportunities for young people in Spain and / or Andorra.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Increase knowledge about how to do business in the US and highlight the role of Spain and Andorra in the </span><strong style=\"color: windowtext;\">global digital economy</strong><span style=\"color: windowtext;\">.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Expand the reach of </span><strong style=\"color: windowtext;\">media literacy</strong><span style=\"color: windowtext;\"> and support the media education programs of Spanish institutions with useful and accurate tools to increase understanding of false information and other tactics, to render misinformation campaigns targeting Spain ineffective.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Communicate about the common values that the United States, Spain and the EU share and about the promotion of respect for </span><strong style=\"color: windowtext;\">human rights</strong><span style=\"color: windowtext;\">, </span><strong style=\"color: windowtext;\">democracy </strong><span style=\"color: windowtext;\">and the need for </span><strong style=\"color: windowtext;\">democratic changes </strong><span style=\"color: windowtext;\">in places like Venezuela, Cuba and Nicaragua, the power of the law against impunity, privacy, international order based on common rules, and a fair playing field.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Encourage collaboration between Spanish and /or Andorran and American organizations that share the </span><strong style=\"color: windowtext;\">defense of human rights</strong><span style=\"color: windowtext;\">.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Explore topics such as the rights of LGBTQI + community, racism, sexism, and the rights of people with disabilities.&nbsp;</span></li>\n <li><strong style=\"color: windowtext;\">Promote the rights and equality</strong><span style=\"color: windowtext;\"> of women, ethnic and religious minorities, the LGBTQI + community, refugees and migrants, people with disabilities and other&nbsp;marginalized&nbsp;populations in Spain and / or Andorra.&nbsp;</span></li>\n</ol>\n<p><u style=\"color: windowtext;\">&nbsp;</u></p>\n<p><strong><u>All programs should ensure they promote diversity and inclusion.</u></strong><u>&nbsp;</u></p>\n<p>&nbsp;</p>\n<p>Please be aware that projects funded through this APS must include an American element. That could involve a connection or partnership between Spanish&nbsp;and/or Andorran&nbsp;and American organizations or institutions. For example,&nbsp;an American expert&nbsp;could&nbsp;take part, in person or virtually, in your project. Activities might highlight or examine shared values&nbsp;between Spain and/or Andorra and the United States, national interests, etc. You may incorporate a U.S. approach or method you have learned about to addressing an issue or challenge facing your community, institution, or profession.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Grant activities may take any number of forms, including academic competitions, cross-border exchanges, conferences, workshops, courses, curriculum development, exhibits, hackathons or app development, online projects, mock trials or moot court competitions, simulations and role-playing activities (<em>e.g.</em>, Model Congress, Model United Nations), performances, or other activities.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Project&nbsp;timelines&nbsp;should&nbsp;start no earlier than December 1, 2021,&nbsp;and&nbsp;start&nbsp;no later than September 30, 2022,&nbsp;with all activities being completed no later than&nbsp;December 2023.&nbsp;&nbsp;All activities and your evaluation or assessment of the project should be completed within 18 months&nbsp;of&nbsp;starting the project.&nbsp;</p>\n<p><br></p>\n<p><br></p>",
+        "responseDateDesc": "December 2, 2021 (first round of applications will be reviewed)January 15, 2022 (second round, if funds still remain)",
+        "fundingDescLinkUrl": "https://es.usembassy.gov/education-culture/grants-programs/",
+        "fundingDescLinkDesc": "Link to website for application instructions and further information",
+        "postingDate": "Nov 02, 2021 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "PD Spain announces an open competition for the funding of grants in response to the issuance of the 2022 Annual Program Statement (APS).",
+        "costSharing": false,
+        "estimatedFunding": "200000",
+        "estimatedFundingFormatted": "200,000",
+        "awardCeiling": "75000",
+        "awardCeilingFormatted": "75,000",
+        "awardFloor": "25000",
+        "awardFloorFormatted": "25,000",
+        "applicantEligibilityDesc": "The following entities, from Spain, Andorra, or the United States, are eligible to apply:  &bull;Not-for-Profit organizations, including educational and cultural institutions &bull; Civil society organizations &bull;Non-governmental organizations &bull;Think tanks &bull;Professional associations  &bull;Media outlets &bull;Governmental institutions and public international organizations  &bull;Individual citizens, including alumni of U.S. Government (USG) exchange programs, who have a demonstrated capacity or proven track record to carry out the proposed activities.  To be eligible for consideration, Spanish or Andorran-based applicant organizations must be registered in their respective host country. Businesses and other for-profit organization may not apply for funding under this APS.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Nov 02, 2021 10:29:44 AM EDT",
+        "modComments": "updated date",
+        "createdDate": "Nov 02, 2021 09:40:00 AM EDT",
+        "lastUpdatedDate": "Nov 02, 2021 10:29:44 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "postingDateStr": "2021-11-02-00-00-00",
+        "createTimeStampStr": "2021-11-02-10-29-44"
+      },
+      "agencyDetails": {
+        "code": "ESP",
+        "seed": "DOS-ESP",
+        "agencyName": "U.S. Mission to Spain",
+        "agencyCode": "DOS-ESP",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "forecast": {
+        "opportunityId": 336244,
+        "version": 2,
+        "postingDate": "Nov 02, 2021 12:00:00 AM EDT",
+        "archiveDate": "Nov 01, 2021 12:00:00 AM EDT",
+        "forecastDesc": "<p><br></p><p>The Public Diplomacy Section (PD Spain) of the U.S. Embassy Madrid and U.S. Consulate General Barcelona&nbsp;welcomes proposals for creative, engaging projects that line up with PD Spain’s main objectives. That includes:&nbsp;</p><p>&nbsp;</p><ol> <li><span style=\"color: windowtext;\">Promote citizen participation in the fight against the </span><strong style=\"color: windowtext;\">climate crisis</strong><span style=\"color: windowtext;\"> and facilitate better knowledge of the policies and actions of the United States in this area.&nbsp;</span></li> <li><span style=\"color: windowtext;\">Ensure&nbsp;that Spanish and /or Andorran students know the United States as a destination for their training, for summer work programs and for learning English.&nbsp;</span></li> <li><span style=\"color: windowtext;\">Promote</span><strong style=\"color: windowtext;\"> security and defense alliances</strong><span style=\"color: windowtext;\"> between the United States and Spain and the Atlantic Alliance (NATO).&nbsp;</span></li> <li><span style=\"color: windowtext;\">Communicate the importance of Spain being the venue for the </span><strong style=\"color: windowtext;\">2022 NATO Summit</strong><span style=\"color: windowtext;\">, the role that Spain plays within NATO and the strategic concept of NATO&nbsp;in the near future.&nbsp;</span></li> <li><span style=\"color: windowtext;\">Explain the value of initiatives dedicated to </span><strong style=\"color: windowtext;\">women, peace and security</strong><span style=\"color: windowtext;\">.&nbsp;</span></li> <li><span style=\"color: windowtext;\">Support the areas of</span><strong style=\"color: windowtext;\"> entrepreneurship, innovation and STEM</strong><span style=\"color: windowtext;\"> to increase economic opportunities for young people in Spain and / or Andorra.&nbsp;</span></li> <li><span style=\"color: windowtext;\">Increase knowledge about how to do business in the US and highlight the role of Spain and Andorra in the </span><strong style=\"color: windowtext;\">global digital economy</strong><span style=\"color: windowtext;\">.&nbsp;</span></li> <li><span style=\"color: windowtext;\">Expand the reach of </span><strong style=\"color: windowtext;\">media literacy</strong><span style=\"color: windowtext;\"> and support the media education programs of Spanish institutions with useful and accurate tools to increase understanding of false information and other tactics, to render misinformation campaigns targeting Spain ineffective.&nbsp;</span></li> <li><span style=\"color: windowtext;\">Communicate about the common values that the United States, Spain and the EU share and about the promotion of respect for </span><strong style=\"color: windowtext;\">human rights</strong><span style=\"color: windowtext;\">, </span><strong style=\"color: windowtext;\">democracy </strong><span style=\"color: windowtext;\">and the need for </span><strong style=\"color: windowtext;\">democratic changes </strong><span style=\"color: windowtext;\">in places like Venezuela, Cuba and Nicaragua, the power of the law against impunity, privacy, international order based on common rules, and a fair playing field.&nbsp;</span></li> <li><span style=\"color: windowtext;\">Encourage collaboration between Spanish and /or Andorran and American organizations that share the </span><strong style=\"color: windowtext;\">defense of human rights</strong><span style=\"color: windowtext;\">.&nbsp;</span></li> <li><span style=\"color: windowtext;\">Explore topics such as the rights of LGBTQI + community, racism, sexism, and the rights of people with disabilities.&nbsp;</span></li> <li><strong style=\"color: windowtext;\">Promote the rights and equality</strong><span style=\"color: windowtext;\"> of women, ethnic and religious minorities, the LGBTQI + community, refugees and migrants, people with disabilities and other&nbsp;marginalized&nbsp;populations in Spain and / or Andorra.&nbsp;</span></li></ol><p><u style=\"color: windowtext;\">&nbsp;</u></p><p><strong><u>All programs should ensure they promote diversity and inclusion.</u></strong><u>&nbsp;</u></p><p>&nbsp;</p><p>Please be aware that projects funded through this APS must include an American element. That could involve a connection or partnership between Spanish&nbsp;and/or Andorran&nbsp;and American organizations or institutions. For example,&nbsp;an American expert&nbsp;could&nbsp;take part, in person or virtually, in your project. Activities might highlight or examine shared values&nbsp;between Spain and/or Andorra and the United States, national interests, etc. You may incorporate a U.S. approach or method you have learned about to addressing an issue or challenge facing your community, institution, or profession.&nbsp;</p><p>&nbsp;</p><p>Grant activities may take any number of forms, including academic competitions, cross-border exchanges, conferences, workshops, courses, curriculum development, exhibits, hackathons or app development, online projects, mock trials or moot court competitions, simulations and role-playing activities (<em>e.g.</em>, Model Congress, Model United Nations), performances, or other activities.&nbsp;</p><p>&nbsp;</p><p>Project&nbsp;timelines&nbsp;should&nbsp;start no earlier than December 1, 2021,&nbsp;and&nbsp;start&nbsp;no later than September 30, 2022,&nbsp;with all activities being completed no later than&nbsp;December 2023.&nbsp;&nbsp;All activities and your evaluation or assessment of the project should be completed within 18 months&nbsp;of&nbsp;starting the project.&nbsp;</p><p><br></p><p><br></p>",
+        "fundingActivityCategoryDesc": "PD Spain announces an open competition for the funding of grants in response to the issuance of the 2022 Annual Program Statement (APS).",
+        "costSharing": false,
+        "estimatedFunding": "200000",
+        "awardCeiling": "75000",
+        "awardFloor": "25000",
+        "fundingDescLinkUrl": "https://es.usembassy.gov/education-culture/grants-programs/",
+        "fundingDescLinkDesc": "Link to website for application instructions and further information",
+        "agencyContactName": "U.S. Mission to Spain and Andorra \r\nPublic Diplomacy Section (PD Spain)",
+        "agencyContactPhone": "N/A",
+        "agencyContactEmail": "SpainPDGrants@state.gov",
+        "agencyContactEmailDesc": "Contact SpainPDGrants@state.gov for any questions and application submissions",
+        "agencyCode": "DOS-ESP",
+        "applicantEligibilityDesc": "The following entities, from Spain, Andorra, or the United States, are eligible to apply:  &bull;Not-for-Profit organizations, including educational and cultural institutions &bull; Civil society organizations &bull;Non-governmental organizations &bull;Think tanks &bull;Professional associations  &bull;Media outlets &bull;Governmental institutions and public international organizations  &bull;Individual citizens, including alumni of U.S. Government (USG) exchange programs, who have a demonstrated capacity or proven track record to carry out the proposed activities.  To be eligible for consideration, Spanish or Andorran-based applicant organizations must be registered in their respective host country. Businesses and other for-profit organization may not apply for funding under this APS.",
+        "estApplicationResponseDate": "Nov 30, 2021 12:00:00 AM EST",
+        "estApplicationResponseDateDesc": "January 15, 2022 (second round, if funds still remain)",
+        "fiscalYear": 2022,
+        "modComments": "Updated Archive Date",
+        "createTimeStamp": "Nov 02, 2021 09:40:00 AM EDT",
+        "createdDate": "Oct 21, 2021 09:28:33 AM EDT",
+        "lastUpdatedDate": "Nov 02, 2021 09:40:00 AM EDT",
+        "agencyDetails": {
+          "code": "ESP",
+          "seed": "DOS-ESP",
+          "agencyName": "U.S. Mission to Spain",
+          "agencyCode": "DOS-ESP",
+          "topAgencyCode": "DOS"
+        },
+        "estimatedFundingFormatted": "200,000",
+        "awardCeilingFormatted": "75,000",
+        "awardFloorFormatted": "25,000",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "postingDateStr": "2021-11-02-00-00-00",
+        "archiveDateStr": "2021-11-01-00-00-00",
+        "estApplicationResponseDateStr": "2021-11-30-00-00-00",
+        "createTimeStampStr": "2021-11-02-09-40-00"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 395400,
+          "opportunityId": 336244,
+          "cfdaNumber": "19.040",
+          "programTitle": "Public Diplomacy Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 336244,
+            "revision": 1
+          },
+          "opportunityId": 336244,
+          "revision": 1,
+          "opportunityNumber": "ESP22APS",
+          "opportunityTitle": "Mission Spain Public Diplomacy 2022 Annual Program Statement",
+          "owningAgencyCode": "DOS-ESP",
+          "publisherUid": "Spainpdgrants",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "M",
+            "description": "Mandatory"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 336244,
+              "revision": 1
+            },
+            "opportunityId": 336244,
+            "revision": 1,
+            "version": 1,
+            "postingDate": "Nov 02, 2021 12:00:00 AM EDT",
+            "forecastDesc": "<p><br></p>\n<p>The Public Diplomacy Section (PD Spain) of the U.S. Embassy Madrid and U.S. Consulate General Barcelona&nbsp;welcomes proposals for creative, engaging projects that line up with PD Spain’s main objectives. That includes:&nbsp;</p>\n<p>&nbsp;</p>\n<ol>\n <li><span style=\"color: windowtext;\">Promote citizen participation in the fight against the </span><strong style=\"color: windowtext;\">climate crisis</strong><span style=\"color: windowtext;\"> and facilitate better knowledge of the policies and actions of the United States in this area.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Ensure&nbsp;that Spanish and /or Andorran students know the United States as a destination for their training, for summer work programs and for learning English.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Promote</span><strong style=\"color: windowtext;\"> security and defense alliances</strong><span style=\"color: windowtext;\"> between the United States and Spain and the Atlantic Alliance (NATO).&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Communicate the importance of Spain being the venue for the </span><strong style=\"color: windowtext;\">2022 NATO Summit</strong><span style=\"color: windowtext;\">, the role that Spain plays within NATO and the strategic concept of NATO&nbsp;in the near future.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Explain the value of initiatives dedicated to </span><strong style=\"color: windowtext;\">women, peace and security</strong><span style=\"color: windowtext;\">.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Support the areas of</span><strong style=\"color: windowtext;\"> entrepreneurship, innovation and STEM</strong><span style=\"color: windowtext;\"> to increase economic opportunities for young people in Spain and / or Andorra.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Increase knowledge about how to do business in the US and highlight the role of Spain and Andorra in the </span><strong style=\"color: windowtext;\">global digital economy</strong><span style=\"color: windowtext;\">.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Expand the reach of </span><strong style=\"color: windowtext;\">media literacy</strong><span style=\"color: windowtext;\"> and support the media education programs of Spanish institutions with useful and accurate tools to increase understanding of false information and other tactics, to render misinformation campaigns targeting Spain ineffective.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Communicate about the common values that the United States, Spain and the EU share and about the promotion of respect for </span><strong style=\"color: windowtext;\">human rights</strong><span style=\"color: windowtext;\">, </span><strong style=\"color: windowtext;\">democracy </strong><span style=\"color: windowtext;\">and the need for </span><strong style=\"color: windowtext;\">democratic changes </strong><span style=\"color: windowtext;\">in places like Venezuela, Cuba and Nicaragua, the power of the law against impunity, privacy, international order based on common rules, and a fair playing field.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Encourage collaboration between Spanish and /or Andorran and American organizations that share the </span><strong style=\"color: windowtext;\">defense of human rights</strong><span style=\"color: windowtext;\">.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Explore topics such as the rights of LGBTQI + community, racism, sexism, and the rights of people with disabilities.&nbsp;</span></li>\n <li><strong style=\"color: windowtext;\">Promote the rights and equality</strong><span style=\"color: windowtext;\"> of women, ethnic and religious minorities, the LGBTQI + community, refugees and migrants, people with disabilities and other&nbsp;marginalized&nbsp;populations in Spain and / or Andorra.&nbsp;</span></li>\n</ol>\n<p><u style=\"color: windowtext;\">&nbsp;</u></p>\n<p><strong><u>All programs should ensure they promote diversity and inclusion.</u></strong><u>&nbsp;</u></p>\n<p>&nbsp;</p>\n<p>Please be aware that projects funded through this APS must include an American element. That could involve a connection or partnership between Spanish&nbsp;and/or Andorran&nbsp;and American organizations or institutions. For example,&nbsp;an American expert&nbsp;could&nbsp;take part, in person or virtually, in your project. Activities might highlight or examine shared values&nbsp;between Spain and/or Andorra and the United States, national interests, etc. You may incorporate a U.S. approach or method you have learned about to addressing an issue or challenge facing your community, institution, or profession.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Grant activities may take any number of forms, including academic competitions, cross-border exchanges, conferences, workshops, courses, curriculum development, exhibits, hackathons or app development, online projects, mock trials or moot court competitions, simulations and role-playing activities (<em>e.g.</em>, Model Congress, Model United Nations), performances, or other activities.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Project&nbsp;timelines&nbsp;should&nbsp;start no earlier than December 1, 2021,&nbsp;and&nbsp;start&nbsp;no later than September 30, 2022,&nbsp;with all activities being completed no later than&nbsp;December 2023.&nbsp;&nbsp;All activities and your evaluation or assessment of the project should be completed within 18 months&nbsp;of&nbsp;starting the project.&nbsp;</p>\n<p><br></p>\n<p><br></p>",
+            "fundingActivityCategoryDesc": "PD Spain announces an open competition for the funding of grants in response to the issuance of the 2022 Annual Program Statement (APS).",
+            "costSharing": false,
+            "estimatedFunding": "200000",
+            "awardCeiling": "75000",
+            "awardFloor": "25000",
+            "fundingDescLinkUrl": "https://es.usembassy.gov/education-culture/grants-programs/",
+            "fundingDescLinkDesc": "Link to website for application instructions and further information",
+            "agencyContactName": "U.S. Mission to Spain and Andorra \r\nPublic Diplomacy Section (PD Spain)",
+            "agencyContactPhone": "N/A",
+            "agencyContactEmail": "SpainPDGrants@state.gov",
+            "agencyContactEmailDesc": "Contact SpainPDGrants@state.gov for any questions and application submissions",
+            "agencyCode": "DOS-ESP",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "The following entities, from Spain, Andorra, or the United States, are eligible to apply:  &bull;Not-for-Profit organizations, including educational and cultural institutions &bull; Civil society organizations &bull;Non-governmental organizations &bull;Think tanks &bull;Professional associations  &bull;Media outlets &bull;Governmental institutions and public international organizations  &bull;Individual citizens, including alumni of U.S. Government (USG) exchange programs, who have a demonstrated capacity or proven track record to carry out the proposed activities.  To be eligible for consideration, Spanish or Andorran-based applicant organizations must be registered in their respective host country. Businesses and other for-profit organization may not apply for funding under this APS.",
+            "estApplicationResponseDate": "Nov 30, 2021 12:00:00 AM EST",
+            "estApplicationResponseDateDesc": "January 15, 2022 (second round, if funds still remain)",
+            "fiscalYear": 2022,
+            "createTimeStamp": "Nov 02, 2021 09:17:26 AM EDT",
+            "actionType": "U",
+            "actionDate": "Nov 02, 2021 09:40:00 AM EDT",
+            "createdDate": "Oct 21, 2021 09:28:33 AM EDT",
+            "lastUpdatedDate": "Nov 02, 2021 09:17:26 AM EDT",
+            "agencyDetails": {
+              "code": "ESP",
+              "seed": "DOS-ESP",
+              "agencyName": "U.S. Mission to Spain",
+              "agencyCode": "DOS-ESP",
+              "topAgencyCode": "DOS"
+            },
+            "estimatedFundingFormatted": "200,000",
+            "awardCeilingFormatted": "75,000",
+            "awardFloorFormatted": "25,000",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "postingDateStr": "2021-11-02-00-00-00",
+            "estApplicationResponseDateStr": "2021-11-30-00-00-00",
+            "createTimeStampStr": "2021-11-02-09-17-26"
+          },
+          "cfdas": [
+            {
+              "id": 395400,
+              "opportunityId": 336244,
+              "revision": 2,
+              "cfdaNumber": "19.040",
+              "programTitle": "Public Diplomacy Programs"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 336244,
+            "revision": 2
+          },
+          "opportunityId": 336244,
+          "revision": 2,
+          "opportunityNumber": "ESP22APS",
+          "opportunityTitle": "Mission Spain Public Diplomacy 2022 Annual Program Statement",
+          "owningAgencyCode": "DOS-ESP",
+          "publisherUid": "Spainpdgrants",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "M",
+            "description": "Mandatory"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 336244,
+              "revision": 2
+            },
+            "opportunityId": 336244,
+            "revision": 2,
+            "version": 1,
+            "agencyCode": "DOS-ESP",
+            "agencyAddressDesc": "Contact SpainPDGrants@state.gov for any questions and application submissions",
+            "agencyDetails": {
+              "code": "ESP",
+              "seed": "DOS-ESP",
+              "agencyName": "U.S. Mission to Spain",
+              "agencyCode": "DOS-ESP",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "34915872516",
+            "agencyContactName": "Sabine Weiler\nGrantor",
+            "agencyContactDesc": "U.S. Mission to Spain\r\nPublic Diplomacy Section (PD Spain)",
+            "agencyContactEmail": "SpainPDGrants@state.gov",
+            "agencyContactEmailDesc": "Contact SpainPDGrants@state.gov for any questions and application submissions",
+            "synopsisDesc": "<p><br></p>\n<p>The Public Diplomacy Section (PD Spain) of the U.S. Embassy Madrid and U.S. Consulate General Barcelona&nbsp;welcomes proposals for creative, engaging projects that line up with PD Spain’s main objectives. That includes:&nbsp;</p>\n<p>&nbsp;</p>\n<ol>\n <li><span style=\"color: windowtext;\">Promote citizen participation in the fight against the </span><strong style=\"color: windowtext;\">climate crisis</strong><span style=\"color: windowtext;\"> and facilitate better knowledge of the policies and actions of the United States in this area.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Ensure&nbsp;that Spanish and /or Andorran students know the United States as a destination for their training, for summer work programs and for learning English.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Promote</span><strong style=\"color: windowtext;\"> security and defense alliances</strong><span style=\"color: windowtext;\"> between the United States and Spain and the Atlantic Alliance (NATO).&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Communicate the importance of Spain being the venue for the </span><strong style=\"color: windowtext;\">2022 NATO Summit</strong><span style=\"color: windowtext;\">, the role that Spain plays within NATO and the strategic concept of NATO&nbsp;in the near future.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Explain the value of initiatives dedicated to </span><strong style=\"color: windowtext;\">women, peace and security</strong><span style=\"color: windowtext;\">.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Support the areas of</span><strong style=\"color: windowtext;\"> entrepreneurship, innovation and STEM</strong><span style=\"color: windowtext;\"> to increase economic opportunities for young people in Spain and / or Andorra.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Increase knowledge about how to do business in the US and highlight the role of Spain and Andorra in the </span><strong style=\"color: windowtext;\">global digital economy</strong><span style=\"color: windowtext;\">.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Expand the reach of </span><strong style=\"color: windowtext;\">media literacy</strong><span style=\"color: windowtext;\"> and support the media education programs of Spanish institutions with useful and accurate tools to increase understanding of false information and other tactics, to render misinformation campaigns targeting Spain ineffective.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Communicate about the common values that the United States, Spain and the EU share and about the promotion of respect for </span><strong style=\"color: windowtext;\">human rights</strong><span style=\"color: windowtext;\">, </span><strong style=\"color: windowtext;\">democracy </strong><span style=\"color: windowtext;\">and the need for </span><strong style=\"color: windowtext;\">democratic changes </strong><span style=\"color: windowtext;\">in places like Venezuela, Cuba and Nicaragua, the power of the law against impunity, privacy, international order based on common rules, and a fair playing field.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Encourage collaboration between Spanish and /or Andorran and American organizations that share the </span><strong style=\"color: windowtext;\">defense of human rights</strong><span style=\"color: windowtext;\">.&nbsp;</span></li>\n <li><span style=\"color: windowtext;\">Explore topics such as the rights of LGBTQI + community, racism, sexism, and the rights of people with disabilities.&nbsp;</span></li>\n <li><strong style=\"color: windowtext;\">Promote the rights and equality</strong><span style=\"color: windowtext;\"> of women, ethnic and religious minorities, the LGBTQI + community, refugees and migrants, people with disabilities and other&nbsp;marginalized&nbsp;populations in Spain and / or Andorra.&nbsp;</span></li>\n</ol>\n<p><u style=\"color: windowtext;\">&nbsp;</u></p>\n<p><strong><u>All programs should ensure they promote diversity and inclusion.</u></strong><u>&nbsp;</u></p>\n<p>&nbsp;</p>\n<p>Please be aware that projects funded through this APS must include an American element. That could involve a connection or partnership between Spanish&nbsp;and/or Andorran&nbsp;and American organizations or institutions. For example,&nbsp;an American expert&nbsp;could&nbsp;take part, in person or virtually, in your project. Activities might highlight or examine shared values&nbsp;between Spain and/or Andorra and the United States, national interests, etc. You may incorporate a U.S. approach or method you have learned about to addressing an issue or challenge facing your community, institution, or profession.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Grant activities may take any number of forms, including academic competitions, cross-border exchanges, conferences, workshops, courses, curriculum development, exhibits, hackathons or app development, online projects, mock trials or moot court competitions, simulations and role-playing activities (<em>e.g.</em>, Model Congress, Model United Nations), performances, or other activities.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Project&nbsp;timelines&nbsp;should&nbsp;start no earlier than December 1, 2021,&nbsp;and&nbsp;start&nbsp;no later than September 30, 2022,&nbsp;with all activities being completed no later than&nbsp;December 2023.&nbsp;&nbsp;All activities and your evaluation or assessment of the project should be completed within 18 months&nbsp;of&nbsp;starting the project.&nbsp;</p>\n<p><br></p>\n<p><br></p>",
+            "responseDateDesc": "November 30, 2021 (first round of applications will be reviewed)\r\nJanuary 15, 2022 (second round, if funds still remain)",
+            "fundingDescLinkUrl": "https://es.usembassy.gov/education-culture/grants-programs/",
+            "fundingDescLinkDesc": "Link to website for application instructions and further information",
+            "postingDate": "Nov 02, 2021 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "PD Spain announces an open competition for the funding of grants in response to the issuance of the 2022 Annual Program Statement (APS).",
+            "costSharing": false,
+            "estimatedFunding": "200000",
+            "estimatedFundingFormatted": "200,000",
+            "awardCeiling": "75000",
+            "awardCeilingFormatted": "75,000",
+            "awardFloor": "25000",
+            "awardFloorFormatted": "25,000",
+            "applicantEligibilityDesc": "The following entities, from Spain, Andorra, or the United States, are eligible to apply:  &bull;Not-for-Profit organizations, including educational and cultural institutions &bull; Civil society organizations &bull;Non-governmental organizations &bull;Think tanks &bull;Professional associations  &bull;Media outlets &bull;Governmental institutions and public international organizations  &bull;Individual citizens, including alumni of U.S. Government (USG) exchange programs, who have a demonstrated capacity or proven track record to carry out the proposed activities.  To be eligible for consideration, Spanish or Andorran-based applicant organizations must be registered in their respective host country. Businesses and other for-profit organization may not apply for funding under this APS.",
+            "createTimeStamp": "Nov 02, 2021 09:40:00 AM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Nov 02, 2021 10:29:44 AM EDT",
+            "createdDate": "Nov 02, 2021 09:40:00 AM EDT",
+            "lastUpdatedDate": "Nov 02, 2021 09:40:00 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "postingDateStr": "2021-11-02-00-00-00",
+            "createTimeStampStr": "2021-11-02-09-40-00"
+          },
+          "cfdas": [
+            {
+              "id": 395400,
+              "opportunityId": 336244,
+              "revision": 2,
+              "cfdaNumber": "19.040",
+              "programTitle": "Public Diplomacy Programs"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "November 30, 2021 (first round of applications will be reviewed)\r\nJanuary 15, 2022 (second round, if funds still remain)",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "responseDateDesc"
+      ],
+      "forecastModifiedFields": [
+        "revision",
+        "version",
+        "sendEmail",
+        "forecastDesc",
+        "archiveDate",
+        "modComments"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 1,
+      "synopsisHistCount": 1,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [
+        {
+          "sourceOpportunityId": 336244,
+          "opportunityId": 336238,
+          "opportunityNum": "ESP22NOFOE31",
+          "opportunityTitle": "Notice of Funding Opportunity (NOFO) Jump StartUp Women Spain",
+          "agencyCode": "DOS-ESP",
+          "postedDate": "Nov 02, 2021",
+          "closeDate": "Dec 02, 2021",
+          "comments": ""
+        },
+        {
+          "sourceOpportunityId": 336244,
+          "opportunityId": 341848,
+          "opportunityNum": "SPAINAPS2023",
+          "opportunityTitle": "Mission Spain Public Diplomacy 2023 Annual Program Statement",
+          "agencyCode": "DOS-ESP",
+          "postedDate": "Jul 18, 2022",
+          "closeDate": "",
+          "comments": ""
+        },
+        {
+          "sourceOpportunityId": 336244,
+          "opportunityId": 336307,
+          "opportunityNum": "ESP22NOFOE32",
+          "opportunityTitle": "Notice of Funding Opportunity (NOFO) Academy for Women Entrepreneurs Spain 2022",
+          "agencyCode": "DOS-ESP",
+          "postedDate": "Oct 28, 2021",
+          "closeDate": "Nov 28, 2021",
+          "comments": ""
+        }
+      ],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

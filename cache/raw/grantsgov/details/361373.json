@@ -1,0 +1,158 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361373",
+  "fetched_at": "2026-05-16T14:08:46.338Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ik1FK0ZEc0sxOHEwcVVYSXd4TEd1Vzd1c1ZkdzA1Q0ZhWk9vNGF5cXhJUDQ9Ig.87HUMitogUyItr9RyWg_AqxLV-mPVKhbwd9XmpKk99s",
+    "data": {
+      "id": 361373,
+      "revision": 0,
+      "opportunityNumber": "RD-RBCS-26-RMAP",
+      "opportunityTitle": "Rural Microentrepreneur Assistance Program",
+      "owningAgencyCode": "USDA-RBCS",
+      "listed": "L",
+      "publisherUid": "Arti.Kshirsagar",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361373,
+        "version": 1,
+        "agencyCode": "USDA-RBCS",
+        "agencyName": "Arti Kshirsagar\nBusiness Loan and Grant Analyst",
+        "agencyPhone": "2027208684",
+        "agencyAddressDesc": "Shamika.Johnson@usda.gov",
+        "agencyDetails": {
+          "code": "USDA-RBCS",
+          "seed": "USDA-RBCS",
+          "agencyName": "Rural Business-Cooperative Service ",
+          "agencyCode": "USDA-RBCS",
+          "topAgencyCode": "USDA"
+        },
+        "topAgencyDetails": {
+          "code": "USDA",
+          "seed": "USDA",
+          "agencyName": "Department of Agriculture",
+          "agencyCode": "USDA",
+          "topAgencyCode": "USDA"
+        },
+        "agencyContactPhone": "2027208684",
+        "agencyContactName": "Arti Kshirsagar\nBusiness Loan and Grant Analyst",
+        "agencyContactDesc": "Shamika Johnson\r\nShamika.Johnson@usda.gov",
+        "agencyContactEmail": "Shamika.Johnson@usda.gov",
+        "agencyContactEmailDesc": "Shamika.Johnson@usda.gov",
+        "synopsisDesc": "<p>Provides loans and grants to Microenterprise Development Organizations (MDOs) to provide training and technical assistance to microloan borrowers and micro entrepreneurs.&nbsp;</p>",
+        "responseDate": "Jun 30, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Q1 : 09/30/2025\r\nQ2 : 12/31/2025\r\nQ3 : 03/31/2026\r\nQ4 : 06/30/2026",
+        "fundingDescLinkUrl": "https://www.rd.usda.gov/sites/default/files/fact-sheet/508_RD_FS_RBS_RMAP.pdf",
+        "fundingDescLinkDesc": "Fact Sheet",
+        "postingDate": "Feb 26, 2026 12:00:00 AM EST",
+        "archiveDate": "Jul 30, 2026 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "20",
+        "estimatedFunding": "3200000",
+        "estimatedFundingFormatted": "3,200,000",
+        "awardCeiling": "100000",
+        "awardCeilingFormatted": "100,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Eligible applicants are domestic organizations that are non-profit entities, Indian Tribes (25 U.S.C. \r\n5304(e)) or public institutions of higher education",
+        "sendEmail": "Y",
+        "createTimeStamp": "Feb 26, 2026 09:37:50 AM EST",
+        "createdDate": "Feb 26, 2026 09:36:51 AM EST",
+        "lastUpdatedDate": "Feb 26, 2026 09:36:51 AM EST",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "BC",
+            "description": "Business and Commerce"
+          }
+        ],
+        "responseDateStr": "2026-06-30-00-00-00",
+        "postingDateStr": "2026-02-26-00-00-00",
+        "archiveDateStr": "2026-07-30-00-00-00",
+        "createTimeStampStr": "2026-02-26-09-37-50"
+      },
+      "agencyDetails": {
+        "code": "USDA-RBCS",
+        "seed": "USDA-RBCS",
+        "agencyName": "Rural Business-Cooperative Service ",
+        "agencyCode": "USDA-RBCS",
+        "topAgencyCode": "USDA"
+      },
+      "topAgencyDetails": {
+        "code": "USDA",
+        "seed": "USDA",
+        "agencyName": "Department of Agriculture",
+        "agencyCode": "USDA",
+        "topAgencyCode": "USDA"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 78894,
+          "opportunityId": 361373,
+          "folderType": "Full Announcement",
+          "folderName": "FY 2026 Notice",
+          "zipLobSize": 293925,
+          "createdDate": "Feb 26, 2026 09:37:26 AM EST",
+          "lastUpdatedDate": "Feb 26, 2026 09:37:50 AM EST",
+          "synopsisAttachments": [
+            {
+              "id": 350325,
+              "opportunityId": 361373,
+              "mimeType": "application/pdf",
+              "fileName": "FY26_RMAP_Grants.gov_2.4.26_final.pdf",
+              "fileDescription": "FY2026 RMAP Notice for Applicants",
+              "fileLobSize": 307317,
+              "createdDate": "Feb 26, 2026 09:37:50 AM EST",
+              "synopsisAttFolderId": 78894
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432078,
+          "opportunityId": 361373,
+          "cfdaNumber": "10.870",
+          "programTitle": "Rural Microentrepreneur Assistance Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 30, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Q1 : 09/30/2025\r\nQ2 : 12/31/2025\r\nQ3 : 03/31/2026\r\nQ4 : 06/30/2026",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

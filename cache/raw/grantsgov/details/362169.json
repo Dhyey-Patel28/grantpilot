@@ -1,0 +1,249 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362169",
+  "fetched_at": "2026-05-16T14:10:05.065Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjRmMEtrZGdxU2pLckM5WWkxa1VPWlN6enZUTFQvWFFCMnhrVVgxMlJValU9Ig.0B1hcMCBVm6i6xLd-ReKuTALQWHSIiydk5cCgWbW1Mc",
+    "data": {
+      "id": 362169,
+      "revision": 0,
+      "opportunityNumber": "G26AS00115",
+      "opportunityTitle": "Cooperative Agreement for Affiliated Partner with the Colorado Plateau Cooperative Ecosystem Studies Unit (CESU)",
+      "owningAgencyCode": "DOI-USGS1",
+      "listed": "L",
+      "publisherUid": "113080850824856438988185809190837265423",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362169,
+        "version": 1,
+        "agencyCode": "DOI-USGS1",
+        "agencyName": "Geological Survey",
+        "agencyPhone": "916-278-9331",
+        "agencyAddressDesc": "katherine_calder@ios.doi.gov",
+        "agencyDetails": {
+          "code": "USGS",
+          "seed": "DOI-USGS1",
+          "agencyName": "Geological Survey",
+          "agencyCode": "DOI-USGS1",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactPhone": "916-278-9331",
+        "agencyContactName": "Geological Survey",
+        "agencyContactDesc": "Katie Calder\nkatherine_calder@ios.doi.gov",
+        "agencyContactEmail": "katherine_calder@ios.doi.gov",
+        "agencyContactEmailDesc": "katherine_calder@ios.doi.gov",
+        "synopsisDesc": "The U.S. Geological Survey (USGS) Southwest Biological Science Center (SBSC) seeks to provide financial assistance to help build a program focusing on reclamation sciences to support energy development, critical minerals, and streamlining regulation. This program should identify opportunities to improve outcomes and efficiency of reclamation through (1) surveys of reclamation outcomes, analysis of existing experiments, and literature synthesis; (2) developing tools and maps to support reclamation; and (3) communicating new insights to stakeholders, including industry partners. There are currently significant challenges for management of lands following oil, gas, and mineral development, and other land disturbing activities in arid landscapes.",
+        "responseDate": "May 30, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date",
+        "postingDate": "May 01, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "475000",
+        "estimatedFundingFormatted": "475,000",
+        "awardCeiling": "475000",
+        "awardCeilingFormatted": "475,000",
+        "awardFloor": "1",
+        "awardFloorFormatted": "1",
+        "applicantEligibilityDesc": "This financial assistance opportunity is being issued under a Cooperative Ecosystem Studies Units (CESU) Program. CESUs are partnerships that provide research, technical assistance, and education.  Eligible recipients must be a participating partner of the Colorado Plateau Cooperative Ecosystem Studies Unit (CESU) Program.",
+        "createTimeStamp": "May 01, 2026 12:51:13 PM EDT",
+        "createdDate": "May 01, 2026 12:49:32 PM EDT",
+        "lastUpdatedDate": "May 01, 2026 12:49:32 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-05-30-00-00-00",
+        "postingDateStr": "2026-05-01-00-00-00",
+        "createTimeStampStr": "2026-05-01-12-51-13"
+      },
+      "agencyDetails": {
+        "code": "USGS",
+        "seed": "DOI-USGS1",
+        "agencyName": "Geological Survey",
+        "agencyCode": "DOI-USGS1",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79509,
+          "opportunityId": 362169,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 54236,
+          "createdDate": "May 01, 2026 12:51:11 PM EDT",
+          "lastUpdatedDate": "May 01, 2026 12:51:13 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351676,
+              "opportunityId": 362169,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "Full Announcement.docx",
+              "fileDescription": "Full Announcement.docx",
+              "fileLobSize": 57645,
+              "createdDate": "May 01, 2026 12:51:13 PM EDT",
+              "synopsisAttFolderId": 79509
+            }
+          ]
+        },
+        {
+          "id": 79508,
+          "opportunityId": 362169,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Other Supporting Documents",
+          "zipLobSize": 436293,
+          "createdDate": "May 01, 2026 12:50:30 PM EDT",
+          "lastUpdatedDate": "May 01, 2026 12:51:01 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351672,
+              "opportunityId": 362169,
+              "mimeType": "application/pdf",
+              "fileName": "ATTACHMENT A -Biographical-sketch-common-form-doi-omb-3145-0279 3.pdf",
+              "fileDescription": "ATTACHMENT A -Biographical-sketch-common-form-doi-omb-3145-0279 3.pdf",
+              "fileLobSize": 221571,
+              "createdDate": "May 01, 2026 12:50:31 PM EDT",
+              "synopsisAttFolderId": 79508
+            },
+            {
+              "id": 351673,
+              "opportunityId": 362169,
+              "mimeType": "application/pdf",
+              "fileName": "ATTACHMENT B - Common-form-current-and-pending-support-doi-omb-3145-0279 3.pdf",
+              "fileDescription": "ATTACHMENT B - Common-form-current-and-pending-support-doi-omb-3145-0279 3.pdf",
+              "fileLobSize": 204142,
+              "createdDate": "May 01, 2026 12:50:40 PM EDT",
+              "synopsisAttFolderId": 79508
+            },
+            {
+              "id": 351674,
+              "opportunityId": 362169,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "ATTACHMENT C - Project Abstract Summary Requirement.docx",
+              "fileDescription": "ATTACHMENT C - Project Abstract Summary Requirement.docx",
+              "fileLobSize": 13650,
+              "createdDate": "May 01, 2026 12:50:50 PM EDT",
+              "synopsisAttFolderId": 79508
+            },
+            {
+              "id": 351675,
+              "opportunityId": 362169,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "ATTACHMENT D - Geospatial Data instructions.docx",
+              "fileDescription": "ATTACHMENT D - Geospatial Data instructions.docx",
+              "fileLobSize": 15008,
+              "createdDate": "May 01, 2026 12:51:01 PM EDT",
+              "synopsisAttFolderId": 79508
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 433032,
+          "opportunityId": 362169,
+          "cfdaNumber": "15.808",
+          "programTitle": "U.S. Geological Survey Research and Data Collection"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292598,
+          "topportunityId": 362169,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "G26AS00115",
+          "opportunityTitle": "Cooperative Agreement for Affiliated Partner with the Colorado Plateau Cooperative Ecosystem Studies Unit (CESU)",
+          "cfdaNumber": "15.808",
+          "openingDate": "2026-05-01",
+          "closingDate": "2026-05-30",
+          "owningAgencyCode": "DOI-USGS1",
+          "agencyDetails": {
+            "code": "USGS",
+            "seed": "DOI-USGS1",
+            "agencyName": "Geological Survey",
+            "agencyCode": "DOI-USGS1",
+            "topAgencyCode": "DOI"
+          },
+          "topAgencyDetails": {
+            "code": "DOI",
+            "seed": "DOI",
+            "agencyName": "Department of the Interior",
+            "agencyCode": "DOI",
+            "topAgencyCode": "DOI"
+          },
+          "programTitle": "U.S. Geological Survey Research and Data Collection",
+          "contactInfo": "Katie Calder",
+          "gracePeriod": 30,
+          "competitionId": "G26AS00115",
+          "competitionTitle": "Cooperative Agreement for Affiliated Partner with the Colorado Plateau Cooperative Ecosystem Studies Unit (CESU)",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 1,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "May 01, 2026 12:50:12 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292598",
+          "openingDateStr": "2026-05-01-00-00-00",
+          "closingDateStr": "2026-05-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 30, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}
