@@ -1,0 +1,22 @@
+{
+  "community_name": "Maple Ridge Township",
+  "applicant_type": "City or township governments",
+  "county": "Clare County",
+  "population": 3800,
+  "project_category": "water",
+  "project_stage": "early planning",
+  "description": "Residents near Maple Street report brown water. Pipes are old. The township needs funding for water testing, engineering, and possible water main replacement. The township does not have a cost estimate yet.",
+  "estimated_cost": null,
+  "match_available": null,
+  "documents_available": [
+    "resident complaints",
+    "council meeting notes"
+  ],
+  "impact_keywords": [
+    "public health",
+    "drinking water",
+    "small community",
+    "infrastructure",
+    "water"
+  ]
+}

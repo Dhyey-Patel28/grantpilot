@@ -1,0 +1,6 @@
+# Add exact MI Funding Hub detail URLs here, one per line.
+# They must look like:
+# https://mifundinghub.org/funding-opportunities/?grant=11750
+# https://mifundinghub.org/funding-opportunities/?grant=12912
+#
+# Leave this file empty/comment-only if you only want to use Grants.gov real data.
