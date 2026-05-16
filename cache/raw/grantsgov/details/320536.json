@@ -1,0 +1,756 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "320536",
+  "fetched_at": "2026-05-16T14:06:20.482Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InltWWc2bTVYak1CQzRrWlVBNGxkdHB2TGlGcnMrcmxLUG1aZi9OR1kwdTQ9Ig.iDdInvjvR0TzFDJwQ7TIOBSR6ZyoQq_dyuGj8AcT-Ac",
+    "data": {
+      "id": 320536,
+      "revision": 6,
+      "opportunityNumber": "PD-20-7909",
+      "opportunityTitle": "Biosensing",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 320536,
+        "version": 7,
+        "agencyCode": "NSF",
+        "agencyName": "National Science Foundation",
+        "agencyPhone": "703-292-4261",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4261",
+        "agencyContactName": "National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The Biosensing program is part of the Engineering Biology and Health cluster, which also includes 1) the Biophotonics program; 2) the Cellular and Biochemical Engineering program; 3) the Disability and Rehabilitation Engineering program; and 4) the Engineering of Biomedical Systems program.\n\r\n\nThe Biosensing program supports fundamental engineering research in the monitoring, identification and/or quantification of biological analytes and phenomena using innovations that exist at the intersection of engineering, life sciences, and information technology. Projects submitted to the program must advance both engineering and life sciences.\n\r\n<p class=\"Default\">The Biosensing program encourages proposals that, in addition to advancing biosensing technology, address critical sensor needs in biomedical research, public health, food safety, agriculture, forensics, environmental protection, and homeland security.\n\r\n<p class=\"Default\">Proposals are especially encouraged in areas of critical need: sensing technologies that can enable monitoring and surveillance of the environment and/or individuals for novel infectious agents; platform technologies that can readily be modified as soon as new agents are detected, sequenced, and/or otherwise characterized to enable rapid deployment of sensors in clinics and the environment; and adaptive and/or multiplex sensing technologies that can help the nation prevent the spread of the next global pandemic.\n\r\n\nMajor areas of interest for the program include:\n\r\n<ul>\r\n<li style=\"text-align: left;\">Novel signal transduction principles and mechanisms that enable sensitive and specific biosensors, suitable for measurements in multiple areas;</li>\r\n<li>Design of novel biorecognition elements and appropriately designed transducing systems to enable adaptable and/or reconfigurable operating parameters in response to environmental changes or application needs at levels of device, system, or data analysis;</li>\r\n<li>Development of adaptive and/or evolvable biosensing systems for detection of novel target analytes or analytes under novel conditions;</li>\r\n<li>Novel synthetic biology approaches for the development of cell-free and cell-based biosensors; and</li>\r\n<li>Combining biosensors with artificial intelligence (AI) methods to improve sensor specificity and response time.</li>\r\n</ul>\r\n\nInnovative ideas outside of the above specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nThe Biosensors program does not encourage proposals addressing circuit design for signal processing and amplification, computational modeling, and microfluidics for sample separation and filtration. Medical imaging-based measurements are outside of the scope of the program interests. Proposals that rely heavily on descriptive approaches are given lower priority. Proposals for optimizing and/or utilizing established methods for specific applications should be directed to programs focused on the application of sensor technology.\n\r\n\nNOTE: Projects related to water and/or soil quality may be jointly supported with the Environmental Engineering program (CBET 1440). Photonic devices with medical imaging and/or optogenetics should be submitted to the Biophotonics program (CBET 7236). Applications of devices for tissue engineering or organ-on-chip systems should be submitted to the Engineering of Biomedical Systems program (CBET 5345). Basic chemical/biochemical sensing mechanisms should be submitted to the Chemical Measurement and Imaging program (CMI 6880) in the Division of Chemistry. Proposals for dynamic biosensing systems, including circuit design for signal/data processing and amplification, and sensing systems through communication and machine learning should be submitted to the Communications, Circuits, and Sensing-Systems program (CCSS 7564) in the Division of Electrical, Communications, and Cyber Systems.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the ?What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)? link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged.Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate. Please note that proposals of these types must be discussed with the program director before submission. Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: Types of Proposals.\n\r\n\nCompliance: Proposals that are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review.",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505720",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-20-7909",
+        "postingDate": "Sep 12, 2019 12:00:00 AM EDT",
+        "costSharing": false,
+        "estimatedFunding": "7600000",
+        "estimatedFundingFormatted": "7,600,000",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Feb 24, 2024 12:09:28 AM EST",
+        "modComments": ".",
+        "createdDate": "Sep 12, 2019 01:00:50 AM EDT",
+        "lastUpdatedDate": "Feb 24, 2024 12:09:28 AM EST",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2019-09-12-00-00-00",
+        "createTimeStampStr": "2024-02-24-00-09-28"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 373414,
+          "opportunityId": 320536,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 373415,
+          "opportunityId": 320536
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 320536,
+            "revision": 0
+          },
+          "opportunityId": 320536,
+          "revision": 0,
+          "opportunityNumber": "PD-20-7909",
+          "opportunityTitle": "Biosensing",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320536,
+              "revision": 0
+            },
+            "opportunityId": 320536,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact",
+            "synopsisDesc": "The Biosensing program is part of the Engineering Biology and Health cluster, which also includes 1) the Biophotonics program; 2) the Cellular and Biochemical Engineering program; 3) the Disability and Rehabilitation Engineering program; and 4) the Engineering of Biomedical Systems program.\n\r\n\nThe Biosensing program supports fundamental engineering research on devices and methods for measurement and quantification of biological analytes. Examples of biosensors include, but are not limited to, electrochemical/electrical biosensors, optical biosensors, plasmonic biosensors, and paper-based and nanopore-based biosensors. In addition to advancing biosensor technology development, proposals that address critical needs in biomedical research, public health, food safety, agriculture, forensic, environmental protection, and homeland security are highly encouraged. Proposals that incorporate emerging nanotechnology methods are especially encouraged.\n\r\n\nAreas of interest include:\n\r\n\n·         multiplex biosensing platforms that exceed the performance of current state-of-the-art devices;\n\r\n\n·         novel transduction principles, mechanisms and sensor designs suitable for measurement in practical matrix and sample-preparation-free approaches, including error-free detection of pathogens and toxins in food matrices, waterborne pathogens, parasites, toxins, biomarkers in body fluids, neuron chemicals, and others that improve human condition;\n\r\n\n·         biosensors that enable measurement of biomolecular interactions in their native states, transmembrane transport, intracellular transport and reactions, and other biological phenomena;\n\r\n\n·         biosensing performance optimization for specific health applications such as point-of-care testing and personalized health monitoring;\n\r\n\n·         miniaturization of biosensors for lab-on-a-chip and cell/organ-on-a-chip applications to enable measurement of biological properties and functions of cell/tissues in vitro;\n\r\n\n·         biosensing systems with integration of artificial intelligence (AI) and machine learning;\n\r\n\n·         biosensors that exploit quantum correlations to develop a suite of analytical tools that will have superior performance over ordinary classical biosensing technology; and\n\r\n\n·         biosensors that leverage unique electrical properties of biomolecules, such as DNA; proteins; cells; and the nervous system to develop miniaturized biomedical devices for modulating and characterization of biological species.\n\r\n\nThe Biosensors Program does not encourage proposals addressing surface functionalization and modulation of bio-recognition molecules, development of basic chemical mechanisms for biosensing applications, circuit design for signal processing and amplification, computational modeling, and microfluidics for sample separation and filtration. Medical imaging-based measurements are outside of the scope of the program interests. Proposals that rely heavily on descriptive approaches are given lower priority. Proposals for optimizing and/or utilizing established methods for specific applications should be directed to programs focused on the application of sensor technology.\n\r\n\nInnovative ideas outside of the above specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the Program Director to avoid the proposal being returned without review. \n\r\n\nNOTE: Projects related to water/soil quality may be jointly supported with the Environmental Engineering program (CBET 1440). Photonic devices with medical imaging and/or optogenetics should be submitted to Biophotonics (CBET 7236). Devices for tissue engineering should be submitted to Engineering of Biomedical Systems (CBET 5345). Basic chemical/biochemical sensing mechanisms should be submitted to the MPS Division of Chemistry's Chemical Measurement and Imaging program (CHE/CMI 6880). Proposals for dynamic biosensing systems, including circuit design for signal/data processing and amplification, and sensing systems through communication and machine learning should be submitted to the ECCS Division's Communications, Circuits, and Sensing-Systems (ECCS/CCSS 7564).\n\r\n\n \n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or <a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a> of the proposed work compared to previous work in the field. Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research. The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years.  Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year (awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the What Has Been Funded (Recent Awards Made Through This Program, with Abstracts) link towards the bottom of this page.\n\r\n\nFaculty Early Career Development (CAREER) program proposals are strongly encouraged. Award duration is five years. The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>. \n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants for Rapid Response Research (RAPID) and EArly-concept Grants for Exploratory Research (EAGER) are also considered when appropriate.  Please note that proposals of these types must be discussed with the program director before submission.  Grant Opportunities for Academic Liaison with Industry (GOALI) proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal & Award Policies & Procedures Guide (PAPPG), Part 1, Chapter II, Section E: Types of Proposals.  \n\r\n\nCompliance: Proposals that are not compliant with the <a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\">Proposal & Award Policies & Procedures Guide (PAPPG)</a> will be returned without review.\n\r\n\n ",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505720",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-7909",
+            "postingDate": "Sep 12, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "estimatedFunding": "7600000",
+            "estimatedFundingFormatted": "7,600,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Sep 12, 2019 01:00:50 AM EDT",
+            "actionType": "U",
+            "actionDate": "May 30, 2020 01:00:11 AM EDT",
+            "createdDate": "Sep 12, 2019 01:00:50 AM EDT",
+            "lastUpdatedDate": "Sep 12, 2019 01:00:50 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-12-00-00-00",
+            "createTimeStampStr": "2019-09-12-01-00-50"
+          },
+          "cfdas": [
+            {
+              "id": 373414,
+              "opportunityId": 320536,
+              "revision": 5,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373415,
+              "opportunityId": 320536,
+              "revision": 5
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 320536,
+            "revision": 1
+          },
+          "opportunityId": 320536,
+          "revision": 1,
+          "opportunityNumber": "PD-20-7909",
+          "opportunityTitle": "Biosensing",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320536,
+              "revision": 1
+            },
+            "opportunityId": 320536,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Biosensing program is part of the Engineering Biology and Health cluster, which also includes 1) the Biophotonics program; 2) the Cellular and Biochemical Engineering program; 3) the Disability and Rehabilitation Engineering program; and 4) the Engineering of Biomedical Systems program.\n\r\n\nThe Biosensing program supports fundamental engineering research in the monitoring, identification and/or quantification of biological analytes and phenomena using innovations that exist at the intersection of engineering, life sciences, and information technology. Projects submitted to the program must advance both engineering and life sciences.\n\r\n<p class=\"Default\">The Biosensing program encourages proposals that, in addition to advancing biosensing technology, address critical sensor needs in biomedical research, public health, food safety, agriculture, forensics, environmental protection, and homeland security.\n\r\n<p class=\"Default\">Proposals are especially encouraged in areas of critical need: sensing technologies that can enable monitoring and surveillance of the environment and/or individuals for novel infectious agents; platform technologies that can readily be modified as soon as new agents are detected, sequenced, and/or otherwise characterized to enable rapid deployment of sensors in clinics and the environment; and adaptive and/or multiplex sensing technologies that can help the nation prevent the spread of the next global pandemic.\n\r\n\nMajor areas of interest for the program include:\n\r\n<ul>\r\n<li style=\"text-align: left;\">Novel signal transduction principles and mechanisms that enable sensitive and specific biosensors, suitable for measurements in multiple areas;</li>\r\n<li>Design of novel biorecognition elements and appropriately designed transducing systems to enable adaptable and/or reconfigurable operating parameters in response to environmental changes or application needs at levels of device, system, or data analysis;</li>\r\n<li>Development of adaptive and/or evolvable biosensing systems for detection of novel target analytes or analytes under novel conditions;</li>\r\n<li>Novel synthetic biology approaches for the development of cell-free and cell-based biosensors; and</li>\r\n<li>Combining biosensors with artificial intelligence (AI) methods to improve sensor specificity and response time.</li>\r\n</ul>\r\n\nInnovative ideas outside of the above specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nThe Biosensors program does not encourage proposals addressing circuit design for signal processing and amplification, computational modeling, and microfluidics for sample separation and filtration. Medical imaging-based measurements are outside of the scope of the program interests. Proposals that rely heavily on descriptive approaches are given lower priority. Proposals for optimizing and/or utilizing established methods for specific applications should be directed to programs focused on the application of sensor technology.\n\r\n\nNOTE: Projects related to water and/or soil quality may be jointly supported with the Environmental Engineering program (CBET 1440). Photonic devices with medical imaging and/or optogenetics should be submitted to the Biophotonics program (CBET 7236). Applications of devices for tissue engineering or organ-on-chip systems should be submitted to the Engineering of Biomedical Systems program (CBET 5345). Basic chemical/biochemical sensing mechanisms should be submitted to the Chemical Measurement and Imaging program (CMI 6880) in the Division of Chemistry. Proposals for dynamic biosensing systems, including circuit design for signal/data processing and amplification, and sensing systems through communication and machine learning should be submitted to the Communications, Circuits, and Sensing-Systems program (CCSS 7564) in the Division of Electrical, Communications, and Cyber Systems.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the ?What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)? link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged.Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate. Please note that proposals of these types must be discussed with the program director before submission. Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: Types of Proposals.\n\r\n\nCompliance: Proposals that are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505720",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-7909",
+            "postingDate": "Sep 12, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "estimatedFunding": "7600000",
+            "estimatedFundingFormatted": "7,600,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "May 30, 2020 01:00:11 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Aug 11, 2020 01:00:15 AM EDT",
+            "createdDate": "Sep 12, 2019 01:00:50 AM EDT",
+            "lastUpdatedDate": "May 30, 2020 01:00:11 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-12-00-00-00",
+            "createTimeStampStr": "2020-05-30-01-00-11"
+          },
+          "cfdas": [
+            {
+              "id": 373414,
+              "opportunityId": 320536,
+              "revision": 5,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373415,
+              "opportunityId": 320536,
+              "revision": 5
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "agencyAddressDesc",
+            "agencyContactEmailDesc",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 320536,
+            "revision": 2
+          },
+          "opportunityId": 320536,
+          "revision": 2,
+          "opportunityNumber": "PD-20-7909",
+          "opportunityTitle": "Biosensing",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320536,
+              "revision": 2
+            },
+            "opportunityId": 320536,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Biosensing program is part of the Engineering Biology and Health cluster, which also includes 1) the Biophotonics program; 2) the Cellular and Biochemical Engineering program; 3) the Disability and Rehabilitation Engineering program; and 4) the Engineering of Biomedical Systems program.\n\r\n\nThe Biosensing program supports fundamental engineering research in the monitoring, identification and/or quantification of biological analytes and phenomena using innovations that exist at the intersection of engineering, life sciences, and information technology. Projects submitted to the program must advance both engineering and life sciences.\n\r\n<p class=\"Default\">The Biosensing program encourages proposals that, in addition to advancing biosensing technology, address critical sensor needs in biomedical research, public health, food safety, agriculture, forensics, environmental protection, and homeland security.\n\r\n<p class=\"Default\">Proposals are especially encouraged in areas of critical need: sensing technologies that can enable monitoring and surveillance of the environment and/or individuals for novel infectious agents; platform technologies that can readily be modified as soon as new agents are detected, sequenced, and/or otherwise characterized to enable rapid deployment of sensors in clinics and the environment; and adaptive and/or multiplex sensing technologies that can help the nation prevent the spread of the next global pandemic.\n\r\n\nMajor areas of interest for the program include:\n\r\n<ul>\r\n<li style=\"text-align: left;\">Novel signal transduction principles and mechanisms that enable sensitive and specific biosensors, suitable for measurements in multiple areas;</li>\r\n<li>Design of novel biorecognition elements and appropriately designed transducing systems to enable adaptable and/or reconfigurable operating parameters in response to environmental changes or application needs at levels of device, system, or data analysis;</li>\r\n<li>Development of adaptive and/or evolvable biosensing systems for detection of novel target analytes or analytes under novel conditions;</li>\r\n<li>Novel synthetic biology approaches for the development of cell-free and cell-based biosensors; and</li>\r\n<li>Combining biosensors with artificial intelligence (AI) methods to improve sensor specificity and response time.</li>\r\n</ul>\r\n\nInnovative ideas outside of the above specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nThe Biosensors program does not encourage proposals addressing circuit design for signal processing and amplification, computational modeling, and microfluidics for sample separation and filtration. Medical imaging-based measurements are outside of the scope of the program interests. Proposals that rely heavily on descriptive approaches are given lower priority. Proposals for optimizing and/or utilizing established methods for specific applications should be directed to programs focused on the application of sensor technology.\n\r\n\nNOTE: Projects related to water and/or soil quality may be jointly supported with the Environmental Engineering program (CBET 1440). Photonic devices with medical imaging and/or optogenetics should be submitted to the Biophotonics program (CBET 7236). Applications of devices for tissue engineering or organ-on-chip systems should be submitted to the Engineering of Biomedical Systems program (CBET 5345). Basic chemical/biochemical sensing mechanisms should be submitted to the Chemical Measurement and Imaging program (CMI 6880) in the Division of Chemistry. Proposals for dynamic biosensing systems, including circuit design for signal/data processing and amplification, and sensing systems through communication and machine learning should be submitted to the Communications, Circuits, and Sensing-Systems program (CCSS 7564) in the Division of Electrical, Communications, and Cyber Systems.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the ?What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)? link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged.Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate. Please note that proposals of these types must be discussed with the program director before submission. Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: Types of Proposals.\n\r\n\nCompliance: Proposals that are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505720",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-7909",
+            "postingDate": "Sep 12, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "estimatedFunding": "7600000",
+            "estimatedFundingFormatted": "7,600,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Aug 11, 2020 01:00:15 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Sep 16, 2022 01:00:20 AM EDT",
+            "createdDate": "Sep 12, 2019 01:00:50 AM EDT",
+            "lastUpdatedDate": "Aug 11, 2020 01:00:15 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-12-00-00-00",
+            "createTimeStampStr": "2020-08-11-01-00-15"
+          },
+          "cfdas": [
+            {
+              "id": 373414,
+              "opportunityId": 320536,
+              "revision": 5,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373415,
+              "opportunityId": 320536,
+              "revision": 5
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 320536,
+            "revision": 3
+          },
+          "opportunityId": 320536,
+          "revision": 3,
+          "opportunityNumber": "PD-20-7909",
+          "opportunityTitle": "Biosensing",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320536,
+              "revision": 3
+            },
+            "opportunityId": 320536,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Biosensing program is part of the Engineering Biology and Health cluster, which also includes 1) the Biophotonics program; 2) the Cellular and Biochemical Engineering program; 3) the Disability and Rehabilitation Engineering program; and 4) the Engineering of Biomedical Systems program.\n\r\n\nThe Biosensing program supports fundamental engineering research in the monitoring, identification and/or quantification of biological analytes and phenomena using innovations that exist at the intersection of engineering, life sciences, and information technology. Projects submitted to the program must advance both engineering and life sciences.\n\r\n<p class=\"Default\">The Biosensing program encourages proposals that, in addition to advancing biosensing technology, address critical sensor needs in biomedical research, public health, food safety, agriculture, forensics, environmental protection, and homeland security.\n\r\n<p class=\"Default\">Proposals are especially encouraged in areas of critical need: sensing technologies that can enable monitoring and surveillance of the environment and/or individuals for novel infectious agents; platform technologies that can readily be modified as soon as new agents are detected, sequenced, and/or otherwise characterized to enable rapid deployment of sensors in clinics and the environment; and adaptive and/or multiplex sensing technologies that can help the nation prevent the spread of the next global pandemic.\n\r\n\nMajor areas of interest for the program include:\n\r\n<ul>\r\n<li style=\"text-align: left;\">Novel signal transduction principles and mechanisms that enable sensitive and specific biosensors, suitable for measurements in multiple areas;</li>\r\n<li>Design of novel biorecognition elements and appropriately designed transducing systems to enable adaptable and/or reconfigurable operating parameters in response to environmental changes or application needs at levels of device, system, or data analysis;</li>\r\n<li>Development of adaptive and/or evolvable biosensing systems for detection of novel target analytes or analytes under novel conditions;</li>\r\n<li>Novel synthetic biology approaches for the development of cell-free and cell-based biosensors; and</li>\r\n<li>Combining biosensors with artificial intelligence (AI) methods to improve sensor specificity and response time.</li>\r\n</ul>\r\n\nInnovative ideas outside of the above specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nThe Biosensors program does not encourage proposals addressing circuit design for signal processing and amplification, computational modeling, and microfluidics for sample separation and filtration. Medical imaging-based measurements are outside of the scope of the program interests. Proposals that rely heavily on descriptive approaches are given lower priority. Proposals for optimizing and/or utilizing established methods for specific applications should be directed to programs focused on the application of sensor technology.\n\r\n\nNOTE: Projects related to water and/or soil quality may be jointly supported with the Environmental Engineering program (CBET 1440). Photonic devices with medical imaging and/or optogenetics should be submitted to the Biophotonics program (CBET 7236). Applications of devices for tissue engineering or organ-on-chip systems should be submitted to the Engineering of Biomedical Systems program (CBET 5345). Basic chemical/biochemical sensing mechanisms should be submitted to the Chemical Measurement and Imaging program (CMI 6880) in the Division of Chemistry. Proposals for dynamic biosensing systems, including circuit design for signal/data processing and amplification, and sensing systems through communication and machine learning should be submitted to the Communications, Circuits, and Sensing-Systems program (CCSS 7564) in the Division of Electrical, Communications, and Cyber Systems.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the ?What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)? link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged.Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate. Please note that proposals of these types must be discussed with the program director before submission. Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: Types of Proposals.\n\r\n\nCompliance: Proposals that are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505720",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-7909",
+            "postingDate": "Sep 12, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "estimatedFunding": "7600000",
+            "estimatedFundingFormatted": "7,600,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Sep 16, 2022 01:00:20 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jan 28, 2023 02:07:04 AM EST",
+            "createdDate": "Sep 12, 2019 01:00:50 AM EDT",
+            "lastUpdatedDate": "Sep 16, 2022 01:00:20 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-12-00-00-00",
+            "createTimeStampStr": "2022-09-16-01-00-20"
+          },
+          "cfdas": [
+            {
+              "id": 373414,
+              "opportunityId": 320536,
+              "revision": 5,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373415,
+              "opportunityId": 320536,
+              "revision": 5
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 320536,
+            "revision": 4
+          },
+          "opportunityId": 320536,
+          "revision": 4,
+          "opportunityNumber": "PD-20-7909",
+          "opportunityTitle": "Biosensing",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320536,
+              "revision": 4
+            },
+            "opportunityId": 320536,
+            "revision": 4,
+            "version": 5,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Biosensing program is part of the Engineering Biology and Health cluster, which also includes 1) the Biophotonics program; 2) the Cellular and Biochemical Engineering program; 3) the Disability and Rehabilitation Engineering program; and 4) the Engineering of Biomedical Systems program.\n\r\n\nThe Biosensing program supports fundamental engineering research in the monitoring, identification and/or quantification of biological analytes and phenomena using innovations that exist at the intersection of engineering, life sciences, and information technology. Projects submitted to the program must advance both engineering and life sciences.\n\r\n<p class=\"Default\">The Biosensing program encourages proposals that, in addition to advancing biosensing technology, address critical sensor needs in biomedical research, public health, food safety, agriculture, forensics, environmental protection, and homeland security.\n\r\n<p class=\"Default\">Proposals are especially encouraged in areas of critical need: sensing technologies that can enable monitoring and surveillance of the environment and/or individuals for novel infectious agents; platform technologies that can readily be modified as soon as new agents are detected, sequenced, and/or otherwise characterized to enable rapid deployment of sensors in clinics and the environment; and adaptive and/or multiplex sensing technologies that can help the nation prevent the spread of the next global pandemic.\n\r\n\nMajor areas of interest for the program include:\n\r\n<ul>\r\n<li style=\"text-align: left;\">Novel signal transduction principles and mechanisms that enable sensitive and specific biosensors, suitable for measurements in multiple areas;</li>\r\n<li>Design of novel biorecognition elements and appropriately designed transducing systems to enable adaptable and/or reconfigurable operating parameters in response to environmental changes or application needs at levels of device, system, or data analysis;</li>\r\n<li>Development of adaptive and/or evolvable biosensing systems for detection of novel target analytes or analytes under novel conditions;</li>\r\n<li>Novel synthetic biology approaches for the development of cell-free and cell-based biosensors; and</li>\r\n<li>Combining biosensors with artificial intelligence (AI) methods to improve sensor specificity and response time.</li>\r\n</ul>\r\n\nInnovative ideas outside of the above specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nThe Biosensors program does not encourage proposals addressing circuit design for signal processing and amplification, computational modeling, and microfluidics for sample separation and filtration. Medical imaging-based measurements are outside of the scope of the program interests. Proposals that rely heavily on descriptive approaches are given lower priority. Proposals for optimizing and/or utilizing established methods for specific applications should be directed to programs focused on the application of sensor technology.\n\r\n\nNOTE: Projects related to water and/or soil quality may be jointly supported with the Environmental Engineering program (CBET 1440). Photonic devices with medical imaging and/or optogenetics should be submitted to the Biophotonics program (CBET 7236). Applications of devices for tissue engineering or organ-on-chip systems should be submitted to the Engineering of Biomedical Systems program (CBET 5345). Basic chemical/biochemical sensing mechanisms should be submitted to the Chemical Measurement and Imaging program (CMI 6880) in the Division of Chemistry. Proposals for dynamic biosensing systems, including circuit design for signal/data processing and amplification, and sensing systems through communication and machine learning should be submitted to the Communications, Circuits, and Sensing-Systems program (CCSS 7564) in the Division of Electrical, Communications, and Cyber Systems.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the ?What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)? link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged.Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate. Please note that proposals of these types must be discussed with the program director before submission. Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: Types of Proposals.\n\r\n\nCompliance: Proposals that are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505720",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-7909",
+            "postingDate": "Sep 12, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "estimatedFunding": "7600000",
+            "estimatedFundingFormatted": "7,600,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jan 28, 2023 02:07:04 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "May 19, 2023 11:21:17 PM EDT",
+            "createdDate": "Sep 12, 2019 01:00:50 AM EDT",
+            "lastUpdatedDate": "Jan 28, 2023 02:07:04 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-12-00-00-00",
+            "createTimeStampStr": "2023-01-28-02-07-04"
+          },
+          "cfdas": [
+            {
+              "id": 373414,
+              "opportunityId": 320536,
+              "revision": 5,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373415,
+              "opportunityId": 320536,
+              "revision": 5
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 320536,
+            "revision": 5
+          },
+          "opportunityId": 320536,
+          "revision": 5,
+          "opportunityNumber": "PD-20-7909",
+          "opportunityTitle": "Biosensing",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320536,
+              "revision": 5
+            },
+            "opportunityId": 320536,
+            "revision": 5,
+            "version": 6,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Biosensing program is part of the Engineering Biology and Health cluster, which also includes 1) the Biophotonics program; 2) the Cellular and Biochemical Engineering program; 3) the Disability and Rehabilitation Engineering program; and 4) the Engineering of Biomedical Systems program.\n\r\n\nThe Biosensing program supports fundamental engineering research in the monitoring, identification and/or quantification of biological analytes and phenomena using innovations that exist at the intersection of engineering, life sciences, and information technology. Projects submitted to the program must advance both engineering and life sciences.\n\r\n<p class=\"Default\">The Biosensing program encourages proposals that, in addition to advancing biosensing technology, address critical sensor needs in biomedical research, public health, food safety, agriculture, forensics, environmental protection, and homeland security.\n\r\n<p class=\"Default\">Proposals are especially encouraged in areas of critical need: sensing technologies that can enable monitoring and surveillance of the environment and/or individuals for novel infectious agents; platform technologies that can readily be modified as soon as new agents are detected, sequenced, and/or otherwise characterized to enable rapid deployment of sensors in clinics and the environment; and adaptive and/or multiplex sensing technologies that can help the nation prevent the spread of the next global pandemic.\n\r\n\nMajor areas of interest for the program include:\n\r\n<ul>\r\n<li style=\"text-align: left;\">Novel signal transduction principles and mechanisms that enable sensitive and specific biosensors, suitable for measurements in multiple areas;</li>\r\n<li>Design of novel biorecognition elements and appropriately designed transducing systems to enable adaptable and/or reconfigurable operating parameters in response to environmental changes or application needs at levels of device, system, or data analysis;</li>\r\n<li>Development of adaptive and/or evolvable biosensing systems for detection of novel target analytes or analytes under novel conditions;</li>\r\n<li>Novel synthetic biology approaches for the development of cell-free and cell-based biosensors; and</li>\r\n<li>Combining biosensors with artificial intelligence (AI) methods to improve sensor specificity and response time.</li>\r\n</ul>\r\n\nInnovative ideas outside of the above specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nThe Biosensors program does not encourage proposals addressing circuit design for signal processing and amplification, computational modeling, and microfluidics for sample separation and filtration. Medical imaging-based measurements are outside of the scope of the program interests. Proposals that rely heavily on descriptive approaches are given lower priority. Proposals for optimizing and/or utilizing established methods for specific applications should be directed to programs focused on the application of sensor technology.\n\r\n\nNOTE: Projects related to water and/or soil quality may be jointly supported with the Environmental Engineering program (CBET 1440). Photonic devices with medical imaging and/or optogenetics should be submitted to the Biophotonics program (CBET 7236). Applications of devices for tissue engineering or organ-on-chip systems should be submitted to the Engineering of Biomedical Systems program (CBET 5345). Basic chemical/biochemical sensing mechanisms should be submitted to the Chemical Measurement and Imaging program (CMI 6880) in the Division of Chemistry. Proposals for dynamic biosensing systems, including circuit design for signal/data processing and amplification, and sensing systems through communication and machine learning should be submitted to the Communications, Circuits, and Sensing-Systems program (CCSS 7564) in the Division of Electrical, Communications, and Cyber Systems.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the ?What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)? link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged.Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate. Please note that proposals of these types must be discussed with the program director before submission. Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: Types of Proposals.\n\r\n\nCompliance: Proposals that are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505720",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-7909",
+            "postingDate": "Sep 12, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "estimatedFunding": "7600000",
+            "estimatedFundingFormatted": "7,600,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "May 19, 2023 11:21:17 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 24, 2024 12:09:28 AM EST",
+            "createdDate": "Sep 12, 2019 01:00:50 AM EDT",
+            "lastUpdatedDate": "May 19, 2023 11:21:17 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-12-00-00-00",
+            "createTimeStampStr": "2023-05-19-23-21-17"
+          },
+          "cfdas": [
+            {
+              "id": 373414,
+              "opportunityId": 320536,
+              "revision": 5,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373415,
+              "opportunityId": 320536,
+              "revision": 5
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 254752,
+          "topportunityId": 320536,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-20-7909",
+          "opportunityTitle": "Biosensing",
+          "openingDate": "2019-09-12",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Aleksandr L. Simonian\r\nE-mail: asimonia@nsf.gov\r\nPhone: (703) 292-2191",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 214,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 01, 2025 09:21:48 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00254752",
+          "openingDateStr": "2019-09-12-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 6,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

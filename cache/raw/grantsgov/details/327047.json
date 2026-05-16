@@ -1,0 +1,922 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "327047",
+  "fetched_at": "2026-05-16T14:06:23.070Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InltWWc2bTVYak1CQzRrWlVBNGxkdGxYZ2p4M0pla0hSMDR0VWdKTi8wNEU9Ig.dThAhj6hGZVJKY_ogjfBrYfjPr8fvzmVKS9afDaGCgQ",
+    "data": {
+      "id": 327047,
+      "revision": 7,
+      "opportunityNumber": "20-576",
+      "opportunityTitle": "Plant Biotic Interactions",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 327047,
+        "version": 8,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The Plant Biotic Interactions (PBI) program supports research on the processes that mediate beneficial and antagonistic interactions between plants and their viral, bacterial, oomycete, fungal, plant, and invertebrate symbionts, pathogens and pests. This joint NSF/NIFA program supports projects focused on current and emerging model and non-model systems, and agriculturally relevant plants. The program&rsquo;s scope extends from fundamental mechanisms to translational efforts, with the latter seeking to put into agricultural practice insights gained from basic research on the mechanisms that govern plant biotic interactions. Projects must be strongly justified in terms of fundamental biological processes and/or relevance to agriculture and may be purely fundamental or applied or include aspects of both perspectives. All types of symbiosis are appropriate, including commensalism, mutualism, parasitism, and host-pathogen interactions. Research may focus on the biology of the plant host, its pathogens, pests or symbionts, interactions among these, or on the function of plant-associated microbiomes. The program welcomes proposals on the dynamics of initiation, transmission, maintenance and outcome of these complex associations, includingstudies of metabolic interactions, immune recognition and signaling, host-symbiont regulation, reciprocal responses among interacting species and mechanisms associated with self/non-self recognition such as those in pollen-pistil interactions. Explanatory frameworks shouldinclude molecular, genomic, metabolic, cellular, network and organismal processes, with projects guided by hypothesis and/or discovery driven experimental approaches. Strictly ecological projects that do not address underlying mechanisms are not appropriate for this program. Quantitative modeling in concert with experimental work is encouraged. Overall, the program seeks to support research that will deepen our understanding of the fundamental processes that mediate interactions between plants and the organisms with which they intimately associate and advance the application of that knowledge to benefit agriculture.",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf20576",
+        "fundingDescLinkDesc": "NSF Publication 20-576",
+        "postingDate": "May 14, 2020 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "30",
+        "estimatedFunding": "18500000",
+        "estimatedFundingFormatted": "18,500,000",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nUSDA/NIFA Eligible applicants include: (1) State agricultural experiment stations; (2) colleges and universities (including community colleges offering associate degrees or higher); (3) university research foundations; (4) other research institutions and organizations; (5) Federal agencies, (6) national laboratories; (7) private organizations or corporations; (8) individuals who are U.S. citizens, nationals, or permanent residents; and (9) any group consisting of 2 or more entities identified in (1) through (8). Eligible institutions do not include foreign and international organizations.",
+        "sendEmail": "N",
+        "createTimeStamp": "Aug 01, 2025 11:00:09 PM EDT",
+        "modComments": ".",
+        "createdDate": "May 14, 2020 01:00:08 AM EDT",
+        "lastUpdatedDate": "Aug 01, 2025 11:00:09 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2020-05-14-00-00-00",
+        "createTimeStampStr": "2025-08-01-23-00-09"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 381792,
+          "opportunityId": 327047,
+          "cfdaNumber": "10.310",
+          "programTitle": "Agriculture and Food Research Initiative (AFRI)"
+        },
+        {
+          "id": 381791,
+          "opportunityId": 327047,
+          "cfdaNumber": "47.074",
+          "programTitle": "Biological Sciences"
+        },
+        {
+          "id": 381777,
+          "opportunityId": 327047
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 327047,
+            "revision": 0
+          },
+          "opportunityId": 327047,
+          "revision": 0,
+          "opportunityNumber": "20-576",
+          "opportunityTitle": "Plant Biotic Interactions",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 327047,
+              "revision": 0
+            },
+            "opportunityId": 327047,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Plant Biotic Interactions (PBI) program supports research on the processes that mediate beneficial and antagonistic interactions between plants and their viral, bacterial, oomycete, fungal, plant, and invertebrate symbionts, pathogens and pests. This joint NSF/NIFA program supports projects focused on current and emerging model and non-model systems, and agriculturally relevant plants. The program&rsquo;s scope extends from fundamental mechanisms to translational efforts, with the latter seeking to put into agricultural practice insights gained from basic research on the mechanisms that govern plant biotic interactions. Projects must be strongly justified in terms of fundamental biological processes and/or relevance to agriculture and may be purely fundamental or applied or include aspects of both perspectives. All types of symbiosis are appropriate, including commensalism, mutualism, parasitism, and host-pathogen interactions. Research may focus on the biology of the plant host, its pathogens, pests or symbionts, interactions among these, or on the function of plant-associated microbiomes. The program welcomes proposals on the dynamics of initiation, transmission, maintenance and outcome of these complex associations, includingstudies of metabolic interactions, immune recognition and signaling, host-symbiont regulation, reciprocal responses among interacting species and mechanisms associated with self/non-self recognition such as those in pollen-pistil interactions. Explanatory frameworks shouldinclude molecular, genomic, metabolic, cellular, network and organismal processes, with projects guided by hypothesis and/or discovery driven experimental approaches. Strictly ecological projects that do not address underlying mechanisms are not appropriate for this program. Quantitative modeling in concert with experimental work is encouraged. Overall, the program seeks to support research that will deepen our understanding of the fundamental processes that mediate interactions between plants and the organisms with which they intimately associate and advance the application of that knowledge to benefit agriculture.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf20576",
+            "fundingDescLinkDesc": "NSF Publication 20-576",
+            "postingDate": "May 14, 2020 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "30",
+            "estimatedFunding": "18500000",
+            "estimatedFundingFormatted": "18,500,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research labs, professional societies and similar organizations in the U.S. associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nUSDA/NIFA Eligible applicants include: (1) State agricultural experiment stations; (2) colleges and universities (including community colleges offering associate degrees or higher); (3) university research foundations; (4) other research institutions and organizations; (5) Federal agencies, (6) national laboratories; (7) private organizations or corporations; (8) individuals who are U.S. citizens, nationals, or permanent residents; and (9) any group consisting of 2 or more entities identified in (1) through (8). Eligible institutions do not include foreign and international organizations.",
+            "createTimeStamp": "May 14, 2020 01:00:08 AM EDT",
+            "actionType": "U",
+            "actionDate": "Oct 07, 2020 01:01:22 AM EDT",
+            "createdDate": "May 14, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "May 14, 2020 01:00:08 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2020-05-14-00-00-00",
+            "createTimeStampStr": "2020-05-14-01-00-08"
+          },
+          "cfdas": [
+            {
+              "id": 381792,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "10.310",
+              "programTitle": "Agriculture and Food Research Initiative (AFRI)"
+            },
+            {
+              "id": 381791,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 381777,
+              "opportunityId": 327047,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 327047,
+            "revision": 1
+          },
+          "opportunityId": 327047,
+          "revision": 1,
+          "opportunityNumber": "20-576",
+          "opportunityTitle": "Plant Biotic Interactions",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 327047,
+              "revision": 1
+            },
+            "opportunityId": 327047,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Plant Biotic Interactions (PBI) program supports research on the processes that mediate beneficial and antagonistic interactions between plants and their viral, bacterial, oomycete, fungal, plant, and invertebrate symbionts, pathogens and pests. This joint NSF/NIFA program supports projects focused on current and emerging model and non-model systems, and agriculturally relevant plants. The program&rsquo;s scope extends from fundamental mechanisms to translational efforts, with the latter seeking to put into agricultural practice insights gained from basic research on the mechanisms that govern plant biotic interactions. Projects must be strongly justified in terms of fundamental biological processes and/or relevance to agriculture and may be purely fundamental or applied or include aspects of both perspectives. All types of symbiosis are appropriate, including commensalism, mutualism, parasitism, and host-pathogen interactions. Research may focus on the biology of the plant host, its pathogens, pests or symbionts, interactions among these, or on the function of plant-associated microbiomes. The program welcomes proposals on the dynamics of initiation, transmission, maintenance and outcome of these complex associations, includingstudies of metabolic interactions, immune recognition and signaling, host-symbiont regulation, reciprocal responses among interacting species and mechanisms associated with self/non-self recognition such as those in pollen-pistil interactions. Explanatory frameworks shouldinclude molecular, genomic, metabolic, cellular, network and organismal processes, with projects guided by hypothesis and/or discovery driven experimental approaches. Strictly ecological projects that do not address underlying mechanisms are not appropriate for this program. Quantitative modeling in concert with experimental work is encouraged. Overall, the program seeks to support research that will deepen our understanding of the fundamental processes that mediate interactions between plants and the organisms with which they intimately associate and advance the application of that knowledge to benefit agriculture.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf20576",
+            "fundingDescLinkDesc": "NSF Publication 20-576",
+            "postingDate": "May 14, 2020 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "30",
+            "estimatedFunding": "18500000",
+            "estimatedFundingFormatted": "18,500,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research labs, professional societies and similar organizations in the U.S. associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nUSDA/NIFA Eligible applicants include: (1) State agricultural experiment stations; (2) colleges and universities (including community colleges offering associate degrees or higher); (3) university research foundations; (4) other research institutions and organizations; (5) Federal agencies, (6) national laboratories; (7) private organizations or corporations; (8) individuals who are U.S. citizens, nationals, or permanent residents; and (9) any group consisting of 2 or more entities identified in (1) through (8). Eligible institutions do not include foreign and international organizations.",
+            "createTimeStamp": "Oct 07, 2020 01:01:22 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jan 28, 2023 01:21:22 AM EST",
+            "createdDate": "May 14, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Oct 07, 2020 01:01:22 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2020-05-14-00-00-00",
+            "createTimeStampStr": "2020-10-07-01-01-22"
+          },
+          "cfdas": [
+            {
+              "id": 381792,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "10.310",
+              "programTitle": "Agriculture and Food Research Initiative (AFRI)"
+            },
+            {
+              "id": 381791,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 381777,
+              "opportunityId": 327047,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 327047,
+            "revision": 2
+          },
+          "opportunityId": 327047,
+          "revision": 2,
+          "opportunityNumber": "20-576",
+          "opportunityTitle": "Plant Biotic Interactions",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 327047,
+              "revision": 2
+            },
+            "opportunityId": 327047,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Plant Biotic Interactions (PBI) program supports research on the processes that mediate beneficial and antagonistic interactions between plants and their viral, bacterial, oomycete, fungal, plant, and invertebrate symbionts, pathogens and pests. This joint NSF/NIFA program supports projects focused on current and emerging model and non-model systems, and agriculturally relevant plants. The program&rsquo;s scope extends from fundamental mechanisms to translational efforts, with the latter seeking to put into agricultural practice insights gained from basic research on the mechanisms that govern plant biotic interactions. Projects must be strongly justified in terms of fundamental biological processes and/or relevance to agriculture and may be purely fundamental or applied or include aspects of both perspectives. All types of symbiosis are appropriate, including commensalism, mutualism, parasitism, and host-pathogen interactions. Research may focus on the biology of the plant host, its pathogens, pests or symbionts, interactions among these, or on the function of plant-associated microbiomes. The program welcomes proposals on the dynamics of initiation, transmission, maintenance and outcome of these complex associations, includingstudies of metabolic interactions, immune recognition and signaling, host-symbiont regulation, reciprocal responses among interacting species and mechanisms associated with self/non-self recognition such as those in pollen-pistil interactions. Explanatory frameworks shouldinclude molecular, genomic, metabolic, cellular, network and organismal processes, with projects guided by hypothesis and/or discovery driven experimental approaches. Strictly ecological projects that do not address underlying mechanisms are not appropriate for this program. Quantitative modeling in concert with experimental work is encouraged. Overall, the program seeks to support research that will deepen our understanding of the fundamental processes that mediate interactions between plants and the organisms with which they intimately associate and advance the application of that knowledge to benefit agriculture.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf20576",
+            "fundingDescLinkDesc": "NSF Publication 20-576",
+            "postingDate": "May 14, 2020 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "30",
+            "estimatedFunding": "18500000",
+            "estimatedFundingFormatted": "18,500,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nUSDA/NIFA Eligible applicants include: (1) State agricultural experiment stations; (2) colleges and universities (including community colleges offering associate degrees or higher); (3) university research foundations; (4) other research institutions and organizations; (5) Federal agencies, (6) national laboratories; (7) private organizations or corporations; (8) individuals who are U.S. citizens, nationals, or permanent residents; and (9) any group consisting of 2 or more entities identified in (1) through (8). Eligible institutions do not include foreign and international organizations.",
+            "createTimeStamp": "Jan 28, 2023 01:21:22 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jan 28, 2023 01:24:00 AM EST",
+            "createdDate": "May 14, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Jan 28, 2023 01:21:22 AM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2020-05-14-00-00-00",
+            "createTimeStampStr": "2023-01-28-01-21-22"
+          },
+          "cfdas": [
+            {
+              "id": 381792,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "10.310",
+              "programTitle": "Agriculture and Food Research Initiative (AFRI)"
+            },
+            {
+              "id": 381791,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 381777,
+              "opportunityId": 327047,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "applicantEligibilityDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 327047,
+            "revision": 3
+          },
+          "opportunityId": 327047,
+          "revision": 3,
+          "opportunityNumber": "20-576",
+          "opportunityTitle": "Plant Biotic Interactions",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 327047,
+              "revision": 3
+            },
+            "opportunityId": 327047,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Plant Biotic Interactions (PBI) program supports research on the processes that mediate beneficial and antagonistic interactions between plants and their viral, bacterial, oomycete, fungal, plant, and invertebrate symbionts, pathogens and pests. This joint NSF/NIFA program supports projects focused on current and emerging model and non-model systems, and agriculturally relevant plants. The program&rsquo;s scope extends from fundamental mechanisms to translational efforts, with the latter seeking to put into agricultural practice insights gained from basic research on the mechanisms that govern plant biotic interactions. Projects must be strongly justified in terms of fundamental biological processes and/or relevance to agriculture and may be purely fundamental or applied or include aspects of both perspectives. All types of symbiosis are appropriate, including commensalism, mutualism, parasitism, and host-pathogen interactions. Research may focus on the biology of the plant host, its pathogens, pests or symbionts, interactions among these, or on the function of plant-associated microbiomes. The program welcomes proposals on the dynamics of initiation, transmission, maintenance and outcome of these complex associations, includingstudies of metabolic interactions, immune recognition and signaling, host-symbiont regulation, reciprocal responses among interacting species and mechanisms associated with self/non-self recognition such as those in pollen-pistil interactions. Explanatory frameworks shouldinclude molecular, genomic, metabolic, cellular, network and organismal processes, with projects guided by hypothesis and/or discovery driven experimental approaches. Strictly ecological projects that do not address underlying mechanisms are not appropriate for this program. Quantitative modeling in concert with experimental work is encouraged. Overall, the program seeks to support research that will deepen our understanding of the fundamental processes that mediate interactions between plants and the organisms with which they intimately associate and advance the application of that knowledge to benefit agriculture.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf20576",
+            "fundingDescLinkDesc": "NSF Publication 20-576",
+            "postingDate": "May 14, 2020 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "30",
+            "estimatedFunding": "18500000",
+            "estimatedFundingFormatted": "18,500,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nUSDA/NIFA Eligible applicants include: (1) State agricultural experiment stations; (2) colleges and universities (including community colleges offering associate degrees or higher); (3) university research foundations; (4) other research institutions and organizations; (5) Federal agencies, (6) national laboratories; (7) private organizations or corporations; (8) individuals who are U.S. citizens, nationals, or permanent residents; and (9) any group consisting of 2 or more entities identified in (1) through (8). Eligible institutions do not include foreign and international organizations.",
+            "createTimeStamp": "Jan 28, 2023 01:24:00 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "May 20, 2023 12:24:15 AM EDT",
+            "createdDate": "May 14, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Jan 28, 2023 01:24:00 AM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2020-05-14-00-00-00",
+            "createTimeStampStr": "2023-01-28-01-24-00"
+          },
+          "cfdas": [
+            {
+              "id": 381792,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "10.310",
+              "programTitle": "Agriculture and Food Research Initiative (AFRI)"
+            },
+            {
+              "id": 381791,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 381777,
+              "opportunityId": 327047,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 327047,
+            "revision": 4
+          },
+          "opportunityId": 327047,
+          "revision": 4,
+          "opportunityNumber": "20-576",
+          "opportunityTitle": "Plant Biotic Interactions",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 327047,
+              "revision": 4
+            },
+            "opportunityId": 327047,
+            "revision": 4,
+            "version": 5,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Plant Biotic Interactions (PBI) program supports research on the processes that mediate beneficial and antagonistic interactions between plants and their viral, bacterial, oomycete, fungal, plant, and invertebrate symbionts, pathogens and pests. This joint NSF/NIFA program supports projects focused on current and emerging model and non-model systems, and agriculturally relevant plants. The program&rsquo;s scope extends from fundamental mechanisms to translational efforts, with the latter seeking to put into agricultural practice insights gained from basic research on the mechanisms that govern plant biotic interactions. Projects must be strongly justified in terms of fundamental biological processes and/or relevance to agriculture and may be purely fundamental or applied or include aspects of both perspectives. All types of symbiosis are appropriate, including commensalism, mutualism, parasitism, and host-pathogen interactions. Research may focus on the biology of the plant host, its pathogens, pests or symbionts, interactions among these, or on the function of plant-associated microbiomes. The program welcomes proposals on the dynamics of initiation, transmission, maintenance and outcome of these complex associations, includingstudies of metabolic interactions, immune recognition and signaling, host-symbiont regulation, reciprocal responses among interacting species and mechanisms associated with self/non-self recognition such as those in pollen-pistil interactions. Explanatory frameworks shouldinclude molecular, genomic, metabolic, cellular, network and organismal processes, with projects guided by hypothesis and/or discovery driven experimental approaches. Strictly ecological projects that do not address underlying mechanisms are not appropriate for this program. Quantitative modeling in concert with experimental work is encouraged. Overall, the program seeks to support research that will deepen our understanding of the fundamental processes that mediate interactions between plants and the organisms with which they intimately associate and advance the application of that knowledge to benefit agriculture.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf20576",
+            "fundingDescLinkDesc": "NSF Publication 20-576",
+            "postingDate": "May 14, 2020 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "30",
+            "estimatedFunding": "18500000",
+            "estimatedFundingFormatted": "18,500,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nUSDA/NIFA Eligible applicants include: (1) State agricultural experiment stations; (2) colleges and universities (including community colleges offering associate degrees or higher); (3) university research foundations; (4) other research institutions and organizations; (5) Federal agencies, (6) national laboratories; (7) private organizations or corporations; (8) individuals who are U.S. citizens, nationals, or permanent residents; and (9) any group consisting of 2 or more entities identified in (1) through (8). Eligible institutions do not include foreign and international organizations.",
+            "createTimeStamp": "May 20, 2023 12:24:15 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 24, 2024 12:08:23 AM EST",
+            "createdDate": "May 14, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "May 20, 2023 12:24:15 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2020-05-14-00-00-00",
+            "createTimeStampStr": "2023-05-20-00-24-15"
+          },
+          "cfdas": [
+            {
+              "id": 381792,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "10.310",
+              "programTitle": "Agriculture and Food Research Initiative (AFRI)"
+            },
+            {
+              "id": 381791,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 381777,
+              "opportunityId": 327047,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 327047,
+            "revision": 5
+          },
+          "opportunityId": 327047,
+          "revision": 5,
+          "opportunityNumber": "20-576",
+          "opportunityTitle": "Plant Biotic Interactions",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 327047,
+              "revision": 5
+            },
+            "opportunityId": 327047,
+            "revision": 5,
+            "version": 6,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Plant Biotic Interactions (PBI) program supports research on the processes that mediate beneficial and antagonistic interactions between plants and their viral, bacterial, oomycete, fungal, plant, and invertebrate symbionts, pathogens and pests. This joint NSF/NIFA program supports projects focused on current and emerging model and non-model systems, and agriculturally relevant plants. The program&rsquo;s scope extends from fundamental mechanisms to translational efforts, with the latter seeking to put into agricultural practice insights gained from basic research on the mechanisms that govern plant biotic interactions. Projects must be strongly justified in terms of fundamental biological processes and/or relevance to agriculture and may be purely fundamental or applied or include aspects of both perspectives. All types of symbiosis are appropriate, including commensalism, mutualism, parasitism, and host-pathogen interactions. Research may focus on the biology of the plant host, its pathogens, pests or symbionts, interactions among these, or on the function of plant-associated microbiomes. The program welcomes proposals on the dynamics of initiation, transmission, maintenance and outcome of these complex associations, includingstudies of metabolic interactions, immune recognition and signaling, host-symbiont regulation, reciprocal responses among interacting species and mechanisms associated with self/non-self recognition such as those in pollen-pistil interactions. Explanatory frameworks shouldinclude molecular, genomic, metabolic, cellular, network and organismal processes, with projects guided by hypothesis and/or discovery driven experimental approaches. Strictly ecological projects that do not address underlying mechanisms are not appropriate for this program. Quantitative modeling in concert with experimental work is encouraged. Overall, the program seeks to support research that will deepen our understanding of the fundamental processes that mediate interactions between plants and the organisms with which they intimately associate and advance the application of that knowledge to benefit agriculture.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf20576",
+            "fundingDescLinkDesc": "NSF Publication 20-576",
+            "postingDate": "May 14, 2020 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "30",
+            "estimatedFunding": "18500000",
+            "estimatedFundingFormatted": "18,500,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nUSDA/NIFA Eligible applicants include: (1) State agricultural experiment stations; (2) colleges and universities (including community colleges offering associate degrees or higher); (3) university research foundations; (4) other research institutions and organizations; (5) Federal agencies, (6) national laboratories; (7) private organizations or corporations; (8) individuals who are U.S. citizens, nationals, or permanent residents; and (9) any group consisting of 2 or more entities identified in (1) through (8). Eligible institutions do not include foreign and international organizations.",
+            "createTimeStamp": "Feb 24, 2024 12:08:23 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "May 07, 2025 01:00:04 AM EDT",
+            "createdDate": "May 14, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "Feb 24, 2024 12:08:23 AM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2020-05-14-00-00-00",
+            "createTimeStampStr": "2024-02-24-00-08-23"
+          },
+          "cfdas": [
+            {
+              "id": 381792,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "10.310",
+              "programTitle": "Agriculture and Food Research Initiative (AFRI)"
+            },
+            {
+              "id": 381791,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 381777,
+              "opportunityId": 327047,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 327047,
+            "revision": 6
+          },
+          "opportunityId": 327047,
+          "revision": 6,
+          "opportunityNumber": "20-576",
+          "opportunityTitle": "Plant Biotic Interactions",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 327047,
+              "revision": 6
+            },
+            "opportunityId": 327047,
+            "revision": 6,
+            "version": 7,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4203",
+            "agencyContactName": "U.S. National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Plant Biotic Interactions (PBI) program supports research on the processes that mediate beneficial and antagonistic interactions between plants and their viral, bacterial, oomycete, fungal, plant, and invertebrate symbionts, pathogens and pests. This joint NSF/NIFA program supports projects focused on current and emerging model and non-model systems, and agriculturally relevant plants. The program&rsquo;s scope extends from fundamental mechanisms to translational efforts, with the latter seeking to put into agricultural practice insights gained from basic research on the mechanisms that govern plant biotic interactions. Projects must be strongly justified in terms of fundamental biological processes and/or relevance to agriculture and may be purely fundamental or applied or include aspects of both perspectives. All types of symbiosis are appropriate, including commensalism, mutualism, parasitism, and host-pathogen interactions. Research may focus on the biology of the plant host, its pathogens, pests or symbionts, interactions among these, or on the function of plant-associated microbiomes. The program welcomes proposals on the dynamics of initiation, transmission, maintenance and outcome of these complex associations, includingstudies of metabolic interactions, immune recognition and signaling, host-symbiont regulation, reciprocal responses among interacting species and mechanisms associated with self/non-self recognition such as those in pollen-pistil interactions. Explanatory frameworks shouldinclude molecular, genomic, metabolic, cellular, network and organismal processes, with projects guided by hypothesis and/or discovery driven experimental approaches. Strictly ecological projects that do not address underlying mechanisms are not appropriate for this program. Quantitative modeling in concert with experimental work is encouraged. Overall, the program seeks to support research that will deepen our understanding of the fundamental processes that mediate interactions between plants and the organisms with which they intimately associate and advance the application of that knowledge to benefit agriculture.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf20576",
+            "fundingDescLinkDesc": "NSF Publication 20-576",
+            "postingDate": "May 14, 2020 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "30",
+            "estimatedFunding": "18500000",
+            "estimatedFundingFormatted": "18,500,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nUSDA/NIFA Eligible applicants include: (1) State agricultural experiment stations; (2) colleges and universities (including community colleges offering associate degrees or higher); (3) university research foundations; (4) other research institutions and organizations; (5) Federal agencies, (6) national laboratories; (7) private organizations or corporations; (8) individuals who are U.S. citizens, nationals, or permanent residents; and (9) any group consisting of 2 or more entities identified in (1) through (8). Eligible institutions do not include foreign and international organizations.",
+            "createTimeStamp": "May 07, 2025 01:00:04 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Aug 01, 2025 11:00:09 PM EDT",
+            "createdDate": "May 14, 2020 01:00:08 AM EDT",
+            "lastUpdatedDate": "May 07, 2025 01:00:04 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2020-05-14-00-00-00",
+            "createTimeStampStr": "2025-05-07-01-00-04"
+          },
+          "cfdas": [
+            {
+              "id": 381792,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "10.310",
+              "programTitle": "Agriculture and Food Research Initiative (AFRI)"
+            },
+            {
+              "id": 381791,
+              "opportunityId": 327047,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 381777,
+              "opportunityId": 327047,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "applicantEligibilityDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 261665,
+          "topportunityId": 327047,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "20-576",
+          "opportunityTitle": "Plant Biotic Interactions",
+          "openingDate": "2020-05-14",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Courtney E. Jahn\r\nE-mail: cjahn@nsf.gov\r\nPhone: (703) 292-7746",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 200,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 01, 2025 09:13:31 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00261665",
+          "openingDateStr": "2020-05-14-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 7,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

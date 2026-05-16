@@ -1,0 +1,31 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=14407",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=14407",
+  "website": "https://www.grants.gov/search-results-detail/361881",
+  "grant_id": "14407",
+  "title": "Regional Alliances and Multistakeholder Partnerships to Stimulate (RAMPS) Cybersecurity Education and Workforce Development",
+  "overview": "The NIST NICE program is seeking applications from eligible applicants for activities to establish community-based partnerships to develop cybersecurity career pathways that address local workforce needs. Effective multistakeholder workforce partnerships will organize multiple employers with skill shortages in specific occupations to focus on developing the skilled workforce to meet industry needs within the local or regional economy. Show More",
+  "additional_info": "Posted Date: April 13, 2026 Application Due Date: May 28, 2026 Estimated Award Date: Not Specified Eligible Applicants: Others Show More",
+  "eligible_applicants": [
+    "Others"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "workforce"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Commerce",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:43.868Z",
+  "content_hash": "c3db4ca68cf9fb9942e3adc4691487068064bf906867553834d5c8c22ffa11d3",
+  "from_cache": false
+}

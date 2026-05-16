@@ -1,0 +1,196 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361881",
+  "fetched_at": "2026-05-16T14:09:20.617Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlJVWndyVTk1UWk0d3lDYXRJcUR5RHgvUVNVZTN2SWRnOHQvaGtBN3A1ckE9Ig.I7wsLYIy3lprcvTu7ecRSbxrYFtEDVYkBdpFd2nvh4w",
+    "data": {
+      "id": 361881,
+      "revision": 0,
+      "opportunityNumber": "2026-NIST-RAMPS-01",
+      "opportunityTitle": "Regional Alliances and Multistakeholder Partnerships to Stimulate (RAMPS) Cybersecurity Education and Workforce Development",
+      "owningAgencyCode": "DOC-NIST",
+      "listed": "L",
+      "publisherUid": "KMV_777",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361881,
+        "version": 1,
+        "agencyCode": "DOC-NIST",
+        "agencyName": "Karla Villalobos\nGrantor",
+        "agencyPhone": "301-975-8817",
+        "agencyAddressDesc": "grants@nist.gov",
+        "agencyDetails": {
+          "code": "NIST",
+          "seed": "DOC-NIST",
+          "agencyName": "National Institute of Standards and Technology",
+          "agencyCode": "DOC-NIST",
+          "topAgencyCode": "DOC"
+        },
+        "topAgencyDetails": {
+          "code": "DOC",
+          "seed": "DOC",
+          "agencyName": "Department of Commerce",
+          "agencyCode": "DOC",
+          "topAgencyCode": "DOC"
+        },
+        "agencyContactPhone": "301-975-8817",
+        "agencyContactName": "Karla Villalobos\nGrantor",
+        "agencyContactDesc": "Misty Roosa\r\nManagement Analyst",
+        "agencyContactEmail": "grants@nist.gov",
+        "agencyContactEmailDesc": "grants@nist.gov",
+        "synopsisDesc": "<p>The NIST NICE program is seeking applications from eligible applicants for activities to establish community-based partnerships to develop cybersecurity career pathways that address local workforce needs. Effective multistakeholder workforce partnerships will organize multiple employers with skill shortages in specific occupations to focus on developing the skilled workforce to meet industry needs within the local or regional economy.</p>",
+        "responseDate": "May 28, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Apr 13, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 27, 2026 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "16",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "applicantEligibilityDesc": "Eligibility for the RAMPS Program listed in this NOFO is open to all non-Federal U.S. entities. Eligible applicants include community-based organizations; economic development organizations; accredited institutions of higher education; secondary school districts; training providers; non-profit organizations; for-profit organizations incorporated in the United States; State, local, Territorial, and Indian Tribal governments. Please note that individuals and unincorporated sole proprietors are not considered &ldquo;non-Federal entities&rdquo; and are not eligible to apply under this NOFO. Additionally, foreign public entities and foreign organizations are not eligible to apply under this NOFO. Although Federal entities are not eligible to receive funding under this NOFO, they may participate as unfunded collaborators.\r\n\r\nCurrent or previous awardees under the RAMPS Program are eligible to apply, but sustainment of an existing or previous RAMPS Program project will not meet the goals and objectives of this NOFO.\r\n\r\nApplicants must demonstrate, through commitment letters from project partners, that at least one of each of the following types of organizations will participate in the proposed multistakeholder workforce partnership:\r\n\r\n&bull;\tat least one local employer or owner or operator of critical infrastructure (that is not the applicant), and\r\n&bull;\tat least one of the following (that is not the applicant):\r\n&bull;\tK12 School,\r\n&bull;\tLocal State Agency,\r\n&bull;\tLocal Educational Agency,\r\n&bull;\tInstitution of Higher Education,\r\n&bull;\tNon-Profit Organization, or\r\n&bull;\tTraining Organization.\r\n\r\nParticipation from academic institutions in the Federal CyberCorps Scholarship for Service Program, the National Centers of Academic Excellence in Cybersecurity Program, or Advanced Technological Education programs, as well as elementary and secondary schools, training and certification providers, State and local governments, economic development organizations, or other community organizations, is encouraged.  Priority consideration shall be given to a regional alliance or partnership that includes one or more institution of higher education that is designated as a National Center of Academic Excellence in Cybersecurity, or which received an award under the Federal CyberCorps Scholarship for Service program located in the State or region of the regional alliance or partnership (see Section V.2. of this NOFO for the Selection Factors for this competition).",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 13, 2026 03:42:49 PM EDT",
+        "createdDate": "Apr 13, 2026 03:41:32 PM EDT",
+        "lastUpdatedDate": "Apr 13, 2026 03:41:32 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-05-28-00-00-00",
+        "postingDateStr": "2026-04-13-00-00-00",
+        "archiveDateStr": "2026-06-27-00-00-00",
+        "createTimeStampStr": "2026-04-13-15-42-49"
+      },
+      "agencyDetails": {
+        "code": "NIST",
+        "seed": "DOC-NIST",
+        "agencyName": "National Institute of Standards and Technology",
+        "agencyCode": "DOC-NIST",
+        "topAgencyCode": "DOC"
+      },
+      "topAgencyDetails": {
+        "code": "DOC",
+        "seed": "DOC",
+        "agencyName": "Department of Commerce",
+        "agencyCode": "DOC",
+        "topAgencyCode": "DOC"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79265,
+          "opportunityId": 361881,
+          "folderType": "Full Announcement",
+          "folderName": "2026-NIST-RAMPS-01 NOFO",
+          "zipLobSize": 348686,
+          "createdDate": "Apr 13, 2026 03:42:09 PM EDT",
+          "lastUpdatedDate": "Apr 13, 2026 03:42:49 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351149,
+              "opportunityId": 361881,
+              "mimeType": "application/pdf",
+              "fileName": "FY26 RAMPS NOFO.pdf",
+              "fileDescription": "2026-NIST-RAMPS-01 NOFO",
+              "fileLobSize": 408676,
+              "createdDate": "Apr 13, 2026 03:42:49 PM EDT",
+              "synopsisAttFolderId": 79265
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432672,
+          "opportunityId": 361881,
+          "cfdaNumber": "11.048",
+          "programTitle": "Regional Alliances and Multistakeholder Partnerships to Stimulate (RAMPS) Cybersecurity Education and Workforce Development"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292394,
+          "topportunityId": 361881,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "2026-NIST-RAMPS-01",
+          "opportunityTitle": "Regional Alliances and Multistakeholder Partnerships to Stimulate (RAMPS) Cybersecurity Education and Workforce Development",
+          "cfdaNumber": "11.048",
+          "openingDate": "2026-04-13",
+          "closingDate": "2026-05-28",
+          "owningAgencyCode": "DOC-NIST",
+          "agencyDetails": {
+            "code": "NIST",
+            "seed": "DOC-NIST",
+            "agencyName": "National Institute of Standards and Technology",
+            "agencyCode": "DOC-NIST",
+            "topAgencyCode": "DOC"
+          },
+          "topAgencyDetails": {
+            "code": "DOC",
+            "seed": "DOC",
+            "agencyName": "Department of Commerce",
+            "agencyCode": "DOC",
+            "topAgencyCode": "DOC"
+          },
+          "programTitle": "Regional Alliances and Multistakeholder Partnerships to Stimulate (RAMPS) Cybersecurity Education and Workforce Development",
+          "contactInfo": "Misty Roosa\r\nManagement Analyst\r\ngrants@nist.gov",
+          "competitionId": "2026-NIST-RAMPS-01",
+          "competitionTitle": "Regional Alliances and Multistakeholder Partnerships to Stimulate (RAMPS) Cybersecurity Education and Workforce Development",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 100,
+          "expectedApplicationSize": 150,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 13, 2026 03:47:15 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292394",
+          "openingDateStr": "2026-04-13-00-00-00",
+          "closingDateStr": "2026-05-28-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 28, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

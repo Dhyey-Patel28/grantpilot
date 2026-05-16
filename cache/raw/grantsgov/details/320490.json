@@ -1,0 +1,958 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "320490",
+  "fetched_at": "2026-05-16T14:06:19.968Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InltWWc2bTVYak1CQzRrWlVBNGxkdHVYRXdhZ2FoMUZHYzNya01MNXdLNzQ9Ig.NKpjE8lZkRruicsNBnmErpeXsajPRmkquOT-A97_fAY",
+    "data": {
+      "id": 320490,
+      "revision": 8,
+      "opportunityNumber": "PD-20-1440",
+      "opportunityTitle": "Environmental Engineering",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 320490,
+        "version": 9,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The Environmental Engineering program is part of the Environmental Engineering and Sustainability cluster, which also includes 1) the Nanoscale Interactions program; and 2) the Environmental Sustainability program.\n\n\nEnvironmental engineering is an interdisciplinary field that applies chemical, biological, and physical scientific principles to protect human and ecological health.\n\n\nThe goal of the Environmental Engineering program is tosupport potentially transformative fundamental research that applies scientific and engineering principles to 1) prevent, minimize, or re-use solid, liquid, and gaseous discharges of pollution to soil, water, and air by closing resource loops or through other measures; 2) mitigate the ecological and human-health impacts of such releases by smart/adaptive/reactive amendments or manipulation of the environment, and 3) remediate polluted environments through engineered chemical, biological, and/or geo-physical processes.\n\n\nIntegral to achieving these goals is a fundamental understanding of the transport and biogeochemical reactivity of pollutants in the environment. Therefore, research on environmental micro/biology, environmental chemistry, and environmental geophysics may be relevant providing the research has a clear objective of protecting human and ecological health.\n\n\nMajor areas of interest include (but are not limited to): \n\n<ul type=\"disc\">\n<li>Building afuture without pollution or waste: Investigation of innovative biogeochemical processes that prevent or minimize the production of waste; waste valorization and other research that will lead to new technologies toextract resources from waste streams to close the resource loop.</li>\n<li>Sustainable supply and protection ofwater: Investigation of innovative biogeochemical processesthat remove, biologically or chemically transform, and/or prevent therelease of contaminants in surface and groundwater; innovative processesfor recovery of water, nutrients, and other resources from wastewater,saline water, or brines; innovative approaches to smart and adaptive management of surface water, groundwater, and urban watersheds and storm water to maintain/improve quality and prevent downstream impacts from nutrients and other water constituents.</li>\n<li>Environmentalchemistry, fate, and transport of nutrients and contaminants of emergingconcern in air, water, soils, and sediments:Investigation of transport and biogeochemical reactivity in theenvironment; environmental forensics to identify sources and reaction pathways; field- and laboratory scale experimental research that bridgesgaps between data and predictions from molecular, continuum, and field-scale modeling.</li>\n<li>Environmentalengineering of the built environment: Research to understand the biogeochemical reactivity of the builtenvironment with the goal of enhancing and improving human and ecological health; research that will lead to new technologies to improve outdoor and indoor air quality; research to understand how drinking water and wastewater chemical characteristics and microbial community structure impact or are affected by water quality and human health.</li>\n</ul>\n\nNOTE: Proposals with a scientific focus on chemical or physical separation processes (for example, materials or processes for reverse osmosis, membrane distillation, and hypo-filtration) should be submitted to the Interfacial Engineering program (CBET 1417). Proposals that seek to advance fundamental and quantitative understanding of the behaviors of nanomaterials and nanosystems should be submitted to the Nanoscale Interactions program (CBET 1179). Proposals focused on in vitro molecular-level environmental chemistry research should be submitted to Environmental Chemical Sciences program (CHE-ECS 6882). Proposals focusing on industrial ecology, green engineering, and ecological/earth systems engineering should be submitted to the Environmental Sustainability program (CBET 7643). Proposals whose main research focus is on materials development, sensors, or environmental monitoring that do not seek to understand biogeochemical reactivity mechanisms or treatment efficiency are not encouraged and may be returned without review.\n\n\nInnovative proposals outside of these specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\n\nProposals should address the novelty and/or<span style=\"text-decoration: underline;\"><a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\"><span style=\"text-decoration: underline;\">potentially transformative nature</span></a></span>of the proposed work compared to previous work in the field. Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research. The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the &ldquo;What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)&rdquo; link towards the bottom of this page.\n\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged. Award duration is five years. The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged.Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: <a href=\"https://www.nsf.gov/pubs/policydocs/pappg18_1/pappg_2.jsp#IIE\">Types of Proposals</a>.\n\n\nCompliance: Proposals that are not compliant with the<span style=\"text-decoration: underline;\"><a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\"><span style=\"text-decoration: underline;\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</span></a></span>will be returned without review.",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505692",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-20-1440",
+        "postingDate": "Sep 11, 2019 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "103",
+        "estimatedFunding": "10000000",
+        "estimatedFundingFormatted": "10,000,000",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "May 30, 2025 12:56:19 PM EDT",
+        "modComments": ".",
+        "createdDate": "Sep 11, 2019 01:00:40 AM EDT",
+        "lastUpdatedDate": "May 30, 2025 12:56:19 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2019-09-11-00-00-00",
+        "createTimeStampStr": "2025-05-30-12-56-19"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 373372,
+          "opportunityId": 320490,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 373384,
+          "opportunityId": 320490
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 320490,
+            "revision": 0
+          },
+          "opportunityId": 320490,
+          "revision": 0,
+          "opportunityNumber": "PD-20-1440",
+          "opportunityTitle": "Environmental Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320490,
+              "revision": 0
+            },
+            "opportunityId": 320490,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact",
+            "synopsisDesc": "The Environmental Engineering program is part of the Environmental Engineering and Sustainability cluster, which also includes 1) the Nanoscale Interactions program; and 2) the Environmental Sustainability program.\n\r\n\nEnvironmental engineering is an interdisciplinary field that applies chemical, biological, and physical scientific principles to protect human and ecological health.\n\r\n\nThe goal of the Environmental Engineering program is tosupport potentially transformative fundamental research that applies scientific and engineering principles to 1) prevent, minimize, or re-use solid, liquid, and gaseous discharges of pollution to soil, water, and air by closing resource loops or through other measures; 2) mitigate the ecological and human-health impacts of such releases by smart/adaptive/reactive amendments or manipulation of the environment, and 3) remediate polluted environments through engineered chemical, biological, and/or geo-physical processes.\n\r\n\nIntegral to achieving these goals is a fundamental understanding of the transport and biogeochemical reactivity of pollutants in the environment. Therefore, research on environmental micro/biology, environmental chemistry, and environmental geophysics may be relevant providing the research has a clear objective of protecting human and ecological health.\n\r\n\nMajor areas of interest include (but are not limited to): \n\r\n<ul type=\"disc\">\r\n<li>Building afuture without pollution or waste: Investigation of innovative biogeochemical processes that prevent or minimize the production of waste; waste valorization and other research that will lead to new technologies toextract resources from waste streams to close the resource loop.</li>\r\n<li>Sustainable supply and protection ofwater: Investigation of innovative biogeochemical processesthat remove, biologically or chemically transform, and/or prevent therelease of contaminants in surface and groundwater; innovative processesfor recovery of water, nutrients, and other resources from wastewater,saline water, or brines; innovative approaches to smart and adaptive management of surface water, groundwater, and urban watersheds and storm water to maintain/improve quality and prevent downstream impacts from nutrients and other water constituents.</li>\r\n<li>Environmentalchemistry, fate, and transport of nutrients and contaminants of emergingconcern in air, water, soils, and sediments:Investigation of transport and biogeochemical reactivity in theenvironment; environmental forensics to identify sources and reaction pathways; field- and laboratory scale experimental research that bridgesgaps between data and predictions from molecular, continuum, and field-scale modeling.</li>\r\n<li>Environmentalengineering of the built environment: Research to understand the biogeochemical reactivity of the builtenvironment with the goal of enhancing and improving human and ecological health; research that will lead to new technologies to improve outdoor and indoor air quality; research to understand how drinking water and wastewater chemical characteristics and microbial community structure impact or are affected by water quality and human health.</li>\r\n</ul>\r\n\nNOTE: Proposals with a scientific focus on chemical or physical separation processes (for example, materials or processes for reverse osmosis, membrane distillation, and hypo-filtration) should be submitted to the Interfacial Engineering program (CBET 1417). Proposals that seek to advance fundamental and quantitative understanding of the behaviors of nanomaterials and nanosystems should be submitted to the Nanoscale Interactions program (CBET 1179). Proposals focused on in vitro molecular-level environmental chemistry research should be submitted to Environmental Chemical Sciences program (CHE-ECS 6882). Proposals focusing on industrial ecology, green engineering, and ecological/earth systems engineering should be submitted to the Environmental Sustainability program (CBET 7643). Proposals whose main research focus is on materials development, sensors, or environmental monitoring that do not seek to understand biogeochemical reactivity mechanisms or treatment efficiency are not encouraged and may be returned without review.\n\r\n\nInnovative proposals outside of these specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<span style=\"text-decoration: underline;\"><a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\"><span style=\"text-decoration: underline;\">potentially transformative nature</span></a></span>of the proposed work compared to previous work in the field. Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research. The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the &ldquo;What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)&rdquo; link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged. Award duration is five years. The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged.Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: <a href=\"https://www.nsf.gov/pubs/policydocs/pappg18_1/pappg_2.jsp#IIE\">Types of Proposals</a>.\n\r\n\nCompliance: Proposals that are not compliant with the<span style=\"text-decoration: underline;\"><a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\"><span style=\"text-decoration: underline;\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</span></a></span>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505692",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1440",
+            "postingDate": "Sep 11, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "103",
+            "estimatedFunding": "10000000",
+            "estimatedFundingFormatted": "10,000,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Sep 11, 2019 01:00:40 AM EDT",
+            "actionType": "U",
+            "actionDate": "Jul 21, 2021 02:38:58 PM EDT",
+            "createdDate": "Sep 11, 2019 01:00:40 AM EDT",
+            "lastUpdatedDate": "Sep 11, 2019 01:00:40 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-11-00-00-00",
+            "createTimeStampStr": "2019-09-11-01-00-40"
+          },
+          "cfdas": [
+            {
+              "id": 373372,
+              "opportunityId": 320490,
+              "revision": 7,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373384,
+              "opportunityId": 320490,
+              "revision": 7
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 320490,
+            "revision": 1
+          },
+          "opportunityId": 320490,
+          "revision": 1,
+          "opportunityNumber": "PD-20-1440",
+          "opportunityTitle": "Environmental Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320490,
+              "revision": 1
+            },
+            "opportunityId": 320490,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Environmental Engineering program is part of the Environmental Engineering and Sustainability cluster, which also includes 1) the Nanoscale Interactions program; and 2) the Environmental Sustainability program.\n\r\n\nEnvironmental engineering is an interdisciplinary field that applies chemical, biological, and physical scientific principles to protect human and ecological health.\n\r\n\nThe goal of the Environmental Engineering program is tosupport potentially transformative fundamental research that applies scientific and engineering principles to 1) prevent, minimize, or re-use solid, liquid, and gaseous discharges of pollution to soil, water, and air by closing resource loops or through other measures; 2) mitigate the ecological and human-health impacts of such releases by smart/adaptive/reactive amendments or manipulation of the environment, and 3) remediate polluted environments through engineered chemical, biological, and/or geo-physical processes.\n\r\n\nIntegral to achieving these goals is a fundamental understanding of the transport and biogeochemical reactivity of pollutants in the environment. Therefore, research on environmental micro/biology, environmental chemistry, and environmental geophysics may be relevant providing the research has a clear objective of protecting human and ecological health.\n\r\n\nMajor areas of interest include (but are not limited to): \n\r\n<ul type=\"disc\">\r\n<li>Building afuture without pollution or waste: Investigation of innovative biogeochemical processes that prevent or minimize the production of waste; waste valorization and other research that will lead to new technologies toextract resources from waste streams to close the resource loop.</li>\r\n<li>Sustainable supply and protection ofwater: Investigation of innovative biogeochemical processesthat remove, biologically or chemically transform, and/or prevent therelease of contaminants in surface and groundwater; innovative processesfor recovery of water, nutrients, and other resources from wastewater,saline water, or brines; innovative approaches to smart and adaptive management of surface water, groundwater, and urban watersheds and storm water to maintain/improve quality and prevent downstream impacts from nutrients and other water constituents.</li>\r\n<li>Environmentalchemistry, fate, and transport of nutrients and contaminants of emergingconcern in air, water, soils, and sediments:Investigation of transport and biogeochemical reactivity in theenvironment; environmental forensics to identify sources and reaction pathways; field- and laboratory scale experimental research that bridgesgaps between data and predictions from molecular, continuum, and field-scale modeling.</li>\r\n<li>Environmentalengineering of the built environment: Research to understand the biogeochemical reactivity of the builtenvironment with the goal of enhancing and improving human and ecological health; research that will lead to new technologies to improve outdoor and indoor air quality; research to understand how drinking water and wastewater chemical characteristics and microbial community structure impact or are affected by water quality and human health.</li>\r\n</ul>\r\n\nNOTE: Proposals with a scientific focus on chemical or physical separation processes (for example, materials or processes for reverse osmosis, membrane distillation, and hypo-filtration) should be submitted to the Interfacial Engineering program (CBET 1417). Proposals that seek to advance fundamental and quantitative understanding of the behaviors of nanomaterials and nanosystems should be submitted to the Nanoscale Interactions program (CBET 1179). Proposals focused on in vitro molecular-level environmental chemistry research should be submitted to Environmental Chemical Sciences program (CHE-ECS 6882). Proposals focusing on industrial ecology, green engineering, and ecological/earth systems engineering should be submitted to the Environmental Sustainability program (CBET 7643). Proposals whose main research focus is on materials development, sensors, or environmental monitoring that do not seek to understand biogeochemical reactivity mechanisms or treatment efficiency are not encouraged and may be returned without review.\n\r\n\nInnovative proposals outside of these specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<span style=\"text-decoration: underline;\"><a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\"><span style=\"text-decoration: underline;\">potentially transformative nature</span></a></span>of the proposed work compared to previous work in the field. Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research. The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the &ldquo;What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)&rdquo; link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged. Award duration is five years. The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged.Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: <a href=\"https://www.nsf.gov/pubs/policydocs/pappg18_1/pappg_2.jsp#IIE\">Types of Proposals</a>.\n\r\n\nCompliance: Proposals that are not compliant with the<span style=\"text-decoration: underline;\"><a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\"><span style=\"text-decoration: underline;\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</span></a></span>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505692",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1440",
+            "postingDate": "Sep 11, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "103",
+            "estimatedFunding": "10000000",
+            "estimatedFundingFormatted": "10,000,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jul 21, 2021 02:38:58 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jul 21, 2021 02:48:07 PM EDT",
+            "createdDate": "Sep 11, 2019 01:00:40 AM EDT",
+            "lastUpdatedDate": "Jul 21, 2021 02:38:58 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-11-00-00-00",
+            "createTimeStampStr": "2021-07-21-14-38-58"
+          },
+          "cfdas": [
+            {
+              "id": 373372,
+              "opportunityId": 320490,
+              "revision": 7,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373384,
+              "opportunityId": 320490,
+              "revision": 7
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "agencyAddressDesc",
+            "agencyContactEmailDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 320490,
+            "revision": 2
+          },
+          "opportunityId": 320490,
+          "revision": 2,
+          "opportunityNumber": "PD-20-1440",
+          "opportunityTitle": "Environmental Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320490,
+              "revision": 2
+            },
+            "opportunityId": 320490,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Environmental Engineering program is part of the Environmental Engineering and Sustainability cluster, which also includes 1) the Nanoscale Interactions program; and 2) the Environmental Sustainability program.\n\r\n\nEnvironmental engineering is an interdisciplinary field that applies chemical, biological, and physical scientific principles to protect human and ecological health.\n\r\n\nThe goal of the Environmental Engineering program is tosupport potentially transformative fundamental research that applies scientific and engineering principles to 1) prevent, minimize, or re-use solid, liquid, and gaseous discharges of pollution to soil, water, and air by closing resource loops or through other measures; 2) mitigate the ecological and human-health impacts of such releases by smart/adaptive/reactive amendments or manipulation of the environment, and 3) remediate polluted environments through engineered chemical, biological, and/or geo-physical processes.\n\r\n\nIntegral to achieving these goals is a fundamental understanding of the transport and biogeochemical reactivity of pollutants in the environment. Therefore, research on environmental micro/biology, environmental chemistry, and environmental geophysics may be relevant providing the research has a clear objective of protecting human and ecological health.\n\r\n\nMajor areas of interest include (but are not limited to): \n\r\n<ul type=\"disc\">\r\n<li>Building afuture without pollution or waste: Investigation of innovative biogeochemical processes that prevent or minimize the production of waste; waste valorization and other research that will lead to new technologies toextract resources from waste streams to close the resource loop.</li>\r\n<li>Sustainable supply and protection ofwater: Investigation of innovative biogeochemical processesthat remove, biologically or chemically transform, and/or prevent therelease of contaminants in surface and groundwater; innovative processesfor recovery of water, nutrients, and other resources from wastewater,saline water, or brines; innovative approaches to smart and adaptive management of surface water, groundwater, and urban watersheds and storm water to maintain/improve quality and prevent downstream impacts from nutrients and other water constituents.</li>\r\n<li>Environmentalchemistry, fate, and transport of nutrients and contaminants of emergingconcern in air, water, soils, and sediments:Investigation of transport and biogeochemical reactivity in theenvironment; environmental forensics to identify sources and reaction pathways; field- and laboratory scale experimental research that bridgesgaps between data and predictions from molecular, continuum, and field-scale modeling.</li>\r\n<li>Environmentalengineering of the built environment: Research to understand the biogeochemical reactivity of the builtenvironment with the goal of enhancing and improving human and ecological health; research that will lead to new technologies to improve outdoor and indoor air quality; research to understand how drinking water and wastewater chemical characteristics and microbial community structure impact or are affected by water quality and human health.</li>\r\n</ul>\r\n\nNOTE: Proposals with a scientific focus on chemical or physical separation processes (for example, materials or processes for reverse osmosis, membrane distillation, and hypo-filtration) should be submitted to the Interfacial Engineering program (CBET 1417). Proposals that seek to advance fundamental and quantitative understanding of the behaviors of nanomaterials and nanosystems should be submitted to the Nanoscale Interactions program (CBET 1179). Proposals focused on in vitro molecular-level environmental chemistry research should be submitted to Environmental Chemical Sciences program (CHE-ECS 6882). Proposals focusing on industrial ecology, green engineering, and ecological/earth systems engineering should be submitted to the Environmental Sustainability program (CBET 7643). Proposals whose main research focus is on materials development, sensors, or environmental monitoring that do not seek to understand biogeochemical reactivity mechanisms or treatment efficiency are not encouraged and may be returned without review.\n\r\n\nInnovative proposals outside of these specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<span style=\"text-decoration: underline;\"><a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\"><span style=\"text-decoration: underline;\">potentially transformative nature</span></a></span>of the proposed work compared to previous work in the field. Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research. The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the &ldquo;What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)&rdquo; link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged. Award duration is five years. The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged.Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: <a href=\"https://www.nsf.gov/pubs/policydocs/pappg18_1/pappg_2.jsp#IIE\">Types of Proposals</a>.\n\r\n\nCompliance: Proposals that are not compliant with the<span style=\"text-decoration: underline;\"><a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\"><span style=\"text-decoration: underline;\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</span></a></span>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505692",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1440",
+            "postingDate": "Sep 11, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "103",
+            "estimatedFunding": "10000000",
+            "estimatedFundingFormatted": "10,000,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jul 21, 2021 02:48:07 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Sep 16, 2022 01:00:17 AM EDT",
+            "createdDate": "Sep 11, 2019 01:00:40 AM EDT",
+            "lastUpdatedDate": "Jul 21, 2021 02:48:07 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-11-00-00-00",
+            "createTimeStampStr": "2021-07-21-14-48-07"
+          },
+          "cfdas": [
+            {
+              "id": 373372,
+              "opportunityId": 320490,
+              "revision": 7,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373384,
+              "opportunityId": 320490,
+              "revision": 7
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 320490,
+            "revision": 3
+          },
+          "opportunityId": 320490,
+          "revision": 3,
+          "opportunityNumber": "PD-20-1440",
+          "opportunityTitle": "Environmental Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320490,
+              "revision": 3
+            },
+            "opportunityId": 320490,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Environmental Engineering program is part of the Environmental Engineering and Sustainability cluster, which also includes 1) the Nanoscale Interactions program; and 2) the Environmental Sustainability program.\n\r\n\nEnvironmental engineering is an interdisciplinary field that applies chemical, biological, and physical scientific principles to protect human and ecological health.\n\r\n\nThe goal of the Environmental Engineering program is tosupport potentially transformative fundamental research that applies scientific and engineering principles to 1) prevent, minimize, or re-use solid, liquid, and gaseous discharges of pollution to soil, water, and air by closing resource loops or through other measures; 2) mitigate the ecological and human-health impacts of such releases by smart/adaptive/reactive amendments or manipulation of the environment, and 3) remediate polluted environments through engineered chemical, biological, and/or geo-physical processes.\n\r\n\nIntegral to achieving these goals is a fundamental understanding of the transport and biogeochemical reactivity of pollutants in the environment. Therefore, research on environmental micro/biology, environmental chemistry, and environmental geophysics may be relevant providing the research has a clear objective of protecting human and ecological health.\n\r\n\nMajor areas of interest include (but are not limited to): \n\r\n<ul type=\"disc\">\r\n<li>Building afuture without pollution or waste: Investigation of innovative biogeochemical processes that prevent or minimize the production of waste; waste valorization and other research that will lead to new technologies toextract resources from waste streams to close the resource loop.</li>\r\n<li>Sustainable supply and protection ofwater: Investigation of innovative biogeochemical processesthat remove, biologically or chemically transform, and/or prevent therelease of contaminants in surface and groundwater; innovative processesfor recovery of water, nutrients, and other resources from wastewater,saline water, or brines; innovative approaches to smart and adaptive management of surface water, groundwater, and urban watersheds and storm water to maintain/improve quality and prevent downstream impacts from nutrients and other water constituents.</li>\r\n<li>Environmentalchemistry, fate, and transport of nutrients and contaminants of emergingconcern in air, water, soils, and sediments:Investigation of transport and biogeochemical reactivity in theenvironment; environmental forensics to identify sources and reaction pathways; field- and laboratory scale experimental research that bridgesgaps between data and predictions from molecular, continuum, and field-scale modeling.</li>\r\n<li>Environmentalengineering of the built environment: Research to understand the biogeochemical reactivity of the builtenvironment with the goal of enhancing and improving human and ecological health; research that will lead to new technologies to improve outdoor and indoor air quality; research to understand how drinking water and wastewater chemical characteristics and microbial community structure impact or are affected by water quality and human health.</li>\r\n</ul>\r\n\nNOTE: Proposals with a scientific focus on chemical or physical separation processes (for example, materials or processes for reverse osmosis, membrane distillation, and hypo-filtration) should be submitted to the Interfacial Engineering program (CBET 1417). Proposals that seek to advance fundamental and quantitative understanding of the behaviors of nanomaterials and nanosystems should be submitted to the Nanoscale Interactions program (CBET 1179). Proposals focused on in vitro molecular-level environmental chemistry research should be submitted to Environmental Chemical Sciences program (CHE-ECS 6882). Proposals focusing on industrial ecology, green engineering, and ecological/earth systems engineering should be submitted to the Environmental Sustainability program (CBET 7643). Proposals whose main research focus is on materials development, sensors, or environmental monitoring that do not seek to understand biogeochemical reactivity mechanisms or treatment efficiency are not encouraged and may be returned without review.\n\r\n\nInnovative proposals outside of these specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<span style=\"text-decoration: underline;\"><a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\"><span style=\"text-decoration: underline;\">potentially transformative nature</span></a></span>of the proposed work compared to previous work in the field. Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research. The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the &ldquo;What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)&rdquo; link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged. Award duration is five years. The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged.Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: <a href=\"https://www.nsf.gov/pubs/policydocs/pappg18_1/pappg_2.jsp#IIE\">Types of Proposals</a>.\n\r\n\nCompliance: Proposals that are not compliant with the<span style=\"text-decoration: underline;\"><a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\"><span style=\"text-decoration: underline;\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</span></a></span>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505692",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1440",
+            "postingDate": "Sep 11, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "103",
+            "estimatedFunding": "10000000",
+            "estimatedFundingFormatted": "10,000,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Sep 16, 2022 01:00:17 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jan 28, 2023 01:38:52 AM EST",
+            "createdDate": "Sep 11, 2019 01:00:40 AM EDT",
+            "lastUpdatedDate": "Sep 16, 2022 01:00:17 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-11-00-00-00",
+            "createTimeStampStr": "2022-09-16-01-00-17"
+          },
+          "cfdas": [
+            {
+              "id": 373372,
+              "opportunityId": 320490,
+              "revision": 7,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373384,
+              "opportunityId": 320490,
+              "revision": 7
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 320490,
+            "revision": 4
+          },
+          "opportunityId": 320490,
+          "revision": 4,
+          "opportunityNumber": "PD-20-1440",
+          "opportunityTitle": "Environmental Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320490,
+              "revision": 4
+            },
+            "opportunityId": 320490,
+            "revision": 4,
+            "version": 5,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Environmental Engineering program is part of the Environmental Engineering and Sustainability cluster, which also includes 1) the Nanoscale Interactions program; and 2) the Environmental Sustainability program.\n\r\n\nEnvironmental engineering is an interdisciplinary field that applies chemical, biological, and physical scientific principles to protect human and ecological health.\n\r\n\nThe goal of the Environmental Engineering program is tosupport potentially transformative fundamental research that applies scientific and engineering principles to 1) prevent, minimize, or re-use solid, liquid, and gaseous discharges of pollution to soil, water, and air by closing resource loops or through other measures; 2) mitigate the ecological and human-health impacts of such releases by smart/adaptive/reactive amendments or manipulation of the environment, and 3) remediate polluted environments through engineered chemical, biological, and/or geo-physical processes.\n\r\n\nIntegral to achieving these goals is a fundamental understanding of the transport and biogeochemical reactivity of pollutants in the environment. Therefore, research on environmental micro/biology, environmental chemistry, and environmental geophysics may be relevant providing the research has a clear objective of protecting human and ecological health.\n\r\n\nMajor areas of interest include (but are not limited to): \n\r\n<ul type=\"disc\">\r\n<li>Building afuture without pollution or waste: Investigation of innovative biogeochemical processes that prevent or minimize the production of waste; waste valorization and other research that will lead to new technologies toextract resources from waste streams to close the resource loop.</li>\r\n<li>Sustainable supply and protection ofwater: Investigation of innovative biogeochemical processesthat remove, biologically or chemically transform, and/or prevent therelease of contaminants in surface and groundwater; innovative processesfor recovery of water, nutrients, and other resources from wastewater,saline water, or brines; innovative approaches to smart and adaptive management of surface water, groundwater, and urban watersheds and storm water to maintain/improve quality and prevent downstream impacts from nutrients and other water constituents.</li>\r\n<li>Environmentalchemistry, fate, and transport of nutrients and contaminants of emergingconcern in air, water, soils, and sediments:Investigation of transport and biogeochemical reactivity in theenvironment; environmental forensics to identify sources and reaction pathways; field- and laboratory scale experimental research that bridgesgaps between data and predictions from molecular, continuum, and field-scale modeling.</li>\r\n<li>Environmentalengineering of the built environment: Research to understand the biogeochemical reactivity of the builtenvironment with the goal of enhancing and improving human and ecological health; research that will lead to new technologies to improve outdoor and indoor air quality; research to understand how drinking water and wastewater chemical characteristics and microbial community structure impact or are affected by water quality and human health.</li>\r\n</ul>\r\n\nNOTE: Proposals with a scientific focus on chemical or physical separation processes (for example, materials or processes for reverse osmosis, membrane distillation, and hypo-filtration) should be submitted to the Interfacial Engineering program (CBET 1417). Proposals that seek to advance fundamental and quantitative understanding of the behaviors of nanomaterials and nanosystems should be submitted to the Nanoscale Interactions program (CBET 1179). Proposals focused on in vitro molecular-level environmental chemistry research should be submitted to Environmental Chemical Sciences program (CHE-ECS 6882). Proposals focusing on industrial ecology, green engineering, and ecological/earth systems engineering should be submitted to the Environmental Sustainability program (CBET 7643). Proposals whose main research focus is on materials development, sensors, or environmental monitoring that do not seek to understand biogeochemical reactivity mechanisms or treatment efficiency are not encouraged and may be returned without review.\n\r\n\nInnovative proposals outside of these specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<span style=\"text-decoration: underline;\"><a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\"><span style=\"text-decoration: underline;\">potentially transformative nature</span></a></span>of the proposed work compared to previous work in the field. Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research. The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the &ldquo;What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)&rdquo; link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged. Award duration is five years. The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged.Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: <a href=\"https://www.nsf.gov/pubs/policydocs/pappg18_1/pappg_2.jsp#IIE\">Types of Proposals</a>.\n\r\n\nCompliance: Proposals that are not compliant with the<span style=\"text-decoration: underline;\"><a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\"><span style=\"text-decoration: underline;\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</span></a></span>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505692",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1440",
+            "postingDate": "Sep 11, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "103",
+            "estimatedFunding": "10000000",
+            "estimatedFundingFormatted": "10,000,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jan 28, 2023 01:38:52 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "May 20, 2023 12:14:11 AM EDT",
+            "createdDate": "Sep 11, 2019 01:00:40 AM EDT",
+            "lastUpdatedDate": "Jan 28, 2023 01:38:52 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-11-00-00-00",
+            "createTimeStampStr": "2023-01-28-01-38-52"
+          },
+          "cfdas": [
+            {
+              "id": 373372,
+              "opportunityId": 320490,
+              "revision": 7,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373384,
+              "opportunityId": 320490,
+              "revision": 7
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 320490,
+            "revision": 5
+          },
+          "opportunityId": 320490,
+          "revision": 5,
+          "opportunityNumber": "PD-20-1440",
+          "opportunityTitle": "Environmental Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320490,
+              "revision": 5
+            },
+            "opportunityId": 320490,
+            "revision": 5,
+            "version": 6,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Environmental Engineering program is part of the Environmental Engineering and Sustainability cluster, which also includes 1) the Nanoscale Interactions program; and 2) the Environmental Sustainability program.\n\r\n\nEnvironmental engineering is an interdisciplinary field that applies chemical, biological, and physical scientific principles to protect human and ecological health.\n\r\n\nThe goal of the Environmental Engineering program is tosupport potentially transformative fundamental research that applies scientific and engineering principles to 1) prevent, minimize, or re-use solid, liquid, and gaseous discharges of pollution to soil, water, and air by closing resource loops or through other measures; 2) mitigate the ecological and human-health impacts of such releases by smart/adaptive/reactive amendments or manipulation of the environment, and 3) remediate polluted environments through engineered chemical, biological, and/or geo-physical processes.\n\r\n\nIntegral to achieving these goals is a fundamental understanding of the transport and biogeochemical reactivity of pollutants in the environment. Therefore, research on environmental micro/biology, environmental chemistry, and environmental geophysics may be relevant providing the research has a clear objective of protecting human and ecological health.\n\r\n\nMajor areas of interest include (but are not limited to): \n\r\n<ul type=\"disc\">\r\n<li>Building afuture without pollution or waste: Investigation of innovative biogeochemical processes that prevent or minimize the production of waste; waste valorization and other research that will lead to new technologies toextract resources from waste streams to close the resource loop.</li>\r\n<li>Sustainable supply and protection ofwater: Investigation of innovative biogeochemical processesthat remove, biologically or chemically transform, and/or prevent therelease of contaminants in surface and groundwater; innovative processesfor recovery of water, nutrients, and other resources from wastewater,saline water, or brines; innovative approaches to smart and adaptive management of surface water, groundwater, and urban watersheds and storm water to maintain/improve quality and prevent downstream impacts from nutrients and other water constituents.</li>\r\n<li>Environmentalchemistry, fate, and transport of nutrients and contaminants of emergingconcern in air, water, soils, and sediments:Investigation of transport and biogeochemical reactivity in theenvironment; environmental forensics to identify sources and reaction pathways; field- and laboratory scale experimental research that bridgesgaps between data and predictions from molecular, continuum, and field-scale modeling.</li>\r\n<li>Environmentalengineering of the built environment: Research to understand the biogeochemical reactivity of the builtenvironment with the goal of enhancing and improving human and ecological health; research that will lead to new technologies to improve outdoor and indoor air quality; research to understand how drinking water and wastewater chemical characteristics and microbial community structure impact or are affected by water quality and human health.</li>\r\n</ul>\r\n\nNOTE: Proposals with a scientific focus on chemical or physical separation processes (for example, materials or processes for reverse osmosis, membrane distillation, and hypo-filtration) should be submitted to the Interfacial Engineering program (CBET 1417). Proposals that seek to advance fundamental and quantitative understanding of the behaviors of nanomaterials and nanosystems should be submitted to the Nanoscale Interactions program (CBET 1179). Proposals focused on in vitro molecular-level environmental chemistry research should be submitted to Environmental Chemical Sciences program (CHE-ECS 6882). Proposals focusing on industrial ecology, green engineering, and ecological/earth systems engineering should be submitted to the Environmental Sustainability program (CBET 7643). Proposals whose main research focus is on materials development, sensors, or environmental monitoring that do not seek to understand biogeochemical reactivity mechanisms or treatment efficiency are not encouraged and may be returned without review.\n\r\n\nInnovative proposals outside of these specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<span style=\"text-decoration: underline;\"><a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\"><span style=\"text-decoration: underline;\">potentially transformative nature</span></a></span>of the proposed work compared to previous work in the field. Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research. The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the &ldquo;What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)&rdquo; link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged. Award duration is five years. The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged.Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: <a href=\"https://www.nsf.gov/pubs/policydocs/pappg18_1/pappg_2.jsp#IIE\">Types of Proposals</a>.\n\r\n\nCompliance: Proposals that are not compliant with the<span style=\"text-decoration: underline;\"><a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\"><span style=\"text-decoration: underline;\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</span></a></span>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505692",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1440",
+            "postingDate": "Sep 11, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "103",
+            "estimatedFunding": "10000000",
+            "estimatedFundingFormatted": "10,000,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "May 20, 2023 12:14:11 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 24, 2024 12:06:14 AM EST",
+            "createdDate": "Sep 11, 2019 01:00:40 AM EDT",
+            "lastUpdatedDate": "May 20, 2023 12:14:11 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-11-00-00-00",
+            "createTimeStampStr": "2023-05-20-00-14-11"
+          },
+          "cfdas": [
+            {
+              "id": 373372,
+              "opportunityId": 320490,
+              "revision": 7,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373384,
+              "opportunityId": 320490,
+              "revision": 7
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 320490,
+            "revision": 6
+          },
+          "opportunityId": 320490,
+          "revision": 6,
+          "opportunityNumber": "PD-20-1440",
+          "opportunityTitle": "Environmental Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320490,
+              "revision": 6
+            },
+            "opportunityId": 320490,
+            "revision": 6,
+            "version": 7,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Environmental Engineering program is part of the Environmental Engineering and Sustainability cluster, which also includes 1) the Nanoscale Interactions program; and 2) the Environmental Sustainability program.\n\r\n\nEnvironmental engineering is an interdisciplinary field that applies chemical, biological, and physical scientific principles to protect human and ecological health.\n\r\n\nThe goal of the Environmental Engineering program is tosupport potentially transformative fundamental research that applies scientific and engineering principles to 1) prevent, minimize, or re-use solid, liquid, and gaseous discharges of pollution to soil, water, and air by closing resource loops or through other measures; 2) mitigate the ecological and human-health impacts of such releases by smart/adaptive/reactive amendments or manipulation of the environment, and 3) remediate polluted environments through engineered chemical, biological, and/or geo-physical processes.\n\r\n\nIntegral to achieving these goals is a fundamental understanding of the transport and biogeochemical reactivity of pollutants in the environment. Therefore, research on environmental micro/biology, environmental chemistry, and environmental geophysics may be relevant providing the research has a clear objective of protecting human and ecological health.\n\r\n\nMajor areas of interest include (but are not limited to): \n\r\n<ul type=\"disc\">\r\n<li>Building afuture without pollution or waste: Investigation of innovative biogeochemical processes that prevent or minimize the production of waste; waste valorization and other research that will lead to new technologies toextract resources from waste streams to close the resource loop.</li>\r\n<li>Sustainable supply and protection ofwater: Investigation of innovative biogeochemical processesthat remove, biologically or chemically transform, and/or prevent therelease of contaminants in surface and groundwater; innovative processesfor recovery of water, nutrients, and other resources from wastewater,saline water, or brines; innovative approaches to smart and adaptive management of surface water, groundwater, and urban watersheds and storm water to maintain/improve quality and prevent downstream impacts from nutrients and other water constituents.</li>\r\n<li>Environmentalchemistry, fate, and transport of nutrients and contaminants of emergingconcern in air, water, soils, and sediments:Investigation of transport and biogeochemical reactivity in theenvironment; environmental forensics to identify sources and reaction pathways; field- and laboratory scale experimental research that bridgesgaps between data and predictions from molecular, continuum, and field-scale modeling.</li>\r\n<li>Environmentalengineering of the built environment: Research to understand the biogeochemical reactivity of the builtenvironment with the goal of enhancing and improving human and ecological health; research that will lead to new technologies to improve outdoor and indoor air quality; research to understand how drinking water and wastewater chemical characteristics and microbial community structure impact or are affected by water quality and human health.</li>\r\n</ul>\r\n\nNOTE: Proposals with a scientific focus on chemical or physical separation processes (for example, materials or processes for reverse osmosis, membrane distillation, and hypo-filtration) should be submitted to the Interfacial Engineering program (CBET 1417). Proposals that seek to advance fundamental and quantitative understanding of the behaviors of nanomaterials and nanosystems should be submitted to the Nanoscale Interactions program (CBET 1179). Proposals focused on in vitro molecular-level environmental chemistry research should be submitted to Environmental Chemical Sciences program (CHE-ECS 6882). Proposals focusing on industrial ecology, green engineering, and ecological/earth systems engineering should be submitted to the Environmental Sustainability program (CBET 7643). Proposals whose main research focus is on materials development, sensors, or environmental monitoring that do not seek to understand biogeochemical reactivity mechanisms or treatment efficiency are not encouraged and may be returned without review.\n\r\n\nInnovative proposals outside of these specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<span style=\"text-decoration: underline;\"><a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\"><span style=\"text-decoration: underline;\">potentially transformative nature</span></a></span>of the proposed work compared to previous work in the field. Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research. The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the &ldquo;What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)&rdquo; link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged. Award duration is five years. The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged.Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: <a href=\"https://www.nsf.gov/pubs/policydocs/pappg18_1/pappg_2.jsp#IIE\">Types of Proposals</a>.\n\r\n\nCompliance: Proposals that are not compliant with the<span style=\"text-decoration: underline;\"><a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\"><span style=\"text-decoration: underline;\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</span></a></span>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505692",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1440",
+            "postingDate": "Sep 11, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "103",
+            "estimatedFunding": "10000000",
+            "estimatedFundingFormatted": "10,000,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Feb 24, 2024 12:06:14 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jun 04, 2024 01:00:23 AM EDT",
+            "createdDate": "Sep 11, 2019 01:00:40 AM EDT",
+            "lastUpdatedDate": "Feb 24, 2024 12:06:14 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-11-00-00-00",
+            "createTimeStampStr": "2024-02-24-00-06-14"
+          },
+          "cfdas": [
+            {
+              "id": 373372,
+              "opportunityId": 320490,
+              "revision": 7,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373384,
+              "opportunityId": 320490,
+              "revision": 7
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 320490,
+            "revision": 7
+          },
+          "opportunityId": 320490,
+          "revision": 7,
+          "opportunityNumber": "PD-20-1440",
+          "opportunityTitle": "Environmental Engineering",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 320490,
+              "revision": 7
+            },
+            "opportunityId": 320490,
+            "revision": 7,
+            "version": 8,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Environmental Engineering program is part of the Environmental Engineering and Sustainability cluster, which also includes 1) the Nanoscale Interactions program; and 2) the Environmental Sustainability program.\n\n\nEnvironmental engineering is an interdisciplinary field that applies chemical, biological, and physical scientific principles to protect human and ecological health.\n\n\nThe goal of the Environmental Engineering program is tosupport potentially transformative fundamental research that applies scientific and engineering principles to 1) prevent, minimize, or re-use solid, liquid, and gaseous discharges of pollution to soil, water, and air by closing resource loops or through other measures; 2) mitigate the ecological and human-health impacts of such releases by smart/adaptive/reactive amendments or manipulation of the environment, and 3) remediate polluted environments through engineered chemical, biological, and/or geo-physical processes.\n\n\nIntegral to achieving these goals is a fundamental understanding of the transport and biogeochemical reactivity of pollutants in the environment. Therefore, research on environmental micro/biology, environmental chemistry, and environmental geophysics may be relevant providing the research has a clear objective of protecting human and ecological health.\n\n\nMajor areas of interest include (but are not limited to): \n\n<ul type=\"disc\">\n<li>Building afuture without pollution or waste: Investigation of innovative biogeochemical processes that prevent or minimize the production of waste; waste valorization and other research that will lead to new technologies toextract resources from waste streams to close the resource loop.</li>\n<li>Sustainable supply and protection ofwater: Investigation of innovative biogeochemical processesthat remove, biologically or chemically transform, and/or prevent therelease of contaminants in surface and groundwater; innovative processesfor recovery of water, nutrients, and other resources from wastewater,saline water, or brines; innovative approaches to smart and adaptive management of surface water, groundwater, and urban watersheds and storm water to maintain/improve quality and prevent downstream impacts from nutrients and other water constituents.</li>\n<li>Environmentalchemistry, fate, and transport of nutrients and contaminants of emergingconcern in air, water, soils, and sediments:Investigation of transport and biogeochemical reactivity in theenvironment; environmental forensics to identify sources and reaction pathways; field- and laboratory scale experimental research that bridgesgaps between data and predictions from molecular, continuum, and field-scale modeling.</li>\n<li>Environmentalengineering of the built environment: Research to understand the biogeochemical reactivity of the builtenvironment with the goal of enhancing and improving human and ecological health; research that will lead to new technologies to improve outdoor and indoor air quality; research to understand how drinking water and wastewater chemical characteristics and microbial community structure impact or are affected by water quality and human health.</li>\n</ul>\n\nNOTE: Proposals with a scientific focus on chemical or physical separation processes (for example, materials or processes for reverse osmosis, membrane distillation, and hypo-filtration) should be submitted to the Interfacial Engineering program (CBET 1417). Proposals that seek to advance fundamental and quantitative understanding of the behaviors of nanomaterials and nanosystems should be submitted to the Nanoscale Interactions program (CBET 1179). Proposals focused on in vitro molecular-level environmental chemistry research should be submitted to Environmental Chemical Sciences program (CHE-ECS 6882). Proposals focusing on industrial ecology, green engineering, and ecological/earth systems engineering should be submitted to the Environmental Sustainability program (CBET 7643). Proposals whose main research focus is on materials development, sensors, or environmental monitoring that do not seek to understand biogeochemical reactivity mechanisms or treatment efficiency are not encouraged and may be returned without review.\n\n\nInnovative proposals outside of these specific interest areas may be considered. However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\n\nProposals should address the novelty and/or<span style=\"text-decoration: underline;\"><a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\"><span style=\"text-decoration: underline;\">potentially transformative nature</span></a></span>of the proposed work compared to previous work in the field. Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research. The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the &ldquo;What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)&rdquo; link towards the bottom of this page.\n\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged. Award duration is five years. The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the <a href=\"https://www.nsf.gov/career\">CAREER program description</a>.\n\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged.Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide(PAPPG), Part 1, Chapter II, Section E: <a href=\"https://www.nsf.gov/pubs/policydocs/pappg18_1/pappg_2.jsp#IIE\">Types of Proposals</a>.\n\n\nCompliance: Proposals that are not compliant with the<span style=\"text-decoration: underline;\"><a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\" target=\"_blank\"><span style=\"text-decoration: underline;\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</span></a></span>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505692",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-20-1440",
+            "postingDate": "Sep 11, 2019 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "103",
+            "estimatedFunding": "10000000",
+            "estimatedFundingFormatted": "10,000,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jun 04, 2024 01:00:23 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "May 30, 2025 12:56:19 PM EDT",
+            "createdDate": "Sep 11, 2019 01:00:40 AM EDT",
+            "lastUpdatedDate": "Jun 04, 2024 01:00:23 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2019-09-11-00-00-00",
+            "createTimeStampStr": "2024-06-04-01-00-23"
+          },
+          "cfdas": [
+            {
+              "id": 373372,
+              "opportunityId": 320490,
+              "revision": 7,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 373384,
+              "opportunityId": 320490,
+              "revision": 7
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 254770,
+          "topportunityId": 320490,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-20-1440",
+          "opportunityTitle": "Environmental Engineering",
+          "openingDate": "2019-09-11",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Chenyang S. Jiang\r\nE-mail: EnvE@nsf.gov\r\nPhone: (703) 292-7858",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 270,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 01, 2025 09:22:34 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00254770",
+          "openingDateStr": "2019-09-11-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 8,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

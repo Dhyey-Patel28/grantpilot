@@ -1,0 +1,578 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361329",
+  "fetched_at": "2026-05-16T14:08:44.794Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ik1FK0ZEc0sxOHEwcVVYSXd4TEd1VzVmS2ZrNVNEaEVTa1kwM3hBQmF4VFE9Ig.9vDEvTdBY3yXNgjVXhC96fy_nTZht4t67_rTPOnMIKM",
+    "data": {
+      "id": 361329,
+      "revision": 2,
+      "opportunityNumber": "CDC-RFA-CE-26-0110",
+      "opportunityTitle": "Comprehensive Addiction and Recovery Act (CARA)",
+      "owningAgencyCode": "HHS-CDC-NCIPC",
+      "listed": "L",
+      "publisherUid": "21075984081049386526321738257390910592",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361329,
+        "version": 1,
+        "agencyCode": "HHS-CDC-NCIPC",
+        "agencyName": "Cristin Gibboney\nGrantor",
+        "agencyPhone": "1234567890",
+        "agencyAddressDesc": "CARA_NOFO@cdc.gov",
+        "agencyDetails": {
+          "code": "NCIPC",
+          "seed": "HHS-CDC-NCIPC",
+          "agencyName": "Centers for Disease Control - NCIPC",
+          "agencyCode": "HHS-CDC-NCIPC",
+          "topAgencyCode": "HHS"
+        },
+        "topAgencyDetails": {
+          "code": "HHS",
+          "seed": "HHS",
+          "agencyName": "Department of Health and Human Services",
+          "agencyCode": "HHS",
+          "topAgencyCode": "HHS"
+        },
+        "agencyContactPhone": "1234567890",
+        "agencyContactName": "Cristin Gibboney\nGrantor",
+        "agencyContactDesc": "Christi Jones",
+        "agencyContactEmail": "CARA_NOFO@cdc.gov",
+        "agencyContactEmailDesc": "CARA_NOFO@cdc.gov",
+        "synopsisDesc": "<p>The Drug-Free Communities (DFC) Support Program was created by the Drug-Free Communities Act of 1997 (Public Law 105-20). The Executive Office of the President, Office of National Drug Control Policy (ONDCP), and the Department of Health and Human Services (HHS), Centers for Disease Control and Prevention (CDC), National Center for Injury Prevention and Control (NCIPC) are accepting applications for Fiscal Year (FY) 2026 Comprehensive Addiction and Recovery Act (CARA) Community-based Coalition Enhancement Grants to Address Local Drug Crises Grants (CARA Local Drug Crises Grants) as an enhancement to current or formerly funded Drug-Free Communities (DFC) Support Program recipients. The purpose of this program is to prevent and reduce the use of opioids and methamphetamines and the misuse of prescription drugs among youth ages 12-18 in communities throughout the United States.</p>",
+        "responseDate": "Jun 08, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+        "postingDate": "May 06, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 08, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "50",
+        "estimatedFunding": "18750000",
+        "estimatedFundingFormatted": "18,750,000",
+        "awardCeiling": "75000",
+        "awardCeilingFormatted": "75,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Eligible applicants are community-based coalitions addressing opioid, methamphetamine, and/or prescription drug use/misuse by local youth. They must be a nonprofit (as defined by the IRS as a 501(c) organization); or an entity that the Administrator determines to be appropriate; or part of, or is associated with an established legally recognized domestic, public or private nonprofit organizations.  For example, state and local governments, federally recognized tribes, state-recognized tribes, urban Indian organizations (as defined in Pub. L. No. 94-437), public or private universities and colleges, professional associations, voluntary organizations, self-help groups, consumer and provider services-oriented constituency groups, community- and faith-based organizations, and tribal organizations. (Pub. L. No. 114-198 Sec 103). In addition, applicants must document rates of misuse of opioids or use of methamphetamines that are higher than the national average over a sustained period.  The statutory authority for this program (Section 103 of the Comprehensive Addiction and Recovery Act) limits eligibility to domestic public and private nonprofit entities that are current or former Drug-Free Communities (DFC) Support Program recipients. The intent of the CARA Support Program is to fund coalition activities in the United States and does not authorize the funding of organizations or activities outside the United States. A CARA legal applicant (an organization applying on behalf of a coalition, the coalition, or the applicant coalition) must reside within the United States and/or the U.S. territories. In furtherance of the Trump Administration&quot;s Statement of Drug Policy Priorities, the CARA Support Program is committed to protecting American youth from the dangers of drug use. CARA Support Program applicants are expected to support applicable Executive Orders, including but not limited to: Executive Order 14168: Defending Women From Gender Ideology Extremism and Restoring Biological Truth to the Federal Government, Executive Order 14159: Protecting the American People from Invasion, Executive Order 14173: Ending Illegal Discrimination and Restoring Merit-Based Opportunity, Executive Order 13768: Enhancing Public Safety in the Interior of the United States, Executive Order 14182: Enforcing the Hyde Amendment",
+        "createTimeStamp": "May 06, 2026 04:06:59 PM EDT",
+        "createdDate": "May 06, 2026 04:00:23 PM EDT",
+        "lastUpdatedDate": "May 06, 2026 04:00:23 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "responseDateStr": "2026-06-08-00-00-00",
+        "postingDateStr": "2026-05-06-00-00-00",
+        "archiveDateStr": "2026-07-08-00-00-00",
+        "createTimeStampStr": "2026-05-06-16-06-59"
+      },
+      "agencyDetails": {
+        "code": "NCIPC",
+        "seed": "HHS-CDC-NCIPC",
+        "agencyName": "Centers for Disease Control - NCIPC",
+        "agencyCode": "HHS-CDC-NCIPC",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 361329,
+        "version": 2,
+        "postingDate": "Feb 19, 2026 12:00:00 AM EST",
+        "archiveDate": "May 05, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>The Drug-Free Communities (DFC) Support Program was created by the Drug-Free Communities Act of 1997 (Public Law 105-20). The Executive Office of the President, Office of National Drug Control Policy (ONDCP), and the Department of Health and Human Services (HHS), Centers for Disease Control and Prevention (CDC), National Center for Injury Prevention and Control (NCIPC) are accepting applications for Fiscal Year (FY) 2026 Comprehensive Addiction and Recovery Act (CARA) Community-based Coalition Enhancement Grants to Address Local Drug Crises Grants (CARA Local Drug Crises Grants) as an enhancement to current or formerly funded Drug-Free Communities (DFC) Support Program recipients. The purpose of this program is to prevent and reduce the use of opioids and methamphetamines and the misuse of prescription drugs among youth ages 12-18 in communities throughout the United States.</p>",
+        "costSharing": false,
+        "numberOfAwards": "50",
+        "estimatedFunding": "18750000",
+        "awardCeiling": "75000",
+        "awardFloor": "0",
+        "agencyContactName": "Christi Jones",
+        "agencyContactPhone": "000-000-0000",
+        "agencyContactEmail": "CARA_NOFO@cdc.gov",
+        "agencyContactEmailDesc": "CARA_NOFO@cdc.gov",
+        "agencyCode": "HHS-CDC-NCIPC",
+        "applicantEligibilityDesc": "Eligible applicants are community-based coalitions addressing opioid, methamphetamine, and/or prescription drug use/misuse by local youth. They must be a nonprofit (as defined by the IRS as a 501(c) organization); or an entity that the Administrator determines to be appropriate; or part of, or is associated with an established legally recognized domestic, public or private nonprofit organizations.  For example, state and local governments, federally recognized tribes, state-recognized tribes, urban Indian organizations (as defined in Pub. L. No. 94-437), public or private universities and colleges, professional associations, voluntary organizations, self-help groups, consumer and provider services-oriented constituency groups, community- and faith-based organizations, and tribal organizations. (Pub. L. No. 114-198 Sec 103). In addition, applicants must document rates of misuse of opioids or use of methamphetamines that are higher than the national average over a sustained period.  The statutory authority for this program (Section 103 of the Comprehensive Addiction and Recovery Act) limits eligibility to domestic public and private nonprofit entities that are current or former Drug-Free Communities (DFC) Support Program recipients. The intent of the CARA Support Program is to fund coalition activities in the United States and does not authorize the funding of organizations or activities outside the United States. A CARA legal applicant (an organization applying on behalf of a coalition, the coalition, or the applicant coalition) must reside within the United States and/or the U.S. territories. In furtherance of the Trump Administration&quot;s Statement of Drug Policy Priorities, the CARA Support Program is committed to protecting American youth from the dangers of drug use. CARA Support Program applicants are expected to support applicable Executive Orders, including but not limited to: Executive Order 14168: Defending Women From Gender Ideology Extremism and Restoring Biological Truth to the Federal Government, Executive Order 14159: Protecting the American People from Invasion, Executive Order 14173: Ending Illegal Discrimination and Restoring Merit-Based Opportunity, Executive Order 13768: Enhancing Public Safety in the Interior of the United States, Executive Order 14182: Enforcing the Hyde Amendment",
+        "estSynopsisPostingDate": "Mar 24, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Apr 28, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+        "estAwardDate": "Sep 01, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "Updated Archive Date",
+        "createTimeStamp": "May 06, 2026 04:06:59 PM EDT",
+        "createdDate": "Feb 19, 2026 10:30:33 AM EST",
+        "lastUpdatedDate": "May 06, 2026 04:06:59 PM EDT",
+        "agencyDetails": {
+          "code": "NCIPC",
+          "seed": "HHS-CDC-NCIPC",
+          "agencyName": "Centers for Disease Control - NCIPC",
+          "agencyCode": "HHS-CDC-NCIPC",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "18,750,000",
+        "awardCeilingFormatted": "75,000",
+        "awardFloorFormatted": "0",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2026-02-19-00-00-00",
+        "archiveDateStr": "2026-05-05-00-00-00",
+        "estSynopsisPostingDateStr": "2026-03-24-00-00-00",
+        "estApplicationResponseDateStr": "2026-04-28-00-00-00",
+        "estAwardDateStr": "2026-09-01-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-05-06-16-06-59"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79607,
+          "opportunityId": 361329,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 300382,
+          "createdDate": "May 06, 2026 04:04:04 PM EDT",
+          "lastUpdatedDate": "May 06, 2026 04:04:29 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351816,
+              "opportunityId": 361329,
+              "mimeType": "application/pdf",
+              "fileName": "Foa_Content_of_cdc-rfa-ce-26-0110.pdf",
+              "fileDescription": "Foa_Content_of_cdc-rfa-ce-26-0110",
+              "fileLobSize": 346046,
+              "createdDate": "May 06, 2026 04:04:29 PM EDT",
+              "synopsisAttFolderId": 79607
+            }
+          ]
+        },
+        {
+          "id": 79608,
+          "opportunityId": 361329,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Other Supporting Documents",
+          "zipLobSize": 238799,
+          "createdDate": "May 06, 2026 04:04:58 PM EDT",
+          "lastUpdatedDate": "May 06, 2026 04:06:59 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351823,
+              "opportunityId": 361329,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "CARA FY26 Coalition Meeting Minutes.docx",
+              "fileDescription": "CARA FY26 Coalition Meeting Minutes",
+              "fileLobSize": 20927,
+              "createdDate": "May 06, 2026 04:06:45 PM EDT",
+              "synopsisAttFolderId": 79608
+            },
+            {
+              "id": 351822,
+              "opportunityId": 361329,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "CARA FY26 Congressional Notification.docx",
+              "fileDescription": "CARA FY26 Congressional Notification",
+              "fileLobSize": 20415,
+              "createdDate": "May 06, 2026 04:06:32 PM EDT",
+              "synopsisAttFolderId": 79608
+            },
+            {
+              "id": 351821,
+              "opportunityId": 361329,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "CARA FY26 Disclosure of DFC Support Program Funding.docx",
+              "fileDescription": "CARA FY26 Disclosure of DFC Support Program Funding",
+              "fileLobSize": 20158,
+              "createdDate": "May 06, 2026 04:06:19 PM EDT",
+              "synopsisAttFolderId": 79608
+            },
+            {
+              "id": 351820,
+              "opportunityId": 361329,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "CARA FY26 General Applicant Information.docx",
+              "fileDescription": "CARA FY26 General Applicant Information",
+              "fileLobSize": 24839,
+              "createdDate": "May 06, 2026 04:06:01 PM EDT",
+              "synopsisAttFolderId": 79608
+            },
+            {
+              "id": 351819,
+              "opportunityId": 361329,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "CARA FY26 Memorandum of Understanding.docx",
+              "fileDescription": "CARA FY26 Memorandum of Understanding",
+              "fileLobSize": 37981,
+              "createdDate": "May 06, 2026 04:05:46 PM EDT",
+              "synopsisAttFolderId": 79608
+            },
+            {
+              "id": 351818,
+              "opportunityId": 361329,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "CARA FY26 Statement of Legal Eligibility.docx",
+              "fileDescription": "CARA FY26 Statement of Legal Eligibility",
+              "fileLobSize": 24615,
+              "createdDate": "May 06, 2026 04:05:31 PM EDT",
+              "synopsisAttFolderId": 79608
+            },
+            {
+              "id": 351817,
+              "opportunityId": 361329,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "CARA FY26 Statement of Rates.docx",
+              "fileDescription": "CARA FY26 Statement of Rates",
+              "fileLobSize": 38272,
+              "createdDate": "May 06, 2026 04:05:17 PM EDT",
+              "synopsisAttFolderId": 79608
+            },
+            {
+              "id": 351824,
+              "opportunityId": 361329,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "CARA FY26 Supporting Materials.docx",
+              "fileDescription": "CARA FY26 Supporting Materials",
+              "fileLobSize": 98978,
+              "createdDate": "May 06, 2026 04:06:59 PM EDT",
+              "synopsisAttFolderId": 79608
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432003,
+          "opportunityId": 361329,
+          "cfdaNumber": "93.799",
+          "programTitle": "CARA ACT Comprehensive Addition and Recovery Act of 2016"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361329,
+            "revision": 1
+          },
+          "opportunityId": 361329,
+          "revision": 1,
+          "opportunityNumber": "CDC-RFA-CE-26-0110",
+          "opportunityTitle": "Comprehensive Addiction and Recovery Act (CARA)",
+          "owningAgencyCode": "HHS-CDC-NCIPC",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361329,
+              "revision": 1
+            },
+            "opportunityId": 361329,
+            "revision": 1,
+            "version": 1,
+            "postingDate": "Feb 19, 2026 12:00:00 AM EST",
+            "archiveDate": "May 28, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Drug-Free Communities (DFC) Support Program was created by the Drug-Free Communities Act of 1997 (Public Law 105-20). The Executive Office of the President, Office of National Drug Control Policy (ONDCP), and the Department of Health and Human Services (HHS), Centers for Disease Control and Prevention (CDC), National Center for Injury Prevention and Control (NCIPC) are accepting applications for Fiscal Year (FY) 2026 Comprehensive Addiction and Recovery Act (CARA) Community-based Coalition Enhancement Grants to Address Local Drug Crises Grants (CARA Local Drug Crises Grants) as an enhancement to current or formerly funded Drug-Free Communities (DFC) Support Program recipients. The purpose of this program is to prevent and reduce the use of opioids and methamphetamines and the misuse of prescription drugs among youth ages 12-18 in communities throughout the United States.</p>",
+            "costSharing": false,
+            "numberOfAwards": "50",
+            "estimatedFunding": "18750000",
+            "awardCeiling": "75000",
+            "awardFloor": "0",
+            "agencyContactName": "Christi Jones",
+            "agencyContactPhone": "000-000-0000",
+            "agencyContactEmail": "CARA_NOFO@cdc.gov",
+            "agencyContactEmailDesc": "CARA_NOFO@cdc.gov",
+            "agencyCode": "HHS-CDC-NCIPC",
+            "applicantEligibilityDesc": "Eligible applicants are community-based coalitions addressing opioid, methamphetamine, and/or prescription drug use/misuse by local youth. They must be a nonprofit (as defined by the IRS as a 501(c) organization); or an entity that the Administrator determines to be appropriate; or part of, or is associated with an established legally recognized domestic, public or private nonprofit organizations.  For example, state and local governments, federally recognized tribes, state-recognized tribes, urban Indian organizations (as defined in Pub. L. No. 94-437), public or private universities and colleges, professional associations, voluntary organizations, self-help groups, consumer and provider services-oriented constituency groups, community- and faith-based organizations, and tribal organizations. (Pub. L. No. 114-198 Sec 103). In addition, applicants must document rates of misuse of opioids or use of methamphetamines that are higher than the national average over a sustained period.  The statutory authority for this program (Section 103 of the Comprehensive Addiction and Recovery Act) limits eligibility to domestic public and private nonprofit entities that are current or former Drug-Free Communities (DFC) Support Program recipients. The intent of the CARA Support Program is to fund coalition activities in the United States and does not authorize the funding of organizations or activities outside the United States. A CARA legal applicant (an organization applying on behalf of a coalition, the coalition, or the applicant coalition) must reside within the United States and/or the U.S. territories. In furtherance of the Trump Administration&quot;s Statement of Drug Policy Priorities, the CARA Support Program is committed to protecting American youth from the dangers of drug use. CARA Support Program applicants are expected to support applicable Executive Orders, including but not limited to: Executive Order 14168: Defending Women From Gender Ideology Extremism and Restoring Biological Truth to the Federal Government, Executive Order 14159: Protecting the American People from Invasion, Executive Order 14173: Ending Illegal Discrimination and Restoring Merit-Based Opportunity, Executive Order 13768: Enhancing Public Safety in the Interior of the United States, Executive Order 14182: Enforcing the Hyde Amendment",
+            "estSynopsisPostingDate": "Mar 24, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Apr 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Feb 19, 2026 10:30:33 AM EST",
+            "actionType": "U",
+            "actionDate": "May 06, 2026 04:00:23 PM EDT",
+            "createdDate": "Feb 19, 2026 10:30:33 AM EST",
+            "lastUpdatedDate": "Feb 19, 2026 10:30:33 AM EST",
+            "agencyDetails": {
+              "code": "NCIPC",
+              "seed": "HHS-CDC-NCIPC",
+              "agencyName": "Centers for Disease Control - NCIPC",
+              "agencyCode": "HHS-CDC-NCIPC",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "18,750,000",
+            "awardCeilingFormatted": "75,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-02-19-00-00-00",
+            "archiveDateStr": "2026-05-28-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-24-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-28-00-00-00",
+            "estAwardDateStr": "2026-09-01-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-02-19-10-30-33"
+          },
+          "cfdas": [
+            {
+              "id": 432003,
+              "opportunityId": 361329,
+              "revision": 0,
+              "cfdaNumber": "93.799",
+              "programTitle": "CARA ACT Comprehensive Addition and Recovery Act of 2016"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292700,
+          "topportunityId": 361329,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "CDC-RFA-CE-26-0110",
+          "opportunityTitle": "Comprehensive Addiction and Recovery Act (CARA)",
+          "cfdaNumber": "93.799",
+          "openingDate": "2026-05-06",
+          "closingDate": "2026-06-08",
+          "owningAgencyCode": "HHS-CDC-NCIPC",
+          "agencyDetails": {
+            "code": "NCIPC",
+            "seed": "HHS-CDC-NCIPC",
+            "agencyName": "Centers for Disease Control - NCIPC",
+            "agencyCode": "HHS-CDC-NCIPC",
+            "topAgencyCode": "HHS"
+          },
+          "topAgencyDetails": {
+            "code": "HHS",
+            "seed": "HHS",
+            "agencyName": "Department of Health and Human Services",
+            "agencyCode": "HHS",
+            "topAgencyCode": "HHS"
+          },
+          "programTitle": "CARA ACT Comprehensive Addition and Recovery Act of 2016",
+          "contactInfo": "Christi Jones",
+          "gracePeriod": 0,
+          "competitionId": "CDC-RFA-CE-26-0110",
+          "competitionTitle": "Comprehensive Addiction and Recovery Act (CARA)",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 100,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "May 06, 2026 04:03:24 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292700",
+          "openingDateStr": "2026-05-06-00-00-00",
+          "closingDateStr": "2026-06-08-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 08, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version",
+        "archiveDate",
+        "modComments",
+        "createTimeStamp"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

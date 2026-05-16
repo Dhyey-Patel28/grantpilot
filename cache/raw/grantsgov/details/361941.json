@@ -1,0 +1,261 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361941",
+  "fetched_at": "2026-05-16T14:09:28.189Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlJVWndyVTk1UWk0d3lDYXRJcUR5RDZxODlDUHkwTGw0QVRBTldvb0puSzg9Ig.tVGsXjGO9P_xpyt2t9IlUe2ibn4-HSup26X4k6sYruU",
+    "data": {
+      "id": 361941,
+      "revision": 0,
+      "opportunityNumber": "OLDCC-26-F-0001",
+      "opportunityTitle": "FY 2026 Defense Community Infrastructure Program",
+      "owningAgencyCode": "DOD-OEA",
+      "listed": "L",
+      "publisherUid": "DefenseGrants",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361941,
+        "version": 1,
+        "agencyCode": "DOD-OEA",
+        "agencyName": "Karen E Bass-McFadden\nGrantor",
+        "agencyPhone": "7036972161",
+        "agencyAddressDesc": "jennifer.l.hirsch3.civ@mail.mil",
+        "agencyDetails": {
+          "code": "OEA",
+          "seed": "DOD-OEA",
+          "agencyName": "Office of Local Defense Community Cooperation",
+          "agencyCode": "DOD-OEA",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "7036972161",
+        "agencyContactName": "Karen E Bass-McFadden\nGrantor",
+        "agencyContactDesc": "Jennifer Hirsch",
+        "agencyContactEmail": "jennifer.l.hirsch3.civ@mail.mil",
+        "agencyContactEmailDesc": "jennifer.l.hirsch3.civ@mail.mil",
+        "synopsisDesc": "<p>Program funding of $230 million is available and will expire if not obligated prior to the close of business on September 30, 2026. No award may exceed $20 million or be less than $250,000. Requests for funding that are more than $20 million or less than $250,000 will not be scored and will be removed from consideration. Per statute, $76.65 million is available for projects that enhance the readiness of a military department or mission assurance at a military installation, and $76.65 million is available for projects that enhance military family quality of life at a military installation. The remaining $76.7 million is available for the remaining top-ranked projects as rated by the Defense Community Infrastructure Program Review Panel.</p>",
+        "responseDate": "Jun 25, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Apr 17, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 25, 2026 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "This Notice of Funding Opportunity announces available funding from the Office of Local Defense Community Cooperation under the Defense Community Infrastructure Program to assist state and local governments, and not-for-profit, member-owned utilities, in addressing deficiencies in community infrastructure supportive of a military installation. For purposes of the Defense Community Infrastructure Program, &ldquo;Community Infrastructure&rdquo; includes projects related to transportation; schools; hospitals; police, fire, or emergency response, or other community support facilities; utility projects (e.g., water, wastewater, telecommunications, electric and natural gas facilities); and demolition projects. The facility or project itself must be owned by a state or local government, or a not-for-profit, member-owned utility. The facility addressed in the proposal must not be located on a military installation unless it is on property under the jurisdiction of a military department that is also subject to a real estate agreement (including a lease or an easement) held by an eligible community.\r\nNo award under this program may exceed $20 million or be less than $250,000. The Office of Local Defense Community Cooperation will determine the final amount of each award based on the recommendation of a Defense Community Infrastructure Program Review Panel, the availability of appropriations, and the provisions of Title 2 of the Code of Federal Regulations, Part 200 - Uniform Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards (2 C.F.R. Part 200). Review of an invited grant application will include consideration of the reasonableness, allowability, and allocability of the proposed funding.\r\nDefense Community Infrastructure Program grants may supplement funds available under federal programs administered by agencies other than the Department of War (hereinafter &ldquo;the Department&rdquo;). Additionally, subject to statutory authority, the Office of Local Defense Community Cooperation may transfer funds to another federal agency for that agency&rsquo;s award to state or local governments. School construction or renovation projects for a facility listed in the April 2019 &ldquo;Secretary of Defense 2018 Public Schools on Military Installations Prioritized List&rdquo; (and any future updates) are not eligible.",
+        "costSharing": true,
+        "awardCeiling": "20000000",
+        "awardCeilingFormatted": "20,000,000",
+        "awardFloor": "250000",
+        "awardFloorFormatted": "250,000",
+        "applicantEligibilityDesc": "The Secretary of War1 (hereinafter &ldquo;the Secretary&rdquo;), through the Office of Local Defense Community Cooperation, may award grants under this Notice to state and local governments, and to not-for-profit, member-owned utility services. &ldquo;State&rdquo; and &ldquo;local governments&rdquo; are defined in Title 2 of the Code of Federal Regulations, Section 200.1 (2 C.F.R. &sect; 200.1). The guidance in 2 C.F.R. &sect; 200.332 prescribes how entities eligible to receive funding under the Defense Community Infrastructure Program may act as pass-through entities. Proposals must be submitted on behalf of any proposed sub-recipient. Any proposals submitted by a sub-recipient will not be considered.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 22, 2026 01:23:22 PM EDT",
+        "createdDate": "Apr 17, 2026 09:46:45 AM EDT",
+        "lastUpdatedDate": "Apr 17, 2026 09:46:45 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "responseDateStr": "2026-06-25-00-00-00",
+        "postingDateStr": "2026-04-17-00-00-00",
+        "archiveDateStr": "2026-07-25-00-00-00",
+        "createTimeStampStr": "2026-04-22-13-23-22"
+      },
+      "agencyDetails": {
+        "code": "OEA",
+        "seed": "DOD-OEA",
+        "agencyName": "Office of Local Defense Community Cooperation",
+        "agencyCode": "DOD-OEA",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79314,
+          "opportunityId": 361941,
+          "folderType": "Full Announcement",
+          "folderName": "FY 2026 DCIP NOFO",
+          "zipLobSize": 512994,
+          "createdDate": "Apr 17, 2026 09:52:45 AM EDT",
+          "lastUpdatedDate": "Apr 17, 2026 09:53:39 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351285,
+              "opportunityId": 361941,
+              "mimeType": "application/pdf",
+              "fileName": "20260417-FY26 DCIP NOFO Final.pdf",
+              "fileDescription": "Full FY 26 DCIP NOFO",
+              "fileLobSize": 537618,
+              "createdDate": "Apr 17, 2026 09:53:13 AM EDT",
+              "lastUpdatedDate": "Apr 17, 2026 09:53:39 AM EDT",
+              "synopsisAttFolderId": 79314
+            }
+          ]
+        },
+        {
+          "id": 79315,
+          "opportunityId": 361941,
+          "folderType": "Other Supporting Documents",
+          "folderName": "FY 2026 DCIP NOFO Instructions",
+          "zipLobSize": 629834,
+          "createdDate": "Apr 17, 2026 09:57:15 AM EDT",
+          "lastUpdatedDate": "Apr 17, 2026 09:57:40 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351289,
+              "opportunityId": 361941,
+              "mimeType": "application/pdf",
+              "fileName": "20260417 FY26 DCIP NOFO Instructions.pdf",
+              "fileDescription": "FY26 DCIP NOFO Instructions",
+              "fileLobSize": 668107,
+              "createdDate": "Apr 17, 2026 09:57:40 AM EDT",
+              "synopsisAttFolderId": 79315
+            }
+          ]
+        },
+        {
+          "id": 79364,
+          "opportunityId": 361941,
+          "folderType": "Other Supporting Documents",
+          "folderName": "FY26 DCIP NOFO FAQs",
+          "zipLobSize": 228503,
+          "createdDate": "Apr 22, 2026 01:21:54 PM EDT",
+          "lastUpdatedDate": "Apr 22, 2026 01:22:41 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351433,
+              "opportunityId": 361941,
+              "mimeType": "application/pdf",
+              "fileName": "2026-04-21 FY26 DCIP NOFO FAQs_FINAL.pdf",
+              "fileDescription": "FY26 DCIP NOFO FAQs FINAL 4-21-2026",
+              "fileLobSize": 236860,
+              "createdDate": "Apr 22, 2026 01:22:41 PM EDT",
+              "synopsisAttFolderId": 79364
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [
+        {
+          "id": {
+            "opportunityId": 361941,
+            "attType": "D",
+            "createdDate": "Apr 22, 2026 01:23:22 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Apr 22, 2026"
+          },
+          "changeComments": "Added new supporting document: FY26 DCIP NOFO FAQs Final 4-21-2026"
+        }
+      ],
+      "cfdas": [
+        {
+          "id": 432760,
+          "opportunityId": 361941,
+          "cfdaNumber": "12.027",
+          "programTitle": "Defense Community Infrastructure Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292437,
+          "topportunityId": 361941,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "OLDCC-26-F-0001",
+          "opportunityTitle": "FY 2026 Defense Community Infrastructure Program",
+          "cfdaNumber": "12.027",
+          "openingDate": "2026-04-17",
+          "closingDate": "2026-06-25",
+          "owningAgencyCode": "DOD-OEA",
+          "agencyDetails": {
+            "code": "OEA",
+            "seed": "DOD-OEA",
+            "agencyName": "Office of Local Defense Community Cooperation",
+            "agencyCode": "DOD-OEA",
+            "topAgencyCode": "DOD"
+          },
+          "topAgencyDetails": {
+            "code": "DOD",
+            "seed": "DOD",
+            "agencyName": "Department of Defense",
+            "agencyCode": "DOD",
+            "topAgencyCode": "DOD"
+          },
+          "programTitle": "Defense Community Infrastructure Program",
+          "contactInfo": "Jennifer Hirsch\r\nOffice of Local Defense Community Cooperation (OLDCC)\r\nDepartment of Defense\r\n2231 Crystal Drive, Suite 520   \r\nArlington, VA  22202 \r\nCell: (703) 409-8719\r\njennifer.l.hirsch3.civ@mail.mil",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 250,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 17, 2026 09:56:32 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292437",
+          "openingDateStr": "2026-04-17-00-00-00",
+          "closingDateStr": "2026-06-25-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 25, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

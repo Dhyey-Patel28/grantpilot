@@ -1,0 +1,394 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "359120",
+  "fetched_at": "2026-05-16T14:07:52.107Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IllVUnRjcDNNRE55cFU0RzY2cGdhTWl3TWlOSDVBTnBkbUgwN3dFTEhKOVk9Ig.5xXtI9C1PDPgdCVElZCwpXE9SuDp_kE4WREKxWzzYZo",
+    "data": {
+      "id": 359120,
+      "revision": 1,
+      "opportunityNumber": "PAS-TUNIS-FY2025",
+      "opportunityTitle": "Annual Program Statement (APS) for Fiscal Year 2025",
+      "owningAgencyCode": "DOS-TUN",
+      "listed": "L",
+      "publisherUid": "benmohamedk",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "TUN",
+        "seed": "DOS-TUN",
+        "agencyName": "U.S. Mission to Tunisia",
+        "agencyCode": "DOS-TUN",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "forecast": {
+        "opportunityId": 359120,
+        "version": 2,
+        "postingDate": "Jun 02, 2025 12:00:00 AM EDT",
+        "forecastDesc": "<p><span style=\"color: black;\">The Public Affairs Section </span>(PAS) at U.S. Embassy Tunis invites creative and engaging proposals for programs that strengthen ties between the United States and Tunisia, highlight shared values, and promote bilateral cooperation in ways that make America safer, stronger, and more prosperous.&nbsp;Please see Section C. Program Description for more information.&nbsp;This Annual Program Statement (APS) outlines our funding priorities and the strategic themes we will focus on in FY2025, and the procedures for submitting requests for funding.&nbsp;Based on availability of funding, PAS Tunis will award grants, fixed amount awards, or cooperative agreements between a minimum of $10,000 and up to a maximum of $200,000 (U.S. dollars) each for projects that advance the priorities outlined in this APS.&nbsp;Please carefully follow all instructions in the full announcement.&nbsp;Proposals that fail to conform to the requirements outlined in this APS will not be considered.</p>\n<p><br></p>\n<p>All proposed programs must include an American element or a connection with American expert(s), organization(s), or institutions in ways that promote increased understanding of U.S. policies, perspectives, and society and/or celebrate U.S. culture and values.&nbsp;Proposals that include programming outside Greater Tunis or across multiple governorates and/or promote increased collaboration and networking among alumni of U.S. government programs are encouraged.&nbsp;</p>\n<p><br></p>\n<p>PAS Tunis invites creative and engaging proposals for programs that strengthen cultural, educational, professional, scientific, and business ties between the United States and Tunisia through programming that highlights shared values, strengthens people-to-people ties and institutional linkages, and promotes bilateral cooperation, and makes America safer, stronger, and more prosperous.&nbsp;Competitive proposals must focus on at least one grant priority area outlined below.&nbsp;</p>\n<p><br></p>\n<p>&nbsp;Examples of possible PD small grant proposals include, but are not limited to:</p>\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subject-matter expert, academic, and professional lectures, seminars, and speaker programs that include U.S. speakers/experts.</p>\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programs that strengthen relationships and linkages between U.S. and Tunisian higher education and cultural institutions.</p>\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Educational, artistic, and cultural programs, including programs that strengthen English language teaching and learning, music, musical theater, dance workshops, master classes, and performances, live theatre performances, art exhibitions, and sports and culinary diplomacy initiatives that increase mutual understanding between the people of the United States and Tunisia.</p>\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programs, including podcasts, that promote economic empowerment, entrepreneurship, or that share U.S. experiences related to addressing community challenges, including the management of water or energy resources, waste management, urban design and planning, and preparing for and mitigating natural or human-caused disasters.&nbsp;</p>\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cultural heritage conservation and preservation programming, including through the use new and immersive technologies, such as VR technology.&nbsp;</p>\n<p><strong style=\"color: black;\">(Note:&nbsp;This funding cannot be used to support construction-related activities.&nbsp;End note.)</strong></p>\n<p><br></p>\n<p><strong>Priority Program Areas and Strategic Themes:</strong>&nbsp;Proposals must address at least one of the six priority areas outlined below:&nbsp;</p>\n<p><br></p>\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Economic Prosperity and Entrepreneurship:&nbsp;</strong>Initiatives that prioritize mutual prosperity, expand economic and commercial links between the United States and Tunisia, promote U.S. entrepreneurial values and practices, and that share best practices of successful U.S. business partnerships, startups, and investors with the aim of increasing economic opportunities for U.S. and Tunisian businesses and investors.</p>\n<p><strong>&nbsp;</strong></p>\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>INNOVATION and Collaboration in science and technology:&nbsp;</strong>Initiatives that promote collaboration and academic partnerships in STEM fields (science, technology, engineering, and mathematics), including cybersecurity, space, energy, water security, food security, smart agriculture, health technology, and artificial intelligence (AI) between U.S. and Tunisian academic and research institutions, non-governmental organizations, and private companies, as well as programs that promote interest in STEM education among young people.</p>\n<p><br></p>\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>EDUCATIONAL LINKAGES AND ENGLISH LANGUAGE</strong>:&nbsp;Initiatives that expand collaboration and partnerships between U.S. and Tunisian higher education and research institutions through programs and professional and academic exchanges; programs to strengthen English language instruction in Tunisian universities and colleges; programs to expand the teaching of English in sign language and braille; and other programs that support and promote English language learning among Tunisian youth.</p>\n<p><strong>&nbsp;</strong></p>\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>LEADERSHIP:&nbsp;</strong>Initiatives that provide leadership training inspired by U.S. experiences, models, and best practices to Tunisian young people (high school and university students and young professionals) to help them become effective leaders in their communities and professional field of choice.&nbsp;Such training may include English language, public speaking and interpersonal communication, emotional intelligence, critical thinking and problem solving, financial literacy, goal-setting, and mental health management strategies.</p>\n<p><strong>&nbsp;</strong></p>\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>MEGA DECADE OF SPORTS:&nbsp;</strong>Programs that leverage the “Mega-Decade in Sports” in North America (2023-2034) when the United States will host the 2025 FIFA World Club Cup, the 2026 FIFA Men’s World Cup, the 2028 Summer Olympics and Paralympics in Los Angeles, and the 2034 Winter Olympics and Paralympics in Salt Lake City, in ways that strengthen people-to-people ties between the United States and Tunisia, promote American values and demonstrate American excellence and leadership in sports and tourism.</p>\n<p><br></p>\n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Celebrating American Excellence AND U.S.-Tunisian Enduring Partnership:&nbsp;</strong>Programs that</p>\n<p>1) celebrate U.S. scientific or sport prowess, innovation, economic dynamism, agricultural strength, and national parks and tourism during the 250th anniversary year of U.S. Independence;&nbsp;</p>\n<p>2) leverage people-to-people ties and promote the establishment of U.S-Tunisian institutional linkages through cultural diplomacy, including artistic and cultural workshops, performances, exhibitions, or other activities that celebrate American excellence in visual and performing arts, music, cultural heritage protection, and film during the 250th anniversary year of U.S. Independence and the 228th anniversary year of the 1797 treaty of friendship between the U.S. and Tunisia; AND/OR</p>\n<p>3) leverage people-to-people or institutional ties through sports or cultural diplomacy initiatives to increase awareness and understanding among broad elements of Tunisian society of the history and benefits of the over two centuries of U.S.-Tunisian friendship, trade, and security cooperation.</p>",
+        "fundingActivityCategoryDesc": "Public Diplomacy",
+        "costSharing": false,
+        "awardCeiling": "200000",
+        "awardFloor": "10000",
+        "agencyContactName": "Kaouthar Ben Mohamed\r\nGrantor",
+        "agencyContactPhone": "0021671107266",
+        "agencyContactEmail": "benmohamedk@state.gov",
+        "agencyContactEmailDesc": "PASTunisSmallGrants@state.gov",
+        "agencyCode": "DOS-TUN",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "* Public and private educational institutions;* Non-profit or governmental educational institutions;* Governmental institutions",
+        "estSynopsisPostingDate": "Jun 02, 2025 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jul 06, 2025 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "",
+        "fiscalYear": 2025,
+        "modComments": "To correct the application submission due date",
+        "createTimeStamp": "Jun 30, 2025 10:49:53 AM EDT",
+        "createdDate": "May 27, 2025 06:39:48 AM EDT",
+        "lastUpdatedDate": "Jun 30, 2025 10:49:53 AM EDT",
+        "agencyDetails": {
+          "code": "TUN",
+          "seed": "DOS-TUN",
+          "agencyName": "U.S. Mission to Tunisia",
+          "agencyCode": "DOS-TUN",
+          "topAgencyCode": "DOS"
+        },
+        "awardCeilingFormatted": "200,000",
+        "awardFloorFormatted": "10,000",
+        "applicantTypes": [
+          {
+            "id": "21",
+            "description": "Individuals"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "postingDateStr": "2025-06-02-00-00-00",
+        "estSynopsisPostingDateStr": "2025-06-02-00-00-00",
+        "estApplicationResponseDateStr": "2025-07-06-00-00-00",
+        "createTimeStampStr": "2025-06-30-10-49-53"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 77779,
+          "opportunityId": 359120,
+          "folderType": "Full Announcement",
+          "folderName": "PAS-TUNIS-FY2025",
+          "zipLobSize": 517934,
+          "createdDate": "Jun 02, 2025 10:26:25 AM EDT",
+          "lastUpdatedDate": "Jun 27, 2025 06:04:45 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 348020,
+              "opportunityId": 359120,
+              "mimeType": "application/pdf",
+              "fileName": "FY25-PAS-Tunis-APS.pdf",
+              "fileDescription": "FY25-PAS-Tunis-APS",
+              "fileLobSize": 365532,
+              "createdDate": "Jun 04, 2025 06:34:53 AM EDT",
+              "synopsisAttFolderId": 77779
+            },
+            {
+              "id": 348448,
+              "opportunityId": 359120,
+              "mimeType": "application/pdf",
+              "fileName": "FY25 PAS Tunis APS.pdf",
+              "fileDescription": "Full Announcement",
+              "fileLobSize": 332754,
+              "createdDate": "Jun 27, 2025 06:04:45 AM EDT",
+              "synopsisAttFolderId": 77779
+            }
+          ]
+        },
+        {
+          "id": 77743,
+          "opportunityId": 359120,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Application  SF424",
+          "zipLobSize": 137326,
+          "createdDate": "May 27, 2025 06:45:39 AM EDT",
+          "lastUpdatedDate": "May 27, 2025 06:46:30 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 347837,
+              "opportunityId": 359120,
+              "mimeType": "application/pdf",
+              "fileName": "Application - SF424_4_0-V4.0.pdf",
+              "fileDescription": "Application SF424",
+              "fileLobSize": 147894,
+              "createdDate": "May 27, 2025 06:46:30 AM EDT",
+              "synopsisAttFolderId": 77743
+            }
+          ]
+        },
+        {
+          "id": 77745,
+          "opportunityId": 359120,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Assurance",
+          "zipLobSize": 54857,
+          "createdDate": "May 27, 2025 06:48:31 AM EDT",
+          "lastUpdatedDate": "May 27, 2025 06:50:06 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 347839,
+              "opportunityId": 359120,
+              "mimeType": "application/pdf",
+              "fileName": "ASSURANCES - SF424B.pdf",
+              "fileDescription": "Assurance SF424B",
+              "fileLobSize": 65769,
+              "createdDate": "May 27, 2025 06:50:06 AM EDT",
+              "synopsisAttFolderId": 77745
+            }
+          ]
+        },
+        {
+          "id": 77744,
+          "opportunityId": 359120,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Budget Information SF424A",
+          "zipLobSize": 160184,
+          "createdDate": "May 27, 2025 06:47:29 AM EDT",
+          "lastUpdatedDate": "May 27, 2025 06:47:52 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 347838,
+              "opportunityId": 359120,
+              "mimeType": "application/pdf",
+              "fileName": "BUDGET INFORMATION - SF424A-V1.0.pdf",
+              "fileDescription": "Budget Information SF424A",
+              "fileLobSize": 177134,
+              "createdDate": "May 27, 2025 06:47:52 AM EDT",
+              "synopsisAttFolderId": 77744
+            }
+          ]
+        },
+        {
+          "id": 77746,
+          "opportunityId": 359120,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Project Budget Narrative",
+          "zipLobSize": 21447,
+          "createdDate": "May 27, 2025 06:50:44 AM EDT",
+          "lastUpdatedDate": "May 27, 2025 06:51:11 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 347840,
+              "opportunityId": 359120,
+              "mimeType": "application/vnd.ms-excel",
+              "fileName": "Project Budget Narrative Template.xls",
+              "fileDescription": "Project Budget Narrative",
+              "fileLobSize": 84992,
+              "createdDate": "May 27, 2025 06:51:11 AM EDT",
+              "synopsisAttFolderId": 77746
+            }
+          ]
+        },
+        {
+          "id": 77747,
+          "opportunityId": 359120,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Project Narrative",
+          "zipLobSize": 214741,
+          "createdDate": "May 27, 2025 06:57:31 AM EDT",
+          "lastUpdatedDate": "Jun 02, 2025 10:27:30 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 347841,
+              "opportunityId": 359120,
+              "mimeType": "application/pdf",
+              "fileName": "APS-Project-Proposal.pdf",
+              "fileDescription": "Project Narrative",
+              "fileLobSize": 232802,
+              "createdDate": "May 27, 2025 07:00:38 AM EDT",
+              "synopsisAttFolderId": 77747
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 428600,
+          "opportunityId": 359120,
+          "cfdaNumber": "19.040",
+          "programTitle": "Public Diplomacy Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 359120,
+            "revision": 0
+          },
+          "opportunityId": 359120,
+          "revision": 0,
+          "opportunityNumber": "PAS-TUNIS-FY2025",
+          "opportunityTitle": "Annual Program Statement (APS) for Fiscal Year 2025",
+          "owningAgencyCode": "DOS-TUN",
+          "publisherUid": "benmohamedk",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 359120,
+              "revision": 0
+            },
+            "opportunityId": 359120,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Jun 02, 2025 12:00:00 AM EDT",
+            "forecastDesc": "<p><span style=\"color: black;\">The Public Affairs Section </span>(PAS) at U.S. Embassy Tunis invites creative and engaging proposals for programs that strengthen ties between the United States and Tunisia, highlight shared values, and promote bilateral cooperation in ways that make America safer, stronger, and more prosperous.&nbsp;Please see Section C. Program Description for more information.&nbsp;This Annual Program Statement (APS) outlines our funding priorities and the strategic themes we will focus on in FY2025, and the procedures for submitting requests for funding.&nbsp;Based on availability of funding, PAS Tunis will award grants, fixed amount awards, or cooperative agreements between a minimum of $10,000 and up to a maximum of $200,000 (U.S. dollars) each for projects that advance the priorities outlined in this APS.&nbsp;Please carefully follow all instructions in the full announcement.&nbsp;Proposals that fail to conform to the requirements outlined in this APS will not be considered.</p> \n<p><br></p> \n<p>All proposed programs must include an American element or a connection with American expert(s), organization(s), or institutions in ways that promote increased understanding of U.S. policies, perspectives, and society and/or celebrate U.S. culture and values.&nbsp;Proposals that include programming outside Greater Tunis or across multiple governorates and/or promote increased collaboration and networking among alumni of U.S. government programs are encouraged.&nbsp;</p> \n<p><br></p> \n<p>PAS Tunis invites creative and engaging proposals for programs that strengthen cultural, educational, professional, scientific, and business ties between the United States and Tunisia through programming that highlights shared values, strengthens people-to-people ties and institutional linkages, and promotes bilateral cooperation, and makes America safer, stronger, and more prosperous.&nbsp;Competitive proposals must focus on at least one grant priority area outlined below.&nbsp;</p> \n<p><br></p> \n<p>&nbsp;Examples of possible PD small grant proposals include, but are not limited to:</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subject-matter expert, academic, and professional lectures, seminars, and speaker programs that include U.S. speakers/experts.</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programs that strengthen relationships and linkages between U.S. and Tunisian higher education and cultural institutions.</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Educational, artistic, and cultural programs, including programs that strengthen English language teaching and learning, music, musical theater, dance workshops, master classes, and performances, live theatre performances, art exhibitions, and sports and culinary diplomacy initiatives that increase mutual understanding between the people of the United States and Tunisia.</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programs, including podcasts, that promote economic empowerment, entrepreneurship, or that share U.S. experiences related to addressing community challenges, including the management of water or energy resources, waste management, urban design and planning, and preparing for and mitigating natural or human-caused disasters.&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cultural heritage conservation and preservation programming, including through the use new and immersive technologies, such as VR technology.&nbsp;</p> \n<p><strong style=\"color: black;\">(Note:&nbsp;This funding cannot be used to support construction-related activities.&nbsp;End note.)</strong></p> \n<p><br></p> \n<p><strong>Priority Program Areas and Strategic Themes:</strong> &nbsp;Proposals must address at least one of the six priority areas outlined below:&nbsp;</p> \n<p><br></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Economic Prosperity and Entrepreneurship:&nbsp;</strong>Initiatives that prioritize mutual prosperity, expand economic and commercial links between the United States and Tunisia, promote U.S. entrepreneurial values and practices, and that share best practices of successful U.S. business partnerships, startups, and investors with the aim of increasing economic opportunities for U.S. and Tunisian businesses and investors. </p> \n<p><strong>&nbsp;</strong></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>INNOVATION and Collaboration in science and technology:&nbsp;</strong>Initiatives that promote collaboration and academic partnerships in STEM fields (science, technology, engineering, and mathematics), including cybersecurity, space, energy, water security, food security, smart agriculture, health technology, and artificial intelligence (AI) between U.S. and Tunisian academic and research institutions, non-governmental organizations, and private companies, as well as programs that promote interest in STEM education among young people.</p> \n<p><br></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>EDUCATIONAL LINKAGES AND ENGLISH LANGUAGE</strong>:&nbsp;Initiatives that expand collaboration and partnerships between U.S. and Tunisian higher education and research institutions through programs and professional and academic exchanges; programs to strengthen English language instruction in Tunisian universities and colleges; programs to expand the teaching of English in sign language and braille; and other programs that support and promote English language learning among Tunisian youth.</p> \n<p><strong>&nbsp;</strong></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>LEADERSHIP:&nbsp;</strong>Initiatives that provide leadership training inspired by U.S. experiences, models, and best practices to Tunisian young people (high school and university students and young professionals) to help them become effective leaders in their communities and professional field of choice.&nbsp;Such training may include English language, public speaking and interpersonal communication, emotional intelligence, critical thinking and problem solving, financial literacy, goal-setting, and mental health management strategies.</p> \n<p><strong>&nbsp;</strong></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>MEGA DECADE OF SPORTS:&nbsp;</strong>Programs that leverage the “Mega-Decade in Sports” in North America (2023-2034) when the United States will host the 2025 FIFA World Club Cup, the 2026 FIFA Men’s World Cup, the 2028 Summer Olympics and Paralympics in Los Angeles, and the 2034 Winter Olympics and Paralympics in Salt Lake City, in ways that strengthen people-to-people ties between the United States and Tunisia, promote American values and demonstrate American excellence and leadership in sports and tourism.</p> \n<p><br></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Celebrating American Excellence AND U.S.-Tunisian Enduring Partnership: &nbsp;</strong>Programs that </p> \n<p>1) celebrate U.S. scientific or sport prowess, innovation, economic dynamism, agricultural strength, and national parks and tourism during the 250th anniversary year of U.S. Independence; &nbsp;</p> \n<p>2) leverage people-to-people ties and promote the establishment of U.S-Tunisian institutional linkages through cultural diplomacy, including artistic and cultural workshops, performances, exhibitions, or other activities that celebrate American excellence in visual and performing arts, music, cultural heritage protection, and film during the 250th anniversary year of U.S. Independence and the 228th anniversary year of the 1797 treaty of friendship between the U.S. and Tunisia; AND/OR </p> \n<p>3) leverage people-to-people or institutional ties through sports or cultural diplomacy initiatives to increase awareness and understanding among broad elements of Tunisian society of the history and benefits of the over two centuries of U.S.-Tunisian friendship, trade, and security cooperation.</p>",
+            "fundingActivityCategoryDesc": "Public Diplomacy",
+            "costSharing": false,
+            "awardCeiling": "200000",
+            "awardFloor": "10000",
+            "agencyContactName": "Kaouthar Ben Mohamed\r\nGrantor",
+            "agencyContactPhone": "0021671107266",
+            "agencyContactEmail": "benmohamedk@state.gov",
+            "agencyContactEmailDesc": "PASTunisSmallGrants@state.gov",
+            "agencyCode": "DOS-TUN",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "* Public and private educational institutions;* Non-profit or governmental educational institutions;* Governmental institutions",
+            "estSynopsisPostingDate": "Jun 02, 2025 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jul 07, 2025 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "",
+            "estAwardDate": "Sep 25, 2025 12:00:00 AM EDT",
+            "estProjectStartDate": "Oct 30, 2025 12:00:00 AM EDT",
+            "fiscalYear": 2025,
+            "createTimeStamp": "Jun 27, 2025 06:04:45 AM EDT",
+            "actionType": "U",
+            "actionDate": "Jun 30, 2025 10:49:53 AM EDT",
+            "createdDate": "May 27, 2025 06:39:48 AM EDT",
+            "lastUpdatedDate": "Jun 27, 2025 06:04:45 AM EDT",
+            "agencyDetails": {
+              "code": "TUN",
+              "seed": "DOS-TUN",
+              "agencyName": "U.S. Mission to Tunisia",
+              "agencyCode": "DOS-TUN",
+              "topAgencyCode": "DOS"
+            },
+            "awardCeilingFormatted": "200,000",
+            "awardFloorFormatted": "10,000",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "21",
+                "description": "Individuals"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "postingDateStr": "2025-06-02-00-00-00",
+            "estSynopsisPostingDateStr": "2025-06-02-00-00-00",
+            "estApplicationResponseDateStr": "2025-07-07-00-00-00",
+            "estAwardDateStr": "2025-09-25-00-00-00",
+            "estProjectStartDateStr": "2025-10-30-00-00-00",
+            "createTimeStampStr": "2025-06-27-06-04-45"
+          },
+          "cfdas": [
+            {
+              "id": 428600,
+              "opportunityId": 359120,
+              "revision": 0,
+              "cfdaNumber": "19.040",
+              "programTitle": "Public Diplomacy Programs"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version",
+        "forecastDesc",
+        "estApplicationResponseDate",
+        "estAwardDate",
+        "estProjectStartDate",
+        "modComments",
+        "createTimeStamp"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

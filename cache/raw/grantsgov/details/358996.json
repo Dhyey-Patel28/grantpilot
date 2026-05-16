@@ -1,0 +1,297 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "358996",
+  "fetched_at": "2026-05-16T14:07:47.828Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImhiakxHSEk4VW01MmYzTCtRMThRRENKL3diQ01rZlg5OXZSdlczVSt2Snc9Ig.eW_O_twKAr1wGGes1bZdkw3Jr1I69Kowi7_xv7BJGQ4",
+    "data": {
+      "id": 358996,
+      "revision": 1,
+      "opportunityNumber": "FOR-NR-25-002",
+      "opportunityTitle": "Leveraging Nursing Research to Advance Healthy School Environments for All",
+      "owningAgencyCode": "HHS-NIH11",
+      "listed": "L",
+      "publisherUid": "waltemi",
+      "modifiedComments": "Updated title.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "NIH",
+        "seed": "HHS-NIH11",
+        "agencyName": "National Institutes of Health",
+        "agencyCode": "HHS-NIH11",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 358996,
+        "version": 2,
+        "postingDate": "May 28, 2025 12:00:00 AM EDT",
+        "forecastDesc": "<p>The purpose of this notice is to inform the research community that the National Institute of Nursing Research (NINR), with other NIH Institutes, Centers, and Offices (ICOs) listed above, intends to publish a notice of funding opportunity (NOFO) to solicit applications for research on Leveraging Nursing Research to Advance Healthy School Environments for All.&nbsp;</p><p><br></p><p>This initiative will solicit applications to foster multi-disciplinary and multisectoral research to fill critical research gaps in understanding and intervening on the complex interplay between school environments, education, health services, and the surrounding ecosystem to optimize educational and health outcomes for all youth.</p>",
+        "costSharing": false,
+        "agencyContactName": "Bill Duval, PhD\r\nNational Institute of Nursing Research (NINR)",
+        "agencyContactPhone": "301-435-0380",
+        "agencyContactEmail": "bill.duval@nih.gov",
+        "agencyContactEmailDesc": "bill.duval@nih.gov",
+        "agencyCode": "HHS-NIH11",
+        "sendEmail": "N",
+        "applicantEligibilityDesc": "",
+        "estSynopsisPostingDate": "Jan 27, 2026 12:00:00 AM EST",
+        "estApplicationResponseDate": "Apr 27, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "",
+        "estAwardDate": "Sep 01, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "Updated title.",
+        "createTimeStamp": "May 28, 2025 11:36:52 AM EDT",
+        "createdDate": "May 15, 2025 03:34:43 PM EDT",
+        "lastUpdatedDate": "May 28, 2025 11:36:52 AM EDT",
+        "agencyDetails": {
+          "code": "NIH",
+          "seed": "HHS-NIH11",
+          "agencyName": "National Institutes of Health",
+          "agencyCode": "HHS-NIH11",
+          "topAgencyCode": "HHS"
+        },
+        "applicantTypes": [
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-05-28-00-00-00",
+        "estSynopsisPostingDateStr": "2026-01-27-00-00-00",
+        "estApplicationResponseDateStr": "2026-04-27-00-00-00",
+        "estAwardDateStr": "2026-09-01-00-00-00",
+        "estProjectStartDateStr": "2026-09-01-00-00-00",
+        "createTimeStampStr": "2025-05-28-11-36-52"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 428460,
+          "opportunityId": 358996,
+          "cfdaNumber": "93.361",
+          "programTitle": "Nursing Research"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 358996,
+            "revision": 0
+          },
+          "opportunityId": 358996,
+          "revision": 0,
+          "opportunityNumber": "FOR-NR-25-002",
+          "opportunityTitle": "Concept: Leveraging Nursing Research to Advance Healthy School Environments for All",
+          "owningAgencyCode": "HHS-NIH11",
+          "publisherUid": "waltemi",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 358996,
+              "revision": 0
+            },
+            "opportunityId": 358996,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "May 28, 2025 12:00:00 AM EDT",
+            "forecastDesc": "<p>The purpose of this notice is to inform the research community that the National Institute of Nursing Research (NINR), with other NIH Institutes, Centers, and Offices (ICOs) listed above, intends to publish a notice of funding opportunity (NOFO) to solicit applications for research on Leveraging Nursing Research to Advance Healthy School Environments for All.&nbsp;</p><p><br></p><p>This initiative will solicit applications to foster multi-disciplinary and multisectoral research to fill critical research gaps in understanding and intervening on the complex interplay between school environments, education, health services, and the surrounding ecosystem to optimize educational and health outcomes for all youth.</p>",
+            "costSharing": false,
+            "agencyContactName": "Bill Duval, PhD\r\nNational Institute of Nursing Research (NINR)",
+            "agencyContactPhone": "301-435-0380",
+            "agencyContactEmail": "bill.duval@nih.gov",
+            "agencyContactEmailDesc": "bill.duval@nih.gov",
+            "agencyCode": "HHS-NIH11",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "",
+            "estSynopsisPostingDate": "Jan 27, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "Apr 27, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "",
+            "estAwardDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "May 28, 2025 11:35:19 AM EDT",
+            "actionType": "U",
+            "actionDate": "May 28, 2025 11:36:52 AM EDT",
+            "createdDate": "May 15, 2025 03:34:43 PM EDT",
+            "lastUpdatedDate": "May 28, 2025 11:35:19 AM EDT",
+            "agencyDetails": {
+              "code": "NIH",
+              "seed": "HHS-NIH11",
+              "agencyName": "National Institutes of Health",
+              "agencyCode": "HHS-NIH11",
+              "topAgencyCode": "HHS"
+            },
+            "applicantTypes": [
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-05-28-00-00-00",
+            "estSynopsisPostingDateStr": "2026-01-27-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-27-00-00-00",
+            "estAwardDateStr": "2026-09-01-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2025-05-28-11-35-19"
+          },
+          "cfdas": [
+            {
+              "id": 428460,
+              "opportunityId": 358996,
+              "revision": 0,
+              "cfdaNumber": "93.361",
+              "programTitle": "Nursing Research"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version",
+        "opportunityTitle",
+        "sendEmail",
+        "modComments"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

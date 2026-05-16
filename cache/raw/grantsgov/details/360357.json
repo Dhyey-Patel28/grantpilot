@@ -1,0 +1,1184 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360357",
+  "fetched_at": "2026-05-16T14:08:14.889Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImFGaElPZ3RNTkp2Um1tUTd6YkN6RU8vNjY0Y1FXYkZmbXJrM05GVHVPRWc9Ig.FzY4XTfGEOvZsPTRNNAtyoucckDyjD9bHHT5UPQEoVA",
+    "data": {
+      "id": 360357,
+      "revision": 6,
+      "opportunityNumber": "CDC-RFA-DD-26-0025",
+      "opportunityTitle": "Understanding and Promoting Resources and Opportunities for People with Autism and Fragile X and their Families Across the Lifespan",
+      "owningAgencyCode": "HHS-CDC-NCBDDD",
+      "listed": "L",
+      "publisherUid": "21075984081049386526321738257390910592",
+      "modifiedComments": "Please note the NOFO timeline has been updated due to the government shutdown.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 360357,
+        "version": 1,
+        "agencyCode": "HHS-CDC-NCBDDD",
+        "agencyName": "Centers for Disease Control - NCBDDD",
+        "agencyPhone": "7704882756",
+        "agencyAddressDesc": "cvk9@cdc.gov",
+        "agencyDetails": {
+          "code": "NCBDDD",
+          "seed": "HHS-CDC-NCBDDD",
+          "agencyName": "Centers for Disease Control - NCBDDD",
+          "agencyCode": "HHS-CDC-NCBDDD",
+          "topAgencyCode": "HHS"
+        },
+        "topAgencyDetails": {
+          "code": "HHS",
+          "seed": "HHS",
+          "agencyName": "Department of Health and Human Services",
+          "agencyCode": "HHS",
+          "topAgencyCode": "HHS"
+        },
+        "agencyContactPhone": "7704882756",
+        "agencyContactName": "Centers for Disease Control - NCBDDD",
+        "agencyContactDesc": "Seema Gupta\ncvk9@cdc.gov",
+        "agencyContactEmail": "cvk9@cdc.gov",
+        "agencyContactEmailDesc": "cvk9@cdc.gov",
+        "synopsisDesc": "The goal of this NOFO is to gather unique information not collected by other federal programs to gain a better understanding of the resources (e.g., services, supports) and opportunities (e.g., education, employment, housing, social participation) needed to reduce morbidity, mortality, and economic impacts and improve other long-term outcomes for people with autism or Fragile X Syndrome (FXS) across the lifespan. CDC proposes to implement three components in this NOFO.Component A: Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT) will utilize cohorts from the Study to Explore Early Development (SEED) Phases 1-3 (collected from 2007-2020), which were case-control studies of autism in children 2-5 years of age. Participants will range from about 10-25 years of age when this NOFO is awarded. SPROUT will be comprised of caregiver and self-report surveys intended to offer unique information on (1) service and support needs and the impact of co-occurring conditions on autistic people and their families and (2) the educational, transitional, social, and/or vocational needs and experiences of autistic adolescents and young adults. Information from these surveys will be used to improve the health and wellbeing of autistic people and their families. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with autism, reduce morbidity and mortality, and improve health and well-being.Component B: Focus on Advancing Support and Transition with the Fragile X Online Registry With Accessible Research Database (FAST FORWARD) awardees will employ clinic-based enrollment of eligible participants with a recruitment goal of at least 200 eligible persons with FXS per clinic. Similar to SPROUT, awardees will collect data on (1) timing of and barriers to diagnosis, (2) service and support needs and the impact of co-occurring conditions on people with FXS and their families and (3) the educational, transitional, social, and/or vocational needs and experiences of people with FXS and their families. Awardees will participate in project meetings, recruit participants, collect data, record data in a centralized platform, and produce quality public health products. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with FXS, reduce morbidity and mortality, and improve health and well-being. Component C: The purpose of this component is to disseminate quality public health products that can improve the health and wellbeing of people with FXS and their families. The awardee will participate in project meetings, develop materials, and disseminate materials to relevant audiences to strengthen the capacity among healthcare providers to appropriately support patients with FXS on a national level.",
+        "responseDate": "Jun 15, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+        "postingDate": "May 15, 2026 12:00:00 AM EDT",
+        "archiveDate": "Oct 01, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "11",
+        "estimatedFunding": "18000000",
+        "estimatedFundingFormatted": "18,000,000",
+        "awardCeiling": "0",
+        "awardCeilingFormatted": "0",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Component A (Autism Data Collection and Dissemination): Applicants must have documented access to individual contact and eligibility data from participants in the Study to Explore Early Development (SEED) phases 1, 2, and/or 3 for all cohorts they propose to include in their recruitment pool to ensure successful completion of the data collection outlined in Component A of the NOFO. Therefore, applicants must either: 1) be the original entities that collected the original SEED data on children 2-5 years of age and their parents/caregivers, and therefore have the information needed to reach these individuals for the Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT); OR 2) have established collaborative agreements to work with the entities that originally collected contact information from SEED participants (i.e., former SEED recipients) so that they can reach the SEED participants for the data collection as outlined in Component A of the NOFO.Component B (Fragile X Data Collection): Applicants must provide evidence of access to clinic-based samples of children, adolescents, and adults (ages 0-40 years) with fragile X syndrome (FXS) full mutation diagnosis and demonstrate their ability and capacity to collect data on a minimum of 200 unique individuals in this population as outlined in Component B of the NOFO.Component C (Fragile X Data Dissemination): Applicants must demonstrate their ability and capacity to identify and reach populations of people with FXS and their families and communities, as well as healthcare providers, particularly those treating FXS patients, across the United States. Applicants must also demonstrate their ability to generate new communication and continually identify and update resources for the target populations, and well as quantify metrics of impact. Their history of outreach to these populations should include (but may not be limited to) evidence-based educational information, resources, and support.",
+        "createTimeStamp": "May 15, 2026 03:09:56 PM EDT",
+        "createdDate": "May 15, 2026 03:08:47 PM EDT",
+        "lastUpdatedDate": "May 15, 2026 03:08:47 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "responseDateStr": "2026-06-15-00-00-00",
+        "postingDateStr": "2026-05-15-00-00-00",
+        "archiveDateStr": "2026-10-01-00-00-00",
+        "createTimeStampStr": "2026-05-15-15-09-56"
+      },
+      "agencyDetails": {
+        "code": "NCBDDD",
+        "seed": "HHS-CDC-NCBDDD",
+        "agencyName": "Centers for Disease Control - NCBDDD",
+        "agencyCode": "HHS-CDC-NCBDDD",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 360357,
+        "version": 6,
+        "postingDate": "Aug 25, 2025 12:00:00 AM EDT",
+        "archiveDate": "May 14, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>The goal of this NOFO is to gather unique information not collected by other federal programs to gain a better understanding of the resources (e.g., services, supports) and opportunities (e.g., education, employment, housing, social participation) needed to reduce morbidity, mortality, and economic impacts and improve other long-term outcomes for people with autism or Fragile X Syndrome (FXS) across the lifespan. CDC proposes to implement three components in this NOFO.</p><p>Component A: Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT) will utilize cohorts from the <a href=\"https://www.cdc.gov/autism/seed/index.html\">Study to Explore Early Development (SEED)</a> Phases 1-3 (collected from 2007-2020), which were case-control studies of autism in children 2-5 years of age. Participants will range from about 10-25 years of age when this NOFO is awarded. SPROUT will be comprised of caregiver and self-report surveys intended to offer unique information on (1) service and support needs and the impact of co-occurring conditions on autistic people and their families and (2) the educational, transitional, social, and/or vocational needs and experiences of autistic adolescents and young adults. Information from these surveys will be used to improve the health and wellbeing of autistic people and their families. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with autism, reduce morbidity and mortality, and improve health and well-being.</p><p>Component B: Focus on Advancing Support and Transition with the Fragile X Online Registry With Accessible Research Database (FAST FORWARD) awardees will employ clinic-based enrollment of eligible participants with a recruitment goal of at least 200 eligible persons with FXS per clinic. Similar to SPROUT, awardees will collect data on (1) timing of and barriers to diagnosis, (2) service and support needs and the impact of co-occurring conditions on people with FXS and their families and (3) the educational, transitional, social, and/or vocational needs and experiences of people with FXS and their families. Awardees will participate in project meetings, recruit participants, collect data, record data in a centralized platform, and produce quality public health products. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with FXS, reduce morbidity and mortality, and improve health and well-being.&nbsp;</p><p>Component C: The purpose of this component is to disseminate quality public health products that can improve the health and wellbeing of people with FXS and their families. The awardee will participate in project meetings, develop materials, and disseminate materials to relevant audiences to strengthen the capacity among healthcare providers to appropriately support patients with FXS on a national level. &nbsp;&nbsp;<br>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "costSharing": false,
+        "numberOfAwards": "11",
+        "estimatedFunding": "18000000",
+        "awardCeiling": "0",
+        "awardFloor": "0",
+        "agencyContactName": "Seema Gupta",
+        "agencyContactPhone": "(770) 488-6527",
+        "agencyContactEmail": "cvk9@cdc.gov",
+        "agencyContactEmailDesc": "cvk9@cdc.gov",
+        "agencyCode": "HHS-CDC-NCBDDD",
+        "applicantEligibilityDesc": "Component A (Autism Data Collection and Dissemination): Applicants must have documented access to individual contact and eligibility data from participants in the Study to Explore Early Development (SEED) phases 1, 2, and/or 3 for all cohorts they propose to include in their recruitment pool to ensure successful completion of the data collection outlined in Component A of the NOFO. Therefore, applicants must either: 1) be the original entities that collected the original SEED data on children 2-5 years of age and their parents/caregivers, and therefore have the information needed to reach these individuals for the Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT); OR 2) have established collaborative agreements to work with the entities that originally collected contact information from SEED participants (i.e., former SEED recipients) so that they can reach the SEED participants for the data collection as outlined in Component A of the NOFO.Component B (Fragile X Data Collection): Applicants must provide evidence of access to clinic-based samples of children, adolescents, and adults (ages 0-40 years) with fragile X syndrome (FXS) full mutation diagnosis and demonstrate their ability and capacity to collect data on a minimum of 200 unique individuals in this population as outlined in Component B of the NOFO.Component C (Fragile X Data Dissemination): Applicants must demonstrate their ability and capacity to identify and reach populations of people with FXS and their families and communities, as well as healthcare providers, particularly those treating FXS patients, across the United States. Applicants must also demonstrate their ability to generate new communication and continually identify and update resources for the target populations, and well as quantify metrics of impact. Their history of outreach to these populations should include (but may not be limited to) evidence-based educational information, resources, and support.",
+        "estSynopsisPostingDate": "Feb 24, 2026 12:00:00 AM EST",
+        "estApplicationResponseDate": "Apr 24, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+        "estAwardDate": "Jul 24, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Aug 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "Updated Archive Date",
+        "createTimeStamp": "May 15, 2026 03:09:56 PM EDT",
+        "createdDate": "Aug 25, 2025 02:11:52 PM EDT",
+        "lastUpdatedDate": "May 15, 2026 03:09:56 PM EDT",
+        "agencyDetails": {
+          "code": "NCBDDD",
+          "seed": "HHS-CDC-NCBDDD",
+          "agencyName": "Centers for Disease Control - NCBDDD",
+          "agencyCode": "HHS-CDC-NCBDDD",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "18,000,000",
+        "awardCeilingFormatted": "0",
+        "awardFloorFormatted": "0",
+        "applicantTypes": [
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-08-25-00-00-00",
+        "archiveDateStr": "2026-05-14-00-00-00",
+        "estSynopsisPostingDateStr": "2026-02-24-00-00-00",
+        "estApplicationResponseDateStr": "2026-04-24-00-00-00",
+        "estAwardDateStr": "2026-07-24-00-00-00",
+        "estProjectStartDateStr": "2026-08-30-00-00-00",
+        "createTimeStampStr": "2026-05-15-15-09-56"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79739,
+          "opportunityId": 360357,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 389696,
+          "createdDate": "May 15, 2026 03:09:55 PM EDT",
+          "lastUpdatedDate": "May 15, 2026 03:09:56 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 352091,
+              "opportunityId": 360357,
+              "mimeType": "application/pdf",
+              "fileName": "cdc-rfa-dd-26-0025_ForPublication.pdf",
+              "fileDescription": "cdc-rfa-dd-26-0025_ForPublication.pdf",
+              "fileLobSize": 441565,
+              "createdDate": "May 15, 2026 03:09:56 PM EDT",
+              "synopsisAttFolderId": 79739
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 430620,
+          "opportunityId": 360357,
+          "cfdaNumber": "93.073",
+          "programTitle": "Birth Defects and Developmental Disabilities - Prevention and Surveillance"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 360357,
+            "revision": 0
+          },
+          "opportunityId": 360357,
+          "revision": 0,
+          "opportunityNumber": "CDC-RFA-DD-26-0025",
+          "opportunityTitle": "Promoting Resources and Opportunities for People with Autism and Fragile X and their Families Across the Lifespan",
+          "owningAgencyCode": "HHS-CDC-NCBDDD",
+          "publisherUid": "6276468772116399212211019013632420038",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360357,
+              "revision": 0
+            },
+            "opportunityId": 360357,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Aug 25, 2025 12:00:00 AM EDT",
+            "archiveDate": "Mar 01, 2026 12:00:00 AM EST",
+            "forecastDesc": "<p>The goal of this NOFO is to gather unique information not collected by other federal programs to gain a better understanding of the resources (e.g., services, supports) and opportunities (e.g., education, employment, housing, social participation) needed to reduce morbidity, mortality, and economic impacts and improve other long-term outcomes for people with autism or Fragile X Syndrome (FXS) across the lifespan. CDC proposes to implement three components in this NOFO.</p><p>Component A: Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT) will utilize cohorts from the <a href=\"https://www.cdc.gov/autism/seed/index.html\">Study to Explore Early Development (SEED)</a> Phases 1-3 (collected from 2007-2020), which were case-control studies of autism in children 2-5 years of age. Participants will range from about 10-25 years of age when this NOFO is awarded. SPROUT will be comprised of caregiver and self-report surveys intended to offer unique information on (1) service and support needs and the impact of co-occurring conditions on autistic people and their families and (2) the educational, transitional, social, and/or vocational needs and experiences of autistic adolescents and young adults. Information from these surveys will be used to improve the health and wellbeing of autistic people and their families. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with autism, reduce morbidity and mortality, and improve health and well-being.</p><p>Component B: Focus on Advancing Support and Transition with the Fragile X Online Registry With Accessible Research Database (FAST FORWARD) awardees will employ clinic-based enrollment of eligible participants with a recruitment goal of at least 200 eligible persons with FXS per clinic. Similar to SPROUT, awardees will collect data on (1) timing of and barriers to diagnosis, (2) service and support needs and the impact of co-occurring conditions on people with FXS and their families and (3) the educational, transitional, social, and/or vocational needs and experiences of people with FXS and their families. Awardees will participate in project meetings, recruit participants, collect data, record data in a centralized platform, and produce quality public health products. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with FXS, reduce morbidity and mortality, and improve health and well-being.&nbsp;</p><p>Component C: The purpose of this component is to disseminate quality public health products that can improve the health and wellbeing of people with FXS and their families. The awardee will participate in project meetings, develop materials, and disseminate materials to relevant audiences to strengthen the capacity among healthcare providers to appropriately support patients with FXS on a national level. &nbsp;&nbsp;<br>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "11",
+            "estimatedFunding": "18000000",
+            "awardCeiling": "0",
+            "awardFloor": "0",
+            "agencyContactName": "Seema Gupta",
+            "agencyContactPhone": "(770) 488-6527",
+            "agencyContactEmail": "cvk9@cdc.gov",
+            "agencyContactEmailDesc": "cvk9@cdc.gov",
+            "agencyCode": "HHS-CDC-NCBDDD",
+            "applicantEligibilityDesc": "Component A (Autism Data Collection and Dissemination): Applicants must have documented access to individual contact and eligibility data from participants in the Study to Explore Early Development (SEED) phases 1, 2, and/or 3 for all cohorts they propose to include in their recruitment pool to ensure successful completion of the data collection outlined in Component A of the NOFO. Therefore, applicants must either: 1) be the original entities that collected the original SEED data on children 2-5 years of age and their parents/caregivers, and therefore have the information needed to reach these individuals for the Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT); OR 2) have established collaborative agreements to work with the entities that originally collected contact information from SEED participants (i.e., former SEED recipients) so that they can reach the SEED participants for the data collection as outlined in Component A of the NOFO.Component B (Fragile X Data Collection): Applicants must provide evidence of access to clinic-based samples of children, adolescents, and adults (ages 0-40 years) with fragile X syndrome (FXS) full mutation diagnosis and demonstrate their ability and capacity to collect data on a minimum of 200 unique individuals in this population as outlined in Component B of the NOFO.Component C (Fragile X Data Dissemination): Applicants must demonstrate their ability and capacity to identify and reach populations of people with FXS and their families and communities, as well as healthcare providers, particularly those treating FXS patients, across the United States. Applicants must also demonstrate their ability to generate new communication and continually identify and update resources for the target populations, and well as quantify metrics of impact. Their history of outreach to these populations should include (but may not be limited to) evidence-based educational information, resources, and support.",
+            "estSynopsisPostingDate": "Dec 01, 2025 12:00:00 AM EST",
+            "estApplicationResponseDate": "Jan 30, 2026 12:00:00 AM EST",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Aug 25, 2025 02:11:52 PM EDT",
+            "actionType": "U",
+            "actionDate": "Sep 12, 2025 02:58:33 PM EDT",
+            "createdDate": "Aug 25, 2025 02:11:52 PM EDT",
+            "lastUpdatedDate": "Aug 25, 2025 02:11:52 PM EDT",
+            "agencyDetails": {
+              "code": "NCBDDD",
+              "seed": "HHS-CDC-NCBDDD",
+              "agencyName": "Centers for Disease Control - NCBDDD",
+              "agencyCode": "HHS-CDC-NCBDDD",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "18,000,000",
+            "awardCeilingFormatted": "0",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-08-25-00-00-00",
+            "archiveDateStr": "2026-03-01-00-00-00",
+            "estSynopsisPostingDateStr": "2025-12-01-00-00-00",
+            "estApplicationResponseDateStr": "2026-01-30-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2025-08-25-14-11-52"
+          },
+          "cfdas": [
+            {
+              "id": 430620,
+              "opportunityId": 360357,
+              "revision": 4,
+              "cfdaNumber": "93.073",
+              "programTitle": "Birth Defects and Developmental Disabilities - Prevention and Surveillance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360357,
+            "revision": 1
+          },
+          "opportunityId": 360357,
+          "revision": 1,
+          "opportunityNumber": "CDC-RFA-DD-26-0025",
+          "opportunityTitle": "Promoting Resources and Opportunities for People with Autism and Fragile X and their Families Across the Lifespan",
+          "owningAgencyCode": "HHS-CDC-NCBDDD",
+          "publisherUid": "6276468772116399212211019013632420038",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360357,
+              "revision": 1
+            },
+            "opportunityId": 360357,
+            "revision": 1,
+            "version": 2,
+            "postingDate": "Aug 25, 2025 12:00:00 AM EDT",
+            "archiveDate": "Mar 15, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The goal of this NOFO is to gather unique information not collected by other federal programs to gain a better understanding of the resources (e.g., services, supports) and opportunities (e.g., education, employment, housing, social participation) needed to reduce morbidity, mortality, and economic impacts and improve other long-term outcomes for people with autism or Fragile X Syndrome (FXS) across the lifespan. CDC proposes to implement three components in this NOFO.</p><p>Component A: Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT) will utilize cohorts from the <a href=\"https://www.cdc.gov/autism/seed/index.html\">Study to Explore Early Development (SEED)</a> Phases 1-3 (collected from 2007-2020), which were case-control studies of autism in children 2-5 years of age. Participants will range from about 10-25 years of age when this NOFO is awarded. SPROUT will be comprised of caregiver and self-report surveys intended to offer unique information on (1) service and support needs and the impact of co-occurring conditions on autistic people and their families and (2) the educational, transitional, social, and/or vocational needs and experiences of autistic adolescents and young adults. Information from these surveys will be used to improve the health and wellbeing of autistic people and their families. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with autism, reduce morbidity and mortality, and improve health and well-being.</p><p>Component B: Focus on Advancing Support and Transition with the Fragile X Online Registry With Accessible Research Database (FAST FORWARD) awardees will employ clinic-based enrollment of eligible participants with a recruitment goal of at least 200 eligible persons with FXS per clinic. Similar to SPROUT, awardees will collect data on (1) timing of and barriers to diagnosis, (2) service and support needs and the impact of co-occurring conditions on people with FXS and their families and (3) the educational, transitional, social, and/or vocational needs and experiences of people with FXS and their families. Awardees will participate in project meetings, recruit participants, collect data, record data in a centralized platform, and produce quality public health products. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with FXS, reduce morbidity and mortality, and improve health and well-being.&nbsp;</p><p>Component C: The purpose of this component is to disseminate quality public health products that can improve the health and wellbeing of people with FXS and their families. The awardee will participate in project meetings, develop materials, and disseminate materials to relevant audiences to strengthen the capacity among healthcare providers to appropriately support patients with FXS on a national level. &nbsp;&nbsp;<br>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "11",
+            "estimatedFunding": "18000000",
+            "awardCeiling": "0",
+            "awardFloor": "0",
+            "agencyContactName": "Seema Gupta",
+            "agencyContactPhone": "(770) 488-6527",
+            "agencyContactEmail": "cvk9@cdc.gov",
+            "agencyContactEmailDesc": "cvk9@cdc.gov",
+            "agencyCode": "HHS-CDC-NCBDDD",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Component A (Autism Data Collection and Dissemination): Applicants must have documented access to individual contact and eligibility data from participants in the Study to Explore Early Development (SEED) phases 1, 2, and/or 3 for all cohorts they propose to include in their recruitment pool to ensure successful completion of the data collection outlined in Component A of the NOFO. Therefore, applicants must either: 1) be the original entities that collected the original SEED data on children 2-5 years of age and their parents/caregivers, and therefore have the information needed to reach these individuals for the Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT); OR 2) have established collaborative agreements to work with the entities that originally collected contact information from SEED participants (i.e., former SEED recipients) so that they can reach the SEED participants for the data collection as outlined in Component A of the NOFO.Component B (Fragile X Data Collection): Applicants must provide evidence of access to clinic-based samples of children, adolescents, and adults (ages 0-40 years) with fragile X syndrome (FXS) full mutation diagnosis and demonstrate their ability and capacity to collect data on a minimum of 200 unique individuals in this population as outlined in Component B of the NOFO.Component C (Fragile X Data Dissemination): Applicants must demonstrate their ability and capacity to identify and reach populations of people with FXS and their families and communities, as well as healthcare providers, particularly those treating FXS patients, across the United States. Applicants must also demonstrate their ability to generate new communication and continually identify and update resources for the target populations, and well as quantify metrics of impact. Their history of outreach to these populations should include (but may not be limited to) evidence-based educational information, resources, and support.",
+            "estSynopsisPostingDate": "Dec 01, 2025 12:00:00 AM EST",
+            "estApplicationResponseDate": "Feb 13, 2026 12:00:00 AM EST",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Please note that we have update the title and application deadline for this funding opportunity.",
+            "createTimeStamp": "Sep 12, 2025 02:58:33 PM EDT",
+            "actionType": "U",
+            "actionDate": "Sep 12, 2025 02:58:33 PM EDT",
+            "createdDate": "Aug 25, 2025 02:11:52 PM EDT",
+            "lastUpdatedDate": "Sep 12, 2025 02:58:33 PM EDT",
+            "agencyDetails": {
+              "code": "NCBDDD",
+              "seed": "HHS-CDC-NCBDDD",
+              "agencyName": "Centers for Disease Control - NCBDDD",
+              "agencyCode": "HHS-CDC-NCBDDD",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "18,000,000",
+            "awardCeilingFormatted": "0",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-08-25-00-00-00",
+            "archiveDateStr": "2026-03-15-00-00-00",
+            "estSynopsisPostingDateStr": "2025-12-01-00-00-00",
+            "estApplicationResponseDateStr": "2026-02-13-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2025-09-12-14-58-33"
+          },
+          "cfdas": [
+            {
+              "id": 430620,
+              "opportunityId": 360357,
+              "revision": 4,
+              "cfdaNumber": "93.073",
+              "programTitle": "Birth Defects and Developmental Disabilities - Prevention and Surveillance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "archiveDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360357,
+            "revision": 2
+          },
+          "opportunityId": 360357,
+          "revision": 2,
+          "opportunityNumber": "CDC-RFA-DD-26-0025",
+          "opportunityTitle": "Understanding and Promoting Resources and Opportunities for People with Autism and Fragile X and their Families Across the Lifespan",
+          "owningAgencyCode": "HHS-CDC-NCBDDD",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Please note that we have update the title and application deadline for this funding opportunity.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360357,
+              "revision": 2
+            },
+            "opportunityId": 360357,
+            "revision": 2,
+            "version": 3,
+            "postingDate": "Aug 25, 2025 12:00:00 AM EDT",
+            "archiveDate": "Mar 15, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The goal of this NOFO is to gather unique information not collected by other federal programs to gain a better understanding of the resources (e.g., services, supports) and opportunities (e.g., education, employment, housing, social participation) needed to reduce morbidity, mortality, and economic impacts and improve other long-term outcomes for people with autism or Fragile X Syndrome (FXS) across the lifespan. CDC proposes to implement three components in this NOFO.</p><p>Component A: Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT) will utilize cohorts from the <a href=\"https://www.cdc.gov/autism/seed/index.html\">Study to Explore Early Development (SEED)</a> Phases 1-3 (collected from 2007-2020), which were case-control studies of autism in children 2-5 years of age. Participants will range from about 10-25 years of age when this NOFO is awarded. SPROUT will be comprised of caregiver and self-report surveys intended to offer unique information on (1) service and support needs and the impact of co-occurring conditions on autistic people and their families and (2) the educational, transitional, social, and/or vocational needs and experiences of autistic adolescents and young adults. Information from these surveys will be used to improve the health and wellbeing of autistic people and their families. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with autism, reduce morbidity and mortality, and improve health and well-being.</p><p>Component B: Focus on Advancing Support and Transition with the Fragile X Online Registry With Accessible Research Database (FAST FORWARD) awardees will employ clinic-based enrollment of eligible participants with a recruitment goal of at least 200 eligible persons with FXS per clinic. Similar to SPROUT, awardees will collect data on (1) timing of and barriers to diagnosis, (2) service and support needs and the impact of co-occurring conditions on people with FXS and their families and (3) the educational, transitional, social, and/or vocational needs and experiences of people with FXS and their families. Awardees will participate in project meetings, recruit participants, collect data, record data in a centralized platform, and produce quality public health products. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with FXS, reduce morbidity and mortality, and improve health and well-being.&nbsp;</p><p>Component C: The purpose of this component is to disseminate quality public health products that can improve the health and wellbeing of people with FXS and their families. The awardee will participate in project meetings, develop materials, and disseminate materials to relevant audiences to strengthen the capacity among healthcare providers to appropriately support patients with FXS on a national level. &nbsp;&nbsp;<br>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "11",
+            "estimatedFunding": "18000000",
+            "awardCeiling": "0",
+            "awardFloor": "0",
+            "agencyContactName": "Seema Gupta",
+            "agencyContactPhone": "(770) 488-6527",
+            "agencyContactEmail": "cvk9@cdc.gov",
+            "agencyContactEmailDesc": "cvk9@cdc.gov",
+            "agencyCode": "HHS-CDC-NCBDDD",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Component A (Autism Data Collection and Dissemination): Applicants must have documented access to individual contact and eligibility data from participants in the Study to Explore Early Development (SEED) phases 1, 2, and/or 3 for all cohorts they propose to include in their recruitment pool to ensure successful completion of the data collection outlined in Component A of the NOFO. Therefore, applicants must either: 1) be the original entities that collected the original SEED data on children 2-5 years of age and their parents/caregivers, and therefore have the information needed to reach these individuals for the Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT); OR 2) have established collaborative agreements to work with the entities that originally collected contact information from SEED participants (i.e., former SEED recipients) so that they can reach the SEED participants for the data collection as outlined in Component A of the NOFO.Component B (Fragile X Data Collection): Applicants must provide evidence of access to clinic-based samples of children, adolescents, and adults (ages 0-40 years) with fragile X syndrome (FXS) full mutation diagnosis and demonstrate their ability and capacity to collect data on a minimum of 200 unique individuals in this population as outlined in Component B of the NOFO.Component C (Fragile X Data Dissemination): Applicants must demonstrate their ability and capacity to identify and reach populations of people with FXS and their families and communities, as well as healthcare providers, particularly those treating FXS patients, across the United States. Applicants must also demonstrate their ability to generate new communication and continually identify and update resources for the target populations, and well as quantify metrics of impact. Their history of outreach to these populations should include (but may not be limited to) evidence-based educational information, resources, and support.",
+            "estSynopsisPostingDate": "Dec 01, 2025 12:00:00 AM EST",
+            "estApplicationResponseDate": "Feb 13, 2026 12:00:00 AM EST",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Please note that we have update the title and application deadline for this funding opportunity.",
+            "createTimeStamp": "Sep 12, 2025 02:58:33 PM EDT",
+            "actionType": "U",
+            "actionDate": "Dec 04, 2025 05:44:51 PM EST",
+            "createdDate": "Aug 25, 2025 02:11:52 PM EDT",
+            "lastUpdatedDate": "Sep 12, 2025 02:58:33 PM EDT",
+            "agencyDetails": {
+              "code": "NCBDDD",
+              "seed": "HHS-CDC-NCBDDD",
+              "agencyName": "Centers for Disease Control - NCBDDD",
+              "agencyCode": "HHS-CDC-NCBDDD",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "18,000,000",
+            "awardCeilingFormatted": "0",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-08-25-00-00-00",
+            "archiveDateStr": "2026-03-15-00-00-00",
+            "estSynopsisPostingDateStr": "2025-12-01-00-00-00",
+            "estApplicationResponseDateStr": "2026-02-13-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2025-09-12-14-58-33"
+          },
+          "cfdas": [
+            {
+              "id": 430620,
+              "opportunityId": 360357,
+              "revision": 4,
+              "cfdaNumber": "93.073",
+              "programTitle": "Birth Defects and Developmental Disabilities - Prevention and Surveillance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "opportunityTitle"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360357,
+            "revision": 3
+          },
+          "opportunityId": 360357,
+          "revision": 3,
+          "opportunityNumber": "CDC-RFA-DD-26-0025",
+          "opportunityTitle": "Understanding and Promoting Resources and Opportunities for People with Autism and Fragile X and their Families Across the Lifespan",
+          "owningAgencyCode": "HHS-CDC-NCBDDD",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Please note that we have update the title and application deadline for this funding opportunity.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360357,
+              "revision": 3
+            },
+            "opportunityId": 360357,
+            "revision": 3,
+            "version": 4,
+            "postingDate": "Aug 25, 2025 12:00:00 AM EDT",
+            "archiveDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The goal of this NOFO is to gather unique information not collected by other federal programs to gain a better understanding of the resources (e.g., services, supports) and opportunities (e.g., education, employment, housing, social participation) needed to reduce morbidity, mortality, and economic impacts and improve other long-term outcomes for people with autism or Fragile X Syndrome (FXS) across the lifespan. CDC proposes to implement three components in this NOFO.</p><p>Component A: Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT) will utilize cohorts from the <a href=\"https://www.cdc.gov/autism/seed/index.html\">Study to Explore Early Development (SEED)</a> Phases 1-3 (collected from 2007-2020), which were case-control studies of autism in children 2-5 years of age. Participants will range from about 10-25 years of age when this NOFO is awarded. SPROUT will be comprised of caregiver and self-report surveys intended to offer unique information on (1) service and support needs and the impact of co-occurring conditions on autistic people and their families and (2) the educational, transitional, social, and/or vocational needs and experiences of autistic adolescents and young adults. Information from these surveys will be used to improve the health and wellbeing of autistic people and their families. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with autism, reduce morbidity and mortality, and improve health and well-being.</p><p>Component B: Focus on Advancing Support and Transition with the Fragile X Online Registry With Accessible Research Database (FAST FORWARD) awardees will employ clinic-based enrollment of eligible participants with a recruitment goal of at least 200 eligible persons with FXS per clinic. Similar to SPROUT, awardees will collect data on (1) timing of and barriers to diagnosis, (2) service and support needs and the impact of co-occurring conditions on people with FXS and their families and (3) the educational, transitional, social, and/or vocational needs and experiences of people with FXS and their families. Awardees will participate in project meetings, recruit participants, collect data, record data in a centralized platform, and produce quality public health products. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with FXS, reduce morbidity and mortality, and improve health and well-being.&nbsp;</p><p>Component C: The purpose of this component is to disseminate quality public health products that can improve the health and wellbeing of people with FXS and their families. The awardee will participate in project meetings, develop materials, and disseminate materials to relevant audiences to strengthen the capacity among healthcare providers to appropriately support patients with FXS on a national level. &nbsp;&nbsp;<br>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "11",
+            "estimatedFunding": "18000000",
+            "awardCeiling": "0",
+            "awardFloor": "0",
+            "agencyContactName": "Seema Gupta",
+            "agencyContactPhone": "(770) 488-6527",
+            "agencyContactEmail": "cvk9@cdc.gov",
+            "agencyContactEmailDesc": "cvk9@cdc.gov",
+            "agencyCode": "HHS-CDC-NCBDDD",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Component A (Autism Data Collection and Dissemination): Applicants must have documented access to individual contact and eligibility data from participants in the Study to Explore Early Development (SEED) phases 1, 2, and/or 3 for all cohorts they propose to include in their recruitment pool to ensure successful completion of the data collection outlined in Component A of the NOFO. Therefore, applicants must either: 1) be the original entities that collected the original SEED data on children 2-5 years of age and their parents/caregivers, and therefore have the information needed to reach these individuals for the Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT); OR 2) have established collaborative agreements to work with the entities that originally collected contact information from SEED participants (i.e., former SEED recipients) so that they can reach the SEED participants for the data collection as outlined in Component A of the NOFO.Component B (Fragile X Data Collection): Applicants must provide evidence of access to clinic-based samples of children, adolescents, and adults (ages 0-40 years) with fragile X syndrome (FXS) full mutation diagnosis and demonstrate their ability and capacity to collect data on a minimum of 200 unique individuals in this population as outlined in Component B of the NOFO.Component C (Fragile X Data Dissemination): Applicants must demonstrate their ability and capacity to identify and reach populations of people with FXS and their families and communities, as well as healthcare providers, particularly those treating FXS patients, across the United States. Applicants must also demonstrate their ability to generate new communication and continually identify and update resources for the target populations, and well as quantify metrics of impact. Their history of outreach to these populations should include (but may not be limited to) evidence-based educational information, resources, and support.",
+            "estSynopsisPostingDate": "Feb 24, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "Apr 24, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Jul 24, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Aug 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Please note the NOFO timeline has been updated due to the government shutdown.",
+            "createTimeStamp": "Dec 04, 2025 05:44:51 PM EST",
+            "actionType": "U",
+            "actionDate": "Dec 04, 2025 05:44:51 PM EST",
+            "createdDate": "Aug 25, 2025 02:11:52 PM EDT",
+            "lastUpdatedDate": "Dec 04, 2025 05:44:51 PM EST",
+            "agencyDetails": {
+              "code": "NCBDDD",
+              "seed": "HHS-CDC-NCBDDD",
+              "agencyName": "Centers for Disease Control - NCBDDD",
+              "agencyCode": "HHS-CDC-NCBDDD",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "18,000,000",
+            "awardCeilingFormatted": "0",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-08-25-00-00-00",
+            "archiveDateStr": "2026-09-01-00-00-00",
+            "estSynopsisPostingDateStr": "2026-02-24-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-24-00-00-00",
+            "estAwardDateStr": "2026-07-24-00-00-00",
+            "estProjectStartDateStr": "2026-08-30-00-00-00",
+            "createTimeStampStr": "2025-12-04-17-44-51"
+          },
+          "cfdas": [
+            {
+              "id": 430620,
+              "opportunityId": 360357,
+              "revision": 4,
+              "cfdaNumber": "93.073",
+              "programTitle": "Birth Defects and Developmental Disabilities - Prevention and Surveillance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "estAwardDate",
+            "estProjectStartDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360357,
+            "revision": 5
+          },
+          "opportunityId": 360357,
+          "revision": 5,
+          "opportunityNumber": "CDC-RFA-DD-26-0025",
+          "opportunityTitle": "Understanding and Promoting Resources and Opportunities for People with Autism and Fragile X and their Families Across the Lifespan",
+          "owningAgencyCode": "HHS-CDC-NCBDDD",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Please note the NOFO timeline has been updated due to the government shutdown.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360357,
+              "revision": 5
+            },
+            "opportunityId": 360357,
+            "revision": 5,
+            "version": 5,
+            "postingDate": "Aug 25, 2025 12:00:00 AM EDT",
+            "archiveDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The goal of this NOFO is to gather unique information not collected by other federal programs to gain a better understanding of the resources (e.g., services, supports) and opportunities (e.g., education, employment, housing, social participation) needed to reduce morbidity, mortality, and economic impacts and improve other long-term outcomes for people with autism or Fragile X Syndrome (FXS) across the lifespan. CDC proposes to implement three components in this NOFO.</p><p>Component A: Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT) will utilize cohorts from the <a href=\"https://www.cdc.gov/autism/seed/index.html\">Study to Explore Early Development (SEED)</a> Phases 1-3 (collected from 2007-2020), which were case-control studies of autism in children 2-5 years of age. Participants will range from about 10-25 years of age when this NOFO is awarded. SPROUT will be comprised of caregiver and self-report surveys intended to offer unique information on (1) service and support needs and the impact of co-occurring conditions on autistic people and their families and (2) the educational, transitional, social, and/or vocational needs and experiences of autistic adolescents and young adults. Information from these surveys will be used to improve the health and wellbeing of autistic people and their families. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with autism, reduce morbidity and mortality, and improve health and well-being.</p><p>Component B: Focus on Advancing Support and Transition with the Fragile X Online Registry With Accessible Research Database (FAST FORWARD) awardees will employ clinic-based enrollment of eligible participants with a recruitment goal of at least 200 eligible persons with FXS per clinic. Similar to SPROUT, awardees will collect data on (1) timing of and barriers to diagnosis, (2) service and support needs and the impact of co-occurring conditions on people with FXS and their families and (3) the educational, transitional, social, and/or vocational needs and experiences of people with FXS and their families. Awardees will participate in project meetings, recruit participants, collect data, record data in a centralized platform, and produce quality public health products. These activities are intended to provide data to inform ways to lessen individual, familial, and societal costs associated with FXS, reduce morbidity and mortality, and improve health and well-being.&nbsp;</p><p>Component C: The purpose of this component is to disseminate quality public health products that can improve the health and wellbeing of people with FXS and their families. The awardee will participate in project meetings, develop materials, and disseminate materials to relevant audiences to strengthen the capacity among healthcare providers to appropriately support patients with FXS on a national level. &nbsp;&nbsp;<br>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "11",
+            "estimatedFunding": "18000000",
+            "awardCeiling": "0",
+            "awardFloor": "0",
+            "agencyContactName": "Seema Gupta",
+            "agencyContactPhone": "(770) 488-6527",
+            "agencyContactEmail": "cvk9@cdc.gov",
+            "agencyContactEmailDesc": "cvk9@cdc.gov",
+            "agencyCode": "HHS-CDC-NCBDDD",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Component A (Autism Data Collection and Dissemination): Applicants must have documented access to individual contact and eligibility data from participants in the Study to Explore Early Development (SEED) phases 1, 2, and/or 3 for all cohorts they propose to include in their recruitment pool to ensure successful completion of the data collection outlined in Component A of the NOFO. Therefore, applicants must either: 1) be the original entities that collected the original SEED data on children 2-5 years of age and their parents/caregivers, and therefore have the information needed to reach these individuals for the Survey to Promote Resources and Opportunities for aUtistic Teens and young adults (SPROUT); OR 2) have established collaborative agreements to work with the entities that originally collected contact information from SEED participants (i.e., former SEED recipients) so that they can reach the SEED participants for the data collection as outlined in Component A of the NOFO.Component B (Fragile X Data Collection): Applicants must provide evidence of access to clinic-based samples of children, adolescents, and adults (ages 0-40 years) with fragile X syndrome (FXS) full mutation diagnosis and demonstrate their ability and capacity to collect data on a minimum of 200 unique individuals in this population as outlined in Component B of the NOFO.Component C (Fragile X Data Dissemination): Applicants must demonstrate their ability and capacity to identify and reach populations of people with FXS and their families and communities, as well as healthcare providers, particularly those treating FXS patients, across the United States. Applicants must also demonstrate their ability to generate new communication and continually identify and update resources for the target populations, and well as quantify metrics of impact. Their history of outreach to these populations should include (but may not be limited to) evidence-based educational information, resources, and support.",
+            "estSynopsisPostingDate": "Feb 24, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "Apr 24, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Jul 24, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Aug 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Please note the NOFO timeline has been updated due to the government shutdown.",
+            "createTimeStamp": "Dec 04, 2025 05:44:51 PM EST",
+            "actionType": "U",
+            "actionDate": "May 15, 2026 03:08:47 PM EDT",
+            "createdDate": "Aug 25, 2025 02:11:52 PM EDT",
+            "lastUpdatedDate": "Dec 04, 2025 05:44:51 PM EST",
+            "agencyDetails": {
+              "code": "NCBDDD",
+              "seed": "HHS-CDC-NCBDDD",
+              "agencyName": "Centers for Disease Control - NCBDDD",
+              "agencyCode": "HHS-CDC-NCBDDD",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "18,000,000",
+            "awardCeilingFormatted": "0",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-08-25-00-00-00",
+            "archiveDateStr": "2026-09-01-00-00-00",
+            "estSynopsisPostingDateStr": "2026-02-24-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-24-00-00-00",
+            "estAwardDateStr": "2026-07-24-00-00-00",
+            "estProjectStartDateStr": "2026-08-30-00-00-00",
+            "createTimeStampStr": "2025-12-04-17-44-51"
+          },
+          "cfdas": [
+            {
+              "id": 430620,
+              "opportunityId": 360357,
+              "revision": 4,
+              "cfdaNumber": "93.073",
+              "programTitle": "Birth Defects and Developmental Disabilities - Prevention and Surveillance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292803,
+          "topportunityId": 360357,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "CDC-RFA-DD-26-0025",
+          "opportunityTitle": "Understanding and Promoting Resources and Opportunities for People with Autism and Fragile X and their Families Across the Lifespan",
+          "cfdaNumber": "93.073",
+          "openingDate": "2026-05-15",
+          "closingDate": "2026-06-15",
+          "owningAgencyCode": "HHS-CDC-NCBDDD",
+          "agencyDetails": {
+            "code": "NCBDDD",
+            "seed": "HHS-CDC-NCBDDD",
+            "agencyName": "Centers for Disease Control - NCBDDD",
+            "agencyCode": "HHS-CDC-NCBDDD",
+            "topAgencyCode": "HHS"
+          },
+          "topAgencyDetails": {
+            "code": "HHS",
+            "seed": "HHS",
+            "agencyName": "Department of Health and Human Services",
+            "agencyCode": "HHS",
+            "topAgencyCode": "HHS"
+          },
+          "programTitle": "Birth Defects and Developmental Disabilities - Prevention and Surveillance",
+          "contactInfo": "Seema Gupta",
+          "gracePeriod": 0,
+          "competitionId": "CDC-RFA-DD-26-0025",
+          "competitionTitle": "Understanding and Promoting Resources and Opportunities for People with Autism and Fragile X and their Families Across the Lifespan",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 18,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "May 15, 2026 03:09:06 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292803",
+          "openingDateStr": "2026-05-15-00-00-00",
+          "closingDateStr": "2026-06-15-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 15, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version",
+        "sendEmail",
+        "archiveDate",
+        "modComments",
+        "createTimeStamp"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 5,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

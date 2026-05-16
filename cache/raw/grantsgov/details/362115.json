@@ -1,0 +1,353 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362115",
+  "fetched_at": "2026-05-16T14:09:55.914Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVUK1hheFRGZjNYYnhNbEpjYVhFWUJsVjg3YndDNWNOL1ZiUjlUbHJZS0E9Ig.ZRNJhHQbKfJDTWNWYBN2TSOjrL6zJ3O74_z-cdF3njQ",
+    "data": {
+      "id": 362115,
+      "revision": 1,
+      "opportunityNumber": "DFOP0017856",
+      "opportunityTitle": "FY 2026 J. Christopher Stevens Virtual Exchange Initiative   (JCSVEI) Program",
+      "owningAgencyCode": "DOS-ECA",
+      "listed": "L",
+      "publisherUid": "4449340775911576642",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362115,
+        "version": 2,
+        "agencyCode": "DOS-ECA",
+        "agencyName": "Bureau Of Educational and Cultural Affairs",
+        "agencyPhone": "202-890-9795",
+        "agencyAddressDesc": "mirsagatovd@state.gov",
+        "agencyDetails": {
+          "code": "ECA",
+          "seed": "DOS-ECA",
+          "agencyName": "Bureau Of Educational and Cultural Affairs",
+          "agencyCode": "DOS-ECA",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "202-890-9795",
+        "agencyContactName": "Bureau Of Educational and Cultural Affairs",
+        "agencyContactDesc": "Davron Mirsagatov",
+        "agencyContactEmail": "mirsagatovd@state.gov",
+        "agencyContactEmailDesc": "mirsagatovd@state.gov",
+        "synopsisDesc": "<p>This NOFO has been amended. Please see the amended Notice of Funding Opportunity for additional information.</p><p><br></p><p>As 2027 marks 15 years since the loss of Ambassador J. Christopher Stevens, and in honor of his enduring legacy, the Global Leaders Division, Office of Citizen Exchanges, Bureau of Educational and Cultural Affairs (ECA), invites proposal submissions for two cooperative agreements to design, administer, and implement activities under the broader J. Christopher Stevens Virtual Exchange Initiative (JCSVEI).</p><p><br></p><p>ECA anticipates making two separate cooperative agreements to design, implement, and manage the FY 2026 J. Christopher Stevens Virtual Exchange Initiative (JCSVEI) under two distinct program options: (1) J. Christopher Stevens Virtual Exchange Initiative and (2) J. Christopher Stevens Virtual Exchange Initiative: Digital Leaders for Peace and Economic Opportunity. Applicants may submit applications for program option one or program option two. Organizations may submit two separate applications, one for each program option, if they wish to be considered for both. Each application will be evaluated independently. Each application must clearly state in the Executive Summary which program option is being proposed. If applying separately for each program options the applicant must clearly demonstrate the organizational capacity to implement both program options, including the ability to work in the MENA region and the United States and to deliver both online and hybrid program elements.</p><p><br></p><p>The JCSVEI advances U.S. foreign policy priorities by championing American scientific excellence, technological leadership, and innovation, while promoting core U.S. principles—freedom of speech, individual liberty, and the rule of law—as foundations of peace and prosperity. The program achieves these goals through American-led virtual exchanges that connects young leaders in the Middle East and North Africa (MENA) with peers across the United States.</p>",
+        "responseDate": "May 29, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://www.state.gov/eca-grant-opportunities/",
+        "fundingDescLinkDesc": "Bureau of Educational and Cultural Affairs Organizational Funding Opportunities",
+        "postingDate": "Apr 29, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 28, 2026 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "Please see full announcement.",
+        "costSharing": false,
+        "numberOfAwards": "2",
+        "awardCeiling": "10000000",
+        "awardCeilingFormatted": "10,000,000",
+        "awardFloor": "5000000",
+        "awardFloorFormatted": "5,000,000",
+        "applicantEligibilityDesc": "Please see full announcement.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 29, 2026 11:12:49 AM EDT",
+        "modComments": "Finalizing the reposting of the amended NOFO.",
+        "createdDate": "Apr 29, 2026 10:43:30 AM EDT",
+        "lastUpdatedDate": "Apr 29, 2026 10:46:20 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "responseDateStr": "2026-05-29-00-00-00",
+        "postingDateStr": "2026-04-29-00-00-00",
+        "archiveDateStr": "2026-06-28-00-00-00",
+        "createTimeStampStr": "2026-04-29-11-12-49"
+      },
+      "agencyDetails": {
+        "code": "ECA",
+        "seed": "DOS-ECA",
+        "agencyName": "Bureau Of Educational and Cultural Affairs",
+        "agencyCode": "DOS-ECA",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79431,
+          "opportunityId": 362115,
+          "folderType": "Full Announcement",
+          "folderName": "FY26 Stevens NOFO",
+          "zipLobSize": 1261259,
+          "createdDate": "Apr 29, 2026 10:49:40 AM EDT",
+          "lastUpdatedDate": "Apr 29, 2026 11:12:49 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351542,
+              "opportunityId": 362115,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "performance_monitoring_plan_mode_2.3_02.03.2025-4.docx",
+              "fileDescription": "ECA Performance Monitoring Plan (PMP) (DOCX)",
+              "fileLobSize": 224445,
+              "createdDate": "Apr 29, 2026 11:12:22 AM EDT",
+              "synopsisAttFolderId": 79431
+            },
+            {
+              "id": 351544,
+              "opportunityId": 362115,
+              "mimeType": "application/pdf",
+              "fileName": "performance_monitoring_plan_mode_2.3_02.03.2025.pdf",
+              "fileDescription": "ECA Performance Monitoring Plan (PMP) (PDF)",
+              "fileLobSize": 640736,
+              "createdDate": "Apr 29, 2026 11:12:49 AM EDT",
+              "synopsisAttFolderId": 79431
+            },
+            {
+              "id": 351537,
+              "opportunityId": 362115,
+              "mimeType": "application/pdf",
+              "fileName": "FY26 JCSVEI NOFO Amended.pdf",
+              "fileDescription": "FY 2026 J. Christopher Stevens Virtual Exchange Initiative (JCSVEI) Program Amended NOFO",
+              "fileLobSize": 543707,
+              "createdDate": "Apr 29, 2026 10:51:09 AM EDT",
+              "synopsisAttFolderId": 79431
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [
+        {
+          "id": 1408,
+          "opportunityId": 362115,
+          "docUrl": "https://www.state.gov/eca-grant-opportunities/",
+          "description": "Bureau of Educational and Cultural Affairs Organizational Funding Opportunities",
+          "createdDate": "Apr 29, 2026 10:48:42 AM EDT"
+        }
+      ],
+      "synAttChangeComments": [
+        {
+          "id": {
+            "opportunityId": 362115,
+            "attType": "D",
+            "createdDate": "Apr 29, 2026 10:52:47 AM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Apr 29, 2026"
+          },
+          "changeComments": "This Amended NOFO makes the following changes to the original NOFO:\r\n•\tIncreases the total estimated available funding from $4,000,000 to $10,000,000\r\n•\tIncreases the number of anticipated awards from one award to two awards, each funded at approximately $5 million. \r\n•\tExtends the anticipated period of performance from 24 to 36 months for each award. \r\n•\tClarifies that ECA will consider only one proposal per applicant organization for each program option, allowing organizations to submit one application for program option one and one application for program option two.\r\n•\tRevises the Executive Summary to reflect a second program option, the J. Christopher Stevens Virtual Exchange Initiative: Digital Leaders for Peace and Economic Opportunity, and to clarify the language on the use of subawards, if applicable\r\n•\tRevises the Executive Summary to update subaward requirement language, providing flexibility for both program options.  Organizations may choose to implement through subawards (managing up to eight subrecipients) or through direct implementation if they have sufficient capacity and infrastructure. \r\n•\tRevises the Program Specific Guidelines to clarify the two program options: Option 1, the J. Christopher Stevens Virtual Exchange Initiative, and Option 2, the Christopher Stevens Virtual Exchange Initiative: Digital Leaders for Peace and Economic Opportunity.\r\n•\tChanges Section 3b to clarify participant age ranges for each program option.\r\n•\tChanges under 3d. Partner Organization Selection to clarify that recipients have the flexibility to identify and work with up to eight subaward recipients or to implement the program independently.\r\n•\tChanges to Section 3e. Projected Timeline: the program period has been extended from 24 months to 36 months. \r\n•\tChanges to Section 5. Goals and Objectives: the participant age range has been expanded to include individuals up to 30 years old.\r\n*Please see the NOFO for additional changes, which are highlighted in yellow."
+        }
+      ],
+      "cfdas": [
+        {
+          "id": 432961,
+          "opportunityId": 362115,
+          "cfdaNumber": "19.415",
+          "programTitle": "Professional and Cultural Exchange Programs - Citizen Exchanges"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 362115,
+            "revision": 0
+          },
+          "opportunityId": 362115,
+          "revision": 0,
+          "opportunityNumber": "DFOP0017856",
+          "opportunityTitle": "FY 2026 J. Christopher Stevens Virtual Exchange Initiative   (JCSVEI) Program",
+          "owningAgencyCode": "DOS-ECA",
+          "publisherUid": "4449340775911576642",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 362115,
+              "revision": 0
+            },
+            "opportunityId": 362115,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOS-ECA",
+            "agencyDetails": {
+              "code": "ECA",
+              "seed": "DOS-ECA",
+              "agencyName": "Bureau Of Educational and Cultural Affairs",
+              "agencyCode": "DOS-ECA",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "202-890-9795",
+            "agencyContactName": "Bureau Of Educational and Cultural Affairs",
+            "agencyContactDesc": "Davron Mirsagatov, mirsagatovd@state.gov",
+            "synopsisDesc": "This NOFO has been amended. Please see the amended Notice of Funding Opportunity for additional information.\n\nAs 2027 marks 15 years since the loss of Ambassador J. Christopher Stevens, and in honor of his enduring legacy, the Global Leaders Division, Office of Citizen Exchanges, Bureau of Educational and Cultural Affairs (ECA), invites proposal submissions for two cooperative agreements to design, administer, and implement activities under the broader J. Christopher Stevens Virtual Exchange Initiative (JCSVEI).\n\nECA anticipates making two separate cooperative agreements to design, implement, and manage the FY 2026 J. Christopher Stevens Virtual Exchange Initiative (JCSVEI) under two distinct program options: (1) J. Christopher Stevens Virtual Exchange Initiative and (2) J. Christopher Stevens Virtual Exchange Initiative: Digital Leaders for Peace and Economic Opportunity.   Applicants may submit applications for program option one or program option two. Organizations may submit two separate applications, one for each program option, if they wish to be considered for both. Each application will be evaluated independently. Each application must clearly state in the Executive Summary which program option is being proposed. If applying separately for each program options the applicant must clearly demonstrate the organizational capacity to implement both program options, including the ability to work in the MENA region and the United States and to deliver both online and hybrid program elements.\n\nThe JCSVEI advances U.S. foreign policy priorities by championing American scientific excellence, technological leadership, and innovation, while promoting core U.S. principles—freedom of speech, individual liberty, and the rule of law—as foundations of peace and prosperity.  The program achieves these goals through American-led virtual exchanges that connects young leaders in the Middle East and North Africa (MENA) with peers across the United States.",
+            "responseDate": "May 29, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&table=x_g_usd4_d_grant_funding_opportunity&sys_id=90b7201b1b1fba90e02962cae54bcbef&view=Default",
+            "fundingDescLinkDesc": "Link to Opportunity in MyGrants",
+            "postingDate": "Apr 29, 2026 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "Please see full announcement.",
+            "costSharing": false,
+            "numberOfAwards": "2",
+            "awardCeiling": "10000000",
+            "awardCeilingFormatted": "10,000,000",
+            "awardFloor": "5000000",
+            "awardFloorFormatted": "5,000,000",
+            "applicantEligibilityDesc": "Please see full announcement.",
+            "createTimeStamp": "Apr 29, 2026 10:43:30 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 29, 2026 10:46:20 AM EDT",
+            "createdDate": "Apr 29, 2026 10:43:30 AM EDT",
+            "lastUpdatedDate": "Apr 29, 2026 10:43:30 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "responseDateStr": "2026-05-29-00-00-00",
+            "postingDateStr": "2026-04-29-00-00-00",
+            "createTimeStampStr": "2026-04-29-10-43-30"
+          },
+          "cfdas": [
+            {
+              "id": 432961,
+              "opportunityId": 362115,
+              "revision": 0,
+              "cfdaNumber": "19.415",
+              "programTitle": "Professional and Cultural Exchange Programs - Citizen Exchanges"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292533,
+          "topportunityId": 362115,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "DFOP0017856",
+          "opportunityTitle": "FY 2026 J. Christopher Stevens Virtual Exchange Initiative   (JCSVEI) Program",
+          "cfdaNumber": "19.415",
+          "openingDate": "2026-04-29",
+          "closingDate": "2026-05-29",
+          "owningAgencyCode": "DOS-ECA",
+          "agencyDetails": {
+            "code": "ECA",
+            "seed": "DOS-ECA",
+            "agencyName": "Bureau Of Educational and Cultural Affairs",
+            "agencyCode": "DOS-ECA",
+            "topAgencyCode": "DOS"
+          },
+          "topAgencyDetails": {
+            "code": "DOS",
+            "seed": "DOS",
+            "agencyName": "Department of State",
+            "agencyCode": "DOS",
+            "topAgencyCode": "DOS"
+          },
+          "programTitle": "Professional and Cultural Exchange Programs - Citizen Exchanges",
+          "contactInfo": "Hans Posey\r\nProgram Analyst\r\nE-mail: poseyhe@state.gov",
+          "competitionId": "DFOP0017856",
+          "competitionTitle": "FY 2026 J. Christopher Stevens Virtual Exchange Initiative (JCSVEI) Program",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 3,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 29, 2026 10:48:08 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292533",
+          "openingDateStr": "2026-04-29-00-00-00",
+          "closingDateStr": "2026-05-29-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 29, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "agencyAddressDesc",
+        "agencyContactDesc",
+        "agencyContactEmail",
+        "agencyContactEmailDesc",
+        "synopsisDesc",
+        "fundingDescLinkUrl",
+        "fundingDescLinkDesc",
+        "archiveDate",
+        "applicantTypes"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361603",
+  "fetched_at": "2026-05-16T14:09:01.825Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjIybFF1bXFqaEtMN1RGM20zUkJqV1dlOFhhTWhlU0RPT0VqeFhvQkdtTU09Ig._DSvbo4XqoKwzMMwHmyMKvxEvQ9wCLE3qT5ZINfNIV8",
+    "data": {
+      "id": 361603,
+      "revision": 1,
+      "opportunityNumber": "693JK326NF0013",
+      "opportunityTitle": "Natural Gas Distribution Infrastructure Safety and Modernization (NGDISM) Grant Program",
+      "owningAgencyCode": "DOT-PHMSA",
+      "listed": "L",
+      "publisherUid": "4510376511733013465717615271392461626",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361603,
+        "version": 2,
+        "agencyCode": "DOT-PHMSA",
+        "agencyName": "Pipeline and Hazardous Materials Safety Admin",
+        "agencyPhone": "2023664243",
+        "agencyAddressDesc": "Click to email contact",
+        "agencyDetails": {
+          "code": "PHMSA",
+          "seed": "DOT-PHMSA",
+          "agencyName": "Pipeline and Hazardous Materials Safety Admin",
+          "agencyCode": "DOT-PHMSA",
+          "topAgencyCode": "DOT"
+        },
+        "topAgencyDetails": {
+          "code": "DOT",
+          "seed": "DOT",
+          "agencyName": "Department of Transportation",
+          "agencyCode": "DOT",
+          "topAgencyCode": "DOT"
+        },
+        "agencyContactPhone": "2023664243",
+        "agencyContactName": "Pipeline and Hazardous Materials Safety Admin",
+        "agencyContactDesc": "PHMSAPipelineBILGrant@dot.gov",
+        "agencyContactEmail": "PHMSAPipelineBILGrant@dot.gov",
+        "agencyContactEmailDesc": "Click to email contact",
+        "synopsisDesc": "<p>The Infrastructure Investment and Jobs Act (IIJA) was signed into law on November 15, 2021. The law created the Pipeline and Hazardous Materials Safety Administration's (PHMSA) first ever infrastructure grant program. The Natural Gas Distribution Infrastructure Safety and Modernization (NGDISM) grant program is designated $200 million a year in grant funding with a total of $1 billion in grant funding over five years. The grant funding is to be made available to a municipality or community owned utility (not including for-profit entities) to repair, rehabilitate, or replace its natural gas distribution pipeline systems or portions thereof, or to acquire equipment to (1) reduce incidents and fatalities and (2) to avoid economic losses.</p>",
+        "responseDate": "May 22, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Do not mail applications. Applications received after this deadline may not be considered. PHMSA will only accept one application from each applicant.",
+        "fundingDescLinkUrl": "https://www.phmsa.dot.gov/about-phmsa/working-phmsa/grants/pipeline/natural-gas-distribution-infrastructure-safety-and-modernization-grants",
+        "fundingDescLinkDesc": "Natural Gas Distribution Infrastructure Safety and Modernization (NGDISM) Grant Program Information Link",
+        "postingDate": "Mar 23, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 21, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "200",
+        "estimatedFunding": "98000000",
+        "estimatedFundingFormatted": "98,000,000",
+        "awardCeiling": "98000000",
+        "awardCeilingFormatted": "98,000,000",
+        "awardFloor": "10000",
+        "awardFloorFormatted": "10,000",
+        "applicantEligibilityDesc": "Municipality or community owned utilities (not including for-profit entities or any pipeline asset(s) owned by a for-profit entity.)",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 14, 2026 01:30:12 PM EDT",
+        "modComments": "EDITED CONTACT E-MAIL.",
+        "createdDate": "Mar 23, 2026 04:44:18 PM EDT",
+        "lastUpdatedDate": "Mar 23, 2026 04:46:20 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "DPR",
+            "description": "Disaster Prevention and Relief"
+          },
+          {
+            "id": "ELT",
+            "description": "Employment, Labor and Training"
+          },
+          {
+            "id": "EN",
+            "description": "Energy"
+          },
+          {
+            "id": "ENV",
+            "description": "Environment"
+          },
+          {
+            "id": "HL",
+            "description": "Health"
+          },
+          {
+            "id": "OZ",
+            "description": "Opportunity Zone Benefits"
+          },
+          {
+            "id": "T",
+            "description": "Transportation"
+          }
+        ],
+        "responseDateStr": "2026-05-22-00-00-00",
+        "postingDateStr": "2026-03-23-00-00-00",
+        "archiveDateStr": "2026-06-21-00-00-00",
+        "createTimeStampStr": "2026-05-14-13-30-12"
+      },
+      "agencyDetails": {
+        "code": "PHMSA",
+        "seed": "DOT-PHMSA",
+        "agencyName": "Pipeline and Hazardous Materials Safety Admin",
+        "agencyCode": "DOT-PHMSA",
+        "topAgencyCode": "DOT"
+      },
+      "topAgencyDetails": {
+        "code": "DOT",
+        "seed": "DOT",
+        "agencyName": "Department of Transportation",
+        "agencyCode": "DOT",
+        "topAgencyCode": "DOT"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79045,
+          "opportunityId": 361603,
+          "folderType": "Full Announcement",
+          "folderName": "693JK326NF0013 (BASE)",
+          "zipLobSize": 939107,
+          "createdDate": "Mar 23, 2026 04:44:23 PM EDT",
+          "lastUpdatedDate": "May 14, 2026 01:30:12 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350680,
+              "opportunityId": 361603,
+              "mimeType": "application/octet-stream",
+              "fileName": "FY 2026 NGDISM Grant Application Checklist.pdf",
+              "fileDescription": "FY 2026 NGDISM Grant Application Checklist",
+              "fileLobSize": 179368,
+              "createdDate": "Mar 23, 2026 04:44:24 PM EDT",
+              "synopsisAttFolderId": 79045
+            },
+            {
+              "id": 350681,
+              "opportunityId": 361603,
+              "mimeType": "application/octet-stream",
+              "fileName": "FY 2026 NGDISM Grant Program NOFO.pdf",
+              "fileDescription": "FY 2026 NGDISM Grant Program NOFO",
+              "fileLobSize": 361150,
+              "createdDate": "Mar 23, 2026 04:44:25 PM EDT",
+              "synopsisAttFolderId": 79045
+            },
+            {
+              "id": 351708,
+              "opportunityId": 361603,
+              "mimeType": "application/pdf",
+              "fileName": "FY 2026 NGDISM Grant Program NOFO FAQs v3.pdf",
+              "fileDescription": "FY 2026 NGDISM Grant Program NOFO FAQs v3",
+              "fileLobSize": 181554,
+              "createdDate": "May 04, 2026 09:48:35 AM EDT",
+              "lastUpdatedDate": "May 14, 2026 01:30:12 PM EDT",
+              "synopsisAttFolderId": 79045
+            },
+            {
+              "id": 350714,
+              "opportunityId": 361603,
+              "mimeType": "application/pdf",
+              "fileName": "FY 2026 NGDISM Grant Program Standard Title VI Nondiscrimination Assurances.pdf",
+              "fileDescription": "Title VI Assurance (Required)",
+              "fileLobSize": 272449,
+              "createdDate": "Mar 25, 2026 03:42:32 PM EDT",
+              "synopsisAttFolderId": 79045
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [
+        {
+          "id": {
+            "opportunityId": 361603,
+            "attType": "D",
+            "createdDate": "Mar 25, 2026 03:52:29 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Mar 25, 2026"
+          },
+          "changeComments": "The required Title VI Assurance Form has been uploaded and is ready for your view and signature. Thank you. "
+        }
+      ],
+      "cfdas": [
+        {
+          "id": 432351,
+          "opportunityId": 361603,
+          "cfdaNumber": "20.708",
+          "programTitle": "Natural Gas Distribution Infrastructure Safety and Modernization Grant Program"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361603,
+            "revision": 0
+          },
+          "opportunityId": 361603,
+          "revision": 0,
+          "opportunityNumber": "693JK326NF0013",
+          "opportunityTitle": "Natural Gas Distribution Infrastructure Safety and Modernization (NGDISM) Grant Program",
+          "owningAgencyCode": "DOT-PHMSA",
+          "publisherUid": "4510376511733013465717615271392461626",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361603,
+              "revision": 0
+            },
+            "opportunityId": 361603,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOT-PHMSA",
+            "agencyAddressDesc": "Click to email contact",
+            "agencyDetails": {
+              "code": "PHMSA",
+              "seed": "DOT-PHMSA",
+              "agencyName": "Pipeline and Hazardous Materials Safety Admin",
+              "agencyCode": "DOT-PHMSA",
+              "topAgencyCode": "DOT"
+            },
+            "agencyContactPhone": "2023664243",
+            "agencyContactName": "Pipeline and Hazardous Materials Safety Admin",
+            "agencyContactDesc": "TREMAYNE TERRY 202-366-6942\ntremayne.terry@dot.gov",
+            "agencyContactEmail": "tremayne.terry@dot.gov",
+            "agencyContactEmailDesc": "Click to email contact",
+            "synopsisDesc": "The Infrastructure Investment and Jobs Act (IIJA) was signed into law on November 15, 2021. The law created the Pipeline and Hazardous Materials Safety Administration's (PHMSA) first ever infrastructure grant program. The Natural Gas Distribution Infrastructure Safety and Modernization (NGDISM) grant program is designated $200 million a year in grant funding with a total of $1 billion in grant funding over five years. The grant funding is to be made available to a municipality or community owned utility (not including for-profit entities) to repair, rehabilitate, or replace its natural gas distribution pipeline systems or portions thereof, or to acquire equipment to (1) reduce incidents and fatalities and (2) to avoid economic losses.",
+            "responseDate": "May 22, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Do not mail applications. Applications received after this deadline may not be considered. PHMSA will only accept one application from each applicant.",
+            "fundingDescLinkUrl": "https://www.phmsa.dot.gov/about-phmsa/working-phmsa/grants/pipeline/natural-gas-distribution-infrastructure-safety-and-modernization-grants",
+            "fundingDescLinkDesc": "Natural Gas Distribution Infrastructure Safety and Modernization (NGDISM) Grant Program Information Link",
+            "postingDate": "Mar 23, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jun 21, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "200",
+            "estimatedFunding": "98000000",
+            "estimatedFundingFormatted": "98,000,000",
+            "awardCeiling": "98000000",
+            "awardCeilingFormatted": "98,000,000",
+            "awardFloor": "10000",
+            "awardFloorFormatted": "10,000",
+            "applicantEligibilityDesc": "Municipality or community owned utilities (not including for-profit entities or any pipeline asset(s) owned by a for-profit entity.)",
+            "createTimeStamp": "Mar 23, 2026 04:44:25 PM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 23, 2026 04:46:20 PM EDT",
+            "createdDate": "Mar 23, 2026 04:44:18 PM EDT",
+            "lastUpdatedDate": "Mar 23, 2026 04:44:18 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "DPR",
+                "description": "Disaster Prevention and Relief"
+              },
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              },
+              {
+                "id": "EN",
+                "description": "Energy"
+              },
+              {
+                "id": "ENV",
+                "description": "Environment"
+              },
+              {
+                "id": "HL",
+                "description": "Health"
+              },
+              {
+                "id": "OZ",
+                "description": "Opportunity Zone Benefits"
+              },
+              {
+                "id": "T",
+                "description": "Transportation"
+              }
+            ],
+            "responseDateStr": "2026-05-22-00-00-00",
+            "postingDateStr": "2026-03-23-00-00-00",
+            "archiveDateStr": "2026-06-21-00-00-00",
+            "createTimeStampStr": "2026-03-23-16-44-25"
+          },
+          "cfdas": [
+            {
+              "id": 432351,
+              "opportunityId": 361603,
+              "revision": 0,
+              "cfdaNumber": "20.708",
+              "programTitle": "Natural Gas Distribution Infrastructure Safety and Modernization Grant Program"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292172,
+          "topportunityId": 361603,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "693JK326NF0013",
+          "opportunityTitle": "Natural Gas Distribution Infrastructure Safety and Modernization (NGDISM) Grant Program",
+          "cfdaNumber": "20.708",
+          "openingDate": "2026-03-23",
+          "closingDate": "2026-05-22",
+          "owningAgencyCode": "DOT-PHMSA",
+          "agencyDetails": {
+            "code": "PHMSA",
+            "seed": "DOT-PHMSA",
+            "agencyName": "Pipeline and Hazardous Materials Safety Admin",
+            "agencyCode": "DOT-PHMSA",
+            "topAgencyCode": "DOT"
+          },
+          "topAgencyDetails": {
+            "code": "DOT",
+            "seed": "DOT",
+            "agencyName": "Department of Transportation",
+            "agencyCode": "DOT",
+            "topAgencyCode": "DOT"
+          },
+          "programTitle": "Natural Gas Distribution Infrastructure Safety and Modernization Grant Program",
+          "contactInfo": "TREMAYNE TERRY 202-366-6942 tremayne.terry@dot.gov",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 200,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 23, 2026 04:44:26 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292172",
+          "openingDateStr": "2026-03-23-00-00-00",
+          "closingDateStr": "2026-05-22-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 22, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Do not mail applications. Applications received after this deadline may not be considered. PHMSA will only accept one application from each applicant.",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "agencyContactDesc",
+        "agencyContactEmail",
+        "synopsisDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

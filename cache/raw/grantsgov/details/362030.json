@@ -1,0 +1,178 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362030",
+  "fetched_at": "2026-05-16T14:09:40.798Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlovOUhRV3FWTlh4SjVxVE1ldXFpYXUxa2RLOGFvTSsyYzNnR1hId0Q3Rms9Ig.k1r5tSCIqlOefqrvDQz9dcJtPsueEp8jUJM5Pm3_vR4",
+    "data": {
+      "id": 362030,
+      "revision": 0,
+      "opportunityNumber": "HHS-2026-ACF-ACYF-SR-0012",
+      "opportunityTitle": "General Departmental Sexual Risk Avoidance Education (GDSRAE)",
+      "owningAgencyCode": "HHS-ACF-FYSB",
+      "publisherUid": "63890787833131766027530892347803189092",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "FYSB",
+        "seed": "HHS-ACF-FYSB",
+        "agencyName": "Administration for Children & Families - ACYF/FYSB",
+        "agencyCode": "HHS-ACF-FYSB",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 362030,
+        "version": 1,
+        "postingDate": "Apr 23, 2026 12:00:00 AM EDT",
+        "archiveDate": "Aug 28, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>The Administration for Children and Families, Administration on Children, Youth and Families, Family and Youth Services Bureau announces the availability of funds under the Sexual Risk Avoidance Education (SRAE) Program.&nbsp; The purpose of the SRAE Program is to fund projects to implement sexual risk avoidance education that teach participants how to voluntarily refrain from non-marital sexual activity.&nbsp; The services are targeted to participants that reside in areas with high rates of teen births and/or are at greatest risk of contracting sexually transmitted infections (STIs). The goals of SRAE are to empower participants to make healthy decisions, and provide tools and resources to prevent pregnancy, STIs, and youth engagement in other risky behaviors.&nbsp; Successful applicants are expected to submit program plans that agree to: 1) use medically accurate information referenced to peer-reviewed publications by education, scientific, governmental or health organizations; 2) implement sexual risk avoidance curricula and/or strategies with an evidence-based approach to integrate research findings with practical implementation that aligns with the needs and desired outcomes for the intended audience; and 3) teach the benefits associated with self-regulation, success sequencing for poverty prevention, healthy relationships, goal setting, and resisting sexual coercion, dating violence, and other youth risk behaviors such as underage drinking or illicit drug use without normalizing teen sexual activity.</p>",
+        "costSharing": false,
+        "numberOfAwards": "43",
+        "estimatedFunding": "19217650",
+        "awardCeiling": "450000",
+        "awardFloor": "300000",
+        "agencyContactName": "Ricky Richard",
+        "agencyContactPhone": "202-401-5142",
+        "agencyContactEmail": "fysb.nofo.gdsrae@acf.hhs.gov",
+        "agencyContactEmailDesc": "fysb.nofo.gdsrae@acf.hhs.gov",
+        "agencyCode": "HHS-ACF-FYSB",
+        "applicantEligibilityDesc": "Applications from individuals (including sole proprietorships) and foreign entities are not eligible and will be disqualified from the merit review and funding under this funding opportunity. Faith-based and community organizations that meet the eligibility requirements are eligible for awards under this funding opportunity.",
+        "estSynopsisPostingDate": "Jun 22, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jul 29, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm Eastern Standard Time on the listed application due date.",
+        "estAwardDate": "Sep 15, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "Apr 23, 2026 09:15:54 AM EDT",
+        "createdDate": "Apr 23, 2026 09:15:54 AM EDT",
+        "lastUpdatedDate": "Apr 23, 2026 09:15:54 AM EDT",
+        "agencyDetails": {
+          "code": "FYSB",
+          "seed": "HHS-ACF-FYSB",
+          "agencyName": "Administration for Children & Families - ACYF/FYSB",
+          "agencyCode": "HHS-ACF-FYSB",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "19,217,650",
+        "awardCeilingFormatted": "450,000",
+        "awardFloorFormatted": "300,000",
+        "applicantTypes": [
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ISS",
+            "description": "Income Security and Social Services"
+          }
+        ],
+        "postingDateStr": "2026-04-23-00-00-00",
+        "archiveDateStr": "2026-08-28-00-00-00",
+        "estSynopsisPostingDateStr": "2026-06-22-00-00-00",
+        "estApplicationResponseDateStr": "2026-07-29-00-00-00",
+        "estAwardDateStr": "2026-09-15-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-04-23-09-15-54"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432859,
+          "opportunityId": 362030,
+          "cfdaNumber": "93.060",
+          "programTitle": "Sexual Risk Avoidance Education"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=14372",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=14372",
+  "website": "https://www.grants.gov/search-results-detail/361931",
+  "grant_id": "14372",
+  "title": "Advancing Global Capacity to Detect and Respond to Fungal Diseases",
+  "overview": "This Notice of Funding Opportunity (NOFO) aims to support activities that build and strengthen sustainable fungal disease detection, diagnosis, surveillance, and response systems. Activities may address interconnected areas such as system and workforce development, laboratory and diagnostic capacity, and improved use of data to inform public health action. Through these efforts, this NOFO seeks to strengthen country and regional capacity to manage and control fungal diseases at their source while promoting long-term ownership and integration into public health systems. These efforts align with the priorities outlined in the America First Global Health Strategy by supporting country capacity to detect, respond to, and control priority fungal pathogens, particularly those that pose a risk for international spread and antifungal resistance, at their source. Over time, activities supported through this NOFO are intended to reduce the global burden of fungal diseases, strengthen health security, and help countries protect their own populations while also reducing risks to the United States through earlier detection and more effective response to fungal disease threats worldwide Show More",
+  "additional_info": "Posted Date: April 16, 2026 Application Due Date: June 29, 2026 Estimated Award Date: Not Specified Eligible Applicants: County governmentsCity or township governmentsOthersNative American tribal organizations (other than Federally recognized tribal governments)State governmentsIndependent school districtsSmall businessesSpecial district governmentsPublic housing authorities/Indian housing authoritiesPrivate institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationPublic and State controlled institutions of higher educationFor profit organizations other than small businessesNative American tribal governments (Federally recognized)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education Show More",
+  "eligible_applicants": [
+    "County governmentsCity or township governmentsOthersNative American tribal organizations (other than Federally recognized tribal governments)State governmentsIndependent school districtsSmall businessesSpecial district governmentsPublic housing authorities/Indian housing authoritiesPrivate institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationPublic and State controlled institutions of higher educationFor profit organizations other than small businessesNative American tribal governments (Federally recognized)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "health",
+    "housing",
+    "public_safety",
+    "workforce"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Health and Human Services",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:52.642Z",
+  "content_hash": "4b0baa4f5feea98aceb0ebc6fcd72ac9648d05cda45a4853cdd374f660b70c1b",
+  "from_cache": false
+}

@@ -1,0 +1,143 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "286103",
+  "fetched_at": "2026-05-16T14:06:16.485Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InY3WUFLZTFMeFA5MXdHSWkzeXNBZ21HY2VsMUVYL1J3L3I3b0NseHAxMkE9Ig._67bfaTOfakktncBi9xLYkSxAsG-pI4H302mRG0hRaU",
+    "data": {
+      "id": 286103,
+      "revision": 0,
+      "opportunityNumber": "P16AS00333",
+      "opportunityTitle": "  Regional Resource Condition Assessment ",
+      "owningAgencyCode": "DOI-NPS",
+      "listed": "L",
+      "publisherUid": "lpalmernps",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 286103,
+        "version": 1,
+        "agencyCode": "DOI-NPS",
+        "agencyAddressDesc": "This is a Notice of Intent Only.",
+        "agencyDetails": {
+          "code": "DOINPSWASO",
+          "seed": "DOI-NPS",
+          "agencyName": "National Park Service",
+          "agencyCode": "DOI-NPS",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactDesc": "LaQuita Palmer\r\nGrants Management Specialist\r\nPhone 202-619-7082",
+        "agencyContactEmail": "laquita_palmer@nps.gov",
+        "agencyContactEmailDesc": "This is a Notice of Intent Only.",
+        "synopsisDesc": "To provide research, technical assistance, and educational opportunities to partners and the national parks in the National Capital Region and Service wide.  Unless otherwise specified herein, the terms and conditions as stated in the CW CESU Agreement will apply to this Task Agreement.\r\n\r\n",
+        "responseDateDesc": "This is a Notice of Intent only. This Task Agreement is being awarded under Cooperative Agreement P11AC30805 which was already awarded under a competitive process. No applications are being accepted at this time",
+        "fundingDescLinkUrl": "http://www.grants.gov",
+        "fundingDescLinkDesc": "http://www.grants.gov",
+        "postingDate": "Jul 14, 2016 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "32270",
+        "awardCeilingFormatted": "32,270",
+        "awardFloor": "1",
+        "awardFloorFormatted": "1",
+        "createTimeStamp": "Jul 14, 2016 03:44:39 PM EDT",
+        "createdDate": "Jul 14, 2016 03:44:39 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          }
+        ],
+        "postingDateStr": "2016-07-14-00-00-00",
+        "createTimeStampStr": "2016-07-14-15-44-39"
+      },
+      "agencyDetails": {
+        "code": "DOINPSWASO",
+        "seed": "DOI-NPS",
+        "agencyName": "National Park Service",
+        "agencyCode": "DOI-NPS",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 27800,
+          "opportunityId": 286103,
+          "folderType": "Full Announcement",
+          "folderName": "P16AS00333",
+          "zipLobSize": 28084,
+          "createdDate": "Jul 14, 2016 03:45:22 PM EDT",
+          "lastUpdatedDate": "Jul 14, 2016 03:46:19 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 254926,
+              "opportunityId": 286103,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "P16AS00333.docx",
+              "fileDescription": "This is a Notice of Intent Only.",
+              "fileLobSize": 32409,
+              "createdDate": "Jul 14, 2016 03:46:19 PM EDT",
+              "synopsisAttFolderId": 27800
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 327699,
+          "opportunityId": 286103,
+          "cfdaNumber": "15.945",
+          "programTitle": "Cooperative Research and Training Programs - Resources of the National Park System"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "This is a Notice of Intent only. This Task Agreement is being awarded under Cooperative Agreement P11AC30805 which was already awarded under a competitive process. No applications are being accepted at this time",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

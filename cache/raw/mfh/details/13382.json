@@ -1,0 +1,32 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=13382",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=13382",
+  "website": "https://www.grants.gov/search-results-detail/362289",
+  "grant_id": "13382",
+  "title": "Rural Health Clinic Technical Assistance Program",
+  "overview": "This notice announces the opportunity to apply for funding under the Rural Health Clinic Technical Assistance Program. The Rural Health Clinic Technical Assistance (RHC TA) Program funds an entity to provide technical assistance (TA) to Rural Health Clinics (RHCs) through targeted support, specialized expertise, and guidance. The purpose of this program is to:Identify key policy, regulatory, programmatic, and clinical issues facing RHCs.Inform RHCs and other rural stakeholders about key RHC issues that affect, or could affect, health care delivery and improve care. Identify and disseminate information on tools, resources, and strategies as possible solutions to challenges faced by RHCs. Show More",
+  "additional_info": "Posted Date: May 6, 2026 Application Due Date: June 2, 2026 Estimated Award Date: Not Specified Eligible Applicants: Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal governments (Federally recognized)State governmentsOthersCity or township governmentsPrivate institutions of higher educationIndependent school districtsFor profit organizations other than small businessesPublic and State controlled institutions of higher educationSmall businessesNative American tribal organizations (other than Federally recognized tribal governments)Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationSpecial district governmentsCounty governments Show More",
+  "eligible_applicants": [
+    "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal governments (Federally recognized)State governmentsOthersCity or township governmentsPrivate institutions of higher educationIndependent school districtsFor profit organizations other than small businessesPublic and State controlled institutions of higher educationSmall businessesNative American tribal organizations (other than Federally recognized tribal governments)Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationSpecial district governmentsCounty governments"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "agriculture",
+    "health"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Health and Human Services",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:26:12.682Z",
+  "content_hash": "5c88aa5a03d4a87e69854aff27aa9d1c1603f8e2f73e2426f076ccdb79dde323",
+  "from_cache": false
+}

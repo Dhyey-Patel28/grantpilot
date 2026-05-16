@@ -1,0 +1,130 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362237",
+  "fetched_at": "2026-05-16T14:10:09.719Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlFHUEUyakQ2UlRwTG9weUpXNlBwYmlhL1UxSzVvK2UrZHdsQ0xvZlFxeDQ9Ig.nyZxs4_Y5ITsTnBzkSr2vW_dOGbZIB5SuDhCPtCmHLI",
+    "data": {
+      "id": 362237,
+      "revision": 0,
+      "opportunityNumber": "HHS-2026-ACF-OCS-EE-0026",
+      "opportunityTitle": "Community Economic Development Projects",
+      "owningAgencyCode": "HHS-ACF-OCS",
+      "publisherUid": "63890787833131766027530892347803189092",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "OCS",
+        "seed": "HHS-ACF-OCS",
+        "agencyName": "Administration for Children and Families - OCS",
+        "agencyCode": "HHS-ACF-OCS",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 362237,
+        "version": 1,
+        "postingDate": "May 05, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>The Office of Community Services (OCS) will award approximately $18.57 million in Community Economic Development (CED) discretionary funds to Community Development Corporations (CDC) to enhance job creation and business development for individuals with low income. Projects should be well-planned, financially viable, and innovative. CED awards will be made as part of a broader strategy to address objectives such as decreasing dependency on federal programs, chronic unemployment, and community deterioration in urban and rural areas. CED projects are expected to actively recruit individuals with low incomes to fill the positions created by CED-funded development activities, to assist those individuals in successfully maintaining employment, and to ensure that the businesses and jobs created remain viable for at least one year after the project period. CED projects can be non-construction or construction projects. In states with current projects, OCS encourages applicants to target rural and underserved areas.<br><br>Furthermore, OCS encourages potential applicants to explore how proposed projects can be aligned and/or integrated with other OCS-funded programs and priorities to more comprehensively address the needs of rural and urban communities with high rates of poverty, unemployment, and substance-use disorder, as well as communities experiencing persistent poverty, as identified by US Department of Agriculture's Economic Research Service.</p>",
+        "costSharing": false,
+        "numberOfAwards": "21",
+        "estimatedFunding": "17484782",
+        "awardCeiling": "800000",
+        "awardFloor": "100000",
+        "fundingDescLinkUrl": "https://www.acf.hhs.gov/ocs/programs/ced",
+        "fundingDescLinkDesc": "https://www.acf.hhs.gov/ocs/programs/ced",
+        "agencyContactName": "Olivia Barfield",
+        "agencyContactPhone": "(202) 545-4904",
+        "agencyContactEmail": "Olivia.Barfield@acf.hhs.gov",
+        "agencyContactEmailDesc": "Olivia.Barfield@acf.hhs.gov",
+        "agencyCode": "HHS-ACF-OCS",
+        "applicantEligibilityDesc": "To be eligible for the CED program, an applicant must meet three conditions:1. Applicant must be a private, non-profit CDC with 501(c)(3) status;2. Applicant must have articles of incorporation or bylaws demonstrating that the CDC has, as a principal purpose, the planning, developing, or managing of low-income housing or community economic development activities; and3. The Board of Directors must have representation from each of the following: community residents, business leaders, and civic leaders.Note: The CDC designation does not need to be specified on any official documents as long as the three requirements stated above are met. Applications from individuals (including sole proprietorships), federal entities, and foreign entities are not eligible and will be disqualified from the merit review and funding under this funding opportunity. Faith-based and community organizations that meet the eligibility requirements are eligible for awards under this funding opportunity.",
+        "estSynopsisPostingDate": "May 18, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jul 17, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm Eastern Standard Time on the listed application due date.",
+        "estAwardDate": "Aug 14, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "May 05, 2026 11:24:46 AM EDT",
+        "createdDate": "May 05, 2026 11:24:46 AM EDT",
+        "lastUpdatedDate": "May 05, 2026 11:24:46 AM EDT",
+        "agencyDetails": {
+          "code": "OCS",
+          "seed": "HHS-ACF-OCS",
+          "agencyName": "Administration for Children and Families - OCS",
+          "agencyCode": "HHS-ACF-OCS",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "17,484,782",
+        "awardCeilingFormatted": "800,000",
+        "awardFloorFormatted": "100,000",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ISS",
+            "description": "Income Security and Social Services"
+          }
+        ],
+        "postingDateStr": "2026-05-05-00-00-00",
+        "estSynopsisPostingDateStr": "2026-05-18-00-00-00",
+        "estApplicationResponseDateStr": "2026-07-17-00-00-00",
+        "estAwardDateStr": "2026-08-14-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-05-05-11-24-46"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 433142,
+          "opportunityId": 362237,
+          "cfdaNumber": "93.570",
+          "programTitle": "Community Services Block Grant Discretionary Awards"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

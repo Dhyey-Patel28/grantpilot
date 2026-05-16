@@ -1,0 +1,353 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361809",
+  "fetched_at": "2026-05-16T14:09:14.481Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVkeUZTQU1aV1Z6Sjdsbm43NGRLYXZ5b0I3REFYMk9RQXl4bTlnTDRZOGs9Ig.xnwxX5GOalUukofU7URpsNAzxg7pNRvB-55fuaSJUxw",
+    "data": {
+      "id": 361809,
+      "revision": 1,
+      "opportunityNumber": "DOL-OESE-33844",
+      "opportunityTitle": "Teacher and School Leader Incentive Fund 84.374A",
+      "owningAgencyCode": "DOL-OESE",
+      "listed": "L",
+      "publisherUid": "108543823001346149044023871953952539321",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361809,
+        "version": 2,
+        "agencyCode": "DOL-OESE",
+        "agencyName": "Office of Elementary and Secondary Education",
+        "agencyPhone": "202-693-2606",
+        "agencyAddressDesc": "Cynthia.Hunter@ed.gov",
+        "agencyDetails": {
+          "code": "OESE",
+          "seed": "DOL-OESE",
+          "agencyName": "Office of Elementary and Secondary Education",
+          "agencyCode": "DOL-OESE",
+          "topAgencyCode": "DOL"
+        },
+        "topAgencyDetails": {
+          "code": "DOL",
+          "seed": "DOL",
+          "agencyName": "Department of Labor",
+          "agencyCode": "DOL",
+          "topAgencyCode": "DOL"
+        },
+        "agencyContactPhone": "202-693-2606",
+        "agencyContactName": "Office of Elementary and Secondary Education",
+        "agencyContactDesc": "Cynthia Hunter\nCynthia.Hunter@ed.gov",
+        "agencyContactEmail": "Cynthia.Hunter@ed.gov",
+        "agencyContactEmailDesc": "Cynthia.Hunter@ed.gov",
+        "synopsisDesc": "The Employment and Training Administration at the U.S. Department of Labor (Labor) is soliciting applications in support of the administration of the Teacher and School Leader Incentive Program (TSL) program on behalf of the U.S. Department of Education (ED). The purpose of the TSL program is to assist States, local educational agencies (LEAs), and nonprofit organizations to develop, implement, improve, or expand comprehensive performance-based compensation systems (PBCS) or human capital management systems (HCMS) for teachers, principals, or other school leaders (especially for teachers, principals, or other school leaders in high-need schools) who raise student growth and academic achievement, support workforce readiness, and close the achievement gap between high- and low-performing students.  In addition, a portion of TSL funds may be used to study the effectiveness, fairness, quality, consistency, and reliability of PBCS or HCMS for educators.Grant application reviewers will award competitive preference points to projects or proposals that will be carried out by State educational agencies grantees. This priority aligns to the Administration\"s efforts to ensure Federal education dollars empower states to best meet their teachers\" and students\" needs. Applicants can also receive competitive preference points for projects or proposals that are designed to advance meaningful learning, including high-quality and proven interventions that will directly benefit student learning outcomes.",
+        "responseDate": "Jun 09, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59:59 pm Eastern Time.",
+        "fundingDescLinkUrl": "https://www.ed.gov/grants-and-programs/teacher-preparation-grants/teacher-and-school-leader-incentive-program",
+        "fundingDescLinkDesc": "https://www.ed.gov/grants-and-programs/teacher-preparation-grants/teacher-and-school-leader-incentive-program",
+        "postingDate": "Apr 08, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 09, 2026 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "20",
+        "estimatedFunding": "60000000",
+        "estimatedFundingFormatted": "60,000,000",
+        "awardCeiling": "0",
+        "awardCeilingFormatted": "0",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "To receive funds under this program, an applicant must be:An LEA, including a charter school that is an LEA, or a consortium of LEAs; A State educational agency (SEA) or other State agency designated by the Chief Executive of a State to participate;The Bureau of Indian Education; orA partnership consisting of--One or more agencies described in paragraph (a), (b), or (c); andAt least one nonprofit or for-profit entity.Note: For the purpose of this program, the Secretary considers all schools funded by the Department of Interior's Bureau of Indian Education to be LEAs under section 8101(30)(C) of the ESEA. Note: Under section 2212(b)(3) of the ESEA, an LEA may receive (whether individually or as part of a consortium or partnership) a grant under the TSL program only twice.Note: A Partnership under this competition must follow the procedures under 34 CFR 75.127 through 75.129 in developing a group application. This includes developing an agreement that details the activities that each member of the group plans to perform and binds each member of the group to every statement and assurance made by the applicant in the application. This agreement must be submitted with the application.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 14, 2026 10:01:37 AM EDT",
+        "modComments": "Updates made to the award ceiling and award floor.",
+        "createdDate": "Apr 08, 2026 08:10:45 AM EDT",
+        "lastUpdatedDate": "Apr 14, 2026 10:01:37 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ELT",
+            "description": "Employment, Labor and Training"
+          }
+        ],
+        "responseDateStr": "2026-06-09-00-00-00",
+        "postingDateStr": "2026-04-08-00-00-00",
+        "archiveDateStr": "2026-07-09-00-00-00",
+        "createTimeStampStr": "2026-04-14-10-01-37"
+      },
+      "agencyDetails": {
+        "code": "OESE",
+        "seed": "DOL-OESE",
+        "agencyName": "Office of Elementary and Secondary Education",
+        "agencyCode": "DOL-OESE",
+        "topAgencyCode": "DOL"
+      },
+      "topAgencyDetails": {
+        "code": "DOL",
+        "seed": "DOL",
+        "agencyName": "Department of Labor",
+        "agencyCode": "DOL",
+        "topAgencyCode": "DOL"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79242,
+          "opportunityId": 361809,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 467983,
+          "createdDate": "Apr 10, 2026 04:24:19 PM EDT",
+          "lastUpdatedDate": "Apr 10, 2026 04:24:20 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351109,
+              "opportunityId": 361809,
+              "mimeType": "application/pdf",
+              "fileName": "Final Full Announcement 84.374A TSL FY2026 Application Notice and Instructions 2026_0410.pdf",
+              "fileDescription": "Final Full Announcement 84.374A TSL FY2026 Application Notice and Instructions 2026_0410.pdf",
+              "fileLobSize": 487048,
+              "createdDate": "Apr 10, 2026 04:24:20 PM EDT",
+              "synopsisAttFolderId": 79242
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432591,
+          "opportunityId": 361809,
+          "cfdaNumber": "84.374",
+          "programTitle": "Teacher and School Leader Incentive Grants (formerly the Teacher Incentive Fund)"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361809,
+            "revision": 0
+          },
+          "opportunityId": 361809,
+          "revision": 0,
+          "opportunityNumber": "DOL-OESE-33844",
+          "opportunityTitle": "Teacher and School Leader Incentive Fund 84.374A",
+          "owningAgencyCode": "DOL-OESE",
+          "publisherUid": "108543823001346149044023871953952539321",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361809,
+              "revision": 0
+            },
+            "opportunityId": 361809,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOL-OESE",
+            "agencyAddressDesc": "Cynthia.Hunter@ed.gov",
+            "agencyDetails": {
+              "code": "OESE",
+              "seed": "DOL-OESE",
+              "agencyName": "Office of Elementary and Secondary Education",
+              "agencyCode": "DOL-OESE",
+              "topAgencyCode": "DOL"
+            },
+            "agencyContactPhone": "202-693-2606",
+            "agencyContactName": "Office of Elementary and Secondary Education",
+            "agencyContactDesc": "Cynthia Hunter\nCynthia.Hunter@ed.gov",
+            "agencyContactEmail": "Cynthia.Hunter@ed.gov",
+            "agencyContactEmailDesc": "Cynthia.Hunter@ed.gov",
+            "synopsisDesc": "The Employment and Training Administration at the U.S. Department of Labor (Labor) is soliciting applications in support of the administration of the Teacher and School Leader Incentive Program (TSL) program on behalf of the U.S. Department of Education (ED). The purpose of the TSL program is to assist States, local educational agencies (LEAs), and nonprofit organizations to develop, implement, improve, or expand comprehensive performance-based compensation systems (PBCS) or human capital management systems (HCMS) for teachers, principals, or other school leaders (especially for teachers, principals, or other school leaders in high-need schools) who raise student growth and academic achievement, support workforce readiness, and close the achievement gap between high- and low-performing students.  In addition, a portion of TSL funds may be used to study the effectiveness, fairness, quality, consistency, and reliability of PBCS or HCMS for educators.Grant application reviewers will award competitive preference points to projects or proposals that will be carried out by State educational agencies grantees. This priority aligns to the Administration\"s efforts to ensure Federal education dollars empower states to best meet their teachers\" and students\" needs. Applicants can also receive competitive preference points for projects or proposals that are designed to advance meaningful learning, including high-quality and proven interventions that will directly benefit student learning outcomes.",
+            "responseDate": "Jun 09, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59:59 pm Eastern Time.",
+            "fundingDescLinkUrl": "https://www.ed.gov/grants-and-programs/teacher-preparation-grants/teacher-and-school-leader-incentive-program",
+            "fundingDescLinkDesc": "https://www.ed.gov/grants-and-programs/teacher-preparation-grants/teacher-and-school-leader-incentive-program",
+            "postingDate": "Apr 08, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 09, 2026 12:00:00 AM EDT",
+            "costSharing": true,
+            "numberOfAwards": "20",
+            "estimatedFunding": "60000000",
+            "estimatedFundingFormatted": "60,000,000",
+            "awardCeiling": "8500000",
+            "awardCeilingFormatted": "8,500,000",
+            "awardFloor": "500000",
+            "awardFloorFormatted": "500,000",
+            "applicantEligibilityDesc": "To receive funds under this program, an applicant must be:An LEA, including a charter school that is an LEA, or a consortium of LEAs; A State educational agency (SEA) or other State agency designated by the Chief Executive of a State to participate;The Bureau of Indian Education; orA partnership consisting of--One or more agencies described in paragraph (a), (b), or (c); andAt least one nonprofit or for-profit entity.Note: For the purpose of this program, the Secretary considers all schools funded by the Department of Interior's Bureau of Indian Education to be LEAs under section 8101(30)(C) of the ESEA. Note: Under section 2212(b)(3) of the ESEA, an LEA may receive (whether individually or as part of a consortium or partnership) a grant under the TSL program only twice.Note: A Partnership under this competition must follow the procedures under 34 CFR 75.127 through 75.129 in developing a group application. This includes developing an agreement that details the activities that each member of the group plans to perform and binds each member of the group to every statement and assurance made by the applicant in the application. This agreement must be submitted with the application.",
+            "createTimeStamp": "Apr 10, 2026 04:24:20 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 14, 2026 10:01:37 AM EDT",
+            "createdDate": "Apr 08, 2026 08:10:45 AM EDT",
+            "lastUpdatedDate": "Apr 08, 2026 08:10:45 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              }
+            ],
+            "responseDateStr": "2026-06-09-00-00-00",
+            "postingDateStr": "2026-04-08-00-00-00",
+            "archiveDateStr": "2026-07-09-00-00-00",
+            "createTimeStampStr": "2026-04-10-16-24-20"
+          },
+          "cfdas": [
+            {
+              "id": 432591,
+              "opportunityId": 361809,
+              "revision": 0,
+              "cfdaNumber": "84.374",
+              "programTitle": "Teacher and School Leader Incentive Grants (formerly the Teacher Incentive Fund)"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292371,
+          "topportunityId": 361809,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "DOL-OESE-33844",
+          "opportunityTitle": "Teacher and School Leader Incentive Fund 84.374A",
+          "cfdaNumber": "84.374",
+          "openingDate": "2026-04-08",
+          "closingDate": "2026-06-09",
+          "owningAgencyCode": "DOL-OESE",
+          "agencyDetails": {
+            "code": "OESE",
+            "seed": "DOL-OESE",
+            "agencyName": "Office of Elementary and Secondary Education",
+            "agencyCode": "DOL-OESE",
+            "topAgencyCode": "DOL"
+          },
+          "topAgencyDetails": {
+            "code": "DOL",
+            "seed": "DOL",
+            "agencyName": "Department of Labor",
+            "agencyCode": "DOL",
+            "topAgencyCode": "DOL"
+          },
+          "programTitle": "Teacher and School Leader Incentive Grants (formerly the Teacher Incentive Fund)",
+          "contactInfo": "Cynthia Hunter",
+          "gracePeriod": 0,
+          "competitionId": "DOL-OESE-33844",
+          "competitionTitle": "Teacher and School Leader Incentive Fund 84.374A",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 45,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 10, 2026 04:23:01 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292371",
+          "openingDateStr": "2026-04-08-00-00-00",
+          "closingDateStr": "2026-06-09-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 09, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 11:59:59 pm Eastern Time.",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "awardCeiling",
+        "awardFloor",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362130",
+  "fetched_at": "2026-05-16T14:09:58.313Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVUK1hheFRGZjNYYnhNbEpjYVhFWUZhb3lZMXA4NEhOUnBBMW94ekdGNm89Ig.CSqt9bUMhTQrJ_xB4Ad1lYCdJjhFv9kTjvyxoevC9OI",
+    "data": {
+      "id": 362130,
+      "revision": 0,
+      "opportunityNumber": "G27AS00075",
+      "opportunityTitle": "USGS Earthquake Hazards Program External Research Support Announcement for Fiscal Year 2027",
+      "owningAgencyCode": "DOI-USGS1",
+      "listed": "L",
+      "publisherUid": "113080850824856438988185809190837265423",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362130,
+        "version": 1,
+        "agencyCode": "DOI-USGS1",
+        "agencyName": "Geological Survey",
+        "agencyPhone": "916-278-9331",
+        "agencyAddressDesc": "margaret_eastman@ios.doi.gov",
+        "agencyDetails": {
+          "code": "USGS",
+          "seed": "DOI-USGS1",
+          "agencyName": "Geological Survey",
+          "agencyCode": "DOI-USGS1",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactPhone": "916-278-9331",
+        "agencyContactName": "Geological Survey",
+        "agencyContactDesc": "Margaret Eastman\nmargaret_eastman@ios.doi.gov",
+        "agencyContactEmail": "margaret_eastman@ios.doi.gov",
+        "agencyContactEmailDesc": "margaret_eastman@ios.doi.gov",
+        "synopsisDesc": "The USGS Earthquake Hazards Program (EHP) issues this Notice of Funding Opportunity (NOFO) for assistance to support research in earthquake hazards, the physics of earthquakes, earthquake occurrence, and earthquake safety policy. This activity is authorized by the Earthquake Hazards Reduction Act of 1977 (Public Law 95-124, 42 U.S.C. 7701 et. seq.), and as amended by the National Earthquake Hazards Reduction Program Reauthorization Act of 2018 (Public Law 115-307).It is estimated that a total of $4 million will be awarded in support of competitive research grants in FY2027, with a maximum total of $7 million. Based on awards in recent years, approximately 50 to 70 new awards are funded each fiscal year. There is no maximum award amount (i.e., any amount may be proposed if it can be justified appropriately), however, the majority of grants range between $30,000 and $120,000. This estimate does not bind the USGS to a specified number of awards or to the amount of any award unless that amount is specified by statute or regulation.This U.S. Geological Survey (USGS) competitive grants solicitation supports external research partnerships that are essential to the Earthquake Hazards Program (EHP) mission. The goal is to generate scientific information and situational awareness products that help the program reduce deaths, injuries, and economic losses from earthquakes, and improve public safety and resilience nationwide. External grants with university, state, regional and local government agencies, and private industry partners support science that cannot be conducted within the USGS because of a lack of sufficient in-house expertise. Grants.gov Subscription:Principal Investigators (PIs) are urged to sign up for Grants.gov\"s subscription service to receive notices about the Earthquake Hazards Program grant funding opportunities and possible updates during the application period. Sign up is through the Grants.gov website; our CFDA number is 15.807.Anticipated Award Date:January 01, 2027All projects must propose start dates between January 1, 2027 and September 1, 2027. The start date requested in the applicant\"s submitted proposal is considered the applicant's official start date and may not be changed by the applicant. If funding delays do not allow for a project to be funded by the applicant's requested start date, the award will be issued as soon as funds become available, and the applicant will be notified of the new start date by the USGS Contracting Officer.During the application period an applicant may submit a revised or corrected proposal through grants.gov. Include a cover letter as the first page of the proposal stating that the proposal is revised and indicating that the previous submission is to be withdrawn from consideration. Such submissions must be completed by June 4, 2026, at 6:00 pm Eastern Daylight Time. The Project Narrative instructions, found in the \"Prepare Your Application\" Section of this NOFO, describes requirements for the proposal and other application components.Please allow sufficient time for the proposal to be submitted electronically through Grants.gov and allow time for possible computer delays. Applicants are strongly advised not to wait until the last minute for submission. A proposal received after the closing date and time will NOT be considered for award. If the USGS determines that a proposal will not be considered for award due to lateness, the applicant will be notified immediately.Program Website Link:https://www.usgs.gov/programs/earthquake-hazards/science/external-grants",
+        "responseDate": "Jun 04, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "All proposals must be submitted electronically through Grants.gov on or before: June 4, 2026, at 6 pm, Eastern Daylight Time.",
+        "postingDate": "Apr 29, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 30, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "60",
+        "estimatedFunding": "6000000",
+        "estimatedFundingFormatted": "6,000,000",
+        "awardCeiling": "0",
+        "awardCeilingFormatted": "0",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "This Announcement is open to all individuals and entities EXCEPT for the ineligible categories listed below.The following proposals are NOT eligible for consideration under this Announcement: Proposals for regional seismic monitoring or establishing Data Centers.Proposals for long-term operation of geodetic networks or instruments.Proposals from U.S. Government agencies or U.S. Government employees.Proposals from Federally Funded Research and Development Centers (FFRDC).Proposals in which there is a real or apparent conflict of interest.Proposals principally involving the direct procurement of a product, equipment, or service.Proposals having subcontracts for 50 percent or greater of total direct costs. Excluded Parties:USGS conducts a review of the SAM.gov Exclusions database for all applicant entities and their key project personnel prior to award. USGS cannot award funds to entities or their key project personnel identified in the SAM.gov Exclusions database as ineligible, prohibited/restricted or otherwise excluded from receiving Federal contracts, certain subcontracts, and certain Federal assistance and benefits, as their ineligibility condition applies to this Federal program.Involvement of Federal Employees: Federal employees, including USGS employees, are prohibited from serving in any capacity (paid or unpaid) on any application submitted under this Announcement; federal employees may not assist in the development of proposals. Proposals that have a real or apparent conflict of interest related to Federal employees will not be processed for evaluation. This does not prohibit cooperation or collaboration between USGS and non-USGS scientists once a grant or cooperative agreement is in place. The Program Description, found in the &quot;Program Overview&quot; Section of this NOFO, describes Collaborative Proposals.",
+        "createTimeStamp": "Apr 29, 2026 02:18:06 PM EDT",
+        "createdDate": "Apr 29, 2026 02:14:35 PM EDT",
+        "lastUpdatedDate": "Apr 29, 2026 02:14:35 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "21",
+            "description": "Individuals"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-06-04-00-00-00",
+        "postingDateStr": "2026-04-29-00-00-00",
+        "archiveDateStr": "2026-06-30-00-00-00",
+        "createTimeStampStr": "2026-04-29-14-18-06"
+      },
+      "agencyDetails": {
+        "code": "USGS",
+        "seed": "DOI-USGS1",
+        "agencyName": "Geological Survey",
+        "agencyCode": "DOI-USGS1",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79449,
+          "opportunityId": 362130,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 11759812,
+          "createdDate": "Apr 29, 2026 02:15:58 PM EDT",
+          "lastUpdatedDate": "Apr 29, 2026 02:18:06 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351568,
+              "opportunityId": 362130,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment A - FY27 External Research Priorities.pdf",
+              "fileDescription": "Attachment A - FY27 External Research Priorities.pdf",
+              "fileLobSize": 11531152,
+              "createdDate": "Apr 29, 2026 02:16:13 PM EDT",
+              "synopsisAttFolderId": 79449
+            },
+            {
+              "id": 351569,
+              "opportunityId": 362130,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "Attachment B - USGS Scientist Letter of Collaboration Template.docx",
+              "fileDescription": "Attachment B - USGS Scientist Letter of Collaboration Template.docx",
+              "fileLobSize": 33266,
+              "createdDate": "Apr 29, 2026 02:16:33 PM EDT",
+              "synopsisAttFolderId": 79449
+            },
+            {
+              "id": 351570,
+              "opportunityId": 362130,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "Attachment C - Proposal Information Summary Template.docx",
+              "fileDescription": "Attachment C - Proposal Information Summary Template.docx",
+              "fileLobSize": 23669,
+              "createdDate": "Apr 29, 2026 02:17:14 PM EDT",
+              "synopsisAttFolderId": 79449
+            },
+            {
+              "id": 351571,
+              "opportunityId": 362130,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "Attachment D - Budget Summary Template.docx",
+              "fileDescription": "Attachment D - Budget Summary Template.docx",
+              "fileLobSize": 25637,
+              "createdDate": "Apr 29, 2026 02:17:44 PM EDT",
+              "synopsisAttFolderId": 79449
+            },
+            {
+              "id": 351572,
+              "opportunityId": 362130,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "Attachment E - 2027 EHP AWARD TERMS AND CONDITIONS.docx",
+              "fileDescription": "Attachment E - 2027 EHP AWARD TERMS AND CONDITIONS.docx",
+              "fileLobSize": 65785,
+              "createdDate": "Apr 29, 2026 02:18:06 PM EDT",
+              "synopsisAttFolderId": 79449
+            },
+            {
+              "id": 351567,
+              "opportunityId": 362130,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "FINAL 2027 EHP NOFO G27AS00075.docx",
+              "fileDescription": "FINAL 2027 EHP NOFO G27AS00075.docx",
+              "fileLobSize": 147973,
+              "createdDate": "Apr 29, 2026 02:15:59 PM EDT",
+              "synopsisAttFolderId": 79449
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432976,
+          "opportunityId": 362130,
+          "cfdaNumber": "15.807",
+          "programTitle": "Earthquake Hazards Program Assistance"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292546,
+          "topportunityId": 362130,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "G27AS00075",
+          "opportunityTitle": "USGS Earthquake Hazards Program External Research Support Announcement for Fiscal Year 2027",
+          "cfdaNumber": "15.807",
+          "openingDate": "2026-04-29",
+          "closingDate": "2026-06-04",
+          "owningAgencyCode": "DOI-USGS1",
+          "agencyDetails": {
+            "code": "USGS",
+            "seed": "DOI-USGS1",
+            "agencyName": "Geological Survey",
+            "agencyCode": "DOI-USGS1",
+            "topAgencyCode": "DOI"
+          },
+          "topAgencyDetails": {
+            "code": "DOI",
+            "seed": "DOI",
+            "agencyName": "Department of the Interior",
+            "agencyCode": "DOI",
+            "topAgencyCode": "DOI"
+          },
+          "programTitle": "Earthquake Hazards Program Assistance",
+          "contactInfo": "Margaret Eastman",
+          "gracePeriod": 30,
+          "competitionId": "G27AS00075",
+          "competitionTitle": "USGS Earthquake Hazards Program External Research Support Announcement for Fiscal Year 2027",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 250,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 29, 2026 02:15:36 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292546",
+          "openingDateStr": "2026-04-29-00-00-00",
+          "closingDateStr": "2026-06-04-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 04, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "All proposals must be submitted electronically through Grants.gov on or before: June 4, 2026, at 6 pm, Eastern Daylight Time.",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

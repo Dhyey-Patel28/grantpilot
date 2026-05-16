@@ -1,0 +1,234 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362132",
+  "fetched_at": "2026-05-16T14:09:58.767Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVUK1hheFRGZjNYYnhNbEpjYVhFWUJiRjNoL04ra3lBekR2Qk9mUzJXUFk9Ig.Z3EHBGJ96h9djYWnWAC-bs25BWTsP6iVuIjO8Aafxr0",
+    "data": {
+      "id": 362132,
+      "revision": 0,
+      "opportunityNumber": "DFOP0018094",
+      "opportunityTitle": "Protecting U.S. Critical Energy Investments Through C-UAS and UAS Surveillance Capabilities in Iraq",
+      "owningAgencyCode": "DOS-SCT",
+      "listed": "L",
+      "publisherUid": "4449340775911576642",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362132,
+        "version": 1,
+        "agencyCode": "DOS-SCT",
+        "agencyName": "Bureau of Counterterrorism",
+        "agencyPhone": "703-516-1684",
+        "agencyDetails": {
+          "code": "SCT",
+          "seed": "DOS-SCT",
+          "agencyName": "Bureau of Counterterrorism ",
+          "agencyCode": "DOS-SCT",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "703-516-1684",
+        "agencyContactName": "Bureau of Counterterrorism",
+        "agencyContactDesc": "arbogastc@state.gov",
+        "synopsisDesc": "The Department of State’s Bureau of Counterterrorism (CT) announces this funding opportunity to protect American economic interests, personnel, and national security by supporting the Government of Iraq’s (GOI) capabilities to counter unmanned aircraft systems (C-UAS) threats while simultaneously advancing Iraqi security forces’ capability to protect critical infrastructure.  This program should deliver concrete returns for American taxpayers by safeguarding U.S. commercial investments in Iraq’s energy sector and reducing threats to American personnel from Iran and Iran-Aligned Milita Groups (IAMGs). \n\nU.S. companies maintain significant investments in Iraqi oil and gas production, representing substantial American economic interests.  UAS operated by Iran and IAMGs present a persistent and escalating threat to these American investments and to U.S. personnel operating in Iraq. Recent drone attacks on U.S. facilities in Erbil and Baghdad illustrate IAMGs intent and capabilities to attack American interests.  By supporting Iraq’s ability to both defend against hostile UAS and conduct proactive surveillance operations, this program should directly protect American economic assets and reduce risks to American citizens abroad. \n\nThis program advances critical U.S. national security priorities outlined in the U.S. Department of State Agency Strategic Plan for fiscal years 2026-2030, 2025 National Security Strategy (NSS) and National Security Presidential Memorandum-2 (NSPM-2) on Countering Iran and IAMGs by degrading the operational capabilities of their UAS and protecting U.S. interests. \n\nThis program should be designed to reduce Iraq’s long-term dependency on U.S. taxpayer resources by building sustainable Iraqi civilian law enforcement capabilities to independently protect critical infrastructure, conduct surveillance operations, and respond to UAS threats.",
+        "responseDate": "Jun 08, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&table=x_g_usd4_d_grant_funding_opportunity&sys_id=2ec3f09b934c4fd0d114b7986cba107e&view=Default",
+        "fundingDescLinkDesc": "Link to Opportunity in MyGrants",
+        "postingDate": "Apr 29, 2026 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "Counterterrorism",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "awardCeiling": "6808090",
+        "awardCeilingFormatted": "6,808,090",
+        "awardFloor": "6808090",
+        "awardFloorFormatted": "6,808,090",
+        "applicantEligibilityDesc": "Not-for-profit organizations, including think tanks and civil society/non-governmental organizations  \nPublic and private educational institutions  \nFor-profit organizations (only if allowed by appropriation)  \nPublic International Organizations (PIOs) and Governmental institutions",
+        "createTimeStamp": "Apr 30, 2026 09:24:00 AM EDT",
+        "createdDate": "Apr 29, 2026 02:20:18 PM EDT",
+        "lastUpdatedDate": "Apr 29, 2026 02:20:18 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "responseDateStr": "2026-06-08-00-00-00",
+        "postingDateStr": "2026-04-29-00-00-00",
+        "createTimeStampStr": "2026-04-30-09-24-00"
+      },
+      "agencyDetails": {
+        "code": "SCT",
+        "seed": "DOS-SCT",
+        "agencyName": "Bureau of Counterterrorism ",
+        "agencyCode": "DOS-SCT",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79473,
+          "opportunityId": 362132,
+          "folderType": "Full Announcement",
+          "folderName": "NOFO & Related Documents",
+          "zipLobSize": 908138,
+          "createdDate": "Apr 30, 2026 09:22:25 AM EDT",
+          "lastUpdatedDate": "Apr 30, 2026 09:24:00 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351604,
+              "opportunityId": 362132,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "FP - NOFO Protecting U.S. Critical Energy Investments Through C-UAS and UAS Surveillance Capabilities in Iraq (upd).docx",
+              "fileDescription": "Announcement",
+              "fileLobSize": 204552,
+              "createdDate": "Apr 30, 2026 09:22:49 AM EDT",
+              "synopsisAttFolderId": 79473
+            },
+            {
+              "id": 351608,
+              "opportunityId": 362132,
+              "mimeType": "application/pdf",
+              "fileName": "DFOP0018094 Questions and Answers_Iraq UAS CUAS.pdf",
+              "fileDescription": "Announcement Q&amp;A",
+              "fileLobSize": 216246,
+              "createdDate": "Apr 30, 2026 09:24:00 AM EDT",
+              "synopsisAttFolderId": 79473
+            },
+            {
+              "id": 351607,
+              "opportunityId": 362132,
+              "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "fileName": "1.03.1 Budget Template FY25 with MTDC Calculation_Final.xlsx",
+              "fileDescription": "Budget Template",
+              "fileLobSize": 91649,
+              "createdDate": "Apr 30, 2026 09:23:40 AM EDT",
+              "synopsisAttFolderId": 79473
+            },
+            {
+              "id": 351605,
+              "opportunityId": 362132,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "1.02.8 Logic Model Template and How to Guide - 2026-02-12 - GRANTS ONLY - FINAL.docx",
+              "fileDescription": "Logic Model",
+              "fileLobSize": 66144,
+              "createdDate": "Apr 30, 2026 09:23:08 AM EDT",
+              "synopsisAttFolderId": 79473
+            },
+            {
+              "id": 351606,
+              "opportunityId": 362132,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "1.02.9 PMP Template &amp; How To Guide - 2026-02-12 - GRANTS ONLY - FINAL.docx",
+              "fileDescription": "PMP",
+              "fileLobSize": 428527,
+              "createdDate": "Apr 30, 2026 09:23:20 AM EDT",
+              "synopsisAttFolderId": 79473
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432978,
+          "opportunityId": 362132,
+          "cfdaNumber": "19.701",
+          "programTitle": "Global Counterterrorism Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292564,
+          "topportunityId": 362132,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "DFOP0018094",
+          "opportunityTitle": "Protecting U.S. Critical Energy Investments Through C-UAS and UAS Surveillance Capabilities in Iraq",
+          "cfdaNumber": "19.701",
+          "openingDate": "2026-04-10",
+          "closingDate": "2026-06-08",
+          "owningAgencyCode": "DOS-SCT",
+          "agencyDetails": {
+            "code": "SCT",
+            "seed": "DOS-SCT",
+            "agencyName": "Bureau of Counterterrorism ",
+            "agencyCode": "DOS-SCT",
+            "topAgencyCode": "DOS"
+          },
+          "topAgencyDetails": {
+            "code": "DOS",
+            "seed": "DOS",
+            "agencyName": "Department of State",
+            "agencyCode": "DOS",
+            "topAgencyCode": "DOS"
+          },
+          "programTitle": "Global Counterterrorism Programs",
+          "contactInfo": "Cheyenne Arbogast\r\nArbogastC@state.gov",
+          "competitionId": "DFOP0018094",
+          "competitionTitle": "Protecting U.S. Critical Energy Investments Through C-UAS and UAS Surveillance Capabilities in Iraq",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 15,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "docx",
+          "mimetype": "application/msword",
+          "lastUpdate": "Apr 30, 2026 09:26:13 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292564",
+          "openingDateStr": "2026-04-10-00-00-00",
+          "closingDateStr": "2026-06-08-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 08, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

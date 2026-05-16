@@ -1,0 +1,257 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361414",
+  "fetched_at": "2026-05-16T14:08:48.703Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ik1FK0ZEc0sxOHEwcVVYSXd4TEd1VzFsNmJtMElMQytQQWo5VXpZSmtncW89Ig.toFb-Rho1whDUdKY5zDQ-gAT4lRGr3dhuhkM_D8SVUQ",
+    "data": {
+      "id": 361414,
+      "revision": 0,
+      "opportunityNumber": "R25AS00279",
+      "opportunityTitle": "Small-Scale Water Efficiency Projects",
+      "owningAgencyCode": "DOI-BOR",
+      "listed": "L",
+      "publisherUid": "113080850824856438988185809190837265423",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361414,
+        "version": 1,
+        "agencyCode": "DOI-BOR",
+        "agencyName": "Bureau of Reclamation",
+        "agencyPhone": "tbd",
+        "agencyAddressDesc": "NOFO Mailbox",
+        "agencyDetails": {
+          "code": "BOR",
+          "seed": "DOI-BOR",
+          "agencyName": "Bureau of Reclamation",
+          "agencyCode": "DOI-BOR",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactPhone": "tbd",
+        "agencyContactName": "Bureau of Reclamation",
+        "agencyContactDesc": "Christina Munoz\nbor-sha-fafoa@usbr.gov",
+        "agencyContactEmail": "bor-sha-fafoa@usbr.gov",
+        "agencyContactEmailDesc": "NOFO Mailbox",
+        "synopsisDesc": "Through WaterSMART, the Bureau of Reclamation (Reclamation) leverages Federal and non-Federal funding to work cooperatively with States, Tribes, and other entities as they plan for and implement actions to increase water supply and hydropower reliability. The WaterSMART Program demonstrably advances Trump administration priorities, such as those identified in Presidential Executive Order 14154 (January 20, 2025): Unleashing American Energy (E.O. 14154) and Secretarial Order 3418, and aligns with other priorities and requirements, such as those identified in Presidential Executive Order 14332 (August 7, 2025): Improving Oversight in Federal Grantmaking (E.O. 14332). The goal of the WaterSMART Small-Scale Water Efficiency Projects NOFO is to invite eligible entities to apply for funding to implement projects that conserve water and enhance water supply reliability in water delivery systems.  It encourages the implementation of small-scale projects identified through prior planning efforts, such as canal lining, water delivery automation, flow measurement, and other projects that increase water efficiency.",
+        "responseDate": "Jun 02, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "June 02, 2026 at 4:00 pm MDT",
+        "postingDate": "Mar 05, 2026 12:00:00 AM EST",
+        "archiveDate": "Aug 31, 2029 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "Awards will be made through a grant or cooperative agreement, depending on the project. If a cooperative agreement is awarded, the recipient should expect Reclamation to have substantial involvement in the project. This may include collaboration or participation in the management of the project and/or review, input, and approval during implementation of the project.",
+        "costSharing": true,
+        "numberOfAwards": "50",
+        "estimatedFunding": "4000000",
+        "estimatedFundingFormatted": "4,000,000",
+        "awardCeiling": "125000",
+        "awardCeilingFormatted": "125,000",
+        "awardFloor": "1000",
+        "awardFloorFormatted": "1,000",
+        "applicantEligibilityDesc": "Eligible Applicants - Applicants eligible to receive an award under this funding opportunity are described below.Category A Applicants:  States, Tribes, irrigation districts, and water districts;State, regional, or local authorities, the members of which include one or more organizations with water or power delivery authority; andOther organizations with water or power delivery authority.Category A applicants must be located in the Western United States or Territories as identified in the Reclamation Act of June 17, 1902, as amended and supplemented; specifically: Alaska, Arizona, California, Colorado, Hawaii, Idaho, Kansas, Montana, Nebraska, Nevada, New Mexico, North Dakota, Oklahoma, Oregon, South Dakota, Texas, Utah, Washington, Wyoming, American Samoa, Guam, the Northern Mariana Islands, the U.S. Virgin Islands and Puerto Rico.Category B Applicants: Nonprofit conservation organizations that are acting in partnership with, and with the agreement of an entity described in Category A.  Category B applicants should include with their application a letter from the Category A partner stating that the Category A partner:Is acting in partnership with the applicant;Agrees to the submittal and content of the application; andIntends to participate in the project in some way, for example, by providing input, feedback, or other support for the project.All Category B applicants must be located in the United States, or the specific Territories identified above.Note: Partners do not necessarily need to contribute cost share funding.  Ineligible Applicants: Those not eligible include, but are not limited to, the following entities:Federal Governmental entitiesIndividuals Institutes of higher education",
+        "createTimeStamp": "Mar 16, 2026 03:24:52 PM EDT",
+        "createdDate": "Mar 05, 2026 01:35:30 PM EST",
+        "lastUpdatedDate": "Mar 05, 2026 01:35:30 PM EST",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          }
+        ],
+        "responseDateStr": "2026-06-02-00-00-00",
+        "postingDateStr": "2026-03-05-00-00-00",
+        "archiveDateStr": "2029-08-31-00-00-00",
+        "createTimeStampStr": "2026-03-16-15-24-52"
+      },
+      "agencyDetails": {
+        "code": "BOR",
+        "seed": "DOI-BOR",
+        "agencyName": "Bureau of Reclamation",
+        "agencyCode": "DOI-BOR",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 78931,
+          "opportunityId": 361414,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 183475,
+          "createdDate": "Mar 05, 2026 01:36:23 PM EST",
+          "lastUpdatedDate": "Mar 16, 2026 03:24:52 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350413,
+              "opportunityId": 361414,
+              "mimeType": "application/pdf",
+              "fileName": "Foa_Content_of_R25AS00279_Final_V2.pdf",
+              "fileDescription": "Foa_Content_of_R25AS00279_Final_V2",
+              "fileLobSize": 198646,
+              "createdDate": "Mar 05, 2026 01:36:24 PM EST",
+              "lastUpdatedDate": "Mar 16, 2026 03:24:52 PM EDT",
+              "synopsisAttFolderId": 78931
+            }
+          ]
+        },
+        {
+          "id": 78932,
+          "opportunityId": 361414,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Other Supporting Documents",
+          "zipLobSize": 791572,
+          "createdDate": "Mar 05, 2026 01:36:37 PM EST",
+          "lastUpdatedDate": "Mar 05, 2026 01:38:16 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 350415,
+              "opportunityId": 361414,
+              "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "fileName": "Attachment A - Budget_Detail_and_Narrative_template_v2025_March.xlsx",
+              "fileDescription": "Attachment A - Budget_Detail_and_Narrative_template_v2025_March.xlsx",
+              "fileLobSize": 73686,
+              "createdDate": "Mar 05, 2026 01:36:50 PM EST",
+              "synopsisAttFolderId": 78932
+            },
+            {
+              "id": 350416,
+              "opportunityId": 361414,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "Attachment B - Budget_Narrative_Guidance_v2025_March.docx",
+              "fileDescription": "Attachment B - Budget_Narrative_Guidance_v2025_March.docx",
+              "fileLobSize": 226941,
+              "createdDate": "Mar 05, 2026 01:37:37 PM EST",
+              "synopsisAttFolderId": 78932
+            },
+            {
+              "id": 350417,
+              "opportunityId": 361414,
+              "mimeType": "application/pdf",
+              "fileName": "General NOFO FAQ.pdf",
+              "fileDescription": "General NOFO FAQ.pdf",
+              "fileLobSize": 216859,
+              "createdDate": "Mar 05, 2026 01:38:16 PM EST",
+              "synopsisAttFolderId": 78932
+            },
+            {
+              "id": 350414,
+              "opportunityId": 361414,
+              "mimeType": "application/pdf",
+              "fileName": "Submission Instructions &amp; Tips.pdf",
+              "fileDescription": "Submission Instructions &amp; Tips.pdf",
+              "fileLobSize": 327139,
+              "createdDate": "Mar 05, 2026 01:36:38 PM EST",
+              "synopsisAttFolderId": 78932
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432126,
+          "opportunityId": 361414,
+          "cfdaNumber": "15.507",
+          "programTitle": "WaterSMART (Sustain and Manage America’s Resources for Tomorrow)"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292059,
+          "topportunityId": 361414,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "R25AS00279",
+          "opportunityTitle": "Small-Scale Water Efficiency Projects",
+          "cfdaNumber": "15.507",
+          "openingDate": "2026-03-05",
+          "closingDate": "2026-06-02",
+          "owningAgencyCode": "DOI-BOR",
+          "agencyDetails": {
+            "code": "BOR",
+            "seed": "DOI-BOR",
+            "agencyName": "Bureau of Reclamation",
+            "agencyCode": "DOI-BOR",
+            "topAgencyCode": "DOI"
+          },
+          "topAgencyDetails": {
+            "code": "DOI",
+            "seed": "DOI",
+            "agencyName": "Department of the Interior",
+            "agencyCode": "DOI",
+            "topAgencyCode": "DOI"
+          },
+          "programTitle": "WaterSMART (Sustain and Manage America’s Resources for Tomorrow)",
+          "contactInfo": "Christina Munoz",
+          "gracePeriod": 0,
+          "competitionId": "R25AS00279",
+          "competitionTitle": "Small-Scale Water Efficiency Projects",
+          "electronicRequired": "N",
+          "expectedApplicationCount": 250,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 05, 2026 01:36:03 PM EST",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292059",
+          "openingDateStr": "2026-03-05-00-00-00",
+          "closingDateStr": "2026-06-02-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 02, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "June 02, 2026 at 4:00 pm MDT",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

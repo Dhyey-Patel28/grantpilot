@@ -1,0 +1,817 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/search2",
+  "keyword": "wastewater",
+  "fetched_at": "2026-05-16T14:05:56.424Z",
+  "rows_requested": 35,
+  "hit_count": 32,
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InNvcUhmU0RTSlh5cUMyanBMM0lVQ1VoSmZMcWg0bjR1WHNKVHNSSGdLbU09Ig.wNKximx_V9UMKqbkovyGLrdQ6U7Ds5rmRnlNtp_iNP4",
+    "data": {
+      "searchParams": {
+        "resultType": "json",
+        "searchOnly": false,
+        "oppNum": "",
+        "cfda": "",
+        "sortBy": "",
+        "oppStatuses": "forecasted|posted",
+        "startRecordNum": 0,
+        "eligibilities": "",
+        "fundingInstruments": "",
+        "fundingCategories": "",
+        "agencies": "",
+        "rows": 35,
+        "keyword": "wastewater",
+        "keywordEncoded": true
+      },
+      "hitCount": 32,
+      "startRecord": 0,
+      "oppHits": [
+        {
+          "id": "306169",
+          "number": "PD-19-073Y",
+          "title": "Engineering for Civil Infrastructure",
+          "agencyCode": "NSF",
+          "agency": "U.S. National Science Foundation",
+          "openDate": "06/12/2018",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "47.041"
+          ]
+        },
+        {
+          "id": "320490",
+          "number": "PD-20-1440",
+          "title": "Environmental Engineering",
+          "agencyCode": "NSF",
+          "agency": "U.S. National Science Foundation",
+          "openDate": "09/11/2019",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "47.041"
+          ]
+        },
+        {
+          "id": "348809",
+          "number": "RD-RUS-CY22DISASTER",
+          "title": "Calendar Year 2022 Disaster Water Grants",
+          "agencyCode": "USDA-RUS",
+          "agency": "Rural Utilities Service",
+          "openDate": "06/22/2023",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "10.760"
+          ]
+        },
+        {
+          "id": "361941",
+          "number": "OLDCC-26-F-0001",
+          "title": "FY 2026 Defense Community Infrastructure Program",
+          "agencyCode": "DOD-OEA",
+          "agency": "Office of Local Defense Community Cooperation",
+          "openDate": "04/17/2026",
+          "closeDate": "06/25/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "12.027"
+          ]
+        },
+        {
+          "id": "347414",
+          "number": "EDA-DISASTER-2023",
+          "title": "FY 2023 Disaster Supplemental",
+          "agencyCode": "DOC-EDA",
+          "agency": "Economic Development Administration",
+          "openDate": "04/24/2023",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.307"
+          ]
+        },
+        {
+          "id": "359225",
+          "number": "EDA-DISASTER-2025",
+          "title": "EDA FY25 Disaster Supplemental",
+          "agencyCode": "DOC-EDA",
+          "agency": "Economic Development Administration",
+          "openDate": "06/04/2025",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.307"
+          ]
+        },
+        {
+          "id": "362395",
+          "number": "R26AS00034",
+          "title": "WaterSMART: Desalination Construction Projects",
+          "agencyCode": "DOI-BOR",
+          "agency": "Bureau of Reclamation",
+          "openDate": "05/14/2026",
+          "closeDate": "08/26/2027",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "15.591"
+          ]
+        },
+        {
+          "id": "356231",
+          "number": "NOAA-NMFS-HCPO-2024-28122",
+          "title": "NOAA Great Lakes Fish Habitat Restoration Partnership Grants",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "agency": "DOC NOAA - ERA Production",
+          "openDate": "08/27/2024",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.463"
+          ]
+        },
+        {
+          "id": "361458",
+          "number": "DE-FOA-0003620",
+          "title": "FY2026 Research Opportunities in Accelerator Stewardship and Accelerator Development",
+          "agencyCode": "PAMS-SC",
+          "agency": "Office of Science",
+          "openDate": "03/12/2026",
+          "closeDate": "05/21/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "81.049"
+          ]
+        },
+        {
+          "id": "360205",
+          "number": "USDA-NIFA-AFRI-011134",
+          "title": "Agriculture and Food Research Initiative Competitive Grants Program Foundational and Applied Science Program",
+          "agencyCode": "USDA-NIFA",
+          "agency": "National Institute of Food and Agriculture",
+          "openDate": "08/01/2025",
+          "closeDate": "12/31/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "10.310"
+          ]
+        },
+        {
+          "id": "355706",
+          "number": "NOAA-NMFS-FHQ-2024-27611",
+          "title": "FY 2024 &ndash; 2026 Broad Agency Announcement (BAA), National Marine Fisheries Service",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "agency": "DOC NOAA - ERA Production",
+          "openDate": "07/29/2024",
+          "closeDate": "09/30/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.015"
+          ]
+        },
+        {
+          "id": "362055",
+          "number": "F26AS00013",
+          "title": "F26AS00013 FY 2026 Clean Vessel Act (CVA) Notice of Funding Opportunity",
+          "agencyCode": "DOI-FWS",
+          "agency": "Fish and Wildlife Service",
+          "openDate": "04/24/2026",
+          "closeDate": "07/22/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "15.616"
+          ]
+        },
+        {
+          "id": "361516",
+          "number": "OIA-CRNR-2026",
+          "title": "OIA Coral Reef Initiative and Natural Resources (CRNR) Program 2026",
+          "agencyCode": "DOI",
+          "agency": "Department of the Interior",
+          "openDate": "03/16/2026",
+          "closeDate": "06/08/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "15.875"
+          ]
+        },
+        {
+          "id": "355705",
+          "number": "NOAA-NWS-2024-28059",
+          "title": "FY 2024 &ndash; 2026 - Broad Agency Announcement (BAA)",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "agency": "DOC NOAA - ERA Production",
+          "openDate": "07/29/2024",
+          "closeDate": "09/30/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.015"
+          ]
+        },
+        {
+          "id": "356002",
+          "number": "NOAA-SEC-OED-2024-28060",
+          "title": "FY 2024 &ndash; 2026 - Broad Agency Announcement (BAA) for the Office of Education",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "agency": "DOC NOAA - ERA Production",
+          "openDate": "08/12/2024",
+          "closeDate": "09/30/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.015"
+          ]
+        },
+        {
+          "id": "362148",
+          "number": "NOAA-NMFS-WCRO-2026-33121",
+          "title": "Pacific Coastal Salmon Recovery Fund (Annual Appropriations and IIJA Funds)",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "agency": "DOC NOAA - ERA Production",
+          "openDate": "04/30/2026",
+          "closeDate": "06/29/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.045"
+          ]
+        },
+        {
+          "id": "356669",
+          "number": "NOAA-OAR-CPO-2024-28363",
+          "title": "FY 2024 &ndash; 2026 Broad Agency Announcement (BAA), Office of Oceanic and Atmospheric Research (OAR)",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "agency": "DOC NOAA - ERA Production",
+          "openDate": "10/09/2024",
+          "closeDate": "09/30/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.015"
+          ]
+        },
+        {
+          "id": "356127",
+          "number": "NOAA-NESDISPO-STAR-2024-27967",
+          "title": "FY 2024 &ndash; 2026 - Broad Agency Announcement (BAA) Announcement Type: Initial",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "agency": "DOC NOAA - ERA Production",
+          "openDate": "08/19/2024",
+          "closeDate": "09/30/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.015"
+          ]
+        },
+        {
+          "id": "362110",
+          "number": "NOAA-NMFS-PIR-2026-33156",
+          "title": "FY26 Marine Turtle Conservation for Sustainable U.S. Fisheries Grant Program",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "agency": "DOC NOAA - ERA Production",
+          "openDate": "04/29/2026",
+          "closeDate": "06/30/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.065"
+          ]
+        },
+        {
+          "id": "361499",
+          "number": "NOAA-NOS-NCCOS-2026-32955",
+          "title": "Harmful Algal Bloom Innovation Challenge: Toxin Detection in Seafood",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "agency": "DOC NOAA - ERA Production",
+          "openDate": "03/13/2026",
+          "closeDate": "07/16/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.478"
+          ]
+        },
+        {
+          "id": "350338",
+          "number": "2023-NIST-CHIPS-SMME-01",
+          "title": "CHIPS Incentives Program &ndash; Facilities for Semiconductor Materials and Manufacturing Equipment",
+          "agencyCode": "DOC-NIST",
+          "agency": "National Institute of Standards and Technology",
+          "openDate": "09/29/2023",
+          "closeDate": "11/01/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.037"
+          ]
+        },
+        {
+          "id": "346815",
+          "number": "PWEAA2023",
+          "title": "FY 2025 EDA Public Works and Economic Adjustment Assistance Programs",
+          "agencyCode": "DOC-EDA",
+          "agency": "Economic Development Administration",
+          "openDate": "03/14/2023",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.307",
+            "11.300"
+          ]
+        },
+        {
+          "id": "361748",
+          "number": "NOAA-OAR-CIAO-2026-32786",
+          "title": "Cooperative Institute in the Northern Gulf of America (CINGA)",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "agency": "DOC NOAA - ERA Production",
+          "openDate": "04/02/2026",
+          "closeDate": "05/18/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.432"
+          ]
+        },
+        {
+          "id": "361503",
+          "number": "NOAA-NOS-NCCOS-2026-33016",
+          "title": "Prevention, Control, and Mitigation of Harmful Algal Blooms Program",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "agency": "DOC NOAA - ERA Production",
+          "openDate": "03/13/2026",
+          "closeDate": "07/09/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.478"
+          ]
+        },
+        {
+          "id": "361620",
+          "number": "DHS-25-MT-047-00-98",
+          "title": "Fiscal Year 2024 &amp; 2025 Building Resilient Infrastructure and Communities (BRIC)",
+          "agencyCode": "DHS-DHS",
+          "agency": "Department of Homeland Security - FEMA",
+          "openDate": "03/25/2026",
+          "closeDate": "07/23/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "97.047"
+          ]
+        },
+        {
+          "id": "361415",
+          "number": "R26AS00016",
+          "title": "WaterSMART Drought Response Program",
+          "agencyCode": "DOI-BOR",
+          "agency": "Bureau of Reclamation",
+          "openDate": "03/05/2026",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "15.514"
+          ]
+        },
+        {
+          "id": "330175",
+          "number": "FA7000-21-S-0001",
+          "title": "Research Interests of the United States Air Force Academy (formerly USAFA-BAA-2021)",
+          "agencyCode": "DOD-USAFA",
+          "agency": "Air Force Academy",
+          "openDate": "12/02/2020",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "12.800"
+          ]
+        },
+        {
+          "id": "360678",
+          "number": "DE-FOA-0003600",
+          "title": "FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program",
+          "agencyCode": "PAMS-SC",
+          "agency": "Office of Science",
+          "openDate": "09/30/2025",
+          "closeDate": "09/30/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "81.049"
+          ]
+        },
+        {
+          "id": "361314",
+          "number": "DE-FOA-0003615",
+          "title": "Building EPSCoR-State/National Laboratory Partnerships",
+          "agencyCode": "PAMS-SC",
+          "agency": "Office of Science",
+          "openDate": "02/18/2026",
+          "closeDate": "05/21/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "81.049"
+          ]
+        },
+        {
+          "id": "361309",
+          "number": "DE-FOA-0003614",
+          "title": "Energy Frontier Research Centers (EFRCs)",
+          "agencyCode": "PAMS-SC",
+          "agency": "Office of Science",
+          "openDate": "02/18/2026",
+          "closeDate": "07/01/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "81.049"
+          ]
+        },
+        {
+          "id": "361526",
+          "number": "DE-FOA-0003612",
+          "title": "The Genesis Mission:  Transforming Science and Energy with AI",
+          "agencyCode": "PAMS-SC",
+          "agency": "Office of Science",
+          "openDate": "03/17/2026",
+          "closeDate": "12/17/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "81.049"
+          ]
+        },
+        {
+          "id": "361393",
+          "number": "DE-FOA-0003602",
+          "title": "Early Career Research Program (ECRP)",
+          "agencyCode": "PAMS-SC",
+          "agency": "Office of Science",
+          "openDate": "03/03/2026",
+          "closeDate": "06/02/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "81.049"
+          ]
+        }
+      ],
+      "oppStatusOptions": [
+        {
+          "label": "posted",
+          "value": "posted",
+          "count": 32
+        },
+        {
+          "label": "closed",
+          "value": "closed",
+          "count": 180
+        },
+        {
+          "label": "archived",
+          "value": "archived",
+          "count": 1507
+        },
+        {
+          "label": "forecasted",
+          "value": "forecasted",
+          "count": 0
+        }
+      ],
+      "dateRangeOptions": [
+        {
+          "label": "Posted Date - Last 3 Days",
+          "value": "3",
+          "count": 1
+        },
+        {
+          "label": "Posted Date - Last 1 Week",
+          "value": "7",
+          "count": 1
+        },
+        {
+          "label": "Posted Date - Last 2 Weeks",
+          "value": "14",
+          "count": 1
+        },
+        {
+          "label": "Posted Date - Last 3 Weeks",
+          "value": "21",
+          "count": 3
+        },
+        {
+          "label": "Posted Date - Last 4 Weeks",
+          "value": "28",
+          "count": 4
+        },
+        {
+          "label": "Posted Date - Last 5 Weeks",
+          "value": "35",
+          "count": 5
+        },
+        {
+          "label": "Posted Date - Last 6 Weeks",
+          "value": "42",
+          "count": 5
+        },
+        {
+          "label": "Posted Date - Last 7 Weeks",
+          "value": "49",
+          "count": 6
+        },
+        {
+          "label": "Posted Date - Last 8 Weeks",
+          "value": "56",
+          "count": 7
+        }
+      ],
+      "suggestion": "",
+      "eligibilities": [
+        {
+          "label": "City or township governments",
+          "value": "02",
+          "count": 8
+        },
+        {
+          "label": "County governments",
+          "value": "01",
+          "count": 8
+        },
+        {
+          "label": "For profit organizations other than small businesses",
+          "value": "22",
+          "count": 3
+        },
+        {
+          "label": "Independent school districts",
+          "value": "05",
+          "count": 3
+        },
+        {
+          "label": "Individuals",
+          "value": "21",
+          "count": 3
+        },
+        {
+          "label": "Native American tribal governments (Federally recognized)",
+          "value": "07",
+          "count": 7
+        },
+        {
+          "label": "Native American tribal organizations (other than Federally recognized tribal governments)",
+          "value": "11",
+          "count": 4
+        },
+        {
+          "label": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education",
+          "value": "12",
+          "count": 6
+        },
+        {
+          "label": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education",
+          "value": "13",
+          "count": 5
+        },
+        {
+          "label": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)",
+          "value": "25",
+          "count": 25
+        },
+        {
+          "label": "Private institutions of higher education",
+          "value": "20",
+          "count": 4
+        },
+        {
+          "label": "Public and State controlled institutions of higher education",
+          "value": "06",
+          "count": 5
+        },
+        {
+          "label": "Public housing authorities/Indian housing authorities",
+          "value": "08",
+          "count": 2
+        },
+        {
+          "label": "Small businesses",
+          "value": "23",
+          "count": 3
+        },
+        {
+          "label": "Special district governments",
+          "value": "04",
+          "count": 4
+        },
+        {
+          "label": "State governments",
+          "value": "00",
+          "count": 7
+        },
+        {
+          "label": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\"",
+          "value": "99",
+          "count": 6
+        }
+      ],
+      "fundingCategories": [
+        {
+          "label": "Agriculture",
+          "value": "AG",
+          "count": 1
+        },
+        {
+          "label": "Business and Commerce",
+          "value": "BC",
+          "count": 1
+        },
+        {
+          "label": "Community Development",
+          "value": "CD",
+          "count": 2
+        },
+        {
+          "label": "Education",
+          "value": "ED",
+          "count": 1
+        },
+        {
+          "label": "Environment",
+          "value": "ENV",
+          "count": 9
+        },
+        {
+          "label": "Natural Resources",
+          "value": "NR",
+          "count": 11
+        },
+        {
+          "label": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)",
+          "value": "O",
+          "count": 5
+        },
+        {
+          "label": "Science and Technology and other Research and Development",
+          "value": "ST",
+          "count": 19
+        }
+      ],
+      "fundingInstruments": [
+        {
+          "label": "Cooperative Agreement",
+          "value": "CA",
+          "count": 17
+        },
+        {
+          "label": "Grant",
+          "value": "G",
+          "count": 26
+        },
+        {
+          "label": "Other",
+          "value": "O",
+          "count": 5
+        },
+        {
+          "label": "Procurement Contract",
+          "value": "PC",
+          "count": 1
+        }
+      ],
+      "agencies": [
+        {
+          "subAgencyOptions": [
+            {
+              "label": "National Institute of Food and Agriculture",
+              "value": "USDA-NIFA",
+              "count": 1
+            },
+            {
+              "label": "Rural Utilities Service",
+              "value": "USDA-RUS",
+              "count": 1
+            }
+          ],
+          "label": "Department of Agriculture",
+          "value": "USDA",
+          "count": 2
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "DOC NOAA - ERA Production",
+              "value": "DOC-DOCNOAAERA",
+              "count": 11
+            },
+            {
+              "label": "Economic Development Administration",
+              "value": "DOC-EDA",
+              "count": 3
+            },
+            {
+              "label": "National Institute of Standards and Technology",
+              "value": "DOC-NIST",
+              "count": 1
+            }
+          ],
+          "label": "Department of Commerce",
+          "value": "DOC",
+          "count": 15
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Air Force Academy",
+              "value": "DOD-USAFA",
+              "count": 1
+            },
+            {
+              "label": "Office of Local Defense Community Cooperation",
+              "value": "DOD-OEA",
+              "count": 1
+            }
+          ],
+          "label": "Department of Defense",
+          "value": "DOD",
+          "count": 2
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Office of Science",
+              "value": "PAMS-SC",
+              "count": 6
+            }
+          ],
+          "label": "Department of Energy - Office of Science",
+          "value": "PAMS",
+          "count": 6
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Department of Homeland Security - FEMA",
+              "value": "DHS-DHS",
+              "count": 1
+            }
+          ],
+          "label": "Department of Homeland Security",
+          "value": "DHS",
+          "count": 1
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Bureau of Reclamation",
+              "value": "DOI-BOR",
+              "count": 2
+            },
+            {
+              "label": "Department of the Interior",
+              "value": "DOI",
+              "count": 1
+            },
+            {
+              "label": "Fish and Wildlife Service",
+              "value": "DOI-FWS",
+              "count": 1
+            }
+          ],
+          "label": "Department of the Interior",
+          "value": "DOI",
+          "count": 4
+        },
+        {
+          "subAgencyOptions": [],
+          "label": "U.S. National Science Foundation",
+          "value": "NSF",
+          "count": 2
+        }
+      ],
+      "accessKey": "",
+      "errorMsgs": []
+    }
+  }
+}

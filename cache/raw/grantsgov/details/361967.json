@@ -1,0 +1,331 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361967",
+  "fetched_at": "2026-05-16T14:09:30.041Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImIwMUlKKyszcS80QzdodC9sc0VlTFFVWkRVcmNabjN2Y3VZMXgvMEIvYXM9Ig.IxSm1kfA6N4pC2DGk11A9piZ5hBuaz6-twzmHJWvNfo",
+    "data": {
+      "id": 361967,
+      "revision": 1,
+      "opportunityNumber": "ED-GRANT-26-053",
+      "opportunityTitle": "Child Care Access Means Parents in School (CCAMPIS) 2026",
+      "owningAgencyCode": "HHS-OPE",
+      "listed": "L",
+      "publisherUid": "EDMoseCartier",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361967,
+        "version": 6,
+        "agencyCode": "HHS-OPE",
+        "agencyName": "Mose  Cartier\nGrantor",
+        "agencyPhone": "202-453-7373",
+        "agencyAddressDesc": "Program Contact Inbox",
+        "agencyDetails": {
+          "code": "OPE",
+          "seed": "HHS-OPE",
+          "agencyName": "Office of Postsecondary Education",
+          "agencyCode": "HHS-OPE",
+          "topAgencyCode": "HHS"
+        },
+        "topAgencyDetails": {
+          "code": "HHS",
+          "seed": "HHS",
+          "agencyName": "Department of Health and Human Services",
+          "agencyCode": "HHS",
+          "topAgencyCode": "HHS"
+        },
+        "agencyContactPhone": "202-453-7373",
+        "agencyContactName": "Mose  Cartier\nGrantor",
+        "agencyContactDesc": "Mr. Mose Cartier\r\nPhone: 202-453-7373",
+        "agencyContactEmail": "mose.cartier@ed.gov",
+        "agencyContactEmailDesc": "Program Contact Inbox",
+        "synopsisDesc": "<p>The CCAMPIS Program supports the participation of low-income parents in postsecondary education by providing campus-based child care services.&nbsp;The program makes competitive grants for a period of 4 years to institutions of higher education, with a priority for child care programs that (1) leverage significant local or institutional resources and (2) utilize a sliding fee scale. Institutions may use the funding to establish or support a campus-based child care program primarily serving the needs of students from low-income backgrounds enrolled at the institution. Grants may also be used to provide before- and after-class and other student support services to the extent necessary to enable low-income students enrolled at the institution of higher education to pursue postsecondary education.</p><p><br></p><p><em>Assistance Listing Number</em>: 84.335A</p><p><br></p>",
+        "responseDate": "May 29, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Applications Available: April 20, 2026Application Deadline: May 29, 2026Deadline for Intergovernmental Review: July 28, 2026For further information contact: Mose Cartier Telephone: (202) 453-7373 Email: Mose.Cartier@ed.gov",
+        "fundingDescLinkUrl": "https://www.ed.gov/grants-and-programs/grants-special-populations/grants-economically-disadvantaged-students/child-care-access-means-parents-school-program",
+        "fundingDescLinkDesc": "ED Program Website",
+        "postingDate": "Apr 20, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 28, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "148",
+        "estimatedFunding": "73537309",
+        "estimatedFundingFormatted": "73,537,309",
+        "awardCeiling": "1000000",
+        "awardCeilingFormatted": "1,000,000",
+        "awardFloor": "150000",
+        "awardFloorFormatted": "150,000",
+        "applicantEligibilityDesc": "Institutions of higher education (as defined in sections 101 and 102 of the HEA) that awarded a total of $250,000 or more of Federal Pell Grant funds during FY 2025 to students enrolled at the institution.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 21, 2026 09:20:56 AM EDT",
+        "modComments": "Broken weblink",
+        "createdDate": "Apr 20, 2026 01:36:12 PM EDT",
+        "lastUpdatedDate": "Apr 21, 2026 09:20:56 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ED",
+            "description": "Education"
+          }
+        ],
+        "responseDateStr": "2026-05-29-00-00-00",
+        "postingDateStr": "2026-04-20-00-00-00",
+        "archiveDateStr": "2026-06-28-00-00-00",
+        "createTimeStampStr": "2026-04-21-09-20-56"
+      },
+      "agencyDetails": {
+        "code": "OPE",
+        "seed": "HHS-OPE",
+        "agencyName": "Office of Postsecondary Education",
+        "agencyCode": "HHS-OPE",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79340,
+          "opportunityId": 361967,
+          "folderType": "Full Announcement",
+          "folderName": "84.335A",
+          "zipLobSize": 449885,
+          "createdDate": "Apr 20, 2026 01:56:26 PM EDT",
+          "lastUpdatedDate": "Apr 20, 2026 02:04:24 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351366,
+              "opportunityId": 361967,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "2026 CCAMPIS Program Profile Form_Final Edit.docx",
+              "fileDescription": "2026 CCAMPIS Program Profile Form",
+              "fileLobSize": 26516,
+              "createdDate": "Apr 20, 2026 02:04:24 PM EDT",
+              "synopsisAttFolderId": 79340
+            },
+            {
+              "id": 351363,
+              "opportunityId": 361967,
+              "mimeType": "application/pdf",
+              "fileName": "Publication FY 2026 CCAMPIS 84.335A Application Notice and Instructions.pdf",
+              "fileDescription": "CCAMPIS Application Notice &amp; Instructions",
+              "fileLobSize": 444179,
+              "createdDate": "Apr 20, 2026 01:57:33 PM EDT",
+              "synopsisAttFolderId": 79340
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432790,
+          "opportunityId": 361967,
+          "cfdaNumber": "84.335",
+          "programTitle": "Child Care Access Means Parents in School"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361967,
+            "revision": 0
+          },
+          "opportunityId": 361967,
+          "revision": 0,
+          "opportunityNumber": "ED-GRANT-26-053",
+          "opportunityTitle": "Child Care Access Means Parents in School (CCAMPIS) 2026",
+          "owningAgencyCode": "HHS-OPE",
+          "publisherUid": "EDMoseCartier",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361967,
+              "revision": 0
+            },
+            "opportunityId": 361967,
+            "revision": 0,
+            "version": 5,
+            "agencyCode": "HHS-OPE",
+            "agencyAddressDesc": "Program Contact Inbox",
+            "agencyDetails": {
+              "code": "OPE",
+              "seed": "HHS-OPE",
+              "agencyName": "Office of Postsecondary Education",
+              "agencyCode": "HHS-OPE",
+              "topAgencyCode": "HHS"
+            },
+            "agencyContactPhone": "202-453-7373",
+            "agencyContactName": "Mose  Cartier\nGrantor",
+            "agencyContactDesc": "Mr. Mose Cartier\r\nPhone: 202-453-7373",
+            "agencyContactEmail": "mose.cartier@ed.gov",
+            "agencyContactEmailDesc": "Program Contact Inbox",
+            "synopsisDesc": "<p>The CCAMPIS Program supports the participation of low-income parents in postsecondary education by providing campus-based child care services.&nbsp;The program makes competitive grants for a period of 4 years to institutions of higher education, with a priority for child care programs that (1) leverage significant local or institutional resources and (2) utilize a sliding fee scale. Institutions may use the funding to establish or support a campus-based child care program primarily serving the needs of students from low-income backgrounds enrolled at the institution. Grants may also be used to provide before- and after-class and other student support services to the extent necessary to enable low-income students enrolled at the institution of higher education to pursue postsecondary education.</p><p><br></p><p><em>Assistance Listing Number</em>: 84.335A</p><p><br></p>",
+            "responseDate": "May 29, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Applications Available: April 20, 2026\r\nApplication Deadline: May 29, 2026\r\nDeadline for Intergovernmental Review: July 28, 2026\r\nFor further information contact: Mose Cartier \r\nTelephone: (202) 453-7373 \r\nEmail: Mose.Cartier@ed.gov",
+            "fundingDescLinkUrl": "https://www.ed.gov/grants-and-programs/grants-special-populations/grants-economically-disadvantaged…",
+            "fundingDescLinkDesc": "ED Program Website",
+            "postingDate": "Apr 20, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jun 28, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "148",
+            "estimatedFunding": "73537309",
+            "estimatedFundingFormatted": "73,537,309",
+            "awardCeiling": "1000000",
+            "awardCeilingFormatted": "1,000,000",
+            "awardFloor": "150000",
+            "awardFloorFormatted": "150,000",
+            "applicantEligibilityDesc": "Institutions of higher education (as defined in sections 101 and 102 of the HEA) that awarded a total of $250,000 or more of Federal Pell Grant funds during FY 2025 to students enrolled at the institution.",
+            "createTimeStamp": "Apr 20, 2026 02:04:24 PM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Apr 21, 2026 09:20:56 AM EDT",
+            "createdDate": "Apr 20, 2026 01:36:12 PM EDT",
+            "lastUpdatedDate": "Apr 20, 2026 01:55:56 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              }
+            ],
+            "responseDateStr": "2026-05-29-00-00-00",
+            "postingDateStr": "2026-04-20-00-00-00",
+            "archiveDateStr": "2026-06-28-00-00-00",
+            "createTimeStampStr": "2026-04-20-14-04-24"
+          },
+          "cfdas": [
+            {
+              "id": 432790,
+              "opportunityId": 361967,
+              "revision": 0,
+              "cfdaNumber": "84.335",
+              "programTitle": "Child Care Access Means Parents in School"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292453,
+          "topportunityId": 361967,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "ED-GRANT-26-053",
+          "opportunityTitle": "Child Care Access Means Parents in School (CCAMPIS) 2026",
+          "cfdaNumber": "84.335",
+          "openingDate": "2026-04-20",
+          "closingDate": "2026-05-29",
+          "owningAgencyCode": "HHS-OPE",
+          "agencyDetails": {
+            "code": "OPE",
+            "seed": "HHS-OPE",
+            "agencyName": "Office of Postsecondary Education",
+            "agencyCode": "HHS-OPE",
+            "topAgencyCode": "HHS"
+          },
+          "topAgencyDetails": {
+            "code": "HHS",
+            "seed": "HHS",
+            "agencyName": "Department of Health and Human Services",
+            "agencyCode": "HHS",
+            "topAgencyCode": "HHS"
+          },
+          "programTitle": "Child Care Access Means Parents in School",
+          "contactInfo": "Mose  Cartier\r\nE-mail: mose.cartier@ed.gov\r\nPhone: 202-453-7373",
+          "gracePeriod": 0,
+          "competitionId": "ED-GRANT-26-053",
+          "competitionTitle": "Child Care Access Means Parents in School",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 320,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 20, 2026 02:14:21 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292453",
+          "openingDateStr": "2026-04-20-00-00-00",
+          "closingDateStr": "2026-05-29-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 29, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Applications Available: April 20, 2026\r\nApplication Deadline: May 29, 2026\r\nDeadline for Intergovernmental Review: July 28, 2026\r\nFor further information contact: Mose Cartier \r\nTelephone: (202) 453-7373 \r\nEmail: Mose.Cartier@ed.gov",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "responseDateDesc",
+        "fundingDescLinkUrl",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361524",
+  "fetched_at": "2026-05-16T14:08:57.452Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldVS2dnSjZQR2p1UE9WTXplSXpvUDdGNGZlY05HTlN6RkU1aWgzNFpKUkk9Ig.bqLglZzMuggHM-8nyIZMoSDg6JOv3LHbKDYduVjgo6c",
+    "data": {
+      "id": 361524,
+      "revision": 4,
+      "opportunityNumber": "HRSA-26-105",
+      "opportunityTitle": "Rural Hospital Provider Assistance Program",
+      "owningAgencyCode": "HHS-HRSA",
+      "listed": "L",
+      "publisherUid": "126180912667672078351494559614883671930",
+      "modifiedComments": "Updated forecast with federal register notice information.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "HRSA",
+        "seed": "HHS-HRSA",
+        "agencyName": "Health Resources and Services Administration",
+        "agencyCode": "HHS-HRSA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 361524,
+        "version": 5,
+        "postingDate": "Mar 16, 2026 12:00:00 AM EDT",
+        "archiveDate": "Nov 28, 2026 12:00:00 AM EST",
+        "forecastDesc": "<p>The Rural Hospital Provider Assistance Program provides direct financial assistance to eligible rural hospitals facing structural payment disadvantages for the maintenance of health care providers with the goal of maintaining essential health care services and preventing avoidable closures. &nbsp;Eligible rural hospitals must have no more than 50 acute care inpatient beds and an established Medicare wage index value below 0.90.&nbsp;</p><p>&nbsp;</p>",
+        "costSharing": false,
+        "numberOfAwards": "167",
+        "estimatedFunding": "24750000",
+        "awardCeiling": "148000",
+        "awardFloor": "148000",
+        "agencyContactName": "Krista Mastel",
+        "agencyContactPhone": "301.443.0491",
+        "agencyContactEmail": "RuralHospitals@hrsa.gov",
+        "agencyContactEmailDesc": "RuralHospitals@hrsa.gov",
+        "agencyCode": "HHS-HRSA",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "Prior to publishing this NOFO, HRSA published a Federal Register Notice (FRN) detailing the methodology and data sources used to determine eligible hospitals. You can view the FRN at https://www.federalregister.gov/documents/2026/04/29/2026-08300/rural-hospital-provider-assistance-program.You can apply if you: 1) have no more than 50 acute care inpatient beds, 2) have an established wage index value of less than 0.90 as determined by the Secretary of HHS under section 1886(d)(3)(E) of the Social Security Act (42 U.S.C. 1395ww(d)(3)(E)), and 3) are located in a rural area as defined by the Federal Office of Rural Health Policy.",
+        "estSynopsisPostingDate": "May 25, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jul 01, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+        "estAwardDate": "Sep 01, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "Updated forecast with federal register notice information.",
+        "createTimeStamp": "May 05, 2026 09:44:16 AM EDT",
+        "createdDate": "Mar 16, 2026 05:21:01 PM EDT",
+        "lastUpdatedDate": "May 05, 2026 09:44:16 AM EDT",
+        "agencyDetails": {
+          "code": "HRSA",
+          "seed": "HHS-HRSA",
+          "agencyName": "Health Resources and Services Administration",
+          "agencyCode": "HHS-HRSA",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "24,750,000",
+        "awardCeilingFormatted": "148,000",
+        "awardFloorFormatted": "148,000",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2026-03-16-00-00-00",
+        "archiveDateStr": "2026-11-28-00-00-00",
+        "estSynopsisPostingDateStr": "2026-05-25-00-00-00",
+        "estApplicationResponseDateStr": "2026-07-01-00-00-00",
+        "estAwardDateStr": "2026-09-01-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-05-05-09-44-16"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432258,
+          "opportunityId": 361524,
+          "cfdaNumber": "93.811",
+          "programTitle": "Rural Hospital Information Systems"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361524,
+            "revision": 0
+          },
+          "opportunityId": 361524,
+          "revision": 0,
+          "opportunityNumber": "HRSA-26-105",
+          "opportunityTitle": "Rural Hospital Provider Assistance Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361524,
+              "revision": 0
+            },
+            "opportunityId": 361524,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Mar 16, 2026 12:00:00 AM EDT",
+            "archiveDate": "Nov 28, 2026 12:00:00 AM EST",
+            "forecastDesc": "<p>The Rural Hospital Provider Assistance Program provides direct financial assistance to eligible small hospitals to help stabilize operations and sustain access to care in financially vulnerable communities. &nbsp;Eligible hospitals must have no more than 50 inpatient beds and a Medicare wage index value below 0.90. &nbsp;The program is designed to provide targeted support to hospitals facing structural payment disadvantages, with the goal of maintaining essential services and preventing avoidable closures.</p><p>&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "214",
+            "estimatedFunding": "24750000",
+            "awardCeiling": "233000",
+            "awardFloor": "115000",
+            "agencyContactName": "Krista Mastel",
+            "agencyContactPhone": "301.443.0491",
+            "agencyContactEmail": "RuralHospitals@hrsa.gov",
+            "agencyContactEmailDesc": "RuralHospitals@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "applicantEligibilityDesc": "Eligible hospitals must meet the following criteria: 1) have no more than 50 inpatient beds, 2) have an established wage index value of less than 0.90, and 3) defined as rural by the Federal Office of Rural Health Policy.",
+            "estSynopsisPostingDate": "May 25, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Mar 16, 2026 05:21:01 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 27, 2026 10:00:46 AM EDT",
+            "createdDate": "Mar 16, 2026 05:21:01 PM EDT",
+            "lastUpdatedDate": "Mar 16, 2026 05:21:01 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "24,750,000",
+            "awardCeilingFormatted": "233,000",
+            "awardFloorFormatted": "115,000",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-03-16-00-00-00",
+            "archiveDateStr": "2026-11-28-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-25-00-00-00",
+            "estApplicationResponseDateStr": "2026-07-01-00-00-00",
+            "estAwardDateStr": "2026-09-01-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-03-16-17-21-01"
+          },
+          "cfdas": [
+            {
+              "id": 432258,
+              "opportunityId": 361524,
+              "revision": 3,
+              "cfdaNumber": "93.811",
+              "programTitle": "Rural Hospital Information Systems"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361524,
+            "revision": 1
+          },
+          "opportunityId": 361524,
+          "revision": 1,
+          "opportunityNumber": "HRSA-26-105",
+          "opportunityTitle": "Rural Hospital Provider Assistance Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361524,
+              "revision": 1
+            },
+            "opportunityId": 361524,
+            "revision": 1,
+            "version": 2,
+            "postingDate": "Mar 16, 2026 12:00:00 AM EDT",
+            "archiveDate": "Nov 28, 2026 12:00:00 AM EST",
+            "forecastDesc": "<p>The Rural Hospital Provider Assistance Program provides direct financial assistance to eligible rural hospitals facing structural payment disadvantages with the goal of maintaining essential services and preventing avoidable closures. &nbsp;Eligible rural hospitals must have no more than 50 acute care inpatient beds and a Medicare wage index value below 0.90.&nbsp;</p><p>&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "167",
+            "estimatedFunding": "24750000",
+            "awardCeiling": "148000",
+            "awardFloor": "148000",
+            "agencyContactName": "Krista Mastel",
+            "agencyContactPhone": "301.443.0491",
+            "agencyContactEmail": "RuralHospitals@hrsa.gov",
+            "agencyContactEmailDesc": "RuralHospitals@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Prior to publishing this NOFO, HRSA published a Federal Register Notice (FRN) detailing the methodology and data sources used to determine eligible hospitals. You can view the FRN at [insert link here].",
+            "estSynopsisPostingDate": "May 25, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updating the forecast information",
+            "createTimeStamp": "Apr 27, 2026 10:00:46 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 27, 2026 10:00:47 AM EDT",
+            "createdDate": "Mar 16, 2026 05:21:01 PM EDT",
+            "lastUpdatedDate": "Apr 27, 2026 10:00:46 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "24,750,000",
+            "awardCeilingFormatted": "148,000",
+            "awardFloorFormatted": "148,000",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-03-16-00-00-00",
+            "archiveDateStr": "2026-11-28-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-25-00-00-00",
+            "estApplicationResponseDateStr": "2026-07-01-00-00-00",
+            "estAwardDateStr": "2026-09-01-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-04-27-10-00-46"
+          },
+          "cfdas": [
+            {
+              "id": 432258,
+              "opportunityId": 361524,
+              "revision": 3,
+              "cfdaNumber": "93.811",
+              "programTitle": "Rural Hospital Information Systems"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "applicantEligibilityDesc",
+            "forecastDesc",
+            "numberOfAwards",
+            "awardCeiling",
+            "awardFloor",
+            "applicantEligibilityDesc",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361524,
+            "revision": 2
+          },
+          "opportunityId": 361524,
+          "revision": 2,
+          "opportunityNumber": "HRSA-26-105",
+          "opportunityTitle": "Rural Hospital Provider Assistance Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updating the forecast information",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361524,
+              "revision": 2
+            },
+            "opportunityId": 361524,
+            "revision": 2,
+            "version": 3,
+            "postingDate": "Mar 16, 2026 12:00:00 AM EDT",
+            "archiveDate": "Nov 28, 2026 12:00:00 AM EST",
+            "forecastDesc": "<p>The Rural Hospital Provider Assistance Program provides direct financial assistance to eligible rural hospitals facing structural payment disadvantages with the goal of maintaining essential services and preventing avoidable closures. &nbsp;Eligible rural hospitals must have no more than 50 acute care inpatient beds and a Medicare wage index value below 0.90.&nbsp;</p><p>&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "167",
+            "estimatedFunding": "24750000",
+            "awardCeiling": "148000",
+            "awardFloor": "148000",
+            "agencyContactName": "Krista Mastel",
+            "agencyContactPhone": "301.443.0491",
+            "agencyContactEmail": "RuralHospitals@hrsa.gov",
+            "agencyContactEmailDesc": "RuralHospitals@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Prior to publishing this NOFO, HRSA published a Federal Register Notice (FRN) detailing the methodology and data sources used to determine eligible hospitals. You can view the FRN at [insert link here].",
+            "estSynopsisPostingDate": "May 25, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updating the forecast information",
+            "createTimeStamp": "Apr 27, 2026 10:00:47 AM EDT",
+            "actionType": "U",
+            "actionDate": "May 05, 2026 09:44:16 AM EDT",
+            "createdDate": "Mar 16, 2026 05:21:01 PM EDT",
+            "lastUpdatedDate": "Apr 27, 2026 10:00:47 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "24,750,000",
+            "awardCeilingFormatted": "148,000",
+            "awardFloorFormatted": "148,000",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-03-16-00-00-00",
+            "archiveDateStr": "2026-11-28-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-25-00-00-00",
+            "estApplicationResponseDateStr": "2026-07-01-00-00-00",
+            "estAwardDateStr": "2026-09-01-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-04-27-10-00-47"
+          },
+          "cfdas": [
+            {
+              "id": 432258,
+              "opportunityId": 361524,
+              "revision": 3,
+              "cfdaNumber": "93.811",
+              "programTitle": "Rural Hospital Information Systems"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361524,
+            "revision": 3
+          },
+          "opportunityId": 361524,
+          "revision": 3,
+          "opportunityNumber": "HRSA-26-105",
+          "opportunityTitle": "Rural Hospital Provider Assistance Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updating the forecast information",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361524,
+              "revision": 3
+            },
+            "opportunityId": 361524,
+            "revision": 3,
+            "version": 4,
+            "postingDate": "Mar 16, 2026 12:00:00 AM EDT",
+            "archiveDate": "Nov 28, 2026 12:00:00 AM EST",
+            "forecastDesc": "<p>The Rural Hospital Provider Assistance Program provides direct financial assistance to eligible rural hospitals facing structural payment disadvantages for the maintenance of health care providers with the goal of maintaining essential health care services and preventing avoidable closures. &nbsp;Eligible rural hospitals must have no more than 50 acute care inpatient beds and an established Medicare wage index value below 0.90.&nbsp;</p><p>&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "167",
+            "estimatedFunding": "24750000",
+            "awardCeiling": "148000",
+            "awardFloor": "148000",
+            "agencyContactName": "Krista Mastel",
+            "agencyContactPhone": "301.443.0491",
+            "agencyContactEmail": "RuralHospitals@hrsa.gov",
+            "agencyContactEmailDesc": "RuralHospitals@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Prior to publishing this NOFO, HRSA published a Federal Register Notice (FRN) detailing the methodology and data sources used to determine eligible hospitals. You can view the FRN at https://www.federalregister.gov/documents/2026/04/29/2026-08300/rural-hospital-provider-assistance-program.You can apply if you: 1) have no more than 50 acute care inpatient beds, 2) have an established wage index value of less than 0.90 as determined by the Secretary of HHS under section 1886(d)(3)(E) of the Social Security Act (42 U.S.C. 1395ww(d)(3)(E)), and 3) are located in a rural area as defined by the Federal Office of Rural Health Policy.",
+            "estSynopsisPostingDate": "May 25, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated forecast with federal register notice information.",
+            "createTimeStamp": "May 05, 2026 09:44:16 AM EDT",
+            "actionType": "U",
+            "actionDate": "May 05, 2026 09:44:16 AM EDT",
+            "createdDate": "Mar 16, 2026 05:21:01 PM EDT",
+            "lastUpdatedDate": "May 05, 2026 09:44:16 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "24,750,000",
+            "awardCeilingFormatted": "148,000",
+            "awardFloorFormatted": "148,000",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2026-03-16-00-00-00",
+            "archiveDateStr": "2026-11-28-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-25-00-00-00",
+            "estApplicationResponseDateStr": "2026-07-01-00-00-00",
+            "estAwardDateStr": "2026-09-01-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-05-05-09-44-16"
+          },
+          "cfdas": [
+            {
+              "id": 432258,
+              "opportunityId": 361524,
+              "revision": 3,
+              "cfdaNumber": "93.811",
+              "programTitle": "Rural Hospital Information Systems"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "applicantEligibilityDesc",
+            "forecastDesc",
+            "applicantEligibilityDesc",
+            "modComments",
+            "createTimeStamp"
+          ]
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 4,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

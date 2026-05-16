@@ -1,0 +1,70 @@
+{
+  "run_mode_note": "Use `npm run refresh` for a full cache refresh. Use `npm run refresh:fast` during demos/debugging.",
+  "grants_gov": {
+    "enabled": true,
+    "rows_per_keyword": 35,
+    "rows_per_keyword_fast": 12,
+    "fetch_details": true,
+    "max_detail_fetches": 500,
+    "max_detail_fetches_fast": 75,
+    "delay_ms": 350
+  },
+  "mifundinghub": {
+    "enabled": true,
+    "discover_with_playwright": true,
+    "max_links_per_keyword": 60,
+    "max_links_per_keyword_fast": 20,
+    "delay_ms": 750,
+    "headless": true,
+    "refresh_existing_urls": true
+  },
+  "keywords": [
+    "water infrastructure",
+    "drinking water",
+    "wastewater",
+    "stormwater",
+    "sewer infrastructure",
+    "lead service line",
+    "rural development",
+    "community development",
+    "downtown revitalization",
+    "housing",
+    "affordable housing",
+    "workforce housing",
+    "broadband",
+    "digital equity",
+    "transportation safety",
+    "road safety",
+    "bridge",
+    "safe routes to school",
+    "public safety",
+    "emergency management",
+    "fire department",
+    "energy resilience",
+    "energy efficiency",
+    "clean energy",
+    "climate resilience",
+    "brownfield",
+    "environmental remediation",
+    "agriculture",
+    "food systems",
+    "workforce development",
+    "childcare",
+    "public health",
+    "rural health",
+    "parks recreation",
+    "libraries"
+  ],
+  "michigan_agency_urls_manual_seed": [
+    "https://www.michigan.gov/egle/regulatory-assistance/funding",
+    "https://www.michigan.gov/mdot/business/local-government",
+    "https://www.michiganbusiness.org/",
+    "https://www.michigan.gov/mshda",
+    "https://www.michigan.gov/leo"
+  ],
+  "cache": {
+    "registry": "cache/registry/source_registry.json",
+    "normalized": "cache/normalized/grants_normalized.json",
+    "data_health": "cache/metadata/data_health.json"
+  }
+}

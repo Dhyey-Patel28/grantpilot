@@ -1,0 +1,32 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=12949",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=12949",
+  "website": "https://www.michigan.gov/egle/regulatory-assistance/funding/fd/state-revolving-fund/cwsrf",
+  "grant_id": "12949",
+  "title": "Clean Water State Revolving Fund",
+  "overview": "The Clean Water State Revolving Fund (CWSRF) provides low-interest loans to counties, cities, villages, townships, authorities, and other public entities created under state law for projects that improve water quality and protect public health. It provides a revolving financing source for statewide wastewater and stormwater infrastructure as well as nonpoint source (NPS) pollution control needs.Applicants must be eligible public entities. Disadvantaged communities (Overburdened or Significantly Overburdened) may qualify for principal forgiveness and lower interest rates.Eligible projects include wastewater treatment works, stormwater management, and nonpoint source pollution control projects. Projects must comply with federal requirements such as Davis-Bacon, American Iron and Steel, and Build America, Buy America (BABA) where applicable.The application process involves multiple steps. The first step is to submit an Intent to Apply (ITA) form by November 1st. This is followed by submitting an Overburdened Determination Survey and Final Project Planning Documents by May 1st. Projects are scored and ranked on a Project Priority List (PPL) to determine funding allocations. Show More",
+  "additional_info": "Posted Date: October 1, 2024 Application Due Date: November 1, 2026 Estimated Award Date: Not Specified Eligible Applicants: City or township governmentsCounty governmentsSpecial district governmentsOthers Show More",
+  "eligible_applicants": [
+    "City or township governmentsCounty governmentsSpecial district governmentsOthers"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "health",
+    "water"
+  ],
+  "due_date": "",
+  "agency": "Michigan Department of Environment, Great Lakes, and Energy",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:23:50.727Z",
+  "content_hash": "d10aeaac9bb6c8dd84f367a4f3e852123690884bea4a3eff6d74a369b0f3d4f2",
+  "from_cache": false
+}

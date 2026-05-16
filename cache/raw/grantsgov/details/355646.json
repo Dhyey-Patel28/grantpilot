@@ -1,0 +1,125 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "355646",
+  "fetched_at": "2026-05-16T14:07:11.601Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ii8yN3BEcE55dEllNEp3TjlBbTluaHpVTkxhVG5IVmtaeVREVG9Vb0NQV3c9Ig.A9PWRWlPAO1-CwaqrnR-Ap7jY5p_5BM-ZF_-WNL6ZXU",
+    "data": {
+      "id": 355646,
+      "revision": 1,
+      "opportunityNumber": "CMS-2L2-25-001",
+      "opportunityTitle": "Health Equity Data Access Program (HEDAP)",
+      "owningAgencyCode": "HHS-CMS",
+      "listed": "L",
+      "publisherUid": "LAmburgey",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "CMS",
+        "seed": "HHS-CMS",
+        "agencyName": "Center for Medicare and Medicaid Services",
+        "agencyCode": "HHS-CMS",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 355646,
+        "version": 2,
+        "postingDate": "Jul 25, 2024 12:00:00 AM EDT",
+        "forecastDesc": "<p>The Health Equity Data Access program (HEDAP) provides funding for six (6) “seats” in the <a href=\"https://www.resdac.org/cms-virtual-research-data-center-vrdc\" target=\"_blank\">CMS Virtual Research Data Center (VRDC).</a> The VRDC assists researchers in gaining access to CMS restricted data for minority health research. Seats, in this context are defined as an individual user with VRDC access. These researchers will conduct health services research on health care topics such as physical health, oral health, behavioral health, population health, and social determinants of health focusing on, but not limited to, racial and ethnic minority groups; people with disabilities; members of the lesbian, gay, bisexual, transgender, and queer (LGBTQ+) community; individuals with limited English proficiency; individuals residing in rural areas; and individuals (including children, youth, and families) adversely affected by persistent poverty or inequality. The HEDAP supports specific applied research projects that relate to creative and innovative methods utilizing CMS data to identify, document, assess, and evaluate health disparities among Medicare and Medicaid and CHIP enrollees.&nbsp;</p>\n<p>&nbsp;</p>\n<p>The project should enhance the capacity of the researcher to understand and utilize CMS data in future research projects. Additionally, HEDAP encourages cutting-edge proposals that explore intersectionality. “Intersectionality” <a href=\"https://www.cdc.gov/healthcommunication/HealthEquityGuidingPrinciples.pdf\" target=\"_blank\">means that people belong to more than one group and, therefore, may have overlapping health and social inequities, as well as overlapping strengths and assets</a>.&nbsp;</p>\n<p>&nbsp;</p>\n<p>Results of the HEDAP will provide CMS and its partners, (e.g. Quality Improvement Organizations, Hospital Engagement Networks, and other stakeholders) with actionable information on the subgroups of enrollees. This will aid the efforts of CMS and its agents to identify and eradicate health disparities in underserved populations.&nbsp;</p>\n<p>&nbsp;</p>\n<p>VRDC seat access will be funded for a period of 36 months each, based on the availability of funds.</p>\n<p>&nbsp;</p>",
+        "costSharing": false,
+        "numberOfAwards": "6",
+        "awardCeiling": "90000",
+        "awardFloor": "0",
+        "agencyContactName": "HEResearch@cms.hhs.gov",
+        "agencyContactPhone": "HEResearch@cms.hhs.gov",
+        "agencyContactEmail": "HEResearch@cms.hhs.gov",
+        "agencyContactEmailDesc": "HEResearch@cms.hhs.gov",
+        "agencyCode": "HHS-CMS",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "",
+        "estApplicationResponseDateDesc": "",
+        "fiscalYear": 2025,
+        "modComments": "Update forecast posting date.",
+        "createTimeStamp": "Jul 25, 2024 04:53:15 PM EDT",
+        "createdDate": "Jul 25, 2024 03:04:47 PM EDT",
+        "lastUpdatedDate": "Jul 25, 2024 04:53:15 PM EDT",
+        "agencyDetails": {
+          "code": "CMS",
+          "seed": "HHS-CMS",
+          "agencyName": "Center for Medicare and Medicaid Services",
+          "agencyCode": "HHS-CMS",
+          "topAgencyCode": "HHS"
+        },
+        "awardCeilingFormatted": "90,000",
+        "awardFloorFormatted": "0",
+        "applicantTypes": [
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2024-07-25-00-00-00",
+        "createTimeStampStr": "2024-07-25-16-53-15"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 422662,
+          "opportunityId": 355646,
+          "cfdaNumber": "93.695",
+          "programTitle": "Health Equity Data Access Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

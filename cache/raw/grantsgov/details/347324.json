@@ -1,0 +1,365 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "347324",
+  "fetched_at": "2026-05-16T14:06:47.560Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ilg0ZmhjYWo2YS9Md21sNHBKLzZzRE5NZFpPVWdrVk5CRzlsTUI5ZHhaY009Ig.vBlzIP5MLhhaSlxt72oignW4eefjkReGeVxbYy_hMII",
+    "data": {
+      "id": 347324,
+      "revision": 2,
+      "opportunityNumber": "PD-23-1406",
+      "opportunityTitle": "Thermal Transport Processes",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 347324,
+        "version": 3,
+        "agencyCode": "NSF",
+        "agencyName": "National Science Foundation",
+        "agencyPhone": "703-292-4261",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4261",
+        "agencyContactName": "National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "TheThermal Transport Processesprogram is part of the Transport Phenomena cluster, which alsoincludes1) theCombustion and Fire Systemsprogram; 2) theFluid Dynamicsprogram; and 3) theParticulate and Multiphase Processesprogram.\n\r\n\nTheThermal Transport Processesprogram supports engineering research projects that lay the foundation for newadvances in thermal transport phenomena. These projects should either develop new fundamental knowledge or combine existing knowledge in thermodynamics, fluid mechanics, and heat and mass transfer to probe new areas of innovation in thermal transport processes. The program seeks transformative projects with the potential for improvingbasic understanding, predictability and application of thermal transport processes. Projects should articulate the contribution(s) to the fundamental knowledge supporting thermal transport processes and state clearly the potential application(s) impact when appropriate.Projects that combine analytical, experimental and numerical efforts, geared toward understanding, modeling and predicting thermal phenomena, are of great interest.Collaborative and interdisciplinary proposals for which the main contribution is in thermal transport fundamentals are also encouraged. Emphasis is placed on research that demonstrates how thermal transport phenomena affect the existence, behavior and dynamics of components and systems.Priority is given to insightful investigations of fundamental problems with clearly defined economic, environmental and societal impacts.\n\r\n\nSome specific areas of interest include:\n\r\n<ul type=\"disc\">\r\n<li>Convection/diffusion/radiation: Heat and mass transport incomplex structures and surfaces;thermal-related turbulence; development of form-functionrelationships in thermal processes; thermal design methodology; phonon transport and interactions between energy carriers; radiationamplification, controlling, and extinction; interfacial gas-solid andliquid-solid thermal and species-driven phenomena.</li>\r\n<li>Thermodynamics: Thermal-electric energy conversion; battery-related thermal issues; power generation and propulsion; phase-change and supercritical energy cycles;non-equilibriumthermal processes.</li>\r\n<li>Biologicalheatand mass transport: Biomimicry;intra- andextra-cellular heat and mass transport; freeze resistancemechanisms;thermotherapy and thermoregulation; organ conservation(freezing and thawing); mass transport in biomedical and health systems.</li>\r\n<li>Nanothermics,microthermics,and mesothermics: Scaling upnanoscale heat transport processes or coupledheat-mass transport processes; utilization ofnew multi-functional, meta- and graded-materials in thermal transport;nano-texturingand phase-change; multi-scale thermal transport in aprocess.</li>\r\n<li>Thermal solutions to climate change: Decarbonizing industrial processes; novel heating and cooling technologies with minimal greenhouse gas emissions; thermal-driven clean energy concepts; thermal and thermochemical energy storage; waste heat recovery and transmission; thermal science and technology to enable electrification of energy services.</li>\r\n<li>Thermal science and quantum technology interface: Quantum sensors for thermal measurements;quantum computing for thermal sciences;thermodynamics and novel cryogenic cooling concepts for quantum devices;thermal transport in quantum materials and quantum phenomena; thermal solutions for next-generation qubits, qubit coupling, and quantum information storage.</li>\r\n<li>New metrology and artificial intelligence (AI)/machinelearning methodologies in thermal sciences: Advanced thermal imagingand measurement techniques for high-resolutionin situthermal imaging and non-invasive temperature measurement; novel AI/machine learning methodologies and other data-intensive approaches that can be coupled with physics-based models and/or experiments to enable new understanding and discoveries in thermal transport processes.</li>\r\n</ul>\r\n\nNOTE: Proposalsincluding chemical kinetics should be submitted to the ENG/CBETCombustion and FireSystemsprogram. Proposals dealing mainly with materials synthesis, processing and characterization should be directed to the ENG/CMMIAdvanced Manufacturingprogram or the Division of Materials Research (DMR) in the Directorate for Mathematical and Physical Sciences (MPS). Proposals at the interface of computational/mathematical sciences and thermal transport are encouraged but should be submitted to theComputational and Data-Enabled Science &amp; Engineering(CDS&amp;E) program.\n\r\n\nProposals seeking the utilization of the International Space Station U.S. National Laboratory should follow the instructions in the NSF/CASIS solicitations (e.g., NSF 22-539). Proposals related to the Air Force Office of Scientific Research (AFOSR) general area of thermal transport properties of novel materials and heterostructures should be submitted as regular proposals to theThermal Transport Processesprogram. Those proposals may be jointly reviewed by NSF and AFOSR using the NSF merit review process. Actual funding format and agency split for an award (depending on availability of funds) will be determined after the proposal selection process. Proposals related to the Department of Energy (DOE) general area of thermal and thermochemical energy storage materials and processes should be submitted as regular proposals to theThermal Transport Processesprogram. In these cases, the PI should contact the program director to confirm suitability of the topic prior to submitting the proposal. Innovative proposals outside of these specific interest areas may be considered.However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nInnovative<a id=\"_anchor_1\" name=\"_msoanchor_1\"></a>proposals outside of these specific interest areas may be considered.However, prior to submission, it is recommended that the Principal Investigator contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the \"What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)\" link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged.Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the<a href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503214\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG), Part 1, Chapter II, Section E: Types of Proposals.\n\r\n\nCompliance: Proposals that are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review.",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506070",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-23-1406",
+        "postingDate": "Apr 05, 2023 12:00:00 AM EDT",
+        "costSharing": false,
+        "estimatedFunding": "7047000",
+        "estimatedFundingFormatted": "7,047,000",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Feb 24, 2024 12:50:38 AM EST",
+        "modComments": ".",
+        "createdDate": "Apr 05, 2023 01:00:05 AM EDT",
+        "lastUpdatedDate": "Feb 24, 2024 12:50:38 AM EST",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2023-04-05-00-00-00",
+        "createTimeStampStr": "2024-02-24-00-50-38"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 409843,
+          "opportunityId": 347324,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 409852,
+          "opportunityId": 347324
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 347324,
+            "revision": 0
+          },
+          "opportunityId": 347324,
+          "revision": 0,
+          "opportunityNumber": "PD-23-1406",
+          "opportunityTitle": "Thermal Transport Processes",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347324,
+              "revision": 0
+            },
+            "opportunityId": 347324,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "TheThermal Transport Processesprogram is part of the Transport Phenomena cluster, which alsoincludes1) theCombustion and Fire Systemsprogram; 2) theFluid Dynamicsprogram; and 3) theParticulate and Multiphase Processesprogram.\n\r\n\nTheThermal Transport Processesprogram supports engineering research projects that lay the foundation for newadvances in thermal transport phenomena. These projects should either develop new fundamental knowledge or combine existing knowledge in thermodynamics, fluid mechanics, and heat and mass transfer to probe new areas of innovation in thermal transport processes. The program seeks transformative projects with the potential for improvingbasic understanding, predictability and application of thermal transport processes. Projects should articulate the contribution(s) to the fundamental knowledge supporting thermal transport processes and state clearly the potential application(s) impact when appropriate.Projects that combine analytical, experimental and numerical efforts, geared toward understanding, modeling and predicting thermal phenomena, are of great interest.Collaborative and interdisciplinary proposals for which the main contribution is in thermal transport fundamentals are also encouraged. Emphasis is placed on research that demonstrates how thermal transport phenomena affect the existence, behavior and dynamics of components and systems.Priority is given to insightful investigations of fundamental problems with clearly defined economic, environmental and societal impacts.\n\r\n\nSome specific areas of interest include:\n\r\n<ul type=\"disc\">\r\n<li>Convection/diffusion/radiation: Heat and mass transport incomplex structures and surfaces;thermal-related turbulence; development of form-functionrelationships in thermal processes; thermal design methodology; phonon transport and interactions between energy carriers; radiationamplification, controlling, and extinction; interfacial gas-solid andliquid-solid thermal and species-driven phenomena.</li>\r\n<li>Thermodynamics: Thermal-electric energy conversion; battery-related thermal issues; power generation and propulsion; phase-change and supercritical energy cycles;non-equilibriumthermal processes.</li>\r\n<li>Biologicalheatand mass transport: Biomimicry;intra- andextra-cellular heat and mass transport; freeze resistancemechanisms;thermotherapy and thermoregulation; organ conservation(freezing and thawing); mass transport in biomedical and health systems.</li>\r\n<li>Nanothermics,microthermics,and mesothermics: Scaling upnanoscale heat transport processes or coupledheat-mass transport processes; utilization ofnew multi-functional, meta- and graded-materials in thermal transport;nano-texturingand phase-change; multi-scale thermal transport in aprocess.</li>\r\n<li>Thermal solutions to climate change: Decarbonizing industrial processes; novel heating and cooling technologies with minimal greenhouse gas emissions; thermal-driven clean energy concepts; thermal and thermochemical energy storage; waste heat recovery and transmission; thermal science and technology to enable electrification of energy services.</li>\r\n<li>Thermal science and quantum technology interface: Quantum sensors for thermal measurements;quantum computing for thermal sciences;thermodynamics and novel cryogenic cooling concepts for quantum devices;thermal transport in quantum materials and quantum phenomena; thermal solutions for next-generation qubits, qubit coupling, and quantum information storage.</li>\r\n<li>New metrology and artificial intelligence (AI)/machinelearning methodologies in thermal sciences: Advanced thermal imagingand measurement techniques for high-resolutionin situthermal imaging and non-invasive temperature measurement; novel AI/machine learning methodologies and other data-intensive approaches that can be coupled with physics-based models and/or experiments to enable new understanding and discoveries in thermal transport processes.</li>\r\n</ul>\r\n\nNOTE: Proposalsincluding chemical kinetics should be submitted to the ENG/CBETCombustion and FireSystemsprogram. Proposals dealing mainly with materials synthesis, processing and characterization should be directed to the ENG/CMMIAdvanced Manufacturingprogram or the Division of Materials Research (DMR) in the Directorate for Mathematical and Physical Sciences (MPS). Proposals at the interface of computational/mathematical sciences and thermal transport are encouraged but should be submitted to theComputational and Data-Enabled Science &amp; Engineering(CDS&amp;E) program.\n\r\n\nProposals seeking the utilization of the International Space Station U.S. National Laboratory should follow the instructions in the NSF/CASIS solicitations (e.g., NSF 22-539). Proposals related to the Air Force Office of Scientific Research (AFOSR) general area of thermal transport properties of novel materials and heterostructures should be submitted as regular proposals to theThermal Transport Processesprogram. Those proposals may be jointly reviewed by NSF and AFOSR using the NSF merit review process. Actual funding format and agency split for an award (depending on availability of funds) will be determined after the proposal selection process. Proposals related to the Department of Energy (DOE) general area of thermal and thermochemical energy storage materials and processes should be submitted as regular proposals to theThermal Transport Processesprogram. In these cases, the PI should contact the program director to confirm suitability of the topic prior to submitting the proposal. Innovative proposals outside of these specific interest areas may be considered.However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nInnovative<a id=\"_anchor_1\" name=\"_msoanchor_1\"></a>proposals outside of these specific interest areas may be considered.However, prior to submission, it is recommended that the Principal Investigator contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the \"What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)\" link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged.Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the<a href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503214\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG), Part 1, Chapter II, Section E: Types of Proposals.\n\r\n\nCompliance: Proposals that are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506070",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-23-1406",
+            "postingDate": "Apr 05, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "estimatedFunding": "7047000",
+            "estimatedFundingFormatted": "7,047,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Apr 05, 2023 01:00:05 AM EDT",
+            "actionType": "U",
+            "actionDate": "May 20, 2023 12:00:58 AM EDT",
+            "createdDate": "Apr 05, 2023 01:00:05 AM EDT",
+            "lastUpdatedDate": "Apr 05, 2023 01:00:05 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-04-05-00-00-00",
+            "createTimeStampStr": "2023-04-05-01-00-05"
+          },
+          "cfdas": [
+            {
+              "id": 409843,
+              "opportunityId": 347324,
+              "revision": 1,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 409852,
+              "opportunityId": 347324,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 347324,
+            "revision": 1
+          },
+          "opportunityId": 347324,
+          "revision": 1,
+          "opportunityNumber": "PD-23-1406",
+          "opportunityTitle": "Thermal Transport Processes",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347324,
+              "revision": 1
+            },
+            "opportunityId": 347324,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "TheThermal Transport Processesprogram is part of the Transport Phenomena cluster, which alsoincludes1) theCombustion and Fire Systemsprogram; 2) theFluid Dynamicsprogram; and 3) theParticulate and Multiphase Processesprogram.\n\r\n\nTheThermal Transport Processesprogram supports engineering research projects that lay the foundation for newadvances in thermal transport phenomena. These projects should either develop new fundamental knowledge or combine existing knowledge in thermodynamics, fluid mechanics, and heat and mass transfer to probe new areas of innovation in thermal transport processes. The program seeks transformative projects with the potential for improvingbasic understanding, predictability and application of thermal transport processes. Projects should articulate the contribution(s) to the fundamental knowledge supporting thermal transport processes and state clearly the potential application(s) impact when appropriate.Projects that combine analytical, experimental and numerical efforts, geared toward understanding, modeling and predicting thermal phenomena, are of great interest.Collaborative and interdisciplinary proposals for which the main contribution is in thermal transport fundamentals are also encouraged. Emphasis is placed on research that demonstrates how thermal transport phenomena affect the existence, behavior and dynamics of components and systems.Priority is given to insightful investigations of fundamental problems with clearly defined economic, environmental and societal impacts.\n\r\n\nSome specific areas of interest include:\n\r\n<ul type=\"disc\">\r\n<li>Convection/diffusion/radiation: Heat and mass transport incomplex structures and surfaces;thermal-related turbulence; development of form-functionrelationships in thermal processes; thermal design methodology; phonon transport and interactions between energy carriers; radiationamplification, controlling, and extinction; interfacial gas-solid andliquid-solid thermal and species-driven phenomena.</li>\r\n<li>Thermodynamics: Thermal-electric energy conversion; battery-related thermal issues; power generation and propulsion; phase-change and supercritical energy cycles;non-equilibriumthermal processes.</li>\r\n<li>Biologicalheatand mass transport: Biomimicry;intra- andextra-cellular heat and mass transport; freeze resistancemechanisms;thermotherapy and thermoregulation; organ conservation(freezing and thawing); mass transport in biomedical and health systems.</li>\r\n<li>Nanothermics,microthermics,and mesothermics: Scaling upnanoscale heat transport processes or coupledheat-mass transport processes; utilization ofnew multi-functional, meta- and graded-materials in thermal transport;nano-texturingand phase-change; multi-scale thermal transport in aprocess.</li>\r\n<li>Thermal solutions to climate change: Decarbonizing industrial processes; novel heating and cooling technologies with minimal greenhouse gas emissions; thermal-driven clean energy concepts; thermal and thermochemical energy storage; waste heat recovery and transmission; thermal science and technology to enable electrification of energy services.</li>\r\n<li>Thermal science and quantum technology interface: Quantum sensors for thermal measurements;quantum computing for thermal sciences;thermodynamics and novel cryogenic cooling concepts for quantum devices;thermal transport in quantum materials and quantum phenomena; thermal solutions for next-generation qubits, qubit coupling, and quantum information storage.</li>\r\n<li>New metrology and artificial intelligence (AI)/machinelearning methodologies in thermal sciences: Advanced thermal imagingand measurement techniques for high-resolutionin situthermal imaging and non-invasive temperature measurement; novel AI/machine learning methodologies and other data-intensive approaches that can be coupled with physics-based models and/or experiments to enable new understanding and discoveries in thermal transport processes.</li>\r\n</ul>\r\n\nNOTE: Proposalsincluding chemical kinetics should be submitted to the ENG/CBETCombustion and FireSystemsprogram. Proposals dealing mainly with materials synthesis, processing and characterization should be directed to the ENG/CMMIAdvanced Manufacturingprogram or the Division of Materials Research (DMR) in the Directorate for Mathematical and Physical Sciences (MPS). Proposals at the interface of computational/mathematical sciences and thermal transport are encouraged but should be submitted to theComputational and Data-Enabled Science &amp; Engineering(CDS&amp;E) program.\n\r\n\nProposals seeking the utilization of the International Space Station U.S. National Laboratory should follow the instructions in the NSF/CASIS solicitations (e.g., NSF 22-539). Proposals related to the Air Force Office of Scientific Research (AFOSR) general area of thermal transport properties of novel materials and heterostructures should be submitted as regular proposals to theThermal Transport Processesprogram. Those proposals may be jointly reviewed by NSF and AFOSR using the NSF merit review process. Actual funding format and agency split for an award (depending on availability of funds) will be determined after the proposal selection process. Proposals related to the Department of Energy (DOE) general area of thermal and thermochemical energy storage materials and processes should be submitted as regular proposals to theThermal Transport Processesprogram. In these cases, the PI should contact the program director to confirm suitability of the topic prior to submitting the proposal. Innovative proposals outside of these specific interest areas may be considered.However, prior to submission, it is recommended that the PI contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nInnovative<a id=\"_anchor_1\" name=\"_msoanchor_1\"></a>proposals outside of these specific interest areas may be considered.However, prior to submission, it is recommended that the Principal Investigator contact the program director to avoid the possibility of the proposal being returned without review.\n\r\n\nINFORMATION COMMON TO MOST CBET PROGRAMS\n\r\n\nProposals should address the novelty and/or<a href=\"http://www.nsf.gov/about/transformative_research/faq.jsp\">potentially transformative nature</a>of the proposed work compared to previous work in the field.Also, it is important to address why the proposed work is important in terms of engineering science, as well as to also project the potential impact on society and/or industry of success in the research.The novelty or potentially transformative nature of the research should be included, as a minimum, in the Project Summary of each proposal.\n\r\n\nThe duration of unsolicited proposal awards in CBET is generally up to three years. Single-investigator award budgets typically include support for one graduate student (or equivalent) and up to one month of PI time per year(awards for multiple investigator projects are typically larger). Proposal budgets that are much larger than typical should be discussed with the program director prior to submission. Proposers can view budget amounts and other information from recent awards made by this program via the \"What Has Been Funded (Recent Awards Made Through This Program, with Abstracts)\" link towards the bottom of this page.\n\r\n\nFaculty Early Career Development(CAREER)program proposals are strongly encouraged.Award duration is five years.The submission deadline for Engineering CAREER proposals is in July every year. Learn more in the<a href=\"https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503214\">CAREER program description</a>.\n\r\n\nProposals for Conferences, Workshops, and Supplements: PIs are strongly encouraged to discuss their requests with the program director before submission of the proposal.\n\r\n\nGrants forRapid Response Research(RAPID)andEArly-concept Grants for Exploratory Research(EAGER)are also considered when appropriate.Please note that proposals of these types must be discussed with the program director before submission.Grant Opportunities for Academic Liaison with Industry (GOALI)proposals that integrate fundamental research with translational results and are consistent with the application areas of interest to each program are also encouraged. Please note that RAPID, EAGER, and GOALI proposals can be submitted anytime during the year. Details about RAPID, EAGER, and GOALI are available in the Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG), Part 1, Chapter II, Section E: Types of Proposals.\n\r\n\nCompliance: Proposals that are not compliant with the<a href=\"https://www.nsf.gov/publications/pub_summ.jsp?ods_key=pappg\">Proposal &amp; Award Policies &amp; Procedures Guide (PAPPG)</a>will be returned without review.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506070",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-23-1406",
+            "postingDate": "Apr 05, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "estimatedFunding": "7047000",
+            "estimatedFundingFormatted": "7,047,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "May 20, 2023 12:00:58 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 24, 2024 12:50:38 AM EST",
+            "createdDate": "Apr 05, 2023 01:00:05 AM EDT",
+            "lastUpdatedDate": "May 20, 2023 12:00:58 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-04-05-00-00-00",
+            "createTimeStampStr": "2023-05-20-00-00-58"
+          },
+          "cfdas": [
+            {
+              "id": 409843,
+              "opportunityId": 347324,
+              "revision": 1,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 409852,
+              "opportunityId": 347324,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 281000,
+          "topportunityId": 347324,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-23-1406",
+          "opportunityTitle": "Thermal Transport Processes",
+          "openingDate": "2023-04-05",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Sumanta Acharya\r\nE-mail: sacharya@nsf.gov\r\nPhone: (703) 292-4509",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 155,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 01, 2025 09:28:02 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00281000",
+          "openingDateStr": "2023-04-05-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

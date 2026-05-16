@@ -1,0 +1,789 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "348830",
+  "fetched_at": "2026-05-16T14:06:55.334Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Iko5K21nMXYxSEg5THNpSmxTT3ZIclZPWUVZa3Ztb29aalQ4aWhkT2FGdE09Ig.jnzJNr3FiWDZstxo4PvmyioXI13RhBfUWDA8uw6_Kq0",
+    "data": {
+      "id": 348830,
+      "revision": 6,
+      "opportunityNumber": "HQ003423NFOEASD07",
+      "opportunityTitle": "DoW&rsquo;s Energy, Installations, and Environment Innovation Partners Programs",
+      "owningAgencyCode": "DOD-WHS",
+      "listed": "L",
+      "publisherUid": "mfanizzo",
+      "modifiedComments": "Updated title.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 348830,
+        "version": 7,
+        "agencyCode": "DOD-WHS",
+        "agencyName": "Michael J Fanizzo\nGrantor",
+        "agencyPhone": "703-545-8991",
+        "agencyAddressDesc": "Grants Officer",
+        "agencyDetails": {
+          "code": "WHS",
+          "seed": "DOD-WHS",
+          "agencyName": "Washington Headquarters Services",
+          "agencyCode": "DOD-WHS",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "703-545-8991",
+        "agencyContactName": "Michael J Fanizzo\nGrantor",
+        "agencyContactDesc": "Michael J Fanizzo\r\nGrantor",
+        "agencyContactEmail": "michael.j.fanizzo.civ@mail.mil",
+        "agencyContactEmailDesc": "Grants Officer",
+        "synopsisDesc": "<p>The<strong> </strong>Office of the Under Secretary of War (OUSW), intends to award non-research cooperative agreements (CA) to <span style=\"background-color: rgb(249, 249, 249); color: rgb(32, 32, 32);\">help manage and sustain Department of</span><span style=\"color: rgb(32, 32, 32);\"> </span><span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">War (DoW) land in the United States. The DoW </span>Strategic Environmental Research and Development Program (SERDP), Environmental Security Technology Certification Program (ESTCP), Readiness and Environmental Protection Integration (REPI) Program, and <span style=\"background-color: rgb(249, 249, 249); color: rgb(32, 32, 32);\">Legacy Resource Management Program</span><span style=\"color: rgb(32, 32, 32);\"> </span><span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">(Legacy Program) fund high priority national and regional natural and cultural resources projects</span><span style=\"color: rgb(32, 32, 32);\"> </span><span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">that enhance installation resilience and environmental objectives and support military readiness.</span></p>",
+        "responseDate": "Jan 08, 2028 12:00:00 AM EST",
+        "responseDateDesc": "",
+        "postingDate": "Jun 21, 2023 12:00:00 AM EDT",
+        "archiveDate": "Feb 07, 2028 12:00:00 AM EST",
+        "costSharing": false,
+        "awardCeiling": "100000000",
+        "awardCeilingFormatted": "100,000,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Public and private agencies, organizations, institutions, and individuals are invited to apply.",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 15, 2026 07:10:53 AM EDT",
+        "modComments": "Closing date changed.",
+        "createdDate": "Jun 21, 2023 10:06:51 AM EDT",
+        "lastUpdatedDate": "May 15, 2026 07:10:53 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          }
+        ],
+        "responseDateStr": "2028-01-08-00-00-00",
+        "postingDateStr": "2023-06-21-00-00-00",
+        "archiveDateStr": "2028-02-07-00-00-00",
+        "createTimeStampStr": "2026-05-15-07-10-53"
+      },
+      "agencyDetails": {
+        "code": "WHS",
+        "seed": "DOD-WHS",
+        "agencyName": "Washington Headquarters Services",
+        "agencyCode": "DOD-WHS",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 66528,
+          "opportunityId": 348830,
+          "folderType": "Full Announcement",
+          "folderName": "NFO",
+          "zipLobSize": 469250,
+          "createdDate": "Jun 21, 2023 10:09:19 AM EDT",
+          "lastUpdatedDate": "Jan 08, 2026 02:52:16 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 329860,
+              "opportunityId": 348830,
+              "mimeType": "application/pdf",
+              "fileName": "EIE Notice of Funding Opportunity 2026.pdf",
+              "fileDescription": "NFO",
+              "fileLobSize": 483796,
+              "createdDate": "Jun 21, 2023 10:09:33 AM EDT",
+              "lastUpdatedDate": "Jan 08, 2026 02:52:16 PM EST",
+              "synopsisAttFolderId": 66528
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [
+        {
+          "id": {
+            "opportunityId": 348830,
+            "attType": "D",
+            "createdDate": "Jan 08, 2026 02:52:34 PM EST",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Jan 08, 2026"
+          },
+          "changeComments": "Updated NFO"
+        }
+      ],
+      "cfdas": [
+        {
+          "id": 412069,
+          "opportunityId": 348830,
+          "cfdaNumber": "12.632",
+          "programTitle": "Legacy Resource Management Program"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 348830,
+            "revision": 0
+          },
+          "opportunityId": 348830,
+          "revision": 0,
+          "opportunityNumber": "HQ003423NFOEASD07",
+          "opportunityTitle": "Legacy Resource Management Program",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "mfanizzo",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 348830,
+              "revision": 0
+            },
+            "opportunityId": 348830,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-545-8991",
+            "agencyContactName": "Michael J Fanizzo\nGrantor",
+            "agencyContactDesc": "Michael J Fanizzo\r\nGrantor",
+            "agencyContactEmail": "michael.j.fanizzo.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer",
+            "synopsisDesc": "<p>The Washington Headquarters Services, Acquisition Directorate, (WHS/AD) seeks applications for cooperative agreements for relevant</p><p>conservation projects. This NFO requests that respondents provide project narratives identifying projects that align with the purposes and public benefits identified. The project narratives will be used to identify projects and stakeholders for ongoing Legacy Program funding opportunities and conservation community engagement. Depending on the available funding and strength of the proposed project narratives, some offerors may be invited to submit full proposals or receive awards. See the NFO for more information.</p>",
+            "responseDate": "Jun 20, 2024 12:00:00 AM EDT",
+            "postingDate": "Jun 21, 2023 12:00:00 AM EDT",
+            "archiveDate": "Jul 26, 2024 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "30000000",
+            "awardCeilingFormatted": "30,000,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Public and private agencies, organizations, institutions, and individuals are invited to apply.",
+            "createTimeStamp": "Jun 21, 2023 10:09:33 AM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "May 31, 2024 11:16:47 AM EDT",
+            "createdDate": "Jun 21, 2023 10:06:51 AM EDT",
+            "lastUpdatedDate": "Jun 21, 2023 10:06:51 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2024-06-20-00-00-00",
+            "postingDateStr": "2023-06-21-00-00-00",
+            "archiveDateStr": "2024-07-26-00-00-00",
+            "createTimeStampStr": "2023-06-21-10-09-33"
+          },
+          "cfdas": [
+            {
+              "id": 412069,
+              "opportunityId": 348830,
+              "revision": 5,
+              "cfdaNumber": "12.632",
+              "programTitle": "Legacy Resource Management Program"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 348830,
+            "revision": 1
+          },
+          "opportunityId": 348830,
+          "revision": 1,
+          "opportunityNumber": "HQ003423NFOEASD07",
+          "opportunityTitle": "Legacy Resource Management Program",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "mfanizzo",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 348830,
+              "revision": 1
+            },
+            "opportunityId": 348830,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-545-8991",
+            "agencyContactName": "Michael J Fanizzo\nGrantor",
+            "agencyContactDesc": "Michael J Fanizzo\r\nGrantor",
+            "agencyContactEmail": "michael.j.fanizzo.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer",
+            "synopsisDesc": "<p>The Washington Headquarters Services, Acquisition Directorate, (WHS/AD) seeks applications for cooperative agreements for relevant</p><p>conservation projects. This NFO requests that respondents provide project narratives identifying projects that align with the purposes and public benefits identified. The project narratives will be used to identify projects and stakeholders for ongoing Legacy Program funding opportunities and conservation community engagement. Depending on the available funding and strength of the proposed project narratives, some offerors may be invited to submit full proposals or receive awards. See the NFO for more information.</p>",
+            "responseDate": "Jun 20, 2025 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Jun 21, 2023 12:00:00 AM EDT",
+            "archiveDate": "Jul 20, 2025 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "30000000",
+            "awardCeilingFormatted": "30,000,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Public and private agencies, organizations, institutions, and individuals are invited to apply.",
+            "createTimeStamp": "May 31, 2024 11:16:47 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "Response date updated.",
+            "actionType": "U",
+            "actionDate": "Feb 27, 2025 11:22:10 AM EST",
+            "createdDate": "Jun 21, 2023 10:06:51 AM EDT",
+            "lastUpdatedDate": "May 31, 2024 11:16:47 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2025-06-20-00-00-00",
+            "postingDateStr": "2023-06-21-00-00-00",
+            "archiveDateStr": "2025-07-20-00-00-00",
+            "createTimeStampStr": "2024-05-31-11-16-47"
+          },
+          "cfdas": [
+            {
+              "id": 412069,
+              "opportunityId": 348830,
+              "revision": 5,
+              "cfdaNumber": "12.632",
+              "programTitle": "Legacy Resource Management Program"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "responseDateDesc",
+            "archiveDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 348830,
+            "revision": 2
+          },
+          "opportunityId": 348830,
+          "revision": 2,
+          "opportunityNumber": "HQ003423NFOEASD07",
+          "opportunityTitle": "Legacy Resource Management Program",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "mfanizzo",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 348830,
+              "revision": 2
+            },
+            "opportunityId": 348830,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-545-8991",
+            "agencyContactName": "Michael J Fanizzo\nGrantor",
+            "agencyContactDesc": "Michael J Fanizzo\r\nGrantor",
+            "agencyContactEmail": "michael.j.fanizzo.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer",
+            "synopsisDesc": "<p>The Washington Headquarters Services, Acquisition Directorate, (WHS/AD) seeks applications for cooperative agreements for relevant</p><p>conservation projects. This NFO requests that respondents provide project narratives identifying projects that align with the purposes and public benefits identified. The project narratives will be used to identify projects and stakeholders for ongoing Legacy Program funding opportunities and conservation community engagement. Depending on the available funding and strength of the proposed project narratives, some offerors may be invited to submit full proposals or receive awards. See the NFO for more information.</p>",
+            "responseDate": "Jun 20, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Jun 21, 2023 12:00:00 AM EDT",
+            "archiveDate": "Jul 20, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "30000000",
+            "awardCeilingFormatted": "30,000,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Public and private agencies, organizations, institutions, and individuals are invited to apply.",
+            "createTimeStamp": "Jan 08, 2026 02:52:34 PM EST",
+            "sendEmail": "Y",
+            "modComments": "Closing Date Updated.",
+            "actionType": "U",
+            "actionDate": "Jan 08, 2026 02:54:44 PM EST",
+            "createdDate": "Jun 21, 2023 10:06:51 AM EDT",
+            "lastUpdatedDate": "Feb 27, 2025 11:22:10 AM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2026-06-20-00-00-00",
+            "postingDateStr": "2023-06-21-00-00-00",
+            "archiveDateStr": "2026-07-20-00-00-00",
+            "createTimeStampStr": "2026-01-08-14-52-34"
+          },
+          "cfdas": [
+            {
+              "id": 412069,
+              "opportunityId": 348830,
+              "revision": 5,
+              "cfdaNumber": "12.632",
+              "programTitle": "Legacy Resource Management Program"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "archiveDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 348830,
+            "revision": 3
+          },
+          "opportunityId": 348830,
+          "revision": 3,
+          "opportunityNumber": "HQ003423NFOEASD07",
+          "opportunityTitle": "Legacy Resource Management Program",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "mfanizzo",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 348830,
+              "revision": 3
+            },
+            "opportunityId": 348830,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-545-8991",
+            "agencyContactName": "Michael J Fanizzo\nGrantor",
+            "agencyContactDesc": "Michael J Fanizzo\r\nGrantor",
+            "agencyContactEmail": "michael.j.fanizzo.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer",
+            "synopsisDesc": "<p>The<strong> </strong>Office of the Under Secretary of War (OUSW), intends to award non-research cooperative agreements (CA) to <span style=\"background-color: rgb(249, 249, 249); color: rgb(32, 32, 32);\">help manage and sustain Department of</span><span style=\"color: rgb(32, 32, 32);\"> </span><span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">War (DoW) land in the United States. The DoW </span>Strategic Environmental Research and Development Program (SERDP), Environmental Security Technology Certification Program (ESTCP), Readiness and Environmental Protection Integration (REPI) Program, and <span style=\"background-color: rgb(249, 249, 249); color: rgb(32, 32, 32);\">Legacy Resource Management Program</span><span style=\"color: rgb(32, 32, 32);\"> </span><span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">(Legacy Program) fund high priority national and regional natural and cultural resources projects</span><span style=\"color: rgb(32, 32, 32);\"> </span><span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">that enhance installation resilience and environmental objectives and support military readiness.</span></p>",
+            "responseDate": "Jan 08, 2027 12:00:00 AM EST",
+            "responseDateDesc": "",
+            "postingDate": "Jun 21, 2023 12:00:00 AM EDT",
+            "archiveDate": "Feb 07, 2027 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "30000000",
+            "awardCeilingFormatted": "30,000,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Public and private agencies, organizations, institutions, and individuals are invited to apply.",
+            "createTimeStamp": "Jan 08, 2026 02:54:44 PM EST",
+            "sendEmail": "Y",
+            "modComments": "See the updated NFO.",
+            "actionType": "U",
+            "actionDate": "Jan 08, 2026 03:01:51 PM EST",
+            "createdDate": "Jun 21, 2023 10:06:51 AM EDT",
+            "lastUpdatedDate": "Jan 08, 2026 02:54:44 PM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2027-01-08-00-00-00",
+            "postingDateStr": "2023-06-21-00-00-00",
+            "archiveDateStr": "2027-02-07-00-00-00",
+            "createTimeStampStr": "2026-01-08-14-54-44"
+          },
+          "cfdas": [
+            {
+              "id": 412069,
+              "opportunityId": 348830,
+              "revision": 5,
+              "cfdaNumber": "12.632",
+              "programTitle": "Legacy Resource Management Program"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "responseDate",
+            "archiveDate"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 348830,
+            "revision": 4
+          },
+          "opportunityId": 348830,
+          "revision": 4,
+          "opportunityNumber": "HQ003423NFOEASD07",
+          "opportunityTitle": "DoW&rsquo;s Energy, Installations, and Environment Innovation Partners Programs",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "mfanizzo",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated title.",
+          "synopsis": {
+            "id": {
+              "opportunityId": 348830,
+              "revision": 4
+            },
+            "opportunityId": 348830,
+            "revision": 4,
+            "version": 5,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-545-8991",
+            "agencyContactName": "Michael J Fanizzo\nGrantor",
+            "agencyContactDesc": "Michael J Fanizzo\r\nGrantor",
+            "agencyContactEmail": "michael.j.fanizzo.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer",
+            "synopsisDesc": "<p>The<strong> </strong>Office of the Under Secretary of War (OUSW), intends to award non-research cooperative agreements (CA) to <span style=\"background-color: rgb(249, 249, 249); color: rgb(32, 32, 32);\">help manage and sustain Department of</span><span style=\"color: rgb(32, 32, 32);\"> </span><span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">War (DoW) land in the United States. The DoW </span>Strategic Environmental Research and Development Program (SERDP), Environmental Security Technology Certification Program (ESTCP), Readiness and Environmental Protection Integration (REPI) Program, and <span style=\"background-color: rgb(249, 249, 249); color: rgb(32, 32, 32);\">Legacy Resource Management Program</span><span style=\"color: rgb(32, 32, 32);\"> </span><span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">(Legacy Program) fund high priority national and regional natural and cultural resources projects</span><span style=\"color: rgb(32, 32, 32);\"> </span><span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">that enhance installation resilience and environmental objectives and support military readiness.</span></p>",
+            "responseDate": "Jan 08, 2027 12:00:00 AM EST",
+            "responseDateDesc": "",
+            "postingDate": "Jun 21, 2023 12:00:00 AM EDT",
+            "archiveDate": "Feb 07, 2027 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "30000000",
+            "awardCeilingFormatted": "30,000,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Public and private agencies, organizations, institutions, and individuals are invited to apply.",
+            "createTimeStamp": "Jan 08, 2026 03:01:51 PM EST",
+            "sendEmail": "Y",
+            "modComments": "Updated title.",
+            "actionType": "U",
+            "actionDate": "May 15, 2026 07:09:42 AM EDT",
+            "createdDate": "Jun 21, 2023 10:06:51 AM EDT",
+            "lastUpdatedDate": "Jan 08, 2026 03:01:51 PM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2027-01-08-00-00-00",
+            "postingDateStr": "2023-06-21-00-00-00",
+            "archiveDateStr": "2027-02-07-00-00-00",
+            "createTimeStampStr": "2026-01-08-15-01-51"
+          },
+          "cfdas": [
+            {
+              "id": 412069,
+              "opportunityId": 348830,
+              "revision": 5,
+              "cfdaNumber": "12.632",
+              "programTitle": "Legacy Resource Management Program"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "opportunityTitle"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 348830,
+            "revision": 5
+          },
+          "opportunityId": 348830,
+          "revision": 5,
+          "opportunityNumber": "HQ003423NFOEASD07",
+          "opportunityTitle": "DoW&rsquo;s Energy, Installations, and Environment Innovation Partners Programs",
+          "owningAgencyCode": "DOD-WHS",
+          "publisherUid": "mfanizzo",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated title.",
+          "synopsis": {
+            "id": {
+              "opportunityId": 348830,
+              "revision": 5
+            },
+            "opportunityId": 348830,
+            "revision": 5,
+            "version": 6,
+            "agencyCode": "DOD-WHS",
+            "agencyAddressDesc": "Grants Officer",
+            "agencyDetails": {
+              "code": "WHS",
+              "seed": "DOD-WHS",
+              "agencyName": "Washington Headquarters Services",
+              "agencyCode": "DOD-WHS",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "703-545-8991",
+            "agencyContactName": "Michael J Fanizzo\nGrantor",
+            "agencyContactDesc": "Michael J Fanizzo\r\nGrantor",
+            "agencyContactEmail": "michael.j.fanizzo.civ@mail.mil",
+            "agencyContactEmailDesc": "Grants Officer",
+            "synopsisDesc": "<p>The<strong> </strong>Office of the Under Secretary of War (OUSW), intends to award non-research cooperative agreements (CA) to <span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">help manage and sustain Department of</span><span style=\"color: rgb(32, 32, 32);\"> </span><span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">War (DoW) land in the United States. The DoW </span>Strategic Environmental Research and Development Program (SERDP), Environmental Security Technology Certification Program (ESTCP), Readiness and Environmental Protection Integration (REPI) Program, and <span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">Legacy Resource Management Program</span><span style=\"color: rgb(32, 32, 32);\"> </span><span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">(Legacy Program) fund high priority national and regional natural and cultural resources projects</span><span style=\"color: rgb(32, 32, 32);\"> </span><span style=\"color: rgb(32, 32, 32); background-color: rgb(249, 249, 249);\">that enhance installation resilience and environmental objectives and support military readiness.</span></p>",
+            "responseDate": "Jan 08, 2027 12:00:00 AM EST",
+            "responseDateDesc": "",
+            "postingDate": "Jun 21, 2023 12:00:00 AM EDT",
+            "archiveDate": "Feb 07, 2027 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "100000000",
+            "awardCeilingFormatted": "100,000,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Public and private agencies, organizations, institutions, and individuals are invited to apply.",
+            "createTimeStamp": "May 15, 2026 07:09:42 AM EDT",
+            "sendEmail": "Y",
+            "modComments": "Ceiling value increased to $100,000,000.00.",
+            "actionType": "U",
+            "actionDate": "May 15, 2026 07:10:53 AM EDT",
+            "createdDate": "Jun 21, 2023 10:06:51 AM EDT",
+            "lastUpdatedDate": "May 15, 2026 07:09:42 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2027-01-08-00-00-00",
+            "postingDateStr": "2023-06-21-00-00-00",
+            "archiveDateStr": "2027-02-07-00-00-00",
+            "createTimeStampStr": "2026-05-15-07-09-42"
+          },
+          "cfdas": [
+            {
+              "id": 412069,
+              "opportunityId": 348830,
+              "revision": 5,
+              "cfdaNumber": "12.632",
+              "programTitle": "Legacy Resource Management Program"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "awardCeiling",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 282246,
+          "topportunityId": 348830,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "HQ003423NFOEASD07",
+          "opportunityTitle": "DoW’s Energy, Installations, and Environment Innovation Partners Programs",
+          "cfdaNumber": "12.632",
+          "openingDate": "2023-06-21",
+          "closingDate": "2028-06-20",
+          "owningAgencyCode": "DOD-WHS",
+          "agencyDetails": {
+            "code": "WHS",
+            "seed": "DOD-WHS",
+            "agencyName": "Washington Headquarters Services",
+            "agencyCode": "DOD-WHS",
+            "topAgencyCode": "DOD"
+          },
+          "topAgencyDetails": {
+            "code": "DOD",
+            "seed": "DOD",
+            "agencyName": "Department of Defense",
+            "agencyCode": "DOD",
+            "topAgencyCode": "DOD"
+          },
+          "programTitle": "Legacy Resource Management Program",
+          "contactInfo": "Michael J Fanizzo\r\nGrantor\r\nE-mail: michael.j.fanizzo.civ@mail.mil",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 200,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "May 15, 2026 07:11:36 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00282246",
+          "openingDateStr": "2023-06-21-00-00-00",
+          "closingDateStr": "2028-06-20-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 20, 2024 12:00:00 AM EDT",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc",
+        "responseDate",
+        "archiveDate"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 6,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

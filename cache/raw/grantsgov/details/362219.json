@@ -1,0 +1,178 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362219",
+  "fetched_at": "2026-05-16T14:10:08.349Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjRmMEtrZGdxU2pLckM5WWkxa1VPWlpFUUVhemtqZzNtOUdCTjlacFJUTjQ9Ig.IhP3S4VZbMCUCBCKA0gbdw_E4qlUqmtbEJE7lrSbbm4",
+    "data": {
+      "id": 362219,
+      "revision": 0,
+      "opportunityNumber": "HHS-2026-ACF-OHSEPR-RR-0009",
+      "opportunityTitle": "Emergency Repatriation Planning, Training, and Exercises",
+      "owningAgencyCode": "HHS-ACF-OHSEPR",
+      "publisherUid": "63890787833131766027530892347803189092",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "OHSEPR",
+        "seed": "HHS-ACF-OHSEPR",
+        "agencyName": "Administration for Children and Families - OHSEPR",
+        "agencyCode": "HHS-ACF-OHSEPR",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 362219,
+        "version": 1,
+        "postingDate": "May 04, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>OHSEPR administers the U. S. Repatriation Program (Program), which provides temporary assistance to eligible U.S. citizens and their dependents (repatriates) returned by the Department of State from a foreign country because of (1) destitution, illness, war, threat of war, or a similar crisis, and who are without available resources, or (2) mental illness. &nbsp;Temporary assistance as defined in 42 U.S.C. 1313(c) is provided upon their arrival in the United States and is available initially for up to 90 days from a repatriate’s date of arrival in the United States. Temporary assistance is provided in the form of a service loan and is repayable to the U.S. Government. &nbsp;OHSEPR leads the planning, coordination, and execution of all domestic repatriation plans and operations conducted as part of the Program. &nbsp;Through Memoranda of Understanding (MOUs), they act in support of OHSEPR’s management of an emergency repatriation mission by providing temporary assistance to repatriates.&nbsp; &nbsp;&nbsp;</p><p>The goal of this funding opportunity is to increase state or territorial readiness and capabilities for emergency repatriation operations through planning, training, and exercises, culminating in an update to the state or territory emergency repatriation plan.&nbsp; The purpose of this NOFO is to: 1) develop the knowledge, skills, and abilities of states or territories for emergency repatriation operations and 2) increase the number of states or territories sufficiently prepared for an emergency repatriation incident.&nbsp;&nbsp;</p>",
+        "costSharing": false,
+        "numberOfAwards": "2",
+        "estimatedFunding": "750000",
+        "awardCeiling": "375000",
+        "awardFloor": "375000",
+        "fundingDescLinkUrl": "https://acf.gov/ohsepr/repatriation",
+        "fundingDescLinkDesc": "https://acf.gov/ohsepr/repatriation",
+        "agencyContactName": "Natalie Grant",
+        "agencyContactPhone": "202-401-9200",
+        "agencyContactEmail": "ohsepr@acf.hhs.gov",
+        "agencyContactEmailDesc": "ohsepr@acf.hhs.gov",
+        "agencyCode": "HHS-ACF-OHSEPR",
+        "applicantEligibilityDesc": "Applications from individuals (including sole proprietorships), federal entities, and foreign entities are not eligible and will be disqualified from the merit review and funding under this funding opportunity.",
+        "estSynopsisPostingDate": "Jun 23, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Aug 03, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm Eastern Standard Time on the listed application due date.",
+        "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "May 04, 2026 04:32:03 PM EDT",
+        "createdDate": "May 04, 2026 04:32:03 PM EDT",
+        "lastUpdatedDate": "May 04, 2026 04:32:03 PM EDT",
+        "agencyDetails": {
+          "code": "OHSEPR",
+          "seed": "HHS-ACF-OHSEPR",
+          "agencyName": "Administration for Children and Families - OHSEPR",
+          "agencyCode": "HHS-ACF-OHSEPR",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "750,000",
+        "awardCeilingFormatted": "375,000",
+        "awardFloorFormatted": "375,000",
+        "applicantTypes": [
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ISS",
+            "description": "Income Security and Social Services"
+          }
+        ],
+        "postingDateStr": "2026-05-04-00-00-00",
+        "estSynopsisPostingDateStr": "2026-06-23-00-00-00",
+        "estApplicationResponseDateStr": "2026-08-03-00-00-00",
+        "estAwardDateStr": "2026-08-31-00-00-00",
+        "estProjectStartDateStr": "2026-09-01-00-00-00",
+        "createTimeStampStr": "2026-05-04-16-32-03"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 433112,
+          "opportunityId": 362219,
+          "cfdaNumber": "93.579",
+          "programTitle": "U.S. Repatriation"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

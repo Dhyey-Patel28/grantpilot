@@ -1,0 +1,358 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361415",
+  "fetched_at": "2026-05-16T14:08:49.169Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ik1FK0ZEc0sxOHEwcVVYSXd4TEd1V3lwcHV4cnV2MWFWdXQ3Q2dxTExMWVk9Ig.FITa-V5_9564gmvLHVcIac6AXkkvmIe9Cc17vsJDS6M",
+    "data": {
+      "id": 361415,
+      "revision": 1,
+      "opportunityNumber": "R26AS00016",
+      "opportunityTitle": "WaterSMART Drought Response Program",
+      "owningAgencyCode": "DOI-BOR",
+      "listed": "L",
+      "publisherUid": "113080850824856438988185809190837265423",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361415,
+        "version": 2,
+        "agencyCode": "DOI-BOR",
+        "agencyName": "Bureau of Reclamation",
+        "agencyPhone": "tbd",
+        "agencyAddressDesc": "bor-sha-fafoa@usbr.gov",
+        "agencyDetails": {
+          "code": "BOR",
+          "seed": "DOI-BOR",
+          "agencyName": "Bureau of Reclamation",
+          "agencyCode": "DOI-BOR",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactPhone": "tbd",
+        "agencyContactName": "Bureau of Reclamation",
+        "agencyContactDesc": "Alisha James\r\nbor-sha-fafoa@usbr.gov",
+        "agencyContactEmail": "bor-sha-fafoa@usbr.gov",
+        "agencyContactEmailDesc": "bor-sha-fafoa@usbr.gov",
+        "synopsisDesc": "<p>Through WaterSMART, the Bureau of Reclamation (Reclamation) leverages Federal and non-Federal funding to work cooperatively with States, Tribes, and other entities as they plan for and implement actions to increase water supply and hydropower reliability. The WaterSMART Drought Response Program NOFO invites eligible applicants to submit proposals for projects designed to improve drought resilience by developing effective water management strategies and drought contingency plans. Funding under the Drought Response Program supports a range of initiatives including infrastructure improvements for increased water storage and distribution capabilities, water source diversification, decision-making tools for water management, and comprehensive planning to prepare for and respond to drought conditions. WaterSMART Drought Response Program demonstrably advances Trump administration priorities, such as those identified in Presidential Executive Order 14154 (January 20, 2025): Unleashing American Energy (E.O. 14154) and Secretarial Order 3418, and aligns with other priorities and requirements, such as those identified in Presidential Executive Order 14332 (August 7, 2025): Improving Oversight in Federal Grantmaking (E.O. 14332).</p>",
+        "responseDateDesc": "July 28, 2026, 4:00 p.m. Mountain Daylight Time (MDT)",
+        "postingDate": "Mar 05, 2026 12:00:00 AM EST",
+        "archiveDate": "Oct 03, 2031 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "20",
+        "estimatedFunding": "13500000",
+        "estimatedFundingFormatted": "13,500,000",
+        "awardCeiling": "1500000",
+        "awardCeilingFormatted": "1,500,000",
+        "awardFloor": "25000",
+        "awardFloorFormatted": "25,000",
+        "applicantEligibilityDesc": "Applicants eligible to receive an award under this funding opportunity are described below. Category A Applicants  States, Tribes, irrigation districts, and water districts; State, regional, or local authorities, the members of which include one or more organizations with water or power delivery authority; and Other organizations with water or power delivery authority. Category A applicants must be located in the Western United States or Territories; specifically: Alaska, Arizona, California, Colorado, Hawaii, Idaho, Kansas, Montana, Nebraska, Nevada, New Mexico, North Dakota, Oklahoma, Oregon, South Dakota, Texas, Utah, Washington, Wyoming, American Samoa, Guam, the Northern Mariana Islands, the U.S. Virgin Islands and Puerto Rico.   Category B Applicants: Nonprofit conservation organizations that are acting in partnership with, and with the agreement of an entity described in Category A.  Category B applicants should include with their application a letter from the Category A partner stating that the Category A partner: Is acting in partnership with the applicant;Agrees to the submittal and content of the application; andIntends to participate in the project in some way, for example, by providing input, feedback, or other support for the project. Partners do not necessarily need to contribute cost share funding.  All Category B applicants must be located in the United States or the specific Territories identified above.  Ineligible Applicants - Those not eligible include, but are not limited to, the following entities:Federal Governmental entitiesIndividuals Institutes of higher education PLEASE NOTE: Applicants in Puerto Rico and Alaska and Category B applicants are not eligible to apply for Drought Contingency Plans as applicant eligibility is defined in the Reclamation States Emergency Drought Relief Act of 1999, as amended.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Mar 05, 2026 02:22:38 PM EST",
+        "modComments": "Admin change",
+        "createdDate": "Mar 05, 2026 02:11:51 PM EST",
+        "lastUpdatedDate": "Mar 05, 2026 02:22:38 PM EST",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          }
+        ],
+        "postingDateStr": "2026-03-05-00-00-00",
+        "archiveDateStr": "2031-10-03-00-00-00",
+        "createTimeStampStr": "2026-03-05-14-22-38"
+      },
+      "agencyDetails": {
+        "code": "BOR",
+        "seed": "DOI-BOR",
+        "agencyName": "Bureau of Reclamation",
+        "agencyCode": "DOI-BOR",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 78933,
+          "opportunityId": 361415,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 231481,
+          "createdDate": "Mar 05, 2026 02:13:04 PM EST",
+          "lastUpdatedDate": "Mar 05, 2026 02:13:06 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 350418,
+              "opportunityId": 361415,
+              "mimeType": "application/pdf",
+              "fileName": "Foa_Content_of_R26AS00016_Final.pdf",
+              "fileDescription": "Foa_Content_of_R26AS00016_Final.pdf",
+              "fileLobSize": 283669,
+              "createdDate": "Mar 05, 2026 02:13:06 PM EST",
+              "synopsisAttFolderId": 78933
+            }
+          ]
+        },
+        {
+          "id": 78934,
+          "opportunityId": 361415,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Other Supporting Documents",
+          "zipLobSize": 903345,
+          "createdDate": "Mar 05, 2026 02:13:48 PM EST",
+          "lastUpdatedDate": "Mar 05, 2026 02:14:31 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 350419,
+              "opportunityId": 361415,
+              "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "fileName": "Attachment A - Budget_Detail_and_Narrative.xlsx",
+              "fileDescription": "Attachment A - Budget_Detail_and_Narrative.xlsx",
+              "fileLobSize": 73683,
+              "createdDate": "Mar 05, 2026 02:13:50 PM EST",
+              "synopsisAttFolderId": 78934
+            },
+            {
+              "id": 350420,
+              "opportunityId": 361415,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment B - Budget_Narrative_Guidance.pdf",
+              "fileDescription": "Attachment B - Budget_Narrative_Guidance.pdf",
+              "fileLobSize": 410680,
+              "createdDate": "Mar 05, 2026 02:14:02 PM EST",
+              "synopsisAttFolderId": 78934
+            },
+            {
+              "id": 350421,
+              "opportunityId": 361415,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment C - Drought Contingency Planning.pdf",
+              "fileDescription": "Attachment C - Drought Contingency Planning.pdf",
+              "fileLobSize": 211273,
+              "createdDate": "Mar 05, 2026 02:14:15 PM EST",
+              "synopsisAttFolderId": 78934
+            },
+            {
+              "id": 350422,
+              "opportunityId": 361415,
+              "mimeType": "application/pdf",
+              "fileName": "NOFO Frequently Asked Questions.pdf",
+              "fileDescription": "NOFO Frequently Asked Questions.pdf",
+              "fileLobSize": 290634,
+              "createdDate": "Mar 05, 2026 02:14:31 PM EST",
+              "synopsisAttFolderId": 78934
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432127,
+          "opportunityId": 361415,
+          "cfdaNumber": "15.514",
+          "programTitle": "Reclamation States Emergency Drought Relief"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361415,
+            "revision": 0
+          },
+          "opportunityId": 361415,
+          "revision": 0,
+          "opportunityNumber": "R26AS00016",
+          "opportunityTitle": "WaterSMART Drought Response Program",
+          "owningAgencyCode": "DOI-BOR",
+          "publisherUid": "113080850824856438988185809190837265423",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361415,
+              "revision": 0
+            },
+            "opportunityId": 361415,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOI-BOR",
+            "agencyAddressDesc": "bor-sha-fafoa@usbr.gov",
+            "agencyDetails": {
+              "code": "BOR",
+              "seed": "DOI-BOR",
+              "agencyName": "Bureau of Reclamation",
+              "agencyCode": "DOI-BOR",
+              "topAgencyCode": "DOI"
+            },
+            "agencyContactPhone": "tbd",
+            "agencyContactName": "Bureau of Reclamation",
+            "agencyContactDesc": "Alisha James\nbor-sha-fafoa@usbr.gov",
+            "agencyContactEmail": "bor-sha-fafoa@usbr.gov",
+            "agencyContactEmailDesc": "bor-sha-fafoa@usbr.gov",
+            "synopsisDesc": "Through WaterSMART, the Bureau of Reclamation (Reclamation) leverages Federal and non-Federal funding to work cooperatively with States, Tribes, and other entities as they plan for and implement actions to increase water supply and hydropower reliability. The WaterSMART Drought Response Program NOFO invites eligible applicants to submit proposals for projects designed to improve drought resilience by developing effective water management strategies and drought contingency plans.  Funding under the Drought Response Program supports a range of initiatives including infrastructure improvements for increased water storage and distribution capabilities, water source diversification, decision-making tools for water management, and comprehensive planning to prepare for and respond to drought conditions. WaterSMART Drought Response Program demonstrably advances Trump administration priorities, such as those identified in Presidential Executive Order 14154 (January 20, 2025): Unleashing American Energy (E.O. 14154) and Secretarial Order 3418, and aligns with other priorities and requirements, such as those identified in Presidential Executive Order 14332 (August 7, 2025): Improving Oversight in Federal Grantmaking (E.O. 14332).",
+            "responseDate": "Jul 28, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "July 28, 2026, 4:00 p.m. Mountain Daylight Time (MDT)",
+            "postingDate": "Mar 05, 2026 12:00:00 AM EST",
+            "archiveDate": "Oct 03, 2031 12:00:00 AM EDT",
+            "costSharing": true,
+            "numberOfAwards": "20",
+            "estimatedFunding": "13500000",
+            "estimatedFundingFormatted": "13,500,000",
+            "awardCeiling": "1500000",
+            "awardCeilingFormatted": "1,500,000",
+            "awardFloor": "25000",
+            "awardFloorFormatted": "25,000",
+            "applicantEligibilityDesc": "Applicants eligible to receive an award under this funding opportunity are described below. Category A Applicants  States, Tribes, irrigation districts, and water districts; State, regional, or local authorities, the members of which include one or more organizations with water or power delivery authority; and Other organizations with water or power delivery authority. Category A applicants must be located in the Western United States or Territories; specifically: Alaska, Arizona, California, Colorado, Hawaii, Idaho, Kansas, Montana, Nebraska, Nevada, New Mexico, North Dakota, Oklahoma, Oregon, South Dakota, Texas, Utah, Washington, Wyoming, American Samoa, Guam, the Northern Mariana Islands, the U.S. Virgin Islands and Puerto Rico.   Category B Applicants: Nonprofit conservation organizations that are acting in partnership with, and with the agreement of an entity described in Category A.  Category B applicants should include with their application a letter from the Category A partner stating that the Category A partner: Is acting in partnership with the applicant;Agrees to the submittal and content of the application; andIntends to participate in the project in some way, for example, by providing input, feedback, or other support for the project. Partners do not necessarily need to contribute cost share funding.  All Category B applicants must be located in the United States or the specific Territories identified above.  Ineligible Applicants - Those not eligible include, but are not limited to, the following entities:Federal Governmental entitiesIndividuals Institutes of higher education PLEASE NOTE: Applicants in Puerto Rico and Alaska and Category B applicants are not eligible to apply for Drought Contingency Plans as applicant eligibility is defined in the Reclamation States Emergency Drought Relief Act of 1999, as amended.",
+            "createTimeStamp": "Mar 05, 2026 02:14:31 PM EST",
+            "actionType": "U",
+            "actionDate": "Mar 05, 2026 02:22:38 PM EST",
+            "createdDate": "Mar 05, 2026 02:11:51 PM EST",
+            "lastUpdatedDate": "Mar 05, 2026 02:11:51 PM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              },
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2026-07-28-00-00-00",
+            "postingDateStr": "2026-03-05-00-00-00",
+            "archiveDateStr": "2031-10-03-00-00-00",
+            "createTimeStampStr": "2026-03-05-14-14-31"
+          },
+          "cfdas": [
+            {
+              "id": 432127,
+              "opportunityId": 361415,
+              "revision": 0,
+              "cfdaNumber": "15.514",
+              "programTitle": "Reclamation States Emergency Drought Relief"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292060,
+          "topportunityId": 361415,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "R26AS00016",
+          "opportunityTitle": "WaterSMART Drought Response Program",
+          "cfdaNumber": "15.514",
+          "openingDate": "2026-03-05",
+          "closingDate": "2026-07-28",
+          "owningAgencyCode": "DOI-BOR",
+          "agencyDetails": {
+            "code": "BOR",
+            "seed": "DOI-BOR",
+            "agencyName": "Bureau of Reclamation",
+            "agencyCode": "DOI-BOR",
+            "topAgencyCode": "DOI"
+          },
+          "topAgencyDetails": {
+            "code": "DOI",
+            "seed": "DOI",
+            "agencyName": "Department of the Interior",
+            "agencyCode": "DOI",
+            "topAgencyCode": "DOI"
+          },
+          "programTitle": "Reclamation States Emergency Drought Relief",
+          "contactInfo": "Alisha James",
+          "gracePeriod": 0,
+          "competitionId": "R26AS00016",
+          "competitionTitle": "WaterSMART Drought Response Program",
+          "electronicRequired": "N",
+          "expectedApplicationCount": 20,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 05, 2026 02:12:28 PM EST",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292060",
+          "openingDateStr": "2026-03-05-00-00-00",
+          "closingDateStr": "2026-07-28-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jul 28, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "July 28, 2026, 4:00 p.m. Mountain Daylight Time (MDT)",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "agencyContactDesc",
+        "synopsisDesc",
+        "responseDate"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

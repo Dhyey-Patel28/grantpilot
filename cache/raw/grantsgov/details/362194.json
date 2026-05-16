@@ -1,0 +1,198 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362194",
+  "fetched_at": "2026-05-16T14:10:07.420Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjRmMEtrZGdxU2pLckM5WWkxa1VPWlUzQ3YxVk43SkdXNGw1NGFTb0lNcFk9Ig.IiJGbKGAo9Q1HgH6BMffXDk9YEUPt0n_1h88W9I3HCk",
+    "data": {
+      "id": 362194,
+      "revision": 0,
+      "opportunityNumber": "HT942526ALSRPCOBA",
+      "opportunityTitle": "DoW Amyotrophic Lateral Sclerosis Research Program, Clinical Outcomes and Biomarkers Award",
+      "owningAgencyCode": "DOD-AMRAA",
+      "listed": "L",
+      "publisherUid": "jshorta11",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362194,
+        "version": 1,
+        "agencyCode": "DOD-AMRAA",
+        "agencyName": "Jamie  Shortall\nGrant Officer",
+        "agencyPhone": "301-619-2393",
+        "agencyAddressDesc": "eBRAP Help Desk",
+        "agencyDetails": {
+          "code": "AMRAA",
+          "seed": "DOD-AMRAA",
+          "agencyName": "Dept. of the Army -- USAMRAA",
+          "agencyCode": "DOD-AMRAA",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "301-619-2393",
+        "agencyContactName": "Jamie  Shortall\nGrant Officer",
+        "agencyContactDesc": "eBRAP Help Desk\r\nPhone:      301-682-5507\r\nEmail:       help@eBRAP.org",
+        "agencyContactEmail": "help@eBRAP.org",
+        "agencyContactEmailDesc": "eBRAP Help Desk",
+        "synopsisDesc": "<p><strong>Summary: </strong>The fiscal year 2026 (FY26) Amyotrophic Lateral Sclerosis Research Program (ALSRP) Clinical Outcomes and Biomarkers Award (COBA) supports the development and/or validation of clinical outcomes and biomarkers to enrich clinical trials in amyotrophic lateral sclerosis (ALS). Projects can be relevant to a specific therapy, a class of therapeutics, or to a specific ALS subtype (such as a particular genetic mutation) and do not have to broadly apply to all patients.</p><p><br></p><p><strong>Distinctive Features: </strong>To meet the intent of the funding opportunity, applications may address <strong><em>clinical biomarkers and/or clinical outcomes</em></strong>. This may include the identification, development, and/or validation of promising biomarkers for ALS, which may include, but are not limited to susceptibility/risk, diagnostic, monitoring/disease progression, prognostic, predictive, response, or safety biomarkers. Clinical Outcomes projects may focus on the identification, development, and/or validation of clinician-, observer-, or patient-reported, and/or performance outcome measures for ALS. Projects may include the optimization of current outcome measures already in use.</p><p><br></p><p>Applications may utilize digital health measures, including wearable devices, smart-phone sensors, video or voice recordings, imaging studies, or other devices which record disease-relevant physiological data and/or outcomes.</p><p><br></p><p>Community Collaboration is an important element of the FY26 ALSRP COBA. Applicants will be expected to articulate how the proposed research question or study design was informed by the</p><p>ALS lived experience community.</p>",
+        "responseDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "May 04, 2026 12:00:00 AM EDT",
+        "archiveDate": "Oct 30, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "7",
+        "estimatedFunding": "7000000",
+        "estimatedFundingFormatted": "7,000,000",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "applicantEligibilityDesc": "",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 06, 2026 08:12:23 AM EDT",
+        "createdDate": "May 04, 2026 09:36:18 AM EDT",
+        "lastUpdatedDate": "May 04, 2026 09:36:18 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-09-30-00-00-00",
+        "postingDateStr": "2026-05-04-00-00-00",
+        "archiveDateStr": "2026-10-30-00-00-00",
+        "createTimeStampStr": "2026-05-06-08-12-23"
+      },
+      "agencyDetails": {
+        "code": "AMRAA",
+        "seed": "DOD-AMRAA",
+        "agencyName": "Dept. of the Army -- USAMRAA",
+        "agencyCode": "DOD-AMRAA",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79531,
+          "opportunityId": 362194,
+          "folderType": "Full Announcement",
+          "folderName": "FY26 ALSRP COBA",
+          "zipLobSize": 588087,
+          "createdDate": "May 04, 2026 09:36:31 AM EDT",
+          "lastUpdatedDate": "May 06, 2026 08:12:23 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351705,
+              "opportunityId": 362194,
+              "mimeType": "application/pdf",
+              "fileName": "HT942526ALSRPCOBA_GG.pdf",
+              "fileDescription": "FY26 ALSRP COBA Program Announcement",
+              "fileLobSize": 741631,
+              "createdDate": "May 04, 2026 09:36:46 AM EDT",
+              "lastUpdatedDate": "May 06, 2026 08:12:23 AM EDT",
+              "synopsisAttFolderId": 79531
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 433079,
+          "opportunityId": 362194,
+          "cfdaNumber": "12.420",
+          "programTitle": "Military Medical Research and Development"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292623,
+          "topportunityId": 362194,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "HT942526ALSRPCOBA",
+          "opportunityTitle": "DoW Amyotrophic Lateral Sclerosis Research Program, Clinical Outcomes and Biomarkers Award",
+          "cfdaNumber": "12.420",
+          "openingDate": "2026-05-04",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "DOD-AMRAA",
+          "agencyDetails": {
+            "code": "AMRAA",
+            "seed": "DOD-AMRAA",
+            "agencyName": "Dept. of the Army -- USAMRAA",
+            "agencyCode": "DOD-AMRAA",
+            "topAgencyCode": "DOD"
+          },
+          "topAgencyDetails": {
+            "code": "DOD",
+            "seed": "DOD",
+            "agencyName": "Department of Defense",
+            "agencyCode": "DOD",
+            "topAgencyCode": "DOD"
+          },
+          "programTitle": "Military Medical Research and Development",
+          "contactInfo": "eBRAP Help Desk\r\nPhone:      301-682-5507\r\nEmail:       help@eBRAP.org",
+          "gracePeriod": 0,
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 36,
+          "expectedApplicationSize": 1000000,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "May 04, 2026 09:37:39 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292623",
+          "openingDateStr": "2026-05-04-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Sep 30, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

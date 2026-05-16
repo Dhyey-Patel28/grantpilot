@@ -1,0 +1,32 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=13861",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=13861",
+  "website": "https://www.michigan.gov/mde/services/financial-management/grants/usf",
+  "grant_id": "13861",
+  "title": "State of Michigan E-Rate Matching Fund for Special Construction",
+  "overview": "The Universal Service Fund (E-Rate) program is designed to provide discounts on broadband connections and service to schools and libraries. The State of Michigan E-Rate Matching Fund for Special Construction provides matching funds specifically for eligible special construction projects to enhance broadband infrastructure. Applicants must be schools or libraries eligible for the federal E-Rate program. Eligible projects include broadband connections, special construction, and Category 2 internal connections equipment and software. The application process involves applying through the provided Michigan Department of Education links. Applicants may also utilize pricing from the Regional Educational Media Center Association of Michigan (REMC) product catalog as a bid on their Category 2 applications for discounts on internal connections equipment and software. Show More",
+  "additional_info": "Posted Date: Not Specified Application Due Date: Not Specified Estimated Award Date: Not Specified Eligible Applicants: Independent school districtsOthers Show More",
+  "eligible_applicants": [
+    "Independent school districtsOthers"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "broadband",
+    "transportation"
+  ],
+  "due_date": "",
+  "agency": "Michigan Department of Education",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:24:40.964Z",
+  "content_hash": "f2dd6f37cd2a60de4d08e44811b57218b8f3be9907777edc93b09c213ed9d7d4",
+  "from_cache": false
+}

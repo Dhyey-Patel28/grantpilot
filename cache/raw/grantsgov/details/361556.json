@@ -1,0 +1,181 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361556",
+  "fetched_at": "2026-05-16T14:08:59.419Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldVS2dnSjZQR2p1UE9WTXplSXpvUDhwa0l3ZzJOK3V3Z3FyU2xLUDRYR009Ig.NQpPJtqwSL5Em4Qk5xL2RBvFBy3lwqAodfa2ixLTBjY",
+    "data": {
+      "id": 361556,
+      "revision": 0,
+      "opportunityNumber": "CDC-RFA-DP-26-0227",
+      "opportunityTitle": "Public Health Strategies to Address Alzheimer's Disease and Related Dementias: The National Healthy Brain Initiative, BOLD Public Health Centers of Excellence, and Public Health Adoption Accelerator",
+      "owningAgencyCode": "HHS-CDC-NCCDPHP",
+      "publisherUid": "21075984081049386526321738257390910592",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "NCCDPHP",
+        "seed": "HHS-CDC-NCCDPHP",
+        "agencyName": "Centers for Disease Control - NCCDPHP",
+        "agencyCode": "HHS-CDC-NCCDPHP",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 361556,
+        "version": 1,
+        "postingDate": "Mar 19, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 31, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>Alzheimer's disease, the most common form of dementia, is a progressive condition. It begins with mild memory loss and may lead to the inability to communicate or respond to one's environment. Its prevalence is rising with the aging U.S. population. In 2021, it was the <a href=\"https://www.alz.org/alzheimers-dementia/facts-figures\">5th leading cause </a>of death for those 65 and older, with death rates continuing to climb.</p><p>The <a href=\"https://www.cdc.gov/aging-programs/?CDC_AAref_Val=https://www.cdc.gov/aging/index.html\">CDC Alzheimer's Disease Program</a>, through the National Healthy Brain Initiative (HBI) and funded partners, promotes brain health, addresses cognitive impairment, and supports caregivers using evidence-based approaches. This funding opportunity aligns with the <a href=\"https://www.cdc.gov/aging-programs/php/nhbi/?CDC_AAref_Val=https://www.cdc.gov/aging/nationalinitiatives/national-healthy-nhbi.html\">HBI Road Map Series</a> (including the <a href=\"https://www.cdc.gov/aging-programs/media/pdfs/2024/06/HBI-State-and-Local-Road-Map-for-Public-Health-2023-2027-508-compliant.pdf\">State and Local Road Map 2023–2027</a> and the <a href=\"https://www.cdc.gov/aging-programs/media/pdfs/road-map/AIAN-Peoples-Roadmap-2024-508.pdf\">Road Map for Indian Country</a>) and fulfills the aims of&nbsp;the <a href=\"https://uscode.house.gov/statutes/pl/115/406.pdf\">Building Our Largest Dementia (BOLD) Infrastructure for Alzheimer’s Act (P.L. 115-406)</a>.</p><p><strong>Funding Structure:&nbsp;</strong></p><p><strong>Component 1: National Healthy Brain Initiative:</strong> Funds up to two (2) organizations to develop and implement public health strategies guided by the HBI Road Map Series. Funded organizations will:&nbsp;</p><ul><li>Develop evidence-informed training for health care and public health professionals on ADRD and caregiving.&nbsp;</li><li>Expand the availability and use of public health surveillance data, including adaptation &amp; revision of the&nbsp;Behavioral Risk Factor Surveillance System (BRFSS)&nbsp;subjective cognitive decline and caregiver optional modules.&nbsp;</li><li>Facilitate the coordination of recipients and national partners to address ADRD.&nbsp;</li><li><strong>Funding range:</strong> $2,500,000 to $3,000,000 per 12-month budget period.&nbsp;</li></ul><p><strong>Component 2: BOLD Public Health Centers of Excellence: </strong>Funds three (3) Centers, each specializing in one of three topic-specific areas: dementia risk reduction, early detection and management of dementia, or dementia caregiving. Centers will:&nbsp;</p><ul><li>Support the needs of the BOLD public health program and other public health agencies.&nbsp;</li><li>Identify, disseminate, and promote best practices.&nbsp;</li><li>Translate promising research into practical tools and resources.&nbsp;</li><li>Increase professional education and develop materials to address specific individual needs to improve health outcomes.&nbsp;</li><li><strong>Funding range:</strong> $750,000 to $1,000,000 per 12-month budget period.&nbsp;</li></ul><p><strong>Component 3: ADRD Public Health Adoption Accelerator.</strong> Funds up to two (2) organizations to serve as public health strategy adaptation accelerator programs.&nbsp;This means using dissemination and implementation of science to spread and put into practice effective public health strategies, tools, and resources to tackle ADRD.&nbsp;Organizations will:&nbsp;</p><ul><li>Collaborate with CDC and other organizations to create a prioritized list of ADRD approaches &amp; strategies.&nbsp;</li><li>Use proven strategies to engage partners, health care organizations, and policymakers to enhance uptake and implementation, accelerating the impact of ADRD efforts.&nbsp;</li><li>Provide technical assistance to Component 1 &amp; 2 recipients.&nbsp;</li><li><strong>Funding range:</strong> $750,000 - $1,200,000 per 12-month budget period.&nbsp;</li></ul><p><strong>Applicants may apply for multiple components, but must submit a separate application per component.</strong></p>",
+        "costSharing": false,
+        "numberOfAwards": "7",
+        "estimatedFunding": "35000000",
+        "awardCeiling": "0",
+        "awardFloor": "0",
+        "agencyContactName": "Dr. Machell Town",
+        "agencyContactPhone": "000-000-0000",
+        "agencyContactEmail": "dphnofos@cdc.gov",
+        "agencyContactEmailDesc": "dphnofos@cdc.gov",
+        "agencyCode": "HHS-CDC-NCCDPHP",
+        "applicantEligibilityDesc": "NA",
+        "estSynopsisPostingDate": "May 05, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jul 01, 2026 12:00:00 AM EDT",
+        "estAwardDate": "Aug 29, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "Mar 19, 2026 03:56:58 PM EDT",
+        "createdDate": "Mar 19, 2026 03:56:58 PM EDT",
+        "lastUpdatedDate": "Mar 19, 2026 03:56:58 PM EDT",
+        "agencyDetails": {
+          "code": "NCCDPHP",
+          "seed": "HHS-CDC-NCCDPHP",
+          "agencyName": "Centers for Disease Control - NCCDPHP",
+          "agencyCode": "HHS-CDC-NCCDPHP",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "35,000,000",
+        "awardCeilingFormatted": "0",
+        "awardFloorFormatted": "0",
+        "applicantTypes": [
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2026-03-19-00-00-00",
+        "archiveDateStr": "2026-07-31-00-00-00",
+        "estSynopsisPostingDateStr": "2026-05-05-00-00-00",
+        "estApplicationResponseDateStr": "2026-07-01-00-00-00",
+        "estAwardDateStr": "2026-08-29-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-03-19-15-56-58"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432301,
+          "opportunityId": 361556,
+          "cfdaNumber": "93.334",
+          "programTitle": "The Healthy Brain Initiative: Technical Assistance to Implement Public Health Actions related to Cognitive Health, Cognitive Impairment, and Caregiving at the State and Local Levels"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

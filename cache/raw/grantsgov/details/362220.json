@@ -1,0 +1,206 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362220",
+  "fetched_at": "2026-05-16T14:10:08.802Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjRmMEtrZGdxU2pLckM5WWkxa1VPWllOOWg2b0Y5QldsbW9zL09FSDFkTkk9Ig.7bJTUYjVpBgkCYK_iKsdLBSRxa9lCmx-1RR8GHWTdp4",
+    "data": {
+      "id": 362220,
+      "revision": 0,
+      "opportunityNumber": "WAW-NOFO-FY26-01",
+      "opportunityTitle": "Freedom 250 Poland 2026",
+      "owningAgencyCode": "DOS-POL",
+      "listed": "L",
+      "publisherUid": "Renata?Czerw",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362220,
+        "version": 2,
+        "agencyCode": "DOS-POL",
+        "agencyName": "Renata A Czerw\nGrantor",
+        "agencyPhone": "48-22-504-2377",
+        "agencyAddressDesc": "For Inquiries",
+        "agencyDetails": {
+          "code": "POL",
+          "seed": "DOS-POL",
+          "agencyName": "U.S. Mission to Poland",
+          "agencyCode": "DOS-POL",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "48-22-504-2377",
+        "agencyContactName": "Renata A Czerw\nGrantor",
+        "agencyContactDesc": "PD Poland Grants Team\r\nU.S. Embassy Warsaw",
+        "agencyContactEmail": "grantspoland@state.gov",
+        "agencyContactEmailDesc": "For Inquiries",
+        "synopsisDesc": "<p><span style=\"color: rgb(28, 33, 39);\">The U.S. Department of State's Mission Poland announces an open competition for programs inspired by America's 250th anniversary through the Freedom 250 initiative. This initiative will support innovative projects, events, and activities that leverage America’s independence anniversary to highlight U.S. leadership and that celebrate the vibrant cooperation between the United States and Poland in business, defense, energy, science and technology innovation, and culture.&nbsp;Freedom 250 in Poland builds on 250 years of friendship, shared values, and people-to-people ties and invites Polish participants to join America in celebrating the greatest experiment in human history.&nbsp;Freedom 250 looks forward as much as it looks back; it invites partners to engage with the American story in ways that resonate with youth, early-career professionals, community leaders, and opinion makers to forge new partnerships between the United States and Poland that meet today’s needs.&nbsp;</span><span style=\"color: black;\">Please follow all instructions below.&nbsp;&nbsp;</span></p> \n<em style=\"color: red;\">&nbsp;</em>\n<span style=\"color: black;\">&nbsp;</span> \n<p><strong style=\"color: black;\"><em>This opportunity will not support: </em></strong></p> \n<p><span style=\"color: black;\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Projects relating to partisan political activity;</span></p> \n<p><span style=\"color: black;\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Charitable or development activities; including direct social services such as medical, psychological, and/or humanitarian support</span></p> \n<p><span style=\"color: black;\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Construction projects;</span></p> \n<p><span style=\"color: black;\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Projects that support specific religious activities;</span></p> \n<p><span style=\"color: black;\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fund-raising campaigns;</span></p> \n<p><span style=\"color: black;\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lobbying for specific legislation or programs</span></p> \n<p><span style=\"color: black;\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scientific research or surveys;</span></p> \n<p><span style=\"color: black;\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Commercial projects;</span></p> \n<p><span style=\"color: black;\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Projects intended primarily for the growth or institutional development of the organization; </span></p> \n<p><span style=\"color: black;\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Projects that duplicate existing projects; or</span></p> \n<p><span style=\"color: black;\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Illegal activities</span></p> \n<p><span style=\"color: black;\">&nbsp;</span></p> \n<strong style=\"color: windowtext;\">PROGRAM DESCRIPTION</strong> \n<p>&nbsp;</p> \n<strong style=\"color: windowtext;\"><em>1.&nbsp;&nbsp;Project Background, Goals, and Objectives</em></strong> \n<p><br></p> \n<p>This year the United States marks 250 years of independence. From global capitals to local communities, the anniversary invites reflection on America’s founding and the ways it continues to shape international life today.&nbsp;At the heart of this moment are the ideals—among them that all men are created equal; endowed with inalienable rights; and entitled to a government of the people, by the people, and for the people—that inspired America’s independence and continue to inspire U.S. leadership in economic, scientific, social, and cultural innovation.&nbsp;</p> \n<p><strong style=\"color: black;\">“Freedom 250”</strong> is the platform through which the United States is celebrating this anniversary, and through which we invite partners worldwide to join this celebration.&nbsp;In Poland we will celebrate throughout 2026 the contribution of Polish heroes to America’s independence, our shared belief that democracy and independence are worth fighting for, and the strength of the U.S.–Poland relationship today.&nbsp;In the Polish context, Freedom 250 brings into focus the areas where this partnership is already most impactful, making both America and Poland <span style=\"color: rgb(28, 33, 39);\">safer, stronger, and more prosperous, with a programmatic focus on projects that highlight American excellence in business, defense, energy, technology, and culture.&nbsp;</span></p> \n<p><span style=\"color: rgb(28, 33, 39);\">Priority audiences for Freedom 250 activities include emerging Polish leaders ages 15 to 35—such as high school and university students, as well as early career professionals—and established professionals in the public, private, and nonprofit sectors.</span>&nbsp;Projects that engage institutions or individuals beyond the established Warsaw–Krakow ecosystem and/or that connect emerging leaders (ages 15–35) with established professionals in the public or private sector, science and technology, or the creative sector are especially welcome, provided that quality and impact remain high.</p> \n<p><span style=\"color: black;\">Proposals should describe both the primary and secondary audiences for the program, including anticipated numbers to be reached.&nbsp;Primary audiences are those who will participate directly in the program, while secondary audiences are those who will be reached by the project’s primary audiences as a result of their participation. All proposals are required to have a clear connection to the United States, either through U.S. organizations, experts, and/or best practices in order to increase the awareness and understanding of U.S. perspectives, policies, and society.&nbsp;</span></p> \n<p><span style=\"color: black;\">Examples of Public Diplomacy Small Grants Program programs include, but are not limited to:</span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">American-style public events and community celebrations that highlight U.S. traditions and values;</span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">Innovation bootcamps, hackathons, and accelerator style programs that link Polish and U.S. mentors, experts, and practitioners;</span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">Policy labs and expert roundtable discussions on topics such as economic cooperation, science and technology, digital governance, and energy security, with concrete outputs (e.g., policy briefs or action plans);</span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">Artistic and cultural workshops, joint performances and exhibitions;</span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">Thematic workshops, networking events, and capacity building programs that build sustainable U.S.–Poland partnerships and follow on collaboration.</span></p> \n<p><span style=\"color: black;\"> </span></p> \n<p><span style=\"color: black;\"> </span></p> \n<p><strong style=\"color: black;\">Priority Program Areas/Goals: </strong><span style=\"color: black;\">PD Poland invites proposals for programs that strengthen ties between the United States and</span><strong style=\"color: black;\"> </strong><span style=\"color: black;\">Poland by forging enduring connections between our countries. </span><span style=\"color: rgb(28, 33, 39);\">All proposals must clearly align with one or more core program goals: Security, Prosperity, Science and Technology, and American Excellence. In addition, Mission Poland invites proposals that support the U.S. commemoration of 250 years of independence </span><span style=\"color: black;\">under the “Freedom 250” platform. </span></p> \n<p><span style=\"color: rgb(28, 33, 39);\">Within this framework, projects should: </span></p> \n<p><span style=\"color: rgb(28, 33, 39);\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use the 250</span>th<span style=\"color: rgb(28, 33, 39);\"> anniversary as a starting point to explore the future of U.S.-Poland cooperation. </span></p> \n<p><span style=\"color: rgb(28, 33, 39);\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Highlight how 250 years of American democratic, economic, and innovation can inform the&nbsp;next 25 years&nbsp;of shared security, prosperity, innovation, and partnership.&nbsp;</span></p> \n<p><span style=\"color: black;\">Applicants may submit a proposal to address one or more of the program goals below. Proposals should focus on one or more of the priority outcomes, but applicants may also recommend their own objective.&nbsp;</span><span style=\"color: rgb(28, 33, 39);\">A substantial part of the programming must take place in 2026, and the remaining part may continue into 2027.</span></p> \n<p>&nbsp;</p> \n<p><strong style=\"color: black;\">Goal 1: Security </strong></p> \n<p><strong>&nbsp;</strong></p> \n<p>The United States and Poland stand shoulder to shoulder to defend sovereignty and safeguard our freedom.&nbsp;Programming should showcase the strength and concrete benefits of the U.S.–Poland security partnership.</p> \n<p><strong style=\"color: black;\">Project Audience(s):</strong></p> \n<ul> \n <li>Polish youth (high school and university students ages 15-25).</li> \n <li>&nbsp;Young professionals ages 25-35.&nbsp;</li> \n <li>Security policy professionals and think tanks.</li> \n</ul> \n<p><span style=\"color: red;\">&nbsp;</span></p> \n<p><strong>Priority Outcomes(s):</strong><strong style=\"color: red;\"><em> </em></strong>Applicants may focus on one or more of the outcomes listed below. Applicants are encouraged to propose additional objectives and innovative activities that address the priority program areas.&nbsp;</p> \n<p><span style=\"color: black;\">1.&nbsp;&nbsp;&nbsp;&nbsp;Increased understanding of U.S.-Poland security cooperation and shared defense commitments.</span></p> \n<p><span style=\"color: black;\">2.&nbsp;&nbsp;&nbsp;&nbsp;Increased understanding of emerging security threats of concern to the United States and Poland and efforts to address those threats.</span></p> \n<p><span style=\"color: black;\">3.&nbsp;&nbsp;&nbsp;&nbsp;Greater understanding of the connection between U.S.-Poland security cooperation and protection of our shared values of freedom and sovereignty.</span></p> \n<p><em style=\"color: red;\">&nbsp;</em></p> \n<p><strong style=\"color: black;\">Goal 2.&nbsp;&nbsp;Prosperity </strong></p> \n<p><strong style=\"color: red;\">&nbsp;</strong></p> \n<p>The United States and Poland enjoy a mutually beneficial and rapidly growing economic partnership.&nbsp;Historically, U.S. leadership in advanced industries, business best practices, digital services, energy, and entrepreneurship has supported Poland’s growth and competitiveness.&nbsp;The continued growth of Poland’s economy and the dynamism of Poland’s business sector open further opportunities to promote prosperity in the United States and Poland.&nbsp;Programming should showcase American entrepreneurship models and business best practices and/or support U.S.–Poland commercial policy alignment and shared approaches to economic growth and energy security.</p> \n<p><span style=\"color: rgb(28, 33, 39);\">&nbsp;</span></p> \n<p><strong style=\"color: black;\">Project Audience(s):</strong><span style=\"color: rgb(28, 33, 39);\"> </span></p> \n<p>&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">Emerging Polish leaders, including early career professionals in business and finance (ages 25–35).</span></p> \n<p>&nbsp;</p> \n<ul> \n <li>Entrepreneurs and small business owners.</li> \n <li>University students studying business and economics ages 18-25 years old.</li> \n <li>Policymakers, senior commercial actors, researchers, and innovators on the intersection of technology leadership, innovation, and digital freedom.</li> \n <li>Energy sector stakeholders.</li> \n</ul> \n<p><strong>Priority Outcomes(s):</strong><strong style=\"color: red;\"><em> </em></strong>Applicants may focus on one or more of the outcomes listed below. Applicants are encouraged to propose additional objectives and innovative activities that address the priority program areas.</p> \n<ol> \n <li><span style=\"color: black;\">Enhanced understanding of U.S. business practices and entrepreneurial culture.</span></li> \n <li><span style=\"color: black;\">Strengthened networks between U.S. and Polish business communities.</span></li> \n <li><span style=\"color: black;\">Greater awareness of U.S.-Poland economic partnership benefit.</span></li> \n</ol> \n<p>&nbsp;</p> \n<p><strong style=\"color: black;\">Goal 3.&nbsp;&nbsp;Science &amp; Technology</strong></p> \n<p><strong>&nbsp;</strong></p> \n<p><span style=\"color: rgb(28, 33, 39);\">Open systems, free inquiry, and intellectual exchanges fuel innovation and competitiveness in the digital age.&nbsp;Programming should promote a culture of innovation in science, space, and technology; connect current and emerging Polish innovators to American expertise and networks; enhance U.S.–Poland collaboration among researchers and scientists at universities or in the private sector; showcase U.S. excellence in AI, digital platforms, advanced research, and emerging technologies; and/or address how regulatory choices shape innovation and competitiveness. </span></p> \n<p><br></p> \n<p><strong style=\"color: black;\">Project Audience(s):</strong><span style=\"color: rgb(28, 33, 39);\"> </span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Polish youth (high school and university students ages 15-25) interested in science and technology careers.</p> \n<ul> \n <li>Technology professionals, innovators, and policymakers.</li> \n <li>Academic institutions and research centers.</li> \n</ul> \n<p><strong>&nbsp;</strong></p> \n<p><strong>Priority Outcomes:</strong> Applicants may focus on one or more of the outcomes listed below. Applicants are encouraged to propose additional objectives and innovative activities that address the priority program areas.</p> \n<p>1.&nbsp;&nbsp;&nbsp;&nbsp;Increased collaboration between U.S. and Polish researchers and innovators.</p> \n<p>2.&nbsp;&nbsp;&nbsp;&nbsp;Enhanced understanding of U.S. innovation ecosystem and approaches to technical innovation.</p> \n<p>3.&nbsp;&nbsp;&nbsp;&nbsp;Greater awareness of opportunities for Polish participation in U.S. innovation ecosystems.</p> \n<p>4.&nbsp;&nbsp;&nbsp;&nbsp;Greater awareness of policy approaches that support innovation and competitiveness.</p> \n<p><br></p> \n<p><strong style=\"color: black;\">Goal 4.&nbsp;&nbsp;Celebrating American Excellence </strong></p> \n<p><strong>&nbsp;</strong></p> \n<p><span style=\"color: rgb(28, 33, 39);\">American values of opportunity, freedom, and self-expression have provided artists, athletes, and creators the opportunity to innovate, excel, and express themselves and fueled American cultural leadership across multiple fields, including in sports, film, music, and the arts. This programming area seeks to inspire aspiring and emerging Polish leaders in creative fields and sport through a celebration of culture and sport and the enduring appeal of the American Dream. </span></p> \n<p><span style=\"color: rgb(28, 33, 39);\">&nbsp;</span></p> \n<p><strong style=\"color: rgb(28, 33, 39);\">Project Audience(s):</strong><span style=\"color: black;\"> </span></p> \n<p>&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">Polish youth (high school and university students ages 15-25) interested in arts and sport.</span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">Early career Polish artists, musicians, creative professionals, and cultural managers.</span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">State Department exchange program alumni. </span></p> \n<p><strong style=\"color: rgb(28, 33, 39);\">&nbsp;</strong></p> \n<p><strong style=\"color: rgb(28, 33, 39);\">Priority Outcomes</strong><span style=\"color: rgb(28, 33, 39);\">:</span><span style=\"color: black;\"> Applicants may focus on one or more of the outcomes listed below. Applicants are encouraged to propose additional objectives and innovative activities that address the priority program areas. </span></p> \n<ol> \n <li>Increased appreciation for American cultural and artistic contributions.</li> \n <li>Enhanced people-to-people connections through cultural exchange and sport.</li> \n <li>Strengthened understanding of American values of freedom and opportunity.</li> \n <li>Greater engagement with U.S. cultural and educational programs.</li> \n</ol> \n<span style=\"color: rgb(28, 33, 39);\">&nbsp;</span> \n<p><strong style=\"color: rgb(28, 33, 39);\">Core Messaging and Approach</strong></p> \n<p>In keeping with Americans’ approach to celebrating their independence, all programs should be future-focused, inspirational, celebratory, and participatory, inviting Polish audiences to actively engage in celebrating American ideals and accomplishments, and the shared values that provide the foundation for the United States-Poland partnership.&nbsp;</p> \n<p><br></p> \n<br>",
+        "responseDate": "Jun 14, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://pl.usembassy.gov/education/",
+        "fundingDescLinkDesc": "Embassy's Grants Program web page",
+        "postingDate": "May 05, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 14, 2026 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "Public Diplomacy",
+        "costSharing": false,
+        "numberOfAwards": "7",
+        "estimatedFunding": "175000",
+        "estimatedFundingFormatted": "175,000",
+        "awardCeiling": "40000",
+        "awardCeilingFormatted": "40,000",
+        "awardFloor": "10000",
+        "awardFloorFormatted": "10,000",
+        "applicantEligibilityDesc": "Eligible Applicants: The following organizations are eligible to apply:  \r\n&bull;\tAppropriately registered not-for-profit organizations, including think tanks and civil society/non-governmental organizations with programming experience;&bull;\tIndividuals to include alumni of U.S. government sponsored exchange programs; and&bull;\tNon-profit or governmental educational institutions including public libraries, schools, and universities.",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 05, 2026 06:50:59 AM EDT",
+        "createdDate": "May 05, 2026 05:52:17 AM EDT",
+        "lastUpdatedDate": "May 05, 2026 06:47:19 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "responseDateStr": "2026-06-14-00-00-00",
+        "postingDateStr": "2026-05-05-00-00-00",
+        "archiveDateStr": "2026-07-14-00-00-00",
+        "createTimeStampStr": "2026-05-05-06-50-59"
+      },
+      "agencyDetails": {
+        "code": "POL",
+        "seed": "DOS-POL",
+        "agencyName": "U.S. Mission to Poland",
+        "agencyCode": "DOS-POL",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79560,
+          "opportunityId": 362220,
+          "folderType": "Full Announcement",
+          "folderName": "NOFO 2026-F250",
+          "zipLobSize": 153292,
+          "createdDate": "May 05, 2026 06:49:21 AM EDT",
+          "lastUpdatedDate": "May 05, 2026 06:50:59 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351744,
+              "opportunityId": 362220,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "NOFO 2026- F250.docx",
+              "fileDescription": "NOFO 2026-F250",
+              "fileLobSize": 159039,
+              "createdDate": "May 05, 2026 06:50:59 AM EDT",
+              "synopsisAttFolderId": 79560
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 433113,
+          "opportunityId": 362220,
+          "cfdaNumber": "19.040",
+          "programTitle": "Public Diplomacy Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292654,
+          "topportunityId": 362220,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "WAW-NOFO-FY26-01",
+          "opportunityTitle": "Freedom 250 Poland 2026",
+          "cfdaNumber": "19.040",
+          "openingDate": "2026-05-05",
+          "closingDate": "2026-06-14",
+          "owningAgencyCode": "DOS-POL",
+          "agencyDetails": {
+            "code": "POL",
+            "seed": "DOS-POL",
+            "agencyName": "U.S. Mission to Poland",
+            "agencyCode": "DOS-POL",
+            "topAgencyCode": "DOS"
+          },
+          "topAgencyDetails": {
+            "code": "DOS",
+            "seed": "DOS",
+            "agencyName": "Department of State",
+            "agencyCode": "DOS",
+            "topAgencyCode": "DOS"
+          },
+          "programTitle": "Public Diplomacy Programs",
+          "contactInfo": "GrantsPoland@state.gov",
+          "competitionId": "WAW-NOFO-FY26-01",
+          "competitionTitle": "Freedom 250 Poland 2026",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 30,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "May 05, 2026 07:02:06 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292654",
+          "openingDateStr": "2026-05-05-00-00-00",
+          "closingDateStr": "2026-06-14-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 14, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "359225",
+  "fetched_at": "2026-05-16T14:07:56.287Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IllVUnRjcDNNRE55cFU0RzY2cGdhTWxLNFpVWUxCOGQ5eWdQU0VpQ0Q4Z3M9Ig.M5ObfSQ87f6i_EdU6sR_SaL6S2csjo9UMxIf4ZJxwa4",
+    "data": {
+      "id": 359225,
+      "revision": 1,
+      "opportunityNumber": "EDA-DISASTER-2025",
+      "opportunityTitle": "EDA FY25 Disaster Supplemental",
+      "owningAgencyCode": "DOC-EDA",
+      "listed": "L",
+      "publisherUid": "rileymoleary",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 359225,
+        "version": 6,
+        "agencyCode": "DOC-EDA",
+        "agencyName": "Riley Oleary\nPolicy Analyst",
+        "agencyPhone": "2068883391",
+        "agencyAddressDesc": "EDA's contact page",
+        "agencyDetails": {
+          "code": "EDA",
+          "seed": "DOC-EDA",
+          "agencyName": "Economic Development Administration",
+          "agencyCode": "DOC-EDA",
+          "topAgencyCode": "DOC"
+        },
+        "topAgencyDetails": {
+          "code": "DOC",
+          "seed": "DOC",
+          "agencyName": "Department of Commerce",
+          "agencyCode": "DOC",
+          "topAgencyCode": "DOC"
+        },
+        "agencyContactPhone": "2068883391",
+        "agencyContactName": "Riley Oleary\nPolicy Analyst",
+        "agencyContactDesc": "Contact EDR:\r\nhttps://www.eda.gov/about/contact?q=/contact",
+        "agencyContactEmail": "https://www.eda.gov/about/contact?q=/contact",
+        "agencyContactEmailDesc": "EDA's contact page",
+        "synopsisDesc": "<p><span style=\"color: rgb(19, 54, 92);\">Through this Disaster NOFO, EDA will award investments in regions experiencing severe economic distress or other economic harm resulting from hurricanes, wildfires, tornadoes, floods, and other natural disasters occurring in calendar years 2023 and 2024. EDA’s goal under this NOFO is to assist communities recovering from a disaster by realizing opportunities to recover and change the economic trajectory of the community for the better. In other words, EDA funding seeks to help communities recover and set them on a path to exceed their previous pre-disaster baseline. EDA seeks projects that are responsive to community needs post-disaster by engaging all aspects of the community, with special focus on private industry partners. </span></p>\n<p><br></p>\n<p><span style=\"color: rgb(19, 54, 92);\">This Disaster NOFO provides funding through three pathways:</span></p>\n<p><br></p>\n<p><span style=\"color: rgb(19, 54, 92);\">Readiness Path – Standalone non-construction projects designed to increase a community’s readiness to apply for or implement disaster recovery funding from private and public sources including, but not limited to, future EDA NOFOs and the Implementation or Industry Transformation Paths under this NOFO. Projects will fund strategy development, capacity building, and/or predevelopment costs necessary for future recovery projects.</span></p>\n<p><br></p>\n<p><span style=\"color: rgb(19, 54, 92);\">Implementation Path – Standalone construction or non-construction projects designed to address the economic challenges faced by a community recovering from a natural disaster and improve economic trajectories beyond pre-disaster economic conditions.</span></p>\n<p><br></p>\n<p><span style=\"color: rgb(19, 54, 92);\">Industry Transformation Path – Led by a coalition of regional stakeholders, a portfolio of large-scale, multicomponent construction and non-construction projects designed to fundamentally transform the economic trajectory of a region through the development or acceleration of an industry.</span></p>",
+        "responseDateDesc": "There are no submission deadlines. Applications will be accepted on an ongoing basis until the publication of a new Disaster Supplemental NOFO, cancellation of this Disaster Supplemental NOFO or all available funds have been expended.",
+        "fundingDescLinkUrl": "https://sfgrants.eda.gov/s/",
+        "fundingDescLinkDesc": "EDA's Grant Application Portal",
+        "postingDate": "Jun 04, 2025 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "Economic Development and Recovery - Subject to the availability of funds, awards made under this NOFO will help communities and regions devise and implement long-term economic recovery strategies through a variety of non-construction and construction projects, as appropriate, to address economic challenges in areas where a Presidential declaration of a major disaster was issued.",
+        "costSharing": true,
+        "estimatedFunding": "1447000000",
+        "estimatedFundingFormatted": "1,447,000,000",
+        "awardCeiling": "50000000",
+        "awardCeilingFormatted": "50,000,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Eligible applicants under the FY25 Disaster program include a(n): District organization of an EDA-designated Economic Development District (EDD); Indian tribe or a consortium of Indian tribes; State, county, city, or other political subdivision of a state, including a special purpose unit of a state or local government engaged in economic or infrastructure development activities, or a consortium of political subdivisions, institution of higher education or a consortium of institutions of higher education;  public or private nonprofit organization or association acting in cooperation with officials of a political subdivision of a state; an economic development organization; or a public-private partnership for public infrastructure. EDA is not authorized to provide grants or cooperative agreements to individuals or for-profit entities under this NOFO. Applications from individuals or for-profit entities will not be considered for funding.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Jul 21, 2025 11:32:01 AM EDT",
+        "modComments": "update maximum grant value",
+        "createdDate": "Jun 02, 2025 10:36:25 AM EDT",
+        "lastUpdatedDate": "Jun 04, 2025 04:29:26 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "postingDateStr": "2025-06-04-00-00-00",
+        "createTimeStampStr": "2025-07-21-11-32-01"
+      },
+      "agencyDetails": {
+        "code": "EDA",
+        "seed": "DOC-EDA",
+        "agencyName": "Economic Development Administration",
+        "agencyCode": "DOC-EDA",
+        "topAgencyCode": "DOC"
+      },
+      "topAgencyDetails": {
+        "code": "DOC",
+        "seed": "DOC",
+        "agencyName": "Department of Commerce",
+        "agencyCode": "DOC",
+        "topAgencyCode": "DOC"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 77789,
+          "opportunityId": 359225,
+          "folderType": "Full Announcement",
+          "folderName": "NOFO",
+          "zipLobSize": 792665,
+          "createdDate": "Jun 03, 2025 10:05:56 AM EDT",
+          "lastUpdatedDate": "Jul 21, 2025 11:32:01 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 348021,
+              "opportunityId": 359225,
+              "mimeType": "application/pdf",
+              "fileName": "EDA FY25 Disaster Supplemental NOFO.pdf",
+              "fileDescription": "EDA FY25 Disaster Supplemental NOFO",
+              "fileLobSize": 825125,
+              "createdDate": "Jun 04, 2025 09:52:36 AM EDT",
+              "lastUpdatedDate": "Jul 21, 2025 11:32:01 AM EDT",
+              "synopsisAttFolderId": 77789
+            }
+          ]
+        },
+        {
+          "id": 77790,
+          "opportunityId": 359225,
+          "folderType": "Full Announcement",
+          "folderName": "Related Documents",
+          "zipLobSize": 4191025,
+          "createdDate": "Jun 03, 2025 10:06:08 AM EDT",
+          "lastUpdatedDate": "Jun 04, 2025 04:59:56 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 347982,
+              "opportunityId": 359225,
+              "mimeType": "application/pdf",
+              "fileName": "CD511-V1.1.pdf",
+              "fileDescription": "CD-511",
+              "fileLobSize": 433061,
+              "createdDate": "Jun 03, 2025 11:54:30 AM EDT",
+              "synopsisAttFolderId": 77790
+            },
+            {
+              "id": 347983,
+              "opportunityId": 359225,
+              "mimeType": "application/pdf",
+              "fileName": "ED_900B_2_1-V2.1.pdf",
+              "fileDescription": "ED-900B",
+              "fileLobSize": 162815,
+              "createdDate": "Jun 03, 2025 11:54:46 AM EDT",
+              "synopsisAttFolderId": 77790
+            },
+            {
+              "id": 347984,
+              "opportunityId": 359225,
+              "mimeType": "application/pdf",
+              "fileName": "ED_900C_1_2-V1.2.pdf",
+              "fileDescription": "ED-900C",
+              "fileLobSize": 308141,
+              "createdDate": "Jun 03, 2025 11:55:00 AM EDT",
+              "synopsisAttFolderId": 77790
+            },
+            {
+              "id": 347985,
+              "opportunityId": 359225,
+              "mimeType": "application/pdf",
+              "fileName": "ED_900D_1_1-V1.1.pdf",
+              "fileDescription": "ED-900D",
+              "fileLobSize": 145625,
+              "createdDate": "Jun 03, 2025 11:55:13 AM EDT",
+              "synopsisAttFolderId": 77790
+            },
+            {
+              "id": 347986,
+              "opportunityId": 359225,
+              "mimeType": "application/pdf",
+              "fileName": "ED_900E_1_1-V1.1.pdf",
+              "fileDescription": "ED-900E",
+              "fileLobSize": 551672,
+              "createdDate": "Jun 03, 2025 11:55:28 AM EDT",
+              "synopsisAttFolderId": 77790
+            },
+            {
+              "id": 347987,
+              "opportunityId": 359225,
+              "mimeType": "application/pdf",
+              "fileName": "ED_900F_1_1-V1.1.pdf",
+              "fileDescription": "ED-900F",
+              "fileLobSize": 154440,
+              "createdDate": "Jun 03, 2025 11:55:39 AM EDT",
+              "synopsisAttFolderId": 77790
+            },
+            {
+              "id": 347981,
+              "opportunityId": 359225,
+              "mimeType": "application/pdf",
+              "fileName": "ED_900_GA_1_2-V1.2 (1).pdf",
+              "fileDescription": "ED-900GA",
+              "fileLobSize": 278496,
+              "createdDate": "Jun 03, 2025 11:54:17 AM EDT",
+              "synopsisAttFolderId": 77790
+            },
+            {
+              "id": 347988,
+              "opportunityId": 359225,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "Environmental-Narrative-Template-and-Application-Certification-Clause_2025.docx",
+              "fileDescription": "Environmental Narrative and Applicant Certification Clause",
+              "fileLobSize": 55569,
+              "createdDate": "Jun 03, 2025 11:56:00 AM EDT",
+              "lastUpdatedDate": "Jun 04, 2025 04:59:56 PM EDT",
+              "synopsisAttFolderId": 77790
+            },
+            {
+              "id": 347970,
+              "opportunityId": 359225,
+              "mimeType": "application/pdf",
+              "fileName": "SF424_4_0-V4.0.pdf",
+              "fileDescription": "SF-424",
+              "fileLobSize": 147894,
+              "createdDate": "Jun 03, 2025 10:14:53 AM EDT",
+              "synopsisAttFolderId": 77790
+            },
+            {
+              "id": 347979,
+              "opportunityId": 359225,
+              "mimeType": "application/pdf",
+              "fileName": "SF424A-V1.0.pdf",
+              "fileDescription": "SF-424A",
+              "fileLobSize": 134775,
+              "createdDate": "Jun 03, 2025 11:35:29 AM EDT",
+              "synopsisAttFolderId": 77790
+            },
+            {
+              "id": 347980,
+              "opportunityId": 359225,
+              "mimeType": "application/pdf",
+              "fileName": "SF424C_2_0-V2.0.pdf",
+              "fileDescription": "SF-424C",
+              "fileLobSize": 1823782,
+              "createdDate": "Jun 03, 2025 11:53:57 AM EDT",
+              "synopsisAttFolderId": 77790
+            },
+            {
+              "id": 347989,
+              "opportunityId": 359225,
+              "mimeType": "application/pdf",
+              "fileName": "SF424D-V1.1.pdf",
+              "fileDescription": "SF-424D",
+              "fileLobSize": 66458,
+              "createdDate": "Jun 03, 2025 11:56:13 AM EDT",
+              "synopsisAttFolderId": 77790
+            },
+            {
+              "id": 347990,
+              "opportunityId": 359225,
+              "mimeType": "application/pdf",
+              "fileName": "SFLLL_2_0-V2.0.pdf",
+              "fileDescription": "SF-LLL",
+              "fileLobSize": 101019,
+              "createdDate": "Jun 03, 2025 11:56:25 AM EDT",
+              "synopsisAttFolderId": 77790
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 428736,
+          "opportunityId": 359225,
+          "cfdaNumber": "11.307",
+          "programTitle": "Economic Adjustment Assistance"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 359225,
+            "revision": 0
+          },
+          "opportunityId": 359225,
+          "revision": 0,
+          "opportunityNumber": "EDA-DISASTER-2025",
+          "opportunityTitle": "EDA FY25 Disaster Supplemental",
+          "owningAgencyCode": "DOC-EDA",
+          "publisherUid": "rileymoleary",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 359225,
+              "revision": 0
+            },
+            "opportunityId": 359225,
+            "revision": 0,
+            "version": 5,
+            "agencyCode": "DOC-EDA",
+            "agencyAddressDesc": "EDA's contact page",
+            "agencyDetails": {
+              "code": "EDA",
+              "seed": "DOC-EDA",
+              "agencyName": "Economic Development Administration",
+              "agencyCode": "DOC-EDA",
+              "topAgencyCode": "DOC"
+            },
+            "agencyContactPhone": "2068883391",
+            "agencyContactName": "Riley Oleary\nPolicy Analyst",
+            "agencyContactDesc": "Contact EDR:\r\nhttps://www.eda.gov/about/contact?q=/contact",
+            "agencyContactEmail": "https://www.eda.gov/about/contact?q=/contact",
+            "agencyContactEmailDesc": "EDA's contact page",
+            "synopsisDesc": "<p><span style=\"color: rgb(19, 54, 92);\">Through this Disaster NOFO, EDA will award investments in regions experiencing severe economic distress or other economic harm resulting from hurricanes, wildfires, tornadoes, floods, and other natural disasters occurring in calendar years 2023 and 2024. EDA’s goal under this NOFO is to assist communities recovering from a disaster by realizing opportunities to recover and change the economic trajectory of the community for the better. In other words, EDA funding seeks to help communities recover and set them on a path to exceed their previous pre-disaster baseline. EDA seeks projects that are responsive to community needs post-disaster by engaging all aspects of the community, with special focus on private industry partners. </span></p>\n<p><br></p>\n<p><span style=\"color: rgb(19, 54, 92);\">This Disaster NOFO provides funding through three pathways:</span></p>\n<p><br></p>\n<p><span style=\"color: rgb(19, 54, 92);\">Readiness Path – Standalone non-construction projects designed to increase a community’s readiness to apply for or implement disaster recovery funding from private and public sources including, but not limited to, future EDA NOFOs and the Implementation or Industry Transformation Paths under this NOFO. Projects will fund strategy development, capacity building, and/or predevelopment costs necessary for future recovery projects.</span></p>\n<p><br></p>\n<p><span style=\"color: rgb(19, 54, 92);\">Implementation Path – Standalone construction or non-construction projects designed to address the economic challenges faced by a community recovering from a natural disaster and improve economic trajectories beyond pre-disaster economic conditions.</span></p>\n<p><br></p>\n<p><span style=\"color: rgb(19, 54, 92);\">Industry Transformation Path – Led by a coalition of regional stakeholders, a portfolio of large-scale, multicomponent construction and non-construction projects designed to fundamentally transform the economic trajectory of a region through the development or acceleration of an industry.</span></p>",
+            "responseDateDesc": "There are no submission deadlines. Applications will be accepted on an ongoing basis until the publication of a new Disaster Supplemental NOFO, cancellation of this Disaster Supplemental NOFO or all available funds have been expended.",
+            "fundingDescLinkUrl": "https://sfgrants.eda.gov/s/",
+            "fundingDescLinkDesc": "EDA's Grant Application Portal",
+            "postingDate": "Jun 04, 2025 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "Economic Development and Recovery - Subject to the availability of funds, awards made under this NOFO will help communities and regions devise and implement long-term economic recovery strategies through a variety of non-construction and construction projects, as appropriate, to address economic challenges in areas where a Presidential declaration of a major disaster was issued.",
+            "costSharing": true,
+            "estimatedFunding": "1447000000",
+            "estimatedFundingFormatted": "1,447,000,000",
+            "awardCeiling": "30000000",
+            "awardCeilingFormatted": "30,000,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Eligible applicants under the FY25 Disaster program include a(n): District organization of an EDA-designated Economic Development District (EDD); Indian tribe or a consortium of Indian tribes; State, county, city, or other political subdivision of a state, including a special purpose unit of a state or local government engaged in economic or infrastructure development activities, or a consortium of political subdivisions, institution of higher education or a consortium of institutions of higher education;  public or private nonprofit organization or association acting in cooperation with officials of a political subdivision of a state; an economic development organization; or a public-private partnership for public infrastructure. EDA is not authorized to provide grants or cooperative agreements to individuals or for-profit entities under this NOFO. Applications from individuals or for-profit entities will not be considered for funding.",
+            "createTimeStamp": "Jun 04, 2025 09:53:54 AM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Jun 04, 2025 04:29:26 PM EDT",
+            "createdDate": "Jun 02, 2025 10:36:25 AM EDT",
+            "lastUpdatedDate": "Jun 04, 2025 09:53:54 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "postingDateStr": "2025-06-04-00-00-00",
+            "createTimeStampStr": "2025-06-04-09-53-54"
+          },
+          "cfdas": [
+            {
+              "id": 428736,
+              "opportunityId": 359225,
+              "revision": 0,
+              "cfdaNumber": "11.307",
+              "programTitle": "Economic Adjustment Assistance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "There are no submission deadlines. Applications will be accepted on an ongoing basis until the publication of a new Disaster Supplemental NOFO, cancellation of this Disaster Supplemental NOFO or all available funds have been expended.",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "awardCeiling",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

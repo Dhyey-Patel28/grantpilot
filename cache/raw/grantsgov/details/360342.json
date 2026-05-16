@@ -1,0 +1,1153 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360342",
+  "fetched_at": "2026-05-16T14:08:13.854Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImFGaElPZ3RNTkp2Um1tUTd6YkN6RUwzWHFZSnc4dEhPcC8vRHlucmtKZk09Ig.bgxHiwhVcaHHP_7y-cTRIgXzeCMKiZKfYAHn4rCR41Q",
+    "data": {
+      "id": 360342,
+      "revision": 6,
+      "opportunityNumber": "CDC-RFA-JG-26-0056",
+      "opportunityTitle": "Strengthening Global Health Security by improving public health capacity to detect, notify, and respond to disease outbreaks globally",
+      "owningAgencyCode": "HHS-CDC-GHC",
+      "listed": "L",
+      "publisherUid": "21075984081049386526321738257390910592",
+      "modifiedComments": "The estimated publication date has been revised from March 3, 2026 to April  24, 2026.  The application deadline has been updated from May 3, 2026 to June 25, 2026.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "GHC",
+        "seed": "HHS-CDC-GHC",
+        "agencyName": "Centers for Disease Control-GHC",
+        "agencyCode": "HHS-CDC-GHC",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 360342,
+        "version": 7,
+        "postingDate": "Aug 22, 2025 12:00:00 AM EDT",
+        "archiveDate": "Jul 25, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>This Notice of Funding Opportunity (NOFO) seeks to build upon activities funded by CDC to support Global Health Security (GHS) through implementation of programs and activities that focus on protecting and improving health globally through partnerships with Ministries of Health and other governmental institutions. This NOFO will build on lessons learned from the global COVID outbreak and other significant public health events. After ten years of implementing and strengthening global health security systems, the U.S. Government (USG) will continue to advance strategies to prevent, detect, and respond to public health threats. This NOFO's main outcomes are to: 1) Improve prevention of avoidable epidemics including naturally occurring outbreaks and intentional or accidental releases of dangerous pathogens; 2) Improve ability to rapidly detect threats early, including detecting characterizing, and reporting emerging biological threats; 3) Responding rapidly and effectively to public health threats of international concern.</p>",
+        "costSharing": false,
+        "numberOfAwards": "8",
+        "estimatedFunding": "75000000",
+        "awardCeiling": "0",
+        "awardFloor": "0",
+        "agencyContactName": "Broderick Yoerg",
+        "agencyContactPhone": "404.234.0666",
+        "agencyContactEmail": "DGHPNOFOs@cdc.gov",
+        "agencyContactEmailDesc": "DGHPNOFOs@cdc.gov",
+        "agencyCode": "HHS-CDC-GHC",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "N/A",
+        "estSynopsisPostingDate": "Apr 24, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jun 25, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+        "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "The estimated publication date has been revised from March 3, 2026 to April  24, 2026.  The application deadline has been updated from May 3, 2026 to June 25, 2026.",
+        "createTimeStamp": "Mar 12, 2026 05:59:06 PM EDT",
+        "createdDate": "Aug 22, 2025 05:04:44 PM EDT",
+        "lastUpdatedDate": "Mar 12, 2026 05:59:06 PM EDT",
+        "agencyDetails": {
+          "code": "GHC",
+          "seed": "HHS-CDC-GHC",
+          "agencyName": "Centers for Disease Control-GHC",
+          "agencyCode": "HHS-CDC-GHC",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "75,000,000",
+        "awardCeilingFormatted": "0",
+        "awardFloorFormatted": "0",
+        "applicantTypes": [
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-08-22-00-00-00",
+        "archiveDateStr": "2026-07-25-00-00-00",
+        "estSynopsisPostingDateStr": "2026-04-24-00-00-00",
+        "estApplicationResponseDateStr": "2026-06-25-00-00-00",
+        "estAwardDateStr": "2026-08-31-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-03-12-17-59-06"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 430604,
+          "opportunityId": 360342,
+          "cfdaNumber": "93.318",
+          "programTitle": "Protecting and Improving Health Globally: Building and Strengthening Public Health Impact, Systems, Capacity and Security"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 360342,
+            "revision": 0
+          },
+          "opportunityId": 360342,
+          "revision": 0,
+          "opportunityNumber": "CDC-RFA-JG-26-0056",
+          "opportunityTitle": "Continuing to Enhance Global Health Security: Sustain Efforts and Strategies to Protect and Improve Public Health Globally",
+          "owningAgencyCode": "HHS-CDC-GHC",
+          "publisherUid": "6276468772116399212211019013632420038",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360342,
+              "revision": 0
+            },
+            "opportunityId": 360342,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Aug 22, 2025 12:00:00 AM EDT",
+            "archiveDate": "Feb 01, 2026 12:00:00 AM EST",
+            "forecastDesc": "<p>This Notice of Funding Opportunity (NOFO) seeks to build upon activities funded by CDC to support Global Health Security (GHS) through implementation of programs and activities that focus on protecting and improving health globally through partnerships with Ministries of Health and other governmental institutions. This NOFO will build on lessons learned from the global COVID outbreak and other significant public health events. After ten years of implementing and strengthening global health security systems, the U.S. Government (USG) will continue to advance strategies to prevent, detect, and respond to public health threats. This NOFO's main outcomes are to: 1) Improve prevention of avoidable epidemics including naturally occurring outbreaks and intentional or accidental releases of dangerous pathogens; 2) Improve ability to rapidly detect threats early, including detecting characterizing, and reporting emerging biological threats; 3) Responding rapidly and effectively to public health threats of international concern.</p>",
+            "costSharing": false,
+            "numberOfAwards": "8",
+            "estimatedFunding": "75000000",
+            "awardCeiling": "0",
+            "awardFloor": "0",
+            "agencyContactName": "Broderick Yoerg",
+            "agencyContactPhone": "404.234.0666",
+            "agencyContactEmail": "DGHPNOFOs@cdc.gov",
+            "agencyContactEmailDesc": "DGHPNOFOs@cdc.gov",
+            "agencyCode": "HHS-CDC-GHC",
+            "applicantEligibilityDesc": "N/A",
+            "estSynopsisPostingDate": "Nov 03, 2025 12:00:00 AM EST",
+            "estApplicationResponseDate": "Jan 02, 2026 12:00:00 AM EST",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Aug 22, 2025 05:04:44 PM EDT",
+            "actionType": "U",
+            "actionDate": "Dec 10, 2025 05:30:53 PM EST",
+            "createdDate": "Aug 22, 2025 05:04:44 PM EDT",
+            "lastUpdatedDate": "Aug 22, 2025 05:04:44 PM EDT",
+            "agencyDetails": {
+              "code": "GHC",
+              "seed": "HHS-CDC-GHC",
+              "agencyName": "Centers for Disease Control-GHC",
+              "agencyCode": "HHS-CDC-GHC",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "75,000,000",
+            "awardCeilingFormatted": "0",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-08-22-00-00-00",
+            "archiveDateStr": "2026-02-01-00-00-00",
+            "estSynopsisPostingDateStr": "2025-11-03-00-00-00",
+            "estApplicationResponseDateStr": "2026-01-02-00-00-00",
+            "estAwardDateStr": "2026-08-31-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2025-08-22-17-04-44"
+          },
+          "cfdas": [
+            {
+              "id": 430604,
+              "opportunityId": 360342,
+              "revision": 5,
+              "cfdaNumber": "93.318",
+              "programTitle": "Protecting and Improving Health Globally: Building and Strengthening Public Health Impact, Systems, Capacity and Security"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360342,
+            "revision": 1
+          },
+          "opportunityId": 360342,
+          "revision": 1,
+          "opportunityNumber": "CDC-RFA-JG-26-0056",
+          "opportunityTitle": "Continuing to Enhance Global Health Security: Sustain Efforts and Strategies to Protect and Improve Public Health Globally",
+          "owningAgencyCode": "HHS-CDC-GHC",
+          "publisherUid": "6276468772116399212211019013632420038",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360342,
+              "revision": 1
+            },
+            "opportunityId": 360342,
+            "revision": 1,
+            "version": 2,
+            "postingDate": "Aug 22, 2025 12:00:00 AM EDT",
+            "archiveDate": "Apr 19, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>This Notice of Funding Opportunity (NOFO) seeks to build upon activities funded by CDC to support Global Health Security (GHS) through implementation of programs and activities that focus on protecting and improving health globally through partnerships with Ministries of Health and other governmental institutions. This NOFO will build on lessons learned from the global COVID outbreak and other significant public health events. After ten years of implementing and strengthening global health security systems, the U.S. Government (USG) will continue to advance strategies to prevent, detect, and respond to public health threats. This NOFO's main outcomes are to: 1) Improve prevention of avoidable epidemics including naturally occurring outbreaks and intentional or accidental releases of dangerous pathogens; 2) Improve ability to rapidly detect threats early, including detecting characterizing, and reporting emerging biological threats; 3) Responding rapidly and effectively to public health threats of international concern.</p>",
+            "costSharing": false,
+            "numberOfAwards": "8",
+            "estimatedFunding": "75000000",
+            "awardCeiling": "0",
+            "awardFloor": "0",
+            "agencyContactName": "Broderick Yoerg",
+            "agencyContactPhone": "404.234.0666",
+            "agencyContactEmail": "DGHPNOFOs@cdc.gov",
+            "agencyContactEmailDesc": "DGHPNOFOs@cdc.gov",
+            "agencyCode": "HHS-CDC-GHC",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "N/A",
+            "estSynopsisPostingDate": "Jan 19, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "Mar 20, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Please note the NOFO timeline has been updated due to the government shutdown.",
+            "createTimeStamp": "Dec 10, 2025 05:30:53 PM EST",
+            "actionType": "U",
+            "actionDate": "Dec 10, 2025 05:30:53 PM EST",
+            "createdDate": "Aug 22, 2025 05:04:44 PM EDT",
+            "lastUpdatedDate": "Dec 10, 2025 05:30:53 PM EST",
+            "agencyDetails": {
+              "code": "GHC",
+              "seed": "HHS-CDC-GHC",
+              "agencyName": "Centers for Disease Control-GHC",
+              "agencyCode": "HHS-CDC-GHC",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "75,000,000",
+            "awardCeilingFormatted": "0",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-08-22-00-00-00",
+            "archiveDateStr": "2026-04-19-00-00-00",
+            "estSynopsisPostingDateStr": "2026-01-19-00-00-00",
+            "estApplicationResponseDateStr": "2026-03-20-00-00-00",
+            "estAwardDateStr": "2026-08-31-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2025-12-10-17-30-53"
+          },
+          "cfdas": [
+            {
+              "id": 430604,
+              "opportunityId": 360342,
+              "revision": 5,
+              "cfdaNumber": "93.318",
+              "programTitle": "Protecting and Improving Health Globally: Building and Strengthening Public Health Impact, Systems, Capacity and Security"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360342,
+            "revision": 2
+          },
+          "opportunityId": 360342,
+          "revision": 2,
+          "opportunityNumber": "CDC-RFA-JG-26-0056",
+          "opportunityTitle": "Continuing to Enhance Global Health Security: Sustain Efforts and Strategies to Protect and Improve Public Health Globally",
+          "owningAgencyCode": "HHS-CDC-GHC",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Please note the NOFO timeline has been updated due to the government shutdown.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360342,
+              "revision": 2
+            },
+            "opportunityId": 360342,
+            "revision": 2,
+            "version": 3,
+            "postingDate": "Aug 22, 2025 12:00:00 AM EDT",
+            "archiveDate": "Apr 19, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>This Notice of Funding Opportunity (NOFO) seeks to build upon activities funded by CDC to support Global Health Security (GHS) through implementation of programs and activities that focus on protecting and improving health globally through partnerships with Ministries of Health and other governmental institutions. This NOFO will build on lessons learned from the global COVID outbreak and other significant public health events. After ten years of implementing and strengthening global health security systems, the U.S. Government (USG) will continue to advance strategies to prevent, detect, and respond to public health threats. This NOFO's main outcomes are to: 1) Improve prevention of avoidable epidemics including naturally occurring outbreaks and intentional or accidental releases of dangerous pathogens; 2) Improve ability to rapidly detect threats early, including detecting characterizing, and reporting emerging biological threats; 3) Responding rapidly and effectively to public health threats of international concern.</p>",
+            "costSharing": false,
+            "numberOfAwards": "8",
+            "estimatedFunding": "75000000",
+            "awardCeiling": "0",
+            "awardFloor": "0",
+            "agencyContactName": "Broderick Yoerg",
+            "agencyContactPhone": "404.234.0666",
+            "agencyContactEmail": "DGHPNOFOs@cdc.gov",
+            "agencyContactEmailDesc": "DGHPNOFOs@cdc.gov",
+            "agencyCode": "HHS-CDC-GHC",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "N/A",
+            "estSynopsisPostingDate": "Jan 19, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "Mar 20, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Please note the NOFO timeline has been updated due to the government shutdown.",
+            "createTimeStamp": "Dec 10, 2025 05:30:53 PM EST",
+            "actionType": "U",
+            "actionDate": "Jan 30, 2026 04:09:22 PM EST",
+            "createdDate": "Aug 22, 2025 05:04:44 PM EDT",
+            "lastUpdatedDate": "Dec 10, 2025 05:30:53 PM EST",
+            "agencyDetails": {
+              "code": "GHC",
+              "seed": "HHS-CDC-GHC",
+              "agencyName": "Centers for Disease Control-GHC",
+              "agencyCode": "HHS-CDC-GHC",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "75,000,000",
+            "awardCeilingFormatted": "0",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-08-22-00-00-00",
+            "archiveDateStr": "2026-04-19-00-00-00",
+            "estSynopsisPostingDateStr": "2026-01-19-00-00-00",
+            "estApplicationResponseDateStr": "2026-03-20-00-00-00",
+            "estAwardDateStr": "2026-08-31-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2025-12-10-17-30-53"
+          },
+          "cfdas": [
+            {
+              "id": 430604,
+              "opportunityId": 360342,
+              "revision": 5,
+              "cfdaNumber": "93.318",
+              "programTitle": "Protecting and Improving Health Globally: Building and Strengthening Public Health Impact, Systems, Capacity and Security"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360342,
+            "revision": 3
+          },
+          "opportunityId": 360342,
+          "revision": 3,
+          "opportunityNumber": "CDC-RFA-JG-26-0056",
+          "opportunityTitle": "Continuing to Enhance Global Health Security: Sustain Efforts and Strategies to Protect and Improve Public Health Globally",
+          "owningAgencyCode": "HHS-CDC-GHC",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Please note the NOFO timeline has been updated due to the government shutdown.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360342,
+              "revision": 3
+            },
+            "opportunityId": 360342,
+            "revision": 3,
+            "version": 4,
+            "postingDate": "Aug 22, 2025 12:00:00 AM EDT",
+            "archiveDate": "Jun 02, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>This Notice of Funding Opportunity (NOFO) seeks to build upon activities funded by CDC to support Global Health Security (GHS) through implementation of programs and activities that focus on protecting and improving health globally through partnerships with Ministries of Health and other governmental institutions. This NOFO will build on lessons learned from the global COVID outbreak and other significant public health events. After ten years of implementing and strengthening global health security systems, the U.S. Government (USG) will continue to advance strategies to prevent, detect, and respond to public health threats. This NOFO's main outcomes are to: 1) Improve prevention of avoidable epidemics including naturally occurring outbreaks and intentional or accidental releases of dangerous pathogens; 2) Improve ability to rapidly detect threats early, including detecting characterizing, and reporting emerging biological threats; 3) Responding rapidly and effectively to public health threats of international concern.</p>",
+            "costSharing": false,
+            "numberOfAwards": "8",
+            "estimatedFunding": "75000000",
+            "awardCeiling": "0",
+            "awardFloor": "0",
+            "agencyContactName": "Broderick Yoerg",
+            "agencyContactPhone": "404.234.0666",
+            "agencyContactEmail": "DGHPNOFOs@cdc.gov",
+            "agencyContactEmailDesc": "DGHPNOFOs@cdc.gov",
+            "agencyCode": "HHS-CDC-GHC",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "N/A",
+            "estSynopsisPostingDate": "Mar 02, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "May 03, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "The estimated publication date has been revised from January 19, 2026 to March 2, 2026.                                                                                                                          \nThe application deadline has been updated from March 20, 2025 to May 3, 2026.",
+            "createTimeStamp": "Jan 30, 2026 04:09:22 PM EST",
+            "actionType": "U",
+            "actionDate": "Jan 30, 2026 04:09:22 PM EST",
+            "createdDate": "Aug 22, 2025 05:04:44 PM EDT",
+            "lastUpdatedDate": "Jan 30, 2026 04:09:22 PM EST",
+            "agencyDetails": {
+              "code": "GHC",
+              "seed": "HHS-CDC-GHC",
+              "agencyName": "Centers for Disease Control-GHC",
+              "agencyCode": "HHS-CDC-GHC",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "75,000,000",
+            "awardCeilingFormatted": "0",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-08-22-00-00-00",
+            "archiveDateStr": "2026-06-02-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-02-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-03-00-00-00",
+            "estAwardDateStr": "2026-08-31-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-01-30-16-09-22"
+          },
+          "cfdas": [
+            {
+              "id": 430604,
+              "opportunityId": 360342,
+              "revision": 5,
+              "cfdaNumber": "93.318",
+              "programTitle": "Protecting and Improving Health Globally: Building and Strengthening Public Health Impact, Systems, Capacity and Security"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360342,
+            "revision": 4
+          },
+          "opportunityId": 360342,
+          "revision": 4,
+          "opportunityNumber": "CDC-RFA-JG-26-0056",
+          "opportunityTitle": "Continuing to Enhance Global Health Security: Sustain Efforts and Strategies to Protect and Improve Public Health Globally",
+          "owningAgencyCode": "HHS-CDC-GHC",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "The estimated publication date has been revised from January 19, 2026 to March 2, 2026.                                                                                                                          \nThe application deadline has been updated from March 20, 2025 to May 3, 2026.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360342,
+              "revision": 4
+            },
+            "opportunityId": 360342,
+            "revision": 4,
+            "version": 5,
+            "postingDate": "Aug 22, 2025 12:00:00 AM EDT",
+            "archiveDate": "Jun 02, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>This Notice of Funding Opportunity (NOFO) seeks to build upon activities funded by CDC to support Global Health Security (GHS) through implementation of programs and activities that focus on protecting and improving health globally through partnerships with Ministries of Health and other governmental institutions. This NOFO will build on lessons learned from the global COVID outbreak and other significant public health events. After ten years of implementing and strengthening global health security systems, the U.S. Government (USG) will continue to advance strategies to prevent, detect, and respond to public health threats. This NOFO's main outcomes are to: 1) Improve prevention of avoidable epidemics including naturally occurring outbreaks and intentional or accidental releases of dangerous pathogens; 2) Improve ability to rapidly detect threats early, including detecting characterizing, and reporting emerging biological threats; 3) Responding rapidly and effectively to public health threats of international concern.</p>",
+            "costSharing": false,
+            "numberOfAwards": "8",
+            "estimatedFunding": "75000000",
+            "awardCeiling": "0",
+            "awardFloor": "0",
+            "agencyContactName": "Broderick Yoerg",
+            "agencyContactPhone": "404.234.0666",
+            "agencyContactEmail": "DGHPNOFOs@cdc.gov",
+            "agencyContactEmailDesc": "DGHPNOFOs@cdc.gov",
+            "agencyCode": "HHS-CDC-GHC",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "N/A",
+            "estSynopsisPostingDate": "Mar 02, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "May 03, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "The estimated publication date has been revised from January 19, 2026 to March 2, 2026.                                                                                                                          \nThe application deadline has been updated from March 20, 2025 to May 3, 2026.",
+            "createTimeStamp": "Jan 30, 2026 04:09:22 PM EST",
+            "actionType": "U",
+            "actionDate": "Mar 12, 2026 05:59:06 PM EDT",
+            "createdDate": "Aug 22, 2025 05:04:44 PM EDT",
+            "lastUpdatedDate": "Jan 30, 2026 04:09:22 PM EST",
+            "agencyDetails": {
+              "code": "GHC",
+              "seed": "HHS-CDC-GHC",
+              "agencyName": "Centers for Disease Control-GHC",
+              "agencyCode": "HHS-CDC-GHC",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "75,000,000",
+            "awardCeilingFormatted": "0",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-08-22-00-00-00",
+            "archiveDateStr": "2026-06-02-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-02-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-03-00-00-00",
+            "estAwardDateStr": "2026-08-31-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-01-30-16-09-22"
+          },
+          "cfdas": [
+            {
+              "id": 430604,
+              "opportunityId": 360342,
+              "revision": 5,
+              "cfdaNumber": "93.318",
+              "programTitle": "Protecting and Improving Health Globally: Building and Strengthening Public Health Impact, Systems, Capacity and Security"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 360342,
+            "revision": 5
+          },
+          "opportunityId": 360342,
+          "revision": 5,
+          "opportunityNumber": "CDC-RFA-JG-26-0056",
+          "opportunityTitle": "Continuing to Enhance Global Health Security: Sustain Efforts and Strategies to Protect and Improve Public Health Globally",
+          "owningAgencyCode": "HHS-CDC-GHC",
+          "publisherUid": "21075984081049386526321738257390910592",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "The estimated publication date has been revised from January 19, 2026 to March 2, 2026.                                                                                                                          \nThe application deadline has been updated from March 20, 2025 to May 3, 2026.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 360342,
+              "revision": 5
+            },
+            "opportunityId": 360342,
+            "revision": 5,
+            "version": 6,
+            "postingDate": "Aug 22, 2025 12:00:00 AM EDT",
+            "archiveDate": "Jul 25, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>This Notice of Funding Opportunity (NOFO) seeks to build upon activities funded by CDC to support Global Health Security (GHS) through implementation of programs and activities that focus on protecting and improving health globally through partnerships with Ministries of Health and other governmental institutions. This NOFO will build on lessons learned from the global COVID outbreak and other significant public health events. After ten years of implementing and strengthening global health security systems, the U.S. Government (USG) will continue to advance strategies to prevent, detect, and respond to public health threats. This NOFO's main outcomes are to: 1) Improve prevention of avoidable epidemics including naturally occurring outbreaks and intentional or accidental releases of dangerous pathogens; 2) Improve ability to rapidly detect threats early, including detecting characterizing, and reporting emerging biological threats; 3) Responding rapidly and effectively to public health threats of international concern.</p>",
+            "costSharing": false,
+            "numberOfAwards": "8",
+            "estimatedFunding": "75000000",
+            "awardCeiling": "0",
+            "awardFloor": "0",
+            "agencyContactName": "Broderick Yoerg",
+            "agencyContactPhone": "404.234.0666",
+            "agencyContactEmail": "DGHPNOFOs@cdc.gov",
+            "agencyContactEmailDesc": "DGHPNOFOs@cdc.gov",
+            "agencyCode": "HHS-CDC-GHC",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "N/A",
+            "estSynopsisPostingDate": "Apr 24, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 25, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm ET on the listed application due date.",
+            "estAwardDate": "Aug 31, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "The estimated publication date has been revised from March 3, 2026 to April  24, 2026.  The application deadline has been updated from May 3, 2026 to June 25, 2026.",
+            "createTimeStamp": "Mar 12, 2026 05:59:06 PM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 12, 2026 05:59:06 PM EDT",
+            "createdDate": "Aug 22, 2025 05:04:44 PM EDT",
+            "lastUpdatedDate": "Mar 12, 2026 05:59:06 PM EDT",
+            "agencyDetails": {
+              "code": "GHC",
+              "seed": "HHS-CDC-GHC",
+              "agencyName": "Centers for Disease Control-GHC",
+              "agencyCode": "HHS-CDC-GHC",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "75,000,000",
+            "awardCeilingFormatted": "0",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-08-22-00-00-00",
+            "archiveDateStr": "2026-07-25-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-24-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-25-00-00-00",
+            "estAwardDateStr": "2026-08-31-00-00-00",
+            "estProjectStartDateStr": "2026-09-30-00-00-00",
+            "createTimeStampStr": "2026-03-12-17-59-06"
+          },
+          "cfdas": [
+            {
+              "id": 430604,
+              "opportunityId": 360342,
+              "revision": 5,
+              "cfdaNumber": "93.318",
+              "programTitle": "Protecting and Improving Health Globally: Building and Strengthening Public Health Impact, Systems, Capacity and Security"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version",
+        "opportunityTitle"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 6,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

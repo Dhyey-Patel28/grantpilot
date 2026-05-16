@@ -1,0 +1,225 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361613",
+  "fetched_at": "2026-05-16T14:09:02.307Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjIybFF1bXFqaEtMN1RGM20zUkJqV1N1ZEdTWWtYcjdsTWJ1ZG1qVmV0ZWs9Ig.xm81FPz_4P17FsU191LrZOD0sQvpMd9nUBPr823Fruo",
+    "data": {
+      "id": 361613,
+      "revision": 0,
+      "opportunityNumber": "G26AS00012",
+      "opportunityTitle": "The Educational Component of the National Cooperative Geologic Mapping Program",
+      "owningAgencyCode": "DOI-USGS1",
+      "listed": "L",
+      "publisherUid": "113080850824856438988185809190837265423",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361613,
+        "version": 1,
+        "agencyCode": "DOI-USGS1",
+        "agencyName": "Geological Survey",
+        "agencyPhone": "916-278-9331",
+        "agencyAddressDesc": "abrazil@usgs.gov",
+        "agencyDetails": {
+          "code": "USGS",
+          "seed": "DOI-USGS1",
+          "agencyName": "Geological Survey",
+          "agencyCode": "DOI-USGS1",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactPhone": "916-278-9331",
+        "agencyContactName": "Geological Survey",
+        "agencyContactDesc": "Amber Brazil\nabrazil@usgs.gov",
+        "agencyContactEmail": "abrazil@usgs.gov",
+        "agencyContactEmailDesc": "abrazil@usgs.gov",
+        "synopsisDesc": "The primary objective of the EDMAP component of the National Cooperative Geologic Mapping Program (NCGMP) is to train the next generation of geologic mappers. To do this, the NCGMP provides funds for graduate student and upper-level undergraduate student projects relevant to the creation of geologic maps (defined broadly as maps that characterize the solid Earth and/or its constituents). Through these cooperative agreements, the NCGMP hopes to expand the research and educational capacity of national academic programs that teach Earth science students the broad range of techniques relevant to geologic mapping and the analysis of field, geophysical, borehole, and remote sensing data. As of 2024, EDMAP has funded more than 1,501 students from more than 177 universities.  A list of funded FY2025 EDMAP projects can be found in Attachment D of this announcement. For more information about the USGS NCGMP EDMAP Program please visit: EDMAP | U.S. Geological Survey (usgs.gov) or email EDMAP@usgs.gov.",
+        "responseDate": "May 26, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 5:00 PM, ET, on the listed application due date.",
+        "postingDate": "Mar 24, 2026 12:00:00 AM EDT",
+        "archiveDate": "May 27, 2026 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "15",
+        "estimatedFunding": "1500000",
+        "estimatedFundingFormatted": "1,500,000",
+        "awardCeiling": "180000",
+        "awardCeilingFormatted": "180,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Additional Information on EligibilityProposals may be submitted by a faculty member (including adjunct faculty) affiliated with geoscience or related departments or programs at an accredited university or college in the United States. However, faculty or adjunct faculty members who are also employed by the Federal government may neither submit a proposal nor serve as PI or co-PI on an EDMAP project.Only one proposal will be accepted from an individual Principal Investigator (PI; faculty advisor). Multiple proposals can be accepted from a single institution if authored by different PIs. PIs may submit proposals containing multiple sub-projects (i.e., proposal can support multiple Primary Student Mappers) so long as a different geologic map deliverable is proposed for each project/Primary Student Mapper. The PI is required to write and submit the proposal.PIs that have been previously funded under EDMAP must comply with the requirements specified in the previous EDMAP award(s) and must be in good standing (i.e., no delinquent deliverables still pending on a previous award without a Program-approved extension). Additionally, a PI may only have two active EDMAP Projects at any given time. As an example to help clarify this &ndash; in order to be eligible for EDMAP funding in FY2026, a PI must have no more than one currently active EDMAP project at the time that FY2026 EDMAP funding decisions are made.EDMAP Primary Student Mappers should be graduate (Master&quot;s and Doctoral) students and/or upper level (junior and senior) undergraduate students. Graduate and undergraduate students must have received appropriate geoscience or related training prior to the time that they begin the proposed project.A Primary Student Mapper may be supported by no more than a total of 36 months of EDMAP funding or no more than three EDMAP awards during their academic career. Students may be funded on consecutive EDMAP awards, or a student may be supported by an EDMAP award from different institutions, degrees, or PIs. However, a given student is only eligible for 36 months of cumulative funding.An EDMAP request may not exceed $45,000 per 12 months for each Graduate Primary Student Mapper ($3,750 per month). An EDMAP request may not exceed $25,000 per 12 months for each Undergraduate Primary Student Mapper ($2,083 per month). An EDMAP award may not exceed 24 months ($90,000 maximum per Graduate Primary Student Mapper; $50,000 per Undergraduate Primary Student Mapper). These maximum requests include ALL associated costs: tuition, field work, laboratory analyses, stipend, etc.",
+        "createTimeStamp": "Mar 24, 2026 04:03:55 PM EDT",
+        "createdDate": "Mar 24, 2026 04:02:52 PM EDT",
+        "lastUpdatedDate": "Mar 24, 2026 04:02:52 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-05-26-00-00-00",
+        "postingDateStr": "2026-03-24-00-00-00",
+        "archiveDateStr": "2026-05-27-00-00-00",
+        "createTimeStampStr": "2026-03-24-16-03-55"
+      },
+      "agencyDetails": {
+        "code": "USGS",
+        "seed": "DOI-USGS1",
+        "agencyName": "Geological Survey",
+        "agencyCode": "DOI-USGS1",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79052,
+          "opportunityId": 361613,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 595912,
+          "createdDate": "Mar 24, 2026 04:03:38 PM EDT",
+          "lastUpdatedDate": "Mar 24, 2026 04:03:39 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350699,
+              "opportunityId": 361613,
+              "mimeType": "application/pdf",
+              "fileName": "FY26 EDMAP NOFO - FINAL.pdf",
+              "fileDescription": "FY26 EDMAP NOFO - FINAL.pdf",
+              "fileLobSize": 720132,
+              "createdDate": "Mar 24, 2026 04:03:39 PM EDT",
+              "synopsisAttFolderId": 79052
+            }
+          ]
+        },
+        {
+          "id": 79053,
+          "opportunityId": 361613,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Other Supporting Documents",
+          "zipLobSize": 20957,
+          "createdDate": "Mar 24, 2026 04:03:54 PM EDT",
+          "lastUpdatedDate": "Mar 24, 2026 04:03:55 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350700,
+              "opportunityId": 361613,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "ENTIRE PROPOSAL BUDGET- Template EDMAP.docx",
+              "fileDescription": "ENTIRE PROPOSAL BUDGET- Template EDMAP.docx",
+              "fileLobSize": 23839,
+              "createdDate": "Mar 24, 2026 04:03:55 PM EDT",
+              "synopsisAttFolderId": 79053
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432367,
+          "opportunityId": 361613,
+          "cfdaNumber": "15.810",
+          "programTitle": "National Cooperative Geologic Mapping"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292185,
+          "topportunityId": 361613,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "G26AS00012",
+          "opportunityTitle": "The Educational Component of the National Cooperative Geologic Mapping Program",
+          "cfdaNumber": "15.810",
+          "openingDate": "2026-03-24",
+          "closingDate": "2026-05-26",
+          "owningAgencyCode": "DOI-USGS1",
+          "agencyDetails": {
+            "code": "USGS",
+            "seed": "DOI-USGS1",
+            "agencyName": "Geological Survey",
+            "agencyCode": "DOI-USGS1",
+            "topAgencyCode": "DOI"
+          },
+          "topAgencyDetails": {
+            "code": "DOI",
+            "seed": "DOI",
+            "agencyName": "Department of the Interior",
+            "agencyCode": "DOI",
+            "topAgencyCode": "DOI"
+          },
+          "programTitle": "National Cooperative Geologic Mapping",
+          "contactInfo": "Amber Brazil",
+          "gracePeriod": 0,
+          "competitionId": "G26AS00012",
+          "competitionTitle": "The Educational Component of the National Cooperative Geologic Mapping Program",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 15,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 24, 2026 04:03:22 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292185",
+          "openingDateStr": "2026-03-24-00-00-00",
+          "closingDateStr": "2026-05-26-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 26, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 5:00 PM, ET, on the listed application due date.",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

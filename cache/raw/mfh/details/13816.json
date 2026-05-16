@@ -1,0 +1,34 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=13816",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=13816",
+  "website": "https://www.rd.usda.gov/programs-services/energy-programs/rural-energy-america-program-renewable-energy-systems-energy-efficiency-improvement-guaranteed-loans-20",
+  "grant_id": "13816",
+  "title": "Rural Energy for America Program Renewable Energy Systems & Energy Efficiency Improvement Grants in Michigan",
+  "overview": "Goal/purpose: The Rural Energy for America Program (REAP) provides grants, guaranteed loans, and combined grant and guaranteed loan combinations to help agricultural producers and rural small businesses reduce energy costs and consumption and helps meet the Nation's critical energy needs.Additional applicant eligibility criteria: Applicants must be agricultural producers or rural small businesses. Any project proposing to produce, procure, supply or market any component of the hemp plant or hemp related by-products must have a valid license from an approved state, Tribal or Federal plan.Project eligibility: Eligible projects include renewable energy systems (RES), energy efficiency improvements (EEI), energy audits (EA), and renewable energy development assistance (REDA). Projects must address all environmental considerations specific to the project in accordance with 7 CFR part 1970.Application process: Applicants must submit one original, hardcopy or electronic application to the appropriate RD Energy Coordinator for the State where the applicant's proposed project will be located, or via grants.gov. Applications compete in quarterly windows, with the final window for FY 2024 closing on September 30, 2024. Show More",
+  "additional_info": "Posted Date: March 31, 2023 Application Due Date: Not Specified Estimated Award Date: Not Specified Eligible Applicants: Small businessesOthers Show More",
+  "eligible_applicants": [
+    "Small businessesOthers"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "agriculture",
+    "energy",
+    "environment",
+    "public_safety"
+  ],
+  "due_date": "",
+  "agency": "Michigan USDA-RD",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:23.872Z",
+  "content_hash": "0d4947245c8003cf1a047543c05a74f8e64084c0cd3b8fb36b88f03267782688",
+  "from_cache": false
+}

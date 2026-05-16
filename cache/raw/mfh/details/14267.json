@@ -1,0 +1,31 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=14267",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=14267",
+  "website": "https://www.michigan.gov/dnr/buy-and-apply/grants/rec/snowmo-trails",
+  "grant_id": "14267",
+  "title": "Snowmobile Trail Improvement Fund - Recreational Snowmobile Trail Grant",
+  "overview": "The purpose of the Snowmobile Trail Improvement Fund Grant program is to provide financial assistance to local units of government and incorporated nonprofit groups for the development and maintenance of snowmobile trails and facilities as a part of a designated statewide Snowmobile Trail system.Additional applicant eligibility criteria: Trail sponsors must have their own equipment for maintaining trails. If a trail is not on public property, a trail sponsor must be able to obtain a trail right-of-way that is open to public snowmobiling in an area that receives adequate snowfall from December through March.Project eligibility: Funds are available for seasonal grooming and general maintenance (grooming, signing, brushing), special maintenance projects (bridge construction/repairs, erosion control, culvert replacement, trail relocation), and replacement of equipment used for maintaining trails.Application process: Applications are made available in late spring and are due by July 1. The Department reviews applications and selects projects to be funded. Grant agreements are issued to sponsors in October for the upcoming snowmobile season. Show More",
+  "additional_info": "Posted Date: September 12, 2025 Application Due Date: July 1, 2026 Estimated Award Date: Not Specified Eligible Applicants: City or township governmentsCounty governmentsNonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education Show More",
+  "eligible_applicants": [
+    "City or township governmentsCounty governmentsNonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "transportation"
+  ],
+  "due_date": "",
+  "agency": "Michigan Department of Natural Resources",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:24:46.395Z",
+  "content_hash": "a4cab0b9b2a73132758944b9c39023fbd63ad25612766059ea764db9c6838d2e",
+  "from_cache": false
+}

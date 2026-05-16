@@ -1,0 +1,178 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360398",
+  "fetched_at": "2026-05-16T14:08:16.312Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImFGaElPZ3RNTkp2Um1tUTd6YkN6RUx1c1ZkdzA1Q0ZhWk9vNGF5cXhJUDQ9Ig.sewxpV9zm_aw3KSUHRLgA7XB9VQgcSnHF5rgadzxoIY",
+    "data": {
+      "id": 360398,
+      "revision": 0,
+      "opportunityNumber": "RFA-NS-26-011",
+      "opportunityTitle": "BRAIN Initiative: Integrative Team-Research BRAIN Circuits Program - iTeamBCP (RM1 Clinical Trial Optional)",
+      "owningAgencyCode": "HHS-NIH11",
+      "publisherUid": "85078824959489933389587371192040018034",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "NIH",
+        "seed": "HHS-NIH11",
+        "agencyName": "National Institutes of Health",
+        "agencyCode": "HHS-NIH11",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 360398,
+        "version": 1,
+        "postingDate": "Aug 28, 2025 12:00:00 AM EDT",
+        "forecastDesc": "<p>The National Institute of Neurological Disorders and Stroke (NINDS), with other NIH Institutes and Centers (ICs), the National Eye Institute (NEI), National Institute on Aging (NIA), National Institute on Alcohol Abuse and Alcoholism (NIAAA), National Institute of Biomedical Imaging and Bioengineering (NIBIB), Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD), National Institute on Deafness and Other Communication Disorders (NIDCD), National Institute on Drug Abuse (NIDA) National Institute of Mental Health (NIMH), National Center for Complementary and Integrative Health (NCCIH), and Office of Behavioral and Social Sciences Research (OBSSR), intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications from teams to&nbsp;understand how the nervous system, from its individual components to its unified whole, gives rise to mental experience and behavior.&nbsp;Teams must integrate distinct expertise of 3-6 PDs/PIs to&nbsp;deliver fundamental principles about central nervous system (CNS) function&nbsp;through theories, models, and approaches that bridge cells, circuits, behavior. Applications must connect these 3 levels of analysis: (1)&nbsp;rich large-scale information about circuit components (e.g., cell types, connectivity), (2) in vivo CNS recordings at cellular and sub-second and temporal resolution, (3) along with analyses of a tractable behavior of an organism or a well-defined neural system. Projects may also include the development of tools and approaches to surmount key research roadblocks. Experimental systems should be chosen for their potential to optimize integrative approaches and reveal generalizable, multi-scale principles about CNS computations underlying function and behavior. Applications are not being solicited at this time. Notice is being provided to allow potential applicants sufficient time to develop meaningful collaborations and responsive projects.&nbsp; This NOFO will utilize the RM1 activity code. Investigators with expertise and insights into this area of integrative systems neuroscience are encouraged to begin to consider applying for this new NOFO. In addition, collaborative investigations from newly formed or established teams, combining expertise in molecular, cellular, systems, behavioral, computational, and theoretical neuroscience, as well as in engineering, data science, mathematics, physics, and statistics, as appropriate, will be encouraged and these investigators should also begin considering applying for this application.&nbsp;</p>",
+        "costSharing": false,
+        "agencyContactName": "Karen K. David, PhD",
+        "agencyContactPhone": "240-328-3447",
+        "agencyContactEmail": "BRAINCircuits@NIH.GOV",
+        "agencyContactEmailDesc": "BRAINCircuits@NIH.GOV",
+        "agencyCode": "HHS-NIH11",
+        "applicantEligibilityDesc": "Other Eligible ApplicantsIndian/Native American Tribal Governments (Other than Federally Recognized);Eligible Agencies of the Federal Government;U.S. Territory or Possession;Faith-based or Community-based Organizations;Regional Organizations;Non-domestic (non-U.S.) Entities (Foreign Institutions).",
+        "estSynopsisPostingDate": "Feb 04, 2026 12:00:00 AM EST",
+        "estApplicationResponseDate": "Jun 16, 2026 12:00:00 AM EDT",
+        "estAwardDate": "Apr 01, 2027 12:00:00 AM EDT",
+        "estProjectStartDate": "Apr 01, 2027 12:00:00 AM EDT",
+        "fiscalYear": 2027,
+        "createTimeStamp": "Aug 28, 2025 03:27:29 PM EDT",
+        "createdDate": "Aug 28, 2025 03:27:29 PM EDT",
+        "lastUpdatedDate": "Aug 28, 2025 03:27:29 PM EDT",
+        "agencyDetails": {
+          "code": "NIH",
+          "seed": "HHS-NIH11",
+          "agencyName": "National Institutes of Health",
+          "agencyCode": "HHS-NIH11",
+          "topAgencyCode": "HHS"
+        },
+        "applicantTypes": [
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-08-28-00-00-00",
+        "estSynopsisPostingDateStr": "2026-02-04-00-00-00",
+        "estApplicationResponseDateStr": "2026-06-16-00-00-00",
+        "estAwardDateStr": "2027-04-01-00-00-00",
+        "estProjectStartDateStr": "2027-04-01-00-00-00",
+        "createTimeStampStr": "2025-08-28-15-27-29"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 430753,
+          "opportunityId": 360398,
+          "cfdaNumber": "93.372",
+          "programTitle": "21st Century Cures Act -\tBrain Research through Advancing Innovative Neurotechnologies"
+        },
+        {
+          "id": 430752,
+          "opportunityId": 360398,
+          "cfdaNumber": "93.853",
+          "programTitle": "Extramural Research Programs in the Neurosciences and Neurological Disorders"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

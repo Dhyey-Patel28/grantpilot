@@ -1,60 +1,125 @@
-# GrantPilot MI — Compact Real-Data Pipeline
+# GrantPilot MI — Auto Cache Pipeline
 
-This compact version does NOT run a 1,301-ID MI Funding Hub sweep.
+This version gives you a **one-command public grant data refresh pipeline**.
 
-It uses:
-1. Grants.gov public `search2` / `fetchOpportunity` endpoints
-2. Exact MI Funding Hub URLs you manually place in `data/mfh_urls_real.txt`
-3. No curated/mock seed data
+It fetches and caches public grant data from configured sources, adds timestamps, normalizes records, deduplicates, and writes a data-health report.
 
-## File structure
+## What this does
 
-```
-GrantPilot/
-  requirements.txt
-  run_all_real.py
-  data/
-    keywords.txt
-    mfh_urls_real.txt
-    project_profile.json
-  scripts/
-    01_fetch_grantsgov_no_key.py
-    02_scrape_mfh_known_urls.py
-    03_normalize_score_real.py
-    04_generate_packet_real.py
-  outputs/
-```
+`npm run refresh` runs:
+
+1. Grants.gov public search across configured keywords.
+2. Grants.gov public opportunity-detail fetch.
+3. MI Funding Hub JavaScript discovery with Playwright.
+4. MI Funding Hub exact grant-page scraping for discovered/known URLs.
+5. Source registry update with `first_seen_at`, `last_seen_at`, `times_seen`, and content hashes.
+6. Normalize all real grant records into one schema.
+7. Write a data-health report.
+
+## Important honesty
+
+This fetches from **configured public sources**. It does not guarantee every grant on the internet. For the hackathon, say:
+
+> GrantPilot uses a source registry and refresh pipeline for public Grants.gov and MI Funding Hub data. In production, we would add additional agency connectors and official/licensed feeds where available.
 
 ## Setup
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
+npm install
+npm run setup:browser
 ```
 
-## Run everything
+## One-command refresh
+
+Full refresh:
 
 ```powershell
-python run_all_real.py
+npm run refresh
 ```
 
-## Run step-by-step
+Fast/debug refresh:
 
 ```powershell
-python scripts/01_fetch_grantsgov_no_key.py --keywords data/keywords.txt --out outputs/data_grants_gov_real.json --rows 15 --fetch-details
-python scripts/02_scrape_mfh_known_urls.py --urls data/mfh_urls_real.txt --out outputs/data_mfh_real.json
-python scripts/03_normalize_score_real.py --project data/project_profile.json --mfh outputs/data_mfh_real.json --grantsgov outputs/data_grants_gov_real.json
-python scripts/04_generate_packet_real.py --project data/project_profile.json --scored outputs/scored_grants_real.json --out outputs/grantpilot_real_packet.md --top 5
+npm run refresh:fast
 ```
 
-## How to add MI Funding Hub data without ID sweeping
+## Outputs
 
-1. Go to MI Funding Hub Find Funding.
-2. Find relevant grants manually.
-3. Open the grant detail page if available.
-4. Copy exact URLs that look like:
-   `https://mifundinghub.org/funding-opportunities/?grant=12912`
-5. Paste those URLs into `data/mfh_urls_real.txt`.
+```text
+cache/
+  raw/
+    grantsgov/
+      search/
+      details/
+    mfh/
+      network/
+      rendered/
+      details/
+  registry/
+    source_registry.json
+  normalized/
+    grants_normalized.json
+  metadata/
+    data_health.json
 
-If `data/mfh_urls_real.txt` is empty/comment-only, the pipeline still runs using Grants.gov real data.
+outputs/
+  packets/
+```
+
+## Generate scores and packets
+
+After refresh:
+
+```powershell
+npm run score:water
+npm run packet:water
+
+npm run score:transportation
+npm run packet:transportation
+```
+
+Generated packets go to:
+
+```text
+outputs/packets/
+```
+
+## Configure keywords
+
+Edit:
+
+```text
+data/config.json
+```
+
+The `keywords` list controls the public grant discovery scope.
+
+## How timestamps work
+
+- Raw search files include `fetched_at`.
+- Raw detail files include `fetched_at` or `scraped_at`.
+- `source_registry.json` tracks `first_seen_at`, `last_seen_at`, and `times_seen`.
+- MI Funding Hub exact detail pages include `content_hash` so you can detect changed pages later.
+
+## Suggested hackathon demo
+
+1. Run `npm run refresh:fast` before demo.
+2. Do **not** live-refresh during judging.
+3. Show `cache/metadata/data_health.json`.
+4. Generate packet with `npm run packet:water`.
+5. Show `outputs/packets/water_packet.md`.
+
+## watsonx Orchestrate framing
+
+This Node pipeline can be wrapped into Orchestrate tools/agents:
+
+- Discovery Agent
+- Source Refresh Agent
+- Normalization Agent
+- Fit Scoring Agent
+- Requirements Translator Agent
+- Autofill Agent
+- Trust Guard Agent
+- Packet Generator Agent
+
+IBM Bob is not required.

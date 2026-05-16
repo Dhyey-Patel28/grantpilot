@@ -1,0 +1,118 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "344137",
+  "fetched_at": "2026-05-16T14:06:39.646Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjkrZ2Z5SmxTVnh4QU5mdkxwdlJjanpGeHFDZEZsYnhaM0R2K1ErVldNcVU9Ig.ibDIuh2nudv8YVSZpqv0-astbv1Oy30xN8l2QyBnq-E",
+    "data": {
+      "id": 344137,
+      "revision": 0,
+      "opportunityNumber": "SPAINNOFOSUSI2023",
+      "opportunityTitle": "Notice of Funding Opportunity (NOFO) SUSI Civic Engagement and Environmental Issues Selection Process",
+      "owningAgencyCode": "DOS-ESP",
+      "listed": "L",
+      "publisherUid": "Spainpdgrants",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "ESP",
+        "seed": "DOS-ESP",
+        "agencyName": "U.S. Mission to Spain",
+        "agencyCode": "DOS-ESP",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "forecast": {
+        "opportunityId": 344137,
+        "version": 1,
+        "postingDate": "Oct 21, 2022 12:00:00 AM EDT",
+        "forecastDesc": "<p><span style=\"color: rgb(51, 51, 51);\">T</span>he Public Diplomacy Sections of the U.S. Embassy in Madrid and the U.S. Consulate General in Barcelona (referred to collectively as “PD Spain”) announce an open competition for organizations to submit applications to carry out the process to select 5 rank-ordered candidates from Spain to participate in the Study of the U.S. Institutes (SUSI) for Student Leaders for Civic Engagement and Environmental Issues.&nbsp;</p>\n<p>&nbsp;</p>\n<p>The State Department’s Bureau of Educational and Cultural Affairs (ECA) has established Study of the U.S. Institutes (SUSIs) for Student Leaders as intensive short-term academic programs whose purpose is to provide groups of undergraduate student leaders with a deeper understanding of the United States while simultaneously enhancing their leadership skills. Each Institute has 20 participants. The Institutes consist of a four-week academic residency with a balanced series of seminar discussions, readings, group presentations, and lectures. Site visits, leadership development, cultural activities, and community service complement the coursework and academic sessions. If conditions allow, the Institutes will include a one-week integrated regional study tour in the United States. Note that if the program must take place virtually, participants will engage in similar activities, but online from their home countries.&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>The Study of the U.S. Institute on Civic Engagement</strong>, hosted by Michigan State University, will provide participants with an overview of how citizens have shaped U.S. history, government, and society both as individuals and groups. The academic program will define civic engagement; examine its development in the United States; and explore topics such as citizenship, community building, economic development, grassroots activism, political leadership, and volunteerism. In order to enhance the academic experience, the Institute will focus on specific themes such as civil rights and protections; diversity, equity, inclusion, and accessibility (DEIA); citizen journalism, social movements, education, governance, minority communities, leadership, and media. Academic sessions will be complemented with hands-on sessions or workshops designed to build skills in the topics mentioned above. The Institute will encourage participants to develop innovative and practical plans to become engaged citizens in their own communities.&nbsp;</p>\n<p><br></p>\n<p><strong style=\"color: rgb(0, 0, 0);\">The Study of the U.S. Institute on Environmental Issues</strong><span style=\"color: rgb(0, 0, 0);\"> will provide participants with an overview of climate change along with its impact on communities in the American west, natural resources, and the local economy. Academic sessions will explore clean energy, sustainable development, the risks of natural disasters, and the intersection of climate justice and community activism. In order to enhance the academic experience, the Institute will focus on specific themes and sub-topics such as strategic communication, social justice, emergency response, water rights, and energy efficiency and sustainability. Academic activities will be supplemented by opportunities to engage with the local community, including a weekend homestay and meeting with local environmental non-profits. The host institution will be identified at the time of participant selection.&nbsp;</span></p>\n<p>&nbsp;</p>\n<p>The chosen organizations will manage the initial application process to identify a rank-ordered list of 5 Spanish students as potential participants in the summer 2023 SUSI program for Civic Engagement and Environmental Issues.&nbsp;From that rank ordered list, the Public Diplomacy office of the U.S. diplomatic mission to Spain (“PD Spain”) will then select up to two primary and two alternate nominees for the program to submit to the U.S. State Department for final decision.&nbsp;</p>\n<p><br></p>\n<p><strong>Program Objectives: </strong>&nbsp;</p>\n<p>The ideal organization will have contacts from all over Spain, with the capability to reach a wide and diverse pool of qualified youth, with special attention paid to reaching audiences of excellent potential candidates from outside Madrid and Barcelona.&nbsp;</p>\n<p>&nbsp;</p>\n<p>The organization should have an extensive, demonstrated commitment to Diversity, Equity, Inclusion, and Accessibility (DEIA) values that it will embody throughout the campaign and selection process.&nbsp;</p>\n<p><br></p>\n<p><strong>Responsibilities of the Awardee:</strong>&nbsp;</p>\n<p>The awardee will be responsible for the following:&nbsp;</p>\n<p>&nbsp;</p>\n<ol>\n <li>The design, publication, and promotion of the call for applications through traditional and/or social media platforms and organizational networks that will maximize the number of qualified applicants&nbsp;</li>\n <li>Collect and review all applications (in English) keeping in mind DEIA values&nbsp;</li>\n <li>Carry out preliminary interviews (in English)&nbsp;</li>\n <li>Provide a rank-ordered top 5 candidates and video recordings of their interviews to PD Spain&nbsp;</li>\n <li>Collect necessary biodata indicated by PD Spain from the final selected nominees.&nbsp;&nbsp;</li>\n <li>&nbsp;Prepare a final report including data and demographics on all applicants and a justification of the selection of the top 5 candidates.&nbsp;</li>\n</ol>\n<p><br></p>\n<p>For more information, and how to appy for each of the opportunities, please refer to the Embassy website: https://es.usembassy.gov/grants-programs/</p>\n<p>&nbsp;</p>\n<p><br></p>",
+        "fundingActivityCategoryDesc": "The Public Diplomacy Sections of the U.S. Embassy in Madrid and the U.S. Consulate General in Barcelona (referred to collectively as &ldquo;PD Spain&rdquo;) announce an open competition for organizations to submit applications to carry out the process to select 5 rank-ordered candidates from Spain to participate in the Study of the U.S. Institutes (SUSI) for Student Leaders for Civic Engagement",
+        "costSharing": false,
+        "numberOfAwards": "2",
+        "awardCeiling": "3000",
+        "fundingDescLinkUrl": "https://es.usembassy.gov/grants-programs/",
+        "fundingDescLinkDesc": "Embassy Website",
+        "agencyContactName": "Spain PD Grants",
+        "agencyContactPhone": "NA",
+        "agencyContactEmail": "spainpdgrants@state.gov",
+        "agencyContactEmailDesc": "Grants mailbox",
+        "agencyCode": "DOS-ESP",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "The following organizations registered in Spain are eligible to apply:&#8239;&#8239; &#8239; &#8239; Registered public or private non-profit organizations, such as business associations, foundations, and civil society/non-governmental organizations with programming experience.&#8239;&#8239; Non-profit or governmental educational institutions; and&#8239;&#8239; Governmental institutions&#8239;&#8239; &#8239; For-profit or commercial entities are not eligible to apply.&#8239; &#8239; U.S. or third-country organizations are not eligible for a grant under this program unless in partnership with a Spanish or Andorran entity.&#8239; &#8239; Applicants must have organizational representation (i.e. an existing office) in Spain or Andorra.&#8239; &#8239; Organizations with extensive experience working with students and/or program recruitment, and with an established network of contacts in Spain will have priority among applicants.&#8239;",
+        "estApplicationResponseDate": "Nov 22, 2022 12:00:00 AM EST",
+        "fiscalYear": 2023,
+        "createTimeStamp": "Oct 21, 2022 05:49:51 AM EDT",
+        "createdDate": "Oct 21, 2022 05:47:54 AM EDT",
+        "lastUpdatedDate": "Oct 21, 2022 05:49:51 AM EDT",
+        "agencyDetails": {
+          "code": "ESP",
+          "seed": "DOS-ESP",
+          "agencyName": "U.S. Mission to Spain",
+          "agencyCode": "DOS-ESP",
+          "topAgencyCode": "DOS"
+        },
+        "awardCeilingFormatted": "3,000",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "postingDateStr": "2022-10-21-00-00-00",
+        "estApplicationResponseDateStr": "2022-11-22-00-00-00",
+        "createTimeStampStr": "2022-10-21-05-49-51"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 405354,
+          "opportunityId": 344137,
+          "cfdaNumber": "19.040",
+          "programTitle": "Public Diplomacy Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

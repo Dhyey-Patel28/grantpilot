@@ -1,0 +1,409 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361758",
+  "fetched_at": "2026-05-16T14:09:12.519Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVkeUZTQU1aV1Z6Sjdsbm43NGRLYWwwM0lNaHR2U0Y4WEd3bWJPRjRCU1U9Ig.oPoaQ1W3mcsKdyOngP_yChKtae0sdv31OZOdhg52feE",
+    "data": {
+      "id": 361758,
+      "revision": 2,
+      "opportunityNumber": "USDA-NIFA-EME-32358",
+      "opportunityTitle": "Renewable Resource Extension Act National Focus Fund Projects",
+      "owningAgencyCode": "USDA-NIFA-ERA",
+      "listed": "L",
+      "publisherUid": "85078825669240946415745214338590705963",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361758,
+        "version": 3,
+        "agencyCode": "USDA-NIFA-ERA",
+        "agencyName": "National Institute of Food and Agriculture-eRA",
+        "agencyPhone": "202-445-5402",
+        "agencyAddressDesc": "If you have questions about preparing application content, contact grantapplicationquestions@usda.gov",
+        "agencyDetails": {
+          "code": "ERA",
+          "seed": "USDA-NIFA-ERA",
+          "agencyName": "National Institute of Food and Agriculture-eRA",
+          "agencyCode": "USDA-NIFA-ERA",
+          "topAgencyCode": "USDA"
+        },
+        "topAgencyDetails": {
+          "code": "USDA",
+          "seed": "USDA",
+          "agencyName": "Department of Agriculture",
+          "agencyCode": "USDA",
+          "topAgencyCode": "USDA"
+        },
+        "agencyContactPhone": "202-445-5402",
+        "agencyContactName": "National Institute of Food and Agriculture-eRA",
+        "agencyContactDesc": "NIFA Support Email\ngrantapplicationquestions@usda.gov",
+        "agencyContactEmail": "grantapplicationquestions@usda.gov",
+        "agencyContactEmailDesc": "If you have questions about preparing application content, contact grantapplicationquestions@usda.gov",
+        "synopsisDesc": "The goal of RREA-NFF, Assistance Listing 10.515, is to enhance the longevity of U.S. forest and rangeland resources and enable landowners and managers to achieve their desired goals and objectives by making relevant scientific results available.",
+        "responseDate": "Jun 08, 2026 12:00:00 AM EDT",
+        "fundingDescLinkUrl": "https://www.nifa.usda.gov/grants/funding-opportunities/renewable-resources-extension-act-national-focus-fund-projects-rrea",
+        "fundingDescLinkDesc": "https://www.nifa.usda.gov/grants/funding-opportunities/renewable-resources-extension-act-national-focus-fund-projects-rrea",
+        "postingDate": "Apr 06, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 13, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "2",
+        "estimatedFunding": "300000",
+        "estimatedFundingFormatted": "300,000",
+        "awardCeiling": "150000",
+        "awardCeilingFormatted": "150,000",
+        "awardFloor": "130000",
+        "awardFloorFormatted": "130,000",
+        "applicantEligibilityDesc": "Applications may be submitted by 1862 Land-grant Universities (7 U.S.C. 301 et seq.) including the District of Columbia and the U.S. Insular Areas, 1890 Land-grant Universities (7 U.S.C. 321 et seq.) including Tuskegee University, 1994 Institutions (7 U.S.C. 301 note) that offer an associate's degree or a baccalaureate degree in forestry, and in cooperation with State Cooperative Extension Services, other State-supported colleges and universities offering graduate training in the sciences basic to forestry and having a forestry school. Project Directors must have an extension appointment authorized by an institution's Extension Director/Administrator. Failure to meet the eligibility criteria by the application deadline may result in exclusion from consideration or preclude NIFA from making an award.",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 12, 2026 12:58:50 PM EDT",
+        "modComments": "MODIFICATIONS: 05/12/2026 - This NOFO has been modified from the initial announcement.\n\nEdits appear in: Part II, B Application Restrictions",
+        "createdDate": "Apr 06, 2026 10:15:08 AM EDT",
+        "lastUpdatedDate": "May 12, 2026 12:58:43 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "AG",
+            "description": "Agriculture"
+          }
+        ],
+        "responseDateStr": "2026-06-08-00-00-00",
+        "postingDateStr": "2026-04-06-00-00-00",
+        "archiveDateStr": "2026-07-13-00-00-00",
+        "createTimeStampStr": "2026-05-12-12-58-50"
+      },
+      "agencyDetails": {
+        "code": "ERA",
+        "seed": "USDA-NIFA-ERA",
+        "agencyName": "National Institute of Food and Agriculture-eRA",
+        "agencyCode": "USDA-NIFA-ERA",
+        "topAgencyCode": "USDA"
+      },
+      "topAgencyDetails": {
+        "code": "USDA",
+        "seed": "USDA",
+        "agencyName": "Department of Agriculture",
+        "agencyCode": "USDA",
+        "topAgencyCode": "USDA"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79486,
+          "opportunityId": 361758,
+          "folderType": "Revised Full Announcement",
+          "folderName": "Revised Full Announcement",
+          "zipLobSize": 21984,
+          "createdDate": "Apr 30, 2026 01:27:19 PM EDT",
+          "lastUpdatedDate": "May 12, 2026 12:58:50 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351627,
+              "opportunityId": 361758,
+              "mimeType": "text/html;charset=UTF-8",
+              "fileName": "USDA-NIFA-EME-32358-Revised-Full-Announcement.html",
+              "fileDescription": "USDA-NIFA-EME-32358-Revised-Full-Announcement.html",
+              "fileLobSize": 99749,
+              "createdDate": "Apr 30, 2026 01:27:19 PM EDT",
+              "lastUpdatedDate": "May 12, 2026 12:58:50 PM EDT",
+              "synopsisAttFolderId": 79486
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432531,
+          "opportunityId": 361758,
+          "cfdaNumber": "10.515",
+          "programTitle": "Renewable Resources Extension Act"
+        },
+        {
+          "id": 432532,
+          "opportunityId": 361758
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361758,
+            "revision": 0
+          },
+          "opportunityId": 361758,
+          "revision": 0,
+          "opportunityNumber": "USDA-NIFA-EME-32358",
+          "opportunityTitle": "Renewable Resource Extension Act National Focus Fund Projects",
+          "owningAgencyCode": "USDA-NIFA-ERA",
+          "publisherUid": "85078825669240946415745214338590705963",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361758,
+              "revision": 0
+            },
+            "opportunityId": 361758,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "USDA-NIFA-ERA",
+            "agencyAddressDesc": "If you have questions about preparing application content, contact grantapplicationquestions@usda.gov",
+            "agencyDetails": {
+              "code": "ERA",
+              "seed": "USDA-NIFA-ERA",
+              "agencyName": "National Institute of Food and Agriculture-eRA",
+              "agencyCode": "USDA-NIFA-ERA",
+              "topAgencyCode": "USDA"
+            },
+            "agencyContactPhone": "202-445-5402",
+            "agencyContactName": "National Institute of Food and Agriculture",
+            "agencyContactDesc": "NIFA Support Email\ngrantapplicationquestions@usda.gov",
+            "agencyContactEmail": "grantapplicationquestions@usda.gov",
+            "agencyContactEmailDesc": "If you have questions about preparing application content, contact grantapplicationquestions@usda.gov",
+            "synopsisDesc": "The goal of RREA-NFF, Assistance Listing 10.515, is to enhance the longevity of U.S. forest and rangeland resources and enable landowners and managers to achieve their desired goals and objectives by making relevant scientific results available.",
+            "responseDate": "Jun 08, 2026 12:00:00 AM EDT",
+            "fundingDescLinkUrl": "https://www.nifa.usda.gov/grants/funding-opportunities/renewable-resources-extension-act-national-focus-fund-projects-rrea",
+            "fundingDescLinkDesc": "https://www.nifa.usda.gov/grants/funding-opportunities/renewable-resources-extension-act-national-focus-fund-projects-rrea",
+            "postingDate": "Apr 06, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 13, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "2",
+            "estimatedFunding": "300000",
+            "estimatedFundingFormatted": "300,000",
+            "awardCeiling": "150000",
+            "awardCeilingFormatted": "150,000",
+            "awardFloor": "130000",
+            "awardFloorFormatted": "130,000",
+            "applicantEligibilityDesc": "Applications may be submitted by 1862 Land-grant Universities (7 U.S.C. 301 et seq.) including the District of Columbia and the U.S. Insular Areas, 1890 Land-grant Universities (7 U.S.C. 321 et seq.) including Tuskegee University, 1994 Institutions (7 U.S.C. 301 note) that offer an associate's degree or a baccalaureate degree in forestry, and in cooperation with State Cooperative Extension Services, other State-supported colleges and universities offering graduate training in the sciences basic to forestry and having a forestry school. Project Directors must have an extension appointment authorized by an institution's Extension Director/Administrator. Failure to meet the eligibility criteria by the application deadline may result in exclusion from consideration or preclude NIFA from making an award.",
+            "createTimeStamp": "Apr 06, 2026 10:15:16 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 30, 2026 01:27:12 PM EDT",
+            "createdDate": "Apr 06, 2026 10:15:08 AM EDT",
+            "lastUpdatedDate": "Apr 06, 2026 10:15:08 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "AG",
+                "description": "Agriculture"
+              }
+            ],
+            "responseDateStr": "2026-06-08-00-00-00",
+            "postingDateStr": "2026-04-06-00-00-00",
+            "archiveDateStr": "2026-07-13-00-00-00",
+            "createTimeStampStr": "2026-04-06-10-15-16"
+          },
+          "cfdas": [
+            {
+              "id": 432531,
+              "opportunityId": 361758,
+              "revision": 1,
+              "cfdaNumber": "10.515",
+              "programTitle": "Renewable Resources Extension Act"
+            },
+            {
+              "id": 432532,
+              "opportunityId": 361758,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361758,
+            "revision": 1
+          },
+          "opportunityId": 361758,
+          "revision": 1,
+          "opportunityNumber": "USDA-NIFA-EME-32358",
+          "opportunityTitle": "Renewable Resource Extension Act National Focus Fund Projects",
+          "owningAgencyCode": "USDA-NIFA-ERA",
+          "publisherUid": "85078825669240946415745214338590705963",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361758,
+              "revision": 1
+            },
+            "opportunityId": 361758,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "USDA-NIFA-ERA",
+            "agencyAddressDesc": "If you have questions about preparing application content, contact grantapplicationquestions@usda.gov",
+            "agencyDetails": {
+              "code": "ERA",
+              "seed": "USDA-NIFA-ERA",
+              "agencyName": "National Institute of Food and Agriculture-eRA",
+              "agencyCode": "USDA-NIFA-ERA",
+              "topAgencyCode": "USDA"
+            },
+            "agencyContactPhone": "202-445-5402",
+            "agencyContactName": "National Institute of Food and Agriculture-eRA",
+            "agencyContactDesc": "NIFA Support Email\ngrantapplicationquestions@usda.gov",
+            "agencyContactEmail": "grantapplicationquestions@usda.gov",
+            "agencyContactEmailDesc": "If you have questions about preparing application content, contact grantapplicationquestions@usda.gov",
+            "synopsisDesc": "The goal of RREA-NFF, Assistance Listing 10.515, is to enhance the longevity of U.S. forest and rangeland resources and enable landowners and managers to achieve their desired goals and objectives by making relevant scientific results available.",
+            "responseDate": "Jun 08, 2026 12:00:00 AM EDT",
+            "fundingDescLinkUrl": "https://www.nifa.usda.gov/grants/funding-opportunities/renewable-resources-extension-act-national-focus-fund-projects-rrea",
+            "fundingDescLinkDesc": "https://www.nifa.usda.gov/grants/funding-opportunities/renewable-resources-extension-act-national-focus-fund-projects-rrea",
+            "postingDate": "Apr 06, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 13, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "2",
+            "estimatedFunding": "300000",
+            "estimatedFundingFormatted": "300,000",
+            "awardCeiling": "150000",
+            "awardCeilingFormatted": "150,000",
+            "awardFloor": "130000",
+            "awardFloorFormatted": "130,000",
+            "applicantEligibilityDesc": "Applications may be submitted by 1862 Land-grant Universities (7 U.S.C. 301 et seq.) including the District of Columbia and the U.S. Insular Areas, 1890 Land-grant Universities (7 U.S.C. 321 et seq.) including Tuskegee University, 1994 Institutions (7 U.S.C. 301 note) that offer an associate's degree or a baccalaureate degree in forestry, and in cooperation with State Cooperative Extension Services, other State-supported colleges and universities offering graduate training in the sciences basic to forestry and having a forestry school. Project Directors must have an extension appointment authorized by an institution's Extension Director/Administrator. Failure to meet the eligibility criteria by the application deadline may result in exclusion from consideration or preclude NIFA from making an award.",
+            "createTimeStamp": "Apr 30, 2026 01:27:19 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "This NOFO has been modified from the initial announcement.\n\nEdits appear in: Part IV, B Content and Form of Application",
+            "actionType": "U",
+            "actionDate": "May 12, 2026 12:58:43 PM EDT",
+            "createdDate": "Apr 06, 2026 10:15:08 AM EDT",
+            "lastUpdatedDate": "Apr 30, 2026 01:27:12 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "AG",
+                "description": "Agriculture"
+              }
+            ],
+            "responseDateStr": "2026-06-08-00-00-00",
+            "postingDateStr": "2026-04-06-00-00-00",
+            "archiveDateStr": "2026-07-13-00-00-00",
+            "createTimeStampStr": "2026-04-30-13-27-19"
+          },
+          "cfdas": [
+            {
+              "id": 432531,
+              "opportunityId": 361758,
+              "revision": 1,
+              "cfdaNumber": "10.515",
+              "programTitle": "Renewable Resources Extension Act"
+            },
+            {
+              "id": 432532,
+              "opportunityId": 361758,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292330,
+          "topportunityId": 361758,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "USDA-NIFA-EME-32358",
+          "opportunityTitle": "Renewable Resource Extension Act National Focus Fund Projects",
+          "openingDate": "2026-04-06",
+          "closingDate": "2026-06-08",
+          "owningAgencyCode": "USDA-NIFA-ERA",
+          "agencyDetails": {
+            "code": "ERA",
+            "seed": "USDA-NIFA-ERA",
+            "agencyName": "National Institute of Food and Agriculture-eRA",
+            "agencyCode": "USDA-NIFA-ERA",
+            "topAgencyCode": "USDA"
+          },
+          "topAgencyDetails": {
+            "code": "USDA",
+            "seed": "USDA",
+            "agencyName": "Department of Agriculture",
+            "agencyCode": "USDA",
+            "topAgencyCode": "USDA"
+          },
+          "contactInfo": "NIFA SupportBusiness hours: Monday thru Friday, 7a.m. – 5p.m. ET, except federal holidaysEmail: grantapplicationquestions@usda.gov",
+          "gracePeriod": 30,
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 10,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 30, 2026 01:29:43 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292330",
+          "openingDateStr": "2026-04-06-00-00-00",
+          "closingDateStr": "2026-06-08-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 08, 2026 12:00:00 AM EDT",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

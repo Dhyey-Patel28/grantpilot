@@ -1,0 +1,660 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/search2",
+  "keyword": "childcare",
+  "fetched_at": "2026-05-16T14:06:10.126Z",
+  "rows_requested": 35,
+  "hit_count": 19,
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InY3WUFLZTFMeFA5MXdHSWkzeXNBZ2dTbzBLNjl6T0JGeXdmNlp5UnBsMDA9Ig.XDuMB1MzndWfxzE_Smjrvifr5WhZoLbHWVUmcp1j0qU",
+    "data": {
+      "searchParams": {
+        "resultType": "json",
+        "searchOnly": false,
+        "oppNum": "",
+        "cfda": "",
+        "sortBy": "",
+        "oppStatuses": "forecasted|posted",
+        "startRecordNum": 0,
+        "eligibilities": "",
+        "fundingInstruments": "",
+        "fundingCategories": "",
+        "agencies": "",
+        "rows": 35,
+        "keyword": "childcare",
+        "keywordEncoded": true
+      },
+      "hitCount": 19,
+      "startRecord": 0,
+      "oppHits": [
+        {
+          "id": "362404",
+          "number": "HHS-2026-ACF-OFVPS-EV-0052",
+          "title": "Specialized Services for Abused Parents and Their Children (Demonstration Projects)",
+          "agencyCode": "HHS-ACF-OFVPS",
+          "agency": "Administration for Children and Families - OFVPS",
+          "openDate": "05/14/2026",
+          "closeDate": "",
+          "oppStatus": "forecasted",
+          "docType": "forecast",
+          "cfdaList": [
+            "93.592"
+          ]
+        },
+        {
+          "id": "360368",
+          "number": "PA-26-001",
+          "title": "Administrative Supplements to Existing NIH Grants and Cooperative Agreements (Parent Admin Supp Clinical Trial Optional)",
+          "agencyCode": "HHS-NIH11",
+          "agency": "National Institutes of Health",
+          "openDate": "11/26/2025",
+          "closeDate": "11/30/2028",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "93.310"
+          ]
+        },
+        {
+          "id": "361967",
+          "number": "ED-GRANT-26-053",
+          "title": "Child Care Access Means Parents in School (CCAMPIS) 2026",
+          "agencyCode": "HHS-OPE",
+          "agency": "Office of Postsecondary Education",
+          "openDate": "04/20/2026",
+          "closeDate": "05/29/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "84.335"
+          ]
+        },
+        {
+          "id": "361941",
+          "number": "OLDCC-26-F-0001",
+          "title": "FY 2026 Defense Community Infrastructure Program",
+          "agencyCode": "DOD-OEA",
+          "agency": "Office of Local Defense Community Cooperation",
+          "openDate": "04/17/2026",
+          "closeDate": "06/25/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "12.027"
+          ]
+        },
+        {
+          "id": "361549",
+          "number": "AC-03-20-2026",
+          "title": "Fiscal Year (FY) 2026 AmeriCorps State and National Native Nations Grants",
+          "agencyCode": "AC",
+          "agency": "AmeriCorps",
+          "openDate": "03/20/2026",
+          "closeDate": "05/20/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "94.006"
+          ]
+        },
+        {
+          "id": "361498",
+          "number": "VA-FOX-SP-FY2027",
+          "title": "Staff Sergeant Fox Suicide Prevention Grant Program Funding Opportunity",
+          "agencyCode": "VA-OMHSP",
+          "agency": "Office of Suicide Prevention",
+          "openDate": "03/13/2026",
+          "closeDate": "06/12/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "64.055"
+          ]
+        },
+        {
+          "id": "362348",
+          "number": "ED-GRANT-26-055",
+          "title": "Ready To Learn Programming",
+          "agencyCode": "HHS-OESE",
+          "agency": "Office of Elementary and Secondary Education",
+          "openDate": "05/11/2026",
+          "closeDate": "07/08/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "84.295"
+          ]
+        },
+        {
+          "id": "362018",
+          "number": "USDA-NIFA-SLBCD-011858",
+          "title": "Federally Recognized Tribes Extension Program",
+          "agencyCode": "USDA-NIFA",
+          "agency": "National Institute of Food and Agriculture",
+          "openDate": "04/22/2026",
+          "closeDate": "06/08/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "10.500"
+          ]
+        },
+        {
+          "id": "361865",
+          "number": "ETA-TEGL-08-25",
+          "title": "State Apprenticeship Expansion Formula, Round 4 (SAEF4)",
+          "agencyCode": "DOL-ETA",
+          "agency": "Employment and Training Administration",
+          "openDate": "04/10/2026",
+          "closeDate": "05/26/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "17.285"
+          ]
+        },
+        {
+          "id": "361904",
+          "number": "ED-GRANTS-041526-001",
+          "title": "Office of Special Education and Rehabilitative Services (OSERS): Office of Special Education Programs (OSEP): State Personnel Development Grants (SPDG) Program, Assistance Listing Number 84.323A",
+          "agencyCode": "ED",
+          "agency": "Department of Education",
+          "openDate": "04/15/2026",
+          "closeDate": "06/16/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "84.323"
+          ]
+        },
+        {
+          "id": "361739",
+          "number": "FOA-ETA-26-20-IA",
+          "title": "Program Year 2026 Workforce Innovation and Opportunity Act (WIOA), Indian and Native American Programs Employment and Training - Adult",
+          "agencyCode": "DOL-ETA",
+          "agency": "Employment and Training Administration",
+          "openDate": "04/02/2026",
+          "closeDate": "05/22/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "17.265"
+          ]
+        },
+        {
+          "id": "361740",
+          "number": "FOA-ETA-26-20-IY",
+          "title": "Program Year 2026 Workforce Innovation and Opportunity Act (WIOA), Indian and Native American Programs &ndash; Employment and Training Grants - Youth",
+          "agencyCode": "DOL-ETA",
+          "agency": "Employment and Training Administration",
+          "openDate": "04/02/2026",
+          "closeDate": "05/22/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "17.265"
+          ]
+        },
+        {
+          "id": "345938",
+          "number": "HQ003423NFOEASD01",
+          "title": "NDEP STEM Open NFO",
+          "agencyCode": "DOD-WHS",
+          "agency": "Washington Headquarters Services",
+          "openDate": "02/09/2023",
+          "closeDate": "02/08/2028",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "12.006"
+          ]
+        },
+        {
+          "id": "347414",
+          "number": "EDA-DISASTER-2023",
+          "title": "FY 2023 Disaster Supplemental",
+          "agencyCode": "DOC-EDA",
+          "agency": "Economic Development Administration",
+          "openDate": "04/24/2023",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.307"
+          ]
+        },
+        {
+          "id": "361307",
+          "number": "FOA-ETA-26-40",
+          "title": "Strengthening Community Colleges Training Grants (Round 6)",
+          "agencyCode": "DOL-ETA",
+          "agency": "Employment and Training Administration",
+          "openDate": "02/17/2026",
+          "closeDate": "05/20/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "17.280"
+          ]
+        },
+        {
+          "id": "362120",
+          "number": "DFOP0018211",
+          "title": "FY 2027 Fulbright Teacher Exchange Program",
+          "agencyCode": "DOS-ECA",
+          "agency": "Bureau Of Educational and Cultural Affairs",
+          "openDate": "04/29/2026",
+          "closeDate": "06/29/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "19.408"
+          ]
+        },
+        {
+          "id": "346815",
+          "number": "PWEAA2023",
+          "title": "FY 2025 EDA Public Works and Economic Adjustment Assistance Programs",
+          "agencyCode": "DOC-EDA",
+          "agency": "Economic Development Administration",
+          "openDate": "03/14/2023",
+          "closeDate": "",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "11.307",
+            "11.300"
+          ]
+        },
+        {
+          "id": "360205",
+          "number": "USDA-NIFA-AFRI-011134",
+          "title": "Agriculture and Food Research Initiative Competitive Grants Program Foundational and Applied Science Program",
+          "agencyCode": "USDA-NIFA",
+          "agency": "National Institute of Food and Agriculture",
+          "openDate": "08/01/2025",
+          "closeDate": "12/31/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "10.310"
+          ]
+        },
+        {
+          "id": "351567",
+          "number": "693JJ324NF00006",
+          "title": "Fiscal Year (FY) 2023 through FY 2026 Bridge Investment Program, Planning and Bridge Project Grants",
+          "agencyCode": "DOT-FHWA",
+          "agency": "DOT Federal Highway Administration ",
+          "openDate": "12/20/2023",
+          "closeDate": "06/29/2026",
+          "oppStatus": "posted",
+          "docType": "synopsis",
+          "cfdaList": [
+            "20.205"
+          ]
+        }
+      ],
+      "oppStatusOptions": [
+        {
+          "label": "posted",
+          "value": "posted",
+          "count": 18
+        },
+        {
+          "label": "closed",
+          "value": "closed",
+          "count": 396
+        },
+        {
+          "label": "archived",
+          "value": "archived",
+          "count": 865
+        },
+        {
+          "label": "forecasted",
+          "value": "forecasted",
+          "count": 1
+        }
+      ],
+      "dateRangeOptions": [
+        {
+          "label": "Posted Date - Last 3 Days",
+          "value": "3",
+          "count": 1
+        },
+        {
+          "label": "Posted Date - Last 1 Week",
+          "value": "7",
+          "count": 2
+        },
+        {
+          "label": "Posted Date - Last 2 Weeks",
+          "value": "14",
+          "count": 2
+        },
+        {
+          "label": "Posted Date - Last 3 Weeks",
+          "value": "21",
+          "count": 3
+        },
+        {
+          "label": "Posted Date - Last 4 Weeks",
+          "value": "28",
+          "count": 5
+        },
+        {
+          "label": "Posted Date - Last 5 Weeks",
+          "value": "35",
+          "count": 7
+        },
+        {
+          "label": "Posted Date - Last 6 Weeks",
+          "value": "42",
+          "count": 8
+        },
+        {
+          "label": "Posted Date - Last 7 Weeks",
+          "value": "49",
+          "count": 10
+        },
+        {
+          "label": "Posted Date - Last 8 Weeks",
+          "value": "56",
+          "count": 10
+        }
+      ],
+      "suggestion": "",
+      "eligibilities": [
+        {
+          "label": "City or township governments",
+          "value": "02",
+          "count": 4
+        },
+        {
+          "label": "County governments",
+          "value": "01",
+          "count": 4
+        },
+        {
+          "label": "For profit organizations other than small businesses",
+          "value": "22",
+          "count": 1
+        },
+        {
+          "label": "Independent school districts",
+          "value": "05",
+          "count": 1
+        },
+        {
+          "label": "Native American tribal governments (Federally recognized)",
+          "value": "07",
+          "count": 6
+        },
+        {
+          "label": "Native American tribal organizations (other than Federally recognized tribal governments)",
+          "value": "11",
+          "count": 5
+        },
+        {
+          "label": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education",
+          "value": "12",
+          "count": 7
+        },
+        {
+          "label": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education",
+          "value": "13",
+          "count": 3
+        },
+        {
+          "label": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)",
+          "value": "25",
+          "count": 15
+        },
+        {
+          "label": "Private institutions of higher education",
+          "value": "20",
+          "count": 5
+        },
+        {
+          "label": "Public and State controlled institutions of higher education",
+          "value": "06",
+          "count": 7
+        },
+        {
+          "label": "Public housing authorities/Indian housing authorities",
+          "value": "08",
+          "count": 1
+        },
+        {
+          "label": "Small businesses",
+          "value": "23",
+          "count": 1
+        },
+        {
+          "label": "Special district governments",
+          "value": "04",
+          "count": 2
+        },
+        {
+          "label": "State governments",
+          "value": "00",
+          "count": 4
+        },
+        {
+          "label": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\"",
+          "value": "99",
+          "count": 1
+        }
+      ],
+      "fundingCategories": [
+        {
+          "label": "Agriculture",
+          "value": "AG",
+          "count": 2
+        },
+        {
+          "label": "Community Development",
+          "value": "CD",
+          "count": 2
+        },
+        {
+          "label": "Disaster Prevention and Relief",
+          "value": "DPR",
+          "count": 1
+        },
+        {
+          "label": "Education",
+          "value": "ED",
+          "count": 5
+        },
+        {
+          "label": "Employment, Labor and Training",
+          "value": "ELT",
+          "count": 5
+        },
+        {
+          "label": "Environment",
+          "value": "ENV",
+          "count": 1
+        },
+        {
+          "label": "Food and Nutrition",
+          "value": "FN",
+          "count": 1
+        },
+        {
+          "label": "Health",
+          "value": "HL",
+          "count": 2
+        },
+        {
+          "label": "Housing",
+          "value": "HO",
+          "count": 1
+        },
+        {
+          "label": "Income Security and Social Services",
+          "value": "ISS",
+          "count": 1
+        },
+        {
+          "label": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)",
+          "value": "O",
+          "count": 5
+        },
+        {
+          "label": "Transportation",
+          "value": "T",
+          "count": 1
+        }
+      ],
+      "fundingInstruments": [
+        {
+          "label": "Cooperative Agreement",
+          "value": "CA",
+          "count": 4
+        },
+        {
+          "label": "Grant",
+          "value": "G",
+          "count": 17
+        }
+      ],
+      "agencies": [
+        {
+          "subAgencyOptions": [],
+          "label": "AmeriCorps",
+          "value": "AC",
+          "count": 1
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "National Institute of Food and Agriculture",
+              "value": "USDA-NIFA",
+              "count": 2
+            }
+          ],
+          "label": "Department of Agriculture",
+          "value": "USDA",
+          "count": 2
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Economic Development Administration",
+              "value": "DOC-EDA",
+              "count": 2
+            }
+          ],
+          "label": "Department of Commerce",
+          "value": "DOC",
+          "count": 2
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Office of Local Defense Community Cooperation",
+              "value": "DOD-OEA",
+              "count": 1
+            },
+            {
+              "label": "Washington Headquarters Services",
+              "value": "DOD-WHS",
+              "count": 1
+            }
+          ],
+          "label": "Department of Defense",
+          "value": "DOD",
+          "count": 2
+        },
+        {
+          "subAgencyOptions": [],
+          "label": "Department of Education",
+          "value": "ED",
+          "count": 1
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Administration for Children and Families - OFVPS",
+              "value": "HHS-ACF-OFVPS",
+              "count": 1
+            },
+            {
+              "label": "National Institutes of Health",
+              "value": "HHS-NIH11",
+              "count": 1
+            },
+            {
+              "label": "Office of Elementary and Secondary Education",
+              "value": "HHS-OESE",
+              "count": 1
+            },
+            {
+              "label": "Office of Postsecondary Education",
+              "value": "HHS-OPE",
+              "count": 1
+            }
+          ],
+          "label": "Department of Health and Human Services",
+          "value": "HHS",
+          "count": 4
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Employment and Training Administration",
+              "value": "DOL-ETA",
+              "count": 4
+            }
+          ],
+          "label": "Department of Labor",
+          "value": "DOL",
+          "count": 4
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Bureau Of Educational and Cultural Affairs",
+              "value": "DOS-ECA",
+              "count": 1
+            }
+          ],
+          "label": "Department of State",
+          "value": "DOS",
+          "count": 1
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "DOT Federal Highway Administration ",
+              "value": "DOT-FHWA",
+              "count": 1
+            }
+          ],
+          "label": "Department of Transportation",
+          "value": "DOT",
+          "count": 1
+        },
+        {
+          "subAgencyOptions": [
+            {
+              "label": "Office of Suicide Prevention",
+              "value": "VA-OMHSP",
+              "count": 1
+            }
+          ],
+          "label": "Department of Veterans Affairs",
+          "value": "VA",
+          "count": 1
+        }
+      ],
+      "accessKey": "",
+      "errorMsgs": []
+    }
+  }
+}

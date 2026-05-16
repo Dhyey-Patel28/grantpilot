@@ -1,0 +1,275 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361689",
+  "fetched_at": "2026-05-16T14:09:07.150Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjIybFF1bXFqaEtMN1RGM20zUkJqV1lIdzZNbk5TUmVSenphR0lNWUR0MkU9Ig.RQot4mjXRzCPo5RCGHF_CnEla5qREC9jR8Pqdb2fO6M",
+    "data": {
+      "id": 361689,
+      "revision": 0,
+      "opportunityNumber": "FR-6900-N-33",
+      "opportunityTitle": "Comprehensive Housing Counseling (CHC) and the Housing Counseling Training (HCT) NOFO&nbsp;(FY2025)",
+      "owningAgencyCode": "HUD",
+      "listed": "L",
+      "publisherUid": "15962964103075612635523162374797683255",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361689,
+        "version": 1,
+        "agencyCode": "HUD",
+        "agencyName": "Department of Housing and Urban Development",
+        "agencyPhone": "202-402-2440",
+        "agencyAddressDesc": "OHC NOFO Lead",
+        "agencyDetails": {
+          "code": "HUD",
+          "seed": "HUD",
+          "agencyName": "Department of Housing and Urban Development",
+          "agencyCode": "HUD",
+          "topAgencyCode": "HUD"
+        },
+        "topAgencyDetails": {
+          "code": "HUD",
+          "seed": "HUD",
+          "agencyName": "Department of Housing and Urban Development",
+          "agencyCode": "HUD",
+          "topAgencyCode": "HUD"
+        },
+        "agencyContactPhone": "202-402-2440",
+        "agencyContactName": "Department of Housing and Urban Development",
+        "agencyContactDesc": "Elizabeth Odom\nHousing.Counseling@hud.gov",
+        "agencyContactEmail": "Housing.Counseling@hud.gov",
+        "agencyContactEmailDesc": "OHC NOFO Lead",
+        "synopsisDesc": "The purpose of HUD\"s Housing Counseling Grant Program is to provide funds to HUD-approved housing counseling agencies that provide counseling and advice to tenants and homeowners, with respect to property maintenance, financial management and literacy, and other matters as may be appropriate to assist program clients in improving their housing conditions, meeting their financial needs, and fulfilling the responsibilities of tenancy or homeownership. This NOFO plays an integral role in helping individuals and families obtain housing and stay in their homes through sustainable homeownership or affordable rental housing. Housing counseling agencies are an important safeguard in the prevention of housing scams and discrimination and serve as an important gateway to local, state, federal and private housing assistance and resources.",
+        "responseDate": "May 26, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.The performance start date for these grants is 10/1/25, even though the estimated award and project start dates are 8/1/26.",
+        "fundingDescLinkUrl": "https://www.hud.gov/program_offices/cfo/gmomgmt/grantsinfo/fundingopps",
+        "fundingDescLinkDesc": "https://www.hud.gov/program_offices/cfo/gmomgmt/grantsinfo/fundingopps",
+        "postingDate": "Mar 26, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "175",
+        "estimatedFunding": "56100000",
+        "estimatedFundingFormatted": "56,100,000",
+        "awardCeiling": "3000000",
+        "awardCeilingFormatted": "3,000,000",
+        "awardFloor": "1",
+        "awardFloorFormatted": "1",
+        "applicantEligibilityDesc": "1. Eligible applicants for the CHC award under this NOFO must satisfy the following criteria. Applicant must be approved to participate in the HUD Housing Counseling Program prior to the NOFO issue date. In addition, SHFAs are eligible for this NOFO if they possess statutory authority to provide housing counseling throughout their entire state and adhere to all program requirements outlined in 24 CFR Part 214, HUD Handbook 7610.1, and other governing policies and requirements.2. Eligible applicants for the HCT awards under this NOFO must satisfy the following criteria. Be a non-profit organization, other than an institution of higher education with at least two years of experience providing housing counseling training services nationwide to housing counselors employed by housing counseling agencies participating in HUD&quot;s Housing Counseling Program. 3. Limits on Applicants. Applicants and Subgrantees are prohibited from receiving FY 2025 Housing Counseling Program grant funding from multiple sources. For example, receiving funding under this NOFO as both a direct Grantee (e.g. LHCA) and as a Subgrantee of an Intermediary or SHFA is prohibited. Likewise, receiving funding under this NOFO as a Subgrantee of two different Intermediaries/SHFAs is prohibited.4. Affiliations. Subgrantees must maintain the same network affiliation for all awards under this NOFO. For example, a Subgrantee that receives a subgrant from an Intermediary, SHFA, or MSO for the FY 2025 Comprehensive Housing Counseling NOFO cannot receive a subgrant from a different Intermediary, SHFA, or MSO for the FY 2025 MSI Initiative. HUD may grant approval for different network affiliations on a case-by-case basis.5.  CHC MSI Initiative Award Additional Eligibility Requirement. Applicants wishing to apply for this award must also submit an application for the Comprehensive Housing Counseling NOFO. See Section I.B.3. Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+        "createTimeStamp": "May 04, 2026 01:08:44 PM EDT",
+        "createdDate": "Mar 26, 2026 03:48:17 PM EDT",
+        "lastUpdatedDate": "Mar 26, 2026 03:48:17 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HO",
+            "description": "Housing"
+          }
+        ],
+        "responseDateStr": "2026-05-26-00-00-00",
+        "postingDateStr": "2026-03-26-00-00-00",
+        "createTimeStampStr": "2026-05-04-13-08-44"
+      },
+      "agencyDetails": {
+        "code": "HUD",
+        "seed": "HUD",
+        "agencyName": "Department of Housing and Urban Development",
+        "agencyCode": "HUD",
+        "topAgencyCode": "HUD"
+      },
+      "topAgencyDetails": {
+        "code": "HUD",
+        "seed": "HUD",
+        "agencyName": "Department of Housing and Urban Development",
+        "agencyCode": "HUD",
+        "topAgencyCode": "HUD"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79552,
+          "opportunityId": 361689,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 3068817,
+          "createdDate": "May 04, 2026 01:08:41 PM EDT",
+          "lastUpdatedDate": "May 04, 2026 01:08:44 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351734,
+              "opportunityId": 361689,
+              "mimeType": "application/pdf",
+              "fileName": "CHC and HCT FY25_FOA_Content_FR-6900-N-33_FINAL_Version 2.pdf",
+              "fileDescription": "CHC and HCT FY25_FOA_Content_FR-6900-N-33_FINAL_Version 2.pdf",
+              "fileLobSize": 3766211,
+              "createdDate": "May 04, 2026 01:08:44 PM EDT",
+              "synopsisAttFolderId": 79552
+            }
+          ]
+        },
+        {
+          "id": 79083,
+          "opportunityId": 361689,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Other Supporting Documents",
+          "zipLobSize": 1895396,
+          "createdDate": "Mar 26, 2026 03:49:32 PM EDT",
+          "lastUpdatedDate": "Apr 20, 2026 09:58:46 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350775,
+              "opportunityId": 361689,
+              "mimeType": "application/pdf",
+              "fileName": "426.pdf",
+              "fileDescription": "426.pdf",
+              "fileLobSize": 203260,
+              "createdDate": "Mar 26, 2026 03:49:33 PM EDT",
+              "synopsisAttFolderId": 79083
+            },
+            {
+              "id": 350779,
+              "opportunityId": 361689,
+              "mimeType": "application/pdf",
+              "fileName": "Form HUD-9906 (formerly HUD-9906 L &amp; P, HUD-91045, HUD-92910).pdf",
+              "fileDescription": "Form HUD-9906 (formerly HUD-9906 L &amp; P, HUD-91045, HUD-92910).pdf",
+              "fileLobSize": 791327,
+              "createdDate": "Mar 26, 2026 03:52:41 PM EDT",
+              "synopsisAttFolderId": 79083
+            },
+            {
+              "id": 351353,
+              "opportunityId": 361689,
+              "mimeType": "application/pdf",
+              "fileName": "HUD-50070 Form.pdf",
+              "fileDescription": "HUD-50070 Form.pdf",
+              "fileLobSize": 938725,
+              "createdDate": "Apr 20, 2026 09:58:46 AM EDT",
+              "synopsisAttFolderId": 79083
+            },
+            {
+              "id": 350778,
+              "opportunityId": 361689,
+              "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "fileName": "HUD-9906 Chart A Supplement Excel (formerly HUD-9906 Chart A2 Supplement Excel) FY25 NOFO Final.xlsx",
+              "fileDescription": "HUD-9906 Chart A Supplement Excel (formerly HUD-9906 Chart A2 Supplement Excel) FY25 NOFO Final.xlsx",
+              "fileLobSize": 39383,
+              "createdDate": "Mar 26, 2026 03:51:36 PM EDT",
+              "synopsisAttFolderId": 79083
+            },
+            {
+              "id": 350777,
+              "opportunityId": 361689,
+              "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "fileName": "HUD-9906 Chart F Diversified Funding Excel (formerly HUD-9906 Chart D Budget Excel) FY25 NOFO Final.xlsx",
+              "fileDescription": "HUD-9906 Chart F Diversified Funding Excel (formerly HUD-9906 Chart D Budget Excel) FY25 NOFO Final.xlsx",
+              "fileLobSize": 72114,
+              "createdDate": "Mar 26, 2026 03:51:07 PM EDT",
+              "synopsisAttFolderId": 79083
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432456,
+          "opportunityId": 361689,
+          "cfdaNumber": "14.169",
+          "programTitle": "Housing Counseling Assistance Program"
+        },
+        {
+          "id": 432455,
+          "opportunityId": 361689,
+          "cfdaNumber": "14.316",
+          "programTitle": "Housing Counseling Training Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292268,
+          "topportunityId": 361689,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "FR-6900-N-33",
+          "opportunityTitle": "Comprehensive Housing Counseling (CHC) and the Housing Counseling Training (HCT) NOFO (FY2025)",
+          "cfdaNumber": "14.169",
+          "openingDate": "2026-03-26",
+          "closingDate": "2026-05-26",
+          "owningAgencyCode": "HUD",
+          "agencyDetails": {
+            "code": "HUD",
+            "seed": "HUD",
+            "agencyName": "Department of Housing and Urban Development",
+            "agencyCode": "HUD",
+            "topAgencyCode": "HUD"
+          },
+          "topAgencyDetails": {
+            "code": "HUD",
+            "seed": "HUD",
+            "agencyName": "Department of Housing and Urban Development",
+            "agencyCode": "HUD",
+            "topAgencyCode": "HUD"
+          },
+          "programTitle": "Housing Counseling Assistance Program",
+          "contactInfo": "Elizabeth Odom",
+          "gracePeriod": 1,
+          "competitionId": "FR-6900-N-33",
+          "competitionTitle": "Comprehensive Housing Counseling (CHC) and the Housing Counseling Training (HCT) NOFO (FY2025)",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 200,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "zip",
+          "mimetype": "application/zip",
+          "lastUpdate": "May 04, 2026 01:07:14 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292268",
+          "openingDateStr": "2026-03-26-00-00-00",
+          "closingDateStr": "2026-05-26-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 26, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.The performance start date for these grants is 10/1/25, even though the estimated award and project start dates are 8/1/26.",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=11256",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=11256",
+  "website": "https://www.grants.gov/search-results-detail/355317",
+  "grant_id": "11256",
+  "title": "Limited Competition: Building Partnerships and Broadening Perspectives to Advance Ethical, Legal, and Social Implications (ELSI) Research (BBAER) Program (UM1), Clinical Trial Optional",
+  "overview": "The National Human Genome Research Institute (NHGRI) seeks to broaden the types of knowledge, skills, expertise, experience, and perspectives brought to bear in research addressing the ethical, legal and social implications (ELSI) of advances in human genetics or genomics. This Notice of Funding Opportunity (NOFO) solicits UM1 applications from domestic organizations located in the United States and its territories that received less than $30 million per year in total NIH funding for the past three fiscal years. These organizations are underrepresented among those receiving NHGRI funding for ELSI research.The Building Partnerships and Broadening Perspectives to Advance Ethical, Legal, and Social Implications (ELSI) Research (BPAER) Program will support: 1) transdisciplinary ELSI research addressing timely, complex, and understudied topics, 2) the establishment of research teams that include representatives from relevant communities who are affected by and have an interest in the proposed research, 3) research capacity building to develop, conduct and sustain ELSI research, and 4) workforce development opportunities for early career scholars, research team members, and other research project staff.Transdisciplinary ELSI research projects require involvement from two or more fields of knowledge and use of multiple research approaches. Relevant communities must be actively and meaningfully involved on ELSI research teams across all phases of proposed research projects. Research capacity building plans must be informed by a needs assessment. Given the complex structure, a strategic management plan, evaluation plan, and sustainability plan are required to ensure successful completion of the program. Show More",
+  "additional_info": "Posted Date: July 10, 2024 Application Due Date: August 2, 2026 Estimated Award Date: Not Specified Eligible Applicants: OthersFor profit organizations other than small businessesSpecial district governmentsCounty governmentsNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationCity or township governmentsState governmentsNative American tribal organizations (other than Federally recognized tribal governments)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal governments (Federally recognized)Independent school districtsPublic and State controlled institutions of higher educationSmall businessesPublic housing authorities/Indian housing authoritiesPrivate institutions of higher education Show More",
+  "eligible_applicants": [
+    "OthersFor profit organizations other than small businessesSpecial district governmentsCounty governmentsNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationCity or township governmentsState governmentsNative American tribal organizations (other than Federally recognized tribal governments)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal governments (Federally recognized)Independent school districtsPublic and State controlled institutions of higher educationSmall businessesPublic housing authorities/Indian housing authoritiesPrivate institutions of higher education"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "housing",
+    "transportation",
+    "workforce"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Health and Human Services",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:55.352Z",
+  "content_hash": "f9831698a8e957e6462545a9240bfcadae883ca70f397d5a639b19435de47a2c",
+  "from_cache": false
+}

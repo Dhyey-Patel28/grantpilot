@@ -1,0 +1,736 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "356119",
+  "fetched_at": "2026-05-16T14:07:19.834Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InRKalZkaHlQeXJkSDl2YmtwNG9sTnQ5b1hFZXRsbGF5dDRzbk9Ud01QT009Ig.yNnRgRSFFGzejntvGbK5BueiUbiDgs7J7xsm1LMQb7U",
+    "data": {
+      "id": 356119,
+      "revision": 3,
+      "opportunityNumber": "24-597",
+      "opportunityTitle": "U.S. National Science Foundation Research Traineeship (NRT) Program",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 356119,
+        "version": 4,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The NSF Research Traineeship (NRT) program seeks proposals that explore ways for graduate students in research-based master&rsquo;s and doctoral degree programs to develop the skills, knowledge, and competencies needed to pursue a range of STEM careers. The program is dedicated to effective training of STEM graduate students in high priority interdisciplinary or convergent research areas, through a comprehensive traineeship model that is innovative, evidence-based, and aligned with changing workforce and research needs. Proposals are requested that address any interdisciplinary or convergent research theme of national priority, as described in section II.D below.\n\n\nThe NRT program addresses workforce development, emphasizing broad participation, and institutional capacity building needs in graduate education. The program encourages proposals that involve strategic collaborations with the private sector, non-governmental organizations (NGOs), government agencies, national laboratories, field stations, teaching and learning centers, informal science centers, and academic partners. NRT especially welcomes proposals that reflect collaborations between NRT proposals and existing <a href=\"https://new.nsf.gov/funding/opportunities/nsfs-eddie-bernice-johnson-inclusion-across-nation\">NSF Eddie Bernice Johnson Inclusion across the Nation of Communities of Learners of Underrepresented Discoverers in Engineering and Science (INCLUDES) Initiative</a>, <a href=\"https://www.nsf.gov/crssprgm/reu/\">Research Experiences for Undergraduates (REU)</a>, <a href=\"https://new.nsf.gov/funding/opportunities/louis-stokes-alliances-minority-participation\">Louis Stokes Alliances for Minority Participation (LSAMP)</a>, <a href=\"https://new.nsf.gov/funding/opportunities/nsf-scholarships-science-technology-engineering\">NSF Scholarships in Science, Technology, Engineering, and Mathematics (S-STEM)</a>, and <a href=\"https://new.nsf.gov/funding/opportunities/science-technology-engineering-mathematics\">NSF STEM Ed Organizational Postdoctoral Fellowship program (STEM Ed OPRF)</a> projects, provided the collaboration will strengthen both projects. Researchers at minority serving institutions and emerging research institutions are strongly encouraged to submit proposals. Collaborations between NRT proposals and existing NSF INCLUDES projects should strengthen both NRT and INCLUDES projects.",
+        "responseDate": "Sep 08, 2026 12:00:00 AM EDT",
+        "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24597",
+        "fundingDescLinkDesc": "NSF Publication 24-597",
+        "postingDate": "Aug 17, 2024 12:00:00 AM EDT",
+        "archiveDate": "Oct 08, 2027 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "20",
+        "estimatedFunding": "53000000",
+        "estimatedFundingFormatted": "53,000,000",
+        "awardCeiling": "3000000",
+        "awardCeilingFormatted": "3,000,000",
+        "awardFloor": "2000000",
+        "awardFloorFormatted": "2,000,000",
+        "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n\n*Who May Serve as PI:\n\nTrack 1 and Track 2: The PI must be on the faculty of the submitting institution.",
+        "sendEmail": "N",
+        "createTimeStamp": "Sep 16, 2025 11:00:08 PM EDT",
+        "modComments": ".",
+        "createdDate": "Aug 17, 2024 01:00:19 AM EDT",
+        "lastUpdatedDate": "Sep 16, 2025 11:00:08 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-09-08-00-00-00",
+        "postingDateStr": "2024-08-17-00-00-00",
+        "archiveDateStr": "2027-10-08-00-00-00",
+        "createTimeStampStr": "2025-09-16-23-00-08"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 423232,
+          "opportunityId": 356119,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 423237,
+          "opportunityId": 356119,
+          "cfdaNumber": "47.049",
+          "programTitle": "Mathematical and Physical Sciences"
+        },
+        {
+          "id": 423235,
+          "opportunityId": 356119,
+          "cfdaNumber": "47.050",
+          "programTitle": "Geosciences"
+        },
+        {
+          "id": 423230,
+          "opportunityId": 356119,
+          "cfdaNumber": "47.070",
+          "programTitle": "Computer and Information Science and Engineering"
+        },
+        {
+          "id": 423239,
+          "opportunityId": 356119,
+          "cfdaNumber": "47.074",
+          "programTitle": "Biological Sciences"
+        },
+        {
+          "id": 423236,
+          "opportunityId": 356119,
+          "cfdaNumber": "47.075",
+          "programTitle": "Social, Behavioral, and Economic Sciences"
+        },
+        {
+          "id": 423238,
+          "opportunityId": 356119,
+          "cfdaNumber": "47.076",
+          "programTitle": "STEM Education (formerly Education and Human Resources)"
+        },
+        {
+          "id": 423231,
+          "opportunityId": 356119,
+          "cfdaNumber": "47.079",
+          "programTitle": "Office of International Science and Engineering"
+        },
+        {
+          "id": 423234,
+          "opportunityId": 356119,
+          "cfdaNumber": "47.083",
+          "programTitle": "Integrative Activities"
+        },
+        {
+          "id": 423233,
+          "opportunityId": 356119,
+          "cfdaNumber": "47.084",
+          "programTitle": "NSF Technology, Innovation, and Partnerships"
+        },
+        {
+          "id": 423240,
+          "opportunityId": 356119
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 356119,
+            "revision": 0
+          },
+          "opportunityId": 356119,
+          "revision": 0,
+          "opportunityNumber": "24-597",
+          "opportunityTitle": "U.S. National Science Foundation Research Traineeship (NRT) Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 356119,
+              "revision": 0
+            },
+            "opportunityId": 356119,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The NSF Research Traineeship (NRT) program seeks proposals that explore ways for graduate students in research-based master&rsquo;s and doctoral degree programs to develop the skills, knowledge, and competencies needed to pursue a range of STEM careers. The program is dedicated to effective training of STEM graduate students in high priority interdisciplinary or convergent research areas, through a comprehensive traineeship model that is innovative, evidence-based, and aligned with changing workforce and research needs. Proposals are requested that address any interdisciplinary or convergent research theme of national priority, as described in section II.D below.\n\n\nThe NRT program addresses workforce development, emphasizing broad participation, and institutional capacity building needs in graduate education. The program encourages proposals that involve strategic collaborations with the private sector, non-governmental organizations (NGOs), government agencies, national laboratories, field stations, teaching and learning centers, informal science centers, and academic partners. NRT especially welcomes proposals that reflect collaborations between NRT proposals and existing <a href=\"https://new.nsf.gov/funding/opportunities/nsfs-eddie-bernice-johnson-inclusion-across-nation\">NSF Eddie Bernice Johnson Inclusion across the Nation of Communities of Learners of Underrepresented Discoverers in Engineering and Science (INCLUDES) Initiative</a>, <a href=\"https://www.nsf.gov/crssprgm/reu/\">Research Experiences for Undergraduates (REU)</a>, <a href=\"https://new.nsf.gov/funding/opportunities/louis-stokes-alliances-minority-participation\">Louis Stokes Alliances for Minority Participation (LSAMP)</a>, <a href=\"https://new.nsf.gov/funding/opportunities/nsf-scholarships-science-technology-engineering\">NSF Scholarships in Science, Technology, Engineering, and Mathematics (S-STEM)</a>, and <a href=\"https://new.nsf.gov/funding/opportunities/science-technology-engineering-mathematics\">NSF STEM Ed Organizational Postdoctoral Fellowship program (STEM Ed OPRF)</a> projects, provided the collaboration will strengthen both projects. Researchers at minority serving institutions and emerging research institutions are strongly encouraged to submit proposals. Collaborations between NRT proposals and existing NSF INCLUDES projects should strengthen both NRT and INCLUDES projects.",
+            "responseDate": "Nov 14, 2024 12:00:00 AM EST",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24597",
+            "fundingDescLinkDesc": "NSF Publication 24-597",
+            "postingDate": "Aug 17, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 08, 2027 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "20",
+            "estimatedFunding": "53000000",
+            "estimatedFundingFormatted": "53,000,000",
+            "awardCeiling": "3000000",
+            "awardCeilingFormatted": "3,000,000",
+            "awardFloor": "2000000",
+            "awardFloorFormatted": "2,000,000",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n\n*Who May Serve as PI:\n\nTrack 1 and Track 2: The PI must be on the faculty of the submitting institution.",
+            "createTimeStamp": "Aug 17, 2024 01:00:19 AM EDT",
+            "actionType": "U",
+            "actionDate": "Nov 22, 2024 01:00:07 AM EST",
+            "createdDate": "Aug 17, 2024 01:00:19 AM EDT",
+            "lastUpdatedDate": "Aug 17, 2024 01:00:19 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2024-11-14-00-00-00",
+            "postingDateStr": "2024-08-17-00-00-00",
+            "archiveDateStr": "2027-10-08-00-00-00",
+            "createTimeStampStr": "2024-08-17-01-00-19"
+          },
+          "cfdas": [
+            {
+              "id": 423232,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 423237,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 423235,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 423230,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 423239,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 423236,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 423238,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.076",
+              "programTitle": "STEM Education (formerly Education and Human Resources)"
+            },
+            {
+              "id": 423231,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.079",
+              "programTitle": "Office of International Science and Engineering"
+            },
+            {
+              "id": 423234,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.083",
+              "programTitle": "Integrative Activities"
+            },
+            {
+              "id": 423233,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.084",
+              "programTitle": "NSF Technology, Innovation, and Partnerships"
+            },
+            {
+              "id": 423240,
+              "opportunityId": 356119,
+              "revision": 2
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 356119,
+            "revision": 1
+          },
+          "opportunityId": 356119,
+          "revision": 1,
+          "opportunityNumber": "24-597",
+          "opportunityTitle": "U.S. National Science Foundation Research Traineeship (NRT) Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 356119,
+              "revision": 1
+            },
+            "opportunityId": 356119,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The NSF Research Traineeship (NRT) program seeks proposals that explore ways for graduate students in research-based master&rsquo;s and doctoral degree programs to develop the skills, knowledge, and competencies needed to pursue a range of STEM careers. The program is dedicated to effective training of STEM graduate students in high priority interdisciplinary or convergent research areas, through a comprehensive traineeship model that is innovative, evidence-based, and aligned with changing workforce and research needs. Proposals are requested that address any interdisciplinary or convergent research theme of national priority, as described in section II.D below.\n\n\nThe NRT program addresses workforce development, emphasizing broad participation, and institutional capacity building needs in graduate education. The program encourages proposals that involve strategic collaborations with the private sector, non-governmental organizations (NGOs), government agencies, national laboratories, field stations, teaching and learning centers, informal science centers, and academic partners. NRT especially welcomes proposals that reflect collaborations between NRT proposals and existing <a href=\"https://new.nsf.gov/funding/opportunities/nsfs-eddie-bernice-johnson-inclusion-across-nation\">NSF Eddie Bernice Johnson Inclusion across the Nation of Communities of Learners of Underrepresented Discoverers in Engineering and Science (INCLUDES) Initiative</a>, <a href=\"https://www.nsf.gov/crssprgm/reu/\">Research Experiences for Undergraduates (REU)</a>, <a href=\"https://new.nsf.gov/funding/opportunities/louis-stokes-alliances-minority-participation\">Louis Stokes Alliances for Minority Participation (LSAMP)</a>, <a href=\"https://new.nsf.gov/funding/opportunities/nsf-scholarships-science-technology-engineering\">NSF Scholarships in Science, Technology, Engineering, and Mathematics (S-STEM)</a>, and <a href=\"https://new.nsf.gov/funding/opportunities/science-technology-engineering-mathematics\">NSF STEM Ed Organizational Postdoctoral Fellowship program (STEM Ed OPRF)</a> projects, provided the collaboration will strengthen both projects. Researchers at minority serving institutions and emerging research institutions are strongly encouraged to submit proposals. Collaborations between NRT proposals and existing NSF INCLUDES projects should strengthen both NRT and INCLUDES projects.",
+            "responseDate": "Sep 08, 2025 12:00:00 AM EDT",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24597",
+            "fundingDescLinkDesc": "NSF Publication 24-597",
+            "postingDate": "Aug 17, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 08, 2027 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "20",
+            "estimatedFunding": "53000000",
+            "estimatedFundingFormatted": "53,000,000",
+            "awardCeiling": "3000000",
+            "awardCeilingFormatted": "3,000,000",
+            "awardFloor": "2000000",
+            "awardFloorFormatted": "2,000,000",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n\n*Who May Serve as PI:\n\nTrack 1 and Track 2: The PI must be on the faculty of the submitting institution.",
+            "createTimeStamp": "Nov 22, 2024 01:00:07 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jun 27, 2025 11:00:09 PM EDT",
+            "createdDate": "Aug 17, 2024 01:00:19 AM EDT",
+            "lastUpdatedDate": "Nov 22, 2024 01:00:07 AM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-09-08-00-00-00",
+            "postingDateStr": "2024-08-17-00-00-00",
+            "archiveDateStr": "2027-10-08-00-00-00",
+            "createTimeStampStr": "2024-11-22-01-00-07"
+          },
+          "cfdas": [
+            {
+              "id": 423232,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 423237,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 423235,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 423230,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 423239,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 423236,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 423238,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.076",
+              "programTitle": "STEM Education (formerly Education and Human Resources)"
+            },
+            {
+              "id": 423231,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.079",
+              "programTitle": "Office of International Science and Engineering"
+            },
+            {
+              "id": 423234,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.083",
+              "programTitle": "Integrative Activities"
+            },
+            {
+              "id": 423233,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.084",
+              "programTitle": "NSF Technology, Innovation, and Partnerships"
+            },
+            {
+              "id": 423240,
+              "opportunityId": 356119,
+              "revision": 2
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 356119,
+            "revision": 2
+          },
+          "opportunityId": 356119,
+          "revision": 2,
+          "opportunityNumber": "24-597",
+          "opportunityTitle": "U.S. National Science Foundation Research Traineeship (NRT) Program",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 356119,
+              "revision": 2
+            },
+            "opportunityId": 356119,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4203",
+            "agencyContactName": "U.S. National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The NSF Research Traineeship (NRT) program seeks proposals that explore ways for graduate students in research-based master&rsquo;s and doctoral degree programs to develop the skills, knowledge, and competencies needed to pursue a range of STEM careers. The program is dedicated to effective training of STEM graduate students in high priority interdisciplinary or convergent research areas, through a comprehensive traineeship model that is innovative, evidence-based, and aligned with changing workforce and research needs. Proposals are requested that address any interdisciplinary or convergent research theme of national priority, as described in section II.D below.\n\n\nThe NRT program addresses workforce development, emphasizing broad participation, and institutional capacity building needs in graduate education. The program encourages proposals that involve strategic collaborations with the private sector, non-governmental organizations (NGOs), government agencies, national laboratories, field stations, teaching and learning centers, informal science centers, and academic partners. NRT especially welcomes proposals that reflect collaborations between NRT proposals and existing <a href=\"https://new.nsf.gov/funding/opportunities/nsfs-eddie-bernice-johnson-inclusion-across-nation\">NSF Eddie Bernice Johnson Inclusion across the Nation of Communities of Learners of Underrepresented Discoverers in Engineering and Science (INCLUDES) Initiative</a>, <a href=\"https://www.nsf.gov/crssprgm/reu/\">Research Experiences for Undergraduates (REU)</a>, <a href=\"https://new.nsf.gov/funding/opportunities/louis-stokes-alliances-minority-participation\">Louis Stokes Alliances for Minority Participation (LSAMP)</a>, <a href=\"https://new.nsf.gov/funding/opportunities/nsf-scholarships-science-technology-engineering\">NSF Scholarships in Science, Technology, Engineering, and Mathematics (S-STEM)</a>, and <a href=\"https://new.nsf.gov/funding/opportunities/science-technology-engineering-mathematics\">NSF STEM Ed Organizational Postdoctoral Fellowship program (STEM Ed OPRF)</a> projects, provided the collaboration will strengthen both projects. Researchers at minority serving institutions and emerging research institutions are strongly encouraged to submit proposals. Collaborations between NRT proposals and existing NSF INCLUDES projects should strengthen both NRT and INCLUDES projects.",
+            "responseDate": "Sep 08, 2025 12:00:00 AM EDT",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf24597",
+            "fundingDescLinkDesc": "NSF Publication 24-597",
+            "postingDate": "Aug 17, 2024 12:00:00 AM EDT",
+            "archiveDate": "Oct 08, 2027 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "20",
+            "estimatedFunding": "53000000",
+            "estimatedFundingFormatted": "53,000,000",
+            "awardCeiling": "3000000",
+            "awardCeilingFormatted": "3,000,000",
+            "awardFloor": "2000000",
+            "awardFloorFormatted": "2,000,000",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n\n*Who May Serve as PI:\n\nTrack 1 and Track 2: The PI must be on the faculty of the submitting institution.",
+            "createTimeStamp": "Jun 27, 2025 11:00:09 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Sep 16, 2025 11:00:08 PM EDT",
+            "createdDate": "Aug 17, 2024 01:00:19 AM EDT",
+            "lastUpdatedDate": "Jun 27, 2025 11:00:09 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-09-08-00-00-00",
+            "postingDateStr": "2024-08-17-00-00-00",
+            "archiveDateStr": "2027-10-08-00-00-00",
+            "createTimeStampStr": "2025-06-27-23-00-09"
+          },
+          "cfdas": [
+            {
+              "id": 423232,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 423237,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.049",
+              "programTitle": "Mathematical and Physical Sciences"
+            },
+            {
+              "id": 423235,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 423230,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 423239,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 423236,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 423238,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.076",
+              "programTitle": "STEM Education (formerly Education and Human Resources)"
+            },
+            {
+              "id": 423231,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.079",
+              "programTitle": "Office of International Science and Engineering"
+            },
+            {
+              "id": 423234,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.083",
+              "programTitle": "Integrative Activities"
+            },
+            {
+              "id": 423233,
+              "opportunityId": 356119,
+              "revision": 2,
+              "cfdaNumber": "47.084",
+              "programTitle": "NSF Technology, Innovation, and Partnerships"
+            },
+            {
+              "id": 423240,
+              "opportunityId": 356119,
+              "revision": 2
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "applicantEligibilityDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 287704,
+          "topportunityId": 356119,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "24-597",
+          "opportunityTitle": "U.S. National Science Foundation Research Traineeship (NRT) Program",
+          "openingDate": "2024-08-17",
+          "closingDate": "2026-09-08",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "General inquiries may be addressed to:\nE-mail: nrt@nsf.gov\nPhone: 703-292-8630",
+          "gracePeriod": 7,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 200,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Sep 16, 2025 11:27:43 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00287704",
+          "openingDateStr": "2024-08-17-00-00-00",
+          "closingDateStr": "2026-09-08-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Nov 14, 2024 12:00:00 AM EST",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "responseDate",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 3,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362148",
+  "fetched_at": "2026-05-16T14:10:01.713Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjRmMEtrZGdxU2pLckM5WWkxa1VPWmVpd3JXVmFXYmd6WEthM0FFK04wT0E9Ig.Mdm1ACS81_kjhKiUFDP6NNQC8EBaqrP9QzBeL-vTb4k",
+    "data": {
+      "id": 362148,
+      "revision": 1,
+      "opportunityNumber": "NOAA-NMFS-WCRO-2026-33121",
+      "opportunityTitle": "Pacific Coastal Salmon Recovery Fund (Annual Appropriations and IIJA Funds)",
+      "owningAgencyCode": "DOC-DOCNOAAERA",
+      "listed": "L",
+      "publisherUid": "maguiniga",
+      "modifiedComments": "To post",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362148,
+        "version": 4,
+        "agencyCode": "DOC-DOCNOAAERA",
+        "agencyName": "Maria Aguiniga\nGrantor",
+        "agencyPhone": "301-628-1384",
+        "agencyAddressDesc": "Office",
+        "agencyDetails": {
+          "code": "DOCNOAAERA",
+          "seed": "DOC-DOCNOAAERA",
+          "agencyName": "DOC NOAA - ERA Production",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "topAgencyCode": "DOC"
+        },
+        "topAgencyDetails": {
+          "code": "DOC",
+          "seed": "DOC",
+          "agencyName": "Department of Commerce",
+          "agencyCode": "DOC",
+          "topAgencyCode": "DOC"
+        },
+        "agencyContactPhone": "301-628-1384",
+        "agencyContactName": "Maria Aguiniga\nGrantor",
+        "agencyContactDesc": "Kyle Bowers \r\nFederal Program Officer \r\nNMFS West Coast Region \r\n800 E. Park Blvd. Plaza IV, STE 220 \r\nBoise, ID 83712-7768",
+        "agencyContactEmail": "kyle.bowers@noaa.gov",
+        "agencyContactEmailDesc": "Office",
+        "synopsisDesc": "<p><span style=\"color: black;\">NOAA announces the availability of Federal funding, authorized pursuant to the Infrastructure Investment and Jobs Act, Pub. L. 117-58 (November 15, 2021) and the Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026, Pub. L. 119-74 (January 23, 2026), for necessary expenses associated with the restoration of Pacific salmon populations. The Pacific Coastal Salmon Recovery Fund (PCSRF) program makes such funding available to the States of Washington, Oregon, Idaho, Nevada, California, and Alaska, and federally recognized tribes of the Columbia River and Pacific Coast (including Alaska) for projects necessary for the conservation of salmon and steelhead populations listed as threatened or endangered, or identified by a State as at-risk to be so-listed; for maintaining populations necessary for exercise of tribal treaty fishing rights or native subsistence fishing; or for the conservation of Pacific coastal salmon and steelhead habitat. This announcement supports the Executive Order 14276 Restoring America’s Seafood Competitiveness by focusing on core fisheries management, addressing threats to our nation’s waters, and using science to strengthen healthy and harvestable populations of Pacific salmon. Additionally, projects shall follow the “Gold Standard Science” principles - emphasizing reproducibility, transparency, clear communication of error and uncertainty, collaboration, skepticism of findings and assumptions, structures for falsifiability of hypotheses, unbiased peer review, and freedom from conflict of interest in alignment with Executive Order 14303 Restoring Gold Standard Science. A federally recognized tribe is defined as an Indian or Alaska Native tribe, band, nation, pueblo, village or community that the Secretary of the Interior acknowledges to exist as an Indian tribe pursuant to the Federally Recognized Indian Tribe List Act of 1994, 25 U.S.C. §§ 5130, 5131. See Executive Order No. 13175 (2000). Native subsistence is inclusive of federally recognized non-treaty tribal salmon fisheries. This announcement outlines the priorities and guidelines that will be used to award funding to eligible entities.</span></p>",
+        "responseDate": "Jun 29, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Apr 30, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 30, 2026 12:00:00 AM EDT",
+        "costSharing": true,
+        "awardCeiling": "25000000",
+        "awardCeilingFormatted": "25,000,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Eligible applicants are the States of Washington, Oregon, Idaho, Nevada, California, and Alaska, and Federally recognized tribes of the Columbia River and Pacific Coast (including Alaska).",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 30, 2026 12:39:16 PM EDT",
+        "modComments": "Per Program Officer request, to modify closing date.",
+        "createdDate": "Apr 30, 2026 11:45:22 AM EDT",
+        "lastUpdatedDate": "Apr 30, 2026 12:39:16 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ENV",
+            "description": "Environment"
+          },
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          }
+        ],
+        "responseDateStr": "2026-06-29-00-00-00",
+        "postingDateStr": "2026-04-30-00-00-00",
+        "archiveDateStr": "2026-07-30-00-00-00",
+        "createTimeStampStr": "2026-04-30-12-39-16"
+      },
+      "agencyDetails": {
+        "code": "DOCNOAAERA",
+        "seed": "DOC-DOCNOAAERA",
+        "agencyName": "DOC NOAA - ERA Production",
+        "agencyCode": "DOC-DOCNOAAERA",
+        "topAgencyCode": "DOC"
+      },
+      "topAgencyDetails": {
+        "code": "DOC",
+        "seed": "DOC",
+        "agencyName": "Department of Commerce",
+        "agencyCode": "DOC",
+        "topAgencyCode": "DOC"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79482,
+          "opportunityId": 362148,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 163117,
+          "createdDate": "Apr 30, 2026 11:47:21 AM EDT",
+          "lastUpdatedDate": "Apr 30, 2026 11:48:26 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351618,
+              "opportunityId": 362148,
+              "mimeType": "application/pdf",
+              "fileName": "Foa_Content_of_NOAA-NMFS-WCRO-2026-33121.pdf",
+              "fileDescription": "NOAA-NMFS-WCRO-2026-33121",
+              "fileLobSize": 186197,
+              "createdDate": "Apr 30, 2026 11:48:26 AM EDT",
+              "synopsisAttFolderId": 79482
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432998,
+          "opportunityId": 362148,
+          "cfdaNumber": "11.045",
+          "programTitle": "Pacific Coast Salmon Recovery"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 362148,
+            "revision": 0
+          },
+          "opportunityId": 362148,
+          "revision": 0,
+          "opportunityNumber": "NOAA-NMFS-WCRO-2026-33121",
+          "opportunityTitle": "Pacific Coastal Salmon Recovery Fund (Annual Appropriations and IIJA Funds)",
+          "owningAgencyCode": "DOC-DOCNOAAERA",
+          "publisherUid": "maguiniga",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "To post",
+          "synopsis": {
+            "id": {
+              "opportunityId": 362148,
+              "revision": 0
+            },
+            "opportunityId": 362148,
+            "revision": 0,
+            "version": 3,
+            "agencyCode": "DOC-DOCNOAAERA",
+            "agencyAddressDesc": "Office",
+            "agencyDetails": {
+              "code": "DOCNOAAERA",
+              "seed": "DOC-DOCNOAAERA",
+              "agencyName": "DOC NOAA - ERA Production",
+              "agencyCode": "DOC-DOCNOAAERA",
+              "topAgencyCode": "DOC"
+            },
+            "agencyContactPhone": "301-628-1384",
+            "agencyContactName": "Maria Aguiniga\nGrantor",
+            "agencyContactDesc": "Kyle Bowers \r\nFederal Program Officer \r\nNMFS West Coast Region \r\n800 E. Park Blvd. Plaza IV, STE 220 \r\nBoise, ID 83712-7768",
+            "agencyContactEmail": "kyle.bowers@noaa.gov",
+            "agencyContactEmailDesc": "Office",
+            "synopsisDesc": "<p><span style=\"color: black;\">NOAA announces the availability of Federal funding, authorized pursuant to the Infrastructure Investment and Jobs Act, Pub. L. 117-58 (November 15, 2021) and the Commerce, Justice, Science; Energy and Water Development; and Interior and Environment Appropriations Act, 2026, Pub. L. 119-74 (January 23, 2026), for necessary expenses associated with the restoration of Pacific salmon populations. The Pacific Coastal Salmon Recovery Fund (PCSRF) program makes such funding available to the States of Washington, Oregon, Idaho, Nevada, California, and Alaska, and federally recognized tribes of the Columbia River and Pacific Coast (including Alaska) for projects necessary for the conservation of salmon and steelhead populations listed as threatened or endangered, or identified by a State as at-risk to be so-listed; for maintaining populations necessary for exercise of tribal treaty fishing rights or native subsistence fishing; or for the conservation of Pacific coastal salmon and steelhead habitat. This announcement supports the Executive Order 14276 Restoring America’s Seafood Competitiveness by focusing on core fisheries management, addressing threats to our nation’s waters, and using science to strengthen healthy and harvestable populations of Pacific salmon. Additionally, projects shall follow the “Gold Standard Science” principles - emphasizing reproducibility, transparency, clear communication of error and uncertainty, collaboration, skepticism of findings and assumptions, structures for falsifiability of hypotheses, unbiased peer review, and freedom from conflict of interest in alignment with Executive Order 14303 Restoring Gold Standard Science. A federally recognized tribe is defined as an Indian or Alaska Native tribe, band, nation, pueblo, village or community that the Secretary of the Interior acknowledges to exist as an Indian tribe pursuant to the Federally Recognized Indian Tribe List Act of 1994, 25 U.S.C. §§ 5130, 5131. See Executive Order No. 13175 (2000). Native subsistence is inclusive of federally recognized non-treaty tribal salmon fisheries. This announcement outlines the priorities and guidelines that will be used to award funding to eligible entities.</span></p>",
+            "responseDate": "Jun 30, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Apr 30, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 30, 2026 12:00:00 AM EDT",
+            "costSharing": true,
+            "awardCeiling": "25000000",
+            "awardCeilingFormatted": "25,000,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Eligible applicants are the States of Washington, Oregon, Idaho, Nevada, California, and Alaska, and Federally recognized tribes of the Columbia River and Pacific Coast (including Alaska).",
+            "createTimeStamp": "Apr 30, 2026 12:00:11 PM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Apr 30, 2026 12:39:16 PM EDT",
+            "createdDate": "Apr 30, 2026 11:45:22 AM EDT",
+            "lastUpdatedDate": "Apr 30, 2026 12:00:11 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ENV",
+                "description": "Environment"
+              },
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2026-06-30-00-00-00",
+            "postingDateStr": "2026-04-30-00-00-00",
+            "archiveDateStr": "2026-07-30-00-00-00",
+            "createTimeStampStr": "2026-04-30-12-00-11"
+          },
+          "cfdas": [
+            {
+              "id": 432998,
+              "opportunityId": 362148,
+              "revision": 0,
+              "cfdaNumber": "11.045",
+              "programTitle": "Pacific Coast Salmon Recovery"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292570,
+          "topportunityId": 362148,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "NOAA-NMFS-WCRO-2026-33121",
+          "opportunityTitle": "Pacific Coastal Salmon Recovery Fund (Annual Appropriations and IIJA Funds)",
+          "cfdaNumber": "11.045",
+          "openingDate": "2026-04-30",
+          "closingDate": "2026-06-29",
+          "owningAgencyCode": "DOC-DOCNOAAERA",
+          "agencyDetails": {
+            "code": "DOCNOAAERA",
+            "seed": "DOC-DOCNOAAERA",
+            "agencyName": "DOC NOAA - ERA Production",
+            "agencyCode": "DOC-DOCNOAAERA",
+            "topAgencyCode": "DOC"
+          },
+          "topAgencyDetails": {
+            "code": "DOC",
+            "seed": "DOC",
+            "agencyName": "Department of Commerce",
+            "agencyCode": "DOC",
+            "topAgencyCode": "DOC"
+          },
+          "programTitle": "Pacific Coast Salmon Recovery",
+          "contactInfo": "Kyle Bowers, PCSRF Federal Program Officer \r\nNMFS West Coast Region \r\nkyle.bowers@noaa.gov \r\n(208) 495-5898 \r\n\r\nor \r\n\r\nLeah Gregg, PCSRF Federal Program Officer \r\nNMFS Alaska Region \r\nleah.gregg@noaa.gov \r\n(907) 308-3281",
+          "electronicRequired": "N",
+          "expectedApplicationCount": 20,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 30, 2026 12:40:34 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292570",
+          "openingDateStr": "2026-04-30-00-00-00",
+          "closingDateStr": "2026-06-29-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 30, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "responseDate"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

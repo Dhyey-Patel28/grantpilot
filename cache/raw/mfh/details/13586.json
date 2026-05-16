@@ -1,0 +1,34 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=13586",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=13586",
+  "website": "https://www.grants.gov/search-results-detail/361187",
+  "grant_id": "13586",
+  "title": "Lasker Clinical Research Scholar's Program (Si2/r00 Clinical Trial Optional)",
+  "overview": "This NOFO encourages applications for the Lasker Clinical Research Scholars Program. The program supports the research activities of clinical researchers during the early stages of their independent careers as they work to improve human health. The program offers the opportunity for a unique bridge between the NIH intramural and extramural research communities and contains two phases. In the first phase, Lasker Scholars will receive appointments for up to 5-7 years as tenure-track investigators within the NIH Intramural Research Program with independent research budgets. In the second phase, successful scholars will receive up to 3 years of NIH support for their research at an extramural research facility; or, the Scholar can be considered to remain as an investigator within the intramural program. Show More",
+  "additional_info": "Posted Date: January 22, 2026 Application Due Date: August 28, 2026 Estimated Award Date: Not Specified Eligible Applicants: Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal organizations (other than Federally recognized tribal governments)County governmentsPublic and State controlled institutions of higher educationNative American tribal governments (Federally recognized)For profit organizations other than small businessesNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationIndependent school districtsPrivate institutions of higher educationCity or township governmentsOthersState governmentsSpecial district governmentsPublic housing authorities/Indian housing authoritiesSmall businesses Show More",
+  "eligible_applicants": [
+    "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal organizations (other than Federally recognized tribal governments)County governmentsPublic and State controlled institutions of higher educationNative American tribal governments (Federally recognized)For profit organizations other than small businessesNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationIndependent school districtsPrivate institutions of higher educationCity or township governmentsOthersState governmentsSpecial district governmentsPublic housing authorities/Indian housing authoritiesSmall businesses"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "health",
+    "housing",
+    "transportation",
+    "workforce"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Health and Human Services",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:24:51.063Z",
+  "content_hash": "14700c01ce6e1576f0552e9aaeecd0f8e0d9771b933a53b332bf81ade94cdba5",
+  "from_cache": false
+}

@@ -1,0 +1,32 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=11515",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=11515",
+  "website": "https://www.grants.gov/search-results-detail/348404",
+  "grant_id": "11515",
+  "title": "NEI Collaborative Clinical Vision Research Project: Resource Center Grant (UG1 Clinical Trial Required)",
+  "overview": "The NEI uses UG1 cooperative agreement awards to support investigator-initiated large-scale clinical trials, human gene-transfer, stem cell therapy trials, and other complex or high resource- or safety-risk clinical trials. These projects are multifaceted and of high public health significance requiring clear delineation of study organization including roles and responsibilities and require careful performance oversight and monitoring.For purposes of this Notice of Funding Opportunity (NOFO), the proposed study must be intended to evaluate interventions aimed at screening, diagnosing, preventing, or treating vision disorders, or to compare the effectiveness of two or more established interventions. The NEI UG1-supported studies are typically funded as a group of single-component companion grant awards including the Chairs Grant, the Coordinating Center, and Resource Centers, when appropriate.Specifically, this NOFO encourages applications for the Resource Center grant which provides imaging, laboratory, or other requisite services for a multi-center clinical trial or other complex or high-risk clinical trial. Show More",
+  "additional_info": "Posted Date: May 26, 2023 Application Due Date: May 25, 2026 Estimated Award Date: Not Specified Eligible Applicants: Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal governments (Federally recognized)Private institutions of higher educationSpecial district governmentsSmall businessesState governmentsOthersFor profit organizations other than small businessesNonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationPublic and State controlled institutions of higher educationIndependent school districtsPublic housing authorities/Indian housing authoritiesCity or township governmentsCounty governmentsNative American tribal organizations (other than Federally recognized tribal governments) Show More",
+  "eligible_applicants": [
+    "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal governments (Federally recognized)Private institutions of higher educationSpecial district governmentsSmall businessesState governmentsOthersFor profit organizations other than small businessesNonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationPublic and State controlled institutions of higher educationIndependent school districtsPublic housing authorities/Indian housing authoritiesCity or township governmentsCounty governmentsNative American tribal organizations (other than Federally recognized tribal governments)"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "health",
+    "housing"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Health and Human Services",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:26:05.505Z",
+  "content_hash": "14e28db1eea1eb4fee08365b78699fcfd14ba8c4e2a9ad05cc5e91ab1d2dcdec",
+  "from_cache": false
+}

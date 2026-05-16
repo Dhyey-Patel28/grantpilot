@@ -1,0 +1,2633 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361058",
+  "fetched_at": "2026-05-16T14:08:34.782Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IkNLQ3BSc1lBRjI4dEd0NTlzenRROEx5OWczZnIyNW4vWjkwUFJOYVJpSms9Ig.ooOZYFLxgtPYMlOp4OfiyjpJxbSThP3LbirHLP8DqzI",
+    "data": {
+      "id": 361058,
+      "revision": 16,
+      "opportunityNumber": "HRSA-26-053",
+      "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+      "owningAgencyCode": "HHS-HRSA",
+      "listed": "L",
+      "publisherUid": "126180912667672078351494559614883671930",
+      "modifiedComments": "Updates have been made to the estimated dates.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "HRSA",
+        "seed": "HHS-HRSA",
+        "agencyName": "Health Resources and Services Administration",
+        "agencyCode": "HHS-HRSA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 361058,
+        "version": 17,
+        "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+        "archiveDate": "Jul 21, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas and populations.</p>",
+        "costSharing": false,
+        "numberOfAwards": "9",
+        "estimatedFunding": "4275000",
+        "awardCeiling": "475000",
+        "awardFloor": "0",
+        "agencyContactName": "Melody Williams",
+        "agencyContactPhone": "301-287-2616",
+        "agencyContactEmail": "mwilliams1@hrsa.gov",
+        "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+        "agencyCode": "HHS-HRSA",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+        "estSynopsisPostingDate": "May 22, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jun 21, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+        "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "Updates have been made to the estimated dates.",
+        "createTimeStamp": "May 15, 2026 09:37:16 AM EDT",
+        "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+        "lastUpdatedDate": "May 15, 2026 09:37:16 AM EDT",
+        "agencyDetails": {
+          "code": "HRSA",
+          "seed": "HHS-HRSA",
+          "agencyName": "Health Resources and Services Administration",
+          "agencyCode": "HHS-HRSA",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "4,275,000",
+        "awardCeilingFormatted": "475,000",
+        "awardFloorFormatted": "0",
+        "applicantTypes": [
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-12-23-00-00-00",
+        "archiveDateStr": "2026-07-21-00-00-00",
+        "estSynopsisPostingDateStr": "2026-05-22-00-00-00",
+        "estApplicationResponseDateStr": "2026-06-21-00-00-00",
+        "estAwardDateStr": "2026-08-03-00-00-00",
+        "estProjectStartDateStr": "2026-09-01-00-00-00",
+        "createTimeStampStr": "2026-05-15-09-37-16"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432084,
+          "opportunityId": 361058,
+          "cfdaNumber": "93.482",
+          "programTitle": "Telehealth Training and Workforce Development"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 0
+          },
+          "opportunityId": 361058,
+          "revision": 0,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 0
+            },
+            "opportunityId": 361058,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "May 03, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas.</p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "estSynopsisPostingDate": "Feb 02, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "Apr 03, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Dec 23, 2025 04:27:24 PM EST",
+            "actionType": "U",
+            "actionDate": "Feb 27, 2026 09:36:39 AM EST",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "Dec 23, 2025 04:27:24 PM EST",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-05-03-00-00-00",
+            "estSynopsisPostingDateStr": "2026-02-02-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-03-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2025-12-23-16-27-24"
+          },
+          "cfdas": [
+            {
+              "id": 431669,
+              "opportunityId": 361058,
+              "revision": 1,
+              "cfdaNumber": "93.211",
+              "programTitle": "Telehealth Programs"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 1
+          },
+          "opportunityId": 361058,
+          "revision": 1,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 1
+            },
+            "opportunityId": 361058,
+            "revision": 1,
+            "version": 2,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jun 05, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas <comment-start name=\"e766cd9a08006244526955ce72b33b260:5efd5\"></comment-start>and populations.<comment-end name=\"e766cd9a08006244526955ce72b33b260:5efd5\"></comment-end></p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "Mar 17, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "May 06, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated Assisted Listing and application availability and submission dates.",
+            "createTimeStamp": "Feb 27, 2026 09:36:39 AM EST",
+            "actionType": "U",
+            "actionDate": "Feb 27, 2026 09:36:39 AM EST",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "Feb 27, 2026 09:36:39 AM EST",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-06-05-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-17-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-06-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-02-27-09-36-39"
+          },
+          "cfdas": [
+            {
+              "id": 431669,
+              "opportunityId": 361058,
+              "revision": 1,
+              "cfdaNumber": "93.211",
+              "programTitle": "Telehealth Programs"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "applicantEligibilityDesc",
+            "forecastDesc",
+            "archiveDate",
+            "applicantEligibilityDesc",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp",
+            "fundingInstruments"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 2
+          },
+          "opportunityId": 361058,
+          "revision": 2,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated Assisted Listing and application availability and submission dates.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 2
+            },
+            "opportunityId": 361058,
+            "revision": 2,
+            "version": 3,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jun 05, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas <comment-start name=\"e766cd9a08006244526955ce72b33b260:5efd5\"></comment-start>and populations.<comment-end name=\"e766cd9a08006244526955ce72b33b260:5efd5\"></comment-end></p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "Mar 17, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "May 06, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated Assisted Listing and application availability and submission dates.",
+            "createTimeStamp": "Feb 27, 2026 09:36:39 AM EST",
+            "actionType": "U",
+            "actionDate": "Mar 23, 2026 04:16:16 PM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "Feb 27, 2026 09:36:39 AM EST",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-06-05-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-17-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-06-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-02-27-09-36-39"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "cfdas"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 3
+          },
+          "opportunityId": 361058,
+          "revision": 3,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated Assisted Listing and application availability and submission dates.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 3
+            },
+            "opportunityId": 361058,
+            "revision": 3,
+            "version": 4,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jun 17, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas <comment-start name=\"e766cd9a08006244526955ce72b33b260:5efd5\"></comment-start>and populations.<comment-end name=\"e766cd9a08006244526955ce72b33b260:5efd5\"></comment-end></p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "Apr 03, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "May 18, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "The Estimated NOFO Post Date has been updated to April 3, 2026. The Application Due Date has been updated to May 18, 2026.",
+            "createTimeStamp": "Mar 23, 2026 04:16:16 PM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 23, 2026 04:16:16 PM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "Mar 23, 2026 04:16:16 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-06-17-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-03-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-18-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-03-23-16-16-16"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 4
+          },
+          "opportunityId": 361058,
+          "revision": 4,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "The Estimated NOFO Post Date has been updated to April 3, 2026. The Application Due Date has been updated to May 18, 2026.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 4
+            },
+            "opportunityId": 361058,
+            "revision": 4,
+            "version": 5,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jun 17, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas <comment-start name=\"e766cd9a08006244526955ce72b33b260:5efd5\"></comment-start>and populations.<comment-end name=\"e766cd9a08006244526955ce72b33b260:5efd5\"></comment-end></p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "Apr 03, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "May 18, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "The Estimated NOFO Post Date has been updated to April 3, 2026. The Application Due Date has been updated to May 18, 2026.",
+            "createTimeStamp": "Mar 23, 2026 04:16:16 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 06, 2026 04:08:38 PM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "Mar 23, 2026 04:16:16 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-06-17-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-03-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-18-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-03-23-16-16-16"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 5
+          },
+          "opportunityId": 361058,
+          "revision": 5,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "The Estimated NOFO Post Date has been updated to April 3, 2026. The Application Due Date has been updated to May 18, 2026.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 5
+            },
+            "opportunityId": 361058,
+            "revision": 5,
+            "version": 6,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "May 31, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas and populations.</p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "Apr 17, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "May 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated application availability and submission dates.",
+            "createTimeStamp": "Apr 06, 2026 04:08:38 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 06, 2026 04:08:38 PM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "Apr 06, 2026 04:08:38 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-05-31-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-17-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-01-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-04-06-16-08-38"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "forecastDesc",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 6
+          },
+          "opportunityId": 361058,
+          "revision": 6,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated application availability and submission dates.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 6
+            },
+            "opportunityId": 361058,
+            "revision": 6,
+            "version": 7,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "May 31, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas and populations.</p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "Apr 17, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "May 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated application availability and submission dates.",
+            "createTimeStamp": "Apr 06, 2026 04:08:38 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 07, 2026 10:50:54 AM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "Apr 06, 2026 04:08:38 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-05-31-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-17-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-01-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-04-06-16-08-38"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 7
+          },
+          "opportunityId": 361058,
+          "revision": 7,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated application availability and submission dates.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 7
+            },
+            "opportunityId": 361058,
+            "revision": 7,
+            "version": 8,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas and populations.</p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "Apr 17, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated application availability and submission dates.",
+            "createTimeStamp": "Apr 07, 2026 10:50:54 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 07, 2026 10:50:54 AM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "Apr 07, 2026 10:50:54 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-07-01-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-17-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-01-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-04-07-10-50-54"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "archiveDate",
+            "estApplicationResponseDate",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 8
+          },
+          "opportunityId": 361058,
+          "revision": 8,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated application availability and submission dates.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 8
+            },
+            "opportunityId": 361058,
+            "revision": 8,
+            "version": 9,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas and populations.</p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "Apr 17, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated application availability and submission dates.",
+            "createTimeStamp": "Apr 07, 2026 10:50:54 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 14, 2026 03:26:17 PM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "Apr 07, 2026 10:50:54 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-07-01-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-17-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-01-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-04-07-10-50-54"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 9
+          },
+          "opportunityId": 361058,
+          "revision": 9,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated application availability and submission dates.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 9
+            },
+            "opportunityId": 361058,
+            "revision": 9,
+            "version": 10,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 15, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas and populations.</p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "May 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated application availability and submission dates.",
+            "createTimeStamp": "Apr 14, 2026 03:26:17 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 14, 2026 03:26:18 PM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "Apr 14, 2026 03:26:17 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-07-15-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-01-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-15-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-04-14-15-26-17"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 10
+          },
+          "opportunityId": 361058,
+          "revision": 10,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated application availability and submission dates.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 10
+            },
+            "opportunityId": 361058,
+            "revision": 10,
+            "version": 11,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 15, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas and populations.</p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "May 01, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated application availability and submission dates.",
+            "createTimeStamp": "Apr 14, 2026 03:26:18 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 01, 2026 02:11:48 PM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "Apr 14, 2026 03:26:18 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-07-15-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-01-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-15-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-04-14-15-26-18"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 11
+          },
+          "opportunityId": 361058,
+          "revision": 11,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated application availability and submission dates.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 11
+            },
+            "opportunityId": 361058,
+            "revision": 11,
+            "version": 12,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 04, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas and populations.</p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "May 05, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 04, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updates have been made to the estimated dates.",
+            "createTimeStamp": "May 01, 2026 02:11:48 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 01, 2026 02:11:49 PM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "May 01, 2026 02:11:48 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-07-04-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-05-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-04-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-05-01-14-11-48"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 12
+          },
+          "opportunityId": 361058,
+          "revision": 12,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updates have been made to the estimated dates.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 12
+            },
+            "opportunityId": 361058,
+            "revision": 12,
+            "version": 13,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 04, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas and populations.</p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "May 05, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 04, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updates have been made to the estimated dates.",
+            "createTimeStamp": "May 01, 2026 02:11:49 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 05, 2026 03:49:51 PM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "May 01, 2026 02:11:49 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-07-04-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-05-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-04-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-05-01-14-11-49"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 13
+          },
+          "opportunityId": 361058,
+          "revision": 13,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updates have been made to the estimated dates.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 13
+            },
+            "opportunityId": 361058,
+            "revision": 13,
+            "version": 14,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 14, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas and populations.</p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "N",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "May 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 14, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updates have been made to the estimated dates.",
+            "createTimeStamp": "May 05, 2026 03:49:51 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 05, 2026 03:49:51 PM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "May 05, 2026 03:49:51 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-07-14-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-15-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-14-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-05-05-15-49-51"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 14
+          },
+          "opportunityId": 361058,
+          "revision": 14,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updates have been made to the estimated dates.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 14
+            },
+            "opportunityId": 361058,
+            "revision": 14,
+            "version": 15,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 14, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas and populations.</p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "N",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "May 15, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 14, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updates have been made to the estimated dates.",
+            "createTimeStamp": "May 05, 2026 03:49:51 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 15, 2026 09:37:15 AM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "May 05, 2026 03:49:51 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-07-14-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-15-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-14-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-05-05-15-49-51"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361058,
+            "revision": 15
+          },
+          "opportunityId": 361058,
+          "revision": 15,
+          "opportunityNumber": "HRSA-26-053",
+          "opportunityTitle": "Technology-enabled Collaborative Learning Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updates have been made to the estimated dates.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361058,
+              "revision": 15
+            },
+            "opportunityId": 361058,
+            "revision": 15,
+            "version": 16,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 21, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>The Technology-enabled Collaborative Learning Program will support the use of technology-enabled collaborative learning to improve retention of health care providers and increase access to health care services in rural and underserved areas and populations.</p>",
+            "costSharing": false,
+            "numberOfAwards": "9",
+            "estimatedFunding": "4275000",
+            "awardCeiling": "475000",
+            "awardFloor": "0",
+            "agencyContactName": "Melody Williams",
+            "agencyContactPhone": "301-287-2616",
+            "agencyContactEmail": "mwilliams1@hrsa.gov",
+            "agencyContactEmailDesc": "mwilliams1@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "To be eligible, an entity must provide, or support the provision of, health care services in rural areas, frontier areas, health professional shortage areas, or medically underserved areas, or to medically underserved populations or Native Americans, including Indian Tribes, Tribal organizations, and urban Indian organizations.",
+            "estSynopsisPostingDate": "May 22, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 21, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Aug 03, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Sep 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updates have been made to the estimated dates.",
+            "createTimeStamp": "May 15, 2026 09:37:15 AM EDT",
+            "actionType": "U",
+            "actionDate": "May 15, 2026 09:37:16 AM EDT",
+            "createdDate": "Dec 23, 2025 04:27:24 PM EST",
+            "lastUpdatedDate": "May 15, 2026 09:37:15 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "4,275,000",
+            "awardCeilingFormatted": "475,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-07-21-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-22-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-21-00-00-00",
+            "estAwardDateStr": "2026-08-03-00-00-00",
+            "estProjectStartDateStr": "2026-09-01-00-00-00",
+            "createTimeStampStr": "2026-05-15-09-37-15"
+          },
+          "cfdas": [
+            {
+              "id": 432084,
+              "opportunityId": 361058,
+              "revision": 15,
+              "cfdaNumber": "93.482",
+              "programTitle": "Telehealth Training and Workforce Development"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "createTimeStamp"
+          ]
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 16,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

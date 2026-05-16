@@ -1,0 +1,34 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=11730",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=11730",
+  "website": "https://www.grants.gov/search-results-detail/329436",
+  "grant_id": "11730",
+  "title": "University Nuclear Leadership Program– Scholarship and Fellowship Support",
+  "overview": "A. STATEMENT OF OBJECTIVESThis Funding Opportunity Announcement (FOA) is to award multiple cooperative agreements to accredited United States (U.S.) two- and four-year colleges and universities (Institutions of Higher Education (IHEs)) to receive and administer scholarship and fellowship funding—provided through the University Nuclear Leadership Program (UNLP) and as administered by the Department of Energy, Office of Nuclear Energy (DOE-NE)—on behalf of selected students attending these U.S. IHEs. The selection of students to receive scholarships and fellowships through the program will occur via a separate DOE-NE process.A.1 BACKGROUND AND OBJECTIVESUNLP works to attract qualified nuclear science and engineering students (NS&E) to nuclear energy professions by providing undergraduate level scholarships and graduate level fellowships. The scholarships and fellowships are focused on two-, four-year, and graduate programs in science and engineering disciplines related to nuclear energy such as nuclear engineering, mechanical engineering, electrical engineering, chemistry, health physics, nuclear materials science, radiochemistry, applied nuclear physics, nuclear policy, radiation protection technology, nuclear power technology, nuclear maintenance technology, nuclear engineering technology, computer science, cybersecurity, nuclear safety, nuclear operations, mechanical and electrical maintenance, and radiation protection.NE’s mission is to advance nuclear energy science and technology to meet U.S. energy, environmental, and economic needs. NE has identified the following goals to address challenges in the nuclear energy sector, help realize the potential of advanced technology, and leverage the unique role of the government in spurring innovation:• Keep existing U.S. nuclear reactors operating• Deploy new nuclear reactors• Secure and sustain our nuclear fuel cycle• Expand international nuclear energy cooperationCollectively, all NE-sponsored activities support the Department’s priorities to combat the climate crisis, create clean energy jobs with the free and fair chance to join a union and bargain collectively, and promote equity and environmental justice by delivering innovative clean energy technologies for nuclear energy systems.UNLP supports NE’s Nuclear Energy University Program (NEUP), which enables outstanding, cutting-edge, and innovative research at U.S. IHEs through the following:• Integrating research and development (R&D) at U.S. IHEs, national laboratories, and industry to revitalize nuclear education and support NE’s Programs• Attracting the brightest students to the nuclear professions and supporting the nation’s intellectual capital in science and engineering disciplines• Improving U.S. IHE’s infrastructure for conducting R&D and educating students• Facilitating knowledge transfer to the next generation of workersEducating undergraduate and graduate students in NS&E will:• Support the ongoing need for personnel who can develop and maintain the nation’s nuclear power technology• Enhance the R&D capabilities of U.S. IHEs• Fulfill national demand for highly trained scientists and engineers to work in NS&E areas Show More",
+  "additional_info": "Posted Date: October 15, 2020 Application Due Date: October 14, 2030 Estimated Award Date: Not Specified Eligible Applicants: Private institutions of higher educationPublic and State controlled institutions of higher education Show More",
+  "eligible_applicants": [
+    "Private institutions of higher educationPublic and State controlled institutions of higher education"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "energy",
+    "environment",
+    "health",
+    "public_safety"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Energy",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:27.947Z",
+  "content_hash": "9dd1b43e8360498a0891291c2049728764905b26fdbcdeb2723a447fce8befc7",
+  "from_cache": false
+}

@@ -1,0 +1,466 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361678",
+  "fetched_at": "2026-05-16T14:09:06.179Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjIybFF1bXFqaEtMN1RGM20zUkJqV1FSODFFbU5pd2IxdnNkc0JPdSt2UmM9Ig.bRVB5u_MuV_0tlU_fhgSeNYuog4JaJvBy2W8-lS5q5k",
+    "data": {
+      "id": 361678,
+      "revision": 2,
+      "opportunityNumber": "DFOP0017979",
+      "opportunityTitle": "FY 2026 Kennedy-Lugar Youth Exchange and Study (YES)",
+      "owningAgencyCode": "DOS-ECA",
+      "listed": "L",
+      "publisherUid": "4449340775911576642",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361678,
+        "version": 3,
+        "agencyCode": "DOS-ECA",
+        "agencyName": "Bureau Of Educational and Cultural Affairs",
+        "agencyPhone": "202-890-9795",
+        "agencyAddressDesc": "David-FoxKO@state.gov",
+        "agencyDetails": {
+          "code": "ECA",
+          "seed": "DOS-ECA",
+          "agencyName": "Bureau Of Educational and Cultural Affairs",
+          "agencyCode": "DOS-ECA",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "202-890-9795",
+        "agencyContactName": "Bureau Of Educational and Cultural Affairs",
+        "agencyContactDesc": "Katja David-Fox",
+        "agencyContactEmail": "David-FoxKO@state.gov",
+        "agencyContactEmailDesc": "David-FoxKO@state.gov",
+        "synopsisDesc": "<p>The Bureau of Educational and Cultural Affairs (ECA) invite proposals for a cooperative agreement to implement the FY 2026 Kennedy-Lugar Youth Exchange and Study (YES) high school exchange program, hereafter referred to as the YES program.&nbsp;Participants will be on program from approximately January to June 2027. <span style=\"color: rgb(28, 33, 39);\">The program requires the following elements:</span></p>\n<p><span style=\"color: rgb(28, 33, 39);\">&nbsp;</span></p>\n<p><span style=\"color: rgb(28, 33, 39);\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manage overseas operations, recruit and select inbound participants, arrange travel, and oversee database and website management for all inbound participants, as well as coordinate the overall program.</span></p>\n<p><span style=\"color: rgb(28, 33, 39);\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manage host family and school placements for inbound foreign participants in the United States, organize “American Excellence” enhancement activities, and provide ongoing monitoring and support.</span></p>\n<p><span style=\"color: rgb(28, 33, 39);\">&nbsp;</span></p>\n<p><span style=\"color: rgb(28, 33, 39);\">Although not required, applicants have the option to also propose a YES Abroad outbound component, recruiting, placing, and monitoring up to 30 American students who will attend high school and live with host families overseas.</span></p>\n<p><br></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The YES program advances U.S. interests by cultivating a network of young leaders who understand and support U.S. principles and priorities, with a focus on entrepreneurship, innovation, civic engagement, and leadership.&nbsp;The program equips American youth participants with language skills and cross-cultural competencies essential for success in international business, diplomacy, and security.&nbsp;By fostering connections among young people from the United States and key countries, the program supports the National Security Strategy’s focus on expanding alliances to secure American interests and counter adversarial influence.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Key Activities:</strong></p>\n<p><strong>&nbsp;</strong></p>\n<ul>\n <li>Up to 270 foreign high school participants will study in the U.S. for an academic semester.</li>\n <li>All participants live with host families, attend high school, perform community service, and participate in American Excellence enhancement activities.</li>\n</ul>\n<p><br></p>\n<p>ECA expects to issue one award.&nbsp;&nbsp;Please see announcement for additional information.</p>",
+        "responseDate": "May 26, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://www.state.gov/eca-grant-opportunities/",
+        "fundingDescLinkDesc": "Bureau of Educational and Cultural Affairs Organizational Funding Opportunities",
+        "postingDate": "Mar 26, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 25, 2026 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "Please see announcement.",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "awardCeiling": "10000000",
+        "awardCeilingFormatted": "10,000,000",
+        "awardFloor": "10000000",
+        "awardFloorFormatted": "10,000,000",
+        "applicantEligibilityDesc": "Please see full announcement.",
+        "sendEmail": "N",
+        "createTimeStamp": "Mar 27, 2026 11:42:24 AM EDT",
+        "modComments": "Corrected typo.",
+        "createdDate": "Mar 26, 2026 12:26:32 PM EDT",
+        "lastUpdatedDate": "Mar 27, 2026 11:42:24 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "responseDateStr": "2026-05-26-00-00-00",
+        "postingDateStr": "2026-03-26-00-00-00",
+        "archiveDateStr": "2026-06-25-00-00-00",
+        "createTimeStampStr": "2026-03-27-11-42-24"
+      },
+      "agencyDetails": {
+        "code": "ECA",
+        "seed": "DOS-ECA",
+        "agencyName": "Bureau Of Educational and Cultural Affairs",
+        "agencyCode": "DOS-ECA",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79074,
+          "opportunityId": 361678,
+          "folderType": "Full Announcement",
+          "folderName": "FY26 YES NOFO",
+          "zipLobSize": 1571391,
+          "createdDate": "Mar 26, 2026 12:31:07 PM EDT",
+          "lastUpdatedDate": "Mar 26, 2026 12:33:09 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350746,
+              "opportunityId": 361678,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "performance_monitoring_plan_mode_2.3_02.03.2025-4.docx",
+              "fileDescription": "ECA Performance Monitoring Plan [219 KB] (PMP) (DOCX)",
+              "fileLobSize": 224445,
+              "createdDate": "Mar 26, 2026 12:33:09 PM EDT",
+              "synopsisAttFolderId": 79074
+            },
+            {
+              "id": 350745,
+              "opportunityId": 361678,
+              "mimeType": "application/pdf",
+              "fileName": "performance_monitoring_plan_mode_2.3_02.03.2025.pdf",
+              "fileDescription": "ECA Performance Monitoring Plan [626 KB](PMP) (PDF)",
+              "fileLobSize": 640736,
+              "createdDate": "Mar 26, 2026 12:32:41 PM EDT",
+              "synopsisAttFolderId": 79074
+            },
+            {
+              "id": 350743,
+              "opportunityId": 361678,
+              "mimeType": "application/pdf",
+              "fileName": "FY 2026 YES - NOFO.pdf",
+              "fileDescription": "FY 2026 Kennedy-Lugar Youth Exchange and Study (YES) NOFO",
+              "fileLobSize": 588440,
+              "createdDate": "Mar 26, 2026 12:31:41 PM EDT",
+              "synopsisAttFolderId": 79074
+            },
+            {
+              "id": 350744,
+              "opportunityId": 361678,
+              "mimeType": "application/pdf",
+              "fileName": "FY26 YES - POGI.pdf",
+              "fileDescription": "FY 2026 Kennedy-Lugar Youth Exchange and Study (YES) POGI",
+              "fileLobSize": 279307,
+              "createdDate": "Mar 26, 2026 12:31:55 PM EDT",
+              "synopsisAttFolderId": 79074
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [
+        {
+          "id": 1384,
+          "opportunityId": 361678,
+          "docUrl": "https://www.state.gov/eca-grant-opportunities/",
+          "description": "Bureau of Educational and Cultural Affairs Organizational Funding Opportunities",
+          "createdDate": "Mar 26, 2026 12:30:46 PM EDT"
+        }
+      ],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432442,
+          "opportunityId": 361678,
+          "cfdaNumber": "19.415",
+          "programTitle": "Professional and Cultural Exchange Programs - Citizen Exchanges"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361678,
+            "revision": 0
+          },
+          "opportunityId": 361678,
+          "revision": 0,
+          "opportunityNumber": "DFOP0017979",
+          "opportunityTitle": "FY 2026 Kennedy-Lugar Youth Exchange and Study (YES)",
+          "owningAgencyCode": "DOS-ECA",
+          "publisherUid": "4449340775911576642",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361678,
+              "revision": 0
+            },
+            "opportunityId": 361678,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOS-ECA",
+            "agencyDetails": {
+              "code": "ECA",
+              "seed": "DOS-ECA",
+              "agencyName": "Bureau Of Educational and Cultural Affairs",
+              "agencyCode": "DOS-ECA",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "202-890-9795",
+            "agencyContactName": "Bureau Of Educational and Cultural Affairs",
+            "agencyContactDesc": "Katja David-Fox, FoxKO@state.gov",
+            "synopsisDesc": "The Bureau of Educational and Cultural Affairs (ECA) invite proposals for a cooperative agreement to implement the FY 2026 Kennedy-Lugar Youth Exchange and Study (YES) high school exchange program, hereafter referred to as the YES program.  Participants will be on program from approximately January to June 2027. The program requires the following elements:\n\nManage overseas operations, recruit and select inbound participants, arrange travel, and oversee database and website management for all inbound participants, as well as coordinate the overall program.\n\nManage host family and school placements for inbound foreign participants in the United States, organize “American Excellence” enhancement activities, and provide ongoing monitoring and support.\n\nAlthough not required, applicants have the option to also propose a YES Abroad outbound component, recruiting, placing, and monitoring up to 30 American students who will attend high school and live with host families overseas.\n\nThe YES program advances U.S. interests by cultivating a network of young leaders who understand and support U.S. principles and priorities, with a focus on entrepreneurship, innovation, civic engagement, and leadership.  The program equips American youth participants with language skills and cross-cultural competencies essential for success in international business, diplomacy, and security.  By fostering connections among young people from the United States and key countries, the program supports the National Security Strategy’s focus on expanding alliances to secure American interests and counter adversarial influence.  \n\nPlease see announcement for additional information.",
+            "responseDate": "May 26, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&table=x_g_usd4_d_grant_funding_opportunity&sys_id=ef2f362a47bff2144f681864336d432c&view=Default",
+            "fundingDescLinkDesc": "Link to Opportunity in MyGrants",
+            "postingDate": "Mar 26, 2026 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "Please see announcement.",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "awardCeiling": "10000000",
+            "awardCeilingFormatted": "10,000,000",
+            "awardFloor": "10000000",
+            "awardFloorFormatted": "10,000,000",
+            "applicantEligibilityDesc": "Please see full announcement.",
+            "createTimeStamp": "Mar 26, 2026 12:26:32 PM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 26, 2026 12:29:20 PM EDT",
+            "createdDate": "Mar 26, 2026 12:26:32 PM EDT",
+            "lastUpdatedDate": "Mar 26, 2026 12:26:32 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "responseDateStr": "2026-05-26-00-00-00",
+            "postingDateStr": "2026-03-26-00-00-00",
+            "createTimeStampStr": "2026-03-26-12-26-32"
+          },
+          "cfdas": [
+            {
+              "id": 432442,
+              "opportunityId": 361678,
+              "revision": 1,
+              "cfdaNumber": "19.415",
+              "programTitle": "Professional and Cultural Exchange Programs - Citizen Exchanges"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361678,
+            "revision": 1
+          },
+          "opportunityId": 361678,
+          "revision": 1,
+          "opportunityNumber": "DFOP0017979",
+          "opportunityTitle": "FY 2026 Kennedy-Lugar Youth Exchange and Study (YES)",
+          "owningAgencyCode": "DOS-ECA",
+          "publisherUid": "4449340775911576642",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361678,
+              "revision": 1
+            },
+            "opportunityId": 361678,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "DOS-ECA",
+            "agencyAddressDesc": "FoxKO@state.gov",
+            "agencyDetails": {
+              "code": "ECA",
+              "seed": "DOS-ECA",
+              "agencyName": "Bureau Of Educational and Cultural Affairs",
+              "agencyCode": "DOS-ECA",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "202-890-9795",
+            "agencyContactName": "Bureau Of Educational and Cultural Affairs",
+            "agencyContactDesc": "Katja David-Fox",
+            "agencyContactEmail": "FoxKO@state.gov",
+            "agencyContactEmailDesc": "FoxKO@state.gov",
+            "synopsisDesc": "<p>The Bureau of Educational and Cultural Affairs (ECA) invite proposals for a cooperative agreement to implement the FY 2026 Kennedy-Lugar Youth Exchange and Study (YES) high school exchange program, hereafter referred to as the YES program.&nbsp;Participants will be on program from approximately January to June 2027. <span style=\"color: rgb(28, 33, 39);\">The program requires the following elements:</span></p>\n<p><span style=\"color: rgb(28, 33, 39);\">&nbsp;</span></p>\n<p><span style=\"color: rgb(28, 33, 39);\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manage overseas operations, recruit and select inbound participants, arrange travel, and oversee database and website management for all inbound participants, as well as coordinate the overall program.</span></p>\n<p><span style=\"color: rgb(28, 33, 39);\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manage host family and school placements for inbound foreign participants in the United States, organize “American Excellence” enhancement activities, and provide ongoing monitoring and support.</span></p>\n<p><span style=\"color: rgb(28, 33, 39);\">&nbsp;</span></p>\n<p><span style=\"color: rgb(28, 33, 39);\">Although not required, applicants have the option to also propose a YES Abroad outbound component, recruiting, placing, and monitoring up to 30 American students who will attend high school and live with host families overseas.</span></p>\n<p><br></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The YES program advances U.S. interests by cultivating a network of young leaders who understand and support U.S. principles and priorities, with a focus on entrepreneurship, innovation, civic engagement, and leadership.&nbsp;The program equips American youth participants with language skills and cross-cultural competencies essential for success in international business, diplomacy, and security.&nbsp;By fostering connections among young people from the United States and key countries, the program supports the National Security Strategy’s focus on expanding alliances to secure American interests and counter adversarial influence.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Key Activities:</strong></p>\n<p><strong>&nbsp;</strong></p>\n<ul>\n <li>Up to 270 foreign high school participants will study in the U.S. for an academic semester.</li>\n <li>All participants live with host families, attend high school, perform community service, and participate in American Excellence enhancement activities.</li>\n</ul>\n<p><br></p>\n<p>ECA expects to issue one award.&nbsp;&nbsp;Please see announcement for additional information.</p>",
+            "responseDate": "May 26, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://www.state.gov/eca-grant-opportunities/",
+            "fundingDescLinkDesc": "Bureau of Educational and Cultural Affairs Organizational Funding Opportunities",
+            "postingDate": "Mar 26, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jun 25, 2026 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "Please see announcement.",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "awardCeiling": "10000000",
+            "awardCeilingFormatted": "10,000,000",
+            "awardFloor": "10000000",
+            "awardFloorFormatted": "10,000,000",
+            "applicantEligibilityDesc": "Please see full announcement.",
+            "createTimeStamp": "Mar 26, 2026 12:33:09 PM EDT",
+            "sendEmail": "N",
+            "modComments": "Finalizing posting.",
+            "actionType": "U",
+            "actionDate": "Mar 27, 2026 11:42:24 AM EDT",
+            "createdDate": "Mar 26, 2026 12:26:32 PM EDT",
+            "lastUpdatedDate": "Mar 26, 2026 12:29:20 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "responseDateStr": "2026-05-26-00-00-00",
+            "postingDateStr": "2026-03-26-00-00-00",
+            "archiveDateStr": "2026-06-25-00-00-00",
+            "createTimeStampStr": "2026-03-26-12-33-09"
+          },
+          "cfdas": [
+            {
+              "id": 432442,
+              "opportunityId": 361678,
+              "revision": 1,
+              "cfdaNumber": "19.415",
+              "programTitle": "Professional and Cultural Exchange Programs - Citizen Exchanges"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "agencyAddressDesc",
+            "agencyContactDesc",
+            "agencyContactEmail",
+            "agencyContactEmailDesc",
+            "synopsisDesc",
+            "fundingDescLinkUrl",
+            "fundingDescLinkDesc",
+            "archiveDate",
+            "applicantTypes"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292258,
+          "topportunityId": 361678,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "DFOP0017979",
+          "opportunityTitle": "FY 2026 Kennedy-Lugar Youth Exchange and Study (YES)",
+          "cfdaNumber": "19.415",
+          "openingDate": "2026-03-26",
+          "closingDate": "2026-05-26",
+          "owningAgencyCode": "DOS-ECA",
+          "agencyDetails": {
+            "code": "ECA",
+            "seed": "DOS-ECA",
+            "agencyName": "Bureau Of Educational and Cultural Affairs",
+            "agencyCode": "DOS-ECA",
+            "topAgencyCode": "DOS"
+          },
+          "topAgencyDetails": {
+            "code": "DOS",
+            "seed": "DOS",
+            "agencyName": "Department of State",
+            "agencyCode": "DOS",
+            "topAgencyCode": "DOS"
+          },
+          "programTitle": "Professional and Cultural Exchange Programs - Citizen Exchanges",
+          "contactInfo": "Hans Posey\r\nProgram Analyst\r\nE-mail: poseyhe@state.gov",
+          "competitionId": "DFOP0017979",
+          "competitionTitle": "FY 2026 Kennedy-Lugar Youth Exchange and Study (YES)",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 3,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 26, 2026 12:30:07 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292258",
+          "openingDateStr": "2026-03-26-00-00-00",
+          "closingDateStr": "2026-05-26-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 26, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "agencyAddressDesc",
+        "agencyContactEmail",
+        "agencyContactEmailDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

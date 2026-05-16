@@ -1,0 +1,157 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361930",
+  "fetched_at": "2026-05-16T14:09:26.664Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlJVWndyVTk1UWk0d3lDYXRJcUR5RC9lblJCdXdrYm9XaDFMRHAzNDcrcmM9Ig.nOSU53J0bwh0EFcrVPSJ4M1Ju9JpMKbunIIqfY25kNc",
+    "data": {
+      "id": 361930,
+      "revision": 0,
+      "opportunityNumber": "PDS-BUE-2026-01",
+      "opportunityTitle": "U.S.-Argentina English for the Energy Sector &amp; Minerals Workforce Development",
+      "owningAgencyCode": "DOS-ARG",
+      "listed": "L",
+      "publisherUid": "PASBuenosAires",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361930,
+        "version": 1,
+        "agencyCode": "DOS-ARG",
+        "agencyName": "Esteban R Carbone\nResource Coordination Specialist",
+        "agencyPhone": "541157774751",
+        "agencyAddressDesc": "Public Diplomacy Section",
+        "agencyDetails": {
+          "code": "ARG",
+          "seed": "DOS-ARG",
+          "agencyName": "U.S. Mission to Argentina",
+          "agencyCode": "DOS-ARG",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "541157774751",
+        "agencyContactName": "Esteban R Carbone\nResource Coordination Specialist",
+        "agencyContactDesc": "Public Diplomacy Section\r\nU.S. Embassy in Buenos Aires, Argentina",
+        "agencyContactEmail": "US-ArgentinaGrants@state.gov",
+        "agencyContactEmailDesc": "Public Diplomacy Section",
+        "synopsisDesc": "<p>U.S. Embassy Buenos Aires announces an open competition to strengthen English for specific purposes within the critical minerals and energy sectors.&nbsp;This program will support workforce development, enhance international collaboration, and improve access to global supply chains by equipping participants with specialized English skills relevant to mining, energy transition, the extractive industry, and advanced manufacturing.&nbsp;It will also help create a more competitive local talent pipeline that can attract increased U.S. investment and expand hiring by U.S. companies operating in Argentina.</p> \n<p>U.S. Embassy Buenos Aires seeks proposals from qualified organizations capable of designing and implementing a program that produces measurable gains in participant knowledge and supports durable professional linkages around transparent and responsible critical mineral and energy sector development.&nbsp;</p> \n<strong style=\"color: windowtext;\">Project Background, Goals, and Objectives</strong> \n<p>The growing demand for modern technologies, including advanced manufacturing, electronics, and digital infrastructure, has significantly increased the need for critical minerals such as lithium, copper, and rare earth elements, while also driving expanded activity across the energy sector.&nbsp;Countries with strong energy and mineral reserves must develop a technically skilled workforce, including English proficiency, to compete in international markets, attract investment, and collaborate with U.S. partners. This aligns with U.S. policy priorities on energy transition and supply chain security.&nbsp;Previous Embassy-supported English Language Programs have demonstrated success in improving general proficiency; however, sector-specific English training remains a new opportunity to improve the U.S. investment climate and U.S. business success in the energy and minerals sectors.</p> \n<p><strong>Project Audience(s): </strong>Primary beneficiaries should include:&nbsp;</p> \n<ul> \n <li>University students in engineering, geology, and mining programs</li> \n <li>Early-career professionals in extractive industries</li> \n <li>Technical educators and vocational trainers</li> \n</ul> \n<p>&nbsp;</p> \n<p><strong>Project Goal: </strong>&nbsp;</p> \n<p>The project goal is to improve workforce readiness and international engagement in the critical minerals and energy sectors through specialized English training.</p> \n<p><strong>Project Objectives:</strong><em> </em>Applicants should design projects that contribute to the following&nbsp;objectives:&nbsp;</p> \n<p><em>Objective 1: </em>Increase technical English proficiency of at least 150 professionals or students in mining, geology, and energy fields within 18 months, as measured by pre- and post-program assessments.</p> \n<p><em>Objective 2: </em>Develop and implement sector-specific English curricula aligned with industry needs.</p> \n<p><em>Objective 3: </em>Strengthen partnerships between U.S. and local institutions to advance education and training in critical minerals and energy sectors.</p> \n<p>&nbsp;</p> \n<p><strong style=\"color: black;\">Expected Outcome: </strong></p> \n<p>&nbsp;<span style=\"color: black;\">By the end of the 18-month period, at least 150 participants will demonstrate measurable improvements in technical English proficiency, enabling them to engage more effectively with U.S. and Western research, training opportunities, and industry standards.</span></p> \n<p><span style=\"color: black;\">Additionally, the development and implementation of sector-specific English curricula will result in tailored, high-quality instructional materials that reflect current industry terminology and practices.&nbsp;These curricula will be adaptable for continued use by partner institutions, ensuring sustainability beyond the project’s duration.</span></p> \n<p><span style=\"color: black;\">Finally, the project will foster stronger, more institutionalized collaboration between U.S. and local partners in critical minerals and energy sector education and workforce development.&nbsp;These partnerships are expected to lead to ongoing exchanges, joint programming, and expanded opportunities for students and professionals, contributing to a more globally connected and competitive workforce in the sector.</span></p>",
+        "responseDate": "May 31, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "See attached document with complete announcement",
+        "postingDate": "Apr 16, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 30, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "100000",
+        "estimatedFundingFormatted": "100,000",
+        "awardCeiling": "100000",
+        "awardCeilingFormatted": "100,000",
+        "awardFloor": "50000",
+        "awardFloorFormatted": "50,000",
+        "applicantEligibilityDesc": "Not-for-profit organizations, including think-tanks and civil society/non-governmental organizations Public and private educational institutions Public International Organizations Governmental institutions",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 16, 2026 03:11:16 PM EDT",
+        "createdDate": "Apr 16, 2026 03:06:38 PM EDT",
+        "lastUpdatedDate": "Apr 16, 2026 03:11:16 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "BC",
+            "description": "Business and Commerce"
+          }
+        ],
+        "responseDateStr": "2026-05-31-00-00-00",
+        "postingDateStr": "2026-04-16-00-00-00",
+        "archiveDateStr": "2026-06-30-00-00-00",
+        "createTimeStampStr": "2026-04-16-15-11-16"
+      },
+      "agencyDetails": {
+        "code": "ARG",
+        "seed": "DOS-ARG",
+        "agencyName": "U.S. Mission to Argentina",
+        "agencyCode": "DOS-ARG",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79308,
+          "opportunityId": 361930,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 454795,
+          "createdDate": "Apr 16, 2026 03:06:55 PM EDT",
+          "lastUpdatedDate": "Apr 16, 2026 03:07:14 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351267,
+              "opportunityId": 361930,
+              "mimeType": "application/pdf",
+              "fileName": "NOFO - English for the Energy Sector &amp; Minerals Workforce Development.pdf",
+              "fileDescription": "Full Announcement",
+              "fileLobSize": 508220,
+              "createdDate": "Apr 16, 2026 03:07:14 PM EDT",
+              "synopsisAttFolderId": 79308
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432747,
+          "opportunityId": 361930,
+          "cfdaNumber": "19.040",
+          "programTitle": "Public Diplomacy Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 31, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

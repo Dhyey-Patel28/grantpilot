@@ -1,0 +1,342 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361682",
+  "fetched_at": "2026-05-16T14:09:06.672Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjIybFF1bXFqaEtMN1RGM20zUkJqV2ZlblJCdXdrYm9XaDFMRHAzNDcrcmM9Ig.Nk9zd3ZV8qk7MC-XOCFcEgMiCE96gM5Ktu_PrSSjvXQ",
+    "data": {
+      "id": 361682,
+      "revision": 1,
+      "opportunityNumber": "DFOP0017995",
+      "opportunityTitle": "FY 2026 America First U.S. Speaker Program",
+      "owningAgencyCode": "DOS-ECA",
+      "listed": "L",
+      "publisherUid": "4449340775911576642",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361682,
+        "version": 2,
+        "agencyCode": "DOS-ECA",
+        "agencyName": "Bureau Of Educational and Cultural Affairs",
+        "agencyPhone": "202-890-9795",
+        "agencyAddressDesc": "PitmanIE@state.gov",
+        "agencyDetails": {
+          "code": "ECA",
+          "seed": "DOS-ECA",
+          "agencyName": "Bureau Of Educational and Cultural Affairs",
+          "agencyCode": "DOS-ECA",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "202-890-9795",
+        "agencyContactName": "Bureau Of Educational and Cultural Affairs",
+        "agencyContactDesc": "Imani Pitman",
+        "agencyContactEmail": "PitmanIE@state.gov",
+        "agencyContactEmailDesc": "PitmanIE@state.gov",
+        "synopsisDesc": "<span class=\"ql-size-small\">The U.S. Department of State’s Bureau Educational and Cultural Affairs (ECA) announces an open competition to support the FY 2026 America First U.S. Speaker Program.&nbsp;Through this cooperative agreement, ECA will support approximately 580 programs, 360 in-person and 220 virtual, engaging key interlocutors from all regions of the world.</span> \n<p><span style=\"color: black;\">&nbsp;</span></p> \n<p><span style=\"color: black;\">The U.S. Speaker Program is a nimble, rapid response public diplomacy tool that for more than 40 years has built lasting relationships between U.S. citizen experts and </span>foreign decision-makers and other professional interlocutors<span style=\"color: black;\"> that serve Administration priorities and the American people. &nbsp;</span>Programs will focus on America First priorities such as energy security, critical minerals, commercial diplomacy, freedom of expression, digital freedom, and AI.<span style=\"color: black;\">&nbsp;The program recruits experienced American experts </span>from across the United States<span style=\"color: black;\"> for in-person and/or virtual exchanges that advance America First priorities.&nbsp;Through the program, American professionals establish and sustain linkages with key foreign audiences and institutions, which directly contribute to economic opportunities for Americans. &nbsp;The program works with U.S. embassies and consulates to produce impactful in-person programs ranging from three days to three weeks in length; and virtual programs, which can take place on a single date and time and/or may be part of a continuing series. &nbsp;Programmatic formats include lectures, workshops, seminars, and training series.</span></p> \n<p><br></p> \n<p>Please see the announcement for additional information.</p>",
+        "responseDate": "May 26, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://www.state.gov/eca-grant-opportunities/",
+        "fundingDescLinkDesc": "Bureau of Educational and Cultural Affairs Organizational Funding Opportunities",
+        "postingDate": "Mar 26, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 25, 2026 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "Please see announcement.",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "awardCeiling": "2736259",
+        "awardCeilingFormatted": "2,736,259",
+        "awardFloor": "2736259",
+        "awardFloorFormatted": "2,736,259",
+        "applicantEligibilityDesc": "Please see announcement.",
+        "sendEmail": "N",
+        "createTimeStamp": "Mar 26, 2026 01:02:41 PM EDT",
+        "modComments": "Finalizing posting.",
+        "createdDate": "Mar 26, 2026 12:56:00 PM EDT",
+        "lastUpdatedDate": "Mar 26, 2026 12:59:16 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "responseDateStr": "2026-05-26-00-00-00",
+        "postingDateStr": "2026-03-26-00-00-00",
+        "archiveDateStr": "2026-06-25-00-00-00",
+        "createTimeStampStr": "2026-03-26-13-02-41"
+      },
+      "agencyDetails": {
+        "code": "ECA",
+        "seed": "DOS-ECA",
+        "agencyName": "Bureau Of Educational and Cultural Affairs",
+        "agencyCode": "DOS-ECA",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79078,
+          "opportunityId": 361682,
+          "folderType": "Full Announcement",
+          "folderName": "FY26 America First Speaker",
+          "zipLobSize": 1242074,
+          "createdDate": "Mar 26, 2026 01:01:35 PM EDT",
+          "lastUpdatedDate": "Mar 26, 2026 01:02:41 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350761,
+              "opportunityId": 361682,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "performance_monitoring_plan_mode_2.3_02.03.2025-4.docx",
+              "fileDescription": "ECA Performance Monitoring Plan [219 KB] (PMP) (DOCX)",
+              "fileLobSize": 224445,
+              "createdDate": "Mar 26, 2026 01:02:22 PM EDT",
+              "synopsisAttFolderId": 79078
+            },
+            {
+              "id": 350762,
+              "opportunityId": 361682,
+              "mimeType": "application/pdf",
+              "fileName": "performance_monitoring_plan_mode_2.3_02.03.2025.pdf",
+              "fileDescription": "ECA Performance Monitoring Plan [219 KB] (PMP) (PDF)",
+              "fileLobSize": 640736,
+              "createdDate": "Mar 26, 2026 01:02:41 PM EDT",
+              "synopsisAttFolderId": 79078
+            },
+            {
+              "id": 350760,
+              "opportunityId": 361682,
+              "mimeType": "application/pdf",
+              "fileName": "NOFO - FY26 America First U.S. Speaker Program.pdf",
+              "fileDescription": "FY 2026 America First U.S. Speaker Program NOFO",
+              "fileLobSize": 524043,
+              "createdDate": "Mar 26, 2026 01:02:01 PM EDT",
+              "synopsisAttFolderId": 79078
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [
+        {
+          "id": 1388,
+          "opportunityId": 361682,
+          "docUrl": "https://www.state.gov/eca-grant-opportunities/",
+          "description": "Bureau of Educational and Cultural Affairs Organizational Funding Opportunities",
+          "createdDate": "Mar 26, 2026 01:00:41 PM EDT"
+        }
+      ],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432446,
+          "opportunityId": 361682,
+          "cfdaNumber": "19.440",
+          "programTitle": "ECA U.S. Speaker Program"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361682,
+            "revision": 0
+          },
+          "opportunityId": 361682,
+          "revision": 0,
+          "opportunityNumber": "DFOP0017995",
+          "opportunityTitle": "FY 2026 America First U.S. Speaker Program",
+          "owningAgencyCode": "DOS-ECA",
+          "publisherUid": "4449340775911576642",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361682,
+              "revision": 0
+            },
+            "opportunityId": 361682,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOS-ECA",
+            "agencyDetails": {
+              "code": "ECA",
+              "seed": "DOS-ECA",
+              "agencyName": "Bureau Of Educational and Cultural Affairs",
+              "agencyCode": "DOS-ECA",
+              "topAgencyCode": "DOS"
+            },
+            "agencyContactPhone": "202-890-9795",
+            "agencyContactName": "Bureau Of Educational and Cultural Affairs",
+            "agencyContactDesc": "Imani Pitman, PitmanIE@state.gov",
+            "synopsisDesc": "The U.S. Department of State’s Bureau Educational and Cultural Affairs (ECA) announces an open competition to support the FY 2026 America First U.S. Speaker Program.  Through this cooperative agreement, ECA will support approximately 580 programs, 360 in-person and 220 virtual, engaging key interlocutors from all regions of the world.\n\nThe U.S. Speaker Program is a nimble, rapid response public diplomacy tool that for more than 40 years has built lasting relationships between U.S. citizen experts and foreign decision-makers and other professional interlocutors that serve Administration priorities and the American people.  Programs will focus on America First priorities such as energy security, critical minerals, commercial diplomacy, freedom of expression, digital freedom, and AI.  The program recruits experienced American experts from across the United States for in-person and/or virtual exchanges that advance America First priorities.  Through the program, American professionals establish and sustain linkages with key foreign audiences and institutions, which directly contribute to economic opportunities for Americans.  The program works with U.S. embassies and consulates to produce impactful in-person programs ranging from three days to three weeks in length; and virtual programs, which can take place on a single date and time and/or may be part of a continuing series.  Programmatic formats include lectures, workshops, seminars, and training series.\n\nPlease see the announcement for additional information.",
+            "responseDate": "May 26, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://mygrants.servicenowservices.com/mygrants?id=mygrants_form&table=x_g_usd4_d_grant_funding_opportunity&sys_id=bc5ccbee47f336144f681864336d432f&view=Default",
+            "fundingDescLinkDesc": "Link to Opportunity in MyGrants",
+            "postingDate": "Mar 26, 2026 12:00:00 AM EDT",
+            "fundingActivityCategoryDesc": "Please see announcement.",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "awardCeiling": "2736259",
+            "awardCeilingFormatted": "2,736,259",
+            "awardFloor": "2736259",
+            "awardFloorFormatted": "2,736,259",
+            "applicantEligibilityDesc": "Please see announcement.",
+            "createTimeStamp": "Mar 26, 2026 12:56:00 PM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 26, 2026 12:59:16 PM EDT",
+            "createdDate": "Mar 26, 2026 12:56:00 PM EDT",
+            "lastUpdatedDate": "Mar 26, 2026 12:56:00 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "responseDateStr": "2026-05-26-00-00-00",
+            "postingDateStr": "2026-03-26-00-00-00",
+            "createTimeStampStr": "2026-03-26-12-56-00"
+          },
+          "cfdas": [
+            {
+              "id": 432446,
+              "opportunityId": 361682,
+              "revision": 0,
+              "cfdaNumber": "19.440",
+              "programTitle": "ECA U.S. Speaker Program"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292262,
+          "topportunityId": 361682,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "DFOP0017995",
+          "opportunityTitle": "FY 2026 America First U.S. Speaker Program",
+          "cfdaNumber": "19.440",
+          "openingDate": "2026-03-26",
+          "closingDate": "2026-05-26",
+          "owningAgencyCode": "DOS-ECA",
+          "agencyDetails": {
+            "code": "ECA",
+            "seed": "DOS-ECA",
+            "agencyName": "Bureau Of Educational and Cultural Affairs",
+            "agencyCode": "DOS-ECA",
+            "topAgencyCode": "DOS"
+          },
+          "topAgencyDetails": {
+            "code": "DOS",
+            "seed": "DOS",
+            "agencyName": "Department of State",
+            "agencyCode": "DOS",
+            "topAgencyCode": "DOS"
+          },
+          "programTitle": "ECA U.S. Speaker Program",
+          "contactInfo": "Hans Posey\r\nProgram Analyst\r\nE-mail: poseyhe@state.gov",
+          "competitionId": "DFOP0017995",
+          "competitionTitle": "FY 2026 America First U.S. Speaker Program",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 3,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 26, 2026 01:00:00 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292262",
+          "openingDateStr": "2026-03-26-00-00-00",
+          "closingDateStr": "2026-05-26-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 26, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "agencyAddressDesc",
+        "agencyContactDesc",
+        "agencyContactEmail",
+        "agencyContactEmailDesc",
+        "synopsisDesc",
+        "fundingDescLinkUrl",
+        "fundingDescLinkDesc",
+        "archiveDate",
+        "applicantTypes"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

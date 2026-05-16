@@ -1,0 +1,442 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "357087",
+  "fetched_at": "2026-05-16T14:07:30.123Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldEenRGOXpJYVFkY3A0TVBBVG5zWlpJdWxiZTAyQmZVQklBV0VmeHdyZ289Ig._Pyn_Z-p8raMaiZJPB8LJezeI1zTBlztd-jjFIGFjyg",
+    "data": {
+      "id": 357087,
+      "revision": 1,
+      "opportunityNumber": "PAR-25-170",
+      "opportunityTitle": "Digital Health Technology Derived Biomarkers and Outcome Assessments for Remote Monitoring and Endpoint Development (UG3/UH3 - Clinical Trial Optional)",
+      "owningAgencyCode": "HHS-NIH11",
+      "listed": "L",
+      "publisherUid": "sanfordae",
+      "modifiedComments": "Modification to ALNs",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 357087,
+        "version": 2,
+        "agencyCode": "HHS-NIH11",
+        "agencyName": "National Institutes of Health",
+        "agencyPhone": "301-402-2541",
+        "agencyAddressDesc": "See Section VII. Agency Contacts within the full opportunity announcement for all other inquires.",
+        "agencyDetails": {
+          "code": "NIH",
+          "seed": "HHS-NIH11",
+          "agencyName": "National Institutes of Health",
+          "agencyCode": "HHS-NIH11",
+          "topAgencyCode": "HHS"
+        },
+        "topAgencyDetails": {
+          "code": "HHS",
+          "seed": "HHS",
+          "agencyName": "Department of Health and Human Services",
+          "agencyCode": "HHS",
+          "topAgencyCode": "HHS"
+        },
+        "agencyContactPhone": "301-402-2541",
+        "agencyContactName": "National Institutes of Health",
+        "agencyContactDesc": "NIH Grants Information\ngrantsinfo@nih.gov",
+        "agencyContactEmail": "grantsinfo@nih.gov",
+        "agencyContactEmailDesc": "See Section VII. Agency Contacts within the full opportunity announcement for all other inquires.",
+        "synopsisDesc": "The purpose of this proposed Notice of Funding Announcement (NOFO) is to support development of biomarkers or clinical outcomes derived from digital health technology (DHT) for use in clinical trials for remote monitoring as primary or secondary endpoints. To improve clinical impact, increase statistical feasibility, and promote standardization, applicants will be expected to develop and test the digitally derived assessments in populations from at least three different diseases or conditions. Partnerships with non-profit patient advocacy organizations will be required.",
+        "responseDate": "Jun 22, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "http://grants.nih.gov/grants/guide/pa-files/PAR-25-170.html",
+        "fundingDescLinkDesc": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-170.html",
+        "postingDate": "Nov 13, 2024 12:00:00 AM EST",
+        "archiveDate": "Jul 28, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "applicantEligibilityDesc": "Other Eligible Applicants include the following: Alaska Native and Native Hawaiian Serving Institutions; Asian American Native American Pacific Islander Serving Institutions (AANAPISISs); Eligible Agencies of the Federal Government; Faith-based or Community-based Organizations; Hispanic-serving Institutions; Historically Black Colleges and Universities (HBCUs); Indian/Native American Tribal Governments (Other than Federally Recognized); Non-domestic (non-U.S.) Entities (Foreign Organizations); Regional Organizations; Tribally Controlled Colleges and Universities (TCCUs) ; U.S. Territory or Possession; Non-domestic (non-U.S.) Entities (Foreign Organizations) are not eligible to apply.Non-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Dec 13, 2024 01:21:09 PM EST",
+        "modComments": "Modification to ALNs",
+        "createdDate": "Nov 13, 2024 10:17:41 AM EST",
+        "lastUpdatedDate": "Dec 13, 2024 01:21:09 PM EST",
+        "applicantTypes": [
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ED",
+            "description": "Education"
+          },
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "responseDateStr": "2026-06-22-00-00-00",
+        "postingDateStr": "2024-11-13-00-00-00",
+        "archiveDateStr": "2026-07-28-00-00-00",
+        "createTimeStampStr": "2024-12-13-13-21-09"
+      },
+      "agencyDetails": {
+        "code": "NIH",
+        "seed": "HHS-NIH11",
+        "agencyName": "National Institutes of Health",
+        "agencyCode": "HHS-NIH11",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 75414,
+          "opportunityId": 357087,
+          "folderType": "Full Announcement",
+          "folderName": "PAR-25-170",
+          "zipLobSize": 448,
+          "createdDate": "Nov 13, 2024 10:17:48 AM EST",
+          "lastUpdatedDate": "Nov 13, 2024 10:21:28 AM EST",
+          "synopsisAttachments": [
+            {
+              "id": 344090,
+              "opportunityId": 357087,
+              "mimeType": "text/html",
+              "fileName": "PAR-25-170-Full-Announcement.html",
+              "fileDescription": "PAR-25-170 Full Announcement Text",
+              "fileLobSize": 422,
+              "createdDate": "Nov 13, 2024 10:21:28 AM EST",
+              "synopsisAttFolderId": 75414
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 425034,
+          "opportunityId": 357087,
+          "cfdaNumber": "93.399",
+          "programTitle": "Cancer Control"
+        },
+        {
+          "id": 425033,
+          "opportunityId": 357087,
+          "cfdaNumber": "93.853",
+          "programTitle": "Extramural Research Programs in the Neurosciences and Neurological Disorders"
+        },
+        {
+          "id": 426310,
+          "opportunityId": 357087,
+          "cfdaNumber": "93.866",
+          "programTitle": "Aging Research"
+        },
+        {
+          "id": 425035,
+          "opportunityId": 357087
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 357087,
+            "revision": 0
+          },
+          "opportunityId": 357087,
+          "revision": 0,
+          "opportunityNumber": "PAR-25-170",
+          "opportunityTitle": "Digital Health Technology Derived Biomarkers and Outcome Assessments for Remote Monitoring and Endpoint Development (UG3/UH3 - Clinical Trial Optional)",
+          "owningAgencyCode": "HHS-NIH11",
+          "publisherUid": "85078724978857742224107944047325102090",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 357087,
+              "revision": 0
+            },
+            "opportunityId": 357087,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "HHS-NIH11",
+            "agencyAddressDesc": "See Section VII. Agency Contacts within the full opportunity announcement for all other inquires.",
+            "agencyDetails": {
+              "code": "NIH",
+              "seed": "HHS-NIH11",
+              "agencyName": "National Institutes of Health",
+              "agencyCode": "HHS-NIH11",
+              "topAgencyCode": "HHS"
+            },
+            "agencyContactPhone": "301-402-2541",
+            "agencyContactName": "National Institutes of Health",
+            "agencyContactDesc": "NIH Grants Information\ngrantsinfo@nih.gov",
+            "agencyContactEmail": "grantsinfo@nih.gov",
+            "agencyContactEmailDesc": "See Section VII. Agency Contacts within the full opportunity announcement for all other inquires.",
+            "synopsisDesc": "The purpose of this proposed Notice of Funding Announcement (NOFO) is to support development of biomarkers or clinical outcomes derived from digital health technology (DHT) for use in clinical trials for remote monitoring as primary or secondary endpoints. To improve clinical impact, increase statistical feasibility, and promote standardization, applicants will be expected to develop and test the digitally derived assessments in populations from at least three different diseases or conditions. Partnerships with non-profit patient advocacy organizations will be required.",
+            "responseDate": "Jun 22, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "http://grants.nih.gov/grants/guide/pa-files/PAR-25-170.html",
+            "fundingDescLinkDesc": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-170.html",
+            "postingDate": "Nov 13, 2024 12:00:00 AM EST",
+            "archiveDate": "Jul 28, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "Other Eligible Applicants include the following:\n Alaska Native and Native Hawaiian Serving Institutions; Asian American Native American Pacific Islander Serving Institutions (AANAPISISs); Eligible Agencies of the Federal Government; Faith-based or Community-based Organizations; Hispanic-serving Institutions; Historically Black Colleges and Universities (HBCUs); Indian/Native American Tribal Governments (Other than Federally Recognized); Non-domestic (non-U.S.) Entities (Foreign Organizations); Regional Organizations; Tribally Controlled Colleges and Universities (TCCUs) ; U.S. Territory or Possession; Non-domestic (non-U.S.) Entities (Foreign Organizations) are not eligible to apply.\n\nNon-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply.",
+            "createTimeStamp": "Nov 13, 2024 10:21:28 AM EST",
+            "actionType": "U",
+            "actionDate": "Dec 13, 2024 01:21:09 PM EST",
+            "createdDate": "Nov 13, 2024 10:17:41 AM EST",
+            "lastUpdatedDate": "Nov 13, 2024 10:17:41 AM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              },
+              {
+                "id": "08",
+                "description": "Public housing authorities/Indian housing authorities"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              },
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "responseDateStr": "2026-06-22-00-00-00",
+            "postingDateStr": "2024-11-13-00-00-00",
+            "archiveDateStr": "2026-07-28-00-00-00",
+            "createTimeStampStr": "2024-11-13-10-21-28"
+          },
+          "cfdas": [
+            {
+              "id": 425034,
+              "opportunityId": 357087,
+              "revision": 0,
+              "cfdaNumber": "93.399",
+              "programTitle": "Cancer Control"
+            },
+            {
+              "id": 425033,
+              "opportunityId": 357087,
+              "revision": 0,
+              "cfdaNumber": "93.853",
+              "programTitle": "Extramural Research Programs in the Neurosciences and Neurological Disorders"
+            },
+            {
+              "id": 425035,
+              "opportunityId": 357087,
+              "revision": 0
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 288697,
+          "topportunityId": 357087,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PAR-25-170",
+          "opportunityTitle": "Digital Health Technology Derived Biomarkers and Outcome Assessments for Remote Monitoring and Endpoint Development (UG3/UH3 - Clinical Trial Optional)",
+          "openingDate": "2025-01-21",
+          "closingDate": "2026-06-22",
+          "owningAgencyCode": "HHS-NIH11",
+          "agencyDetails": {
+            "code": "NIH",
+            "seed": "HHS-NIH11",
+            "agencyName": "National Institutes of Health",
+            "agencyCode": "HHS-NIH11",
+            "topAgencyCode": "HHS"
+          },
+          "topAgencyDetails": {
+            "code": "HHS",
+            "seed": "HHS",
+            "agencyName": "Department of Health and Human Services",
+            "agencyCode": "HHS",
+            "topAgencyCode": "HHS"
+          },
+          "contactInfo": "eRA Service Desk Monday to Friday 7 am to 8 pm ET http://grants.nih.gov/support/",
+          "gracePeriod": 35,
+          "competitionId": "FORMS-I",
+          "competitionTitle": "Use for due dates on or after January 25, 2025",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 100,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Nov 13, 2024 10:19:22 AM EST",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00288697",
+          "openingDateStr": "2025-01-21-00-00-00",
+          "closingDateStr": "2026-06-22-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 22, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "cfdas",
+        "applicantEligibilityDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

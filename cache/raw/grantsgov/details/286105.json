@@ -1,0 +1,143 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "286105",
+  "fetched_at": "2026-05-16T14:06:17.391Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InY3WUFLZTFMeFA5MXdHSWkzeXNBZ29UVTBqSE1FdHRnVVVGZmMyRzdNalk9Ig.NliPq-GzNyfLZtSjgVrkNtgZpmlMad-W6z_LUtRj5vk",
+    "data": {
+      "id": 286105,
+      "revision": 0,
+      "opportunityNumber": "P16AS00322",
+      "opportunityTitle": "R Package Development and Data Certification for the National Park Service Units of the National Capital Region and the Northeast",
+      "owningAgencyCode": "DOI-NPS",
+      "listed": "L",
+      "publisherUid": "lpalmernps",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 286105,
+        "version": 1,
+        "agencyCode": "DOI-NPS",
+        "agencyAddressDesc": "This is a Notice of Intent Only.",
+        "agencyDetails": {
+          "code": "DOINPSWASO",
+          "seed": "DOI-NPS",
+          "agencyName": "National Park Service",
+          "agencyCode": "DOI-NPS",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactDesc": "LaQuita Palmer\r\nGrants Management Specialist\r\nPhone 202-619-7082",
+        "agencyContactEmail": "laquita_palmer@nps.gov",
+        "agencyContactEmailDesc": "This is a Notice of Intent Only.",
+        "synopsisDesc": "The objective of this Agreement is to advance historic preservation at the local level by establishing a task agreement between the National Park Service and the National Alliance of Preservation Commissions (NAPC) to provide training opportunities, promote the Federal Certified Local Government program, and strengthen local preservation commissions by providing bi-annual State Certified Local Government Coordinator Training",
+        "responseDateDesc": "This is a Notice of Intent only. This Task Agreement is being awarded under Cooperative Agreement P15AC01485 which was already awarded under a competitive process. No applications are being accepted at this time.",
+        "fundingDescLinkUrl": "http://www.grants.gov",
+        "fundingDescLinkDesc": "http://www.grants.gov",
+        "postingDate": "Jul 14, 2016 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "89987",
+        "awardCeilingFormatted": "89,987",
+        "awardFloor": "1",
+        "awardFloorFormatted": "1",
+        "createTimeStamp": "Jul 14, 2016 04:10:30 PM EDT",
+        "createdDate": "Jul 14, 2016 04:10:30 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2016-07-14-00-00-00",
+        "createTimeStampStr": "2016-07-14-16-10-30"
+      },
+      "agencyDetails": {
+        "code": "DOINPSWASO",
+        "seed": "DOI-NPS",
+        "agencyName": "National Park Service",
+        "agencyCode": "DOI-NPS",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 27801,
+          "opportunityId": 286105,
+          "folderType": "Full Announcement",
+          "folderName": "P16AS00322",
+          "zipLobSize": 38005,
+          "createdDate": "Jul 14, 2016 04:11:37 PM EDT",
+          "lastUpdatedDate": "Jul 14, 2016 04:13:55 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 254927,
+              "opportunityId": 286105,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "P16AS0322.docx",
+              "fileDescription": "This is a Notice of Intent Only.",
+              "fileLobSize": 42998,
+              "createdDate": "Jul 14, 2016 04:13:55 PM EDT",
+              "synopsisAttFolderId": 27801
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 327701,
+          "opportunityId": 286105,
+          "cfdaNumber": "15.945",
+          "programTitle": "Cooperative Research and Training Programs - Resources of the National Park System"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "This is a Notice of Intent only. This Task Agreement is being awarded under Cooperative Agreement P15AC01485 which was already awarded under a competitive process. No applications are being accepted at this time.",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

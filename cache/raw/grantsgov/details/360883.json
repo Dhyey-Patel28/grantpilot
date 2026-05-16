@@ -1,0 +1,128 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360883",
+  "fetched_at": "2026-05-16T14:08:28.938Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImlCUG0zcXFrcFRGVVROTE0rZnZYZDI4R2YwNURhcy9WVjRsMGt6UDhlaVk9Ig.5MY43t9id9G0a1PPzmz1Qtd5nkf0AUN8PxiNiDRLdQU",
+    "data": {
+      "id": 360883,
+      "revision": 0,
+      "opportunityNumber": "PAR-26-030",
+      "opportunityTitle": "Institutional Development Award (IDeA) for Clinical &amp; Translational Research (CTR)",
+      "owningAgencyCode": "HHS-NIH11",
+      "publisherUid": "85078824959489933389587371192040018034",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "NIH",
+        "seed": "HHS-NIH11",
+        "agencyName": "National Institutes of Health",
+        "agencyCode": "HHS-NIH11",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 360883,
+        "version": 1,
+        "postingDate": "Nov 19, 2025 12:00:00 AM EST",
+        "forecastDesc": "<p>The Institutional Development Award program develops biomedical research capacity in states that have historically received low levels of NIH funding (IDeA states). The&nbsp;IDeA Clinical &amp; Translational Research&nbsp;(CTR) Notice of Funding Opportunity supports two programmatic tracks to build clinical and translational research capacity to enable research on diseases and health challenges prevalent in IDeA states. <strong>IDeA Clinical and Translational Research Development (CTR-D)</strong> awards focus on clinical and translational research workforce development and infrastructure enhancement at health research organizations in IDeA states that have limited clinical research capacity<strong>. IDeA Clinical &amp; Translational Research Network (CTR-N)</strong> awards support statewide or multi-state networks of health research organizations to expand existing infrastructure, develop the research workforce to enhance the network organization’s ability to design and implement competitive clinical and translational research programs, and coordinate clinical research activities state-wide and/or across IDeA states.</p>",
+        "costSharing": false,
+        "agencyContactName": "NIGMS IDeA CTR",
+        "agencyContactPhone": "Please contact via e-mail",
+        "agencyContactEmail": "NIGMS_IDeA-CTR@mail.nih.gov",
+        "agencyContactEmailDesc": "NIGMS_IDeA-CTR@mail.nih.gov",
+        "agencyCode": "HHS-NIH11",
+        "applicantEligibilityDesc": "Eligibility is restricted to institutions that meet the following criteria:Are located in an IDeA-eligible state, commonwealth, or jurisdiction, which are Alaska, Arkansas, Delaware, Hawaii, Idaho, Kansas, Kentucky, Louisiana, Maine, Mississippi, Montana, Nebraska, Nevada, New Hampshire, New Mexico, North Dakota, Oklahoma, Puerto Rico, Rhode Island, South Carolina, South Dakota, Vermont, West Virginia, and Wyoming; andAward doctoral degrees in the health-related sciences or are independent biomedical research institutes/medical centers with ongoing biomedical research programs funded by the NIH or other federal agencies.",
+        "estSynopsisPostingDate": "May 27, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Oct 09, 2026 12:00:00 AM EDT",
+        "estAwardDate": "Jul 16, 2027 12:00:00 AM EDT",
+        "estProjectStartDate": "Jul 16, 2027 12:00:00 AM EDT",
+        "fiscalYear": 2027,
+        "createTimeStamp": "Nov 19, 2025 08:59:35 AM EST",
+        "createdDate": "Nov 19, 2025 08:59:35 AM EST",
+        "lastUpdatedDate": "Nov 19, 2025 08:59:35 AM EST",
+        "agencyDetails": {
+          "code": "NIH",
+          "seed": "HHS-NIH11",
+          "agencyName": "National Institutes of Health",
+          "agencyCode": "HHS-NIH11",
+          "topAgencyCode": "HHS"
+        },
+        "applicantTypes": [
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-11-19-00-00-00",
+        "estSynopsisPostingDateStr": "2026-05-27-00-00-00",
+        "estApplicationResponseDateStr": "2026-10-09-00-00-00",
+        "estAwardDateStr": "2027-07-16-00-00-00",
+        "estProjectStartDateStr": "2027-07-16-00-00-00",
+        "createTimeStampStr": "2025-11-19-08-59-35"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 431457,
+          "opportunityId": 360883,
+          "cfdaNumber": "93.859",
+          "programTitle": "Biomedical Research and Research Training"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

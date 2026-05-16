@@ -1,0 +1,581 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361020",
+  "fetched_at": "2026-05-16T14:08:33.254Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IkNLQ3BSc1lBRjI4dEd0NTlzenRROE5nMGxPVzM3RXl2MXZQRVVKWmlsckU9Ig.KoqEVMqDHXydtpZXRCPiwraWoV9b2cADH_Ow8Kj_gzA",
+    "data": {
+      "id": 361020,
+      "revision": 3,
+      "opportunityNumber": "DE-FOA-0003538",
+      "opportunityTitle": "Fiscal Year 2026 Consolidated Innovative Nuclear Research",
+      "owningAgencyCode": "DOE-ID",
+      "listed": "L",
+      "publisherUid": "3289421028660251824777375413775018631",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361020,
+        "version": 4,
+        "agencyCode": "DOE-ID",
+        "agencyName": "Idaho Field Office",
+        "agencyPhone": "2022871878",
+        "agencyAddressDesc": "Click to email contact",
+        "agencyDetails": {
+          "code": "ID",
+          "seed": "DOE-ID",
+          "agencyName": "Idaho Field Office",
+          "agencyCode": "DOE-ID",
+          "topAgencyCode": "DOE"
+        },
+        "topAgencyDetails": {
+          "code": "DOE",
+          "seed": "DOE",
+          "agencyName": "Department of Energy",
+          "agencyCode": "DOE",
+          "topAgencyCode": "DOE"
+        },
+        "agencyContactPhone": "2022871878",
+        "agencyContactName": "Idaho Field Office",
+        "agencyContactDesc": "Jacob Lingard 2085265820\nlingarjn@id.doe.gov\n Andrew Ford 208-526-3059\nfordaj@id.doe.gov",
+        "agencyContactEmail": "lingarjn@id.doe.gov",
+        "agencyContactEmailDesc": "Click to email contact",
+        "synopsisDesc": "The Office of Nuclear Energy (NE) mission is to advance nuclear energy science and technology to meet U.S. energy, environmental, and economic needs. NE has identified the following goals to address challenges in the nuclear energy sector, help realize the potential of advanced technology, and leverage the unique role of the government in spurring innovation:\n\n·\tEnable continued operation of existing U.S. nuclear reactors\n·\tEnable deployment of advanced nuclear reactors\n·\tDevelop advanced nuclear fuel cycles\n·\tMaintain U.S. leadership in nuclear energy technology\n\nNE strives to promote integrated and collaborative research conducted by national laboratory, university, industry, and international partners under the direction of NE’s programs, and to deploy innovative nuclear energy technologies to the market and to optimize the benefits of nuclear energy.",
+        "responseDate": "Jun 09, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Dec 15, 2025 12:00:00 AM EST",
+        "archiveDate": "Jul 09, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "0",
+        "estimatedFunding": "57000000",
+        "estimatedFundingFormatted": "57,000,000",
+        "awardCeiling": "3100000",
+        "awardCeilingFormatted": "3,100,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 23, 2026 12:25:23 PM EDT",
+        "modComments": "This amendment is changes the NSUF Full-Application SOW Deadline from May 14, 2026 to May 21, 2026.",
+        "createdDate": "Dec 15, 2025 03:41:31 PM EST",
+        "lastUpdatedDate": "Apr 23, 2026 12:25:19 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "EN",
+            "description": "Energy"
+          }
+        ],
+        "responseDateStr": "2026-06-09-00-00-00",
+        "postingDateStr": "2025-12-15-00-00-00",
+        "archiveDateStr": "2026-07-09-00-00-00",
+        "createTimeStampStr": "2026-04-23-12-25-23"
+      },
+      "agencyDetails": {
+        "code": "ID",
+        "seed": "DOE-ID",
+        "agencyName": "Idaho Field Office",
+        "agencyCode": "DOE-ID",
+        "topAgencyCode": "DOE"
+      },
+      "topAgencyDetails": {
+        "code": "DOE",
+        "seed": "DOE",
+        "agencyName": "Department of Energy",
+        "agencyCode": "DOE",
+        "topAgencyCode": "DOE"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 78670,
+          "opportunityId": 361020,
+          "folderType": "Full Announcement",
+          "folderName": "DE-FOA-0003538 (BASE)",
+          "zipLobSize": 24447022,
+          "createdDate": "Dec 15, 2025 03:41:35 PM EST",
+          "lastUpdatedDate": "Dec 15, 2025 03:41:50 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 349871,
+              "opportunityId": 361020,
+              "mimeType": "application/octet-stream",
+              "fileName": "FY 2026 Consolidated Innovative Nuclear Research RD NOFO DE-FOA-0003538 Part 1 - FINAL 12DEC2025.pdf",
+              "fileDescription": "FY 2026 CINR  NOFO DE-FOA-0003538 Part 1",
+              "fileLobSize": 6950939,
+              "createdDate": "Dec 15, 2025 03:41:50 PM EST",
+              "synopsisAttFolderId": 78670
+            },
+            {
+              "id": 349870,
+              "opportunityId": 361020,
+              "mimeType": "application/octet-stream",
+              "fileName": "FY 2026 Consolidated Innovative Nuclear Research RD NOFO DE-FOA-0003538 Part 2 - FINAL 12DEC2025.pdf",
+              "fileDescription": "FY 2026 CINR  NOFO DE-FOA-0003538 Part 2",
+              "fileLobSize": 17598592,
+              "createdDate": "Dec 15, 2025 03:41:42 PM EST",
+              "synopsisAttFolderId": 78670
+            }
+          ]
+        },
+        {
+          "id": 78732,
+          "opportunityId": 361020,
+          "folderType": "Revised Full Announcement",
+          "folderName": "DE-FOA-0003538 (000001)",
+          "zipLobSize": 24497168,
+          "createdDate": "Jan 13, 2026 02:14:51 PM EST",
+          "lastUpdatedDate": "Jan 13, 2026 02:15:05 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 350037,
+              "opportunityId": 361020,
+              "mimeType": "application/octet-stream",
+              "fileName": "FY 2026 Consolidated Innovative Nuclear Research RD NOFO DE-FOA-0003538 Part 1 - FINAL Amend 1 13JAN2026.pdf",
+              "fileDescription": "FY 2026 CINR RD NOFO DE-FOA-0003538 Part 1 - FINAL Amend 1",
+              "fileLobSize": 7090839,
+              "createdDate": "Jan 13, 2026 02:15:05 PM EST",
+              "synopsisAttFolderId": 78732
+            },
+            {
+              "id": 350036,
+              "opportunityId": 361020,
+              "mimeType": "application/octet-stream",
+              "fileName": "FY 2026 Consolidated Innovative Nuclear Research RD NOFO DE-FOA-0003538 Part 2 - FINAL Amend 1 13JAN2026.pdf",
+              "fileDescription": "FY 2026 CINR RD NOFO DE-FOA-0003538 Part 2 - FINAL Amend 1",
+              "fileLobSize": 17510110,
+              "createdDate": "Jan 13, 2026 02:14:58 PM EST",
+              "synopsisAttFolderId": 78732
+            }
+          ]
+        },
+        {
+          "id": 78783,
+          "opportunityId": 361020,
+          "folderType": "Revised Full Announcement",
+          "folderName": "DE-FOA-0003538 (000002)",
+          "zipLobSize": 6929966,
+          "createdDate": "Jan 27, 2026 07:18:33 PM EST",
+          "lastUpdatedDate": "Jan 27, 2026 07:18:36 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 350149,
+              "opportunityId": 361020,
+              "mimeType": "application/octet-stream",
+              "fileName": "FY 2026 Consolidated Innovative Nuclear Research RD NOFO DE-FOA-0003538 Part 1 - FINAL mod 2 27JAN2026.pdf",
+              "fileDescription": "Fiscal Year 2026 Consolidated Innovative Nuclear Research modification 002",
+              "fileLobSize": 7004400,
+              "createdDate": "Jan 27, 2026 07:18:36 PM EST",
+              "synopsisAttFolderId": 78783
+            }
+          ]
+        },
+        {
+          "id": 79373,
+          "opportunityId": 361020,
+          "folderType": "Revised Full Announcement",
+          "folderName": "DE-FOA-0003538 (000003)",
+          "zipLobSize": 6922788,
+          "createdDate": "Apr 23, 2026 12:25:19 PM EDT",
+          "lastUpdatedDate": "Apr 23, 2026 12:25:23 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351446,
+              "opportunityId": 361020,
+              "mimeType": "application/octet-stream",
+              "fileName": "FY 2026 Consolidated Innovative Nuclear Research RD NOFO DE-FOA-0003538 Part 1 - Amend 3 23APR2026.pdf",
+              "fileDescription": "FY26 CINR RD NOFO DE-FOA-0003538 Part 1-Amend 3",
+              "fileLobSize": 6997035,
+              "createdDate": "Apr 23, 2026 12:25:23 PM EDT",
+              "synopsisAttFolderId": 79373
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 431621,
+          "opportunityId": 361020,
+          "cfdaNumber": "81.121",
+          "programTitle": "Nuclear Energy Research, Development and Demonstration"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361020,
+            "revision": 0
+          },
+          "opportunityId": 361020,
+          "revision": 0,
+          "opportunityNumber": "DE-FOA-0003538",
+          "opportunityTitle": "Fiscal Year 2026 Consolidated Innovative Nuclear Research",
+          "owningAgencyCode": "DOE-ID",
+          "publisherUid": "3289421028660251824777375413775018631",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361020,
+              "revision": 0
+            },
+            "opportunityId": 361020,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOE-ID",
+            "agencyAddressDesc": "Click to email contact",
+            "agencyDetails": {
+              "code": "ID",
+              "seed": "DOE-ID",
+              "agencyName": "Idaho Field Office",
+              "agencyCode": "DOE-ID",
+              "topAgencyCode": "DOE"
+            },
+            "agencyContactPhone": "2022871878",
+            "agencyContactName": "Idaho Field Office",
+            "agencyContactDesc": "Jacob Lingard 2085265820\nlingarjn@id.doe.gov\n Andrew Ford 208-526-3059\nfordaj@id.doe.gov",
+            "agencyContactEmail": "lingarjn@id.doe.gov",
+            "agencyContactEmailDesc": "Click to email contact",
+            "synopsisDesc": "The Office of Nuclear Energy (NE) mission is to advance nuclear energy science and technology to meet U.S. energy, environmental, and economic needs. NE has identified the following goals to address challenges in the nuclear energy sector, help realize the potential of advanced technology, and leverage the unique role of the government in spurring innovation:\n\n·\tEnable continued operation of existing U.S. nuclear reactors\n·\tEnable deployment of advanced nuclear reactors\n·\tDevelop advanced nuclear fuel cycles\n·\tMaintain U.S. leadership in nuclear energy technology\n\nNE strives to promote integrated and collaborative research conducted by national laboratory, university, industry, and international partners under the direction of NE’s programs, and to deploy innovative nuclear energy technologies to the market and to optimize the benefits of nuclear energy.",
+            "responseDate": "Jun 09, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Dec 15, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 09, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "0",
+            "estimatedFunding": "57000000",
+            "estimatedFundingFormatted": "57,000,000",
+            "awardCeiling": "3100000",
+            "awardCeilingFormatted": "3,100,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "",
+            "createTimeStamp": "Dec 15, 2025 03:41:50 PM EST",
+            "actionType": "U",
+            "actionDate": "Jan 13, 2026 02:14:50 PM EST",
+            "createdDate": "Dec 15, 2025 03:41:31 PM EST",
+            "lastUpdatedDate": "Dec 15, 2025 03:41:31 PM EST",
+            "applicantTypes": [
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "EN",
+                "description": "Energy"
+              }
+            ],
+            "responseDateStr": "2026-06-09-00-00-00",
+            "postingDateStr": "2025-12-15-00-00-00",
+            "archiveDateStr": "2026-07-09-00-00-00",
+            "createTimeStampStr": "2025-12-15-15-41-50"
+          },
+          "cfdas": [
+            {
+              "id": 431621,
+              "opportunityId": 361020,
+              "revision": 2,
+              "cfdaNumber": "81.121",
+              "programTitle": "Nuclear Energy Research, Development and Demonstration"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361020,
+            "revision": 1
+          },
+          "opportunityId": 361020,
+          "revision": 1,
+          "opportunityNumber": "DE-FOA-0003538",
+          "opportunityTitle": "Fiscal Year 2026 Consolidated Innovative Nuclear Research",
+          "owningAgencyCode": "DOE-ID",
+          "publisherUid": "3289421028660251824777375413775018631",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361020,
+              "revision": 1
+            },
+            "opportunityId": 361020,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "DOE-ID",
+            "agencyAddressDesc": "Click to email contact",
+            "agencyDetails": {
+              "code": "ID",
+              "seed": "DOE-ID",
+              "agencyName": "Idaho Field Office",
+              "agencyCode": "DOE-ID",
+              "topAgencyCode": "DOE"
+            },
+            "agencyContactPhone": "2022871878",
+            "agencyContactName": "Idaho Field Office",
+            "agencyContactDesc": "Jacob Lingard 2085265820\nlingarjn@id.doe.gov\n Andrew Ford 208-526-3059\nfordaj@id.doe.gov",
+            "agencyContactEmail": "lingarjn@id.doe.gov",
+            "agencyContactEmailDesc": "Click to email contact",
+            "synopsisDesc": "The Office of Nuclear Energy (NE) mission is to advance nuclear energy science and technology to meet U.S. energy, environmental, and economic needs. NE has identified the following goals to address challenges in the nuclear energy sector, help realize the potential of advanced technology, and leverage the unique role of the government in spurring innovation:\n\n·\tEnable continued operation of existing U.S. nuclear reactors\n·\tEnable deployment of advanced nuclear reactors\n·\tDevelop advanced nuclear fuel cycles\n·\tMaintain U.S. leadership in nuclear energy technology\n\nNE strives to promote integrated and collaborative research conducted by national laboratory, university, industry, and international partners under the direction of NE’s programs, and to deploy innovative nuclear energy technologies to the market and to optimize the benefits of nuclear energy.",
+            "responseDate": "Jun 09, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Dec 15, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 09, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "0",
+            "estimatedFunding": "57000000",
+            "estimatedFundingFormatted": "57,000,000",
+            "awardCeiling": "3100000",
+            "awardCeilingFormatted": "3,100,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "",
+            "createTimeStamp": "Jan 13, 2026 02:15:05 PM EST",
+            "sendEmail": "Y",
+            "modComments": "The purpose of this modification is to: Clarify topic areas, formatting corrections, and removed a reference to a table not in the document.",
+            "actionType": "U",
+            "actionDate": "Jan 27, 2026 07:18:33 PM EST",
+            "createdDate": "Dec 15, 2025 03:41:31 PM EST",
+            "lastUpdatedDate": "Jan 13, 2026 02:14:50 PM EST",
+            "applicantTypes": [
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "EN",
+                "description": "Energy"
+              }
+            ],
+            "responseDateStr": "2026-06-09-00-00-00",
+            "postingDateStr": "2025-12-15-00-00-00",
+            "archiveDateStr": "2026-07-09-00-00-00",
+            "createTimeStampStr": "2026-01-13-14-15-05"
+          },
+          "cfdas": [
+            {
+              "id": 431621,
+              "opportunityId": 361020,
+              "revision": 2,
+              "cfdaNumber": "81.121",
+              "programTitle": "Nuclear Energy Research, Development and Demonstration"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361020,
+            "revision": 2
+          },
+          "opportunityId": 361020,
+          "revision": 2,
+          "opportunityNumber": "DE-FOA-0003538",
+          "opportunityTitle": "Fiscal Year 2026 Consolidated Innovative Nuclear Research",
+          "owningAgencyCode": "DOE-ID",
+          "publisherUid": "3289421028660251824777375413775018631",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361020,
+              "revision": 2
+            },
+            "opportunityId": 361020,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "DOE-ID",
+            "agencyAddressDesc": "Click to email contact",
+            "agencyDetails": {
+              "code": "ID",
+              "seed": "DOE-ID",
+              "agencyName": "Idaho Field Office",
+              "agencyCode": "DOE-ID",
+              "topAgencyCode": "DOE"
+            },
+            "agencyContactPhone": "2022871878",
+            "agencyContactName": "Idaho Field Office",
+            "agencyContactDesc": "Jacob Lingard 2085265820\nlingarjn@id.doe.gov\n Andrew Ford 208-526-3059\nfordaj@id.doe.gov",
+            "agencyContactEmail": "lingarjn@id.doe.gov",
+            "agencyContactEmailDesc": "Click to email contact",
+            "synopsisDesc": "The Office of Nuclear Energy (NE) mission is to advance nuclear energy science and technology to meet U.S. energy, environmental, and economic needs. NE has identified the following goals to address challenges in the nuclear energy sector, help realize the potential of advanced technology, and leverage the unique role of the government in spurring innovation:\n\n·\tEnable continued operation of existing U.S. nuclear reactors\n·\tEnable deployment of advanced nuclear reactors\n·\tDevelop advanced nuclear fuel cycles\n·\tMaintain U.S. leadership in nuclear energy technology\n\nNE strives to promote integrated and collaborative research conducted by national laboratory, university, industry, and international partners under the direction of NE’s programs, and to deploy innovative nuclear energy technologies to the market and to optimize the benefits of nuclear energy.",
+            "responseDate": "Jun 09, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Dec 15, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 09, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "0",
+            "estimatedFunding": "57000000",
+            "estimatedFundingFormatted": "57,000,000",
+            "awardCeiling": "3100000",
+            "awardCeilingFormatted": "3,100,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "",
+            "createTimeStamp": "Jan 27, 2026 07:18:36 PM EST",
+            "sendEmail": "Y",
+            "modComments": "Change pre-application due date from 1/28/2026 to 2/3/2026 and changes the NSUF Pre- Application Statement of Work &amp; Readiness Statement Deadline from 02/17/2026 to 02/24/2026.",
+            "actionType": "U",
+            "actionDate": "Apr 23, 2026 12:25:19 PM EDT",
+            "createdDate": "Dec 15, 2025 03:41:31 PM EST",
+            "lastUpdatedDate": "Jan 27, 2026 07:18:33 PM EST",
+            "applicantTypes": [
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "EN",
+                "description": "Energy"
+              }
+            ],
+            "responseDateStr": "2026-06-09-00-00-00",
+            "postingDateStr": "2025-12-15-00-00-00",
+            "archiveDateStr": "2026-07-09-00-00-00",
+            "createTimeStampStr": "2026-01-27-19-18-36"
+          },
+          "cfdas": [
+            {
+              "id": 431621,
+              "opportunityId": 361020,
+              "revision": 2,
+              "cfdaNumber": "81.121",
+              "programTitle": "Nuclear Energy Research, Development and Demonstration"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 09, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 3,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

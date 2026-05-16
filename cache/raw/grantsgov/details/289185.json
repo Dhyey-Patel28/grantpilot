@@ -1,0 +1,245 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "289185",
+  "fetched_at": "2026-05-16T14:06:17.871Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InY3WUFLZTFMeFA5MXdHSWkzeXNBZ3JRcXB4SEdqY3JUZmp5UTRKNU9RbVE9Ig.t9i6c1oTbP9gINgwVOIEj27O3zxrUz8gaNFtzVCliv4",
+    "data": {
+      "id": 289185,
+      "revision": 1,
+      "opportunityNumber": "P17AS00001",
+      "opportunityTitle": "Enhancing Interpretation at Ford's Theatre",
+      "owningAgencyCode": "DOI-NPS",
+      "listed": "L",
+      "publisherUid": "lpalmernps",
+      "modifiedComments": "change title",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 289185,
+        "version": 2,
+        "agencyCode": "DOI-NPS",
+        "agencyAddressDesc": "This is a Notice of Intent to Award Only.",
+        "agencyDetails": {
+          "code": "DOINPSWASO",
+          "seed": "DOI-NPS",
+          "agencyName": "National Park Service",
+          "agencyCode": "DOI-NPS",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactDesc": "LaQuita Palmer\r\nGrants Management Specialist\r\nPhone 202-619-7082",
+        "agencyContactEmail": "laquita_palmer@nps.gov",
+        "agencyContactEmailDesc": "This is a Notice of Intent to Award Only.",
+        "synopsisDesc": "This is a Notice of Intent only. This Task Agreement is being awarded under Cooperative Agreement P15AC00572 which was already awarded under a competitive process. No applications are being accepted at this time",
+        "responseDateDesc": "THIS IS NOT A REQUEST FOR APPLICATIONS.",
+        "fundingDescLinkUrl": "http://www.grants.gov",
+        "fundingDescLinkDesc": "http://www.grants.gov",
+        "postingDate": "Sep 28, 2016 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "1",
+        "awardCeiling": "600616",
+        "awardCeilingFormatted": "600,616",
+        "awardFloor": "1",
+        "awardFloorFormatted": "1",
+        "applicantEligibilityDesc": "This is a Notice of Intent only. This Task Agreement is being awarded under Cooperative Agreement P15AC00572 which was already awarded under a competitive process. No applications are being accepted at this time",
+        "sendEmail": "Y",
+        "createTimeStamp": "Sep 28, 2016 03:35:20 PM EDT",
+        "modComments": "change title",
+        "createdDate": "Sep 28, 2016 02:50:56 PM EDT",
+        "lastUpdatedDate": "Sep 28, 2016 03:35:20 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ED",
+            "description": "Education"
+          },
+          {
+            "id": "ELT",
+            "description": "Employment, Labor and Training"
+          }
+        ],
+        "postingDateStr": "2016-09-28-00-00-00",
+        "createTimeStampStr": "2016-09-28-15-35-20"
+      },
+      "agencyDetails": {
+        "code": "DOINPSWASO",
+        "seed": "DOI-NPS",
+        "agencyName": "National Park Service",
+        "agencyCode": "DOI-NPS",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 28996,
+          "opportunityId": 289185,
+          "folderType": "Full Announcement",
+          "folderName": "P17AS00001",
+          "zipLobSize": 30117,
+          "createdDate": "Sep 28, 2016 03:42:31 PM EDT",
+          "lastUpdatedDate": "Sep 28, 2016 03:44:21 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 257940,
+              "opportunityId": 289185,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "P17AS00001.docx",
+              "fileDescription": "This is a Notice of Intent to Award Only.",
+              "fileLobSize": 34428,
+              "createdDate": "Sep 28, 2016 03:44:21 PM EDT",
+              "synopsisAttFolderId": 28996
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 331426,
+          "opportunityId": 289185,
+          "cfdaNumber": "15.946",
+          "programTitle": "Cultural Resources Management"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 289185,
+            "revision": 0
+          },
+          "opportunityId": 289185,
+          "revision": 0,
+          "opportunityNumber": "P17AS00001",
+          "opportunityTitle": "Enhancing Intrepretation at Ford's Theatre",
+          "owningAgencyCode": "DOI-NPS",
+          "publisherUid": "lpalmernps",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 289185,
+              "revision": 0
+            },
+            "opportunityId": 289185,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOI-NPS",
+            "agencyAddressDesc": "This is a Notice of Intent to Award Only.",
+            "agencyDetails": {
+              "code": "DOINPSWASO",
+              "seed": "DOI-NPS",
+              "agencyName": "National Park Service",
+              "agencyCode": "DOI-NPS",
+              "topAgencyCode": "DOI"
+            },
+            "agencyContactDesc": "LaQuita Palmer\r\nGrants Management Specialist\r\nPhone 202-619-7082",
+            "agencyContactEmail": "laquita_palmer@nps.gov",
+            "agencyContactEmailDesc": "This is a Notice of Intent to Award Only.",
+            "synopsisDesc": "This is a Notice of Intent only. This Task Agreement is being awarded under Cooperative Agreement P15AC00572 which was already awarded under a competitive process. No applications are being accepted at this time",
+            "responseDateDesc": "THIS IS NOT A REQUEST FOR APPLICATIONS.",
+            "fundingDescLinkUrl": "http://www.grants.gov",
+            "fundingDescLinkDesc": "http://www.grants.gov",
+            "postingDate": "Sep 28, 2016 12:00:00 AM EDT",
+            "costSharing": true,
+            "numberOfAwards": "1",
+            "awardCeiling": "600616",
+            "awardCeilingFormatted": "600,616",
+            "awardFloor": "1",
+            "awardFloorFormatted": "1",
+            "applicantEligibilityDesc": "This is a Notice of Intent only. This Task Agreement is being awarded under Cooperative Agreement P15AC00572 which was already awarded under a competitive process. No applications are being accepted at this time",
+            "createTimeStamp": "Sep 28, 2016 02:50:56 PM EDT",
+            "createdDate": "Sep 28, 2016 03:35:19 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ED",
+                "description": "Education"
+              },
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              }
+            ],
+            "postingDateStr": "2016-09-28-00-00-00",
+            "createTimeStampStr": "2016-09-28-14-50-56"
+          },
+          "cfdas": [
+            {
+              "id": 331426,
+              "opportunityId": 289185,
+              "revision": 0,
+              "cfdaNumber": "15.946",
+              "programTitle": "Cultural Resources Management"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "THIS IS NOT A REQUEST FOR APPLICATIONS.",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "opportunityTitle"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

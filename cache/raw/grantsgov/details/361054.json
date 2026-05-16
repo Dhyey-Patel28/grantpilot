@@ -1,0 +1,2695 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361054",
+  "fetched_at": "2026-05-16T14:08:34.262Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IkNLQ3BSc1lBRjI4dEd0NTlzenRROFBLUmc1U0ovNlB3aTlhQ2pKa21CQXM9Ig.vfuodG4E-QQ2tp7o1VBEA9epEcsTAoj0oB7r0PLcwTo",
+    "data": {
+      "id": 361054,
+      "revision": 16,
+      "opportunityNumber": "HRSA-26-049",
+      "opportunityTitle": "Rural Health Research Dissemination Program",
+      "owningAgencyCode": "HHS-HRSA",
+      "listed": "L",
+      "publisherUid": "126180912667672078351494559614883671930",
+      "modifiedComments": "Updated Estimated Post Date and Estimated Application Due Date.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "HRSA",
+        "seed": "HHS-HRSA",
+        "agencyName": "Health Resources and Services Administration",
+        "agencyCode": "HHS-HRSA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 361054,
+        "version": 17,
+        "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+        "archiveDate": "Jul 25, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "230000",
+        "awardCeiling": "230000",
+        "awardFloor": "0",
+        "agencyContactName": "Karis Tyner",
+        "agencyContactPhone": "(301) 287-2615",
+        "agencyContactEmail": "ktyner@hrsa.gov",
+        "agencyContactEmailDesc": "ktyner@hrsa.gov",
+        "agencyCode": "HHS-HRSA",
+        "sendEmail": "N",
+        "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+        "estSynopsisPostingDate": "May 26, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Jun 25, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+        "estAwardDate": "Jul 01, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "modComments": "Updated Estimated Post Date and Estimated Application Due Date.",
+        "createTimeStamp": "May 12, 2026 10:25:17 AM EDT",
+        "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+        "lastUpdatedDate": "May 12, 2026 10:25:17 AM EDT",
+        "agencyDetails": {
+          "code": "HRSA",
+          "seed": "HHS-HRSA",
+          "agencyName": "Health Resources and Services Administration",
+          "agencyCode": "HHS-HRSA",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "230,000",
+        "awardCeilingFormatted": "230,000",
+        "awardFloorFormatted": "0",
+        "applicantTypes": [
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-12-23-00-00-00",
+        "archiveDateStr": "2026-07-25-00-00-00",
+        "estSynopsisPostingDateStr": "2026-05-26-00-00-00",
+        "estApplicationResponseDateStr": "2026-06-25-00-00-00",
+        "estAwardDateStr": "2026-07-01-00-00-00",
+        "estProjectStartDateStr": "2026-07-01-00-00-00",
+        "createTimeStampStr": "2026-05-12-10-25-17"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 431664,
+          "opportunityId": 361054,
+          "cfdaNumber": "93.155",
+          "programTitle": "Rural Health Research Centers"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 0
+          },
+          "opportunityId": 361054,
+          "revision": 0,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 0
+            },
+            "opportunityId": 361054,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "May 17, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "Mar 03, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "Apr 17, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "createTimeStamp": "Dec 23, 2025 07:56:38 AM EST",
+            "actionType": "U",
+            "actionDate": "Dec 29, 2025 04:52:27 PM EST",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Dec 23, 2025 07:56:38 AM EST",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-05-17-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-03-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-17-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2025-12-23-07-56-38"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 1
+          },
+          "opportunityId": 361054,
+          "revision": 1,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 1
+            },
+            "opportunityId": 361054,
+            "revision": 1,
+            "version": 2,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "May 17, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "Mar 03, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "Apr 17, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Grants.gov publication",
+            "createTimeStamp": "Dec 29, 2025 04:52:27 PM EST",
+            "actionType": "U",
+            "actionDate": "Dec 29, 2025 04:52:29 PM EST",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Dec 29, 2025 04:52:27 PM EST",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-05-17-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-03-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-17-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2025-12-29-16-52-27"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 2
+          },
+          "opportunityId": 361054,
+          "revision": 2,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Grants.gov publication",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 2
+            },
+            "opportunityId": 361054,
+            "revision": 2,
+            "version": 3,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "May 17, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "Mar 03, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "Apr 17, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Grants.gov publication",
+            "createTimeStamp": "Dec 29, 2025 04:52:29 PM EST",
+            "actionType": "U",
+            "actionDate": "Dec 29, 2025 04:53:56 PM EST",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Dec 29, 2025 04:52:29 PM EST",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-05-17-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-03-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-17-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2025-12-29-16-52-29"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 3
+          },
+          "opportunityId": 361054,
+          "revision": 3,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Grants.gov publication",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 3
+            },
+            "opportunityId": 361054,
+            "revision": 3,
+            "version": 4,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "May 17, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "Mar 03, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "Apr 17, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Grants.gov Publication",
+            "createTimeStamp": "Dec 29, 2025 04:53:56 PM EST",
+            "actionType": "U",
+            "actionDate": "Dec 29, 2025 04:53:57 PM EST",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Dec 29, 2025 04:53:56 PM EST",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-05-17-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-03-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-17-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2025-12-29-16-53-56"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "modComments"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 4
+          },
+          "opportunityId": 361054,
+          "revision": 4,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Grants.gov Publication",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 4
+            },
+            "opportunityId": 361054,
+            "revision": 4,
+            "version": 5,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "May 17, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "Mar 03, 2026 12:00:00 AM EST",
+            "estApplicationResponseDate": "Apr 17, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Grants.gov Publication",
+            "createTimeStamp": "Dec 29, 2025 04:53:57 PM EST",
+            "actionType": "U",
+            "actionDate": "Feb 19, 2026 04:25:47 PM EST",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Dec 29, 2025 04:53:57 PM EST",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-05-17-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-03-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-17-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2025-12-29-16-53-57"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 5
+          },
+          "opportunityId": 361054,
+          "revision": 5,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Grants.gov Publication",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 5
+            },
+            "opportunityId": 361054,
+            "revision": 5,
+            "version": 6,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "May 21, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "N",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "Mar 18, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Apr 21, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated Estimated Post Date and Application Due Date",
+            "createTimeStamp": "Feb 19, 2026 04:25:47 PM EST",
+            "actionType": "U",
+            "actionDate": "Feb 19, 2026 04:25:48 PM EST",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Feb 19, 2026 04:25:47 PM EST",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-05-21-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-18-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-21-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-02-19-16-25-47"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 6
+          },
+          "opportunityId": 361054,
+          "revision": 6,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated Estimated Post Date and Application Due Date",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 6
+            },
+            "opportunityId": 361054,
+            "revision": 6,
+            "version": 7,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "May 21, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "N",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "Mar 18, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Apr 21, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated Estimated Post Date and Application Due Date",
+            "createTimeStamp": "Feb 19, 2026 04:25:48 PM EST",
+            "actionType": "U",
+            "actionDate": "Mar 17, 2026 10:11:22 AM EDT",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Feb 19, 2026 04:25:48 PM EST",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-05-21-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-18-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-21-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-02-19-16-25-48"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 7
+          },
+          "opportunityId": 361054,
+          "revision": 7,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Updated Estimated Post Date and Application Due Date",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 7
+            },
+            "opportunityId": 361054,
+            "revision": 7,
+            "version": 8,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "May 30, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "Mar 31, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Apr 30, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Estimated post date updated to 3/31 and estimated application due date updated to 4/30.",
+            "createTimeStamp": "Mar 17, 2026 10:11:22 AM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 17, 2026 10:11:22 AM EDT",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Mar 17, 2026 10:11:22 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-05-30-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-31-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-30-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-03-17-10-11-22"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 8
+          },
+          "opportunityId": 361054,
+          "revision": 8,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Estimated post date updated to 3/31 and estimated application due date updated to 4/30.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 8
+            },
+            "opportunityId": 361054,
+            "revision": 8,
+            "version": 9,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "May 30, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "Mar 31, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Apr 30, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Estimated post date updated to 3/31 and estimated application due date updated to 4/30.",
+            "createTimeStamp": "Mar 17, 2026 10:11:22 AM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 30, 2026 11:42:41 AM EDT",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Mar 17, 2026 10:11:22 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-05-30-00-00-00",
+            "estSynopsisPostingDateStr": "2026-03-31-00-00-00",
+            "estApplicationResponseDateStr": "2026-04-30-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-03-17-10-11-22"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 9
+          },
+          "opportunityId": 361054,
+          "revision": 9,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Estimated post date updated to 3/31 and estimated application due date updated to 4/30.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 9
+            },
+            "opportunityId": 361054,
+            "revision": 9,
+            "version": 10,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jun 13, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "Apr 14, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "May 14, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Estimated post date and estimated application due date updated.",
+            "createTimeStamp": "Mar 30, 2026 11:42:41 AM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 30, 2026 11:42:42 AM EDT",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Mar 30, 2026 11:42:41 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-06-13-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-14-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-14-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-03-30-11-42-41"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 10
+          },
+          "opportunityId": 361054,
+          "revision": 10,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Estimated post date and estimated application due date updated.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 10
+            },
+            "opportunityId": 361054,
+            "revision": 10,
+            "version": 11,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jun 13, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "Apr 14, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "May 14, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Estimated post date and estimated application due date updated.",
+            "createTimeStamp": "Mar 30, 2026 11:42:42 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 13, 2026 03:13:59 PM EDT",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Mar 30, 2026 11:42:42 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-06-13-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-14-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-14-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-03-30-11-42-42"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 11
+          },
+          "opportunityId": 361054,
+          "revision": 11,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Estimated post date and estimated application due date updated.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 11
+            },
+            "opportunityId": 361054,
+            "revision": 11,
+            "version": 12,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jun 27, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "Apr 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "May 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Estimated post date and estimated application due date updated.",
+            "createTimeStamp": "Apr 13, 2026 03:13:59 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 13, 2026 03:14:00 PM EDT",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Apr 13, 2026 03:13:59 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-06-27-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-28-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-28-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-04-13-15-13-59"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 12
+          },
+          "opportunityId": 361054,
+          "revision": 12,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Estimated post date and estimated application due date updated.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 12
+            },
+            "opportunityId": 361054,
+            "revision": 12,
+            "version": 13,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jun 27, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "Apr 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "May 28, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jun 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Estimated post date and estimated application due date updated.",
+            "createTimeStamp": "Apr 13, 2026 03:14:00 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 28, 2026 03:16:48 PM EDT",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Apr 13, 2026 03:14:00 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-06-27-00-00-00",
+            "estSynopsisPostingDateStr": "2026-04-28-00-00-00",
+            "estApplicationResponseDateStr": "2026-05-28-00-00-00",
+            "estAwardDateStr": "2026-06-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-04-13-15-14-00"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 13
+          },
+          "opportunityId": 361054,
+          "revision": 13,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Estimated post date and estimated application due date updated.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 13
+            },
+            "opportunityId": 361054,
+            "revision": 13,
+            "version": 14,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 11, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "May 12, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 11, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Estimated post date, estimated application due date, and estimated award date updated.",
+            "createTimeStamp": "Apr 28, 2026 03:16:48 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 28, 2026 03:16:48 PM EDT",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Apr 28, 2026 03:16:48 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-07-11-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-12-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-11-00-00-00",
+            "estAwardDateStr": "2026-07-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-04-28-15-16-48"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "estAwardDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 14
+          },
+          "opportunityId": 361054,
+          "revision": 14,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Estimated post date, estimated application due date, and estimated award date updated.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 14
+            },
+            "opportunityId": 361054,
+            "revision": 14,
+            "version": 15,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 11, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "Y",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "May 12, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 11, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Estimated post date, estimated application due date, and estimated award date updated.",
+            "createTimeStamp": "Apr 28, 2026 03:16:48 PM EDT",
+            "actionType": "U",
+            "actionDate": "May 12, 2026 10:25:17 AM EDT",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "Apr 28, 2026 03:16:48 PM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-07-11-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-12-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-11-00-00-00",
+            "estAwardDateStr": "2026-07-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-04-28-15-16-48"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version"
+          ]
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361054,
+            "revision": 15
+          },
+          "opportunityId": 361054,
+          "revision": 15,
+          "opportunityNumber": "HRSA-26-049",
+          "opportunityTitle": "Rural Health Research Dissemination Program",
+          "owningAgencyCode": "HHS-HRSA",
+          "publisherUid": "126180912667672078351494559614883671930",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Estimated post date, estimated application due date, and estimated award date updated.",
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 361054,
+              "revision": 15
+            },
+            "opportunityId": 361054,
+            "revision": 15,
+            "version": 16,
+            "postingDate": "Dec 23, 2025 12:00:00 AM EST",
+            "archiveDate": "Jul 25, 2026 12:00:00 AM EDT",
+            "forecastDesc": "<p>​​This notice announces the opportunity to apply for funding under the Rural Health Research Dissemination Program. The purpose of this program is to fund an entity to disseminate and promote rural health services research to broad audiences, such as decision makers and rural stakeholders at national, state, and community levels. FORHP funds health services research through the Rural Health Research Center (RHRC) Program and other cooperative agreements. The successful applicant for this program will develop and maintain a website that catalogs this research so that it is easily and freely accessible to the public. The successful applicant will also develop and maintain strategies to disseminate this research through a variety of innovative mechanisms including (but not limited to) a listserv, social media accounts, presentations, and exhibits at national conferences<u>,</u> and webinars.​&nbsp;</p>",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "230000",
+            "awardCeiling": "230000",
+            "awardFloor": "0",
+            "agencyContactName": "Karis Tyner",
+            "agencyContactPhone": "(301) 287-2615",
+            "agencyContactEmail": "ktyner@hrsa.gov",
+            "agencyContactEmailDesc": "ktyner@hrsa.gov",
+            "agencyCode": "HHS-HRSA",
+            "sendEmail": "N",
+            "applicantEligibilityDesc": "Only domestic organizations are eligible. &quot;Domestic&quot; means the 50 states, the District of Columbia, the Commonwealth of Puerto Rico, the Northern Mariana Islands, American Samoa, Guam, the U.S. Virgin Islands, the Federated States of Micronesia, the Republic of the Marshall Islands, and the Republic of Palau.",
+            "estSynopsisPostingDate": "May 26, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Jun 25, 2026 12:00:00 AM EDT",
+            "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 p.m., ET, on the listed application due date.",
+            "estAwardDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+            "fiscalYear": 2026,
+            "modComments": "Updated Estimated Post Date and Estimated Application Due Date.",
+            "createTimeStamp": "May 12, 2026 10:25:17 AM EDT",
+            "actionType": "U",
+            "actionDate": "May 12, 2026 10:25:17 AM EDT",
+            "createdDate": "Dec 23, 2025 07:56:38 AM EST",
+            "lastUpdatedDate": "May 12, 2026 10:25:17 AM EDT",
+            "agencyDetails": {
+              "code": "HRSA",
+              "seed": "HHS-HRSA",
+              "agencyName": "Health Resources and Services Administration",
+              "agencyCode": "HHS-HRSA",
+              "topAgencyCode": "HHS"
+            },
+            "estimatedFundingFormatted": "230,000",
+            "awardCeilingFormatted": "230,000",
+            "awardFloorFormatted": "0",
+            "applicantTypes": [
+              {
+                "id": "11",
+                "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "HL",
+                "description": "Health"
+              }
+            ],
+            "postingDateStr": "2025-12-23-00-00-00",
+            "archiveDateStr": "2026-07-25-00-00-00",
+            "estSynopsisPostingDateStr": "2026-05-26-00-00-00",
+            "estApplicationResponseDateStr": "2026-06-25-00-00-00",
+            "estAwardDateStr": "2026-07-01-00-00-00",
+            "estProjectStartDateStr": "2026-07-01-00-00-00",
+            "createTimeStampStr": "2026-05-12-10-25-17"
+          },
+          "cfdas": [
+            {
+              "id": 431664,
+              "opportunityId": 361054,
+              "revision": 15,
+              "cfdaNumber": "93.155",
+              "programTitle": "Rural Health Research Centers"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": [
+            "revision",
+            "version",
+            "sendEmail",
+            "archiveDate",
+            "estSynopsisPostingDate",
+            "estApplicationResponseDate",
+            "modComments",
+            "createTimeStamp"
+          ]
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 16,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

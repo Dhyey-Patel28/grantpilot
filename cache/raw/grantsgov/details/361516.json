@@ -1,0 +1,514 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361516",
+  "fetched_at": "2026-05-16T14:08:56.467Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldVS2dnSjZQR2p1UE9WTXplSXpvUHlkYnRLQzZWUWhGVnpVRkFCNDZzVnM9Ig.golnom-AhaykvtQfASgcIe2Bnxh9ZBfvk8-295a8xt8",
+    "data": {
+      "id": 361516,
+      "revision": 3,
+      "opportunityNumber": "OIA-CRNR-2026",
+      "opportunityTitle": "OIA Coral Reef Initiative and Natural Resources (CRNR) Program 2026",
+      "owningAgencyCode": "DOI",
+      "listed": "L",
+      "publisherUid": "113080850824856438988185809190837265423",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361516,
+        "version": 4,
+        "agencyCode": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyPhone": "703-851-1570",
+        "agencyAddressDesc": "Work email",
+        "agencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactPhone": "703-851-1570",
+        "agencyContactName": "Department of the Interior",
+        "agencyContactDesc": "John Brewer\nJohn_Brewer@ios.doi.gov",
+        "agencyContactEmail": "John_Brewer@ios.doi.gov",
+        "agencyContactEmailDesc": "Work email",
+        "synopsisDesc": "The Office of Insular Affairs (OIA) invites proposals for its Coral Reef & Natural Resources (CRNR) Initiative. This grant program seeks to protect coral reefs and other natural resources in insular areas, benefiting communities by supporting food security, protecting shorelines, supporting the economy, and restoring native species. Funding also aids in combating invasive species through risk management, prevention, rapid response, and eradication efforts.",
+        "responseDate": "Jun 08, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date (the deadline has been extended to June 8, 2026).",
+        "postingDate": "Mar 16, 2026 12:00:00 AM EDT",
+        "archiveDate": "May 30, 2027 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "10",
+        "estimatedFunding": "2800000",
+        "estimatedFundingFormatted": "2,800,000",
+        "awardCeiling": "2800000",
+        "awardCeilingFormatted": "2,800,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Authorized under 48 U.S. Code &sect; 1469d for General technical assistance, Public Law 96-597, Section 601, and subsequent amendments, Office of Insular Affairs CRNR funds are available to benefit the U.S. territories of American Samoa, the Commonwealth of the Northern Mariana Islands (CNMI), Guam, and the U.S. Virgin Islands (USVI) and the freely associated states which are the Federated States of Micronesia (FSM), the Republic of the Marshall Islands (RMI), and the Republic of Palau.Eligible applicants include non-federal, local government entities and component units, hospitals, health centers, institutions of higher education, and non-profit organizations in the United States and its territories, as well as international entities whose proposed projects will benefit these insular areas and comply with 2 CFR 200.Judicial and legislative branches of local governments are not eligible per 2 CFR 200.444.",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 01, 2026 08:41:15 AM EDT",
+        "modComments": "The deadline for the Office of Insular Affairs&quot; Notices of Funding Opportunities (NOFOs) has been extended to June 8, 2026. This extension is being offered in recognition of the significant impacts caused by Super Typhoon Sinlaku, which has affected applicants&quot; ability to prepare and submit materials on the original timeline.\n\nWe hope this additional time will help ensure that all eligible entities are able to fully participate in the application process.",
+        "createdDate": "Mar 16, 2026 10:42:04 AM EDT",
+        "lastUpdatedDate": "May 01, 2026 08:39:18 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ENV",
+            "description": "Environment"
+          }
+        ],
+        "responseDateStr": "2026-06-08-00-00-00",
+        "postingDateStr": "2026-03-16-00-00-00",
+        "archiveDateStr": "2027-05-30-00-00-00",
+        "createTimeStampStr": "2026-05-01-08-41-15"
+      },
+      "agencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79493,
+          "opportunityId": 361516,
+          "folderType": "Revised Full Announcement",
+          "folderName": "Revised Full Announcement",
+          "zipLobSize": 162802,
+          "createdDate": "May 01, 2026 08:41:14 AM EDT",
+          "lastUpdatedDate": "May 01, 2026 08:41:15 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351649,
+              "opportunityId": 361516,
+              "mimeType": "application/pdf",
+              "fileName": "NOFO OIA-CRNR-2026 - updated deadline June 8, 2026.pdf",
+              "fileDescription": "NOFO OIA-CRNR-2026 - updated deadline June 8, 2026.pdf",
+              "fileLobSize": 198596,
+              "createdDate": "May 01, 2026 08:41:15 AM EDT",
+              "synopsisAttFolderId": 79493
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [
+        {
+          "id": 1397,
+          "opportunityId": 361516,
+          "docUrl": "https://www.youtube.com/watch?v=En5rUeVohEo",
+          "description": "March 31, 2026 NOFO workshop recoridng",
+          "createdDate": "Apr 06, 2026 12:54:09 PM EDT"
+        }
+      ],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432249,
+          "opportunityId": 361516,
+          "cfdaNumber": "15.875",
+          "programTitle": "Economic, Social, and Political Development of the Territories"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361516,
+            "revision": 0
+          },
+          "opportunityId": 361516,
+          "revision": 0,
+          "opportunityNumber": "OIA-CRNR-2026",
+          "opportunityTitle": "OIA Coral Reef Initiative and Natural Resources (CRNR) Program 2026",
+          "owningAgencyCode": "DOI",
+          "publisherUid": "113080850824856438988185809190837265423",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361516,
+              "revision": 0
+            },
+            "opportunityId": 361516,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOI",
+            "agencyAddressDesc": "Work email",
+            "agencyDetails": {
+              "code": "DOI",
+              "seed": "DOI",
+              "agencyName": "Department of the Interior",
+              "agencyCode": "DOI",
+              "topAgencyCode": "DOI"
+            },
+            "agencyContactPhone": "303-570-4499",
+            "agencyContactName": "Department of the Interior",
+            "agencyContactDesc": "John Brewer\nJohn_Brewer@ios.doi.gov",
+            "agencyContactEmail": "John_Brewer@ios.doi.gov",
+            "agencyContactEmailDesc": "Work email",
+            "synopsisDesc": "The Office of Insular Affairs (OIA) invites proposals for its Coral Reef & Natural Resources (CRNR) Initiative. This grant program seeks to protect coral reefs and other natural resources in insular areas, benefiting communities by supporting food security, protecting shorelines, supporting the economy, and restoring native species. Funding also aids in combating invasive species through risk management, prevention, rapid response, and eradication efforts.",
+            "responseDate": "May 18, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date (May 18, 2026).",
+            "postingDate": "Mar 16, 2026 12:00:00 AM EDT",
+            "archiveDate": "May 30, 2027 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "10",
+            "estimatedFunding": "2800000",
+            "estimatedFundingFormatted": "2,800,000",
+            "awardCeiling": "2800000",
+            "awardCeilingFormatted": "2,800,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Authorized under 48 U.S. Code &sect; 1469d for General technical assistance, Public Law 96-597, Section 601, and subsequent amendments, Office of Insular Affairs CRNR funds are available to benefit the U.S. territories of American Samoa, the Commonwealth of the Northern Mariana Islands (CNMI), Guam, and the U.S. Virgin Islands (USVI) and the freely associated states which are the Federated States of Micronesia (FSM), the Republic of the Marshall Islands (RMI), and the Republic of Palau.Eligible applicants include non-federal, local government entities and component units, hospitals, health centers, institutions of higher education, and non-profit organizations in the United States and its territories, as well as international entities whose proposed projects will benefit these insular areas and comply with 2 CFR 200.Judicial and legislative branches of local governments are not eligible per 2 CFR 200.444.",
+            "createTimeStamp": "Mar 16, 2026 10:42:50 AM EDT",
+            "actionType": "U",
+            "actionDate": "Mar 16, 2026 10:53:05 AM EDT",
+            "createdDate": "Mar 16, 2026 10:42:04 AM EDT",
+            "lastUpdatedDate": "Mar 16, 2026 10:42:04 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ENV",
+                "description": "Environment"
+              }
+            ],
+            "responseDateStr": "2026-05-18-00-00-00",
+            "postingDateStr": "2026-03-16-00-00-00",
+            "archiveDateStr": "2027-05-30-00-00-00",
+            "createTimeStampStr": "2026-03-16-10-42-50"
+          },
+          "cfdas": [
+            {
+              "id": 432249,
+              "opportunityId": 361516,
+              "revision": 2,
+              "cfdaNumber": "15.875",
+              "programTitle": "Economic, Social, and Political Development of the Territories"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361516,
+            "revision": 1
+          },
+          "opportunityId": 361516,
+          "revision": 1,
+          "opportunityNumber": "OIA-CRNR-2026",
+          "opportunityTitle": "OIA Coral Reef Initiative and Natural Resources (CRNR) Program 2026",
+          "owningAgencyCode": "DOI",
+          "publisherUid": "113080850824856438988185809190837265423",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361516,
+              "revision": 1
+            },
+            "opportunityId": 361516,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "DOI",
+            "agencyAddressDesc": "Work email",
+            "agencyDetails": {
+              "code": "DOI",
+              "seed": "DOI",
+              "agencyName": "Department of the Interior",
+              "agencyCode": "DOI",
+              "topAgencyCode": "DOI"
+            },
+            "agencyContactPhone": "303-570-4499",
+            "agencyContactName": "Department of the Interior",
+            "agencyContactDesc": "John Brewer\r\nJohn_Brewer@ios.doi.gov",
+            "agencyContactEmail": "John_Brewer@ios.doi.gov",
+            "agencyContactEmailDesc": "Work email",
+            "synopsisDesc": "<p>The Office of Insular Affairs (OIA) invites proposals for its Coral Reef &amp; Natural Resources (CRNR) Initiative. This grant program seeks to protect coral reefs and other natural resources in insular areas, benefiting communities by supporting food security, protecting shorelines, supporting the economy, and restoring native species. Funding also aids in combating invasive species through risk management, prevention, rapid response, and eradication efforts.</p>",
+            "responseDate": "May 18, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date (May 18, 2026).",
+            "postingDate": "Mar 16, 2026 12:00:00 AM EDT",
+            "archiveDate": "May 30, 2027 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "10",
+            "estimatedFunding": "2800000",
+            "estimatedFundingFormatted": "2,800,000",
+            "awardCeiling": "2800000",
+            "awardCeilingFormatted": "2,800,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Authorized under 48 U.S. Code &sect; 1469d for General technical assistance, Public Law 96-597, Section 601, and subsequent amendments, Office of Insular Affairs CRNR funds are available to benefit the U.S. territories of American Samoa, the Commonwealth of the Northern Mariana Islands (CNMI), Guam, and the U.S. Virgin Islands (USVI) and the freely associated states which are the Federated States of Micronesia (FSM), the Republic of the Marshall Islands (RMI), and the Republic of Palau.Eligible applicants include non-federal, local government entities and component units, hospitals, health centers, institutions of higher education, and non-profit organizations in the United States and its territories, as well as international entities whose proposed projects will benefit these insular areas and comply with 2 CFR 200.Judicial and legislative branches of local governments are not eligible per 2 CFR 200.444.",
+            "createTimeStamp": "Apr 06, 2026 12:54:09 PM EDT",
+            "sendEmail": "N",
+            "modComments": "No changes",
+            "actionType": "U",
+            "actionDate": "Apr 06, 2026 12:56:32 PM EDT",
+            "createdDate": "Mar 16, 2026 10:42:04 AM EDT",
+            "lastUpdatedDate": "Mar 16, 2026 10:53:05 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ENV",
+                "description": "Environment"
+              }
+            ],
+            "responseDateStr": "2026-05-18-00-00-00",
+            "postingDateStr": "2026-03-16-00-00-00",
+            "archiveDateStr": "2027-05-30-00-00-00",
+            "createTimeStampStr": "2026-04-06-12-54-09"
+          },
+          "cfdas": [
+            {
+              "id": 432249,
+              "opportunityId": 361516,
+              "revision": 2,
+              "cfdaNumber": "15.875",
+              "programTitle": "Economic, Social, and Political Development of the Territories"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "agencyContactDesc",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 361516,
+            "revision": 2
+          },
+          "opportunityId": 361516,
+          "revision": 2,
+          "opportunityNumber": "OIA-CRNR-2026",
+          "opportunityTitle": "OIA Coral Reef Initiative and Natural Resources (CRNR) Program 2026",
+          "owningAgencyCode": "DOI",
+          "publisherUid": "113080850824856438988185809190837265423",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361516,
+              "revision": 2
+            },
+            "opportunityId": 361516,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "DOI",
+            "agencyAddressDesc": "Work email",
+            "agencyDetails": {
+              "code": "DOI",
+              "seed": "DOI",
+              "agencyName": "Department of the Interior",
+              "agencyCode": "DOI",
+              "topAgencyCode": "DOI"
+            },
+            "agencyContactPhone": "303-570-4499",
+            "agencyContactName": "Department of the Interior",
+            "agencyContactDesc": "John Brewer\r\nJohn_Brewer@ios.doi.gov",
+            "agencyContactEmail": "John_Brewer@ios.doi.gov",
+            "agencyContactEmailDesc": "Work email",
+            "synopsisDesc": "<p>The Office of Insular Affairs (OIA) invites proposals for its Coral Reef &amp; Natural Resources (CRNR) Initiative. This grant program seeks to protect coral reefs and other natural resources in insular areas, benefiting communities by supporting food security, protecting shorelines, supporting the economy, and restoring native species. Funding also aids in combating invasive species through risk management, prevention, rapid response, and eradication efforts.</p>",
+            "responseDate": "May 18, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date (May 18, 2026).",
+            "fundingDescLinkUrl": "https://www.youtube.com/watch?v=En5rUeVohEo",
+            "fundingDescLinkDesc": "March 31, 2026 NOFO workshop recording",
+            "postingDate": "Mar 16, 2026 12:00:00 AM EDT",
+            "archiveDate": "May 30, 2027 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "10",
+            "estimatedFunding": "2800000",
+            "estimatedFundingFormatted": "2,800,000",
+            "awardCeiling": "2800000",
+            "awardCeilingFormatted": "2,800,000",
+            "awardFloor": "0",
+            "awardFloorFormatted": "0",
+            "applicantEligibilityDesc": "Authorized under 48 U.S. Code &sect; 1469d for General technical assistance, Public Law 96-597, Section 601, and subsequent amendments, Office of Insular Affairs CRNR funds are available to benefit the U.S. territories of American Samoa, the Commonwealth of the Northern Mariana Islands (CNMI), Guam, and the U.S. Virgin Islands (USVI) and the freely associated states which are the Federated States of Micronesia (FSM), the Republic of the Marshall Islands (RMI), and the Republic of Palau.Eligible applicants include non-federal, local government entities and component units, hospitals, health centers, institutions of higher education, and non-profit organizations in the United States and its territories, as well as international entities whose proposed projects will benefit these insular areas and comply with 2 CFR 200.Judicial and legislative branches of local governments are not eligible per 2 CFR 200.444.",
+            "createTimeStamp": "Apr 06, 2026 12:56:32 PM EDT",
+            "sendEmail": "N",
+            "modComments": "Adding link to NOFO workshop",
+            "actionType": "U",
+            "actionDate": "May 01, 2026 08:39:18 AM EDT",
+            "createdDate": "Mar 16, 2026 10:42:04 AM EDT",
+            "lastUpdatedDate": "Apr 06, 2026 12:56:32 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ENV",
+                "description": "Environment"
+              }
+            ],
+            "responseDateStr": "2026-05-18-00-00-00",
+            "postingDateStr": "2026-03-16-00-00-00",
+            "archiveDateStr": "2027-05-30-00-00-00",
+            "createTimeStampStr": "2026-04-06-12-56-32"
+          },
+          "cfdas": [
+            {
+              "id": 432249,
+              "opportunityId": 361516,
+              "revision": 2,
+              "cfdaNumber": "15.875",
+              "programTitle": "Economic, Social, and Political Development of the Territories"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "fundingDescLinkUrl",
+            "fundingDescLinkDesc"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292129,
+          "topportunityId": 361516,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "OIA-CRNR-2026",
+          "opportunityTitle": "OIA Coral Reef Initiative and Natural Resources (CRNR) Program 2026",
+          "cfdaNumber": "15.875",
+          "openingDate": "2026-03-16",
+          "closingDate": "2026-06-08",
+          "owningAgencyCode": "DOI",
+          "agencyDetails": {
+            "code": "DOI",
+            "seed": "DOI",
+            "agencyName": "Department of the Interior",
+            "agencyCode": "DOI",
+            "topAgencyCode": "DOI"
+          },
+          "topAgencyDetails": {
+            "code": "DOI",
+            "seed": "DOI",
+            "agencyName": "Department of the Interior",
+            "agencyCode": "DOI",
+            "topAgencyCode": "DOI"
+          },
+          "programTitle": "Economic, Social, and Political Development of the Territories",
+          "contactInfo": "John Brewer",
+          "gracePeriod": 0,
+          "competitionId": "OIA-CRNR-2026",
+          "competitionTitle": "OIA Coral Reef Initiative and Natural Resources (CRNR) Program 2026",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 30,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "May 01, 2026 08:40:40 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292129",
+          "openingDateStr": "2026-03-16-00-00-00",
+          "closingDateStr": "2026-06-08-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 18, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date (May 18, 2026).",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "agencyContactDesc",
+        "synopsisDesc",
+        "responseDate",
+        "responseDateDesc",
+        "fundingDescLinkUrl",
+        "fundingDescLinkDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 3,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "348258",
+  "fetched_at": "2026-05-16T14:06:53.830Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Iko5K21nMXYxSEg5THNpSmxTT3ZIcldRKzkwT2lsZDNBRUlvZ2FGdmFUQ3c9Ig.wnD7GtxizXTGK-u0vdAsHd-MyWwms68ZvBkeW3vde1A",
+    "data": {
+      "id": 348258,
+      "revision": 1,
+      "opportunityNumber": "PD-18-7607",
+      "opportunityTitle": "Energy, Power, Control, and Networks",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 348258,
+        "version": 2,
+        "agencyCode": "NSF",
+        "agencyName": "National Science Foundation",
+        "agencyPhone": "703-292-4261",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4261",
+        "agencyContactName": "National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The Energy, Power, Control, andNetworks (EPCN) Program supports innovative research in modeling, optimization, learning, adaptation, and control of networked multi-agent systems, higher-level decision making, and dynamic resource allocation, as well as risk management in the presence of uncertainty, sub-system failures, and stochastic disturbances. EPCN also invests in novel machine learning algorithms and analysis, adaptive dynamic programming, brain-like networked architectures performing real-time learning, and neuromorphic engineering. EPCN&rsquo;s goal is to encourage research on emerging technologies and applications including energy, transportation, robotics, and biomedical devices &amp; systems. EPCN also emphasizes electric power systems, including generation, transmission, storage, and integration of renewable energy sources into the grid; power electronics and drives; battery management systems; hybrid and electric vehicles; and understanding of the interplay of power systems with associated regulatory &amp; economic structures and with consumer behavior.\n\r\n\nAreas managed by Program Directors (please contact Program Directors listed in the <a href=\"https://www.nsf.gov/staff/staff_list.jsp?orgId=5915&amp;subDiv=y&amp;org=ECCS&amp;from_org=ECCS\">EPCN staff directory</a> for areas of interest):\n\r\n\nControl Systems\n\r\n<ul>\r\n<li>Distributed Control and Optimization</li>\r\n<li>Networked Multi-Agent Systems</li>\r\n<li>Stochastic, Hybrid, Nonlinear Systems</li>\r\n<li>Dynamic Data-Enabled Learning, Decision and Control</li>\r\n<li>Cyber-Physical Control Systems</li>\r\n<li>Applications (Biomedical, Transportation, Robotics)</li>\r\n</ul>\r\n\nEnergy and Power Systems\n\r\n<ul>\r\n<li>Solar, Wind, and Storage Devices Integration with the Grid</li>\r\n<li>Monitoring, Protection and Resilient Operation of Grid</li>\r\n<li>Power Grid Cybersecurity</li>\r\n<li>Market design, Consumer Behavior, Regulatory Policy</li>\r\n<li>Microgrids</li>\r\n<li>Energy Efficient Buildings and Communities</li>\r\n</ul>\r\n\nPower Electronics Systems\n\r\n<ul>\r\n<li>Advanced Power Electronics and Electric Machines</li>\r\n<li>Electric and Hybrid Electric Vehicles</li>\r\n<li>Energy Harvesting, Storage Devices and Systems</li>\r\n<li>Innovative Grid-tied Power Electronic Converters</li>\r\n</ul>\r\n\nLearning and Adaptive Systems \n\r\n<ul>\r\n<li>Neural Networks</li>\r\n<li>Neuromorphic Engineering Systems</li>\r\n<li>Data analytics and Intelligent Systems</li>\r\n<li>Machine Learning Algorithms, Analysis and Applications</li>\r\n</ul>",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505249",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-18-7607",
+        "postingDate": "May 19, 2023 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Feb 23, 2024 11:59:01 PM EST",
+        "modComments": ".",
+        "createdDate": "May 19, 2023 11:57:38 PM EDT",
+        "lastUpdatedDate": "Feb 23, 2024 11:59:01 PM EST",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2023-05-19-00-00-00",
+        "createTimeStampStr": "2024-02-23-23-59-01"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 411261,
+          "opportunityId": 348258,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 411262,
+          "opportunityId": 348258
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 348258,
+            "revision": 0
+          },
+          "opportunityId": 348258,
+          "revision": 0,
+          "opportunityNumber": "PD-18-7607",
+          "opportunityTitle": "Energy, Power, Control, and Networks",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 348258,
+              "revision": 0
+            },
+            "opportunityId": 348258,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Energy, Power, Control, andNetworks (EPCN) Program supports innovative research in modeling, optimization, learning, adaptation, and control of networked multi-agent systems, higher-level decision making, and dynamic resource allocation, as well as risk management in the presence of uncertainty, sub-system failures, and stochastic disturbances. EPCN also invests in novel machine learning algorithms and analysis, adaptive dynamic programming, brain-like networked architectures performing real-time learning, and neuromorphic engineering. EPCN&rsquo;s goal is to encourage research on emerging technologies and applications including energy, transportation, robotics, and biomedical devices &amp; systems. EPCN also emphasizes electric power systems, including generation, transmission, storage, and integration of renewable energy sources into the grid; power electronics and drives; battery management systems; hybrid and electric vehicles; and understanding of the interplay of power systems with associated regulatory &amp; economic structures and with consumer behavior.\n\r\n\nAreas managed by Program Directors (please contact Program Directors listed in the <a href=\"https://www.nsf.gov/staff/staff_list.jsp?orgId=5915&amp;subDiv=y&amp;org=ECCS&amp;from_org=ECCS\">EPCN staff directory</a> for areas of interest):\n\r\n\nControl Systems\n\r\n<ul>\r\n<li>Distributed Control and Optimization</li>\r\n<li>Networked Multi-Agent Systems</li>\r\n<li>Stochastic, Hybrid, Nonlinear Systems</li>\r\n<li>Dynamic Data-Enabled Learning, Decision and Control</li>\r\n<li>Cyber-Physical Control Systems</li>\r\n<li>Applications (Biomedical, Transportation, Robotics)</li>\r\n</ul>\r\n\nEnergy and Power Systems\n\r\n<ul>\r\n<li>Solar, Wind, and Storage Devices Integration with the Grid</li>\r\n<li>Monitoring, Protection and Resilient Operation of Grid</li>\r\n<li>Power Grid Cybersecurity</li>\r\n<li>Market design, Consumer Behavior, Regulatory Policy</li>\r\n<li>Microgrids</li>\r\n<li>Energy Efficient Buildings and Communities</li>\r\n</ul>\r\n\nPower Electronics Systems\n\r\n<ul>\r\n<li>Advanced Power Electronics and Electric Machines</li>\r\n<li>Electric and Hybrid Electric Vehicles</li>\r\n<li>Energy Harvesting, Storage Devices and Systems</li>\r\n<li>Innovative Grid-tied Power Electronic Converters</li>\r\n</ul>\r\n\nLearning and Adaptive Systems \n\r\n<ul>\r\n<li>Neural Networks</li>\r\n<li>Neuromorphic Engineering Systems</li>\r\n<li>Data analytics and Intelligent Systems</li>\r\n<li>Machine Learning Algorithms, Analysis and Applications</li>\r\n</ul>",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505249",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-18-7607",
+            "postingDate": "May 19, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "May 19, 2023 11:57:38 PM EDT",
+            "actionType": "U",
+            "actionDate": "Feb 23, 2024 11:59:01 PM EST",
+            "createdDate": "May 19, 2023 11:57:38 PM EDT",
+            "lastUpdatedDate": "May 19, 2023 11:57:38 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-05-19-00-00-00",
+            "createTimeStampStr": "2023-05-19-23-57-38"
+          },
+          "cfdas": [
+            {
+              "id": 411261,
+              "opportunityId": 348258,
+              "revision": 0,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 411262,
+              "opportunityId": 348258,
+              "revision": 0
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

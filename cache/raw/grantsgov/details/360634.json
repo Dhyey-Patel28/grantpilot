@@ -1,0 +1,119 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360634",
+  "fetched_at": "2026-05-16T14:08:23.358Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImlCUG0zcXFrcFRGVVROTE0rZnZYZDFNTmpuQkJmam1BRW1LTnE2bHJDVGc9Ig.1M--oD4o41_GGXun0Ezry44lz5JNw03gDLbyWtUanXA",
+    "data": {
+      "id": 360634,
+      "revision": 0,
+      "opportunityNumber": "PAR-26-025",
+      "opportunityTitle": "Bioengineering Research, Innovation and Technology Education (BRITE) Program (R25 Clinical Trial Not Allowed)",
+      "owningAgencyCode": "HHS-NIH11",
+      "publisherUid": "85078824959489933389587371192040018034",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "NIH",
+        "seed": "HHS-NIH11",
+        "agencyName": "National Institutes of Health",
+        "agencyCode": "HHS-NIH11",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 360634,
+        "version": 1,
+        "postingDate": "Sep 22, 2025 12:00:00 AM EDT",
+        "forecastDesc": "<p>The Bioengineering Research, Innovation and Technology Education (BRITE) Program is designed to foster the development of undergraduate freshmen and sophomores to pursue further studies and careers in bioengineering, biomedical imaging or other STEM fields relevant to NIBIB’s scientific mission. Applications are encouraged to propose integrated educational activities that include three elements: 1) a summer bridge program for incoming freshmen, and 2) in the freshman and sophomore years, educational activities during the academic year, and 3) summer research experiences. The BRITE program is intended to expose students to bioengineering and biomedical imaging and provide research, innovation and entrepreneurship training early in their college careers by incorporating didactic, experiential, mentoring and career development opportunities.</p><p>Student participants will receive support for the first two years of their undergraduate training. To enhance capacity for rigorous bioengineering training, this Notice of Funding Opportunity (NOFO) will support programs at baccalaureate degree granting institutions with modest levels of NIH research project grant funding.</p><p>The ultimate goal is for participants to pursue a doctoral degree or a subsequent research career in bioengineering, biomedical imaging or other NIBIB-relevant field that will in turn have a significant impact on the health-related research needs of the Nation.</p>",
+        "costSharing": false,
+        "agencyContactName": "Tina Gatlin, Ph.D.",
+        "agencyContactPhone": "240-731-3794",
+        "agencyContactEmail": "gatlincl@nih.gov",
+        "agencyContactEmailDesc": "gatlincl@nih.gov",
+        "agencyCode": "HHS-NIH11",
+        "estSynopsisPostingDate": "Feb 09, 2026 12:00:00 AM EST",
+        "estApplicationResponseDate": "May 11, 2026 12:00:00 AM EDT",
+        "estAwardDate": "Mar 01, 2027 12:00:00 AM EST",
+        "estProjectStartDate": "Mar 01, 2027 12:00:00 AM EST",
+        "fiscalYear": 2027,
+        "createTimeStamp": "Sep 22, 2025 08:19:47 AM EDT",
+        "createdDate": "Sep 22, 2025 08:19:47 AM EDT",
+        "lastUpdatedDate": "Sep 22, 2025 08:19:47 AM EDT",
+        "agencyDetails": {
+          "code": "NIH",
+          "seed": "HHS-NIH11",
+          "agencyName": "National Institutes of Health",
+          "agencyCode": "HHS-NIH11",
+          "topAgencyCode": "HHS"
+        },
+        "applicantTypes": [
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-09-22-00-00-00",
+        "estSynopsisPostingDateStr": "2026-02-09-00-00-00",
+        "estApplicationResponseDateStr": "2026-05-11-00-00-00",
+        "estAwardDateStr": "2027-03-01-00-00-00",
+        "estProjectStartDateStr": "2027-03-01-00-00-00",
+        "createTimeStampStr": "2025-09-22-08-19-47"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 431160,
+          "opportunityId": 360634,
+          "cfdaNumber": "93.286",
+          "programTitle": "Discovery and Applied Research for Technological Innovations to Improve Human Health"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

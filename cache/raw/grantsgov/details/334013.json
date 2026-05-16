@@ -1,0 +1,230 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "334013",
+  "fetched_at": "2026-05-16T14:06:29.512Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InltWWc2bTVYak1CQzRrWlVBNGxkdGxpbTFEclUxYUNHRnB3SHZCOFgyUWM9Ig.e3IUoqx5zOiNAerUZHRm7hXdI-UsNkmF88pUDIB9u-A",
+    "data": {
+      "id": 334013,
+      "revision": 1,
+      "opportunityNumber": "AFKIN-21-01",
+      "opportunityTitle": "Ambassador&rsquo;s Special Self-Help Fund",
+      "owningAgencyCode": "DOS-COD",
+      "listed": "L",
+      "publisherUid": "gracembuyi",
+      "modifiedComments": "The SSH program no longer uses CFDA 19.700, we have our own CFDA which is 19.220.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "COD",
+        "seed": "DOS-COD",
+        "agencyName": "U.S. Mission to the Democratic Republic of Congo",
+        "agencyCode": "DOS-COD",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "forecast": {
+        "opportunityId": 334013,
+        "version": 2,
+        "postingDate": "Jun 07, 2021 12:00:00 AM EDT",
+        "forecastDesc": "<p><span style=\"color: black;\">The U.S. Embassy has provided small grants to local organizations for more than 20 years. These grants provide the capability to achieve targeted, small-scale goals that may not be included in larger foreign assistance programs.&nbsp;These funds are used to addresses health and development challenges and promotes increased economic opportunities in Africa.</span></p><p>&nbsp;<span style=\"color: black;\">Projects selected for funding must be completed and serve the community within one year.&nbsp;Selected projects must have strong community involvement with a substantial community benefit that is self-sustaining and ongoing.&nbsp;Projects to support vulnerable populations, including women, people living with disabilities, victims of gender-based violence, orphans and homeless children, etc., are particularly desirable.</span></p><p><br></p><p><span style=\"color: black;\">Small Grants Program (SGP) activities can fall within one or more of the following categories:</span></p><p>&nbsp;<span style=\"color: black;\">(1) </span><strong style=\"color: black;\">Education</strong><span style=\"color: black;\">, focusing on increasing access to education and the improvement of the learning environment in reputable Congolese schools. </span></p><p>&nbsp;<span style=\"color: black;\">(2) </span><strong style=\"color: black;\">Health</strong><span style=\"color: black;\">, requests which focus on the improvement of medical centers, community health and sanitation, and construction of latrines.</span></p><p><span style=\"color: black;\">&nbsp;(3) </span><strong style=\"color: black;\">Development</strong><span style=\"color: black;\">, for example community water projects that bring clean, safe drinking water to many people. </span></p><p>&nbsp;<span style=\"color: black;\">(4) </span><strong style=\"color: black;\">Vocational training and income-generating activities</strong><span style=\"color: black;\"> that provide a benefit to the community. There is an emphasis on including vulnerable or at-risk populations among the intended beneficiaries, including people living with disabilities, orphaned and vulnerable children, and minority groups.&nbsp;Projects must be self- sufficient, sustainable, and have a clear objective that is achievable in one year or less.</span></p><p><br></p><p><span style=\"color: black;\">﻿</span></p>",
+        "costSharing": false,
+        "numberOfAwards": "15",
+        "estimatedFunding": "75000",
+        "awardCeiling": "9000",
+        "awardFloor": "3000",
+        "fundingDescLinkDesc": "https://cd.usembassy.gov/embassy/grants/",
+        "agencyContactName": "Grace E Mbuyi\r\nGrantor",
+        "agencyContactPhone": "243 81 225 5872 ext. 2144",
+        "agencyContactEmail": "KinshasaSGP@state.gov",
+        "agencyContactEmailDesc": "KinshasaSGP@state.gov",
+        "agencyCode": "DOS-COD",
+        "sendEmail": "Y",
+        "estSynopsisPostingDate": "Aug 31, 2021 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Aug 31, 2021 12:00:00 AM EDT",
+        "estAwardDate": "Sep 30, 2021 12:00:00 AM EDT",
+        "estProjectStartDate": "Oct 31, 2021 12:00:00 AM EDT",
+        "fiscalYear": 2020,
+        "modComments": "The SSH program no longer uses CFDA 19.700, we have our own CFDA which is 19.220.",
+        "createTimeStamp": "Jun 21, 2021 03:03:55 AM EDT",
+        "createdDate": "Jun 07, 2021 03:02:56 AM EDT",
+        "lastUpdatedDate": "Jun 21, 2021 03:03:55 AM EDT",
+        "agencyDetails": {
+          "code": "COD",
+          "seed": "DOS-COD",
+          "agencyName": "U.S. Mission to the Democratic Republic of Congo",
+          "agencyCode": "DOS-COD",
+          "topAgencyCode": "DOS"
+        },
+        "estimatedFundingFormatted": "75,000",
+        "awardCeilingFormatted": "9,000",
+        "awardFloorFormatted": "3,000",
+        "applicantTypes": [
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "CD",
+            "description": "Community Development"
+          }
+        ],
+        "postingDateStr": "2021-06-07-00-00-00",
+        "estSynopsisPostingDateStr": "2021-08-31-00-00-00",
+        "estApplicationResponseDateStr": "2021-08-31-00-00-00",
+        "estAwardDateStr": "2021-09-30-00-00-00",
+        "estProjectStartDateStr": "2021-10-31-00-00-00",
+        "createTimeStampStr": "2021-06-21-03-03-55"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 392409,
+          "opportunityId": 334013,
+          "cfdaNumber": "19.220",
+          "programTitle": "Ambassadors' Special Self Help Fund"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 334013,
+            "revision": 0
+          },
+          "opportunityId": 334013,
+          "revision": 0,
+          "opportunityNumber": "AFKIN-21-01",
+          "opportunityTitle": "Ambassador&rsquo;s Special Self-Help Fund",
+          "owningAgencyCode": "DOS-COD",
+          "publisherUid": "gracembuyi",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 334013,
+              "revision": 0
+            },
+            "opportunityId": 334013,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Jun 07, 2021 12:00:00 AM EDT",
+            "forecastDesc": "<p><span style=\"color: black;\">The U.S. Embassy has provided small grants to local organizations for more than 20 years. These grants provide the capability to achieve targeted, small-scale goals that may not be included in larger foreign assistance programs.&nbsp;These funds are used to addresses health and development challenges and promotes increased economic opportunities in Africa.</span></p>\n<p>&nbsp;<span style=\"color: black;\">Projects selected for funding must be completed and serve the community within one year.&nbsp;Selected projects must have strong community involvement with a substantial community benefit that is self-sustaining and ongoing.&nbsp;Projects to support vulnerable populations, including women, people living with disabilities, victims of gender-based violence, orphans and homeless children, etc., are particularly desirable.</span></p>\n<p><br></p>\n<p><span style=\"color: black;\">Small Grants Program (SGP) activities can fall within one or more of the following categories:</span></p>\n<p>&nbsp;<span style=\"color: black;\">(1) </span><strong style=\"color: black;\">Education</strong><span style=\"color: black;\">, focusing on increasing access to education and the improvement of the learning environment in reputable Congolese schools. </span></p>\n<p>&nbsp;<span style=\"color: black;\">(2) </span><strong style=\"color: black;\">Health</strong><span style=\"color: black;\">, requests which focus on the improvement of medical centers, community health and sanitation, and construction of latrines.</span></p>\n<p><span style=\"color: black;\">&nbsp;(3) </span><strong style=\"color: black;\">Development</strong><span style=\"color: black;\">, for example community water projects that bring clean, safe drinking water to many people. </span></p>\n<p>&nbsp;<span style=\"color: black;\">(4) </span><strong style=\"color: black;\">Vocational training and income-generating activities</strong><span style=\"color: black;\"> that provide a benefit to the community. There is an emphasis on including vulnerable or at-risk populations among the intended beneficiaries, including people living with disabilities, orphaned and vulnerable children, and minority groups.&nbsp;Projects must be self- sufficient, sustainable, and have a clear objective that is achievable in one year or less.</span></p>\n<p><br></p>\n<p><span style=\"color: black;\">﻿</span></p>",
+            "costSharing": false,
+            "numberOfAwards": "15",
+            "estimatedFunding": "75000",
+            "awardCeiling": "9000",
+            "awardFloor": "3000",
+            "fundingDescLinkDesc": "https://cd.usembassy.gov/embassy/grants/",
+            "agencyContactName": "Grace E Mbuyi\r\nGrantor",
+            "agencyContactPhone": "243 81 225 5872 ext. 2144",
+            "agencyContactEmail": "KinshasaSGP@state.gov",
+            "agencyContactEmailDesc": "KinshasaSGP@state.gov",
+            "agencyCode": "DOS-COD",
+            "sendEmail": "Y",
+            "estSynopsisPostingDate": "Aug 31, 2021 12:00:00 AM EDT",
+            "estApplicationResponseDate": "Aug 31, 2021 12:00:00 AM EDT",
+            "estAwardDate": "Sep 30, 2021 12:00:00 AM EDT",
+            "estProjectStartDate": "Oct 31, 2021 12:00:00 AM EDT",
+            "fiscalYear": 2020,
+            "createTimeStamp": "Jun 07, 2021 03:02:56 AM EDT",
+            "actionType": "U",
+            "actionDate": "Jun 21, 2021 03:03:55 AM EDT",
+            "createdDate": "Jun 07, 2021 03:02:56 AM EDT",
+            "lastUpdatedDate": "Jun 07, 2021 03:02:56 AM EDT",
+            "agencyDetails": {
+              "code": "COD",
+              "seed": "DOS-COD",
+              "agencyName": "U.S. Mission to the Democratic Republic of Congo",
+              "agencyCode": "DOS-COD",
+              "topAgencyCode": "DOS"
+            },
+            "estimatedFundingFormatted": "75,000",
+            "awardCeilingFormatted": "9,000",
+            "awardFloorFormatted": "3,000",
+            "applicantTypes": [
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "CD",
+                "description": "Community Development"
+              }
+            ],
+            "postingDateStr": "2021-06-07-00-00-00",
+            "estSynopsisPostingDateStr": "2021-08-31-00-00-00",
+            "estApplicationResponseDateStr": "2021-08-31-00-00-00",
+            "estAwardDateStr": "2021-09-30-00-00-00",
+            "estProjectStartDateStr": "2021-10-31-00-00-00",
+            "createTimeStampStr": "2021-06-07-03-02-56"
+          },
+          "cfdas": [
+            {
+              "id": 392061,
+              "opportunityId": 334013,
+              "revision": 0,
+              "cfdaNumber": "19.700",
+              "programTitle": "General Department of State Assistance"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version",
+        "cfdas",
+        "forecastDesc",
+        "modComments",
+        "createTimeStamp"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

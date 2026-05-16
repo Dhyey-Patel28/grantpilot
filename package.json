@@ -1,0 +1,28 @@
+{
+  "name": "grantpilot-auto-cache",
+  "version": "1.0.0",
+  "description": "GrantPilot MI one-command public grant discovery/cache pipeline",
+  "type": "module",
+  "scripts": {
+    "setup:browser": "playwright install chromium",
+    "refresh": "node src/refreshAll.js",
+    "refresh:fast": "node src/refreshAll.js --fast",
+    "score:water": "node src/scoreProject.js data/project_profiles/water.json",
+    "score:transportation": "node src/scoreProject.js data/project_profiles/transportation.json",
+    "score:stormwater": "node src/scoreProject.js data/project_profiles/stormwater.json",
+    "score:broadband": "node src/scoreProject.js data/project_profiles/broadband.json",
+    "packet:water": "node src/generatePacket.js data/project_profiles/water.json outputs/packets/water_packet.md",
+    "packet:transportation": "node src/generatePacket.js data/project_profiles/transportation.json outputs/packets/transportation_packet.md",
+    "packet:stormwater": "node src/generatePacket.js data/project_profiles/stormwater.json outputs/packets/stormwater_packet.md",
+    "packet:broadband": "node src/generatePacket.js data/project_profiles/broadband.json outputs/packets/broadband_packet.md",
+    "packet:test": "node src/generatePacket.js data/project_profiles/test.json outputs/packets/test_packet.md",
+    "packet:bridge": "node src/generatePacket.js data/project_profiles/bridge.json outputs/packets/bridge_packet.md"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.44.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

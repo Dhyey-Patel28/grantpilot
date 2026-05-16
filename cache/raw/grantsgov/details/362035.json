@@ -1,0 +1,165 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362035",
+  "fetched_at": "2026-05-16T14:09:41.717Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlovOUhRV3FWTlh4SjVxVE1ldXFpYW5NTDA2TWJHQmVqalJNT0o3Q2lSeXc9Ig.4rMxLCdiZtRtbT4tvfL4Xp5FOwjfTVFzQyePIply0O8",
+    "data": {
+      "id": 362035,
+      "revision": 0,
+      "opportunityNumber": "DE-FOA-0003623",
+      "opportunityTitle": "High-performance Optimized Recycled Nuclear Isotopes for Gen IV reactors (HORNIG)",
+      "owningAgencyCode": "DOE-ARPAE",
+      "listed": "L",
+      "publisherUid": "admin.arpae",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362035,
+        "version": 1,
+        "agencyCode": "DOE-ARPAE",
+        "agencyName": "Advanced Research Projects Agency Energy",
+        "agencyPhone": "2022871878",
+        "agencyAddressDesc": "Click to email contact",
+        "agencyDetails": {
+          "code": "ARPAE",
+          "seed": "DOE-ARPAE",
+          "agencyName": "Advanced Research Projects Agency Energy ",
+          "agencyCode": "DOE-ARPAE",
+          "topAgencyCode": "DOE"
+        },
+        "topAgencyDetails": {
+          "code": "DOE",
+          "seed": "DOE",
+          "agencyName": "Department of Energy",
+          "agencyCode": "DOE",
+          "topAgencyCode": "DOE"
+        },
+        "agencyContactPhone": "2022871878",
+        "agencyContactName": "Advanced Research Projects Agency Energy",
+        "agencyContactDesc": "ARPA-E CO \narpa-e-co@hq.doe.gov",
+        "agencyContactEmail": "arpa-e-co@hq.doe.gov",
+        "agencyContactEmailDesc": "Click to email contact",
+        "synopsisDesc": "NOFO Number: DE-FOA-0003623 – High-performance Optimized Recycled Nuclear Isotopes for Gen IV reactors (HORNIG)\n\nAgency Overview: \n\nThe Advanced Research Projects Agency—Energy (ARPA-E), an organization within the Department of Energy (DOE), is chartered by Congress in the America COMPETES Act of 2007 (Public Law 110–69), as amended by the America COMPETES Reauthorization Act of 2010 \n(Public Law 111–358), as further amended by the Energy Act of 2020 (Public Law 116–260).\n\nARPA-E issues this Notice of Funding Opportunity (NOFO) under its authorizing statute codified at 42 U.S.C. § 16538.   The NOFO and any cooperative agreements or grants made under this NOFO are subject to 2 C.F.R. Part 200 as supplemented by 2 C.F.R. Part 910.\n\n\tARPA-E funds research on, and the development of, transformative science and technology solutions to address the energy and environmental missions of the Department.  The agency focuses on technologies that can be meaningfully advanced with a modest investment over a defined period of time in order to catalyze the translation from scientific discovery into early-stage technology.  For the latest news and information about ARPA-E, its programs and the research projects currently supported, see: http://arpa-e.energy.gov/.\n\n\tARPA-E funds transformational research.  Existing energy technologies generally progress on established “learning curves” where refinements to a technology and the economies of scale that accrue as manufacturing and distribution develop drive improvements to the cost/performance metric in a gradual fashion.  This continual improvement of a technology is important to its increased commercial deployment and is appropriately the focus of the private sector or the applied technology offices within DOE.  In contrast, ARPA-E supports transformative research that has the potential to create fundamentally new learning curves.  ARPA-E technology projects typically start with cost/performance estimates well above the level of an incumbent technology.  Given the high risk inherent in these projects, many will fail to progress, but some may succeed in generating a new learning curve with a projected cost/performance metric that is significantly better than that of the incumbent technology.  ARPA-E will provide support at the highest funding level only for submissions with significant technology risk, aggressive timetables, and careful management of associated risk.\n\n\tARPA-E funds technology with the potential to be disruptive in the marketplace.  The mere creation of a new learning curve does not ensure market penetration.  Rather, the ultimate value of a technology is determined by the marketplace, and impactful technologies ultimately become disruptive—that is, they are widely adopted and displace existing technologies from the marketplace or create entirely new markets.  ARPA-E understands that definitive proof of market disruption takes time, particularly for energy technologies.  Therefore, ARPA-E funds the development of technologies that, if technically successful, have clear disruptive potential, e.g., by demonstrating capability for manufacturing at competitive cost and deployment at scale.  \n\nARPA-E funds applied research and development (R&D).  The Office of Management and Budget defines “applied research” as an “original investigation undertaken in order to acquire new knowledge…directed primarily toward a specific practical aim or objective” and defines “experimental development” as “creative and systematic work, drawing on knowledge gained from research and practical experience, which is directed at producing new products or processes or improving existing products or processes.”  Applicants interested in receiving financial assistance for basic research (defined by the Office of Management and Budget as “experimental or theoretical work undertaken primarily to acquire new knowledge of the underlying foundations of phenomena and observable facts”) should contact the DOE’s Office of Science.  Office of Science national scientific user facilities (http://science.energy.gov/user-facilities/) are open to all researchers, including ARPA-E applicants and awardees.  These facilities provide advanced tools of modern science including accelerators, colliders, supercomputers, light sources and neutron sources, as well as facilities for studying the nanoworld, the environment, and the atmosphere.  Projects focused on early-stage R&D for the improvement of technology along defined roadmaps may be more appropriate for support through the DOE applied energy offices including:  the Office of Critical Minerals and Energy Innovation (CMEI), the Office of Hydrocarbon and Geothermal Energy, the Office of Nuclear Energy, and the Office of Electricity.\n\n\tARPA-E encourages submissions stemming from ideas that still require proof-of-concept R&D efforts as well as those for which some proof-of-concept demonstration already exists.  Submissions can propose a project with the end deliverable being an extremely creative, but partial solution.\n\nProgram Overview: \n\nTransuranic (TRU) elements—such as plutonium (Pu), neptunium (Np), and americium (Am)—are a significant source of fissile materials that are available across existing nuclear inventories and strategic reserves and have the potential to drive advanced reactor deployment. ,   The technical feasibility of recycling TRU elements into new fuels has been proven at the experimental scale.   Advances in fabrication, safeguards, equipment design, and modeling will create the opportunity to transition from experimental success to commercial-scale deployment, enabling higher-throughput and lower-cost fuel production with real-time materials accountancy.  The High-performance Optimized Recycled Nuclear Isotopes for Gen IV reactors (HORNIG) program will support research and development projects that deliver commercially deployable TRU fuel technologies, thereby strengthening U.S. energy security, reducing nuclear waste, and enabling long-term energy deployment for public benefit.\n\nThe HORNIG program seeks to overcome key technical and economic barriers that have historically prevented using TRU fuels in commercial reactors and to create a clear path to domestic nuclear fuel security by supporting the design, fabrication, and qualification of TRU fuels.   The program will fund coordinated, multidisciplinary efforts to deliver transformative advances in fuel performance, manufacturability, cost, and regulatory readiness.  Technologies developed under this program must have the potential to enable the following program metrics:\n•\tA domestic TRU fuel supply chain \n•\tA levelized cost of fuel (LCOF) = 1¢/kWh  \n•\tTRU fuel qualification and regulatory acceptance within seven years\n\n\tBy enabling production of advanced reactor fuels from domestically sourced fissile materials, the program will reduce dependence on imported uranium and enrichment services, expand U.S. fuel supply options, and support establishment of a closed fuel cycle.  These objectives support ARPA-E’s statutory goals of improving energy security and resilience, improving the management of radiological waste, and maintaining U.S. technological leadership in energy technologies.  If successful, HORNIG will strengthen U.S. energy security and infrastructure resilience and deliver lasting public benefit through reliable nuclear power.\n\nTo view the NOFO in its entirety, please visit https://arpa-e-foa.energy.gov",
+        "responseDate": "May 28, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://arpa-e-foa.energy.gov",
+        "fundingDescLinkDesc": "ARPA-E eXCHANGE",
+        "postingDate": "Apr 23, 2026 12:00:00 AM EDT",
+        "archiveDate": "Nov 12, 2026 12:00:00 AM EST",
+        "costSharing": true,
+        "numberOfAwards": "10",
+        "estimatedFunding": "50000000",
+        "estimatedFundingFormatted": "50,000,000",
+        "awardCeiling": "7000000",
+        "awardCeilingFormatted": "7,000,000",
+        "awardFloor": "500000",
+        "awardFloorFormatted": "500,000",
+        "applicantEligibilityDesc": "See Section II.A. of the NOFO.",
+        "createTimeStamp": "Apr 23, 2026 02:03:29 PM EDT",
+        "createdDate": "Apr 23, 2026 02:03:24 PM EDT",
+        "lastUpdatedDate": "Apr 23, 2026 02:03:24 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          },
+          {
+            "id": "O",
+            "description": "Other"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "OZ",
+            "description": "Opportunity Zone Benefits"
+          },
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-05-28-00-00-00",
+        "postingDateStr": "2026-04-23-00-00-00",
+        "archiveDateStr": "2026-11-12-00-00-00",
+        "createTimeStampStr": "2026-04-23-14-03-29"
+      },
+      "agencyDetails": {
+        "code": "ARPAE",
+        "seed": "DOE-ARPAE",
+        "agencyName": "Advanced Research Projects Agency Energy ",
+        "agencyCode": "DOE-ARPAE",
+        "topAgencyCode": "DOE"
+      },
+      "topAgencyDetails": {
+        "code": "DOE",
+        "seed": "DOE",
+        "agencyName": "Department of Energy",
+        "agencyCode": "DOE",
+        "topAgencyCode": "DOE"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79376,
+          "opportunityId": 362035,
+          "folderType": "Full Announcement",
+          "folderName": "DE-FOA-0003623 (BASE)",
+          "zipLobSize": 740537,
+          "createdDate": "Apr 23, 2026 02:03:28 PM EDT",
+          "lastUpdatedDate": "Apr 23, 2026 02:03:29 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351450,
+              "opportunityId": 362035,
+              "mimeType": "application/octet-stream",
+              "fileName": "HORNIG CP NOFO.pdf",
+              "fileDescription": "NOFO_DE-FOA-0003623_HORNIG",
+              "fileLobSize": 780207,
+              "createdDate": "Apr 23, 2026 02:03:29 PM EDT",
+              "synopsisAttFolderId": 79376
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432864,
+          "opportunityId": 362035,
+          "cfdaNumber": "81.135",
+          "programTitle": "Advanced Research Projects Agency - Energy"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 28, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

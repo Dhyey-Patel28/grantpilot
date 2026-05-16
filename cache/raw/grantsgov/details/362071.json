@@ -1,0 +1,172 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362071",
+  "fetched_at": "2026-05-16T14:09:47.366Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlovOUhRV3FWTlh4SjVxVE1ldXFpYWp3WkpjWHFBNmx4amZ3anQ4cTYwcDQ9Ig.sgSDU_cOj50QQ0hs8kypdzavCyX6dElb7faKr9EF3Fk",
+    "data": {
+      "id": 362071,
+      "revision": 0,
+      "opportunityNumber": "HHS-2026-ACF-ACYF-CY-0016",
+      "opportunityTitle": "&#8203;&#8203;FY 2026 Basic Center Program&#8203;",
+      "owningAgencyCode": "HHS-ACF-FYSB",
+      "publisherUid": "63890787833131766027530892347803189092",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "FYSB",
+        "seed": "HHS-ACF-FYSB",
+        "agencyName": "Administration for Children & Families - ACYF/FYSB",
+        "agencyCode": "HHS-ACF-FYSB",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 362071,
+        "version": 1,
+        "postingDate": "Apr 27, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p>The Basic Center Program (BCP) provides temporary, emergency shelter; and counseling services to youth who have left home without permission of their parents or guardians, have been forced to leave home, or other homeless youth who might otherwise end up in the law enforcement or in the child welfare, mental health, or juvenile justice systems. BCPs work to establish or strengthen community-based programs that meet the immediate needs of runaway and homeless youth and their families. BCPs provide youth under 18 years of age with food, clothing, counseling and referrals for health care. BCPs can provide up to 21 days of shelter for youth and seeks to reunite young people with their families, whenever possible, or to locate appropriate alternative placements.</p>",
+        "costSharing": true,
+        "numberOfAwards": "77",
+        "estimatedFunding": "27000000",
+        "awardCeiling": "350000",
+        "awardFloor": "100000",
+        "agencyContactName": "Gloria Watkins",
+        "agencyContactPhone": "202-205-9546",
+        "agencyContactEmail": "Gloria.Watkins@acf.hhs.gov",
+        "agencyContactEmailDesc": "Gloria.Watkins@acf.hhs.gov",
+        "agencyCode": "HHS-ACF-FYSB",
+        "applicantEligibilityDesc": "Eligible applicants include public and non-profit private agencies and coordinated networks of such entities. For-profit organizations are not eligible. Private institutions of higher education must be non-profit entities. In selecting applicants to receive grants under this funding announcement, priority will be given to public and non-profit, private agencies that have experience in providing services to runaway, homeless, and street youth.  Applications from individuals (including sole proprietorships) and foreign entities are not eligible and will be disqualified from the merit review and funding under this funding opportunity. Faith-based and community organizations that meet the eligibility requirements are eligible for awards under this funding opportunity.",
+        "estSynopsisPostingDate": "Jun 22, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Aug 03, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm Eastern Standard Time on the listed application due date.",
+        "estAwardDate": "Aug 28, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Sep 30, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "Apr 27, 2026 08:34:09 AM EDT",
+        "createdDate": "Apr 27, 2026 08:34:09 AM EDT",
+        "lastUpdatedDate": "Apr 27, 2026 08:34:09 AM EDT",
+        "agencyDetails": {
+          "code": "FYSB",
+          "seed": "HHS-ACF-FYSB",
+          "agencyName": "Administration for Children & Families - ACYF/FYSB",
+          "agencyCode": "HHS-ACF-FYSB",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "27,000,000",
+        "awardCeilingFormatted": "350,000",
+        "awardFloorFormatted": "100,000",
+        "applicantTypes": [
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ISS",
+            "description": "Income Security and Social Services"
+          }
+        ],
+        "postingDateStr": "2026-04-27-00-00-00",
+        "estSynopsisPostingDateStr": "2026-06-22-00-00-00",
+        "estApplicationResponseDateStr": "2026-08-03-00-00-00",
+        "estAwardDateStr": "2026-08-28-00-00-00",
+        "estProjectStartDateStr": "2026-09-30-00-00-00",
+        "createTimeStampStr": "2026-04-27-08-34-09"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432906,
+          "opportunityId": 362071,
+          "cfdaNumber": "93.623",
+          "programTitle": "Basic Center Grant"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

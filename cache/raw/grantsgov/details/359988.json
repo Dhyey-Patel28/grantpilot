@@ -1,0 +1,124 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "359988",
+  "fetched_at": "2026-05-16T14:08:05.675Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Im5rZllOcDNqdG9lQndlSXpBeHJJMzVXOGVGa1AwUWJYNUF6S1JsQjRhUFk9Ig.JwrCmEk2BelXwq2QUTBCQuay3oQLoGDZQKCuWjqRLxg",
+    "data": {
+      "id": 359988,
+      "revision": 0,
+      "opportunityNumber": "FOR-FD-25-021",
+      "opportunityTitle": "Conformance with the Egg Regulatory Program Standards",
+      "owningAgencyCode": "HHS-FDA",
+      "listed": "L",
+      "publisherUid": "sbogan12",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "FDA",
+        "seed": "HHS-FDA",
+        "agencyName": "Food and Drug Administration",
+        "agencyCode": "HHS-FDA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 359988,
+        "version": 1,
+        "postingDate": "Jul 11, 2025 12:00:00 AM EDT",
+        "forecastDesc": "<p>The purpose of this funding opportunity is to advance efforts for a nationally integrated food regulatory system by assisting state egg regulatory programs to achieve and maintain full conformance with the Egg Regulatory Program Standards (ERPS). The ERPS Cooperative Agreement will provide funding for state egg regulatory programs to:</p><p>1. Develop a plan to fully implement&nbsp;the Standards (ERPS) within five years of first receiving funding.</p><p>2. Enhance egg regulatory programs to advance public health.</p><p>3. Share egg regulatory inspection, compliance and enforcement, and laboratory information and data between states and the FDA.</p><p>4. Improve the leveraging of state regulatory resources and direct regulatory activities to reduce egg-related illness, attributed to shell egg hazards in facilities that produce, process, pack, hold or transport shell eggs and materials/supplies.</p>",
+        "costSharing": false,
+        "estimatedFunding": "94000",
+        "awardCeiling": "47000",
+        "awardFloor": "none",
+        "agencyContactName": "Danielle Head",
+        "agencyContactPhone": "301-796-2984",
+        "agencyContactEmail": "Danielle.Head@fda.hhs.gov",
+        "agencyContactEmailDesc": "Business e-mail address",
+        "agencyCode": "HHS-FDA",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "Only the following state egg regulatory programs will be eligible to apply:\r\n\r\nCurrent FDA egg inspection contract states or those willing to enter into a contract in 2025 are eligible to apply for funding under this cooperative agreement. Entering into this agreement will also require a current long-term 20.88 information sharing agreement and the expectation of full conformance with the standards and maintenance of the cooperative agreement.\r\n\r\nThe FDA will provide one year of funding with the possibility of up to two years of additional non-competitive support, contingent on performance and continued availability of federal funds. For ERPS, it is anticipated that full conformance of the ERPS will be achieved within five total funding years under an ERPS Cooperative Agreement, based on an FDA assessment of your program to ensure the elements are in conformance. States that have received funding in previous years are expected to be in full conformance and maintenance phase by the end of the 5th year. Future funds may be available for states maintaining full conformance.",
+        "estApplicationResponseDateDesc": "",
+        "fiscalYear": 2025,
+        "createTimeStamp": "Jul 11, 2025 08:35:55 AM EDT",
+        "createdDate": "Jul 11, 2025 08:35:55 AM EDT",
+        "lastUpdatedDate": "Jul 11, 2025 08:35:55 AM EDT",
+        "agencyDetails": {
+          "code": "FDA",
+          "seed": "HHS-FDA",
+          "agencyName": "Food and Drug Administration",
+          "agencyCode": "HHS-FDA",
+          "topAgencyCode": "HHS"
+        },
+        "estimatedFundingFormatted": "94,000",
+        "awardCeilingFormatted": "47,000",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "AG",
+            "description": "Agriculture"
+          },
+          {
+            "id": "CP",
+            "description": "Consumer Protection"
+          },
+          {
+            "id": "FN",
+            "description": "Food and Nutrition"
+          }
+        ],
+        "postingDateStr": "2025-07-11-00-00-00",
+        "createTimeStampStr": "2025-07-11-08-35-55"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 430177,
+          "opportunityId": 359988,
+          "cfdaNumber": "93.103",
+          "programTitle": "Food and Drug Administration Research"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

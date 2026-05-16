@@ -1,0 +1,303 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361992",
+  "fetched_at": "2026-05-16T14:09:33.387Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImIwMUlKKyszcS80QzdodC9sc0VlTGE2UWxiRTBaSDRZWGE2Y1dkMUgzOHc9Ig.X5ON8vXVvclb1iskA-3tDir7h-xqTD1eW6KcFeg066Q",
+    "data": {
+      "id": 361992,
+      "revision": 1,
+      "opportunityNumber": "USDA-AMS-TM-RFSP-G-26-0006",
+      "opportunityTitle": "Regional Food System Partnership Fiscal Year 2026",
+      "owningAgencyCode": "USDA-AMS",
+      "listed": "L",
+      "publisherUid": "272315922995587219945618497563212961069",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361992,
+        "version": 2,
+        "agencyCode": "USDA-AMS",
+        "agencyName": "Agricultural Marketing Service",
+        "agencyPhone": "202-260-8449",
+        "agencyAddressDesc": "IPPGrants@usda.gov",
+        "agencyDetails": {
+          "code": "AMS",
+          "seed": "USDA-AMS",
+          "agencyName": "Agricultural Marketing Service",
+          "agencyCode": "USDA-AMS",
+          "topAgencyCode": "USDA"
+        },
+        "topAgencyDetails": {
+          "code": "USDA",
+          "seed": "USDA",
+          "agencyName": "Department of Agriculture",
+          "agencyCode": "USDA",
+          "topAgencyCode": "USDA"
+        },
+        "agencyContactPhone": "202-260-8449",
+        "agencyContactName": "Agricultural Marketing Service",
+        "agencyContactDesc": "Regional Food System Partnerships\nIPPGrants@usda.gov",
+        "agencyContactEmail": "IPPGrants@usda.gov",
+        "agencyContactEmailDesc": "IPPGrants@usda.gov",
+        "synopsisDesc": "The U.S. Department of Agriculture (USDA), Agricultural Marketing Service (AMS), requests applications for the 2026 Fiscal Year (FY) Regional Food System Partnerships (RFSP) grant program. RFSP purpose is to support partnerships that connect public and private resources to plan and develop local and regional food systems.RFSP is part of the Local Agriculture Market Program (LAMP) umbrella program. AMS welcomes applications that meet LAMP goals (see section 3.1) to support the development, coordination, and expansion of direct producer-to-consumer marketing, local and regional food markets and enterprises, and value-added agricultural products.Approximately $4.71 million is available to fund applications under this solicitation. In FY2025, AMS funded 7 (6.5%) of the eligible applications received an awarded a total of $4,712,934.This announcement identifies the eligibility criteria for RFSP projects and applicants, and the application forms and associated instructions needed to apply for an RFSP grant. AMS will award these grants competitively to eligible applicants proposing high quality projects that meet the purpose and requirements of the program. All applications will be reviewed using merit and evaluation procedures.",
+        "responseDate": "Jun 05, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Applications must be submitted electronically no later than 11:59 pm Eastern Time.",
+        "fundingDescLinkUrl": "https://www.ams.usda.gov/rfsp",
+        "fundingDescLinkDesc": "https://www.ams.usda.gov/rfsp",
+        "postingDate": "Apr 21, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 05, 2026 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "10",
+        "estimatedFunding": "4710000",
+        "estimatedFundingFormatted": "4,710,000",
+        "awardCeiling": "1000000",
+        "awardCeilingFormatted": "1,000,000",
+        "awardFloor": "100000",
+        "awardFloorFormatted": "100,000",
+        "applicantEligibilityDesc": "See Section 2.2 Eligibility Section of the Notice of Funding Opportunity (NOFO) for a full list of eligible applicants and eligible entities (partners).",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 21, 2026 02:23:07 PM EDT",
+        "modComments": "Updated &quot;Additional Information on Eligibility&quot; text field language.",
+        "createdDate": "Apr 21, 2026 12:38:43 PM EDT",
+        "lastUpdatedDate": "Apr 21, 2026 02:23:07 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "AG",
+            "description": "Agriculture"
+          }
+        ],
+        "responseDateStr": "2026-06-05-00-00-00",
+        "postingDateStr": "2026-04-21-00-00-00",
+        "archiveDateStr": "2026-07-05-00-00-00",
+        "createTimeStampStr": "2026-04-21-14-23-07"
+      },
+      "agencyDetails": {
+        "code": "AMS",
+        "seed": "USDA-AMS",
+        "agencyName": "Agricultural Marketing Service",
+        "agencyCode": "USDA-AMS",
+        "topAgencyCode": "USDA"
+      },
+      "topAgencyDetails": {
+        "code": "USDA",
+        "seed": "USDA",
+        "agencyName": "Department of Agriculture",
+        "agencyCode": "USDA",
+        "topAgencyCode": "USDA"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79349,
+          "opportunityId": 361992,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 579718,
+          "createdDate": "Apr 21, 2026 12:40:24 PM EDT",
+          "lastUpdatedDate": "Apr 21, 2026 12:40:25 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351408,
+              "opportunityId": 361992,
+              "mimeType": "application/pdf",
+              "fileName": "RFSP NOFO APPROVED 4-21-26 Copy 1.pdf",
+              "fileDescription": "RFSP NOFO APPROVED 4-21-26 Copy 1.pdf",
+              "fileLobSize": 677142,
+              "createdDate": "Apr 21, 2026 12:40:25 PM EDT",
+              "synopsisAttFolderId": 79349
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432819,
+          "opportunityId": 361992,
+          "cfdaNumber": "10.177",
+          "programTitle": "Regional Food System Partnerships"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361992,
+            "revision": 0
+          },
+          "opportunityId": 361992,
+          "revision": 0,
+          "opportunityNumber": "USDA-AMS-TM-RFSP-G-26-0006",
+          "opportunityTitle": "Regional Food System Partnership Fiscal Year 2026",
+          "owningAgencyCode": "USDA-AMS",
+          "publisherUid": "272315922995587219945618497563212961069",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361992,
+              "revision": 0
+            },
+            "opportunityId": 361992,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "USDA-AMS",
+            "agencyAddressDesc": "IPPGrants@usda.gov",
+            "agencyDetails": {
+              "code": "AMS",
+              "seed": "USDA-AMS",
+              "agencyName": "Agricultural Marketing Service",
+              "agencyCode": "USDA-AMS",
+              "topAgencyCode": "USDA"
+            },
+            "agencyContactPhone": "202-260-8449",
+            "agencyContactName": "Agricultural Marketing Service",
+            "agencyContactDesc": "Regional Food System Partnerships\nIPPGrants@usda.gov",
+            "agencyContactEmail": "IPPGrants@usda.gov",
+            "agencyContactEmailDesc": "IPPGrants@usda.gov",
+            "synopsisDesc": "The U.S. Department of Agriculture (USDA), Agricultural Marketing Service (AMS), requests applications for the 2026 Fiscal Year (FY) Regional Food System Partnerships (RFSP) grant program. RFSP purpose is to support partnerships that connect public and private resources to plan and develop local and regional food systems.RFSP is part of the Local Agriculture Market Program (LAMP) umbrella program. AMS welcomes applications that meet LAMP goals (see section 3.1) to support the development, coordination, and expansion of direct producer-to-consumer marketing, local and regional food markets and enterprises, and value-added agricultural products.Approximately $4.71 million is available to fund applications under this solicitation. In FY2025, AMS funded 7 (6.5%) of the eligible applications received an awarded a total of $4,712,934.This announcement identifies the eligibility criteria for RFSP projects and applicants, and the application forms and associated instructions needed to apply for an RFSP grant. AMS will award these grants competitively to eligible applicants proposing high quality projects that meet the purpose and requirements of the program. All applications will be reviewed using merit and evaluation procedures.",
+            "responseDate": "Jun 05, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Applications must be submitted electronically no later than 11:59 pm Eastern Time.",
+            "fundingDescLinkUrl": "https://www.ams.usda.gov/rfsp",
+            "fundingDescLinkDesc": "https://www.ams.usda.gov/rfsp",
+            "postingDate": "Apr 21, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jul 05, 2026 12:00:00 AM EDT",
+            "costSharing": true,
+            "numberOfAwards": "10",
+            "estimatedFunding": "4710000",
+            "estimatedFundingFormatted": "4,710,000",
+            "awardCeiling": "1000000",
+            "awardCeilingFormatted": "1,000,000",
+            "awardFloor": "100000",
+            "awardFloorFormatted": "100,000",
+            "applicantEligibilityDesc": "Eligible EntitiesCommunity Supported Agriculture (CSA) Network or AssociationEconomic Development CorporationFarmer or Rancher CooperativeFood CouncilLocal GovernmentMajority-Controlled Producer-Based Business VentureNonprofit CorporationProducerProducer Network or AssociationPublic Benefit CorporationRegional Farmers Market AuthorityTribal GovernmentELIGIBLE PARTNERSCommercial, Federal or Farm Credit System Lending InstitutionInstitutions of Higher Education (IHE)Philanthropic OrganizationPrivate CorporationState Agencies or Regional Authority",
+            "createTimeStamp": "Apr 21, 2026 12:40:25 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 21, 2026 02:23:07 PM EDT",
+            "createdDate": "Apr 21, 2026 12:38:43 PM EDT",
+            "lastUpdatedDate": "Apr 21, 2026 12:38:43 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "AG",
+                "description": "Agriculture"
+              }
+            ],
+            "responseDateStr": "2026-06-05-00-00-00",
+            "postingDateStr": "2026-04-21-00-00-00",
+            "archiveDateStr": "2026-07-05-00-00-00",
+            "createTimeStampStr": "2026-04-21-12-40-25"
+          },
+          "cfdas": [
+            {
+              "id": 432819,
+              "opportunityId": 361992,
+              "revision": 0,
+              "cfdaNumber": "10.177",
+              "programTitle": "Regional Food System Partnerships"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292459,
+          "topportunityId": 361992,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "USDA-AMS-TM-RFSP-G-26-0006",
+          "opportunityTitle": "Regional Food System Partnership Fiscal Year 2026",
+          "cfdaNumber": "10.177",
+          "openingDate": "2026-04-21",
+          "closingDate": "2026-06-05",
+          "owningAgencyCode": "USDA-AMS",
+          "agencyDetails": {
+            "code": "AMS",
+            "seed": "USDA-AMS",
+            "agencyName": "Agricultural Marketing Service",
+            "agencyCode": "USDA-AMS",
+            "topAgencyCode": "USDA"
+          },
+          "topAgencyDetails": {
+            "code": "USDA",
+            "seed": "USDA",
+            "agencyName": "Department of Agriculture",
+            "agencyCode": "USDA",
+            "topAgencyCode": "USDA"
+          },
+          "programTitle": "Regional Food System Partnerships",
+          "contactInfo": "Regional Food System Partnerships",
+          "gracePeriod": 0,
+          "competitionId": "USDA-AMS-TM-RFSP-G-26-0006",
+          "competitionTitle": "Regional Food System Partnership Fiscal Year 2026",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 10,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 21, 2026 12:39:53 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292459",
+          "openingDateStr": "2026-04-21-00-00-00",
+          "closingDateStr": "2026-06-05-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 05, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Applications must be submitted electronically no later than 11:59 pm Eastern Time.",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "applicantEligibilityDesc"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

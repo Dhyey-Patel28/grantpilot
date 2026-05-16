@@ -1,0 +1,183 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "359855",
+  "fetched_at": "2026-05-16T14:08:00.974Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Im5rZllOcDNqdG9lQndlSXpBeHJJMy9PcVJnKzk4dlNBZlVhZ0hrK015MTg9Ig.u2trFC7OhLGMWA5uyU-gA2DnoKLUriBpErkiAv7pfXI",
+    "data": {
+      "id": 359855,
+      "revision": 0,
+      "opportunityNumber": "FOR-CA-25-074",
+      "opportunityTitle": "Forecast to Publish a Funding Opportunity Announcement for Advanced Development of Informatics Technologies for Cancer Research and Management (U24 Clinical Trial Optional)",
+      "owningAgencyCode": "HHS-NIH11",
+      "listed": "L",
+      "publisherUid": "waltemi",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "NIH",
+        "seed": "HHS-NIH11",
+        "agencyName": "National Institutes of Health",
+        "agencyCode": "HHS-NIH11",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 359855,
+        "version": 1,
+        "postingDate": "Jul 02, 2025 12:00:00 AM EDT",
+        "forecastDesc": "<p>The National Cancer Institute intends to publish a Notice of Funding Opportunity (NOFO) to invite&nbsp;applications for&nbsp;advanced development and enhancement of emerging informatics technologies&nbsp;to improve the acquisition, analysis, visualization, and interpretation of data across the cancer research continuum including cancer biology, cancer treatment and diagnosis, early cancer detection, risk assessment and prevention, cancer control and epidemiology, and cancer health disparities. As a component of the NCI's&nbsp;<a href=\"http://itcr.cancer.gov/\" target=\"_blank\" style=\"color: rgb(31, 107, 178);\">Informatics Technology for Cancer Research</a>&nbsp;(ITCR) Program, this NOFO will focus on&nbsp;advancing emerging informatics technology, defined as one that has passed the initial prototyping and pilot development stage, has demonstrated potential to have a significant and broader impact, has compelling reasons for further improvement and enhancement, and has not been widely adopted in the cancer research field. To be successful, proposed development plans must have a clear rationale for why the proposed technology is needed and how it will benefit the cancer research field. In addition, mechanisms to solicit feedback from driving cancer research projects as well as the broader user community throughout the development process must be included.</p>\n<p><br></p>\n<p>This NOFO will invite applications for the enhancement and dissemination of emerging, user-friendly informatics technologies that support a wide range of cancer research, including discovery biology, population studies, as well as clinical and translational research. The emphasis will be on uniqueness and potential impact on cancer research. In addition, all projects proposed in response to this NOFO must involve the following general attributes:</p>\n<p><br></p>\n<ul>\n <li>Potential to advance driving cancer research projects and the cancer research field in general;</li>\n <li>Offers clear advantages over competing technologies in the targeted cancer research domain;</li>\n <li>Provides compelling plans and processes for supporting and engaging end users to evaluate and apply the tool or resource;</li>\n <li>Provides plans for advancing use of the tool or resource by the targeted community through collaboration, outreach, and training;</li>\n <li>Provides a realistic timeline and milestones for technology development.</li>\n</ul>\n<p><br></p>\n<p>Applications are not being solicited at this time. This Notice is being provided to allow potential applicants sufficient time to develop meaningful collaborations and responsive projects.&nbsp;This NOFO will utilize the U24 activity code. Investigators with expertise and insights into cancer informatics are encouraged to begin to consider applying for this NOFO.&nbsp;</p>",
+        "costSharing": false,
+        "agencyContactName": "Juli Klemm, PhD\r\nNational Cancer Institute",
+        "agencyContactPhone": "202-853-7889",
+        "agencyContactEmail": "juli.klemm@nih.gov",
+        "agencyContactEmailDesc": "juli.klemm@nih.gov",
+        "agencyCode": "HHS-NIH11",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "",
+        "estSynopsisPostingDate": "Aug 29, 2025 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Nov 21, 2025 12:00:00 AM EST",
+        "estApplicationResponseDateDesc": "",
+        "estAwardDate": "Jul 01, 2026 12:00:00 AM EDT",
+        "estProjectStartDate": "Jul 01, 2026 12:00:00 AM EDT",
+        "fiscalYear": 2026,
+        "createTimeStamp": "Jul 02, 2025 09:48:39 AM EDT",
+        "createdDate": "Jun 27, 2025 02:05:22 PM EDT",
+        "lastUpdatedDate": "Jul 02, 2025 09:48:39 AM EDT",
+        "agencyDetails": {
+          "code": "NIH",
+          "seed": "HHS-NIH11",
+          "agencyName": "National Institutes of Health",
+          "agencyCode": "HHS-NIH11",
+          "topAgencyCode": "HHS"
+        },
+        "applicantTypes": [
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "HL",
+            "description": "Health"
+          }
+        ],
+        "postingDateStr": "2025-07-02-00-00-00",
+        "estSynopsisPostingDateStr": "2025-08-29-00-00-00",
+        "estApplicationResponseDateStr": "2025-11-21-00-00-00",
+        "estAwardDateStr": "2026-07-01-00-00-00",
+        "estProjectStartDateStr": "2026-07-01-00-00-00",
+        "createTimeStampStr": "2025-07-02-09-48-39"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 430000,
+          "opportunityId": 359855,
+          "cfdaNumber": "93.393",
+          "programTitle": "Cancer Cause and Prevention Research"
+        },
+        {
+          "id": 429997,
+          "opportunityId": 359855,
+          "cfdaNumber": "93.394",
+          "programTitle": "Cancer Detection and Diagnosis Research"
+        },
+        {
+          "id": 429999,
+          "opportunityId": 359855,
+          "cfdaNumber": "93.395",
+          "programTitle": "Cancer Treatment Research"
+        },
+        {
+          "id": 429998,
+          "opportunityId": 359855,
+          "cfdaNumber": "93.396",
+          "programTitle": "Cancer Biology Research"
+        },
+        {
+          "id": 430001,
+          "opportunityId": 359855,
+          "cfdaNumber": "93.399",
+          "programTitle": "Cancer Control"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

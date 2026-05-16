@@ -1,0 +1,185 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362036",
+  "fetched_at": "2026-05-16T14:09:42.175Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlovOUhRV3FWTlh4SjVxVE1ldXFpYWk4RkFObyt0TVlqTWxQTytSa2J2aHc9Ig.qYKNnHC_yAtXLiT7YreaWVwCnsbP-fO32cJOz4UPxT8",
+    "data": {
+      "id": 362036,
+      "revision": 0,
+      "opportunityNumber": "DE-FOA-0003624",
+      "opportunityTitle": "INSPIRING GENERATIONS OF NEW INNOVATORS TO IMPACT TECHNOLOGIES IN ENERGY 2026 (IGNIITE 2026)",
+      "owningAgencyCode": "DOE-ARPAE",
+      "listed": "L",
+      "publisherUid": "admin.arpae",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362036,
+        "version": 1,
+        "agencyCode": "DOE-ARPAE",
+        "agencyName": "Advanced Research Projects Agency Energy",
+        "agencyPhone": "2022871878",
+        "agencyAddressDesc": "Click to email contact",
+        "agencyDetails": {
+          "code": "ARPAE",
+          "seed": "DOE-ARPAE",
+          "agencyName": "Advanced Research Projects Agency Energy ",
+          "agencyCode": "DOE-ARPAE",
+          "topAgencyCode": "DOE"
+        },
+        "topAgencyDetails": {
+          "code": "DOE",
+          "seed": "DOE",
+          "agencyName": "Department of Energy",
+          "agencyCode": "DOE",
+          "topAgencyCode": "DOE"
+        },
+        "agencyContactPhone": "2022871878",
+        "agencyContactName": "Advanced Research Projects Agency Energy",
+        "agencyContactDesc": "ARPA-E GO  \narpa-e-co@hq.doe.gov",
+        "agencyContactEmail": "arpa-e-co@hq.doe.gov",
+        "agencyContactEmailDesc": "Click to email contact",
+        "synopsisDesc": "NOFO number DE-FOA-0003624 INSPIRING GENERATIONS OF NEW INNOVATORS TO IMPACT TECHNOLOGIES IN ENERGY 2026 (IGNIITE 2026)\n\nTo obtain a copy of the Notice of Funding Opportunity (NOFO) please go to ARPA-E eXCHANGE at https://arpa-e-foa.energy.gov.  To apply to this NOFO, Applicants must register with and submit application materials through ARPA-E eXCHANGE (https://arpa-e-foa.energy.gov/Registration.aspx).  For detailed guidance on using ARPA-E eXCHANGE, please refer to the ARPA-E eXCHANGE User Guide (https://arpa-e-foa.energy.gov/Manuals.aspx).  ARPA-E will not review or consider application materials submitted through other means. For problems with ARPA-E eXCHANGE, email ExchangeHelp@hq.doe.gov (with NOFO name and number in the subject line). Questions about this NOFO? Check the Frequently Asked Questions available at http://arpa-e.energy.gov/faq.  For questions that have not already been answered, email ARPA-E-CO@hq.doe.gov.   \n \nAgency Overview: \n \nThe Advanced Research Projects Agency – Energy (ARPA-E), an organization within the Department of Energy (DOE), is chartered by Congress in the America COMPETES Act of 2007 (P.L. 110-69), as amended by the America COMPETES Reauthorization Act of 2010 (P.L. 111-358), as further amended by the Energy Act of 2020 (P.L. 116-260): \n“(A) to enhance the economic and energy security of the United States through the development of energy technologies that— \n(i) reduce imports of energy from foreign sources; \n(ii) reduce energy-related emissions, including greenhouse gases; \n(iii) improve the energy efficiency of all economic sectors;  \n(iv) provide transformative solutions to improve the management, clean-up, and disposal of radioactive waste and spent nuclear fuel; and \n(v) improve the resilience, reliability, and security of infrastructure to produce, deliver, and store energy; and \n(B) to ensure that the United States maintains a technological lead in developing and deploying advanced energy technologies.” \n \nARPA-E issues this Notice of Funding Opportunity (NOFO) under its authorizing statute codified at 42 U.S.C. § 16538. The NOFO and any cooperative agreements or grants made under this NOFO are subject to 2 C.F.R. Part 200 as supplemented by 2 C.F.R. Part 910. \n \nARPA-E funds research on, and the development of, transformative science and technology solutions to address the energy and environmental missions of the Department. The agency focuses on technologies that can be meaningfully advanced with a modest investment over a defined period of time in order to catalyze the translation from scientific discovery to early-stage technology. For the latest news and information about ARPA-E, its programs and the research projects currently supported, see: http://arpa-e.energy.gov/. \n \nARPA-E funds transformational research. Existing energy technologies generally progress on established “learning curves” where refinements to a technology and the economies of scale that accrue as manufacturing and distribution develop drive improvements to the cost/performance metric in a gradual fashion. This continual improvement of a technology is important to its increased commercial deployment and is appropriately the focus of the private sector or the applied technology offices within DOE. In contrast, ARPA-E supports transformative research that has the potential to create fundamentally new learning curves. ARPA-E technology projects typically start with cost/performance estimates well above the level of an incumbent technology. Given the high risk inherent in these projects, many will fail to progress, but some may succeed in generating a new learning curve with a projected cost/performance metric that is significantly better than that of the incumbent technology. ARPA-E will provide support at the highest funding level only for submissions with significant technology risk, aggressive timetables, and careful management and mitigation of the associated risks. \n \nARPA-E funds technology with the potential to be disruptive in the marketplace. The mere creation of a new learning curve does not ensure market penetration. Rather, the ultimate value of a technology is determined by the marketplace, and impactful technologies ultimately become disruptive – that is, they are widely adopted and displace existing technologies from the marketplace or create entirely new markets. ARPA-E understands that definitive proof of market disruption takes time, particularly for energy technologies. Therefore, ARPA-E funds the development of technologies that, if technically successful, have clear disruptive potential, e.g., by demonstrating capability for manufacturing at competitive cost and deployment at scale.  \n \n ARPA-E funds applied research and development (R&D). The Office of Management and Budget defines “applied research” as an “original investigation undertaken in order to acquire new knowledge…directed primarily towards a specific practical aim or objective” and defines “experimental development” as “creative and systematic work, drawing on knowledge gained from research and practical experience, which is directed at producing new products or processes or improving existing products or processes.” \n \nApplicants interested in receiving financial assistance for basic research (defined by the Office of Management and Budget as “experimental or theoretical work undertaken primarily to acquire new knowledge of the underlying foundations of phenomena and observable facts”) should contact the DOE’s Office of Science (http://science.energy.gov/). Office of Science national scientific user facilities (http://science.energy.gov/user-facilities/) are open to all researchers, including ARPA-E Applicants and awardees. These facilities provide advanced tools of modern science including accelerators, colliders, supercomputers, light sources and neutron sources, as well as facilities for studying the nanoworld, the environment, and the atmosphere. Projects focused on early-stage R&D for the improvement of technology along defined roadmaps may be more appropriate for support through the DOE applied energy offices including: the Office of Energy Efficiency and Renewable Energy (http://www.eere.energy.gov/), the Office of Fossil Energy and Carbon Management (https://www.energy.gov/fecm/office-fossil-energy-and-carbon-management), the Office of Nuclear Energy (http://www.energy.gov/ne/office-nuclear-energy), and the Office of Electricity (https://www.energy.gov/oe/office-electricity). \n \nARPA-E encourages submissions stemming from ideas that still require proof-of-concept R&D efforts as well as those for which some proof-of-concept demonstration already exists. Submissions can propose a project with the end deliverable being an extremely creative, but partial solution. \n\nProgram Overview: \n\nThe IGNIITE 2026 program is designed to support a new cohort of early-career innovators to develop the most disruptive and unconventional ideas into transformative new technologies across the full spectrum of energy applications.  This announcement is purposefully broad in technical scope, but eligibility is limited to early-career researchers as defined in Section II.A.  In addition to research, awardees will engage with ARPA-E, fellow awardees, investors, and other government stakeholders through dedicated events, meetings, and mentorship activities. \n \nSubmissions to this solicitation must propose transformational R&D that has the potential for high impact.  If successful, a project could create a new class or new trajectory for an energy technology, with the potential to substantially contribute to ARPA-E’s statutory goals (see Public Law 116–260). \n \nAwards under this program may take the form of exploratory research that provides the agency with information useful for the subsequent development of focused technology programs. \n \nAlternatively, awards may support proof-of-concept research for a particular new technology in an area not currently supported by the agency. \n\nTo view the NOFO in its entirety, please visit https://arpa-e-foa.energy.gov.",
+        "responseDate": "May 29, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://arpa-e-foa.energy.gov",
+        "fundingDescLinkDesc": "ARPA-E eXCHANGE",
+        "postingDate": "Apr 23, 2026 12:00:00 AM EDT",
+        "archiveDate": "Nov 11, 2026 12:00:00 AM EST",
+        "costSharing": false,
+        "numberOfAwards": "0",
+        "estimatedFunding": "10000000",
+        "estimatedFundingFormatted": "10,000,000",
+        "awardCeiling": "500000",
+        "awardCeilingFormatted": "500,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "For-profit entities (which includes large businesses and small businesses), educational institutions, DOE/NNSA FFRDCs/DOE Labs, and nonprofits that are incorporated in the United States, including U.S. territories, are eligible to apply, and these entities must apply as a Standalone Applicant only (i.e., they cannot apply as a project team with another entity or a subrecipient). \n\nPlease see NOFO Section II.A for information on Eligible Principal Investigators.",
+        "createTimeStamp": "Apr 23, 2026 02:33:47 PM EDT",
+        "createdDate": "Apr 23, 2026 02:33:42 PM EDT",
+        "lastUpdatedDate": "Apr 23, 2026 02:33:42 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          },
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "OZ",
+            "description": "Opportunity Zone Benefits"
+          },
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-05-29-00-00-00",
+        "postingDateStr": "2026-04-23-00-00-00",
+        "archiveDateStr": "2026-11-11-00-00-00",
+        "createTimeStampStr": "2026-04-23-14-33-47"
+      },
+      "agencyDetails": {
+        "code": "ARPAE",
+        "seed": "DOE-ARPAE",
+        "agencyName": "Advanced Research Projects Agency Energy ",
+        "agencyCode": "DOE-ARPAE",
+        "topAgencyCode": "DOE"
+      },
+      "topAgencyDetails": {
+        "code": "DOE",
+        "seed": "DOE",
+        "agencyName": "Department of Energy",
+        "agencyCode": "DOE",
+        "topAgencyCode": "DOE"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79377,
+          "opportunityId": 362036,
+          "folderType": "Full Announcement",
+          "folderName": "DE-FOA-0003624 (BASE)",
+          "zipLobSize": 620877,
+          "createdDate": "Apr 23, 2026 02:33:46 PM EDT",
+          "lastUpdatedDate": "Apr 23, 2026 02:33:47 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351451,
+              "opportunityId": 362036,
+              "mimeType": "application/octet-stream",
+              "fileName": "IGNIITE 2026 CP NOFO.pdf",
+              "fileDescription": "IGNIITE 2026 CP NOFO",
+              "fileLobSize": 650319,
+              "createdDate": "Apr 23, 2026 02:33:47 PM EDT",
+              "synopsisAttFolderId": 79377
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432865,
+          "opportunityId": 362036,
+          "cfdaNumber": "81.135",
+          "programTitle": "Advanced Research Projects Agency - Energy"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 29, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

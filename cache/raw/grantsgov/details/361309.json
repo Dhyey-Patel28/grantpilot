@@ -1,0 +1,229 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361309",
+  "fetched_at": "2026-05-16T14:08:42.366Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ik1FK0ZEc0sxOHEwcVVYSXd4TEd1V3dRTDFEMmRaRmR5OWVYa3pwa09vZmM9Ig.ZukkN17U_q0yUo2x6tLYSgUYMrF-164eWB6_stc-0Ak",
+    "data": {
+      "id": 361309,
+      "revision": 0,
+      "opportunityNumber": "DE-FOA-0003614",
+      "opportunityTitle": "Energy Frontier Research Centers (EFRCs)",
+      "owningAgencyCode": "PAMS-SC",
+      "listed": "L",
+      "publisherUid": "emcgeehan",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361309,
+        "version": 2,
+        "agencyCode": "PAMS-SC",
+        "agencyName": "Edward McGeehan\nGrants Management Specialist",
+        "agencyPhone": "301-903-1291",
+        "agencyAddressDesc": "EFRC@science.doe.gov",
+        "agencyDetails": {
+          "code": "SC",
+          "seed": "PAMS-SC",
+          "agencyName": "Office of Science",
+          "agencyCode": "PAMS-SC",
+          "topAgencyCode": "PAMS"
+        },
+        "topAgencyDetails": {
+          "code": "PAMS",
+          "seed": "PAMS",
+          "agencyName": "Department of Energy - Office of Science",
+          "agencyCode": "PAMS",
+          "topAgencyCode": "PAMS"
+        },
+        "agencyContactPhone": "301-903-1291",
+        "agencyContactName": "Edward McGeehan\nGrants Management Specialist",
+        "agencyContactDesc": "EFRC",
+        "agencyContactEmail": "EFRC@science.doe.gov",
+        "agencyContactEmailDesc": "EFRC@science.doe.gov",
+        "synopsisDesc": "<p>The DOE SC program in Basic Energy Sciences (BES) announces a re-competition of the Energy Frontier Research Center (EFRC) program. The purpose of this program is to bring together world-class teams of scientists from universities, DOE national laboratories, and other institutions to perform energy-relevant basic research with a scope and complexity beyond what is possible in single-investigator or small-group awards. These multi-investigator, multi-disciplinary centers accelerate transformative scientific advances for the most challenging topics in materials sciences, chemical sciences, geosciences, and biosciences. EFRCs integrate experiments, theory, computation, and AI/ML; develop innovative experimental and theoretical tools that illuminate fundamental processes in unprecedented detail; and create an enthusiastic, interdisciplinary, workforce of energy-focused scientists.</p>",
+        "responseDate": "Jul 01, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Feb 18, 2026 12:00:00 AM EST",
+        "archiveDate": "Jul 31, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "18000000",
+        "awardCeilingFormatted": "18,000,000",
+        "awardFloor": "12000000",
+        "awardFloorFormatted": "12,000,000",
+        "applicantEligibilityDesc": "",
+        "sendEmail": "Y",
+        "createTimeStamp": "Feb 20, 2026 07:42:08 AM EST",
+        "createdDate": "Feb 17, 2026 01:27:00 PM EST",
+        "lastUpdatedDate": "Feb 17, 2026 01:39:51 PM EST",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          },
+          {
+            "id": "O",
+            "description": "Other"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-07-01-00-00-00",
+        "postingDateStr": "2026-02-18-00-00-00",
+        "archiveDateStr": "2026-07-31-00-00-00",
+        "createTimeStampStr": "2026-02-20-07-42-08"
+      },
+      "agencyDetails": {
+        "code": "SC",
+        "seed": "PAMS-SC",
+        "agencyName": "Office of Science",
+        "agencyCode": "PAMS-SC",
+        "topAgencyCode": "PAMS"
+      },
+      "topAgencyDetails": {
+        "code": "PAMS",
+        "seed": "PAMS",
+        "agencyName": "Department of Energy - Office of Science",
+        "agencyCode": "PAMS",
+        "topAgencyCode": "PAMS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 78872,
+          "opportunityId": 361309,
+          "folderType": "Full Announcement",
+          "folderName": "DE-FOA-0003614.0000001",
+          "zipLobSize": 923516,
+          "createdDate": "Feb 20, 2026 07:41:03 AM EST",
+          "lastUpdatedDate": "Feb 20, 2026 07:42:08 AM EST",
+          "synopsisAttachments": [
+            {
+              "id": 350290,
+              "opportunityId": 361309,
+              "mimeType": "application/pdf",
+              "fileName": "DE-FOA-0003614.000001.pdf",
+              "fileDescription": "DE-FOA-0003614.0000001",
+              "fileLobSize": 979230,
+              "createdDate": "Feb 20, 2026 07:41:55 AM EST",
+              "synopsisAttFolderId": 78872
+            }
+          ]
+        },
+        {
+          "id": 78871,
+          "opportunityId": 361309,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Templates",
+          "zipLobSize": 39529,
+          "createdDate": "Feb 19, 2026 11:51:43 AM EST",
+          "lastUpdatedDate": "Feb 19, 2026 11:52:36 AM EST",
+          "synopsisAttachments": [
+            {
+              "id": 350288,
+              "opportunityId": 361309,
+              "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "fileName": "EFRC NOFO Budget Template 2026.xlsx",
+              "fileDescription": "Budget Template",
+              "fileLobSize": 23942,
+              "createdDate": "Feb 19, 2026 11:52:15 AM EST",
+              "synopsisAttFolderId": 78871
+            },
+            {
+              "id": 350289,
+              "opportunityId": 361309,
+              "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "fileName": "EFRC Science Topics NOFO Template 2026.xlsx",
+              "fileDescription": "Science Topics Template",
+              "fileLobSize": 27841,
+              "createdDate": "Feb 19, 2026 11:52:36 AM EST",
+              "synopsisAttFolderId": 78871
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 431980,
+          "opportunityId": 361309,
+          "cfdaNumber": "81.049",
+          "programTitle": "Office of Science Financial Assistance Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 291974,
+          "topportunityId": 361309,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "DE-FOA-0003614",
+          "opportunityTitle": "Energy Frontier Research Centers (EFRCs)",
+          "cfdaNumber": "81.049",
+          "openingDate": "2026-02-18",
+          "closingDate": "2026-07-01",
+          "owningAgencyCode": "PAMS-SC",
+          "agencyDetails": {
+            "code": "SC",
+            "seed": "PAMS-SC",
+            "agencyName": "Office of Science",
+            "agencyCode": "PAMS-SC",
+            "topAgencyCode": "PAMS"
+          },
+          "topAgencyDetails": {
+            "code": "PAMS",
+            "seed": "PAMS",
+            "agencyName": "Department of Energy - Office of Science",
+            "agencyCode": "PAMS",
+            "topAgencyCode": "PAMS"
+          },
+          "programTitle": "Office of Science Financial Assistance Program",
+          "contactInfo": "EFRC\r\nEFRC@science.doe.gov",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 100,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Feb 20, 2026 07:37:59 AM EST",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00291974",
+          "openingDateStr": "2026-02-18-00-00-00",
+          "closingDateStr": "2026-07-01-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jul 01, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

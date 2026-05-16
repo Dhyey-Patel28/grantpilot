@@ -1,0 +1,228 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361904",
+  "fetched_at": "2026-05-16T14:09:22.033Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlJVWndyVTk1UWk0d3lDYXRJcUR5RHg2bFhMdHYvYW1XRHFyL3dVd2tMS1k9Ig.xE9tVhvT45HCLiUem8fyh-ljAxj20BY8-UV2i4vozeM",
+    "data": {
+      "id": 361904,
+      "revision": 0,
+      "opportunityNumber": "ED-GRANTS-041526-001",
+      "opportunityTitle": "Office of Special Education and Rehabilitative Services (OSERS): Office of Special Education Programs (OSEP): State Personnel Development Grants (SPDG) Program, Assistance Listing Number 84.323A",
+      "owningAgencyCode": "ED",
+      "listed": "L",
+      "publisherUid": "hollc1227",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361904,
+        "version": 1,
+        "agencyCode": "ED",
+        "agencyName": "Holly Clark\nManagement and Program Analyst",
+        "agencyPhone": "2022456408",
+        "agencyAddressDesc": "Program Contact",
+        "agencyDetails": {
+          "code": "ED",
+          "seed": "ED",
+          "agencyName": "Department of Education",
+          "agencyCode": "ED",
+          "topAgencyCode": "ED"
+        },
+        "topAgencyDetails": {
+          "code": "ED",
+          "seed": "ED",
+          "agencyName": "Department of Education",
+          "agencyCode": "ED",
+          "topAgencyCode": "ED"
+        },
+        "agencyContactPhone": "2022456408",
+        "agencyContactName": "Holly Clark\nManagement and Program Analyst",
+        "agencyContactDesc": "Jennifer Coffey\r\nTelephone: (202) 987-0150 \r\nEmail: Jennifer.Coffey@ed.gov",
+        "agencyContactEmail": "Jennifer.Coffey@ed.gov",
+        "agencyContactEmailDesc": "Program Contact",
+        "synopsisDesc": "<p>For the addresses for obtaining and submitting an application, please refer to our Common Instructions for Applicants to Department of Education Discretionary Grant Programs, published in the Federal Register on August 29, 2025&nbsp;(90 FR 42234), and available at https://www.federalregister.gov/documents/2025/08/29/2025-</p>\n<p>16571/common-instructions-and-information-for-applicants-todepartment-of-education-discretionary-grantams.</p>\n<p><br></p>\n<p>Program Purpose: The purpose of the SPDG program is to assist State educational agencies (SEAs) in reforming and improving their systems for personnel preparation and professional development in early intervention, educational, and transition services to improve results for children with disabilities. The U.S. Department of Education (ED) shall award grants, on a competitive basis, to SEAs to carry out the activities described in the State plan submitted under section 653 of the Individuals with Disabilities Education Act (IDEA) (<a href=\"https://www.govinfo.gov/content/pkg/USCODE-2024-title20/pdf/USCODE-2024-title20-chap33-subchapIV-partA-sec1453.pdf\" target=\"_blank\">20 U.S.C. 1453</a>).</p>\n<p><em>Assistance Listing Number:</em> 84.323A.</p>",
+        "responseDate": "Jun 16, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Applications Available: April 15, 2026\r\nApplication Deadline: June 16, 2026\r\nDeadline for Intergovernmental Review: August 17, 2026\r\nFor further information contact: Jennifer Coffey. \r\nTelephone: (202) 987-0150. \r\nEmail: Jennifer.Coffey@ed.gov.",
+        "postingDate": "Apr 15, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jul 16, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "7",
+        "estimatedFunding": "7301695",
+        "estimatedFundingFormatted": "7,301,695",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "applicantEligibilityDesc": "An SEA of one of the 50 States, the District of Columbia, or the Commonwealth of Puerto Rico or an outlying area (United States Virgin Islands, Guam, American Samoa, and the Commonwealth of the Northern Mariana Islands).Note: Public Law 95-134, which permits the consolidation of grants to the outlying areas, does not apply to funds received under this competition.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 28, 2026 01:03:17 PM EDT",
+        "createdDate": "Apr 15, 2026 10:53:42 AM EDT",
+        "lastUpdatedDate": "Apr 15, 2026 11:13:45 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ED",
+            "description": "Education"
+          }
+        ],
+        "responseDateStr": "2026-06-16-00-00-00",
+        "postingDateStr": "2026-04-15-00-00-00",
+        "archiveDateStr": "2026-07-16-00-00-00",
+        "createTimeStampStr": "2026-04-28-13-03-17"
+      },
+      "agencyDetails": {
+        "code": "ED",
+        "seed": "ED",
+        "agencyName": "Department of Education",
+        "agencyCode": "ED",
+        "topAgencyCode": "ED"
+      },
+      "topAgencyDetails": {
+        "code": "ED",
+        "seed": "ED",
+        "agencyName": "Department of Education",
+        "agencyCode": "ED",
+        "topAgencyCode": "ED"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79288,
+          "opportunityId": 361904,
+          "folderType": "Full Announcement",
+          "folderName": "84.323A",
+          "zipLobSize": 776777,
+          "createdDate": "Apr 15, 2026 10:54:03 AM EDT",
+          "lastUpdatedDate": "Apr 28, 2026 01:01:43 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351276,
+              "opportunityId": 361904,
+              "mimeType": "application/pdf",
+              "fileName": "2026-07564.pdf",
+              "fileDescription": "Competition Announcement Notice",
+              "fileLobSize": 197800,
+              "createdDate": "Apr 17, 2026 07:56:39 AM EDT",
+              "synopsisAttFolderId": 79288
+            },
+            {
+              "id": 351265,
+              "opportunityId": 361904,
+              "mimeType": "application/pdf",
+              "fileName": "84.323A SPDG FY26 Application Notice and Instructions.pdf",
+              "fileDescription": "FY26 84.323A State Personnel Development Grants (SPDG) Application Notice and Instructions",
+              "fileLobSize": 462209,
+              "createdDate": "Apr 16, 2026 02:59:50 PM EDT",
+              "synopsisAttFolderId": 79288
+            },
+            {
+              "id": 351501,
+              "opportunityId": 361904,
+              "mimeType": "application/pdf",
+              "fileName": "Links to the Application Webinars for FY 2026 (84.323A).pdf",
+              "fileDescription": "Links to the Application Webinars for FY 2026 (84.323A)",
+              "fileLobSize": 180699,
+              "createdDate": "Apr 28, 2026 01:01:43 PM EDT",
+              "synopsisAttFolderId": 79288
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [
+        {
+          "id": {
+            "opportunityId": 361904,
+            "attType": "D",
+            "createdDate": "Apr 28, 2026 01:03:17 PM EDT",
+            "attTypeDesc": "Related Documents",
+            "commentsDate": "Apr 28, 2026"
+          },
+          "changeComments": "A new document titled \"Links to the Application Webinars for FY 2026 (84.323A)\" has been added to the Related Documents tab. "
+        }
+      ],
+      "cfdas": [
+        {
+          "id": 432713,
+          "opportunityId": 361904,
+          "cfdaNumber": "84.323",
+          "programTitle": "Special Education - State Personnel Development"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292414,
+          "topportunityId": 361904,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "ED-GRANTS-041526-001",
+          "opportunityTitle": "Office of Special Education and Rehabilitative Services (OSERS): Office of Special Education Programs (OSEP): State Personnel Development Grants (SPDG) Program, Assistance Listing Number 84.323A",
+          "cfdaNumber": "84.323",
+          "openingDate": "2026-04-15",
+          "closingDate": "2026-06-16",
+          "owningAgencyCode": "ED",
+          "agencyDetails": {
+            "code": "ED",
+            "seed": "ED",
+            "agencyName": "Department of Education",
+            "agencyCode": "ED",
+            "topAgencyCode": "ED"
+          },
+          "topAgencyDetails": {
+            "code": "ED",
+            "seed": "ED",
+            "agencyName": "Department of Education",
+            "agencyCode": "ED",
+            "topAgencyCode": "ED"
+          },
+          "programTitle": "Special Education - State Personnel Development",
+          "contactInfo": "Jennifer Coffey\r\nCompetition Manager\r\nE-mail: Jennifer.Coffey@ed.gov\r\nPhone: 202-987-0150",
+          "competitionId": "84-323A2026-1",
+          "competitionTitle": "State Personnel Development Grants",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 10,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 15, 2026 11:19:28 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292414",
+          "openingDateStr": "2026-04-15-00-00-00",
+          "closingDateStr": "2026-06-16-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 16, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Applications Available: April 15, 2026\r\nApplication Deadline: June 16, 2026\r\nDeadline for Intergovernmental Review: August 17, 2026\r\nFor further information contact: Jennifer Coffey. \r\nTelephone: (202) 987-0150. \r\nEmail: Jennifer.Coffey@ed.gov.",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

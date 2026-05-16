@@ -1,0 +1,549 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "345354",
+  "fetched_at": "2026-05-16T14:06:42.353Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ilg0ZmhjYWo2YS9Md21sNHBKLzZzREdNUEVIc09uUUthMUhwMlZDcDdRc2s9Ig.qyfVVSQSmM9BZc4sziWO6N3Bau633QXvCwvvipVfE_U",
+    "data": {
+      "id": 345354,
+      "revision": 4,
+      "opportunityNumber": "PD-23-229Y",
+      "opportunityTitle": "Manufacturing Systems Integration",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 345354,
+        "version": 5,
+        "agencyCode": "NSF",
+        "agencyName": "National Science Foundation",
+        "agencyPhone": "703-292-4261",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4261",
+        "agencyContactName": "National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The Manufacturing Systems Integration (MSI) Program supports fundamental research addressing the opportunities and challenges that digital technologies present for the next industrial revolution, with particular emphasis on the digital integration of design and manufacturing within the larger life cycle ecosystem. Manufacturing Systems Integration proposals should address underlying principles and advances that are generalizable for globally competitive and world leading industries. Connectivity, automation, and secure collaboration are examples of areas that are integral to digital environments capable of supporting the innovation, realization and sustainment of manufactured products and systems in the value creation process.\n\r\n\n\n\r\n\nFundamental generalizable research for manufacturing systems integration might include, for example:\n\r\n\n\n\r\n<ul type=\"disc\">\r\n<li>Digital representation, protocols, and/or processes for integration and collaboration in manufacturing systems (machines and/or humans)</li>\r\n<li>Intelligent self-organizing production systems</li>\r\n<li>Ease of use, interoperability and seamless integration of technologies, machines, and humans</li>\r\n<li>Service-oriented architectures and systems</li>\r\n<li>Data sets that are compatible and usable across platforms</li>\r\n<li>Reliable and secure communications within and across the manufacturing value chain</li>\r\n<li>Integration of distributed manufacturing systems across time and space, including incorporating both legacy and leading-edge equipment and technologies</li>\r\n<li>Methods for assessing the impact and value of externalities throughout the life cycle within the digital environment</li>\r\n</ul>\r\n\n\n\r\n\n\n\r\n\nInterdisciplinary, convergent proposals that bring diverse perspectives, populations, disciplines, and capabilities together are welcome. It is strongly encouraged and expected that investigators discuss their ideas with a MSI program director well in advance of proposal submission.",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505941",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-23-229Y",
+        "postingDate": "Jan 12, 2023 12:00:00 AM EST",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Feb 24, 2024 12:53:00 AM EST",
+        "modComments": ".",
+        "createdDate": "Jan 12, 2023 01:00:19 AM EST",
+        "lastUpdatedDate": "Feb 24, 2024 12:53:00 AM EST",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2023-01-12-00-00-00",
+        "createTimeStampStr": "2024-02-24-00-53-00"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 407186,
+          "opportunityId": 345354,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 407191,
+          "opportunityId": 345354
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 345354,
+            "revision": 0
+          },
+          "opportunityId": 345354,
+          "revision": 0,
+          "opportunityNumber": "PD-23-229Y",
+          "opportunityTitle": "Manufacturing Systems Integration",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 345354,
+              "revision": 0
+            },
+            "opportunityId": 345354,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Manufacturing Systems Integration (MSI) Program supports fundamental research addressing the opportunities and challenges that digital technologies present for the next industrial revolution, with particular emphasis on the digital integration of design and manufacturing within the larger life cycle ecosystem. Manufacturing Systems Integration proposals should address underlying principles and advances that are generalizable for globally competitive and world leading industries. Connectivity, automation, and secure collaboration are examples of areas that are integral to digital environments capable of supporting the innovation, realization and sustainment of manufactured products and systems in the value creation process.\n\r\n\n\n\r\n\nFundamental generalizable research for manufacturing systems integration might include, for example:\n\r\n\n\n\r\n<ul type=\"disc\">\r\n<li>Digital representation, protocols, and/or processes for integration and collaboration in manufacturing systems (machines and/or humans)</li>\r\n<li>Intelligent self-organizing production systems</li>\r\n<li>Ease of use, interoperability and seamless integration of technologies, machines, and humans</li>\r\n<li>Service-oriented architectures and systems</li>\r\n<li>Data sets that are compatible and usable across platforms</li>\r\n<li>Reliable and secure communications within and across the manufacturing value chain</li>\r\n<li>Integration of distributed manufacturing systems across time and space, including incorporating both legacy and leading-edge equipment and technologies</li>\r\n<li>Methods for assessing the impact and value of externalities throughout the life cycle within the digital environment</li>\r\n</ul>\r\n\n\n\r\n\n\n\r\n\nInterdisciplinary, convergent proposals that bring diverse perspectives, populations, disciplines, and capabilities together are welcome. It is strongly encouraged and expected that investigators discuss their ideas with a MSI program director well in advance of proposal submission.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505941",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-23-229Y",
+            "postingDate": "Jan 12, 2023 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jan 12, 2023 01:00:19 AM EST",
+            "actionType": "U",
+            "actionDate": "Jan 24, 2023 01:00:19 AM EST",
+            "createdDate": "Jan 12, 2023 01:00:19 AM EST",
+            "lastUpdatedDate": "Jan 12, 2023 01:00:19 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-01-12-00-00-00",
+            "createTimeStampStr": "2023-01-12-01-00-19"
+          },
+          "cfdas": [
+            {
+              "id": 407186,
+              "opportunityId": 345354,
+              "revision": 3,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 407191,
+              "opportunityId": 345354,
+              "revision": 3
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 345354,
+            "revision": 1
+          },
+          "opportunityId": 345354,
+          "revision": 1,
+          "opportunityNumber": "PD-23-229Y",
+          "opportunityTitle": "Manufacturing Systems Integration",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 345354,
+              "revision": 1
+            },
+            "opportunityId": 345354,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Manufacturing Systems Integration (MSI) Program supports fundamental research addressing the opportunities and challenges that digital technologies present for the next industrial revolution, with particular emphasis on the digital integration of design and manufacturing within the larger life cycle ecosystem. Manufacturing Systems Integration proposals should address underlying principles and advances that are generalizable for globally competitive and world leading industries. Connectivity, automation, and secure collaboration are examples of areas that are integral to digital environments capable of supporting the innovation, realization and sustainment of manufactured products and systems in the value creation process.\n\r\n\n\n\r\n\nFundamental generalizable research for manufacturing systems integration might include, for example:\n\r\n\n\n\r\n<ul type=\"disc\">\r\n<li>Digital representation, protocols, and/or processes for integration and collaboration in manufacturing systems (machines and/or humans)</li>\r\n<li>Intelligent self-organizing production systems</li>\r\n<li>Ease of use, interoperability and seamless integration of technologies, machines, and humans</li>\r\n<li>Service-oriented architectures and systems</li>\r\n<li>Data sets that are compatible and usable across platforms</li>\r\n<li>Reliable and secure communications within and across the manufacturing value chain</li>\r\n<li>Integration of distributed manufacturing systems across time and space, including incorporating both legacy and leading-edge equipment and technologies</li>\r\n<li>Methods for assessing the impact and value of externalities throughout the life cycle within the digital environment</li>\r\n</ul>\r\n\n\n\r\n\n\n\r\n\nInterdisciplinary, convergent proposals that bring diverse perspectives, populations, disciplines, and capabilities together are welcome. It is strongly encouraged and expected that investigators discuss their ideas with a MSI program director well in advance of proposal submission.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505941",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-23-229Y",
+            "postingDate": "Jan 12, 2023 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jan 24, 2023 01:00:19 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jan 28, 2023 02:24:40 AM EST",
+            "createdDate": "Jan 12, 2023 01:00:19 AM EST",
+            "lastUpdatedDate": "Jan 24, 2023 01:00:19 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-01-12-00-00-00",
+            "createTimeStampStr": "2023-01-24-01-00-19"
+          },
+          "cfdas": [
+            {
+              "id": 407186,
+              "opportunityId": 345354,
+              "revision": 3,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 407191,
+              "opportunityId": 345354,
+              "revision": 3
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 345354,
+            "revision": 2
+          },
+          "opportunityId": 345354,
+          "revision": 2,
+          "opportunityNumber": "PD-23-229Y",
+          "opportunityTitle": "Manufacturing Systems Integration",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 345354,
+              "revision": 2
+            },
+            "opportunityId": 345354,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Manufacturing Systems Integration (MSI) Program supports fundamental research addressing the opportunities and challenges that digital technologies present for the next industrial revolution, with particular emphasis on the digital integration of design and manufacturing within the larger life cycle ecosystem. Manufacturing Systems Integration proposals should address underlying principles and advances that are generalizable for globally competitive and world leading industries. Connectivity, automation, and secure collaboration are examples of areas that are integral to digital environments capable of supporting the innovation, realization and sustainment of manufactured products and systems in the value creation process.\n\r\n\n\n\r\n\nFundamental generalizable research for manufacturing systems integration might include, for example:\n\r\n\n\n\r\n<ul type=\"disc\">\r\n<li>Digital representation, protocols, and/or processes for integration and collaboration in manufacturing systems (machines and/or humans)</li>\r\n<li>Intelligent self-organizing production systems</li>\r\n<li>Ease of use, interoperability and seamless integration of technologies, machines, and humans</li>\r\n<li>Service-oriented architectures and systems</li>\r\n<li>Data sets that are compatible and usable across platforms</li>\r\n<li>Reliable and secure communications within and across the manufacturing value chain</li>\r\n<li>Integration of distributed manufacturing systems across time and space, including incorporating both legacy and leading-edge equipment and technologies</li>\r\n<li>Methods for assessing the impact and value of externalities throughout the life cycle within the digital environment</li>\r\n</ul>\r\n\n\n\r\n\n\n\r\n\nInterdisciplinary, convergent proposals that bring diverse perspectives, populations, disciplines, and capabilities together are welcome. It is strongly encouraged and expected that investigators discuss their ideas with a MSI program director well in advance of proposal submission.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505941",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-23-229Y",
+            "postingDate": "Jan 12, 2023 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jan 28, 2023 02:24:40 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "May 20, 2023 12:06:47 AM EDT",
+            "createdDate": "Jan 12, 2023 01:00:19 AM EST",
+            "lastUpdatedDate": "Jan 28, 2023 02:24:40 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-01-12-00-00-00",
+            "createTimeStampStr": "2023-01-28-02-24-40"
+          },
+          "cfdas": [
+            {
+              "id": 407186,
+              "opportunityId": 345354,
+              "revision": 3,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 407191,
+              "opportunityId": 345354,
+              "revision": 3
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 345354,
+            "revision": 3
+          },
+          "opportunityId": 345354,
+          "revision": 3,
+          "opportunityNumber": "PD-23-229Y",
+          "opportunityTitle": "Manufacturing Systems Integration",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 345354,
+              "revision": 3
+            },
+            "opportunityId": 345354,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Manufacturing Systems Integration (MSI) Program supports fundamental research addressing the opportunities and challenges that digital technologies present for the next industrial revolution, with particular emphasis on the digital integration of design and manufacturing within the larger life cycle ecosystem. Manufacturing Systems Integration proposals should address underlying principles and advances that are generalizable for globally competitive and world leading industries. Connectivity, automation, and secure collaboration are examples of areas that are integral to digital environments capable of supporting the innovation, realization and sustainment of manufactured products and systems in the value creation process.\n\r\n\n\n\r\n\nFundamental generalizable research for manufacturing systems integration might include, for example:\n\r\n\n\n\r\n<ul type=\"disc\">\r\n<li>Digital representation, protocols, and/or processes for integration and collaboration in manufacturing systems (machines and/or humans)</li>\r\n<li>Intelligent self-organizing production systems</li>\r\n<li>Ease of use, interoperability and seamless integration of technologies, machines, and humans</li>\r\n<li>Service-oriented architectures and systems</li>\r\n<li>Data sets that are compatible and usable across platforms</li>\r\n<li>Reliable and secure communications within and across the manufacturing value chain</li>\r\n<li>Integration of distributed manufacturing systems across time and space, including incorporating both legacy and leading-edge equipment and technologies</li>\r\n<li>Methods for assessing the impact and value of externalities throughout the life cycle within the digital environment</li>\r\n</ul>\r\n\n\n\r\n\n\n\r\n\nInterdisciplinary, convergent proposals that bring diverse perspectives, populations, disciplines, and capabilities together are welcome. It is strongly encouraged and expected that investigators discuss their ideas with a MSI program director well in advance of proposal submission.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505941",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-23-229Y",
+            "postingDate": "Jan 12, 2023 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "May 20, 2023 12:06:47 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 24, 2024 12:53:00 AM EST",
+            "createdDate": "Jan 12, 2023 01:00:19 AM EST",
+            "lastUpdatedDate": "May 20, 2023 12:06:47 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-01-12-00-00-00",
+            "createTimeStampStr": "2023-05-20-00-06-47"
+          },
+          "cfdas": [
+            {
+              "id": 407186,
+              "opportunityId": 345354,
+              "revision": 3,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 407191,
+              "opportunityId": 345354,
+              "revision": 3
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 279212,
+          "topportunityId": 345354,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-23-229Y",
+          "opportunityTitle": "Manufacturing Systems Integration",
+          "openingDate": "2023-01-12",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Janis P. Terpenny\r\nE-mail: jterpenn@nsf.gov\r\nPhone: (703) 292-2487",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 100,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 01, 2025 09:31:33 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00279212",
+          "openingDateStr": "2023-01-12-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 4,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

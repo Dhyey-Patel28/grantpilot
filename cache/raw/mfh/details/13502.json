@@ -1,0 +1,32 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=13502",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=13502",
+  "website": "https://www.grants.gov/search-results-detail/361159",
+  "grant_id": "13502",
+  "title": "NIH Research Education Program - Research Experiences (R25)",
+  "overview": "The National Institutes of Health (NIH) Research Education Program supports research education activities in the mission areas of the NIH. The overarching goal of the Research Education program is to support educational activities that complement and/or enhance training of a workforce to meet the nation’s biomedical, behavioral and clinical research needs; help recruit individuals with specific specialty or disciplinary backgrounds to research careers in biomedical, behavioral and clinical sciences; and foster a better understanding of biomedical, behavioral and clinical research and its implications. To accomplish this far-reaching goal, this opportunity will support creative educational activities with an emphasis on Research Experiences. Programs focused on research experiences may incorporate elements such as mentoring, courses, curriculum and methods development, outreach, and career development to prepare participants for careers that will have a significant impact on the health-related research needs of the Nation. Grant authorities that allow NIH to forecast this opportunity are as follows: Sections 301 and 405 of the Public Health Service Act as amended (42 USC 241 and 284) and under Federal Regulations 42 CFR Part 52 and 2 CFR Part 200. Show More",
+  "additional_info": "Posted Date: January 15, 2026 Application Due Date: May 25, 2026 Estimated Award Date: Not Specified Eligible Applicants: Native American tribal governments (Federally recognized)Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationPrivate institutions of higher educationOthersPublic and State controlled institutions of higher educationNonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal organizations (other than Federally recognized tribal governments) Show More",
+  "eligible_applicants": [
+    "Native American tribal governments (Federally recognized)Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationPrivate institutions of higher educationOthersPublic and State controlled institutions of higher educationNonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal organizations (other than Federally recognized tribal governments)"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "health",
+    "workforce"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Health and Human Services",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:58.158Z",
+  "content_hash": "cb8b07c39b2593bd5d9adb807f905c64e7e2996be36b77de887ef6c9a3bdd1c2",
+  "from_cache": false
+}

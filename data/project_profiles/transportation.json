@@ -1,0 +1,23 @@
+{
+  "community_name": "Pine River Township",
+  "applicant_type": "City or township governments",
+  "county": "Osceola County",
+  "population": 5200,
+  "project_category": "transportation",
+  "project_stage": "early planning",
+  "description": "Pine River Township has repeated resident complaints about dangerous curves, poor visibility, and speeding on County Line Road near the elementary school. The township wants funding for a road safety study, signage, shoulder improvements, and possible intersection redesign. No engineering study has been completed yet.",
+  "estimated_cost": null,
+  "match_available": null,
+  "documents_available": [
+    "resident complaints",
+    "school board meeting notes",
+    "crash concern summary"
+  ],
+  "impact_keywords": [
+    "road safety",
+    "transportation",
+    "school safety",
+    "rural",
+    "infrastructure"
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "331415",
+  "fetched_at": "2026-05-16T14:06:28.048Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.InltWWc2bTVYak1CQzRrWlVBNGxkdGpwdEViSm5lUzNOTHI0ZGo5RytrZXM9Ig.QVZBMZRlxvlIrVLauDwmcDs2CNd-Fo0EA4ikd4x8nz0",
+    "data": {
+      "id": 331415,
+      "revision": 1,
+      "opportunityNumber": "SI-INDUSTRY-DAY",
+      "opportunityTitle": "Solomon Islands Threshold Program Industry Day",
+      "owningAgencyCode": "MCC",
+      "listed": "L",
+      "publisherUid": "guoc",
+      "flag2006": "N",
+      "opportunityCategoryExplanation": "TBD",
+      "opportunityCategory": {
+        "category": "O",
+        "description": "Other"
+      },
+      "agencyDetails": {
+        "code": "MCC",
+        "seed": "MCC",
+        "agencyName": "Millennium Challenge Corporation",
+        "agencyCode": "MCC",
+        "topAgencyCode": "MCC"
+      },
+      "topAgencyDetails": {
+        "code": "MCC",
+        "seed": "MCC",
+        "agencyName": "Millennium Challenge Corporation",
+        "agencyCode": "MCC",
+        "topAgencyCode": "MCC"
+      },
+      "forecast": {
+        "opportunityId": 331415,
+        "version": 2,
+        "postingDate": "Feb 10, 2021 12:00:00 AM EST",
+        "forecastDesc": "<p><strong><u>Update March 4, 2021</u></strong> - The Industry Day presentation, participant list, and question and response document have been uploaded under the \"Related Documents\" tab.</p><p><br></p><p><strong><u>Background</u></strong></p><p>The Millennium Challenge Corporation (MCC) is a U.S. Government corporation that works with developing countries to promote sustainable economic growth to reduce poverty. Since its establishment in 2004, MCC has deployed more than $10 billion in development grants through compact and threshold programs across 40+ countries. For more information on MCC, please visit www.mcc.gov.</p><p><br></p><p>In 2021, MCC and the Solomon Islands Government expect to sign a Threshold Program Grant Agreement totaling US $23 million to support a four-year program with the objective of implementing policy and institutional reforms that lead to a reduction in poverty through economic growth in Solomon Islands. The four-year timeline for this program is expected to begin in April 2021. The Solomon Islands Threshold Program consists of two projects: the Accessing Land for Tourism Investment Facilitation (ALTIF) Project and the Forest Value Enhancement Project (FoVEP).</p><p><br></p><p><strong><u>Purpose</u></strong></p><p>To support the Threshold Program activities in Solomon Islands, MCC is seeking partners through the following procurements:</p><p><br></p><p><strong><u>1. </u></strong><em><u>Community Engagement Services</u></em>: As part of the ALTIF project, tasks include&nbsp;support for the delivery of information, public outreach and awareness, advisory and other assistance to communities that are located nearby registered land parcels with a high potential to attract tourism investment with the objective of facilitating community acceptance for a tourism investor’s use of land for investment purposes and sharing of benefits between an investor and community around a tourism investment.</p><p><br></p><p>2. <em><u>Cross-Cutting Program Support Services</u></em>: Tasks are related to conducting facilitated governance reform, program monitoring, strategic communications, and meeting and administrative&nbsp;support. Note that this procurement was initially anticipated as two separate procurements, for which RFIs were previously released on beta.SAM.gov (Facilitated Governance Reform, published on January 7, 2021, and Communications and Meeting Support Services, published on December 30, 2020).</p><p><br></p><p>Draft Statements of Work for these two procurements can be found under the \"Related Documents\" tab.</p><p><br></p><p><strong><u>Event</u></strong></p><p>MCC will hold a virtual Industry Day on <strong>Wednesday, February 24, 2021, from 4:00 pm - 6:30 pm Eastern Time </strong>to share information regarding the upcoming procurements and answer industry questions. Note that the event is scheduled to take into account the time difference between the U.S. and&nbsp;Solomon Islands, as organizations supporting the Threshold Program must ensure availability in both time zones.</p><p><br></p><p>Organizations interested in joining the Industry Day are asked to register by <strong>Tuesday, February 23, 2021, at 4:00 pm Eastern Time</strong> at the following link: https://si-industry-day.eventbrite.com. Each individual must register separately in order to receive login instructions. If you registered but did not receive the instructions, please email guoc@mcc.gov prior to the Industry Day start time. There is no registration fee for this event.</p><p><br></p><p>Attendees are encouraged to submit questions in advance for the Industry Day. When submitting a question, please indicate which procurement the question relates to. Questions should be sent to Ms. Cindy Guo at guoc@mcc.gov and Ms. Jacqueline Naranjo at naranjoj@mcc.gov by&nbsp;<strong>Friday, February 19, 2021 at 4:00 pm Eastern Time</strong>.&nbsp;<em>Note: Questions will be answered in writing after the event, but MCC may also address some of them during the industry day presentations.</em></p><p><br></p><p>The schedule of the event is as follows*:</p><p><strong>4:00 - 4:30&nbsp;pm</strong>: Introduction and background on Solomon Islands projects</p><p><strong>4:30 - 5:30&nbsp;pm</strong>: Information and Q&amp;As on Cross-Cutting Program Support Services procurement</p><p><strong>5:30 - 6:30 pm</strong>: Information and Q&amp;As on Community Engagement Services procurement</p><p><br></p><p>*If you are interested in attending the discussion of only <em>one </em>of the procurements, you are welcome to do so. However, while MCC strives to maintain this schedule during the event, it is possible that slight shifts may occur.</p><p><br></p><p>MCC will not transcribe the Industry Day content, but plans to publish any PowerPoint presentation(s) that are shared during the event via an amendment to this posting. At its discretion, MCC may record the Industry Day and include important questions/issues that arise as part of a&nbsp;Questions &amp; Answers document, which is expected to be posted the week after the event.</p><p><br></p><p>Additionally, to encourage teaming and other arrangements, MCC plans to post a list of Industry Day attendees and email addresses in the amendment. <strong>If you do not want your name and contact information to be shared, please email guoc@mcc.gov and naranjoj@mcc.gov by Thursday, February 26 at 4:00 pm Eastern Time.</strong></p><p><br></p><p>***The Government will not reimburse participants for any expenses associated with their participation in this Industry Day.***</p>",
+        "fundingActivityCategoryDesc": "International Development",
+        "costSharing": false,
+        "fundingDescLinkUrl": "https://si-industry-day.eventbrite.com",
+        "fundingDescLinkDesc": "Registration page for the Industry Day",
+        "agencyContactName": "Cindy Guo\r\nContract Specialist\r\nMillennium Challenge Corporation",
+        "agencyContactPhone": "202-772-6860",
+        "agencyContactEmail": "guoc@mcc.gov",
+        "agencyContactEmailDesc": "guoc@mcc.gov",
+        "agencyCode": "MCC",
+        "sendEmail": "Y",
+        "fiscalYear": 2021,
+        "modComments": "The Industry Day presentation, participant list, and question and response document have been uploaded under the &quot;Related Documents&quot; tab.",
+        "createTimeStamp": "Mar 04, 2021 04:38:51 PM EST",
+        "createdDate": "Feb 09, 2021 11:45:36 AM EST",
+        "lastUpdatedDate": "Mar 04, 2021 04:38:51 PM EST",
+        "agencyDetails": {
+          "code": "MCC",
+          "seed": "MCC",
+          "agencyName": "Millennium Challenge Corporation",
+          "agencyCode": "MCC",
+          "topAgencyCode": "MCC"
+        },
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "O",
+            "description": "Other"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "postingDateStr": "2021-02-10-00-00-00",
+        "createTimeStampStr": "2021-03-04-16-38-51"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 49597,
+          "opportunityId": 331415,
+          "folderType": "Full Announcement",
+          "folderName": "SI THP Draft SOWs",
+          "zipLobSize": 465235,
+          "createdDate": "Feb 10, 2021 01:06:05 PM EST",
+          "lastUpdatedDate": "Feb 10, 2021 01:07:40 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 304213,
+              "opportunityId": 331415,
+              "mimeType": "application/pdf",
+              "fileName": "SI_THP_Community_Engagement_Services_SOW.pdf",
+              "fileDescription": "SI THP Community Engagement Services SOW",
+              "fileLobSize": 244332,
+              "createdDate": "Feb 10, 2021 01:06:36 PM EST",
+              "synopsisAttFolderId": 49597
+            },
+            {
+              "id": 304214,
+              "opportunityId": 331415,
+              "mimeType": "application/pdf",
+              "fileName": "SI_THP_Cross-Cutting_Program_Support_Services_SOW.pdf",
+              "fileDescription": "SI THP Cross-Cutting Program Support Services SOW",
+              "fileLobSize": 280346,
+              "createdDate": "Feb 10, 2021 01:07:39 PM EST",
+              "lastUpdatedDate": "Feb 10, 2021 01:08:04 PM EST",
+              "synopsisAttFolderId": 49597
+            }
+          ]
+        },
+        {
+          "id": 50065,
+          "opportunityId": 331415,
+          "folderType": "Revised Full Announcement",
+          "folderName": "Industry Day Documents",
+          "zipLobSize": 991324,
+          "createdDate": "Mar 04, 2021 04:32:38 PM EST",
+          "lastUpdatedDate": "Mar 04, 2021 04:34:15 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 305030,
+              "opportunityId": 331415,
+              "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "fileName": "Industry_Day_Participant_List.xlsx",
+              "fileDescription": "Industry Day Participant List",
+              "fileLobSize": 24010,
+              "createdDate": "Mar 04, 2021 04:33:42 PM EST",
+              "synopsisAttFolderId": 50065
+            },
+            {
+              "id": 305029,
+              "opportunityId": 331415,
+              "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "fileName": "Industry_Day_Presentation.pptx",
+              "fileDescription": "Industry Day Presentaton",
+              "fileLobSize": 2715925,
+              "createdDate": "Mar 04, 2021 04:33:08 PM EST",
+              "synopsisAttFolderId": 50065
+            },
+            {
+              "id": 305031,
+              "opportunityId": 331415,
+              "mimeType": "application/pdf",
+              "fileName": "Industry_Day_Questions_and_Responses.pdf",
+              "fileDescription": "Industry Day Questions and Responses",
+              "fileLobSize": 229136,
+              "createdDate": "Mar 04, 2021 04:34:15 PM EST",
+              "synopsisAttFolderId": 50065
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 388394,
+          "opportunityId": 331415,
+          "cfdaNumber": "85.002",
+          "programTitle": "MCC Foreign Assistance for Overseas Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 331415,
+            "revision": 0
+          },
+          "opportunityId": 331415,
+          "revision": 0,
+          "opportunityNumber": "SI-INDUSTRY-DAY",
+          "opportunityTitle": "Solomon Islands Threshold Program Industry Day",
+          "owningAgencyCode": "MCC",
+          "publisherUid": "guoc",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "O",
+            "description": "Other"
+          },
+          "forecast": {
+            "oppHistId": {
+              "opportunityId": 331415,
+              "revision": 0
+            },
+            "opportunityId": 331415,
+            "revision": 0,
+            "version": 1,
+            "postingDate": "Feb 10, 2021 12:00:00 AM EST",
+            "forecastDesc": "<p><strong><u>Background</u></strong></p><p>The Millennium Challenge Corporation (MCC) is a U.S. Government corporation that works with developing countries to promote sustainable economic growth to reduce poverty. Since its establishment in 2004, MCC has deployed more than $10 billion in development grants through compact and threshold programs across 40+ countries. For more information on MCC, please visit www.mcc.gov.</p><p><br></p><p>In 2021, MCC and the Solomon Islands Government expect to sign a Threshold Program Grant Agreement totaling US $23 million to support a four-year program with the objective of implementing policy and institutional reforms that lead to a reduction in poverty through economic growth in Solomon Islands. The four-year timeline for this program is expected to begin in April 2021. The Solomon Islands Threshold Program consists of two projects: the Accessing Land for Tourism Investment Facilitation (ALTIF) Project and the Forest Value Enhancement Project (FoVEP).</p><p><br></p><p><strong><u>Purpose</u></strong></p><p>To support the Threshold Program activities in Solomon Islands, MCC is seeking partners through the following procurements:</p><p><br></p><p><strong><u>1. </u></strong><em><u>Community Engagement Services</u></em>: As part of the ALTIF project, tasks include&nbsp;support for the delivery of information, public outreach and awareness, advisory and other assistance to communities that are located nearby registered land parcels with a high potential to attract tourism investment with the objective of facilitating community acceptance for a tourism investor’s use of land for investment purposes and sharing of benefits between an investor and community around a tourism investment.</p><p><br></p><p>2. <em><u>Cross-Cutting Program Support Services</u></em>: Tasks are related to conducting facilitated governance reform, program monitoring, strategic communications, and meeting and administrative&nbsp;support. Note that this procurement was initially anticipated as two separate procurements, for which RFIs were previously released on beta.SAM.gov (Facilitated Governance Reform, published on January 7, 2021, and Communications and Meeting Support Services, published on December 30, 2020).</p><p><br></p><p>Draft Statements of Work for these two procurements can be found under the \"Related Documents\" tab.</p><p><br></p><p><strong><u>Event</u></strong></p><p>MCC will hold a virtual Industry Day on <strong>Wednesday, February 24, 2021, from 4:00 pm - 6:30 pm Eastern Time </strong>to share information regarding the upcoming procurements and answer industry questions. Note that the event is scheduled to take into account the time difference between the U.S. and&nbsp;Solomon Islands, as organizations supporting the Threshold Program must ensure availability in both time zones.</p><p><br></p><p>Organizations interested in joining the Industry Day are asked to register by <strong>Tuesday, February 23, 2021, at 4:00 pm Eastern Time</strong> at the following link: https://si-industry-day.eventbrite.com. Each individual must register separately in order to receive login instructions. If you registered but did not receive the instructions, please email guoc@mcc.gov prior to the Industry Day start time. There is no registration fee for this event.</p><p><br></p><p>Attendees are encouraged to submit questions in advance for the Industry Day. When submitting a question, please indicate which procurement the question relates to. Questions should be sent to Ms. Cindy Guo at guoc@mcc.gov and Ms. Jacqueline Naranjo at naranjoj@mcc.gov by&nbsp;<strong>Friday, February 19, 2021 at 4:00 pm Eastern Time</strong>.&nbsp;<em>Note: Questions will be answered in writing after the event, but MCC may also address some of them during the industry day presentations.</em></p><p><br></p><p>The schedule of the event is as follows*:</p><p><strong>4:00 - 4:30&nbsp;pm</strong>: Introduction and background on Solomon Islands projects</p><p><strong>4:30 - 5:30&nbsp;pm</strong>: Information and Q&amp;As on Cross-Cutting Program Support Services procurement</p><p><strong>5:30 - 6:30 pm</strong>: Information and Q&amp;As on Community Engagement Services procurement</p><p><br></p><p>*If you are interested in attending the discussion of only <em>one </em>of the procurements, you are welcome to do so. However, while MCC strives to maintain this schedule during the event, it is possible that slight shifts may occur.</p><p><br></p><p>MCC will not transcribe the Industry Day content, but plans to publish any PowerPoint presentation(s) that are shared during the event via an amendment to this posting. At its discretion, MCC may record the Industry Day and include important questions/issues that arise as part of a&nbsp;Questions &amp; Answers document, which is expected to be posted the week after the event.</p><p><br></p><p>Additionally, to encourage teaming and other arrangements, MCC plans to post a list of Industry Day attendees and email addresses in the amendment. <strong>If you do not want your name and contact information to be shared, please email guoc@mcc.gov and naranjoj@mcc.gov by Thursday, February 26 at 4:00 pm Eastern Time.</strong></p><p><br></p><p>***The Government will not reimburse participants for any expenses associated with their participation in this Industry Day.***</p>",
+            "fundingActivityCategoryDesc": "International Development",
+            "costSharing": false,
+            "fundingDescLinkUrl": "https://si-industry-day.eventbrite.com",
+            "fundingDescLinkDesc": "Registration page for the Industry Day",
+            "agencyContactName": "Cindy Guo\r\nContract Specialist\r\nMillennium Challenge Corporation",
+            "agencyContactPhone": "202-772-6860",
+            "agencyContactEmail": "guoc@mcc.gov",
+            "agencyContactEmailDesc": "guoc@mcc.gov",
+            "agencyCode": "MCC",
+            "sendEmail": "Y",
+            "fiscalYear": 2021,
+            "createTimeStamp": "Mar 04, 2021 04:34:15 PM EST",
+            "actionType": "U",
+            "actionDate": "Mar 04, 2021 04:38:51 PM EST",
+            "createdDate": "Feb 09, 2021 11:45:36 AM EST",
+            "lastUpdatedDate": "Mar 04, 2021 04:34:15 PM EST",
+            "agencyDetails": {
+              "code": "MCC",
+              "seed": "MCC",
+              "agencyName": "Millennium Challenge Corporation",
+              "agencyCode": "MCC",
+              "topAgencyCode": "MCC"
+            },
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "O",
+                "description": "Other"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "O",
+                "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+              }
+            ],
+            "postingDateStr": "2021-02-10-00-00-00",
+            "createTimeStampStr": "2021-03-04-16-34-15"
+          },
+          "opportunityCategoryExplanation": "TBD",
+          "cfdas": [
+            {
+              "id": 388394,
+              "opportunityId": 331415,
+              "revision": 0,
+              "cfdaNumber": "85.002",
+              "programTitle": "MCC Foreign Assistance for Overseas Programs"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [
+        "revision",
+        "version",
+        "forecastDesc",
+        "modComments"
+      ],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

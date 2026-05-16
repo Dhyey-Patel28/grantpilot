@@ -1,0 +1,33 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=13551",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=13551",
+  "website": "https://www.grants.gov/search-results-detail/361094",
+  "grant_id": "13551",
+  "title": "State Offices of Rural Health Program",
+  "overview": "The State Office of Rural Health (SORH) Program assists states in strengthening rural health care delivery systems by maintaining a focal point for rural health. This program funds an institutional framework in each state that links small rural communities with state and federal resources to help develop long-term solutions to improve access to, and the quality of care for the nearly 60 million people living in rural communities. Show More",
+  "additional_info": "Posted Date: January 6, 2026 Application Due Date: June 15, 2026 Estimated Award Date: Not Specified Eligible Applicants: State governmentsOthers Show More",
+  "eligible_applicants": [
+    "State governmentsOthers"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "agriculture",
+    "health",
+    "public_safety"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Health and Human Services",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:26:16.933Z",
+  "content_hash": "b09bcdfdc9e41e735e97ab39afcc084e04ecdd3ef5e900e5ce9c0a90790fa8ac",
+  "from_cache": false
+}

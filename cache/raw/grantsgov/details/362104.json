@@ -1,0 +1,465 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362104",
+  "fetched_at": "2026-05-16T14:09:53.504Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVUK1hheFRGZjNYYnhNbEpjYVhFWUloTHU3NlZYV202N2U3WldBWkNrenM9Ig.zM0lINmoTcPVtpihmws63hHFzDd5lXWl14yGAtkCnjc",
+    "data": {
+      "id": 362104,
+      "revision": 2,
+      "opportunityNumber": "W912EF-26-2-A001",
+      "opportunityTitle": "Mill Creek Natural Resource Training and Education",
+      "owningAgencyCode": "DOD-COE-WW",
+      "listed": "L",
+      "publisherUid": "victoria.l.conway",
+      "modifiedComments": "Changed Opportunity Number",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362104,
+        "version": 3,
+        "agencyCode": "DOD-COE-WW",
+        "agencyName": "Victoria Conway\nGrantor",
+        "agencyPhone": "509-527-7449",
+        "agencyAddressDesc": "Victoria Conway",
+        "agencyDetails": {
+          "code": "WW",
+          "seed": "DOD-COE-WW",
+          "agencyName": "Walla Walla District",
+          "agencyCode": "DOD-COE-WW",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "509-527-7449",
+        "agencyContactName": "Victoria Conway\nGrantor",
+        "agencyContactDesc": "Victoria Conway\r\nGrant Specialist \r\nPhone 509-527-7449",
+        "agencyContactEmail": "victoria.l.conway@usace.army.mil",
+        "agencyContactEmailDesc": "Victoria Conway",
+        "synopsisDesc": "<p>The U.S. Army Corps of Engineers (USACE) is seeking organizations to enter into a cooperative agreement for outdoor education and training, flood control infrastructure maintenance, effective environmental and recreational resource management, enhanced public engagement, and training/education opportunities – along with other related services.</p><p><br></p><p>USACE is particularly interested in organizations that offer challenging education and job-training experiences for young adults, and support for formal post-high school education. This agreement aims to provide effective resource management, enhance public engagement, and offer training and education, all while promoting responsible stewardship of public lands and resources and developing future water and natural resource professionals.</p><p><br></p><p>Statutory Authority: Water Resources Development Act of 2000, Title 33, Part 2339, Section 213(a), Public Law 106-106-541, 114 Stat. 2593 (codified as amended at 33 U.S.C. § 2339).</p><p><br></p><p>Location: Mill Creek, Walla Walla, WA 99362-8401</p>",
+        "responseDate": "May 28, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Apr 28, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 27, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "35930",
+        "estimatedFundingFormatted": "35,930",
+        "awardCeiling": "35930",
+        "awardCeilingFormatted": "35,930",
+        "awardFloor": "35930",
+        "awardFloorFormatted": "35,930",
+        "applicantEligibilityDesc": "Non-Federal Public and Non-Profit Entities",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 30, 2026 05:38:23 PM EDT",
+        "modComments": "Added location to description",
+        "createdDate": "Apr 28, 2026 04:52:32 PM EDT",
+        "lastUpdatedDate": "Apr 30, 2026 05:38:23 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          }
+        ],
+        "responseDateStr": "2026-05-28-00-00-00",
+        "postingDateStr": "2026-04-28-00-00-00",
+        "archiveDateStr": "2026-06-27-00-00-00",
+        "createTimeStampStr": "2026-04-30-17-38-23"
+      },
+      "agencyDetails": {
+        "code": "WW",
+        "seed": "DOD-COE-WW",
+        "agencyName": "Walla Walla District",
+        "agencyCode": "DOD-COE-WW",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79417,
+          "opportunityId": 362104,
+          "folderType": "Full Announcement",
+          "folderName": "W912EF-26-2-RFA-A001",
+          "zipLobSize": 1257727,
+          "createdDate": "Apr 28, 2026 04:56:18 PM EDT",
+          "lastUpdatedDate": "Apr 28, 2026 06:35:30 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351506,
+              "opportunityId": 362104,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment A - SF 424 - Application for Federal Assistance.pdf",
+              "fileDescription": "Attachment A - SF 424 - Application for Federal Assistance",
+              "fileLobSize": 174650,
+              "createdDate": "Apr 28, 2026 04:58:04 PM EDT",
+              "synopsisAttFolderId": 79417
+            },
+            {
+              "id": 351507,
+              "opportunityId": 362104,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment B - SF-PPR.pdf",
+              "fileDescription": "Attachment B - SF-PPR",
+              "fileLobSize": 346309,
+              "createdDate": "Apr 28, 2026 04:58:22 PM EDT",
+              "synopsisAttFolderId": 79417
+            },
+            {
+              "id": 351508,
+              "opportunityId": 362104,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment C - SF-270.pdf",
+              "fileDescription": "Attachment C - SF-270",
+              "fileLobSize": 167772,
+              "createdDate": "Apr 28, 2026 04:58:39 PM EDT",
+              "synopsisAttFolderId": 79417
+            },
+            {
+              "id": 351509,
+              "opportunityId": 362104,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment D - SF-425.pdf",
+              "fileDescription": "Attachment D - SF-425",
+              "fileLobSize": 207143,
+              "createdDate": "Apr 28, 2026 04:59:16 PM EDT",
+              "synopsisAttFolderId": 79417
+            },
+            {
+              "id": 351510,
+              "opportunityId": 362104,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment E- Certs and Acknowledgments.pdf",
+              "fileDescription": "Attachment E- Certs and Acknowledgments",
+              "fileLobSize": 154115,
+              "createdDate": "Apr 28, 2026 04:59:44 PM EDT",
+              "synopsisAttFolderId": 79417
+            },
+            {
+              "id": 351511,
+              "opportunityId": 362104,
+              "mimeType": "application/pdf",
+              "fileName": "Attachment F - Certificate of Authority - 2026.pdf",
+              "fileDescription": "Attachment F - Certificate of Authority - 2026",
+              "fileLobSize": 67737,
+              "createdDate": "Apr 28, 2026 05:00:16 PM EDT",
+              "synopsisAttFolderId": 79417
+            },
+            {
+              "id": 351513,
+              "opportunityId": 362104,
+              "mimeType": "application/pdf",
+              "fileName": "W912EF2620001 - MCL NOFO FINAL .pdf",
+              "fileDescription": "Funding Opportunity Annoucement",
+              "fileLobSize": 272925,
+              "createdDate": "Apr 28, 2026 06:35:30 PM EDT",
+              "synopsisAttFolderId": 79417
+            },
+            {
+              "id": 351512,
+              "opportunityId": 362104,
+              "mimeType": "application/pdf",
+              "fileName": "Mill Creek Coop Agreement Scope of Work 2026.pdf",
+              "fileDescription": "Mill Creek Coop Agreement Scope of Work 2026",
+              "fileLobSize": 187346,
+              "createdDate": "Apr 28, 2026 06:26:47 PM EDT",
+              "synopsisAttFolderId": 79417
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432947,
+          "opportunityId": 362104,
+          "cfdaNumber": "12.010",
+          "programTitle": "Youth Conservation Services"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 362104,
+            "revision": 0
+          },
+          "opportunityId": 362104,
+          "revision": 0,
+          "opportunityNumber": "W912EF-26-2-RPA-A001",
+          "opportunityTitle": "Mill Creek Natural Resource Training and Education",
+          "owningAgencyCode": "DOD-COE-WW",
+          "publisherUid": "victoria.l.conway",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 362104,
+              "revision": 0
+            },
+            "opportunityId": 362104,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOD-COE-WW",
+            "agencyAddressDesc": "Victoria Conway",
+            "agencyDetails": {
+              "code": "WW",
+              "seed": "DOD-COE-WW",
+              "agencyName": "Walla Walla District",
+              "agencyCode": "DOD-COE-WW",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "509-527-7449",
+            "agencyContactName": "Victoria Conway\nGrantor",
+            "agencyContactDesc": "Victoria Conway\r\nGrant Specialist \r\nPhone 509-527-7449",
+            "agencyContactEmail": "victoria.l.conway@usace.army.mil",
+            "agencyContactEmailDesc": "Victoria Conway",
+            "synopsisDesc": "<p>The U.S. Army Corps of Engineers (USACE) is seeking organizations to enter into a cooperative agreement for outdoor education and training, flood control infrastructure maintenance, effective environmental and recreational resource management, enhanced public engagement, and training/education opportunities – along with other related services.</p><p><br></p><p>USACE is particularly interested in organizations that offer challenging education and job-training experiences for young adults, and support for formal post-high school education. This agreement aims to provide effective resource management, enhance public engagement, and offer training and education, all while promoting responsible stewardship of public lands and resources and developing future water and natural resource professionals.</p><p><br></p><p>Statutory Authority: Water Resources Development Act of 2000, Title 33, Part 2339, Section 213(a), Public Law 106-106-541, 114 Stat. 2593 (codified as amended at 33 U.S.C. § 2339).</p>",
+            "responseDate": "May 28, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Apr 28, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jun 27, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "35930",
+            "estimatedFundingFormatted": "35,930",
+            "awardCeiling": "35930",
+            "awardCeilingFormatted": "35,930",
+            "awardFloor": "35930",
+            "awardFloorFormatted": "35,930",
+            "applicantEligibilityDesc": "Non-Federal Public and Non-Profit Entities",
+            "createTimeStamp": "Apr 28, 2026 06:35:30 PM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Apr 30, 2026 05:32:19 PM EDT",
+            "createdDate": "Apr 28, 2026 04:52:32 PM EDT",
+            "lastUpdatedDate": "Apr 28, 2026 04:52:32 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2026-05-28-00-00-00",
+            "postingDateStr": "2026-04-28-00-00-00",
+            "archiveDateStr": "2026-06-27-00-00-00",
+            "createTimeStampStr": "2026-04-28-18-35-30"
+          },
+          "cfdas": [
+            {
+              "id": 432947,
+              "opportunityId": 362104,
+              "revision": 1,
+              "cfdaNumber": "12.010",
+              "programTitle": "Youth Conservation Services"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 362104,
+            "revision": 1
+          },
+          "opportunityId": 362104,
+          "revision": 1,
+          "opportunityNumber": "W912EF-26-2-A001",
+          "opportunityTitle": "Mill Creek Natural Resource Training and Education",
+          "owningAgencyCode": "DOD-COE-WW",
+          "publisherUid": "victoria.l.conway",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": "Changed Opportunity Number",
+          "synopsis": {
+            "id": {
+              "opportunityId": 362104,
+              "revision": 1
+            },
+            "opportunityId": 362104,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "DOD-COE-WW",
+            "agencyAddressDesc": "Victoria Conway",
+            "agencyDetails": {
+              "code": "WW",
+              "seed": "DOD-COE-WW",
+              "agencyName": "Walla Walla District",
+              "agencyCode": "DOD-COE-WW",
+              "topAgencyCode": "DOD"
+            },
+            "agencyContactPhone": "509-527-7449",
+            "agencyContactName": "Victoria Conway\nGrantor",
+            "agencyContactDesc": "Victoria Conway\r\nGrant Specialist \r\nPhone 509-527-7449",
+            "agencyContactEmail": "victoria.l.conway@usace.army.mil",
+            "agencyContactEmailDesc": "Victoria Conway",
+            "synopsisDesc": "<p>The U.S. Army Corps of Engineers (USACE) is seeking organizations to enter into a cooperative agreement for outdoor education and training, flood control infrastructure maintenance, effective environmental and recreational resource management, enhanced public engagement, and training/education opportunities – along with other related services.</p><p><br></p><p>USACE is particularly interested in organizations that offer challenging education and job-training experiences for young adults, and support for formal post-high school education. This agreement aims to provide effective resource management, enhance public engagement, and offer training and education, all while promoting responsible stewardship of public lands and resources and developing future water and natural resource professionals.</p><p><br></p><p>Statutory Authority: Water Resources Development Act of 2000, Title 33, Part 2339, Section 213(a), Public Law 106-106-541, 114 Stat. 2593 (codified as amended at 33 U.S.C. § 2339).</p>",
+            "responseDate": "May 28, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Apr 28, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jun 27, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "35930",
+            "estimatedFundingFormatted": "35,930",
+            "awardCeiling": "35930",
+            "awardCeilingFormatted": "35,930",
+            "awardFloor": "35930",
+            "awardFloorFormatted": "35,930",
+            "applicantEligibilityDesc": "Non-Federal Public and Non-Profit Entities",
+            "createTimeStamp": "Apr 30, 2026 05:32:19 PM EDT",
+            "sendEmail": "Y",
+            "modComments": "Changed Opportunity Number",
+            "actionType": "U",
+            "actionDate": "Apr 30, 2026 05:38:23 PM EDT",
+            "createdDate": "Apr 28, 2026 04:52:32 PM EDT",
+            "lastUpdatedDate": "Apr 30, 2026 05:32:19 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              }
+            ],
+            "responseDateStr": "2026-05-28-00-00-00",
+            "postingDateStr": "2026-04-28-00-00-00",
+            "archiveDateStr": "2026-06-27-00-00-00",
+            "createTimeStampStr": "2026-04-30-17-32-19"
+          },
+          "cfdas": [
+            {
+              "id": 432947,
+              "opportunityId": 362104,
+              "revision": 1,
+              "cfdaNumber": "12.010",
+              "programTitle": "Youth Conservation Services"
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "opportunityNumber",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292579,
+          "topportunityId": 362104,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "W912EF-26-2-A001",
+          "opportunityTitle": "Mill Creek Natural Resource Training and Education",
+          "cfdaNumber": "12.010",
+          "closingDate": "2026-05-28",
+          "owningAgencyCode": "DOD-COE-WW",
+          "agencyDetails": {
+            "code": "WW",
+            "seed": "DOD-COE-WW",
+            "agencyName": "Walla Walla District",
+            "agencyCode": "DOD-COE-WW",
+            "topAgencyCode": "DOD"
+          },
+          "topAgencyDetails": {
+            "code": "DOD",
+            "seed": "DOD",
+            "agencyName": "Department of Defense",
+            "agencyCode": "DOD",
+            "topAgencyCode": "DOD"
+          },
+          "programTitle": "Youth Conservation Services",
+          "contactInfo": "Victoria Conway\r\nGrant Specialist \r\nE-mail: victoria.l.conway@usace.army.mil\r\nPhone: 509-527-7449",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 2,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 30, 2026 05:34:07 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292579",
+          "closingDateStr": "2026-05-28-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 28, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

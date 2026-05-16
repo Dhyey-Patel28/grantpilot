@@ -1,0 +1,119 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "355385",
+  "fetched_at": "2026-05-16T14:07:10.612Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ii8yN3BEcE55dEllNEp3TjlBbTluaDF3ZlhRWlZRMW1ycDJXWWZaSFBjcDQ9Ig.NtdpeCqt-hVCVPZ1bCz4T__ccrHKxh4nk6rq164rcUo",
+    "data": {
+      "id": 355385,
+      "revision": 0,
+      "opportunityNumber": "ESP24NOFODEFENSAYYO5",
+      "opportunityTitle": "Mission Spain Public Diplomacy NOFO Defensa y Yo 5.0, 2024-2025",
+      "owningAgencyCode": "DOS-ESP",
+      "listed": "L",
+      "publisherUid": "Spainpdgrants",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "M",
+        "description": "Mandatory"
+      },
+      "agencyDetails": {
+        "code": "ESP",
+        "seed": "DOS-ESP",
+        "agencyName": "U.S. Mission to Spain",
+        "agencyCode": "DOS-ESP",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "forecast": {
+        "opportunityId": 355385,
+        "version": 1,
+        "postingDate": "Jul 23, 2024 12:00:00 AM EDT",
+        "forecastDesc": "<p><strong class=\"ql-size-large\" style=\"color: rgb(0, 0, 0);\">Summary:</strong></p>\n<p><span style=\"color: rgb(0, 0, 0);\">The Public Diplomacy Section of the U.S. Embassy in Madrid and U.S. Consulate General in Barcelona (known collectively as PD Spain)</span><em style=\"color: rgb(0, 0, 0);\"> </em><span style=\"color: rgb(0, 0, 0);\">of the U.S. Department of State announces an open competition for organizations to submit proposals to design, manage, and implement “</span><em style=\"color: rgb(0, 0, 0);\">Defensa y Yo 5.0</em><span style=\"color: rgb(0, 0, 0);\">,”</span><strong style=\"color: rgb(0, 0, 0);\"> </strong><span style=\"color: rgb(0, 0, 0);\">a program promoting security and defense issues among Spanish and Andorran public university students.&nbsp;</span></p>\n<p><br></p>\n<p>In 2021, working with a local partner organization, Mission Spain established \"Defensa y Yo\" (DyY) a program promoting security and defense issues among Spanish youth. The program includes three elements:&nbsp;1) Lectures by U.S. experts in select Spanish public universities on a variety of topics related to security and defense.&nbsp;2)&nbsp;Attendees can then participate in a competition where they submit a project on one of the topics covered in the lecture series.&nbsp;3) A winner is selected from each university, with winning students traveling to Brussels to visit NATO headquarters and other security and defense institutions.&nbsp;</p>\n<p>&nbsp;</p>\n<p>For this fifth edition of the Defensa y Yo program, Mission Spain welcomes creative proposals to continue the program in sixteen selected Spanish public universities, strengthen the relationships with both the university administrators and professors, and engage the network of participants from the four previous editions.&nbsp;</p>\n<p><br></p>\n<p><strong class=\"ql-size-large\">Program Objectives:</strong></p>\n<p><strong>Objective 1</strong>: Spanish public university students gain knowledge and tools to discuss and share accurate information on security and defense issues with their peers and become better informed future leaders.&nbsp;&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Objective 2</strong>: Strong relationships are formed with both the university administrators and professors.&nbsp;&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Objective 3</strong>: Mentorship relationships are formed between participating students of all four editions of DyY and the alumni association GEOSEDE.&nbsp;</p>\n<p><br></p>\n<p><strong class=\"ql-size-large\">Recipient Responsibilities:</strong></p>\n<p>This award will be separated into two parts to include a non-competitive continuation clause based on awardee performance and execution of the program objectives detailed below in part one. Funding for part two of the project is not guaranteed, and the renewal of the award to cover the second part of the project is at the discretion of the Department of State, and will be evaluated based on successful completion of the recipient responsibilities and program objectives.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Part One:</strong>&nbsp;</p>\n<p>1. Develop and implement a program consisting of a series of lectures (in-person or virtual, when necessary) on security and defense themes featuring a U.S. expert (i.e. representatives from academia, civil society, international organizations, think tanks, U.S. government, etc.). These lectures will take place at sixteen selected Spanish public universities - one session per university from February 2025 to May 2025.&nbsp;Ideally, the grantee will invite a total of four speakers, one per month. Each speaker would reach four of the participating universities during the course of one week.&nbsp;These U.S. speakers will be selected by the grantee in collaboration with PD Spain.&nbsp;</p>\n<p>&nbsp;</p>\n<p>2. Prepare program guidelines and other relevant materials for professors of the participating Defensa y Yo universities.&nbsp;</p>\n<p>&nbsp;</p>\n<p>3. Conduct a formal registration of all attendees of the Defensa y Yo sessions at the sixteen participating universities.&nbsp;Design and conduct qualitative and quantitative research pre and post program via survey, focus groups, etc. to measure the program’s effect on the participants as well as general trends, mindsets, and knowledge of the target audience on security and defense issues.&nbsp;&nbsp;&nbsp;</p>\n<p>&nbsp;</p>\n<p>4. Maintain and support the exisiting Defensa y Yo website to convey program information and highlights with featured editorial space on the grantee's website.&nbsp;</p>\n<p>&nbsp;</p>\n<p>5. Develop and implement a media and social media plan, with a specific emphasis on promoting the program and highlighting program impact in the sixteen universities. The press and social media campaign should be coordinated with the communications departments of the participating universities and PD Spain.&nbsp;&nbsp;</p>\n<p>&nbsp;</p>\n<p>6. Develop a competition for lecture attendees (students) that identifies the best project per University around a chosen theme related to security and defense issues.&nbsp;Pieces should be submitted by the student participants of the Defensa y Yo program who have registered and attended the Defensa y Yo sessions;&nbsp;</p>\n<p>&nbsp;</p>\n<p>7. Develop a transparent review process that involves PD Spain to evaluate competition applicants (one selected candidate from each one of the participating universities) for the exchange program in Brussels.&nbsp;</p>\n<p>&nbsp;</p>\n<p>8. Organize a professional development opportunity for all 16 professors from participating universities to strengthen their network and knowledge in defense-related topics. Coordinate travel logistics, provide necessary documentation, and implement engaging activities.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Part Two:</strong>&nbsp;</p>\n<p>9. Conduct a pre-departure orientation (in-person, in Madrid) for Defensa y Yo Fellows before their departures from the city where their university is located to Madrid and Brussels;&nbsp;&nbsp;</p>\n<p>&nbsp;</p>\n<p>10. Create program materials (both electronic and print) to assist finalists in preparing for their fellowship in Brussels, and answer questions on programmatic issues, including, but not limited to, program responsibilities and expectations, travel, accident and sickness benefits, lodging and meals and incidentals, leadership development, etc.;&nbsp;</p>\n<p>&nbsp;</p>\n<p>11. Arrange and cover via award the cost of all appropriate program-related travel for Defensa y Yo Fellows to participate in a 4-day exchange program in Madrid and Brussels in the fall of 2025, including but not limited to transportation, lodging, and meals and incidental expenses, etc.;&nbsp;</p>\n<p>&nbsp;</p>\n<p>12. Develop and implement a social media plan during the exchange program in Brussels, with a specific emphasis on the student winners participating in the program;&nbsp;</p>\n<p>&nbsp;</p>\n<p>13. Manage financial aspects of the program including timely disbursement of participant meal and incidental stipends, lodging and travel allowances, etc. and promptly report any irregularities in the budget or spending to PD Spain both for participating speakers, participating professors, and selected student winners during their exchange program;&nbsp;&nbsp;</p>\n<p>&nbsp;</p>\n<p>14. Participate in regular program reviews and meetings with PD Spain (in person or by telephone) that provide general updates on program implementation and matters of concern including but not limited to a review of the effectiveness of past activities, progress on anticipated programmatic activities, and issues that may impede the implementation of planned programming;&nbsp;&nbsp;</p>\n<p>&nbsp;</p>\n<p>15. Respond fully and promptly to requests for program or statistical information from PD Spain, including but not limited to providing information through spreadsheets and databases;&nbsp;&nbsp;</p>\n<p><span style=\"color: rgb(255, 0, 0);\">&nbsp;</span></p>\n<p>16. Ensure compliance with the terms of this NOFO, including but not limited to submitting timely financial and program reports and proper budget oversight.&nbsp;</p>\n<p><br></p>\n<p><strong class=\"ql-size-large\">Participants and Audiences:</strong><span class=\"ql-size-large\">&nbsp;</span></p>\n<p>Project should involve at least 500 Spanish public university undergraduate students (18-25) enrolled in International Relations, Law, Journalism, and Business Administration programs at sixteen universities, and a network of professors of all sixteen selected universities.&nbsp;</p>\n<p><span style=\"color: rgb(51, 51, 51);\">&nbsp;</span></p>\n<p><strong class=\"ql-size-large\" style=\"color: rgb(51, 51, 51);\">Further Information:</strong></p>\n<p>Further information and application instructions can be found on the U.S. Embassy &amp; Consulate in Spain and Andorra website: <strong>https://es.usembassy.gov/grants-programs/</strong> as well as an attachment on this posting. Any questions about the opportunity or the application should be directed to <strong>SpainPDGrants@state.gov</strong>.</p>\n<p><br></p>\n<p><strong style=\"color: rgb(0, 0, 0);\"><em>NOTE: This notice is subject to availability of funding.</em></strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;</span></p>",
+        "fundingActivityCategoryDesc": "Security and Defense Issues",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "awardCeiling": "95000",
+        "fundingDescLinkUrl": "https://es.usembassy.gov/notice-of-funding-opportunity-defensa-y-yo-5-0/",
+        "fundingDescLinkDesc": "U.S. Embassy & Consulate in Spain and Andorra website",
+        "agencyContactName": "Spain PD Grants Team\r\nSpainPDGrants@state.gov",
+        "agencyContactPhone": "SpainPDGrants@state.gov",
+        "agencyContactEmail": "SpainPDGrants@state.gov",
+        "agencyContactEmailDesc": "Please direct all questions and application submissions to: SpainPDGrants@state.gov",
+        "agencyCode": "DOS-ESP",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "&bull;Not-for-profit organizations, including think tanks and civil society/non-governmental organizations &bull;Public and private educational institutions &bull;Public International Organizations and Governmental institutions",
+        "estApplicationResponseDate": "Sep 08, 2024 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "",
+        "fiscalYear": 2025,
+        "createTimeStamp": "Jul 23, 2024 03:44:12 AM EDT",
+        "createdDate": "Jul 15, 2024 04:31:06 AM EDT",
+        "lastUpdatedDate": "Jul 23, 2024 03:44:12 AM EDT",
+        "agencyDetails": {
+          "code": "ESP",
+          "seed": "DOS-ESP",
+          "agencyName": "U.S. Mission to Spain",
+          "agencyCode": "DOS-ESP",
+          "topAgencyCode": "DOS"
+        },
+        "awardCeilingFormatted": "95,000",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "postingDateStr": "2024-07-23-00-00-00",
+        "estApplicationResponseDateStr": "2024-09-08-00-00-00",
+        "createTimeStampStr": "2024-07-23-03-44-12"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 422197,
+          "opportunityId": 355385,
+          "cfdaNumber": "19.040",
+          "programTitle": "Public Diplomacy Programs"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

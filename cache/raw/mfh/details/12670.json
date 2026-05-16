@@ -1,0 +1,35 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=12670",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=12670",
+  "website": "https://www.grants.gov/search-results-detail/360398",
+  "grant_id": "12670",
+  "title": "BRAIN Initiative: Integrative Team-Research BRAIN Circuits Program - Iteambcp (RM1 Clinical Trial Optional)",
+  "overview": "The National Institute of Neurological Disorders and Stroke (NINDS), with other NIH Institutes and Centers (ICs), the National Eye Institute (NEI), National Institute on Aging (NIA), National Institute on Alcohol Abuse and Alcoholism (NIAAA), National Institute of Biomedical Imaging and Bioengineering (NIBIB), Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD), National Institute on Deafness and Other Communication Disorders (NIDCD), National Institute on Drug Abuse (NIDA) National Institute of Mental Health (NIMH), National Center for Complementary and Integrative Health (NCCIH), and Office of Behavioral and Social Sciences Research (OBSSR), intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications from teams to understand how the nervous system, from its individual components to its unified whole, gives rise to mental experience and behavior. Teams must integrate distinct expertise of 3-6 PDs/PIs to deliver fundamental principles about central nervous system (CNS) function through theories, models, and approaches that bridge cells, circuits, behavior. Applications must connect these 3 levels of analysis: (1) rich large-scale information about circuit components (e.g., cell types, connectivity), (2) in vivo CNS recordings at cellular and sub-second and temporal resolution, (3) along with analyses of a tractable behavior of an organism or a well-defined neural system. Projects may also include the development of tools and approaches to surmount key research roadblocks. Experimental systems should be chosen for their potential to optimize integrative approaches and reveal generalizable, multi-scale principles about CNS computations underlying function and behavior. Applications are not being solicited at this time. Notice is being provided to allow potential applicants sufficient time to develop meaningful collaborations and responsive projects. This NOFO will utilize the RM1 activity code. Investigators with expertise and insights into this area of integrative systems neuroscience are encouraged to begin to consider applying for this new NOFO. In addition, collaborative investigations from newly formed or established teams, combining expertise in molecular, cellular, systems, behavioral, computational, and theoretical neuroscience, as well as in engineering, data science, mathematics, physics, and statistics, as appropriate, will be encouraged and these investigators should also begin considering applying for this application. Show More",
+  "additional_info": "Posted Date: August 28, 2025 Application Due Date: June 16, 2026 Estimated Award Date: Not Specified Eligible Applicants: State governmentsPublic and State controlled institutions of higher educationSmall businessesPublic housing authorities/Indian housing authoritiesOthersPrivate institutions of higher educationNative American tribal organizations (other than Federally recognized tribal governments)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal governments (Federally recognized)City or township governmentsIndependent school districtsNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationSpecial district governmentsFor profit organizations other than small businessesCounty governments Show More",
+  "eligible_applicants": [
+    "State governmentsPublic and State controlled institutions of higher educationSmall businessesPublic housing authorities/Indian housing authoritiesOthersPrivate institutions of higher educationNative American tribal organizations (other than Federally recognized tribal governments)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal governments (Federally recognized)City or township governmentsIndependent school districtsNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationSpecial district governmentsFor profit organizations other than small businessesCounty governments"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "broadband",
+    "health",
+    "housing",
+    "public_safety",
+    "transportation"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Health and Human Services",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:24:43.772Z",
+  "content_hash": "013aabea123517704d89a2b1bb82edf4cfc5884a3b953c438860186de64627e5",
+  "from_cache": false
+}

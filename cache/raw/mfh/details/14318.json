@@ -1,0 +1,31 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=14318",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=14318",
+  "website": "https://www.grants.gov/search-results-detail/361993",
+  "grant_id": "14318",
+  "title": "Farmers Market Promotion Program Fiscal Year 2026",
+  "overview": "The U.S. Department of Agriculture (USDA), Agricultural Marketing Service (AMS), requests applications for the 2026 fiscal year (FY) Farmers Market Promotion Program (FMPP). FMPP\"s purpose is to support the development, coordination, and expansion of direct producer-to-consumer markets to increase access to and availability of locally and regionally produced agricultural products. Show More",
+  "additional_info": "Posted Date: April 21, 2026 Application Due Date: June 5, 2026 Estimated Award Date: Not Specified Eligible Applicants: Others Show More",
+  "eligible_applicants": [
+    "Others"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "agriculture"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Agriculture",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:34.701Z",
+  "content_hash": "f6941e85d3954269c385a01e7d5b32a97f23cb79adcf9e910d62cfa51dc1088c",
+  "from_cache": false
+}

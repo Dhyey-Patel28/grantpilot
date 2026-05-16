@@ -1,0 +1,884 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "347680",
+  "fetched_at": "2026-05-16T14:06:51.557Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Iko5K21nMXYxSEg5THNpSmxTT3ZIclhRU2E0cnA2QnI0MUZya2h1RW8vdVU9Ig.p_GzsBlbWvltPxONHIE6H7W6uNAUNWvC5elPaE7Iqq8",
+    "data": {
+      "id": 347680,
+      "revision": 7,
+      "opportunityNumber": "23-578",
+      "opportunityTitle": "Infrastructure Innovation for Biological Research",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 347680,
+        "version": 8,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "The Infrastructure Innovation for Biological Research Program (Innovation) supports research to design novel or greatly improved research tools and methods that advance contemporary biology in any research area supported by the Directorate forBiological Sciences at NSF. The Innovation Program focuses on research infrastructure that is broadly applicable to researchers in three programmatic areas: Bioinformatics, Instrumentation, and Research Methods. Infrastructure supported by this program is expected to advance biological understanding by improving scientists&rsquo; abilities to manipulate, control, analyze, or measure critical aspects of biological systems, which can be essential for addressing important fundamental research questions. Proposals submitted to these programmatic areas can do one of three things to advance or transform research in biology: develop novel infrastructure, significantly redesign existing infrastructure, or adapt existing infrastructure in novel ways. Projects are expected to have a significant application to one or more biological science questions and have the potential to be used by a community of researchers beyond a single research team.\n\n\nPlease refer to the descriptions of individual programmatic areas for detailed guidance on what is supported through this solicitation (see links below).",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23578",
+        "fundingDescLinkDesc": "NSF Publication 23-578",
+        "postingDate": "Apr 21, 2023 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "40",
+        "estimatedFunding": "18000000",
+        "estimatedFundingFormatted": "18,000,000",
+        "awardCeiling": "800000",
+        "awardCeilingFormatted": "800,000",
+        "awardFloor": "300000",
+        "awardFloorFormatted": "300,000",
+        "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n\n*Who May Serve as PI:\n\nThere are no restrictions or limits.",
+        "sendEmail": "N",
+        "createTimeStamp": "Jan 10, 2026 12:26:18 AM EST",
+        "modComments": ".",
+        "createdDate": "Apr 21, 2023 01:00:17 AM EDT",
+        "lastUpdatedDate": "Jan 10, 2026 12:26:18 AM EST",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2023-04-21-00-00-00",
+        "createTimeStampStr": "2026-01-10-00-26-18"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 410394,
+          "opportunityId": 347680,
+          "cfdaNumber": "47.074",
+          "programTitle": "Biological Sciences"
+        },
+        {
+          "id": 410396,
+          "opportunityId": 347680
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 347680,
+            "revision": 0
+          },
+          "opportunityId": 347680,
+          "revision": 0,
+          "opportunityNumber": "23-578",
+          "opportunityTitle": "Infrastructure Innovation for Biological Research",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347680,
+              "revision": 0
+            },
+            "opportunityId": 347680,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Infrastructure Innovation for Biological Research Program (Innovation) supports research to design novel or greatly improved research tools and methods that advance contemporary biology in any research area supported by the Directorate forBiological Sciences at NSF. The Innovation Program focuses on research infrastructure that is broadly applicable to researchers in three programmatic areas: Bioinformatics, Instrumentation, and Research Methods. Infrastructure supported by this program is expected to advance biological understanding by improving scientists&rsquo; abilities to manipulate, control, analyze, or measure critical aspects of biological systems, which can be essential for addressing important fundamental research questions. Proposals submitted to these programmatic areas can do one of three things to advance or transform research in biology: develop novel infrastructure, significantly redesign existing infrastructure, or adapt existing infrastructure in novel ways. Projects are expected to have a significant application to one or more biological science questions and have the potential to be used by a community of researchers beyond a single research team.\n\r\n\nPlease refer to the descriptions of individual programmatic areas for detailed guidance on what is supported through this solicitation (see links below).",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23578",
+            "fundingDescLinkDesc": "NSF Publication 23-578",
+            "postingDate": "Apr 21, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "40",
+            "estimatedFunding": "18000000",
+            "estimatedFundingFormatted": "18,000,000",
+            "awardCeiling": "800000",
+            "awardCeilingFormatted": "800,000",
+            "awardFloor": "300000",
+            "awardFloorFormatted": "300,000",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n\n*Who May Serve as PI:\n\nThere are no restrictions or limits.",
+            "createTimeStamp": "Apr 21, 2023 01:00:17 AM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 29, 2023 01:00:19 AM EDT",
+            "createdDate": "Apr 21, 2023 01:00:17 AM EDT",
+            "lastUpdatedDate": "Apr 21, 2023 01:00:17 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-04-21-00-00-00",
+            "createTimeStampStr": "2023-04-21-01-00-17"
+          },
+          "cfdas": [
+            {
+              "id": 410394,
+              "opportunityId": 347680,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 410396,
+              "opportunityId": 347680,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 347680,
+            "revision": 1
+          },
+          "opportunityId": 347680,
+          "revision": 1,
+          "opportunityNumber": "23-578",
+          "opportunityTitle": "Infrastructure Innovation for Biological Research",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347680,
+              "revision": 1
+            },
+            "opportunityId": 347680,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Infrastructure Innovation for Biological Research Program (Innovation) supports research to design novel or greatly improved research tools and methods that advance contemporary biology in any research area supported by the Directorate forBiological Sciences at NSF. The Innovation Program focuses on research infrastructure that is broadly applicable to researchers in three programmatic areas: Bioinformatics, Instrumentation, and Research Methods. Infrastructure supported by this program is expected to advance biological understanding by improving scientists&rsquo; abilities to manipulate, control, analyze, or measure critical aspects of biological systems, which can be essential for addressing important fundamental research questions. Proposals submitted to these programmatic areas can do one of three things to advance or transform research in biology: develop novel infrastructure, significantly redesign existing infrastructure, or adapt existing infrastructure in novel ways. Projects are expected to have a significant application to one or more biological science questions and have the potential to be used by a community of researchers beyond a single research team.\n\r\n\nPlease refer to the descriptions of individual programmatic areas for detailed guidance on what is supported through this solicitation (see links below).",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23578",
+            "fundingDescLinkDesc": "NSF Publication 23-578",
+            "postingDate": "Apr 21, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "40",
+            "estimatedFunding": "18000000",
+            "estimatedFundingFormatted": "18,000,000",
+            "awardCeiling": "800000",
+            "awardCeilingFormatted": "800,000",
+            "awardFloor": "300000",
+            "awardFloorFormatted": "300,000",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n\n*Who May Serve as PI:\n\nThere are no restrictions or limits.",
+            "createTimeStamp": "Apr 29, 2023 01:00:19 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "May 20, 2023 12:01:38 AM EDT",
+            "createdDate": "Apr 21, 2023 01:00:17 AM EDT",
+            "lastUpdatedDate": "Apr 29, 2023 01:00:19 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-04-21-00-00-00",
+            "createTimeStampStr": "2023-04-29-01-00-19"
+          },
+          "cfdas": [
+            {
+              "id": 410394,
+              "opportunityId": 347680,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 410396,
+              "opportunityId": 347680,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 347680,
+            "revision": 2
+          },
+          "opportunityId": 347680,
+          "revision": 2,
+          "opportunityNumber": "23-578",
+          "opportunityTitle": "Infrastructure Innovation for Biological Research",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347680,
+              "revision": 2
+            },
+            "opportunityId": 347680,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Infrastructure Innovation for Biological Research Program (Innovation) supports research to design novel or greatly improved research tools and methods that advance contemporary biology in any research area supported by the Directorate forBiological Sciences at NSF. The Innovation Program focuses on research infrastructure that is broadly applicable to researchers in three programmatic areas: Bioinformatics, Instrumentation, and Research Methods. Infrastructure supported by this program is expected to advance biological understanding by improving scientists&rsquo; abilities to manipulate, control, analyze, or measure critical aspects of biological systems, which can be essential for addressing important fundamental research questions. Proposals submitted to these programmatic areas can do one of three things to advance or transform research in biology: develop novel infrastructure, significantly redesign existing infrastructure, or adapt existing infrastructure in novel ways. Projects are expected to have a significant application to one or more biological science questions and have the potential to be used by a community of researchers beyond a single research team.\n\r\n\nPlease refer to the descriptions of individual programmatic areas for detailed guidance on what is supported through this solicitation (see links below).",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23578",
+            "fundingDescLinkDesc": "NSF Publication 23-578",
+            "postingDate": "Apr 21, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "40",
+            "estimatedFunding": "18000000",
+            "estimatedFundingFormatted": "18,000,000",
+            "awardCeiling": "800000",
+            "awardCeilingFormatted": "800,000",
+            "awardFloor": "300000",
+            "awardFloorFormatted": "300,000",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n\n*Who May Serve as PI:\n\nThere are no restrictions or limits.",
+            "createTimeStamp": "May 20, 2023 12:01:38 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jan 22, 2024 01:00:21 AM EST",
+            "createdDate": "Apr 21, 2023 01:00:17 AM EDT",
+            "lastUpdatedDate": "May 20, 2023 12:01:38 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-04-21-00-00-00",
+            "createTimeStampStr": "2023-05-20-00-01-38"
+          },
+          "cfdas": [
+            {
+              "id": 410394,
+              "opportunityId": 347680,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 410396,
+              "opportunityId": 347680,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 347680,
+            "revision": 3
+          },
+          "opportunityId": 347680,
+          "revision": 3,
+          "opportunityNumber": "23-578",
+          "opportunityTitle": "Infrastructure Innovation for Biological Research",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347680,
+              "revision": 3
+            },
+            "opportunityId": 347680,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Infrastructure Innovation for Biological Research Program (Innovation) supports research to design novel or greatly improved research tools and methods that advance contemporary biology in any research area supported by the Directorate forBiological Sciences at NSF. The Innovation Program focuses on research infrastructure that is broadly applicable to researchers in three programmatic areas: Bioinformatics, Instrumentation, and Research Methods. Infrastructure supported by this program is expected to advance biological understanding by improving scientists&rsquo; abilities to manipulate, control, analyze, or measure critical aspects of biological systems, which can be essential for addressing important fundamental research questions. Proposals submitted to these programmatic areas can do one of three things to advance or transform research in biology: develop novel infrastructure, significantly redesign existing infrastructure, or adapt existing infrastructure in novel ways. Projects are expected to have a significant application to one or more biological science questions and have the potential to be used by a community of researchers beyond a single research team.\n\r\n\nPlease refer to the descriptions of individual programmatic areas for detailed guidance on what is supported through this solicitation (see links below).",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23578",
+            "fundingDescLinkDesc": "NSF Publication 23-578",
+            "postingDate": "Apr 21, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "40",
+            "estimatedFunding": "18000000",
+            "estimatedFundingFormatted": "18,000,000",
+            "awardCeiling": "800000",
+            "awardCeilingFormatted": "800,000",
+            "awardFloor": "300000",
+            "awardFloorFormatted": "300,000",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n\n*Who May Serve as PI:\n\nThere are no restrictions or limits.",
+            "createTimeStamp": "Jan 22, 2024 01:00:21 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Feb 24, 2024 01:09:05 AM EST",
+            "createdDate": "Apr 21, 2023 01:00:17 AM EDT",
+            "lastUpdatedDate": "Jan 22, 2024 01:00:21 AM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-04-21-00-00-00",
+            "createTimeStampStr": "2024-01-22-01-00-21"
+          },
+          "cfdas": [
+            {
+              "id": 410394,
+              "opportunityId": 347680,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 410396,
+              "opportunityId": 347680,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 347680,
+            "revision": 4
+          },
+          "opportunityId": 347680,
+          "revision": 4,
+          "opportunityNumber": "23-578",
+          "opportunityTitle": "Infrastructure Innovation for Biological Research",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347680,
+              "revision": 4
+            },
+            "opportunityId": 347680,
+            "revision": 4,
+            "version": 5,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Infrastructure Innovation for Biological Research Program (Innovation) supports research to design novel or greatly improved research tools and methods that advance contemporary biology in any research area supported by the Directorate forBiological Sciences at NSF. The Innovation Program focuses on research infrastructure that is broadly applicable to researchers in three programmatic areas: Bioinformatics, Instrumentation, and Research Methods. Infrastructure supported by this program is expected to advance biological understanding by improving scientists&rsquo; abilities to manipulate, control, analyze, or measure critical aspects of biological systems, which can be essential for addressing important fundamental research questions. Proposals submitted to these programmatic areas can do one of three things to advance or transform research in biology: develop novel infrastructure, significantly redesign existing infrastructure, or adapt existing infrastructure in novel ways. Projects are expected to have a significant application to one or more biological science questions and have the potential to be used by a community of researchers beyond a single research team.\n\r\n\nPlease refer to the descriptions of individual programmatic areas for detailed guidance on what is supported through this solicitation (see links below).",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23578",
+            "fundingDescLinkDesc": "NSF Publication 23-578",
+            "postingDate": "Apr 21, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "40",
+            "estimatedFunding": "18000000",
+            "estimatedFundingFormatted": "18,000,000",
+            "awardCeiling": "800000",
+            "awardCeilingFormatted": "800,000",
+            "awardFloor": "300000",
+            "awardFloorFormatted": "300,000",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n\n*Who May Serve as PI:\n\nThere are no restrictions or limits.",
+            "createTimeStamp": "Feb 24, 2024 01:09:05 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "May 23, 2025 01:00:06 AM EDT",
+            "createdDate": "Apr 21, 2023 01:00:17 AM EDT",
+            "lastUpdatedDate": "Feb 24, 2024 01:09:05 AM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-04-21-00-00-00",
+            "createTimeStampStr": "2024-02-24-01-09-05"
+          },
+          "cfdas": [
+            {
+              "id": 410394,
+              "opportunityId": 347680,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 410396,
+              "opportunityId": 347680,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 347680,
+            "revision": 5
+          },
+          "opportunityId": 347680,
+          "revision": 5,
+          "opportunityNumber": "23-578",
+          "opportunityTitle": "Infrastructure Innovation for Biological Research",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347680,
+              "revision": 5
+            },
+            "opportunityId": 347680,
+            "revision": 5,
+            "version": 6,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4203",
+            "agencyContactName": "U.S. National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Infrastructure Innovation for Biological Research Program (Innovation) supports research to design novel or greatly improved research tools and methods that advance contemporary biology in any research area supported by the Directorate forBiological Sciences at NSF. The Innovation Program focuses on research infrastructure that is broadly applicable to researchers in three programmatic areas: Bioinformatics, Instrumentation, and Research Methods. Infrastructure supported by this program is expected to advance biological understanding by improving scientists&rsquo; abilities to manipulate, control, analyze, or measure critical aspects of biological systems, which can be essential for addressing important fundamental research questions. Proposals submitted to these programmatic areas can do one of three things to advance or transform research in biology: develop novel infrastructure, significantly redesign existing infrastructure, or adapt existing infrastructure in novel ways. Projects are expected to have a significant application to one or more biological science questions and have the potential to be used by a community of researchers beyond a single research team.\n\n\nPlease refer to the descriptions of individual programmatic areas for detailed guidance on what is supported through this solicitation (see links below).",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23578",
+            "fundingDescLinkDesc": "NSF Publication 23-578",
+            "postingDate": "Apr 21, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "40",
+            "estimatedFunding": "18000000",
+            "estimatedFundingFormatted": "18,000,000",
+            "awardCeiling": "800000",
+            "awardCeilingFormatted": "800,000",
+            "awardFloor": "300000",
+            "awardFloorFormatted": "300,000",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n\n*Who May Serve as PI:\n\nThere are no restrictions or limits.",
+            "createTimeStamp": "May 23, 2025 01:00:06 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Aug 21, 2025 11:00:07 PM EDT",
+            "createdDate": "Apr 21, 2023 01:00:17 AM EDT",
+            "lastUpdatedDate": "May 23, 2025 01:00:06 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-04-21-00-00-00",
+            "createTimeStampStr": "2025-05-23-01-00-06"
+          },
+          "cfdas": [
+            {
+              "id": 410394,
+              "opportunityId": 347680,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 410396,
+              "opportunityId": 347680,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "applicantEligibilityDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 347680,
+            "revision": 6
+          },
+          "opportunityId": 347680,
+          "revision": 6,
+          "opportunityNumber": "23-578",
+          "opportunityTitle": "Infrastructure Innovation for Biological Research",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 347680,
+              "revision": 6
+            },
+            "opportunityId": 347680,
+            "revision": 6,
+            "version": 7,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4203",
+            "agencyContactName": "U.S. National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "The Infrastructure Innovation for Biological Research Program (Innovation) supports research to design novel or greatly improved research tools and methods that advance contemporary biology in any research area supported by the Directorate forBiological Sciences at NSF. The Innovation Program focuses on research infrastructure that is broadly applicable to researchers in three programmatic areas: Bioinformatics, Instrumentation, and Research Methods. Infrastructure supported by this program is expected to advance biological understanding by improving scientists&rsquo; abilities to manipulate, control, analyze, or measure critical aspects of biological systems, which can be essential for addressing important fundamental research questions. Proposals submitted to these programmatic areas can do one of three things to advance or transform research in biology: develop novel infrastructure, significantly redesign existing infrastructure, or adapt existing infrastructure in novel ways. Projects are expected to have a significant application to one or more biological science questions and have the potential to be used by a community of researchers beyond a single research team.\n\n\nPlease refer to the descriptions of individual programmatic areas for detailed guidance on what is supported through this solicitation (see links below).",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf23578",
+            "fundingDescLinkDesc": "NSF Publication 23-578",
+            "postingDate": "Apr 21, 2023 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "40",
+            "estimatedFunding": "18000000",
+            "estimatedFundingFormatted": "18,000,000",
+            "awardCeiling": "800000",
+            "awardCeilingFormatted": "800,000",
+            "awardFloor": "300000",
+            "awardFloorFormatted": "300,000",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n\n*Who May Serve as PI:\n\nThere are no restrictions or limits.",
+            "createTimeStamp": "Aug 21, 2025 11:00:07 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jan 10, 2026 12:26:18 AM EST",
+            "createdDate": "Apr 21, 2023 01:00:17 AM EDT",
+            "lastUpdatedDate": "Aug 21, 2025 11:00:07 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2023-04-21-00-00-00",
+            "createTimeStampStr": "2025-08-21-23-00-07"
+          },
+          "cfdas": [
+            {
+              "id": 410394,
+              "opportunityId": 347680,
+              "revision": 6,
+              "cfdaNumber": "47.074",
+              "programTitle": "Biological Sciences"
+            },
+            {
+              "id": 410396,
+              "opportunityId": 347680,
+              "revision": 6
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 281285,
+          "topportunityId": 347680,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "23-578",
+          "opportunityTitle": "Infrastructure Innovation for Biological Research",
+          "openingDate": "2023-04-21",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Innovation: Bioinformatics\nE-mail: DBIBioinformatics@nsf.gov\nPhone: (703) 292-8470",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 100,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Jan 10, 2026 12:47:59 AM EST",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00281285",
+          "openingDateStr": "2023-04-21-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 7,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

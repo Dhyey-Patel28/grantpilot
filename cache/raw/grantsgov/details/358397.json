@@ -1,0 +1,360 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "358397",
+  "fetched_at": "2026-05-16T14:07:40.825Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImhiakxHSEk4VW01MmYzTCtRMThRRERWU2ppdHQzaUpOY3JzZm5Sdmdobmc9Ig.too2LA09f_tOoDQr8VdsDRqKqyk54w5zM4uT8cUx1Cw",
+    "data": {
+      "id": 358397,
+      "revision": 2,
+      "opportunityNumber": "PD-25-342Y",
+      "opportunityTitle": "Infrastructure Systems and People",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 358397,
+        "version": 3,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "Infrastructure systems comprise complex connections between physical components, organizational structures and operational methods that support the needs of people and communities at the local, regional, national, and global scales. Such systems form the backbone of society, providing essential services as well as ensuring public health and welfare, economic prosperity and national security, and are expected to function under all operational conditions.\n\n\n\n\n\nMeanwhile, infrastructure systems are capital intensive and vulnerable to disruptions from extreme events, including natural disasters, social crises, and malicious attacks. Disruptions in one system can have cascading impacts on others in space and over time. Moreover, short- versus long-term trade-offs, unintended consequences, and maladaptation are not often accounted for. How systems function at the &ldquo;extreme,&rdquo; which can be due to disruptors from the introduction of innovation, the convergence of technologies, sudden changes to their utilization and access, dramatic changes in operating environments, and changes to demand during crises are of particular interest. To ensure the efficiency, sustainability, resilience, and fair use of infrastructure systems, it is important to continuously improve and optimize their design, operations, system monitoring and performance assessment in dynamic, uncertain and sometime unknown environments. While functioning at extremes is of interest, the program also supports infrastructure systems research under the full range of operating conditions, across a variety of hazards, and in urban, suburban, and rural communities.\n\n\n\n\n\nThe program particularly encourages interdisciplinary and multidisciplinary exploration that will open new research frontiers and significantly expand and transform relevant research communities. The program welcomes research that addresses novel system integration, user-inspired system and service design, data analytics, and socio-technical studies focused on engineering and system innovation during normal and extreme conditions. The program also values innovative research efforts focused on collecting, standardizing, and sharing large-scale databases of real-world infrastructure systems and people-infrastructure interactions during normal and extreme operating conditions, which can be instrumental in providing benchmarks for model verification and validation and for advancing future research innovation in ISP.\n\n\n\n\n\nThe ISP program supports research on lifeline systems and communities that contributes to the National Science Foundation&rsquo;s role in the National Earthquake Hazards Reduction Program (NEHRP) and the National Windstorm Impact Reduction Program (NWIRP). Principal Investigators are encouraged to leverage NSF&rsquo;s investments in the Natural Hazards Engineering Research Infrastructure (NHERI) experimental, computational modeling and simulation, and data resources (https://www.designsafe-ci.org/) in their research to accelerate advances needed for reducing the impacts of natural hazards on infrastructures and people.\n\n\n\n\n\nWhile physics-based subject-matter knowledge may be crucial in many research efforts, the program does not support research whose primary methodological contribution focuses on individual infrastructure components without a systems research perspective whose primary methodological focus is on geotechnical and structural engineering, material sciences, architectural engineering, wireless communication and sensor technology, human factors, and/or hydrologic or environmental engineering.\n\n\n\n\n\nProposers are actively encouraged to email a one-page project summary to the ISP Program Officers before submitting a full proposal for guidance on whether the proposed research topic falls within the scope of the ISP program; this guidance should especially be requested for multi-disciplinary research proposals, and proposals for which research and/or development on the subject infrastructure(s) are also supported by other federal and/or state agencies.",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506398",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-25-342Y",
+        "postingDate": "Jan 25, 2025 12:00:00 AM EST",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Aug 01, 2025 11:00:10 PM EDT",
+        "modComments": ".",
+        "createdDate": "Jan 25, 2025 01:00:06 AM EST",
+        "lastUpdatedDate": "Aug 01, 2025 11:00:10 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2025-01-25-00-00-00",
+        "createTimeStampStr": "2025-08-01-23-00-10"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 427578,
+          "opportunityId": 358397,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 427579,
+          "opportunityId": 358397
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 358397,
+            "revision": 0
+          },
+          "opportunityId": 358397,
+          "revision": 0,
+          "opportunityNumber": "PD-25-342Y",
+          "opportunityTitle": "Infrastructure Systems and People",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 358397,
+              "revision": 0
+            },
+            "opportunityId": 358397,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "Infrastructure systems comprise complex connections between physical components, organizational structures and operational methods that support the needs of people and communities at the local, regional, national, and global scales. Such systems form the backbone of society, providing essential services as well as ensuring public health and welfare, economic prosperity and national security, and are expected to function under all operational conditions.\n\n\n\n\n\nMeanwhile, infrastructure systems are capital intensive and vulnerable to disruptions from extreme events, including natural disasters, social crises, and malicious attacks. Disruptions in one system can have cascading impacts on others in space and over time. Moreover, short- versus long-term trade-offs, unintended consequences, and maladaptation are not often accounted for. How systems function at the &ldquo;extreme,&rdquo; which can be due to disruptors from the introduction of innovation, the convergence of technologies, sudden changes to their utilization and access, dramatic changes in operating environments, and changes to demand during crises are of particular interest. To ensure the efficiency, sustainability, and resilience, and user-equity of infrastructure systems, it is important to continuously improve and optimize their design, operations, system monitoring and performance assessment in dynamic, uncertain and sometime unknown environments. While functioning at extremes is of interest, the program also supports infrastructure systems research under the full range of operating conditions, across a variety of hazards, and in urban, suburban, and rural communities.\n\n\n\n\n\nThe program particularly encourages interdisciplinary and multidisciplinary exploration that will open new research frontiers and significantly broaden and transform relevant research communities. The program welcomes research that addresses novel system integration, user-inspired system and service design, data analytics, and socio-technical studies focused on engineering and system innovation during normal and extreme conditions. The program also values innovative research efforts focused on collecting, standardizing, and sharing large-scale databases of real-world infrastructure systems and people-infrastructure interactions during normal and extreme operating conditions, which can be instrumental in providing benchmarks for model verification and validationand for advancing future research innovation in ISP.\n\n\n\n\n\nThe ISP program supports research on lifeline systems and communities that contributes to the National Science Foundation&rsquo;s role in the National Earthquake Hazards Reduction Program (NEHRP) and the National Windstorm Impact Reduction Program (NWIRP). Principal Investigators are encouraged to leverage NSF&rsquo;s investments in the Natural Hazards Engineering Research Infrastructure (NHERI) experimental, computational modeling and simulation, and data resources (https://www.designsafe-ci.org/) in their research to accelerate advances needed for reducing the impacts of natural hazards on infrastructures and people.\n\n\n\n\n\nWhile physics-based subject-matter knowledge may be crucial in many research efforts, the program does not support research whose primary methodological contribution focuses on individual infrastructure components without a systems research perspective whose primary methodological focus is on geotechnical and structural engineering, material sciences, architectural engineering, wireless communication and sensor technology, human factors, and/or hydrologic or environmental engineering.\n\n\n\n\n\nProposers are actively encouraged to email a one-page project summary to the ISP Program Officers before submitting a full proposal for guidance on whether the proposed research topic falls within the scope of the ISP program; this guidance should especially be requested for multi-disciplinary research proposals, and proposals for which research and/or development on the subject infrastructure(s) are also supported by other federal and/or state agencies.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506398",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-25-342Y",
+            "postingDate": "Jan 25, 2025 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Jan 25, 2025 01:00:06 AM EST",
+            "actionType": "U",
+            "actionDate": "Apr 16, 2025 10:10:59 AM EDT",
+            "createdDate": "Jan 25, 2025 01:00:06 AM EST",
+            "lastUpdatedDate": "Jan 25, 2025 01:00:06 AM EST",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2025-01-25-00-00-00",
+            "createTimeStampStr": "2025-01-25-01-00-06"
+          },
+          "cfdas": [
+            {
+              "id": 427578,
+              "opportunityId": 358397,
+              "revision": 1,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 427579,
+              "opportunityId": 358397,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 358397,
+            "revision": 1
+          },
+          "opportunityId": 358397,
+          "revision": 1,
+          "opportunityNumber": "PD-25-342Y",
+          "opportunityTitle": "Infrastructure Systems and People",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 358397,
+              "revision": 1
+            },
+            "opportunityId": 358397,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "Infrastructure systems comprise complex connections between physical components, organizational structures and operational methods that support the needs of people and communities at the local, regional, national, and global scales. Such systems form the backbone of society, providing essential services as well as ensuring public health and welfare, economic prosperity and national security, and are expected to function under all operational conditions.\n\n\n\n\n\nMeanwhile, infrastructure systems are capital intensive and vulnerable to disruptions from extreme events, including natural disasters, social crises, and malicious attacks. Disruptions in one system can have cascading impacts on others in space and over time. Moreover, short- versus long-term trade-offs, unintended consequences, and maladaptation are not often accounted for. How systems function at the &ldquo;extreme,&rdquo; which can be due to disruptors from the introduction of innovation, the convergence of technologies, sudden changes to their utilization and access, dramatic changes in operating environments, and changes to demand during crises are of particular interest. To ensure the efficiency, sustainability, resilience, and fair use of infrastructure systems, it is important to continuously improve and optimize their design, operations, system monitoring and performance assessment in dynamic, uncertain and sometime unknown environments. While functioning at extremes is of interest, the program also supports infrastructure systems research under the full range of operating conditions, across a variety of hazards, and in urban, suburban, and rural communities.\n\n\n\n\n\nThe program particularly encourages interdisciplinary and multidisciplinary exploration that will open new research frontiers and significantly expand and transform relevant research communities. The program welcomes research that addresses novel system integration, user-inspired system and service design, data analytics, and socio-technical studies focused on engineering and system innovation during normal and extreme conditions. The program also values innovative research efforts focused on collecting, standardizing, and sharing large-scale databases of real-world infrastructure systems and people-infrastructure interactions during normal and extreme operating conditions, which can be instrumental in providing benchmarks for model verification and validation and for advancing future research innovation in ISP.\n\n\n\n\n\nThe ISP program supports research on lifeline systems and communities that contributes to the National Science Foundation&rsquo;s role in the National Earthquake Hazards Reduction Program (NEHRP) and the National Windstorm Impact Reduction Program (NWIRP). Principal Investigators are encouraged to leverage NSF&rsquo;s investments in the Natural Hazards Engineering Research Infrastructure (NHERI) experimental, computational modeling and simulation, and data resources (https://www.designsafe-ci.org/) in their research to accelerate advances needed for reducing the impacts of natural hazards on infrastructures and people.\n\n\n\n\n\nWhile physics-based subject-matter knowledge may be crucial in many research efforts, the program does not support research whose primary methodological contribution focuses on individual infrastructure components without a systems research perspective whose primary methodological focus is on geotechnical and structural engineering, material sciences, architectural engineering, wireless communication and sensor technology, human factors, and/or hydrologic or environmental engineering.\n\n\n\n\n\nProposers are actively encouraged to email a one-page project summary to the ISP Program Officers before submitting a full proposal for guidance on whether the proposed research topic falls within the scope of the ISP program; this guidance should especially be requested for multi-disciplinary research proposals, and proposals for which research and/or development on the subject infrastructure(s) are also supported by other federal and/or state agencies.",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506398",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-25-342Y",
+            "postingDate": "Jan 25, 2025 12:00:00 AM EST",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Apr 16, 2025 10:10:59 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Aug 01, 2025 11:00:10 PM EDT",
+            "createdDate": "Jan 25, 2025 01:00:06 AM EST",
+            "lastUpdatedDate": "Apr 16, 2025 10:10:59 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2025-01-25-00-00-00",
+            "createTimeStampStr": "2025-04-16-10-10-59"
+          },
+          "cfdas": [
+            {
+              "id": 427578,
+              "opportunityId": 358397,
+              "revision": 1,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 427579,
+              "opportunityId": 358397,
+              "revision": 1
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 290309,
+          "topportunityId": 358397,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-25-342Y",
+          "opportunityTitle": "Infrastructure Systems and People",
+          "openingDate": "2025-01-25",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Daan Liang\r\nE-mail: ISP@nsf.gov\r\nPhone: (703) 292-2441",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 165,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Oct 01, 2025 09:25:03 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00290309",
+          "openingDateStr": "2025-01-25-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 2,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

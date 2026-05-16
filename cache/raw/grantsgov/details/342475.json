@@ -1,0 +1,1752 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "342475",
+  "fetched_at": "2026-05-16T14:06:38.245Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjkrZ2Z5SmxTVnh4QU5mdkxwdlJjanpZSUpwTWRtL1VYSzlHSWQvNzRHMGs9Ig.cGqOIZhOkI31P-yB8CKhYwB5_hOCc7xbF-grgQuu8wc",
+    "data": {
+      "id": 342475,
+      "revision": 13,
+      "opportunityNumber": "22-615",
+      "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "modifiedComments": ".",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 342475,
+        "version": 14,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.\n\n\nNote: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+        "responseDate": "Sep 15, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+        "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+        "fundingDescLinkDesc": "NSF Publication 22-615",
+        "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+        "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "25",
+        "estimatedFunding": "4800000",
+        "estimatedFundingFormatted": "4,800,000",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nTribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.\n\n\n*Who May Serve as PI:\n\nThere are no program-specificrestrictions or limits.",
+        "sendEmail": "N",
+        "createTimeStamp": "Mar 18, 2026 11:00:12 PM EDT",
+        "modComments": ".",
+        "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+        "lastUpdatedDate": "Mar 18, 2026 11:00:12 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-09-15-00-00-00",
+        "postingDateStr": "2022-07-17-00-00-00",
+        "archiveDateStr": "2029-03-17-00-00-00",
+        "createTimeStampStr": "2026-03-18-23-00-12"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 402919,
+          "opportunityId": 342475,
+          "cfdaNumber": "47.050",
+          "programTitle": "Geosciences"
+        },
+        {
+          "id": 402920,
+          "opportunityId": 342475,
+          "cfdaNumber": "47.070",
+          "programTitle": "Computer and Information Science and Engineering"
+        },
+        {
+          "id": 402921,
+          "opportunityId": 342475,
+          "cfdaNumber": "47.075",
+          "programTitle": "Social, Behavioral, and Economic Sciences"
+        },
+        {
+          "id": 402905,
+          "opportunityId": 342475
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 342475,
+            "revision": 0
+          },
+          "opportunityId": 342475,
+          "revision": 0,
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 342475,
+              "revision": 0
+            },
+            "opportunityId": 342475,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.\n\r\n\nNote: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+            "responseDate": "Oct 14, 2022 12:00:00 AM EDT",
+            "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+            "fundingDescLinkDesc": "NSF Publication 22-615",
+            "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+            "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "4800000",
+            "estimatedFundingFormatted": "4,800,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research labs, professional societies and similar organizations in the U.S. associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nTribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.\n\n\n*Who May Serve as PI:\n\nThere are no program-specificrestrictions or limits.",
+            "createTimeStamp": "Jul 17, 2022 01:00:11 AM EDT",
+            "actionType": "U",
+            "actionDate": "Oct 01, 2022 01:00:08 AM EDT",
+            "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "lastUpdatedDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2022-10-14-00-00-00",
+            "postingDateStr": "2022-07-17-00-00-00",
+            "archiveDateStr": "2029-03-17-00-00-00",
+            "createTimeStampStr": "2022-07-17-01-00-11"
+          },
+          "cfdas": [
+            {
+              "id": 402919,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 402920,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 402921,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 402878,
+              "opportunityId": 342475,
+              "revision": 1,
+              "cfdaNumber": "47.076",
+              "programTitle": "Education and Human Resources"
+            },
+            {
+              "id": 402905,
+              "opportunityId": 342475,
+              "revision": 12
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 342475,
+            "revision": 1
+          },
+          "opportunityId": 342475,
+          "revision": 1,
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 342475,
+              "revision": 1
+            },
+            "opportunityId": 342475,
+            "revision": 1,
+            "version": 2,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.\n\r\n\nNote: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+            "responseDate": "Oct 14, 2022 12:00:00 AM EDT",
+            "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+            "fundingDescLinkDesc": "NSF Publication 22-615",
+            "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+            "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "4800000",
+            "estimatedFundingFormatted": "4,800,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research labs, professional societies and similar organizations in the U.S. associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nTribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.\n\n\n*Who May Serve as PI:\n\nThere are no program-specificrestrictions or limits.",
+            "createTimeStamp": "Oct 01, 2022 01:00:08 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Oct 30, 2022 01:00:08 AM EDT",
+            "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "lastUpdatedDate": "Oct 01, 2022 01:00:08 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2022-10-14-00-00-00",
+            "postingDateStr": "2022-07-17-00-00-00",
+            "archiveDateStr": "2029-03-17-00-00-00",
+            "createTimeStampStr": "2022-10-01-01-00-08"
+          },
+          "cfdas": [
+            {
+              "id": 402919,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 402920,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 402921,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 402878,
+              "opportunityId": 342475,
+              "revision": 1,
+              "cfdaNumber": "47.076",
+              "programTitle": "Education and Human Resources"
+            },
+            {
+              "id": 402905,
+              "opportunityId": 342475,
+              "revision": 12
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 342475,
+            "revision": 2
+          },
+          "opportunityId": 342475,
+          "revision": 2,
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": ".",
+          "synopsis": {
+            "id": {
+              "opportunityId": 342475,
+              "revision": 2
+            },
+            "opportunityId": 342475,
+            "revision": 2,
+            "version": 3,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.Note: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+            "responseDate": "Oct 14, 2022 12:00:00 AM EDT",
+            "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+            "fundingDescLinkDesc": "NSF Publication 22-615",
+            "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+            "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "4800000",
+            "estimatedFundingFormatted": "4,800,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:  -Non-profit, non-academic organizations: Independent museums, observatories, research labs, professional societies and similar organizations in the U.S. associated with educational or research activities.  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.  -Tribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.*Who May Serve as PI:There are no program-specificrestrictions or limits.",
+            "createTimeStamp": "Oct 30, 2022 01:00:08 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Oct 30, 2022 01:00:08 AM EDT",
+            "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "lastUpdatedDate": "Oct 30, 2022 01:00:08 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2022-10-14-00-00-00",
+            "postingDateStr": "2022-07-17-00-00-00",
+            "archiveDateStr": "2029-03-17-00-00-00",
+            "createTimeStampStr": "2022-10-30-01-00-08"
+          },
+          "cfdas": [
+            {
+              "id": 402919,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 402920,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 402921,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 402905,
+              "opportunityId": 342475,
+              "revision": 12
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "cfdas",
+            "synopsisDesc",
+            "applicantEligibilityDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 342475,
+            "revision": 3
+          },
+          "opportunityId": 342475,
+          "revision": 3,
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": ".",
+          "synopsis": {
+            "id": {
+              "opportunityId": 342475,
+              "revision": 3
+            },
+            "opportunityId": 342475,
+            "revision": 3,
+            "version": 4,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.\n\r\n\nNote: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+            "responseDate": "Feb 15, 2023 12:00:00 AM EST",
+            "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+            "fundingDescLinkDesc": "NSF Publication 22-615",
+            "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+            "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "4800000",
+            "estimatedFundingFormatted": "4,800,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research labs, professional societies and similar organizations in the U.S. associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nTribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.\n\n\n*Who May Serve as PI:\n\nThere are no program-specificrestrictions or limits.",
+            "createTimeStamp": "Oct 30, 2022 01:00:08 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Jan 28, 2023 01:39:08 AM EST",
+            "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "lastUpdatedDate": "Oct 30, 2022 01:00:08 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2023-02-15-00-00-00",
+            "postingDateStr": "2022-07-17-00-00-00",
+            "archiveDateStr": "2029-03-17-00-00-00",
+            "createTimeStampStr": "2022-10-30-01-00-08"
+          },
+          "cfdas": [
+            {
+              "id": 402919,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 402920,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 402921,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 402905,
+              "opportunityId": 342475,
+              "revision": 12
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "responseDate",
+            "applicantEligibilityDesc"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 342475,
+            "revision": 4
+          },
+          "opportunityId": 342475,
+          "revision": 4,
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": ".",
+          "synopsis": {
+            "id": {
+              "opportunityId": 342475,
+              "revision": 4
+            },
+            "opportunityId": 342475,
+            "revision": 4,
+            "version": 5,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.\n\r\n\nNote: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+            "responseDate": "Feb 15, 2023 12:00:00 AM EST",
+            "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+            "fundingDescLinkDesc": "NSF Publication 22-615",
+            "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+            "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "4800000",
+            "estimatedFundingFormatted": "4,800,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nTribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.\n\n\n*Who May Serve as PI:\n\nThere are no program-specificrestrictions or limits.",
+            "createTimeStamp": "Jan 28, 2023 01:39:08 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Mar 21, 2023 01:38:41 PM EDT",
+            "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "lastUpdatedDate": "Jan 28, 2023 01:39:08 AM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2023-02-15-00-00-00",
+            "postingDateStr": "2022-07-17-00-00-00",
+            "archiveDateStr": "2029-03-17-00-00-00",
+            "createTimeStampStr": "2023-01-28-01-39-08"
+          },
+          "cfdas": [
+            {
+              "id": 402919,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 402920,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 402921,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 402905,
+              "opportunityId": 342475,
+              "revision": 12
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "applicantEligibilityDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 342475,
+            "revision": 5
+          },
+          "opportunityId": 342475,
+          "revision": 5,
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": ".",
+          "synopsis": {
+            "id": {
+              "opportunityId": 342475,
+              "revision": 5
+            },
+            "opportunityId": 342475,
+            "revision": 5,
+            "version": 6,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.\n\r\n\nNote: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+            "responseDate": "Sep 15, 2023 12:00:00 AM EDT",
+            "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+            "fundingDescLinkDesc": "NSF Publication 22-615",
+            "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+            "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "4800000",
+            "estimatedFundingFormatted": "4,800,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nTribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.\n\n\n*Who May Serve as PI:\n\nThere are no program-specificrestrictions or limits.",
+            "createTimeStamp": "Mar 21, 2023 01:38:41 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "May 19, 2023 11:29:54 PM EDT",
+            "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "lastUpdatedDate": "Mar 21, 2023 01:38:41 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2023-09-15-00-00-00",
+            "postingDateStr": "2022-07-17-00-00-00",
+            "archiveDateStr": "2029-03-17-00-00-00",
+            "createTimeStampStr": "2023-03-21-13-38-41"
+          },
+          "cfdas": [
+            {
+              "id": 402919,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 402920,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 402921,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 402905,
+              "opportunityId": 342475,
+              "revision": 12
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 342475,
+            "revision": 6
+          },
+          "opportunityId": 342475,
+          "revision": 6,
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": ".",
+          "synopsis": {
+            "id": {
+              "opportunityId": 342475,
+              "revision": 6
+            },
+            "opportunityId": 342475,
+            "revision": 6,
+            "version": 7,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.\n\r\n\nNote: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+            "responseDate": "Sep 15, 2023 12:00:00 AM EDT",
+            "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+            "fundingDescLinkDesc": "NSF Publication 22-615",
+            "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+            "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "4800000",
+            "estimatedFundingFormatted": "4,800,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nTribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.\n\n\n*Who May Serve as PI:\n\nThere are no program-specificrestrictions or limits.",
+            "createTimeStamp": "May 19, 2023 11:29:54 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Oct 01, 2023 01:00:07 AM EDT",
+            "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "lastUpdatedDate": "May 19, 2023 11:29:54 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2023-09-15-00-00-00",
+            "postingDateStr": "2022-07-17-00-00-00",
+            "archiveDateStr": "2029-03-17-00-00-00",
+            "createTimeStampStr": "2023-05-19-23-29-54"
+          },
+          "cfdas": [
+            {
+              "id": 402919,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 402920,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 402921,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 402905,
+              "opportunityId": 342475,
+              "revision": 12
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 342475,
+            "revision": 7
+          },
+          "opportunityId": 342475,
+          "revision": 7,
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": ".",
+          "synopsis": {
+            "id": {
+              "opportunityId": 342475,
+              "revision": 7
+            },
+            "opportunityId": 342475,
+            "revision": 7,
+            "version": 8,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.\n\r\n\nNote: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+            "responseDate": "Feb 15, 2024 12:00:00 AM EST",
+            "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+            "fundingDescLinkDesc": "NSF Publication 22-615",
+            "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+            "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "4800000",
+            "estimatedFundingFormatted": "4,800,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nTribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.\n\n\n*Who May Serve as PI:\n\nThere are no program-specificrestrictions or limits.",
+            "createTimeStamp": "Oct 01, 2023 01:00:07 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Mar 02, 2024 01:00:20 AM EST",
+            "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "lastUpdatedDate": "Oct 01, 2023 01:00:07 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2024-02-15-00-00-00",
+            "postingDateStr": "2022-07-17-00-00-00",
+            "archiveDateStr": "2029-03-17-00-00-00",
+            "createTimeStampStr": "2023-10-01-01-00-07"
+          },
+          "cfdas": [
+            {
+              "id": 402919,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 402920,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 402921,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 402905,
+              "opportunityId": 342475,
+              "revision": 12
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 342475,
+            "revision": 8
+          },
+          "opportunityId": 342475,
+          "revision": 8,
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": ".",
+          "synopsis": {
+            "id": {
+              "opportunityId": 342475,
+              "revision": 8
+            },
+            "opportunityId": 342475,
+            "revision": 8,
+            "version": 9,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.\n\r\n\nNote: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+            "responseDate": "Sep 16, 2024 12:00:00 AM EDT",
+            "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+            "fundingDescLinkDesc": "NSF Publication 22-615",
+            "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+            "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "4800000",
+            "estimatedFundingFormatted": "4,800,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nTribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.\n\n\n*Who May Serve as PI:\n\nThere are no program-specificrestrictions or limits.",
+            "createTimeStamp": "Mar 02, 2024 01:00:20 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Oct 02, 2024 01:00:18 AM EDT",
+            "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "lastUpdatedDate": "Mar 02, 2024 01:00:20 AM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2024-09-16-00-00-00",
+            "postingDateStr": "2022-07-17-00-00-00",
+            "archiveDateStr": "2029-03-17-00-00-00",
+            "createTimeStampStr": "2024-03-02-01-00-20"
+          },
+          "cfdas": [
+            {
+              "id": 402919,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 402920,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 402921,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 402905,
+              "opportunityId": 342475,
+              "revision": 12
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 342475,
+            "revision": 9
+          },
+          "opportunityId": 342475,
+          "revision": 9,
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": ".",
+          "synopsis": {
+            "id": {
+              "opportunityId": 342475,
+              "revision": 9
+            },
+            "opportunityId": 342475,
+            "revision": 9,
+            "version": 10,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.\n\n\nNote: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+            "responseDate": "Feb 18, 2025 12:00:00 AM EST",
+            "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+            "fundingDescLinkDesc": "NSF Publication 22-615",
+            "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+            "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "4800000",
+            "estimatedFundingFormatted": "4,800,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs) - Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting\n     on behalf of their faculty members.Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an\n     international branch campus of a US institution of higher education (including through use of subawards and consultant arrangements), the proposer must explain\n     the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nTribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.\n\n\n*Who May Serve as PI:\n\nThere are no program-specificrestrictions or limits.",
+            "createTimeStamp": "Oct 02, 2024 01:00:18 AM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Mar 06, 2025 01:00:19 AM EST",
+            "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "lastUpdatedDate": "Oct 02, 2024 01:00:18 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-02-18-00-00-00",
+            "postingDateStr": "2022-07-17-00-00-00",
+            "archiveDateStr": "2029-03-17-00-00-00",
+            "createTimeStampStr": "2024-10-02-01-00-18"
+          },
+          "cfdas": [
+            {
+              "id": 402919,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 402920,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 402921,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 402905,
+              "opportunityId": 342475,
+              "revision": 12
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "synopsisDesc",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 342475,
+            "revision": 10
+          },
+          "opportunityId": 342475,
+          "revision": 10,
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": ".",
+          "synopsis": {
+            "id": {
+              "opportunityId": 342475,
+              "revision": 10
+            },
+            "opportunityId": 342475,
+            "revision": 10,
+            "version": 11,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4261",
+            "agencyContactName": "National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.\n\n\nNote: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+            "responseDate": "Sep 15, 2025 12:00:00 AM EDT",
+            "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+            "fundingDescLinkDesc": "NSF Publication 22-615",
+            "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+            "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "4800000",
+            "estimatedFundingFormatted": "4,800,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nTribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.\n\n\n*Who May Serve as PI:\n\nThere are no program-specificrestrictions or limits.",
+            "createTimeStamp": "Mar 06, 2025 01:00:19 AM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Oct 01, 2025 11:00:11 PM EDT",
+            "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "lastUpdatedDate": "Mar 06, 2025 01:00:19 AM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2025-09-15-00-00-00",
+            "postingDateStr": "2022-07-17-00-00-00",
+            "archiveDateStr": "2029-03-17-00-00-00",
+            "createTimeStampStr": "2025-03-06-01-00-19"
+          },
+          "cfdas": [
+            {
+              "id": 402919,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 402920,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 402921,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 402905,
+              "opportunityId": 342475,
+              "revision": 12
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "applicantEligibilityDesc",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 342475,
+            "revision": 11
+          },
+          "opportunityId": 342475,
+          "revision": 11,
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": ".",
+          "synopsis": {
+            "id": {
+              "opportunityId": 342475,
+              "revision": 11
+            },
+            "opportunityId": 342475,
+            "revision": 11,
+            "version": 12,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4203",
+            "agencyContactName": "U.S. National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.\n\n\nNote: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+            "responseDate": "Feb 17, 2026 12:00:00 AM EST",
+            "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+            "fundingDescLinkDesc": "NSF Publication 22-615",
+            "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+            "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "4800000",
+            "estimatedFundingFormatted": "4,800,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nTribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.\n\n\n*Who May Serve as PI:\n\nThere are no program-specificrestrictions or limits.",
+            "createTimeStamp": "Oct 01, 2025 11:00:11 PM EDT",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Mar 05, 2026 11:00:13 PM EST",
+            "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "lastUpdatedDate": "Oct 01, 2025 11:00:11 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2026-02-17-00-00-00",
+            "postingDateStr": "2022-07-17-00-00-00",
+            "archiveDateStr": "2029-03-17-00-00-00",
+            "createTimeStampStr": "2025-10-01-23-00-11"
+          },
+          "cfdas": [
+            {
+              "id": 402919,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 402920,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 402921,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 402905,
+              "opportunityId": 342475,
+              "revision": 12
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        },
+        {
+          "oppHistId": {
+            "opportunityId": 342475,
+            "revision": 12
+          },
+          "opportunityId": 342475,
+          "revision": 12,
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "modifiedComments": ".",
+          "synopsis": {
+            "id": {
+              "opportunityId": 342475,
+              "revision": 12
+            },
+            "opportunityId": 342475,
+            "revision": 12,
+            "version": 13,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4203",
+            "agencyContactName": "U.S. National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "This funding partnership between the National Science Foundation (NSF) and the National Endowment for the Humanities (NEH) supports projects to develop and advance knowledge concerning dynamic language infrastructure in the context of endangered human languages &mdash; languages that are both understudied and at risk of falling out of use. Made urgent by the imminent loss of roughly half of the approximately 7,000 currently used languages, this effort aims to exploit advances in human-language technology to build computational infrastructure for endangered language research. The program supports projects that contribute to data management and archiving, and to the development of the next generation of researchers. Funding can support fieldwork and other activities relevant to the digital recording, documentation and analysis, and archiving of endangered language data, including the preparation of lexicons, grammars, text samples, and databases. Funding is available in the form of one- to three-year senior research grants and conference proposals. Fellowship support is available through a <a href=\"https://www.neh.gov/program/dli-del-fellowships\">separate funding opportunity administered by NEH</a>.\n\n\nNote: a conference proposal should generally be submitted at least a year in advance of the scheduled date of the conference. For additional information about creating and submitting conference proposals, please refer to PAPPG Chapter II. E.9.",
+            "responseDate": "Sep 15, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+            "fundingDescLinkUrl": "http://www.nsf.gov/publications/pub_summ.jsp?ods_key=nsf22615",
+            "fundingDescLinkDesc": "NSF Publication 22-615",
+            "postingDate": "Jul 17, 2022 12:00:00 AM EDT",
+            "archiveDate": "Mar 17, 2029 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "25",
+            "estimatedFunding": "4800000",
+            "estimatedFundingFormatted": "4,800,000",
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "applicantEligibilityDesc": "*Who May Submit Proposals: Proposals may only be submitted by the following:\n  -Non-profit, non-academic organizations: Independent museums, observatories, research laboratories, professional societies and similar organizations located in the U.S. that are directly associated with educational or research activities.\n  -Institutions of Higher Education (IHEs): Two- and four-year IHEs (including community colleges) accredited in, and having a campus located in the US, acting on behalf of their faculty members. Special Instructions for International Branch Campuses of US IHEs: If the proposal includes funding to be provided to an international branch campus of a US institution of higher education (including through use of sub-awards and consultant arrangements), the proposer must explain the benefit(s) to the project of performance at the international branch campus, and justify why the project activities cannot be performed at the US campus.\n  -\nTribal organizations and other American Indian, Alaska Native, and Native Hawaiian serving organizations.\n\n\n*Who May Serve as PI:\n\nThere are no program-specificrestrictions or limits.",
+            "createTimeStamp": "Mar 05, 2026 11:00:13 PM EST",
+            "sendEmail": "N",
+            "modComments": ".",
+            "actionType": "U",
+            "actionDate": "Mar 18, 2026 11:00:12 PM EDT",
+            "createdDate": "Jul 17, 2022 01:00:11 AM EDT",
+            "lastUpdatedDate": "Mar 05, 2026 11:00:13 PM EST",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2026-09-15-00-00-00",
+            "postingDateStr": "2022-07-17-00-00-00",
+            "archiveDateStr": "2029-03-17-00-00-00",
+            "createTimeStampStr": "2026-03-05-23-00-13"
+          },
+          "cfdas": [
+            {
+              "id": 402919,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.050",
+              "programTitle": "Geosciences"
+            },
+            {
+              "id": 402920,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.070",
+              "programTitle": "Computer and Information Science and Engineering"
+            },
+            {
+              "id": 402921,
+              "opportunityId": 342475,
+              "revision": 12,
+              "cfdaNumber": "47.075",
+              "programTitle": "Social, Behavioral, and Economic Sciences"
+            },
+            {
+              "id": 402905,
+              "opportunityId": 342475,
+              "revision": 12
+            }
+          ],
+          "synopsisModifiedFields": [
+            "revision",
+            "version",
+            "responseDate",
+            "createTimeStamp"
+          ],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 276069,
+          "topportunityId": 342475,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "22-615",
+          "opportunityTitle": "NSF Dynamic Language Infrastructure - NEH Documenting Endangered Languages",
+          "openingDate": "2022-07-17",
+          "closingDate": "2026-09-15",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "Wilson de Lima Silva\nE-mail: widelima@nsf.gov\nPhone: (703) 292-7096",
+          "gracePeriod": 15,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 90,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Mar 18, 2026 11:18:58 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00276069",
+          "openingDateStr": "2022-07-17-00-00-00",
+          "closingDateStr": "2026-09-15-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Oct 14, 2022 12:00:00 AM EDT",
+      "originalDueDateDesc": "Senior research and conference proposals; Senior research and conference proposals",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 13,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

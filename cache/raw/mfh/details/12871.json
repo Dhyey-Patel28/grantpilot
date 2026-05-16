@@ -1,0 +1,32 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=12871",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=12871",
+  "website": "https://www.michigan.gov/egle/about/organization/remediation-and-redevelopment/brownfields/grants-and-loans",
+  "grant_id": "12871",
+  "title": "Brownfield Grants and Loans",
+  "overview": "The Michigan Department of Environment, Great Lakes, and Energy (EGLE) offers grants and loans for projects that promote the reuse of contaminated properties and provide economic benefit to the community. These funds help revitalize abandoned properties, attract developers, and avoid sprawl by reusing properties with existing infrastructure.Eligible applicants include local units of government, brownfield redevelopment authorities (BRAs), economic development corporations, or other public bodies created pursuant to state law. Grants and loans cannot benefit a party responsible for an activity causing contamination at the property.Eligible activities include environmental investigations, Baseline Environmental Assessments, due care planning and implementation, underground storage tank removal, response activities, and demolition/lead/mold/asbestos abatement when certain criteria are met.Applications are accepted year-round. EGLE Brownfield Redevelopment staff collaborate with communities to determine eligibility and the optimal mix of project funding prior to application. Applicants should contact an EGLE Grant Coordinator to discuss their project before applying. Show More",
+  "additional_info": "Posted Date: January 31, 2023 Application Due Date: Not Specified Estimated Award Date: Not Specified Eligible Applicants: City or township governmentsCounty governmentsSpecial district governmentsOthers Show More",
+  "eligible_applicants": [
+    "City or township governmentsCounty governmentsSpecial district governmentsOthers"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "energy",
+    "environment"
+  ],
+  "due_date": "",
+  "agency": "Michigan Department of Environment, Great Lakes, and Energy",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:30.648Z",
+  "content_hash": "9c223ac6550c9f2abb216667c1a930900e94c138c83252a6181cf6c29878a2cc",
+  "from_cache": false
+}

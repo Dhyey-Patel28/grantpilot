@@ -1,0 +1,124 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "356048",
+  "fetched_at": "2026-05-16T14:07:18.383Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ii8yN3BEcE55dEllNEp3TjlBbTluaDdJV3JJSnZFWEJJYXFtYUx4eHFMcW89Ig.rH9sFU0hAS0WLcZG5lDoTk6IcA5_VcUw6dPOPG27QS0",
+    "data": {
+      "id": 356048,
+      "revision": 0,
+      "opportunityNumber": "FOR-FD-25-008",
+      "opportunityTitle": "Retail Food Safety Regulatory Association Collaboration CAP",
+      "owningAgencyCode": "HHS-FDA",
+      "listed": "L",
+      "publisherUid": "Terrin.Brown@fda.hhs.gov",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "FDA",
+        "seed": "HHS-FDA",
+        "agencyName": "Food and Drug Administration",
+        "agencyCode": "HHS-FDA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "forecast": {
+        "opportunityId": 356048,
+        "version": 1,
+        "postingDate": "Aug 14, 2024 12:00:00 AM EDT",
+        "forecastDesc": "<p>The proposed cooperative agreement is a renewal of the existing CAP supporting key stakeholders in retail food safety to coordinate and advance retail food protection in the United States.&nbsp;</p><p><br></p><p>The intended outcome of this NOFO is to collaboratively advance retail food safety initiatives to reduce food-borne illness. This cooperative agreement is intended to advance practices in retail food protection, conduct research related to such practices and identify opportunities for collaboration to reduce the occurrence of food-borne illness risk factors.&nbsp;</p>",
+        "costSharing": false,
+        "numberOfAwards": "5",
+        "awardCeiling": "4000000",
+        "awardFloor": "4000000",
+        "agencyContactName": "Terrin Brown\r\nGrantor",
+        "agencyContactPhone": "2404027610",
+        "agencyContactEmail": "terrin.brown@fda.hhs.gov",
+        "agencyContactEmailDesc": "terrin.brown@fda.hhs.gov",
+        "agencyCode": "HHS-FDA",
+        "sendEmail": "Y",
+        "applicantEligibilityDesc": "Competition will be limited to non-profit national organizations affiliated with one or more institutions of higher learning whose membership includes state, local, tribal and territorial regulatory personnel whose primary duties include retail food safety, as explicitly permitted by the grant-making provisions of FSMA (21 USC 399). \r\n\r\nThese organizations are well situated to assist FDA in leveraging state and local jurisdictions to advance retail food protection and reduce the national burden of foodborne illness and injury.",
+        "estApplicationResponseDateDesc": "",
+        "fiscalYear": 2025,
+        "createTimeStamp": "Aug 14, 2024 09:50:26 PM EDT",
+        "createdDate": "Aug 14, 2024 09:50:26 PM EDT",
+        "lastUpdatedDate": "Aug 14, 2024 09:50:26 PM EDT",
+        "agencyDetails": {
+          "code": "FDA",
+          "seed": "HHS-FDA",
+          "agencyName": "Food and Drug Administration",
+          "agencyCode": "HHS-FDA",
+          "topAgencyCode": "HHS"
+        },
+        "awardCeilingFormatted": "4,000,000",
+        "awardFloorFormatted": "4,000,000",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "AG",
+            "description": "Agriculture"
+          },
+          {
+            "id": "CP",
+            "description": "Consumer Protection"
+          },
+          {
+            "id": "FN",
+            "description": "Food and Nutrition"
+          }
+        ],
+        "postingDateStr": "2024-08-14-00-00-00",
+        "createTimeStampStr": "2024-08-14-21-50-26"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 423135,
+          "opportunityId": 356048,
+          "cfdaNumber": "93.103",
+          "programTitle": "Food and Drug Administration Research"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

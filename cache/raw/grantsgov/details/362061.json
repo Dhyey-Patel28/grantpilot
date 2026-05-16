@@ -1,0 +1,265 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362061",
+  "fetched_at": "2026-05-16T14:09:44.048Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlovOUhRV3FWTlh4SjVxVE1ldXFpYXFKSGxteldXZ1JBbWtxdVRFRWVveDg9Ig.cpLKfKGax2P7FWCWszXICqjNwka20RlzkFqz101cvtU",
+    "data": {
+      "id": 362061,
+      "revision": 1,
+      "opportunityNumber": "PD-26-367Y",
+      "opportunityTitle": "Chemical Process Systems (CPS)",
+      "owningAgencyCode": "NSF",
+      "listed": "L",
+      "publisherUid": "NSFServices",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362061,
+        "version": 2,
+        "agencyCode": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyPhone": "703-292-4203",
+        "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "agencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "topAgencyDetails": {
+          "code": "NSF",
+          "seed": "NSF",
+          "agencyName": "U.S. National Science Foundation",
+          "agencyCode": "NSF",
+          "topAgencyCode": "NSF"
+        },
+        "agencyContactPhone": "703-292-4203",
+        "agencyContactName": "U.S. National Science Foundation",
+        "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+        "agencyContactEmail": "grantsgovsupport@nsf.gov",
+        "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+        "synopsisDesc": "Society relies on chemical processes to turn raw materials into useful products. The Chemical Process Systems (CPS) program invests in fundamental research on chemical and biochemical processes to make them more efficient, sustainable, and resilient. New CPS technologies for manufacturing, biotechnology, critical minerals, energy, food, and other national priorities will help make the U.S. more competitive and secure.\n\n\nResearch supported by the CPS program covers the full breadth of chemical and biochemical process innovation. It spans reaction engineering and molecular thermodynamics; reactor design; catalysis; electrochemical systems; separations; and process design. The program encourages proposals that connect the molecular scale to process and plant scales.\n\n\nThe CPS program explores active-site structure and function, reaction mechanisms, in situ and operando characterization, durability, and device-level integration. Microreactors, membrane and catalytic reactors, atmospheric plasmas, and other novel configurations are of interest.\n\n\nThe program supports research in catalysis and electrochemical systems to produce, use, and store energy, to reduce waste, to process polymers, and to synthesize fuels and chemicals. This includes process and materials innovation to support the nuclear fuel cycle.\n\n\nThe CPS program also targets chemical and biological separations that are efficient and scalable. Research includes the design of membranes, sorbents, and specialized interfaces. Advances can be used in gas separations, the recovery of critical minerals, bioprocessing, and protein and water purification.\n\n\nThe program supports research in process design and optimization that uses tools such as artificial intelligence, machine learning, and uncertainty quantification. CPS research also explores quantum information science and engineering; quantum simulation and sensing, for example, may accelerate the discovery of materials and improve process models.\n\n\nPartnerships: To speed discovery and innovation, NSF partners with federal agencies, industry, international groups, and others. Current opportunities are at <a href=\"https://www.nsf.gov/eng/partnerships\">NSF ENG Partnerships.</a>",
+        "responseDateDesc": "Proposals accepted anytime",
+        "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506547",
+        "fundingDescLinkDesc": "NSF Program Desccription PD-26-367Y",
+        "postingDate": "Apr 24, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "sendEmail": "N",
+        "createTimeStamp": "Apr 27, 2026 11:00:13 PM EDT",
+        "modComments": ".",
+        "createdDate": "Apr 24, 2026 11:00:08 PM EDT",
+        "lastUpdatedDate": "Apr 27, 2026 11:00:13 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "99",
+            "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "postingDateStr": "2026-04-24-00-00-00",
+        "createTimeStampStr": "2026-04-27-23-00-13"
+      },
+      "agencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "topAgencyDetails": {
+        "code": "NSF",
+        "seed": "NSF",
+        "agencyName": "U.S. National Science Foundation",
+        "agencyCode": "NSF",
+        "topAgencyCode": "NSF"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432892,
+          "opportunityId": 362061,
+          "cfdaNumber": "47.041",
+          "programTitle": "Engineering"
+        },
+        {
+          "id": 432896,
+          "opportunityId": 362061
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 362061,
+            "revision": 0
+          },
+          "opportunityId": 362061,
+          "revision": 0,
+          "opportunityNumber": "PD-26-367Y",
+          "opportunityTitle": "Chemical Process Systems (CPS)",
+          "owningAgencyCode": "NSF",
+          "publisherUid": "NSFServices",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 362061,
+              "revision": 0
+            },
+            "opportunityId": 362061,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "NSF",
+            "agencyAddressDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "agencyDetails": {
+              "code": "NSF",
+              "seed": "NSF",
+              "agencyName": "U.S. National Science Foundation",
+              "agencyCode": "NSF",
+              "topAgencyCode": "NSF"
+            },
+            "agencyContactPhone": "703-292-4203",
+            "agencyContactName": "U.S. National Science Foundation",
+            "agencyContactDesc": "NSF grants.gov support\ngrantsgovsupport@nsf.gov",
+            "agencyContactEmail": "grantsgovsupport@nsf.gov",
+            "agencyContactEmailDesc": "If you have any problems linking to this funding announcement, please contact the email address above.",
+            "synopsisDesc": "<div class=\"OutlineElement Ltr SCXW215301910 BCX4\">\n<p class=\"Paragraph SCXW215301910 BCX4\"><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW215301910 BCX4\">Society relies on chemical processes to turn raw materials into useful products.</span><span class=\"NormalTextRun SCXW215301910 BCX4\">The Chemical Process Systems (CPS) program</span><span class=\"NormalTextRun SCXW215301910 BCX4\">invests in</span><span class=\"NormalTextRun SCXW215301910 BCX4\">fundamental research on chemical and biochemical processes</span><span class=\"NormalTextRun SCXW215301910 BCX4\">to make them more</span><span class=\"NormalTextRun SCXW215301910 BCX4\">efficient, sustainable, and resilient.</span><span class=\"NormalTextRun SCXW215301910 BCX4\">New</span><span class=\"NormalTextRun SCXW215301910 BCX4\">CPS</span><span class=\"NormalTextRun SCXW215301910 BCX4\">technologies</span><span class=\"NormalTextRun SCXW215301910 BCX4\">for</span><span class=\"NormalTextRun SCXW215301910 BCX4\">manufacturing,</span><span class=\"NormalTextRun SCXW215301910 BCX4\">biotechnology</span><span class=\"NormalTextRun SCXW215301910 BCX4\">, critical minerals, energy, food, and other</span><span class=\"NormalTextRun SCXW215301910 BCX4\">national priorities</span><span class=\"NormalTextRun SCXW215301910 BCX4\"></span><span class=\"NormalTextRun SCXW215301910 BCX4\">will help make the U.S. more competitive and secure</span><span class=\"NormalTextRun SCXW215301910 BCX4\">.</span></span><span class=\"EOP SCXW215301910 BCX4\" data-ccp-props=\"{&quot;335551550&quot;:6,&quot;335551620&quot;:6}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW215301910 BCX4\">\n<p class=\"Paragraph SCXW215301910 BCX4\"><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW215301910 BCX4\">Research supported by the CPS program</span><span class=\"NormalTextRun SCXW215301910 BCX4\">covers</span><span class=\"NormalTextRun SCXW215301910 BCX4\">the full breadth of chemical and biochemical process innovation.</span><span class=\"NormalTextRun SCXW215301910 BCX4\">It</span><span class=\"NormalTextRun SCXW215301910 BCX4\">spans reaction engineering</span><span class=\"NormalTextRun SCXW215301910 BCX4\">and</span><span class=\"NormalTextRun SCXW215301910 BCX4\">molecular thermodynamics</span><span class=\"NormalTextRun SCXW215301910 BCX4\">;</span><span class=\"NormalTextRun SCXW215301910 BCX4\">reactor design</span><span class=\"NormalTextRun SCXW215301910 BCX4\">;</span><span class=\"NormalTextRun SCXW215301910 BCX4\"></span><span class=\"NormalTextRun SCXW215301910 BCX4\">catalysis</span><span class=\"NormalTextRun SCXW215301910 BCX4\">;</span><span class=\"NormalTextRun SCXW215301910 BCX4\"></span><span class=\"NormalTextRun SCXW215301910 BCX4\">electrochemical systems</span><span class=\"NormalTextRun SCXW215301910 BCX4\">;</span><span class=\"NormalTextRun SCXW215301910 BCX4\">separations</span><span class=\"NormalTextRun SCXW215301910 BCX4\">;</span><span class=\"NormalTextRun SCXW215301910 BCX4\"></span><span class=\"NormalTextRun SCXW215301910 BCX4\">and process</span><span class=\"NormalTextRun SCXW215301910 BCX4\">design</span><span class=\"NormalTextRun SCXW215301910 BCX4\">.</span><span class=\"NormalTextRun SCXW215301910 BCX4\"></span><span class=\"NormalTextRun SCXW215301910 BCX4\">The program encourages proposals</span><span class=\"NormalTextRun SCXW215301910 BCX4\">that</span><span class=\"NormalTextRun SCXW215301910 BCX4\">connect the molecular scale to process and plant scales</span><span class=\"NormalTextRun SCXW215301910 BCX4\">.</span></span><span class=\"EOP SCXW215301910 BCX4\" data-ccp-props=\"{&quot;335551550&quot;:6,&quot;335551620&quot;:6}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW215301910 BCX4\">\n<p class=\"Paragraph SCXW215301910 BCX4\"><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">The CPS program explores active-site structure and function, reaction mechanisms,</span><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">in situ</span><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">and</span><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">operando</span><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW215301910 BCX4\">characterization, durability, and device-level integration.</span><span class=\"NormalTextRun SCXW215301910 BCX4\">M</span><span class=\"NormalTextRun SCXW215301910 BCX4\">icroreactors, membrane and catalytic reactors, atmospheric plasmas</span><span class=\"NormalTextRun SCXW215301910 BCX4\">, and other novel configurations are of interest</span><span class=\"NormalTextRun SCXW215301910 BCX4\">.</span></span><span class=\"EOP SCXW215301910 BCX4\" data-ccp-props=\"{&quot;335551550&quot;:6,&quot;335551620&quot;:6}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW215301910 BCX4\">\n<p class=\"Paragraph SCXW215301910 BCX4\"><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW215301910 BCX4\">The program supports research in catalysis and electrochemical systems to produce, use, and store energy, to reduce waste, to process polymers, and to synthesize fuels and chemicals. This includes process and materials innovation to support the</span><span class=\"NormalTextRun SCXW215301910 BCX4\">nuclear fuel cycle</span><span class=\"NormalTextRun SCXW215301910 BCX4\">.</span></span><span class=\"TextRun Strikethrough SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW215301910 BCX4\"></span></span><span class=\"EOP SCXW215301910 BCX4\" data-ccp-props=\"{&quot;335551550&quot;:6,&quot;335551620&quot;:6}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW215301910 BCX4\">\n<p class=\"Paragraph SCXW215301910 BCX4\"><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW215301910 BCX4\">The</span><span class=\"NormalTextRun SCXW215301910 BCX4\">CPS</span><span class=\"NormalTextRun SCXW215301910 BCX4\">program</span><span class=\"NormalTextRun SCXW215301910 BCX4\">also</span><span class=\"NormalTextRun SCXW215301910 BCX4\">targets chemical and biological separations</span><span class=\"NormalTextRun SCXW215301910 BCX4\">that are efficient and scalable</span><span class=\"NormalTextRun SCXW215301910 BCX4\">.</span><span class=\"NormalTextRun SCXW215301910 BCX4\">Research</span><span class=\"NormalTextRun SCXW215301910 BCX4\">includes the design of membranes, sorbents, and</span><span class=\"NormalTextRun SCXW215301910 BCX4\">specialized</span><span class=\"NormalTextRun SCXW215301910 BCX4\">interfaces</span><span class=\"NormalTextRun SCXW215301910 BCX4\">. Advances</span><span class=\"NormalTextRun SCXW215301910 BCX4\">can</span><span class=\"NormalTextRun SCXW215301910 BCX4\"></span><span class=\"NormalTextRun SCXW215301910 BCX4\">be</span><span class=\"NormalTextRun SCXW215301910 BCX4\">use</span><span class=\"NormalTextRun SCXW215301910 BCX4\">d</span><span class=\"NormalTextRun SCXW215301910 BCX4\"></span><span class=\"NormalTextRun SCXW215301910 BCX4\">in gas separations,</span><span class=\"NormalTextRun SCXW215301910 BCX4\">the</span><span class=\"NormalTextRun SCXW215301910 BCX4\">recovery of</span><span class=\"NormalTextRun SCXW215301910 BCX4\">critical minerals</span><span class=\"NormalTextRun SCXW215301910 BCX4\">,</span><span class=\"NormalTextRun SCXW215301910 BCX4\">bioprocessing, and</span><span class=\"NormalTextRun SCXW215301910 BCX4\">protein and</span><span class=\"NormalTextRun SCXW215301910 BCX4\">water purification.</span></span><span class=\"EOP SCXW215301910 BCX4\" data-ccp-props=\"{&quot;335551550&quot;:6,&quot;335551620&quot;:6}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW215301910 BCX4\">\n<p class=\"Paragraph SCXW215301910 BCX4\"><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"><span class=\"NormalTextRun SCXW215301910 BCX4\">The program supports research in process design and optimization that uses</span><span class=\"NormalTextRun SCXW215301910 BCX4\">tools such as</span><span class=\"NormalTextRun SCXW215301910 BCX4\">artificial intelligence, machine learning, and uncertainty quantification. CPS research also explores quantum information science and engineering</span><span class=\"NormalTextRun SCXW215301910 BCX4\">;</span><span class=\"NormalTextRun SCXW215301910 BCX4\">quantum simulation and sensing</span><span class=\"NormalTextRun SCXW215301910 BCX4\">, for example, may</span><span class=\"NormalTextRun SCXW215301910 BCX4\">accelerate the discovery of materials and improve process models.</span></span><span class=\"EOP SCXW215301910 BCX4\" data-ccp-props=\"{&quot;335551550&quot;:6,&quot;335551620&quot;:6}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW215301910 BCX4\">\n<p class=\"Paragraph SCXW215301910 BCX4\"><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">Partnerships:</span><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">To speed discovery and innovation, NSF partners with federal agencies, industry, international groups, and others. Current opportunities are at</span><a class=\"Hyperlink SCXW215301910 BCX4\" href=\"https://nsf.gov/eng/partnerships\" rel=\"noreferrer noopener\" target=\"_blank\"><span class=\"TextRun Underlined SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW215301910 BCX4\" data-ccp-charstyle=\"Hyperlink\">NSF ENG Partnerships</span></span></a><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\">.</span><span class=\"TextRun SCXW215301910 BCX4\" lang=\"EN-US\" xml:lang=\"EN-US\" data-contrast=\"auto\"></span><span class=\"EOP SCXW215301910 BCX4\" data-ccp-props=\"{}\"></span>\n\n</div>\n<div class=\"OutlineElement Ltr SCXW215301910 BCX4\">\n<p class=\"Paragraph SCXW215301910 BCX4\"><span class=\"EOP SCXW215301910 BCX4\" data-ccp-props=\"{}\"></span>\n\n</div>",
+            "responseDateDesc": "Proposals accepted anytime",
+            "fundingDescLinkUrl": "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=506547",
+            "fundingDescLinkDesc": "NSF Program Desccription PD-26-367Y",
+            "postingDate": "Apr 24, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "awardCeiling": "none",
+            "awardFloor": "none",
+            "createTimeStamp": "Apr 24, 2026 11:00:08 PM EDT",
+            "actionType": "U",
+            "actionDate": "Apr 27, 2026 11:00:13 PM EDT",
+            "createdDate": "Apr 24, 2026 11:00:08 PM EDT",
+            "lastUpdatedDate": "Apr 24, 2026 11:00:08 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "99",
+                "description": "Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "postingDateStr": "2026-04-24-00-00-00",
+            "createTimeStampStr": "2026-04-24-23-00-08"
+          },
+          "cfdas": [
+            {
+              "id": 432892,
+              "opportunityId": 362061,
+              "revision": 0,
+              "cfdaNumber": "47.041",
+              "programTitle": "Engineering"
+            },
+            {
+              "id": 432896,
+              "opportunityId": 362061,
+              "revision": 0
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292500,
+          "topportunityId": 362061,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PD-26-367Y",
+          "opportunityTitle": "Chemical Process Systems (CPS)",
+          "openingDate": "2026-04-24",
+          "closingDate": "2026-09-30",
+          "owningAgencyCode": "NSF",
+          "agencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "topAgencyDetails": {
+            "code": "NSF",
+            "seed": "NSF",
+            "agencyName": "U.S. National Science Foundation",
+            "agencyCode": "NSF",
+            "topAgencyCode": "NSF"
+          },
+          "contactInfo": "CPS Program Team\nE-mail: cbet-cps@nsf.gov",
+          "gracePeriod": 30,
+          "electronicRequired": "N",
+          "expectedApplicationCount": 500,
+          "openToApplicantType": 3,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 27, 2026 11:25:24 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292500",
+          "openingDateStr": "2026-04-24-00-00-00",
+          "closingDateStr": "2026-09-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDateDesc": "Proposals accepted anytime",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361957",
+  "fetched_at": "2026-05-16T14:09:29.084Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IlJVWndyVTk1UWk0d3lDYXRJcUR5RDRtRWJhWnVuSDhLT010b2owRDZ1Zjg9Ig.SaTsVkCdmoVdJCl1gb80uRGiAF0ajF-R--bRw0dOE78",
+    "data": {
+      "id": 361957,
+      "revision": 0,
+      "opportunityNumber": "HE125426R5001",
+      "opportunityTitle": "Military-Connected Schools Construction, Modernization and Facilities Maintenance Program",
+      "owningAgencyCode": "DOD-DODEA",
+      "listed": "L",
+      "publisherUid": "jperkins229",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361957,
+        "version": 1,
+        "agencyCode": "DOD-DODEA",
+        "agencyName": "Jennifer E Dailey-Perkins\nGrantor",
+        "agencyPhone": "571-372-5861",
+        "agencyAddressDesc": "DoWEA Grants Program Office Mailbox",
+        "agencyDetails": {
+          "code": "DODEA",
+          "seed": "DOD-DODEA",
+          "agencyName": "DoD Education Activity",
+          "agencyCode": "DOD-DODEA",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "571-372-5861",
+        "agencyContactName": "Jennifer E Dailey-Perkins\nGrantor",
+        "agencyContactDesc": "Jennifer Dailey-Perkins\r\nDoWEA Grant Program Manager \r\nPhone 571-372-5861",
+        "agencyContactEmail": "dodea.grants@dodea.edu",
+        "agencyContactEmailDesc": "DoWEA Grants Program Office Mailbox",
+        "synopsisDesc": "<p>The opportunity is authorized under 10 U.S.C. § 2008, which permits the Department of War (DoW) to use appropriated funds to support the construction, renovation, repair, or expansion of school facilities serving federally connected students.&nbsp;The goal of this opportunity is to strengthen learning conditions for military‑connected students by addressing critical infrastructure needs. Funded projects should support one or more of the following objectives:</p><p>&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Modernizing or renovating school facilities to improve health, safety, accessibility, environmental quality, and emergency preparedness. Projects may include upgrades to building systems, structural improvements, or the creation of safe and secure learning spaces that contribute to student success.</p><p>&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enhancing academic learning conditions through facility‑based improvements, such as upgraded classrooms, modernized instructional areas, specialized learning spaces, and technology‑ready environments.</p><p><br></p><p>The amount available through this announcement is $100M. Publication of this notice does not oblige DoWEA to award a grant to any specific project or to obligate any available funding. Applications submitted under this announcement may be considered for funding in subsequent fiscal years subject to the availability of funds. Funds must be used for educational facilities only. Any LEA that receives funds under this subsection shall use such funds for construction, as defined in section 7013(3) of the Elementary and Secondary Education Act of 1965 (codified at 20 U.S.C. § 7713(3)). The term ‘‘construction’’ means the following:</p><p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The preparation of drawings and specifications for school facilities;</p><p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Erecting, building, acquiring, altering, remodeling, repairing, or extending school facilities;</p><p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inspecting and supervising the construction of school facilities; and</p><p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Debt service for such activities.</p><p><br></p><p>There are two funding priorities. Those priorities are as follows:</p><p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Priority 1</strong> will be given to applicants whose projects demonstrate an emergency need. Emergency needs may include addressing facility conditions that pose immediate health or safety risks, such as structural failure, significant roof leaks that threaten building integrity, inoperable HVAC systems that create unsafe temperatures, or environmental hazards such as mold, water intrusion, or failing electrical systems that jeopardize student safety. The following conditions may pose an immediate threat to life safety and would be considered emergency need(s):</p><p>a.&nbsp;&nbsp;&nbsp;&nbsp;Compromise structural integrity;</p><p>b.&nbsp;&nbsp;&nbsp;&nbsp;Violate applicable building or fire codes in a manner that risks occupancy; or</p><p>c.&nbsp;&nbsp;&nbsp;&nbsp;Render the facility unusable for instructional purposes.</p><p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Priority 2</strong> will be given to applicants whose project shows clear alignment between physical modernization and academic needs, including construction or renovation activities that directly support instructional delivery.</p><p><br></p>",
+        "responseDate": "May 22, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://dodeagrants.org/FundingOpportunities",
+        "fundingDescLinkDesc": "Department of War Education Activity Evaluation and Technical Assistance Center",
+        "postingDate": "Apr 19, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 21, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "estimatedFunding": "100000000",
+        "estimatedFundingFormatted": "100,000,000",
+        "awardCeiling": "25000000",
+        "awardCeilingFormatted": "25,000,000",
+        "awardFloor": "250000",
+        "awardFloorFormatted": "250,000",
+        "applicantEligibilityDesc": "The local education agency (LEA) applies for this funding opportunity on behalf of their specific target schools. The following eligibility requirements apply: \r\n&bull;\tLEA must be eligible to receive U.S. Department of Education Impact Aid Basic Support Payments under Section 7003(b). Under this eligibility, an LEA must educate at least 400 federally connected children in average daily attendance, or the federally connected children must make up at least 3 percent of the LEA&rsquo;s total average daily attendance; and,  \r\n&bull;\tTarget schools for this opportunity must have 15 percent or more military connected student enrollment at the time of application. Under this announcement, military-connected students are defined as the children of members of the uniformed services and children whose parents work on Federal property. This enrollment must be verifiable through school records and/or military student identifier sources.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 20, 2026 01:28:33 PM EDT",
+        "createdDate": "Apr 19, 2026 05:37:12 PM EDT",
+        "lastUpdatedDate": "Apr 19, 2026 05:37:12 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ED",
+            "description": "Education"
+          }
+        ],
+        "responseDateStr": "2026-05-22-00-00-00",
+        "postingDateStr": "2026-04-19-00-00-00",
+        "archiveDateStr": "2026-06-21-00-00-00",
+        "createTimeStampStr": "2026-04-20-13-28-33"
+      },
+      "agencyDetails": {
+        "code": "DODEA",
+        "seed": "DOD-DODEA",
+        "agencyName": "DoD Education Activity",
+        "agencyCode": "DOD-DODEA",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79326,
+          "opportunityId": 361957,
+          "folderType": "Full Announcement",
+          "folderName": "NOFO Instructions",
+          "zipLobSize": 536842,
+          "createdDate": "Apr 19, 2026 05:37:31 PM EDT",
+          "lastUpdatedDate": "Apr 20, 2026 01:28:33 PM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351308,
+              "opportunityId": 361957,
+              "mimeType": "application/pdf",
+              "fileName": "NOFO Instructions April192026.pdf",
+              "fileDescription": "Instructions",
+              "fileLobSize": 619860,
+              "createdDate": "Apr 19, 2026 05:37:56 PM EDT",
+              "lastUpdatedDate": "Apr 20, 2026 01:28:33 PM EDT",
+              "synopsisAttFolderId": 79326
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432779,
+          "opportunityId": 361957,
+          "cfdaNumber": "12.556",
+          "programTitle": "Competitive Grants: Promoting K-12 Student Achievement at Military-Connected Schools"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 292446,
+          "topportunityId": 361957,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "HE125426R5001",
+          "opportunityTitle": "Military-Connected Schools Construction, Modernization and Facilities Maintenance Program",
+          "cfdaNumber": "12.556",
+          "openingDate": "2026-04-19",
+          "closingDate": "2026-05-22",
+          "owningAgencyCode": "DOD-DODEA",
+          "agencyDetails": {
+            "code": "DODEA",
+            "seed": "DOD-DODEA",
+            "agencyName": "DoD Education Activity",
+            "agencyCode": "DOD-DODEA",
+            "topAgencyCode": "DOD"
+          },
+          "topAgencyDetails": {
+            "code": "DOD",
+            "seed": "DOD",
+            "agencyName": "Department of Defense",
+            "agencyCode": "DOD",
+            "topAgencyCode": "DOD"
+          },
+          "programTitle": "Competitive Grants: Promoting K-12 Student Achievement at Military-Connected Schools",
+          "contactInfo": "Jennifer Dailey-Perkins\r\nDoWEA Grant Program Manager \r\nE-mail: jennifer.perkins@dodea.edu\r\nPhone: 571-372-5861",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 50,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 20, 2026 01:29:27 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292446",
+          "openingDateStr": "2026-04-19-00-00-00",
+          "closingDateStr": "2026-05-22-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 22, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

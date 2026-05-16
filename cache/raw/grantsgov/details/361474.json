@@ -1,0 +1,478 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361474",
+  "fetched_at": "2026-05-16T14:08:52.001Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldVS2dnSjZQR2p1UE9WTXplSXpvUDdiekY2bE05YXZoNDhsTEQwZWppTzA9Ig.vm90Uwo6fjJckVED5za2JlT8e6eZ8wfc4BCv5g4q2JY",
+    "data": {
+      "id": 361474,
+      "revision": 1,
+      "opportunityNumber": "RUS-26-01-DLT",
+      "opportunityTitle": "Distance Learning and Telemedicine Grants",
+      "owningAgencyCode": "USDA-RUS",
+      "listed": "L",
+      "publisherUid": "myriahpope",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361474,
+        "version": 8,
+        "agencyCode": "USDA-RUS",
+        "agencyName": "Scott D Steiner\nSupervisory Electronics Engineer",
+        "agencyPhone": "2027208820",
+        "agencyAddressDesc": "DLT Help Desk - www.usda.gov/reconnect/contact-us",
+        "agencyDetails": {
+          "code": "RUS",
+          "seed": "USDA-RUS",
+          "agencyName": "Rural Utilities Service",
+          "agencyCode": "USDA-RUS",
+          "topAgencyCode": "USDA"
+        },
+        "topAgencyDetails": {
+          "code": "USDA",
+          "seed": "USDA",
+          "agencyName": "Department of Agriculture",
+          "agencyCode": "USDA",
+          "topAgencyCode": "USDA"
+        },
+        "agencyContactPhone": "2027208820",
+        "agencyContactName": "Scott D Steiner\nSupervisory Electronics Engineer",
+        "agencyContactDesc": "Shekinah Pepper\r\nDeputy Assistant Administrator\r\nPhone 2027200800",
+        "agencyContactEmail": "dltinfo@usda.gov",
+        "agencyContactEmailDesc": "DLT Help Desk - www.usda.gov/reconnect/contact-us",
+        "synopsisDesc": "<p>Authorized by 7 U.S.C. 950aaa, the DLT Program provides financial assistance to enable and improve distance learning and telemedicine services in rural areas. DLT grant funds support the use of telecommunications-enabled information, audio and video equipment, and related advanced technologies by students, teachers, medical professionals, and rural residents. These grants are intended to increase rural access to education, training, and health care resources that are otherwise unavailable or limited in scope.</p><p><br></p><p>The regulation for the DLT Program can be found at 7 CFR part 1734. All applicants should carefully review and prepare their applications according to instructions in the FY 2026 DLT Grant Program Application Guide (Application Guide) and program resources. This Application Guide will be made available here and on the program website at https://www.rd.usda.gov/programs-services/distance-learning-telemedicine-grants. Expenses incurred in developing applications will be at the applicant’s own risk.</p><p><br></p>",
+        "responseDate": "Jun 30, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://www.rd.usda.gov/programs-services/distance-learning-telemedicine-grants",
+        "fundingDescLinkDesc": "DLT Web Site",
+        "postingDate": "May 01, 2026 12:00:00 AM EDT",
+        "archiveDate": "Aug 31, 2026 12:00:00 AM EDT",
+        "costSharing": true,
+        "numberOfAwards": "40",
+        "estimatedFunding": "27000000",
+        "estimatedFundingFormatted": "27,000,000",
+        "awardCeiling": "750000",
+        "awardCeilingFormatted": "750,000",
+        "awardFloor": "50000",
+        "awardFloorFormatted": "50,000",
+        "applicantEligibilityDesc": "",
+        "sendEmail": "N",
+        "createTimeStamp": "May 11, 2026 07:10:15 AM EDT",
+        "modComments": "Update expected number of awards",
+        "createdDate": "Mar 12, 2026 12:18:46 PM EDT",
+        "lastUpdatedDate": "May 11, 2026 07:10:15 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "13",
+            "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "22",
+            "description": "For profit organizations other than small businesses"
+          },
+          {
+            "id": "20",
+            "description": "Private institutions of higher education"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "05",
+            "description": "Independent school districts"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "23",
+            "description": "Small businesses"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "BC",
+            "description": "Business and Commerce"
+          },
+          {
+            "id": "CD",
+            "description": "Community Development"
+          },
+          {
+            "id": "ED",
+            "description": "Education"
+          },
+          {
+            "id": "ELT",
+            "description": "Employment, Labor and Training"
+          },
+          {
+            "id": "HL",
+            "description": "Health"
+          },
+          {
+            "id": "IIJ",
+            "description": "Infrastructure Investment and Jobs Act (IIJA)"
+          },
+          {
+            "id": "RD",
+            "description": "Regional Development"
+          }
+        ],
+        "responseDateStr": "2026-06-30-00-00-00",
+        "postingDateStr": "2026-05-01-00-00-00",
+        "archiveDateStr": "2026-08-31-00-00-00",
+        "createTimeStampStr": "2026-05-11-07-10-15"
+      },
+      "agencyDetails": {
+        "code": "RUS",
+        "seed": "USDA-RUS",
+        "agencyName": "Rural Utilities Service",
+        "agencyCode": "USDA-RUS",
+        "topAgencyCode": "USDA"
+      },
+      "topAgencyDetails": {
+        "code": "USDA",
+        "seed": "USDA",
+        "agencyName": "Department of Agriculture",
+        "agencyCode": "USDA",
+        "topAgencyCode": "USDA"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79490,
+          "opportunityId": 361474,
+          "folderType": "Other Supporting Documents",
+          "folderName": "RUS DLT FY2026 Documents",
+          "zipLobSize": 4880092,
+          "createdDate": "May 01, 2026 06:49:21 AM EDT",
+          "lastUpdatedDate": "May 01, 2026 06:55:43 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351644,
+              "opportunityId": 361474,
+              "mimeType": "application/pdf",
+              "fileName": "FY2026 DLT Application Guide.pdf",
+              "fileDescription": "FY2026 DLT Application Guide",
+              "fileLobSize": 4191210,
+              "createdDate": "May 01, 2026 06:53:51 AM EDT",
+              "synopsisAttFolderId": 79490
+            },
+            {
+              "id": 351645,
+              "opportunityId": 361474,
+              "mimeType": "application/pdf",
+              "fileName": "FY2026 DLT Checklist.pdf",
+              "fileDescription": "FY2026 DLT Checklist",
+              "fileLobSize": 137461,
+              "createdDate": "May 01, 2026 06:54:56 AM EDT",
+              "synopsisAttFolderId": 79490
+            },
+            {
+              "id": 351643,
+              "opportunityId": 361474,
+              "mimeType": "application/pdf",
+              "fileName": "FY2026 DLT NOFO.pdf",
+              "fileDescription": "FY2026 DLT NOFO",
+              "fileLobSize": 505664,
+              "createdDate": "May 01, 2026 06:53:18 AM EDT",
+              "synopsisAttFolderId": 79490
+            },
+            {
+              "id": 351646,
+              "opportunityId": 361474,
+              "mimeType": "application/vnd.ms-excel.sheet.macroEnabled.12",
+              "fileName": "FY2026 DLT SAMPLE Worksheets.xlsm",
+              "fileDescription": "FY2026 DLT Worksheets",
+              "fileLobSize": 411857,
+              "createdDate": "May 01, 2026 06:55:43 AM EDT",
+              "synopsisAttFolderId": 79490
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432197,
+          "opportunityId": 361474,
+          "cfdaNumber": "10.855",
+          "programTitle": "Distance Learning and Telemedicine Loans and Grants"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361474,
+            "revision": 0
+          },
+          "opportunityId": 361474,
+          "revision": 0,
+          "opportunityNumber": "RUS-26-01-DLT",
+          "opportunityTitle": "Distance Learning and Telemedicine Grants",
+          "owningAgencyCode": "USDA-RUS",
+          "publisherUid": "myriahpope",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361474,
+              "revision": 0
+            },
+            "opportunityId": 361474,
+            "revision": 0,
+            "version": 7,
+            "agencyCode": "USDA-RUS",
+            "agencyAddressDesc": "DLT Help Desk - www.usda.gov/reconnect/contact-us",
+            "agencyDetails": {
+              "code": "RUS",
+              "seed": "USDA-RUS",
+              "agencyName": "Rural Utilities Service",
+              "agencyCode": "USDA-RUS",
+              "topAgencyCode": "USDA"
+            },
+            "agencyContactPhone": "2027208820",
+            "agencyContactName": "Scott D Steiner\nSupervisory Electronics Engineer",
+            "agencyContactDesc": "Shekinah Pepper\r\nDeputy Assistant Administrator\r\nPhone 2027200800",
+            "agencyContactEmail": "dltinfo@usda.gov",
+            "agencyContactEmailDesc": "DLT Help Desk - www.usda.gov/reconnect/contact-us",
+            "synopsisDesc": "<p>Authorized by 7 U.S.C. 950aaa, the DLT Program provides financial assistance to enable and improve distance learning and telemedicine services in rural areas. DLT grant funds support the use of telecommunications-enabled information, audio and video equipment, and related advanced technologies by students, teachers, medical professionals, and rural residents. These grants are intended to increase rural access to education, training, and health care resources that are otherwise unavailable or limited in scope.</p><p><br></p><p>The regulation for the DLT Program can be found at 7 CFR part 1734. All applicants should carefully review and prepare their applications according to instructions in the FY 2026 DLT Grant Program Application Guide (Application Guide) and program resources. This Application Guide will be made available here and on the program website at https://www.rd.usda.gov/programs-services/distance-learning-telemedicine-grants. Expenses incurred in developing applications will be at the applicant’s own risk.</p><p><br></p>",
+            "responseDate": "Jun 30, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "fundingDescLinkUrl": "https://www.rd.usda.gov/programs-services/distance-learning-telemedicine-grants",
+            "fundingDescLinkDesc": "DLT Web Site",
+            "postingDate": "May 01, 2026 12:00:00 AM EDT",
+            "archiveDate": "Aug 31, 2026 12:00:00 AM EDT",
+            "costSharing": true,
+            "numberOfAwards": "100",
+            "estimatedFunding": "27000000",
+            "estimatedFundingFormatted": "27,000,000",
+            "awardCeiling": "750000",
+            "awardCeilingFormatted": "750,000",
+            "awardFloor": "50000",
+            "awardFloorFormatted": "50,000",
+            "applicantEligibilityDesc": "",
+            "createTimeStamp": "May 01, 2026 07:09:38 AM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "May 11, 2026 07:10:15 AM EDT",
+            "createdDate": "Mar 12, 2026 12:18:46 PM EDT",
+            "lastUpdatedDate": "May 01, 2026 07:09:38 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "07",
+                "description": "Native American tribal governments (Federally recognized)"
+              },
+              {
+                "id": "22",
+                "description": "For profit organizations other than small businesses"
+              },
+              {
+                "id": "00",
+                "description": "State governments"
+              },
+              {
+                "id": "20",
+                "description": "Private institutions of higher education"
+              },
+              {
+                "id": "04",
+                "description": "Special district governments"
+              },
+              {
+                "id": "01",
+                "description": "County governments"
+              },
+              {
+                "id": "02",
+                "description": "City or township governments"
+              },
+              {
+                "id": "23",
+                "description": "Small businesses"
+              },
+              {
+                "id": "12",
+                "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "13",
+                "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+              },
+              {
+                "id": "06",
+                "description": "Public and State controlled institutions of higher education"
+              },
+              {
+                "id": "05",
+                "description": "Independent school districts"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "G",
+                "description": "Grant"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "BC",
+                "description": "Business and Commerce"
+              },
+              {
+                "id": "CD",
+                "description": "Community Development"
+              },
+              {
+                "id": "ED",
+                "description": "Education"
+              },
+              {
+                "id": "ELT",
+                "description": "Employment, Labor and Training"
+              },
+              {
+                "id": "HL",
+                "description": "Health"
+              },
+              {
+                "id": "IIJ",
+                "description": "Infrastructure Investment and Jobs Act (IIJA)"
+              },
+              {
+                "id": "RD",
+                "description": "Regional Development"
+              }
+            ],
+            "responseDateStr": "2026-06-30-00-00-00",
+            "postingDateStr": "2026-05-01-00-00-00",
+            "archiveDateStr": "2026-08-31-00-00-00",
+            "createTimeStampStr": "2026-05-01-07-09-38"
+          },
+          "cfdas": [
+            {
+              "id": 432197,
+              "opportunityId": 361474,
+              "revision": 0,
+              "cfdaNumber": "10.855",
+              "programTitle": "Distance Learning and Telemedicine Loans and Grants"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292585,
+          "topportunityId": 361474,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "RUS-26-01-DLT",
+          "opportunityTitle": "Distance Learning and Telemedicine Grants",
+          "cfdaNumber": "10.855",
+          "openingDate": "2026-05-01",
+          "closingDate": "2026-06-30",
+          "owningAgencyCode": "USDA-RUS",
+          "agencyDetails": {
+            "code": "RUS",
+            "seed": "USDA-RUS",
+            "agencyName": "Rural Utilities Service",
+            "agencyCode": "USDA-RUS",
+            "topAgencyCode": "USDA"
+          },
+          "topAgencyDetails": {
+            "code": "USDA",
+            "seed": "USDA",
+            "agencyName": "Department of Agriculture",
+            "agencyCode": "USDA",
+            "topAgencyCode": "USDA"
+          },
+          "programTitle": "Distance Learning and Telemedicine Loans and Grants",
+          "contactInfo": "Shekinah Pepper\r\nDeputy Administrator Assistant\r\nE-mail: Shekinah.Pepper@usda.gov\r\nPhone: 2027200800",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 300,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "May 01, 2026 09:45:19 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292585",
+          "openingDateStr": "2026-05-01-00-00-00",
+          "closingDateStr": "2026-06-30-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Jun 30, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "numberOfAwards",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [
+        {
+          "sourceOpportunityId": 361474,
+          "opportunityId": 358016,
+          "opportunityNum": "RUS-25-01-DLT",
+          "opportunityTitle": "Distance Learning and Telemedicine Grants",
+          "agencyCode": "USDA-RUS",
+          "postedDate": "Jan 06, 2025",
+          "closeDate": "Mar 06, 2025",
+          "comments": ""
+        }
+      ],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

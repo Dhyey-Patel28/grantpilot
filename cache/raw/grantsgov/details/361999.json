@@ -1,0 +1,158 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361999",
+  "fetched_at": "2026-05-16T14:09:35.733Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImIwMUlKKyszcS80QzdodC9sc0VlTFJmZGY0bWpVaFljc2ZyemhuMWNjVnM9Ig.Qqm_l8hxqANMomaUvybhqcG0MgIdppQKLRECa8sZqo0",
+    "data": {
+      "id": 361999,
+      "revision": 0,
+      "opportunityNumber": "CPD-2600-DC-0025",
+      "opportunityTitle": "FY 2026 Continuum of Care Competition and Youth Homelessness Demonstration Program Grants NOFO",
+      "owningAgencyCode": "HUD",
+      "publisherUid": "15962964103075612635523162374797683255",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "agencyDetails": {
+        "code": "HUD",
+        "seed": "HUD",
+        "agencyName": "Department of Housing and Urban Development",
+        "agencyCode": "HUD",
+        "topAgencyCode": "HUD"
+      },
+      "topAgencyDetails": {
+        "code": "HUD",
+        "seed": "HUD",
+        "agencyName": "Department of Housing and Urban Development",
+        "agencyCode": "HUD",
+        "topAgencyCode": "HUD"
+      },
+      "forecast": {
+        "opportunityId": 361999,
+        "version": 1,
+        "postingDate": "Apr 21, 2026 12:00:00 AM EDT",
+        "forecastDesc": "<p style=\"margin-left:0in;\">The Continuum of Care (CoC) Program is designed to:</p><ul style=\"list-style-type:disc;\"><li>promote a community-wide commitment to the goal of ending homelessness;</li><li>provide funding for efforts by nonprofit providers, States, Indian Tribes or Tribally Designated Housing Entities [as defined in section 4 of the Native American Housing Assistance and Self-Determination Act of 1996 (25 U.S.C. 4103) (TDHEs)], and local governments to quickly rehouse individuals and families experiencing homelessness, persons experiencing trauma or a lack of safety related to fleeing or attempting to flee domestic violence, dating violence, sexual assault, and stalking, and youth experiencing homelessness while minimizing the trauma and dislocation caused by homelessness;</li><li>promote access to, and effective utilization of, mainstream programs and programs funded with State or local resources; and</li><li>optimize self-sufficiency among individuals and families experiencing homelessness.</li></ul><p style=\"margin-left:0in;\">The goal of the Youth Homelessness Demonstration Program (YHDP) is to support the development and implementation of a coordinated community approach to preventing and ending youth homelessness and sharing that experience with and mobilizing communities around the country toward the same end. The population to be served by the demonstration program is youth ages 24 and younger who are experiencing homelessness, including unaccompanied and pregnant or parenting youth.</p>",
+        "costSharing": true,
+        "numberOfAwards": "8000",
+        "estimatedFunding": "4010000000",
+        "awardCeiling": "25000000",
+        "awardFloor": "2500",
+        "fundingDescLinkUrl": "https://www.hud.gov/hud-partners/community-coc",
+        "fundingDescLinkDesc": "https://www.hud.gov/hud-partners/community-coc",
+        "agencyContactName": "HUD Office of Community Planning and Development",
+        "agencyContactPhone": "800-347-3735",
+        "agencyContactEmail": "CoCNOFO@hud.gov",
+        "agencyContactEmailDesc": "Questions regarding this NOFO must be submitted to CoCNOFO@hud.gov",
+        "agencyCode": "HUD",
+        "applicantEligibilityDesc": "Eligible project applicants for the CoC Program Competition are found at 24 CFR 578.15 and include nonprofit organizations; state governments; local governments; instrumentalities of state and local governments; Indian Tribes and tribally designated housing entities, as defined in section 4 of the Native American Housing Assistance and Self-Determination Act of 1996 (25 U.S.C. 4103); and public housing agencies, as such term is defined in 24 CFR 5.100, are eligible without limitation or exclusion. Individuals, foreign entities, and sole proprietorship organizations are not eligible to compete for, or receive, awards made under this announcement.",
+        "estSynopsisPostingDate": "May 29, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDate": "Aug 26, 2026 12:00:00 AM EDT",
+        "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted in e-snaps no later than 8:00 p.m., ET, on the listed application due date.",
+        "estAwardDate": "Dec 01, 2026 12:00:00 AM EST",
+        "estProjectStartDate": "Jan 01, 2027 12:00:00 AM EST",
+        "fiscalYear": 2026,
+        "createTimeStamp": "Apr 21, 2026 02:52:33 PM EDT",
+        "createdDate": "Apr 21, 2026 02:52:33 PM EDT",
+        "lastUpdatedDate": "Apr 21, 2026 02:52:33 PM EDT",
+        "agencyDetails": {
+          "code": "HUD",
+          "seed": "HUD",
+          "agencyName": "Department of Housing and Urban Development",
+          "agencyCode": "HUD",
+          "topAgencyCode": "HUD"
+        },
+        "estimatedFundingFormatted": "4,010,000,000",
+        "awardCeilingFormatted": "25,000,000",
+        "awardFloorFormatted": "2,500",
+        "applicantTypes": [
+          {
+            "id": "00",
+            "description": "State governments"
+          },
+          {
+            "id": "04",
+            "description": "Special district governments"
+          },
+          {
+            "id": "08",
+            "description": "Public housing authorities/Indian housing authorities"
+          },
+          {
+            "id": "12",
+            "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+          },
+          {
+            "id": "01",
+            "description": "County governments"
+          },
+          {
+            "id": "11",
+            "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+          },
+          {
+            "id": "02",
+            "description": "City or township governments"
+          },
+          {
+            "id": "06",
+            "description": "Public and State controlled institutions of higher education"
+          },
+          {
+            "id": "07",
+            "description": "Native American tribal governments (Federally recognized)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "CD",
+            "description": "Community Development"
+          }
+        ],
+        "postingDateStr": "2026-04-21-00-00-00",
+        "estSynopsisPostingDateStr": "2026-05-29-00-00-00",
+        "estApplicationResponseDateStr": "2026-08-26-00-00-00",
+        "estAwardDateStr": "2026-12-01-00-00-00",
+        "estProjectStartDateStr": "2027-01-01-00-00-00",
+        "createTimeStampStr": "2026-04-21-14-52-33"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432826,
+          "opportunityId": 361999,
+          "cfdaNumber": "14.267",
+          "programTitle": "Continuum of Care Program"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "forecast",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "FORECASTED"
+    }
+  }
+}

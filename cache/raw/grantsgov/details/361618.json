@@ -1,0 +1,349 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361618",
+  "fetched_at": "2026-05-16T14:09:03.264Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjIybFF1bXFqaEtMN1RGM20zUkJqV1NsRlNMZmdUSU8xZWNtT3o3Tk4vMEU9Ig.-UsufUOSnoCJ_vRHM07i1k2y_lRxgdyF3Die0ff8Kzo",
+    "data": {
+      "id": 361618,
+      "revision": 1,
+      "opportunityNumber": "G26AS00099",
+      "opportunityTitle": "Cooperative Agreement for affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit",
+      "owningAgencyCode": "DOI-USGS1",
+      "listed": "L",
+      "publisherUid": "113080850824856438988185809190837265423",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361618,
+        "version": 2,
+        "agencyCode": "DOI-USGS1",
+        "agencyName": "Geological Survey",
+        "agencyPhone": "916-278-9331",
+        "agencyAddressDesc": "rachelmiller@usgs.gov",
+        "agencyDetails": {
+          "code": "USGS",
+          "seed": "DOI-USGS1",
+          "agencyName": "Geological Survey",
+          "agencyCode": "DOI-USGS1",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactPhone": "916-278-9331",
+        "agencyContactName": "Geological Survey",
+        "agencyContactDesc": "RACHEL MILLER\r\nrachelmiller@usgs.gov",
+        "agencyContactEmail": "rachelmiller@usgs.gov",
+        "agencyContactEmailDesc": "rachelmiller@usgs.gov",
+        "synopsisDesc": "<p>The U.S. Geological Survey (USGS), Alaska Science Center (ASC), is offering a funding opportunity to a CESU partner for research to support the estimation of polar bear abundance for the Southern Beaufort Sea and Northern Beaufort Sea subpopulations and a harvest risk assessment for the Southern Beaufort Sea subpopulation. The southern Beaufort Sea subpopulation has experienced a declining trend in abundance and the abundance estimate for the Northern Beaufort Sea subpopulation is outdated. Consequently, there is a need for new abundance estimates for both subpopulations. Additionally, the Southern Beaufort Sea subpopulation is exposed to a variety of anthropogenic activities that may present mortality risks for bears and thereby have the potential to affect the sustainability of the subsistence harvest. The goals of this project are to apply a recently developed integrated population model to estimate the abundance of the two subpopulations and to characterize the risk of under- or over-harvesting the Southern Beaufort Sea subpopulation. To facilitate those goals, the ASC will make available 20+ years of data on polar bear population dynamics to be used in the analysis.In support of this project, ASC seeks a CESU partnership that will focus on using an integrated population model (IPM) that blends western science with Indigenous Knowledge to estimate abundances and characterize harvest risk. Additionally, the ASC seeks a partner that has experience conducting research on polar bear population dynamics. The proposed work will help the USGS research team improve assessments of polar bear population vital rates and trends and help the USFWS and co-management entities ensure polar bear harvest is sustainable.</p>",
+        "responseDate": "May 20, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date",
+        "postingDate": "Mar 25, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "1",
+        "estimatedFunding": "180000",
+        "estimatedFundingFormatted": "180,000",
+        "awardCeiling": "180000",
+        "awardCeilingFormatted": "180,000",
+        "awardFloor": "1",
+        "awardFloorFormatted": "1",
+        "applicantEligibilityDesc": "This financial assistance opportunity is being issued under a Cooperative Ecosystem Studies Units (CESU) Program. CESU&quot;s are partnerships that provide research, technical assistance, and education.  Eligible recipients must be a participating partner of the Pacific Northwest Cooperative Ecosystem Studies Unit.",
+        "sendEmail": "Y",
+        "createTimeStamp": "May 05, 2026 08:13:50 AM EDT",
+        "modComments": "Extend closing date",
+        "createdDate": "Mar 25, 2026 10:24:16 AM EDT",
+        "lastUpdatedDate": "May 05, 2026 08:13:50 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-05-20-00-00-00",
+        "postingDateStr": "2026-03-25-00-00-00",
+        "createTimeStampStr": "2026-05-05-08-13-50"
+      },
+      "agencyDetails": {
+        "code": "USGS",
+        "seed": "DOI-USGS1",
+        "agencyName": "Geological Survey",
+        "agencyCode": "DOI-USGS1",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79057,
+          "opportunityId": 361618,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 48721,
+          "createdDate": "Mar 25, 2026 10:28:07 AM EDT",
+          "lastUpdatedDate": "Mar 25, 2026 10:28:08 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350707,
+              "opportunityId": 361618,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "Program Announcement G26AS00099.docx",
+              "fileDescription": "Program Announcement G26AS00099.docx",
+              "fileLobSize": 51985,
+              "createdDate": "Mar 25, 2026 10:28:08 AM EDT",
+              "synopsisAttFolderId": 79057
+            }
+          ]
+        },
+        {
+          "id": 79056,
+          "opportunityId": 361618,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Other Supporting Documents",
+          "zipLobSize": 436311,
+          "createdDate": "Mar 25, 2026 10:27:19 AM EDT",
+          "lastUpdatedDate": "Mar 25, 2026 10:27:55 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350703,
+              "opportunityId": 361618,
+              "mimeType": "application/pdf",
+              "fileName": "ATTACHMENT A  -  Biographical-sketch-common-form-doi-omb-3145-0279 3.pdf",
+              "fileDescription": "ATTACHMENT A  -  Biographical-sketch-common-form-doi-omb-3145-0279 3.pdf",
+              "fileLobSize": 221571,
+              "createdDate": "Mar 25, 2026 10:27:20 AM EDT",
+              "synopsisAttFolderId": 79056
+            },
+            {
+              "id": 350704,
+              "opportunityId": 361618,
+              "mimeType": "application/pdf",
+              "fileName": "ATTACHMENT B  -  Common-form current-and-pending-support-doi-omb-3145-0279 3.pdf",
+              "fileDescription": "ATTACHMENT B  -  Common-form current-and-pending-support-doi-omb-3145-0279 3.pdf",
+              "fileLobSize": 204142,
+              "createdDate": "Mar 25, 2026 10:27:31 AM EDT",
+              "synopsisAttFolderId": 79056
+            },
+            {
+              "id": 350705,
+              "opportunityId": 361618,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "ATTACHMENT C  -  Project Abstract Summary Requirement.docx",
+              "fileDescription": "ATTACHMENT C  -  Project Abstract Summary Requirement.docx",
+              "fileLobSize": 13650,
+              "createdDate": "Mar 25, 2026 10:27:44 AM EDT",
+              "synopsisAttFolderId": 79056
+            },
+            {
+              "id": 350706,
+              "opportunityId": 361618,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "ATTACHMENT D  -  Geospatial Data Instructions.docx",
+              "fileDescription": "ATTACHMENT D  -  Geospatial Data Instructions.docx",
+              "fileLobSize": 15008,
+              "createdDate": "Mar 25, 2026 10:27:55 AM EDT",
+              "synopsisAttFolderId": 79056
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432372,
+          "opportunityId": 361618,
+          "cfdaNumber": "15.808",
+          "programTitle": "U.S. Geological Survey Research and Data Collection"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361618,
+            "revision": 0
+          },
+          "opportunityId": 361618,
+          "revision": 0,
+          "opportunityNumber": "G26AS00099",
+          "opportunityTitle": "Cooperative Agreement for affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit",
+          "owningAgencyCode": "DOI-USGS1",
+          "publisherUid": "113080850824856438988185809190837265423",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361618,
+              "revision": 0
+            },
+            "opportunityId": 361618,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOI-USGS1",
+            "agencyAddressDesc": "rachelmiller@usgs.gov",
+            "agencyDetails": {
+              "code": "USGS",
+              "seed": "DOI-USGS1",
+              "agencyName": "Geological Survey",
+              "agencyCode": "DOI-USGS1",
+              "topAgencyCode": "DOI"
+            },
+            "agencyContactPhone": "916-278-9331",
+            "agencyContactName": "Geological Survey",
+            "agencyContactDesc": "RACHEL MILLER\nrachelmiller@usgs.gov",
+            "agencyContactEmail": "rachelmiller@usgs.gov",
+            "agencyContactEmailDesc": "rachelmiller@usgs.gov",
+            "synopsisDesc": "The U.S. Geological Survey (USGS), Alaska Science Center (ASC), is offering a funding opportunity to a CESU partner for research to support the estimation of polar bear abundance for the Southern Beaufort Sea and Northern Beaufort Sea subpopulations and a harvest risk assessment for the Southern Beaufort Sea subpopulation. The southern Beaufort Sea subpopulation has experienced a declining trend in abundance and the abundance estimate for the Northern Beaufort Sea subpopulation is outdated. Consequently, there is a need for new abundance estimates for both subpopulations. Additionally, the Southern Beaufort Sea subpopulation is exposed to a variety of anthropogenic activities that may present mortality risks for bears and thereby have the potential to affect the sustainability of the subsistence harvest. The goals of this project are to apply a recently developed integrated population model to estimate the abundance of the two subpopulations and to characterize the risk of under- or over-harvesting the Southern Beaufort Sea subpopulation. To facilitate those goals, the ASC will make available 20+ years of data on polar bear population dynamics to be used in the analysis.In support of this project, ASC seeks a CESU partnership that will focus on using an integrated population model (IPM) that blends western science with Indigenous Knowledge to estimate abundances and characterize harvest risk. Additionally, the ASC seeks a partner that has experience conducting research on polar bear population dynamics. The proposed work will help the USGS research team improve assessments of polar bear population vital rates and trends and help the USFWS and co-management entities ensure polar bear harvest is sustainable.",
+            "responseDate": "Apr 25, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date",
+            "postingDate": "Mar 25, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "1",
+            "estimatedFunding": "180000",
+            "estimatedFundingFormatted": "180,000",
+            "awardCeiling": "180000",
+            "awardCeilingFormatted": "180,000",
+            "awardFloor": "1",
+            "awardFloorFormatted": "1",
+            "applicantEligibilityDesc": "This financial assistance opportunity is being issued under a Cooperative Ecosystem Studies Units (CESU) Program. CESU&quot;s are partnerships that provide research, technical assistance, and education.  Eligible recipients must be a participating partner of the Pacific Northwest Cooperative Ecosystem Studies Unit.",
+            "createTimeStamp": "Mar 25, 2026 10:28:08 AM EDT",
+            "actionType": "U",
+            "actionDate": "May 05, 2026 08:13:50 AM EDT",
+            "createdDate": "Mar 25, 2026 10:24:16 AM EDT",
+            "lastUpdatedDate": "Mar 25, 2026 10:24:16 AM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2026-04-25-00-00-00",
+            "postingDateStr": "2026-03-25-00-00-00",
+            "createTimeStampStr": "2026-03-25-10-28-08"
+          },
+          "cfdas": [
+            {
+              "id": 432372,
+              "opportunityId": 361618,
+              "revision": 0,
+              "cfdaNumber": "15.808",
+              "programTitle": "U.S. Geological Survey Research and Data Collection"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292195,
+          "topportunityId": 361618,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "G26AS00099",
+          "opportunityTitle": "Cooperative Agreement for affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit",
+          "cfdaNumber": "15.808",
+          "openingDate": "2026-03-25",
+          "closingDate": "2026-05-20",
+          "owningAgencyCode": "DOI-USGS1",
+          "agencyDetails": {
+            "code": "USGS",
+            "seed": "DOI-USGS1",
+            "agencyName": "Geological Survey",
+            "agencyCode": "DOI-USGS1",
+            "topAgencyCode": "DOI"
+          },
+          "topAgencyDetails": {
+            "code": "DOI",
+            "seed": "DOI",
+            "agencyName": "Department of the Interior",
+            "agencyCode": "DOI",
+            "topAgencyCode": "DOI"
+          },
+          "programTitle": "U.S. Geological Survey Research and Data Collection",
+          "contactInfo": "RACHEL MILLER",
+          "gracePeriod": 30,
+          "competitionId": "G26AS00099",
+          "competitionTitle": "Cooperative Agreement for affiliated Partner with the Pacific Northwest Cooperative Ecosystem Studies Unit",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 1,
+          "expectedApplicationSize": 0,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "May 05, 2026 08:14:32 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292195",
+          "openingDateStr": "2026-03-25-00-00-00",
+          "closingDateStr": "2026-05-20-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Apr 25, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "agencyContactDesc",
+        "synopsisDesc",
+        "responseDate",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

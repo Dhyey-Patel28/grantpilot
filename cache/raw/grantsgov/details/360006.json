@@ -1,0 +1,188 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360006",
+  "fetched_at": "2026-05-16T14:08:06.150Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Im5rZllOcDNqdG9lQndlSXpBeHJJMy9mRGNKMStUaTNJdHViUWwzdjNDSGM9Ig.fogKd5UDiR8cKd1RJ2hUVQIx9r0RmWlzNgWvi-5pY4Q",
+    "data": {
+      "id": 360006,
+      "revision": 0,
+      "opportunityNumber": "PAR-25-014",
+      "opportunityTitle": "NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens",
+      "owningAgencyCode": "HHS-FDA",
+      "listed": "L",
+      "publisherUid": "sbogan12",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 360006,
+        "version": 1,
+        "agencyCode": "HHS-FDA",
+        "agencyName": "Stephanie Bogan\nGrantor",
+        "agencyPhone": "3018276802",
+        "agencyAddressDesc": "Email: jenise.mcnair@fda.hhs.gov",
+        "agencyDetails": {
+          "code": "FDA",
+          "seed": "HHS-FDA",
+          "agencyName": "Food and Drug Administration",
+          "agencyCode": "HHS-FDA",
+          "topAgencyCode": "HHS"
+        },
+        "topAgencyDetails": {
+          "code": "HHS",
+          "seed": "HHS",
+          "agencyName": "Department of Health and Human Services",
+          "agencyCode": "HHS",
+          "topAgencyCode": "HHS"
+        },
+        "agencyContactPhone": "3018276802",
+        "agencyContactName": "Stephanie Bogan\nGrantor",
+        "agencyContactDesc": "Jenise McNair\r\nGrants Management Specialist",
+        "agencyContactEmail": "jenise.mcnair@fda.hhs.gov",
+        "agencyContactEmailDesc": "Email: jenise.mcnair@fda.hhs.gov",
+        "synopsisDesc": "<p><span style=\"color: rgb(51, 51, 51);\">This Funding Opportunity Announcement (FOA) issued by the Food and Drug Administration (FDA), Center for Veterinary Medicine (CVM), builds upon the National Antimicrobial Resistance Monitoring System (NARMS) which was initiated in 1996 as one of the key activities in a national action plan to combat antibiotic resistance threats. The purpose of this FOA is to protect and promote public health by enhancing, strengthening, and sustaining antibiotic resistance surveillance in retail food specimens within the NARMS program. The NARMS cooperative agreement is intended to improve the detection of antibiotic resistance among bacteria in food commodities, as well as expand to new sites to expand the scope of sampling. Measurable outcomes of the program will be in alignment with the NARMS Objectives.</span></p>",
+        "responseDate": "Apr 01, 2027 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://grants.nih.gov/grants/guide/pa-files/PAR-25-014.html",
+        "fundingDescLinkDesc": "PAR-25-014 NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens",
+        "postingDate": "Jul 11, 2025 12:00:00 AM EDT",
+        "archiveDate": "May 01, 2027 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "35",
+        "estimatedFunding": "5000000",
+        "estimatedFundingFormatted": "5,000,000",
+        "awardCeiling": "200000",
+        "awardCeilingFormatted": "200,000",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "Eligible Organizations\r\n\r\nHigher Education Institutions\r\n\r\nPublic/State Controlled Institutions of Higher Education\r\nPrivate Institutions of Higher Education\r\nNonprofits Other Than Institutions of Higher Education\r\n\r\nNonprofits with 501(c)(3) IRS Status (Other than Institutions of Higher Education)\r\nNonprofits without 501(c)(3) IRS Status (Other than Institutions of Higher Education)\r\nFor-Profit Organizations\r\n\r\nSmall Businesses\r\nFor-Profit Organizations (Other than Small Businesses)\r\nLocal Governments\r\n\r\nState Governments\r\nCounty Governments\r\nCity or Township Governments\r\nSpecial District Governments\r\nIndian/Native American Tribal Governments (Federally Recognized)\r\nIndian/Native American Tribal Governments (Other than Federally Recognized)\r\nFederal Governments\r\n\r\nEligible Agencies of the Federal Government\r\nU.S. Territory or Possession\r\nOther\r\n\r\nIndependent School Districts\r\nPublic Housing Authorities/Indian Housing Authorities\r\nNative American Tribal Organizations (other than Federally recognized tribal governments)\r\nFaith-based or Community-based Organizations\r\nRegional Organizations\r\nForeign Organizations\r\nNon-domestic (non-U.S.) Entities (Foreign Organizations) are not eligible to apply.\r\n\r\nNon-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply.\r\n\r\nForeign components, as defined in the NIH Grants Policy Statement, are not allowed.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Jul 11, 2025 01:35:38 PM EDT",
+        "createdDate": "Jul 11, 2025 01:35:38 PM EDT",
+        "lastUpdatedDate": "Jul 11, 2025 01:35:38 PM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "AG",
+            "description": "Agriculture"
+          },
+          {
+            "id": "CP",
+            "description": "Consumer Protection"
+          },
+          {
+            "id": "FN",
+            "description": "Food and Nutrition"
+          }
+        ],
+        "responseDateStr": "2027-04-01-00-00-00",
+        "postingDateStr": "2025-07-11-00-00-00",
+        "archiveDateStr": "2027-05-01-00-00-00",
+        "createTimeStampStr": "2025-07-11-13-35-38"
+      },
+      "agencyDetails": {
+        "code": "FDA",
+        "seed": "HHS-FDA",
+        "agencyName": "Food and Drug Administration",
+        "agencyCode": "HHS-FDA",
+        "topAgencyCode": "HHS"
+      },
+      "topAgencyDetails": {
+        "code": "HHS",
+        "seed": "HHS",
+        "agencyName": "Department of Health and Human Services",
+        "agencyCode": "HHS",
+        "topAgencyCode": "HHS"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 430195,
+          "opportunityId": 360006,
+          "cfdaNumber": "93.103",
+          "programTitle": "Food and Drug Administration Research"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [
+        {
+          "id": 291179,
+          "topportunityId": 360006,
+          "familyId": 14,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "PAR-25-014",
+          "opportunityTitle": "NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens",
+          "cfdaNumber": "93.103",
+          "openingDate": "2025-07-11",
+          "closingDate": "2027-04-01",
+          "owningAgencyCode": "HHS-FDA",
+          "agencyDetails": {
+            "code": "FDA",
+            "seed": "HHS-FDA",
+            "agencyName": "Food and Drug Administration",
+            "agencyCode": "HHS-FDA",
+            "topAgencyCode": "HHS"
+          },
+          "topAgencyDetails": {
+            "code": "HHS",
+            "seed": "HHS",
+            "agencyName": "Department of Health and Human Services",
+            "agencyCode": "HHS",
+            "topAgencyCode": "HHS"
+          },
+          "programTitle": "Food and Drug Administration Research",
+          "contactInfo": "Jenise McNair\r\nGrants Management Specialist\r\nEmail: jenise.mcnair@fda.hhs.gov",
+          "gracePeriod": 0,
+          "competitionId": "PAR-25-014",
+          "competitionTitle": "NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 70,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Jul 11, 2025 02:22:09 PM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00291179",
+          "openingDateStr": "2025-07-11-00-00-00",
+          "closingDateStr": "2027-04-01-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Apr 01, 2027 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=14311",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=14311",
+  "website": "https://www.grants.gov/search-results-detail/361995",
+  "grant_id": "14311",
+  "title": "Local Food Promotion Program Fiscal Year 2026",
+  "overview": "The U.S. Department of Agriculture (USDA), Agricultural Marketing Service (AMS), requests applications for the 2026 fiscal year (FY) Local Food Promotion Program (LFPP). LFPP\"s purpose is to support the development, coordination, and expansion of local and regional food business enterprises that engage as intermediaries in indirect producer-to-consumer marketing to increase access to and availability of locally and regionally produced agricultural products. Show More",
+  "additional_info": "Posted Date: April 21, 2026 Application Due Date: June 5, 2026 Estimated Award Date: Not Specified Eligible Applicants: Others Show More",
+  "eligible_applicants": [
+    "Others"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "agriculture"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Agriculture",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:25:37.261Z",
+  "content_hash": "e4c36f5ab3b763c57edab0b8f528aabe46d477aeb6c8f1a8592b47bc24ae6b35",
+  "from_cache": false
+}

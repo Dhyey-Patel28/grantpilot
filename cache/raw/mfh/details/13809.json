@@ -1,0 +1,32 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=13809",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=13809",
+  "website": "https://www.rd.usda.gov/programs-services/single-family-housing-programs/rural-housing-site-loans-12",
+  "grant_id": "13809",
+  "title": "Rural Housing Site Loans in Michigan",
+  "overview": "The Rural Housing Site Loans program provides two types of loans to purchase and develop housing sites for low- and moderate-income families. Section 523 loans are used to acquire and develop sites only for housing to be constructed by the Self-Help method. Section 524 loans are made to acquire and develop sites for low- or moderate-income families, with no restriction as to the method of construction. Low-income is defined as between 50-80% of the area median income (AMI); the upper limit for moderate income is 115% of the AMI. Eligible applicants include private or public non-profit organizations and Federally-recognized Tribes. Non-profits must have the legal authority to operate a revolving loan fund and the financial, technical, and managerial capacity to comply with relevant federal and state laws and regulations. Site loans are made to provide financing for the purchase and development of housing sites. Applications for this program are accepted year-round through the State USDA Rural Development office. Show More",
+  "additional_info": "Posted Date: Not Specified Application Due Date: Not Specified Estimated Award Date: Not Specified Eligible Applicants: Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal governments (Federally recognized) Show More",
+  "eligible_applicants": [
+    "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationNonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationNative American tribal governments (Federally recognized)"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "agriculture",
+    "housing"
+  ],
+  "due_date": "",
+  "agency": "Michigan USDA-RD",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:24:12.276Z",
+  "content_hash": "6f357f014581d763d8d2ff8713907540d82bf66274a6ccb80df889a9ef23600d",
+  "from_cache": false
+}

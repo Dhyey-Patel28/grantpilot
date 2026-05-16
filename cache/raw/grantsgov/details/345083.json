@@ -1,0 +1,152 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "345083",
+  "fetched_at": "2026-05-16T14:06:41.350Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Ilg0ZmhjYWo2YS9Md21sNHBKLzZzRE41SnlvVzFmQTJUSjV6UlBwRU0wRXM9Ig.IF4n9yhrVgH8MkoEIfCm9YpADreS_M2J1PlPZxdJICA",
+    "data": {
+      "id": 345083,
+      "revision": 0,
+      "opportunityNumber": "P23AS00132",
+      "opportunityTitle": "NPS Cooperative Ecosystems Studies Units (CESU) Master Cooperative Agreements",
+      "owningAgencyCode": "DOI-NPS",
+      "listed": "L",
+      "publisherUid": "137297162692002325408969446938769263838",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 345083,
+        "version": 1,
+        "agencyCode": "DOI-NPS",
+        "agencyName": "National Park Service",
+        "agencyPhone": "303-495-027",
+        "agencyAddressDesc": "Email",
+        "agencyDetails": {
+          "code": "DOINPSWASO",
+          "seed": "DOI-NPS",
+          "agencyName": "National Park Service",
+          "agencyCode": "DOI-NPS",
+          "topAgencyCode": "DOI"
+        },
+        "topAgencyDetails": {
+          "code": "DOI",
+          "seed": "DOI",
+          "agencyName": "Department of the Interior",
+          "agencyCode": "DOI",
+          "topAgencyCode": "DOI"
+        },
+        "agencyContactPhone": "303-495-027",
+        "agencyContactName": "National Park Service",
+        "agencyContactDesc": "Melissa Jacobi\nmelissa_a_jacobi@nps.gov",
+        "agencyContactEmail": "melissa_a_jacobi@nps.gov",
+        "agencyContactEmailDesc": "Email",
+        "synopsisDesc": "The National Park Service (NPS) are seeking applications for Master Cooperative Agreements from CESU network participants in the following CESU network regions:\n\n\n\tNorth and West Alaska\n\tCalifornian\n\tChesapeake Watershed\n\tColorado Plateau\n\tDesert Southwest\n\tGreat Basin\n\tGreat Lakes Northern Forest\n\tGreat Plains\n\tGreat Rivers\n\tGulf Coast\n\tHawaii/Pacific Islands\n\tNorth Atlantic Coast\n\tPacific Northwest\n\tPiedmont-South Atlantic Coast\n\tRocky Mountains\n\tSouth Florida Caribbean\n\tSouthern Appalachian\n\n\nCooperative agreements to CESU network participants residing in CESU network regions other than those listed above will be pursued separate from this notice of funding opportunity; however, those CESU network participants may still apply for a Master Cooperative Agreement under this announcement.  Application instructions are found in Section D. Application and Submission Information. \n\n\nApplications will be reviewed and evaluated as they are received and may be submitted at any time up until the closing date of this announcement. \n\n\nThe Cooperative Ecosystem Studies Units network is a national consortium of Federal agencies, tribes, academic institutions, state and local governments, nongovernmental conservation organizations, and other partners working together to support informed public trust resource stewardship. The CESU network includes 390 non-Federal partners and 15 Federal Agencies in seventeen (17) CESUs  representing biogeographic regions encompassing all 50 states and U.S. territories. The CESU network is well positioned as a platform to support research, technical assistance, education and capacity building that is responsive to long-standing and contemporary science and resource management priorities.\n\nThe seventeen (17) CESUs bring together scientists, resource managers, students, and other conservation professionals, drawing upon expertise from across the biological, physical, social, cultural, and engineering disciplines (from Anthropology to Zoology) to conduct collaborative and interdisciplinary applied projects that address natural and cultural heritage resource issues at multiple scales and in an ecosystem context. Each CESU is structured as a working collaborative with participation from numerous Federal and non-Federal institutional partners. CESUs are based at host universities and focused on a particular biogeographic region of the country.\nThe NPS is required under “Research Mandate” 54 USC 100702 to ensure the management of NPS units are “enhanced by the availability and utilization of a broad program of the highest quality science and information.”  To help answer this mandate, the NPS works cooperatively with approved CESU cooperators.  Annually the NPS obligates between $30M and $40M in CESU cooperative agreements agency wide.  Individual projects are up to five (5) years in duration with an average of approximately $60,000 per agreement.\n\nThe NPS plans to create Master Cooperative Agreements with CESU partners to carry out the CFDA program 15.945, Cooperative Research and Training Programs – Resources of the National Park System.  The NPS is announcing the intent to solicit proposals from organizations within the CESU network.  The objectives of the CESU program are:\n\na. Provide usable knowledge to support informed decision making.\n\nb. Ensure the independence and objectivity of research.\n\nc. Create and maintain effective partnerships among the Federal agencies and universities to share resources and expertise.\n\nd. Take full advantage of university resources while benefiting faculty and students.\n\ne. Encourage professional development of current and future Federal scientists, resource managers, and environmental leaders.\n\nf. Manage Federal resources effectively.",
+        "responseDate": "Dec 31, 2027 12:00:00 AM EST",
+        "responseDateDesc": "Electronically submitted applications must be submitted no later than 05:00 PM, ET, on the listed application due date.",
+        "postingDate": "Dec 22, 2022 12:00:00 AM EST",
+        "archiveDate": "Jan 01, 2028 12:00:00 AM EST",
+        "costSharing": false,
+        "awardCeiling": "0",
+        "awardCeilingFormatted": "0",
+        "awardFloor": "0",
+        "awardFloorFormatted": "0",
+        "applicantEligibilityDesc": "All applicants must be a partner of the CESU network prior to being considered for an award of a master cooperative agreement under this announcement. Information on how to join the CESU network can be found at: www.cesu.org. &nbsp;&nbsp;\n&nbsp;",
+        "createTimeStamp": "Dec 22, 2022 02:54:06 PM EST",
+        "createdDate": "Dec 22, 2022 02:50:49 PM EST",
+        "lastUpdatedDate": "Dec 22, 2022 02:50:49 PM EST",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ENV",
+            "description": "Environment"
+          }
+        ],
+        "responseDateStr": "2027-12-31-00-00-00",
+        "postingDateStr": "2022-12-22-00-00-00",
+        "archiveDateStr": "2028-01-01-00-00-00",
+        "createTimeStampStr": "2022-12-22-14-54-06"
+      },
+      "agencyDetails": {
+        "code": "DOINPSWASO",
+        "seed": "DOI-NPS",
+        "agencyName": "National Park Service",
+        "agencyCode": "DOI-NPS",
+        "topAgencyCode": "DOI"
+      },
+      "topAgencyDetails": {
+        "code": "DOI",
+        "seed": "DOI",
+        "agencyName": "Department of the Interior",
+        "agencyCode": "DOI",
+        "topAgencyCode": "DOI"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 62000,
+          "opportunityId": 345083,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 864414,
+          "createdDate": "Dec 22, 2022 02:53:41 PM EST",
+          "lastUpdatedDate": "Dec 22, 2022 02:54:06 PM EST",
+          "synopsisAttachments": [
+            {
+              "id": 322999,
+              "opportunityId": 345083,
+              "mimeType": "application/pdf",
+              "fileName": "P23AS00132 - NPS CESU Master Cooperative Agreements NOFO.pdf",
+              "fileDescription": "P23AS00132 - NPS CESU Master Cooperative Agreements NOFO",
+              "fileLobSize": 895979,
+              "createdDate": "Dec 22, 2022 02:54:06 PM EST",
+              "synopsisAttFolderId": 62000
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 406751,
+          "opportunityId": 345083,
+          "cfdaNumber": "15.945",
+          "programTitle": "Cooperative Research and Training Programs ��� Resources of the National Park System"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Dec 31, 2027 12:00:00 AM EST",
+      "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 05:00 PM, ET, on the listed application due date.",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

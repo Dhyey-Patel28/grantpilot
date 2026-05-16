@@ -1,0 +1,222 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "362096",
+  "fetched_at": "2026-05-16T14:09:52.551Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjVUK1hheFRGZjNYYnhNbEpjYVhFWUVpM1M5MkNuaXVUWThzNVNIRU1rbmM9Ig.5nLqGY6-y6Up1w_hKU30fSDHNXqvAj0b74rIW5iL7nI",
+    "data": {
+      "id": 362096,
+      "revision": 0,
+      "opportunityNumber": "AF-DARFY26-01",
+      "opportunityTitle": "Alumni Engagement Innovation Fund 2026 Call for Proposals",
+      "owningAgencyCode": "DOS-TZA",
+      "listed": "L",
+      "publisherUid": "BlakeCC",
+      "modifiedComments": "Need to upload key documents as computer crashed before finishing.",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 362096,
+        "version": 2,
+        "agencyCode": "DOS-TZA",
+        "agencyName": "Charles C Blake\nGrantor",
+        "agencyPhone": "2026027009",
+        "agencyAddressDesc": "Dar Alumni Inbox",
+        "agencyDetails": {
+          "code": "TZA",
+          "seed": "DOS-TZA",
+          "agencyName": "U.S. Mission to Tanzania",
+          "agencyCode": "DOS-TZA",
+          "topAgencyCode": "DOS"
+        },
+        "topAgencyDetails": {
+          "code": "DOS",
+          "seed": "DOS",
+          "agencyName": "Department of State",
+          "agencyCode": "DOS",
+          "topAgencyCode": "DOS"
+        },
+        "agencyContactPhone": "2026027009",
+        "agencyContactName": "Charles C Blake\nGrantor",
+        "agencyContactDesc": "Charles C Blake\r\nGrantor\r\nPhone 2026027009",
+        "agencyContactEmail": "drs_alumni@state.gov",
+        "agencyContactEmailDesc": "Dar Alumni Inbox",
+        "synopsisDesc": "<strong><em>Executive Summary</em></strong> \n<p><br></p> \n<p>The U.S. Mission to Tanzania announces an open competition for past participants (“alumni”) of U.S. government-funded/sponsored exchange programs to submit applications to the 2026 Alumni Engagement Innovation Fund (AEIF 2026). The Alumni Engagement Innovation Fund (AEIF) is an annual funding opportunity designed to invest in U.S. government-funded exchange participants and programs by helping alumni develop and implement projects that promote shared interests and policy objectives and benefit local communities. We invite you to submit proposals for projects that meet all program eligibility requirements below, from teams of at least two exchange alumni. Exchange alumni interested in participating in AEIF 2026 should submit proposals to drs_alumni@state.gov by May 30, 2026, at 11:59pm.</p> \n<p><br></p> \n<p><strong>-----------Please do not apply for this funding opportunity if you’re not an alumnus of a U.S. government-funded exchange program. -----------</strong></p> \n<p><br></p> \n<strong><em>Eligible Applicants</em></strong> \n<p><br></p> \n<p><span style=\"color: black;\">The grant shall be processed with an individual, not an organization. Individuals are not required</span></p> \n<p><span style=\"color: black;\">to have a UEI or be registered in SAM.gov.</span></p> \n<p>&nbsp;</p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">Applicants must be alumni of a U.S. government-funded exchange program</span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">(https://alumni.state.gov/list-exchange-programs) </span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">Project teams must include at least two (2) alumni.</span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">Alumni who are U.S. citizens may not submit proposals but can participate as team members.</span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">Alumni teams may be comprised of members from different exchange programs and countries.</span></p> \n<p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color: black;\">Not-for-profit organizations, think tanks, civil society organizations, non-governmental organizations, and public or private educational institutions are not eligible to apply as the primary applicant. Such organizations may, however, serve as implementing or program partners supporting project activities.</span></p> \n<p><br></p> \n<p><strong><em>Project Background</em></strong></p> \n<p><br></p> \n<p>The 2026 Alumni Engagement Innovation Fund is designed to increase the impact of the U.S. government’s investment in exchange participants and programs by helping alumni develop and implement projects that support U.S. policy objectives and promote shared interests. All AEIF projects must celebrate and promote the 250th anniversary of the founding of the United States of America (Freedom 250) and align with administration policy goals to make the U.S. safer, stronger and more prosperous, and/or defend freedom of speech.</p> \n<p><br></p> \n<p>Key objectives for 2026 AEIF include:</p> \n<ol> \n <li><strong>Strategic Alumni Engagement</strong></li> \n <li><strong>Sustainable Impact</strong></li> \n <li><strong>Alignment with Policy Priorities</strong></li> \n <li><strong>Demonstrated Leadership and Local Ownership</strong></li> \n</ol> \n<p><br></p> \n<p>The U.S. Mission to Dar Es Salaam will accept public service projects proposed and managed by teams of at least two (2) alumni that support Freedom 250 priority themes, including:</p> \n<ul> \n <li><strong>Community Development and Civic Engagement:</strong> Projects that strengthen local communities through volunteerism, community service, leadership training, and initiatives that encourage active civic participation.</li> \n <li><strong>Nonprofit and Community-Based Initiatives: </strong>Programs led by civil society organizations or community groups that focus on strengthening social cohesion, cultural understanding, and collaborative problem-solving.</li> \n <li><strong>Education and Skills Development:</strong> Programs that expand learning opportunities through workshops, mentorship, training, and educational exchanges that promote knowledge-sharing and lifelong learning.</li> \n <li><strong>Youth Leadership and Innovation: </strong>Initiatives that support young leaders, entrepreneurs, and innovators working to create positive social impact in their communities.</li> \n <li><strong>Creative and Cultural Festivals or Exchanges:</strong> Activities that bring communities together through festivals, performances, exhibitions, or cultural showcases that highlight shared values and creativity.</li> \n <li><strong>Sports and Youth Engagement: </strong>Programs that use sports and recreational activities to promote teamwork, leadership development, healthy lifestyles, and community engagement among young people.</li> \n <li><strong>Arts, Culture, and Music: </strong>Initiatives that celebrate cultural expression through music, dance, visual arts, film, or creative storytelling, highlighting cultural exchange and collaboration between communities.</li> \n</ul> \n<p><br></p> \n<p><strong>Project Goal: </strong>AEIF is designed to increase the impact of the U.S. government’s investment in exchange participants and programs by helping alumni develop and implement projects that support U.S. policy objectives and promote shared interests; therefore, benefitting both the United States and local communities.&nbsp;</p> \n<p><br></p> \n<p><strong>Project Objectives:</strong> In addition, a successful proposal may address the following U.S. government priorities:</p> \n<ul> \n <li><u>Objective 1</u>: Convene alumni from different exchange programs to build or expand an alumni network capable of working together on common interests and increasing regional and global collaboration of alumni.</li> \n <li><u>Objective 2</u>: Strengthen the relationship between alumni and the U.S. government to work together on activities that address U.S. strategic interests.</li> \n <li><u>Objective 3</u>: Support alumni in developing their leadership and project management capacities.</li> \n</ul>",
+        "responseDate": "May 30, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Apr 29, 2026 12:00:00 AM EDT",
+        "archiveDate": "Jun 29, 2026 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "The U.S. Mission to Dar Es Salaam will accept public service projects proposed and managed by teams of at least two (2) alumni that support Freedom 250 priority themes, including:\r\n&bull;\tCommunity Development and Civic Engagement: Projects that strengthen local communities through volunteerism, community service, leadership training, and initiatives that encourage active civic participation.\r\n&bull;\tNonprofit and Community-Based Initiatives: Programs led by civil society organizations or community groups that focus on strengthening social cohesion, cultural understanding, and collaborative problem-solving.\r\n&bull;\tEducation and Skills Development: Programs that expand learning opportunities through workshops, mentorship, training, and educational exchanges that promote knowledge-sharing and lifelong learning.\r\n&bull;\tYouth Leadership and Innovation: Initiatives that support young leaders, entrepreneurs, and innovators working to create positive social impact in their communities.\r\n&bull;\tCreative and Cultural Festivals or Exchanges: Activities that bring communities together through festivals, performances, exhibitions, or cultural showcases that highlight shared values and creativity.\r\n&bull;\tSports and Youth Engagement: Programs that use sports and recreational activities to promote teamwork, leadership development, healthy lifestyles, and community engagement among young people.\r\n&bull;\tArts, Culture, and Music: Initiatives that celebrate cultural expression through music, dance, visual arts, film, or creative storytelling, highlighting cultural exchange and collaboration between communities.",
+        "costSharing": false,
+        "numberOfAwards": "2",
+        "estimatedFunding": "70000",
+        "estimatedFundingFormatted": "70,000",
+        "awardCeiling": "35000",
+        "awardCeilingFormatted": "35,000",
+        "awardFloor": "5000",
+        "awardFloorFormatted": "5,000",
+        "applicantEligibilityDesc": "",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 29, 2026 01:42:35 AM EDT",
+        "createdDate": "Apr 29, 2026 01:19:26 AM EDT",
+        "lastUpdatedDate": "Apr 29, 2026 01:42:35 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "21",
+            "description": "Individuals"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "G",
+            "description": "Grant"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "responseDateStr": "2026-05-30-00-00-00",
+        "postingDateStr": "2026-04-29-00-00-00",
+        "archiveDateStr": "2026-06-29-00-00-00",
+        "createTimeStampStr": "2026-04-29-01-42-35"
+      },
+      "agencyDetails": {
+        "code": "TZA",
+        "seed": "DOS-TZA",
+        "agencyName": "U.S. Mission to Tanzania",
+        "agencyCode": "DOS-TZA",
+        "topAgencyCode": "DOS"
+      },
+      "topAgencyDetails": {
+        "code": "DOS",
+        "seed": "DOS",
+        "agencyName": "Department of State",
+        "agencyCode": "DOS",
+        "topAgencyCode": "DOS"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 79420,
+          "opportunityId": 362096,
+          "folderType": "Full Announcement",
+          "folderName": "NOFO",
+          "zipLobSize": 1450051,
+          "createdDate": "Apr 29, 2026 01:36:24 AM EDT",
+          "lastUpdatedDate": "Apr 29, 2026 01:37:37 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351516,
+              "opportunityId": 362096,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "NOFO- AEIF 2026.docx",
+              "fileDescription": "Notice of Funding Eligibility",
+              "fileLobSize": 1548860,
+              "createdDate": "Apr 29, 2026 01:37:25 AM EDT",
+              "synopsisAttFolderId": 79420
+            }
+          ]
+        },
+        {
+          "id": 79421,
+          "opportunityId": 362096,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Budget Form",
+          "zipLobSize": 29401,
+          "createdDate": "Apr 29, 2026 01:38:21 AM EDT",
+          "lastUpdatedDate": "Apr 29, 2026 01:38:57 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351517,
+              "opportunityId": 362096,
+              "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+              "fileName": "AEIF 2026 Budget Form.xlsx",
+              "fileDescription": "Budget Form",
+              "fileLobSize": 37747,
+              "createdDate": "Apr 29, 2026 01:38:57 AM EDT",
+              "synopsisAttFolderId": 79421
+            }
+          ]
+        },
+        {
+          "id": 79423,
+          "opportunityId": 362096,
+          "folderType": "Other Supporting Documents",
+          "folderName": "MandE Resource Guide",
+          "zipLobSize": 32710,
+          "createdDate": "Apr 29, 2026 01:40:32 AM EDT",
+          "lastUpdatedDate": "Apr 29, 2026 01:41:18 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351519,
+              "opportunityId": 362096,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "AEIF 2026 Monitoring and Evaluation Resource Guide.docx",
+              "fileDescription": "Monitoring and Evaluation Resource Guide",
+              "fileLobSize": 40860,
+              "createdDate": "Apr 29, 2026 01:41:18 AM EDT",
+              "lastUpdatedDate": "Apr 29, 2026 01:41:18 AM EDT",
+              "synopsisAttFolderId": 79423
+            }
+          ]
+        },
+        {
+          "id": 79422,
+          "opportunityId": 362096,
+          "folderType": "Other Supporting Documents",
+          "folderName": "Proposal Form",
+          "zipLobSize": 65226,
+          "createdDate": "Apr 29, 2026 01:39:34 AM EDT",
+          "lastUpdatedDate": "Apr 29, 2026 01:39:57 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 351518,
+              "opportunityId": 362096,
+              "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "fileName": "AEIF 2026 Proposal Form.docx",
+              "fileDescription": "Proposal Form",
+              "fileLobSize": 74667,
+              "createdDate": "Apr 29, 2026 01:39:57 AM EDT",
+              "synopsisAttFolderId": 79422
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432938,
+          "opportunityId": 362096,
+          "cfdaNumber": "19.022",
+          "programTitle": "Educational and Cultural Exchange Programs Appropriation Overseas Grants"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 30, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

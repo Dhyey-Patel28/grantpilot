@@ -1,0 +1,32 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=12975",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=12975",
+  "website": "https://saferoutesmichigan.org/major-grant",
+  "grant_id": "12975",
+  "title": "Safe Routes to Schools Major Grant",
+  "overview": "The Safe Routes to School (SRTS) Major Grant program aims to make it safe, convenient, and fun for children to bicycle and walk to school. The program helps ease traffic jams, unite neighborhoods, and contribute to students' readiness to learn while providing regular physical activity.Eligible applicants must complete an in-depth planning process before submitting an application, which can take 6 months to a year. This includes registering the school, attending a basics webinar training, contacting the SRTS grant coordinator, gathering an SRTS team, distributing and collecting parent and student survey data, conducting walking and biking audits, and scheduling and holding action planning meetings.Projects can include eligible infrastructure treatments and non-infrastructure programming. Up to $300,000 is available per school in infrastructure funds, and up to $15,000 per school in programming non-infrastructure funds.Applications are accepted on a rolling basis and must be submitted using the Michigan Department of Transportation MDOT Grant System (MGS). Show More",
+  "additional_info": "Posted Date: Not Specified Application Due Date: June 17, 2026 Estimated Award Date: Not Specified Eligible Applicants: Independent school districtsOthers Show More",
+  "eligible_applicants": [
+    "Independent school districtsOthers"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "transportation",
+    "workforce"
+  ],
+  "due_date": "",
+  "agency": "Michigan Department of Transportation",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:24:56.713Z",
+  "content_hash": "7d552852d3b207e81991a99c87fa014966c1833787399e1e639f42c732b56655",
+  "from_cache": false
+}

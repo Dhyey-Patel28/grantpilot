@@ -1,0 +1,133 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "360012",
+  "fetched_at": "2026-05-16T14:08:06.629Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.Im5rZllOcDNqdG9lQndlSXpBeHJJMzgxb2pVTGpuUnZxa1hzM1VTMW9ZMFE9Ig.CWT08ztTFLYaRCVm3HCjO13R1fAK_lafiqVdO878vB0",
+    "data": {
+      "id": 360012,
+      "revision": 0,
+      "opportunityNumber": "W911QY25R0023",
+      "opportunityTitle": "US Army Combat Capabilities Development Command Broad Agency Announcement",
+      "owningAgencyCode": "DOD-AMC-ACCAPGN",
+      "listed": "L",
+      "publisherUid": "lyndonjagroop",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 360012,
+        "version": 3,
+        "agencyCode": "DOD-AMC-ACCAPGN",
+        "agencyName": "Lyndon  Jagroop\nGrantor",
+        "agencyPhone": "3476768382",
+        "agencyAddressDesc": "Work",
+        "agencyDetails": {
+          "code": "ACCAPGN",
+          "seed": "DOD-AMC-ACCAPGN",
+          "agencyName": "ACC APG - Natick",
+          "agencyCode": "DOD-AMC-ACCAPGN",
+          "topAgencyCode": "DOD"
+        },
+        "topAgencyDetails": {
+          "code": "DOD",
+          "seed": "DOD",
+          "agencyName": "Department of Defense",
+          "agencyCode": "DOD",
+          "topAgencyCode": "DOD"
+        },
+        "agencyContactPhone": "3476768382",
+        "agencyContactName": "Lyndon  Jagroop\nGrantor",
+        "agencyContactDesc": "Lyndon  Jagroop\r\nGrantor\r\nPhone 3476768382",
+        "agencyContactEmail": "lyndon.s.jagroop.civ@army.mil",
+        "agencyContactEmailDesc": "Work",
+        "synopsisDesc": "<p>The Soldier Center is seeking solutions in the following scientific and technical areas:</p>\n<p><br></p>\n<ul>\n <li><strong>Combat Feeding &amp; Equipment</strong> – Ration development, field feeding systems</li>\n <li><strong>Soldier Protection &amp; Survivability</strong> – Headborne protection, modular armor, chemical/biological protection, nanotechnology</li>\n <li><strong>Modeling &amp; Simulation</strong> – Soldier effectiveness, operational survivability</li>\n <li><strong>Human Performance &amp; Biomechanics</strong> – Body-worn systems, hand-held devices, soldier-centric sensors</li>\n <li><strong>Expeditionary Maneuver Support</strong> – Energy efficiency, EMI/EMP protection, battlefield mobility</li>\n <li><strong>Aerial Delivery</strong> – Advanced airdrop systems for personnel and cargo</li>\n <li><strong>Simulation &amp; Training Technology</strong> – Medical training, AI-based battlefield visualization, cyberspace warfare training</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong><em>This Broad Agency Announcement (BAA) is intended to fulfill requirements for scientific study and experimentation directed toward advancing state-of-the-art technologies and/or increasing knowledge and understanding as a means of eliminating current technology barriers. This BAA DOES NOT focus on specific systems or hardware solutions. </em></strong><em>This BAA identifies DEVCOM SOLDIER CENTER research/exploratory development areas of interest and provides prospective offerors information on the preparation of proposals along with proposal evaluation factors. The Government may award purchase orders, contracts, grants, cooperative agreements, or other transactions against this BAA.</em></p>\n<p><br></p>\n<p><strong>Read the Full BAA &amp; Submission Guidelines:</strong> On SAM.gov <a href=\"https://sam.gov/opp/e8c7609f0f154df4afda846595bca888/view\" target=\"_blank\"><strong>https://sam.gov/opp/e8c7609f0f154df4afda846595bca888/view</strong></a></p>\n<p><em>&nbsp;</em></p>",
+        "responseDate": "Feb 27, 2030 12:00:00 AM EST",
+        "responseDateDesc": "",
+        "fundingDescLinkUrl": "https://sam.gov/opp/e8c7609f0f154df4afda846595bca888/view",
+        "fundingDescLinkDesc": "SAM.gov",
+        "postingDate": "Jul 14, 2025 12:00:00 AM EDT",
+        "archiveDate": "Mar 30, 2030 12:00:00 AM EDT",
+        "fundingActivityCategoryDesc": "This announcement is to post the CCDC-SC Broad Agency Announcement which allows Grant and Assistance Agreement white papers and proposals to be submitted.",
+        "costSharing": false,
+        "numberOfAwards": "1500",
+        "awardCeiling": "none",
+        "awardFloor": "none",
+        "applicantEligibilityDesc": "The DEVCOM Soldier Center will consider concept papers and proposals based on this BAA from the following organizations and firms interested in conducting scientific research:&bull; degree-granting colleges and universities,&bull; nonprofit research institutes,&bull; foreign organizations, and&bull; commercial firms (including Large Businesses, Small Businesses, Small Disadvantaged Businesses, Women-Owned Small Businesses, Historically Underutilized Business Zone Small Businesses, Veteran-Owned Small Businesses, and Service-Disabled Veteran-Owned Small Businesses. Proposals from government facilities and organizations WILL NOT be considered under this program announcement.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Jul 14, 2025 08:57:15 AM EDT",
+        "createdDate": "Jul 14, 2025 08:14:16 AM EDT",
+        "lastUpdatedDate": "Jul 14, 2025 08:57:15 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "O",
+            "description": "Other"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "O",
+            "description": "Other (see text field entitled \"Explanation of Other Category of Funding Activity\" for clarification)"
+          }
+        ],
+        "responseDateStr": "2030-02-27-00-00-00",
+        "postingDateStr": "2025-07-14-00-00-00",
+        "archiveDateStr": "2030-03-30-00-00-00",
+        "createTimeStampStr": "2025-07-14-08-57-15"
+      },
+      "agencyDetails": {
+        "code": "ACCAPGN",
+        "seed": "DOD-AMC-ACCAPGN",
+        "agencyName": "ACC APG - Natick",
+        "agencyCode": "DOD-AMC-ACCAPGN",
+        "topAgencyCode": "DOD"
+      },
+      "topAgencyDetails": {
+        "code": "DOD",
+        "seed": "DOD",
+        "agencyName": "Department of Defense",
+        "agencyCode": "DOD",
+        "topAgencyCode": "DOD"
+      },
+      "synopsisAttachmentFolders": [],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 430201,
+          "opportunityId": 360012,
+          "cfdaNumber": "12.431",
+          "programTitle": "Basic Scientific Research"
+        }
+      ],
+      "opportunityHistoryDetails": [],
+      "opportunityPkgs": [],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "Feb 27, 2030 12:00:00 AM EST",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "source": "Grants.gov",
+  "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+  "opportunity_id": "361503",
+  "fetched_at": "2026-05-16T14:08:54.951Z",
+  "response": {
+    "errorcode": 0,
+    "msg": "Webservice Succeeds",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IldVS2dnSjZQR2p1UE9WTXplSXpvUHpyWE1SUkQ0WGV1enVrRmVBR1RPZ2c9Ig.Mv0PZQF_2blMVlL6iNk4G-pqAG9TxyPt93x8Cant-Jk",
+    "data": {
+      "id": 361503,
+      "revision": 1,
+      "opportunityNumber": "NOAA-NOS-NCCOS-2026-33016",
+      "opportunityTitle": "Prevention, Control, and Mitigation of Harmful Algal Blooms Program",
+      "owningAgencyCode": "DOC-DOCNOAAERA",
+      "listed": "L",
+      "publisherUid": "fisaac",
+      "flag2006": "N",
+      "opportunityCategory": {
+        "category": "D",
+        "description": "Discretionary"
+      },
+      "synopsis": {
+        "opportunityId": 361503,
+        "version": 2,
+        "agencyCode": "DOC-DOCNOAAERA",
+        "agencyName": "Frederick L Isaac\nGrantor",
+        "agencyPhone": "30-628-1330",
+        "agencyAddressDesc": "Work",
+        "agencyDetails": {
+          "code": "DOCNOAAERA",
+          "seed": "DOC-DOCNOAAERA",
+          "agencyName": "DOC NOAA - ERA Production",
+          "agencyCode": "DOC-DOCNOAAERA",
+          "topAgencyCode": "DOC"
+        },
+        "topAgencyDetails": {
+          "code": "DOC",
+          "seed": "DOC",
+          "agencyName": "Department of Commerce",
+          "agencyCode": "DOC",
+          "topAgencyCode": "DOC"
+        },
+        "agencyContactPhone": "30-628-1330",
+        "agencyContactName": "Frederick L Isaac\nGrantor",
+        "agencyContactDesc": "Technical Program Information: Felix Martinez, NCCOS/CRP PCMHAB Program Manager,",
+        "agencyContactEmail": "felix.martinez@noaa.gov",
+        "agencyContactEmailDesc": "Work",
+        "synopsisDesc": "<p>The purpose of this document is to advise the public that NOAA/NOS/National Centers for Coastal Ocean Science (NCCOS) Competitive Research Program (NCCOS/CRP) [formerly Center for Sponsored Coastal Ocean Research (CSCOR)/Coastal Ocean Program (COP)] is soliciting proposals for the Prevention, Control and Mitigation of Harmful Algal Bloom (PCMHAB) program. The PCMHAB program seeks to develop and transition technologies and strategies for preventing, controlling, or mitigating harmful algal blooms and their impacts. For this announcement, PCMHAB will prioritize proposals focused on the comprehensive testing of harmful algal bloom control technologies that fit one of the two following focal areas: (1) promising control technologies that are in need of further testing to prove feasibility; and (2) proven control technologies that are still in need of large-scale field testing or that are already approved related control technologies (e.g., freshwater harmful algal blooms, oil spills, etc.) that could be transferable to harmful algal blooms in the marine environment. Funding is contingent upon availability of Federal appropriations. It is anticipated that approximately $2,500,000 may be available to support the first year of three to five projects. Proposals may request up to $500,000 per year for up to 3 years (focal area 1) or up to $1,000,000 per year for up to 5 years. NCCOS/CRP may reject any PCMHAB proposals submitted with an annual budget for any year that is greater than $500,000 for focal area 1 projects or $1,000,000 for focal area 2 projects. --- An informational webinar on this solicitation will be offered on March 26, 2026 from 2 to 3 p.m. Eastern Time. Information regarding this Announcement, including the webinar and additional background information, is available on the NCCOS PCMHAB webpage (https://coastalscience.noaa.gov/science-areas/habs/pcmhab/).</p>",
+        "responseDate": "Jul 09, 2026 12:00:00 AM EDT",
+        "responseDateDesc": "",
+        "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+        "archiveDate": "Aug 10, 2026 12:00:00 AM EDT",
+        "costSharing": false,
+        "numberOfAwards": "5",
+        "estimatedFunding": "2500000",
+        "estimatedFundingFormatted": "2,500,000",
+        "awardCeiling": "1000000",
+        "awardCeilingFormatted": "1,000,000",
+        "awardFloor": "1",
+        "awardFloorFormatted": "1",
+        "applicantEligibilityDesc": "Eligible applicants for Federal financial assistance in this competition are U.S. institutions of higher education, non-profits, state and local governments, tribal government entities, U.S. Territories, U.S. Affiliated Pacific Islands institutions, and for-profit organizations. Federal applicants (including NOAA) are eligible provided legal authority exists for the Federal applicant to receive funds from another agency.---Please note that:1. PIs must be employees of an eligible entity listed above; and applications must be submitted through that entity. Non-Federal researchers should comply with their institutional requirements for application submission.---2. Non-Federal researchers affiliated with NOAA-University CIs will be funded through cooperative agreements.---3. Foreign researchers must apply as subawards or contracts through an eligible U.S. entity.---4. Federal applicants are eligible to submit applications for intra- or inter-agency funds transfers through this competition. Non-NOAA Federal applicants will be required to submit certifications or documentation showing that they have specific legal authority to accept funds for this type of research.---5. An eligible U.S. entity may propose Federal agency researchers as funded or unfunded collaborators. If Federal agency researchers are proposed as funded collaborators, the applicant should present the collaborator's funding request in the application in the same way documentation is provided for a subrecipient for purposes of project evaluation, even though intra- or inter-agency funding transfers will generally be used if the project is selected.---6. NOAA NCCOS researchers may apply through an eligible U.S. entity as funded or unfunded collaborators, but cannot be the lead PI on the application. Federal employees, including NOAA, with the exception of NCCOS employees, may serve as lead PI on the application. NOAA Federal salaries will not be paid.",
+        "sendEmail": "Y",
+        "createTimeStamp": "Apr 15, 2026 09:59:41 AM EDT",
+        "modComments": "To extend the close date per the PO's email dated 04/15/2026.",
+        "createdDate": "Mar 13, 2026 08:48:48 PM EDT",
+        "lastUpdatedDate": "Apr 15, 2026 09:58:03 AM EDT",
+        "applicantTypes": [
+          {
+            "id": "25",
+            "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+          }
+        ],
+        "fundingInstruments": [
+          {
+            "id": "CA",
+            "description": "Cooperative Agreement"
+          }
+        ],
+        "fundingActivityCategories": [
+          {
+            "id": "ENV",
+            "description": "Environment"
+          },
+          {
+            "id": "NR",
+            "description": "Natural Resources"
+          },
+          {
+            "id": "ST",
+            "description": "Science and Technology and other Research and Development"
+          }
+        ],
+        "responseDateStr": "2026-07-09-00-00-00",
+        "postingDateStr": "2026-03-13-00-00-00",
+        "archiveDateStr": "2026-08-10-00-00-00",
+        "createTimeStampStr": "2026-04-15-09-59-41"
+      },
+      "agencyDetails": {
+        "code": "DOCNOAAERA",
+        "seed": "DOC-DOCNOAAERA",
+        "agencyName": "DOC NOAA - ERA Production",
+        "agencyCode": "DOC-DOCNOAAERA",
+        "topAgencyCode": "DOC"
+      },
+      "topAgencyDetails": {
+        "code": "DOC",
+        "seed": "DOC",
+        "agencyName": "Department of Commerce",
+        "agencyCode": "DOC",
+        "topAgencyCode": "DOC"
+      },
+      "synopsisAttachmentFolders": [
+        {
+          "id": 78993,
+          "opportunityId": 361503,
+          "folderType": "Full Announcement",
+          "folderName": "Full Announcement",
+          "zipLobSize": 167651,
+          "createdDate": "Mar 13, 2026 08:51:05 PM EDT",
+          "lastUpdatedDate": "Apr 15, 2026 09:59:41 AM EDT",
+          "synopsisAttachments": [
+            {
+              "id": 350567,
+              "opportunityId": 361503,
+              "mimeType": "application/pdf",
+              "fileName": "Foa_Content_of_NOAA-NOS-NCCOS-2026-33016 (1) (1).pdf",
+              "fileDescription": "Full Announcement",
+              "fileLobSize": 195279,
+              "createdDate": "Mar 13, 2026 08:51:28 PM EDT",
+              "lastUpdatedDate": "Apr 15, 2026 09:59:41 AM EDT",
+              "synopsisAttFolderId": 78993
+            }
+          ]
+        }
+      ],
+      "synopsisDocumentURLs": [],
+      "synAttChangeComments": [],
+      "cfdas": [
+        {
+          "id": 432236,
+          "opportunityId": 361503,
+          "cfdaNumber": "11.478",
+          "programTitle": "Center for Sponsored Coastal Ocean Research Coastal Ocean Program"
+        }
+      ],
+      "opportunityHistoryDetails": [
+        {
+          "oppHistId": {
+            "opportunityId": 361503,
+            "revision": 0
+          },
+          "opportunityId": 361503,
+          "revision": 0,
+          "opportunityNumber": "NOAA-NOS-NCCOS-2026-33016",
+          "opportunityTitle": "Prevention, Control, and Mitigation of Harmful Algal Blooms Program",
+          "owningAgencyCode": "DOC-DOCNOAAERA",
+          "publisherUid": "fisaac",
+          "listed": "L",
+          "opportunityCategory": {
+            "category": "D",
+            "description": "Discretionary"
+          },
+          "synopsis": {
+            "id": {
+              "opportunityId": 361503,
+              "revision": 0
+            },
+            "opportunityId": 361503,
+            "revision": 0,
+            "version": 1,
+            "agencyCode": "DOC-DOCNOAAERA",
+            "agencyAddressDesc": "Work",
+            "agencyDetails": {
+              "code": "DOCNOAAERA",
+              "seed": "DOC-DOCNOAAERA",
+              "agencyName": "DOC NOAA - ERA Production",
+              "agencyCode": "DOC-DOCNOAAERA",
+              "topAgencyCode": "DOC"
+            },
+            "agencyContactPhone": "30-628-1330",
+            "agencyContactName": "Frederick L Isaac\nGrantor",
+            "agencyContactDesc": "Technical Program Information: Felix Martinez, NCCOS/CRP PCMHAB Program Manager,",
+            "agencyContactEmail": "felix.martinez@noaa.gov",
+            "agencyContactEmailDesc": "Work",
+            "synopsisDesc": "<p>The purpose of this document is to advise the public that NOAA/NOS/National Centers for Coastal Ocean Science (NCCOS) Competitive Research Program (NCCOS/CRP) [formerly Center for Sponsored Coastal Ocean Research (CSCOR)/Coastal Ocean Program (COP)] is soliciting proposals for the Prevention, Control and Mitigation of Harmful Algal Bloom (PCMHAB) program. The PCMHAB program seeks to develop and transition technologies and strategies for preventing, controlling, or mitigating harmful algal blooms and their impacts. For this announcement, PCMHAB will prioritize proposals focused on the comprehensive testing of harmful algal bloom control technologies that fit one of the two following focal areas: (1) promising control technologies that are in need of further testing to prove feasibility; and (2) proven control technologies that are still in need of large-scale field testing or that are already approved related control technologies (e.g., freshwater harmful algal blooms, oil spills, etc.) that could be transferable to harmful algal blooms in the marine environment. Funding is contingent upon availability of Federal appropriations. It is anticipated that approximately $2,500,000 may be available to support the first year of three to five projects. Proposals may request up to $500,000 per year for up to 3 years (focal area 1) or up to $1,000,000 per year for up to 5 years. NCCOS/CRP may reject any PCMHAB proposals submitted with an annual budget for any year that is greater than $500,000 for focal area 1 projects or $1,000,000 for focal area 2 projects. --- An informational webinar on this solicitation will be offered on March 26, 2026 from 2 to 3 p.m. Eastern Time. Information regarding this Announcement, including the webinar and additional background information, is available on the NCCOS PCMHAB webpage (https://coastalscience.noaa.gov/science-areas/habs/pcmhab/). </p>",
+            "responseDate": "May 14, 2026 12:00:00 AM EDT",
+            "responseDateDesc": "",
+            "postingDate": "Mar 13, 2026 12:00:00 AM EDT",
+            "archiveDate": "Jun 13, 2026 12:00:00 AM EDT",
+            "costSharing": false,
+            "numberOfAwards": "5",
+            "estimatedFunding": "2500000",
+            "estimatedFundingFormatted": "2,500,000",
+            "awardCeiling": "1000000",
+            "awardCeilingFormatted": "1,000,000",
+            "awardFloor": "1",
+            "awardFloorFormatted": "1",
+            "applicantEligibilityDesc": "Eligible applicants for Federal financial assistance in this competition are U.S. institutions of higher education, non-profits, state and local governments, tribal government entities, U.S. Territories, U.S. Affiliated Pacific Islands institutions, and for-profit organizations. Federal applicants (including NOAA) are eligible provided legal authority exists for the Federal applicant to receive funds from another agency.\r\n---\r\nPlease note that:\r\n1. PIs must be employees of an eligible entity listed above; and applications must be submitted through that entity. Non-Federal researchers should comply with their institutional requirements for application submission.\r\n---\r\n2. Non-Federal researchers affiliated with NOAA-University CIs will be funded through cooperative agreements.\r\n---\r\n3. Foreign researchers must apply as subawards or contracts through an eligible U.S. entity.\r\n---\r\n4. Federal applicants are eligible to submit applications for intra- or inter-agency funds transfers through this competition. Non-NOAA Federal applicants will be required to submit certifications or documentation showing that they have specific legal authority to accept funds for this type of research.\r\n---\r\n5. An eligible U.S. entity may propose Federal agency researchers as funded or unfunded collaborators. If Federal agency researchers are proposed as funded collaborators, the applicant should present the collaborator's funding request in the application in the same way documentation is provided for a subrecipient for purposes of project evaluation, even though intra- or inter-agency funding transfers will generally be used if the project is selected.\r\n---\r\n6. NOAA NCCOS researchers may apply through an eligible U.S. entity as funded or unfunded collaborators, but cannot be the lead PI on the application. Federal employees, including NOAA, with the exception of NCCOS employees, may serve as lead PI on the application. NOAA Federal salaries will not be paid.",
+            "createTimeStamp": "Mar 13, 2026 08:51:28 PM EDT",
+            "sendEmail": "Y",
+            "actionType": "U",
+            "actionDate": "Apr 15, 2026 09:58:03 AM EDT",
+            "createdDate": "Mar 13, 2026 08:48:48 PM EDT",
+            "lastUpdatedDate": "Mar 13, 2026 08:48:48 PM EDT",
+            "applicantTypes": [
+              {
+                "id": "25",
+                "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+              }
+            ],
+            "fundingInstruments": [
+              {
+                "id": "CA",
+                "description": "Cooperative Agreement"
+              }
+            ],
+            "fundingActivityCategories": [
+              {
+                "id": "ENV",
+                "description": "Environment"
+              },
+              {
+                "id": "NR",
+                "description": "Natural Resources"
+              },
+              {
+                "id": "ST",
+                "description": "Science and Technology and other Research and Development"
+              }
+            ],
+            "responseDateStr": "2026-05-14-00-00-00",
+            "postingDateStr": "2026-03-13-00-00-00",
+            "archiveDateStr": "2026-06-13-00-00-00",
+            "createTimeStampStr": "2026-03-13-20-51-28"
+          },
+          "cfdas": [
+            {
+              "id": 432236,
+              "opportunityId": 361503,
+              "revision": 0,
+              "cfdaNumber": "11.478",
+              "programTitle": "Center for Sponsored Coastal Ocean Research Coastal Ocean Program"
+            }
+          ],
+          "synopsisModifiedFields": [],
+          "forecastModifiedFields": []
+        }
+      ],
+      "opportunityPkgs": [
+        {
+          "id": 292122,
+          "topportunityId": 361503,
+          "familyId": 15,
+          "dialect": "XFDL2.2",
+          "opportunityNumber": "NOAA-NOS-NCCOS-2026-33016",
+          "opportunityTitle": "Prevention, Control, and Mitigation of Harmful Algal Blooms Program",
+          "cfdaNumber": "11.478",
+          "openingDate": "2026-03-13",
+          "closingDate": "2026-07-09",
+          "owningAgencyCode": "DOC-DOCNOAAERA",
+          "agencyDetails": {
+            "code": "DOCNOAAERA",
+            "seed": "DOC-DOCNOAAERA",
+            "agencyName": "DOC NOAA - ERA Production",
+            "agencyCode": "DOC-DOCNOAAERA",
+            "topAgencyCode": "DOC"
+          },
+          "topAgencyDetails": {
+            "code": "DOC",
+            "seed": "DOC",
+            "agencyName": "Department of Commerce",
+            "agencyCode": "DOC",
+            "topAgencyCode": "DOC"
+          },
+          "programTitle": "Center for Sponsored Coastal Ocean Research Coastal Ocean Program",
+          "contactInfo": "Technical Program Information: Felix Martinez, NCCOS/CRP PCMHAB Program Manager, felix.martinez@noaa.gov",
+          "electronicRequired": "Y",
+          "expectedApplicationCount": 5,
+          "openToApplicantType": 1,
+          "listed": "L",
+          "isMultiProject": "N",
+          "extension": "pdf",
+          "mimetype": "application/pdf",
+          "lastUpdate": "Apr 15, 2026 09:59:08 AM EDT",
+          "workspaceCompatibleFlag": "Y",
+          "packageId": "PKG00292122",
+          "openingDateStr": "2026-03-13-00-00-00",
+          "closingDateStr": "2026-07-09-00-00-00"
+        }
+      ],
+      "closedOpportunityPkgs": [],
+      "originalDueDate": "May 14, 2026 12:00:00 AM EDT",
+      "originalDueDateDesc": "",
+      "synopsisModifiedFields": [
+        "revision",
+        "version",
+        "synopsisDesc",
+        "responseDate",
+        "archiveDate",
+        "applicantEligibilityDesc",
+        "createTimeStamp"
+      ],
+      "forecastModifiedFields": [],
+      "errorMessages": [],
+      "synPostDateInPast": true,
+      "docType": "synopsis",
+      "forecastHistCount": 0,
+      "synopsisHistCount": 0,
+      "assistCompatible": false,
+      "assistURL": "",
+      "relatedOpps": [],
+      "draftMode": "N",
+      "ost": "POSTED"
+    }
+  }
+}

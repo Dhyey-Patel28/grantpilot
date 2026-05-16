@@ -1,0 +1,33 @@
+{
+  "source": "MI Funding Hub",
+  "source_kind": "real",
+  "source_url": "https://mifundinghub.org/funding-opportunities/?grant=10974",
+  "exact_grant_url": "https://mifundinghub.org/funding-opportunities/?grant=10974",
+  "website": "https://www.grants.gov/search-results-detail/357180",
+  "grant_id": "10974",
+  "title": "Cellular and Molecular Biology of Complex Brain Disorders (R21 Clinical Trial Not Allowed)",
+  "overview": "This Notice of Funding Opportunity (NOFO) encourages research on the biology of high confidence risk factors associated with complex brain disorders, with a focus on the intracellular, transcellular and circuit substrates of neural function. For the purposes of this NOFO, the term complex can refer to a multifactorial contribution to risk (e.g., polygenic and/or environmental) and/or highly distributed functional features of the brain disorder. Studies may be either hypothesis-generating (unbiased discovery) or hypothesis-testing in design and may utilize in vivo, in situ, or in vitro experimental paradigms, e.g., model organisms or human cell-based assays. While behavioral paradigms and outcome measures can be incorporated into the research design to facilitate the characterization of intracellular, transcellular and circuit mechanisms, these are neither required nor expected. Studies should not attempt to model disorders but instead should aim to elucidate the neurobiological impact of individual or combined risk factor(s), such as the affected molecular and cellular components and their relationships within defined biological process(es). This can include the fundamental biology of these factors, components and processes. The resulting paradigms, component pathways and biological processes should be disseminated with sufficient detail to enrich common and/or federated data resources (e.g., those contributing to the Gene Ontology, Synaptic Gene Ontology, FAIR Data Informatics) in order to bridge the gap between disease risk factors, biological mechanism and therapeutic target identification. The present NOFO (R21 activity code) can be used for applications to develop early stage, high-risk, exploratory approaches or establish proof-of-concept where there is little or no preliminary data. Applicants proposing to develop lines of inquiry where feasibility or proof of concept has been established should apply to the companion R01 NOFO (PAR-xx-xxx). Show More",
+  "additional_info": "Posted Date: November 18, 2024 Application Due Date: September 7, 2026 Estimated Award Date: Not Specified Eligible Applicants: Public and State controlled institutions of higher educationPublic housing authorities/Indian housing authoritiesNative American tribal organizations (other than Federally recognized tribal governments)Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationPrivate institutions of higher educationSpecial district governmentsState governmentsCity or township governmentsSmall businessesCounty governmentsOthersIndependent school districtsNative American tribal governments (Federally recognized)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationFor profit organizations other than small businesses Show More",
+  "eligible_applicants": [
+    "Public and State controlled institutions of higher educationPublic housing authorities/Indian housing authoritiesNative American tribal organizations (other than Federally recognized tribal governments)Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher educationPrivate institutions of higher educationSpecial district governmentsState governmentsCity or township governmentsSmall businessesCounty governmentsOthersIndependent school districtsNative American tribal governments (Federally recognized)Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher educationFor profit organizations other than small businesses"
+  ],
+  "funding_categories_raw": [],
+  "categories_inferred": [
+    "environment",
+    "housing",
+    "transportation"
+  ],
+  "due_date": "",
+  "agency": "United States Department of Health and Human Services",
+  "source_level": "",
+  "funding_amount": "",
+  "funding_type": "",
+  "match_required": "",
+  "status": "",
+  "contact_info": "",
+  "posted_date": "",
+  "application_due_date": "",
+  "scraped_at": "2026-05-16T14:24:53.796Z",
+  "content_hash": "84229829ec80a5c44d4312f705fd5866d23c04531c38991aaedf1ecb5a1271ee",
+  "from_cache": false
+}
