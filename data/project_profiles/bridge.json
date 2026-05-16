@@ -1,11 +1,11 @@
 {
-  "community_name": null,
-  "applicant_type": "City or township governments",
+  "community_name": "Clare County",
+  "applicant_type": "County governments",
   "county": "Clare County",
   "population": 31400,
   "project_category": "transportation",
   "project_stage": "construction",
-  "description": "Clare County, with about 31,400 residents, faces a broken bridge and broken pipe issues that cause flooding and excessive commute times, with water running through yards; the township seeks funding to repair the bridge and fix the broken pipes, and has resident survey responses, pictures of flooding and the broken bridge, and township meeting notes.",
+  "description": "Clare County has about 31,400 residents and faces a broken bridge and broken pipes that are causing flooding, excessive commute times, and water running through residents' yards. The county wants funding to repair the bridge and fix the broken pipes.",
   "estimated_cost": 100000,
   "match_available": false,
   "documents_available": [
@@ -16,9 +16,9 @@
   "impact_keywords": [
     "bridge repair",
     "flooding",
-    "commute",
-    "infrastructure",
-    "water management",
-    "transportation"
+    "broken pipes",
+    "transportation",
+    "water infrastructure",
+    "commute"
   ]
 }

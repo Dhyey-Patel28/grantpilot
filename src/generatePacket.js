@@ -16,16 +16,20 @@ const grants = await readJson(path.join(root, config.cache.normalized), []);
 const scored = scoreGrants(project, grants).slice(0, 5);
 const health = await readJson(path.join(root, config.cache.data_health), {});
 
+const communityLabel = project.community_name || project.county || "Unknown community";
+const categoryLabel = String(project.project_category || "project").replace(/_/g, " ");
+const titleCategory = categoryLabel.charAt(0).toUpperCase() + categoryLabel.slice(1);
+
 const lines = [];
 lines.push("# GrantPilot MI — Real Grant Readiness Packet", "");
 lines.push(`Generated: ${new Date().toISOString()}`, "");
 lines.push("## Project", "");
-lines.push(`**Community:** ${project.community_name}`);
-lines.push(`**County:** ${project.county}`);
-lines.push(`**Applicant type:** ${project.applicant_type}`);
-lines.push(`**Project category:** ${project.project_category}`);
-lines.push(`**Project stage:** ${project.project_stage}`, "");
-lines.push(project.description, "");
+lines.push(`**Community:** ${communityLabel}`);
+lines.push(`**County:** ${project.county || "Unknown"}`);
+lines.push(`**Applicant type:** ${project.applicant_type || "Unknown"}`);
+lines.push(`**Project category:** ${project.project_category || "unknown"}`);
+lines.push(`**Project stage:** ${project.project_stage || "unknown"}`, "");
+lines.push(project.description || "No project description provided.", "");
 lines.push("## Data Health", "");
 lines.push(`- **Total normalized real grants:** ${health.total_normalized_real_grants ?? grants.length}`);
 lines.push(`- **Known Grants.gov opportunities:** ${health.known_grants_gov_opportunities ?? "Unknown"}`);
@@ -54,11 +58,11 @@ if (!scored.length) {
       lines.push(`- ${req}`);
     }
     lines.push("", "#### Application Starter Fields");
-    lines.push(`**Project Title:** ${project.community_name} ${project.project_category[0].toUpperCase() + project.project_category.slice(1)} Readiness Project`, "");
-    lines.push(`**Applicant Name:** ${project.community_name}`, "");
-    lines.push(`**Problem Statement:** ${project.description}`, "");
+    lines.push(`**Project Title:** ${communityLabel} ${titleCategory} Readiness Project`, "");
+    lines.push(`**Applicant Name:** ${communityLabel}`, "");
+    lines.push(`**Problem Statement:** ${project.description || "Unknown — needs project description"}`, "");
     lines.push(`**Funding Request Amount:** ${project.estimated_cost ?? "Unknown — needs preliminary cost estimate"}`, "");
-    lines.push(`**Public Benefit:** This project would help ${project.community_name} address a local ${project.project_category} need and improve service reliability for residents.`, "");
+    lines.push(`**Public Benefit:** This project would help ${communityLabel} address a local ${categoryLabel} need and improve service reliability for residents.`, "");
     lines.push("---", "");
   });
 }

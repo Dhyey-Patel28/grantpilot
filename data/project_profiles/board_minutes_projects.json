@@ -1,0 +1,107 @@
+{
+  "community_name": "Unadilla Township",
+  "county": "Livingston County",
+  "population": null,
+  "applicant_type": "City or township governments",
+  "projects": [
+    {
+      "description": "Easter Egg Hunt for the community in 2026 authorized with $750 funding.",
+      "project_category": "recreation",
+      "project_stage": "proposed",
+      "estimated_cost": 750,
+      "match_available": null,
+      "documents_available": [],
+      "impact_keywords": ["community_engagement", "family", "event"]
+    },
+    {
+      "description": "Construction of a new bathroom with a urinal, handicap door, and ADA ramp for the School House; seasonal building, no heating required.",
+      "project_category": "facilities",
+      "project_stage": "proposed",
+      "estimated_cost": null,
+      "match_available": null,
+      "documents_available": [],
+      "impact_keywords": ["accessibility", "education", "construction", "ada"]
+    },
+    {
+      "description": "Purchase of round banquet tables and tablecloths for use in the township hall at a cost of $1,755.95.",
+      "project_category": "facilities",
+      "project_stage": "proposed",
+      "estimated_cost": 1755.95,
+      "match_available": null,
+      "documents_available": [],
+      "impact_keywords": ["furnishings", "community_events", "township_hall"]
+    },
+    {
+      "description": "Replace residential dumpsters at 126 Webb St with a 4-yard dumpster from LRS.",
+      "project_category": "waste_management",
+      "project_stage": "proposed",
+      "estimated_cost": null,
+      "match_available": null,
+      "documents_available": [],
+      "impact_keywords": ["sanitation", "efficiency", "solid_waste"]
+    },
+    {
+      "description": "Implement monthly recycling program for the township pending a quote from LRS.",
+      "project_category": "waste_management",
+      "project_stage": "proposed",
+      "estimated_cost": null,
+      "match_available": null,
+      "documents_available": [],
+      "impact_keywords": ["recycling", "environment", "sustainability"]
+    },
+    {
+      "description": "Create hometown-hero banner signs for light poles along M36 to honor area veterans.",
+      "project_category": "public_art",
+      "project_stage": "proposed",
+      "estimated_cost": null,
+      "match_available": null,
+      "documents_available": [],
+      "impact_keywords": ["heritage", "community_pride", "visual_improvement", "veterans"]
+    },
+    {
+      "description": "Install a Welcome to Gregory sign near the M36/Bullis trailhead, with potential additional signs on north and south sides of town.",
+      "project_category": "signage",
+      "project_stage": "proposed",
+      "estimated_cost": null,
+      "match_available": null,
+      "documents_available": [],
+      "impact_keywords": ["welcome", "tourism", "wayfinding", "placemaking"]
+    },
+    {
+      "description": "Increase the per-meeting stipend of the zoning administrator by $150.",
+      "project_category": "administration",
+      "project_stage": "proposed",
+      "estimated_cost": 150,
+      "match_available": null,
+      "documents_available": [],
+      "impact_keywords": ["staffing", "compensation"]
+    },
+    {
+      "description": "Contract JP Landscaping for spring and fall clean-up at 126 Webb St, including mulching of both playgrounds for 2026 at $3,000 excluding mulch cost.",
+      "project_category": "landscaping",
+      "project_stage": "proposed",
+      "estimated_cost": 3000,
+      "match_available": null,
+      "documents_available": [],
+      "impact_keywords": ["maintenance", "outdoor_spaces", "recreation", "playgrounds"]
+    },
+    {
+      "description": "Update township, police, and fire webpages to be ADA compliant, funded through STG up to $2,500.",
+      "project_category": "digital_services",
+      "project_stage": "proposed",
+      "estimated_cost": 2500,
+      "match_available": null,
+      "documents_available": [],
+      "impact_keywords": ["accessibility", "digital_government", "compliance", "ada"]
+    },
+    {
+      "description": "Increase the in-lieu-of-insurance stipend for all board members by $200.",
+      "project_category": "administration",
+      "project_stage": "proposed",
+      "estimated_cost": 200,
+      "match_available": null,
+      "documents_available": [],
+      "impact_keywords": ["compensation", "board_operations"]
+    }
+  ]
+}

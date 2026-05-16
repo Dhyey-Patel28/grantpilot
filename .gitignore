@@ -179,3 +179,29 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Node / frontend
+node_modules/
+.next/
+dist/
+build/
+
+# Secrets / local config
+.env
+.env.local
+.env.*.local
+wxo-keys/
+
+# Generated / large cache
+cache/raw/
+outputs/
+
+# Local archives and backups
+*.zip
+grantPilot-backup-*/
+grantPilot-broken-merge-*/
+
+# Python local artifacts
+__pycache__/
+.venv/
+venv/
+env/
