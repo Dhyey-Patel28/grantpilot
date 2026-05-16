@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Bot, Send, Sparkles, User, FileText, CheckCircle2, AlertTriangle } from 'lucide-react';

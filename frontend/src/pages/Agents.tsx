@@ -1,3 +1,4 @@
+"use client";
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Workflow, Bot, Search, FileText, CheckCircle2, Play, FileSignature } from 'lucide-react';

@@ -1,7 +1,8 @@
+"use client";
+import Link from 'next/link';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Filter, Search, ChevronDown, CheckCircle2, Bookmark, XCircle } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 const initialGrants = [
   { id: 1, title: 'EPA Clean Water State Revolving Fund', amount: '$1.2M - $5M', deadline: 'Aug 15, 2026', match: 92, status: 'Open', eligible: true, agency: 'Environmental Protection Agency', saved: false },
@@ -129,7 +130,7 @@ export function GrantExplorer() {
                     </button>
                   </div>
 
-                  <Link to={`/explorer/${grant.id}`} className="p-5 flex-1 flex flex-col hover:-translate-y-1 transition-transform duration-300">
+                  <Link href={`/explorer/${grant.id}`} className="p-5 flex-1 flex flex-col hover:-translate-y-1 transition-transform duration-300">
                     <div className="flex justify-between items-start mb-3">
                       <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">
                         {grant.status}

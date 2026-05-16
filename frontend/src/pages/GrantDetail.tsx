@@ -1,5 +1,7 @@
+"use client";
+import Link from 'next/link';
+import { useParams } from 'next/navigation';
 import { useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, CheckCircle2, FileText, Calendar, DollarSign, Bot, Download, Users, Zap, ExternalLink, Plus, Trash2, ChevronRight } from 'lucide-react';
 
@@ -65,7 +67,7 @@ export function GrantDetail() {
 
   return (
     <div className="max-w-5xl mx-auto pb-10">
-      <Link to="/explorer" className="inline-flex items-center text-sm text-textSecondary hover:text-textPrimary transition-colors mb-6">
+      <Link href="/explorer" className="inline-flex items-center text-sm text-textSecondary hover:text-textPrimary transition-colors mb-6">
         <ArrowLeft className="w-4 h-4 mr-2" /> Back to Explorer
       </Link>
 

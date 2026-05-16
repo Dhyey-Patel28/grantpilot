@@ -1,4 +1,6 @@
-import { Link, useLocation } from 'react-router-dom';
+"use client";
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { 
   LayoutDashboard, 
   Search, 
@@ -15,6 +17,7 @@ import { motion } from 'framer-motion';
 
 const navItems = [
   { name: 'Dashboard', path: '/', icon: LayoutDashboard },
+  { name: 'Project Intake', path: '/intake', icon: ClipboardList },
   { name: 'Grant Explorer', path: '/explorer', icon: Search },
   { name: 'Documents', path: '/documents', icon: Files },
   { name: 'Translator', path: '/translator', icon: FileText },
@@ -25,7 +28,7 @@ const navItems = [
 ];
 
 export function Sidebar() {
-  const location = useLocation();
+  const location = { pathname: usePathname() };
 
   return (
     <div className="w-64 glass-panel border-r border-borderColor flex flex-col z-20 shrink-0">
@@ -42,7 +45,7 @@ export function Sidebar() {
           return (
             <Link
               key={item.name}
-              to={item.path}
+              href={item.path}
               className={`flex items-center px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 relative group ${
                 isActive ? 'text-textPrimary' : 'text-textSecondary hover:text-textPrimary hover:bg-black/5 dark:hover:bg-black/5 dark:bg-white/5'
               }`}
@@ -64,7 +67,7 @@ export function Sidebar() {
 
       <div className="p-4 border-t border-borderColor shrink-0">
         <Link 
-          to="/settings"
+          href="/settings"
           className={`flex items-center px-3 py-2.5 w-full rounded-lg text-sm font-medium transition-colors ${
             location.pathname === '/settings' ? 'text-textPrimary bg-black/10 dark:bg-white/10' : 'text-textSecondary hover:text-textPrimary hover:bg-black/5 dark:hover:bg-black/5 dark:bg-white/5'
           }`}

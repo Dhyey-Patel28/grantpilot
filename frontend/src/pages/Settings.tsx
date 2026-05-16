@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect } from 'react';
 import { Save, Moon, Sun, Monitor, RefreshCw } from 'lucide-react';
 

@@ -1,3 +1,4 @@
+"use client";
 import { useState } from 'react';
 import { Upload, FileText, Trash2, Search, CheckCircle2 } from 'lucide-react';
 import { motion } from 'framer-motion';

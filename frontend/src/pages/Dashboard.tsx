@@ -1,6 +1,8 @@
+"use client";
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Link, useNavigate } from 'react-router-dom';
 import { 
   AlertTriangle, Clock, RefreshCw, FileText, CheckCircle2, 
   XCircle, Zap, Bookmark, ShieldAlert, ArrowRight, Bot, 
@@ -24,7 +26,7 @@ const agentWorkflowSteps = [
 ];
 
 export function Dashboard() {
-  const navigate = useNavigate();
+  const navigate = useRouter();
 
   // Cache State
   const [cacheStats, setCacheStats] = useState({
@@ -241,7 +243,7 @@ export function Dashboard() {
         <div className="lg:col-span-3 glass-panel rounded-2xl flex flex-col overflow-hidden">
           <div className="p-6 border-b border-borderColor flex justify-between items-center bg-bgPanelLight/30">
             <h2 className="text-lg font-bold text-textPrimary">Top Matching Grants</h2>
-            <Link to="/explorer" className="text-sm text-primary hover:underline">View All in Explorer</Link>
+            <Link href="/explorer" className="text-sm text-primary hover:underline">View All in Explorer</Link>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full text-left border-collapse">

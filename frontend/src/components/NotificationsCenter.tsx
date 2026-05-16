@@ -1,3 +1,4 @@
+"use client";
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AlertCircle, FileWarning, Calendar, X, Trash2, FileCheck } from 'lucide-react';

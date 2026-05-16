@@ -1,7 +1,8 @@
+"use client";
+import { useRouter } from 'next/navigation';
 import { useState, useEffect, useRef } from 'react';
 import { Bell, Search, Command, AlertTriangle, FileWarning, Calendar, FileCheck, CheckCircle2, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useNavigate } from 'react-router-dom';
 
 const initialAlerts = [
   { id: 1, title: '8 grants closing within 30 days', message: 'Requires immediate review', icon: Calendar, severity: 'High', color: 'text-red-400', bg: 'bg-red-400/10', border: 'border-red-400/20' },
@@ -15,7 +16,7 @@ export function Header() {
   const [alerts, setAlerts] = useState(initialAlerts);
   const [toastMsg, setToastMsg] = useState<string | null>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
-  const navigate = useNavigate();
+  const navigate = useRouter();
 
   useEffect(() => {
     const saved = localStorage.getItem('grantpilot_header_alerts');
