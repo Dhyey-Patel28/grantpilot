@@ -1,4 +1,5 @@
-﻿import { addWorkflowStep } from "./workflowTrace.js";
+﻿import { spawn } from "node:child_process";
+import { addWorkflowStep } from "./workflowTrace.js";
 import { validateAgentOutput } from "./jsonValidation.js";
 
 export async function callAgentWithTrace({
@@ -58,168 +59,288 @@ async function callWatsonAgent(agentName, payload) {
     return mockAgentResponse(agentName, payload);
   }
 
-  return callLiveWatsonAgent(agentName, payload);
+  if (mode === "live") {
+    return callLiveWatsonAgent(agentName, payload);
+  }
+
+  throw new Error(`Unsupported AGENT_MODE: ${mode}`);
 }
 
-let cachedIamToken = null;
-let cachedIamTokenExpiresAt = 0;
+const DEFAULT_ADK_AGENT_NAMES = {
+  "GrantPilot Coordinator": "GrantPilot_Coordinator_0412TA",
+  "GrantPilot Project Profiler": "GrantPilot_Project_Profiler_9813ux",
+  "GrantPilot Document Project Extractor": "GrantPilot_Document_Project_Extractor_1159Vs",
+  "GrantPilot Grant Relevance Judge": "GrantPilot_Grant_Relevance_Judge_788907",
+  "GrantPilot Match Explainer": "GrantPilot_Match_Explainer_6614Yc",
+  "GrantPilot Requirements Translator": "GrantPilot_Requirements_Translator_0183ih",
+  "GrantPilot Readiness Gap Analyzer": "GrantPilot_Readiness_Gap_Analyzer_6293z5",
+  "GrantPilot Packet Writer": "GrantPilot_Packet_Writer_84312J",
+  "GrantPilot Trust Guard": "GrantPilot_Trust_Guard_7503Cb"
+};
 
-const AGENT_ENV_MAP = {
-  "GrantPilot Coordinator": {
-    id: "IBM_WXO_AGENT_COORDINATOR_ID",
-    envId: "IBM_WXO_AGENT_COORDINATOR_ENV_ID"
-  },
-  "GrantPilot Project Profiler": {
-    id: "IBM_WXO_AGENT_PROJECT_PROFILER_ID",
-    envId: "IBM_WXO_AGENT_PROJECT_PROFILER_ENV_ID"
-  },
-  "GrantPilot Document Project Extractor": {
-    id: "IBM_WXO_AGENT_DOCUMENT_EXTRACTOR_ID",
-    envId: "IBM_WXO_AGENT_DOCUMENT_EXTRACTOR_ENV_ID"
-  },
-  "GrantPilot Grant Relevance Judge": {
-    id: "IBM_WXO_AGENT_RELEVANCE_JUDGE_ID",
-    envId: "IBM_WXO_AGENT_RELEVANCE_JUDGE_ENV_ID"
-  },
-  "GrantPilot Match Explainer": {
-    id: "IBM_WXO_AGENT_MATCH_EXPLAINER_ID",
-    envId: "IBM_WXO_AGENT_MATCH_EXPLAINER_ENV_ID"
-  },
-  "GrantPilot Requirements Translator": {
-    id: "IBM_WXO_AGENT_REQUIREMENTS_TRANSLATOR_ID",
-    envId: "IBM_WXO_AGENT_REQUIREMENTS_TRANSLATOR_ENV_ID"
-  },
-  "GrantPilot Readiness Gap Analyzer": {
-    id: "IBM_WXO_AGENT_READINESS_ANALYZER_ID",
-    envId: "IBM_WXO_AGENT_READINESS_ANALYZER_ENV_ID"
-  },
-  "GrantPilot Packet Writer": {
-    id: "IBM_WXO_AGENT_PACKET_WRITER_ID",
-    envId: "IBM_WXO_AGENT_PACKET_WRITER_ENV_ID"
-  },
-  "GrantPilot Trust Guard": {
-    id: "IBM_WXO_AGENT_TRUST_GUARD_ID",
-    envId: "IBM_WXO_AGENT_TRUST_GUARD_ENV_ID"
-  }
+const ADK_AGENT_ENV_KEYS = {
+  "GrantPilot Coordinator": "ADK_AGENT_COORDINATOR_NAME",
+  "GrantPilot Project Profiler": "ADK_AGENT_PROJECT_PROFILER_NAME",
+  "GrantPilot Document Project Extractor": "ADK_AGENT_DOCUMENT_EXTRACTOR_NAME",
+  "GrantPilot Grant Relevance Judge": "ADK_AGENT_RELEVANCE_JUDGE_NAME",
+  "GrantPilot Match Explainer": "ADK_AGENT_MATCH_EXPLAINER_NAME",
+  "GrantPilot Requirements Translator": "ADK_AGENT_REQUIREMENTS_TRANSLATOR_NAME",
+  "GrantPilot Readiness Gap Analyzer": "ADK_AGENT_READINESS_ANALYZER_NAME",
+  "GrantPilot Packet Writer": "ADK_AGENT_PACKET_WRITER_NAME",
+  "GrantPilot Trust Guard": "ADK_AGENT_TRUST_GUARD_NAME"
 };
 
 async function callLiveWatsonAgent(agentName, payload) {
-  const agentConfig = getAgentConfig(agentName);
-  const token = await getIamToken();
-
-  const baseUrl = requiredEnv("IBM_WXO_BASE_URL").replace(/\/$/, "");
-  const url = `${baseUrl}/api/v1/orchestrate/${agentConfig.agentId}/chat/completions`;
-
+  const adkAgentName = getAdkAgentName(agentName);
   const message = buildAgentMessage(agentName, payload);
 
-  const apiKey = requiredEnv("IBM_API_KEY");
+  await activateOrchestrateEnv();
 
-  const response = await fetch(url, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${token}`,
-      "IAM-API_KEY": apiKey,
-      "Content-Type": "application/json",
-      Accept: "application/json"
-    },
-    body: JSON.stringify({
-      stream: false,
-      messages: [
-        {
-          role: "user",
-          content: [
-            {
-              response_type: "text",
-              text: message
-            }
+  const cliOutput = await runOrchestrateChatAsk({
+    adkAgentName,
+    message
+  });
+
+  return parseJsonFromAgentText(agentName, cliOutput, adkAgentName);
+}
+
+function getAdkAgentName(agentName) {
+  const envKey = ADK_AGENT_ENV_KEYS[agentName];
+  const envValue = envKey ? process.env[envKey] : null;
+  const defaultValue = DEFAULT_ADK_AGENT_NAMES[agentName];
+
+  const adkAgentName = envValue || defaultValue;
+
+  if (!adkAgentName) {
+    throw new Error(`No ADK agent name configured for ${agentName}`);
+  }
+
+  return adkAgentName;
+}
+
+async function runOrchestrateChatAsk({ adkAgentName, message }) {
+  const command = process.env.ORCHESTRATE_CLI_PATH || "orchestrate";
+  const timeoutMs = Number(process.env.ORCHESTRATE_TIMEOUT_MS || 180000);
+
+  const args = [
+    "chat",
+    "ask",
+    "--agent-name",
+    adkAgentName,
+    message
+  ];
+
+  return new Promise((resolve, reject) => {
+    let stdout = "";
+    let stderr = "";
+    let hasSentQuit = false;
+    let settled = false;
+
+    const child = spawn(command, args, {
+      windowsHide: true,
+      shell: false,
+      env: {
+        ...process.env,
+
+        // Windows/Python unicode safety.
+        PYTHONUTF8: "1",
+        PYTHONIOENCODING: "utf-8",
+        PYTHONLEGACYWINDOWSSTDIO: "0",
+
+        // Reduce color/styled output and make Rich wider so JSON wraps less.
+        FORCE_COLOR: "0",
+        NO_COLOR: "1",
+        TERM: "dumb",
+        COLUMNS: process.env.ORCHESTRATE_TERMINAL_COLUMNS || "300",
+        RICH_WIDTH: process.env.ORCHESTRATE_TERMINAL_COLUMNS || "300"
+      }
+    });
+
+    const timer = setTimeout(() => {
+      if (settled) return;
+      settled = true;
+
+      try {
+        child.kill("SIGTERM");
+      } catch {
+        // ignore
+      }
+
+      reject(
+        new Error(
+          [
+            `ADK CLI call timed out for ${adkAgentName}.`,
+            `Command: ${command} ${args.slice(0, 4).join(" ")} ...`,
+            stdout ? `STDOUT:\n${stdout}` : "",
+            stderr ? `STDERR:\n${stderr}` : ""
           ]
+            .filter(Boolean)
+            .join("\n")
+        )
+      );
+    }, timeoutMs);
+
+    function maybeQuit() {
+      if (hasSentQuit) return;
+
+      const combined = `${stdout}\n${stderr}`;
+
+      // The ADK prints a second user prompt after the first answer.
+      // When we see the save/thread section or the prompt, send q so it exits.
+      const looksDone =
+        combined.includes("Thread ID:") ||
+        combined.includes("Save this ID") ||
+        combined.includes("👤 You:") ||
+        combined.includes("You:");
+
+      if (!looksDone) return;
+
+      hasSentQuit = true;
+
+      setTimeout(() => {
+        try {
+          child.stdin.write("q\n");
+        } catch {
+          // ignore
         }
-      ],
-      additional_parameters: {},
-      context: {}
-    })
+
+        try {
+          child.stdin.end();
+        } catch {
+          // ignore
+        }
+      }, 300);
+    }
+
+    child.stdout.on("data", (chunk) => {
+      stdout += chunk.toString("utf8");
+      maybeQuit();
+    });
+
+    child.stderr.on("data", (chunk) => {
+      stderr += chunk.toString("utf8");
+      maybeQuit();
+    });
+
+    child.on("error", (error) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timer);
+
+      reject(
+        new Error(
+          [
+            `ADK CLI failed to start for ${adkAgentName}.`,
+            `Command: ${command} ${args.slice(0, 4).join(" ")} ...`,
+            `Error: ${error?.message || String(error)}`
+          ].join("\n")
+        )
+      );
+    });
+
+    child.on("close", (code) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timer);
+
+      const output = `${stdout || ""}\n${stderr || ""}`.trim();
+
+      if (code !== 0) {
+        reject(
+          new Error(
+            [
+              `ADK CLI call failed for ${adkAgentName}.`,
+              `Command: ${command} ${args.slice(0, 4).join(" ")} ...`,
+              `Exit code: ${code}`,
+              stdout ? `STDOUT:\n${stdout}` : "",
+              stderr ? `STDERR:\n${stderr}` : ""
+            ]
+              .filter(Boolean)
+              .join("\n")
+          )
+        );
+        return;
+      }
+
+      resolve(output);
+    });
   });
-
-  const rawText = await response.text();
-
-  if (!response.ok) {
-    throw new Error(
-      `IBM Orchestrate call failed for ${agentName}. HTTP ${response.status}: ${rawText}`
-    );
-  }
-
-  let responseJson;
-  try {
-    responseJson = JSON.parse(rawText);
-  } catch {
-    throw new Error(`IBM Orchestrate returned non-JSON response for ${agentName}: ${rawText}`);
-  }
-
-  const assistantText = extractAssistantText(responseJson);
-
-  if (!assistantText) {
-    throw new Error(
-      `Could not find assistant text in IBM response for ${agentName}: ${JSON.stringify(responseJson)}`
-    );
-  }
-
-  return parseJsonFromAgentText(agentName, assistantText);
 }
 
-function getAgentConfig(agentName) {
-  const envKeys = AGENT_ENV_MAP[agentName];
+async function activateOrchestrateEnv() {
+  const command = process.env.ORCHESTRATE_CLI_PATH || "orchestrate";
+  const adkEnvName = process.env.ADK_ENV_NAME || "grantpilot-live";
+  const apiKey = process.env.IBM_API_KEY;
 
-  if (!envKeys) {
-    throw new Error(`No IBM agent env mapping found for ${agentName}`);
+  if (!apiKey) {
+    throw new Error("Missing IBM_API_KEY in backend .env. Cannot activate Orchestrate ADK environment.");
   }
 
-  const agentId = requiredEnv(envKeys.id);
-  const agentEnvironmentId = process.env[envKeys.envId] || "";
+  const args = [
+    "env",
+    "activate",
+    adkEnvName,
+    "--api-key",
+    apiKey
+  ];
 
-  return {
-    agentId,
-    agentEnvironmentId
-  };
-}
+  return new Promise((resolve, reject) => {
+    let stdout = "";
+    let stderr = "";
 
-async function getIamToken() {
-  const now = Date.now();
+    const child = spawn(command, args, {
+      windowsHide: true,
+      shell: false,
+      env: {
+        ...process.env,
+        PYTHONUTF8: "1",
+        PYTHONIOENCODING: "utf-8",
+        PYTHONLEGACYWINDOWSSTDIO: "0",
+        FORCE_COLOR: "0",
+        NO_COLOR: "1",
+        TERM: "dumb"
+      }
+    });
 
-  if (cachedIamToken && now < cachedIamTokenExpiresAt) {
-    return cachedIamToken;
-  }
+    child.stdout.on("data", (chunk) => {
+      stdout += chunk.toString("utf8");
+    });
 
-  const apiKey = requiredEnv("IBM_API_KEY");
+    child.stderr.on("data", (chunk) => {
+      stderr += chunk.toString("utf8");
+    });
 
-  const response = await fetch("https://iam.cloud.ibm.com/identity/token", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded"
-    },
-    body: new URLSearchParams({
-      grant_type: "urn:ibm:params:oauth:grant-type:apikey",
-      apikey: apiKey
-    })
+    child.on("error", (error) => {
+      reject(
+        new Error(
+          [
+            `Failed to start Orchestrate env activate.`,
+            `Error: ${error?.message || String(error)}`
+          ].join("\n")
+        )
+      );
+    });
+
+    child.on("close", (code) => {
+      if (code !== 0) {
+        reject(
+          new Error(
+            [
+              `Failed to activate Orchestrate environment: ${adkEnvName}`,
+              `Exit code: ${code}`,
+              stdout ? `STDOUT:\n${stdout}` : "",
+              stderr ? `STDERR:\n${stderr}` : ""
+            ]
+              .filter(Boolean)
+              .join("\n")
+          )
+        );
+        return;
+      }
+
+      resolve();
+    });
   });
-
-  const rawText = await response.text();
-
-  if (!response.ok) {
-    throw new Error(`IBM IAM token request failed. HTTP ${response.status}: ${rawText}`);
-  }
-
-  const data = JSON.parse(rawText);
-
-  if (!data.access_token) {
-    throw new Error(`IBM IAM token response did not include access_token: ${rawText}`);
-  }
-
-  cachedIamToken = data.access_token;
-
-  const expiresInSeconds = Number(data.expires_in || 3600);
-  cachedIamTokenExpiresAt = Date.now() + Math.max(60, expiresInSeconds - 120) * 1000;
-
-  return cachedIamToken;
 }
 
 function buildAgentMessage(agentName, payload) {
@@ -240,88 +361,243 @@ function buildAgentMessage(agentName, payload) {
   ].join("\n");
 }
 
-function extractAssistantText(responseJson) {
-  const choice = responseJson?.choices?.[0];
+function parseJsonFromAgentText(agentName, rawText, adkAgentName = "") {
+  const noAnsi = stripAnsi(String(rawText || ""));
 
-  if (typeof choice?.message?.content === "string") {
-    return choice.message.content;
+  const possibleSections = [
+    extractAssistantSection(noAnsi, adkAgentName),
+    noAnsi
+  ].filter(Boolean);
+
+  for (const section of possibleSections) {
+    const normalized = normalizeCliSection(section);
+    const candidates = extractBalancedJsonCandidates(normalized);
+
+    for (let i = candidates.length - 1; i >= 0; i -= 1) {
+      const candidate = sanitizeJsonCandidate(stripCodeFence(candidates[i]));
+
+      try {
+        return JSON.parse(candidate);
+      } catch {
+        // try next candidate
+      }
+    }
+
+    const whole = sanitizeJsonCandidate(stripCodeFence(normalized.trim()));
+
+    try {
+      return JSON.parse(whole);
+    } catch {
+      // continue
+    }
   }
 
-  if (Array.isArray(choice?.message?.content)) {
-    return choice.message.content
-      .map((part) => part?.text || part?.content || "")
-      .filter(Boolean)
-      .join("\n");
-  }
-
-  if (typeof choice?.delta?.content === "string") {
-    return choice.delta.content;
-  }
-
-  const runMessageContent = responseJson?.result?.data?.message?.content;
-
-  if (typeof runMessageContent === "string") {
-    return runMessageContent;
-  }
-
-  if (Array.isArray(runMessageContent)) {
-    return runMessageContent
-      .map((part) => part?.text || part?.content || "")
-      .filter(Boolean)
-      .join("\n");
-  }
-
-  return "";
+  throw new Error(
+    `${agentName} did not return parseable JSON. Raw ADK output:\n${rawText}`
+  );
 }
 
-function parseJsonFromAgentText(agentName, text) {
-  const cleaned = text
+function extractAssistantSection(text, adkAgentName) {
+  const lines = String(text || "").split(/\r?\n/);
+
+  let startIndex = -1;
+
+  for (let i = 0; i < lines.length; i += 1) {
+    const line = lines[i];
+
+    const isAssistantHeader =
+      line.includes("🤖") ||
+      (adkAgentName && line.includes(adkAgentName));
+
+    const isUserOrSaveLine =
+      line.includes("👤 User") ||
+      line.includes("Save Your Conversation") ||
+      line.includes("Thread ID:");
+
+    if (isAssistantHeader && !isUserOrSaveLine) {
+      startIndex = i + 1;
+      break;
+    }
+  }
+
+  if (startIndex === -1) {
+    return "";
+  }
+
+  const collected = [];
+
+  for (let i = startIndex; i < lines.length; i += 1) {
+    const line = lines[i];
+
+    if (line.includes("👤 You:")) break;
+    if (line.includes("Save Your Conversation")) break;
+    if (line.includes("Thread ID:")) break;
+
+    // End of the assistant rich panel.
+    if (/^[└╰].*[┘╯]?$/.test(line.trim()) && collected.length > 0) {
+      break;
+    }
+
+    collected.push(line);
+  }
+
+  return collected.join("\n");
+}
+
+function normalizeCliSection(text) {
+  return String(text || "")
+    .split(/\r?\n/)
+    .map((line) => stripRichBorderLine(line))
+    .filter((line) => {
+      const trimmed = line.trim();
+
+      if (!trimmed) return true;
+
+      // Drop Rich borders and CLI metadata.
+      if (/^[┌┐└┘╭╮╰╯─━┏┓┗┛┡┢┣┫┳┻╋┼├┤]+/.test(trimmed)) return false;
+      if (trimmed.startsWith("[INFO]")) return false;
+      if (trimmed.startsWith("[DEBUG]")) return false;
+      if (trimmed.startsWith("Chat Mode")) return false;
+      if (trimmed.startsWith("Type your messages")) return false;
+      if (trimmed.startsWith("Commands:")) return false;
+      if (trimmed.startsWith("Thread ID:")) return false;
+      if (trimmed.startsWith("Save this ID")) return false;
+      if (trimmed.startsWith("Exiting chat")) return false;
+      if (trimmed.startsWith("👤")) return false;
+      if (trimmed.startsWith("🤖")) return false;
+
+      return true;
+    })
+    .join("\n")
+    .trim();
+}
+
+function stripRichBorderLine(line) {
+  const source = String(line || "");
+
+  const firstBar = source.indexOf("│");
+  const lastBar = source.lastIndexOf("│");
+
+  if (firstBar !== -1 && lastBar !== -1 && lastBar > firstBar) {
+    return source.slice(firstBar + 1, lastBar).trimEnd();
+  }
+
+  if (firstBar !== -1) {
+    return source.slice(firstBar + 1).trimEnd();
+  }
+
+  return source;
+}
+
+function sanitizeJsonCandidate(text) {
+  const source = String(text || "").trim();
+
+  let out = "";
+  let inString = false;
+  let escaped = false;
+
+  for (let i = 0; i < source.length; i += 1) {
+    const char = source[i];
+
+    if (escaped) {
+      out += char;
+      escaped = false;
+      continue;
+    }
+
+    if (char === "\\") {
+      out += char;
+      escaped = true;
+      continue;
+    }
+
+    if (char === "\"") {
+      out += char;
+      inString = !inString;
+      continue;
+    }
+
+    // Rich can wrap long JSON strings across lines.
+    // Literal newlines inside strings are invalid JSON, so convert them to spaces.
+    if ((char === "\n" || char === "\r") && inString) {
+      out += " ";
+      continue;
+    }
+
+    out += char;
+  }
+
+  return out.trim();
+}
+
+function stripAnsi(text) {
+  return String(text || "").replace(
+    // eslint-disable-next-line no-control-regex
+    /[\u001b\u009b][[\]()#;?]*(?:(?:(?:[a-zA-Z\d]*(?:;[a-zA-Z\d]*)*)?\u0007)|(?:(?:\d{1,4}(?:;\d{0,4})*)?[\dA-PR-TZcf-nq-uy=><~]))/g,
+    ""
+  );
+}
+
+function stripCodeFence(text) {
+  return String(text || "")
     .replace(/^```json\s*/i, "")
     .replace(/^```\s*/i, "")
     .replace(/```$/i, "")
     .trim();
-
-  try {
-    return JSON.parse(cleaned);
-  } catch {
-    const firstObject = cleaned.indexOf("{");
-    const lastObject = cleaned.lastIndexOf("}");
-
-    if (firstObject !== -1 && lastObject !== -1 && lastObject > firstObject) {
-      const possibleJson = cleaned.slice(firstObject, lastObject + 1);
-      try {
-        return JSON.parse(possibleJson);
-      } catch {
-        // fall through
-      }
-    }
-
-    const firstArray = cleaned.indexOf("[");
-    const lastArray = cleaned.lastIndexOf("]");
-
-    if (firstArray !== -1 && lastArray !== -1 && lastArray > firstArray) {
-      const possibleJson = cleaned.slice(firstArray, lastArray + 1);
-      try {
-        return JSON.parse(possibleJson);
-      } catch {
-        // fall through
-      }
-    }
-
-    throw new Error(
-      `${agentName} did not return parseable JSON. Raw assistant text: ${text}`
-    );
-  }
 }
 
-function requiredEnv(name) {
-  const value = process.env[name];
+function extractBalancedJsonCandidates(text) {
+  const candidates = [];
+  const source = String(text || "");
 
-  if (!value) {
-    throw new Error(`Missing required environment variable: ${name}`);
+  for (let start = 0; start < source.length; start += 1) {
+    const open = source[start];
+
+    if (open !== "{" && open !== "[") continue;
+
+    const close = open === "{" ? "}" : "]";
+    const stack = [close];
+
+    let inString = false;
+    let escaped = false;
+
+    for (let i = start + 1; i < source.length; i += 1) {
+      const char = source[i];
+
+      if (escaped) {
+        escaped = false;
+        continue;
+      }
+
+      if (char === "\\") {
+        escaped = true;
+        continue;
+      }
+
+      if (char === "\"") {
+        inString = !inString;
+        continue;
+      }
+
+      if (inString) continue;
+
+      if (char === "{") {
+        stack.push("}");
+      } else if (char === "[") {
+        stack.push("]");
+      } else if (char === stack[stack.length - 1]) {
+        stack.pop();
+
+        if (stack.length === 0) {
+          candidates.push(source.slice(start, i + 1));
+          start = i;
+          break;
+        }
+      }
+    }
   }
 
-  return value;
+  return candidates;
 }
 
 function mockAgentResponse(agentName, payload) {
@@ -556,7 +832,11 @@ function mockAgentResponse(agentName, payload) {
 }
 
 function mockCoordinator(payload) {
-  const isStringInput = typeof payload === "string";
+  const isProjectDescription =
+    typeof payload === "string" ||
+    typeof payload?.project_description === "string" ||
+    typeof payload?.message === "string";
+
   const hasProjectProfile = Boolean(payload?.project_profile);
   const hasCandidateGrants = Array.isArray(payload?.candidate_grants);
   const hasSelectedGrant = Boolean(payload?.selected_grant);
@@ -566,7 +846,7 @@ function mockCoordinator(payload) {
   const hasFinalOutput = Boolean(payload?.final_output);
   const asksForPacket = String(payload?.request || "").toLowerCase().includes("packet");
 
-  if (isStringInput) {
+  if (isProjectDescription) {
     return {
       workflow_status: "needs_backend_candidates",
       recommended_route: ["GrantPilot Project Profiler"],
@@ -672,7 +952,7 @@ function mockCoordinator(payload) {
   if (hasFinalOutput) {
     return {
       workflow_status: "route_ready",
-      recommended_route: ["GrantPilot Trust Guard"],
+    recommended_route: ["GrantPilot Trust Guard"],
       backend_should_call: ["Call Trust Guard"],
       input_summary: {
         has_project_profile: hasProjectProfile,
