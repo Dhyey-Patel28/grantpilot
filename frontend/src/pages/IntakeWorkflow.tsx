@@ -1,314 +1,468 @@
 "use client";
-import { useState, useEffect, useCallback, useMemo, useRef, memo } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Zap, Search, Bot, CheckCircle2, ArrowRight, XCircle, Upload, FileText, File, Trash2, Sparkles, AlertTriangle, X, Paperclip, Plus, Image as ImageIcon, Database, Activity, FileSignature, ShieldAlert } from 'lucide-react';
-import { useRouter } from 'next/navigation';
 
-interface UploadedDoc {
-  id: string;
-  name: string;
-  type: string;
-  size: number;
-}
+import Link from "next/link";
+import { memo, useCallback, useEffect, useMemo, useState } from "react";
+import {
+  AlertTriangle,
+  ArrowRight,
+  Bot,
+  CheckCircle2,
+  ClipboardList,
+  Database,
+  ExternalLink,
+  FileText,
+  Loader2,
+  PlayCircle,
+  ShieldCheck,
+  Sparkles,
+  Zap
+} from "lucide-react";
+import type { AnyRecord, GrantRecord, GrantPilotRunResponse } from "../lib/grantpilotApi";
+import {
+  GrantPilotApi,
+  asArray,
+  asBoolean,
+  asRecord,
+  asString,
+  formatCurrencyLike,
+  getArrayField,
+  getErrorMessage,
+  getGrantScore,
+  getRecordField,
+  getStringField,
+  saveJson,
+  saveLatestRun,
+  saveSelectedGrant,
+  STORAGE_KEYS,
+  truncate
+} from "../lib/grantpilotApi";
 
-const ACCEPTED = '.pdf,.docx,.xlsx,.txt,.jpg,.jpeg,.png';
+const fallbackProject =
+  "Clare County has a broken bridge causing flooding and commute delays. The county wants funding to repair the bridge. Estimated cost is $100,000 and no match is available.";
 
-const agentWorkflowSteps = [
-  { id: 'intake', name: 'Project Intake', icon: FileText },
-  { id: 'doc', name: 'Document Processor', icon: Database },
-  { id: 'infra', name: 'Infrastructure Analyzer', icon: Activity },
-  { id: 'profile', name: 'Project Profiler', icon: Search },
-  { id: 'relevance', name: 'Grant Relevance', icon: Zap },
-  { id: 'explainer', name: 'Match Explainer', icon: Bot },
-  { id: 'translator', name: 'Requirements Translator', icon: FileSignature },
-  { id: 'gap', name: 'Readiness Gap', icon: AlertTriangle },
-  { id: 'writer', name: 'Packet Writer', icon: FileText },
-  { id: 'trust', name: 'Trust Guard', icon: ShieldAlert },
+const stepLabels = [
+  "Coordinator routes request",
+  "Project Profiler builds profile",
+  "Backend scores 613 grants",
+  "Relevance Judge reviews candidates",
+  "Match Explainer creates clerk summary"
 ];
 
-function formatSize(bytes: number): string {
-  if (bytes < 1024) return `${bytes} B`;
-  if (bytes < 1048576) return `${(bytes / 1024).toFixed(1)} KB`;
-  return `${(bytes / 1048576).toFixed(1)} MB`;
-}
+function getInitialDescription(): string {
+  if (typeof window === "undefined") return fallbackProject;
 
-function chipColor(name: string) {
-  const ext = name.split('.').pop()?.toLowerCase();
-  if (ext === 'pdf') return 'text-red-400 bg-red-400/10 border-red-400/20';
-  if (ext === 'docx' || ext === 'doc') return 'text-primary bg-primary/10 border-primary/20';
-  if (ext === 'xlsx' || ext === 'xls') return 'text-secondary bg-secondary/10 border-secondary/20';
-  return 'text-textSecondary bg-white/5 border-borderColor';
+  try {
+    const savedScenario = localStorage.getItem(STORAGE_KEYS.demoScenario);
+    const parsed = savedScenario ? asRecord(JSON.parse(savedScenario) as unknown) : {};
+    return getStringField(parsed, "project_description", fallbackProject);
+  } catch {
+    return fallbackProject;
+  }
 }
 
 export const IntakeWorkflow = memo(function IntakeWorkflow() {
-  const [description, setDescription] = useState('Clare County has about 31,400 residents and faces a broken bridge and broken pipes that are causing flooding...');
-  const [isGenerating, setIsGenerating] = useState(false);
-  const [workflowStatus, setWorkflowStatus] = useState<Record<string, 'waiting' | 'running' | 'complete'>>({});
-  const [workflowComplete, setWorkflowComplete] = useState(false);
-  const [workflowStarted, setWorkflowStarted] = useState(false);
-  const [docs, setDocs] = useState<UploadedDoc[]>([]);
-  const [showUpload, setShowUpload] = useState(false);
-  const [isDragOver, setIsDragOver] = useState(false);
-  const fileInputRef = useRef<HTMLInputElement>(null);
-  const router = useRouter();
+  const [projectDescription, setProjectDescription] = useState(getInitialDescription);
+  const [documentsText, setDocumentsText] = useState("");
+  const [demoScenarios, setDemoScenarios] = useState<AnyRecord[]>([]);
+  const [validation, setValidation] = useState<AnyRecord | null>(null);
+  const [response, setResponse] = useState<GrantPilotRunResponse | null>(null);
+  const [traceSummary, setTraceSummary] = useState<AnyRecord | null>(null);
+  const [isRunning, setIsRunning] = useState(false);
+  const [isValidating, setIsValidating] = useState(false);
+  const [error, setError] = useState("");
 
-  // Hydrate docs from localStorage
   useEffect(() => {
+    GrantPilotApi.demoScenarios()
+      .then((data) => setDemoScenarios(getArrayField<AnyRecord>(data, "scenarios")))
+      .catch(() => setDemoScenarios([]));
+  }, []);
+
+  const documentsAvailable = useMemo(() => {
+    return documentsText
+      .split(/[,\n]/)
+      .map((item) => item.trim())
+      .filter(Boolean);
+  }, [documentsText]);
+
+  const runValidation = useCallback(async () => {
+    if (!projectDescription.trim()) return;
+
+    setIsValidating(true);
+    setError("");
+
     try {
-      const saved = localStorage.getItem('grantpilot_intake_docs');
-      if (saved) setDocs(JSON.parse(saved));
-    } catch {}
-  }, []);
-
-  const persistDocs = useCallback((updated: UploadedDoc[]) => {
-    localStorage.setItem('grantpilot_intake_docs', JSON.stringify(updated));
-  }, []);
-
-  const addFiles = useCallback((files: FileList | File[]) => {
-    const newDocs: UploadedDoc[] = Array.from(files)
-      .filter(f => f.size <= 50 * 1024 * 1024)
-      .map(f => ({
-        id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
-        name: f.name,
-        type: f.name.split('.').pop()?.toUpperCase() || 'FILE',
-        size: f.size,
-      }));
-    if (!newDocs.length) return;
-    setDocs(prev => { const u = [...prev, ...newDocs]; persistDocs(u); return u; });
-    setShowUpload(false);
-  }, [persistDocs]);
-
-  const removeDoc = useCallback((id: string) => {
-    setDocs(prev => { const u = prev.filter(d => d.id !== id); persistDocs(u); return u; });
-  }, [persistDocs]);
-
-  const handleDrop = useCallback((e: React.DragEvent) => { e.preventDefault(); setIsDragOver(false); if (e.dataTransfer.files.length) addFiles(e.dataTransfer.files); }, [addFiles]);
-  const handleFileChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => { if (e.target.files?.length) addFiles(e.target.files); e.target.value = ''; }, [addFiles]);
-
-  const handleGenerateProfile = useCallback(async () => {
-    setIsGenerating(true);
-    setWorkflowStarted(true);
-    setWorkflowComplete(false);
-    
-    const initStatus: Record<string, 'waiting' | 'running' | 'complete'> = {};
-    agentWorkflowSteps.forEach(s => initStatus[s.id] = 'waiting');
-    setWorkflowStatus(initStatus);
-
-    const delay = (ms: number) => new Promise(res => setTimeout(res, ms));
-
-    for (const step of agentWorkflowSteps) {
-      setWorkflowStatus(prev => ({ ...prev, [step.id]: 'running' }));
-      await delay(800);
-      setWorkflowStatus(prev => ({ ...prev, [step.id]: 'complete' }));
+      const output = await GrantPilotApi.validateIntake({
+        project_description: projectDescription,
+        documents_available: documentsAvailable
+      });
+      setValidation(output);
+    } catch (err: unknown) {
+      setError(getErrorMessage(err, "Could not validate project intake."));
+    } finally {
+      setIsValidating(false);
     }
-    
-    setIsGenerating(false);
-    setWorkflowComplete(true);
-  }, [description, docs]);
+  }, [documentsAvailable, projectDescription]);
 
- 
+  const runWorkflow = useCallback(async () => {
+    if (!projectDescription.trim()) {
+      setError("Please describe the project before running GrantPilot.");
+      return;
+    }
+
+    setIsRunning(true);
+    setError("");
+    setTraceSummary(null);
+
+    try {
+      const output = await GrantPilotApi.run({
+        project_description: projectDescription,
+        documents_available: documentsAvailable
+      });
+
+      setResponse(output);
+      saveLatestRun(output);
+
+      if (output.trace_id) {
+        const summary = await GrantPilotApi.traceSummary(output.trace_id).catch(() => null);
+        setTraceSummary(summary);
+      }
+    } catch (err: unknown) {
+      setError(getErrorMessage(err, "GrantPilot workflow failed."));
+    } finally {
+      setIsRunning(false);
+    }
+  }, [documentsAvailable, projectDescription]);
+
+  const applyScenario = useCallback((scenario: AnyRecord) => {
+    setProjectDescription(getStringField(scenario, "project_description"));
+    saveJson(STORAGE_KEYS.demoScenario, scenario);
+    setValidation(null);
+    setResponse(null);
+    setTraceSummary(null);
+  }, []);
+
+  const displaySummary = getRecordField(response?.result, "display_summary");
+  const projectProfile = getRecordField(response?.result, "project_profile");
+  const candidateGrants = getArrayField<GrantRecord>(response?.result, "candidate_grants");
+  const explanationHighlights = getArrayField<AnyRecord>(displaySummary, "explanation_highlights");
+  const traceSteps = getArrayField<AnyRecord>(response?.trace, "steps");
+  const hasDisplaySummary = Object.keys(displaySummary).length > 0;
 
   return (
-    <div className="max-w-6xl mx-auto space-y-8">
-      <div>
-        <h1 className="text-3xl font-bold text-textPrimary tracking-tight mb-2">Project Intake & Match Engine</h1>
-        <p className="text-textSecondary text-sm">Describe your community problem, attach supporting documents, and let Watsonx Orchestrate generate a profile and match grants.</p>
-      </div>
-
-      {/* ── Single Intake Card ── */}
-      <div className="glass-panel p-6 rounded-2xl">
-        <h2 className="text-lg font-bold text-textPrimary flex items-center mb-4">
-          <Bot className="w-5 h-5 text-primary mr-2" /> 1. Project Intake
-        </h2>
-
-        {/* Textarea */}
-        <textarea
-          value={description}
-          onChange={(e) => setDescription(e.target.value)}
-          className="w-full bg-bgPanel/50 border border-borderColor rounded-xl p-4 text-sm text-textPrimary focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary min-h-[120px] mb-4 resize-y"
-          placeholder="Describe your community project..."
-        />
-
-        {/* Inline upload zone (expandable) */}
-        <AnimatePresence>
-          {showUpload && (
-            <motion.div
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: 'auto', opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              transition={{ duration: 0.2 }}
-              className="overflow-hidden mb-4"
-            >
-              <div
-                onDrop={handleDrop}
-                onDragOver={e => { e.preventDefault(); setIsDragOver(true); }}
-                onDragLeave={e => { e.preventDefault(); setIsDragOver(false); }}
-                onClick={() => fileInputRef.current?.click()}
-                className={`rounded-xl border-2 border-dashed p-6 text-center cursor-pointer transition-all duration-200 ${
-                  isDragOver ? 'border-primary bg-primary/5' : 'border-borderColor hover:border-white/20'
-                }`}
-              >
-                <input ref={fileInputRef} type="file" multiple accept={ACCEPTED} onChange={handleFileChange} className="hidden" />
-                <Upload className={`w-5 h-5 mx-auto mb-2 ${isDragOver ? 'text-primary' : 'text-textSecondary'}`} />
-                <p className="text-xs text-textSecondary">Drop files here or click to browse • PDF, DOCX, XLSX, TXT • Max 50MB</p>
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        {/* Document chips + Add button row */}
-        <div className="flex flex-wrap items-center gap-2 mb-5">
-          <button
-            onClick={() => setShowUpload(!showUpload)}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all border ${
-              showUpload
-                ? 'bg-primary/10 text-primary border-primary/20'
-                : 'bg-white/[0.03] text-textSecondary border-borderColor hover:text-textPrimary hover:border-white/20'
-            }`}
-          >
-            {showUpload ? <X className="w-3.5 h-3.5" /> : <><Plus className="w-3.5 h-3.5" /><Paperclip className="w-3.5 h-3.5" /></>}
-            {showUpload ? 'Close' : 'Add Documents'}
-          </button>
-
-          {docs.map(doc => (
-            <div key={doc.id} className={`flex items-center gap-1.5 pl-2.5 pr-1 py-1 rounded-lg text-xs font-medium border ${chipColor(doc.name)}`}>
-              <File className="w-3 h-3 shrink-0" />
-              <span className="truncate max-w-[140px]">{doc.name}</span>
-              <span className="text-[10px] opacity-60">{formatSize(doc.size)}</span>
-              <button onClick={() => removeDoc(doc.id)} className="p-0.5 rounded hover:bg-white/10 transition-colors ml-0.5">
-                <X className="w-3 h-3" />
-              </button>
-            </div>
-          ))}
+    <div className="max-w-7xl mx-auto space-y-8">
+      <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
+        <div>
+          <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-semibold mb-4">
+            <Sparkles className="w-3.5 h-3.5 mr-2" />
+            Live IBM watsonx Orchestrate workflow
+          </div>
+          <h1 className="text-3xl font-bold text-textPrimary tracking-tight mb-2">Project Intake</h1>
+          <p className="text-textSecondary max-w-3xl">
+            Describe a Michigan community project. GrantPilot profiles it, scores the master grant database,
+            asks specialist agents to review the matches, and returns clerk-friendly next steps.
+          </p>
         </div>
 
-        {/* AI Infrastructure Findings (If Images Present) */}
-        {docs.some(d => ['JPG','JPEG','PNG'].includes(d.type)) && (
-          <div className="mb-5 p-4 rounded-xl border border-borderColor bg-bgPanelLight/30 animate-fade-in">
-            <h3 className="text-xs font-bold text-textPrimary flex items-center mb-3">
-              <Sparkles className="w-4 h-4 text-primary mr-1.5" /> AI Infrastructure Findings
-            </h3>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-              {[
-                { label: 'Bridge Corrosion', conf: '92%' },
-                { label: 'Flood Risk', conf: '88%' },
-                { label: 'Pipe Damage', conf: '85%' },
-                { label: 'Road Deterioration', conf: '96%' }
-              ].map(finding => (
-                <div key={finding.label} className="bg-bgPanel rounded-lg p-2 border border-borderColor flex flex-col items-center justify-center text-center group cursor-default hover:border-primary/50 transition-colors">
-                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center mb-1.5 group-hover:bg-primary/20 transition-colors">
-                    <ImageIcon className="w-4 h-4 text-primary" />
-                  </div>
-                  <p className="text-[10px] font-semibold text-textPrimary">{finding.label}</p>
-                  <p className="text-[9px] text-primary">{finding.conf} Match</p>
-                </div>
-              ))}
-            </div>
+        <div className="glass-panel rounded-2xl p-4 min-w-[260px]">
+          <div className="flex items-center text-sm text-textSecondary mb-2">
+            <Database className="w-4 h-4 mr-2 text-primary" />
+            Backend status
           </div>
-        )}
-
-        {/* Generate Profile */}
-        <button
-          onClick={handleGenerateProfile}
-          disabled={isGenerating || !description.trim()}
-          className="bg-primary hover:bg-primary/90 disabled:opacity-50 text-white px-6 py-2.5 rounded-xl font-medium transition-colors flex items-center"
-        >
-          {isGenerating
-            ? <><div className="animate-spin w-4 h-4 border-2 border-white/30 border-t-white rounded-full mr-2" />Generating...</>
-            : <><Zap className="w-4 h-4 mr-2" /> Generate Profile</>}
-        </button>
+          <div className="text-lg font-bold text-textPrimary">Real API connected</div>
+          <div className="text-xs text-textSecondary mt-1">POST /api/grantpilot/run</div>
+        </div>
       </div>
 
-      {/* ── AI Workflow Live Panel ── */}
-      <div className="glass-panel p-6 rounded-2xl relative overflow-hidden">
-        <h2 className="text-lg font-bold text-textPrimary flex items-center mb-6">
-          <Bot className="w-5 h-5 text-primary mr-2" /> AI Workflow Live
-        </h2>
-        
-        {!workflowStarted ? (
-          <div className="flex flex-col items-center justify-center py-8 text-center text-textSecondary">
-            <Bot className="w-10 h-10 mb-3 opacity-20" />
-            <p className="text-sm">Generate a profile to start the AI workflow.</p>
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
+        <div className="xl:col-span-2 glass-panel rounded-2xl p-6 space-y-5">
+          <div>
+            <label className="block text-sm font-semibold text-textPrimary mb-2">Project description</label>
+            <textarea
+              value={projectDescription}
+              onChange={(event) => setProjectDescription(event.target.value)}
+              className="w-full min-h-[220px] bg-bgPanel/60 border border-borderColor rounded-xl p-4 text-sm text-textPrimary focus:outline-none focus:border-primary resize-y"
+              placeholder="Example: Clare County has a broken bridge causing flooding and commute delays..."
+            />
           </div>
-        ) : (
-          <div className="space-y-4 relative">
-            <div className="absolute left-4 top-4 bottom-4 w-0.5 bg-borderColor z-0" />
-            {agentWorkflowSteps.map(step => {
-              const status = workflowStatus[step.id] || 'waiting';
-              return (
-                <div key={step.id} className="flex items-center relative z-10">
-                  <div className={`w-8 h-8 rounded-full flex items-center justify-center mr-3 transition-all duration-300 ${
-                    status === 'complete' ? 'bg-secondary text-white shadow-[0_0_10px_rgba(16,185,129,0.5)]' :
-                    status === 'running' ? 'bg-primary text-white animate-pulse shadow-[0_0_10px_rgba(59,130,246,0.5)]' :
-                    'bg-bgPanelLight text-textSecondary border border-borderColor'
-                  }`}>
-                    <step.icon className="w-4 h-4" />
-                  </div>
-                  <div className="flex-1">
-                    <p className={`text-sm font-medium transition-colors ${status === 'running' ? 'text-primary' : 'text-textPrimary'}`}>{step.name}</p>
-                    <div className="flex items-center text-[10px] text-textSecondary uppercase tracking-wider mt-0.5">
-                      {status === 'running' && <span className="text-primary mr-2">Processing...</span>}
-                      {status === 'complete' && <span className="text-secondary mr-2">Complete</span>}
-                      {status === 'complete' && <span className="mr-2">98% Conf</span>}
-                      {status === 'waiting' && <span>Waiting</span>}
-                      
-                      {status === 'complete' && step.id === 'doc' && docs.length > 0 && <span className="normal-case text-primary/80 truncate max-w-[200px] border-l border-borderColor pl-2 ml-1">Processed {docs.length} docs</span>}
-                      {status === 'complete' && step.id === 'doc' && docs.length === 0 && <span className="normal-case text-textSecondary border-l border-borderColor pl-2 ml-1">No supporting documents provided</span>}
-                      {status === 'complete' && step.id === 'infra' && docs.some(d => ['JPG','JPEG','PNG'].includes(d.type)) && <span className="normal-case text-primary/80 border-l border-borderColor pl-2 ml-1">Visual hazards detected</span>}
+
+          <div>
+            <label className="block text-sm font-semibold text-textPrimary mb-2">
+              Documents already available <span className="text-textSecondary font-normal">(optional)</span>
+            </label>
+            <input
+              value={documentsText}
+              onChange={(event) => setDocumentsText(event.target.value)}
+              className="w-full bg-bgPanel/60 border border-borderColor rounded-xl px-4 py-3 text-sm text-textPrimary focus:outline-none focus:border-primary"
+              placeholder="photos, meeting notes, cost estimate, engineering memo"
+            />
+          </div>
+
+          {error && (
+            <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-300 text-sm flex items-start">
+              <AlertTriangle className="w-5 h-5 mr-3 shrink-0" />
+              {error}
+            </div>
+          )}
+
+          <div className="flex flex-col sm:flex-row gap-3">
+            <button
+              onClick={runWorkflow}
+              disabled={isRunning || !projectDescription.trim()}
+              className="flex-1 bg-primary hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed text-white px-5 py-3 rounded-xl font-semibold transition-colors flex items-center justify-center"
+            >
+              {isRunning ? (
+                <>
+                  <Loader2 className="w-5 h-5 mr-2 animate-spin" />
+                  Running live agents...
+                </>
+              ) : (
+                <>
+                  <PlayCircle className="w-5 h-5 mr-2" />
+                  Find grant matches
+                </>
+              )}
+            </button>
+
+            <button
+              onClick={runValidation}
+              disabled={isValidating || !projectDescription.trim()}
+              className="px-5 py-3 rounded-xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel text-textPrimary font-semibold transition-colors flex items-center justify-center"
+            >
+              {isValidating ? <Loader2 className="w-5 h-5 mr-2 animate-spin" /> : <ClipboardList className="w-5 h-5 mr-2" />}
+              Check intake
+            </button>
+          </div>
+
+          {validation && (
+            <div className="rounded-xl bg-bgPanel/50 border border-borderColor p-4">
+              <div className="flex items-center mb-3">
+                {asBoolean(validation.valid) ? (
+                  <CheckCircle2 className="w-5 h-5 text-secondary mr-2" />
+                ) : (
+                  <AlertTriangle className="w-5 h-5 text-amber-400 mr-2" />
+                )}
+                <h3 className="font-bold text-textPrimary">Intake check: {asBoolean(validation.valid) ? "Ready to run" : "Needs more detail"}</h3>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                <ListBlock title="Suggestions" items={validation.suggestions} />
+                <ListBlock title="Warnings" items={Object.values(asRecord(validation.warnings))} />
+              </div>
+            </div>
+          )}
+        </div>
+
+        <div className="glass-panel rounded-2xl p-6">
+          <h2 className="text-lg font-bold text-textPrimary mb-4 flex items-center">
+            <Zap className="w-5 h-5 mr-2 text-primary" />
+            Demo scenarios
+          </h2>
+          <div className="space-y-3">
+            {demoScenarios.map((scenario, index) => (
+              <button
+                key={getStringField(scenario, "id", `scenario-${index}`)}
+                onClick={() => applyScenario(scenario)}
+                className="w-full text-left p-4 rounded-xl bg-bgPanel/50 border border-borderColor hover:border-primary/40 hover:bg-bgPanelLight transition-colors"
+              >
+                <div className="font-semibold text-textPrimary text-sm">{getStringField(scenario, "title", "Demo scenario")}</div>
+                <div className="text-xs text-primary mt-1">{getStringField(scenario, "strength", "demo")}</div>
+                <div className="text-xs text-textSecondary mt-2">{truncate(getStringField(scenario, "expected_story"), 130)}</div>
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {isRunning && (
+        <div className="glass-panel rounded-2xl p-6">
+          <h2 className="text-lg font-bold text-textPrimary mb-4 flex items-center">
+            <Bot className="w-5 h-5 mr-2 text-primary" />
+            Live workflow
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-3">
+            {stepLabels.map((label, index) => (
+              <div key={label} className="p-4 rounded-xl bg-primary/10 border border-primary/20">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-xs text-textSecondary">Step {index + 1}</span>
+                  <Loader2 className="w-4 h-4 animate-spin text-primary" />
+                </div>
+                <div className="text-sm font-medium text-textPrimary">{label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {hasDisplaySummary && (
+        <div className="space-y-6">
+          <div className="glass-panel rounded-2xl p-6 border border-secondary/20">
+            <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
+              <div>
+                <div className="flex items-center text-secondary text-sm font-semibold mb-2">
+                  <CheckCircle2 className="w-5 h-5 mr-2" />
+                  Workflow complete
+                </div>
+                <h2 className="text-2xl font-bold text-textPrimary">{getStringField(displaySummary, "title", "GrantPilot match summary")}</h2>
+                <p className="text-textSecondary mt-3 max-w-4xl">{getStringField(displaySummary, "plain_english_summary")}</p>
+              </div>
+
+              <div className="flex gap-3">
+                <Link href="/explorer" className="px-4 py-2 rounded-xl bg-primary hover:bg-primary/90 text-white font-semibold inline-flex items-center">
+                  View matches <ArrowRight className="w-4 h-4 ml-2" />
+                </Link>
+                <Link href="/packet" className="px-4 py-2 rounded-xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel text-textPrimary font-semibold inline-flex items-center">
+                  Packet <FileText className="w-4 h-4 ml-2" />
+                </Link>
+              </div>
+            </div>
+
+            {Object.keys(projectProfile).length > 0 && (
+              <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mt-6">
+                <Metric label="Applicant" value={getStringField(projectProfile, "applicant_type", "Unknown")} />
+                <Metric label="County" value={getStringField(projectProfile, "county", "Unknown")} />
+                <Metric label="Category" value={getStringField(projectProfile, "project_category", "Unknown")} />
+                <Metric label="Cost" value={formatCurrencyLike(projectProfile.estimated_cost)} />
+                <Metric label="Match" value={asBoolean(projectProfile.match_available) ? "Available" : "Not available"} />
+              </div>
+            )}
+          </div>
+
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
+            <div className="xl:col-span-2 glass-panel rounded-2xl p-6">
+              <h3 className="text-xl font-bold text-textPrimary mb-4">Top grant directions</h3>
+              <div className="space-y-3">
+                {(getArrayField<GrantRecord>(displaySummary, "best_fit_grant_directions").length
+                  ? getArrayField<GrantRecord>(displaySummary, "best_fit_grant_directions")
+                  : candidateGrants.slice(0, 5)).map((grant, index) => (
+                  <GrantMatchCard key={grant.id || grant.title || `grant-${index}`} grant={grant} />
+                ))}
+              </div>
+            </div>
+
+            <div className="glass-panel rounded-2xl p-6">
+              <h3 className="text-xl font-bold text-textPrimary mb-4 flex items-center">
+                <ShieldCheck className="w-5 h-5 mr-2 text-secondary" />
+                AI explanation
+              </h3>
+              <div className="space-y-4">
+                {explanationHighlights.length ? (
+                  explanationHighlights.map((item, index) => (
+                    <div key={`${getStringField(item, "grant_title", "grant")}-${index}`} className="p-4 rounded-xl bg-bgPanel/50 border border-borderColor">
+                      <div className="text-sm font-semibold text-textPrimary">{getStringField(item, "grant_title", "Grant")}</div>
+                      <div className="text-xs text-primary mt-1">{getStringField(item, "decision", "review")}</div>
+                      <p className="text-sm text-textSecondary mt-3">{getStringField(item, "summary")}</p>
                     </div>
-                  </div>
-                </div>
-              )
-            })}
-          </div>
-        )}
-      </div>
-
-      {/* ── Workflow Complete Summary ── */}
-      {workflowComplete && (
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="glass-panel p-6 rounded-2xl border-t-4 border-t-secondary">
-          <div className="flex items-center mb-6">
-            <div className="w-10 h-10 rounded-full bg-secondary/20 flex items-center justify-center mr-4">
-              <CheckCircle2 className="w-6 h-6 text-secondary" />
-            </div>
-            <div>
-              <h2 className="text-xl font-bold text-textPrimary">Workflow Complete</h2>
-              <p className="text-sm text-textSecondary">Your project profile and readiness packet are ready.</p>
-            </div>
-          </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-            <div className="bg-bgPanel p-3 rounded-lg border border-borderColor text-center">
-              <p className="text-xs text-textSecondary mb-1">Project Profile</p>
-              <p className="text-sm font-semibold text-secondary">Generated</p>
-            </div>
-            <div className="bg-bgPanel p-3 rounded-lg border border-borderColor text-center">
-              <p className="text-xs text-textSecondary mb-1">Grants Matched</p>
-              <p className="text-sm font-semibold text-secondary">4 High Fit</p>
-            </div>
-            <div className="bg-bgPanel p-3 rounded-lg border border-borderColor text-center">
-              <p className="text-xs text-textSecondary mb-1">Readiness Packet</p>
-              <p className="text-sm font-semibold text-secondary">Created</p>
-            </div>
-            <div className="bg-bgPanel p-3 rounded-lg border border-borderColor text-center">
-              <p className="text-xs text-textSecondary mb-1">Trust Guard Review</p>
-              <p className="text-sm font-semibold text-secondary">Completed</p>
+                  ))
+                ) : (
+                  <p className="text-sm text-textSecondary">No explanation highlights returned yet.</p>
+                )}
+              </div>
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-3">
-            <button onClick={() => router.push('/explorer')} className="flex-1 bg-bgPanelLight hover:bg-borderColor text-textPrimary border border-borderColor px-4 py-2.5 rounded-xl font-medium transition-colors flex items-center justify-center">
-              <Search className="w-4 h-4 mr-2" /> View Grant Matches
-            </button>
-            <button onClick={() => router.push('/packet')} className="flex-1 bg-primary hover:bg-primary/90 text-white px-4 py-2.5 rounded-xl font-medium transition-colors shadow-lg shadow-primary/20 flex items-center justify-center">
-              <FileText className="w-4 h-4 mr-2" /> Open Readiness Packet
-            </button>
-            <button onClick={() => router.push('/assistant')} className="flex-1 bg-secondary/10 hover:bg-secondary/20 text-secondary border border-secondary/20 px-4 py-2.5 rounded-xl font-medium transition-colors flex items-center justify-center">
-              <Bot className="w-4 h-4 mr-2" /> Ask Grant Copilot
-            </button>
+          <div className="glass-panel rounded-2xl p-6">
+            <h3 className="text-xl font-bold text-textPrimary mb-4">Workflow trace</h3>
+            <TraceSummary traceSummary={traceSummary} traceSteps={traceSteps} traceId={response?.trace_id} />
           </div>
-        </motion.div>
+        </div>
       )}
     </div>
   );
 });
+
+function GrantMatchCard({ grant }: { grant: GrantRecord }) {
+  const score = getGrantScore(grant);
+
+  const handleSelect = () => {
+    saveSelectedGrant(grant);
+  };
+
+  return (
+    <div className="p-4 rounded-xl bg-bgPanel/50 border border-borderColor hover:border-primary/30 transition-colors">
+      <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3">
+        <div>
+          <div className="flex flex-wrap items-center gap-2 mb-2">
+            {score !== null && <span className="px-2 py-1 rounded-lg bg-secondary/10 text-secondary text-xs font-bold">{score}% fit</span>}
+            <span className="px-2 py-1 rounded-lg bg-primary/10 text-primary text-xs font-semibold">{grant.source || "Source unknown"}</span>
+            {grant.status && <span className="px-2 py-1 rounded-lg bg-bgPanelLight text-textSecondary text-xs">{grant.status}</span>}
+          </div>
+          <h4 className="font-bold text-textPrimary">{grant.title}</h4>
+          <p className="text-sm text-textSecondary mt-1">{grant.agency}</p>
+          <p className="text-sm text-textSecondary mt-3">{truncate(grant.summary || grant.overview, 180)}</p>
+        </div>
+
+        <div className="flex md:flex-col gap-2 shrink-0">
+          {grant.id && (
+            <Link href={`/explorer/${grant.id}`} onClick={handleSelect} className="px-3 py-2 rounded-lg bg-primary hover:bg-primary/90 text-white text-sm font-semibold text-center">
+              Details
+            </Link>
+          )}
+          {grant.source_url && (
+            <a href={grant.source_url} target="_blank" rel="noreferrer" className="px-3 py-2 rounded-lg border border-borderColor bg-bgPanelLight hover:bg-bgPanel text-textPrimary text-sm font-semibold inline-flex items-center justify-center">
+              Source <ExternalLink className="w-3.5 h-3.5 ml-1" />
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Metric({ label, value }: { label: string; value: unknown }) {
+  return (
+    <div className="p-3 rounded-xl bg-bgPanel/50 border border-borderColor">
+      <div className="text-xs text-textSecondary">{label}</div>
+      <div className="font-bold text-textPrimary mt-1">{String(value ?? "Unknown")}</div>
+    </div>
+  );
+}
+
+function ListBlock({ title, items }: { title: string; items: unknown }) {
+  const list = asArray(items).filter(Boolean);
+
+  return (
+    <div>
+      <div className="text-xs font-semibold text-textSecondary uppercase tracking-wider mb-2">{title}</div>
+      {list.length ? (
+        <ul className="space-y-1">
+          {list.map((item, index) => (
+            <li key={index} className="text-sm text-textSecondary flex">
+              <span className="text-primary mr-2">•</span>
+              {String(item)}
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p className="text-sm text-textSecondary">None.</p>
+      )}
+    </div>
+  );
+}
+
+function TraceSummary({ traceSummary, traceSteps, traceId }: { traceSummary: AnyRecord | null; traceSteps: AnyRecord[]; traceId?: string }) {
+  const steps = getArrayField<AnyRecord>(traceSummary, "steps").length ? getArrayField<AnyRecord>(traceSummary, "steps") : traceSteps;
+
+  return (
+    <div>
+      <div className="flex flex-wrap gap-3 mb-4">
+        <span className="px-3 py-1 rounded-full bg-bgPanelLight text-xs text-textSecondary">Trace: {traceId || "Not available"}</span>
+        {Boolean(traceSummary?.status) && <span className="px-3 py-1 rounded-full bg-secondary/10 text-secondary text-xs font-semibold">{asString(traceSummary?.status)}</span>}
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
+        {steps.map((step, index) => {
+          const durationMs = Number(step.duration_ms ?? 0);
+          return (
+            <div key={`${getStringField(step, "agent_name", "agent")}-${index}`} className="p-4 rounded-xl bg-bgPanel/50 border border-borderColor">
+              <div className="text-xs text-textSecondary mb-2">Step {asString(step.step_number, String(index + 1))}</div>
+              <div className="font-semibold text-textPrimary text-sm">{getStringField(step, "agent_name", "Agent")}</div>
+              <div className="text-xs text-secondary mt-2">{getStringField(step, "status", "unknown")}</div>
+              {durationMs > 0 && <div className="text-xs text-textSecondary mt-1">{Math.round(durationMs / 1000)}s</div>}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+export default IntakeWorkflow;

@@ -39,6 +39,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ message: "WatsonX integration coming soon" });
     
   } catch (error) {
+    console.error("Failed to process project profile", error);
     return NextResponse.json({ error: "Failed to process project profile" }, { status: 500 });
   }
 }

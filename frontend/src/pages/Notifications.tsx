@@ -1,6 +1,6 @@
 "use client";
 import { useState, useMemo, useCallback, memo } from 'react';
-import { Bell, AlertTriangle, FileWarning, Calendar, FileCheck, CheckCircle2, Trash2, Eye, Filter, Clock, ShieldCheck, X, ClipboardCheck } from 'lucide-react';
+import { Bell, AlertTriangle, FileWarning, Calendar, FileCheck, CheckCircle2, Trash2, Eye, Filter, Clock, ShieldCheck, ClipboardCheck } from 'lucide-react';
 
 type Severity = 'High' | 'Medium' | 'Low';
 type Status = 'unread' | 'read' | 'resolved';
@@ -32,17 +32,28 @@ function loadAlerts(): Alert[] {
     const saved = localStorage.getItem('grantpilot_notifications_full');
     if (saved) {
       const parsed = JSON.parse(saved);
-      return parsed.map((a: any) => {
+      return (parsed as Array<Omit<Alert, "icon">>).map((a) => {
         const match = defaultAlerts.find(d => d.id === a.id);
         return { ...a, icon: match?.icon || Bell };
       });
     }
-  } catch {}
+  } catch {
+    // Ignore malformed saved notification state.
+  }
   return defaultAlerts;
 }
 
 function persistAlerts(alerts: Alert[]) {
-  const serializable = alerts.map(({ icon, ...rest }) => rest);
+  const serializable = alerts.map(({
+    id,
+    title,
+    description,
+    severity,
+    category,
+    project,
+    createdAt,
+    status
+  }) => ({ id, title, description, severity, category, project, createdAt, status }));
   localStorage.setItem('grantpilot_notifications_full', JSON.stringify(serializable));
   // Sync the header bell badge count
   const headerAlerts = alerts.filter(a => a.status === 'unread').map(a => {
@@ -256,3 +267,5 @@ export const Notifications = memo(function Notifications() {
     </div>
   );
 });
+
+export default Notifications;

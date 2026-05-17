@@ -106,3 +106,5 @@ export const Documents = memo(function Documents() {
     </div>
   );
 });
+
+export default Documents;

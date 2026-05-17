@@ -1,6 +1,5 @@
 "use client";
 import { useState, useCallback, memo } from 'react';
-import { motion } from 'framer-motion';
 import { Workflow, Bot, Search, FileText, CheckCircle2, Play, FileSignature } from 'lucide-react';
 
 const agentNodes = [
@@ -109,3 +108,5 @@ export const Agents = memo(function Agents() {
     </div>
   );
 });
+
+export default Agents;

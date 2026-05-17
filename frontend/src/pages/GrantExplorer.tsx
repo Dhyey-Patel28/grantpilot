@@ -1,407 +1,1118 @@
 "use client";
-import { useState, useEffect, useMemo, useCallback, useRef, memo } from 'react';
-import { Filter, Search, ChevronDown, CheckCircle2, Bookmark, XCircle, ChevronLeft, ChevronRight, X, SlidersHorizontal, Eye, Sparkles, RotateCcw } from 'lucide-react';
-import { AnimatePresence, motion } from 'framer-motion';
 
-type SortKey = 'match' | 'deadline' | 'amount' | 'title' | 'eligible';
-type Industry = 'Infrastructure' | 'Energy' | 'Technology' | 'Agriculture' | 'Healthcare';
-type ApplicantType = 'Nonprofit' | 'Small Business' | 'Local Government' | 'Tribal Entity';
+import Link from "next/link";
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+  AlertTriangle,
+  ArrowRight,
+  CheckCircle2,
+  Database,
+  ExternalLink,
+  Filter,
+  GitCompare,
+  Loader2,
+  Search,
+  Sparkles,
+  X
+} from "lucide-react";
+import type { AnyRecord, GrantRecord } from "../lib/grantpilotApi";
+import {
+  GrantPilotApi,
+  asRecord,
+  formatCurrencyLike,
+  formatDate,
+  getArrayField,
+  getErrorMessage,
+  getGrantScore,
+  getLatestCandidateGrants,
+  getLatestProjectProfile,
+  getLatestRun,
+  saveSelectedGrant,
+  stripHtml,
+  truncate
+} from "../lib/grantpilotApi";
 
-interface Grant {
-  id: number; title: string; amount: string; amountNum: number; deadline: string; deadlineDate: string;
-  match: number; status: string; eligible: boolean; agency: string; saved: boolean;
-  industry: Industry; applicantType: ApplicantType;
-}
+type ExplorerMode = "database" | "latest";
 
-const allGrants: Grant[] = [
-  { id: 1, title: 'EPA Clean Water State Revolving Fund', amount: '$1.2M - $5M', amountNum: 5000000, deadline: 'Aug 15, 2026', deadlineDate: '2026-08-15', match: 92, status: 'Open', eligible: true, agency: 'Environmental Protection Agency', saved: false, industry: 'Infrastructure', applicantType: 'Local Government' },
-  { id: 2, title: 'DOE Grid Resilience State Formula Grants', amount: '$500K - $2M', amountNum: 2000000, deadline: 'Sep 01, 2026', deadlineDate: '2026-09-01', match: 85, status: 'Open', eligible: true, agency: 'Department of Energy', saved: false, industry: 'Energy', applicantType: 'Local Government' },
-  { id: 3, title: 'USDA ReConnect Loan and Grant Program', amount: '$100K - $25M', amountNum: 25000000, deadline: 'Sep 12, 2026', deadlineDate: '2026-09-12', match: 78, status: 'Open', eligible: false, agency: 'US Dept of Agriculture', saved: true, industry: 'Technology', applicantType: 'Tribal Entity' },
-  { id: 4, title: 'DOT RAISE Discretionary Grants', amount: '$1M - $25M', amountNum: 25000000, deadline: 'Oct 05, 2026', deadlineDate: '2026-10-05', match: 95, status: 'Forecasted', eligible: true, agency: 'Department of Transportation', saved: false, industry: 'Infrastructure', applicantType: 'Local Government' },
-  { id: 5, title: 'EDA Public Works Assistance', amount: '$100K - $3M', amountNum: 3000000, deadline: 'Rolling', deadlineDate: '2099-12-31', match: 60, status: 'Open', eligible: true, agency: 'Economic Development Admin', saved: false, industry: 'Infrastructure', applicantType: 'Nonprofit' },
-  { id: 6, title: 'FEMA Building Resilient Infrastructure', amount: 'Up to $10M', amountNum: 10000000, deadline: 'Nov 15, 2026', deadlineDate: '2026-11-15', match: 88, status: 'Open', eligible: true, agency: 'FEMA', saved: false, industry: 'Infrastructure', applicantType: 'Local Government' },
-  { id: 7, title: 'HHS Community Health Center Grants', amount: '$250K - $1M', amountNum: 1000000, deadline: 'Dec 01, 2026', deadlineDate: '2026-12-01', match: 42, status: 'Open', eligible: true, agency: 'Health and Human Services', saved: false, industry: 'Healthcare', applicantType: 'Nonprofit' },
-  { id: 8, title: 'USDA Rural Energy for America', amount: '$20K - $1M', amountNum: 1000000, deadline: 'Oct 31, 2026', deadlineDate: '2026-10-31', match: 71, status: 'Open', eligible: true, agency: 'US Dept of Agriculture', saved: false, industry: 'Agriculture', applicantType: 'Small Business' },
-  { id: 9, title: 'NSF Small Business Innovation Research', amount: '$275K - $1M', amountNum: 1000000, deadline: 'Nov 20, 2026', deadlineDate: '2026-11-20', match: 55, status: 'Open', eligible: false, agency: 'National Science Foundation', saved: false, industry: 'Technology', applicantType: 'Small Business' },
+const MAX_COMPARE_SELECTIONS = 3;
+
+const quickSearchTerms = [
+  "bridge",
+  "drainage",
+  "water",
+  "transportation",
+  "rural",
+  "energy",
+  "housing",
+  "broadband"
 ];
-
-const INDUSTRIES: Industry[] = ['Infrastructure', 'Energy', 'Technology', 'Agriculture', 'Healthcare'];
-const APPLICANT_TYPES: ApplicantType[] = ['Nonprofit', 'Small Business', 'Local Government', 'Tribal Entity'];
-const SORT_OPTIONS: { key: SortKey; label: string }[] = [
-  { key: 'match', label: 'Match Score' },
-  { key: 'deadline', label: 'Deadline Soonest' },
-  { key: 'amount', label: 'Funding Amount' },
-  { key: 'title', label: 'Grant Title A-Z' },
-  { key: 'eligible', label: 'Eligibility' },
-];
-
-const PAGE_SIZE = 9;
-
-// ── Filter Panel (shared between desktop sidebar & mobile drawer) ──
-const FilterPanel = memo(function FilterPanel({
-  industries, applicantTypes, minScore, onToggleIndustry, onToggleApplicant, onScoreChange, onReset,
-}: {
-  industries: Set<Industry>; applicantTypes: Set<ApplicantType>; minScore: number;
-  onToggleIndustry: (v: Industry) => void; onToggleApplicant: (v: ApplicantType) => void;
-  onScoreChange: (v: number) => void; onReset: () => void;
-}) {
-  return (
-    <div className="space-y-6">
-      <div className="flex items-center justify-between">
-        <h2 className="font-semibold text-textPrimary flex items-center text-sm"><Filter className="w-4 h-4 mr-2" /> Filters</h2>
-        <button onClick={onReset} className="text-xs text-primary hover:text-primary/80 transition-colors flex items-center gap-1"><RotateCcw className="w-3 h-3" /> Reset</button>
-      </div>
-      {/* Industry */}
-      <div>
-        <h3 className="text-[11px] font-semibold text-textSecondary uppercase tracking-wider mb-3">Industry</h3>
-        <div className="space-y-2">
-          {INDUSTRIES.map(item => (
-            <label key={item} className="flex items-center cursor-pointer group">
-              <input type="checkbox" checked={industries.has(item)} onChange={() => onToggleIndustry(item)}
-                className="form-checkbox h-4 w-4 text-primary bg-bgPanel/50 border-borderColor rounded focus:ring-primary focus:ring-offset-0 cursor-pointer" />
-              <span className="ml-2.5 text-sm text-textSecondary group-hover:text-textPrimary transition-colors">{item}</span>
-            </label>
-          ))}
-        </div>
-      </div>
-      {/* Applicant Type */}
-      <div>
-        <h3 className="text-[11px] font-semibold text-textSecondary uppercase tracking-wider mb-3">Applicant Type</h3>
-        <div className="space-y-2">
-          {APPLICANT_TYPES.map(item => (
-            <label key={item} className="flex items-center cursor-pointer group">
-              <input type="checkbox" checked={applicantTypes.has(item)} onChange={() => onToggleApplicant(item)}
-                className="form-checkbox h-4 w-4 text-primary bg-bgPanel/50 border-borderColor rounded focus:ring-primary focus:ring-offset-0 cursor-pointer" />
-              <span className="ml-2.5 text-sm text-textSecondary group-hover:text-textPrimary transition-colors">{item}</span>
-            </label>
-          ))}
-        </div>
-      </div>
-      {/* Match Score */}
-      <div>
-        <h3 className="text-[11px] font-semibold text-textSecondary uppercase tracking-wider mb-3">Min Match Score</h3>
-        <input type="range" className="w-full accent-primary h-1.5 rounded-full cursor-pointer" min="0" max="100" value={minScore} onChange={e => onScoreChange(Number(e.target.value))} />
-        <div className="flex justify-between text-xs text-textSecondary mt-1.5">
-          <span>0%</span>
-          <span className="text-primary font-medium">≥ {minScore}%</span>
-          <span>100%</span>
-        </div>
-      </div>
-    </div>
-  );
-});
 
 export const GrantExplorer = memo(function GrantExplorer() {
-  // Filter state
-  const [industries, setIndustries] = useState<Set<Industry>>(new Set());
-  const [applicantTypes, setApplicantTypes] = useState<Set<ApplicantType>>(new Set());
-  const [minScore, setMinScore] = useState(0);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [debouncedSearch, setDebouncedSearch] = useState('');
-  const [sortKey, setSortKey] = useState<SortKey>('match');
-  const [showSortMenu, setShowSortMenu] = useState(false);
-  const [showMobileFilters, setShowMobileFilters] = useState(false);
-  const [grants, setGrants] = useState(allGrants);
-  const [page, setPage] = useState(1);
-  const [toastMsg, setToastMsg] = useState<string | null>(null);
-  const [expandedExplainers, setExpandedExplainers] = useState<Record<number, boolean>>({});
-  const searchTimerRef = useRef<ReturnType<typeof setTimeout>>();
-  const sortRef = useRef<HTMLDivElement>(null);
+  const [query, setQuery] = useState("");
+  const [source, setSource] = useState("");
+  const [status, setStatus] = useState("");
+  const [category, setCategory] = useState("");
+  const [mode, setMode] = useState<ExplorerMode>("database");
+  const [facets, setFacets] = useState<AnyRecord | null>(null);
+  const [databaseGrants, setDatabaseGrants] = useState<GrantRecord[]>([]);
+  const [latestMatches, setLatestMatches] = useState<GrantRecord[]>([]);
+  const [latestRun, setLatestRun] = useState<AnyRecord | null>(null);
+  const [databaseMeta, setDatabaseMeta] = useState<AnyRecord | null>(null);
+  const [selectedIds, setSelectedIds] = useState<string[]>([]);
+  const [compareResult, setCompareResult] = useState<AnyRecord | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [isComparing, setIsComparing] = useState(false);
+  const [error, setError] = useState("");
 
-  // Hydrate saved grants from localStorage
+  const comparePanelRef = useRef<HTMLDivElement | null>(null);
+
   useEffect(() => {
+    const savedRun = getLatestRun();
+    const latestGrants = getLatestCandidateGrants();
+
+    setLatestRun(savedRun);
+    setLatestMatches(latestGrants);
+    setMode("database");
+
+    GrantPilotApi.facets()
+      .then((output) => setFacets(asRecord(output)))
+      .catch(() => setFacets(null));
+  }, []);
+
+  const loadDatabaseGrants = useCallback(async () => {
+    setIsLoading(true);
+    setError("");
+
     try {
-      const saved = localStorage.getItem('grantpilot_saved_grants');
-      if (saved) {
-        const ids: number[] = JSON.parse(saved);
-        setGrants(prev => prev.map(g => ({ ...g, saved: ids.includes(g.id) })));
-      }
-    } catch {}
-  }, []);
+      const firstOutput = asRecord(
+        await GrantPilotApi.listGrants({
+          query: "",
+          source,
+          status,
+          category,
+          page: 1,
+          limit: 100
+        })
+      );
 
-  // Close sort dropdown on outside click
+      const firstItems = getArrayField<GrantRecord>(firstOutput, "items");
+      const rawTotal = firstOutput.total;
+      const total =
+        typeof rawTotal === "number"
+          ? rawTotal
+          : Number.parseInt(String(rawTotal ?? firstItems.length), 10);
+
+      const safeTotal = Number.isFinite(total) && total > 0 ? total : firstItems.length;
+      const totalPages = Math.min(8, Math.max(1, Math.ceil(safeTotal / 100)));
+      const allItems = [...firstItems];
+
+      for (let page = 2; page <= totalPages; page += 1) {
+        const pageOutput = asRecord(
+          await GrantPilotApi.listGrants({
+            query: "",
+            source,
+            status,
+            category,
+            page,
+            limit: 100
+          })
+        );
+
+        allItems.push(...getArrayField<GrantRecord>(pageOutput, "items"));
+      }
+
+      setDatabaseGrants(dedupeGrants(allItems));
+      setDatabaseMeta(firstOutput);
+      setMode("database");
+    } catch (err: unknown) {
+      setError(getErrorMessage(err, "Could not load grants."));
+    } finally {
+      setIsLoading(false);
+    }
+  }, [category, source, status]);
+
   useEffect(() => {
-    const handler = (e: MouseEvent) => {
-      if (sortRef.current && !sortRef.current.contains(e.target as Node)) setShowSortMenu(false);
-    };
-    document.addEventListener('mousedown', handler);
-    return () => document.removeEventListener('mousedown', handler);
-  }, []);
+    if (mode !== "database") {
+      return;
+    }
 
-  const showToast = useCallback((msg: string) => {
-    setToastMsg(msg);
-    setTimeout(() => setToastMsg(null), 3000);
-  }, []);
+    void loadDatabaseGrants();
+  }, [loadDatabaseGrants, mode]);
 
-  const handleSearchChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value;
-    setSearchTerm(value);
-    if (searchTimerRef.current) clearTimeout(searchTimerRef.current);
-    searchTimerRef.current = setTimeout(() => { setDebouncedSearch(value); setPage(1); }, 250);
-  }, []);
+  const activeGrants = mode === "database" ? databaseGrants : latestMatches;
 
-  const toggleIndustry = useCallback((v: Industry) => {
-    setIndustries(prev => { const n = new Set(prev); n.has(v) ? n.delete(v) : n.add(v); return n; });
-    setPage(1);
-  }, []);
+  const visibleGrants = useMemo(() => {
+    return filterAndRankGrants(activeGrants, query);
+  }, [activeGrants, query]);
 
-  const toggleApplicant = useCallback((v: ApplicantType) => {
-    setApplicantTypes(prev => { const n = new Set(prev); n.has(v) ? n.delete(v) : n.add(v); return n; });
-    setPage(1);
-  }, []);
+  const grantLookup = useMemo(() => {
+    const lookup = new Map<string, GrantRecord>();
 
-  const handleScoreChange = useCallback((v: number) => { setMinScore(v); setPage(1); }, []);
-
-  const handleReset = useCallback(() => {
-    setIndustries(new Set());
-    setApplicantTypes(new Set());
-    setMinScore(0);
-    setSearchTerm('');
-    setDebouncedSearch('');
-    setSortKey('match');
-    setPage(1);
-    showToast('Filters reset');
-  }, [showToast]);
-
-  const toggleSave = useCallback((id: number) => {
-    setGrants(prev => {
-      const updated = prev.map(g => g.id === id ? { ...g, saved: !g.saved } : g);
-      localStorage.setItem('grantpilot_saved_grants', JSON.stringify(updated.filter(g => g.saved).map(g => g.id)));
-      return updated;
-    });
-  }, []);
-
-  const toggleExplainer = useCallback((id: number) => {
-    setExpandedExplainers(prev => ({ ...prev, [id]: !prev[id] }));
-  }, []);
-
-  const handleSort = useCallback((key: SortKey) => { setSortKey(key); setShowSortMenu(false); }, []);
-
-  // Filter + sort with useMemo
-  const filteredSorted = useMemo(() => {
-    const q = debouncedSearch.toLowerCase();
-    let result = grants.filter(g => {
-      if (q && !(g.title.toLowerCase().includes(q) || g.agency.toLowerCase().includes(q) || g.industry.toLowerCase().includes(q) || g.applicantType.toLowerCase().includes(q) || g.status.toLowerCase().includes(q) || (g.eligible ? 'eligible' : 'ineligible').includes(q))) return false;
-      if (industries.size > 0 && !industries.has(g.industry)) return false;
-      if (applicantTypes.size > 0 && !applicantTypes.has(g.applicantType)) return false;
-      if (g.match < minScore) return false;
-      return true;
-    });
-    result.sort((a, b) => {
-      switch (sortKey) {
-        case 'match': return b.match - a.match;
-        case 'deadline': return a.deadlineDate.localeCompare(b.deadlineDate);
-        case 'amount': return b.amountNum - a.amountNum;
-        case 'title': return a.title.localeCompare(b.title);
-        case 'eligible': return (b.eligible ? 1 : 0) - (a.eligible ? 1 : 0);
-        default: return 0;
+    for (const grant of [...databaseGrants, ...latestMatches]) {
+      const id = getGrantId(grant);
+      if (id) {
+        lookup.set(id, grant);
       }
+    }
+
+    return lookup;
+  }, [databaseGrants, latestMatches]);
+
+  const selectedGrants = useMemo(() => {
+    return selectedIds
+      .map((id) => grantLookup.get(id))
+      .filter((grant): grant is GrantRecord => Boolean(grant));
+  }, [grantLookup, selectedIds]);
+
+  const facetsRecord = asRecord(facets);
+  const hasLatestMatches = latestMatches.length > 0;
+  const totalDatabaseCount = getDisplayTotal(databaseMeta, databaseGrants.length);
+  const resultCountText =
+    mode === "database"
+      ? `${visibleGrants.length} of ${totalDatabaseCount} grant records`
+      : `${visibleGrants.length} project matches`;
+
+  const clearComparisonAndSelection = useCallback(() => {
+    setCompareResult(null);
+    setSelectedIds([]);
+    setError("");
+  }, []);
+
+  const openLatestMatches = useCallback(() => {
+    setMode("latest");
+    setError("");
+    setCompareResult(null);
+    setSelectedIds([]);
+    setLatestRun(getLatestRun());
+    setLatestMatches(getLatestCandidateGrants());
+  }, []);
+
+  const openDatabase = useCallback(() => {
+    setMode("database");
+    setError("");
+    setCompareResult(null);
+    setSelectedIds([]);
+  }, []);
+
+  const clearFilters = useCallback(() => {
+    setQuery("");
+    setSource("");
+    setStatus("");
+    setCategory("");
+    setError("");
+  }, []);
+
+  const toggleSelected = useCallback((grant: GrantRecord) => {
+    const id = getGrantId(grant);
+    if (!id) return;
+
+    setCompareResult(null);
+    setSelectedIds((previous) => {
+      if (previous.includes(id)) {
+        setError("");
+        return previous.filter((item) => item !== id);
+      }
+
+      if (previous.length >= MAX_COMPARE_SELECTIONS) {
+        setError(`You can compare up to ${MAX_COMPARE_SELECTIONS} grants at a time. Clear one selection to add another.`);
+        return previous;
+      }
+
+      setError("");
+      return [...previous, id];
     });
-    return result;
-  }, [grants, debouncedSearch, industries, applicantTypes, minScore, sortKey]);
+  }, []);
 
-  const totalPages = Math.max(1, Math.ceil(filteredSorted.length / PAGE_SIZE));
-  const paginated = useMemo(() => filteredSorted.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE), [filteredSorted, page]);
+  const compareSelected = useCallback(async () => {
+    if (selectedGrants.length < 2) {
+      setError("Select at least two grants to compare.");
+      return;
+    }
 
-  const activeFilterCount = industries.size + applicantTypes.size + (minScore > 0 ? 1 : 0);
-  const currentSortLabel = SORT_OPTIONS.find(o => o.key === sortKey)?.label || 'Match Score';
+    setIsComparing(true);
+    setError("");
+
+    const projectProfile = getLatestProjectProfile();
+
+    if (!projectProfile) {
+      setCompareResult({
+        comparison_mode: "local",
+        note:
+          "This side-by-side comparison uses visible grant details only. Run Project Intake first for project-aware scoring.",
+        grants: selectedGrants
+      });
+
+      setIsComparing(false);
+      window.setTimeout(() => {
+        comparePanelRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+      }, 50);
+      return;
+    }
+
+    try {
+      const output = asRecord(
+        await GrantPilotApi.compareGrants({
+          grant_ids: selectedIds,
+          project_profile: projectProfile
+        })
+      );
+
+      setCompareResult({
+        ...output,
+        comparison_mode: "project-aware",
+        grants: mergeComparedGrants(selectedGrants, output)
+      });
+    } catch (err: unknown) {
+      setCompareResult({
+        comparison_mode: "local",
+        note: getErrorMessage(
+          err,
+          "Project-aware comparison failed, so GrantPilot is showing a local side-by-side comparison."
+        ),
+        grants: selectedGrants
+      });
+    } finally {
+      setIsComparing(false);
+      window.setTimeout(() => {
+        comparePanelRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+      }, 50);
+    }
+  }, [selectedGrants, selectedIds]);
 
   return (
-    <div className="flex flex-col lg:flex-row h-[calc(100vh-8rem)] gap-6 relative">
-      {/* Toast */}
-      {toastMsg && (
-        <div className="fixed top-8 left-1/2 -translate-x-1/2 z-50 px-5 py-3 rounded-xl flex items-center text-sm font-medium animate-fade-in theme-toast">
-          <CheckCircle2 className="w-4 h-4 text-primary mr-2" />{toastMsg}
+    <div className="max-w-7xl mx-auto space-y-6 pb-28">
+      <section className="rounded-[2rem] border border-primary/10 bg-bgPanel/75 shadow-xl shadow-black/5 overflow-hidden">
+        <div className="p-6 lg:p-8">
+          <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold mb-5">
+            <Sparkles className="w-3.5 h-3.5 mr-2" />
+            Search real grant records
+          </div>
+
+          <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_360px] gap-6 items-end">
+            <div>
+              <h1 className="text-3xl lg:text-5xl font-black text-textPrimary tracking-tight">
+                Find grants worth reviewing.
+              </h1>
+              <p className="text-textSecondary mt-3 max-w-3xl leading-relaxed">
+                Search in everyday project words, review the full grant database, and compare promising opportunities without losing your place.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-borderColor bg-bgPanelLight/50 p-1.5 grid grid-cols-2 gap-1.5">
+              <ModeButton
+                active={mode === "database"}
+                onClick={openDatabase}
+                label="Master database"
+              />
+              <ModeButton
+                active={mode === "latest"}
+                onClick={openLatestMatches}
+                label="Latest matches"
+                disabled={!hasLatestMatches}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {error && <ErrorBox message={error} />}
+
+      <section className="sticky top-0 z-40 -mx-4 sm:mx-0 rounded-b-2xl sm:rounded-2xl border border-borderColor bg-bgPanel/85 p-4 lg:p-5 shadow-xl shadow-black/10 backdrop-blur-xl">
+        <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_180px_180px_180px] gap-3">
+          <div className="relative">
+            <Search className="absolute left-3 top-3.5 w-4 h-4 text-textSecondary" />
+            <input
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Search like a project: bridge flooding, rural water, drainage, energy shelter..."
+              className="w-full bg-bgPanel/70 border border-borderColor rounded-xl pl-10 pr-4 py-3 text-sm text-textPrimary focus:outline-none focus:border-primary"
+            />
+          </div>
+
+          <FacetSelect
+            value={source}
+            onChange={setSource}
+            disabled={mode === "latest"}
+            label="All sources"
+            values={Object.keys(asRecord(facetsRecord.sources))}
+          />
+
+          <FacetSelect
+            value={status}
+            onChange={setStatus}
+            disabled={mode === "latest"}
+            label="All statuses"
+            values={Object.keys(asRecord(facetsRecord.statuses))}
+          />
+
+          <FacetSelect
+            value={category}
+            onChange={setCategory}
+            disabled={mode === "latest"}
+            label="All categories"
+            values={Object.keys(asRecord(facetsRecord.categories))}
+          />
+        </div>
+
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mt-4">
+          <div className="flex flex-wrap gap-2">
+            {quickSearchTerms.map((term) => (
+              <button
+                key={term}
+                onClick={() => {
+                  setQuery(term);
+                  if (mode !== "database") {
+                    setMode("database");
+                  }
+                }}
+                className={`px-3 py-1.5 rounded-full border text-xs font-bold transition-colors ${
+                  query.toLowerCase() === term
+                    ? "bg-primary text-white border-primary"
+                    : "bg-bgPanel/60 border-borderColor text-textSecondary hover:text-primary hover:border-primary/40"
+                }`}
+              >
+                {term}
+              </button>
+            ))}
+          </div>
+
+          <div className="flex flex-wrap items-center gap-3 text-sm text-textSecondary">
+            <span className="inline-flex items-center">
+              <Filter className="w-4 h-4 mr-2" />
+              {resultCountText}
+            </span>
+
+            {(query || source || status || category) && (
+              <button
+                onClick={clearFilters}
+                className="text-primary font-bold hover:underline"
+              >
+                Clear filters
+              </button>
+            )}
+          </div>
+        </div>
+
+        <div className="mt-4 rounded-xl border border-borderColor bg-bgPanel/40 px-4 py-3 text-xs text-textSecondary flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+          <span>
+            Select 2–{MAX_COMPARE_SELECTIONS} grants to compare. Project-aware comparison is available after Project Intake.
+          </span>
+          <span className="font-bold text-textPrimary">
+            {selectedIds.length}/{MAX_COMPARE_SELECTIONS} selected
+          </span>
+        </div>
+      </section>
+
+      {Boolean(latestRun?.trace_id) && mode === "latest" && (
+        <div className="rounded-xl bg-secondary/10 border border-secondary/20 p-4 text-sm text-secondary flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <div className="flex items-center min-w-0">
+            <CheckCircle2 className="w-5 h-5 mr-2 shrink-0" />
+            <span className="truncate">
+              Showing matches from trace {String(latestRun?.trace_id ?? "")}
+            </span>
+          </div>
+          <Link href="/intake" className="text-secondary font-bold hover:underline">
+            Run another intake
+          </Link>
         </div>
       )}
 
-      {/* ── Mobile Filter Button ── */}
-      <div className="lg:hidden flex items-center gap-3">
-        <button onClick={() => setShowMobileFilters(true)}
-          className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium border border-borderColor bg-bgPanel hover:bg-bgPanelLight text-textPrimary transition-colors">
-          <SlidersHorizontal className="w-4 h-4" /> Filters
-          {activeFilterCount > 0 && <span className="ml-1 w-5 h-5 rounded-full bg-primary text-white text-[10px] font-bold flex items-center justify-center">{activeFilterCount}</span>}
+      <div ref={comparePanelRef}>
+        {compareResult && (
+          <ComparisonPanel
+            result={compareResult}
+            grants={getArrayField<GrantRecord>(compareResult, "grants")}
+            onClear={clearComparisonAndSelection}
+          />
+        )}
+      </div>
+
+      {isLoading ? (
+        <div className="glass-panel rounded-2xl p-10 flex items-center justify-center text-textSecondary">
+          <Loader2 className="w-5 h-5 mr-2 animate-spin" />
+          Loading grants...
+        </div>
+      ) : visibleGrants.length ? (
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
+          {visibleGrants.map((grant) => {
+            const id = getGrantId(grant);
+            const selected = Boolean(id && selectedIds.includes(id));
+            const selectionDisabled =
+              !selected && selectedIds.length >= MAX_COMPARE_SELECTIONS;
+
+            return (
+              <GrantCard
+                key={id || getGrantTitle(grant)}
+                grant={grant}
+                selected={selected}
+                selectionDisabled={selectionDisabled}
+                onToggle={() => toggleSelected(grant)}
+              />
+            );
+          })}
+        </div>
+      ) : (
+        <EmptyState
+          mode={mode}
+          onClear={clearFilters}
+          onDatabase={openDatabase}
+        />
+      )}
+
+      {selectedIds.length > 0 && !compareResult && (
+        <SelectionBar
+          count={selectedIds.length}
+          maxCount={MAX_COMPARE_SELECTIONS}
+          selectedGrants={selectedGrants}
+          isComparing={isComparing}
+          onCompare={compareSelected}
+          onClear={() => {
+            setSelectedIds([]);
+            setCompareResult(null);
+            setError("");
+          }}
+        />
+      )}
+    </div>
+  );
+});
+
+function ModeButton({
+  active,
+  label,
+  onClick,
+  disabled = false
+}: {
+  active: boolean;
+  label: string;
+  onClick: () => void;
+  disabled?: boolean;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      disabled={disabled}
+      className={`rounded-xl px-4 py-3 text-sm font-black transition-colors ${
+        active
+          ? "bg-primary text-white shadow-lg shadow-primary/20"
+          : "text-textSecondary hover:text-textPrimary hover:bg-bgPanel disabled:opacity-40 disabled:hover:bg-transparent"
+      }`}
+    >
+      {label}
+    </button>
+  );
+}
+
+function FacetSelect({
+  value,
+  onChange,
+  disabled,
+  label,
+  values
+}: {
+  value: string;
+  onChange: (value: string) => void;
+  disabled: boolean;
+  label: string;
+  values: string[];
+}) {
+  const cleanValues = values
+    .filter((item) => item && item !== "unknown")
+    .sort((a, b) => a.localeCompare(b))
+    .slice(0, 80);
+
+  return (
+    <select
+      value={value}
+      onChange={(event) => onChange(event.target.value)}
+      disabled={disabled}
+      className="bg-bgPanel/60 border border-borderColor rounded-xl px-4 py-3 text-sm text-textPrimary focus:outline-none focus:border-primary disabled:opacity-40"
+    >
+      <option value="">{label}</option>
+      {cleanValues.map((item) => (
+        <option key={item} value={item}>
+          {prettify(item)}
+        </option>
+      ))}
+    </select>
+  );
+}
+
+function GrantCard({
+  grant,
+  selected,
+  selectionDisabled,
+  onToggle
+}: {
+  grant: GrantRecord;
+  selected: boolean;
+  selectionDisabled: boolean;
+  onToggle: () => void;
+}) {
+  const score = getGrantScore(grant);
+  const id = getGrantId(grant);
+  const sourceUrl = getSourceUrl(grant);
+  const categories = getGrantCategories(grant).slice(0, 3);
+
+  const selectGrant = () => saveSelectedGrant(grant);
+
+  return (
+    <article
+      className={`rounded-2xl border p-5 transition-colors bg-bgPanel/70 shadow-sm ${
+        selected
+          ? "border-secondary/70 ring-2 ring-secondary/20"
+          : "border-borderColor hover:border-primary/40"
+      }`}
+    >
+      <div className="flex items-start justify-between gap-4">
+        <div className="min-w-0">
+          <div className="flex flex-wrap gap-2 mb-3">
+            {score !== null && (
+              <span className="px-2.5 py-1 rounded-lg bg-secondary/10 text-secondary text-xs font-black">
+                {score}% fit
+              </span>
+            )}
+            <span className="px-2.5 py-1 rounded-lg bg-primary/10 text-primary text-xs font-bold">
+              {grant.source || "Unknown source"}
+            </span>
+            <span className="px-2.5 py-1 rounded-lg bg-bgPanelLight text-textSecondary text-xs">
+              {grant.status || "unknown"}
+            </span>
+          </div>
+
+          <h3 className="font-black text-textPrimary text-lg leading-snug">
+            {getGrantTitle(grant)}
+          </h3>
+
+          <p className="text-sm text-textSecondary mt-1">
+            {String(grant.agency || "Agency not listed")}
+          </p>
+
+          <p className="text-sm text-textSecondary mt-3 leading-relaxed">
+            {truncate(stripHtml(grant.summary || grant.overview), 240)}
+          </p>
+        </div>
+
+        <button
+          onClick={onToggle}
+          disabled={selectionDisabled}
+          title={selectionDisabled ? `Compare up to ${MAX_COMPARE_SELECTIONS} grants at a time` : undefined}
+          className={`px-3 py-2 rounded-xl text-xs font-black shrink-0 ${
+            selected
+              ? "bg-secondary text-white"
+              : selectionDisabled
+                ? "bg-bgPanelLight border border-borderColor text-textSecondary opacity-60 cursor-not-allowed"
+                : "bg-bgPanelLight border border-borderColor text-textPrimary hover:border-secondary/50"
+          }`}
+        >
+          {selected ? "Selected" : selectionDisabled ? "Limit reached" : "Select"}
         </button>
       </div>
 
-      {/* ── Mobile Filter Drawer ── */}
-      <AnimatePresence>
-        {showMobileFilters && (
-          <>
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 bg-black/50 z-40 lg:hidden" onClick={() => setShowMobileFilters(false)} />
-            <motion.div initial={{ x: '-100%' }} animate={{ x: 0 }} exit={{ x: '-100%' }} transition={{ type: 'tween', duration: 0.25 }}
-              className="fixed left-0 top-0 h-full w-80 z-50 bg-bgApp border-r border-borderColor p-6 overflow-y-auto custom-scrollbar lg:hidden">
-              <div className="flex justify-between items-center mb-6">
-                <h2 className="text-lg font-bold text-textPrimary">Filters</h2>
-                <button onClick={() => setShowMobileFilters(false)} className="p-2 rounded-lg hover:bg-white/5 text-textSecondary"><X className="w-5 h-5" /></button>
-              </div>
-              <FilterPanel industries={industries} applicantTypes={applicantTypes} minScore={minScore}
-                onToggleIndustry={toggleIndustry} onToggleApplicant={toggleApplicant} onScoreChange={handleScoreChange} onReset={() => { handleReset(); setShowMobileFilters(false); }} />
-            </motion.div>
-          </>
-        )}
-      </AnimatePresence>
-
-      {/* ── Desktop Filter Sidebar ── */}
-      <div className="w-60 shrink-0 hidden lg:block">
-        <div className="glass-panel p-5 rounded-2xl h-full overflow-y-auto custom-scrollbar">
-          <FilterPanel industries={industries} applicantTypes={applicantTypes} minScore={minScore}
-            onToggleIndustry={toggleIndustry} onToggleApplicant={toggleApplicant} onScoreChange={handleScoreChange} onReset={handleReset} />
+      {categories.length > 0 && (
+        <div className="flex flex-wrap gap-2 mt-4">
+          {categories.map((category) => (
+            <span
+              key={category}
+              className="px-2.5 py-1 rounded-full bg-bgPanelLight text-textSecondary text-xs"
+            >
+              {prettify(category)}
+            </span>
+          ))}
         </div>
+      )}
+
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-5 text-xs">
+        <Metric label="Due" value={formatDate(grant.due_date || grant.deadline)} />
+        <Metric label="Funding" value={formatCurrencyLike(grant.funding_amount)} />
+        <Metric label="Match" value={grant.match_required || "Unknown"} />
+        <Metric label="ID" value={id || "Unknown"} />
       </div>
 
-      {/* ── Main Content ── */}
-      <div className="flex-1 flex flex-col min-w-0">
-        {/* Search + Sort row */}
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-5 gap-3">
-          <div className="relative flex-1 max-w-md w-full">
-            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"><Search className="h-4 w-4 text-textSecondary" /></div>
-            <input type="text" placeholder="Search grants, agencies, industries..."
-              className="block w-full pl-10 pr-3 py-2.5 border border-borderColor rounded-xl leading-5 bg-bgPanelLight/50 text-textPrimary placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary text-sm transition-all"
-              value={searchTerm} onChange={handleSearchChange} />
+      <div className="flex flex-wrap gap-3 mt-5">
+        {id && (
+          <Link
+            onClick={selectGrant}
+            href={`/explorer/${id}`}
+            className="px-4 py-2 rounded-xl bg-primary hover:bg-primary/90 text-white text-sm font-bold inline-flex items-center"
+          >
+            Details <ArrowRight className="w-4 h-4 ml-2" />
+          </Link>
+        )}
+
+        {sourceUrl && (
+          <a
+            href={sourceUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="px-4 py-2 rounded-xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel text-textPrimary text-sm font-bold inline-flex items-center"
+          >
+            Source <ExternalLink className="w-4 h-4 ml-2" />
+          </a>
+        )}
+      </div>
+    </article>
+  );
+}
+
+function ComparisonPanel({
+  result,
+  grants,
+  onClear
+}: {
+  result: AnyRecord;
+  grants: GrantRecord[];
+  onClear: () => void;
+}) {
+  const sortedGrants = [...grants].sort((a, b) => {
+    return (getGrantScore(b) ?? 0) - (getGrantScore(a) ?? 0);
+  });
+
+  const mode = String(result.comparison_mode || "comparison");
+  const note = String(result.note || "");
+
+  return (
+    <section className="rounded-2xl border border-secondary/25 bg-secondary/5 p-5 lg:p-6">
+      <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-3 mb-5">
+        <div>
+          <div className="inline-flex items-center px-3 py-1 rounded-full bg-secondary/10 text-secondary text-xs font-black mb-3">
+            <GitCompare className="w-3.5 h-3.5 mr-2" />
+            {mode === "project-aware" ? "Project-aware comparison" : "Side-by-side comparison"}
           </div>
-          <div className="flex items-center gap-3 w-full sm:w-auto">
-            {/* Sort dropdown */}
-            <div ref={sortRef} className="relative flex-1 sm:flex-none">
-              <button onClick={() => setShowSortMenu(!showSortMenu)}
-                className="w-full sm:w-auto flex items-center justify-between sm:justify-center px-4 py-2.5 border border-borderColor rounded-xl text-sm font-medium text-textPrimary bg-bgPanelLight/50 hover:bg-bgPanelLight transition-colors gap-2">
-                <span className="truncate">Sort: {currentSortLabel}</span>
-                <ChevronDown className={`w-4 h-4 shrink-0 transition-transform ${showSortMenu ? 'rotate-180' : ''}`} />
-              </button>
-              <AnimatePresence>
-                {showSortMenu && (
-                  <motion.div initial={{ opacity: 0, y: -4 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -4 }} transition={{ duration: 0.15 }}
-                    className="absolute right-0 top-full mt-2 w-52 rounded-xl overflow-hidden z-30 theme-dropdown">
-                    {SORT_OPTIONS.map(opt => (
-                      <button key={opt.key} onClick={() => handleSort(opt.key)}
-                        className={`w-full text-left px-4 py-2.5 text-sm transition-colors ${sortKey === opt.key ? 'bg-primary/10 text-primary font-medium' : 'text-textSecondary hover:text-textPrimary hover:bg-bgPanelLight/50'}`}>
-                        {opt.label}
-                      </button>
-                    ))}
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
-            <span className="text-xs text-textSecondary whitespace-nowrap hidden sm:inline">{filteredSorted.length} results</span>
-          </div>
+
+          <h2 className="text-2xl font-black text-textPrimary">
+            Compare selected grants
+          </h2>
+
+          <p className="text-sm text-textSecondary mt-1 max-w-3xl">
+            Use this to decide which opportunity is worth staff time first.
+          </p>
+
+          {note && (
+            <p className="text-sm text-textSecondary mt-3 rounded-xl border border-borderColor bg-bgPanel/60 p-3">
+              {note}
+            </p>
+          )}
         </div>
 
-        {/* Grant Grid / Empty State */}
-        <div className="flex-1 overflow-y-auto pr-1 custom-scrollbar">
-          {paginated.length === 0 ? (
-            <div className="rounded-2xl p-16 text-center theme-card">
-              <div className="w-14 h-14 rounded-full bg-bgPanelLight/50 flex items-center justify-center mx-auto mb-4"><Search className="w-7 h-7 text-textSecondary" /></div>
-              <p className="text-base font-medium text-textPrimary mb-1">No grants match your filters</p>
-              <p className="text-sm text-textSecondary mb-4">Try adjusting your search or filter criteria.</p>
-              <button onClick={handleReset} className="px-5 py-2.5 rounded-xl text-sm font-medium bg-primary hover:bg-primary/90 text-white transition-colors">Clear Filters</button>
+        <button
+          onClick={onClear}
+          className="px-3 py-2 rounded-xl border border-borderColor bg-bgPanelLight text-textPrimary text-sm font-bold inline-flex items-center self-start"
+        >
+          <X className="w-4 h-4 mr-2" />
+          Close and clear
+        </button>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        {sortedGrants.map((grant, index) => (
+          <ComparisonCard
+            key={getGrantId(grant) || getGrantTitle(grant)}
+            grant={grant}
+            rank={index + 1}
+          />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function ComparisonCard({
+  grant,
+  rank
+}: {
+  grant: GrantRecord;
+  rank: number;
+}) {
+  const score = getGrantScore(grant);
+  const id = getGrantId(grant);
+
+  return (
+    <div className="rounded-2xl border border-borderColor bg-bgPanel/80 p-5">
+      <div className="flex items-center justify-between gap-3 mb-3">
+        <span className="text-xs font-black text-primary">
+          OPTION {rank}
+        </span>
+        {score !== null && (
+          <span className="text-2xl font-black text-secondary">
+            {score}%
+          </span>
+        )}
+      </div>
+
+      <h3 className="font-black text-textPrimary leading-snug">
+        {getGrantTitle(grant)}
+      </h3>
+
+      <p className="text-xs text-textSecondary mt-1">
+        {String(grant.source || "Unknown source")} • {String(grant.agency || "Agency not listed")}
+      </p>
+
+      <p className="text-sm text-textSecondary mt-4 leading-relaxed">
+        {getComparisonReason(grant)}
+      </p>
+
+      <div className="grid grid-cols-2 gap-3 mt-5 text-xs">
+        <Metric label="Due" value={formatDate(grant.due_date || grant.deadline)} />
+        <Metric label="Funding" value={formatCurrencyLike(grant.funding_amount)} />
+        <Metric label="Match" value={grant.match_required || "Unknown"} />
+        <Metric label="Status" value={grant.status || "Unknown"} />
+      </div>
+
+      {id && (
+        <Link
+          onClick={() => saveSelectedGrant(grant)}
+          href={`/explorer/${id}`}
+          className="mt-5 w-full px-4 py-2 rounded-xl bg-primary hover:bg-primary/90 text-white text-sm font-bold inline-flex items-center justify-center"
+        >
+          Review details <ArrowRight className="w-4 h-4 ml-2" />
+        </Link>
+      )}
+    </div>
+  );
+}
+
+function SelectionBar({
+  count,
+  maxCount,
+  selectedGrants,
+  isComparing,
+  onCompare,
+  onClear
+}: {
+  count: number;
+  maxCount: number;
+  selectedGrants: GrantRecord[];
+  isComparing: boolean;
+  onCompare: () => void;
+  onClear: () => void;
+}) {
+  return (
+    <div className="fixed bottom-5 left-4 right-4 md:left-[calc(280px+1.5rem)] md:right-6 z-50">
+      <div className="mx-auto max-w-5xl rounded-2xl border border-secondary/30 bg-bgPanel/95 shadow-2xl shadow-black/20 backdrop-blur p-4">
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+          <div className="min-w-0 text-center lg:text-left">
+            <div className="text-sm font-black text-textPrimary">
+              {count} of {maxCount} grants selected for comparison
             </div>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 pb-6">
-              {paginated.map(grant => (
-                <div key={grant.id} className="rounded-xl overflow-hidden flex flex-col group transition-all duration-200 hover:-translate-y-0.5 theme-card theme-card-hover"
-                >
-                  <div className="p-5 flex-1 flex flex-col">
-                    {/* Top row: status + eligible + save */}
-                    <div className="flex items-center justify-between mb-3">
-                      <div className="flex items-center gap-2">
-                        <span className="px-2.5 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-wider bg-primary/10 text-primary border border-primary/20">{grant.status}</span>
-                        {grant.eligible
-                          ? <span className="flex items-center text-[10px] font-semibold text-secondary"><CheckCircle2 className="w-3 h-3 mr-0.5" /> Eligible</span>
-                          : <span className="text-[10px] font-semibold text-red-400">Ineligible</span>}
-                      </div>
-                      <button onClick={() => toggleSave(grant.id)}
-                        className={`p-1.5 rounded-lg transition-all ${grant.saved ? 'bg-primary/15 text-primary' : 'text-textSecondary hover:text-textPrimary hover:bg-white/5'}`}
-                        title={grant.saved ? 'Unsave' : 'Save'}>
-                        <Bookmark className="w-4 h-4" fill={grant.saved ? 'currentColor' : 'none'} />
-                      </button>
-                    </div>
-
-                    {/* Title + agency */}
-                    <h3 className="text-sm font-bold text-textPrimary mb-1 group-hover:text-primary transition-colors line-clamp-2 leading-snug">{grant.title}</h3>
-                    <p className="text-xs text-textSecondary mb-3">{grant.agency}</p>
-
-                    {/* Tags */}
-                    <div className="flex flex-wrap gap-1.5 mb-4">
-                      <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-primary/8 text-primary/80 border border-primary/10">{grant.industry}</span>
-                      <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-secondary/8 text-secondary/80 border border-secondary/10">{grant.applicantType}</span>
-                    </div>
-
-                    {/* Details */}
-                    <div className="mt-auto space-y-2">
-                      <div className="flex justify-between text-xs"><span className="text-textSecondary">Amount</span><span className="text-textPrimary font-medium">{grant.amount}</span></div>
-                      <div className="flex justify-between text-xs"><span className="text-textSecondary">Deadline</span><span className="text-textPrimary font-medium">{grant.deadline}</span></div>
-
-                      {/* Match Score bar */}
-                      <div className="pt-3 border-t border-borderColor">
-                        <div className="flex justify-between items-end mb-1.5">
-                          <span className="text-[10px] text-textSecondary font-medium uppercase tracking-wider">AI Match</span>
-                          <span className={`text-base font-bold ${grant.match >= 90 ? 'text-secondary' : grant.match >= 70 ? 'text-primary' : 'text-amber-400'}`}>{grant.match}%</span>
-                        </div>
-                        <div className="h-1.5 w-full bg-bgPanel/50 rounded-full overflow-hidden">
-                          <div className={`h-full rounded-full ${grant.match >= 90 ? 'bg-secondary' : grant.match >= 70 ? 'bg-primary' : 'bg-amber-400'}`} style={{ width: `${grant.match}%` }} />
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Action buttons */}
-                    <div className="flex items-center gap-2 mt-4 pt-3 border-t border-borderColor">
-                      <button onClick={() => showToast(`Viewing: ${grant.title}`)}
-                        className="flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-medium text-textSecondary hover:text-textPrimary hover:bg-white/5 border border-borderColor transition-all">
-                        <Eye className="w-3.5 h-3.5" /> View
-                      </button>
-                      <button onClick={() => toggleExplainer(grant.id)}
-                        className={`flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-medium border transition-all ${expandedExplainers[grant.id] ? 'bg-primary/10 text-primary border-primary/20' : 'text-textSecondary hover:text-primary hover:bg-primary/5 border-borderColor'}`}>
-                        <Sparkles className="w-3.5 h-3.5" /> {expandedExplainers[grant.id] ? 'Hide' : 'Explain'}
-                      </button>
-                    </div>
-
-                    <AnimatePresence>
-                      {expandedExplainers[grant.id] && (
-                        <motion.div
-                          initial={{ height: 0, opacity: 0 }}
-                          animate={{ height: 'auto', opacity: 1 }}
-                          exit={{ height: 0, opacity: 0 }}
-                          className="overflow-hidden mt-3 pt-3 border-t border-borderColor/50"
-                        >
-                          <div className="bg-bgPanelLight/30 rounded-xl p-3">
-                            <h4 className="text-[10px] uppercase tracking-wider font-semibold text-textSecondary mb-2 flex items-center">
-                              <Sparkles className="w-3 h-3 text-primary mr-1" /> Why This Matches
-                            </h4>
-                            <ul className="space-y-1.5 text-xs text-textPrimary">
-                              <li className="flex items-start"><CheckCircle2 className="w-3.5 h-3.5 text-secondary mr-1.5 mt-0.5 shrink-0" /> Rural township eligible</li>
-                              <li className="flex items-start"><CheckCircle2 className="w-3.5 h-3.5 text-secondary mr-1.5 mt-0.5 shrink-0" /> Water infrastructure overlap</li>
-                              <li className="flex items-start"><CheckCircle2 className="w-3.5 h-3.5 text-secondary mr-1.5 mt-0.5 shrink-0" /> Population requirement satisfied</li>
-                            </ul>
-                            <div className="mt-3 flex gap-2">
-                              <span className="px-2 py-0.5 bg-secondary/10 text-secondary text-[10px] rounded border border-secondary/20">94% Confidence</span>
-                              <span className="px-2 py-0.5 bg-primary/10 text-primary text-[10px] rounded border border-primary/20">Source Verified</span>
-                            </div>
-                          </div>
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
-                  </div>
-                </div>
-              ))}
+            <div className="text-xs text-textSecondary mt-1 truncate">
+              {selectedGrants.map((grant) => getGrantTitle(grant)).join(" • ")}
             </div>
-          )}
+          </div>
 
-          {/* Pagination */}
-          {totalPages > 1 && (
-            <div className="flex justify-center items-center gap-3 pb-6">
-              <button onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1}
-                className="p-2 rounded-lg bg-bgPanel border border-borderColor text-textSecondary hover:text-textPrimary disabled:opacity-30 transition-colors">
-                <ChevronLeft className="w-4 h-4" />
-              </button>
-              <span className="text-sm text-textSecondary">Page <span className="text-textPrimary font-medium">{page}</span> of {totalPages}</span>
-              <button onClick={() => setPage(p => Math.min(totalPages, p + 1))} disabled={page === totalPages}
-                className="p-2 rounded-lg bg-bgPanel border border-borderColor text-textSecondary hover:text-textPrimary disabled:opacity-30 transition-colors">
-                <ChevronRight className="w-4 h-4" />
-              </button>
-            </div>
-          )}
+          <div className="flex justify-center gap-2 shrink-0">
+            <button
+              onClick={onClear}
+              className="px-4 py-2 rounded-xl border border-borderColor bg-bgPanelLight text-textPrimary text-sm font-bold"
+            >
+              Clear
+            </button>
+
+            <button
+              onClick={onCompare}
+              disabled={count < 2 || isComparing}
+              className="px-4 py-2 rounded-xl bg-secondary hover:bg-secondary/90 disabled:opacity-50 text-white text-sm font-black inline-flex items-center"
+            >
+              {isComparing ? (
+                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+              ) : (
+                <GitCompare className="w-4 h-4 mr-2" />
+              )}
+              Compare now
+            </button>
+          </div>
         </div>
       </div>
     </div>
   );
-});
+}
+
+function EmptyState({
+  mode,
+  onClear,
+  onDatabase
+}: {
+  mode: ExplorerMode;
+  onClear: () => void;
+  onDatabase: () => void;
+}) {
+  return (
+    <div className="glass-panel rounded-2xl p-10 text-center">
+      <Database className="w-10 h-10 text-primary mx-auto mb-4" />
+      <h2 className="text-2xl font-black text-textPrimary">
+        No grants found
+      </h2>
+      <p className="text-textSecondary mt-2 max-w-xl mx-auto">
+        Try a broader project word like “water,” “bridge,” or “energy,” or clear filters and browse the master database.
+      </p>
+
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-6">
+        <button
+          onClick={onClear}
+          className="px-4 py-2 rounded-xl bg-primary text-white font-bold"
+        >
+          Clear filters
+        </button>
+
+        {mode !== "database" && (
+          <button
+            onClick={onDatabase}
+            className="px-4 py-2 rounded-xl border border-borderColor bg-bgPanelLight text-textPrimary font-bold"
+          >
+            Browse database
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function Metric({
+  label,
+  value
+}: {
+  label: string;
+  value: unknown;
+}) {
+  return (
+    <div>
+      <div className="text-textSecondary">{label}</div>
+      <div className="font-semibold text-textPrimary truncate">
+        {String(value ?? "Unknown")}
+      </div>
+    </div>
+  );
+}
+
+function ErrorBox({
+  message
+}: {
+  message: string;
+}) {
+  return (
+    <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-300 text-sm flex items-start">
+      <AlertTriangle className="w-5 h-5 mr-3 shrink-0" />
+      {message}
+    </div>
+  );
+}
+
+function getDisplayTotal(meta: AnyRecord | null, fallback: number) {
+  const record = asRecord(meta);
+  const rawTotal = record.total;
+
+  if (typeof rawTotal === "number" && Number.isFinite(rawTotal)) {
+    return String(rawTotal);
+  }
+
+  if (typeof rawTotal === "string" && rawTotal.trim()) {
+    return rawTotal;
+  }
+
+  return String(fallback);
+}
+
+function getGrantId(grant: GrantRecord) {
+  const id = typeof grant.id === "string" ? grant.id.trim() : "";
+  if (id) return id;
+
+  const fallback = `${String(grant.source || "")}-${String(grant.title || "")}`.trim();
+  return fallback || "";
+}
+
+function getGrantTitle(grant: GrantRecord) {
+  return String(grant.title || "Untitled grant");
+}
+
+function getSourceUrl(grant: GrantRecord) {
+  const record = asRecord(grant);
+  const sourceUrl = record.source_url;
+  const website = record.website;
+
+  if (typeof sourceUrl === "string" && sourceUrl.trim()) {
+    return sourceUrl;
+  }
+
+  if (typeof website === "string" && website.trim()) {
+    return website;
+  }
+
+  return "";
+}
+
+function getGrantCategories(grant: GrantRecord) {
+  const categories = grant.categories;
+
+  if (!Array.isArray(categories)) {
+    return [];
+  }
+
+  return categories
+    .map((item) => String(item || "").trim())
+    .filter(Boolean);
+}
+
+function getComparisonReason(grant: GrantRecord) {
+  const recommendation = String(grant.recommendation || "").trim();
+
+  if (recommendation) {
+    return recommendation;
+  }
+
+  const score = getGrantScore(grant);
+
+  if (score !== null && score >= 70) {
+    return "This appears worth reviewing first because the score is comparatively strong. Confirm eligibility, match, deadline, and required documents before applying.";
+  }
+
+  if (score !== null && score >= 40) {
+    return "This may be worth a secondary review, but staff should verify fit carefully before committing application time.";
+  }
+
+  return "This looks like a lower-confidence option. Review the official source before spending staff time on an application.";
+}
+
+function mergeComparedGrants(selectedGrants: GrantRecord[], output: AnyRecord) {
+  const backendGrants = getArrayField<GrantRecord>(output, "grants");
+
+  if (!backendGrants.length) {
+    return selectedGrants;
+  }
+
+  return selectedGrants.map((selectedGrant) => {
+    const selectedId = getGrantId(selectedGrant);
+    const selectedTitle = getGrantTitle(selectedGrant).toLowerCase();
+
+    const backendGrant = backendGrants.find((candidate) => {
+      const candidateId = getGrantId(candidate);
+      const candidateTitle = getGrantTitle(candidate).toLowerCase();
+
+      return (
+        (selectedId && candidateId === selectedId) ||
+        (selectedTitle && candidateTitle === selectedTitle)
+      );
+    });
+
+    return backendGrant ? { ...selectedGrant, ...backendGrant } : selectedGrant;
+  });
+}
+
+function dedupeGrants(grants: GrantRecord[]) {
+  const seen = new Set<string>();
+  const output: GrantRecord[] = [];
+
+  for (const grant of grants) {
+    const id = getGrantId(grant);
+
+    if (!id || seen.has(id)) {
+      continue;
+    }
+
+    seen.add(id);
+    output.push(grant);
+  }
+
+  return output;
+}
+
+function filterAndRankGrants(grants: GrantRecord[], query: string) {
+  const normalizedQuery = normalizeText(query);
+
+  if (!normalizedQuery) {
+    return grants;
+  }
+
+  const queryTokens = expandQueryTokens(normalizedQuery);
+
+  return grants
+    .map((grant) => ({
+      grant,
+      searchScore: scoreGrantForQuery(grant, normalizedQuery, queryTokens)
+    }))
+    .filter((item) => item.searchScore > 0)
+    .sort((a, b) => {
+      if (b.searchScore !== a.searchScore) {
+        return b.searchScore - a.searchScore;
+      }
+
+      return (getGrantScore(b.grant) ?? 0) - (getGrantScore(a.grant) ?? 0);
+    })
+    .map((item) => item.grant);
+}
+
+function scoreGrantForQuery(grant: GrantRecord, normalizedQuery: string, queryTokens: string[]) {
+  const title = normalizeText(grant.title);
+  const agency = normalizeText(grant.agency);
+  const overview = normalizeText(`${String(grant.summary || "")} ${String(grant.overview || "")}`);
+  const source = normalizeText(grant.source);
+  const status = normalizeText(grant.status);
+  const categories = normalizeText(getGrantCategories(grant).join(" "));
+  const fullText = `${title} ${agency} ${overview} ${source} ${status} ${categories}`;
+
+  let score = 0;
+
+  if (title.includes(normalizedQuery)) score += 120;
+  if (agency.includes(normalizedQuery)) score += 50;
+  if (categories.includes(normalizedQuery)) score += 45;
+  if (overview.includes(normalizedQuery)) score += 30;
+  if (fullText.includes(normalizedQuery)) score += 20;
+
+  for (const token of queryTokens) {
+    if (title.includes(token)) score += 24;
+    if (categories.includes(token)) score += 18;
+    if (agency.includes(token)) score += 10;
+    if (overview.includes(token)) score += 8;
+    if (source.includes(token) || status.includes(token)) score += 4;
+  }
+
+  return score;
+}
+
+function expandQueryTokens(normalizedQuery: string) {
+  const baseTokens = normalizedQuery
+    .split(" ")
+    .map((token) => token.trim())
+    .filter((token) => token.length >= 2);
+
+  const expanded = new Set(baseTokens);
+
+  const aliases: Record<string, string[]> = {
+    bridge: ["transportation", "road", "highway", "infrastructure", "safety"],
+    road: ["transportation", "highway", "bridge", "safety"],
+    flood: ["flooding", "stormwater", "drainage", "resilience", "hazard"],
+    flooding: ["flood", "stormwater", "drainage", "resilience", "hazard"],
+    drainage: ["stormwater", "water", "flood", "flooding", "infrastructure"],
+    water: ["wastewater", "drinking", "stormwater", "drainage", "sewer"],
+    rural: ["community", "township", "county", "agriculture"],
+    energy: ["resilience", "solar", "efficiency", "facility"],
+    housing: ["community", "development", "homeless", "affordable"],
+    broadband: ["internet", "connectivity", "digital", "infrastructure"],
+    agriculture: ["farm", "rural", "food", "conservation"]
+  };
+
+  for (const token of baseTokens) {
+    for (const alias of aliases[token] || []) {
+      expanded.add(alias);
+    }
+  }
+
+  return Array.from(expanded);
+}
+
+function normalizeText(value: unknown) {
+  return String(value ?? "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function prettify(value: string) {
+  return value
+    .replace(/[_-]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim() 
+    .replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+export default GrantExplorer;

@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { Layout } from "../components/Layout";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "GrantPilot MI",
@@ -23,7 +20,7 @@ export default function RootLayout({
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
-      <body className={`${inter.className} bg-bgApp text-textPrimary`}>
+      <body className="bg-bgApp text-textPrimary">
         <Layout>{children}</Layout>
       </body>
     </html>

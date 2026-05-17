@@ -2,7 +2,7 @@
 import { useState, useMemo, useCallback, memo } from 'react';
 import {
   XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
-  PieChart, Pie, Cell, AreaChart, Area, BarChart, Bar, FunnelChart, Funnel, LabelList
+  PieChart, Pie, Cell, AreaChart, Area, BarChart, Bar
 } from 'recharts';
 import { TrendingUp, Award, DollarSign, Activity, Download, Filter, Calendar, CheckCircle2, ArrowUpRight } from 'lucide-react';
 
@@ -194,7 +194,7 @@ export const Analytics = memo(function Analytics() {
                   <Pie data={categoryData} cx="50%" cy="50%" innerRadius={70} outerRadius={105} paddingAngle={4} dataKey="value" stroke="none" isAnimationActive={false}>
                     {categoryData.map((_, i) => <Cell key={i} fill={COLORS[i]} />)}
                   </Pie>
-                  <Tooltip contentStyle={tooltipStyle} itemStyle={tooltipItemStyle} formatter={(v: number) => `${v}%`} />
+                  <Tooltip contentStyle={tooltipStyle} itemStyle={tooltipItemStyle} formatter={(value: unknown) => `${Number(value ?? 0)}%`} />
                 </PieChart>
               </ResponsiveContainer>
             </div>
@@ -307,3 +307,5 @@ export const Analytics = memo(function Analytics() {
     </div>
   );
 });
+
+export default Analytics;

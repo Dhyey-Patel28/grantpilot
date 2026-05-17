@@ -38,7 +38,9 @@ export const Settings = memo(function Settings() {
         if (p.orgName) setOrgName(p.orgName);
         if (p.industry) setIndustry(p.industry);
       }
-    } catch {}
+    } catch {
+      // Ignore malformed saved settings.
+    }
   }, []);
 
   // Listen for system theme changes when "system" is selected
@@ -160,3 +162,5 @@ export const Settings = memo(function Settings() {
     </div>
   );
 });
+
+export default Settings;

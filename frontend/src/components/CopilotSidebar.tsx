@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect, useRef, useCallback, memo } from 'react';
-import { Bot, Send, Sparkles, User, FileText, CheckCircle2, AlertTriangle, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Bot, Send, Sparkles, AlertTriangle, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface Message {
   id: number;
@@ -37,7 +37,9 @@ export const CopilotSidebar = memo(function CopilotSidebar() {
       }
       const collapsed = localStorage.getItem('grantpilot_copilot_collapsed');
       if (collapsed !== null) setIsExpanded(collapsed !== 'true');
-    } catch {}
+    } catch {
+      // Ignore malformed saved sidebar state.
+    }
   }, []);
 
   // Only save to localStorage when messages actually change

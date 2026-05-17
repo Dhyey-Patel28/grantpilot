@@ -1,6 +1,6 @@
 "use client";
 import { useState, useRef, useEffect, useCallback, memo } from 'react';
-import { Send, Bot, User, Paperclip, Sparkles, FileText, CheckCircle2 } from 'lucide-react';
+import { Send, Bot, User, Paperclip, FileText, CheckCircle2 } from 'lucide-react';
 
 interface Message {
   id: number;
@@ -197,3 +197,5 @@ export const AIAssistant = memo(function AIAssistant() {
     </div>
   );
 });
+
+export default AIAssistant;

@@ -1,157 +1,171 @@
 "use client";
-import { useState, useCallback, memo } from 'react';
-import { Upload, FileText, Zap, AlertTriangle, CheckCircle2, ArrowRight, X, Download } from 'lucide-react';
+
+import { memo, useCallback, useState } from "react";
+import { AlertTriangle, CheckCircle2, Download, FileText, Loader2, Sparkles, X } from "lucide-react";
+import type { AnyRecord } from "../lib/grantpilotApi";
+import {
+  GrantPilotApi,
+  asArray,
+  getErrorMessage,
+  getRecordField,
+  getStringField,
+  saveJson,
+  STORAGE_KEYS,
+  stripHtml
+} from "../lib/grantpilotApi";
 
 export const Translator = memo(function Translator() {
-  const [isUploading, setIsUploading] = useState(false);
-  const [isProcessed, setIsProcessed] = useState(false);
-  const [pastedText, setPastedText] = useState('');
+  const [grantText, setGrantText] = useState("");
+  const [grantId, setGrantId] = useState("");
+  const [requirements, setRequirements] = useState<AnyRecord | null>(null);
+  const [selectedGrant, setSelectedGrant] = useState<AnyRecord | null>(null);
+  const [traceId, setTraceId] = useState("");
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleProcess = useCallback(() => {
-    setIsUploading(true);
-    setTimeout(() => {
-      setIsUploading(false);
-      setIsProcessed(true);
-    }, 2000);
-  }, []);
+  const handleProcess = useCallback(async () => {
+    if (!grantText.trim() && !grantId.trim()) {
+      setError("Paste grant text or enter a grant ID.");
+      return;
+    }
+
+    setIsProcessing(true);
+    setError("");
+
+    try {
+      const payload = grantId.trim() ? { grant_id: grantId.trim() } : { grant_text: grantText.trim() };
+      const output = await GrantPilotApi.requirements(payload);
+      const result = getRecordField(output, "result");
+      const translated = Object.keys(getRecordField(result, "requirements")).length
+        ? getRecordField(result, "requirements")
+        : getRecordField(output, "requirements");
+      const grant = getRecordField(result, "selected_grant");
+
+      setRequirements(Object.keys(translated).length ? translated : null);
+      setSelectedGrant(Object.keys(grant).length ? grant : null);
+      setTraceId(getStringField(output, "trace_id"));
+
+      if (Object.keys(translated).length) saveJson(STORAGE_KEYS.latestRequirements, translated);
+      if (getStringField(output, "trace_id")) saveJson(STORAGE_KEYS.latestTraceId, getStringField(output, "trace_id"));
+    } catch (err: unknown) {
+      setError(getErrorMessage(err, "Could not translate requirements."));
+    } finally {
+      setIsProcessing(false);
+    }
+  }, [grantId, grantText]);
 
   const handleClear = useCallback(() => {
-    setIsProcessed(false);
-    setPastedText('');
+    setGrantText("");
+    setGrantId("");
+    setRequirements(null);
+    setSelectedGrant(null);
+    setTraceId("");
+    setError("");
   }, []);
 
   const handleExport = useCallback(() => {
-    alert("Translated requirements downloaded as PDF/TXT!");
-  }, []);
+    if (!requirements) return;
+    const blob = new Blob([JSON.stringify({ selectedGrant, requirements, traceId }, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement("a");
+    anchor.href = url;
+    anchor.download = "grantpilot-requirements.json";
+    anchor.click();
+    URL.revokeObjectURL(url);
+  }, [requirements, selectedGrant, traceId]);
 
   return (
-    <div className="max-w-6xl mx-auto">
-      <div className="mb-8 flex justify-between items-end">
+    <div className="max-w-7xl mx-auto space-y-6">
+      <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
         <div>
+          <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-semibold mb-4">
+            <Sparkles className="w-3.5 h-3.5 mr-2" />
+            Requirements Translator agent
+          </div>
           <h1 className="text-3xl font-bold text-textPrimary tracking-tight mb-2">Requirements Translator</h1>
-          <p className="text-textSecondary max-w-2xl">Upload complicated grant documents or NOFOs and let AI break them down into plain English and actionable steps.</p>
+          <p className="text-textSecondary max-w-3xl">Paste NOFO text or enter a grant ID. GrantPilot turns dense grant language into eligibility, documents, deadlines, match requirements, risks, and application steps.</p>
         </div>
-        {isProcessed && (
-          <div className="flex space-x-3">
-            <button onClick={handleClear} className="px-4 py-2 bg-bgPanelLight hover:bg-bgPanelLight/80 text-textPrimary rounded-lg text-sm font-medium transition-colors border border-borderColor flex items-center">
-              <X className="w-4 h-4 mr-2" /> Clear
-            </button>
-            <button onClick={handleExport} className="px-4 py-2 bg-primary hover:bg-primary/90 text-textPrimary shadow-lg shadow-primary/20 rounded-lg text-sm font-medium transition-colors flex items-center">
-              <Download className="w-4 h-4 mr-2" /> Export
-            </button>
+
+        {requirements && (
+          <div className="flex gap-3">
+            <button onClick={handleClear} className="px-4 py-2 bg-bgPanelLight hover:bg-bgPanel text-textPrimary rounded-xl text-sm font-semibold border border-borderColor flex items-center"><X className="w-4 h-4 mr-2" /> Clear</button>
+            <button onClick={handleExport} className="px-4 py-2 bg-primary hover:bg-primary/90 text-white rounded-xl text-sm font-semibold flex items-center"><Download className="w-4 h-4 mr-2" /> Export JSON</button>
           </div>
         )}
       </div>
 
-      {!isProcessed ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="glass-panel p-10 rounded-2xl border-dashed border-2 border-primary/30 flex flex-col items-center justify-center text-center">
-            <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-6">
-              <Upload className="w-10 h-10 text-primary" />
-            </div>
-            <h2 className="text-xl font-bold text-textPrimary mb-2">Upload Document</h2>
-            <p className="text-textSecondary mb-6 text-sm">PDF, DOCX up to 50MB</p>
-            <button 
-              onClick={handleProcess}
-              disabled={isUploading}
-              className="bg-primary hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed text-textPrimary px-6 py-2.5 rounded-xl font-medium transition-all shadow-lg shadow-primary/20 flex items-center"
-            >
-              {isUploading ? <><div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2" /> Analyzing...</> : 'Browse Files'}
-            </button>
+      {error && <ErrorBox message={error} />}
+
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
+        <div className="xl:col-span-1 glass-panel rounded-2xl p-6 space-y-5">
+          <div>
+            <label className="block text-sm font-semibold text-textPrimary mb-2">Grant ID</label>
+            <input value={grantId} onChange={(event) => setGrantId(event.target.value)} placeholder="Example: grantsgov_351567" className="w-full bg-bgPanel/60 border border-borderColor rounded-xl px-4 py-3 text-sm text-textPrimary focus:outline-none focus:border-primary" />
+            <p className="text-xs text-textSecondary mt-2">Use this when selecting a grant from the database.</p>
           </div>
 
-          <div className="glass-panel p-8 rounded-2xl flex flex-col">
-            <h2 className="text-lg font-bold text-textPrimary mb-4">Or Paste Text</h2>
-            <textarea 
-              value={pastedText}
-              onChange={(e) => setPastedText(e.target.value)}
-              placeholder="Paste NOFO or grant requirements text here..."
-              className="flex-1 w-full bg-bgPanel/50 border border-borderColor rounded-xl p-4 text-sm text-textPrimary focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary resize-none mb-4 min-h-[200px]"
-            />
-            <button 
-              onClick={handleProcess}
-              disabled={isUploading || !pastedText.trim()}
-              className="w-full bg-bgPanelLight hover:bg-bgPanel disabled:opacity-50 text-textPrimary border border-borderColor px-6 py-2.5 rounded-xl font-medium transition-colors flex items-center justify-center"
-            >
-              {isUploading ? <><div className="animate-spin rounded-full h-4 w-4 border-b-2 border-primary mr-2" /> Translating...</> : <><Zap className="w-4 h-4 mr-2" /> Translate Text</>}
-            </button>
+          <div className="text-center text-xs text-textSecondary">or</div>
+
+          <div>
+            <label className="block text-sm font-semibold text-textPrimary mb-2">Paste grant requirements text</label>
+            <textarea value={grantText} onChange={(event) => setGrantText(event.target.value)} placeholder="Paste NOFO, eligibility, application instructions, deadline text..." className="w-full min-h-[260px] bg-bgPanel/60 border border-borderColor rounded-xl p-4 text-sm text-textPrimary focus:outline-none focus:border-primary resize-y" />
           </div>
+
+          <button onClick={handleProcess} disabled={isProcessing || (!grantText.trim() && !grantId.trim())} className="w-full bg-primary hover:bg-primary/90 disabled:opacity-50 text-white px-5 py-3 rounded-xl font-semibold transition-colors flex items-center justify-center">
+            {isProcessing ? <><Loader2 className="w-5 h-5 mr-2 animate-spin" /> Translating...</> : <><FileText className="w-5 h-5 mr-2" /> Translate requirements</>}
+          </button>
         </div>
-      ) : (
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 animate-fade-in">
-          {/* File Info */}
-          <div className="glass-panel p-6 rounded-2xl lg:col-span-1">
-            <div className="flex items-center p-4 bg-bgPanel rounded-xl border border-borderColor mb-6">
-              <FileText className="w-8 h-8 text-primary mr-4" />
-              <div>
-                <p className="text-textPrimary font-medium text-sm">{pastedText ? 'Pasted_Text_Analysis' : 'NOFO_Broadband_2026.pdf'}</p>
-                <p className="text-textSecondary text-xs mt-1">Extracted today</p>
-              </div>
-            </div>
 
+        <div className="xl:col-span-2">
+          {requirements ? (
             <div className="space-y-6">
-              <div>
-                <h3 className="text-xs font-semibold text-textSecondary uppercase tracking-wider mb-3">Plain English Summary</h3>
-                <p className="text-sm text-textPrimary leading-relaxed bg-bgPanel/50 p-4 rounded-xl border border-borderColor">
-                  This grant provides funding to expand high-speed internet access in rural, unserved areas. You must provide a 25% cost match and complete the project within 3 years. Preference is given to projects that partner with local co-ops or non-profits.
-                </p>
+              <div className="glass-panel rounded-2xl p-6">
+                <div className="flex items-center text-secondary font-semibold text-sm mb-3"><CheckCircle2 className="w-5 h-5 mr-2" /> Requirements translated</div>
+                <h2 className="text-2xl font-bold text-textPrimary">{getStringField(selectedGrant, "title", "Translated Grant Requirements")}</h2>
+                <p className="text-textSecondary mt-3">{getStringField(requirements, "plain_english_summary")}</p>
               </div>
 
-              <div>
-                <h3 className="text-xs font-semibold text-textSecondary uppercase tracking-wider mb-3 flex items-center text-amber-400">
-                  <AlertTriangle className="w-4 h-4 mr-2" /> Risk Warnings
-                </h3>
-                <ul className="space-y-2">
-                  <li className="flex items-start text-sm text-textPrimary p-3 bg-amber-400/5 rounded-lg border border-amber-400/10">
-                    <span className="w-1.5 h-1.5 rounded-full bg-amber-400 mt-1.5 mr-2 shrink-0"></span>
-                    Strict "Build America, Buy America" compliance required for all fiber optics.
-                  </li>
-                  <li className="flex items-start text-sm text-textPrimary p-3 bg-amber-400/5 rounded-lg border border-amber-400/10">
-                    <span className="w-1.5 h-1.5 rounded-full bg-amber-400 mt-1.5 mr-2 shrink-0"></span>
-                    Requires historical preservation clearance before breaking ground.
-                  </li>
-                </ul>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <ListCard title="Eligibility" items={requirements.eligibility_requirements} />
+                <ListCard title="Required documents" items={requirements.required_documents} />
+                <ListCard title="Deadlines" items={requirements.deadlines} />
+                <ListCard title="Match and funding" items={[...asArray(requirements.match_requirements), ...asArray(requirements.funding_limits)]} />
+                <ListCard title="Application steps" items={requirements.application_steps} />
+                <ListCard title="Risk warnings" items={requirements.risk_warnings} warning />
               </div>
-            </div>
-          </div>
 
-          {/* Actionable Checklist */}
-          <div className="glass-panel p-6 rounded-2xl lg:col-span-2">
-            <div className="flex justify-between items-center mb-6">
-              <h2 className="text-xl font-bold text-textPrimary flex items-center">
-                <Zap className="w-5 h-5 text-primary mr-2" /> Generated Action Plan
-              </h2>
-              <button className="text-sm text-primary hover:text-primary/80 flex items-center font-medium">
-                Export to Task Manager <ArrowRight className="w-4 h-4 ml-1" />
-              </button>
+              {traceId && <div className="text-xs text-textSecondary">Trace: {traceId}</div>}
             </div>
-
-            <div className="space-y-4">
-              {[
-                { phase: 'Phase 1: Registration', tasks: ['Active SAM.gov Registration', 'Obtain UEI Number'] },
-                { phase: 'Phase 2: Technical Design', tasks: ['Network Architecture Plan', 'Environmental Impact Study', 'Coverage Map (Shapefile format)'] },
-                { phase: 'Phase 3: Financials', tasks: ['Pro Forma Financial Statements (5 years)', 'Letter of Credit from Bank', '25% Match Commitment Letter'] }
-              ].map((section, sIdx) => (
-                <div key={sIdx} className="bg-bgPanel/50 rounded-xl border border-borderColor overflow-hidden">
-                  <div className="px-4 py-3 bg-bgPanel border-b border-borderColor">
-                    <h3 className="font-semibold text-textPrimary text-sm">{section.phase}</h3>
-                  </div>
-                  <div className="p-4 space-y-3">
-                    {section.tasks.map((task, tIdx) => (
-                      <div key={tIdx} className="flex items-center group">
-                        <button className="w-5 h-5 rounded border border-gray-600 group-hover:border-primary flex items-center justify-center shrink-0 transition-colors">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-transparent group-hover:text-primary/30" />
-                        </button>
-                        <span className="ml-3 text-sm text-textPrimary group-hover:text-textPrimary transition-colors">{task}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))}
+          ) : (
+            <div className="glass-panel rounded-2xl p-10 text-center text-textSecondary">
+              <FileText className="w-12 h-12 mx-auto mb-4 text-primary" />
+              Translate a grant to see plain-English requirements.
             </div>
-          </div>
+          )}
         </div>
-      )}
+      </div>
     </div>
   );
 });
+
+function ListCard({ title, items, warning = false }: { title: string; items: unknown; warning?: boolean }) {
+  const list = asArray(items).filter(Boolean);
+  return (
+    <div className="glass-panel rounded-2xl p-5">
+      <h3 className="font-bold text-textPrimary mb-3">{title}</h3>
+      {list.length ? (
+        <ul className="space-y-2">
+          {list.map((item, index) => (
+            <li key={index} className={`text-sm ${warning ? "text-amber-300" : "text-textSecondary"}`}>• {stripHtml(item)}</li>
+          ))}
+        </ul>
+      ) : <p className="text-sm text-textSecondary">Not listed.</p>}
+    </div>
+  );
+}
+
+function ErrorBox({ message }: { message: string }) {
+  return <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-300 text-sm flex items-start"><AlertTriangle className="w-5 h-5 mr-3 shrink-0" />{message}</div>;
+}
+
+export default Translator;

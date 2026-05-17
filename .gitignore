@@ -213,3 +213,11 @@ backend/data/workflow_traces/
 # Backend runtime files
 backend/.env
 backend/data/
+
+# Local secrets and runtime output
+backend/.env
+frontend/.env.local
+backend/data/
+.venv/
+node_modules/
+frontend/.next/
