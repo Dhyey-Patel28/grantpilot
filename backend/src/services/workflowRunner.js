@@ -1,6 +1,4 @@
-﻿import fs from "fs/promises";
-import path from "path";
-
+﻿import { getScoredGrantCandidates } from "./grantDatabase.js";
 import {
   createWorkflowRun,
   completeWorkflowRun,
@@ -193,25 +191,7 @@ export async function runGrantPilotWorkflow(userInput) {
 }
 
 async function runBackendScoring(projectProfile) {
-  const grants = await loadNormalizedGrants();
-
-  if (!grants.length) {
-    return [];
-  }
-
-  const scored = grants
-    .map((grant) => {
-      const normalized = normalizeGrantForCandidate(grant);
-      return {
-        ...normalized,
-        deterministic_score: scoreGrant(projectProfile, normalized)
-      };
-    })
-    .filter((grant) => grant.title && grant.deterministic_score > 0)
-    .sort((a, b) => b.deterministic_score - a.deterministic_score)
-    .slice(0, 10);
-
-  return scored;
+  return getScoredGrantCandidates(projectProfile, { limit: 10 });
 }
 
 async function loadNormalizedGrants() {

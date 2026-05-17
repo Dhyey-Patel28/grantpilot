@@ -12,7 +12,8 @@ export async function callAgentWithTrace({
   const startMs = Date.now();
 
   try {
-    const output = await callWatsonAgent(agentName, input);
+    const rawOutput = await callWatsonAgent(agentName, input);
+    const output = normalizeAgentOutput(agentName, rawOutput);
     const validationErrors = validateAgentOutput(agentName, output);
     const endedAt = new Date().toISOString();
 
@@ -50,6 +51,92 @@ export async function callAgentWithTrace({
 
     throw error;
   }
+}
+
+function normalizeAgentOutput(agentName, output) {
+  if (!output || typeof output !== "object") {
+    return output;
+  }
+
+  if (agentName === "GrantPilot Match Explainer") {
+    if (Array.isArray(output)) {
+      return {
+        explanations: output
+      };
+    }
+
+    if (Array.isArray(output.explanations)) {
+      return output;
+    }
+
+    if (Array.isArray(output.matches)) {
+      return {
+        explanations: output.matches
+      };
+    }
+
+    if (Array.isArray(output.match_explanations)) {
+      return {
+        explanations: output.match_explanations
+      };
+    }
+
+    if (output.explanation && typeof output.explanation === "object") {
+      return {
+        explanations: [output.explanation]
+      };
+    }
+
+    const looksLikeSingleExplanation =
+      "grant_title" in output ||
+      "plain_language_explanation" in output ||
+      "fit_summary" in output ||
+      "safe_disclaimer" in output;
+
+    if (looksLikeSingleExplanation) {
+      return {
+        explanations: [output]
+      };
+    }
+  }
+
+  if (agentName === "GrantPilot Grant Relevance Judge") {
+    if (Array.isArray(output)) {
+      return {
+        judgments: output
+      };
+    }
+
+    if (Array.isArray(output.judgments)) {
+      return output;
+    }
+
+    if (Array.isArray(output.matches)) {
+      return {
+        judgments: output.matches
+      };
+    }
+
+    if (Array.isArray(output.grant_judgments)) {
+      return {
+        judgments: output.grant_judgments
+      };
+    }
+
+    const looksLikeSingleJudgment =
+      "grant_title" in output ||
+      "decision" in output ||
+      "relevance_label" in output ||
+      "safe_user_summary" in output;
+
+    if (looksLikeSingleJudgment) {
+      return {
+        judgments: [output]
+      };
+    }
+  }
+
+  return output;
 }
 
 async function callWatsonAgent(agentName, payload) {
@@ -122,19 +209,26 @@ async function runOrchestrateChatAsk({ adkAgentName, message }) {
   const command = process.env.ORCHESTRATE_CLI_PATH || "orchestrate";
   const timeoutMs = Number(process.env.ORCHESTRATE_TIMEOUT_MS || 180000);
 
+  // Important:
+  // Do NOT pass the user prompt as a command-line argument.
+  // Windows command length can break with ENAMETOOLONG.
+  // Start chat mode, then write the prompt through stdin.
   const args = [
     "chat",
     "ask",
     "--agent-name",
-    adkAgentName,
-    message
+    adkAgentName
   ];
+
+  const promptForStdin = toSingleLinePrompt(message);
 
   return new Promise((resolve, reject) => {
     let stdout = "";
     let stderr = "";
+    let hasSentPrompt = false;
     let hasSentQuit = false;
     let settled = false;
+    let quitTimer = null;
 
     const child = spawn(command, args, {
       windowsHide: true,
@@ -142,12 +236,10 @@ async function runOrchestrateChatAsk({ adkAgentName, message }) {
       env: {
         ...process.env,
 
-        // Windows/Python unicode safety.
         PYTHONUTF8: "1",
         PYTHONIOENCODING: "utf-8",
         PYTHONLEGACYWINDOWSSTDIO: "0",
 
-        // Reduce color/styled output and make Rich wider so JSON wraps less.
         FORCE_COLOR: "0",
         NO_COLOR: "1",
         TERM: "dumb",
@@ -170,7 +262,7 @@ async function runOrchestrateChatAsk({ adkAgentName, message }) {
         new Error(
           [
             `ADK CLI call timed out for ${adkAgentName}.`,
-            `Command: ${command} ${args.slice(0, 4).join(" ")} ...`,
+            `Command: ${command} ${args.join(" ")}`,
             stdout ? `STDOUT:\n${stdout}` : "",
             stderr ? `STDERR:\n${stderr}` : ""
           ]
@@ -180,58 +272,81 @@ async function runOrchestrateChatAsk({ adkAgentName, message }) {
       );
     }, timeoutMs);
 
-    function maybeQuit() {
+    function sendPromptOnce() {
+      if (hasSentPrompt) return;
+      hasSentPrompt = true;
+
+      try {
+        child.stdin.write(`${promptForStdin}\n`);
+      } catch {
+        // ignore
+      }
+    }
+
+    function sendQuitOnce() {
       if (hasSentQuit) return;
+      hasSentQuit = true;
+
+      try {
+        child.stdin.write("q\n");
+      } catch {
+        // ignore
+      }
+
+      try {
+        child.stdin.end();
+      } catch {
+        // ignore
+      }
+    }
+
+    function maybeScheduleQuit() {
+      if (!hasSentPrompt || hasSentQuit) return;
 
       const combined = `${stdout}\n${stderr}`;
 
-      // The ADK prints a second user prompt after the first answer.
-      // When we see the save/thread section or the prompt, send q so it exits.
-      const looksDone =
-        combined.includes("Thread ID:") ||
-        combined.includes("Save this ID") ||
-        combined.includes("👤 You:") ||
-        combined.includes("You:");
+      const assistantStarted =
+        combined.includes("🤖") ||
+        combined.includes(` ${adkAgentName}`) ||
+        combined.includes(adkAgentName);
 
-      if (!looksDone) return;
+      const hasLikelyJson =
+        combined.includes("{") &&
+        combined.includes("}");
 
-      hasSentQuit = true;
+      if (!assistantStarted || !hasLikelyJson) return;
 
-      setTimeout(() => {
-        try {
-          child.stdin.write("q\n");
-        } catch {
-          // ignore
-        }
+      if (quitTimer) {
+        clearTimeout(quitTimer);
+      }
 
-        try {
-          child.stdin.end();
-        } catch {
-          // ignore
-        }
-      }, 300);
+      // Wait for ADK output to settle, then exit chat mode.
+      quitTimer = setTimeout(() => {
+        sendQuitOnce();
+      }, 2500);
     }
 
     child.stdout.on("data", (chunk) => {
       stdout += chunk.toString("utf8");
-      maybeQuit();
+      maybeScheduleQuit();
     });
 
     child.stderr.on("data", (chunk) => {
       stderr += chunk.toString("utf8");
-      maybeQuit();
+      maybeScheduleQuit();
     });
 
     child.on("error", (error) => {
       if (settled) return;
       settled = true;
       clearTimeout(timer);
+      if (quitTimer) clearTimeout(quitTimer);
 
       reject(
         new Error(
           [
             `ADK CLI failed to start for ${adkAgentName}.`,
-            `Command: ${command} ${args.slice(0, 4).join(" ")} ...`,
+            `Command: ${command} ${args.join(" ")}`,
             `Error: ${error?.message || String(error)}`
           ].join("\n")
         )
@@ -242,6 +357,7 @@ async function runOrchestrateChatAsk({ adkAgentName, message }) {
       if (settled) return;
       settled = true;
       clearTimeout(timer);
+      if (quitTimer) clearTimeout(quitTimer);
 
       const output = `${stdout || ""}\n${stderr || ""}`.trim();
 
@@ -250,7 +366,7 @@ async function runOrchestrateChatAsk({ adkAgentName, message }) {
           new Error(
             [
               `ADK CLI call failed for ${adkAgentName}.`,
-              `Command: ${command} ${args.slice(0, 4).join(" ")} ...`,
+              `Command: ${command} ${args.join(" ")}`,
               `Exit code: ${code}`,
               stdout ? `STDOUT:\n${stdout}` : "",
               stderr ? `STDERR:\n${stderr}` : ""
@@ -264,7 +380,17 @@ async function runOrchestrateChatAsk({ adkAgentName, message }) {
 
       resolve(output);
     });
+
+    // Let ADK initialize chat mode, then send the message through stdin.
+    setTimeout(sendPromptOnce, 700);
   });
+}
+
+function toSingleLinePrompt(message) {
+  return String(message || "")
+    .replace(/\r?\n/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 async function activateOrchestrateEnv() {
@@ -403,16 +529,76 @@ function cleanParsedJson(value) {
   }
 
   if (value && typeof value === "object") {
-    return Object.fromEntries(
-      Object.entries(value).map(([key, item]) => [key, cleanParsedJson(item)])
-    );
+    const cleaned = {};
+
+    for (const [key, item] of Object.entries(value)) {
+      const cleanedKey = cleanJsonKey(key);
+      cleaned[cleanedKey] = cleanParsedJson(item);
+    }
+
+    return cleaned;
   }
 
   if (typeof value === "string") {
-    return value.replace(/\s+/g, " ").trim();
+    return cleanJsonString(value);
   }
 
   return value;
+}
+
+function cleanJsonKey(key) {
+  return String(key || "")
+    .replace(/\s+/g, "")
+    .trim();
+}
+
+function cleanJsonString(value) {
+  const normalized = String(value || "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  // ADK/Rich terminal wrapping can split short enum-like values:
+  // "transp ortation" -> "transportation"
+  const joined = normalized.replace(/\s+/g, "").toLowerCase();
+
+  const knownAtomicValues = new Set([
+    "transportation",
+    "water",
+    "stormwater",
+    "wastewater",
+    "broadband",
+    "energy",
+    "environment",
+    "housing",
+    "health",
+    "public_safety",
+    "publicsafety",
+    "workforce",
+    "agriculture",
+    "community_development",
+    "communitydevelopment",
+    "construction",
+    "planning",
+    "design",
+    "implementation",
+    "open",
+    "unknown",
+    "closing_soon",
+    "closingsoon",
+    "yes",
+    "no",
+    "true",
+    "false"
+  ]);
+
+  if (knownAtomicValues.has(joined)) {
+    if (joined === "publicsafety") return "public_safety";
+    if (joined === "communitydevelopment") return "community_development";
+    if (joined === "closingsoon") return "closing_soon";
+    return joined;
+  }
+
+  return normalized;
 }
 
 function extractAssistantSection(text, adkAgentName) {

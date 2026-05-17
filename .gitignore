@@ -212,4 +212,4 @@ backend/data/workflow_traces/
 
 # Backend runtime files
 backend/.env
-backend/data/workflow_traces/
+backend/data/
