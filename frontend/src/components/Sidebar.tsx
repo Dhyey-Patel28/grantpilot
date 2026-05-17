@@ -5,30 +5,27 @@ import {
   LayoutDashboard, 
   Search, 
   FileText, 
-  Bot,
   Settings,
   Sparkles,
   BarChart3,
-  Files,
-  Workflow,
-  ClipboardList
+  ClipboardList,
+  Bell
 } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { memo } from 'react';
 
 const navItems = [
   { name: 'Dashboard', path: '/', icon: LayoutDashboard },
-  { name: 'Project Intake', path: '/intake', icon: ClipboardList },
   { name: 'Grant Explorer', path: '/explorer', icon: Search },
-  { name: 'Documents', path: '/documents', icon: Files },
-  { name: 'Translator', path: '/translator', icon: FileText },
-  { name: 'AI Assistant', path: '/assistant', icon: Bot },
+  { name: 'Project Intake', path: '/intake', icon: ClipboardList },
   { name: 'Readiness Packet', path: '/packet', icon: ClipboardList },
-  { name: 'Agents Workflow', path: '/agents', icon: Workflow },
+  { name: 'Translator', path: '/translator', icon: FileText },
   { name: 'Analytics', path: '/analytics', icon: BarChart3 },
+  { name: 'Notifications', path: '/notifications', icon: Bell },
 ];
 
-export function Sidebar() {
-  const location = { pathname: usePathname() };
+export const Sidebar = memo(function Sidebar() {
+  const pathname = usePathname();
 
   return (
     <div className="w-64 glass-panel border-r border-borderColor flex flex-col z-20 shrink-0">
@@ -39,15 +36,15 @@ export function Sidebar() {
 
       <nav className="flex-1 py-6 px-3 space-y-1 overflow-y-auto custom-scrollbar">
         {navItems.map((item) => {
-          const isActive = location.pathname === item.path || 
-                           (item.path !== '/' && location.pathname.startsWith(item.path));
+          const isActive = pathname === item.path || 
+                           (item.path !== '/' && pathname.startsWith(item.path));
           
           return (
             <Link
               key={item.name}
               href={item.path}
               className={`flex items-center px-3 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 relative group ${
-                isActive ? 'text-textPrimary' : 'text-textSecondary hover:text-textPrimary hover:bg-black/5 dark:hover:bg-black/5 dark:bg-white/5'
+                isActive ? 'text-textPrimary' : 'text-textSecondary hover:text-textPrimary hover:bg-white/5'
               }`}
             >
               {isActive && (
@@ -69,10 +66,10 @@ export function Sidebar() {
         <Link 
           href="/settings"
           className={`flex items-center px-3 py-2.5 w-full rounded-lg text-sm font-medium transition-colors ${
-            location.pathname === '/settings' ? 'text-textPrimary bg-black/10 dark:bg-white/10' : 'text-textSecondary hover:text-textPrimary hover:bg-black/5 dark:hover:bg-black/5 dark:bg-white/5'
+            pathname === '/settings' ? 'text-textPrimary bg-white/10' : 'text-textSecondary hover:text-textPrimary hover:bg-white/5'
           }`}
         >
-          <Settings className={`w-5 h-5 mr-3 ${location.pathname === '/settings' ? 'text-primary' : ''}`} />
+          <Settings className={`w-5 h-5 mr-3 ${pathname === '/settings' ? 'text-primary' : ''}`} />
           Settings
         </Link>
         
@@ -90,4 +87,4 @@ export function Sidebar() {
       </div>
     </div>
   );
-}
+});

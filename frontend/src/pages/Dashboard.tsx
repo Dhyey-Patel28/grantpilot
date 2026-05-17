@@ -1,8 +1,7 @@
 "use client";
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import { useState, useEffect, useCallback, useMemo, memo } from 'react';
 import { 
   AlertTriangle, Clock, RefreshCw, FileText, CheckCircle2, 
   XCircle, Zap, Bookmark, ShieldAlert, ArrowRight, Bot, 
@@ -25,99 +24,104 @@ const agentWorkflowSteps = [
   { id: 'trust', name: 'Trust Guard Agent', icon: ShieldAlert },
 ];
 
-export function Dashboard() {
+const defaultCacheStats = { totalCached: 613, grantsGov: 552, miFundingHub: 114, lastFast: '2 hours ago', lastFull: 'Yesterday, 10:00 PM' };
+
+function initWorkflowStatus() {
+  const status: Record<string, 'waiting' | 'running' | 'complete'> = {};
+  agentWorkflowSteps.forEach(s => status[s.id] = 'waiting');
+  return status;
+}
+
+export const Dashboard = memo(function Dashboard() {
   const navigate = useRouter();
 
-  // Cache State
-  const [cacheStats, setCacheStats] = useState({
-    totalCached: 613,
-    grantsGov: 552,
-    miFundingHub: 114,
-    lastFast: '2 hours ago',
-    lastFull: 'Yesterday, 10:00 PM'
-  });
+  // Initialize with defaults (SSR-safe), then hydrate from localStorage
+  const [cacheStats, setCacheStats] = useState(defaultCacheStats);
+  const [grants, setGrants] = useState(initialGrantsData);
   const [isRefreshingFast, setIsRefreshingFast] = useState(false);
   const [isRefreshingFull, setIsRefreshingFull] = useState(false);
 
-  // Grants State
-  const [grants, setGrants] = useState(initialGrantsData);
+  // Hydrate from localStorage once on client
+  useEffect(() => {
+    try {
+      const savedCache = localStorage.getItem('grantpilot_cache_stats');
+      if (savedCache) setCacheStats(JSON.parse(savedCache));
+      const savedGrants = localStorage.getItem('grantpilot_dashboard_grants');
+      if (savedGrants) setGrants(JSON.parse(savedGrants));
+    } catch {}
+  }, []);
 
   // Workflow State
-  const [workflowStatus, setWorkflowStatus] = useState<Record<string, 'waiting' | 'running' | 'complete'>>({});
+  const [workflowStatus, setWorkflowStatus] = useState(initWorkflowStatus);
   const [isWorkflowRunning, setIsWorkflowRunning] = useState(false);
 
   // Global Toast
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
-  useEffect(() => {
-    // Load local storage
-    const savedCache = localStorage.getItem('grantpilot_cache_stats');
-    if (savedCache) setCacheStats(JSON.parse(savedCache));
-
-    const savedGrantsList = localStorage.getItem('grantpilot_dashboard_grants');
-    if (savedGrantsList) setGrants(JSON.parse(savedGrantsList));
-
-    // Init workflow
-    const initStatus: Record<string, 'waiting' | 'running' | 'complete'> = {};
-    agentWorkflowSteps.forEach(s => initStatus[s.id] = 'waiting');
-    setWorkflowStatus(initStatus);
-  }, []);
-
-  const showToast = (msg: string) => {
+  const showToast = useCallback((msg: string) => {
     setToastMessage(msg);
     setTimeout(() => setToastMessage(null), 3000);
-  };
+  }, []);
 
-  const handleFastRefresh = () => {
+  const handleFastRefresh = useCallback(() => {
     setIsRefreshingFast(true);
     setTimeout(() => {
-      const newStats = {
-        ...cacheStats,
-        totalCached: cacheStats.totalCached + Math.floor(Math.random() * 5),
-        lastFast: 'Just now'
-      };
-      setCacheStats(newStats);
-      localStorage.setItem('grantpilot_cache_stats', JSON.stringify(newStats));
+      setCacheStats(prev => {
+        const newStats = {
+          ...prev,
+          totalCached: prev.totalCached + Math.floor(Math.random() * 5),
+          lastFast: 'Just now'
+        };
+        localStorage.setItem('grantpilot_cache_stats', JSON.stringify(newStats));
+        return newStats;
+      });
       setIsRefreshingFast(false);
-      showToast('Fast cache refresh completed!');
+      setToastMessage('Fast cache refresh completed!');
+      setTimeout(() => setToastMessage(null), 3000);
     }, 1500);
-  };
+  }, []);
 
-  const handleFullRefresh = () => {
+  const handleFullRefresh = useCallback(() => {
     setIsRefreshingFull(true);
     setTimeout(() => {
-      const newStats = {
-        totalCached: cacheStats.totalCached + 12,
-        grantsGov: cacheStats.grantsGov + 8,
-        miFundingHub: cacheStats.miFundingHub + 4,
-        lastFast: 'Just now',
-        lastFull: 'Just now'
-      };
-      setCacheStats(newStats);
-      localStorage.setItem('grantpilot_cache_stats', JSON.stringify(newStats));
+      setCacheStats(prev => {
+        const newStats = {
+          totalCached: prev.totalCached + 12,
+          grantsGov: prev.grantsGov + 8,
+          miFundingHub: prev.miFundingHub + 4,
+          lastFast: 'Just now',
+          lastFull: 'Just now'
+        };
+        localStorage.setItem('grantpilot_cache_stats', JSON.stringify(newStats));
+        return newStats;
+      });
       setIsRefreshingFull(false);
-      showToast('Full data cache synchronized!');
+      setToastMessage('Full data cache synchronized!');
+      setTimeout(() => setToastMessage(null), 3000);
     }, 3000);
-  };
+  }, []);
 
-  const handleGrantAction = (id: number, action: 'save' | 'reject') => {
-    const updated = grants.map(g => {
-      if (g.id === id) {
-        if (action === 'save') return { ...g, saved: !g.saved };
-        if (action === 'reject') return { ...g, rejected: true };
-      }
-      return g;
+  const handleGrantAction = useCallback((id: number, action: 'save' | 'reject') => {
+    setGrants((prev: typeof initialGrantsData) => {
+      const updated = prev.map(g => {
+        if (g.id === id) {
+          if (action === 'save') return { ...g, saved: !g.saved };
+          if (action === 'reject') return { ...g, rejected: true };
+        }
+        return g;
+      });
+      localStorage.setItem('grantpilot_dashboard_grants', JSON.stringify(updated));
+      return updated;
     });
-    setGrants(updated);
-    localStorage.setItem('grantpilot_dashboard_grants', JSON.stringify(updated));
-    showToast(action === 'save' ? 'Grant saved to portfolio' : 'Grant rejected and hidden');
-  };
+    setToastMessage(action === 'save' ? 'Grant saved to portfolio' : 'Grant rejected and hidden');
+    setTimeout(() => setToastMessage(null), 3000);
+  }, []);
 
-  const runWorkflow = async () => {
+  const runWorkflow = useCallback(async () => {
     setIsWorkflowRunning(true);
-    const statuses = { ...workflowStatus };
-    agentWorkflowSteps.forEach(s => statuses[s.id] = 'waiting');
-    setWorkflowStatus({ ...statuses });
+    const initStatus: Record<string, 'waiting' | 'running' | 'complete'> = {};
+    agentWorkflowSteps.forEach(s => initStatus[s.id] = 'waiting');
+    setWorkflowStatus({ ...initStatus });
 
     const delay = (ms: number) => new Promise(res => setTimeout(res, ms));
 
@@ -128,21 +132,21 @@ export function Dashboard() {
     }
     
     setIsWorkflowRunning(false);
-    showToast('Agent workflow completed successfully!');
-  };
+    setToastMessage('Agent workflow completed successfully!');
+    setTimeout(() => setToastMessage(null), 3000);
+  }, []);
+
+  // Memoize filtered grants list
+  const visibleGrants = useMemo(() => grants.filter((g: typeof initialGrantsData[0]) => !g.rejected), [grants]);
 
   return (
     <div className="space-y-6 relative">
       {/* Toast Notification */}
       {toastMessage && (
-        <motion.div 
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="fixed top-8 left-1/2 -translate-x-1/2 z-50 bg-bgPanel border border-primary/30 shadow-[0_0_20px_rgba(59,130,246,0.3)] text-textPrimary px-6 py-3 rounded-full flex items-center"
-        >
+        <div className="fixed top-8 left-1/2 -translate-x-1/2 z-50 bg-bgPanel border border-primary/30 shadow-[0_0_20px_rgba(59,130,246,0.3)] text-textPrimary px-6 py-3 rounded-full flex items-center animate-fade-in">
           <CheckCircle2 className="w-5 h-5 text-primary mr-2" />
           {toastMessage}
-        </motion.div>
+        </div>
       )}
 
       {/* TOP ROW */}
@@ -222,7 +226,7 @@ export function Dashboard() {
                   <div key={step.id} className="flex items-center">
                     <div className={`w-8 h-8 rounded-lg flex items-center justify-center mr-3 transition-colors ${
                       status === 'complete' ? 'bg-secondary/20 text-secondary' :
-                      status === 'running' ? 'bg-primary/20 text-primary shadow-[0_0_10px_rgba(59,130,246,0.3)] animate-pulse' :
+                      status === 'running' ? 'bg-primary/20 text-primary animate-pulse' :
                       'bg-bgPanelLight text-textSecondary'
                     }`}>
                       <step.icon className="w-4 h-4" />
@@ -256,7 +260,7 @@ export function Dashboard() {
                 </tr>
               </thead>
               <tbody>
-                {grants.filter(g => !g.rejected).map(grant => (
+                {visibleGrants.map((grant: typeof initialGrantsData[0]) => (
                   <tr key={grant.id} className="border-b border-borderColor hover:bg-bgPanelLight/30 transition-colors group">
                     <td className="p-4">
                       <p className="text-sm font-bold text-textPrimary group-hover:text-primary transition-colors">{grant.title}</p>
@@ -275,7 +279,7 @@ export function Dashboard() {
                       <button onClick={() => showToast(`AI explains ${grant.match}% score...`)} className="text-xs bg-bgPanel hover:bg-borderColor border border-borderColor text-textSecondary hover:text-textPrimary px-2.5 py-1.5 rounded-md transition-colors">
                         Explain
                       </button>
-                      <button onClick={() => navigate(`/explorer/${grant.id}`)} className="text-xs bg-primary/10 hover:bg-primary/20 text-primary px-2.5 py-1.5 rounded-md transition-colors">
+                      <button onClick={() => navigate.push(`/explorer/${grant.id}`)} className="text-xs bg-primary/10 hover:bg-primary/20 text-primary px-2.5 py-1.5 rounded-md transition-colors">
                         View
                       </button>
                       <button onClick={() => handleGrantAction(grant.id, 'save')} className={`p-1.5 rounded-md border transition-colors ${grant.saved ? 'bg-primary/20 border-primary/30 text-primary' : 'bg-bgPanel border-borderColor text-textSecondary hover:text-textPrimary'}`}>
@@ -289,7 +293,7 @@ export function Dashboard() {
                 ))}
               </tbody>
             </table>
-            {grants.filter(g => !g.rejected).length === 0 && (
+            {visibleGrants.length === 0 && (
               <div className="p-8 text-center text-textSecondary text-sm">
                 No matching grants remaining. Try resetting your filters.
               </div>
@@ -300,4 +304,4 @@ export function Dashboard() {
       </div>
     </div>
   );
-}
+});

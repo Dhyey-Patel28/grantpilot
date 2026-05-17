@@ -1,9 +1,8 @@
 "use client";
-import { useState } from 'react';
+import { useState, useCallback, memo } from 'react';
 import { Upload, FileText, Trash2, Search, CheckCircle2 } from 'lucide-react';
-import { motion } from 'framer-motion';
 
-export function Documents() {
+export const Documents = memo(function Documents() {
   const [files, setFiles] = useState([
     { id: 1, name: 'Q3_Financial_Report.pdf', size: '2.4 MB', status: 'ready' },
     { id: 2, name: 'Clare_County_Master_Plan.pdf', size: '15.1 MB', status: 'ready' }
@@ -11,7 +10,7 @@ export function Documents() {
   const [isDragging, setIsDragging] = useState(false);
   const [analyzing, setAnalyzing] = useState<number | null>(null);
 
-  const handleDrop = (e: React.DragEvent) => {
+  const handleDrop = useCallback((e: React.DragEvent) => {
     e.preventDefault();
     setIsDragging(false);
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
@@ -21,21 +20,21 @@ export function Documents() {
         size: (e.dataTransfer.files[0].size / (1024 * 1024)).toFixed(1) + ' MB',
         status: 'ready'
       };
-      setFiles([...files, newFile]);
+      setFiles(prev => [...prev, newFile]);
     }
-  };
+  }, []);
 
-  const removeFile = (id: number) => {
-    setFiles(files.filter(f => f.id !== id));
-  };
+  const removeFile = useCallback((id: number) => {
+    setFiles(prev => prev.filter(f => f.id !== id));
+  }, []);
 
-  const analyzeFile = (id: number) => {
+  const analyzeFile = useCallback((id: number) => {
     setAnalyzing(id);
     setTimeout(() => {
       setAnalyzing(null);
-      setFiles(files.map(f => f.id === id ? { ...f, status: 'analyzed' } : f));
+      setFiles(prev => prev.map(f => f.id === id ? { ...f, status: 'analyzed' } : f));
     }, 2000);
-  };
+  }, []);
 
   return (
     <div className="max-w-6xl mx-auto h-[calc(100vh-8rem)] flex flex-col">
@@ -73,7 +72,7 @@ export function Documents() {
           </div>
           <div className="flex-1 overflow-y-auto p-2">
             {files.map(file => (
-              <motion.div key={file.id} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="flex items-center p-3 hover:bg-black/5 dark:hover:bg-black/5 dark:bg-white/5 rounded-xl group transition-colors">
+              <div key={file.id} className="flex items-center p-3 hover:bg-white/5 rounded-xl group transition-colors">
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mr-4 shrink-0">
                   <FileText className="w-5 h-5 text-primary" />
                 </div>
@@ -99,11 +98,11 @@ export function Documents() {
                     <Trash2 className="w-4 h-4" />
                   </button>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
       </div>
     </div>
   );
-}
+});

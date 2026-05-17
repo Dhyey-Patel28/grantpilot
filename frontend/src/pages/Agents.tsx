@@ -1,5 +1,5 @@
 "use client";
-import { useState } from 'react';
+import { useState, useCallback, memo } from 'react';
 import { motion } from 'framer-motion';
 import { Workflow, Bot, Search, FileText, CheckCircle2, Play, FileSignature } from 'lucide-react';
 
@@ -10,14 +10,14 @@ const agentNodes = [
   { id: 'proposal', name: 'Proposal Agent', icon: FileSignature, color: 'text-amber-400', bg: 'bg-amber-400/10' }
 ];
 
-export function Agents() {
+export const Agents = memo(function Agents() {
   const [statuses, setStatuses] = useState<Record<string, 'waiting' | 'processing' | 'complete'>>({
     discovery: 'waiting', translator: 'waiting', eligibility: 'waiting', proposal: 'waiting'
   });
   const [activeOutput, setActiveOutput] = useState<string | null>(null);
   const [isRunning, setIsRunning] = useState(false);
 
-  const runWorkflow = async () => {
+  const runWorkflow = useCallback(async () => {
     setIsRunning(true);
     setStatuses({ discovery: 'waiting', translator: 'waiting', eligibility: 'waiting', proposal: 'waiting' });
     setActiveOutput(null);
@@ -31,7 +31,7 @@ export function Agents() {
       setStatuses(prev => ({ ...prev, [node.id]: 'complete' }));
     }
     setIsRunning(false);
-  };
+  }, []);
 
   const getOutputContent = (id: string) => {
     switch (id) {
@@ -67,18 +67,17 @@ export function Agents() {
         <div className="absolute top-1/2 left-0 w-full h-1 bg-bgPanelLight -translate-y-1/2 z-0"></div>
 
         <div className="flex justify-between w-full relative z-10 px-8">
-          {agentNodes.map((node, idx) => {
+          {agentNodes.map((node) => {
             const status = statuses[node.id];
             return (
               <div key={node.id} className="flex flex-col items-center">
-                <motion.div 
-                  className={`w-20 h-20 rounded-2xl flex items-center justify-center border-2 mb-4 relative cursor-pointer ${
+                {/* Keep pulse only for the actively-processing node */}
+                <div 
+                  className={`w-20 h-20 rounded-2xl flex items-center justify-center border-2 mb-4 relative cursor-pointer transition-all duration-300 ${
                     status === 'complete' ? 'bg-bgPanel border-secondary text-secondary shadow-[0_0_15px_rgba(16,185,129,0.2)]' :
-                    status === 'processing' ? `bg-bgPanel border-primary text-primary shadow-[0_0_20px_rgba(59,130,246,0.4)]` :
+                    status === 'processing' ? `bg-bgPanel border-primary text-primary shadow-[0_0_20px_rgba(59,130,246,0.4)] animate-pulse` :
                     'bg-bgPanelLight border-borderColor text-textSecondary'
                   }`}
-                  animate={status === 'processing' ? { scale: [1, 1.05, 1] } : {}}
-                  transition={{ repeat: Infinity, duration: 2 }}
                   onClick={() => setActiveOutput(node.id)}
                 >
                   <node.icon className="w-8 h-8" />
@@ -87,7 +86,7 @@ export function Agents() {
                       <CheckCircle2 className="w-4 h-4" />
                     </div>
                   )}
-                </motion.div>
+                </div>
                 <span className="text-sm font-medium text-textPrimary">{node.name}</span>
                 <span className="text-xs text-textSecondary capitalize mt-1">{status}</span>
               </div>
@@ -97,7 +96,7 @@ export function Agents() {
       </div>
 
       {activeOutput && (
-        <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="glass-panel p-6 rounded-2xl">
+        <div className="glass-panel p-6 rounded-2xl animate-fade-in">
           <h3 className="text-lg font-semibold text-textPrimary mb-2 flex items-center">
             <Bot className="w-5 h-5 text-primary mr-2" /> Agent Output Logs
           </h3>
@@ -105,8 +104,8 @@ export function Agents() {
             <span className="text-primary mr-2">[{activeOutput}]</span>
             {getOutputContent(activeOutput)}
           </div>
-        </motion.div>
+        </div>
       )}
     </div>
   );
-}
+});

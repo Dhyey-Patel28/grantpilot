@@ -13,27 +13,105 @@
     --text-primary: #ffffff;
     --text-secondary: #9ca3af;
     --border-color: rgba(255, 255, 255, 0.1);
+    --input-bg: rgba(15, 23, 42, 0.75);
+    --input-bg-focus: rgba(15, 23, 42, 0.9);
+    --input-text: #f8fafc;
+    --input-placeholder: #94a3b8;
+    --input-border: rgba(148, 163, 184, 0.2);
+    --input-border-hover: rgba(148, 163, 184, 0.35);
+    --card-bg: rgba(255, 255, 255, 0.03);
+    --card-border: rgba(148, 163, 184, 0.08);
+    --card-border-hover: rgba(148, 163, 184, 0.15);
+    --card-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    --dropdown-bg: rgba(15, 23, 42, 0.97);
+    --dropdown-border: rgba(148, 163, 184, 0.12);
+    --dropdown-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    --toast-bg: linear-gradient(135deg, rgba(17, 24, 39, 0.95), rgba(15, 23, 42, 0.98));
+    --toast-border: rgba(59, 130, 246, 0.2);
+    --toast-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 20px rgba(59, 130, 246, 0.15);
+    --toast-text: #ffffff;
+    --divider: rgba(148, 163, 184, 0.08);
+    --hover-overlay: rgba(255, 255, 255, 0.04);
+    --unread-bg: rgba(59, 130, 246, 0.03);
+    --unread-border: rgba(59, 130, 246, 0.1);
+    --chart-grid: rgba(148, 163, 184, 0.08);
+    --chart-text: #94a3b8;
   }
 
   .light {
-    --bg-app: #f8fafc;
+    --bg-app: #f1f5f9;
     --bg-panel: #ffffff;
-    --bg-panel-light: #f1f5f9;
-    --bg-panel-glass: rgba(255, 255, 255, 0.7);
+    --bg-panel-light: #e2e8f0;
+    --bg-panel-glass: rgba(255, 255, 255, 0.8);
     --text-primary: #0f172a;
     --text-secondary: #64748b;
-    --border-color: rgba(0, 0, 0, 0.1);
+    --border-color: rgba(15, 23, 42, 0.1);
+    --input-bg: #ffffff;
+    --input-bg-focus: #ffffff;
+    --input-text: #0f172a;
+    --input-placeholder: #94a3b8;
+    --input-border: rgba(15, 23, 42, 0.12);
+    --input-border-hover: rgba(15, 23, 42, 0.22);
+    --card-bg: #ffffff;
+    --card-border: rgba(15, 23, 42, 0.08);
+    --card-border-hover: rgba(15, 23, 42, 0.16);
+    --card-shadow: 0 1px 4px rgba(0, 0, 0, 0.04), 0 2px 8px rgba(0, 0, 0, 0.03);
+    --dropdown-bg: #ffffff;
+    --dropdown-border: rgba(15, 23, 42, 0.1);
+    --dropdown-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --toast-bg: linear-gradient(135deg, #ffffff, #f8fafc);
+    --toast-border: rgba(59, 130, 246, 0.25);
+    --toast-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    --toast-text: #0f172a;
+    --divider: rgba(15, 23, 42, 0.06);
+    --hover-overlay: rgba(15, 23, 42, 0.03);
+    --unread-bg: rgba(59, 130, 246, 0.04);
+    --unread-border: rgba(59, 130, 246, 0.15);
+    --chart-grid: rgba(15, 23, 42, 0.06);
+    --chart-text: #64748b;
   }
 
   body {
-    @apply bg-bgApp text-textPrimary font-sans antialiased overflow-x-hidden transition-colors duration-200;
+    @apply bg-bgApp text-textPrimary font-sans antialiased overflow-x-hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 }
 
 @layer utilities {
   .glass-panel {
     background-color: var(--bg-panel-glass);
-    @apply backdrop-blur-md border border-borderColor shadow-xl transition-colors duration-200;
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--card-shadow);
+    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .theme-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    box-shadow: var(--card-shadow);
+    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .theme-card-hover:hover {
+    border-color: var(--card-border-hover);
+  }
+
+  .theme-dropdown {
+    background: var(--dropdown-bg);
+    border: 1px solid var(--dropdown-border);
+    box-shadow: var(--dropdown-shadow);
+  }
+
+  .theme-toast {
+    background: var(--toast-bg);
+    border: 1px solid var(--toast-border);
+    box-shadow: var(--toast-shadow);
+    color: var(--toast-text);
+  }
+
+  .theme-divider {
+    border-color: var(--divider);
   }
   
   .text-gradient {
@@ -41,20 +119,45 @@
   }
 }
 
+/* ── Theme-aware form controls ── */
+input,
+textarea,
+select {
+  background: var(--input-bg);
+  border: 1px solid var(--input-border);
+  color: var(--input-text);
+  border-radius: 0.75rem;
+  transition: background-color 0.3s ease, border-color 0.2s ease, box-shadow 0.2s ease, color 0.3s ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--input-placeholder);
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+  border-color: var(--input-border-hover);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15), 0 0 12px rgba(59, 130, 246, 0.1);
+  background: var(--input-bg-focus);
+}
+
 /* Custom Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-app); }
+::-webkit-scrollbar-thumb { background: var(--bg-panel-light); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
 
-::-webkit-scrollbar-track {
-  @apply bg-bgApp transition-colors duration-200;
-}
-
-::-webkit-scrollbar-thumb {
-  @apply bg-bgPanelLight rounded transition-colors duration-200;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  @apply bg-gray-500/50;
+/* Light mode soft shadows on glass panels */
+.light .glass-panel {
+  backdrop-filter: blur(8px);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.03);
 }

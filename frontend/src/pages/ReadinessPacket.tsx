@@ -1,7 +1,7 @@
 "use client";
-import { useState, useEffect } from 'react';
+import { useState, useCallback, memo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FileText, Download, Copy, Send, Save, AlertTriangle, FileCheck, HelpCircle, Activity, Bookmark, XCircle } from 'lucide-react';
+import { FileText, Download, Copy, Send, Save, AlertTriangle, FileCheck, HelpCircle, Activity, Bookmark, XCircle, CheckCircle2 } from 'lucide-react';
 
 const TABS = [
   'Application Starter Fields',
@@ -13,64 +13,71 @@ const TABS = [
   'Human Review Checklist'
 ];
 
-export function ReadinessPacket() {
+const defaultStarterData = {
+  title: 'Clare County Comprehensive Water and Transportation Infrastructure Rehabilitation Initiative',
+  problem: 'Clare County faces severe compounding infrastructure deterioration. Critical municipal pipe failures have led to recurrent localized flooding and water contamination risks. Simultaneously, three primary rural bridges exhibit significant structural deficiency, threatening transportation access and emergency response times. The intersection of these failures creates severe public safety risks and stalls regional economic development, necessitating immediate holistic intervention.',
+  benefit: '• Restores reliable transportation access for 15,000+ rural residents\n• Reduces catastrophic flooding risks by 85%\n• Improves emergency response times by an average of 4 minutes\n• Modernizes municipal infrastructure to exceed current EPA standards',
+  request: '$4,250,000'
+};
+
+const defaultReviewItems = [
+  { id: 1, label: 'Verify eligibility', done: true },
+  { id: 2, label: 'Confirm deadlines', done: true },
+  { id: 3, label: 'Engineering review', done: false },
+  { id: 4, label: 'Legal review', done: false },
+  { id: 5, label: 'Budget approval', done: false },
+  { id: 6, label: 'Final submission review', done: false }
+];
+
+function loadPacketData() {
+  if (typeof window === 'undefined') return { starterData: defaultStarterData, reviewItems: defaultReviewItems, status: 'Draft' };
+  try {
+    const saved = localStorage.getItem('grantpilot_readiness_packet');
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      return {
+        starterData: parsed.starterData || defaultStarterData,
+        reviewItems: parsed.reviewItems || defaultReviewItems,
+        status: parsed.status || 'Draft'
+      };
+    }
+  } catch {}
+  return { starterData: defaultStarterData, reviewItems: defaultReviewItems, status: 'Draft' };
+}
+
+export const ReadinessPacket = memo(function ReadinessPacket() {
   const [activeTab, setActiveTab] = useState(TABS[0]);
   const [isEditable, setIsEditable] = useState(false);
   const [isSaved, setIsSaved] = useState(false);
-  const [status, setStatus] = useState('Draft');
 
-  // Application Starter State
-  const [starterData, setStarterData] = useState({
-    title: 'Clare County Comprehensive Water and Transportation Infrastructure Rehabilitation Initiative',
-    problem: 'Clare County faces severe compounding infrastructure deterioration. Critical municipal pipe failures have led to recurrent localized flooding and water contamination risks. Simultaneously, three primary rural bridges exhibit significant structural deficiency, threatening transportation access and emergency response times. The intersection of these failures creates severe public safety risks and stalls regional economic development, necessitating immediate holistic intervention.',
-    benefit: '• Restores reliable transportation access for 15,000+ rural residents\n• Reduces catastrophic flooding risks by 85%\n• Improves emergency response times by an average of 4 minutes\n• Modernizes municipal infrastructure to exceed current EPA standards',
-    request: '$4,250,000'
-  });
+  // Lazy-load state from localStorage
+  const initialData = loadPacketData();
+  const [starterData, setStarterData] = useState(initialData.starterData);
+  const [reviewItems, setReviewItems] = useState(initialData.reviewItems);
+  const [status, setStatus] = useState(initialData.status);
 
-  // Human Review State
-  const [reviewItems, setReviewItems] = useState([
-    { id: 1, label: 'Verify eligibility', done: true },
-    { id: 2, label: 'Confirm deadlines', done: true },
-    { id: 3, label: 'Engineering review', done: false },
-    { id: 4, label: 'Legal review', done: false },
-    { id: 5, label: 'Budget approval', done: false },
-    { id: 6, label: 'Final submission review', done: false }
-  ]);
-
-  useEffect(() => {
-    const localPacket = localStorage.getItem('grantpilot_readiness_packet');
-    if (localPacket) {
-      try {
-        const parsed = JSON.parse(localPacket);
-        if (parsed.starterData) setStarterData(parsed.starterData);
-        if (parsed.reviewItems) setReviewItems(parsed.reviewItems);
-        if (parsed.status) setStatus(parsed.status);
-      } catch (e) {}
-    }
-  }, []);
-
-  const handleSave = () => {
+  const handleSave = useCallback(() => {
     setIsEditable(false);
     localStorage.setItem('grantpilot_readiness_packet', JSON.stringify({ starterData, reviewItems, status }));
     setIsSaved(true);
     setTimeout(() => setIsSaved(false), 2000);
-  };
+  }, [starterData, reviewItems, status]);
 
-  const handleSendToReview = () => {
+  const handleSendToReview = useCallback(() => {
     setStatus('Sent for Human Review');
     localStorage.setItem('grantpilot_readiness_packet', JSON.stringify({ starterData, reviewItems, status: 'Sent for Human Review' }));
-  };
+  }, [starterData, reviewItems]);
 
-  const handleCopy = () => {
+  const handleCopy = useCallback(() => {
     navigator.clipboard.writeText(JSON.stringify(starterData, null, 2));
     alert('Content copied to clipboard');
-  };
+  }, [starterData]);
 
   const renderContent = () => {
     switch (activeTab) {
       case 'Application Starter Fields':
         return (
-          <div className="space-y-6 animate-fade-in">
+          <div className="space-y-6">
             <div>
               <label className="block text-sm font-semibold text-textSecondary uppercase tracking-wider mb-2">Project Title</label>
               {isEditable ? (
@@ -123,7 +130,7 @@ export function ReadinessPacket() {
       
       case 'Missing Requirements':
         return (
-          <div className="space-y-4 animate-fade-in">
+          <div className="space-y-4">
             <div className="bg-red-500/10 border border-red-500/20 p-4 rounded-xl flex items-start">
               <AlertTriangle className="w-5 h-5 text-red-500 mr-3 mt-0.5 shrink-0" />
               <div>
@@ -157,7 +164,7 @@ export function ReadinessPacket() {
 
       case 'Recommended Grant Shortlist':
         return (
-          <div className="overflow-x-auto animate-fade-in">
+          <div className="overflow-x-auto">
             <table className="w-full text-left border-collapse">
               <thead>
                 <tr className="border-b border-borderColor">
@@ -195,7 +202,7 @@ export function ReadinessPacket() {
 
       case 'Human Review Checklist':
         return (
-          <div className="space-y-3 animate-fade-in">
+          <div className="space-y-3">
             {reviewItems.map(item => (
               <div key={item.id} className="flex items-center group bg-bgPanelLight/50 p-3 rounded-lg border border-borderColor">
                 <button 
@@ -217,7 +224,7 @@ export function ReadinessPacket() {
 
       case '30-Day Action Plan':
         return (
-          <div className="space-y-6 animate-fade-in relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-borderColor before:to-transparent">
+          <div className="space-y-6 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-borderColor before:to-transparent">
             {[
               { week: 'Week 1', tasks: ['Gather engineering documents', 'Verify organizational eligibility in SAM.gov'], color: 'bg-primary' },
               { week: 'Week 2', tasks: ['Finalize formalized cost estimates', 'Prepare council memo for approval'], color: 'bg-amber-400' },
@@ -241,7 +248,7 @@ export function ReadinessPacket() {
 
       case 'Resident FAQ':
         return (
-          <div className="space-y-4 animate-fade-in">
+          <div className="space-y-4">
             {[
               { q: 'Why is this project needed?', a: 'To address severe flooding risks and failing infrastructure that threatens public safety and restricts transportation access in rural zones.' },
               { q: 'How will grant funding help?', a: 'It covers up to 80% of the $4.25M cost, saving local taxpayers millions while enabling comprehensive modernization instead of patchwork fixes.' },
@@ -262,7 +269,7 @@ export function ReadinessPacket() {
       case 'Council Memo Draft':
       default:
         return (
-          <div className="bg-bgPanel/50 border border-borderColor p-8 rounded-xl font-serif text-textPrimary leading-relaxed animate-fade-in">
+          <div className="bg-bgPanel/50 border border-borderColor p-8 rounded-xl font-serif text-textPrimary leading-relaxed">
             <h2 className="text-2xl font-bold mb-6 text-center border-b border-borderColor pb-4">MEMORANDUM</h2>
             <div className="mb-8 space-y-2 text-sm">
               <p><span className="font-bold w-20 inline-block">TO:</span> Clare County Board of Commissioners</p>
@@ -362,7 +369,7 @@ export function ReadinessPacket() {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
-                transition={{ duration: 0.2 }}
+                transition={{ duration: 0.15 }}
                 className="max-w-3xl"
               >
                 {renderContent()}
@@ -373,4 +380,4 @@ export function ReadinessPacket() {
       </div>
     </div>
   );
-}
+});

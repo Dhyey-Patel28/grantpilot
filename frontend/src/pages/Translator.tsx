@@ -1,29 +1,28 @@
 "use client";
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { useState, useCallback, memo } from 'react';
 import { Upload, FileText, Zap, AlertTriangle, CheckCircle2, ArrowRight, X, Download } from 'lucide-react';
 
-export function Translator() {
+export const Translator = memo(function Translator() {
   const [isUploading, setIsUploading] = useState(false);
   const [isProcessed, setIsProcessed] = useState(false);
   const [pastedText, setPastedText] = useState('');
 
-  const handleProcess = () => {
+  const handleProcess = useCallback(() => {
     setIsUploading(true);
     setTimeout(() => {
       setIsUploading(false);
       setIsProcessed(true);
     }, 2000);
-  };
+  }, []);
 
-  const handleClear = () => {
+  const handleClear = useCallback(() => {
     setIsProcessed(false);
     setPastedText('');
-  };
+  }, []);
 
-  const handleExport = () => {
+  const handleExport = useCallback(() => {
     alert("Translated requirements downloaded as PDF/TXT!");
-  };
+  }, []);
 
   return (
     <div className="max-w-6xl mx-auto">
@@ -79,11 +78,7 @@ export function Translator() {
           </div>
         </div>
       ) : (
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="grid grid-cols-1 lg:grid-cols-3 gap-6"
-        >
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 animate-fade-in">
           {/* File Info */}
           <div className="glass-panel p-6 rounded-2xl lg:col-span-1">
             <div className="flex items-center p-4 bg-bgPanel rounded-xl border border-borderColor mb-6">
@@ -155,8 +150,8 @@ export function Translator() {
               ))}
             </div>
           </div>
-        </motion.div>
+        </div>
       )}
     </div>
   );
-}
+});

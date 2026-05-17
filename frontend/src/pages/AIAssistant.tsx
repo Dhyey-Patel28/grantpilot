@@ -1,6 +1,5 @@
 "use client";
-import { useState, useRef, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useState, useRef, useEffect, useCallback, memo } from 'react';
 import { Send, Bot, User, Paperclip, Sparkles, FileText, CheckCircle2 } from 'lucide-react';
 
 interface Message {
@@ -10,7 +9,7 @@ interface Message {
   content: string | React.ReactNode;
 }
 
-export function AIAssistant() {
+export const AIAssistant = memo(function AIAssistant() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 1,
@@ -23,15 +22,12 @@ export function AIAssistant() {
   const [isTyping, setIsTyping] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-
+  // Only scroll when messages change or typing state changes
   useEffect(() => {
-    scrollToBottom();
-  }, [messages, isTyping]);
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages.length, isTyping]);
 
-  const handleSend = (e?: React.FormEvent) => {
+  const handleSend = useCallback((e?: React.FormEvent) => {
     e?.preventDefault();
     if (!input.trim()) return;
 
@@ -77,7 +73,7 @@ export function AIAssistant() {
         content: responseContent
       }]);
     }, 1500);
-  };
+  }, [input]);
 
   const getAgentColor = (role?: string) => {
     switch(role) {
@@ -91,24 +87,17 @@ export function AIAssistant() {
 
   return (
     <div className="flex flex-col h-[calc(100vh-8rem)] max-w-5xl mx-auto">
-      {/* Workflow Visualization */}
+      {/* Workflow Visualization — static, no infinite animation */}
       <div className="glass-panel p-4 rounded-t-2xl border-b border-borderColor flex items-center justify-between shrink-0">
         <div className="flex items-center space-x-2 overflow-x-auto hide-scrollbar">
           {['User', 'Discovery Agent', 'Eligibility Agent', 'Translator Agent', 'Proposal Agent'].map((node, idx) => (
             <div key={node} className="flex items-center shrink-0">
-              <div className={`px-3 py-1.5 rounded-full text-xs font-medium border ${idx === 2 ? 'bg-primary/20 text-primary border-primary/30 shadow-[0_0_10px_rgba(59,130,246,0.3)]' : 'bg-bgPanel border-borderColor text-textSecondary'}`}>
+              <div className={`px-3 py-1.5 rounded-full text-xs font-medium border ${idx === 2 ? 'bg-primary/20 text-primary border-primary/30' : 'bg-bgPanel border-borderColor text-textSecondary'}`}>
                 {node}
               </div>
               {idx < 4 && (
-                <div className="w-6 h-0.5 mx-1 relative overflow-hidden bg-black/5 dark:bg-white/5">
+                <div className="w-6 h-0.5 mx-1 relative overflow-hidden bg-white/5">
                   <div className={`absolute top-0 left-0 h-full w-full ${idx < 2 ? 'bg-primary/50' : ''}`} />
-                  {idx === 1 && (
-                    <motion.div 
-                      className="absolute top-0 left-0 h-full w-full bg-primary"
-                      animate={{ x: ['-100%', '100%'] }}
-                      transition={{ repeat: Infinity, duration: 1, ease: 'linear' }}
-                    />
-                  )}
                 </div>
               )}
             </div>
@@ -119,13 +108,11 @@ export function AIAssistant() {
         </button>
       </div>
 
-      {/* Chat Area */}
+      {/* Chat Area — no per-message animation */}
       <div className="flex-1 glass-panel border-y-0 rounded-none overflow-y-auto p-6 space-y-6 custom-scrollbar">
         {messages.map((msg) => (
-          <motion.div 
+          <div 
             key={msg.id}
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
             className={`flex ${msg.type === 'user' ? 'justify-end' : 'justify-start'}`}
           >
             <div className={`flex max-w-[80%] ${msg.type === 'user' ? 'flex-row-reverse' : 'flex-row'}`}>
@@ -153,26 +140,22 @@ export function AIAssistant() {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
         ))}
 
         {isTyping && (
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            className="flex justify-start"
-          >
+          <div className="flex justify-start">
             <div className="flex items-center space-x-3">
               <div className="w-8 h-8 rounded-full bg-bgPanel border border-borderColor flex items-center justify-center shrink-0">
                 <Bot className="w-4 h-4 text-primary" />
               </div>
               <div className="bg-bgPanel border border-borderColor p-4 rounded-2xl rounded-tl-none flex space-x-1">
-                <motion.div className="w-2 h-2 bg-gray-400 rounded-full" animate={{ y: [0, -5, 0] }} transition={{ repeat: Infinity, duration: 0.6, delay: 0 }} />
-                <motion.div className="w-2 h-2 bg-gray-400 rounded-full" animate={{ y: [0, -5, 0] }} transition={{ repeat: Infinity, duration: 0.6, delay: 0.2 }} />
-                <motion.div className="w-2 h-2 bg-gray-400 rounded-full" animate={{ y: [0, -5, 0] }} transition={{ repeat: Infinity, duration: 0.6, delay: 0.4 }} />
+                <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
+                <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
+                <span className="w-2 h-2 bg-gray-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
               </div>
             </div>
-          </motion.div>
+          </div>
         )}
         <div ref={messagesEndRef} />
       </div>
@@ -213,4 +196,4 @@ export function AIAssistant() {
       </div>
     </div>
   );
-}
+});
