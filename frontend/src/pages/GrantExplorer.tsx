@@ -104,6 +104,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
   const [grants, setGrants] = useState(allGrants);
   const [page, setPage] = useState(1);
   const [toastMsg, setToastMsg] = useState<string | null>(null);
+  const [expandedExplainers, setExpandedExplainers] = useState<Record<number, boolean>>({});
   const searchTimerRef = useRef<ReturnType<typeof setTimeout>>();
   const sortRef = useRef<HTMLDivElement>(null);
 
@@ -168,6 +169,10 @@ export const GrantExplorer = memo(function GrantExplorer() {
       localStorage.setItem('grantpilot_saved_grants', JSON.stringify(updated.filter(g => g.saved).map(g => g.id)));
       return updated;
     });
+  }, []);
+
+  const toggleExplainer = useCallback((id: number) => {
+    setExpandedExplainers(prev => ({ ...prev, [id]: !prev[id] }));
   }, []);
 
   const handleSort = useCallback((key: SortKey) => { setSortKey(key); setShowSortMenu(false); }, []);
@@ -344,11 +349,37 @@ export const GrantExplorer = memo(function GrantExplorer() {
                         className="flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-medium text-textSecondary hover:text-textPrimary hover:bg-white/5 border border-borderColor transition-all">
                         <Eye className="w-3.5 h-3.5" /> View
                       </button>
-                      <button onClick={() => showToast(`Match score explained for: ${grant.title}`)}
-                        className="flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-medium text-textSecondary hover:text-primary hover:bg-primary/5 border border-borderColor transition-all">
-                        <Sparkles className="w-3.5 h-3.5" /> Explain
+                      <button onClick={() => toggleExplainer(grant.id)}
+                        className={`flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-medium border transition-all ${expandedExplainers[grant.id] ? 'bg-primary/10 text-primary border-primary/20' : 'text-textSecondary hover:text-primary hover:bg-primary/5 border-borderColor'}`}>
+                        <Sparkles className="w-3.5 h-3.5" /> {expandedExplainers[grant.id] ? 'Hide' : 'Explain'}
                       </button>
                     </div>
+
+                    <AnimatePresence>
+                      {expandedExplainers[grant.id] && (
+                        <motion.div
+                          initial={{ height: 0, opacity: 0 }}
+                          animate={{ height: 'auto', opacity: 1 }}
+                          exit={{ height: 0, opacity: 0 }}
+                          className="overflow-hidden mt-3 pt-3 border-t border-borderColor/50"
+                        >
+                          <div className="bg-bgPanelLight/30 rounded-xl p-3">
+                            <h4 className="text-[10px] uppercase tracking-wider font-semibold text-textSecondary mb-2 flex items-center">
+                              <Sparkles className="w-3 h-3 text-primary mr-1" /> Why This Matches
+                            </h4>
+                            <ul className="space-y-1.5 text-xs text-textPrimary">
+                              <li className="flex items-start"><CheckCircle2 className="w-3.5 h-3.5 text-secondary mr-1.5 mt-0.5 shrink-0" /> Rural township eligible</li>
+                              <li className="flex items-start"><CheckCircle2 className="w-3.5 h-3.5 text-secondary mr-1.5 mt-0.5 shrink-0" /> Water infrastructure overlap</li>
+                              <li className="flex items-start"><CheckCircle2 className="w-3.5 h-3.5 text-secondary mr-1.5 mt-0.5 shrink-0" /> Population requirement satisfied</li>
+                            </ul>
+                            <div className="mt-3 flex gap-2">
+                              <span className="px-2 py-0.5 bg-secondary/10 text-secondary text-[10px] rounded border border-secondary/20">94% Confidence</span>
+                              <span className="px-2 py-0.5 bg-primary/10 text-primary text-[10px] rounded border border-primary/20">Source Verified</span>
+                            </div>
+                          </div>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
                   </div>
                 </div>
               ))}

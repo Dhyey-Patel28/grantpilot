@@ -5,7 +5,7 @@ import { useState, useEffect, useCallback, useMemo, memo } from 'react';
 import { 
   AlertTriangle, Clock, RefreshCw, FileText, CheckCircle2, 
   XCircle, Zap, Bookmark, ShieldAlert, ArrowRight, Bot, 
-  Search, FileSignature, Database, TrendingUp, DollarSign, Activity 
+  Search, FileSignature, Database, TrendingUp, DollarSign, Activity, PlayCircle, MapPin 
 } from 'lucide-react';
 
 const initialGrantsData = [
@@ -15,22 +15,7 @@ const initialGrantsData = [
   { id: 4, title: 'DOT RAISE Discretionary Grants', agency: 'Department of Transportation', amount: '$1M - $25M', deadline: 'Oct 05, 2026', match: 95, saved: false, rejected: false },
 ];
 
-const agentWorkflowSteps = [
-  { id: 'profile', name: 'Profile Agent', icon: Search },
-  { id: 'discovery', name: 'Discovery Agent', icon: Database },
-  { id: 'fit', name: 'Fit Scorer Agent', icon: Activity },
-  { id: 'translator', name: 'Requirements Translator', icon: FileText },
-  { id: 'generator', name: 'Packet Generator Agent', icon: FileSignature },
-  { id: 'trust', name: 'Trust Guard Agent', icon: ShieldAlert },
-];
-
 const defaultCacheStats = { totalCached: 613, grantsGov: 552, miFundingHub: 114, lastFast: '2 hours ago', lastFull: 'Yesterday, 10:00 PM' };
-
-function initWorkflowStatus() {
-  const status: Record<string, 'waiting' | 'running' | 'complete'> = {};
-  agentWorkflowSteps.forEach(s => status[s.id] = 'waiting');
-  return status;
-}
 
 export const Dashboard = memo(function Dashboard() {
   const navigate = useRouter();
@@ -51,9 +36,7 @@ export const Dashboard = memo(function Dashboard() {
     } catch {}
   }, []);
 
-  // Workflow State
-  const [workflowStatus, setWorkflowStatus] = useState(initWorkflowStatus);
-  const [isWorkflowRunning, setIsWorkflowRunning] = useState(false);
+  const [demoMode, setDemoMode] = useState(false);
 
   // Global Toast
   const [toastMessage, setToastMessage] = useState<string | null>(null);
@@ -117,24 +100,7 @@ export const Dashboard = memo(function Dashboard() {
     setTimeout(() => setToastMessage(null), 3000);
   }, []);
 
-  const runWorkflow = useCallback(async () => {
-    setIsWorkflowRunning(true);
-    const initStatus: Record<string, 'waiting' | 'running' | 'complete'> = {};
-    agentWorkflowSteps.forEach(s => initStatus[s.id] = 'waiting');
-    setWorkflowStatus({ ...initStatus });
-
-    const delay = (ms: number) => new Promise(res => setTimeout(res, ms));
-
-    for (const step of agentWorkflowSteps) {
-      setWorkflowStatus(prev => ({ ...prev, [step.id]: 'running' }));
-      await delay(1200);
-      setWorkflowStatus(prev => ({ ...prev, [step.id]: 'complete' }));
-    }
-    
-    setIsWorkflowRunning(false);
-    setToastMessage('Agent workflow completed successfully!');
-    setTimeout(() => setToastMessage(null), 3000);
-  }, []);
+ 
 
   // Memoize filtered grants list
   const visibleGrants = useMemo(() => grants.filter((g: typeof initialGrantsData[0]) => !g.rejected), [grants]);
@@ -149,8 +115,24 @@ export const Dashboard = memo(function Dashboard() {
         </div>
       )}
 
+      {/* HERO STATISTICS */}
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
+        {[
+          { label: 'Potential Funding Identified', value: '$84.2M' },
+          { label: 'Active Grants Cached', value: '1,240' },
+          { label: 'AI Agents Coordinated', value: '10' },
+          { label: 'Match Accuracy', value: '94%' },
+          { label: 'Readiness Packets Generated', value: '18' }
+        ].map((stat, i) => (
+          <div key={i} className="glass-panel p-4 rounded-xl flex flex-col items-center justify-center text-center">
+            <p className="text-2xl font-bold text-primary mb-1">{stat.value}</p>
+            <p className="text-xs text-textSecondary">{stat.label}</p>
+          </div>
+        ))}
+      </div>
+
       {/* TOP ROW */}
-      <div className="grid grid-cols-1 lg:grid-cols-1 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
         {/* Data Cache */}
         <div className="glass-panel rounded-2xl p-6 border-l-4 border-l-primary flex flex-col">
@@ -186,6 +168,24 @@ export const Dashboard = memo(function Dashboard() {
             </button>
           </div>
         </div>
+        
+        {/* Demo Mode Toggle */}
+        <div className="glass-panel rounded-2xl p-6 flex flex-col justify-center border-l-4 border-l-secondary">
+          <div className="flex items-center justify-between">
+            <div>
+              <h2 className="text-lg font-bold text-textPrimary flex items-center mb-1">
+                <PlayCircle className="w-5 h-5 text-secondary mr-2" /> Demo Scenario Mode
+              </h2>
+              <p className="text-sm text-textSecondary">Preload Clare County infrastructure crisis, sample grants, and AI workflow.</p>
+            </div>
+            <button
+              onClick={() => { setDemoMode(!demoMode); showToast(!demoMode ? 'Clare County scenario loaded' : 'Demo mode disabled'); }}
+              className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${demoMode ? 'bg-secondary' : 'bg-bgPanelLight'}`}
+            >
+              <span className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${demoMode ? 'translate-x-6' : 'translate-x-1'}`} />
+            </button>
+          </div>
+        </div>
       </div>
 
       {/* KPIs & TABLES */}
@@ -194,58 +194,34 @@ export const Dashboard = memo(function Dashboard() {
         {/* Left Col: Overview KPIs + Agent Status */}
         <div className="lg:col-span-1 space-y-6">
           <div className="grid grid-cols-2 gap-4">
-            <div className="glass-panel p-4 rounded-xl">
-              <TrendingUp className="w-5 h-5 text-secondary mb-2" />
-              <p className="text-xs text-textSecondary">Win Rate</p>
-              <p className="text-lg font-bold text-textPrimary">42%</p>
+            {/* Grant Readiness Score */}
+            <div className="glass-panel p-4 rounded-xl flex flex-col items-center justify-center text-center relative overflow-hidden">
+              <div className="w-16 h-16 rounded-full border-4 border-bgPanelLight flex items-center justify-center mb-2 relative">
+                <svg className="absolute inset-0 w-full h-full -rotate-90">
+                  <circle cx="50%" cy="50%" r="40%" fill="none" stroke="currentColor" strokeWidth="4" className="text-secondary" strokeDasharray="100" strokeDashoffset="18" />
+                </svg>
+                <span className="text-lg font-bold text-textPrimary">82%</span>
+              </div>
+              <p className="text-xs text-textSecondary font-semibold">READY</p>
             </div>
-            <div className="glass-panel p-4 rounded-xl">
-              <DollarSign className="w-5 h-5 text-primary mb-2" />
-              <p className="text-xs text-textSecondary">Total Pool</p>
-              <p className="text-lg font-bold text-textPrimary">$8.4M</p>
+            {/* Trust & Verification */}
+            <div className="glass-panel p-4 rounded-xl flex flex-col items-start justify-center">
+              <h3 className="text-[11px] font-bold text-textPrimary mb-2 flex items-center"><ShieldAlert className="w-3 h-3 mr-1 text-primary"/> Trust & Verify</h3>
+              <div className="space-y-1 w-full">
+                <div className="flex justify-between items-center w-full"><span className="text-[10px] text-textSecondary">Confidence</span><span className="text-[10px] text-secondary">High</span></div>
+                <div className="flex justify-between items-center w-full"><span className="text-[10px] text-textSecondary">Human Review</span><span className="text-[10px] text-amber-400">Needed</span></div>
+                <div className="flex justify-between items-center w-full"><span className="text-[10px] text-textSecondary">Risk</span><span className="text-[10px] text-secondary">Low</span></div>
+              </div>
             </div>
           </div>
 
-          {/* Agent Workflow Status */}
-          <div className="glass-panel rounded-2xl p-6">
-            <div className="flex justify-between items-center mb-6">
-              <h2 className="text-lg font-bold text-textPrimary flex items-center">
-                <Bot className="w-5 h-5 text-primary mr-2" /> Agent Status
-              </h2>
-              <button 
-                onClick={runWorkflow} disabled={isWorkflowRunning}
-                className="text-xs bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-lg font-medium transition-colors disabled:opacity-50"
-              >
-                {isWorkflowRunning ? 'Running...' : 'Run Workflow'}
-              </button>
-            </div>
-            <div className="space-y-4">
-              {agentWorkflowSteps.map(step => {
-                const status = workflowStatus[step.id] || 'waiting';
-                return (
-                  <div key={step.id} className="flex items-center">
-                    <div className={`w-8 h-8 rounded-lg flex items-center justify-center mr-3 transition-colors ${
-                      status === 'complete' ? 'bg-secondary/20 text-secondary' :
-                      status === 'running' ? 'bg-primary/20 text-primary animate-pulse' :
-                      'bg-bgPanelLight text-textSecondary'
-                    }`}>
-                      <step.icon className="w-4 h-4" />
-                    </div>
-                    <div className="flex-1">
-                      <p className={`text-sm font-medium ${status === 'running' ? 'text-primary' : 'text-textPrimary'}`}>{step.name}</p>
-                      <p className="text-[10px] text-textSecondary uppercase tracking-wider">{status}</p>
-                    </div>
-                    {status === 'complete' && <CheckCircle2 className="w-4 h-4 text-secondary" />}
-                  </div>
-                )
-              })}
-            </div>
-          </div>
+ 
         </div>
 
         {/* Right Col: Top Matching Grants Table */}
-        <div className="lg:col-span-3 glass-panel rounded-2xl flex flex-col overflow-hidden">
-          <div className="p-6 border-b border-borderColor flex justify-between items-center bg-bgPanelLight/30">
+        <div className="lg:col-span-3 space-y-6 flex flex-col">
+          <div className="glass-panel rounded-2xl flex flex-col overflow-hidden">
+            <div className="p-6 border-b border-borderColor flex justify-between items-center bg-bgPanelLight/30">
             <h2 className="text-lg font-bold text-textPrimary">Top Matching Grants</h2>
             <Link href="/explorer" className="text-sm text-primary hover:underline">View All in Explorer</Link>
           </div>
@@ -298,6 +274,38 @@ export const Dashboard = memo(function Dashboard() {
                 No matching grants remaining. Try resetting your filters.
               </div>
             )}
+          </div>
+          </div>
+
+          {/* Michigan Infrastructure Insights */}
+          <div className="glass-panel rounded-2xl p-6">
+            <h2 className="text-lg font-bold text-textPrimary flex items-center mb-4">
+              <MapPin className="w-5 h-5 text-primary mr-2" /> Michigan Infrastructure Insights
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="bg-bgPanel border border-borderColor p-4 rounded-xl flex items-center">
+                <div className="flex-1">
+                  <p className="text-xs text-textSecondary mb-1">Active Counties</p>
+                  <p className="text-xl font-bold text-textPrimary">83 <span className="text-sm font-normal text-textSecondary">/ 83</span></p>
+                </div>
+                <MapPin className="w-8 h-8 text-white/5" />
+              </div>
+              <div className="bg-bgPanel border border-borderColor p-4 rounded-xl flex items-center">
+                <div className="flex-1">
+                  <p className="text-xs text-textSecondary mb-1">Funding Opportunities</p>
+                  <p className="text-xl font-bold text-secondary">214 <span className="text-sm font-normal text-textSecondary">Active</span></p>
+                </div>
+                <DollarSign className="w-8 h-8 text-white/5" />
+              </div>
+              <div className="bg-bgPanel border border-borderColor p-4 rounded-xl flex flex-col justify-center">
+                <p className="text-xs text-textSecondary mb-2">Top Infrastructure Needs</p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-1 bg-primary/10 text-primary text-[10px] rounded border border-primary/20">Water Mains</span>
+                  <span className="px-2 py-1 bg-secondary/10 text-secondary text-[10px] rounded border border-secondary/20">Bridge Repair</span>
+                  <span className="px-2 py-1 bg-amber-400/10 text-amber-400 text-[10px] rounded border border-amber-400/20">Broadband</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
