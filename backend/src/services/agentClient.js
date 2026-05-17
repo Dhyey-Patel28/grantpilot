@@ -377,7 +377,7 @@ function parseJsonFromAgentText(agentName, rawText, adkAgentName = "") {
       const candidate = sanitizeJsonCandidate(stripCodeFence(candidates[i]));
 
       try {
-        return JSON.parse(candidate);
+        return cleanParsedJson(JSON.parse(candidate));
       } catch {
         // try next candidate
       }
@@ -386,7 +386,7 @@ function parseJsonFromAgentText(agentName, rawText, adkAgentName = "") {
     const whole = sanitizeJsonCandidate(stripCodeFence(normalized.trim()));
 
     try {
-      return JSON.parse(whole);
+      return cleanParsedJson(JSON.parse(whole));
     } catch {
       // continue
     }
@@ -395,6 +395,24 @@ function parseJsonFromAgentText(agentName, rawText, adkAgentName = "") {
   throw new Error(
     `${agentName} did not return parseable JSON. Raw ADK output:\n${rawText}`
   );
+}
+
+function cleanParsedJson(value) {
+  if (Array.isArray(value)) {
+    return value.map(cleanParsedJson);
+  }
+
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value).map(([key, item]) => [key, cleanParsedJson(item)])
+    );
+  }
+
+  if (typeof value === "string") {
+    return value.replace(/\s+/g, " ").trim();
+  }
+
+  return value;
 }
 
 function extractAssistantSection(text, adkAgentName) {
