@@ -19,8 +19,7 @@ import {
   Loader2,
   Printer,
   RotateCcw,
-  ShieldCheck,
-  Sparkles
+  ShieldCheck
 } from "lucide-react";
 import type { AnyRecord, GrantRecord } from "../lib/grantpilotApi";
 import {
@@ -30,6 +29,7 @@ import {
   getErrorMessage,
   getGrantScore,
   getLatestCandidateGrants,
+  getLatestPacket,
   getLatestProjectProfile,
   getRecordField,
   getSelectedGrant,
@@ -70,7 +70,8 @@ export const ReadinessPacket = memo(function ReadinessPacket() {
     setProjectProfile(profile);
     setSelectedGrant(savedGrant);
     setLatestCandidates(candidates);
-    setPacketResponse(null);
+    setPacketResponse(getLatestPacket());
+    setDocumentsText("photos, meeting notes, cost estimate, location map, preliminary engineering memo");
   }, []);
 
   const documentsAvailable = useMemo(() => {
@@ -223,15 +224,15 @@ export const ReadinessPacket = memo(function ReadinessPacket() {
             <div>
               <div className="inline-flex items-center px-3 py-1 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-xs font-black mb-5">
                 <FileSignature className="w-3.5 h-3.5 mr-2" />
-                Staff-ready grant memo
+                Public demo · staff-ready grant memo
               </div>
 
               <h1 className="text-3xl lg:text-5xl font-black text-textPrimary tracking-tight max-w-4xl">
-                Turn a grant match into a professional readiness packet.
+                Review the final grant-readiness memo.
               </h1>
 
               <p className="text-textSecondary mt-4 max-w-3xl leading-relaxed">
-                Generate a clean memo-style packet with the project case, funding fit, document gaps,
+                This sample packet shows the payoff: project case, funding fit, document gaps,
                 priority actions, and human verification notes before anyone treats it as submission-ready.
               </p>
             </div>
@@ -666,11 +667,10 @@ function EmptyStartState() {
         <FileText className="w-7 h-7 text-primary" />
       </div>
 
-      <h2 className="text-2xl lg:text-3xl font-black text-textPrimary">Start with Project Intake</h2>
+      <h2 className="text-2xl lg:text-3xl font-black text-textPrimary">Sample packet not loaded</h2>
 
       <p className="text-textSecondary mt-3 max-w-2xl mx-auto leading-relaxed">
-        The readiness memo should not guess from old runs. First create a project profile,
-        then select a grant, then generate a packet for that specific pairing.
+        The deployed demo normally loads a saved readiness memo automatically. Use Project Intake to replay the workflow if this page was reset locally.
       </p>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-7">
@@ -899,18 +899,6 @@ function MemoSidePanel({ title, icon, children }: { title: string; icon: ReactNo
         {title}
       </h4>
       {children}
-    </section>
-  );
-}
-
-function Section({ title, body }: { title: string; body: unknown }) {
-  const text = stripHtml(body);
-  if (!text) return null;
-
-  return (
-    <section>
-      <h3 className="font-black text-textPrimary mb-2">{title}</h3>
-      <p className="text-textSecondary leading-relaxed">{text}</p>
     </section>
   );
 }

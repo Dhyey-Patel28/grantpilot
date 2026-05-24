@@ -80,24 +80,23 @@ export const SavedProjects = memo(function SavedProjects() {
             <div>
               <div className="inline-flex items-center px-3 py-1 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-xs font-bold mb-5">
                 <Archive className="w-3.5 h-3.5 mr-2" />
-                Local project memory
+                Public demo · saved project memory
               </div>
 
               <h1 className="text-3xl lg:text-5xl font-black text-textPrimary tracking-tight">
-                Saved projects.
+                Saved project workspace.
               </h1>
 
               <p className="text-textSecondary mt-3 max-w-3xl leading-relaxed">
-                Every successful intake run is saved in your browser with its project profile,
-                candidate grants, selected grant, and latest packet. The public portfolio version
-                includes a saved sample workflow so the app stays reviewable without live services.
+                The public demo includes a saved Michigan infrastructure workflow with its project profile,
+                ranked grants, selected opportunity, and packet handoff. Live/local runs can save additional projects in the browser.
               </p>
             </div>
 
             <div className="rounded-2xl border border-borderColor bg-bgPanelLight/50 p-4">
-              <div className="text-sm text-textSecondary">Saved locally</div>
+              <div className="text-sm text-textSecondary">Saved workflows</div>
               <div className="text-3xl font-black text-textPrimary mt-1">{projects.length}</div>
-              <div className="text-xs text-textSecondary mt-1">Newest first • browser storage</div>
+              <div className="text-xs text-textSecondary mt-1">Includes public sample • browser saves more</div>
             </div>
           </div>
         </div>
@@ -229,10 +228,10 @@ function EmptySavedProjects({ hasProjects }: { hasProjects: boolean }) {
         <Archive className="w-7 h-7 text-primary" />
       </div>
       <h2 className="text-2xl lg:text-3xl font-black text-textPrimary">
-        {hasProjects ? "No saved projects match that search" : "No saved projects yet"}
+        {hasProjects ? "No saved projects match that search" : "No saved projects found"}
       </h2>
       <p className="text-textSecondary mt-3 max-w-2xl mx-auto leading-relaxed">
-        Run Project Intake once. GrantPilot will automatically save the successful run here.
+        The public demo normally includes one sample workflow. Clear the search or replay Project Intake to restore it.
       </p>
       <Link
         href="/intake"

@@ -585,6 +585,13 @@ export function getSelectedGrant(): GrantRecord | null {
   return loadJson<GrantRecord>(STORAGE_KEYS.selectedGrant, null) || (cloneDemo(DEMO_GRANTS[0]) as GrantRecord);
 }
 
+export function getLatestPacket(): AnyRecord | null {
+  return loadJson<AnyRecord>(STORAGE_KEYS.latestPacket, null) || (cloneDemo(DEMO_PREPARE_APPLICATION) as AnyRecord);
+}
+
+export function getDemoSavedProjectCount(): number {
+  return getSavedProjects().length;
+}
 
 export function getOfflineMode(): boolean {
   return loadJson<boolean>(STORAGE_KEYS.offlineMode, false) === true;

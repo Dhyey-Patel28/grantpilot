@@ -67,13 +67,13 @@ export const Header = memo(function Header() {
       <div className="rounded-2xl border border-borderColor bg-bgPanel/70 backdrop-blur-xl px-4 py-3 flex flex-col xl:flex-row xl:items-center xl:justify-between gap-3 shadow-sm">
         <div className="min-w-0">
           <div className="text-sm font-black text-textPrimary flex items-center gap-2">
-            GrantPilot workspace
+            GrantPilot MI public demo
             <span className="hidden sm:inline-flex h-2 w-2 rounded-full bg-secondary shadow-[0_0_14px_rgba(16,185,129,0.85)]" />
           </div>
           <div className="text-xs text-textSecondary mt-0.5 truncate">
             {totalGrants > 0
-              ? `${totalGrants.toLocaleString()} normalized grants • refreshed ${formatRelativeTime(lastRefreshed)}`
-              : "Saved projects and portfolio-safe fallbacks are available."}
+              ? `${totalGrants.toLocaleString()} cached public grants • demo cache refreshed ${formatRelativeTime(lastRefreshed)}`
+              : "Source-backed sample workflow, saved project, and exportable packet are ready."}
           </div>
         </div>
 
@@ -126,6 +126,8 @@ function StatusPill({
 }
 
 function prettifyStatus(status: string, hasSourceHealth: boolean) {
+  if (status === "portfolio_demo") return "Demo ready";
+  if (status === "cached") return "Cached sources";
   if (!hasSourceHealth && status === "checking") return "Checking sources";
   if (status === "ready") return "Sources ready";
   return status

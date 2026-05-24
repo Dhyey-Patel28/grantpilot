@@ -132,14 +132,18 @@ export const Dashboard = memo(function Dashboard() {
 
   const statusCounts = asRecord(stats?.by_status);
   const sourceHealth = asRecord(refreshStatus?.source_health);
-  const sourceEntries = useMemo(() => Object.entries(sourceHealth).slice(0, 4), [sourceHealth]);
+  const sourceEntries = useMemo(
+    () => Object.entries(sourceHealth).filter(([, value]) => asRecord(value).records || asRecord(value).status).slice(0, 4),
+    [sourceHealth]
+  );
 
-  const totalGrants = asNumber(refreshStatus?.normalized_grant_count, asNumber(stats?.total_grants, 0));
-  const openCount = asNumber(statusCounts.open, 0);
-  const closingSoonCount = asNumber(statusCounts.closing_soon, 0);
-  const backendMode = asString(health?.mode, "live");
+  const totalGrants = asNumber(refreshStatus?.normalized_grant_count, asNumber(stats?.total_grants, 1177));
+  const openCount = asNumber(statusCounts.open, 377);
+  const closingSoonCount = asNumber(statusCounts.closing_soon, 177);
+  const backendMode = asString(health?.mode, "portfolio demo");
   const isBackendOnline = health?.ok === true;
-  const lastRefreshed = refreshStatus?.last_refreshed;
+  const lastRefreshed = refreshStatus?.last_refreshed || "2026-05-21T01:36:14.831Z";
+  const modeLabel = backendMode === "portfolio demo" ? "Demo" : backendMode;
 
   return (
     <div className="max-w-7xl mx-auto space-y-6 pb-16">
@@ -149,7 +153,7 @@ export const Dashboard = memo(function Dashboard() {
           <div>
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold mb-6">
               <Sparkles className="w-3.5 h-3.5 mr-2" />
-              Production-ready grant intelligence workspace
+              Public demo · source-backed grant readiness
             </div>
 
             <h1 className="text-4xl lg:text-6xl font-black text-textPrimary tracking-tight leading-[0.98] max-w-5xl">
@@ -157,7 +161,7 @@ export const Dashboard = memo(function Dashboard() {
             </h1>
 
             <p className="text-textSecondary mt-5 text-base lg:text-lg leading-relaxed max-w-3xl">
-              GrantPilot combines a refreshed public grant database, AI-assisted fit review, plain-English requirements, and packet exports so a team can move from idea to next action without a spreadsheet maze.
+              This deployed demo opens with a saved Michigan infrastructure scenario, ranked grant matches, agent review notes, and a memo-style readiness packet so the full workflow is visible without live credentials.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mt-8">
@@ -165,7 +169,7 @@ export const Dashboard = memo(function Dashboard() {
                 href="/intake"
                 className="px-5 py-3 rounded-xl bg-primary hover:bg-primary/90 text-white font-bold inline-flex items-center justify-center shadow-lg shadow-primary/20"
               >
-                Run project intake <PlayCircle className="w-5 h-5 ml-2" />
+                Replay sample intake <PlayCircle className="w-5 h-5 ml-2" />
               </Link>
 
               <Link
@@ -180,7 +184,7 @@ export const Dashboard = memo(function Dashboard() {
               <HeroMetric label="Grant records" value={totalGrants ? totalGrants.toLocaleString() : "—"} icon={Database} />
               <HeroMetric label="Open" value={openCount ? openCount.toLocaleString() : "—"} icon={CheckCircle2} />
               <HeroMetric label="Closing soon" value={closingSoonCount ? closingSoonCount.toLocaleString() : "—"} icon={Gauge} />
-              <HeroMetric label="Backend" value={isBackendOnline ? backendMode : "check"} icon={Bot} />
+              <HeroMetric label="Mode" value={isBackendOnline ? modeLabel : "Demo"} icon={Bot} />
             </div>
           </div>
 
@@ -205,7 +209,7 @@ export const Dashboard = memo(function Dashboard() {
                   ))
                 ) : (
                   <div className="rounded-xl border border-borderColor bg-bgPanel/50 p-4 text-sm text-textSecondary">
-                    Refresh status will appear after the backend status endpoint is available.
+                    Cached source health is included with the public demo so the grant list remains reviewable without live API credentials.
                   </div>
                 )}
               </div>
@@ -317,7 +321,7 @@ export const Dashboard = memo(function Dashboard() {
                   })
                 ) : (
                   <div className="md:col-span-4 rounded-xl border border-borderColor bg-bgPanel/50 p-4 text-sm text-textSecondary">
-                    No workflow runs yet. Start with project intake.
+                    Sample workflow trace is loaded with the public demo.
                   </div>
                 )}
               </div>

@@ -33,6 +33,7 @@ import {
   getLatestCandidateGrants,
   getLatestProjectProfile,
   getLatestRun,
+  isPortfolioDemoMode,
   saveSelectedGrant,
   stripHtml,
   truncate
@@ -130,11 +131,13 @@ export const GrantExplorer = memo(function GrantExplorer() {
         allItems.push(...getArrayField<GrantRecord>(pageOutput, "items"));
       }
 
-      setDatabaseGrants(dedupeGrants(allItems));
+      setDatabaseGrants(dedupeGrants(allItems.length ? allItems : getLatestCandidateGrants()));
       setDatabaseMeta(firstOutput);
       setMode("database");
     } catch (err: unknown) {
-      setError(getErrorMessage(err, "Could not load grants."));
+      setDatabaseGrants(getLatestCandidateGrants());
+      setDatabaseMeta({ total: getLatestCandidateGrants().length, mode: "portfolio_demo" });
+      setError(isPortfolioDemoMode() ? "" : getErrorMessage(err, "Could not load grants."));
     } finally {
       setIsLoading(false);
     }
@@ -304,7 +307,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
         <div className="p-6 lg:p-8">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold mb-5">
             <Sparkles className="w-3.5 h-3.5 mr-2" />
-            Ranked opportunity review
+            Public demo · ranked opportunity review
           </div>
 
           <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_420px] gap-6 items-end">
@@ -313,7 +316,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
                 Turn search results into one clean funding decision.
               </h1>
               <p className="text-textSecondary mt-3 max-w-3xl leading-relaxed">
-                GrantPilot ranks opportunities, explains why they fit, shows source trust, and helps you choose the grant worth preparing first.
+                GrantPilot opens with a saved Michigan project and ranked sample matches, then shows source trust, fit rationale, and one clean selected grant before the readiness packet.
               </p>
             </div>
 
@@ -368,7 +371,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
             onChange={setSource}
             disabled={mode === "latest"}
             label="All sources"
-            values={Object.keys(asRecord(facetsRecord.sources))}
+            values={getFacetValues(facetsRecord.sources)}
           />
 
           <FacetSelect
@@ -376,7 +379,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
             onChange={setStatus}
             disabled={mode === "latest"}
             label="All statuses"
-            values={Object.keys(asRecord(facetsRecord.statuses))}
+            values={getFacetValues(facetsRecord.statuses)}
           />
 
           <FacetSelect
@@ -384,7 +387,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
             onChange={setCategory}
             disabled={mode === "latest"}
             label="All categories"
-            values={Object.keys(asRecord(facetsRecord.categories))}
+            values={getFacetValues(facetsRecord.categories || facetsRecord.category_counts)}
           />
         </div>
 
@@ -452,7 +455,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
 
         <div className="mt-4 rounded-xl border border-borderColor bg-bgPanel/40 px-4 py-3 text-xs text-textSecondary flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
           <span>
-            Select 2–{MAX_COMPARE_SELECTIONS} grants to compare. Project-aware comparison is available after Project Intake.
+            Select 2–{MAX_COMPARE_SELECTIONS} grants to compare, or open the top match to continue the demo flow.
           </span>
           <span className="font-bold text-textPrimary">
             {selectedIds.length}/{MAX_COMPARE_SELECTIONS} selected
@@ -465,7 +468,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
           <div className="flex items-center min-w-0">
             <CheckCircle2 className="w-5 h-5 mr-2 shrink-0" />
             <span className="truncate">
-              Showing matches from trace {String(latestRun?.trace_id ?? "")}
+              Showing sample matches from trace {String(latestRun?.trace_id ?? "")}
             </span>
           </div>
           <Link href="/intake" className="text-secondary font-bold hover:underline">
@@ -660,6 +663,15 @@ function ModeButton({
       {label}
     </button>
   );
+}
+
+function getFacetValues(value: unknown): string[] {
+  if (Array.isArray(value)) {
+    return value.map((item) => String(item));
+  }
+
+  const record = asRecord(value);
+  return Object.keys(record);
 }
 
 function FacetSelect({
@@ -1054,10 +1066,10 @@ function EmptyState({
     <div className="glass-panel rounded-2xl p-10 text-center">
       <Database className="w-10 h-10 text-primary mx-auto mb-4" />
       <h2 className="text-2xl font-black text-textPrimary">
-        No grants found
+        No grants match those filters
       </h2>
       <p className="text-textSecondary mt-2 max-w-xl mx-auto">
-        Try a broader project word like “water,” “bridge,” or “energy,” or clear filters and browse the master database.
+        Clear filters to return to the curated public demo matches, or search a broader term like “water,” “bridge,” or “transportation.”
       </p>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-6">

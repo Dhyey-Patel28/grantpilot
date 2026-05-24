@@ -36,6 +36,7 @@ import {
   getStringField,
   getLatestRun,
   getOfflineMode,
+  isPortfolioDemoMode,
   loadJson,
   saveJson,
   saveLatestRun,
@@ -111,7 +112,7 @@ function getInitialDescription(): string {
 }
 
 function getInitialDemoMode(): boolean {
-  return loadJson<boolean>(STORAGE_KEYS.demoMode, false) === true;
+  return isPortfolioDemoMode() || loadJson<boolean>(STORAGE_KEYS.demoMode, false) === true;
 }
 
 function getInitialOfflineMode(): boolean {
@@ -260,7 +261,7 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
       });
 
       if (demoMode) {
-        setWorkflowNotice(`Replayed the latest completed workflow trace and saved it as “${snapshot.title}”.`);
+        setWorkflowNotice(`Replayed the public sample workflow and saved it as “${snapshot.title}”.`);
       } else {
         setWorkflowNotice(`Live workflow complete. Saved “${snapshot.title}” so the packet and saved-project pages can continue from this run.`);
       }
@@ -330,8 +331,8 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
   const activeModeDetail = offlineMode
     ? "Uses your latest browser-saved run"
     : demoMode
-      ? "Replays the latest saved trace"
-      : "Runs live IBM watsonx agents";
+      ? "Replays the saved public sample trace"
+      : "Runs live agents when a backend is configured";
 
   return (
     <div className="max-w-7xl mx-auto space-y-7 pb-16 intake-cinema">
@@ -342,7 +343,7 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
             <div>
               <div className="inline-flex items-center px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-black mb-5">
                 <Sparkles className="w-3.5 h-3.5 mr-2" />
-                {activeMode} workflow · production intake
+                {activeMode} workflow · grant readiness intake
               </div>
 
               <h1 className="text-4xl lg:text-6xl font-black text-textPrimary tracking-tight leading-[0.95] max-w-4xl">
@@ -372,8 +373,8 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
               </div>
 
               <div className="mt-5 grid grid-cols-2 gap-3 text-sm">
-                <StatusPill label="API path" value={offlineMode ? "localStorage" : demoMode ? "saved/latest-run" : "grantpilot/run"} />
-                <StatusPill label="Review path" value={demoMode || offlineMode ? "Saved" : "Live"} />
+                <StatusPill label="API path" value={offlineMode ? "localStorage" : demoMode ? "static demo" : "grantpilot/run"} />
+                <StatusPill label="Review path" value={demoMode || offlineMode ? "Sample" : "Live"} />
               </div>
             </div>
           </div>
@@ -770,7 +771,7 @@ function WorkflowTimeline({
             Agent timeline
           </h2>
           <p className="text-sm text-textSecondary mt-1">
-            {offlineMode ? "Offline replay uses the latest saved result." : demoMode ? "Saved replay uses the latest completed backend trace." : "Live mode runs the coordinated GrantPilot workflow."}
+            {offlineMode ? "Offline replay uses the latest saved result." : demoMode ? "Saved replay uses the public sample trace." : "Live mode runs the coordinated GrantPilot workflow."}
           </p>
         </div>
         <span className="inline-flex items-center px-3 py-1.5 rounded-full bg-bgPanelLight border border-borderColor text-xs font-black text-textSecondary">
