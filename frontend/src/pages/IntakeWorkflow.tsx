@@ -48,7 +48,7 @@ import {
 } from "../lib/grantpilotApi";
 
 const fallbackProject =
-  "A small Michigan township has repeated flooding along a residential road corridor. The project includes stormwater drainage improvements, culvert replacement, ditch grading, and green infrastructure where possible. The township needs funding for design, engineering, and construction, with limited local match available.";
+  "A small township has repeated flooding along a residential road corridor. The project includes stormwater drainage improvements, culvert replacement, ditch grading, and green infrastructure where possible. The township needs funding for design, engineering, and construction, with limited local match available.";
 
 const workflowSteps = [
   {
@@ -93,7 +93,7 @@ const documentSuggestions = [
 ];
 
 const scenarioPrompts = [
-  "Michigan township stormwater corridor",
+  "township stormwater corridor",
   "county bridge flooding repair",
   "rural drinking water upgrade",
   "public safety equipment replacement"
@@ -235,11 +235,11 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
         const savedRun = getLatestRun();
 
         if (!savedRun) {
-          throw new Error("Offline Mode needs one saved run first. Turn Offline Mode off, run GrantPilot once, then try again.");
+          throw new Error("Saved Run Mode needs one saved run first. Turn it off, run GrantPilot once, then try again.");
         }
 
         setResponse(savedRun);
-        setWorkflowNotice("Offline Mode loaded your latest successful run from this browser. No live API call was made.");
+        setWorkflowNotice("Saved Run Mode loaded your latest successful run from this browser. No live API call was made.");
         await hydrateTraceSummary(savedRun);
         scrollToResults();
         return;
@@ -261,7 +261,7 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
       });
 
       if (demoMode) {
-        setWorkflowNotice(`Replayed the saved sample workflow and saved it as “${snapshot.title}”.`);
+        setWorkflowNotice(`Replayed the guided workflow and saved it as “${snapshot.title}”.`);
       } else {
         setWorkflowNotice(`Live workflow complete. Saved “${snapshot.title}” so the packet and saved-project pages can continue from this run.`);
       }
@@ -327,11 +327,11 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
     [candidateGrants, displaySummary]
   );
   const hasDisplaySummary = Object.keys(displaySummary).length > 0;
-  const activeMode = offlineMode ? "Offline" : demoMode ? "Sample" : "Live";
+  const activeMode = offlineMode ? "Saved" : demoMode ? "Guided" : "Live";
   const activeModeDetail = offlineMode
     ? "Uses your latest browser-saved run"
     : demoMode
-      ? "Replays the saved sample workflow"
+      ? "Replays the guided workflow"
       : "Runs live agents when a backend is configured";
 
   return (
@@ -365,7 +365,7 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
             <div className="rounded-3xl border border-white/10 bg-bgPanel/80 shadow-2xl p-5">
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <div className="text-xs font-black uppercase tracking-[0.2em] text-textSecondary">Current run mode</div>
+                  <div className="text-xs font-black uppercase tracking-[0.2em] text-textSecondary">Workflow mode</div>
                   <div className="text-3xl font-black text-textPrimary mt-2">{activeMode}</div>
                   <p className="text-sm text-textSecondary mt-2 leading-relaxed">{activeModeDetail}</p>
                 </div>
@@ -373,8 +373,8 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
               </div>
 
               <div className="mt-5 grid grid-cols-2 gap-3 text-sm">
-                <StatusPill label="Data path" value={offlineMode ? "Browser saved" : demoMode ? "Saved sample" : "Live backend"} />
-                <StatusPill label="Review path" value={demoMode || offlineMode ? "Sample" : "Live"} />
+                <StatusPill label="Data path" value={offlineMode ? "Browser saved" : demoMode ? "Saved workflow" : "Live backend"} />
+                <StatusPill label="Review path" value={demoMode || offlineMode ? "Guided" : "Live"} />
               </div>
             </div>
           </div>
@@ -415,7 +415,7 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
                   value={projectDescription}
                   onChange={(event) => setProjectDescription(event.target.value)}
                   className="w-full min-h-[210px] bg-bgPanel/60 border border-borderColor rounded-2xl p-4 text-sm text-textPrimary focus:outline-none focus:border-primary resize-y leading-relaxed"
-                  placeholder="Example: A Michigan township has repeated flooding along a residential road corridor..."
+                  placeholder="Example: A small township has repeated flooding along a residential road corridor..."
                 />
               </div>
 
@@ -441,7 +441,7 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
 
             <div className="mt-5 grid grid-cols-1 lg:grid-cols-2 gap-3">
               <ModeToggle
-                label="Sample Workflow"
+                label="Guided Workflow"
                 checked={demoMode}
                 disabled={offlineMode}
                 tone="primary"
@@ -449,10 +449,10 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
                 onChange={setDemoMode}
               />
               <ModeToggle
-                label="Offline Mode"
+                label="Saved Run Mode"
                 checked={offlineMode}
                 tone="secondary"
-                description="Use only the latest browser-saved run. No live calls."
+                description="Use the latest saved run from this browser."
                 onChange={setOfflineModeState}
               />
             </div>
@@ -505,12 +505,12 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
                 {isRunning ? (
                   <>
                     <Loader2 className="w-5 h-5 mr-2 animate-spin" />
-                    {offlineMode ? "Loading saved run..." : demoMode ? "Loading sample workflow..." : "Running live agents..."}
+                    {offlineMode ? "Loading saved run..." : demoMode ? "Loading guided workflow..." : "Running live agents..."}
                   </>
                 ) : (
                   <>
                     <PlayCircle className="w-5 h-5 mr-2" />
-                    {offlineMode ? "Open saved run" : demoMode ? "Replay sample workflow" : "Run GrantPilot"}
+                    {offlineMode ? "Open saved run" : demoMode ? "Replay guided workflow" : "Run GrantPilot"}
                   </>
                 )}
               </button>
@@ -771,7 +771,7 @@ function WorkflowTimeline({
             Agent timeline
           </h2>
           <p className="text-sm text-textSecondary mt-1">
-            {offlineMode ? "Offline replay uses the latest saved result." : demoMode ? "Saved workflow shows the completed specialist review." : "Live mode runs the coordinated GrantPilot workflow."}
+            {offlineMode ? "Saved Run Mode uses the latest saved result." : demoMode ? "Guided workflow shows the completed specialist review." : "Live mode runs the coordinated GrantPilot workflow."}
           </p>
         </div>
         <span className="inline-flex items-center px-3 py-1.5 rounded-full bg-bgPanelLight border border-borderColor text-xs font-black text-textSecondary">

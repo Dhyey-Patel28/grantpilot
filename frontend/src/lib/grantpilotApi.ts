@@ -181,7 +181,7 @@ export function isPortfolioDemoMode(): boolean {
 }
 
 export function getPortfolioDemoNotice(): string {
-  return "This portfolio preview uses a saved sample workflow, so the product remains reviewable without live credentials.";
+  return "This hosted workspace uses a guided sample workflow so reviewers can inspect the product without live credentials.";
 }
 
 export async function apiGet<T = AnyRecord>(path: string): Promise<T> {
@@ -246,7 +246,7 @@ function getDemoGetResponse(path: string): unknown {
   const pathname = url.pathname;
 
   if (pathname === "/api/health") {
-    return { ok: true, service: "GrantPilot frontend preview", mode: "portfolio preview" };
+    return { ok: true, service: "GrantPilot", mode: "ready" };
   }
 
   if (pathname === "/api/grantpilot/stats") return DEMO_STATS;
@@ -327,7 +327,7 @@ function getDemoPostResponse(path: string, body: AnyRecord): unknown {
 
   if (path === "/api/grantpilot/intake/validate") return DEMO_VALIDATE_INTAKE;
   if (path === "/api/grantpilot/grants/compare") return DEMO_COMPARE_GRANTS;
-  if (path === "/api/grantpilot/feedback") return { ok: true, stored: false, mode: "portfolio_demo" };
+  if (path === "/api/grantpilot/feedback") return { ok: true, stored: false, mode: "guided_preview" };
 
   return undefined;
 }
@@ -364,7 +364,7 @@ function buildDemoGrantList(params: URLSearchParams): AnyRecord {
     total,
     page,
     limit,
-    mode: "portfolio_demo",
+    mode: "guided_preview",
     notice: getPortfolioDemoNotice()
   };
 }

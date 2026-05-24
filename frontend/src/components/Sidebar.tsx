@@ -78,8 +78,8 @@ export const Sidebar = memo(function Sidebar() {
         </Link>
         
         <div className="mt-4 rounded-xl border border-borderColor bg-bgPanel/50 p-3">
-          <p className="text-sm font-bold text-textPrimary truncate">GrantPilot MI</p>
-          <p className="text-xs text-textSecondary mt-1">Civic grant readiness workspace.</p>
+          <p className="text-sm font-bold text-textPrimary truncate">GrantPilot</p>
+          <p className="text-xs text-textSecondary mt-1">Public-sector grant readiness workspace.</p>
         </div>
       </div>
     </div>

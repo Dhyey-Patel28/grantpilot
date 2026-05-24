@@ -113,7 +113,7 @@ export const DEMO_GRANTS = [
     "fit_score": 84,
     "score": 84,
     "deterministic_score": 84,
-    "recommendation": "Michigan-focused transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
+    "recommendation": "State transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
   },
   {
     "id": "mfh_12949",
@@ -286,7 +286,7 @@ export const DEMO_RUN = {
         "fit_score": 84,
         "score": 84,
         "deterministic_score": 84,
-        "recommendation": "Michigan-focused transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
+        "recommendation": "State transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
       },
       {
         "id": "mfh_12949",
@@ -372,7 +372,7 @@ export const DEMO_RUN = {
         {
           "grant_id": "mfh_12979",
           "decision": "keep",
-          "reason": "Michigan-focused transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
+          "reason": "State transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
         }
       ]
     },
@@ -399,7 +399,7 @@ export const DEMO_RUN = {
         {
           "grant_id": "mfh_12979",
           "fit_reasons": [
-            "Michigan-focused transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
+            "State transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
           ],
           "risks": [
             "Verify official source before applying."
@@ -802,7 +802,7 @@ export const DEMO_STATS = {
 
 export const DEMO_REFRESH_STATUS = {
   "ok": true,
-  "status": "portfolio_demo",
+  "status": "guided_preview",
   "last_refreshed": "2026-05-21T01:36:14.831Z",
   "normalized_grant_count": 1177,
   "normalized_grants": 1177,
@@ -817,7 +817,7 @@ export const DEMO_REFRESH_STATUS = {
     "closed": 14
   },
   "source_health": {
-    "status": "portfolio_demo",
+    "status": "guided_preview",
     "Grants.gov": {
       "status": "cached",
       "records": 1045,
@@ -830,7 +830,7 @@ export const DEMO_REFRESH_STATUS = {
     }
   },
   "recommendations": [
-    "Saved preview data keeps the workflow reviewable without live credentials.",
+    "Guided source data keeps the workflow reviewable without live credentials.",
     "Verify official grant sources before applying."
   ]
 } as const;
@@ -960,7 +960,7 @@ export const DEMO_SAVED_PROJECT = {
       "fit_score": 84,
       "score": 84,
       "deterministic_score": 84,
-      "recommendation": "Michigan-focused transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
+      "recommendation": "State transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
     },
     {
       "id": "mfh_12949",
@@ -1158,7 +1158,7 @@ export const DEMO_SAVED_PROJECT = {
           "fit_score": 84,
           "score": 84,
           "deterministic_score": 84,
-          "recommendation": "Michigan-focused transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
+          "recommendation": "State transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
         },
         {
           "id": "mfh_12949",
@@ -1244,7 +1244,7 @@ export const DEMO_SAVED_PROJECT = {
           {
             "grant_id": "mfh_12979",
             "decision": "keep",
-            "reason": "Michigan-focused transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
+            "reason": "State transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
           }
         ]
       },
@@ -1271,7 +1271,7 @@ export const DEMO_SAVED_PROJECT = {
           {
             "grant_id": "mfh_12979",
             "fit_reasons": [
-              "Michigan-focused transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
+              "State transportation alternative fit for safe access, walkability, and local quality-of-life improvements."
             ],
             "risks": [
               "Verify official source before applying."
@@ -1633,21 +1633,21 @@ export const DEMO_VALIDATE_INTAKE = {
     "Confirm local match amount before applying."
   ],
   "recommendations": [
-    "Use the saved sample workflow for a consistent product preview."
+    "Use the guided workflow for a consistent product walkthrough."
   ]
 } as const;
 
 export const DEMO_CAPABILITIES = {
-  "service": "GrantPilot portfolio preview",
-  "version": "portfolio-preview",
-  "purpose": "Frontend preview data for grant matching and readiness workflow.",
+  "service": "GrantPilot",
+  "version": "public-preview",
+  "purpose": "Guided source data for grant matching and readiness workflow.",
   "security_notes": [
-    "No live credentials are required for the hosted preview."
+    "No live credentials are required for the hosted workspace."
   ]
 } as const;
 
 export const DEMO_DATASET_STATUS = {
-  "status": "cached_preview",
+  "status": "cached",
   "record_count": 1177,
   "sources": [
     "Grants.gov",
@@ -1672,7 +1672,7 @@ export const DEMO_SCENARIOS = {
     {
       "id": "clare-transportation",
       "title": "Clare County transportation resilience",
-      "strength": "Portfolio preview",
+      "strength": "Reference workflow",
       "expected_story": "Shows a rural transportation project moving from project need to ranked grants and readiness memo.",
       "project_description": "Clare County needs funding to improve a flood-prone rural road corridor with bridge and culvert upgrades, drainage improvements, ditch grading, and safer access for residents and emergency vehicles."
     },
@@ -1681,7 +1681,7 @@ export const DEMO_SCENARIOS = {
       "title": "Stormwater resilience",
       "strength": "Infrastructure fit",
       "expected_story": "Shows drainage, culvert, and resilience needs.",
-      "project_description": "A Michigan township needs funding to reduce flooding along a residential road corridor with drainage improvements, culvert replacement, ditch grading, and green infrastructure where feasible."
+      "project_description": "A small township needs funding to reduce flooding along a residential road corridor with drainage improvements, culvert replacement, ditch grading, and green infrastructure where feasible."
     }
   ]
 } as const;

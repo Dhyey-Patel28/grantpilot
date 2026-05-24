@@ -80,7 +80,7 @@ export const SavedProjects = memo(function SavedProjects() {
             <div>
               <div className="inline-flex items-center px-3 py-1 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-xs font-bold mb-5">
                 <Archive className="w-3.5 h-3.5 mr-2" />
-                Portfolio preview · saved project memory
+                Project library
               </div>
 
               <h1 className="text-3xl lg:text-5xl font-black text-textPrimary tracking-tight">
@@ -88,7 +88,7 @@ export const SavedProjects = memo(function SavedProjects() {
               </h1>
 
               <p className="text-textSecondary mt-3 max-w-3xl leading-relaxed">
-                GrantPilot includes a saved Michigan infrastructure workflow with its project profile,
+                GrantPilot includes a saved infrastructure workflow with its project profile,
                 ranked grants, selected opportunity, and packet handoff. Additional browser runs can save more project snapshots.
               </p>
             </div>
@@ -96,7 +96,7 @@ export const SavedProjects = memo(function SavedProjects() {
             <div className="rounded-2xl border border-borderColor bg-bgPanelLight/50 p-4">
               <div className="text-sm text-textSecondary">Saved workflows</div>
               <div className="text-3xl font-black text-textPrimary mt-1">{projects.length}</div>
-              <div className="text-xs text-textSecondary mt-1">Includes sample workflow • browser saves more</div>
+              <div className="text-xs text-textSecondary mt-1">Starter workflow included • browser saves more</div>
             </div>
           </div>
         </div>

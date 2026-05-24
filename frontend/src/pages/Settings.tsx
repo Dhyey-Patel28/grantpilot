@@ -4,7 +4,7 @@ import { Save, Moon, Sun, Monitor, RefreshCw, CheckCircle2 } from 'lucide-react'
 
 type Theme = 'dark' | 'light' | 'system';
 
-const defaults = { theme: 'light' as Theme, orgName: 'Acme Corp', industry: 'Non-Profit' };
+const defaults = { theme: 'light' as Theme, orgName: 'Civic Works Team', industry: 'Local Government' };
 
 const themeOptions: { id: Theme; icon: typeof Sun; label: string }[] = [
   { id: 'light', icon: Sun, label: 'Light' },

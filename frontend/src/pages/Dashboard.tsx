@@ -37,11 +37,11 @@ const fallbackScenarios: AnyRecord[] = [
   {
     id: "stormwater-resilience",
     title: "Stormwater resilience",
-    strength: "Portfolio preview",
+    strength: "Reference workflow",
     expected_story:
       "Shows a realistic local government project with infrastructure, resilience, and document gaps.",
     project_description:
-      "A small Michigan township needs funding to reduce flooding along a residential road corridor. The work includes stormwater drainage improvements, culvert replacement, ditch grading, and green infrastructure where feasible. The township needs support for design, engineering, and construction. Repeated heavy rain events have caused road closures and safety concerns. Estimated cost is $750,000 and the township can provide a modest local match."
+      "A small township needs funding to reduce flooding along a residential road corridor. The work includes stormwater drainage improvements, culvert replacement, ditch grading, and green infrastructure where feasible. The township needs support for design, engineering, and construction. Repeated heavy rain events have caused road closures and safety concerns. Estimated cost is $750,000 and the township can provide a modest local match."
   },
   {
     id: "bridge-repair",
@@ -59,7 +59,7 @@ const fallbackScenarios: AnyRecord[] = [
     expected_story:
       "Shows how GrantPilot avoids overclaiming when a project is a weak fit for infrastructure grants.",
     project_description:
-      "The Bayview Tribal Arts Collective in Michigan is seeking $4.5 million to renovate a luxury lakefront cultural retreat center featuring artist cabins, meditation gardens, private event spaces, and wellness facilities. The organization wants to apply for federal flood mitigation and transportation infrastructure grants because heavy rainfall occasionally affects nearby walking trails. The project primarily supports tourism, retreats, and private events. Applicant type: nonprofit organization."
+      "The Bayview Tribal Arts Collective is seeking $4.5 million to renovate a luxury lakefront cultural retreat center featuring artist cabins, meditation gardens, private event spaces, and wellness facilities. The organization wants to apply for federal flood mitigation and transportation infrastructure grants because heavy rainfall occasionally affects nearby walking trails. The project primarily supports tourism, retreats, and private events. Applicant type: nonprofit organization."
   }
 ];
 
@@ -140,10 +140,10 @@ export const Dashboard = memo(function Dashboard() {
   const totalGrants = asNumber(refreshStatus?.normalized_grant_count, asNumber(stats?.total_grants, 1177));
   const openCount = asNumber(statusCounts.open, 377);
   const closingSoonCount = asNumber(statusCounts.closing_soon, 177);
-  const backendMode = asString(health?.mode, "portfolio preview");
+  const backendMode = asString(health?.mode, "ready");
   const isBackendOnline = health?.ok === true;
   const lastRefreshed = refreshStatus?.last_refreshed || "2026-05-21T01:36:14.831Z";
-  const modeLabel = backendMode === "portfolio preview" ? "Preview" : backendMode;
+  const modeLabel = backendMode === "guided_preview" ? "Ready" : backendMode;
 
   return (
     <div className="max-w-7xl mx-auto space-y-6 pb-16">
@@ -153,15 +153,15 @@ export const Dashboard = memo(function Dashboard() {
           <div>
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold mb-6">
               <Sparkles className="w-3.5 h-3.5 mr-2" />
-              Portfolio preview · source-backed grant readiness
+              Source-backed grant readiness
             </div>
 
             <h1 className="text-4xl lg:text-6xl font-black text-textPrimary tracking-tight leading-[0.98] max-w-5xl">
-              Turn a local project into a source-backed grant plan.
+              Turn a public project into a source-backed grant plan.
             </h1>
 
             <p className="text-textSecondary mt-5 text-base lg:text-lg leading-relaxed max-w-3xl">
-              Explore a saved Michigan infrastructure workflow with ranked grant matches, agent review notes, and a memo-style readiness packet.
+              Explore a saved infrastructure workflow with ranked grant matches, agent review notes, and a memo-style readiness packet.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mt-8">
@@ -169,7 +169,7 @@ export const Dashboard = memo(function Dashboard() {
                 href="/intake"
                 className="px-5 py-3 rounded-xl bg-primary hover:bg-primary/90 text-white font-bold inline-flex items-center justify-center shadow-lg shadow-primary/20"
               >
-                Replay sample intake <PlayCircle className="w-5 h-5 ml-2" />
+                Replay guided intake <PlayCircle className="w-5 h-5 ml-2" />
               </Link>
 
               <Link
@@ -184,7 +184,7 @@ export const Dashboard = memo(function Dashboard() {
               <HeroMetric label="Grant records" value={totalGrants ? totalGrants.toLocaleString() : "—"} icon={Database} />
               <HeroMetric label="Open" value={openCount ? openCount.toLocaleString() : "—"} icon={CheckCircle2} />
               <HeroMetric label="Closing soon" value={closingSoonCount ? closingSoonCount.toLocaleString() : "—"} icon={Gauge} />
-              <HeroMetric label="Mode" value={isBackendOnline ? modeLabel : "Preview"} icon={Bot} />
+              <HeroMetric label="System" value={isBackendOnline ? modeLabel : "Ready"} icon={Bot} />
             </div>
           </div>
 
@@ -209,7 +209,7 @@ export const Dashboard = memo(function Dashboard() {
                   ))
                 ) : (
                   <div className="rounded-xl border border-borderColor bg-bgPanel/50 p-4 text-sm text-textSecondary">
-                    Cached source health keeps the grant list reviewable without live credentials.
+                    Cached source health keeps the grant list reviewable even when live integrations are unavailable.
                   </div>
                 )}
               </div>
@@ -403,7 +403,7 @@ function ScenarioCard({
   onSelect: (scenario: AnyRecord) => void;
 }) {
   const title = getStringField(scenario, "title", "Sample scenario");
-  const strength = getStringField(scenario, "strength", "sample path");
+  const strength = getStringField(scenario, "strength", "workflow path");
   const story = getStringField(scenario, "expected_story", "Run this scenario through the GrantPilot workflow.");
 
   return (

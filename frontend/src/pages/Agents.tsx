@@ -127,7 +127,7 @@ export const Agents = memo(function Agents() {
             <div>
               <div className="inline-flex items-center px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-black mb-5">
                 <Sparkles className="w-3.5 h-3.5 mr-2" />
-                Portfolio preview · multi-agent review trace
+                Multi-agent review trace
               </div>
               <h1 className="text-4xl lg:text-6xl font-black text-textPrimary tracking-tight leading-[0.95] max-w-4xl">
                 Specialist agents turn a grant search into a reviewable plan.

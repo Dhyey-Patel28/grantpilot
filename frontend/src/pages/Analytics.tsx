@@ -85,7 +85,7 @@ export const Analytics = memo(function Analytics() {
       const a = document.createElement('a'); a.href = url; a.download = `analytics-report-${period}.csv`; a.click();
       URL.revokeObjectURL(url);
       setIsExporting(false);
-      setToastMsg('Preview report exported successfully!');
+      setToastMsg('Report exported successfully!');
       setTimeout(() => setToastMsg(null), 3000);
     }, 1200);
   }, [chartData, period]);
@@ -104,8 +104,8 @@ export const Analytics = memo(function Analytics() {
       {/* ── 1. Header ── */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4">
         <div>
-          <h1 className="text-3xl font-bold text-textPrimary tracking-tight">Pipeline analytics preview</h1>
-          <p className="text-textSecondary mt-1.5 text-sm">Preview the kinds of pipeline and readiness metrics GrantPilot can surface as teams save projects and prepare packets.</p>
+          <h1 className="text-3xl font-bold text-textPrimary tracking-tight">Pipeline analytics</h1>
+          <p className="text-textSecondary mt-1.5 text-sm">Illustrative pipeline and readiness metrics show what GrantPilot can surface as teams save projects and prepare packets.</p>
         </div>
         <div className="flex items-center gap-3 shrink-0">
           <select value={period} onChange={handlePeriodChange}

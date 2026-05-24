@@ -136,7 +136,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
       setMode("database");
     } catch (err: unknown) {
       setDatabaseGrants(getLatestCandidateGrants());
-      setDatabaseMeta({ total: getLatestCandidateGrants().length, mode: "portfolio_demo" });
+      setDatabaseMeta({ total: getLatestCandidateGrants().length, mode: "guided_preview" });
       setError(isPortfolioDemoMode() ? "" : getErrorMessage(err, "Could not load grants."));
     } finally {
       setIsLoading(false);
@@ -307,7 +307,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
         <div className="p-6 lg:p-8">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold mb-5">
             <Sparkles className="w-3.5 h-3.5 mr-2" />
-            Portfolio preview · ranked opportunity review
+            Ranked opportunity review
           </div>
 
           <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_420px] gap-6 items-end">
@@ -316,7 +316,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
                 Turn search results into one clean funding decision.
               </h1>
               <p className="text-textSecondary mt-3 max-w-3xl leading-relaxed">
-                GrantPilot opens with a saved Michigan project and ranked matches, then shows source trust, fit rationale, and one clean selected grant before the readiness packet.
+                GrantPilot opens with a saved infrastructure project and ranked matches, then shows source trust, fit rationale, and one clean selected grant before the readiness packet.
               </p>
             </div>
 
@@ -468,11 +468,11 @@ export const GrantExplorer = memo(function GrantExplorer() {
           <div className="flex items-center min-w-0">
             <CheckCircle2 className="w-5 h-5 mr-2 shrink-0" />
             <span className="truncate">
-              Showing saved matches from trace {String(latestRun?.trace_id ?? "")}
+              Showing saved matches from review trace {String(latestRun?.trace_id ?? "")}
             </span>
           </div>
           <Link href="/intake" className="text-secondary font-bold hover:underline">
-            Run another intake
+            Replay intake
           </Link>
         </div>
       )}

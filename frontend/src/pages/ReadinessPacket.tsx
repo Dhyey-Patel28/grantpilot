@@ -224,7 +224,7 @@ export const ReadinessPacket = memo(function ReadinessPacket() {
             <div>
               <div className="inline-flex items-center px-3 py-1 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-xs font-black mb-5">
                 <FileSignature className="w-3.5 h-3.5 mr-2" />
-                Portfolio preview · staff-ready grant memo
+                Staff-ready grant memo
               </div>
 
               <h1 className="text-3xl lg:text-5xl font-black text-textPrimary tracking-tight max-w-4xl">
@@ -667,10 +667,10 @@ function EmptyStartState() {
         <FileText className="w-7 h-7 text-primary" />
       </div>
 
-      <h2 className="text-2xl lg:text-3xl font-black text-textPrimary">Sample packet not loaded</h2>
+      <h2 className="text-2xl lg:text-3xl font-black text-textPrimary">Packet not loaded</h2>
 
       <p className="text-textSecondary mt-3 max-w-2xl mx-auto leading-relaxed">
-        This page normally loads a saved readiness memo automatically. Use Project Intake to replay the workflow if this page was reset locally.
+        This page normally loads a saved readiness memo automatically. Use Project Intake to replay the workflow if the workspace was reset.
       </p>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-7">

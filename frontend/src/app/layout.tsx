@@ -3,7 +3,7 @@ import "./globals.css";
 import { Layout } from "../components/Layout";
 
 export const metadata: Metadata = {
-  title: "GrantPilot MI",
+  title: "GrantPilot",
   description: "AI-powered grant discovery and matching",
 };
 
