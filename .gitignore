@@ -129,3 +129,12 @@ Thumbs.db
 # Cursor
 .cursorignore
 .cursorindexingignore
+
+# Recording tools and scripts
+recording_tools/
+scripts/
+scripts/cursorful-*
+scripts/demo-*
+scripts/record-demo*
+scripts/render-demo-video.mjs
+scripts/start-chrome-for-cursorful.ps1
