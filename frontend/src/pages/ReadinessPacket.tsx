@@ -224,7 +224,7 @@ export const ReadinessPacket = memo(function ReadinessPacket() {
             <div>
               <div className="inline-flex items-center px-3 py-1 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-xs font-black mb-5">
                 <FileSignature className="w-3.5 h-3.5 mr-2" />
-                Public demo · staff-ready grant memo
+                Portfolio preview · staff-ready grant memo
               </div>
 
               <h1 className="text-3xl lg:text-5xl font-black text-textPrimary tracking-tight max-w-4xl">
@@ -232,7 +232,7 @@ export const ReadinessPacket = memo(function ReadinessPacket() {
               </h1>
 
               <p className="text-textSecondary mt-4 max-w-3xl leading-relaxed">
-                This sample packet shows the payoff: project case, funding fit, document gaps,
+                This packet shows the payoff: project case, funding fit, document gaps,
                 priority actions, and human verification notes before anyone treats it as submission-ready.
               </p>
             </div>
@@ -670,7 +670,7 @@ function EmptyStartState() {
       <h2 className="text-2xl lg:text-3xl font-black text-textPrimary">Sample packet not loaded</h2>
 
       <p className="text-textSecondary mt-3 max-w-2xl mx-auto leading-relaxed">
-        The deployed demo normally loads a saved readiness memo automatically. Use Project Intake to replay the workflow if this page was reset locally.
+        This page normally loads a saved readiness memo automatically. Use Project Intake to replay the workflow if this page was reset locally.
       </p>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-7">

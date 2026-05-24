@@ -289,7 +289,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
         comparison_mode: "local",
         note: getErrorMessage(
           err,
-          "Project-aware comparison failed, so GrantPilot is showing a local side-by-side comparison."
+          "Project-aware comparison is unavailable, so GrantPilot is showing a side-by-side comparison."
         ),
         grants: selectedGrants
       });
@@ -307,7 +307,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
         <div className="p-6 lg:p-8">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold mb-5">
             <Sparkles className="w-3.5 h-3.5 mr-2" />
-            Public demo · ranked opportunity review
+            Portfolio preview · ranked opportunity review
           </div>
 
           <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_420px] gap-6 items-end">
@@ -316,7 +316,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
                 Turn search results into one clean funding decision.
               </h1>
               <p className="text-textSecondary mt-3 max-w-3xl leading-relaxed">
-                GrantPilot opens with a saved Michigan project and ranked sample matches, then shows source trust, fit rationale, and one clean selected grant before the readiness packet.
+                GrantPilot opens with a saved Michigan project and ranked matches, then shows source trust, fit rationale, and one clean selected grant before the readiness packet.
               </p>
             </div>
 
@@ -455,7 +455,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
 
         <div className="mt-4 rounded-xl border border-borderColor bg-bgPanel/40 px-4 py-3 text-xs text-textSecondary flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
           <span>
-            Select 2–{MAX_COMPARE_SELECTIONS} grants to compare, or open the top match to continue the demo flow.
+            Select 2–{MAX_COMPARE_SELECTIONS} grants to compare, or open the top match to continue the workflow.
           </span>
           <span className="font-bold text-textPrimary">
             {selectedIds.length}/{MAX_COMPARE_SELECTIONS} selected
@@ -468,7 +468,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
           <div className="flex items-center min-w-0">
             <CheckCircle2 className="w-5 h-5 mr-2 shrink-0" />
             <span className="truncate">
-              Showing sample matches from trace {String(latestRun?.trace_id ?? "")}
+              Showing saved matches from trace {String(latestRun?.trace_id ?? "")}
             </span>
           </div>
           <Link href="/intake" className="text-secondary font-bold hover:underline">
@@ -1069,7 +1069,7 @@ function EmptyState({
         No grants match those filters
       </h2>
       <p className="text-textSecondary mt-2 max-w-xl mx-auto">
-        Clear filters to return to the curated public demo matches, or search a broader term like “water,” “bridge,” or “transportation.”
+        Clear filters to return to the curated preview matches, or search a broader term like “water,” “bridge,” or “transportation.”
       </p>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-6">

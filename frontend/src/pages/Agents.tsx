@@ -127,27 +127,27 @@ export const Agents = memo(function Agents() {
             <div>
               <div className="inline-flex items-center px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-black mb-5">
                 <Sparkles className="w-3.5 h-3.5 mr-2" />
-                Public demo · multi-agent review trace
+                Portfolio preview · multi-agent review trace
               </div>
               <h1 className="text-4xl lg:text-6xl font-black text-textPrimary tracking-tight leading-[0.95] max-w-4xl">
                 Specialist agents turn a grant search into a reviewable plan.
               </h1>
               <p className="text-textSecondary mt-5 max-w-3xl leading-relaxed text-base lg:text-lg">
-                The public demo shows the full specialist chain as a completed sample trace. GrantPilot keeps database scoring separate from the AI layer, then uses agents to explain, translate, check, and prepare outputs for human review.
+                This page shows the full specialist chain as a completed review trace. GrantPilot keeps database scoring separate from the AI layer, then uses agents to explain, translate, check, and prepare outputs for human review.
               </p>
             </div>
 
             <div className="rounded-3xl border border-borderColor bg-bgPanel/80 p-5 shadow-xl shadow-black/5">
-              <div className="text-xs font-black uppercase tracking-[0.2em] text-textSecondary">Sample trace status</div>
+              <div className="text-xs font-black uppercase tracking-[0.2em] text-textSecondary">Review trace status</div>
               <div className="mt-3 text-4xl font-black text-textPrimary">{completedCount}/{agentNodes.length}</div>
-              <p className="text-sm text-textSecondary mt-2">specialist reviews complete in the demo trace</p>
+              <p className="text-sm text-textSecondary mt-2">specialist reviews complete in the saved trace</p>
               <button
                 onClick={runWorkflow}
                 disabled={isRunning}
                 className="mt-5 w-full bg-primary hover:bg-primary/90 disabled:opacity-50 text-white px-5 py-3 rounded-xl text-sm font-black transition-colors shadow-lg shadow-primary/20 flex items-center justify-center"
               >
                 {isRunning ? <Loader2 className="w-4 h-4 mr-2 animate-spin" /> : <Play className="w-4 h-4 mr-2" />}
-                {isRunning ? "Running agents" : "Replay agent trace"}
+                {isRunning ? "Running agents" : "Replay review trace"}
               </button>
             </div>
           </div>
@@ -162,7 +162,7 @@ export const Agents = memo(function Agents() {
                 <GitBranch className="w-6 h-6 text-primary mr-2" />
                 Agent chain
               </h2>
-              <p className="text-sm text-textSecondary mt-1">Each agent owns one review task; the sample trace is complete so viewers can inspect the outputs immediately.</p>
+              <p className="text-sm text-textSecondary mt-1">Each agent owns one review task; the saved trace is complete so reviewers can inspect the outputs immediately.</p>
             </div>
           </div>
 

@@ -80,7 +80,7 @@ export const SavedProjects = memo(function SavedProjects() {
             <div>
               <div className="inline-flex items-center px-3 py-1 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-xs font-bold mb-5">
                 <Archive className="w-3.5 h-3.5 mr-2" />
-                Public demo · saved project memory
+                Portfolio preview · saved project memory
               </div>
 
               <h1 className="text-3xl lg:text-5xl font-black text-textPrimary tracking-tight">
@@ -88,15 +88,15 @@ export const SavedProjects = memo(function SavedProjects() {
               </h1>
 
               <p className="text-textSecondary mt-3 max-w-3xl leading-relaxed">
-                The public demo includes a saved Michigan infrastructure workflow with its project profile,
-                ranked grants, selected opportunity, and packet handoff. Live/local runs can save additional projects in the browser.
+                GrantPilot includes a saved Michigan infrastructure workflow with its project profile,
+                ranked grants, selected opportunity, and packet handoff. Additional browser runs can save more project snapshots.
               </p>
             </div>
 
             <div className="rounded-2xl border border-borderColor bg-bgPanelLight/50 p-4">
               <div className="text-sm text-textSecondary">Saved workflows</div>
               <div className="text-3xl font-black text-textPrimary mt-1">{projects.length}</div>
-              <div className="text-xs text-textSecondary mt-1">Includes public sample • browser saves more</div>
+              <div className="text-xs text-textSecondary mt-1">Includes sample workflow • browser saves more</div>
             </div>
           </div>
         </div>
@@ -231,7 +231,7 @@ function EmptySavedProjects({ hasProjects }: { hasProjects: boolean }) {
         {hasProjects ? "No saved projects match that search" : "No saved projects found"}
       </h2>
       <p className="text-textSecondary mt-3 max-w-2xl mx-auto leading-relaxed">
-        The public demo normally includes one sample workflow. Clear the search or replay Project Intake to restore it.
+        This preview normally includes one saved workflow. Clear the search or replay Project Intake to restore it.
       </p>
       <Link
         href="/intake"

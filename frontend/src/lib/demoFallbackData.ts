@@ -1,4 +1,4 @@
-// Portfolio-safe static fallback data for GrantPilot.
+// Static preview data for GrantPilot.
 // This file lets the public deployment work without backend, IBM, or trial API credentials.
 
 export const DEMO_PROJECT_PROFILE = {
@@ -830,7 +830,7 @@ export const DEMO_REFRESH_STATUS = {
     }
   },
   "recommendations": [
-    "Portfolio demo uses saved sample data so it works without live API credentials.",
+    "Saved preview data keeps the workflow reviewable without live credentials.",
     "Verify official grant sources before applying."
   ]
 } as const;
@@ -1633,21 +1633,21 @@ export const DEMO_VALIDATE_INTAKE = {
     "Confirm local match amount before applying."
   ],
   "recommendations": [
-    "Use the saved sample workflow for the public portfolio demo."
+    "Use the saved sample workflow for a consistent product preview."
   ]
 } as const;
 
 export const DEMO_CAPABILITIES = {
-  "service": "GrantPilot portfolio demo",
-  "version": "portfolio-safe",
-  "purpose": "Frontend-only fallback demonstration of grant matching and readiness workflow.",
+  "service": "GrantPilot portfolio preview",
+  "version": "portfolio-preview",
+  "purpose": "Frontend preview data for grant matching and readiness workflow.",
   "security_notes": [
-    "No live credentials are required for portfolio demo mode."
+    "No live credentials are required for the hosted preview."
   ]
 } as const;
 
 export const DEMO_DATASET_STATUS = {
-  "status": "cached_demo",
+  "status": "cached_preview",
   "record_count": 1177,
   "sources": [
     "Grants.gov",
@@ -1672,7 +1672,7 @@ export const DEMO_SCENARIOS = {
     {
       "id": "clare-transportation",
       "title": "Clare County transportation resilience",
-      "strength": "Portfolio sample",
+      "strength": "Portfolio preview",
       "expected_story": "Shows a rural transportation project moving from project need to ranked grants and readiness memo.",
       "project_description": "Clare County needs funding to improve a flood-prone rural road corridor with bridge and culvert upgrades, drainage improvements, ditch grading, and safer access for residents and emergency vehicles."
     },

@@ -181,7 +181,7 @@ export function isPortfolioDemoMode(): boolean {
 }
 
 export function getPortfolioDemoNotice(): string {
-  return "This public portfolio demo is using a saved sample workflow, so it remains reviewable without live API credentials.";
+  return "This portfolio preview uses a saved sample workflow, so the product remains reviewable without live credentials.";
 }
 
 export async function apiGet<T = AnyRecord>(path: string): Promise<T> {
@@ -246,7 +246,7 @@ function getDemoGetResponse(path: string): unknown {
   const pathname = url.pathname;
 
   if (pathname === "/api/health") {
-    return { ok: true, service: "GrantPilot frontend demo", mode: "portfolio demo" };
+    return { ok: true, service: "GrantPilot frontend preview", mode: "portfolio preview" };
   }
 
   if (pathname === "/api/grantpilot/stats") return DEMO_STATS;

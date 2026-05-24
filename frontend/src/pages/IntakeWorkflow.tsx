@@ -261,7 +261,7 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
       });
 
       if (demoMode) {
-        setWorkflowNotice(`Replayed the public sample workflow and saved it as “${snapshot.title}”.`);
+        setWorkflowNotice(`Replayed the saved sample workflow and saved it as “${snapshot.title}”.`);
       } else {
         setWorkflowNotice(`Live workflow complete. Saved “${snapshot.title}” so the packet and saved-project pages can continue from this run.`);
       }
@@ -327,11 +327,11 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
     [candidateGrants, displaySummary]
   );
   const hasDisplaySummary = Object.keys(displaySummary).length > 0;
-  const activeMode = offlineMode ? "Offline" : demoMode ? "Demo" : "Live";
+  const activeMode = offlineMode ? "Offline" : demoMode ? "Sample" : "Live";
   const activeModeDetail = offlineMode
     ? "Uses your latest browser-saved run"
     : demoMode
-      ? "Replays the saved public sample trace"
+      ? "Replays the saved sample workflow"
       : "Runs live agents when a backend is configured";
 
   return (
@@ -373,7 +373,7 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
               </div>
 
               <div className="mt-5 grid grid-cols-2 gap-3 text-sm">
-                <StatusPill label="API path" value={offlineMode ? "localStorage" : demoMode ? "static demo" : "grantpilot/run"} />
+                <StatusPill label="Data path" value={offlineMode ? "Browser saved" : demoMode ? "Saved sample" : "Live backend"} />
                 <StatusPill label="Review path" value={demoMode || offlineMode ? "Sample" : "Live"} />
               </div>
             </div>
@@ -421,7 +421,7 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
 
               <div className="rounded-2xl border border-borderColor bg-bgPanel/45 p-4">
                 <div className="text-xs font-black uppercase tracking-[0.16em] text-textSecondary mb-3">
-                  Demo story cues
+                  Story cues
                 </div>
                 <div className="space-y-2">
                   {scenarioPrompts.map((item) => (
@@ -441,11 +441,11 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
 
             <div className="mt-5 grid grid-cols-1 lg:grid-cols-2 gap-3">
               <ModeToggle
-                label="Saved Sample Mode"
+                label="Sample Workflow"
                 checked={demoMode}
                 disabled={offlineMode}
                 tone="primary"
-                description="Replay a saved backend trace for a consistent portfolio sample."
+                description="Replay a saved workflow for a consistent product walkthrough."
                 onChange={setDemoMode}
               />
               <ModeToggle
@@ -505,12 +505,12 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
                 {isRunning ? (
                   <>
                     <Loader2 className="w-5 h-5 mr-2 animate-spin" />
-                    {offlineMode ? "Loading saved run..." : demoMode ? "Loading saved trace..." : "Running live agents..."}
+                    {offlineMode ? "Loading saved run..." : demoMode ? "Loading sample workflow..." : "Running live agents..."}
                   </>
                 ) : (
                   <>
                     <PlayCircle className="w-5 h-5 mr-2" />
-                    {offlineMode ? "Open saved run" : demoMode ? "Replay latest trace" : "Run GrantPilot"}
+                    {offlineMode ? "Open saved run" : demoMode ? "Replay sample workflow" : "Run GrantPilot"}
                   </>
                 )}
               </button>
@@ -560,7 +560,7 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
           <div className="glass-panel rounded-3xl p-5 lg:p-6">
             <h2 className="text-xl font-black text-textPrimary mb-2 flex items-center">
               <Zap className="w-5 h-5 mr-2 text-primary" />
-              Demo-ready scenarios
+              Scenario library
             </h2>
             <p className="text-sm text-textSecondary mb-4 leading-relaxed">
               Pick one scenario and keep it consistent across Explorer, Translator, and Packet.
@@ -574,10 +574,10 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
                   className="w-full text-left p-4 rounded-2xl bg-bgPanel/50 border border-borderColor hover:border-primary/40 hover:bg-bgPanelLight transition-colors"
                 >
                   <div className="font-black text-textPrimary text-sm">
-                    {getStringField(scenario, "title", "Demo scenario")}
+                    {getStringField(scenario, "title", "Sample scenario")}
                   </div>
                   <div className="text-xs text-primary mt-1 font-bold">
-                    {getStringField(scenario, "strength", "demo")}
+                    {getStringField(scenario, "strength", "sample")}
                   </div>
                   <div className="text-xs text-textSecondary mt-2 leading-relaxed">
                     {truncate(getStringField(scenario, "expected_story"), 120)}
@@ -771,7 +771,7 @@ function WorkflowTimeline({
             Agent timeline
           </h2>
           <p className="text-sm text-textSecondary mt-1">
-            {offlineMode ? "Offline replay uses the latest saved result." : demoMode ? "Saved replay uses the public sample trace." : "Live mode runs the coordinated GrantPilot workflow."}
+            {offlineMode ? "Offline replay uses the latest saved result." : demoMode ? "Saved workflow shows the completed specialist review." : "Live mode runs the coordinated GrantPilot workflow."}
           </p>
         </div>
         <span className="inline-flex items-center px-3 py-1.5 rounded-full bg-bgPanelLight border border-borderColor text-xs font-black text-textSecondary">
