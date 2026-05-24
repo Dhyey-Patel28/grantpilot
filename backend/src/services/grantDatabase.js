@@ -133,6 +133,7 @@ function normalizeMasterGrant(grant) {
     source_kind: grant.source_kind || null,
     title: grant.title || "Untitled grant",
     agency: grant.agency || null,
+    external_id: grant.external_id || null,
     source_url: grant.source_url || grant.website || null,
     website: grant.website || grant.source_url || null,
     status: grant.status || "unknown",
@@ -144,6 +145,8 @@ function normalizeMasterGrant(grant) {
     eligible_applicants: Array.isArray(grant.eligible_applicants) ? grant.eligible_applicants : [],
     categories: Array.isArray(grant.categories) ? grant.categories : [],
     overview: grant.overview || grant.summary || grant.description || "",
+    last_refreshed: grant.last_refreshed || null,
+    source_health: grant.source_health || null,
     raw: grant.raw || {}
   };
 }
@@ -158,6 +161,8 @@ function toCandidateGrant(grant) {
     status: grant.status,
     source: grant.source,
     source_url: grant.source_url,
+    last_refreshed: grant.last_refreshed || null,
+    source_health: grant.source_health || null,
 
     // Keep candidate payload small for agents.
     // Full grant detail is still available through GET /api/grantpilot/grants/:id.
@@ -195,7 +200,9 @@ function toGrantListItem(grant) {
     match_required: grant.match_required,
     eligible_applicants: grant.eligible_applicants,
     categories: grant.categories,
-    overview: grant.overview
+    overview: grant.overview,
+    last_refreshed: grant.last_refreshed || null,
+    source_health: grant.source_health || null
   };
 }
 

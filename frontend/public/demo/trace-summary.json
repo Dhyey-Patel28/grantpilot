@@ -1,0 +1,84 @@
+{
+  "trace_id": "demo_trace_clare_transportation",
+  "status": "completed",
+  "steps": [
+    {
+      "step_number": 1,
+      "agent_name": "GrantPilot Project Profiler",
+      "action": "create_project_profile",
+      "status": "completed",
+      "duration_ms": 4100,
+      "output": {
+        "project_title": "Clare County transportation resilience project",
+        "community_name": "Clare County Road Commission",
+        "applicant_type": "County government / road agency",
+        "county": "Clare County",
+        "population": "30,000 residents served countywide",
+        "project_category": "Transportation infrastructure",
+        "project_stage": "Planning and early engineering",
+        "description": "Clare County needs funding to improve a flood-prone rural road corridor with bridge and culvert upgrades, drainage improvements, ditch grading, and safer access for residents and emergency vehicles.",
+        "estimated_cost": "$2,400,000",
+        "match_available": "Local road millage, engineering support, and in-kind staff time may be available as match, but the amount needs verification.",
+        "documents_available": [
+          "photos",
+          "meeting notes",
+          "cost estimate",
+          "location map",
+          "preliminary engineering memo"
+        ],
+        "impact_keywords": [
+          "transportation safety",
+          "bridge resilience",
+          "stormwater drainage",
+          "rural access",
+          "emergency response",
+          "public infrastructure"
+        ]
+      }
+    },
+    {
+      "step_number": 2,
+      "agent_name": "Backend Fit Scoring",
+      "action": "score_cached_grants",
+      "status": "completed",
+      "duration_ms": 900,
+      "output": {
+        "candidate_count": 5
+      }
+    },
+    {
+      "step_number": 3,
+      "agent_name": "GrantPilot Grant Relevance Judge",
+      "action": "judge_candidate_grants",
+      "status": "completed",
+      "duration_ms": 5200,
+      "output": {
+        "kept": 3,
+        "downranked": 1
+      }
+    },
+    {
+      "step_number": 4,
+      "agent_name": "GrantPilot Match Explainer",
+      "action": "explain_matches",
+      "status": "completed",
+      "duration_ms": 4700,
+      "output": {
+        "explanations": 3
+      }
+    },
+    {
+      "step_number": 5,
+      "agent_name": "GrantPilot Packet Writer",
+      "action": "prepare_packet_handoff",
+      "status": "completed",
+      "duration_ms": 5600,
+      "output": {
+        "packet_ready": true
+      }
+    }
+  ],
+  "duration_ms": 28000,
+  "agent_count": 5,
+  "summary": "Project profiled, grants scored, top matches explained, and packet handoff prepared."
+}

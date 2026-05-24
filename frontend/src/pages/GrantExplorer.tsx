@@ -2,17 +2,22 @@
 
 import Link from "next/link";
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import type { ReactNode } from "react";
 import {
   AlertTriangle,
   ArrowRight,
+  BadgeCheck,
   CheckCircle2,
   Database,
   ExternalLink,
+  FileCheck2,
   Filter,
   GitCompare,
   Loader2,
   Search,
+  ShieldCheck,
   Sparkles,
+  Target,
   X
 } from "lucide-react";
 import type { AnyRecord, GrantRecord } from "../lib/grantpilotApi";
@@ -21,6 +26,7 @@ import {
   asRecord,
   formatCurrencyLike,
   formatDate,
+  formatRelativeTime,
   getArrayField,
   getErrorMessage,
   getGrantScore,
@@ -33,6 +39,7 @@ import {
 } from "../lib/grantpilotApi";
 
 type ExplorerMode = "database" | "latest";
+type SortMode = "relevance" | "fit" | "deadline" | "freshness";
 
 const MAX_COMPARE_SELECTIONS = 3;
 
@@ -52,6 +59,8 @@ export const GrantExplorer = memo(function GrantExplorer() {
   const [source, setSource] = useState("");
   const [status, setStatus] = useState("");
   const [category, setCategory] = useState("");
+  const [sortMode, setSortMode] = useState<SortMode>("relevance");
+  const [onlyActionable, setOnlyActionable] = useState(true);
   const [mode, setMode] = useState<ExplorerMode>("database");
   const [facets, setFacets] = useState<AnyRecord | null>(null);
   const [databaseGrants, setDatabaseGrants] = useState<GrantRecord[]>([]);
@@ -72,7 +81,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
 
     setLatestRun(savedRun);
     setLatestMatches(latestGrants);
-    setMode("database");
+    setMode(latestGrants.length ? "latest" : "database");
 
     GrantPilotApi.facets()
       .then((output) => setFacets(asRecord(output)))
@@ -142,8 +151,14 @@ export const GrantExplorer = memo(function GrantExplorer() {
   const activeGrants = mode === "database" ? databaseGrants : latestMatches;
 
   const visibleGrants = useMemo(() => {
-    return filterAndRankGrants(activeGrants, query);
-  }, [activeGrants, query]);
+    return sortGrants(
+      filterAndRankGrants(activeGrants, query).filter((grant) => {
+        if (!onlyActionable) return true;
+        return !isProbablyClosed(grant);
+      }),
+      sortMode
+    );
+  }, [activeGrants, onlyActionable, query, sortMode]);
 
   const grantLookup = useMemo(() => {
     const lookup = new Map<string, GrantRecord>();
@@ -171,6 +186,8 @@ export const GrantExplorer = memo(function GrantExplorer() {
     mode === "database"
       ? `${visibleGrants.length} of ${totalDatabaseCount} grant records`
       : `${visibleGrants.length} project matches`;
+  const topGrant = visibleGrants[0] || null;
+  const activeProjectProfile = getLatestProjectProfile();
 
   const clearComparisonAndSelection = useCallback(() => {
     setCompareResult(null);
@@ -199,6 +216,8 @@ export const GrantExplorer = memo(function GrantExplorer() {
     setSource("");
     setStatus("");
     setCategory("");
+    setSortMode("relevance");
+    setOnlyActionable(true);
     setError("");
   }, []);
 
@@ -281,20 +300,20 @@ export const GrantExplorer = memo(function GrantExplorer() {
 
   return (
     <div className="max-w-7xl mx-auto space-y-6 pb-28">
-      <section className="rounded-[2rem] border border-primary/10 bg-bgPanel/75 shadow-xl shadow-black/5 overflow-hidden">
+      <section className="explorer-cinema rounded-[2rem] border border-primary/10 bg-bgPanel/75 shadow-xl shadow-black/5 overflow-hidden">
         <div className="p-6 lg:p-8">
           <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold mb-5">
             <Sparkles className="w-3.5 h-3.5 mr-2" />
-            Search real grant records
+            Ranked opportunity review
           </div>
 
-          <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_360px] gap-6 items-end">
+          <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_420px] gap-6 items-end">
             <div>
               <h1 className="text-3xl lg:text-5xl font-black text-textPrimary tracking-tight">
-                Find grants worth reviewing.
+                Turn search results into one clean funding decision.
               </h1>
               <p className="text-textSecondary mt-3 max-w-3xl leading-relaxed">
-                Search in everyday project words, review the full grant database, and compare promising opportunities without losing your place.
+                GrantPilot ranks opportunities, explains why they fit, shows source trust, and helps you choose the grant worth preparing first.
               </p>
             </div>
 
@@ -307,13 +326,28 @@ export const GrantExplorer = memo(function GrantExplorer() {
               <ModeButton
                 active={mode === "latest"}
                 onClick={openLatestMatches}
-                label="Latest matches"
+                label="Latest project matches"
                 disabled={!hasLatestMatches}
               />
             </div>
           </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-3 mt-8">
+            <ProcessPill icon={<Target className="w-4 h-4" />} title="Rank" copy="Sort by project fit and urgency" />
+            <ProcessPill icon={<ShieldCheck className="w-4 h-4" />} title="Verify" copy="Show source, status, and refresh age" />
+            <ProcessPill icon={<BadgeCheck className="w-4 h-4" />} title="Explain" copy="Summarize fit, risks, and next checks" />
+            <ProcessPill icon={<FileCheck2 className="w-4 h-4" />} title="Select" copy="Open one grant for packet prep" />
+          </div>
         </div>
       </section>
+
+      {topGrant && (
+        <FeaturedGrantPanel
+          grant={topGrant}
+          projectProfile={activeProjectProfile}
+          mode={mode}
+        />
+      )}
 
       {error && <ErrorBox message={error} />}
 
@@ -354,6 +388,29 @@ export const GrantExplorer = memo(function GrantExplorer() {
           />
         </div>
 
+        <div className="grid grid-cols-1 md:grid-cols-[220px_1fr] gap-3 mt-3">
+          <select
+            value={sortMode}
+            onChange={(event) => setSortMode(event.target.value as SortMode)}
+            className="bg-bgPanel/60 border border-borderColor rounded-xl px-4 py-3 text-sm text-textPrimary focus:outline-none focus:border-primary"
+          >
+            <option value="relevance">Sort: relevance</option>
+            <option value="fit">Sort: best fit score</option>
+            <option value="deadline">Sort: deadline soonest</option>
+            <option value="freshness">Sort: recently refreshed</option>
+          </select>
+
+          <label className="rounded-xl border border-borderColor bg-bgPanel/50 px-4 py-3 flex items-center justify-between gap-3 text-sm text-textSecondary cursor-pointer">
+            <span>Hide likely closed grants for a cleaner review list</span>
+            <input
+              type="checkbox"
+              checked={onlyActionable}
+              onChange={(event) => setOnlyActionable(event.target.checked)}
+              className="h-4 w-4 accent-primary"
+            />
+          </label>
+        </div>
+
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mt-4">
           <div className="flex flex-wrap gap-2">
             {quickSearchTerms.map((term) => (
@@ -382,7 +439,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
               {resultCountText}
             </span>
 
-            {(query || source || status || category) && (
+            {(query || source || status || category || sortMode !== "relevance" || !onlyActionable) && (
               <button
                 onClick={clearFilters}
                 className="text-primary font-bold hover:underline"
@@ -434,7 +491,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
         </div>
       ) : visibleGrants.length ? (
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
-          {visibleGrants.map((grant) => {
+          {visibleGrants.map((grant, index) => {
             const id = getGrantId(grant);
             const selected = Boolean(id && selectedIds.includes(id));
             const selectionDisabled =
@@ -444,6 +501,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
               <GrantCard
                 key={id || getGrantTitle(grant)}
                 grant={grant}
+                rank={index + 1}
                 selected={selected}
                 selectionDisabled={selectionDisabled}
                 onToggle={() => toggleSelected(grant)}
@@ -476,6 +534,107 @@ export const GrantExplorer = memo(function GrantExplorer() {
     </div>
   );
 });
+
+function ProcessPill({
+  icon,
+  title,
+  copy
+}: {
+  icon: ReactNode;
+  title: string;
+  copy: string;
+}) {
+  return (
+    <div className="rounded-2xl border border-borderColor bg-bgPanel/55 p-4">
+      <div className="flex items-center gap-2 text-primary font-black text-sm">
+        {icon}
+        {title}
+      </div>
+      <p className="text-xs text-textSecondary mt-2 leading-relaxed">{copy}</p>
+    </div>
+  );
+}
+
+function FeaturedGrantPanel({
+  grant,
+  projectProfile,
+  mode
+}: {
+  grant: GrantRecord;
+  projectProfile: AnyRecord | null;
+  mode: ExplorerMode;
+}) {
+  const id = getGrantId(grant);
+  const score = getGrantScore(grant);
+  const sourceUrl = getSourceUrl(grant);
+  const reasons = buildFitReasons(grant, projectProfile).slice(0, 3);
+
+  return (
+    <section className="rounded-[1.75rem] border border-secondary/20 bg-secondary/5 p-5 lg:p-6 shadow-lg shadow-black/5">
+      <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_320px] gap-6 items-start">
+        <div>
+          <div className="flex flex-wrap items-center gap-2 mb-3">
+            <span className="px-3 py-1 rounded-full bg-secondary text-white text-xs font-black">
+              Recommended first review
+            </span>
+            <span className="px-3 py-1 rounded-full bg-bgPanelLight text-textSecondary text-xs font-bold">
+              {mode === "latest" ? "From latest project run" : "From current filters"}
+            </span>
+          </div>
+
+          <h2 className="text-2xl lg:text-3xl font-black text-textPrimary leading-tight">
+            {getGrantTitle(grant)}
+          </h2>
+          <p className="text-sm text-textSecondary mt-2">
+            {String(grant.agency || "Agency not listed")} • {String(grant.source || "Unknown source")}
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-5">
+            <Metric label="Fit score" value={score !== null ? `${score}%` : "Review"} />
+            <Metric label="Deadline" value={formatDate(grant.due_date || grant.deadline)} />
+            <Metric label="Funding" value={formatCurrencyLike(grant.funding_amount)} />
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-borderColor bg-bgPanel/75 p-4">
+          <div className="text-xs font-black text-textSecondary uppercase tracking-[0.2em] mb-3">
+            Why this fit
+          </div>
+          <ul className="space-y-2">
+            {reasons.map((reason) => (
+              <li key={reason} className="flex items-start gap-2 text-sm text-textSecondary">
+                <CheckCircle2 className="w-4 h-4 text-secondary mt-0.5 shrink-0" />
+                <span>{reason}</span>
+              </li>
+            ))}
+          </ul>
+
+          <div className="flex flex-wrap gap-2 mt-5">
+            {id && (
+              <Link
+                onClick={() => saveSelectedGrant(grant)}
+                href={`/explorer/${id}`}
+                className="px-4 py-2 rounded-xl bg-primary hover:bg-primary/90 text-white text-sm font-black inline-flex items-center"
+              >
+                Review selected grant <ArrowRight className="w-4 h-4 ml-2" />
+              </Link>
+            )}
+            {sourceUrl && (
+              <a
+                href={sourceUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="px-4 py-2 rounded-xl border border-borderColor bg-bgPanelLight text-textPrimary text-sm font-bold inline-flex items-center"
+              >
+                Source <ExternalLink className="w-4 h-4 ml-2" />
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
 
 function ModeButton({
   active,
@@ -540,11 +699,13 @@ function FacetSelect({
 
 function GrantCard({
   grant,
+  rank,
   selected,
   selectionDisabled,
   onToggle
 }: {
   grant: GrantRecord;
+  rank: number;
   selected: boolean;
   selectionDisabled: boolean;
   onToggle: () => void;
@@ -553,12 +714,13 @@ function GrantCard({
   const id = getGrantId(grant);
   const sourceUrl = getSourceUrl(grant);
   const categories = getGrantCategories(grant).slice(0, 3);
+  const fitReasons = buildFitReasons(grant, getLatestProjectProfile()).slice(0, 3);
 
   const selectGrant = () => saveSelectedGrant(grant);
 
   return (
     <article
-      className={`rounded-2xl border p-5 transition-colors bg-bgPanel/70 shadow-sm ${
+      className={`explorer-card rounded-2xl border p-5 transition-colors bg-bgPanel/70 shadow-sm ${
         selected
           ? "border-secondary/70 ring-2 ring-secondary/20"
           : "border-borderColor hover:border-primary/40"
@@ -567,6 +729,9 @@ function GrantCard({
       <div className="flex items-start justify-between gap-4">
         <div className="min-w-0">
           <div className="flex flex-wrap gap-2 mb-3">
+            <span className="px-2.5 py-1 rounded-lg bg-primary text-white text-xs font-black">
+              #{rank}
+            </span>
             {score !== null && (
               <span className="px-2.5 py-1 rounded-lg bg-secondary/10 text-secondary text-xs font-black">
                 {score}% fit
@@ -591,6 +756,22 @@ function GrantCard({
           <p className="text-sm text-textSecondary mt-3 leading-relaxed">
             {truncate(stripHtml(grant.summary || grant.overview), 240)}
           </p>
+
+          <TrustBadges grant={grant} sourceUrl={sourceUrl} />
+
+          <div className="mt-4 rounded-2xl border border-borderColor bg-bgPanel/45 p-4">
+            <div className="text-xs font-black text-textSecondary uppercase tracking-[0.18em] mb-2">
+              Why this is worth reviewing
+            </div>
+            <ul className="space-y-2">
+              {fitReasons.map((reason) => (
+                <li key={reason} className="flex gap-2 text-sm text-textSecondary">
+                  <CheckCircle2 className="w-4 h-4 text-secondary mt-0.5 shrink-0" />
+                  <span>{reason}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
 
         <button
@@ -652,6 +833,39 @@ function GrantCard({
         )}
       </div>
     </article>
+  );
+}
+
+function TrustBadges({ grant, sourceUrl }: { grant: GrantRecord; sourceUrl: string }) {
+  const status = String(grant.status || "unknown").toLowerCase();
+  const openLabel = status.includes("open") || status.includes("posted") || status.includes("forecast")
+    ? "Possibly open"
+    : status === "unknown"
+      ? "Status unknown"
+      : "Check status";
+
+  const refreshed = grant.last_refreshed ? formatRelativeTime(grant.last_refreshed) : "Refresh unknown";
+
+  return (
+    <div className="flex flex-wrap gap-2 mt-4">
+      <span className="px-2.5 py-1 rounded-lg bg-secondary/10 text-secondary text-xs font-bold">
+        Source: {grant.source || "Unknown"}
+      </span>
+      <span className="px-2.5 py-1 rounded-lg bg-bgPanelLight text-textSecondary text-xs font-bold">
+        {refreshed}
+      </span>
+      <span className="px-2.5 py-1 rounded-lg bg-bgPanelLight text-textSecondary text-xs font-bold">
+        {openLabel}
+      </span>
+      <span className="px-2.5 py-1 rounded-lg bg-amber-400/10 text-amber-300 text-xs font-bold">
+        Human verify
+      </span>
+      {sourceUrl && (
+        <span className="px-2.5 py-1 rounded-lg bg-primary/10 text-primary text-xs font-bold">
+          Official link
+        </span>
+      )}
+    </div>
   );
 }
 
@@ -972,6 +1186,48 @@ function getComparisonReason(grant: GrantRecord) {
   return "This looks like a lower-confidence option. Review the official source before spending staff time on an application.";
 }
 
+function buildFitReasons(grant: GrantRecord, projectProfile: AnyRecord | null) {
+  const reasons: string[] = [];
+  const recommendation = String(grant.recommendation || "").trim();
+  const projectName = String(projectProfile?.project_title || projectProfile?.title || projectProfile?.project_type || "").trim();
+  const categories = getGrantCategories(grant).map((item) => item.toLowerCase());
+  const score = getGrantScore(grant);
+  const sourceUrl = getSourceUrl(grant);
+  const status = String(grant.status || "").toLowerCase();
+
+  if (recommendation) {
+    reasons.push(truncate(stripHtml(recommendation), 130));
+  }
+
+  if (score !== null && score >= 70) {
+    reasons.push("High project-fit score compared with other visible opportunities.");
+  } else if (score !== null && score >= 45) {
+    reasons.push("Moderate fit that is worth a secondary eligibility review.");
+  } else {
+    reasons.push("Potential match found; confirm fit before investing application time.");
+  }
+
+  if (projectName) {
+    reasons.push(`Reviewed against the latest project profile: ${truncate(projectName, 70)}.`);
+  } else if (categories.length) {
+    reasons.push(`Relevant category signals: ${categories.slice(0, 2).map(prettify).join(", ")}.`);
+  }
+
+  if (sourceUrl) {
+    reasons.push("Official source link is available for human verification.");
+  }
+
+  if (grant.last_refreshed) {
+    reasons.push(`Grant record refreshed ${formatRelativeTime(grant.last_refreshed)}.`);
+  }
+
+  if (!status.includes("closed") && !status.includes("archived")) {
+    reasons.push("Status does not look closed, but deadline and eligibility still need review.");
+  }
+
+  return Array.from(new Set(reasons)).slice(0, 4);
+}
+
 function mergeComparedGrants(selectedGrants: GrantRecord[], output: AnyRecord) {
   const backendGrants = getArrayField<GrantRecord>(output, "grants");
 
@@ -1013,6 +1269,43 @@ function dedupeGrants(grants: GrantRecord[]) {
   }
 
   return output;
+}
+
+function sortGrants(grants: GrantRecord[], sortMode: SortMode) {
+  const copy = [...grants];
+
+  if (sortMode === "fit") {
+    return copy.sort((a, b) => (getGrantScore(b) ?? -1) - (getGrantScore(a) ?? -1));
+  }
+
+  if (sortMode === "deadline") {
+    return copy.sort((a, b) => getDeadlineTime(a) - getDeadlineTime(b));
+  }
+
+  if (sortMode === "freshness") {
+    return copy.sort((a, b) => getRefreshTime(b) - getRefreshTime(a));
+  }
+
+  return copy;
+}
+
+function isProbablyClosed(grant: GrantRecord) {
+  const status = normalizeText(grant.status);
+  if (!status) return false;
+  return status.includes("closed") || status.includes("archived") || status.includes("inactive");
+}
+
+function getDeadlineTime(grant: GrantRecord) {
+  const raw = grant.due_date || grant.deadline;
+  if (!raw) return Number.POSITIVE_INFINITY;
+  const timestamp = new Date(String(raw)).getTime();
+  return Number.isNaN(timestamp) ? Number.POSITIVE_INFINITY : timestamp;
+}
+
+function getRefreshTime(grant: GrantRecord) {
+  if (!grant.last_refreshed) return 0;
+  const timestamp = new Date(String(grant.last_refreshed)).getTime();
+  return Number.isNaN(timestamp) ? 0 : timestamp;
 }
 
 function filterAndRankGrants(grants: GrantRecord[], query: string) {

@@ -226,7 +226,7 @@ export const Translator = memo(function Translator() {
 
             <div className="rounded-2xl border border-borderColor bg-bgPanelLight/50 p-4">
               <div className="text-sm font-black text-textPrimary mb-3">
-                Best demo path
+                Recommended workflow
               </div>
               <div className="space-y-2 text-sm text-textSecondary">
                 <MiniStep done={Boolean(selectedGrantId)} label="Select grant in Explorer" />

@@ -104,3 +104,29 @@ async function saveTrace(run) {
   const filePath = path.join(TRACE_DIR, `${run.trace_id}.json`);
   await fs.writeFile(filePath, JSON.stringify(run, null, 2), "utf8");
 }
+
+export async function getLatestCompletedTrace() {
+  await fs.mkdir(TRACE_DIR, { recursive: true });
+
+  const files = await fs.readdir(TRACE_DIR);
+  const completed = [];
+
+  for (const file of files.filter((name) => name.endsWith(".json"))) {
+    try {
+      const raw = await fs.readFile(path.join(TRACE_DIR, file), "utf8");
+      const trace = JSON.parse(raw);
+
+      if (trace?.status === "completed" && trace?.final_result) {
+        completed.push(trace);
+      }
+    } catch {
+      // Ignore corrupt trace files so demo mode still works.
+    }
+  }
+
+  completed.sort((a, b) => {
+    return new Date(b.completed_at || b.created_at).getTime() - new Date(a.completed_at || a.created_at).getTime();
+  });
+
+  return completed[0] || null;
+}

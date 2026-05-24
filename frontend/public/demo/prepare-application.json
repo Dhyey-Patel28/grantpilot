@@ -1,0 +1,142 @@
+{
+  "trace_id": "demo_trace_prepare_clare_transportation",
+  "result": {
+    "selected_grant": {
+      "id": "grantsgov_351567",
+      "title": "Fiscal Year (FY) 2023 through FY 2026 Bridge Investment Program, Planning and Bridge Project Grants",
+      "agency": "Dan Hull Grantor",
+      "source": "Grants.gov",
+      "source_url": "https://www.grants.gov/search-results-detail/351567",
+      "status": "open",
+      "due_date": "2026-06-29",
+      "deadline": null,
+      "funding_amount": "80,000,000",
+      "match_required": "Yes",
+      "overview": "<p>The purpose of this notice is to solicit applications for two funding categories: (1) Planning and (2) Bridge Project grants (a project with total eligible costs not greater than $100 million) for awards under the Bridge Investment Program (BIP). This notice establishes a \u201crolling application\u201d process for Planning and Bridge Project applications by providing the schedule, requirements, and selection process for such projects for the remaining available amounts of the BIP funding provided by the Infrastructure Investment and Jobs Act (IIJA) for FY 2023 through FY 2026, which total up to $9.7 billion (see section B.1 for details for funds available for each fiscal year). FHWA is soliciting applications for the other BIP project category in a separate NOFO available on Grants.gov, listing number 693JJ323NF00019: Large Bridge Project (a project with total eligible costs greater than $100 million). A total of up to $3.0 billion of FY 2025 and FY 2026 remains available for Large Bridge Project grants and Bridge Project grants.</p><p><br></p><p><strong><u>This Amendment No. 2</u></strong> amends the announcement published on December 20, 2023.&nbsp;This amended NOFO among other things aligns the NOFO with current Administration and Department policies and priorities, provides a process for FY 2025 cycle applications to amend their applications, and other updates.&nbsp;A redline version of the NOFO that identifies amendments is provided in addition to the clean version.&nbsp;Eligible applicants shall submit new applications that are responsive to this NOFO for consideration by June 15, 2026 for Planning applications and June 29, 2026 for Bridge Project applications.&nbsp;Applicants currently under consideration for a submission prior to October 1, 2024 for Planning applications and November 1, 2024 for Bridge Project applications, will be notified of the amendment process, as detailed in the NOFO Amendment No. 2. See Related Document section for copy of amended NOFO.</p>",
+      "summary": null,
+      "categories": [
+        "transportation"
+      ],
+      "eligible_applicants": [
+        "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+      ],
+      "last_refreshed": "2026-05-16T14:07:03.211Z",
+      "source_health": "cached_detail",
+      "fit_score": 94,
+      "score": 94,
+      "deterministic_score": 94,
+      "recommendation": "Strong transportation infrastructure fit for bridge planning and project grants; verify bridge eligibility and local match."
+    },
+    "requirements": {
+      "plain_english_summary": "The Bridge Investment Program can support planning and bridge project work for eligible bridge improvements. The local team should verify that the corridor asset is eligible, confirm the match requirement, and prepare source documentation before applying.",
+      "eligibility_requirements": [
+        "Applicant must be an eligible public entity or partner with one.",
+        "Project should involve bridge planning, bridge replacement, rehabilitation, preservation, or protection.",
+        "Project costs, asset condition, and public benefit should be documented."
+      ],
+      "required_documents": [
+        "Official NOFO/application instructions",
+        "Bridge or corridor location map",
+        "Cost estimate and funding plan",
+        "Asset condition or inspection documentation",
+        "Public benefit/safety narrative",
+        "Local authorization or board/council memo",
+        "Match documentation if required"
+      ],
+      "deadlines": [
+        "Rolling/application windows should be verified on the official source page.",
+        "Cached record deadline: June 29, 2026."
+      ],
+      "match_requirements": [
+        "Match appears required in the cached record; verify the exact percentage and eligible match sources before applying."
+      ],
+      "funding_limits": [
+        "Cached federal opportunity lists an award ceiling around $80,000,000, but the project-specific cap and category should be verified in the NOFO."
+      ],
+      "application_steps": [
+        "Open official source and confirm current deadline.",
+        "Confirm bridge/project eligibility.",
+        "Gather cost, location, and asset-condition documents.",
+        "Prepare project narrative and public benefit summary.",
+        "Review match and local authorization requirements."
+      ],
+      "risk_warnings": [
+        "Do not assume eligibility from the title alone.",
+        "Verify match, deadline, and application portal before submission.",
+        "Confirm whether the project fits Planning, Bridge Project, or another category."
+      ],
+      "human_review_needed": true
+    },
+    "readiness_gaps": {
+      "readiness_score": 78,
+      "ready_items": [
+        "Project need is clear and tied to safety/resilience.",
+        "Applicant type appears plausible for transportation infrastructure funding.",
+        "Some supporting materials are already available."
+      ],
+      "missing_items": [
+        "Official eligibility confirmation",
+        "Final cost estimate",
+        "Bridge/asset condition documentation",
+        "Match source confirmation",
+        "Local authorization memo or resolution"
+      ],
+      "needs_verification": [
+        "Current deadline and application window",
+        "Eligible activity category",
+        "Required local match percentage",
+        "Official application portal and required attachments"
+      ],
+      "priority_actions": [
+        "Open the official source and confirm the active deadline.",
+        "Gather asset inspection/condition documents and location map.",
+        "Ask finance/engineering staff to confirm match availability.",
+        "Draft a one-page project narrative and public benefit summary.",
+        "Schedule human review of eligibility and required attachments."
+      ],
+      "recommended_before_applying": [
+        "Verify source details",
+        "Confirm local match",
+        "Attach cost and location documentation",
+        "Get staff/legal review before submission"
+      ]
+    },
+    "packet": {
+      "project_title": "Clare County Transportation Resilience Grant Readiness Memo",
+      "problem_statement": "Clare County has a rural road corridor where flooding, drainage limitations, and aging bridge or culvert assets create recurring access and safety concerns for residents, school travel, public works, and emergency response.",
+      "public_benefit": "The project would improve transportation safety, reduce weather-related disruptions, strengthen rural access, and support a more resilient public infrastructure network for residents and local services.",
+      "funding_request_summary": "GrantPilot identified the Bridge Investment Program as a high-priority opportunity to review. The project team should verify eligibility, match requirements, deadline timing, and required documentation before deciding whether to apply.",
+      "council_memo": "Staff should review the Bridge Investment Program opportunity as a potential funding path for bridge, culvert, and corridor resilience planning or project work. Before applying, the County should verify eligibility against the official NOFO, confirm match availability, compile asset/location documentation, and prepare a concise public benefit narrative.",
+      "resident_faq": [
+        "What is being considered? A transportation resilience project for a flood-prone rural road corridor.",
+        "Why does this matter? Better drainage and bridge/culvert assets can reduce closures and improve safety.",
+        "Is funding guaranteed? No. GrantPilot identifies opportunities for review; staff must verify and apply.",
+        "What happens next? Confirm eligibility, gather documents, and decide whether to pursue the application."
+      ],
+      "thirty_day_action_plan": [
+        "Confirm official deadline, match, and eligibility requirements.",
+        "Compile location map, photos, preliminary cost estimate, and asset condition documentation.",
+        "Draft project narrative focused on safety, resilience, and rural access.",
+        "Prepare a staff/council memo for authorization and match discussion.",
+        "Complete human review of requirements before submitting anything."
+      ],
+      "human_review_checklist": [
+        "Official source and deadline verified",
+        "Applicant and activity eligibility confirmed",
+        "Match requirement and funding plan reviewed",
+        "Required documents collected",
+        "NOFO and application portal checked by staff",
+        "Final language reviewed for no funding guarantees"
+      ]
+    },
+    "trust_review": {
+      "trust_status": "needs_human_review",
+      "issues_found": [
+        "Deadline, match percentage, and eligibility must be verified on the official source.",
+        "Do not present the grant as guaranteed funding.",
+        "Cached grant summaries may be stale or incomplete."
+      ],
+      "safe_final_language": "This packet is a planning aid. Staff should verify all official source details, eligibility, deadline, match, and attachments before applying."
+    }
+  }
+}

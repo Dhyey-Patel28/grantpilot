@@ -1,0 +1,13 @@
+{
+  "total_grants": 1177,
+  "by_source": {
+    "Grants.gov": 1045,
+    "MI Funding Hub": 132
+  },
+  "by_status": {
+    "open": 377,
+    "closing_soon": 177,
+    "unknown": 609,
+    "closed": 14
+  }
+}

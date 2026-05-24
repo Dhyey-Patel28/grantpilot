@@ -1,0 +1,34 @@
+{
+  "sources": [
+    "Grants.gov",
+    "MI Funding Hub"
+  ],
+  "statuses": [
+    "open",
+    "closing_soon",
+    "unknown",
+    "closed"
+  ],
+  "categories": [
+    "transportation",
+    "water",
+    "community_development",
+    "health"
+  ],
+  "source_counts": {
+    "Grants.gov": 1045,
+    "MI Funding Hub": 132
+  },
+  "status_counts": {
+    "open": 377,
+    "closing_soon": 177,
+    "unknown": 609,
+    "closed": 14
+  },
+  "category_counts": {
+    "transportation": 137,
+    "water": 45,
+    "community_development": 82,
+    "health": 91
+  }
+}

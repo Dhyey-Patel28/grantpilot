@@ -2,12 +2,15 @@
   "run_mode_note": "Use `npm run refresh` for a full cache refresh. Use `npm run refresh:fast` during demos/debugging.",
   "grants_gov": {
     "enabled": true,
-    "rows_per_keyword": 35,
-    "rows_per_keyword_fast": 12,
+    "rows_per_keyword": 100,
+    "rows_per_keyword_fast": 25,
     "fetch_details": true,
-    "max_detail_fetches": 500,
+    "max_detail_fetches": "all",
     "max_detail_fetches_fast": 75,
-    "delay_ms": 350
+    "delay_ms": 350,
+    "max_pages_per_keyword": "all",
+    "max_pages_per_keyword_fast": 2,
+    "refresh_notes": "Full refresh paginates Grants.gov search2 and fetches detail for all discovered opportunity ids. Fast mode intentionally limits pages/details."
   },
   "mifundinghub": {
     "enabled": true,

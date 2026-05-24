@@ -8,13 +8,16 @@ import {
   Bot,
   CheckCircle2,
   ClipboardList,
+  Clock3,
   Database,
   ExternalLink,
+  FileCheck2,
   FileText,
   Loader2,
   PlayCircle,
   ShieldCheck,
   Sparkles,
+  Target,
   Zap
 } from "lucide-react";
 import type { AnyRecord, GrantPilotRunResponse, GrantRecord } from "../lib/grantpilotApi";
@@ -25,27 +28,58 @@ import {
   asRecord,
   asString,
   formatCurrencyLike,
+  formatRelativeTime,
   getArrayField,
   getErrorMessage,
   getGrantScore,
   getRecordField,
   getStringField,
+  getLatestRun,
+  getOfflineMode,
+  loadJson,
   saveJson,
   saveLatestRun,
+  saveProjectSnapshotFromRun,
   saveSelectedGrant,
+  setOfflineMode,
   STORAGE_KEYS,
   truncate
 } from "../lib/grantpilotApi";
 
 const fallbackProject =
-  "Clare County has a broken bridge causing flooding and commute delays. The county wants funding to repair the bridge. Estimated cost is $100,000 and no match is available.";
+  "A small Michigan township has repeated flooding along a residential road corridor. The project includes stormwater drainage improvements, culvert replacement, ditch grading, and green infrastructure where possible. The township needs funding for design, engineering, and construction, with limited local match available.";
 
-const stepLabels = [
-  "Route request",
-  "Profile project",
-  "Score grants",
-  "Review fit",
-  "Explain matches"
+const workflowSteps = [
+  {
+    key: "profile",
+    label: "Project Profiler",
+    description: "Normalize the rough description into location, applicant, cost, need, and project category.",
+    agent: "Project Profiler"
+  },
+  {
+    key: "score",
+    label: "Grant Scoring",
+    description: "Search the refreshed grant database and score opportunities against the project profile.",
+    agent: "Backend scoring"
+  },
+  {
+    key: "judge",
+    label: "Relevance Judge",
+    description: "Keep, downrank, or reject matches based on domain fit and eligibility risk.",
+    agent: "Grant Relevance Judge"
+  },
+  {
+    key: "explain",
+    label: "Match Explainer",
+    description: "Turn the best matches into reviewable plain-English reasons, risks, and next steps.",
+    agent: "Match Explainer"
+  },
+  {
+    key: "ready",
+    label: "Packet Handoff",
+    description: "Save the run so the packet, translator, and saved-project pages can continue the workflow.",
+    agent: "GrantPilot Coordinator"
+  }
 ];
 
 const documentSuggestions = [
@@ -55,6 +89,13 @@ const documentSuggestions = [
   "engineering memo",
   "map",
   "budget"
+];
+
+const scenarioPrompts = [
+  "Michigan township stormwater corridor",
+  "county bridge flooding repair",
+  "rural drinking water upgrade",
+  "public safety equipment replacement"
 ];
 
 function getInitialDescription(): string {
@@ -69,9 +110,17 @@ function getInitialDescription(): string {
   }
 }
 
+function getInitialDemoMode(): boolean {
+  return loadJson<boolean>(STORAGE_KEYS.demoMode, false) === true;
+}
+
+function getInitialOfflineMode(): boolean {
+  return getOfflineMode();
+}
+
 export const IntakeWorkflow = memo(function IntakeWorkflow() {
   const [projectDescription, setProjectDescription] = useState(getInitialDescription);
-  const [documentsText, setDocumentsText] = useState("");
+  const [documentsText, setDocumentsText] = useState("photos, cost estimate, meeting notes");
   const [demoScenarios, setDemoScenarios] = useState<AnyRecord[]>([]);
   const [validation, setValidation] = useState<AnyRecord | null>(null);
   const [response, setResponse] = useState<GrantPilotRunResponse | null>(null);
@@ -79,10 +128,11 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
   const [isRunning, setIsRunning] = useState(false);
   const [isValidating, setIsValidating] = useState(false);
   const [error, setError] = useState("");
+  const [workflowNotice, setWorkflowNotice] = useState("");
+  const [demoMode, setDemoMode] = useState(getInitialDemoMode);
+  const [offlineMode, setOfflineModeState] = useState(getInitialOfflineMode);
 
   const resultRef = useRef<HTMLDivElement | null>(null);
-  const formCardRef = useRef<HTMLDivElement | null>(null);
-  const [rightRailMaxHeight, setRightRailMaxHeight] = useState<number | null>(null);
 
   useEffect(() => {
     GrantPilotApi.demoScenarios()
@@ -91,39 +141,12 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
   }, []);
 
   useEffect(() => {
-    const updateRightRailHeight = () => {
-      if (typeof window === "undefined" || window.innerWidth < 1280) {
-        setRightRailMaxHeight(null);
-        return;
-      }
+    saveJson(STORAGE_KEYS.demoMode, demoMode);
+  }, [demoMode]);
 
-      const formCard = formCardRef.current;
-      if (!formCard) {
-        return;
-      }
-
-      const measuredHeight = Math.ceil(formCard.getBoundingClientRect().height);
-      setRightRailMaxHeight(Math.max(460, measuredHeight));
-    };
-
-    updateRightRailHeight();
-
-    const observer =
-      typeof ResizeObserver !== "undefined" && formCardRef.current
-        ? new ResizeObserver(updateRightRailHeight)
-        : null;
-
-    if (observer && formCardRef.current) {
-      observer.observe(formCardRef.current);
-    }
-
-    window.addEventListener("resize", updateRightRailHeight);
-
-    return () => {
-      observer?.disconnect();
-      window.removeEventListener("resize", updateRightRailHeight);
-    };
-  }, []);
+  useEffect(() => {
+    setOfflineMode(offlineMode);
+  }, [offlineMode]);
 
   const documentsAvailable = useMemo(() => {
     return documentsText
@@ -141,7 +164,8 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
       return {
         label: "Strong intake",
         tone: "secondary",
-        detail: "Enough context for useful matching."
+        progress: 92,
+        detail: "Enough context for high-quality matching and packet generation."
       };
     }
 
@@ -149,14 +173,16 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
       return {
         label: "Good start",
         tone: "primary",
-        detail: "Add documents or match details if available."
+        progress: 68,
+        detail: "Add documents, match status, or deadline pressure if available."
       };
     }
 
     return {
       label: "Needs detail",
       tone: "warning",
-      detail: "Add location, cost, applicant type, and project need."
+      progress: 38,
+      detail: "Add location, applicant type, need, cost, and documents."
     };
   }, [descriptionWordCount, documentsAvailable.length]);
 
@@ -179,6 +205,18 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
     }
   }, [documentsAvailable, projectDescription]);
 
+  const hydrateTraceSummary = useCallback(async (run: GrantPilotRunResponse) => {
+    if (!run.trace_id) return;
+    const summary = await GrantPilotApi.traceSummary(run.trace_id).catch(() => null);
+    setTraceSummary(asRecord(summary));
+  }, []);
+
+  const scrollToResults = useCallback(() => {
+    window.setTimeout(() => {
+      resultRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 100);
+  }, []);
+
   const runWorkflow = useCallback(async () => {
     if (!projectDescription.trim()) {
       setError("Please describe the project before running GrantPilot.");
@@ -187,32 +225,71 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
 
     setIsRunning(true);
     setError("");
+    setWorkflowNotice("");
     setTraceSummary(null);
     setValidation(null);
 
     try {
-      const output = await GrantPilotApi.run({
-        project_description: projectDescription,
-        documents_available: documentsAvailable
-      });
+      if (offlineMode) {
+        const savedRun = getLatestRun();
+
+        if (!savedRun) {
+          throw new Error("Offline Mode needs one saved run first. Turn Offline Mode off, run GrantPilot once, then try again.");
+        }
+
+        setResponse(savedRun);
+        setWorkflowNotice("Offline Mode loaded your latest successful run from this browser. No live API call was made.");
+        await hydrateTraceSummary(savedRun);
+        scrollToResults();
+        return;
+      }
+
+      const output = demoMode
+        ? await GrantPilotApi.demoLatestRun()
+        : await GrantPilotApi.run({
+            project_description: projectDescription,
+            documents_available: documentsAvailable
+          });
 
       setResponse(output);
       saveLatestRun(output);
+      const snapshot = saveProjectSnapshotFromRun({
+        description: projectDescription,
+        documents_available: documentsAvailable,
+        response: output
+      });
 
-      if (output.trace_id) {
-        const summary = await GrantPilotApi.traceSummary(output.trace_id).catch(() => null);
-        setTraceSummary(asRecord(summary));
+      if (demoMode) {
+        setWorkflowNotice(`Replayed the latest completed workflow trace and saved it as “${snapshot.title}”.`);
+      } else {
+        setWorkflowNotice(`Live workflow complete. Saved “${snapshot.title}” so the packet and saved-project pages can continue from this run.`);
       }
 
-      window.setTimeout(() => {
-        resultRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-      }, 100);
+      await hydrateTraceSummary(output);
+      scrollToResults();
     } catch (err: unknown) {
+      if (!demoMode && !offlineMode) {
+        const savedRun = loadJson<GrantPilotRunResponse>(STORAGE_KEYS.latestRun, null);
+
+        if (savedRun) {
+          setResponse(savedRun);
+          const snapshot = saveProjectSnapshotFromRun({
+            description: projectDescription,
+            documents_available: documentsAvailable,
+            response: savedRun
+          });
+          setWorkflowNotice(`Live run failed, so GrantPilot loaded your latest saved successful run and kept “${snapshot.title}” available in Saved Projects.`);
+          await hydrateTraceSummary(savedRun);
+          scrollToResults();
+          return;
+        }
+      }
+
       setError(getErrorMessage(err, "GrantPilot workflow failed."));
     } finally {
       setIsRunning(false);
     }
-  }, [documentsAvailable, projectDescription]);
+  }, [demoMode, documentsAvailable, hydrateTraceSummary, offlineMode, projectDescription, scrollToResults]);
 
   const applyScenario = useCallback((scenario: AnyRecord) => {
     setProjectDescription(getStringField(scenario, "project_description"));
@@ -220,6 +297,7 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
     setValidation(null);
     setResponse(null);
     setTraceSummary(null);
+    setWorkflowNotice("");
     setError("");
   }, []);
 
@@ -248,77 +326,134 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
     [candidateGrants, displaySummary]
   );
   const hasDisplaySummary = Object.keys(displaySummary).length > 0;
+  const activeMode = offlineMode ? "Offline" : demoMode ? "Demo" : "Live";
+  const activeModeDetail = offlineMode
+    ? "Uses your latest browser-saved run"
+    : demoMode
+      ? "Replays the latest saved trace"
+      : "Runs live IBM watsonx agents";
 
   return (
-    <div className="max-w-7xl mx-auto space-y-6 pb-16">
-      <section className="rounded-[2rem] border border-primary/10 bg-bgPanel/75 shadow-xl shadow-black/5 overflow-hidden">
-        <div className="p-6 lg:p-8">
-          <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_320px] gap-6 items-end">
+    <div className="max-w-7xl mx-auto space-y-7 pb-16 intake-cinema">
+      <section className="production-surface intake-hero rounded-[2rem] overflow-hidden">
+        <div className="relative p-6 lg:p-9">
+          <div className="absolute inset-y-0 right-0 w-1/2 bg-gradient-to-l from-primary/10 via-secondary/5 to-transparent pointer-events-none" />
+          <div className="relative grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_360px] gap-8 items-center">
             <div>
-              <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold mb-5">
+              <div className="inline-flex items-center px-3 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-black mb-5">
                 <Sparkles className="w-3.5 h-3.5 mr-2" />
-                Live IBM watsonx Orchestrate workflow
+                {activeMode} workflow · production intake
               </div>
 
-              <h1 className="text-3xl lg:text-5xl font-black text-textPrimary tracking-tight">
-                Tell us about the project.
+              <h1 className="text-4xl lg:text-6xl font-black text-textPrimary tracking-tight leading-[0.95] max-w-4xl">
+                Turn rough project notes into a grant-ready workflow.
               </h1>
 
-              <p className="text-textSecondary mt-3 max-w-3xl leading-relaxed">
-                GrantPilot turns a rough Michigan community project into a project profile,
-                ranked grant matches, fit explanations, and readiness next steps.
+              <p className="text-textSecondary mt-5 max-w-3xl leading-relaxed text-base lg:text-lg">
+                GrantPilot profiles the project, searches the refreshed grant database, asks specialist agents to review fit,
+                and saves the run for the readiness packet reveal.
               </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-7 max-w-3xl">
+                <HeroMetric icon={Database} label="Grant DB" value="1,177+" detail="normalized records" />
+                <HeroMetric icon={Bot} label="Agents" value="8" detail="specialist reviewers" />
+                <HeroMetric icon={ShieldCheck} label="Output" value="Review-safe" detail="human verification first" />
+              </div>
             </div>
 
-            <div className="rounded-2xl border border-borderColor bg-bgPanelLight/50 p-4">
-              <div className="flex items-center text-sm text-textSecondary mb-2">
-                <Database className="w-4 h-4 mr-2 text-primary" />
-                Backend status
+            <div className="rounded-3xl border border-white/10 bg-bgPanel/80 shadow-2xl p-5">
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <div className="text-xs font-black uppercase tracking-[0.2em] text-textSecondary">Current run mode</div>
+                  <div className="text-3xl font-black text-textPrimary mt-2">{activeMode}</div>
+                  <p className="text-sm text-textSecondary mt-2 leading-relaxed">{activeModeDetail}</p>
+                </div>
+                <span className={`h-3 w-3 rounded-full mt-1 ${offlineMode ? "bg-amber-400" : demoMode ? "bg-primary" : "bg-secondary"}`} />
               </div>
-              <div className="text-lg font-black text-textPrimary">
-                Real API connected
-              </div>
-              <div className="text-xs text-textSecondary mt-1">
-                POST /api/grantpilot/run
+
+              <div className="mt-5 grid grid-cols-2 gap-3 text-sm">
+                <StatusPill label="API path" value={offlineMode ? "localStorage" : demoMode ? "saved/latest-run" : "grantpilot/run"} />
+                <StatusPill label="Review path" value={demoMode || offlineMode ? "Saved" : "Live"} />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_360px] gap-6 items-start">
+      <section className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_390px] gap-6 items-start">
         <div className="space-y-6 min-w-0">
-          <div ref={formCardRef} className="glass-panel rounded-2xl p-6 lg:p-7">
-            <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5">
+          <div className="glass-panel rounded-3xl p-6 lg:p-7 overflow-hidden">
+            <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-5 mb-6">
               <div>
-                <h2 className="text-2xl font-black text-textPrimary">
-                  Project notes
+                <div className="flex items-center text-sm font-black text-primary mb-2">
+                  <ClipboardList className="w-4 h-4 mr-2" />
+                  Project intake
+                </div>
+                <h2 className="text-2xl lg:text-3xl font-black text-textPrimary">
+                  Start with one clear scenario.
                 </h2>
-                <p className="text-sm text-textSecondary mt-1">
-                  Plain language is fine. Include the community, problem, cost, applicant, match, and documents if known.
+                <p className="text-sm text-textSecondary mt-2 max-w-2xl">
+                  Keep the workflow focused: one applicant, one public problem, one funding need, one strong packet reveal.
                 </p>
               </div>
 
               <IntakeStrengthBadge
                 label={intakeStrength.label}
                 detail={intakeStrength.detail}
+                progress={intakeStrength.progress}
                 tone={intakeStrength.tone}
               />
             </div>
 
-            <label className="block text-sm font-bold text-textPrimary mb-2">
-              Describe the project
-            </label>
-            <textarea
-              value={projectDescription}
-              onChange={(event) => setProjectDescription(event.target.value)}
-              className="w-full min-h-[170px] bg-bgPanel/60 border border-borderColor rounded-2xl p-4 text-sm text-textPrimary focus:outline-none focus:border-primary resize-y"
-              placeholder="Example: Clare County has a broken bridge causing flooding and commute delays..."
-            />
+            <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_220px] gap-4 items-start">
+              <div>
+                <label className="block text-sm font-bold text-textPrimary mb-2">
+                  Scenario description
+                </label>
+                <textarea
+                  value={projectDescription}
+                  onChange={(event) => setProjectDescription(event.target.value)}
+                  className="w-full min-h-[210px] bg-bgPanel/60 border border-borderColor rounded-2xl p-4 text-sm text-textPrimary focus:outline-none focus:border-primary resize-y leading-relaxed"
+                  placeholder="Example: A Michigan township has repeated flooding along a residential road corridor..."
+                />
+              </div>
+
+              <div className="rounded-2xl border border-borderColor bg-bgPanel/45 p-4">
+                <div className="text-xs font-black uppercase tracking-[0.16em] text-textSecondary mb-3">
+                  Demo story cues
+                </div>
+                <div className="space-y-2">
+                  {scenarioPrompts.map((item) => (
+                    <div key={item} className="flex items-start text-sm text-textSecondary">
+                      <CheckCircle2 className="w-4 h-4 mr-2 mt-0.5 text-secondary shrink-0" />
+                      <span>{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
 
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mt-3 text-xs text-textSecondary">
-              <span>{descriptionWordCount} words</span>
-              <span>Tip: “who needs funding + where + what changed + cost + match” gives the best results.</span>
+              <span>{descriptionWordCount} words · {documentsAvailable.length} document signals</span>
+              <span>Best input pattern: community + problem + project + cost + match + documents.</span>
+            </div>
+
+            <div className="mt-5 grid grid-cols-1 lg:grid-cols-2 gap-3">
+              <ModeToggle
+                label="Saved Sample Mode"
+                checked={demoMode}
+                disabled={offlineMode}
+                tone="primary"
+                description="Replay a saved backend trace for a consistent portfolio sample."
+                onChange={setDemoMode}
+              />
+              <ModeToggle
+                label="Offline Mode"
+                checked={offlineMode}
+                tone="secondary"
+                description="Use only the latest browser-saved run. No live calls."
+                onChange={setOfflineModeState}
+              />
             </div>
 
             <div className="mt-5">
@@ -346,8 +481,15 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
               </div>
             </div>
 
+            {workflowNotice && (
+              <div className="mt-5 p-4 rounded-2xl bg-secondary/10 border border-secondary/20 text-secondary text-sm flex items-start">
+                <CheckCircle2 className="w-5 h-5 mr-3 shrink-0" />
+                {workflowNotice}
+              </div>
+            )}
+
             {error && (
-              <div className="mt-5 p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-300 text-sm flex items-start">
+              <div className="mt-5 p-4 rounded-2xl bg-red-500/10 border border-red-500/20 text-red-300 text-sm flex items-start">
                 <AlertTriangle className="w-5 h-5 mr-3 shrink-0" />
                 {error}
               </div>
@@ -357,17 +499,17 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
               <button
                 onClick={runWorkflow}
                 disabled={isRunning || !projectDescription.trim()}
-                className="bg-primary hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed text-white px-5 py-3 rounded-xl font-black transition-colors flex items-center justify-center"
+                className="bg-primary hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed text-white px-5 py-4 rounded-2xl font-black transition-colors flex items-center justify-center shadow-lg shadow-primary/20"
               >
                 {isRunning ? (
                   <>
                     <Loader2 className="w-5 h-5 mr-2 animate-spin" />
-                    Running live agents...
+                    {offlineMode ? "Loading saved run..." : demoMode ? "Loading saved trace..." : "Running live agents..."}
                   </>
                 ) : (
                   <>
                     <PlayCircle className="w-5 h-5 mr-2" />
-                    Find grant matches
+                    {offlineMode ? "Open saved run" : demoMode ? "Replay latest trace" : "Run GrantPilot"}
                   </>
                 )}
               </button>
@@ -375,12 +517,12 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
               <button
                 onClick={runValidation}
                 disabled={isValidating || !projectDescription.trim()}
-                className="px-5 py-3 rounded-xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel text-textPrimary font-black transition-colors flex items-center justify-center"
+                className="px-5 py-4 rounded-2xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel text-textPrimary font-black transition-colors flex items-center justify-center"
               >
                 {isValidating ? (
                   <Loader2 className="w-5 h-5 mr-2 animate-spin" />
                 ) : (
-                  <ClipboardList className="w-5 h-5 mr-2" />
+                  <FileCheck2 className="w-5 h-5 mr-2" />
                 )}
                 Check intake
               </button>
@@ -389,7 +531,14 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
             {validation && <ValidationPanel validation={validation} />}
           </div>
 
-          {isRunning && <LiveWorkflowPanel />}
+          <WorkflowTimeline
+            isRunning={isRunning}
+            hasResult={hasDisplaySummary}
+            demoMode={demoMode}
+            offlineMode={offlineMode}
+            traceSummary={traceSummary}
+            traceSteps={traceSteps}
+          />
 
           <div ref={resultRef}>
             {hasDisplaySummary && (
@@ -406,17 +555,14 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
           </div>
         </div>
 
-        <aside
-          className="xl:sticky xl:top-6 space-y-4 xl:overflow-y-auto xl:overscroll-contain xl:pr-1 xl:[scrollbar-width:thin]"
-          style={rightRailMaxHeight ? { maxHeight: `${rightRailMaxHeight}px` } : undefined}
-        >
-          <div className="glass-panel rounded-2xl p-5 lg:p-6">
+        <aside className="xl:sticky xl:top-6 space-y-4">
+          <div className="glass-panel rounded-3xl p-5 lg:p-6">
             <h2 className="text-xl font-black text-textPrimary mb-2 flex items-center">
               <Zap className="w-5 h-5 mr-2 text-primary" />
-              Try a demo scenario
+              Demo-ready scenarios
             </h2>
-            <p className="text-sm text-textSecondary mb-4">
-              These are tuned to show strong matches, mismatch protection, and readiness output.
+            <p className="text-sm text-textSecondary mb-4 leading-relaxed">
+              Pick one scenario and keep it consistent across Explorer, Translator, and Packet.
             </p>
 
             <div className="space-y-3">
@@ -424,7 +570,7 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
                 <button
                   key={getStringField(scenario, "id", `scenario-${index}`)}
                   onClick={() => applyScenario(scenario)}
-                  className="w-full text-left p-4 rounded-xl bg-bgPanel/50 border border-borderColor hover:border-primary/40 hover:bg-bgPanelLight transition-colors"
+                  className="w-full text-left p-4 rounded-2xl bg-bgPanel/50 border border-borderColor hover:border-primary/40 hover:bg-bgPanelLight transition-colors"
                 >
                   <div className="font-black text-textPrimary text-sm">
                     {getStringField(scenario, "title", "Demo scenario")}
@@ -440,17 +586,16 @@ export const IntakeWorkflow = memo(function IntakeWorkflow() {
             </div>
           </div>
 
-          <div className="rounded-2xl border border-secondary/20 bg-secondary/5 p-5">
+          <div className="rounded-3xl border border-secondary/20 bg-secondary/5 p-5">
             <h3 className="font-black text-textPrimary flex items-center">
               <ShieldCheck className="w-5 h-5 mr-2 text-secondary" />
-              What happens next
+              Staff-facing output
             </h3>
-            <ol className="mt-4 space-y-3 text-sm text-textSecondary">
-              <li><span className="font-black text-textPrimary">1.</span> Build a project profile.</li>
-              <li><span className="font-black text-textPrimary">2.</span> Score the real grant database.</li>
-              <li><span className="font-black text-textPrimary">3.</span> Ask IBM agents to review fit.</li>
-              <li><span className="font-black text-textPrimary">4.</span> Produce next steps staff can review.</li>
-            </ol>
+            <div className="mt-4 space-y-3 text-sm text-textSecondary">
+              <RailStep label="Project profile" detail="Applicant, cost, location, category, match status." />
+              <RailStep label="Ranked matches" detail="Grant cards with source, score, and review warnings." />
+              <RailStep label="Readiness packet" detail="Memo, FAQ, 30-day plan, and human checklist." />
+            </div>
           </div>
         </aside>
       </section>
@@ -475,36 +620,29 @@ function ResultsSection({
   traceSteps: AnyRecord[];
   traceId?: string;
 }) {
+  const primaryGrant = topGrants[0];
+  const score = primaryGrant ? getGrantScore(primaryGrant) : null;
+
   return (
     <div className="space-y-6">
-      <div className="rounded-2xl border border-secondary/20 bg-secondary/5 p-6 lg:p-7">
-        <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-5">
+      <div className="rounded-3xl border border-secondary/20 bg-gradient-to-br from-secondary/10 via-bgPanel/70 to-primary/5 p-6 lg:p-7 overflow-hidden">
+        <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
           <div>
             <div className="flex items-center text-secondary text-sm font-black mb-2">
               <CheckCircle2 className="w-5 h-5 mr-2" />
               Workflow complete
             </div>
-            <h2 className="text-2xl lg:text-3xl font-black text-textPrimary">
+            <h2 className="text-2xl lg:text-4xl font-black text-textPrimary tracking-tight">
               {getStringField(displaySummary, "title", "GrantPilot match summary")}
             </h2>
             <p className="text-textSecondary mt-3 max-w-4xl leading-relaxed">
-              {getStringField(displaySummary, "plain_english_summary")}
+              {getStringField(displaySummary, "plain_english_summary") || "GrantPilot created a project profile, ranked grant matches, and saved the workflow for packet preparation."}
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row lg:flex-col gap-3 shrink-0">
-            <Link
-              href="/explorer"
-              className="px-4 py-2.5 rounded-xl bg-primary hover:bg-primary/90 text-white font-black inline-flex items-center justify-center"
-            >
-              View matches <ArrowRight className="w-4 h-4 ml-2" />
-            </Link>
-            <Link
-              href="/packet"
-              className="px-4 py-2.5 rounded-xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel text-textPrimary font-black inline-flex items-center justify-center"
-            >
-              Create packet <FileText className="w-4 h-4 ml-2" />
-            </Link>
+          <div className="grid grid-cols-2 gap-3 shrink-0 min-w-[220px]">
+            <ResultKpi label="Top fit" value={score !== null ? `${score}%` : "Review"} />
+            <ResultKpi label="Matches" value={String(topGrants.length)} />
           </div>
         </div>
 
@@ -517,13 +655,32 @@ function ResultsSection({
             <Metric label="Match" value={asBoolean(projectProfile.match_available) ? "Available" : "Not available"} />
           </div>
         )}
+
+        <div className="flex flex-col sm:flex-row gap-3 mt-6">
+          <Link
+            href="/explorer"
+            className="px-4 py-3 rounded-2xl bg-primary hover:bg-primary/90 text-white font-black inline-flex items-center justify-center"
+          >
+            Review matches <ArrowRight className="w-4 h-4 ml-2" />
+          </Link>
+          <Link
+            href="/packet"
+            className="px-4 py-3 rounded-2xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel text-textPrimary font-black inline-flex items-center justify-center"
+          >
+            Open readiness packet <FileText className="w-4 h-4 ml-2" />
+          </Link>
+        </div>
       </div>
 
-      <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_360px] gap-6 items-start">
-        <div className="glass-panel rounded-2xl p-6 lg:p-7">
-          <h3 className="text-xl font-black text-textPrimary mb-4">
-            Best grant directions
-          </h3>
+      <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_380px] gap-6 items-start">
+        <div className="glass-panel rounded-3xl p-6 lg:p-7">
+          <div className="flex items-center justify-between gap-4 mb-5">
+            <div>
+              <h3 className="text-xl font-black text-textPrimary">Best grant directions</h3>
+              <p className="text-sm text-textSecondary mt-1">Saved for Explorer, Translator, and Packet.</p>
+            </div>
+            <Target className="w-6 h-6 text-primary" />
+          </div>
 
           <div className="space-y-3">
             {topGrants.length ? (
@@ -531,6 +688,7 @@ function ResultsSection({
                 <GrantMatchCard
                   key={getStableGrantKey(grant, index)}
                   grant={grant}
+                  rank={index + 1}
                   explanation={findExplanationForGrant(explanationHighlights, grant)}
                 />
               ))
@@ -542,10 +700,10 @@ function ResultsSection({
           </div>
         </div>
 
-        <div className="glass-panel rounded-2xl p-6 lg:p-7 xl:sticky xl:top-6">
+        <div className="glass-panel rounded-3xl p-6 lg:p-7 xl:sticky xl:top-6">
           <h3 className="text-xl font-black text-textPrimary mb-4 flex items-center">
             <ShieldCheck className="w-5 h-5 mr-2 text-secondary" />
-            Why these matches
+            Review rationale
           </h3>
 
           <div className="space-y-4">
@@ -553,7 +711,7 @@ function ResultsSection({
               explanationHighlights.slice(0, 3).map((item, index) => (
                 <div
                   key={`${getStringField(item, "grant_title", "grant")}-${index}`}
-                  className="p-4 rounded-xl bg-bgPanel/50 border border-borderColor"
+                  className="p-4 rounded-2xl bg-bgPanel/50 border border-borderColor"
                 >
                   <div className="text-sm font-black text-textPrimary">
                     {getStringField(item, "grant_title", "Grant")}
@@ -575,9 +733,9 @@ function ResultsSection({
         </div>
       </div>
 
-      <div className="glass-panel rounded-2xl p-6 lg:p-7">
+      <div className="glass-panel rounded-3xl p-6 lg:p-7">
         <h3 className="text-xl font-black text-textPrimary mb-4">
-          Workflow trace
+          Trace summary
         </h3>
         <TraceSummary traceSummary={traceSummary} traceSteps={traceSteps} traceId={traceId} />
       </div>
@@ -585,9 +743,93 @@ function ResultsSection({
   );
 }
 
+function WorkflowTimeline({
+  isRunning,
+  hasResult,
+  demoMode,
+  offlineMode,
+  traceSummary,
+  traceSteps
+}: {
+  isRunning: boolean;
+  hasResult: boolean;
+  demoMode: boolean;
+  offlineMode: boolean;
+  traceSummary: AnyRecord | null;
+  traceSteps: AnyRecord[];
+}) {
+  const summarySteps = getArrayField<AnyRecord>(traceSummary, "steps");
+  const realSteps = summarySteps.length ? summarySteps : traceSteps;
+
+  return (
+    <div className="glass-panel rounded-3xl p-6 lg:p-7">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
+        <div>
+          <h2 className="text-xl lg:text-2xl font-black text-textPrimary flex items-center">
+            <Bot className="w-6 h-6 mr-2 text-primary" />
+            Agent timeline
+          </h2>
+          <p className="text-sm text-textSecondary mt-1">
+            {offlineMode ? "Offline replay uses the latest saved result." : demoMode ? "Saved replay uses the latest completed backend trace." : "Live mode runs the coordinated GrantPilot workflow."}
+          </p>
+        </div>
+        <span className="inline-flex items-center px-3 py-1.5 rounded-full bg-bgPanelLight border border-borderColor text-xs font-black text-textSecondary">
+          {isRunning ? <Loader2 className="w-3.5 h-3.5 mr-2 animate-spin text-primary" /> : hasResult ? <CheckCircle2 className="w-3.5 h-3.5 mr-2 text-secondary" /> : <Clock3 className="w-3.5 h-3.5 mr-2" />}
+          {isRunning ? "Running" : hasResult ? "Complete" : "Ready"}
+        </span>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-3">
+        {workflowSteps.map((step, index) => {
+          const trace = realSteps[index];
+          const traceStatus = getStringField(trace, "status");
+          const status = isRunning && index <= 2 ? "running" : hasResult ? traceStatus || "complete" : "waiting";
+          return <TimelineCard key={step.key} step={step} index={index} status={status} trace={trace} />;
+        })}
+      </div>
+    </div>
+  );
+}
+
+function TimelineCard({
+  step,
+  index,
+  status,
+  trace
+}: {
+  step: typeof workflowSteps[number];
+  index: number;
+  status: string;
+  trace?: AnyRecord;
+}) {
+  const isDone = ["complete", "completed", "success", "succeeded"].includes(status.toLowerCase());
+  const isRunning = status.toLowerCase() === "running";
+  const durationMs = Number(asRecord(trace).duration_ms ?? 0);
+
+  return (
+    <div className={`relative p-4 rounded-2xl border ${isDone ? "border-secondary/25 bg-secondary/10" : isRunning ? "border-primary/30 bg-primary/10" : "border-borderColor bg-bgPanel/45"}`}>
+      <div className="flex items-center justify-between mb-3">
+        <span className="h-8 w-8 rounded-full bg-bgPanelLight border border-borderColor flex items-center justify-center text-xs font-black text-textPrimary">
+          {index + 1}
+        </span>
+        {isRunning ? <Loader2 className="w-4 h-4 animate-spin text-primary" /> : isDone ? <CheckCircle2 className="w-4 h-4 text-secondary" /> : <Clock3 className="w-4 h-4 text-textSecondary" />}
+      </div>
+      <div className="text-sm font-black text-textPrimary leading-snug">{step.label}</div>
+      <div className="text-[11px] text-primary font-bold mt-1">{getStringField(trace, "agent_name", step.agent)}</div>
+      <p className="text-xs text-textSecondary mt-3 leading-relaxed">{step.description}</p>
+      {durationMs > 0 && (
+        <div className="text-[11px] text-textSecondary mt-3 flex items-center">
+          <Clock3 className="w-3 h-3 mr-1" />
+          {Math.round(durationMs / 1000)}s
+        </div>
+      )}
+    </div>
+  );
+}
+
 function ValidationPanel({ validation }: { validation: AnyRecord }) {
   return (
-    <div className="mt-5 rounded-xl bg-bgPanel/50 border border-borderColor p-4">
+    <div className="mt-5 rounded-2xl bg-bgPanel/50 border border-borderColor p-4">
       <div className="flex items-center mb-3">
         {asBoolean(validation.valid) ? (
           <CheckCircle2 className="w-5 h-5 text-secondary mr-2" />
@@ -607,77 +849,60 @@ function ValidationPanel({ validation }: { validation: AnyRecord }) {
   );
 }
 
-function LiveWorkflowPanel() {
-  return (
-    <div className="glass-panel rounded-2xl p-6 lg:p-7">
-      <h2 className="text-lg font-black text-textPrimary mb-4 flex items-center">
-        <Bot className="w-5 h-5 mr-2 text-primary" />
-        Running live workflow
-      </h2>
-
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-3">
-        {stepLabels.map((label, index) => (
-          <div key={label} className="p-4 rounded-xl bg-primary/10 border border-primary/20">
-            <div className="flex items-center justify-between mb-2">
-              <span className="text-xs text-textSecondary">Step {index + 1}</span>
-              <Loader2 className="w-4 h-4 animate-spin text-primary" />
-            </div>
-            <div className="text-sm font-bold text-textPrimary">{label}</div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
 function GrantMatchCard({
   grant,
+  rank,
   explanation
 }: {
   grant: GrantRecord;
+  rank: number;
   explanation: AnyRecord | null;
 }) {
   const score = getGrantScore(grant);
   const sourceUrl = getGrantSourceUrl(grant);
   const id = getStringField(asRecord(grant), "id");
+  const lastRefreshed = grant.last_refreshed ? formatRelativeTime(grant.last_refreshed) : "source date unknown";
 
   const handleSelect = () => {
     saveSelectedGrant(grant);
   };
 
   return (
-    <div className="p-4 rounded-xl bg-bgPanel/50 border border-borderColor hover:border-primary/30 transition-colors">
+    <div className="p-4 rounded-2xl bg-bgPanel/50 border border-borderColor hover:border-primary/30 transition-colors">
       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
         <div className="min-w-0">
-          <div className="flex flex-wrap items-center gap-2 mb-2">
+          <div className="flex flex-wrap items-center gap-2 mb-3">
+            <span className="px-2.5 py-1 rounded-lg bg-bgPanelLight text-textPrimary text-xs font-black">
+              #{rank}
+            </span>
             {score !== null && (
-              <span className="px-2 py-1 rounded-lg bg-secondary/10 text-secondary text-xs font-black">
+              <span className="px-2.5 py-1 rounded-lg bg-secondary/10 text-secondary text-xs font-black">
                 {score}% fit
               </span>
             )}
-            <span className="px-2 py-1 rounded-lg bg-primary/10 text-primary text-xs font-bold">
+            <span className="px-2.5 py-1 rounded-lg bg-primary/10 text-primary text-xs font-bold">
               {grant.source || "Source unknown"}
             </span>
             {grant.status && (
-              <span className="px-2 py-1 rounded-lg bg-bgPanelLight text-textSecondary text-xs">
+              <span className="px-2.5 py-1 rounded-lg bg-bgPanelLight text-textSecondary text-xs">
                 {grant.status}
               </span>
             )}
           </div>
 
-          <h4 className="font-black text-textPrimary leading-snug">
+          <h4 className="font-black text-textPrimary leading-snug text-base">
             {grant.title || "Untitled grant"}
           </h4>
           <p className="text-sm text-textSecondary mt-1">
-            {grant.agency || "Agency not listed"}
+            {grant.agency || "Agency not listed"} · refreshed {lastRefreshed}
           </p>
 
           <p className="text-sm text-textSecondary mt-3 leading-relaxed">
-            {truncate(grant.summary || grant.overview, 180)}
+            {truncate(grant.summary || grant.overview, 190)}
           </p>
 
           {explanation && (
-            <p className="text-sm text-textSecondary mt-3 rounded-xl bg-secondary/5 border border-secondary/10 p-3 leading-relaxed">
+            <p className="text-sm text-textSecondary mt-3 rounded-2xl bg-secondary/5 border border-secondary/10 p-3 leading-relaxed">
               {getStringField(explanation, "summary")}
             </p>
           )}
@@ -688,7 +913,7 @@ function GrantMatchCard({
             <Link
               href={`/explorer/${id}`}
               onClick={handleSelect}
-              className="px-3 py-2 rounded-lg bg-primary hover:bg-primary/90 text-white text-sm font-bold text-center"
+              className="px-3 py-2 rounded-xl bg-primary hover:bg-primary/90 text-white text-sm font-bold text-center"
             >
               Details
             </Link>
@@ -698,7 +923,7 @@ function GrantMatchCard({
               href={sourceUrl}
               target="_blank"
               rel="noreferrer"
-              className="px-3 py-2 rounded-lg border border-borderColor bg-bgPanelLight hover:bg-bgPanel text-textPrimary text-sm font-bold inline-flex items-center justify-center"
+              className="px-3 py-2 rounded-xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel text-textPrimary text-sm font-bold inline-flex items-center justify-center"
             >
               Source <ExternalLink className="w-3.5 h-3.5 ml-1" />
             </a>
@@ -709,13 +934,45 @@ function GrantMatchCard({
   );
 }
 
+function HeroMetric({
+  icon: Icon,
+  label,
+  value,
+  detail
+}: {
+  icon: typeof Database;
+  label: string;
+  value: string;
+  detail: string;
+}) {
+  return (
+    <div className="rounded-2xl border border-white/10 bg-bgPanel/55 p-4">
+      <Icon className="w-5 h-5 text-primary mb-3" />
+      <div className="text-xs font-black uppercase tracking-[0.16em] text-textSecondary">{label}</div>
+      <div className="text-2xl font-black text-textPrimary mt-1">{value}</div>
+      <div className="text-xs text-textSecondary mt-1">{detail}</div>
+    </div>
+  );
+}
+
+function StatusPill({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="rounded-2xl bg-bgPanelLight/70 border border-borderColor p-3">
+      <div className="text-[11px] uppercase tracking-[0.16em] text-textSecondary font-black">{label}</div>
+      <div className="text-sm font-black text-textPrimary mt-1 truncate">{value}</div>
+    </div>
+  );
+}
+
 function IntakeStrengthBadge({
   label,
   detail,
+  progress,
   tone
 }: {
   label: string;
   detail: string;
+  progress: number;
   tone: string;
 }) {
   const className =
@@ -726,18 +983,79 @@ function IntakeStrengthBadge({
         : "border-amber-400/20 bg-amber-400/10 text-amber-500";
 
   return (
-    <div className={`rounded-2xl border px-4 py-3 ${className}`}>
-      <div className="text-sm font-black">{label}</div>
-      <div className="text-xs opacity-90 mt-1">{detail}</div>
+    <div className={`rounded-2xl border px-4 py-3 min-w-[240px] ${className}`}>
+      <div className="flex items-center justify-between gap-3">
+        <div className="text-sm font-black">{label}</div>
+        <div className="text-xs font-black">{progress}%</div>
+      </div>
+      <div className="mt-3 h-2 rounded-full bg-black/10 overflow-hidden">
+        <div className="h-full rounded-full bg-current" style={{ width: `${progress}%` }} />
+      </div>
+      <div className="text-xs opacity-90 mt-2 leading-relaxed">{detail}</div>
+    </div>
+  );
+}
+
+function ModeToggle({
+  label,
+  description,
+  checked,
+  disabled = false,
+  tone,
+  onChange
+}: {
+  label: string;
+  description: string;
+  checked: boolean;
+  disabled?: boolean;
+  tone: "primary" | "secondary";
+  onChange: (value: boolean) => void;
+}) {
+  const activeClass = tone === "primary" ? "border-primary/30 bg-primary/10" : "border-secondary/30 bg-secondary/10";
+
+  return (
+    <label className={`flex items-start gap-3 rounded-2xl border p-4 cursor-pointer transition-colors ${checked ? activeClass : "border-borderColor bg-bgPanel/40"} ${disabled ? "opacity-50 cursor-not-allowed" : ""}`}>
+      <input
+        type="checkbox"
+        checked={checked}
+        disabled={disabled}
+        onChange={(event) => onChange(event.target.checked)}
+        className={`mt-1 h-4 w-4 ${tone === "primary" ? "accent-primary" : "accent-secondary"}`}
+      />
+      <span>
+        <span className="block text-sm font-black text-textPrimary">{label}</span>
+        <span className="block text-xs text-textSecondary mt-1 leading-relaxed">{description}</span>
+      </span>
+    </label>
+  );
+}
+
+function RailStep({ label, detail }: { label: string; detail: string }) {
+  return (
+    <div className="flex gap-3">
+      <CheckCircle2 className="w-4 h-4 text-secondary mt-0.5 shrink-0" />
+      <div>
+        <div className="font-black text-textPrimary">{label}</div>
+        <div className="text-xs text-textSecondary mt-1 leading-relaxed">{detail}</div>
+      </div>
+    </div>
+  );
+}
+
+function ResultKpi({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="rounded-2xl bg-bgPanel/60 border border-borderColor p-4 text-center">
+      <div className="text-xs font-black uppercase tracking-[0.16em] text-textSecondary">{label}</div>
+      <div className="text-2xl font-black text-textPrimary mt-1">{value}</div>
     </div>
   );
 }
 
 function Metric({ label, value }: { label: string; value: unknown }) {
   return (
-    <div className="p-3 rounded-xl bg-bgPanel/50 border border-borderColor">
+    <div className="p-3 rounded-2xl bg-bgPanel/50 border border-borderColor">
       <div className="text-xs text-textSecondary">{label}</div>
-      <div className="font-black text-textPrimary mt-1">{String(value ?? "Unknown")}</div>
+      <div className="font-black text-textPrimary mt-1 truncate">{String(value ?? "Unknown")}</div>
     </div>
   );
 }
@@ -792,12 +1110,12 @@ function TraceSummary({
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
-        {steps.map((step, index) => {
+        {steps.length ? steps.map((step, index) => {
           const durationMs = Number(step.duration_ms ?? 0);
           return (
             <div
               key={`${getStringField(step, "agent_name", "agent")}-${getStringField(step, "action", "action")}-${index}`}
-              className="p-4 rounded-xl bg-bgPanel/50 border border-borderColor"
+              className="p-4 rounded-2xl bg-bgPanel/50 border border-borderColor"
             >
               <div className="text-xs text-textSecondary mb-2">
                 Step {asString(step.step_number, String(index + 1))}
@@ -815,7 +1133,9 @@ function TraceSummary({
               )}
             </div>
           );
-        })}
+        }) : (
+          <p className="text-sm text-textSecondary">Run GrantPilot to see the saved trace summary.</p>
+        )}
       </div>
     </div>
   );

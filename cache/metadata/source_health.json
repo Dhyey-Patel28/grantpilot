@@ -1,0 +1,437 @@
+{
+  "status": "ok",
+  "mode": "full",
+  "started_at": "2026-05-21T01:14:13.981Z",
+  "finished_at": "2026-05-21T01:36:33.681Z",
+  "duration_ms": 1339700,
+  "grants_gov": {
+    "enabled": true,
+    "searches": [
+      {
+        "source": "Grants.gov",
+        "keyword": "water infrastructure",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:15.004Z",
+        "pages_fetched": 2,
+        "total_available": 520,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "drinking water",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:15.961Z",
+        "pages_fetched": 2,
+        "total_available": 189,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "wastewater",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:16.440Z",
+        "pages_fetched": 1,
+        "total_available": 32,
+        "total_hits_fetched": 32,
+        "unique_opportunity_ids": 32,
+        "duplicate_hits": 0
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "stormwater",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:16.929Z",
+        "pages_fetched": 1,
+        "total_available": 8,
+        "total_hits_fetched": 8,
+        "unique_opportunity_ids": 8,
+        "duplicate_hits": 0
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "sewer infrastructure",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:18.008Z",
+        "pages_fetched": 2,
+        "total_available": 472,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "lead service line",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:19.023Z",
+        "pages_fetched": 2,
+        "total_available": 947,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "rural development",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:20.033Z",
+        "pages_fetched": 2,
+        "total_available": 1118,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "community development",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:21.001Z",
+        "pages_fetched": 2,
+        "total_available": 1272,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "downtown revitalization",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:21.464Z",
+        "pages_fetched": 1,
+        "total_available": 18,
+        "total_hits_fetched": 18,
+        "unique_opportunity_ids": 18,
+        "duplicate_hits": 0
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "housing",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:22.423Z",
+        "pages_fetched": 2,
+        "total_available": 200,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "affordable housing",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:23.395Z",
+        "pages_fetched": 2,
+        "total_available": 226,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "workforce housing",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:24.413Z",
+        "pages_fetched": 2,
+        "total_available": 406,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "broadband",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:24.886Z",
+        "pages_fetched": 1,
+        "total_available": 34,
+        "total_hits_fetched": 34,
+        "unique_opportunity_ids": 34,
+        "duplicate_hits": 0
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "digital equity",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:25.885Z",
+        "pages_fetched": 2,
+        "total_available": 374,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "transportation safety",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:26.985Z",
+        "pages_fetched": 2,
+        "total_available": 513,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "road safety",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:28.052Z",
+        "pages_fetched": 2,
+        "total_available": 482,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "bridge",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:28.539Z",
+        "pages_fetched": 1,
+        "total_available": 68,
+        "total_hits_fetched": 68,
+        "unique_opportunity_ids": 68,
+        "duplicate_hits": 0
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "safe routes to school",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:29.596Z",
+        "pages_fetched": 2,
+        "total_available": 1857,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "public safety",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:30.755Z",
+        "pages_fetched": 2,
+        "total_available": 858,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "emergency management",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:31.762Z",
+        "pages_fetched": 2,
+        "total_available": 729,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "fire department",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:32.788Z",
+        "pages_fetched": 2,
+        "total_available": 624,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "energy resilience",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:33.810Z",
+        "pages_fetched": 2,
+        "total_available": 287,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "energy efficiency",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:34.811Z",
+        "pages_fetched": 2,
+        "total_available": 354,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "clean energy",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:35.766Z",
+        "pages_fetched": 2,
+        "total_available": 230,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "climate resilience",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:36.755Z",
+        "pages_fetched": 2,
+        "total_available": 205,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "brownfield",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:37.212Z",
+        "pages_fetched": 1,
+        "total_available": 2,
+        "total_hits_fetched": 2,
+        "unique_opportunity_ids": 2,
+        "duplicate_hits": 0
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "environmental remediation",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:38.227Z",
+        "pages_fetched": 2,
+        "total_available": 371,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "agriculture",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:39.193Z",
+        "pages_fetched": 2,
+        "total_available": 158,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "food systems",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:40.178Z",
+        "pages_fetched": 2,
+        "total_available": 872,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "workforce development",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:41.165Z",
+        "pages_fetched": 2,
+        "total_available": 1137,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "childcare",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:41.652Z",
+        "pages_fetched": 1,
+        "total_available": 20,
+        "total_hits_fetched": 20,
+        "unique_opportunity_ids": 20,
+        "duplicate_hits": 0
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "public health",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:42.718Z",
+        "pages_fetched": 2,
+        "total_available": 1127,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "rural health",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:43.713Z",
+        "pages_fetched": 2,
+        "total_available": 955,
+        "total_hits_fetched": 200,
+        "unique_opportunity_ids": 100,
+        "duplicate_hits": 100
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "parks recreation",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:44.241Z",
+        "pages_fetched": 1,
+        "total_available": 91,
+        "total_hits_fetched": 91,
+        "unique_opportunity_ids": 91,
+        "duplicate_hits": 0
+      },
+      {
+        "source": "Grants.gov",
+        "keyword": "libraries",
+        "status": "ok",
+        "fetched_at": "2026-05-21T01:14:44.725Z",
+        "pages_fetched": 1,
+        "total_available": 95,
+        "total_hits_fetched": 95,
+        "unique_opportunity_ids": 95,
+        "duplicate_hits": 0
+      }
+    ],
+    "detail_fetch": {
+      "source": "Grants.gov",
+      "endpoint": "https://api.grants.gov/v1/api/fetchOpportunity",
+      "status": "ok",
+      "finished_at": "2026-05-21T01:19:09.879Z",
+      "queued": 1045,
+      "attempted": 1045,
+      "fetched_live": 545,
+      "cache_hits": 500,
+      "failed": 0,
+      "errors": []
+    }
+  },
+  "mi_funding_hub": {
+    "enabled": true,
+    "discovery": {
+      "status": "ok",
+      "finished_at": "2026-05-21T01:32:57.026Z",
+      "known_urls": 132
+    },
+    "detail_scrape": {
+      "status": "ok",
+      "finished_at": "2026-05-21T01:36:33.171Z",
+      "known_urls": 132
+    }
+  },
+  "errors": [],
+  "normalization": {
+    "status": "ok",
+    "grants_before_dedupe": 1177,
+    "grants_after_dedupe": 1177,
+    "duplicate_count": 0,
+    "by_source_before_dedupe": {
+      "Grants.gov": 1045,
+      "MI Funding Hub": 132
+    },
+    "by_source_after_dedupe": {
+      "Grants.gov": 1045,
+      "MI Funding Hub": 132
+    }
+  }
+}

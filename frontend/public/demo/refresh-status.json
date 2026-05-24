@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "status": "portfolio_demo",
+  "last_refreshed": "2026-05-21T01:36:14.831Z",
+  "normalized_grant_count": 1177,
+  "normalized_grants": 1177,
+  "by_source": {
+    "Grants.gov": 1045,
+    "MI Funding Hub": 132
+  },
+  "by_status": {
+    "open": 377,
+    "closing_soon": 177,
+    "unknown": 609,
+    "closed": 14
+  },
+  "source_health": {
+    "status": "portfolio_demo",
+    "Grants.gov": {
+      "status": "cached",
+      "records": 1045,
+      "last_refreshed": "2026-05-16T14:08:40.959Z"
+    },
+    "MI Funding Hub": {
+      "status": "cached",
+      "records": 132,
+      "last_refreshed": "2026-05-21T01:36:14.831Z"
+    }
+  },
+  "recommendations": [
+    "Portfolio demo uses saved sample data so it works without live API credentials.",
+    "Verify official grant sources before applying."
+  ]
+}

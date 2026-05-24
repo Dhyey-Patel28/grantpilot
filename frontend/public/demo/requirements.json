@@ -1,0 +1,40 @@
+{
+  "plain_english_summary": "The Bridge Investment Program can support planning and bridge project work for eligible bridge improvements. The local team should verify that the corridor asset is eligible, confirm the match requirement, and prepare source documentation before applying.",
+  "eligibility_requirements": [
+    "Applicant must be an eligible public entity or partner with one.",
+    "Project should involve bridge planning, bridge replacement, rehabilitation, preservation, or protection.",
+    "Project costs, asset condition, and public benefit should be documented."
+  ],
+  "required_documents": [
+    "Official NOFO/application instructions",
+    "Bridge or corridor location map",
+    "Cost estimate and funding plan",
+    "Asset condition or inspection documentation",
+    "Public benefit/safety narrative",
+    "Local authorization or board/council memo",
+    "Match documentation if required"
+  ],
+  "deadlines": [
+    "Rolling/application windows should be verified on the official source page.",
+    "Cached record deadline: June 29, 2026."
+  ],
+  "match_requirements": [
+    "Match appears required in the cached record; verify the exact percentage and eligible match sources before applying."
+  ],
+  "funding_limits": [
+    "Cached federal opportunity lists an award ceiling around $80,000,000, but the project-specific cap and category should be verified in the NOFO."
+  ],
+  "application_steps": [
+    "Open official source and confirm current deadline.",
+    "Confirm bridge/project eligibility.",
+    "Gather cost, location, and asset-condition documents.",
+    "Prepare project narrative and public benefit summary.",
+    "Review match and local authorization requirements."
+  ],
+  "risk_warnings": [
+    "Do not assume eligibility from the title alone.",
+    "Verify match, deadline, and application portal before submission.",
+    "Confirm whether the project fits Planning, Bridge Project, or another category."
+  ],
+  "human_review_needed": true
+}

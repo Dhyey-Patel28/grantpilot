@@ -11,7 +11,7 @@ interface LayoutProps {
 
 export const Layout = memo(function Layout({ children }: LayoutProps) {
   return (
-    <div className="flex h-screen bg-bgApp text-textPrimary overflow-hidden relative transition-colors duration-200">
+    <div data-grantpilot-shell className="flex h-screen bg-bgApp text-textPrimary overflow-hidden relative transition-colors duration-200">
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
         <div className="absolute top-[-12%] left-[-8%] w-[38%] h-[38%] bg-primary/10 rounded-full blur-[80px] mix-blend-screen" />
         <div className="absolute top-[18%] right-[-8%] w-[28%] h-[28%] bg-secondary/10 rounded-full blur-[70px] mix-blend-screen" />

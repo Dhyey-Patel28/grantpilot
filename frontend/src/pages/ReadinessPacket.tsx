@@ -6,13 +6,18 @@ import type { ReactNode } from "react";
 import {
   AlertTriangle,
   ArrowRight,
+  BadgeCheck,
+  CalendarDays,
   CheckCircle2,
   ClipboardCheck,
   Copy,
   Database,
+  Download,
+  ExternalLink,
   FileSignature,
   FileText,
   Loader2,
+  Printer,
   RotateCcw,
   ShieldCheck,
   Sparkles
@@ -21,6 +26,7 @@ import type { AnyRecord, GrantRecord } from "../lib/grantpilotApi";
 import {
   GrantPilotApi,
   asArray,
+  formatTimestamp,
   getErrorMessage,
   getGrantScore,
   getLatestCandidateGrants,
@@ -28,6 +34,8 @@ import {
   getRecordField,
   getSelectedGrant,
   getStringField,
+  exportJsonFile,
+  exportTextFile,
   savePreparedApplication,
   saveSelectedGrant,
   stripHtml
@@ -51,6 +59,7 @@ export const ReadinessPacket = memo(function ReadinessPacket() {
   const [documentsText, setDocumentsText] = useState("");
   const [isPreparing, setIsPreparing] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [exported, setExported] = useState("");
   const [error, setError] = useState("");
 
   useEffect(() => {
@@ -86,6 +95,10 @@ export const ReadinessPacket = memo(function ReadinessPacket() {
 
   const readinessScore = getReadinessScore(readiness);
   const readinessTone = getReadinessTone(readinessScore);
+  const requiredDocuments = asCleanList(requirements.required_documents);
+  const priorityActions = asCleanList(readiness.priority_actions);
+  const trustIssues = asCleanList(trust.issues_found);
+  const reviewChecklist = asCleanList(packet.human_review_checklist);
 
   const selectCandidateGrant = useCallback((grant: GrantRecord) => {
     setSelectedGrant(grant);
@@ -148,51 +161,89 @@ export const ReadinessPacket = memo(function ReadinessPacket() {
     }
   }, [documentsAvailable, projectProfile, selectedGrant]);
 
-  const copyPacket = useCallback(async () => {
-    if (!hasPacket) return;
+  const packetText = useMemo(() => {
+    if (!hasPacket) return "";
 
-    const text = buildReadablePacketText({
+    return buildReadablePacketText({
       packet,
       readiness,
       trust,
       requirements,
-      grant: packetGrant
+      grant: packetGrant,
+      projectProfile
     });
+  }, [hasPacket, packet, packetGrant, projectProfile, readiness, requirements, trust]);
 
-    await navigator.clipboard.writeText(text);
+  const exportBaseName = useMemo(() => {
+    const title = getStringField(packet, "project_title", "grantpilot-readiness-packet");
+    return slugify(title || "grantpilot-readiness-packet");
+  }, [packet]);
+
+  const copyPacket = useCallback(async () => {
+    if (!hasPacket || !packetText) return;
+
+    await navigator.clipboard.writeText(packetText);
     setCopied(true);
     window.setTimeout(() => setCopied(false), 1800);
-  }, [hasPacket, packet, packetGrant, readiness, requirements, trust]);
+  }, [hasPacket, packetText]);
+
+  const downloadMarkdown = useCallback(() => {
+    if (!hasPacket || !packetText) return;
+
+    exportTextFile(`${exportBaseName}.md`, packetText, "text/markdown;charset=utf-8");
+    setExported("Markdown downloaded");
+    window.setTimeout(() => setExported(""), 1800);
+  }, [exportBaseName, hasPacket, packetText]);
+
+  const downloadJson = useCallback(() => {
+    if (!hasPacket) return;
+
+    exportJsonFile(`${exportBaseName}.json`, {
+      generated_at: new Date().toISOString(),
+      grant: packetGrant,
+      packet,
+      requirements,
+      readiness,
+      trust
+    });
+    setExported("JSON downloaded");
+    window.setTimeout(() => setExported(""), 1800);
+  }, [exportBaseName, hasPacket, packet, packetGrant, readiness, requirements, trust]);
+
+  const printPacket = useCallback(() => {
+    if (!hasPacket) return;
+    window.print();
+  }, [hasPacket]);
 
   return (
     <div className="max-w-7xl mx-auto space-y-6 pb-16">
-      <section className="rounded-[2rem] border border-secondary/10 bg-bgPanel/75 shadow-xl shadow-black/5 overflow-hidden">
+      <section className="production-surface rounded-[2rem] overflow-hidden">
         <div className="p-6 lg:p-8">
-          <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_360px] gap-6 items-end">
+          <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_410px] gap-7 items-end">
             <div>
-              <div className="inline-flex items-center px-3 py-1 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-xs font-bold mb-5">
-                <Sparkles className="w-3.5 h-3.5 mr-2" />
-                Packet Writer + Trust Guard
+              <div className="inline-flex items-center px-3 py-1 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-xs font-black mb-5">
+                <FileSignature className="w-3.5 h-3.5 mr-2" />
+                Staff-ready grant memo
               </div>
 
-              <h1 className="text-3xl lg:text-5xl font-black text-textPrimary tracking-tight">
-                Build a review-ready starter packet.
+              <h1 className="text-3xl lg:text-5xl font-black text-textPrimary tracking-tight max-w-4xl">
+                Turn a grant match into a professional readiness packet.
               </h1>
 
-              <p className="text-textSecondary mt-3 max-w-3xl leading-relaxed">
-                Turn one selected grant and one project profile into requirements, readiness gaps,
-                council memo language, resident FAQ, a 30-day action plan, and trust-reviewed caveats.
+              <p className="text-textSecondary mt-4 max-w-3xl leading-relaxed">
+                Generate a clean memo-style packet with the project case, funding fit, document gaps,
+                priority actions, and human verification notes before anyone treats it as submission-ready.
               </p>
             </div>
 
-            <div className="rounded-2xl border border-borderColor bg-bgPanelLight/50 p-4">
-              <div className="text-sm font-black text-textPrimary mb-3">
-                Packet workflow
+            <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-4">
+              <div className="text-xs uppercase tracking-[0.2em] text-textSecondary font-black mb-3">
+                Packet status
               </div>
               <div className="space-y-2 text-sm text-textSecondary">
-                <WorkflowMiniStep done={hasProject} label="Project profile" />
-                <WorkflowMiniStep done={hasGrant} label="Grant selected" />
-                <WorkflowMiniStep done={hasPacket} label="Packet generated" />
+                <WorkflowMiniStep done={hasProject} label="Project profile loaded" />
+                <WorkflowMiniStep done={hasGrant} label="Grant opportunity selected" />
+                <WorkflowMiniStep done={hasPacket} label="Memo generated" />
               </div>
             </div>
           </div>
@@ -204,159 +255,42 @@ export const ReadinessPacket = memo(function ReadinessPacket() {
       {!hasProject ? (
         <EmptyStartState />
       ) : (
-        <section className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_380px] gap-6 items-start">
+        <section className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_390px] gap-6 items-start">
           <div className="space-y-6 min-w-0">
-            <div className="glass-panel rounded-2xl p-6 lg:p-7">
-              <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6">
-                <div>
-                  <h2 className="text-2xl font-black text-textPrimary">
-                    Confirm the packet context
-                  </h2>
-                  <p className="text-sm text-textSecondary mt-1">
-                    GrantPilot will only generate a packet after you confirm the project and grant.
-                  </p>
-                </div>
-
-                <button
-                  onClick={resetLocalPacket}
-                  disabled={!hasPacket}
-                  className="px-3 py-2 rounded-xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel disabled:opacity-40 text-textPrimary text-sm font-bold inline-flex items-center self-start"
-                >
-                  <RotateCcw className="w-4 h-4 mr-2" />
-                  Reset packet
-                </button>
-              </div>
-
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                <SummaryCard
-                  title="Project"
-                  badge="From intake"
-                  items={[
-                    ["Applicant", getStringField(projectProfile, "applicant_type", "Not available")],
-                    ["County", getStringField(projectProfile, "county", "Not available")],
-                    ["Category", getStringField(projectProfile, "project_category", "Not available")],
-                    ["Description", getStringField(projectProfile, "description", "Not available")]
-                  ]}
-                />
-
-                <SummaryCard
-                  title="Grant"
-                  badge={selectedGrant ? "Selected" : "Needed"}
-                  items={[
-                    ["Title", selectedGrant?.title || "Select a grant"],
-                    ["Source", selectedGrant?.source || "Not available"],
-                    ["Due", selectedGrant?.due_date || selectedGrant?.deadline || "Not listed"],
-                    ["Match", selectedGrant?.match_required || "Unknown"]
-                  ]}
-                />
-              </div>
-
-              {!selectedGrant && (
-                <div className="mt-6 rounded-2xl border border-amber-400/20 bg-amber-400/10 p-5">
-                  <h3 className="font-black text-textPrimary mb-2">
-                    Pick a grant to prepare against
-                  </h3>
-                  <p className="text-sm text-textSecondary mb-4">
-                    Choose one of the latest matches or open the Grant Explorer to select a different opportunity.
-                  </p>
-
-                  {latestCandidates.length ? (
-                    <div className="space-y-3">
-                      {latestCandidates.slice(0, 3).map((grant, index) => (
-                        <button
-                          key={getStableGrantKey(grant, index)}
-                          onClick={() => selectCandidateGrant(grant)}
-                          className="w-full text-left p-4 rounded-xl bg-bgPanel/70 border border-borderColor hover:border-primary/40 hover:bg-bgPanelLight transition-colors"
-                        >
-                          <div className="flex items-start justify-between gap-3">
-                            <div>
-                              <div className="font-black text-textPrimary">
-                                {grant.title || "Untitled grant"}
-                              </div>
-                              <div className="text-xs text-textSecondary mt-1">
-                                {grant.source || "Unknown source"} • {grant.agency || "Agency not listed"}
-                              </div>
-                            </div>
-                            {getGrantScore(grant) !== null && (
-                              <span className="px-2 py-1 rounded-lg bg-secondary/10 text-secondary text-xs font-black shrink-0">
-                                {getGrantScore(grant)}% fit
-                              </span>
-                            )}
-                          </div>
-                        </button>
-                      ))}
-                    </div>
-                  ) : (
-                    <Link
-                      href="/explorer"
-                      className="inline-flex items-center px-4 py-2 rounded-xl bg-primary text-white font-bold"
-                    >
-                      Select grant in Explorer <ArrowRight className="w-4 h-4 ml-2" />
-                    </Link>
-                  )}
-                </div>
-              )}
-
-              <div className="mt-6">
-                <label className="text-sm font-black text-textPrimary mb-2 block">
-                  Documents available <span className="text-textSecondary font-normal">(optional)</span>
-                </label>
-
-                <input
-                  value={documentsText}
-                  onChange={(event) => setDocumentsText(event.target.value)}
-                  className="w-full bg-bgPanel/60 border border-borderColor rounded-xl px-4 py-3 text-sm text-textPrimary focus:outline-none focus:border-primary"
-                  placeholder="photos, meeting notes, budget, council resolution"
-                />
-
-                <div className="flex flex-wrap gap-2 mt-3">
-                  {documentSuggestions.map((item) => (
-                    <button
-                      key={item}
-                      type="button"
-                      onClick={() => addDocumentSuggestion(item)}
-                      className="px-3 py-1.5 rounded-full border border-borderColor bg-bgPanel/50 text-xs font-bold text-textSecondary hover:border-primary/40 hover:text-primary transition-colors"
-                    >
-                      + {item}
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-[minmax(0,1fr)_180px] gap-3 mt-6">
-                <button
-                  onClick={runPrepareApplication}
-                  disabled={isPreparing || !selectedGrant}
-                  className="px-5 py-3 rounded-xl bg-primary hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed text-white font-black inline-flex items-center justify-center"
-                >
-                  {isPreparing ? (
-                    <>
-                      <Loader2 className="w-5 h-5 mr-2 animate-spin" />
-                      Creating packet...
-                    </>
-                  ) : (
-                    <>
-                      <FileSignature className="w-5 h-5 mr-2" />
-                      Create packet
-                    </>
-                  )}
-                </button>
-
-                <button
-                  onClick={copyPacket}
-                  disabled={!hasPacket}
-                  className="px-5 py-3 rounded-xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel disabled:opacity-40 text-textPrimary font-black inline-flex items-center justify-center"
-                >
-                  <Copy className="w-5 h-5 mr-2" />
-                  {copied ? "Copied" : "Copy"}
-                </button>
-              </div>
-            </div>
+            <PacketSetupPanel
+              projectProfile={projectProfile}
+              selectedGrant={selectedGrant}
+              latestCandidates={latestCandidates}
+              documentsText={documentsText}
+              documentsAvailable={documentsAvailable}
+              hasPacket={hasPacket}
+              isPreparing={isPreparing}
+              copied={copied}
+              exported={exported}
+              onDocumentsTextChange={setDocumentsText}
+              onAddDocument={addDocumentSuggestion}
+              onSelectGrant={selectCandidateGrant}
+              onReset={resetLocalPacket}
+              onCreate={runPrepareApplication}
+              onCopy={copyPacket}
+              onMarkdown={downloadMarkdown}
+              onJson={downloadJson}
+              onPrint={printPacket}
+            />
 
             {isPreparing && <PacketLoadingPanel />}
 
             {hasPacket ? (
-              <PacketDraft packet={packet} />
+              <ProfessionalMemo
+                packet={packet}
+                projectProfile={projectProfile}
+                grant={packetGrant}
+                readinessScore={readinessScore}
+                readinessTone={readinessTone}
+                requirements={requirements}
+                readiness={readiness}
+                trust={trust}
+              />
             ) : (
               <NoPacketYet />
             )}
@@ -365,10 +299,10 @@ export const ReadinessPacket = memo(function ReadinessPacket() {
           <aside className="xl:sticky xl:top-6 space-y-6">
             {hasPacket ? (
               <>
-                <ReadinessScoreCard score={readinessScore} tone={readinessTone} actions={readiness.priority_actions} />
+                <ReadinessScoreCard score={readinessScore} tone={readinessTone} actions={priorityActions} />
                 <SideCard
                   icon={<ShieldCheck className="w-5 h-5 mr-2 text-secondary" />}
-                  title="Trust review"
+                  title="Verification needed"
                 >
                   <p className="text-sm text-textSecondary leading-relaxed">
                     {getStringField(
@@ -377,20 +311,14 @@ export const ReadinessPacket = memo(function ReadinessPacket() {
                       "Human review is needed before treating this packet as final."
                     )}
                   </p>
-                  <List title="Issues to verify" items={trust.issues_found} />
+                  <List title="Issues to verify" items={trustIssues} />
                 </SideCard>
                 <SideCard
                   icon={<ClipboardCheck className="w-5 h-5 mr-2 text-primary" />}
-                  title="Requirements"
+                  title="Submission checklist"
                 >
-                  <p className="text-sm text-textSecondary leading-relaxed">
-                    {getStringField(
-                      requirements,
-                      "plain_english_summary",
-                      "Create a packet to translate grant requirements."
-                    )}
-                  </p>
-                  <List title="Required documents" items={requirements.required_documents} />
+                  <List title="Required documents" items={requiredDocuments} />
+                  <List title="Human review checklist" items={reviewChecklist} />
                 </SideCard>
               </>
             ) : (
@@ -407,6 +335,330 @@ export const ReadinessPacket = memo(function ReadinessPacket() {
   );
 });
 
+function PacketSetupPanel({
+  projectProfile,
+  selectedGrant,
+  latestCandidates,
+  documentsText,
+  documentsAvailable,
+  hasPacket,
+  isPreparing,
+  copied,
+  exported,
+  onDocumentsTextChange,
+  onAddDocument,
+  onSelectGrant,
+  onReset,
+  onCreate,
+  onCopy,
+  onMarkdown,
+  onJson,
+  onPrint
+}: {
+  projectProfile: AnyRecord | null;
+  selectedGrant: GrantRecord | null;
+  latestCandidates: GrantRecord[];
+  documentsText: string;
+  documentsAvailable: string[];
+  hasPacket: boolean;
+  isPreparing: boolean;
+  copied: boolean;
+  exported: string;
+  onDocumentsTextChange: (value: string) => void;
+  onAddDocument: (documentName: string) => void;
+  onSelectGrant: (grant: GrantRecord) => void;
+  onReset: () => void;
+  onCreate: () => void;
+  onCopy: () => void;
+  onMarkdown: () => void;
+  onJson: () => void;
+  onPrint: () => void;
+}) {
+  return (
+    <div className="glass-panel rounded-2xl p-6 lg:p-7">
+      <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6">
+        <div>
+          <h2 className="text-2xl font-black text-textPrimary">Packet workspace</h2>
+          <p className="text-sm text-textSecondary mt-1">
+            Confirm the source project, selected opportunity, and known documents before creating the memo.
+          </p>
+        </div>
+
+        <button
+          onClick={onReset}
+          disabled={!hasPacket}
+          className="px-3 py-2 rounded-xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel disabled:opacity-40 text-textPrimary text-sm font-bold inline-flex items-center self-start"
+        >
+          <RotateCcw className="w-4 h-4 mr-2" />
+          Reset memo
+        </button>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <SummaryCard
+          title="Project"
+          badge="From intake"
+          items={[
+            ["Applicant", getStringField(projectProfile, "applicant_type", "Not available")],
+            ["County", getStringField(projectProfile, "county", "Not available")],
+            ["Category", getStringField(projectProfile, "project_category", "Not available")],
+            ["Description", getStringField(projectProfile, "description", "Not available")]
+          ]}
+        />
+
+        <SummaryCard
+          title="Grant"
+          badge={selectedGrant ? "Selected" : "Needed"}
+          items={[
+            ["Title", selectedGrant?.title || "Select a grant"],
+            ["Agency", selectedGrant?.agency || "Not available"],
+            ["Due", selectedGrant?.due_date || selectedGrant?.deadline || "Not listed"],
+            ["Match", selectedGrant?.match_required || "Unknown"]
+          ]}
+        />
+      </div>
+
+      {!selectedGrant && (
+        <div className="mt-6 rounded-2xl border border-amber-400/20 bg-amber-400/10 p-5">
+          <h3 className="font-black text-textPrimary mb-2">Pick a grant to prepare against</h3>
+          <p className="text-sm text-textSecondary mb-4">
+            Choose one of the latest matches or open Grant Explorer to select a different opportunity.
+          </p>
+
+          {latestCandidates.length ? (
+            <div className="space-y-3">
+              {latestCandidates.slice(0, 3).map((grant, index) => (
+                <button
+                  key={getStableGrantKey(grant, index)}
+                  onClick={() => onSelectGrant(grant)}
+                  className="w-full text-left p-4 rounded-xl bg-bgPanel/70 border border-borderColor hover:border-primary/40 hover:bg-bgPanelLight transition-colors"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <div className="font-black text-textPrimary">{grant.title || "Untitled grant"}</div>
+                      <div className="text-xs text-textSecondary mt-1">
+                        {grant.source || "Unknown source"} • {grant.agency || "Agency not listed"}
+                      </div>
+                    </div>
+                    {getGrantScore(grant) !== null && (
+                      <span className="px-2 py-1 rounded-lg bg-secondary/10 text-secondary text-xs font-black shrink-0">
+                        {getGrantScore(grant)}% fit
+                      </span>
+                    )}
+                  </div>
+                </button>
+              ))}
+            </div>
+          ) : (
+            <Link href="/explorer" className="inline-flex items-center px-4 py-2 rounded-xl bg-primary text-white font-bold">
+              Select grant in Explorer <ArrowRight className="w-4 h-4 ml-2" />
+            </Link>
+          )}
+        </div>
+      )}
+
+      <div className="mt-6">
+        <label className="text-sm font-black text-textPrimary mb-2 block">
+          Documents available <span className="text-textSecondary font-normal">({documentsAvailable.length} listed)</span>
+        </label>
+
+        <input
+          value={documentsText}
+          onChange={(event) => onDocumentsTextChange(event.target.value)}
+          className="w-full bg-bgPanel/60 border border-borderColor rounded-xl px-4 py-3 text-sm text-textPrimary focus:outline-none focus:border-primary"
+          placeholder="photos, meeting notes, budget, council resolution"
+        />
+
+        <div className="flex flex-wrap gap-2 mt-3">
+          {documentSuggestions.map((item) => (
+            <button
+              key={item}
+              type="button"
+              onClick={() => onAddDocument(item)}
+              className="px-3 py-1.5 rounded-full border border-borderColor bg-bgPanel/50 text-xs font-bold text-textSecondary hover:border-primary/40 hover:text-primary transition-colors"
+            >
+              + {item}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-[minmax(0,1fr)_180px] gap-3 mt-6">
+        <button
+          onClick={onCreate}
+          disabled={isPreparing || !selectedGrant}
+          className="px-5 py-3 rounded-xl bg-primary hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed text-white font-black inline-flex items-center justify-center"
+        >
+          {isPreparing ? (
+            <>
+              <Loader2 className="w-5 h-5 mr-2 animate-spin" />
+              Creating memo...
+            </>
+          ) : (
+            <>
+              <FileSignature className="w-5 h-5 mr-2" />
+              Create readiness memo
+            </>
+          )}
+        </button>
+
+        <button
+          onClick={onCopy}
+          disabled={!hasPacket}
+          className="px-5 py-3 rounded-xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel disabled:opacity-40 text-textPrimary font-black inline-flex items-center justify-center"
+        >
+          <Copy className="w-5 h-5 mr-2" />
+          {copied ? "Copied" : "Copy"}
+        </button>
+      </div>
+
+      {hasPacket && (
+        <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <button onClick={onMarkdown} className="px-4 py-2.5 rounded-xl border border-borderColor bg-bgPanel/60 hover:bg-bgPanelLight text-textPrimary text-sm font-black inline-flex items-center justify-center">
+            <Download className="w-4 h-4 mr-2" />
+            Markdown
+          </button>
+          <button onClick={onJson} className="px-4 py-2.5 rounded-xl border border-borderColor bg-bgPanel/60 hover:bg-bgPanelLight text-textPrimary text-sm font-black inline-flex items-center justify-center">
+            <Database className="w-4 h-4 mr-2" />
+            JSON
+          </button>
+          <button onClick={onPrint} className="px-4 py-2.5 rounded-xl border border-borderColor bg-bgPanel/60 hover:bg-bgPanelLight text-textPrimary text-sm font-black inline-flex items-center justify-center">
+            <Printer className="w-4 h-4 mr-2" />
+            Print / PDF
+          </button>
+        </div>
+      )}
+
+      {exported && <div className="mt-3 text-xs font-bold text-secondary">{exported}</div>}
+    </div>
+  );
+}
+
+function ProfessionalMemo({
+  packet,
+  projectProfile,
+  grant,
+  readinessScore,
+  readinessTone,
+  requirements,
+  readiness,
+  trust
+}: {
+  packet: AnyRecord;
+  projectProfile: AnyRecord | null;
+  grant: GrantRecord | null;
+  readinessScore: number;
+  readinessTone: string;
+  requirements: AnyRecord;
+  readiness: AnyRecord;
+  trust: AnyRecord;
+}) {
+  const generatedAt = formatTimestamp(new Date().toISOString());
+  const sourceUrl = typeof grant?.source_url === "string" ? grant.source_url : "";
+  const dueDate = grant?.due_date || grant?.deadline || "Not listed";
+  const readinessLabel = getReadinessLabel(readinessScore);
+
+  return (
+    <article className="grant-memo rounded-[1.75rem] overflow-hidden border border-slate-200 bg-white text-slate-950 shadow-2xl shadow-slate-950/10">
+      <div className="border-b border-slate-200 bg-slate-50 px-6 py-5 lg:px-8">
+        <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
+          <div>
+            <div className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-black text-emerald-700">
+              <BadgeCheck className="w-3.5 h-3.5 mr-1.5" />
+              Draft readiness memo
+            </div>
+            <h2 className="mt-4 text-3xl lg:text-4xl font-black tracking-tight text-slate-950">
+              {getStringField(packet, "project_title", "Grant readiness packet")}
+            </h2>
+            <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-600">
+              Prepared by GrantPilot for staff review. This packet summarizes funding fit,
+              application readiness, documents needed, and verification items before submission.
+            </p>
+          </div>
+
+          <div className="min-w-[220px] rounded-2xl border border-slate-200 bg-white p-4 text-sm text-slate-600">
+            <div className="text-xs uppercase tracking-[0.18em] text-slate-400 font-black">Generated</div>
+            <div className="mt-1 font-bold text-slate-900">{generatedAt}</div>
+            <div className="mt-4 text-xs uppercase tracking-[0.18em] text-slate-400 font-black">Readiness</div>
+            <div className={`mt-1 text-2xl font-black ${readinessTone === "strong" ? "text-emerald-700" : readinessTone === "medium" ? "text-blue-700" : "text-amber-700"}`}>
+              {readinessScore}/100
+            </div>
+            <div className="text-xs font-bold text-slate-500">{readinessLabel}</div>
+          </div>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-4 border-b border-slate-200">
+        <MemoMetric label="Applicant" value={getStringField(projectProfile, "applicant_type", "Not available")} />
+        <MemoMetric label="Project category" value={getStringField(projectProfile, "project_category", "Not available")} />
+        <MemoMetric label="Grant deadline" value={String(dueDate)} />
+        <MemoMetric label="Match requirement" value={String(grant?.match_required || "Unknown")} />
+      </div>
+
+      <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_320px] gap-0">
+        <div className="p-6 lg:p-8 space-y-8">
+          <MemoBlock eyebrow="Opportunity" title={grant?.title || "Selected grant opportunity"}>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+              <MemoFact label="Agency" value={grant?.agency || "Not listed"} />
+              <MemoFact label="Source" value={grant?.source || "Unknown source"} />
+              <MemoFact label="Funding amount" value={grant?.funding_amount || "Not listed"} />
+              <MemoFact label="Official source" value={sourceUrl ? "Available" : "Not listed"} />
+            </div>
+            {sourceUrl && (
+              <a href={sourceUrl} target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center text-sm font-black text-blue-700 hover:text-blue-900">
+                Open official source <ExternalLink className="w-4 h-4 ml-1.5" />
+              </a>
+            )}
+          </MemoBlock>
+
+          <MemoBlock eyebrow="Project case" title="Why this project matters">
+            <MemoSection title="Problem statement" body={packet.problem_statement} />
+            <MemoSection title="Public benefit" body={packet.public_benefit} />
+            <MemoSection title="Funding request summary" body={packet.funding_request_summary} />
+          </MemoBlock>
+
+          <MemoBlock eyebrow="Prepared language" title="Council memo starter">
+            <MemoSection body={packet.council_memo} />
+          </MemoBlock>
+
+          <MemoBlock eyebrow="Action plan" title="Next 30 days">
+            <MemoList items={packet.thirty_day_action_plan} ordered />
+          </MemoBlock>
+
+          <MemoBlock eyebrow="Community communication" title="Resident FAQ">
+            <MemoList items={packet.resident_faq} />
+          </MemoBlock>
+        </div>
+
+        <div className="border-t xl:border-t-0 xl:border-l border-slate-200 bg-slate-50/80 p-6 lg:p-7 space-y-6">
+          <MemoSidePanel title="Required documents" icon={<FileText className="w-4 h-4" />}>
+            <MemoList items={requirements.required_documents} compact />
+          </MemoSidePanel>
+
+          <MemoSidePanel title="Priority actions" icon={<CalendarDays className="w-4 h-4" />}>
+            <MemoList items={readiness.priority_actions} compact />
+          </MemoSidePanel>
+
+          <MemoSidePanel title="Human review checklist" icon={<ShieldCheck className="w-4 h-4" />}>
+            <MemoList items={packet.human_review_checklist} compact />
+          </MemoSidePanel>
+
+          <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4">
+            <div className="flex items-center text-sm font-black text-amber-800">
+              <AlertTriangle className="w-4 h-4 mr-2" />
+              Trust review
+            </div>
+            <p className="mt-2 text-sm leading-6 text-amber-900/80">
+              {getStringField(trust, "safe_final_language", "Verify source details, eligibility, deadline, match, and required documents before submission.")}
+            </p>
+            <MemoList items={trust.issues_found} compact />
+          </div>
+        </div>
+      </div>
+    </article>
+  );
+}
+
 function EmptyStartState() {
   return (
     <div className="rounded-[2rem] border border-borderColor bg-bgPanel/75 p-8 lg:p-10 text-center shadow-xl shadow-black/5">
@@ -414,27 +666,19 @@ function EmptyStartState() {
         <FileText className="w-7 h-7 text-primary" />
       </div>
 
-      <h2 className="text-2xl lg:text-3xl font-black text-textPrimary">
-        Start with Project Intake
-      </h2>
+      <h2 className="text-2xl lg:text-3xl font-black text-textPrimary">Start with Project Intake</h2>
 
       <p className="text-textSecondary mt-3 max-w-2xl mx-auto leading-relaxed">
-        The readiness packet should not guess from old runs. First create a project profile,
+        The readiness memo should not guess from old runs. First create a project profile,
         then select a grant, then generate a packet for that specific pairing.
       </p>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-7">
-        <Link
-          href="/intake"
-          className="px-5 py-3 rounded-xl bg-primary hover:bg-primary/90 text-white font-black inline-flex items-center"
-        >
+        <Link href="/intake" className="px-5 py-3 rounded-xl bg-primary hover:bg-primary/90 text-white font-black inline-flex items-center">
           Go to Project Intake <ArrowRight className="w-4 h-4 ml-2" />
         </Link>
 
-        <Link
-          href="/explorer"
-          className="px-5 py-3 rounded-xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel text-textPrimary font-black inline-flex items-center"
-        >
+        <Link href="/explorer" className="px-5 py-3 rounded-xl border border-borderColor bg-bgPanelLight hover:bg-bgPanel text-textPrimary font-black inline-flex items-center">
           Browse grants <Database className="w-4 h-4 ml-2" />
         </Link>
       </div>
@@ -453,25 +697,18 @@ function BeforePacketRail({
 }) {
   return (
     <>
-      <SideCard
-        icon={<ClipboardCheck className="w-5 h-5 mr-2 text-primary" />}
-        title="What this creates"
-      >
+      <SideCard icon={<ClipboardCheck className="w-5 h-5 mr-2 text-primary" />} title="What this creates">
         <div className="space-y-3 text-sm text-textSecondary">
-          <CheckRow text="Plain-English requirements" />
+          <CheckRow text="Professional memo-style packet" />
           <CheckRow text="Readiness score and missing documents" />
           <CheckRow text="Council memo starter language" />
-          <CheckRow text="Resident FAQ" />
-          <CheckRow text="30-day action plan" />
-          <CheckRow text="Trust Guard review language" />
+          <CheckRow text="Resident FAQ and action plan" />
+          <CheckRow text="Trust Guard verification notes" />
         </div>
       </SideCard>
 
       {!hasGrant && latestCandidates.length > 0 && (
-        <SideCard
-          icon={<Database className="w-5 h-5 mr-2 text-secondary" />}
-          title="Latest matches"
-        >
+        <SideCard icon={<Database className="w-5 h-5 mr-2 text-secondary" />} title="Latest matches">
           <div className="space-y-3">
             {latestCandidates.slice(0, 3).map((grant, index) => (
               <button
@@ -479,22 +716,15 @@ function BeforePacketRail({
                 onClick={() => onSelectGrant(grant)}
                 className="w-full text-left p-3 rounded-xl border border-borderColor bg-bgPanel/50 hover:border-primary/40 transition-colors"
               >
-                <div className="font-bold text-textPrimary text-sm">
-                  {grant.title || "Untitled grant"}
-                </div>
-                <div className="text-xs text-textSecondary mt-1">
-                  {grant.source || "Unknown source"}
-                </div>
+                <div className="font-bold text-textPrimary text-sm">{grant.title || "Untitled grant"}</div>
+                <div className="text-xs text-textSecondary mt-1">{grant.source || "Unknown source"}</div>
               </button>
             ))}
           </div>
         </SideCard>
       )}
 
-      <SideCard
-        icon={<ShieldCheck className="w-5 h-5 mr-2 text-secondary" />}
-        title="Review posture"
-      >
+      <SideCard icon={<ShieldCheck className="w-5 h-5 mr-2 text-secondary" />} title="Review posture">
         <p className="text-sm text-textSecondary leading-relaxed">
           GrantPilot drafts starter language only. Staff should verify the official deadline,
           eligibility, match, source page, and required documents before submitting anything.
@@ -504,41 +734,15 @@ function BeforePacketRail({
   );
 }
 
-function PacketDraft({ packet }: { packet: AnyRecord }) {
-  return (
-    <div className="glass-panel rounded-2xl p-6 lg:p-7">
-      <div className="flex items-center text-secondary text-sm font-black mb-3">
-        <CheckCircle2 className="w-5 h-5 mr-2" />
-        Packet draft ready
-      </div>
-
-      <h2 className="text-2xl lg:text-3xl font-black text-textPrimary">
-        {getStringField(packet, "project_title", "Readiness packet")}
-      </h2>
-
-      <div className="mt-6 space-y-6">
-        <Section title="Problem statement" body={packet.problem_statement} />
-        <Section title="Public benefit" body={packet.public_benefit} />
-        <Section title="Funding request summary" body={packet.funding_request_summary} />
-        <Section title="Council memo" body={packet.council_memo} />
-        <List title="Resident FAQ" items={packet.resident_faq} />
-        <List title="30-day action plan" items={packet.thirty_day_action_plan} />
-        <List title="Human review checklist" items={packet.human_review_checklist} />
-      </div>
-    </div>
-  );
-}
-
 function NoPacketYet() {
   return (
-    <div className="glass-panel rounded-2xl p-8 lg:p-10">
-      <div className="max-w-2xl">
-        <h2 className="text-2xl font-black text-textPrimary">
-          No packet generated yet
-        </h2>
+    <div className="glass-panel rounded-2xl p-8 lg:p-10 overflow-hidden relative">
+      <div className="absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-primary/10 to-transparent pointer-events-none" />
+      <div className="relative max-w-2xl">
+        <h2 className="text-2xl font-black text-textPrimary">Memo preview will appear here</h2>
         <p className="text-textSecondary mt-3 leading-relaxed">
-          Confirm the project and selected grant above, add any known documents, then create the
-          readiness packet. This page will stay clean until you intentionally generate a packet.
+          Confirm the project and selected grant above, add any known documents, then create the readiness memo.
+          The final view is designed to look like a staff-facing report for walkthroughs and exports.
         </p>
       </div>
     </div>
@@ -550,18 +754,14 @@ function PacketLoadingPanel() {
     <div className="glass-panel rounded-2xl p-6 lg:p-7">
       <h2 className="text-lg font-black text-textPrimary mb-4 flex items-center">
         <Loader2 className="w-5 h-5 mr-2 animate-spin text-primary" />
-        Building readiness packet
+        Building readiness memo
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
-        {["Translate requirements", "Find gaps", "Draft packet", "Trust review"].map((item) => (
+        {["Translate requirements", "Find gaps", "Draft memo", "Trust review"].map((item) => (
           <div key={item} className="rounded-xl border border-primary/20 bg-primary/10 p-4">
-            <div className="text-sm font-bold text-textPrimary">
-              {item}
-            </div>
-            <div className="text-xs text-textSecondary mt-1">
-              Running...
-            </div>
+            <div className="text-sm font-bold text-textPrimary">{item}</div>
+            <div className="text-xs text-textSecondary mt-1">Running...</div>
           </div>
         ))}
       </div>
@@ -569,15 +769,7 @@ function PacketLoadingPanel() {
   );
 }
 
-function ReadinessScoreCard({
-  score,
-  tone,
-  actions
-}: {
-  score: number;
-  tone: string;
-  actions: unknown;
-}) {
+function ReadinessScoreCard({ score, tone, actions }: { score: number; tone: string; actions: unknown }) {
   const toneClass =
     tone === "strong"
       ? "text-secondary bg-secondary/10 border-secondary/20"
@@ -593,12 +785,8 @@ function ReadinessScoreCard({
       </h2>
 
       <div className={`rounded-2xl border p-5 ${toneClass}`}>
-        <div className="text-5xl font-black">
-          {score}
-        </div>
-        <div className="text-sm font-bold mt-1">
-          {score >= 70 ? "Ready for staff review" : score >= 40 ? "Needs a few checks" : "Needs verification"}
-        </div>
+        <div className="text-5xl font-black">{score}</div>
+        <div className="text-sm font-bold mt-1">{getReadinessLabel(score)}</div>
       </div>
 
       <List title="Priority actions" items={actions} />
@@ -609,16 +797,10 @@ function ReadinessScoreCard({
 function WorkflowMiniStep({ done, label }: { done: boolean; label: string }) {
   return (
     <div className="flex items-center">
-      <span
-        className={`w-5 h-5 rounded-full mr-2 flex items-center justify-center ${
-          done ? "bg-secondary/15 text-secondary" : "bg-bgPanel border border-borderColor text-textSecondary"
-        }`}
-      >
+      <span className={`w-5 h-5 rounded-full mr-2 flex items-center justify-center ${done ? "bg-secondary/15 text-secondary" : "bg-bgPanel border border-borderColor text-textSecondary"}`}>
         {done ? <CheckCircle2 className="w-3.5 h-3.5" /> : null}
       </span>
-      <span className={done ? "text-textPrimary font-bold" : ""}>
-        {label}
-      </span>
+      <span className={done ? "text-textPrimary font-bold" : ""}>{label}</span>
     </div>
   );
 }
@@ -632,35 +814,19 @@ function CheckRow({ text }: { text: string }) {
   );
 }
 
-function SummaryCard({
-  title,
-  badge,
-  items
-}: {
-  title: string;
-  badge: string;
-  items: Array<[string, unknown]>;
-}) {
+function SummaryCard({ title, badge, items }: { title: string; badge: string; items: Array<[string, unknown]> }) {
   return (
     <div className="p-5 rounded-2xl bg-bgPanel/50 border border-borderColor">
       <div className="flex items-center justify-between gap-3 mb-4">
-        <h3 className="font-black text-textPrimary">
-          {title}
-        </h3>
-        <span className="px-2.5 py-1 rounded-lg bg-primary/10 text-primary text-xs font-bold">
-          {badge}
-        </span>
+        <h3 className="font-black text-textPrimary">{title}</h3>
+        <span className="px-2.5 py-1 rounded-lg bg-primary/10 text-primary text-xs font-bold">{badge}</span>
       </div>
 
       <div className="space-y-3">
         {items.map(([label, value]) => (
           <div key={label}>
-            <div className="text-xs text-textSecondary">
-              {label}
-            </div>
-            <div className="text-sm text-textPrimary leading-relaxed">
-              {String(value ?? "Not available")}
-            </div>
+            <div className="text-xs text-textSecondary">{label}</div>
+            <div className="text-sm text-textPrimary leading-relaxed line-clamp-3">{String(value ?? "Not available")}</div>
           </div>
         ))}
       </div>
@@ -668,54 +834,97 @@ function SummaryCard({
   );
 }
 
-function Section({
-  title,
-  body
-}: {
-  title: string;
-  body: unknown;
-}) {
-  const text = stripHtml(body);
-
-  if (!text) return null;
-
+function MemoMetric({ label, value }: { label: string; value: unknown }) {
   return (
-    <section>
-      <h3 className="font-black text-textPrimary mb-2">
-        {title}
-      </h3>
-      <p className="text-textSecondary leading-relaxed">
-        {text}
-      </p>
+    <div className="border-t lg:border-t-0 lg:border-r last:border-r-0 border-slate-200 bg-white p-5">
+      <div className="text-xs uppercase tracking-[0.16em] font-black text-slate-400">{label}</div>
+      <div className="mt-2 text-sm font-black text-slate-900 line-clamp-2">{String(value || "Not available")}</div>
+    </div>
+  );
+}
+
+function MemoBlock({ eyebrow, title, children }: { eyebrow: string; title: string; children: ReactNode }) {
+  return (
+    <section className="memo-section">
+      <div className="text-xs uppercase tracking-[0.2em] font-black text-blue-700">{eyebrow}</div>
+      <h3 className="mt-1 text-xl font-black text-slate-950">{title}</h3>
+      <div className="mt-4 space-y-4">{children}</div>
     </section>
   );
 }
 
-function List({
-  title,
-  items
-}: {
-  title: string;
-  items: unknown;
-}) {
-  const list = asArray(items)
-    .flatMap((item) => (Array.isArray(item) ? item : [item]))
-    .map((item) => stripHtml(item))
-    .filter(Boolean);
+function MemoFact({ label, value }: { label: string; value: unknown }) {
+  return (
+    <div className="rounded-xl border border-slate-200 bg-slate-50 p-3">
+      <div className="text-xs uppercase tracking-[0.14em] font-black text-slate-400">{label}</div>
+      <div className="mt-1 font-bold text-slate-900">{String(value || "Not available")}</div>
+    </div>
+  );
+}
 
+function MemoSection({ title, body }: { title?: string; body: unknown }) {
+  const text = stripHtml(body);
+  if (!text) return null;
+
+  return (
+    <section>
+      {title && <h4 className="font-black text-slate-900 mb-1">{title}</h4>}
+      <p className="text-sm leading-7 text-slate-700">{text}</p>
+    </section>
+  );
+}
+
+function MemoList({ items, ordered = false, compact = false }: { items: unknown; ordered?: boolean; compact?: boolean }) {
+  const list = asCleanList(items);
+  if (!list.length) return <p className="text-sm text-slate-500">Not available yet.</p>;
+
+  const Tag = ordered ? "ol" : "ul";
+
+  return (
+    <Tag className={`${ordered ? "list-decimal" : "list-disc"} pl-5 ${compact ? "space-y-2" : "space-y-3"}`}>
+      {list.map((item, index) => (
+        <li key={`${item.slice(0, 32)}-${index}`} className={`${compact ? "text-xs leading-5" : "text-sm leading-6"} text-slate-700`}>
+          {item}
+        </li>
+      ))}
+    </Tag>
+  );
+}
+
+function MemoSidePanel({ title, icon, children }: { title: string; icon: ReactNode; children: ReactNode }) {
+  return (
+    <section className="rounded-2xl border border-slate-200 bg-white p-4">
+      <h4 className="flex items-center gap-2 text-sm font-black text-slate-950 mb-3">
+        {icon}
+        {title}
+      </h4>
+      {children}
+    </section>
+  );
+}
+
+function Section({ title, body }: { title: string; body: unknown }) {
+  const text = stripHtml(body);
+  if (!text) return null;
+
+  return (
+    <section>
+      <h3 className="font-black text-textPrimary mb-2">{title}</h3>
+      <p className="text-textSecondary leading-relaxed">{text}</p>
+    </section>
+  );
+}
+
+function List({ title, items }: { title: string; items: unknown }) {
+  const list = asCleanList(items);
   if (!list.length) return null;
 
   return (
     <section className="mt-5">
-      <h3 className="font-black text-textPrimary mb-2">
-        {title}
-      </h3>
+      <h3 className="font-black text-textPrimary mb-2">{title}</h3>
       <ul className="space-y-2">
         {list.map((item, index) => (
-          <li
-            key={`${title}-${index}-${item.slice(0, 24)}`}
-            className="text-sm text-textSecondary leading-relaxed flex"
-          >
+          <li key={`${title}-${index}-${item.slice(0, 24)}`} className="text-sm text-textSecondary leading-relaxed flex">
             <span className="text-primary mr-2">•</span>
             <span>{item}</span>
           </li>
@@ -725,15 +934,7 @@ function List({
   );
 }
 
-function SideCard({
-  icon,
-  title,
-  children
-}: {
-  icon: ReactNode;
-  title: string;
-  children: ReactNode;
-}) {
+function SideCard({ icon, title, children }: { icon: ReactNode; title: string; children: ReactNode }) {
   return (
     <div className="glass-panel rounded-2xl p-6">
       <h2 className="text-xl font-black text-textPrimary mb-4 flex items-center">
@@ -745,11 +946,7 @@ function SideCard({
   );
 }
 
-function ErrorBox({
-  message
-}: {
-  message: string;
-}) {
+function ErrorBox({ message }: { message: string }) {
   return (
     <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-300 text-sm flex items-start">
       <AlertTriangle className="w-5 h-5 mr-3 shrink-0" />
@@ -789,38 +986,68 @@ function getReadinessTone(score: number) {
   return "low";
 }
 
+function getReadinessLabel(score: number) {
+  if (score >= 70) return "Ready for staff review";
+  if (score >= 40) return "Needs a few checks";
+  return "Needs verification";
+}
+
+function slugify(value: string) {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "")
+    .slice(0, 80) || "grantpilot-readiness-packet";
+}
+
+function asCleanList(items: unknown) {
+  return asArray(items)
+    .flatMap((item) => (Array.isArray(item) ? item : [item]))
+    .map((item) => stripHtml(item))
+    .filter(Boolean);
+}
+
 function buildReadablePacketText({
   packet,
   readiness,
   trust,
   requirements,
-  grant
+  grant,
+  projectProfile
 }: {
   packet: AnyRecord;
   readiness: AnyRecord;
   trust: AnyRecord;
   requirements: AnyRecord;
   grant: GrantRecord | null;
+  projectProfile: AnyRecord | null;
 }) {
   const lines: string[] = [];
 
-  lines.push(`# ${getStringField(packet, "project_title", "Readiness packet")}`);
+  lines.push(`# ${getStringField(packet, "project_title", "Grant readiness packet")}`);
   lines.push("");
+  lines.push(`Generated: ${formatTimestamp(new Date().toISOString())}`);
+  lines.push(`Applicant: ${getStringField(projectProfile, "applicant_type", "Not available")}`);
 
   if (grant?.title) {
     lines.push(`Grant: ${grant.title}`);
-    lines.push("");
+    lines.push(`Agency: ${grant.agency || "Not listed"}`);
+    lines.push(`Source: ${grant.source || "Unknown"}`);
+    if (grant.source_url) lines.push(`Official source: ${grant.source_url}`);
   }
 
+  lines.push("");
   addSection(lines, "Problem statement", packet.problem_statement);
   addSection(lines, "Public benefit", packet.public_benefit);
   addSection(lines, "Funding request summary", packet.funding_request_summary);
-  addSection(lines, "Council memo", packet.council_memo);
+  addSection(lines, "Council memo starter", packet.council_memo);
   addList(lines, "Resident FAQ", packet.resident_faq);
   addList(lines, "30-day action plan", packet.thirty_day_action_plan);
-  addList(lines, "Human review checklist", packet.human_review_checklist);
+  addList(lines, "Required documents", requirements.required_documents);
   addList(lines, "Priority actions", readiness.priority_actions);
+  addList(lines, "Human review checklist", packet.human_review_checklist);
   addSection(lines, "Trust review", trust.safe_final_language);
+  addList(lines, "Issues to verify", trust.issues_found);
   addSection(lines, "Requirements summary", requirements.plain_english_summary);
 
   return lines.join("\n");
@@ -836,10 +1063,7 @@ function addSection(lines: string[], title: string, body: unknown) {
 }
 
 function addList(lines: string[], title: string, items: unknown) {
-  const list = asArray(items)
-    .map((item) => stripHtml(item))
-    .filter(Boolean);
-
+  const list = asCleanList(items);
   if (!list.length) return;
 
   lines.push(`## ${title}`);

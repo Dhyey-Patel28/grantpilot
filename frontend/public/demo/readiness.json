@@ -1,0 +1,34 @@
+{
+  "readiness_score": 78,
+  "ready_items": [
+    "Project need is clear and tied to safety/resilience.",
+    "Applicant type appears plausible for transportation infrastructure funding.",
+    "Some supporting materials are already available."
+  ],
+  "missing_items": [
+    "Official eligibility confirmation",
+    "Final cost estimate",
+    "Bridge/asset condition documentation",
+    "Match source confirmation",
+    "Local authorization memo or resolution"
+  ],
+  "needs_verification": [
+    "Current deadline and application window",
+    "Eligible activity category",
+    "Required local match percentage",
+    "Official application portal and required attachments"
+  ],
+  "priority_actions": [
+    "Open the official source and confirm the active deadline.",
+    "Gather asset inspection/condition documents and location map.",
+    "Ask finance/engineering staff to confirm match availability.",
+    "Draft a one-page project narrative and public benefit summary.",
+    "Schedule human review of eligibility and required attachments."
+  ],
+  "recommended_before_applying": [
+    "Verify source details",
+    "Confirm local match",
+    "Attach cost and location documentation",
+    "Get staff/legal review before submission"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "scenarios": [
+    {
+      "id": "clare-transportation",
+      "title": "Clare County transportation resilience",
+      "strength": "Portfolio sample",
+      "expected_story": "Shows a rural transportation project moving from project need to ranked grants and readiness memo.",
+      "project_description": "Clare County needs funding to improve a flood-prone rural road corridor with bridge and culvert upgrades, drainage improvements, ditch grading, and safer access for residents and emergency vehicles."
+    },
+    {
+      "id": "stormwater-resilience",
+      "title": "Stormwater resilience",
+      "strength": "Infrastructure fit",
+      "expected_story": "Shows drainage, culvert, and resilience needs.",
+      "project_description": "A Michigan township needs funding to reduce flooding along a residential road corridor with drainage improvements, culvert replacement, ditch grading, and green infrastructure where feasible."
+    }
+  ]
+}

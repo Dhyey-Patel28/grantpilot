@@ -9,17 +9,21 @@ import {
   Sparkles,
   BarChart3,
   ClipboardList,
-  Bell
+  Bell,
+  Archive,
+  Bot
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { memo } from 'react';
 
 const navItems = [
   { name: 'Dashboard', path: '/', icon: LayoutDashboard },
-  { name: 'Grant Explorer', path: '/explorer', icon: Search },
   { name: 'Project Intake', path: '/intake', icon: ClipboardList },
+  { name: 'Grant Explorer', path: '/explorer', icon: Search },
   { name: 'Readiness Packet', path: '/packet', icon: ClipboardList },
   { name: 'Translator', path: '/translator', icon: FileText },
+  { name: 'Agents', path: '/agents', icon: Bot },
+  { name: 'Saved Projects', path: '/projects', icon: Archive },
   { name: 'Analytics', path: '/analytics', icon: BarChart3 },
   { name: 'Notifications', path: '/notifications', icon: Bell },
 ];
@@ -73,16 +77,9 @@ export const Sidebar = memo(function Sidebar() {
           Settings
         </Link>
         
-        <div className="mt-4 flex items-center px-3">
-          <img 
-            src="https://ui-avatars.com/api/?name=Acme+Corp&background=3B82F6&color=fff" 
-            alt="User" 
-            className="w-8 h-8 rounded-full border border-borderColor"
-          />
-          <div className="ml-3 flex-1 overflow-hidden">
-            <p className="text-sm font-medium text-textPrimary truncate">Acme Corp</p>
-            <p className="text-xs text-textSecondary truncate">Pro Plan</p>
-          </div>
+        <div className="mt-4 rounded-xl border border-borderColor bg-bgPanel/50 p-3">
+          <p className="text-sm font-bold text-textPrimary truncate">GrantPilot Local</p>
+          <p className="text-xs text-textSecondary mt-1">Portfolio-safe sample data, saved projects, and exportable packets.</p>
         </div>
       </div>
     </div>

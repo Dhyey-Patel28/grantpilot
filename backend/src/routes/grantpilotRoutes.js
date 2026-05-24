@@ -1,11 +1,12 @@
 ﻿import express from "express";
 import { runGrantPilotWorkflow } from "../services/workflowRunner.js";
-import { getTrace, listTraces } from "../services/workflowTrace.js";
+import { getLatestCompletedTrace, getTrace, listTraces } from "../services/workflowTrace.js";
 import {
   listGrants,
   getGrantById,
   getGrantStats
 } from "../services/grantDatabase.js";
+import { getRefreshStatus } from "../services/refreshStatus.js";
 import {
   runProfileOnly,
   runScoreOnly,
@@ -103,6 +104,11 @@ router.get("/dataset/status", asyncHandler(async (req, res) => {
   res.json(output);
 }));
 
+router.get("/refresh/status", asyncHandler(async (req, res) => {
+  const output = await getRefreshStatus();
+  res.json(output);
+}));
+
 router.get("/grants/facets", asyncHandler(async (req, res) => {
   const output = await getGrantFacets();
   res.json(output);
@@ -138,6 +144,26 @@ router.post("/intake/validate", asyncHandler(async (req, res) => {
 router.get("/demo/scenarios", asyncHandler(async (req, res) => {
   res.json(getDemoScenarios());
 }));
+
+router.get("/demo/latest-run", asyncHandler(async (req, res) => {
+  const trace = await getLatestCompletedTrace();
+
+  if (!trace) {
+    res.status(404).json({
+      error: "No completed workflow traces found. Run GrantPilot once live, then Demo Mode can replay it."
+    });
+    return;
+  }
+
+  res.json({
+    demo: true,
+    replayed_from_trace: true,
+    trace_id: trace.trace_id,
+    result: trace.final_result,
+    trace
+  });
+}));
+
 
 router.post("/feedback", asyncHandler(async (req, res) => {
   const output = await recordFeedback(req.body);

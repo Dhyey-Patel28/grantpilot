@@ -26,12 +26,12 @@ export function upsertMfhUrl(registry, url, meta = {}) {
   const existing = registry.sources.mfh_grant_urls[url] || {};
   const now = nowIso();
   registry.sources.mfh_grant_urls[url] = {
+    ...existing,
     source: "MI Funding Hub",
     url,
     first_seen_at: existing.first_seen_at || now,
     last_seen_at: now,
     times_seen: (existing.times_seen || 0) + 1,
-    ...existing,
     ...meta
   };
 }
@@ -42,12 +42,12 @@ export function upsertGrantsGovOpportunity(registry, opportunityId, meta = {}) {
   const existing = registry.sources.grants_gov_opportunities[key] || {};
   const now = nowIso();
   registry.sources.grants_gov_opportunities[key] = {
+    ...existing,
     source: "Grants.gov",
     opportunity_id: key,
     first_seen_at: existing.first_seen_at || now,
     last_seen_at: now,
     times_seen: (existing.times_seen || 0) + 1,
-    ...existing,
     ...meta
   };
 }
