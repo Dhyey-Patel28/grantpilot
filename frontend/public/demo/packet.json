@@ -1,28 +1,200 @@
-{
-  "project_title": "Clare County Transportation Resilience Grant Readiness Memo",
-  "problem_statement": "Clare County has a rural road corridor where flooding, drainage limitations, and aging bridge or culvert assets create recurring access and safety concerns for residents, school travel, public works, and emergency response.",
-  "public_benefit": "The project would improve transportation safety, reduce weather-related disruptions, strengthen rural access, and support a more resilient public infrastructure network for residents and local services.",
-  "funding_request_summary": "GrantPilot identified the Bridge Investment Program as a high-priority opportunity to review. The project team should verify eligibility, match requirements, deadline timing, and required documentation before deciding whether to apply.",
-  "council_memo": "Staff should review the Bridge Investment Program opportunity as a potential funding path for bridge, culvert, and corridor resilience planning or project work. Before applying, the County should verify eligibility against the official NOFO, confirm match availability, compile asset/location documentation, and prepare a concise public benefit narrative.",
-  "resident_faq": [
-    "What is being considered? A transportation resilience project for a flood-prone rural road corridor.",
-    "Why does this matter? Better drainage and bridge/culvert assets can reduce closures and improve safety.",
-    "Is funding guaranteed? No. GrantPilot identifies opportunities for review; staff must verify and apply.",
-    "What happens next? Confirm eligibility, gather documents, and decide whether to pursue the application."
-  ],
-  "thirty_day_action_plan": [
-    "Confirm official deadline, match, and eligibility requirements.",
-    "Compile location map, photos, preliminary cost estimate, and asset condition documentation.",
-    "Draft project narrative focused on safety, resilience, and rural access.",
-    "Prepare a staff/council memo for authorization and match discussion.",
-    "Complete human review of requirements before submitting anything."
-  ],
-  "human_review_checklist": [
-    "Official source and deadline verified",
-    "Applicant and activity eligibility confirmed",
-    "Match requirement and funding plan reviewed",
-    "Required documents collected",
-    "NOFO and application portal checked by staff",
-    "Final language reviewed for no funding guarantees"
-  ]
+﻿{
+    "generated_at":  "2026-05-25T03:52:57.6666550Z",
+    "grant":  {
+                  "id":  "mfh_12949",
+                  "source":  "MI Funding Hub",
+                  "source_kind":  "real",
+                  "title":  "Clean Water State Revolving Fund",
+                  "agency":  "Michigan Department of Environment, Great Lakes, and Energy",
+                  "external_id":  "12949",
+                  "source_url":  "https://mifundinghub.org/funding-opportunities/?grant=12949",
+                  "website":  "https://www.michigan.gov/egle/regulatory-assistance/funding/fd/state-revolving-fund/cwsrf",
+                  "status":  "unknown",
+                  "due_date":  null,
+                  "posted_date":  null,
+                  "funding_amount":  null,
+                  "funding_type":  "Grant",
+                  "match_required":  "Unknown",
+                  "eligible_applicants":  [
+                                              "City or township governmentsCounty governmentsSpecial district governments"
+                                          ],
+                  "categories":  [
+                                     "health",
+                                     "water"
+                                 ],
+                  "overview":  "The Clean Water State Revolving Fund (CWSRF) provides low-interest loans to counties, cities, villages, townships, authorities, and other public entities for projects that improve water quality and protect public health. It finances statewide wastewater and stormwater infrastructure as well as nonpoint source (NPS) pollution control needs.Applicants must be public entities created under state law. Disadvantaged communities (Overburdened or Significantly Overburdened) receive priority points and principal forgiveness.Eligible projects include wastewater treatment works, stormwater management, and nonpoint source pollution control. Projects must comply with Davis-Bacon, American Iron and Steel, and Build America, Buy America (BABA) requirements.The application process involves submitting an Intent to Apply (ITA) form by November 1st, followed by an Overburdened Determination Survey and final project planning documents by May 1st. Projects are scored and ranked on a Project Priority List (PPL). Show More",
+                  "last_refreshed":  "2026-05-21T01:32:59.839Z",
+                  "source_health":  "cached_detail",
+                  "raw":  {
+                              "source":  "MI Funding Hub",
+                              "source_kind":  "real",
+                              "source_url":  "https://mifundinghub.org/funding-opportunities/?grant=12949",
+                              "exact_grant_url":  "https://mifundinghub.org/funding-opportunities/?grant=12949",
+                              "website":  "https://www.michigan.gov/egle/regulatory-assistance/funding/fd/state-revolving-fund/cwsrf",
+                              "grant_id":  "12949",
+                              "title":  "Clean Water State Revolving Fund",
+                              "overview":  "The Clean Water State Revolving Fund (CWSRF) provides low-interest loans to counties, cities, villages, townships, authorities, and other public entities for projects that improve water quality and protect public health. It finances statewide wastewater and stormwater infrastructure as well as nonpoint source (NPS) pollution control needs.Applicants must be public entities created under state law. Disadvantaged communities (Overburdened or Significantly Overburdened) receive priority points and principal forgiveness.Eligible projects include wastewater treatment works, stormwater management, and nonpoint source pollution control. Projects must comply with Davis-Bacon, American Iron and Steel, and Build America, Buy America (BABA) requirements.The application process involves submitting an Intent to Apply (ITA) form by November 1st, followed by an Overburdened Determination Survey and final project planning documents by May 1st. Projects are scored and ranked on a Project Priority List (PPL). Show More",
+                              "additional_info":  "Posted Date: October 1, 2024 Application Due Date: November 1, 2026 Estimated Award Date: Not Specified Eligible Applicants: City or township governmentsCounty governmentsSpecial district governments Show More",
+                              "eligible_applicants":  [
+                                                          "City or township governmentsCounty governmentsSpecial district governments"
+                                                      ],
+                              "funding_categories_raw":  [
+
+                                                         ],
+                              "categories_inferred":  [
+                                                          "health",
+                                                          "water"
+                                                      ],
+                              "due_date":  "",
+                              "agency":  "Michigan Department of Environment, Great Lakes, and Energy",
+                              "source_level":  "",
+                              "funding_amount":  "",
+                              "funding_type":  "",
+                              "match_required":  "",
+                              "status":  "",
+                              "contact_info":  "",
+                              "posted_date":  "",
+                              "application_due_date":  "",
+                              "scraped_at":  "2026-05-21T01:32:59.839Z",
+                              "content_hash":  "97ed1433f3a96570bcc58d456fa5a23d76a1324eb9062c98f3832b51471d803b",
+                              "from_cache":  false
+                          }
+              },
+    "packet":  {
+                   "project_title":  "Unnamed Township Water Flood Mitigation Planning Project",
+                   "problem_statement":  "Repeated heavy rain events cause flooding along a residential road corridor near a school bus route and senior households. The flooding overwhelms roadside ditches and undersized culverts, resulting in road closures, basement seepage, and unsafe shoulder conditions. Planning is needed to develop drainage engineering, culvert replacement, ditch restoration, and stormwater design solutions.",
+                   "public_benefit":  "Addressing the flooding would improve road safety for residents, including seniors and schoolchildren, and reduce disruptions to daily travel. Improved drainage infrastructure can enhance community resilience to future storm events. The project supports water quality and public health goals outlined by the grant program.",
+                   "funding_request_summary":  "The township seeks a cost estimate of $850000 to support engineering design, culvert replacement, and stormwater improvements. The Clean Water State Revolving Fund is identified as a potential funding source that may support part of the project. A detailed budget and cost‑share plan should be developed before submission.",
+                   "council_memo":  "Staff have prepared a preliminary plan to address flooding on a residential road corridor affecting seniors and school transportation. The Clean Water State Revolving Fund appears to be a potential funding source, but grant status, deadline, and match requirements are still unverified. Several required documents, including an Intent to Apply form and a council resolution, are missing. It is recommended that the council approve further preparation work to close these gaps before any application is submitted.",
+                   "resident_faq":  [
+                                        "What is the purpose of this project? The township plans to improve drainage and replace undersized culverts to reduce flooding along a residential road that affects seniors and school bus routes.",
+                                        "Why is this project important for residents? Reducing flooding will improve road safety, prevent basement water intrusion, and enhance community resilience to heavy rain events.",
+                                        "How could the Clean Water State Revolving Fund help? The grant may provide low‑interest loan funding for stormwater infrastructure, but eligibility, match requirements, and exact funding limits need confirmation.",
+                                        "What steps remain before funding can be secured? Staff need to verify the grant’s open status, confirm application deadlines, obtain required forms, develop a council resolution, and finalize engineering design and cost estimates."
+                                    ],
+                   "thirty_day_action_plan":  [
+                                                  "Verify the official grant program page and confirm the program is currently open for applications",
+                                                  "Confirm the exact application deadline dates and year for the Intent to Apply and final submission",
+                                                  "Determine whether a match or cost‑share is required and assess availability of match funds",
+                                                  "Obtain the Intent to Apply form, Overburdened Determination Survey, and final project planning documents",
+                                                  "Gather missing applicant profile information such as community name, county, and population",
+                                                  "Develop a council resolution authorizing the project and the engineering design memo",
+                                                  "Create a detailed cost estimate and budget documentation for the $850000 project"
+                                              ],
+                   "human_review_checklist":  [
+                                                  "Verify official grant source page",
+                                                  "Verify grant deadline",
+                                                  "Verify applicant eligibility",
+                                                  "Verify match or cost‑share requirements",
+                                                  "Verify required documents",
+                                                  "Verify project cost or budget",
+                                                  "Verify local approval or board authorization",
+                                                  "Confirm grant status is open and accepting applications",
+                                                  "Confirm exact application deadline year",
+                                                  "Confirm funding limits and award ceilings",
+                                                  "Confirm availability of match funds or develop a match plan",
+                                                  "Confirm community name, county, and population details for applicant profile"
+                                              ]
+               },
+    "requirements":  {
+                         "plain_english_summary":  "The Clean Water State Revolving Fund appears to provide low‑interest loans for public entities to finance wastewater, stormwater, and nonpoint source pollution projects. Staff should confirm the exact application deadlines, match requirements, funding limits, and current status of the program.",
+                         "eligibility_requirements":  [
+                                                          "Applicants must be public entities created under Michigan state law",
+                                                          "Eligible applicant types include city or township governments, county governments, and special district governments",
+                                                          "Projects must improve water quality or protect public health and can include wastewater treatment works, stormwater management, and nonpoint source pollution control"
+                                                      ],
+                         "required_documents":  [
+                                                    "Intent to Apply (ITA) form",
+                                                    "Overburdened Determination Survey",
+                                                    "Final project planning documents"
+                                                ],
+                         "deadlines":  [
+                                           "Intent to Apply must be submitted by November 1",
+                                           "Overburdened Determination Survey and final project planning documents must be submitted by May 1"
+                                       ],
+                         "match_requirements":  [
+
+                                                ],
+                         "funding_limits":  [
+
+                                            ],
+                         "application_steps":  [
+                                                   "Complete and submit the Intent to Apply form by the November 1 deadline",
+                                                   "Prepare and submit the Overburdened Determination Survey",
+                                                   "Develop final project planning documents and submit them by the May 1 deadline"
+                                               ],
+                         "risk_warnings":  [
+                                               "Deadline year not specified; verify the correct application year",
+                                               "Match requirement was not found in the provided text; confirm whether cost sharing or matching is required",
+                                               "Funding amount, award floor or ceiling, and total program funding were not provided; verify funding limits",
+                                               "Grant status is listed as unknown; confirm that the program is currently open for applications",
+                                               "Source information may be incomplete; verify details on the official program website"
+                                           ],
+                         "human_review_needed":  true
+                     },
+    "readiness":  {
+                      "readiness_score":  30,
+                      "ready_items":  [
+                                          "project description outlines flooding problem and planned engineering actions",
+                                          "estimated project cost of 850000 is provided",
+                                          "photos and road map illustrate affected area"
+                                      ],
+                      "missing_items":  [
+                                            "Intent to Apply form",
+                                            "Overburdened Determination Survey",
+                                            "Final project planning documents",
+                                            "official confirmation of grant status and open application period",
+                                            "confirmed application deadline and year",
+                                            "match or cost‑share documentation",
+                                            "funding limit information",
+                                            "council resolution authorizing the project",
+                                            "engineering memo or detailed design documents"
+                                        ],
+                      "needs_verification":  [
+                                                 "grant status listed as unknown needs confirmation",
+                                                 "application deadline year not specified in source",
+                                                 "whether a match or cost‑share is required",
+                                                 "funding amount, award floor and ceiling limits",
+                                                 "accuracy and completeness of source URL information",
+                                                 "community name, county and population details for applicant profile",
+                                                 "availability of match funds for the project"
+                                             ],
+                      "priority_actions":  [
+                                               "Verify grant status and that the program is currently open for applications",
+                                               "Confirm the exact application deadline dates and year",
+                                               "Determine if a match or cost‑share is required and assess availability",
+                                               "Obtain the Intent to Apply form, Overburdened Determination Survey, and final project planning documents",
+                                               "Secure official source page verification and capture any missing program details",
+                                               "Gather missing applicant profile information such as community name, county and population"
+                                           ],
+                      "recommended_before_applying":  [
+                                                          "Complete and submit the required Intent to Apply form",
+                                                          "Prepare the Overburdened Determination Survey and final planning documents",
+                                                          "Develop a council resolution or formal authorization for the project",
+                                                          "Finalize engineering scope, detailed design memo and cost estimate",
+                                                          "Confirm match availability or create a match funding plan",
+                                                          "Verify all deadline and submission portal requirements"
+                                                      ]
+                  },
+    "trust":  {
+                  "trust_status":  "needs_review",
+                  "issues_found":  [
+                                       "Grant status is listed as unknown and needs confirmation that the program is currently open for applications",
+                                       "Application deadline year is not specified; verification of exact dates is required",
+                                       "Match requirement is unknown; need to confirm whether cost‑share or matching funds are required",
+                                       "Funding amount, award limits, and program budget are not provided and must be verified",
+                                       "Source URL and details should be confirmed on the official program website for accuracy",
+                                       "Readiness score is low (30); the output should emphasize preparation rather than readiness to apply"
+                                   ],
+                  "required_fixes":  [
+                                         "Add a statement that staff must verify the grant\u0027s open status before proceeding",
+                                         "Specify that the exact application deadline dates and year need to be confirmed",
+                                         "Include a note that match or cost‑share requirements must be confirmed and addressed",
+                                         "Clarify that funding limits are unknown and should be checked on the official site",
+                                         "Mention that the source URL should be validated against the official Michigan Department of Environment website",
+                                         "Adjust language to focus on preparation steps rather than implying the project is ready to submit"
+                                     ],
+                  "safe_final_language":  "The provided summary can be displayed, but staff must verify the grant\u0027s current status, exact deadlines, match requirements, funding limits, and source details before any application is prepared.",
+                  "human_review_needed":  true
+              }
 }
