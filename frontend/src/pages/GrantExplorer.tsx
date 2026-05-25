@@ -34,9 +34,6 @@ import {
   getLatestProjectProfile,
   getLatestRun,
   isPortfolioDemoMode,
-  loadStaticPreviewCandidateGrants,
-  loadStaticPreviewLatestRun,
-  loadStaticPreviewProjectProfile,
   saveSelectedGrant,
   stripHtml,
   truncate
@@ -70,7 +67,6 @@ export const GrantExplorer = memo(function GrantExplorer() {
   const [databaseGrants, setDatabaseGrants] = useState<GrantRecord[]>([]);
   const [latestMatches, setLatestMatches] = useState<GrantRecord[]>([]);
   const [latestRun, setLatestRun] = useState<AnyRecord | null>(null);
-  const [latestProjectProfile, setLatestProjectProfile] = useState<AnyRecord | null>(null);
   const [databaseMeta, setDatabaseMeta] = useState<AnyRecord | null>(null);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [compareResult, setCompareResult] = useState<AnyRecord | null>(null);
@@ -81,46 +77,16 @@ export const GrantExplorer = memo(function GrantExplorer() {
   const comparePanelRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    let cancelled = false;
+    const savedRun = getLatestRun();
+    const latestGrants = getLatestCandidateGrants();
 
-    const hydratePreviewState = async () => {
-      let savedRun = getLatestRun();
-      let latestGrants = getLatestCandidateGrants();
-      let projectProfile = getLatestProjectProfile();
-
-      if (isPortfolioDemoMode()) {
-        const [staticRun, staticMatches, staticProfile] = await Promise.all([
-          loadStaticPreviewLatestRun(),
-          loadStaticPreviewCandidateGrants(10),
-          loadStaticPreviewProjectProfile()
-        ]);
-
-        if (staticRun) savedRun = staticRun;
-        if (staticMatches.length) latestGrants = staticMatches;
-        if (staticProfile) projectProfile = staticProfile;
-      }
-
-      if (cancelled) return;
-
-      setLatestRun(savedRun);
-      setLatestMatches(latestGrants);
-      setLatestProjectProfile(projectProfile);
-      setMode(latestGrants.length ? "latest" : "database");
-    };
-
-    void hydratePreviewState();
+    setLatestRun(savedRun);
+    setLatestMatches(latestGrants);
+    setMode(latestGrants.length ? "latest" : "database");
 
     GrantPilotApi.facets()
-      .then((output) => {
-        if (!cancelled) setFacets(asRecord(output));
-      })
-      .catch(() => {
-        if (!cancelled) setFacets(null);
-      });
-
-    return () => {
-      cancelled = true;
-    };
+      .then((output) => setFacets(asRecord(output)))
+      .catch(() => setFacets(null));
   }, []);
 
   const loadDatabaseGrants = useCallback(async () => {
@@ -147,7 +113,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
           : Number.parseInt(String(rawTotal ?? firstItems.length), 10);
 
       const safeTotal = Number.isFinite(total) && total > 0 ? total : firstItems.length;
-      const totalPages = Math.min(25, Math.max(1, Math.ceil(safeTotal / 100)));
+      const totalPages = Math.min(8, Math.max(1, Math.ceil(safeTotal / 100)));
       const allItems = [...firstItems];
 
       for (let page = 2; page <= totalPages; page += 1) {
@@ -224,7 +190,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
       ? `${visibleGrants.length} of ${totalDatabaseCount} grant records`
       : `${visibleGrants.length} project matches`;
   const topGrant = visibleGrants[0] || null;
-  const activeProjectProfile = latestProjectProfile || getLatestProjectProfile();
+  const activeProjectProfile = getLatestProjectProfile();
 
   const clearComparisonAndSelection = useCallback(() => {
     setCompareResult(null);
@@ -237,30 +203,8 @@ export const GrantExplorer = memo(function GrantExplorer() {
     setError("");
     setCompareResult(null);
     setSelectedIds([]);
-
-    const hydrateLatest = async () => {
-      let savedRun = getLatestRun();
-      let latestGrants = getLatestCandidateGrants();
-      let projectProfile = getLatestProjectProfile();
-
-      if (isPortfolioDemoMode()) {
-        const [staticRun, staticMatches, staticProfile] = await Promise.all([
-          loadStaticPreviewLatestRun(),
-          loadStaticPreviewCandidateGrants(10),
-          loadStaticPreviewProjectProfile()
-        ]);
-
-        if (staticRun) savedRun = staticRun;
-        if (staticMatches.length) latestGrants = staticMatches;
-        if (staticProfile) projectProfile = staticProfile;
-      }
-
-      setLatestRun(savedRun);
-      setLatestMatches(latestGrants);
-      setLatestProjectProfile(projectProfile);
-    };
-
-    void hydrateLatest();
+    setLatestRun(getLatestRun());
+    setLatestMatches(getLatestCandidateGrants());
   }, []);
 
   const openDatabase = useCallback(() => {
@@ -1257,11 +1201,19 @@ function getComparisonReason(grant: GrantRecord) {
 function buildFitReasons(grant: GrantRecord, projectProfile: AnyRecord | null) {
   const reasons: string[] = [];
   const recommendation = String(grant.recommendation || "").trim();
+  const recommendationText = recommendation.toLowerCase();
   const projectName = String(projectProfile?.project_title || projectProfile?.title || projectProfile?.project_type || "").trim();
+  const projectNameText = projectName.toLowerCase();
   const categories = getGrantCategories(grant).map((item) => item.toLowerCase());
   const score = getGrantScore(grant);
   const sourceUrl = getSourceUrl(grant);
   const status = String(grant.status || "").toLowerCase();
+  const isSavedStormwaterWorkflow =
+    recommendationText.includes("stormwater") ||
+    recommendationText.includes("saved stormwater") ||
+    projectNameText.includes("stormwater") ||
+    projectNameText.includes("township") ||
+    projectNameText.includes("clare county");
 
   if (recommendation) {
     reasons.push(truncate(stripHtml(recommendation), 130));
@@ -1275,8 +1227,10 @@ function buildFitReasons(grant: GrantRecord, projectProfile: AnyRecord | null) {
     reasons.push("Potential match found; confirm fit before investing application time.");
   }
 
-  if (projectName) {
-    reasons.push(`Reviewed against the latest project profile: ${truncate(projectName, 70)}.`);
+  if (isSavedStormwaterWorkflow) {
+    reasons.push("Reviewed against the saved stormwater road-flooding project profile.");
+  } else if (projectName) {
+    reasons.push(`Reviewed against the saved project profile: ${truncate(projectName, 70)}.`);
   } else if (categories.length) {
     reasons.push(`Relevant category signals: ${categories.slice(0, 2).map(prettify).join(", ")}.`);
   }

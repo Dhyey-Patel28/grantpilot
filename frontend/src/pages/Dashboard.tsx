@@ -35,22 +35,31 @@ import {
 
 const fallbackScenarios: AnyRecord[] = [
   {
-    id: "township-stormwater-readiness",
-    title: "Township stormwater readiness",
+    id: "stormwater-resilience",
+    title: "Stormwater resilience",
     strength: "Reference workflow",
     expected_story:
-      "Shows a realistic township flooding project moving from intake to ranked matches and a readiness memo.",
+      "Shows a realistic local government project with infrastructure, resilience, and document gaps.",
     project_description:
-      "A Michigan township is trying to fix repeated flooding along a residential road corridor near a school bus route and several senior households. Heavy rain overwhelms roadside ditches and undersized culverts, causing road closures, basement seepage, and unsafe shoulder conditions. The township wants funding for drainage engineering, culvert replacement, ditch restoration, stormwater design, and construction. Estimated cost is $850,000. Available documents include photos, meeting notes, a preliminary cost estimate, a road map, and public works observations."
+      "A small township needs funding to reduce flooding along a residential road corridor. The work includes stormwater drainage improvements, culvert replacement, ditch grading, and green infrastructure where feasible. The township needs support for design, engineering, and construction. Repeated heavy rain events have caused road closures and safety concerns. Estimated cost is $750,000 and the township can provide a modest local match."
   },
   {
-    id: "community-facility-resilience",
-    title: "Community facility resilience",
-    strength: "Secondary scenario",
+    id: "bridge-repair",
+    title: "County bridge repair",
+    strength: "Transportation fit",
     expected_story:
-      "Shows how GrantPilot handles facility upgrades, resilience framing, and missing documentation.",
+      "Routes a county bridge project to transportation grants and surfaces match/document gaps.",
     project_description:
-      "A small city wants to upgrade a community center so it can serve as a resilience hub during power outages and extreme weather. The project includes backup power, energy efficiency upgrades, accessibility improvements, and emergency communication equipment."
+      "Clare County has a broken bridge causing flooding and commute delays. The county wants funding to repair the bridge. Estimated cost is $100,000 and no match is available."
+  },
+  {
+    id: "private-retreat",
+    title: "Private retreat mismatch",
+    strength: "Guardrail test",
+    expected_story:
+      "Shows how GrantPilot avoids overclaiming when a project is a weak fit for infrastructure grants.",
+    project_description:
+      "The Bayview Tribal Arts Collective is seeking $4.5 million to renovate a luxury lakefront cultural retreat center featuring artist cabins, meditation gardens, private event spaces, and wellness facilities. The organization wants to apply for federal flood mitigation and transportation infrastructure grants because heavy rainfall occasionally affects nearby walking trails. The project primarily supports tourism, retreats, and private events. Applicant type: nonprofit organization."
   }
 ];
 
@@ -336,10 +345,10 @@ export const Dashboard = memo(function Dashboard() {
             <div className="rounded-2xl border border-borderColor bg-bgPanel/75 p-6">
               <h3 className="text-lg font-black text-textPrimary flex items-center">
                 <WifiOff className="w-5 h-5 mr-2 text-secondary" />
-                Works after trial limits
+                Reliable preview mode
               </h3>
               <p className="text-sm text-textSecondary mt-3 leading-relaxed">
-                Saved traces, offline mode, and project snapshots let GrantPilot keep showing the same polished workflow even without live calls.
+                Saved traces and project snapshots keep the workflow reviewable even when live credentials are not connected.
               </p>
             </div>
           </aside>

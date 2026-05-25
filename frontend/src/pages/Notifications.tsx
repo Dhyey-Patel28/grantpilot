@@ -19,11 +19,11 @@ interface Alert {
 }
 
 const defaultAlerts: Alert[] = [
-  { id: 1, title: '8 grants closing within 30 days', description: 'Requires immediate review before deadlines pass. Multiple high-fit opportunities at risk.', severity: 'High', category: 'Deadline', project: 'Clare County Infrastructure', createdAt: '2 hours ago', status: 'unread', icon: Calendar },
-  { id: 2, title: '12 water grants need verification', description: 'Eligibility check pending for water infrastructure grants from EPA and USDA sources.', severity: 'Medium', category: 'Eligibility', project: 'Water Rehabilitation', createdAt: '5 hours ago', status: 'unread', icon: FileCheck },
-  { id: 3, title: '3 high-fit grants missing costs', description: 'Cost estimate required to complete application packets. Engineering review needed.', severity: 'Medium', category: 'Requirements', project: 'Bridge Repair Initiative', createdAt: '1 day ago', status: 'unread', icon: FileWarning },
+  { id: 1, title: '8 grants closing within 30 days', description: 'Requires immediate review before deadlines pass. Multiple high-fit opportunities at risk.', severity: 'High', category: 'Deadline', project: 'Township Stormwater Project', createdAt: '2 hours ago', status: 'unread', icon: Calendar },
+  { id: 2, title: '12 water grants need verification', description: 'Eligibility check pending for water infrastructure grants from EPA and USDA sources.', severity: 'Medium', category: 'Eligibility', project: 'Stormwater Water Quality Review', createdAt: '5 hours ago', status: 'unread', icon: FileCheck },
+  { id: 3, title: '3 high-fit grants missing costs', description: 'Cost estimate required to complete application packets. Engineering review needed.', severity: 'Medium', category: 'Requirements', project: 'Stormwater Readiness Packet', createdAt: '1 day ago', status: 'unread', icon: FileWarning },
   { id: 4, title: 'Cache refresh completed', description: 'Grant database synchronized. 12 new grants added from Grants.gov and MI Funding Hub.', severity: 'Low', category: 'System', project: 'All Projects', createdAt: '2 hours ago', status: 'unread', icon: CheckCircle2 },
-  { id: 5, title: '2 packets sent for human review', description: 'Readiness packets for EPA CWSRF and USDA ReConnect have been submitted for council review.', severity: 'Medium', category: 'Review', project: 'Clare County Infrastructure', createdAt: '3 hours ago', status: 'unread', icon: ClipboardCheck },
+  { id: 5, title: '2 packets sent for human review', description: 'Readiness packets for CWSRF and related water programs have been sent for human review.', severity: 'Medium', category: 'Review', project: 'Township Stormwater Project', createdAt: '3 hours ago', status: 'unread', icon: ClipboardCheck },
 ];
 
 function loadAlerts(): Alert[] {
