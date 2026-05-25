@@ -25,6 +25,8 @@ import {
   getRecordField,
   getSelectedGrant,
   getStringField,
+  isPortfolioDemoMode,
+  loadStaticPreviewLatestRun,
   saveJson,
   STORAGE_KEYS,
   stripHtml
@@ -55,13 +57,34 @@ export const Translator = memo(function Translator() {
   const selectedGrantId = selectedGrantFromExplorer?.id ? String(selectedGrantFromExplorer.id) : "";
 
   useEffect(() => {
-    const savedGrant = getSelectedGrant();
-    setSelectedGrantFromExplorer(savedGrant);
+    let cancelled = false;
 
-    if (savedGrant?.id) {
-      setMode("selected");
-      setGrantId(String(savedGrant.id));
-    }
+    const hydrateSelectedGrant = async () => {
+      let savedGrant = getSelectedGrant();
+
+      if (isPortfolioDemoMode()) {
+        const staticRun = await loadStaticPreviewLatestRun();
+        const staticGrant = getRecordField(staticRun?.result, "selected_grant");
+        if (Object.keys(staticGrant).length) {
+          savedGrant = staticGrant as GrantRecord;
+        }
+      }
+
+      if (cancelled) return;
+
+      setSelectedGrantFromExplorer(savedGrant);
+
+      if (savedGrant?.id) {
+        setMode("selected");
+        setGrantId(String(savedGrant.id));
+      }
+    };
+
+    void hydrateSelectedGrant();
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   const grantTextWordCount = useMemo(() => {

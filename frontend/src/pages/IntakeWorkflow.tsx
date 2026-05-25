@@ -48,7 +48,7 @@ import {
 } from "../lib/grantpilotApi";
 
 const fallbackProject =
-  "A small township has repeated flooding along a residential road corridor. The project includes stormwater drainage improvements, culvert replacement, ditch grading, and green infrastructure where possible. The township needs funding for design, engineering, and construction, with limited local match available.";
+  "A Michigan township is trying to fix repeated flooding along a residential road corridor near a school bus route and several senior households. Heavy rain overwhelms roadside ditches and undersized culverts, causing road closures, basement seepage, and unsafe shoulder conditions. The township wants funding for drainage engineering, culvert replacement, ditch restoration, stormwater design, and construction. Estimated cost is $850,000. Available documents include photos, meeting notes, a preliminary cost estimate, a road map, and public works observations.";
 
 const workflowSteps = [
   {
@@ -85,22 +85,25 @@ const workflowSteps = [
 
 const documentSuggestions = [
   "photos",
-  "cost estimate",
   "meeting notes",
+  "preliminary cost estimate",
+  "road map",
+  "public works observations",
   "engineering memo",
-  "map",
+  "council resolution",
   "budget"
 ];
 
 const scenarioPrompts = [
   "township stormwater corridor",
-  "county bridge flooding repair",
-  "rural drinking water upgrade",
-  "public safety equipment replacement"
+  "culvert replacement",
+  "roadside drainage",
+  "public safety access"
 ];
 
 function getInitialDescription(): string {
   if (typeof window === "undefined") return fallbackProject;
+  if (isPortfolioDemoMode()) return fallbackProject;
 
   try {
     const savedScenario = localStorage.getItem(STORAGE_KEYS.demoScenario);
@@ -121,7 +124,7 @@ function getInitialOfflineMode(): boolean {
 
 export const IntakeWorkflow = memo(function IntakeWorkflow() {
   const [projectDescription, setProjectDescription] = useState(getInitialDescription);
-  const [documentsText, setDocumentsText] = useState("photos, cost estimate, meeting notes");
+  const [documentsText, setDocumentsText] = useState("photos, meeting notes, preliminary cost estimate, road map, public works observations");
   const [demoScenarios, setDemoScenarios] = useState<AnyRecord[]>([]);
   const [validation, setValidation] = useState<AnyRecord | null>(null);
   const [response, setResponse] = useState<GrantPilotRunResponse | null>(null);

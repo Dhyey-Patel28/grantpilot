@@ -60,10 +60,7 @@ export const SavedProjects = memo(function SavedProjects() {
       });
 
       if (staticProject) {
-        setProjects([
-          staticProject,
-          ...savedProjects.filter((project) => project.id !== staticProject.id)
-        ]);
+        setProjects([staticProject]);
         return;
       }
 
@@ -128,14 +125,14 @@ export const SavedProjects = memo(function SavedProjects() {
 
               <p className="text-textSecondary mt-3 max-w-3xl leading-relaxed">
                 GrantPilot includes a saved infrastructure workflow with its project profile,
-                ranked grants, selected opportunity, and packet handoff. Additional browser runs can save more project snapshots.
+                ranked grants, selected opportunity, and packet handoff.
               </p>
             </div>
 
             <div className="rounded-2xl border border-borderColor bg-bgPanelLight/50 p-4">
               <div className="text-sm text-textSecondary">Saved workflows</div>
               <div className="text-3xl font-black text-textPrimary mt-1">{projects.length}</div>
-              <div className="text-xs text-textSecondary mt-1">Starter workflow included • browser saves more</div>
+              <div className="text-xs text-textSecondary mt-1">Reference workflow included</div>
             </div>
           </div>
         </div>

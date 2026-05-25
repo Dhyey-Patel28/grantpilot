@@ -275,6 +275,40 @@ async function getStaticDemoGetResponse(path: string): Promise<unknown> {
     return (await loadStaticLatestRun()) || undefined;
   }
 
+  if (pathname === "/api/grantpilot/demo/scenarios") {
+    return buildStaticScenarios();
+  }
+
+  if (pathname === "/api/grantpilot/traces") {
+    const latestRun = await loadStaticLatestRun();
+    if (latestRun) {
+      return {
+        traces: [
+          {
+            trace_id: latestRun.trace_id,
+            workflow_type: latestRun.trace?.workflow_type || "grantpilot_prepare_application",
+            status: latestRun.trace?.status || "completed",
+            created_at: latestRun.trace?.created_at || new Date().toISOString(),
+            completed_at: latestRun.trace?.completed_at || new Date().toISOString(),
+            summary: "Saved stormwater readiness workflow."
+          }
+        ]
+      };
+    }
+  }
+
+  const traceSummaryMatch = pathname.match(/^\/api\/grantpilot\/traces\/([^/]+)\/summary$/);
+  if (traceSummaryMatch) {
+    const latestRun = await loadStaticLatestRun();
+    if (latestRun) return buildStaticTraceSummary(latestRun, decodeURIComponent(traceSummaryMatch[1]));
+  }
+
+  const traceMatch = pathname.match(/^\/api\/grantpilot\/traces\/([^/]+)$/);
+  if (traceMatch) {
+    const latestRun = await loadStaticLatestRun();
+    if (latestRun) return { ...latestRun.trace, trace_id: decodeURIComponent(traceMatch[1]) };
+  }
+
   if (pathname === "/api/grantpilot/stats") {
     const grants = await loadStaticGrants();
     if (grants.length) return buildStaticStats(grants);
@@ -352,8 +386,15 @@ export async function apiGet<T = AnyRecord>(path: string): Promise<T> {
 export async function apiPost<T = AnyRecord>(path: string, body: AnyRecord): Promise<T> {
   const demoResponse = getDemoPostResponse(path, body);
 
-  if (isPortfolioDemoMode() && demoResponse !== undefined) {
-    return cloneDemo(demoResponse) as T;
+  if (isPortfolioDemoMode()) {
+    const staticResponse = await getStaticDemoPostResponse(path, body);
+    if (staticResponse !== undefined) {
+      return cloneDemo(staticResponse) as T;
+    }
+
+    if (demoResponse !== undefined) {
+      return cloneDemo(demoResponse) as T;
+    }
   }
 
   try {
@@ -374,6 +415,74 @@ export async function apiPost<T = AnyRecord>(path: string, body: AnyRecord): Pro
 
     throw error;
   }
+}
+
+async function getStaticDemoPostResponse(path: string, body: AnyRecord): Promise<unknown> {
+  if (!isPortfolioDemoMode()) return undefined;
+
+  const latestRun = await loadStaticLatestRun();
+  const packet = await loadStaticPreviewPacket();
+  const result = asRecord(latestRun?.result);
+
+  if (path === "/api/grantpilot/run" || path === "/api/grantpilot/match") {
+    return latestRun || undefined;
+  }
+
+  if (path === "/api/grantpilot/profile") {
+    const profile = extractProjectProfileFromRun(latestRun);
+    if (profile) return { project_profile: profile };
+  }
+
+  if (path === "/api/grantpilot/score") {
+    const candidate_grants = await loadStaticPreviewCandidateGrants(10);
+    if (candidate_grants.length) return { candidate_grants };
+  }
+
+  if (path === "/api/grantpilot/requirements") {
+    const selectedGrant = getRecordField(result, "selected_grant");
+    const requirements = getRecordField(result, "requirements");
+
+    if (Object.keys(requirements).length) {
+      return {
+        trace_id: latestRun?.trace_id || "static_requirements_trace",
+        result: { selected_grant: selectedGrant, requirements },
+        requirements
+      };
+    }
+  }
+
+  if (path === "/api/grantpilot/readiness") {
+    const requirements = getRecordField(result, "requirements");
+    const readiness_gaps = getRecordField(result, "readiness_gaps");
+
+    if (Object.keys(readiness_gaps).length) {
+      return {
+        trace_id: latestRun?.trace_id || "static_readiness_trace",
+        result: { requirements, readiness_gaps },
+        readiness_gaps
+      };
+    }
+  }
+
+  if (path === "/api/grantpilot/prepare-application") {
+    if (packet) return packet;
+    if (latestRun) return latestRun;
+  }
+
+  if (path === "/api/grantpilot/intake/validate") {
+    return validateStaticIntake(body);
+  }
+
+  if (path === "/api/grantpilot/grants/compare") {
+    const candidate_grants = await loadStaticPreviewCandidateGrants(10);
+    return {
+      comparison_mode: "static_frontend_cache",
+      grants: candidate_grants.slice(0, 3),
+      recommendation: "Compare the selected opportunities against the saved stormwater project and verify all source details before applying."
+    };
+  }
+
+  return undefined;
 }
 
 function cloneDemo(value: unknown): unknown {
@@ -471,6 +580,67 @@ function getDemoPostResponse(path: string, body: AnyRecord): unknown {
   return undefined;
 }
 
+
+function buildStaticScenarios(): AnyRecord {
+  const stormwaterDescription =
+    "A Michigan township is trying to fix repeated flooding along a residential road corridor near a school bus route and several senior households. Heavy rain overwhelms roadside ditches and undersized culverts, causing road closures, basement seepage, and unsafe shoulder conditions. The township wants funding for drainage engineering, culvert replacement, ditch restoration, stormwater design, and construction. Estimated cost is $850,000. Available documents include photos, meeting notes, a preliminary cost estimate, a road map, and public works observations.";
+
+  return {
+    scenarios: [
+      {
+        id: "township-stormwater-readiness",
+        title: "Township stormwater readiness",
+        strength: "Reference workflow",
+        expected_story:
+          "Shows a stormwater infrastructure project moving from project need to ranked grants and a readiness memo.",
+        project_description: stormwaterDescription
+      },
+      {
+        id: "community-facility-resilience",
+        title: "Community facility resilience",
+        strength: "Secondary scenario",
+        expected_story:
+          "Shows how GrantPilot can frame a public facility project around resilience, documents, and human verification.",
+        project_description:
+          "A small city wants to upgrade a community center so it can serve as a resilience hub during power outages and extreme weather. The project includes backup power, energy efficiency upgrades, accessibility improvements, and emergency communication equipment."
+      }
+    ]
+  };
+}
+
+function buildStaticTraceSummary(run: GrantPilotRunResponse, traceId: string): AnyRecord {
+  const profile = extractProjectProfileFromRun(run) || {};
+  const result = asRecord(run.result);
+  const selectedGrant = getRecordField(result, "selected_grant");
+
+  return {
+    trace_id: traceId,
+    status: run.trace?.status || "completed",
+    project_profile: profile,
+    selected_grant: selectedGrant,
+    summary:
+      "Saved stormwater readiness workflow with source-backed matches, translated requirements, readiness gaps, and Trust Guard review.",
+    steps: asArray(run.trace?.steps)
+  };
+}
+
+function validateStaticIntake(body: AnyRecord): AnyRecord {
+  const description = asString(body.description || body.project_description);
+  const documents = asArray(body.documents_available);
+  const words = description.trim().split(/\s+/).filter(Boolean).length;
+  const score = Math.min(95, Math.max(45, words + documents.length * 8));
+
+  return {
+    ok: true,
+    score,
+    label: score >= 75 ? "Strong intake" : "Good start",
+    recommendations: [
+      "Keep one applicant, one public problem, and one funding need in the scenario.",
+      "Add known documents so the readiness packet can separate available evidence from missing requirements.",
+      "Verify deadline, eligibility, match, and source details before treating any output as application-ready."
+    ]
+  };
+}
 
 function normalizeStaticGrant(grant: AnyRecord): GrantRecord {
   const raw = asRecord(grant.raw);
