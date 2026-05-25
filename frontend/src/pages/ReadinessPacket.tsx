@@ -33,6 +33,10 @@ import {
   getLatestProjectProfile,
   getRecordField,
   getSelectedGrant,
+  isPortfolioDemoMode,
+  loadStaticPreviewCandidateGrants,
+  loadStaticPreviewPacket,
+  loadStaticPreviewProjectProfile,
   getStringField,
   exportJsonFile,
   exportTextFile,
@@ -63,15 +67,45 @@ export const ReadinessPacket = memo(function ReadinessPacket() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    const profile = getLatestProjectProfile();
-    const savedGrant = getSelectedGrant();
-    const candidates = getLatestCandidateGrants();
+    let cancelled = false;
 
-    setProjectProfile(profile);
-    setSelectedGrant(savedGrant);
-    setLatestCandidates(candidates);
-    setPacketResponse(getLatestPacket());
-    setDocumentsText("photos, meeting notes, cost estimate, location map, preliminary engineering memo");
+    const hydratePacket = async () => {
+      let profile = getLatestProjectProfile();
+      let savedGrant = getSelectedGrant();
+      let candidates = getLatestCandidateGrants();
+      let packet = getLatestPacket();
+
+      if (isPortfolioDemoMode()) {
+        const [staticProfile, staticCandidates, staticPacket] = await Promise.all([
+          loadStaticPreviewProjectProfile(),
+          loadStaticPreviewCandidateGrants(10),
+          loadStaticPreviewPacket()
+        ]);
+
+        if (staticProfile) profile = staticProfile;
+        if (staticCandidates.length) candidates = staticCandidates;
+        if (staticPacket) {
+          packet = staticPacket;
+          const result = getRecordField(staticPacket, "result");
+          const staticGrant = getRecordField(result, "selected_grant");
+          if (Object.keys(staticGrant).length) savedGrant = staticGrant as GrantRecord;
+        }
+      }
+
+      if (cancelled) return;
+
+      setProjectProfile(profile);
+      setSelectedGrant(savedGrant);
+      setLatestCandidates(candidates);
+      setPacketResponse(packet);
+      setDocumentsText("photos, meeting notes, preliminary cost estimate, road map, public works observations");
+    };
+
+    void hydratePacket();
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   const documentsAvailable = useMemo(() => {

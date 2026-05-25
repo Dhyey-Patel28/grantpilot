@@ -14,12 +14,18 @@ import {
   Search,
   Trash2
 } from "lucide-react";
-import type { SavedProjectSnapshot } from "../lib/grantpilotApi";
+import type { AnyRecord, GrantRecord, SavedProjectSnapshot } from "../lib/grantpilotApi";
 import {
   deleteSavedProject,
   formatDate,
   getGrantScore,
   getSavedProjects,
+  getStringField,
+  isPortfolioDemoMode,
+  loadStaticPreviewCandidateGrants,
+  loadStaticPreviewLatestRun,
+  loadStaticPreviewPacket,
+  loadStaticPreviewProjectProfile,
   restoreSavedProject,
   stripHtml,
   truncate
@@ -31,7 +37,40 @@ export const SavedProjects = memo(function SavedProjects() {
   const [query, setQuery] = useState("");
 
   const refresh = useCallback(() => {
-    setProjects(getSavedProjects());
+    const hydrateProjects = async () => {
+      const savedProjects = getSavedProjects();
+
+      if (!isPortfolioDemoMode()) {
+        setProjects(savedProjects);
+        return;
+      }
+
+      const [staticRun, staticProfile, staticCandidates, staticPacket] = await Promise.all([
+        loadStaticPreviewLatestRun(),
+        loadStaticPreviewProjectProfile(),
+        loadStaticPreviewCandidateGrants(10),
+        loadStaticPreviewPacket()
+      ]);
+
+      const staticProject = buildStaticSavedProject({
+        latestRun: staticRun,
+        projectProfile: staticProfile,
+        candidateGrants: staticCandidates,
+        latestPacket: staticPacket
+      });
+
+      if (staticProject) {
+        setProjects([
+          staticProject,
+          ...savedProjects.filter((project) => project.id !== staticProject.id)
+        ]);
+        return;
+      }
+
+      setProjects(savedProjects);
+    };
+
+    void hydrateProjects();
   }, []);
 
   useEffect(() => {
@@ -132,6 +171,49 @@ export const SavedProjects = memo(function SavedProjects() {
     </div>
   );
 });
+
+function buildStaticSavedProject({
+  latestRun,
+  projectProfile,
+  candidateGrants,
+  latestPacket
+}: {
+  latestRun: AnyRecord | null;
+  projectProfile: AnyRecord | null;
+  candidateGrants: GrantRecord[];
+  latestPacket: AnyRecord | null;
+}): SavedProjectSnapshot | null {
+  if (!latestRun && !projectProfile && !candidateGrants.length) return null;
+
+  const title =
+    getStringField(projectProfile, "project_title") ||
+    "Township stormwater readiness project";
+
+  const description =
+    getStringField(projectProfile, "description") ||
+    "Saved stormwater road-flooding workflow with ranked grants and a staff-ready readiness packet.";
+
+  return {
+    id: "static_stormwater_readiness_workflow",
+    title,
+    description,
+    created_at: getStringField(latestRun, "created_at", "2026-05-25T03:45:12.542Z"),
+    updated_at: getStringField(latestRun, "completed_at", new Date().toISOString()),
+    trace_id: getStringField(latestRun, "trace_id"),
+    documents_available: [
+      "photos",
+      "meeting notes",
+      "preliminary cost estimate",
+      "road map",
+      "public works observations"
+    ],
+    project_profile: projectProfile || {},
+    candidate_grants: candidateGrants,
+    selected_grant: candidateGrants[0] || null,
+    latest_run: latestRun as SavedProjectSnapshot["latest_run"],
+    latest_packet: latestPacket
+  };
+}
 
 function ProjectCard({
   project,

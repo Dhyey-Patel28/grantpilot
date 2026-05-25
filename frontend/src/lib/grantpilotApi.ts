@@ -103,6 +103,17 @@ export function asNumber(value: unknown, fallback = 0): number {
   return fallback;
 }
 
+export function asStringOrNumber(value: unknown): string | number | null {
+  if (typeof value === "number" && Number.isFinite(value)) return value;
+
+  if (typeof value === "string") {
+    const trimmed = value.trim();
+    return trimmed ? trimmed : null;
+  }
+
+  return null;
+}
+
 export function asBoolean(value: unknown, fallback = false): boolean {
   if (typeof value === "boolean") return value;
   if (typeof value === "string") {
@@ -184,11 +195,139 @@ export function getPortfolioDemoNotice(): string {
   return "This hosted workspace uses a guided sample workflow so reviewers can inspect the product without live credentials.";
 }
 
+let staticGrantCache: GrantRecord[] | null = null;
+let staticLatestRunCache: GrantPilotRunResponse | null = null;
+let staticPacketCache: AnyRecord | null = null;
+
+async function fetchStaticJson<T = unknown>(path: string): Promise<T | null> {
+  if (typeof window === "undefined") return null;
+
+  try {
+    const response = await fetch(path, {
+      headers: { Accept: "application/json" },
+      cache: "no-store"
+    });
+
+    if (!response.ok) return null;
+    return (await response.json()) as T;
+  } catch {
+    return null;
+  }
+}
+
+async function loadStaticGrants(): Promise<GrantRecord[]> {
+  if (staticGrantCache) return staticGrantCache;
+
+  const loaded = await fetchStaticJson<unknown>("/demo/grants.json");
+  const source = Array.isArray(loaded)
+    ? loaded
+    : isRecord(loaded)
+      ? asArray<unknown>(loaded.items || loaded.grants || loaded.records || loaded.normalized_grants)
+      : [];
+
+  staticGrantCache = source
+    .filter(isRecord)
+    .map((grant) => normalizeStaticGrant(grant))
+    .filter((grant) => Boolean(grant.id || grant.title));
+
+  return staticGrantCache;
+}
+
+async function loadStaticLatestRun(): Promise<GrantPilotRunResponse | null> {
+  if (staticLatestRunCache) return staticLatestRunCache;
+
+  const loaded =
+    (await fetchStaticJson<GrantPilotRunResponse>("/demo/latest-run.json")) ||
+    (await fetchStaticJson<GrantPilotRunResponse>("/demo/runs/stormwater-road-flooding.json"));
+
+  staticLatestRunCache = loaded && isRecord(loaded.result) ? loaded : null;
+  return staticLatestRunCache;
+}
+
+async function loadStaticPacket(): Promise<AnyRecord | null> {
+  if (staticPacketCache) return staticPacketCache;
+
+  const loaded = await fetchStaticJson<AnyRecord>("/demo/packet.json");
+  if (isRecord(loaded)) {
+    staticPacketCache = loaded;
+    return staticPacketCache;
+  }
+
+  const latestRun = await loadStaticLatestRun();
+  if (latestRun && isRecord(latestRun.result)) {
+    staticPacketCache = {
+      trace_id: latestRun.trace_id,
+      result: latestRun.result
+    };
+    return staticPacketCache;
+  }
+
+  return null;
+}
+
+async function getStaticDemoGetResponse(path: string): Promise<unknown> {
+  if (!isPortfolioDemoMode()) return undefined;
+
+  const url = new URL(path, "https://grantpilot.local");
+  const pathname = url.pathname;
+
+  if (pathname === "/api/grantpilot/demo/latest-run") {
+    return (await loadStaticLatestRun()) || undefined;
+  }
+
+  if (pathname === "/api/grantpilot/stats") {
+    const grants = await loadStaticGrants();
+    if (grants.length) return buildStaticStats(grants);
+  }
+
+  if (pathname === "/api/grantpilot/dataset/status" || pathname === "/api/grantpilot/refresh/status") {
+    const grants = await loadStaticGrants();
+    if (grants.length) return buildStaticRefreshStatus(grants);
+  }
+
+  if (pathname === "/api/grantpilot/grants/facets") {
+    const grants = await loadStaticGrants();
+    if (grants.length) return buildStaticFacets(grants);
+  }
+
+  if (pathname === "/api/grantpilot/grants") {
+    const grants = await loadStaticGrants();
+    if (grants.length) return buildStaticGrantList(url.searchParams, grants);
+  }
+
+  const relatedMatch = pathname.match(/^\/api\/grantpilot\/grants\/([^/]+)\/related$/);
+  if (relatedMatch) {
+    const id = decodeURIComponent(relatedMatch[1]);
+    const limit = Math.max(1, Number(url.searchParams.get("limit") || 5));
+    const grants = await loadStaticGrants();
+    const selected = findGrantInList(id, grants);
+    const related = getRelatedStaticGrants(selected, grants, limit);
+    if (related.length) return { related };
+  }
+
+  const grantMatch = pathname.match(/^\/api\/grantpilot\/grants\/([^/]+)$/);
+  if (grantMatch) {
+    const id = decodeURIComponent(grantMatch[1]);
+    const grants = await loadStaticGrants();
+    const found = findGrantInList(id, grants);
+    if (found) return found;
+  }
+
+  return undefined;
+}
+
 export async function apiGet<T = AnyRecord>(path: string): Promise<T> {
   const demoResponse = getDemoGetResponse(path);
 
-  if (isPortfolioDemoMode() && demoResponse !== undefined) {
-    return cloneDemo(demoResponse) as T;
+  if (isPortfolioDemoMode()) {
+    const staticResponse = await getStaticDemoGetResponse(path);
+    if (staticResponse !== undefined) {
+      return cloneDemo(staticResponse) as T;
+    }
+
+    if (demoResponse !== undefined) {
+      return cloneDemo(demoResponse) as T;
+    }
   }
 
   try {
@@ -330,6 +469,324 @@ function getDemoPostResponse(path: string, body: AnyRecord): unknown {
   if (path === "/api/grantpilot/feedback") return { ok: true, stored: false, mode: "guided_preview" };
 
   return undefined;
+}
+
+
+function normalizeStaticGrant(grant: AnyRecord): GrantRecord {
+  const raw = asRecord(grant.raw);
+  const id =
+    asString(grant.id) ||
+    asString(grant.grant_id) ||
+    asString(grant.external_id) ||
+    asString(raw.grant_id) ||
+    `${asString(grant.source, "source").toLowerCase().replace(/\s+/g, "_")}_${asString(grant.title, "grant").toLowerCase().replace(/[^a-z0-9]+/g, "_").slice(0, 80)}`;
+
+  const categories = asArray<string>(grant.categories || grant.categories_inferred || raw.categories_inferred)
+    .map((item) => asString(item).trim())
+    .filter(Boolean);
+
+  return {
+    ...grant,
+    id,
+    title: asString(grant.title || raw.title, "Untitled grant"),
+    agency: asString(grant.agency || raw.agency, "Agency not listed"),
+    source: asString(grant.source || raw.source, "Unknown source"),
+    source_url: asString(grant.source_url || grant.exact_grant_url || raw.source_url || raw.exact_grant_url || grant.website || raw.website),
+    status: asString(grant.status || raw.status, "unknown") || "unknown",
+    due_date: asString(grant.due_date || grant.deadline || raw.due_date || raw.application_due_date) || null,
+    deadline: asString(grant.deadline || grant.due_date || raw.application_due_date || raw.due_date) || null,
+    funding_amount: asStringOrNumber(grant.funding_amount) ?? asStringOrNumber(raw.funding_amount),
+    funding_type: asString(grant.funding_type || raw.funding_type) || null,
+    match_required: asString(grant.match_required || raw.match_required, "Unknown"),
+    overview: asString(grant.overview || grant.summary || raw.overview || raw.description),
+    categories,
+    eligible_applicants: asArray<string>(grant.eligible_applicants || raw.eligible_applicants),
+    last_refreshed: asString(grant.last_refreshed || raw.scraped_at) || null,
+    source_health: isRecord(grant.source_health) ? grant.source_health : isRecord(raw.source_health) ? raw.source_health : null
+  };
+}
+
+function buildStaticGrantList(params: URLSearchParams, grants: GrantRecord[]): AnyRecord {
+  const query = String(params.get("query") || "").trim().toLowerCase();
+  const source = String(params.get("source") || "").trim().toLowerCase();
+  const status = String(params.get("status") || "").trim().toLowerCase();
+  const category = String(params.get("category") || "").trim().toLowerCase();
+  const page = Math.max(1, Number(params.get("page") || 1));
+  const limit = Math.max(1, Number(params.get("limit") || 25));
+
+  let items = grants;
+
+  if (query) {
+    items = items.filter((grant) =>
+      [
+        grant.title,
+        grant.agency,
+        grant.overview,
+        grant.source,
+        grant.status,
+        grant.match_required,
+        ...(grant.categories || []),
+        ...(grant.eligible_applicants || [])
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase()
+        .includes(query)
+    );
+  }
+
+  if (source) items = items.filter((grant) => String(grant.source || "").toLowerCase() === source);
+  if (status) items = items.filter((grant) => String(grant.status || "").toLowerCase() === status);
+  if (category) items = items.filter((grant) => (grant.categories || []).some((item) => String(item).toLowerCase() === category));
+
+  const start = (page - 1) * limit;
+
+  return {
+    items: items.slice(start, start + limit),
+    total: items.length,
+    page,
+    limit,
+    mode: "static_frontend_cache",
+    notice: "Loaded from the frontend grant cache included with this public preview."
+  };
+}
+
+function buildStaticStats(grants: GrantRecord[]): AnyRecord {
+  const byStatus = countBy(grants, (grant) => asString(grant.status, "unknown") || "unknown");
+  const bySource = countBy(grants, (grant) => asString(grant.source, "Unknown source") || "Unknown source");
+
+  return {
+    total_grants: grants.length,
+    by_status: byStatus,
+    by_source: bySource,
+    mode: "static_frontend_cache"
+  };
+}
+
+function buildStaticRefreshStatus(grants: GrantRecord[]): RefreshStatus {
+  const byStatus = countBy(grants, (grant) => asString(grant.status, "unknown") || "unknown");
+  const bySource = countBy(grants, (grant) => asString(grant.source, "Unknown source") || "Unknown source");
+  const refreshedDates = grants
+    .map((grant) => asString(grant.last_refreshed))
+    .filter(Boolean)
+    .sort();
+
+  const lastRefreshed = refreshedDates[refreshedDates.length - 1] || null;
+  const sourceHealth: AnyRecord = {};
+
+  for (const [source, count] of Object.entries(bySource)) {
+    sourceHealth[source] = {
+      status: "cached",
+      records: count,
+      last_refreshed: lastRefreshed
+    };
+  }
+
+  return {
+    ok: true,
+    status: "ready",
+    mode: "static_frontend_cache",
+    last_refreshed: lastRefreshed,
+    normalized_grant_count: grants.length,
+    counts: {
+      by_status: byStatus,
+      by_source: bySource
+    },
+    source_health: sourceHealth,
+    recommendations: ["Using bundled grant cache for the public deployment."]
+  };
+}
+
+function buildStaticFacets(grants: GrantRecord[]): AnyRecord {
+  const sources = Object.keys(countBy(grants, (grant) => asString(grant.source, "Unknown source") || "Unknown source")).sort();
+  const statuses = Object.keys(countBy(grants, (grant) => asString(grant.status, "unknown") || "unknown")).sort();
+  const categories = Array.from(new Set(grants.flatMap((grant) => grant.categories || []).map((item) => String(item)).filter(Boolean))).sort();
+
+  return {
+    sources,
+    statuses,
+    categories,
+    total: grants.length,
+    mode: "static_frontend_cache"
+  };
+}
+
+function findGrantInList(id: string, grants: GrantRecord[]): GrantRecord | null {
+  if (!id) return null;
+  return (
+    grants.find((grant) => String(grant.id) === id) ||
+    grants.find((grant) => String(grant.external_id || "") === id) ||
+    null
+  );
+}
+
+function getRelatedStaticGrants(selected: GrantRecord | null, grants: GrantRecord[], limit: number): GrantRecord[] {
+  if (!selected) return grants.slice(0, limit);
+
+  const selectedId = String(selected.id || "");
+  const selectedCategories = new Set((selected.categories || []).map((item) => String(item).toLowerCase()));
+  const selectedSource = String(selected.source || "").toLowerCase();
+
+  return [...grants]
+    .filter((grant) => String(grant.id || "") !== selectedId)
+    .map((grant) => {
+      const categories = (grant.categories || []).map((item) => String(item).toLowerCase());
+      const categoryOverlap = categories.filter((item) => selectedCategories.has(item)).length;
+      const sourceBoost = String(grant.source || "").toLowerCase() === selectedSource ? 1 : 0;
+      return {
+        grant,
+        score: categoryOverlap * 10 + sourceBoost
+      };
+    })
+    .sort((a, b) => b.score - a.score)
+    .map((item) => item.grant)
+    .slice(0, limit);
+}
+
+function countBy<T>(items: T[], getKey: (item: T) => string): Record<string, number> {
+  return items.reduce<Record<string, number>>((accumulator, item) => {
+    const key = getKey(item) || "unknown";
+    accumulator[key] = (accumulator[key] || 0) + 1;
+    return accumulator;
+  }, {});
+}
+
+function extractProjectProfileFromRun(run: GrantPilotRunResponse | null): AnyRecord | null {
+  if (!run) return null;
+
+  const result = asRecord(run.result);
+  const trace = asRecord(run.trace);
+  const userInput = asRecord(trace.user_input);
+  const directProfile = getRecordField(result, "project_profile");
+  const inputProfile = getRecordField(userInput, "project_profile");
+
+  if (Object.keys(directProfile).length) return directProfile;
+  if (Object.keys(inputProfile).length) return inputProfile;
+  return null;
+}
+
+export async function loadStaticPreviewLatestRun(): Promise<GrantPilotRunResponse | null> {
+  return loadStaticLatestRun();
+}
+
+export async function loadStaticPreviewPacket(): Promise<AnyRecord | null> {
+  const packet = await loadStaticPacket();
+
+  if (!packet) return null;
+  if (isRecord(packet.result)) return packet;
+
+  return {
+    result: {
+      selected_grant: packet.grant,
+      packet_draft: packet.packet,
+      requirements: packet.requirements,
+      readiness_gaps: packet.readiness,
+      trust_review: packet.trust
+    }
+  };
+}
+
+export async function loadStaticPreviewProjectProfile(): Promise<AnyRecord | null> {
+  const latestRun = await loadStaticLatestRun();
+  return extractProjectProfileFromRun(latestRun);
+}
+
+export async function loadStaticPreviewCandidateGrants(limit = 10): Promise<GrantRecord[]> {
+  const latestRun = await loadStaticLatestRun();
+  const result = asRecord(latestRun?.result);
+  const directCandidates = getArrayField<GrantRecord>(result, "candidate_grants");
+
+  if (directCandidates.length) return directCandidates.slice(0, limit);
+
+  const selectedGrant = getRecordField(result, "selected_grant") as GrantRecord;
+  const projectProfile = extractProjectProfileFromRun(latestRun);
+  const grants = await loadStaticGrants();
+
+  if (!grants.length) return directCandidates;
+
+  return synthesizeProjectMatches({
+    selectedGrant,
+    projectProfile,
+    grants,
+    limit
+  });
+}
+
+function synthesizeProjectMatches({
+  selectedGrant,
+  projectProfile,
+  grants,
+  limit
+}: {
+  selectedGrant: GrantRecord;
+  projectProfile: AnyRecord | null;
+  grants: GrantRecord[];
+  limit: number;
+}): GrantRecord[] {
+  const selectedId = String(selectedGrant?.id || "");
+  const description = [
+    getStringField(projectProfile, "project_title"),
+    getStringField(projectProfile, "description"),
+    getStringField(projectProfile, "project_category"),
+    ...getArrayField<string>(projectProfile, "impact_keywords")
+  ]
+    .join(" ")
+    .toLowerCase();
+
+  const projectTerms = [
+    "stormwater",
+    "water",
+    "flood",
+    "flooding",
+    "drainage",
+    "culvert",
+    "ditch",
+    "wastewater",
+    "nonpoint",
+    "public health",
+    "road safety"
+  ].filter((term) => description.includes(term) || ["water", "stormwater", "flooding", "drainage"].includes(term));
+
+  return [...grants]
+    .map((grant) => {
+      const haystack = [
+        grant.title,
+        grant.agency,
+        grant.overview,
+        grant.source,
+        grant.match_required,
+        ...(grant.categories || []),
+        ...(grant.eligible_applicants || [])
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+
+      const termScore = projectTerms.reduce((score, term) => score + (haystack.includes(term) ? 7 : 0), 0);
+      const categoryScore = (grant.categories || []).some((category) => ["water", "environment", "health"].includes(String(category).toLowerCase())) ? 18 : 0;
+      const selectedBoost = String(grant.id || "") === selectedId ? 25 : 0;
+      const openBoost = String(grant.status || "").toLowerCase() === "open" ? 4 : 0;
+      const score = Math.min(96, Math.max(48, 45 + termScore + categoryScore + selectedBoost + openBoost));
+
+      return {
+        ...grant,
+        fit_score: score,
+        deterministic_score: score,
+        recommendation:
+          String(grant.id || "") === selectedId
+            ? "Primary project match from the saved stormwater readiness workflow."
+            : "Potential stormwater, water quality, or infrastructure match; verify eligibility and program status before applying.",
+        fit_reasons: [
+          String(grant.id || "") === selectedId
+            ? "Selected grant from the final guided workflow."
+            : "Relevant source/category signals for water, drainage, infrastructure, or public health.",
+          "Reviewed against the saved stormwater road-flooding project profile.",
+          "Requires human verification of status, deadline, eligibility, and match."
+        ]
+      };
+    })
+    .sort((a, b) => (getGrantScore(b) ?? 0) - (getGrantScore(a) ?? 0))
+    .slice(0, limit);
 }
 
 function buildDemoGrantList(params: URLSearchParams): AnyRecord {

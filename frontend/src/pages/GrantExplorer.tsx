@@ -34,6 +34,9 @@ import {
   getLatestProjectProfile,
   getLatestRun,
   isPortfolioDemoMode,
+  loadStaticPreviewCandidateGrants,
+  loadStaticPreviewLatestRun,
+  loadStaticPreviewProjectProfile,
   saveSelectedGrant,
   stripHtml,
   truncate
@@ -67,6 +70,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
   const [databaseGrants, setDatabaseGrants] = useState<GrantRecord[]>([]);
   const [latestMatches, setLatestMatches] = useState<GrantRecord[]>([]);
   const [latestRun, setLatestRun] = useState<AnyRecord | null>(null);
+  const [latestProjectProfile, setLatestProjectProfile] = useState<AnyRecord | null>(null);
   const [databaseMeta, setDatabaseMeta] = useState<AnyRecord | null>(null);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [compareResult, setCompareResult] = useState<AnyRecord | null>(null);
@@ -77,16 +81,46 @@ export const GrantExplorer = memo(function GrantExplorer() {
   const comparePanelRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    const savedRun = getLatestRun();
-    const latestGrants = getLatestCandidateGrants();
+    let cancelled = false;
 
-    setLatestRun(savedRun);
-    setLatestMatches(latestGrants);
-    setMode(latestGrants.length ? "latest" : "database");
+    const hydratePreviewState = async () => {
+      let savedRun = getLatestRun();
+      let latestGrants = getLatestCandidateGrants();
+      let projectProfile = getLatestProjectProfile();
+
+      if (isPortfolioDemoMode()) {
+        const [staticRun, staticMatches, staticProfile] = await Promise.all([
+          loadStaticPreviewLatestRun(),
+          loadStaticPreviewCandidateGrants(10),
+          loadStaticPreviewProjectProfile()
+        ]);
+
+        if (staticRun) savedRun = staticRun;
+        if (staticMatches.length) latestGrants = staticMatches;
+        if (staticProfile) projectProfile = staticProfile;
+      }
+
+      if (cancelled) return;
+
+      setLatestRun(savedRun);
+      setLatestMatches(latestGrants);
+      setLatestProjectProfile(projectProfile);
+      setMode(latestGrants.length ? "latest" : "database");
+    };
+
+    void hydratePreviewState();
 
     GrantPilotApi.facets()
-      .then((output) => setFacets(asRecord(output)))
-      .catch(() => setFacets(null));
+      .then((output) => {
+        if (!cancelled) setFacets(asRecord(output));
+      })
+      .catch(() => {
+        if (!cancelled) setFacets(null);
+      });
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   const loadDatabaseGrants = useCallback(async () => {
@@ -113,7 +147,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
           : Number.parseInt(String(rawTotal ?? firstItems.length), 10);
 
       const safeTotal = Number.isFinite(total) && total > 0 ? total : firstItems.length;
-      const totalPages = Math.min(8, Math.max(1, Math.ceil(safeTotal / 100)));
+      const totalPages = Math.min(25, Math.max(1, Math.ceil(safeTotal / 100)));
       const allItems = [...firstItems];
 
       for (let page = 2; page <= totalPages; page += 1) {
@@ -190,7 +224,7 @@ export const GrantExplorer = memo(function GrantExplorer() {
       ? `${visibleGrants.length} of ${totalDatabaseCount} grant records`
       : `${visibleGrants.length} project matches`;
   const topGrant = visibleGrants[0] || null;
-  const activeProjectProfile = getLatestProjectProfile();
+  const activeProjectProfile = latestProjectProfile || getLatestProjectProfile();
 
   const clearComparisonAndSelection = useCallback(() => {
     setCompareResult(null);
@@ -203,8 +237,30 @@ export const GrantExplorer = memo(function GrantExplorer() {
     setError("");
     setCompareResult(null);
     setSelectedIds([]);
-    setLatestRun(getLatestRun());
-    setLatestMatches(getLatestCandidateGrants());
+
+    const hydrateLatest = async () => {
+      let savedRun = getLatestRun();
+      let latestGrants = getLatestCandidateGrants();
+      let projectProfile = getLatestProjectProfile();
+
+      if (isPortfolioDemoMode()) {
+        const [staticRun, staticMatches, staticProfile] = await Promise.all([
+          loadStaticPreviewLatestRun(),
+          loadStaticPreviewCandidateGrants(10),
+          loadStaticPreviewProjectProfile()
+        ]);
+
+        if (staticRun) savedRun = staticRun;
+        if (staticMatches.length) latestGrants = staticMatches;
+        if (staticProfile) projectProfile = staticProfile;
+      }
+
+      setLatestRun(savedRun);
+      setLatestMatches(latestGrants);
+      setLatestProjectProfile(projectProfile);
+    };
+
+    void hydrateLatest();
   }, []);
 
   const openDatabase = useCallback(() => {
