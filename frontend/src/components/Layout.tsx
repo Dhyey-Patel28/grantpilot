@@ -1,7 +1,8 @@
 "use client";
 
-import { memo } from "react";
+import { memo, useEffect, useState } from "react";
 import type { ReactNode } from "react";
+import { usePathname } from "next/navigation";
 import { Header } from "./Header";
 import { Sidebar } from "./Sidebar";
 
@@ -10,19 +11,33 @@ interface LayoutProps {
 }
 
 export const Layout = memo(function Layout({ children }: LayoutProps) {
+  const [mobileNavOpen, setMobileNavOpen] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setMobileNavOpen(false);
+  }, [pathname]);
+
+  useEffect(() => {
+    document.body.style.overflow = mobileNavOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [mobileNavOpen]);
+
   return (
-    <div data-grantpilot-shell className="flex h-screen bg-bgApp text-textPrimary overflow-hidden relative transition-colors duration-200">
-      <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
-        <div className="absolute top-[-12%] left-[-8%] w-[38%] h-[38%] bg-primary/10 rounded-full blur-[80px] mix-blend-screen" />
-        <div className="absolute top-[18%] right-[-8%] w-[28%] h-[28%] bg-secondary/10 rounded-full blur-[70px] mix-blend-screen" />
-        <div className="absolute bottom-[-18%] left-[18%] w-[38%] h-[38%] bg-navy/15 rounded-full blur-[80px] mix-blend-screen" />
+    <div data-grantpilot-shell className="relative flex h-dvh min-h-dvh overflow-hidden bg-bgApp text-textPrimary transition-colors duration-200">
+      <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
+        <div className="absolute left-[-8%] top-[-12%] h-[28rem] w-[28rem] rounded-full bg-primary/10 blur-[80px] mix-blend-screen md:h-[38%] md:w-[38%]" />
+        <div className="absolute right-[-12rem] top-[18%] h-[22rem] w-[22rem] rounded-full bg-secondary/10 blur-[70px] mix-blend-screen md:right-[-8%] md:h-[28%] md:w-[28%]" />
+        <div className="absolute bottom-[-18%] left-[18%] h-[26rem] w-[26rem] rounded-full bg-navy/15 blur-[80px] mix-blend-screen md:h-[38%] md:w-[38%]" />
       </div>
 
-      <Sidebar />
+      <Sidebar isOpen={mobileNavOpen} onClose={() => setMobileNavOpen(false)} />
 
-      <div className="flex-1 flex flex-col z-10 relative overflow-hidden min-w-0">
-        <Header />
-        <main className="flex-1 overflow-y-auto p-5 md:p-7 lg:p-8 custom-scrollbar">
+      <div className="relative z-10 flex min-w-0 flex-1 flex-col overflow-hidden">
+        <Header onMenuClick={() => setMobileNavOpen(true)} />
+        <main className="custom-scrollbar flex-1 overflow-y-auto overflow-x-hidden p-4 pb-8 md:p-7 lg:p-8">
           {children}
         </main>
       </div>

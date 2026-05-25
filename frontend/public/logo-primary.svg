@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+  <title id="title">GrantPilot logo</title>
+  <desc id="desc">GrantPilot wordmark with GP monogram.</desc>
+  <rect width="1400" height="360" fill="transparent"/>
+  <g transform="translate(70 47) scale(0.25)">
+    <g fill="none" stroke="#050505" stroke-width="72" stroke-linecap="butt" stroke-linejoin="round">
+      <path d="M512 780 L304 572 C210 478 218 330 326 264 C408 214 486 250 512 318"/>
+      <path d="M512 318 C548 248 640 214 724 254 C842 310 850 472 738 538 C706 556 670 562 620 562"/>
+      <path d="M548 320 L548 790"/>
+    </g>
+    <rect x="392" y="442" width="122" height="72" fill="#050505"/>
+  </g>
+  <rect x="360" y="86" width="2" height="188" fill="#D6D6D6"/>
+  <text x="414" y="224" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="118" font-weight="700" letter-spacing="-4" fill="#050505">GrantPilot</text>
+</svg>

@@ -373,3 +373,55 @@ html[data-grantpilot-recording="true"] body {
   transform-origin: center center;
   will-change: transform, filter;
 }
+
+/* Logo + mobile shell polish */
+html,
+body {
+  min-height: 100%;
+  max-width: 100%;
+}
+
+* {
+  min-width: 0;
+}
+
+img,
+svg,
+canvas,
+video {
+  max-width: 100%;
+}
+
+.safe-top {
+  padding-top: max(1rem, env(safe-area-inset-top));
+}
+
+.h-dvh {
+  height: 100dvh;
+}
+
+.min-h-dvh {
+  min-height: 100dvh;
+}
+
+@media (max-width: 768px) {
+  [data-grantpilot-shell] {
+    min-height: 100dvh;
+  }
+
+  .glass-panel {
+    backdrop-filter: blur(14px);
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .recharts-wrapper,
+  .recharts-responsive-container {
+    max-width: 100% !important;
+  }
+}
